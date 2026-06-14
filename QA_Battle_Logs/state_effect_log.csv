@@ -1,3 +1,0 @@
-battle_id,turn,unit_id,unit_class,effect_id,effect_name,applied_by,stack_count,duration_remain,trigger_count,total_value
-battle_-70100,0,0,0. 露西亞/player,Poison,中毒,,2,2,0,0
-battle_-70100,0,1,1. Lv1. 蜘蛛/enemy,Regeneration,生命恢復,,2,2,0,0

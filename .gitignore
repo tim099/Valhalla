@@ -1,2 +1,99 @@
+# Agentcommands submodule .gitignore
+# 2026-06-15: Agentcommands 改為獨立 git submodule 後，原主專案 .gitignore 內的
+# `AgentCommands/...` 保護規則對本 submodule 內部失效（submodule 只吃自己的 .gitignore）。
+# 此處由主專案 .gitignore 移植對應規則（去掉 AgentCommands/ 前綴，相對 submodule 根）。
+# 注意：_secrets/ 由其自身 .gitignore 管理（* 全擋、只放行 *.enc / README / .gitignore），此處不重複。
+
+# 既有（submodule 原本就有的兩行）
 .compile_status.json
 unity_batch.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Discord inbound daemon — bot token 機密 / runtime log
+PromptQueue/_bot_token.txt
+PromptQueue/_inbound_daemon.log
+
+# Screenshot 工具輸出（截圖檔不入 git，保 untracked 給 Tim 視覺確認）
+Screenshots/
+
+# ChatTavern 臨時渲染 / 運行狀態（每次 cmd 覆寫，無歷史價值）
+# 永久狀態（messages/<date>/ events/<date>/ identities.json / rooms.json / members.json）
+# 不在此 ignore — 走獨立 [chat] commit。
+ChatTavern/_last_op.md
+ChatTavern/_active_waits.json
+ChatTavern/_wait_*.md
+ChatTavern/_handshake_start.txt
+ChatTavern/rooms/*/_last_view.md
+# _seq.txt / _events_seq.txt 是 reader cache（per-msg dir 才是 source-of-truth），cache miss 自動重生
+ChatTavern/rooms/*/_seq.txt
+ChatTavern/rooms/*/_events_seq.txt
+# Quest 衍生快照 / 索引（events.jsonl 才是 truth，可隨時 rebuild）
+ChatTavern/rooms/*/quest.md
+ChatTavern/rooms/*/checklist.md
+ChatTavern/rooms/*/events.idempotency.cache.json
+
+# PromptQueue runtime 狀態（pause flag + drain debug log，無歷史價值）
+PromptQueue/_pause.flag
+PromptQueue/_drain.log
+PromptQueue/_notify_state.json
+
+# QA Battle 平衡測試 raw CSV（report markdown 入 git，raw csv 不）
+QA_Battle_Logs/*.csv
+!QA_Battle_Logs/qa_test_order.md
+!QA_Battle_Logs/_balance_reports/
+
+# 私密 webhook secret 檔（hideout DM / valor / wake 等敏感 channel）— 走 ENV/file 機制不入 git
+PromptQueue/_tavern_hideout_webhook.txt
+PromptQueue/_tavern_valor_webhook.txt
+PromptQueue/_quest_webhook.txt
+PromptQueue/_wake_webhook.txt
+PromptQueue/_tavern_webhook.txt
+PromptQueue/_discord_webhook.txt
+
+# 同步握手旗標 / 酒保 runtime / 紅點追蹤 state（per-machine）
+ChatTavern/_handshake_cancel.flag
+ChatTavern/_handshake_active.flag
+ChatTavern/_bartender_state.json
+ChatTavern/_agent_view_state/
+
+# AgentCommand 完成歷史（cmd json archive；runtime 累積）
+History/
+
+# 隊列觸發檔（runtime 訊號）
+pending.trigger
+pending.trigger.running
+
+# ChatTavern 房間架構 refactor 留下的一次性 backup
+ChatTavern/rooms.json.bak
+
+# Awakening Init Protocol session lock files（per-session 短命狀態，24h TTL）
+_session/_identity_*.json
+_session/_persona_*.json
+_session/_tokens.json
+_session/_token_enforce.json
+_session/*.log
+
+# per-persona 私人 memo scratchpad（含 _session_token.md，不入 git）
+ChatTavern/baton/memos/
+
+# AgentCommands 資料根 pointer 檔（per-machine）
+.agentcommands_root.local
+
+# ScreenStream rolling buffer（1fps 截圖 ring buffer，整批不入 git）
+_screenstream/
+
+# Awakening status snapshot 渲染檔（每次 status 覆寫，含 pid + locks 即時狀態）
+AwakenInit/_login_status.md
+AwakenInit/_login_status_latest.json
+
+CmdConcurrencyMode.FastLane
+
+# 共用像素畫布衍生渲染檔（events/ 才是 source of truth，可隨時 replay 重建）
+Canvas/canvas_latest.png
+Canvas/_last_view.png
+Canvas/_locks/
