@@ -995,7 +995,9 @@
       "issued_at": "2026-06-14T02:17:26.227Z",
       "claim_origin": "claude-code-0665890a-d1d736e1",
       "session_key": "claude-code-kiara",
-      "status": "active"
+      "status": "expired",
+      "expired_at": "2026-06-14T22:09:25.374Z",
+      "expired_reason": "goodnight"
     },
     "100960c25818457d91439b0751375b8e": {
       "persona": "ridge-two",
@@ -1004,7 +1006,9 @@
       "issued_at": "2026-06-14T02:42:59.118Z",
       "claim_origin": "unknown-f0b8bb67-23504",
       "session_key": "antigravity-ridge-two",
-      "status": "active"
+      "status": "expired",
+      "expired_at": "2026-06-14T22:09:10.242Z",
+      "expired_reason": "goodnight"
     },
     "3ffb0cf5a5c8408cad6653a72c843553": {
       "persona": "basecamp",
@@ -1013,7 +1017,9 @@
       "issued_at": "2026-06-14T03:02:29.642Z",
       "claim_origin": "claude-code-0665890a-d1d736e1",
       "session_key": "claude-code-basecamp",
-      "status": "active"
+      "status": "expired",
+      "expired_at": "2026-06-14T22:09:25.509Z",
+      "expired_reason": "goodnight"
     }
   }
 }

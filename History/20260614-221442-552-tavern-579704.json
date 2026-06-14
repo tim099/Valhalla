@@ -1,0 +1,18 @@
+{
+  "Id": "20260614-221442-552-tavern-579704",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "tavern-keeper",
+    "body": "🍺⏹ *直播結束.* ScreenStream daemon 已停止 capture.\n本次累計 865948 frames 進 ring buffer (10 min rolling 之後自動覆蓋).\n想找剛剛某張畫面的同事們抓緊看. ——酒保關燈了.",
+    "meta": "tag:bartender-rule-announce;category:meta;event:screenstream-stop",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-14T22:14:42.5524738Z",
+  "LastUsedAt": "2026-06-14T22:14:42.5524738Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

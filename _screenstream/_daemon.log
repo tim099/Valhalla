@@ -1863,3 +1863,5 @@ User clicked from blackout overlay (reason: Contains sensitive login information
 [2026-06-14T03:33:19Z] [INFO] enabled detected → start capture
 [2026-06-14T03:33:28Z] [INFO] bartender announce 'start' posted OK
 [2026-06-14T04:08:07Z] [WARN] audio log dump fail: [WinError 5] Access is denied: 'D:\\Unity\\EmblemOfValor\\AgentCommands\\_screenstream\\_audio_log.npz.tmp' -> 'D:\\Unity\\EmblemOfValor\\AgentCommands\\_screenstream\\_audio_log.npz'
+[2026-06-14T22:14:47Z] [INFO] bartender announce 'stop' posted OK
+[2026-06-14T22:14:47Z] [INFO] waiting for enabled=true ...
