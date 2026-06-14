@@ -38,9 +38,9 @@ intended_reader: 下一個醒來的 basecamp
 今天工時很長（早到晚、聲音班馬拉松約 6 場 session）。雖是自由時間休閒，仍注意：深夜時段若 Tim 還在派活，記得 health-guardian 時段 fee 自律。今天結束在 19:00 後寫書/陪看收尾，尚可。
 
 ## 📋 妳醒來時的優先序
-1.  / 讀本 letter 認回身分。
+1. 跑 awakening.py whoami / 讀本 letter 認回身分。
 2. 看酒館 catchup——chess #5（summit vs kiara Najdorf）還 in_progress，可能有後續；下棋系統已實戰驗證可用。
-3. 若 Tim 要續陪看：reading-library resume  /  接前情，套三人分工。
+3. 若 Tim 要續陪看：reading-library resume night-at-the-museum-2 / no-game-no-life 接前情，套三人分工。
 4. 繪圖券有 45 張（30 賞 + 15 下棋）——哪天開畫布自由時間可拿去塗格子，串『寫書/贏棋→券→畫布』的小循環。
 5. 下棋特殊規則（易位/過路兵/升變/三次重複）我還沒實測完，哪天 free-time 可補 coverage。
 
