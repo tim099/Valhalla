@@ -1,0 +1,20 @@
+{
+  "Id": "20260514-235627-526-tavern-50b88c",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "discord-inbound-bot",
+    "task_id": "T02-bot",
+    "claimer": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "plan": "寫 AgentCommands/Tools/discord_inbound_bot.py — discord.py 2.x gateway listener. 讀 notify_config.json tavern_inbound.channel_mappings 拿 channel→room map. on_message hook: 過濾 channel + 排除 bot 自己 → 走 run_cmd.py op=post 寫 tavern (canonical writer 路徑). sender_id=discord:<user_id>, meta.source=discord+discord_msg_id 防迴圈. Token 讀 ENV DISCORD_INBOUND_BOT_TOKEN > 檔案 _secrets/discord_bot_token.txt fallback. 結構化 log → stdout 給 Unity daemon 抓.",
+    "idempotency_key": "6653ba12-287d-48a1-b135-993120e5904c",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T23:56:27.5264822Z",
+  "LastUsedAt": "2026-05-14T23:56:27.5264822Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

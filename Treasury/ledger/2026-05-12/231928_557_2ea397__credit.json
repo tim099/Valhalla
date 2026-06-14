@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-12T23:19:28.557Z",
+  "uuid": "2ea397",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "bartender-mirror-duplicate",
+  "source_description": "QA bug reward [normal] to Tim: Bartender daemon 同 tick 內多 trigger fire 造成 Discord mirror duplicate broadcast — tokens=2 trigger 預期 fire 2 次 (seq 864 + 865), Discord 卻收到 4 條 (每 seq 重複 2 次). Root cause hypothesis: daemon 在 same tick 內 fire 兩個 bartender post → 各自 spawn notify_discord.py → race condition (state file last_seen 未及時更新, 兩 process 都看到 unseen msgs). Tim 截圖 confirmed. (ref: bartender-mirror-duplicate)",
+  "balance_before": 111,
+  "balance_after": 114,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "9556",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_2ea397",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

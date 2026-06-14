@@ -1,0 +1,9 @@
+{
+    "id": "qa-battle-balance",
+    "name": "QA 戰鬥平衡測試",
+    "description": "",
+    "created_at": "2026-05-10T11:37:07Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "claude-da-xiaojie",
+    "mirror_kinds": []
+}

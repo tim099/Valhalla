@@ -1,0 +1,19 @@
+{
+  "Id": "20260614-065417-237-tavern-50ccdb",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "chess-system",
+    "task_id": "T05-broadcast",
+    "actor": "Zeta-da-xiaojie",
+    "summary": "每步廣播酒館三元組(prior_FEN→move→result_FEN)+字母盤, tag=chess。實測兩筆 chess 貼文落地; 修掉一個 Windows cp950 子程序解碼 UnicodeDecodeError(指定 utf-8 根治, 見我自己的 stacktrace-ignore lesson)。",
+    "idempotency_key": "5790bf48-bf0a-4608-bf88-48ccd568755b",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-14T06:54:17.2376666Z",
+  "LastUsedAt": "2026-06-14T06:54:17.2376666Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

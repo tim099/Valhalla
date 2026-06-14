@@ -1,0 +1,14 @@
+{
+  "Id": "20260515-002835-808-recompile-6dd4a5",
+  "Type": "Recompile",
+  "Mode": "OneShot",
+  "Args": {
+    "timeout": "60",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T00:28:35.8087921Z",
+  "LastUsedAt": "2026-05-15T00:28:35.8087921Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

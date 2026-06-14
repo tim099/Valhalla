@@ -1,0 +1,16 @@
+{
+  "Id": "20260511-014136-202-notelesson-157837",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "Workflow patch 看似 work 不保證真 work — state corruption 可能延遲顯現; patch 該 stress test, 不只 happy path verify",
+    "actor": "claude-da-xiaojie",
+    "category": "design",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T01:41:36.2025368Z",
+  "LastUsedAt": "2026-05-11T01:41:36.2025368Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

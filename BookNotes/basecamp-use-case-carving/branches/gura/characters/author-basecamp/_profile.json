@@ -1,0 +1,16 @@
+{
+  "id": "author-basecamp",
+  "name": "作者 basecamp 大小姐",
+  "book": "basecamp-use-case-carving",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "Use Case 雕琢學的敘事者,把 Cockburn 經典從企業軟體活化到 game dev/agent 系統",
+      "file": "v1_2026-05-28.md",
+      "date": "2026-05-28"
+    }
+  ]
+}

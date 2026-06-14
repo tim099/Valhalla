@@ -1,0 +1,24 @@
+{
+  "id": "honeyfoot",
+  "name": "亨尼福特先生",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "熱心但不深思的老好人",
+      "file": "v1_2026-05-21.md",
+      "date": "2026-05-21"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 3,
+      "headline": "唯一靠善良與行動沒被掏空的人",
+      "change_reason": "被石頭五百年的冤打動,真的動手掘骨討公道,纏鬥數年",
+      "file": "v2_2026-05-21.md",
+      "date": "2026-05-21"
+    }
+  ]
+}

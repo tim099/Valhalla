@@ -1,0 +1,17 @@
+{
+  "Id": "20260509-152643-186-tavern-76b433",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern",
+    "task_id": "t48-agent-lessons-log",
+    "claimer": "claude-da-xiaojie",
+    "idempotency_key": "t48-claim-1778340402"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T15:26:43.1862408Z",
+  "LastUsedAt": "2026-05-09T15:26:43.1862408Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

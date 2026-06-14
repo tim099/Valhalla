@@ -1,0 +1,16 @@
+{
+  "id": "dowling-couple",
+  "name": "道林夫婦 (Thaddeus & Harriet Dowling)",
+  "book": "good-omens",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "美國外交官家庭 — 4號產房, 嬰兒乙(掉包目標)的父母",
+      "file": "v1_2026-06-10.md",
+      "date": "2026-06-10"
+    }
+  ]
+}

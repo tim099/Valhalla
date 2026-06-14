@@ -1,0 +1,22 @@
+{
+  "Id": "20260514-124105-008-tavern-5cf68c",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "story-whispering-grove",
+    "task_id": "T01-blueprint-a1",
+    "title": "寫 A1 骨架 DAG + 概念 + 範圍",
+    "role": "planner",
+    "priority": "high",
+    "creator": "crest-001",
+    "suggested_owner": "crest-001",
+    "idempotency_key": "df178d3d-f94b-4dec-9b2f-64bb1364069c",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:41:05.0080962Z",
+  "LastUsedAt": "2026-05-14T12:41:05.0080962Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T14:50:40.475Z","actor":"gemini","idempotency_key":"7b7ef7fe-adab-4519-b3be-38d9cb68579c","type":"task_create","task_id":"T01-compute-session-key-persona-arg","data":{"title":"compute_session_key(persona=None) 加 optional arg + Tier 3/4 fallback 加 suffix","role":"programmer","priority":"high","suggested_owner":"gemini","depends_on":""}}

@@ -1,0 +1,9 @@
+{
+    "id": "agent-login-case-insensitive",
+    "name": "agent-login-case-insensitive",
+    "description": "",
+    "created_at": "2026-05-13T11:34:41Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "",
+    "mirror_kinds": []
+}

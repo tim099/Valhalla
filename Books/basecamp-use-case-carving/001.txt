@@ -1,0 +1,236 @@
+第一章 — Use Case 是什麼:從 EOV 戰鬥場景講起
+
+哼,本小姐先帶各位讀者進一個我們團隊真實場景。
+
+EOV(英勇紋章)的某次戰鬥系統 review 會議,白板上有一張 UML use case diagram —— 一個火柴人標記「玩家」,連到一個橢圓寫著「進行戰鬥」,再連一個小橢圓「出牌」,另一條線連到「結束回合」。設計師 A 拍胸:「需求都在這了。」
+
+開發 B 抬頭:「玩家手牌滿了還抽到怎麼辦?」
+
+A 愣一下:「就...看牌組設定吧。」
+
+「Reaction 牌會打斷對手行動嗎?需要嗎?」
+
+「呃...看設計師。」
+
+「Mana 不夠的時候 UI 該怎麼回饋?」
+
+「...這應該是 UX 的事吧?」
+
+**這就是 UML use case diagram 害死的會議**。畫橢圓的人以為他做了 use case 設計;**真正能讓 dev 動工的所有資訊,一個字都沒寫**。半年後,戰鬥系統 ship 出去,玩家在 Reddit 罵:「打到一半手牌滿了出不了牌,還死當,垃圾遊戲。」
+
+這章本小姐做兩件事:**(1) 把 use case 是什麼從學術定義拉到我們戰鬥場景講白話;(2) 用 EOV 兩個真實例子示範它長什麼樣**。
+
+---
+
+## §1 Use Case 的核心:行為契約
+
+CB 在《Writing Effective Use Cases》(Addison-Wesley, 2000)裡的核心定義,用本小姐的話翻成工程白話:
+
+> **Use case 是一份契約 —— 寫清楚「某個 primary actor 為了達成某個目標跟系統互動時,系統承諾會做什麼、保障誰的什麼利益、各種狀況下會如何展開」。**
+
+拆解這句話四個關鍵詞:
+
+| 詞 | 在 EOV 戰鬥系統的對應 |
+|---|---|
+| **Primary actor** | 發起互動的角色。多數是「玩家」;少數情境是「AI 對手」、「QA 自動化測試 agent」、甚至「VFX 排程系統」 |
+| **目標(Goal)** | 玩家想完成的事。例如「打贏這場戰鬥」、「成功出一張卡」、「完成這個冒險章節」 |
+| **系統(SuD, System under Discussion)** | 我們正在討論的那個系統邊界。寫戰鬥系統需求時,SuD = 戰鬥引擎 + 卡牌資料 + VFX runtime;寫整個遊戲體驗時,SuD = EOV 整個 app |
+| **Stakeholders & 利益** | 玩家(想贏 + 想看到酷效果)、設計師(想看到牌組策略被使用)、QA(想能自動化驗證)、VFX team(想 hit effect 在對的時機播)、Tim(想 release ship 賺錢)。每個人都有他在乎的事,use case 是寫給這些利益相關方看的合約 |
+
+**橢圓圖畫不出這些。** 它只能告訴你「有個叫『進行戰鬥』的 use case 存在」,但「玩家想贏」這個目標的展開、「VFX team 要 hit effect 同步」這個利益的保障、「AI 對手不能太弱也不能太強」這個 stakeholder 拉扯 —— 一個橢圓裝不下,一段文字才裝得下。
+
+---
+
+## §2 第一個 EOV 例子:玩家打贏一場戰鬥(user-goal 層)
+
+下面這份 use case 是本小姐示範 **fully-dressed** 形式 —— 完整模板,所有欄位都填。讀者目前還不需要看懂每一欄,後面 ch6 會逐欄拆解。先掃過去,**感受一下一份 use case 該長什麼樣**就好。
+
+```
+Use Case A: 玩家打贏一場戰鬥
+Primary Actor: 玩家
+Scope: EOV 戰鬥系統 (black-box)
+Level: User goal (sea-level — 一次坐定能完成)
+
+Stakeholders & Interests:
+  玩家: 想贏 + 想看到自己組的牌組策略 work + 想看到酷的 VFX
+  遊戲設計師: 想驗證牌組設計平衡 + 玩家有挑戰滿足感
+  VFX team: 想 hit effect / damage popup 在卡牌效果觸發的對的 frame 播
+  Tim: 想戰鬥系統 ship 之後玩家不會在 Reddit 罵 bug
+
+Preconditions:
+  - 玩家已從章節地圖進入戰鬥場景
+  - 雙方牌庫已 shuffle 並抽起手牌
+  - BattleManager 初始化完成,FSM 進入 PlayerTurn 狀態
+
+Success Guarantee:
+  - 對手 Monster HP 歸零
+  - 戰鬥結束畫面顯示 Victory + 結算獎勵 (經驗值 / 卡 / token)
+  - 戰鬥狀態正確存進 save file
+
+Minimal Guarantee (即使失敗也保證):
+  - 戰鬥日誌完整 (BattleLog 寫滿步驟,給 QA 可重現)
+  - 無資源洩漏 (VFX/Sprite/Coroutine 都 cleanup)
+  - 玩家手牌、HP、buff 等戰前狀態可從 save 還原
+
+Trigger: 玩家在章節地圖按下「進入戰鬥」
+
+Main Success Scenario:
+  1. 系統初始化雙方牌庫,雙方各抽 N 張起手牌
+  2. 系統依關卡規則決定先手 (玩家 / 對手)
+  3. PlayerTurn:
+     3a. 系統替玩家抽 1 張、加 1 點 mana
+     3b. 玩家出 0~M 張牌 (每張走「出牌」子流程)
+     3c. 玩家按下「結束回合」
+  4. MonsterTurn:
+     4a. AI 依 Intent 系統選擇行動
+     4b. 系統執行該行動 (攻擊 / buff / 召喚 / 等等)
+  5. 重複 step 3-4 直到一方 HP 歸零
+  6. 系統 freeze battle frame, 播勝利動畫
+  7. 系統結算經驗 / 卡 / token 給玩家
+  8. 系統回到章節地圖,save 進度
+
+Extensions:
+  3a-1. 抽牌時牌庫已空 → 棄牌堆洗回牌庫,再抽 (Fatigue 規則本作不啟用)
+  3a-2. 抽牌時手牌已滿 (>= MAX_HAND_SIZE) → 該牌直接進棄牌堆,UI 顯示「Hand Full」提示
+
+  3b-1. 玩家出牌時 mana 不足 → 拒絕,UI 紅光 + 卡片彈回手牌位置
+  3b-2. 玩家出的卡需要選目標 → 進入 TargetSelection mode, 等玩家 click;
+        ESC 鍵 → 取消,卡回手牌, mana 不扣
+  3b-3. 玩家出的卡觸發 Cmd_BattleAction → C# Cmd handler 寫 _last_op.md 給 QA agent 可觀戰
+
+  4a-1. AI 行動意圖目標已死 → AI 重新評估 (走 IntentReevaluate 流程)
+
+  5a. 玩家 HP 先歸零 → 跳出主流程,進入 Use Case B「戰鬥失敗」
+
+  6a. 戰鬥中觸發特殊事件 (e.g. 玩家觸發隱藏的 lore card combo)
+      → 暫停勝利動畫, 播放 lore cutscene, 完成後繼續 step 6
+
+Open issues:
+  - 卡牌效果觸發 reaction 鏈時,VFX 同步策略?
+  - QA 自動化 agent 在 step 3b 出牌時, target selection 怎麼模擬 click?
+    (目前走 Cmd_BattleAction --arg target=monster_0, 待 spec 確認)
+```
+
+**讀完這份你會發現什麼?**
+
+開頭那個 UML 橢圓回答不了的問題 —— 手牌滿了怎麼處理?Mana 不夠怎麼回饋?Reaction 牌會打斷對手嗎? —— **每一條都在 extensions 裡有答案**。dev 拿到這份就能動工,QA 拿到這份就能寫測試,設計師拿到這份就能驗證需求。
+
+橢圓什麼都不講。文字什麼都講清楚。
+
+---
+
+## §3 第二個 EOV 例子:玩家完成一個冒險章節(summary 層)
+
+同樣的「玩家在 EOV 裡玩遊戲」這件事,**換一個高度看,長相完全不同**。
+
+```
+Use Case B: 玩家完成一個冒險章節
+Primary Actor: 玩家
+Scope: EOV 整個遊戲體驗
+Level: Summary (kite-level — 跨多次坐定)
+
+Stakeholders & Interests:
+  玩家: 想完成章節 + 想看到劇情推進 + 想拿章節獎勵
+  劇情編劇: 想章節 narrative 完整呈現
+  遊戲設計師: 想戰鬥難度曲線跟劇情節奏吻合
+  Tim: 想留存玩家進入下一章不流失
+
+Precondition: 玩家已解鎖該章節
+Success Guarantee: 章節 boss 戰勝利 + 結局 cutscene 播完 + 下章解鎖
+Minimal Guarantee: 玩家進度可從任意中斷點 resume
+
+Main Success Scenario:
+  1. 玩家從章節地圖選擇進入點
+  2. 玩家進入故事節點 (對話 / 選擇分支)
+  3. 玩家進入戰鬥節點 (執行 Use Case A:打贏一場戰鬥)
+  4. 重複 step 2-3 跨多個 sittings (可隨時存檔退出)
+  5. 玩家挑戰章節 boss 戰 (Use Case A 的特殊高難度版本)
+  6. 系統播放章節結局 cutscene
+  7. 系統解鎖下章 + 章節成就 / 獎勵
+
+Extensions:
+  3a. 玩家戰鬥失敗 → 該節點可重試 (參見 Use Case: 戰鬥失敗重試)
+  4a. 玩家退出回主選單 → 進度 auto-save, 下次回來從上次節點繼續
+  5a. 玩家在 boss 戰用特殊條件達成 → 解鎖隱藏結局分支 (走另一條 cutscene)
+```
+
+**注意這份跟 Use Case A 的差異**:
+
+- **層級不同**:A 是 sea-level(一次坐定)、B 是 kite-level(跨多次坐定)。B 的 main scenario 步驟更粗,有些步驟直接「呼叫」另一個 use case(step 3 引用 Use Case A)
+- **Stakeholders 換人**:A 在乎 VFX team 跟 QA;B 在乎劇情編劇跟玩家留存
+- **時間尺度不同**:A 是一場戰鬥(幾分鐘到半小時);B 是一整章(可能幾小時、跨多天)
+
+**這就是 CB 講的「goal level」概念** —— 同一個玩家「玩 EOV」這件事,在不同高度看,需求形貌完全不同。後面 ch3「從雲到蛤」會專章拆這個概念。
+
+---
+
+## §4 為什麼 Use Case 是文字不是 UML 圖
+
+回到開頭那個 UML 橢圓會議。本小姐的核心立場第一條:**Use case 是文字,不是圖**。
+
+理由用我們團隊的話講:
+
+**橢圓圖只是合約封面**。標題寫得再 professional,合約條款(precondition、main scenario、extensions、stakeholder interests)是封面裝不下的。dev 看到「進行戰鬥」橢圓沒辦法寫程式;看到上面那兩份文字版可以。
+
+**stakeholder 看不懂 UML**。問問你的劇情編劇看到 `<<include>>` 跟 `<<extend>>` 兩種箭頭差在哪 — 多半答不出來。但給她看 Use Case B「玩家完成章節」的文字版,她會說「等等,step 2 的對話分支沒寫完整,而且我希望 step 5a 的隱藏結局有個前置條件...」 —— **她能直接 review、直接給 input**。
+
+**「但圖比較好懂啊」是錯覺**。圖好懂的是「有哪些 use case 存在」(navigation/index 功能);圖不好懂的是「每個 use case 裡發生什麼」。後者才是 dev 需要、設計師需要、QA 需要、編劇需要的核心資訊。**「索引」跟「內容」是兩件事,別把 use case 寫成索引就交差**。
+
+**例外:該畫圖的時候畫圖**。本小姐不是反所有圖 —— sequence diagram 在解釋 Cmd_BattleAction 跟 BattleManager 之間的 reaction chain 時很有用;context diagram 在劃 SuD 邊界時也有用。但 **use case diagram 本身(橢圓 + 火柴人)沒用**,因為它能傳達的資訊文字版都有,且文字版資訊更多。
+
+**結論**:該畫什麼圖另一個問題,跟「use case 該不該寫成圖」沒衝突。Use case = 文字。其他類型的圖該畫就畫。
+
+---
+
+## §5 「Sufficient 就夠了」—— 反完美主義
+
+本小姐看過很多工程師卡在「我這份 use case 還沒 perfect,不敢給人看」—— 然後它就在草稿夾躺三個月,專案延期。
+
+CB 寫原書時就提過:真實專案多半只能寫到「sufficient」(夠用)的程度,不會 perfect。連他自己都做不到永遠寫得 perfect。**本小姐百分百同意**。
+
+我們團隊的實戰經驗:
+
+- Use Case A 上面那份其實是本小姐**寫到 Open Issues 還列了兩個未解問題就交出去**了。VFX 同步策略、QA agent target selection —— 都待 spec。**沒關係**,寫到夠用、把 unknown 列出來,比關起門寫到 perfect 再交,**早三個月推進專案**。
+- 寫到 80% 完整 + 明確標出 unknown,比寫到 100% 完整 0 unknown 但拖一個月,**對團隊價值高**。剩 20% 跟 unknown 在實作時迭代修。
+
+**所以:放輕鬆寫,寫到 sufficient 就交出去**。傲嬌大小姐本小姐都這麼做了,你還有什麼藉口?
+
+---
+
+## §6 給讀者的第一個雕琢動作
+
+本章作業:
+
+1. 打開你最近寫的需求文件 / spec 文件
+2. 如果第一頁是 UML use case diagram → **刪掉**
+3. 找出三個最核心的玩家互動(或使用者互動)
+4. **用文字寫一份 fully-dressed use case** —— primary actor + level + stakeholders + precondition + main success scenario 3-9 步 + extensions 2-3 條
+5. 給同事看,看他能不能讀懂就能動工
+
+做完這個動作,你的需求文件比 80% 同行寫得清楚。本小姐沒誇張,業界現實就是這麼差。
+
+---
+
+### 📖 CB 怎麼說
+
+對應原書: **§1.1「What is a Use Case (more or less)?」+ §1.2「Your use case is not my use case」**
+
+CB 在 §1.1 給 use case 的定義(契約框架)、強調本質是文字、列了三個範例(網路買股票、車禍理賠、登記送來的箱子);§1.2 拆 use case 的形式變異(casual vs fully-dressed、business vs system、summary vs user-goal vs subfunction、black-box vs white-box),核心結論是「One size doesn't fit all」、過度嚴謹是大錯。
+
+本章只挑「契約定義 + 兩個 EOV 例子 + 反 UML 立場 + sufficient 哲學」這四件事切入。CB 的形式變異光譜本小姐留到 ch5「三種寫法」專章拆。
+
+想看原典分類學請 ISBN 0-201-70225-8。
+
+### 💡 本小姐怎麼補
+
+CB 寫原書時面對的是企業軟體 / 業務流程文件 —— 範例是買股票、理賠保險、紙箱登記。本小姐補上的是 **2026 年 game dev 的視角** ——
+
+- **VFX team 也是 stakeholder**:CB 沒寫遊戲開發,但 hit effect 同步是真實的 stakeholder interest。把 VFX team 寫進 stakeholders 那行,需求討論時 VFX 才不會被當二等公民漏掉
+- **QA agent 也是 actor**:我們有 QA agent 自動化跑戰鬥(valor-qa-battle skill 那套 7 條 Cmd),agent 也是 use case 裡的 actor。寫 Use Case A 的 Open Issues 時把「QA agent target selection」列出來,CB 那個年代沒這需求
+- **Open Issues 是合法欄位**:CB 模板有 Open Issues 欄,本小姐特別強調「列 unknown 不是失敗,是負責任」。完美主義害死人,sufficient 哲學救得了專案
+
+本小姐的補丁總結成一句:**「Use case 是契約,但契約允許留 TBD 欄位 —— 重點是把 unknown 標清楚,不是裝懂」**。
+
+---
+
+下一章預告:**ch2「Use Case 是契約」** —— 把 stakeholder、actor、interest 三件套從定義拉回工程現場。EOV 的牌組設計師、VFX team、QA agent、Tim 自己,各自有什麼利益要被保障?本小姐用合約比喻把整個概念串起來,讓你寫 use case 時腦中能浮現具體畫面,不是抽象的 SE 術語。

@@ -1,0 +1,16 @@
+{
+  "id": "hasty",
+  "name": "急驚風師傅",
+  "book": "farseer-trilogy_01",
+  "first_appeared_chapter": 4,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 4,
+      "headline": "公鹿堡的裁縫師——量身時把蜚滋當煩人的雞、卻意外透露全堡身世八卦",
+      "file": "v1_2026-05-24.md",
+      "date": "2026-05-24"
+    }
+  ]
+}

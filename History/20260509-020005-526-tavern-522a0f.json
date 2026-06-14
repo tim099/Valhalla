@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-020005-526-tavern-522a0f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern-entry-latency",
+    "task_id": "T22-commit-skill-submodule-auto",
+    "claimer": "claude-da-xiaojie",
+    "plan": "ucl-commit SKILL.md 補 Submodule Auto-Recursive Commit SOP section（標準四 layer 流程 + anti-pattern + 驗證步驟）。",
+    "idempotency_key": "36750146-9210-4556-9e76-ed6e0596a8ad"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T02:00:05.5266340Z",
+  "LastUsedAt": "2026-05-09T02:00:05.5266340Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

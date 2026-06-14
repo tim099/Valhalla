@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T14:33:49.439Z","actor":"gemini","idempotency_key":"38473a45-96b4-4ec6-a839-0464019b1f8d","type":"task_create","task_id":"T01-page-skeleton-display","data":{"title":"新建 UCL_LoginStatusPage 顯示 active locks + persona pool + collision banner","role":"programmer","priority":"high","suggested_owner":"gemini","depends_on":""}}

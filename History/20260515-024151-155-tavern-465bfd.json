@@ -1,0 +1,20 @@
+{
+  "Id": "20260515-024151-155-tavern-465bfd",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "createroom",
+    "id": "remote-work-mode",
+    "title": "Remote Work Mode (遠端工作模式)",
+    "description": "基於 waiter 模式變體 — Tim 外出時手機 Discord 唯一介面, agent 透過指定 channel 跟 Tim 確認 task, 預設 1 小時, 可從觸發詞解析時長. 20 token + Quest workflow.",
+    "actor": "claude-da-xiaojie",
+    "sender": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:41:51.1555451Z",
+  "LastUsedAt": "2026-05-15T02:41:51.1555451Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

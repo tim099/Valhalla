@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T00:24:05.638Z",
+  "uuid": "e1d200",
+  "type": "debit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "tim_grant_payment",
+  "source_ref": "task-backfill-03-0732",
+  "source_description": "T65 backfill task #3 @ 07:32: Cmd-fee A/B/C 三選評估",
+  "balance_before": 18,
+  "balance_after": 17,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "51836",
+  "sig_env_marker": "manual_filesystem_write_t65_backfill",
+  "sig_cmd_id": "T65_backfill_task-backfill-03-0732",
+  "signature_mismatch": false
+}

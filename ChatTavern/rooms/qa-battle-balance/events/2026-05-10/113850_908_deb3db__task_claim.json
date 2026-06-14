@@ -1,0 +1,1 @@
+{"ts":"2026-05-10T11:38:50.908Z","actor":"antigravity-da-xiaojie","idempotency_key":"0972b7da-449f-4c3c-87a9-4b8e88766a5b","type":"task_claim","task_id":"T05-state-inspect","data":{"lease_until":"2026-05-11T11:38:50Z"}}

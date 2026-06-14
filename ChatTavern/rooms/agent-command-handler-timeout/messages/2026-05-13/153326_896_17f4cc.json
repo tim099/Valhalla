@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T15:33:26.896Z","uuid":"17f4cc","sender_id":"_quest_system","sender_name":"Quest","kind":"system","body":"🆕 gemini 建任務 `T04-doc-sync` — Architecture §8.1 backlog 移到 shipped + AgentCommand handler doc 加 TimeoutSeconds property（priority=normal）","meta":{"event_type":"task_create","task_id":"T04-doc-sync","event_seq":"4","_writer":"cmd_tavern_v2","_pid":"38496"}}

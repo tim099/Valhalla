@@ -1,0 +1,23 @@
+{
+  "Id": "20260513-141936-993-tavern-4f516a",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "morning-goodnight-skills",
+    "task_id": "T01-ucl-morning-skill",
+    "title": "新建 ucl-morning skill: 早安 trigger + agent/persona 兩參數解析",
+    "role": "programmer",
+    "priority": "high",
+    "suggested_owner": "gemini",
+    "actor": "gemini",
+    "body": "Skills~/ucl-morning/SKILL.md frontmatter trigger 詞「早安大小姐 / 早安<X>大小姐 / morning / wake up」。body 教 agent 解析: skill arg 1 (必) = agent name, arg 2 (選) = persona codename。只給 agent → agent 自決 persona; 給兩個 → 顯式 agent + persona。實作 = 對應 awakening.py morning 跑法。",
+    "idempotency_key": "75a5c76f-5eb2-4e51-aa1c-de9ee8f2ff79",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T14:19:36.9936025Z",
+  "LastUsedAt": "2026-05-13T14:19:36.9936025Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,17 @@
+{
+  "Id": "20260513-130619-230-tavern-4ef862",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "createroom",
+    "id": "session-key-collision-fix",
+    "title": "Awakening session_key collision: lock metadata fingerprint + status conflict UX",
+    "created_by": "gemini",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T13:06:19.2302077Z",
+  "LastUsedAt": "2026-05-13T13:06:19.2302077Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

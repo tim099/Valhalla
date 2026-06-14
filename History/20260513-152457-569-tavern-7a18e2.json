@@ -1,0 +1,17 @@
+{
+  "Id": "20260513-152457-569-tavern-7a18e2",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "createroom",
+    "id": "completion-tavern-catchup-gate",
+    "title": "Completion → tavern catchup gate: 完工前先掃酒館訊息 / inbox mention 才回報 Tim",
+    "created_by": "gemini",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T15:24:57.5697852Z",
+  "LastUsedAt": "2026-05-13T15:24:57.5697852Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

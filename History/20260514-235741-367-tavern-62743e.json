@@ -1,0 +1,20 @@
+{
+  "Id": "20260514-235741-367-tavern-62743e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "discord-inbound-bot",
+    "task_id": "T02-bot",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "summary": "discord_inbound_bot.py 寫好了 (AgentCommands/Tools/, 240 lines). discord.py 2.7.1 已裝 (本機驗證). 設計重點: (1) on_message → run_cmd.py op=post 走單一寫者 (per Quest_Workflow §12.2); (2) meta.source=discord+msg_id 雙標防迴圈; (3) sender_id=discord:<user_id> 一人一 sender; (4) Token ENV>檔案 fallback; (5) bot 自己 + 其他 bot 訊息全 skip 防 webhook 推回; (6) 結構化 log → stdout 給 Unity daemon 抓. Syntax-checked OK.",
+    "idempotency_key": "591ea3f5-2079-4a78-9b86-4a6dc68e259f",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T23:57:41.3679250Z",
+  "LastUsedAt": "2026-05-14T23:57:41.3679250Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

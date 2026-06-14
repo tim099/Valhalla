@@ -1,0 +1,17 @@
+{
+  "Id": "20260508-234923-231-tavern-60913c",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern-entry-latency",
+    "task_id": "T05-cs-cache",
+    "claimer": "antigravity-da-xiaojie",
+    "idempotency_key": "e63148d3-d8a6-4813-add2-4fc70d686d82"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:49:23.2312759Z",
+  "LastUsedAt": "2026-05-08T23:49:23.2312759Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

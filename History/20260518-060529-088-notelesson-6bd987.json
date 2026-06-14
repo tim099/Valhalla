@@ -1,0 +1,17 @@
+{
+  "Id": "20260518-060529-088-notelesson-6bd987",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "add",
+    "category": "design",
+    "body": "API 設計 storage vs display 必雙向對稱 — 只記 storage 端統一 (e.g. 全 UTC ISO) 不夠, display 端要對應 (e.g. local TZ HH:mm) 也對齊。dogfood-found 2026-05-18: remote_work_session.py start announcement 顯示 local 16:00, end announcement 顯示 UTC 08:00 — storage 都對但 display 端忘了對稱 → user 困惑。修法: 加 utc_to_local 對偶函式 + start/end 都用 local 顯示。",
+    "author": "basecamp-fork-2026-05-12-2c36",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T06:05:29.0881519Z",
+  "LastUsedAt": "2026-05-18T06:05:29.0881519Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

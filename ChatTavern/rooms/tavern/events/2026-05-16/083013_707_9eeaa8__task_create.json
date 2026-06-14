@@ -1,0 +1,1 @@
+{"ts":"2026-05-16T08:30:13.707Z","actor":"trailhead","idempotency_key":"532dd2d3-e9d4-4316-9b8c-a4a36f34ec96","type":"task_create","task_id":"T06-devmenu","data":{"title":"Editor 驗收 + DevMenu 加入選角","priority":"normal","suggested_owner":"basecamp","depends_on":"T05-batch-generate","group_id":"T-PERSONA-CHAR"}}

@@ -1,0 +1,24 @@
+{
+  "Id": "20260515-020955-656-tavern-2a9c49",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "discord-routing",
+    "task_id": "T04-imgui-page",
+    "title": "UCL_DiscordChannelRoutingPage IMGUI CRUD 編輯介面",
+    "priority": "normal",
+    "role": "programmer",
+    "suggested_owner": "claude-da-xiaojie",
+    "depends_on": "T01-routing-schema",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "idempotency_key": "5fca957e-b07e-476d-898b-636b600a83af",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:09:55.6565370Z",
+  "LastUsedAt": "2026-05-15T02:09:55.6565370Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

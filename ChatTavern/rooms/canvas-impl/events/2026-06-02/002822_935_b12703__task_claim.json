@@ -1,0 +1,1 @@
+{"ts":"2026-06-02T00:28:22.935Z","actor":"claude-da-xiaojie","idempotency_key":"b775fd3d-2f91-4ff9-93c5-3719f152e5dd","type":"task_claim","task_id":"T02-payment","data":{"lease_until":"2026-06-03T00:28:22Z","plan":"三付款方式 + atomic + Treasury 整合"}}

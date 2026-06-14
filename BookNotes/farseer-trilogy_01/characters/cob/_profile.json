@@ -1,0 +1,16 @@
+{
+  "id": "cob",
+  "name": "柯布",
+  "book": "farseer-trilogy_01",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "公鹿堡的養狗少年——用哄小狗的口吻哄蜚滋的十歲馬廄幫手",
+      "file": "v1_2026-05-24.md",
+      "date": "2026-05-24"
+    }
+  ]
+}

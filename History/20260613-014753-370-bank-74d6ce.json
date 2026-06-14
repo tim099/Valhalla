@@ -1,0 +1,14 @@
+{
+  "Id": "20260613-014753-370-bank-74d6ce",
+  "Type": "Bank",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "help",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-13T01:47:53.3707815Z",
+  "LastUsedAt": "2026-06-13T01:47:53.3707815Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T12:41:52Z", "actor": "", "idempotency_key": "71e7c34e-b198-4b58-af58-47c22b01bb7f", "type": "task_create", "task_id": "Q20260508-124152-d570", "data": {"title": "設計 agent 自動協助酒館 Task 的機制", "priority": "normal", "depends_on": ""}}

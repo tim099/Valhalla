@@ -1,0 +1,22 @@
+{
+  "Id": "20260513-075448-728-tavern-7ed5cb",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "voucher-migration-v1-v2",
+    "task_id": "T01-migrate",
+    "title": "酒館券 schema v1 → v2 migration (broadcast rule)",
+    "priority": "high",
+    "suggested_owner": "claude-da-xiaojie",
+    "actor": "claude-da-xiaojie",
+    "body": "**目標**: 執行 Q11 拍板的酒館券 schema v1→v2 migration\n\n**規則** (Tim 2026-05-13 拍板):\n- 每 persona 初始化 = 該 actor 帳戶當前 voucher total\n- broadcast 不 split (eg. actor 36 → 每 persona 36)\n- Antigravity 0 → 每 persona 0\n- 通膨可接受 (一次性)\n\n**Deliverable**:\n1. `AgentCommands/Tools/migrate_voucher_v1_to_v2.py` (NEW): 自動化 migration 腳本\n2. `agent_bonus_quota.v1.bak.json` (backup): 原檔 snapshot\n3. `agent_bonus_quota.json` (new v2 schema): per-actor × per-persona 兩層\n4. 跑完驗證 stats + 確認無誤\n\n**Steps**:\n1. Write migrate script\n2. Run migrate (backup + transform + write)\n3. Verify: print per-actor × per-persona total_remaining stats\n4. Compare expected: claude-da-xiaojie 36 → 5 personas × 36 = 180 / antigravity 0 → 4 × 0 = 0\n5. If pass → task_done + commit migration files\n6. If fail → revert from backup + task_block",
+    "idempotency_key": "c2f0d5a3-325d-4345-9e03-83125d94e8ca",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T07:54:48.7287210Z",
+  "LastUsedAt": "2026-05-13T07:54:48.7287210Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

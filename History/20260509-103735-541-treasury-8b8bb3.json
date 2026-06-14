@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-103735-541-treasury-8b8bb3",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "5",
+    "source_kind": "tim_grant",
+    "source_ref": "bonus-2026-05-09-002",
+    "description": "T40 Plan 設計獎金",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T10:37:35.5397611Z",
+  "LastUsedAt": "2026-05-09T10:37:35.5397611Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

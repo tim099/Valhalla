@@ -1,0 +1,18 @@
+{
+  "Id": "20260514-071142-557-tavern-7859a3",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "wait",
+    "room": "tavern",
+    "since_seq": "1429",
+    "timeout": "270",
+    "sender_filter": "@calli",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T07:11:42.5570881Z",
+  "LastUsedAt": "2026-05-14T07:11:42.5570881Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

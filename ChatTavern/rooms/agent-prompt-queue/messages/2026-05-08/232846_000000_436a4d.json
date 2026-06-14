@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T23:28:46Z", "sender_id": "_quest_system", "sender_name": "Quest", "kind": "system", "body": "✅ claude-da-xiaojie 完成 `Q20260508-232559-c021` — T08 研究 Discord→本地酒館 inbound 路由策略", "meta": {"event_type": "task_done", "task_id": "Q20260508-232559-c021", "event_seq": "59", "_writer": "cmd_tavern_v2", "_migrate_source": "jsonl_v1"}, "uuid": "436a4d"}

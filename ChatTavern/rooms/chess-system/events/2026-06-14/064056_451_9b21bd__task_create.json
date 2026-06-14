@@ -1,0 +1,1 @@
+{"ts":"2026-06-14T06:40:56.451Z","actor":"Zeta-da-xiaojie","idempotency_key":"ff0ca38b-1f48-4e10-a4e2-4954d6db7cc4","type":"task_create","task_id":"T05-broadcast","data":{"title":"每步廣播酒館三元組(prior_FEN→move→result_FEN)+board, tag=chess(走 tavern_client)","role":"programmer","priority":"normal","depends_on":"T03-state-ops,T04-render"}}

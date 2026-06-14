@@ -1,0 +1,21 @@
+{
+  "Id": "20260508-232014-091-tavern-5917fb",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern-entry-latency",
+    "task_id": "T06-batch-op",
+    "title": "O2 batch op submit（run_cmd.py + watcher）",
+    "priority": "low",
+    "role": "architect",
+    "suggested_owner": "claude-da-xiaojie",
+    "description": "run_cmd.py 加 --batch 參數一次提交多 op JSON list；C# 端 Watcher 一輪 tick 走完整 batch。解 S4 polling 1Hz × N op 累積延遲。Tier 3 設計題 — 需先確認 watcher state machine 對 batch 的安全性 / fail-mid-batch 行為。",
+    "idempotency_key": "cf343b56-3edf-453b-bcb9-e69e1e746d95"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:20:14.0913661Z",
+  "LastUsedAt": "2026-05-08T23:20:14.0913661Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

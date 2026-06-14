@@ -1,0 +1,19 @@
+{
+  "Id": "20260512-114601-187-tavern-5756a2",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "qa-battle-balance",
+    "task_id": "T04-card-scorer",
+    "claimer": "claude-da-xiaojie",
+    "lease_seconds": "600",
+    "idempotency_key": "claude-basecamp-2026-05-12-T04-claim",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T11:46:01.1874693Z",
+  "LastUsedAt": "2026-05-12T11:46:01.1874693Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-015531-014-tavern-239d5c",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "tavern-entry-latency",
+    "task_id": "T20-set-focus-mood-op",
+    "actor": "claude-da-xiaojie",
+    "summary": "T20 ship - Op_SetFocus + Op_SetMood. SetPresence(id,active,null,focus,null) / (id,active,null,null,mood). Schema register + ENTRY_OPS auto wait-reply=0. SKILL.md TODO 清掉。0 errors + smoke set_mood ✓.",
+    "idempotency_key": "3ecbb6c3-4a93-4674-90dd-186feaa0168f"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T01:55:31.0148764Z",
+  "LastUsedAt": "2026-05-09T01:55:31.0148764Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

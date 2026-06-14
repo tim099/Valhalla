@@ -1,0 +1,16 @@
+{
+  "Id": "20260508-123138-090-tavern-15863d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "createroom",
+    "id": "agent-prompt-queue",
+    "name": "Agent Prompt Queue",
+    "description": "Tim 插隊輸入的 prompt 排程；每個 task = 一筆待辦 prompt。半自動消化：agent 主任務結束後印 hint，由 Tim 確認進下一輪。"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T12:31:38.0903785Z",
+  "LastUsedAt": "2026-05-08T12:31:38.0903785Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

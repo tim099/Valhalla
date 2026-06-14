@@ -1,0 +1,1 @@
+{"ts":"2026-05-16T09:50:04.721Z","actor":"claude-da-xiaojie","idempotency_key":"94a675c9-2e1f-4554-bd3e-17af5bd2b6b6","type":"task_create","task_id":"T10-discord-inbound-fix-attempt","data":{"title":"嘗試解 Discord inbound (依 T09 診斷結果, solo-doable 就動, 不行就交還 Tim)","priority":"high","depends_on":""}}

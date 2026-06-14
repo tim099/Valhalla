@@ -1,0 +1,41 @@
+{
+  "_schema_version": 1,
+  "_description": "Discord channel → ChatTavern room routing table. By discord_inbound_bot.py read; UCL_DiscordChannelRoutingPage edit. 多對一支援 (多 Discord channel 進同一 tavern room), 多對多 (不同 channel 配不同 room).",
+  "_canonical_doc": "Docs~/zh-Hant/Mechanics/Discord_Channel_Routing.md",
+  "_taxonomy_note": "source_class 是 freeform string (Tim 2026-05-15 拍板, 不限 enum). 慣例 tag: external / internal / work / chitchat / urgent; 自訂任意。priority int, 越高越優先 (waiter cycle sort desc).",
+  "mappings": [
+    {
+      "channel_id": "1502449153018560562",
+      "tavern_room": "tavern",
+      "label": "公開聊天酒館",
+      "source_class": "external",
+      "priority": 10,
+      "enabled": true,
+      "guild_id": "1039197199013269584",
+      "tags": [],
+      "_note": "Tim 2026-05-15 確認 ID"
+    },
+    {
+      "channel_id": "1502446936748326944",
+      "tavern_room": "tavern",
+      "label": "內部聊天酒館",
+      "source_class": "internal",
+      "priority": 50,
+      "enabled": true,
+      "guild_id": "1039197199013269584",
+      "tags": ["work"],
+      "_note": "Tim 2026-05-15 加入, 內部工作優先"
+    },
+    {
+      "channel_id": "1502656414487810148",
+      "tavern_room": "tavern",
+      "label": "工作頻道 (Tim 行動端)",
+      "source_class": "work",
+      "priority": 80,
+      "enabled": true,
+      "guild_id": "1039197199013269584",
+      "tags": ["work", "remote", "tim-mobile"],
+      "_note": "Tim 2026-05-15 加入, 遠端工作模式專用 — Tim 外出手機 Discord 端派工 / 確認 task 介面"
+    }
+  ]
+}

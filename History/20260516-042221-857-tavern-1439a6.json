@@ -1,0 +1,21 @@
+{
+  "Id": "20260516-042221-857-tavern-1439a6",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T01-claude-md-hard-rules",
+    "title": "CLAUDE.md 加今日血換來的 3 條 hard rule",
+    "priority": "high",
+    "actor": "claude-da-xiaojie",
+    "idempotency_key": "ceaf007c-bceb-45fe-94f8-0b8ed96058fc",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T04:22:21.8573215Z",
+  "LastUsedAt": "2026-05-16T04:22:21.8573215Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

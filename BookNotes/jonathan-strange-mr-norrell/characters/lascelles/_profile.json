@@ -1,0 +1,32 @@
+{
+  "id": "lascelles",
+  "name": "拉塞爾斯",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 4,
+  "current_version": 3,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 4,
+      "headline": "冷峭尖刻的紈絝:德羅萊特的同類,更refined也更冷",
+      "file": "v1_2026-05-21.md",
+      "date": "2026-05-21"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 5,
+      "headline": "暗中不信魔法、伺機看諾瑞爾笑話的冷峭懷疑論者",
+      "change_reason": "ch5 揭其真動機:覺得老學究會魔法荒唐透頂,裝作有興趣問問題只為博自己一樂",
+      "file": "v2_2026-05-21.md",
+      "date": "2026-05-21"
+    },
+    {
+      "v": 3,
+      "as_of_chapter": 28,
+      "headline": "精準拿捏諾瑞爾心病的操盤手——設局送走斯特蘭奇以奪回影響力",
+      "change_reason": "ch4 寄生的懷疑論者→ch28 升級為精準操弄諾瑞爾的幕後設局者",
+      "file": "v3_2026-05-23.md",
+      "date": "2026-05-23"
+    }
+  ]
+}

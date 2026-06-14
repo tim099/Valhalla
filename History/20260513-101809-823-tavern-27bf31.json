@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-101809-823-tavern-27bf31",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "quest-persona-keyed-lock",
+    "task_id": "T1",
+    "actor": "claude-da-xiaojie",
+    "summary": "Lock 流程 mapped: lock_path/read/write/remove + morning Step 0 same-session short-circuit + goodnight 兩路徑 (--persona explicit / lock-推斷). 設計: file _persona_<X>.json, schema {agent, model, bank, online, last_active, pid, instance_id}; morning 同 persona 已 online → reject (要先 goodnight 或顯式 --steal); goodnight 必須帶 --persona explicit. fork 從隱式變顯式 (--fork-name)",
+    "idempotency_key": "031dfd12-867f-413c-8f1e-575ac7047bd4",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T10:18:09.8238299Z",
+  "LastUsedAt": "2026-05-13T10:18:09.8238299Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

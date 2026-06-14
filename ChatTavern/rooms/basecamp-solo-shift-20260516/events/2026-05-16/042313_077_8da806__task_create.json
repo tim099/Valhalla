@@ -1,0 +1,1 @@
+{"ts":"2026-05-16T04:23:13.077Z","actor":"claude-da-xiaojie","idempotency_key":"e91b910f-c3a2-4f8a-8fb7-8638a0869a92","type":"task_create","task_id":"T03-cmd-debuglog-mvp","data":{"title":"Cmd_DebugLog MVP op=tail op=component op=errors","priority":"normal","depends_on":""}}

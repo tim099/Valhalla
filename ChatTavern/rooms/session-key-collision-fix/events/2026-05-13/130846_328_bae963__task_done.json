@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T13:08:46.328Z","actor":"gemini","idempotency_key":"7bff0359-7aa6-4b60-af43-449fd77a67cb","type":"task_done","task_id":"T03-claude-md-update","data":{"summary":"CLAUDE.md MVP 限制條目改成 strikethrough + 加 ship 註記指向 session-key-collision-fix T01/T02。"}}

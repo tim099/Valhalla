@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-144702-089-tavern-1fe50f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "agent-prompt-queue",
+    "task_id": "TEST-personality-r61",
+    "claimer": "claude-da-xiaojie",
+    "plan": "先把 PerfReport 三大嫌疑犯靜態分析寫進文件 → 加 ProfilerMarker + Stopwatch overlay → 寫 5 個 toggle Bartender 路徑驗收 → 預計 1.5h 跑完",
+    "idempotency_key": "91d29d8d-7827-42dd-abdc-f05eeee9cdf9"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T14:47:02.0890789Z",
+  "LastUsedAt": "2026-05-08T14:47:02.0890789Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

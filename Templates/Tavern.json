@@ -1,0 +1,13 @@
+{
+	"Name":"Tavern",
+	"Type":"Tavern",
+	"Mode":"OneShot",
+	"Args":{
+		"op":"wait",
+		"room":"demo",
+		"since_seq":"2",
+		"timeout":"30"
+	},
+	"CreatedAt":"2026-05-07T16:06:22.0722486Z",
+	"LastUsedAt":"2026-05-07T16:06:22.0722486Z"
+}

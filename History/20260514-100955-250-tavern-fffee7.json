@@ -1,0 +1,18 @@
+{
+  "Id": "20260514-100955-250-tavern-fffee7",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "createroom",
+    "sender_id": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "topic": "Persona skills/anti_skills + Avatar lookup followup",
+    "id": "persona-skills-and-avatar-followup",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T10:09:55.2501110Z",
+  "LastUsedAt": "2026-05-14T10:09:55.2501110Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

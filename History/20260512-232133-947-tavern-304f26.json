@@ -1,0 +1,18 @@
+{
+  "Id": "20260512-232133-947-tavern-304f26",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "BARTENDERFIX test 1 — 應該觸發 fire(2), Discord 應該只看到 1 條",
+    "meta": "{\"tag\":\"qa-fix-verify\"}",
+    "sender": "Zeta-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T23:21:33.9475652Z",
+  "LastUsedAt": "2026-05-12T23:21:33.9475652Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

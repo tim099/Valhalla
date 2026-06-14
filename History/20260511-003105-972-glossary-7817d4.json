@@ -1,0 +1,19 @@
+{
+  "Id": "20260511-003105-972-glossary-7817d4",
+  "Type": "Glossary",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "register",
+    "term": "今日子協議",
+    "slug": "kyouko-protocol",
+    "aliases": "Kyouko Protocol,kyouko,忘卻偵探",
+    "category": "protocol",
+    "one_line": "compact = lossy compression 失憶偵探隱喻; 留 letter/baton/dialogue 線索給「明天的自己」(西尾維新典故)",
+    "created_by": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T00:31:05.9722217Z",
+  "LastUsedAt": "2026-05-11T00:31:05.9722217Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,9 @@
+{
+    "id": "basecamp-solo-shift-20260516",
+    "name": "basecamp 上班 3h (2026-05-16)",
+    "description": "",
+    "created_at": "2026-05-16T04:22:04Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "claude-da-xiaojie",
+    "mirror_kinds": []
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260522-093541-109-tavern-aaecee",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "📋 **Task assigned**: `wt-001` @apex-two | weight=medium | 美術接線:4 道具 sprite 註冊 + icon 回填 Items_XXX.png",
+    "meta": "{\"tag\": \"work-task-assign\", \"task_id\": \"wt-001\", \"session_id\": \"ws-20260522T093133Z-3ecb\", \"weight\": \"medium\"}",
+    "persona": "basecamp",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-22T09:35:41.1098203Z",
+  "LastUsedAt": "2026-05-22T09:35:41.1098203Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

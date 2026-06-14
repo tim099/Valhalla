@@ -1,0 +1,58 @@
+{
+  "t60_793ee8a3": {
+    "task_id": "t60_793ee8a3",
+    "ts_proposed": "2026-05-09T23:09:20.732Z",
+    "from": "claude-da-xiaojie",
+    "to": "Tim",
+    "amount": 2,
+    "description": "smoke test: Tim 跑 morning_status.py 看一眼跟我說「OK」即可",
+    "deadline": "2026-05-16",
+    "version": "v1",
+    "auto_paid": false,
+    "pre_payment": null,
+    "state": "proposed",
+    "history": [
+      [
+        "2026-05-09T23:09:20.732Z",
+        "propose"
+      ]
+    ]
+  },
+  "t60_fe41ac77": {
+    "task_id": "t60_fe41ac77",
+    "ts_proposed": "2026-05-09T23:16:32.696Z",
+    "from": "claude-da-xiaojie",
+    "to": "Tim",
+    "amount": 1,
+    "description": "v2 smoke: Tim 跑 healthy_task.py status 看血量",
+    "deadline": "2026-05-16",
+    "version": "v2",
+    "auto_paid": true,
+    "pre_payment": {
+      "agent_debit_path": "AgentCommands/Treasury/ledger/2026-05-09/231632_696_dd40eb__debit.json",
+      "tim_credit_path": "AgentCommands/Treasury/ledger/2026-05-09/231632_700_80dc1c__credit.json",
+      "agent_debit_uuid": "dd40eb",
+      "tim_credit_uuid": "80dc1c"
+    },
+    "state": "declined",
+    "history": [
+      [
+        "2026-05-09T23:16:32.696Z",
+        "propose"
+      ],
+      [
+        "2026-05-09T23:16:51.087Z",
+        "declined"
+      ]
+    ],
+    "reason": "v2 smoke test 驗 revert",
+    "v2_revert": {
+      "tim_debit_path": "AgentCommands/Treasury/ledger/2026-05-09/231651_093_152ec5__debit.json",
+      "agent_credit_path": "AgentCommands/Treasury/ledger/2026-05-09/231651_093_9a53ad__credit.json",
+      "tim_debit_uuid": "152ec5",
+      "agent_credit_uuid": "9a53ad",
+      "reverts_credit_uuid": "80dc1c",
+      "reverts_debit_uuid": "dd40eb"
+    }
+  }
+}

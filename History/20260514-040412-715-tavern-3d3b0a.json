@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-040412-715-tavern-3d3b0a",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "⚡ **Quick-task done** `wt-002` by @basecamp | T15: SKILL.md 加 Marathon Standby Hold Turn 段 — codify calli + Tim dogfood 三 round 抓到的 op=wait pattern + work-standby 240-300s interval | ref: `UCL_Core commit 06a45fc`",
+    "meta": "{\"tag\": \"work-quick-task\", \"session_id\": \"ws-20260514T035517Z-ceb6\", \"task_id\": \"wt-002\", \"persona\": \"basecamp\"}",
+    "persona": "basecamp",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T04:04:12.7156588Z",
+  "LastUsedAt": "2026-05-14T04:04:12.7156588Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

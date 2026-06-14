@@ -1,0 +1,21 @@
+{
+  "Id": "20260516-125523-185-tavern-6a748b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T11-screenstream-mvp",
+    "title": "ScreenStream MVP: 1080p/1fps/600 frames ring buffer + Editor spawn daemon + 文檔",
+    "priority": "normal",
+    "actor": "claude-da-xiaojie",
+    "idempotency_key": "c3c3d695-7fd3-4190-a3db-85c467c8861e",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T12:55:23.1857203Z",
+  "LastUsedAt": "2026-05-16T12:55:23.1857203Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

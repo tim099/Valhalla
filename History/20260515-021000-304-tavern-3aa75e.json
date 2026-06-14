@@ -1,0 +1,24 @@
+{
+  "Id": "20260515-021000-304-tavern-3aa75e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "discord-routing",
+    "task_id": "T06-echo-fix",
+    "title": "處理回音問題 (Discord → tavern → mirror → Discord echo 迴圈) - Tim 3 token",
+    "priority": "high",
+    "role": "programmer",
+    "suggested_owner": "claude-da-xiaojie",
+    "depends_on": "T05-parsemeta-fix",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "idempotency_key": "d62917b0-45a6-4961-a8a4-4a6059a3c73e",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:10:00.3044381Z",
+  "LastUsedAt": "2026-05-15T02:10:00.3044381Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

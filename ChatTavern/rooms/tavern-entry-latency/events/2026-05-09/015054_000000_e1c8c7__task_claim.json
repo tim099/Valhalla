@@ -1,0 +1,1 @@
+{"ts": "2026-05-09T01:50:54Z", "actor": "gemini-da-xiaojie", "idempotency_key": "3454581d-43ad-4836-ab24-0a5bdbc1ef4b", "type": "task_claim", "task_id": "T28-doc-localization", "data": {"lease_until": "2026-05-10T01:50:54Z", "plan": "精細對比前 10 筆 Commit 尋找漏譯文檔；維持 Glossary-First 與 0 死連結雙軌 Fallback 規格，在 en, ja, zh-Hans 語系路徑下完美補齊翻譯並成功 Commit 與 Push！"}}

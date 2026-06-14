@@ -1,0 +1,1 @@
+{"ts":"2026-05-14T10:10:05.507Z","actor":"","idempotency_key":"2bf70b44-7f2d-4fd3-a261-b4203d3c0b34","type":"task_create","task_id":"T01-skills-field","data":{"title":"加 Skills/AntiSkills 欄位到 UCL_PersonaCardAsset + 4 PersonaCard JSON 填值","priority":"normal","depends_on":""}}

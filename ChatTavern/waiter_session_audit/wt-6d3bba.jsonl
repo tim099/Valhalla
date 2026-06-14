@@ -1,0 +1,105 @@
+{"ts": "2026-05-15T01:54:13.302Z", "event": "session_start", "persona": "meadow", "duration_min": 180, "tavern_room": "tavern"}
+{"ts": "2026-05-15T01:54:22.586Z", "event": "cycle", "cycle_num": 1, "new_msg_count": 1, "elapsed_seconds": 9}
+{"ts": "2026-05-15T01:54:38.424Z", "event": "reply", "reply_to": "798dd5", "customer_sender": "discord:383604378185105408", "reply_count": 1}
+{"ts": "2026-05-15T01:56:03.546Z", "event": "cycle", "cycle_num": 2, "new_msg_count": 1, "elapsed_seconds": 110}
+{"ts": "2026-05-15T01:56:21.450Z", "event": "reply", "reply_to": "b0893d", "customer_sender": "discord:383604378185105408", "reply_count": 2}
+{"ts": "2026-05-15T01:57:28.725Z", "event": "cycle", "cycle_num": 3, "new_msg_count": 1, "elapsed_seconds": 195}
+{"ts": "2026-05-15T01:57:42.784Z", "event": "reply", "reply_to": "bf6e34", "customer_sender": "discord:383604378185105408", "reply_count": 3}
+{"ts": "2026-05-15T01:58:58.486Z", "event": "cycle", "cycle_num": 4, "new_msg_count": 1, "elapsed_seconds": 285}
+{"ts": "2026-05-15T01:59:17.848Z", "event": "reply", "reply_to": "fbebc7", "customer_sender": "discord:383604378185105408", "reply_count": 4}
+{"ts": "2026-05-15T02:00:30.960Z", "event": "cycle", "cycle_num": 5, "new_msg_count": 1, "elapsed_seconds": 377}
+{"ts": "2026-05-15T02:00:41.988Z", "event": "reply", "reply_to": "9b9172", "customer_sender": "discord:383604378185105408", "reply_count": 5}
+{"ts": "2026-05-15T02:01:09.377Z", "event": "cycle", "cycle_num": 6, "new_msg_count": 1, "elapsed_seconds": 415}
+{"ts": "2026-05-15T02:01:17.609Z", "event": "reply", "reply_to": "a2f00c", "customer_sender": "discord:383604378185105408", "reply_count": 6}
+{"ts": "2026-05-15T02:02:06.576Z", "event": "cycle", "cycle_num": 7, "new_msg_count": 2, "elapsed_seconds": 473}
+{"ts": "2026-05-15T02:02:17.607Z", "event": "reply", "reply_to": "d23d7b", "customer_sender": "discord:383604378185105408", "reply_count": 7}
+{"ts": "2026-05-15T02:03:58.798Z", "event": "cycle", "cycle_num": 8, "new_msg_count": 0, "elapsed_seconds": 585}
+{"ts": "2026-05-15T02:06:05.222Z", "event": "cycle", "cycle_num": 9, "new_msg_count": 0, "elapsed_seconds": 711}
+{"ts": "2026-05-15T02:06:16.824Z", "event": "idle_post", "idle_count": 1}
+{"ts": "2026-05-15T02:07:34.425Z", "event": "cycle", "cycle_num": 10, "new_msg_count": 0, "elapsed_seconds": 800}
+{"ts": "2026-05-15T02:07:56.790Z", "event": "idle_post", "idle_count": 2}
+{"ts": "2026-05-15T02:10:09.166Z", "event": "cycle", "cycle_num": 11, "new_msg_count": 0, "elapsed_seconds": 955}
+{"ts": "2026-05-15T02:10:23.968Z", "event": "idle_post", "idle_count": 3}
+{"ts": "2026-05-15T02:11:16.288Z", "event": "cycle", "cycle_num": 12, "new_msg_count": 1, "elapsed_seconds": 1022}
+{"ts": "2026-05-15T02:11:24.785Z", "event": "reply", "reply_to": "1162bc", "customer_sender": "discord:383604378185105408", "reply_count": 8}
+{"ts": "2026-05-15T02:14:18.636Z", "event": "cycle", "cycle_num": 13, "new_msg_count": 0, "elapsed_seconds": 1205}
+{"ts": "2026-05-15T02:14:33.163Z", "event": "idle_post", "idle_count": 4}
+{"ts": "2026-05-15T02:14:50.294Z", "event": "cycle", "cycle_num": 14, "new_msg_count": 0, "elapsed_seconds": 1236}
+{"ts": "2026-05-15T02:15:05.967Z", "event": "idle_post", "idle_count": 5}
+{"ts": "2026-05-15T02:16:35.761Z", "event": "cycle", "cycle_num": 15, "new_msg_count": 1, "elapsed_seconds": 1342}
+{"ts": "2026-05-15T02:16:46.772Z", "event": "reply", "reply_to": "9111df", "customer_sender": "discord:383604378185105408", "reply_count": 9}
+{"ts": "2026-05-15T02:17:36.595Z", "event": "cycle", "cycle_num": 16, "new_msg_count": 0, "elapsed_seconds": 1403}
+{"ts": "2026-05-15T02:18:02.560Z", "event": "idle_post", "idle_count": 6}
+{"ts": "2026-05-15T02:19:10.647Z", "event": "cycle", "cycle_num": 17, "new_msg_count": 0, "elapsed_seconds": 1497}
+{"ts": "2026-05-15T02:19:20.782Z", "event": "idle_post", "idle_count": 7}
+{"ts": "2026-05-15T02:24:06.169Z", "event": "cycle", "cycle_num": 18, "new_msg_count": 1, "elapsed_seconds": 1792}
+{"ts": "2026-05-15T02:24:18.027Z", "event": "reply", "reply_to": "9d0cc2", "customer_sender": "discord:383604378185105408", "reply_count": 10}
+{"ts": "2026-05-15T02:28:03.333Z", "event": "cycle", "cycle_num": 19, "new_msg_count": 2, "elapsed_seconds": 2029}
+{"ts": "2026-05-15T02:28:23.404Z", "event": "reply", "reply_to": "1504671106613776525", "customer_sender": "discord:383604378185105408", "reply_count": 11}
+{"ts": "2026-05-15T02:28:41.900Z", "event": "reply", "reply_to": "1504671459375710310", "customer_sender": "discord:383604378185105408", "reply_count": 12}
+{"ts": "2026-05-15T02:33:08.014Z", "event": "cycle", "cycle_num": 20, "new_msg_count": 1, "elapsed_seconds": 2334}
+{"ts": "2026-05-15T02:33:20.965Z", "event": "reply", "reply_to": "1504672228099358761", "customer_sender": "discord:383604378185105408", "reply_count": 13}
+{"ts": "2026-05-15T02:38:04.578Z", "event": "cycle", "cycle_num": 21, "new_msg_count": 2, "elapsed_seconds": 2631}
+{"ts": "2026-05-15T02:38:21.674Z", "event": "reply", "reply_to": "1504673069011308624", "customer_sender": "discord:383604378185105408", "reply_count": 14}
+{"ts": "2026-05-15T02:38:21.809Z", "event": "reply", "reply_to": "1504673178356551811", "customer_sender": "discord:383604378185105408", "reply_count": 15}
+{"ts": "2026-05-15T02:43:05.168Z", "event": "cycle", "cycle_num": 22, "new_msg_count": 0, "elapsed_seconds": 2931}
+{"ts": "2026-05-15T02:43:20.139Z", "event": "idle_post", "idle_count": 8}
+{"ts": "2026-05-15T02:48:04.604Z", "event": "cycle", "cycle_num": 23, "new_msg_count": 2, "elapsed_seconds": 3231}
+{"ts": "2026-05-15T02:48:21.738Z", "event": "reply", "reply_to": "1504675601972334604", "customer_sender": "discord:383604378185105408", "reply_count": 16}
+{"ts": "2026-05-15T02:48:21.888Z", "event": "reply", "reply_to": "1504675652597583903", "customer_sender": "discord:383604378185105408", "reply_count": 17}
+{"ts": "2026-05-15T02:53:04.370Z", "event": "cycle", "cycle_num": 24, "new_msg_count": 1, "elapsed_seconds": 3530}
+{"ts": "2026-05-15T02:53:18.634Z", "event": "reply", "reply_to": "1504677741658898523", "customer_sender": "discord:383604378185105408", "reply_count": 18}
+{"ts": "2026-05-15T02:58:05.507Z", "event": "cycle", "cycle_num": 25, "new_msg_count": 3, "elapsed_seconds": 3832}
+{"ts": "2026-05-15T02:58:29.287Z", "event": "reply", "reply_to": "1504678737587863572", "customer_sender": "discord:383604378185105408", "reply_count": 19}
+{"ts": "2026-05-15T03:03:05.793Z", "event": "cycle", "cycle_num": 26, "new_msg_count": 0, "elapsed_seconds": 4132}
+{"ts": "2026-05-15T03:03:17.395Z", "event": "idle_post", "idle_count": 9}
+{"ts": "2026-05-15T03:08:04.662Z", "event": "cycle", "cycle_num": 27, "new_msg_count": 1, "elapsed_seconds": 4431}
+{"ts": "2026-05-15T03:08:19.510Z", "event": "reply", "reply_to": "1504681463747186809", "customer_sender": "discord:383604378185105408", "reply_count": 20}
+{"ts": "2026-05-15T03:13:05.939Z", "event": "cycle", "cycle_num": 28, "new_msg_count": 2, "elapsed_seconds": 4732}
+{"ts": "2026-05-15T03:13:35.680Z", "event": "reply", "reply_to": "1504681978199543919", "customer_sender": "discord:383604378185105408", "reply_count": 21}
+{"ts": "2026-05-15T03:13:35.769Z", "event": "reply", "reply_to": "1504682118775701597", "customer_sender": "discord:383604378185105408", "reply_count": 22}
+{"ts": "2026-05-15T03:18:05.875Z", "event": "cycle", "cycle_num": 29, "new_msg_count": 2, "elapsed_seconds": 5032}
+{"ts": "2026-05-15T03:18:28.368Z", "event": "reply", "reply_to": "1504684175402467341", "customer_sender": "discord:383604378185105408", "reply_count": 23}
+{"ts": "2026-05-15T03:23:04.986Z", "event": "cycle", "cycle_num": 30, "new_msg_count": 2, "elapsed_seconds": 5331}
+{"ts": "2026-05-15T03:23:23.273Z", "event": "reply", "reply_to": "1504684514784579656", "customer_sender": "discord:383604378185105408", "reply_count": 24}
+{"ts": "2026-05-15T03:23:23.361Z", "event": "reply", "reply_to": "1504684779327586395", "customer_sender": "discord:383604378185105408", "reply_count": 25}
+{"ts": "2026-05-15T03:28:05.542Z", "event": "cycle", "cycle_num": 31, "new_msg_count": 2, "elapsed_seconds": 5632}
+{"ts": "2026-05-15T03:28:26.720Z", "event": "reply", "reply_to": "1504685899521331240", "customer_sender": "discord:383604378185105408", "reply_count": 26}
+{"ts": "2026-05-15T03:28:26.810Z", "event": "reply", "reply_to": "1504686118451286247", "customer_sender": "discord:383604378185105408", "reply_count": 27}
+{"ts": "2026-05-15T03:33:05.582Z", "event": "cycle", "cycle_num": 32, "new_msg_count": 2, "elapsed_seconds": 5932}
+{"ts": "2026-05-15T03:33:31.020Z", "event": "reply", "reply_to": "1504686817457344623", "customer_sender": "discord:383604378185105408", "reply_count": 28}
+{"ts": "2026-05-15T03:33:31.108Z", "event": "reply", "reply_to": "1504687050362716232", "customer_sender": "discord:383604378185105408", "reply_count": 29}
+{"ts": "2026-05-15T03:38:04.554Z", "event": "cycle", "cycle_num": 33, "new_msg_count": 1, "elapsed_seconds": 6231}
+{"ts": "2026-05-15T03:38:16.871Z", "event": "reply", "reply_to": "1504689170055041115", "customer_sender": "discord:383604378185105408", "reply_count": 30}
+{"ts": "2026-05-15T03:43:05.257Z", "event": "cycle", "cycle_num": 34, "new_msg_count": 0, "elapsed_seconds": 6531}
+{"ts": "2026-05-15T03:43:16.417Z", "event": "idle_post", "idle_count": 10}
+{"ts": "2026-05-15T03:48:04.665Z", "event": "cycle", "cycle_num": 35, "new_msg_count": 1, "elapsed_seconds": 6831}
+{"ts": "2026-05-15T03:48:20.821Z", "event": "reply", "reply_to": "1504691068866662480", "customer_sender": "discord:383604378185105408", "reply_count": 31}
+{"ts": "2026-05-15T03:53:05.013Z", "event": "cycle", "cycle_num": 36, "new_msg_count": 0, "elapsed_seconds": 7131}
+{"ts": "2026-05-15T03:53:19.065Z", "event": "idle_post", "idle_count": 11}
+{"ts": "2026-05-15T03:58:05.257Z", "event": "cycle", "cycle_num": 37, "new_msg_count": 0, "elapsed_seconds": 7431}
+{"ts": "2026-05-15T03:58:21.255Z", "event": "idle_post", "idle_count": 12}
+{"ts": "2026-05-15T04:03:04.638Z", "event": "cycle", "cycle_num": 38, "new_msg_count": 0, "elapsed_seconds": 7731}
+{"ts": "2026-05-15T04:03:23.637Z", "event": "idle_post", "idle_count": 13}
+{"ts": "2026-05-15T04:08:05.844Z", "event": "cycle", "cycle_num": 39, "new_msg_count": 0, "elapsed_seconds": 8032}
+{"ts": "2026-05-15T04:08:17.020Z", "event": "idle_post", "idle_count": 14}
+{"ts": "2026-05-15T04:13:17.142Z", "event": "cycle", "cycle_num": 40, "new_msg_count": 0, "elapsed_seconds": 8343}
+{"ts": "2026-05-15T04:13:31.194Z", "event": "idle_post", "idle_count": 15}
+{"ts": "2026-05-15T04:18:05.006Z", "event": "cycle", "cycle_num": 41, "new_msg_count": 0, "elapsed_seconds": 8631}
+{"ts": "2026-05-15T04:18:16.632Z", "event": "idle_post", "idle_count": 16}
+{"ts": "2026-05-15T04:23:04.745Z", "event": "cycle", "cycle_num": 42, "new_msg_count": 0, "elapsed_seconds": 8931}
+{"ts": "2026-05-15T04:23:20.762Z", "event": "idle_post", "idle_count": 17}
+{"ts": "2026-05-15T04:28:04.555Z", "event": "cycle", "cycle_num": 43, "new_msg_count": 0, "elapsed_seconds": 9231}
+{"ts": "2026-05-15T04:28:24.742Z", "event": "idle_post", "idle_count": 18}
+{"ts": "2026-05-15T04:33:10.624Z", "event": "cycle", "cycle_num": 44, "new_msg_count": 0, "elapsed_seconds": 9537}
+{"ts": "2026-05-15T04:33:24.500Z", "event": "idle_post", "idle_count": 19}
+{"ts": "2026-05-15T04:38:06.374Z", "event": "cycle", "cycle_num": 45, "new_msg_count": 0, "elapsed_seconds": 9832}
+{"ts": "2026-05-15T04:38:18.815Z", "event": "idle_post", "idle_count": 20}
+{"ts": "2026-05-15T04:43:05.740Z", "event": "cycle", "cycle_num": 46, "new_msg_count": 0, "elapsed_seconds": 10132}
+{"ts": "2026-05-15T04:43:25.082Z", "event": "idle_post", "idle_count": 21}
+{"ts": "2026-05-15T04:46:07.672Z", "event": "cycle", "cycle_num": 47, "new_msg_count": 0, "elapsed_seconds": 10314}
+{"ts": "2026-05-15T04:46:31.083Z", "event": "idle_post", "idle_count": 22}
+{"ts": "2026-05-15T04:49:09.229Z", "event": "cycle", "cycle_num": 48, "new_msg_count": 0, "elapsed_seconds": 10495}
+{"ts": "2026-05-15T04:49:30.367Z", "event": "idle_post", "idle_count": 23}
+{"ts": "2026-05-15T04:52:06.136Z", "event": "cycle", "cycle_num": 49, "new_msg_count": 0, "elapsed_seconds": 10672}
+{"ts": "2026-05-15T04:56:49.297Z", "event": "session_end", "persona": "meadow", "elapsed_min": 182, "paid_min": 180, "base_pay": 180, "bonus_pay": 62, "total": 242, "expired": true}

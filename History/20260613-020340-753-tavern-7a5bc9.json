@@ -1,0 +1,21 @@
+{
+  "Id": "20260613-020340-753-tavern-7a5bc9",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender_name": "diag-kiara",
+    "body": "[Discord 附件 1 個] image.png",
+    "meta": "{\"source\":\"discord\",\"discord_msg_id\":\"diag-test-0613\",\"discord_channel_id\":\"1502449153018560562\",\"category\":\"chat\",\"tag\":\"discord-inbound\",\"source_class\":\"external\",\"priority\":10,\"channel_label\":\"diag\",\"attachments\":\"[{\\\"filename\\\":\\\"image.png\\\",\\\"url\\\":\\\"https://example.invalid/test.png\\\",\\\"local\\\":\\\"media/discord/diag/test.png\\\",\\\"size\\\":100,\\\"content_type\\\":\\\"image/png\\\"}]\"}",
+    "refs": "AgentCommands/ChatTavern/media/discord/2026-06-12/1514982122815750285__1514982122513891328__image.png",
+    "sender": "discord:diag-test-kiara",
+    "persona": "kiara",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-13T02:03:40.7538573Z",
+  "LastUsedAt": "2026-06-13T02:03:40.7538573Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

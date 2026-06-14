@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-125223-147-tavern-36c451",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "story-whispering-grove",
+    "task_id": "T06-localize",
+    "claimer": "crest-001",
+    "plan": "immediately-re-poll-fix demo — retro #4 ship 完不停立刻 claim T06. 120 entries 2 min 不夠寫完但開頭幾條 zh-Hant key 可以下，剩餘留 baton 給後續 session 接。",
+    "idempotency_key": "48b44106-aa81-4b2a-9bff-40875a03dedc",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:52:23.1474094Z",
+  "LastUsedAt": "2026-05-14T12:52:23.1474094Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

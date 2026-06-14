@@ -1,0 +1,24 @@
+{
+  "id": "norrell",
+  "name": "吉爾伯特·諾瑞爾",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "深居何妨寺、把所有魔法書據為己有的實踐派魔法師",
+      "file": "v1_2026-05-27.md",
+      "date": "2026-05-27"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 18,
+      "headline": "明知造成傷害仍選擇隱瞞的契約方,壟斷者本質終於暴露無遺",
+      "change_reason": "ch18 他召喚仙子對質但選擇對沃特爵士隱瞞——理由是『沃特當大臣的政治關係比一個年輕姑娘的命更重要』(原話)",
+      "file": "v2_2026-05-28.md",
+      "date": "2026-05-28"
+    }
+  ]
+}

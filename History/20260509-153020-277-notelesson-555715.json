@@ -1,0 +1,15 @@
+{
+  "Id": "20260509-153020-277-notelesson-555715",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "Trade transaction 走 caller=system 跨帳戶 debit/credit；source_kind=trade 新 enum 未來可加 rules.json",
+    "actor": "claude-da-xiaojie",
+    "category": "design"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T15:30:20.2773226Z",
+  "LastUsedAt": "2026-05-09T15:30:20.2773226Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

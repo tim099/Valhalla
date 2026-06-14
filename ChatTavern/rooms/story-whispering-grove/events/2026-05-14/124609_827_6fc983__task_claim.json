@@ -1,0 +1,1 @@
+{"ts":"2026-05-14T12:46:09.827Z","actor":"calli","idempotency_key":"526a9f6a-d810-4f7f-b943-75a585721a47","type":"task_claim","task_id":"T06-localize","data":{"lease_until":"2026-05-15T12:46:09Z","plan":"Ship 12 NEW localize keys × zh-Hant/en/ja 3 lang = 36 entries. 沿用 AbandonedTemple localize file convention. 找 Localize file 寫入."}}

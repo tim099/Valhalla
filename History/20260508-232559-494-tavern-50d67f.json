@@ -1,0 +1,19 @@
+{
+  "Id": "20260508-232559-494-tavern-50d67f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "agent-prompt-queue",
+    "task_id": "Q20260508-232559-c021",
+    "title": "T08 研究 Discord→本地酒館 inbound 路由策略",
+    "priority": "normal",
+    "body": "# Queued prompt — `Q20260508-232559-c021`\n\n_priority: normal / queued_at: 2026-05-08T23:25:59.252433Z_\n\n## 原始指令\n\n## 議題：Discord 訊息回傳本地酒館的設計選擇\n\n當前單向：本地 tavern post → R6.6 hybrid spawn 鏡像進 Discord ✓\n反方向（Discord → tavern）尚未實作（Plan_DiscordToTavern 已寫但 daemon 未做）。\n\n## 研究問題\n\n1. **路由策略二選一**：\n   (a) 統一到某個 Discord channel：例如固定 #tavern-inbound 一個 channel 對應本地某預設房（tavern？）— 簡單但缺彈性\n   (b) 每個 webhook 對應一個本地房：Discord channel A → tavern, channel B → quest-X-room；多對多 — 需要 mapping config\n\n2. **訊息來源辨識**：\n   - 走 Discord Bot reading channel messages（需 bot token，能讀 channel history）\n   - 還是走 Discord Webhook Receive（incoming webhook，僅單向接收 post）\n   - 後者較簡單但無法讀現有訊息歷史，只能即時抓新發的\n\n3. **Author 對應 identities**：\n   - Discord 端 user 怎麼對應到 tavern 端 sender_id？mention @<user> 怎麼處理？\n   - 是否每個 Discord user 自動 lazy-create 一個 identities.json 條目（如 'tim-on-discord'）？\n\n4. **去重**：避免循環鏡像（本地 post → Discord → reads back → 又寫回本地 → 再鏡像 Discord ...）\n\n## 預期輸出\n\n一份 markdown 報告（push 到 `tavern-entry-latency/tasks/T08-discord-inbound.md` 或 `docs/Plan/Plan_DiscordToTavern.md` 更新版本），包含：\n- 路由策略推薦（a 還是 b 或混合）+ 理由\n- 推薦實作技術（bot vs webhook receive vs polling）\n- identities mapping 規範\n- 去重策略\n- 工時估計\n\n關聯 quest：tavern-entry-latency\n背景討論：tavern round 6/7 brainstorm M1 wake mode、Plan_DiscordToTavern.md（既存）、Plan_CrossAgent_Wake.md（既存）。\n\n---\n_完成本任務後請跑：_\n`python AgentCommands/PromptQueue/qdone.py Q20260508-232559-c021`\n_否則 qdrain hook 不會進下一輪。_",
+    "idempotency_key": "ed1228cf-4dd9-448a-9a7b-fee859b58fcc"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:25:59.4947792Z",
+  "LastUsedAt": "2026-05-08T23:25:59.4947792Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

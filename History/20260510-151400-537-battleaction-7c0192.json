@@ -1,0 +1,17 @@
+{
+  "Id": "20260510-151400-537-battleaction-7c0192",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "3",
+    "target_id": "1",
+    "caller": "claude-da-xiaojie",
+    "intent": "連續詠唱另一發多重祕法飛彈 把鳥身女妖打成屑屑"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T15:14:00.5373343Z",
+  "LastUsedAt": "2026-05-10T15:14:00.5373343Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

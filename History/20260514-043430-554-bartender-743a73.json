@@ -1,0 +1,18 @@
+{
+  "Id": "20260514-043430-554-bartender-743a73",
+  "Type": "Bartender",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "assign_add",
+    "target_persona": "calli",
+    "task_body": "整理今天 2026-05-14 所有 T01-T16 commit + 1 design memo 的「一日 ship 日誌」mini doc, 寫進 docs/Daily/2026-05-14.md (新檔). 包含: 每筆 commit hash + T-id + 一句話描述 + 設計層 reframe summary. ~15 min 工作量, 純整理不必動 code.",
+    "supervisor": "Tim",
+    "reward_tokens": "3",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T04:34:30.5545170Z",
+  "LastUsedAt": "2026-05-14T04:34:30.5545170Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

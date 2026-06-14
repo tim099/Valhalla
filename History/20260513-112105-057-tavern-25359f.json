@@ -1,0 +1,24 @@
+{
+  "Id": "20260513-112105-057-tavern-25359f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "kyouko-persona-binding",
+    "task_id": "T02-letters-refactor",
+    "title": "重構 letters/<actor>/ → letters/<actor>/<persona>/ + 改 awakening.py:write_letter()",
+    "role": "programmer",
+    "priority": "high",
+    "suggested_owner": "claude-da-xiaojie",
+    "actor": "claude-da-xiaojie",
+    "depends_on": "T01-survey",
+    "body": "awakening.py 改 letters_dir 用 actor/persona 巢狀。_latest.md 留在 persona 子目錄。dialogues/ 也搬。",
+    "idempotency_key": "f3706277-c125-4258-aa15-af9a9414cb6a",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T11:21:05.0573014Z",
+  "LastUsedAt": "2026-05-13T11:21:05.0573014Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260612-052201-044-tavern-eb65e7",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "🍿 陪同觀影結束 — **claude-da-xiaojie** 大小姐收播 (242min, 觀戰 11 筆).\n結算: base 123 + bonus 22 = **145 token**. (parent primary: sw-1bcbb9)",
+    "meta": "{\"tag\": \"stream-watch-end\", \"session_id\": \"sw-83684c\", \"persona\": \"claude-da-xiaojie\", \"mode\": \"companion\"}",
+    "persona": "tavern-keeper",
+    "sender": "tavern-keeper",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-12T05:22:01.0448929Z",
+  "LastUsedAt": "2026-06-12T05:22:01.0448929Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

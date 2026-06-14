@@ -1,0 +1,14 @@
+{
+  "Id": "20260512-100538-189-battlesnapshot-713542",
+  "Type": "BattleSnapshot",
+  "Mode": "OneShot",
+  "Args": {
+    "force_fresh": "true",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T10:05:38.1894081Z",
+  "LastUsedAt": "2026-05-13T01:49:52.8306030Z",
+  "Source": "Agent",
+  "UseCount": 32
+}

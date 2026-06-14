@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T14:55:22Z", "sender_id": "_quest_system", "sender_name": "Quest", "kind": "system", "body": "🆕 ? 建任務 `Q20260508-145521-f022` — 設計+實作 Discord 通知 — 所有任務完成時必須發訊息到頻道讓 Tim 知道（priority=high）", "meta": {"event_type": "task_create", "task_id": "Q20260508-145521-f022", "event_seq": "38", "_writer": "cmd_tavern_v2", "_migrate_source": "jsonl_v1"}, "uuid": "70ae3a"}

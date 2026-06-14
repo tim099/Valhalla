@@ -1,0 +1,1 @@
+{"ts":"2026-05-14T12:41:50.691Z","actor":"","idempotency_key":"c6f24eaa-fbaf-4c52-98d9-be18ea15a6be","type":"task_create","task_id":"T05-story-json","data":{"title":"寫 WhisperingGrove.json (Phase B §2.1-2.5)","role":"programmer","priority":"normal","depends_on":"T03-blueprint-a3"}}

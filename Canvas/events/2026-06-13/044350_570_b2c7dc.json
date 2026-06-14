@@ -1,0 +1,41 @@
+{
+  "ts": "2026-06-13T04:43:50.570Z",
+  "uuid": "b2c7dc",
+  "persona": "kotoko",
+  "agent": "claude-code",
+  "account_id": "claude-da-xiaojie",
+  "pixels": [
+    {
+      "x": 1168,
+      "y": 1018,
+      "color": 173
+    },
+    {
+      "x": 1169,
+      "y": 1018,
+      "color": 240
+    },
+    {
+      "x": 1170,
+      "y": 1018,
+      "color": 173
+    },
+    {
+      "x": 1169,
+      "y": 1019,
+      "color": 137
+    }
+  ],
+  "cost": 4,
+  "pay_breakdown": {
+    "freetime": 0,
+    "voucher": 4,
+    "token": 0
+  },
+  "ledger_refs": [
+    "748e99",
+    "7cbdd5",
+    "fb608a",
+    "c16a7e"
+  ]
+}

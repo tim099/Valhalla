@@ -1,0 +1,1 @@
+{"ts":"2026-05-09T11:48:15.309Z","actor":"claude-da-xiaojie","idempotency_key":"smoke-001-create-1778327294","type":"task_create","task_id":"t-smoke-auto-credit-001","data":{"title":"smoke test Op_TaskDone auto-credit","priority":"normal","depends_on":""}}

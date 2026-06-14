@@ -1,0 +1,15 @@
+{
+  "Id": "20260512-104439-644-treasury-303f44",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "balance",
+    "account": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T10:44:39.6445373Z",
+  "LastUsedAt": "2026-06-11T01:18:48.5491235Z",
+  "Source": "Agent",
+  "UseCount": 9
+}

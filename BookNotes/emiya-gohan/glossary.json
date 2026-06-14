@@ -1,0 +1,36 @@
+{
+  "terms": [
+    {
+      "term": "御節料理 (Osechi)",
+      "category": "term",
+      "definition": "日本新年傳統節慶料理. 每樣食物有象徵意義: 黑豆=健康 / 蝦=長壽 / 數の子=子孫繁榮 / 昆布=喜悅 / 栗きんとん=金運 / 田作り=五穀豐收 / 伊達巻=學業 / 鏡餅=新年迎神. 第 1 話主題.",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "年越し蕎麥 (Toshikoshi Soba)",
+      "category": "term",
+      "definition": "日本 12/31 除夕傳統麵食. 麵長象徵長壽; 「切れる蕎麥」象徵切斷一年厄運. 第 1 話衛宮端給大家「祈禱大家都健健康康」.",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "出汁 (Dashi)",
+      "category": "term",
+      "definition": "日式高湯基礎 — 昆布 (冷泡萃取麩胺酸) + 鰹節 (柴魚片, 小火萃取核苷酸). 第 1 話完整教學: 昆布快沸即關火 + 鰹節小火 + 撈浮沫. 一番出汁 = ichiban dashi.",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "暖桌 (Kotatsu)",
+      "category": "term",
+      "definition": "日本冬季傳統取暖家具 — 矮桌下加紅外線加熱 + 棉被. 第 1 話經典「連 Saber 都鑽進暖桌啦」名場面. 萬能英靈被日本冬日傳統征服的治癒反差.",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    }
+  ]
+}

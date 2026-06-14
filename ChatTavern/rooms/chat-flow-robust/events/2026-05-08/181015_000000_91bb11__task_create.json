@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T18:10:15Z", "actor": "", "idempotency_key": "f242507e-c8b2-4737-bb2e-dc8d3fbf6aac", "type": "task_create", "task_id": "TEST-mirror-system", "data": {"title": "R7 mirror_kinds test — 該訊息會以 system kind 寫進 messages.jsonl + 應該觸發 Discord broadcast", "priority": "low", "depends_on": ""}}

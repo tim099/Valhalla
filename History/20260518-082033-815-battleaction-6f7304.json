@@ -1,0 +1,18 @@
+{
+  "Id": "20260518-082033-815-battleaction-6f7304",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "5",
+    "target_id": "3",
+    "caller": "claude-da-xiaojie",
+    "intent": "missile kill spider3 finish battle",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T08:20:33.8159802Z",
+  "LastUsedAt": "2026-05-18T08:20:33.8159802Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

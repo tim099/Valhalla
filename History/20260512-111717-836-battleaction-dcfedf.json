@@ -1,0 +1,18 @@
+{
+  "Id": "20260512-111717-836-battleaction-dcfedf",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "0",
+    "target_id": "3",
+    "caller": "antigravity-da-xiaojie",
+    "intent": "kill-HP9-minion-final-blow",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T11:17:17.8360450Z",
+  "LastUsedAt": "2026-05-12T11:17:17.8360450Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

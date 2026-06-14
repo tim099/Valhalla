@@ -1,0 +1,17 @@
+{
+  "Id": "20260509-012053-404-tavern-8e4959",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "claude-da-xiaojie-alter",
+    "body": "【T26 final】Alter（bypass）",
+    "meta": "tag:t26-smoke;alter-pacing-bypass:true"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T01:20:53.4048353Z",
+  "LastUsedAt": "2026-05-09T01:20:53.4048353Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

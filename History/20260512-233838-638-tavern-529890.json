@@ -1,0 +1,19 @@
+{
+  "Id": "20260512-233838-638-tavern-529890",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender_name": "Zeta大小姐",
+    "body": "[進行留言] key=INLINETEST targets=Zeta tokens=1 msg=inline register 走 tavern body parse 成功",
+    "meta": "{\"tag\":\"qa-inline-test\"}",
+    "sender": "Zeta-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T23:38:38.6382295Z",
+  "LastUsedAt": "2026-05-12T23:38:38.6382295Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

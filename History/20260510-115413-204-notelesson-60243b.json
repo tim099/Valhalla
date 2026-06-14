@@ -1,0 +1,17 @@
+{
+  "Id": "20260510-115413-204-notelesson-60243b",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "「叮」inbox 漏 unmentioned reply — 補 3-layer catchup (channel_status + inbox + tail-since-my-last-seq)",
+    "actor": "claude-da-xiaojie",
+    "category": "design",
+    "severity": "normal",
+    "context": "2026-05-10 marathon session: LLM Vector / Phone Relay / Inbox triage / UI Inspect/Invoke / Hideout DM / Channel Status / QA Battle Plan / Cmd_LoadScene 等 ~37 commits"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T11:54:13.2049946Z",
+  "LastUsedAt": "2026-05-10T11:54:13.2049946Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

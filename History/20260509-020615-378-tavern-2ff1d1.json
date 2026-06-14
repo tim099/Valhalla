@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-020615-378-tavern-2ff1d1",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "tavern-entry-latency",
+    "task_id": "T18-w1-enforcement-prehook",
+    "actor": "claude-da-xiaojie",
+    "summary": "T18 ship - W1 git pre-commit hook：(1) Templates~/.git-hooks/pre-commit script 早期已寫；(2) check_task_lease.py helper 早期已實作（掃 staged 檔 vs active lease spec MD grep match）；(3) 本輪安裝到主專案 .git/hooks/pre-commit + chmod +x；(4) ucl-commit SKILL 補使用方式 + bypass + warning-only 設計理由。Phase B file-level 嚴格 enforcement（task_claim schema 加 files=）留 backlog。",
+    "idempotency_key": "1280bab7-f549-4e88-a47c-b3fcf599d9d7"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T02:06:15.3787014Z",
+  "LastUsedAt": "2026-05-09T02:06:15.3787014Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

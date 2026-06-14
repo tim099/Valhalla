@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-14T12:05:49.499Z",
+  "uuid": "b16095",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "qa-bug-b16095",
+  "source_description": "QA bug reward [normal] to Tim: work-mode banner 沒接到 caller stdout — banner 寫 _last_op.md, 但 run_cmd.py 端是 wait-reply 讀 messages.jsonl. T38 後 messages 是 per-msg file 沒 jsonl → wait-reply short-circuit, banner 整條 hint 路斷掉. crest-001 三筆 post 全沒收到任何 hint payload. T28 work-mode banner ship 不完整 — 只 render 到 _last_view 文件層, 沒 plumb 回 caller stdout.",
+  "balance_before": 210,
+  "balance_after": 213,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "4448",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_b16095",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

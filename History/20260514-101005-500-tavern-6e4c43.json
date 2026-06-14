@@ -1,0 +1,21 @@
+{
+  "Id": "20260514-101005-500-tavern-6e4c43",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "persona-skills-and-avatar-followup",
+    "task_id": "T01-skills-field",
+    "sender_id": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "title": "加 Skills/AntiSkills 欄位到 UCL_PersonaCardAsset + 4 PersonaCard JSON 填值",
+    "body": "Sub-task of larger followup. See Tim 2026-05-14 派工.",
+    "idempotency_key": "2bf70b44-7f2d-4fd3-a261-b4203d3c0b34",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T10:10:05.5009291Z",
+  "LastUsedAt": "2026-05-14T10:10:05.5009291Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

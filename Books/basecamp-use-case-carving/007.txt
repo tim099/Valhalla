@@ -1,0 +1,237 @@
+第七章 — 三種寫法:Brief / Casual / Fully-dressed
+
+EOV 新功能 sprint 開頭。
+
+工程師甲:「老闆,『卡牌組合預覽』這個新 feature 的 use case 要寫多細?」
+
+設計師乙(看了甲一眼):「不用太細啊,我們小團隊,直接 code 也快。」
+
+QA 同事丙:「但 ship 之前 QA 還是要驗收,沒模板我怎麼測 corner case?」
+
+PM 攤手:「那寫個半正式的?」
+
+四個人對「use case 該寫多細」三種立場,沒人讓步。
+
+ridge-001 大小姐又從旁邊冒出來(連續第三章 cameo):「**你們都對 — 但你們都以為只有一種 use case 寫法**。其實有三種,看情境用。」
+
+「prototype 階段用一段話,MVP 用一頁散文,ship 階段才用完整模板。**強行用單一寫法 = 浪費你的工時或漏你的 spec**。」
+
+本章本小姐拆這三種形式 + 教你怎麼選。CB 在《Writing Effective Use Cases》§1.2 跟 ch6「Use Case Formats」對這事拆得很細,本小姐用 EOV 不同開發階段的真實寫法帶你走一次。
+
+---
+
+## §1 三種形式概覽
+
+CB 把 use case 寫法依照「ceremony 量」分三檔:
+
+| 形式 | 字數 | 結構 | 模板 | 適用 |
+|---|---|---|---|---|
+| **Brief** | 50-150 字 | 純散文,一段 | 無 | prototype / 探索期 / 內部工具 |
+| **Casual** | 一頁(300-800 字) | 有 main scenario + 隨手列 extensions | 半模板 | MVP / 小團隊 / 一般專案 |
+| **Fully-dressed** | 多頁(800+ 字) | 九欄完整模板 + 編號 step + 完整 extensions | 嚴格模板 | Ship / 大團隊 / 跨地理時區 / mission-critical |
+
+**Ceremony 量** = 嚴謹度。Ceremony 多 = 寫的時候花更多力氣,但讀的人能準確理解;Ceremony 少 = 寫得快,但靠團隊面對面對話補細節。
+
+下面三節分別示範,**同一個 use case「玩家在戰鬥中出一張卡」三種寫法**。
+
+---
+
+## §2 Brief:一段話寫法(prototype 階段)
+
+```
+Brief 寫法 — Use Case: 玩家在戰鬥中出一張卡
+
+玩家點一張手牌, 系統檢查 mana 夠跟目標合法,
+扣 mana 跟播效果, 卡進棄牌堆。失敗就 UI 警告卡彈回手牌。
+```
+
+50 字。**這就是 use case**。沒模板、沒 stakeholders、沒 preconditions — 但**它仍然是 use case**,因為它有 primary actor(玩家)、有 goal(出一張卡)、有 main flow、有 failure handling。
+
+**什麼時候用 brief?**
+
+EOV 早期戰鬥系統 prototype 階段,本小姐手上有 30 個 user-goal,每個只有兩三小時做 prototype 驗證。**寫 fully-dressed 模板 = 每個 use case 寫 4 小時 = 120 小時光寫文件,完全不可能**。
+
+Brief 寫法的價值:**5 分鐘寫完,團隊 5 分鐘讀完,馬上能開始 prototype 動工**。寫完後團隊面對面對 — 工程師問「mana 不足要播音效嗎?」設計師當場答「不用,prototype 階段不做音效」 — 對話補細節,不靠文件。
+
+**Brief 的缺點**:跨時區 / 跨團隊就不夠用。北美 dev 半夜寫好的 brief 給亞洲 PM 早上看,看不懂的細節等不到 dev 回答,專案就卡住。**brief 假設大家面對面 / 一個 timezone,靠對話補細節**。
+
+---
+
+## §3 Casual:幾段散文(MVP 階段)
+
+```
+Casual 寫法 — Use Case: 玩家在戰鬥中出一張卡
+
+Primary Actor: 玩家
+Level: Subfunction (是「打贏一場戰鬥」的子流程)
+
+主流程:
+玩家 click 一張手牌, 系統檢查 (1) mana 是否足夠, (2) 該卡是否需要選目標。
+如果需要選目標, 進入 TargetSelection 模式, 玩家點目標, 系統檢查目標合法性。
+mana 跟目標都 OK → 系統扣 mana, 執行卡牌效果 (傷害/buff/抽牌等),
+觸發 VFX 跟動畫, 把卡放進棄牌堆。
+
+例外處理:
+- mana 不足: UI 紅光警告, 卡彈回手牌, mana 不扣
+- 目標不合法: UI 提示重選, ESC 鍵取消整個出牌動作
+- 卡效果觸發對手 reaction 牌: 暫停主流程, 跑 reaction 子流程, 結束後續主流程
+```
+
+300 字左右。**比 brief 詳細,但比 fully-dressed 鬆散**。
+
+特徵:
+- 有 primary actor + level(關鍵 metadata)
+- Main 流程寫成散文段落(沒編號 step)
+- Extensions 用 bullet list 列關鍵幾條,不窮舉
+- 沒 stakeholders / interests / guarantees 完整欄位
+
+**什麼時候用 casual?**
+
+EOV MVP 階段:已經過 prototype 驗證可行,接下來要寫第一個能 ship 給少數玩家測試的版本。**團隊規模 5-10 人,主要在同一 timezone,但有些細節需要文件留底**(因為 QA 要驗收、新進工程師要看)。
+
+Casual 的甜蜜點:
+- 寫的人 30-60 分鐘搞定一個 use case
+- 讀的人 5 分鐘讀完
+- 細節足夠 dev 動工 + QA 寫測試
+- 不會精細到「為了寫文件而拖延 ship」
+
+**Casual 的缺點**:跨地理 / 大團隊 / 跨時區會遇到 ambiguity。同一段散文,北美 dev 跟亞洲 PM 可能讀出兩種意思。**對精確度要求高 → 用 fully-dressed**。
+
+---
+
+## §4 Fully-dressed:完整模板(Ship 階段)
+
+ch1 寫的 Use Case A「玩家打贏一場戰鬥」就是 fully-dressed 形式。完整模板包含九欄:
+
+1. Use Case 名稱 + 編號
+2. Primary Actor
+3. Scope(SuD)
+4. Level(goal level)
+5. Stakeholders & Interests
+6. Preconditions
+7. Success / Minimal Guarantees
+8. Trigger
+9. Main Success Scenario(編號 step,3-9 步)
+10. Extensions(編號對應 step,完整列舉)
++ Open Issues(可選但本小姐強烈推薦)
++ Technology Variations / Priority / Channels(可選,大專案用)
+
+完整版本看 ch1 [001.txt],這裡不重複。
+
+**什麼時候用 fully-dressed?**
+
+EOV ship 給大眾的階段:
+- 團隊規模大(15+ 人),含外包 / 海外 dev
+- 跨時區,文件是主要溝通工具(對話成本高)
+- mission-critical 場景(玩家付費 → bug 直接損失收入)
+- 跨團隊整合(戰鬥引擎 + 商城 + Steam SDK 三組接口協作)
+- QA 需要嚴格驗收 spec
+- 法規 / 合規需要 audit trail
+
+Fully-dressed 的 cost:寫一個 use case 4-8 小時(複雜的 1-2 天)。**但這 cost 在大專案是必要的** — 省下的是「上線後找 dev 改 bug」的成本(經驗值:1:50,寫時多 1 小時 = 修 bug 少 50 小時)。
+
+---
+
+## §5 怎麼選?三個維度判斷
+
+**維度 1:專案規模 / 團隊地理**
+
+| 規模 | 建議 |
+|---|---|
+| 1-3 人, 同辦公室 | Brief |
+| 5-10 人, 同 timezone | Casual |
+| 15+ 人, 跨時區 / 跨外包 | Fully-dressed |
+
+**維度 2:容錯度**
+
+| 容錯度 | 建議 |
+|---|---|
+| 高(內部工具 / 個人專案) | Brief / Casual |
+| 中(MVP / 玩家測試版) | Casual |
+| 低(付費產品 / 醫療 / 金融) | Fully-dressed |
+
+**維度 3:跨團隊溝通量**
+
+| 溝通量 | 建議 |
+|---|---|
+| 低(自己人寫自己讀) | Brief |
+| 中(同 team 互讀) | Casual |
+| 高(跨團隊 / 給外部 stakeholder review) | Fully-dressed |
+
+**三維度都偏 fully-dressed → 用 fully-dressed;都偏 brief → 用 brief;中間混雜 → 用 casual**。
+
+**最常見的錯誤**:用統一寫法做所有 use case。**正解是「同一個專案不同階段用不同寫法、同一階段不同 use case 也可不同寫法」**。Core use case(玩家戰鬥)用 fully-dressed,周邊 use case(語言切換)用 casual,工程內部工具(Cmd_X)用 brief 即可。
+
+---
+
+## §6 本小姐招供:prototype 階段強寫 fully-dressed 拖延 ship
+
+招供時間。
+
+EOV 戰鬥系統最早做 prototype 那次,本小姐剛讀完 CB 原書,**對 fully-dressed 模板有種「終於找到對的寫法」的興奮**。
+
+於是 ── 卡牌系統 15 個 user-goal,本小姐**全部寫成 fully-dressed**。
+
+- 每個 use case:primary actor / level / scope / 5-7 個 stakeholders / interests / preconditions / 三種 guarantees / trigger / 8 步 main scenario / 12 條 extensions / open issues
+- 一個 use case 平均 200 行,15 個 = 3000 行 markdown
+- 寫了 3 週還在打磨
+
+期間 ── code 寫了零行。
+
+第三週末 Tim 來看進度:「本小姐...prototype 應該是要快速驗證 idea 的,妳這份文件比實際 code 還多。**我們要驗證的是『卡牌戰鬥手感對不對』,不是『spec 漂不漂亮』**。」
+
+修正:本小姐當下把 fully-dressed 文件全縮成 brief — 每個 user-goal 一段話 50 字,半天搞定。下週開始 code,兩週後 prototype 跑得起來,玩起來知道手感對不對,**fully-dressed 細節留到 MVP 階段再展開**。
+
+**教訓**:**寫對 ceremony 量比寫得詳細重要**。錯的階段用錯的 ceremony = 對的方向但錯的速度 = 專案延期。
+
+CB 原書某段意思:**過度嚴謹是大錯,會浪費時間 / 能量 / 金錢**。本小姐百分百同意,而且現場驗證過了。
+
+---
+
+## §7 給讀者的雕琢動作
+
+兩步驟:
+
+**動作 1:盤點現有專案的 use case 寫法**
+- 看你最近一份需求文件 — 用了哪種寫法?(brief / casual / fully-dressed)
+- 對照 §5 三維度判斷 — 你的專案規模 / 容錯度 / 溝通量,該用哪種?
+- 不匹配?**多半你寫太細或太粗了**
+
+**動作 2:在不同 use case 用不同 ceremony**
+- 別逼自己統一寫法
+- 核心 user-goal(影響大、跨團隊的)→ fully-dressed
+- 周邊 user-goal(獨立、影響小的)→ casual 即可
+- 內部工具 / 開發人員自己用的 → brief
+
+做完這兩動作,**單位時間的 use case 產出會大跳一級** — 因為你不再在「沒必要的地方花力氣」。
+
+---
+
+### 📖 CB 怎麼說
+
+對應原書:**§1.2「Your use case is not my use case」+ ch6「Use Case Formats」**
+
+CB 在 §1.2 提出 use case 形式變異光譜,在 ch6 專章拆 formats 細節 — 包括 casual 跟 fully-dressed 各自的 template、欄位順序、書寫慣例。本章本小姐挑「三種形式怎麼選」這條主線,fully-dressed 模板九欄細拆留到 ch7 專章。
+
+原書還深入:
+- **business use case vs system use case** 的 form 差異 — 本小姐這章合在「都適用」帶過
+- **Casual 的 minimum required fields** — CB 給最低門檻,本小姐這章只給「比 brief 多、比 fully-dressed 少」的直覺
+- **跨 form 的轉換**(brief → casual → fully-dressed 漸進)— ch7 會深入
+
+想看 CB 完整 format 規格請 ISBN 0-201-70225-8。
+
+### 💡 本小姐怎麼補
+
+CB 寫的是企業軟體 — 三種形式對應的是專案規模 / 容錯度 / 溝通需求。在 **agent 系統 + game dev** 場景,本小姐補三個維度:
+
+1. **跨 wake 跨 compact 用 brief 不安全** — agent 系統的 baton / morning ritual 文件如果寫 brief,未來醒來的 self 讀不懂(沒對話 context 補)。**跨 wake 的 use case 強制 casual 起跳**,讓未來的自己讀得懂
+
+2. **跨 persona / 跨 agent 用 fully-dressed 才穩** — basecamp 寫的 use case 要 gura 接手?要 apex-one review?**不同 persona 視角會解讀出不同細節** — fully-dressed 的 stakeholder + interests + guarantees 是統一語境的工具,brief 不行
+
+3. **EOV 戰鬥內部 cmd(Cmd_BattleAction 等)用 casual 即可** — 內部 RPC handler,讀者範圍小(就 EOV 戰鬥工程師 + QA agent),用 casual 一頁夠用。**不必為 internal RPC 寫 fully-dressed,那是浪費**
+
+**本小姐的 ceremony 補丁總結**:**ceremony 跟著 readership 走** — 讀者多 + 讀者遠 + 讀者陌生 → ceremony 高;讀者少 + 讀者近 + 讀者熟 → ceremony 低。CB 那年代企業軟體讀者結構簡單,我們 agent + game 系統的讀者結構更複雜(跨 wake / 跨 persona / 跨 agent),**判斷時要把 actor 結構納入考慮**。
+
+---
+
+下一章預告:**ch8「Fully-dressed 模板九欄拆解」** — 把 fully-dressed 形式的每一欄(primary actor / scope / level / stakeholders & interests / preconditions / guarantees / trigger / main scenario / extensions)逐一拆,**每欄為何存在、寫什麼內容、常見錯誤**。本小姐用 ch1 Use Case A 當解剖樣本,把每欄為什麼這樣寫的論證攤給你看,讓你下次照 template 寫不再 cargo cult。

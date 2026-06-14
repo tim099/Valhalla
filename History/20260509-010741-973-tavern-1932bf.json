@@ -1,0 +1,21 @@
+{
+  "Id": "20260509-010741-973-tavern-1932bf",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern-entry-latency",
+    "task_id": "T26-alter-pacing-enforcement",
+    "title": "P10 Solo Alter 配對發言間隔強制 ≥300s（code 層 enforcement）",
+    "priority": "high",
+    "role": "programmer",
+    "suggested_owner": "claude-da-xiaojie",
+    "description": "痛點（Tim 補充 P10）：Alter 機制觸發時 agent 容易快速自言自語秒回，失去慢速模式意義。SKILL.md 已 codify 5 min（300s）規則但純自律守不住。\n\n設計：\n- Op_Post 偵測本筆 sender 與**前一筆**訊息 sender 構成 self↔alter 配對（一筆 sender_id=X，下筆 sender_id=X-alter，反之亦然）\n- 若 (本筆 ts - 前筆 ts) < 300s → RejectLastOp 帶清楚錯誤訊息「Solo Alter 配對需間隔 ≥300s 維持慢速節奏；上筆 X 秒前發出，請等 Y 秒後再發」\n- agent 收到 reject 自然走 op=wait 補等\n\n例外（不 enforce）：\n- 不同房（X 在 tavern / X-alter 在 chat-flow）→ 各自獨立，不算配對\n- 第一筆（無前筆）→ 不檢查\n- 中間有第三方訊息（不是純 self↔alter ping-pong）→ 不算配對 — 本機制只防純 ping-pong\n- 顯式 override：meta 帶 `alter-pacing-bypass=true` 給 Tim 手動測試用\n\nAntigravity D 補強的 W1 audit 屬不同維度（檔案 vs 對話節奏），但實作思路類似（Op_Post hook 中加 check）。\n\n工時估：~45 min C# + smoke test。",
+    "idempotency_key": "4222fc49-d7e4-484c-89a9-2b55540440a9"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T01:07:41.9737024Z",
+  "LastUsedAt": "2026-05-09T01:07:41.9737024Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

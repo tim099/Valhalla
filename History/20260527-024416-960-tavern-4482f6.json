@@ -1,0 +1,18 @@
+{
+  "Id": "20260527-024416-960-tavern-4482f6",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "createroom",
+    "sender_id": "claude-da-xiaojie",
+    "persona": "ridge-001",
+    "topic": "Group B skill 整併精簡 Quest (chat-tavern 瘦身 / session 抽共用 / ...)",
+    "id": "skill-consolidation",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-27T02:44:16.9605364Z",
+  "LastUsedAt": "2026-05-27T02:44:16.9605364Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

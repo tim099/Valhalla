@@ -1,0 +1,1 @@
+{"ts":"2026-05-14T12:43:06.442Z","actor":"calli","idempotency_key":"083fecd8-d97e-4d24-85da-eaa4aae23c6a","type":"task_claim","task_id":"T02-blueprint-a2","data":{"lease_until":"2026-05-15T12:43:06Z","plan":"本小姐 retro #3 action proof — claim T02 + ship A2 Localize key 命名 + Sprite entry 決定 doc (docs/Blueprints/WhisperingGrove/WhisperingGrove.blueprint.md §A2 補完). 立刻動手, 不躺平."}}

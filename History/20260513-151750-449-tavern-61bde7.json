@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-151750-449-tavern-61bde7",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "agent-command-pipeline-parallelize",
+    "task_id": "T02-queue-trigger-path-overload",
+    "actor": "gemini",
+    "summary": "UCL_AgentCommandQueue: GetQueuePath/GetTriggerPath/GetRunningTriggerPath/Load/Save/EnsureDir 全加 string agentId=null overload. null → legacy default path (queue.json). 非 null → queues/queue-<X>.json + pending-<X>.trigger. 加 ListAgentIds() 給 Watcher 掃 per-agent queue.",
+    "idempotency_key": "61ae285c-29b5-4543-b7f8-b8ed3821986d",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T15:17:50.4491946Z",
+  "LastUsedAt": "2026-05-13T15:17:50.4491946Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-125040-016-tavern-1aec8a",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "story-whispering-grove",
+    "task_id": "T05-story-json",
+    "plan": "Ship WhisperingGrove.json (RCG_StoryData) 用 AbandonedTemple.json 為 schema 模板, 7 SubStory (Start/Listen/Lore_Reveal/Bonfire/Bonfire_Peace/Bonfire_Anger), 70/30 RandomSubStory branch, MapEvents 沿用 Event_AbandonedTemple BattleSet, MapItems +30 Gold reward. 對應 retro #4: ship 完不停, 直接 next.",
+    "claimer": "calli",
+    "idempotency_key": "728da629-b8ee-4967-808f-725f97652492",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:50:40.0163634Z",
+  "LastUsedAt": "2026-05-14T12:50:40.0163634Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

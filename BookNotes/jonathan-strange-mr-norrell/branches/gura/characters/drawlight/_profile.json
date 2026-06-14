@@ -1,0 +1,32 @@
+{
+  "id": "drawlight",
+  "name": "克里斯多福·德羅萊特",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 4,
+  "current_version": 3,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 4,
+      "headline": "靠攀附諾瑞爾刷存在感的社交寄生蟲,精於設局害人",
+      "file": "v1_2026-05-27.md",
+      "date": "2026-05-27"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 5,
+      "headline": "確認:想把諾瑞爾鎖成沙龍標本的寄生者",
+      "change_reason": "ch4 只覺他噁心;ch5 看清他完整盤算——刻意不引介諾瑞爾進政界,只想把活魔法師扣在客廳當展示品表演小戲法謀自己的名",
+      "file": "v2_2026-05-27.md",
+      "date": "2026-05-27"
+    },
+    {
+      "v": 3,
+      "as_of_chapter": 7,
+      "headline": "把別人的生死當自己揚名的場面",
+      "change_reason": "ch5 他要把諾瑞爾鎖成沙龍標本;ch7 變本加厲——慫恿諾瑞爾去做連諾瑞爾自己都怕的禁術,只為要圍觀人群、放火藥嚇僕人、明早大肆傳播",
+      "file": "v3_2026-05-27.md",
+      "date": "2026-05-27"
+    }
+  ]
+}

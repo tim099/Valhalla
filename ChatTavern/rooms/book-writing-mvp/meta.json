@@ -1,0 +1,9 @@
+{
+    "id": "book-writing-mvp",
+    "name": "寫書功能 MVP (Author-as-Donor)",
+    "description": "Quest 房: 實作 Plan_FreeTime_BookWriting 的 MVP — add-book authored / publish / source 區分 / 作者工作流。",
+    "created_at": "2026-05-26T06:09:45Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "",
+    "mirror_kinds": []
+}

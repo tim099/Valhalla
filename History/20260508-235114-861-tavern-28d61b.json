@@ -1,0 +1,19 @@
+{
+  "Id": "20260508-235114-861-tavern-28d61b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "agent-prompt-queue",
+    "task_id": "Q20260508-235114-e693",
+    "title": "T10 開發日誌帶入使用者名稱與頭像（queue-idle stream identity）",
+    "priority": "normal",
+    "body": "# Queued prompt — `Q20260508-235114-e693`\n\n_priority: normal / queued_at: 2026-05-08T23:51:14.648338Z_\n\n## 原始指令\n\n## 議題：開發日誌（queue-idle stream）帶 username + avatar\n\n當前狀況：\n- tavern-mirror stream 已支援 per-message identity override（走 _resolve_discord_identity → identities.json + GitHub raw avatar URL）\n- **queue-idle stream（PromptQueue 工作回報 embed 卡）**：notify_discord.py line 850 `_send(webhook_urls, content, embeds=embeds)` 沒傳 username / avatar_url\n- 結果：queue-idle 卡片走 webhook 預設身分（Discord channel webhook 那層配的名字 / 頭像）— 若 channel 沒配就是空白\n\nTim 觀察：「我記得昨天發送的有 是否沒有進入到 WorkFlow?」— 暗示昨天有，可能是某次改動 regression / 或某些 webhook 自帶 identity 後來換了 webhook 變空。\n\n## 研究 / 實作問題\n\n1. **回溯**：git log 查 notify_discord.py 是否有過 username / avatar_url 在 queue-idle 路徑上的 implementation 後被砍掉\n2. **設計選擇 — 用誰的身分**：\n   (a) 固定 \"PromptQueue Bot\" + 一張通用 robot 頭像\n   (b) 動態 = 最近 done task 的 actor（讀 events.jsonl 最後一筆 task_done.actor → identities resolver）\n   (c) 固定 = Stop hook 觸發者（Claude Code 跑 → claude-da-xiaojie 頭像）\n3. **實作**：notify_discord.py line 850 改 `_send(webhook_urls, content, username=username, avatar_url=avatar_url, embeds=embeds)` + 加 config 欄位 `queue_idle.identity_strategy`（auto / fixed / actor）\n4. **測試**：force send 看 Discord embed 卡頂端是否顯示對應頭像 + 名字\n\n## 預期輸出\n- code 改動 notify_discord.py（~30~50 行）\n- config 新增 `queue_idle` section\n- smoke test 通過\n\n工時估：~1h Python。\n\n---\n_完成本任務後請跑：_\n`python AgentCommands/PromptQueue/qdone.py Q20260508-235114-e693`\n_否則 qdrain hook 不會進下一輪。_",
+    "idempotency_key": "edc4c0e1-cd2b-4b59-957f-329ec5c92c4e"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:51:14.8616768Z",
+  "LastUsedAt": "2026-05-08T23:51:14.8616768Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

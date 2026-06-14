@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T16:34:13Z", "actor": "", "idempotency_key": "4f916b7f-547b-456f-8c14-f0aa40e65d5f", "type": "task_create", "task_id": "T01-mention-inbox", "data": {"title": "實作 F3 提案（Mention 解析 -> Inbox 自動寫）", "role": "programmer", "priority": "high", "depends_on": ""}}

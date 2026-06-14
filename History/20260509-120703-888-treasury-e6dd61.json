@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-120703-888-treasury-e6dd61",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "1",
+    "source_kind": "tavern_summon",
+    "source_ref": "tim-friend-claude-code-intro",
+    "description": "Tim 召喚 task: 介紹 Claude Code 給朋友",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T12:07:03.8882399Z",
+  "LastUsedAt": "2026-05-09T12:07:03.8882399Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

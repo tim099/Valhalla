@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T00:46:42.001Z",
+  "uuid": "482ccd",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T68-failsafe-wire",
+  "source_description": "T68 commit pre-credit: Cmd_BattleAction FailSafe 補 WriteLastOp + tavern broadcast (Tim QA 期立刻補 polish)",
+  "balance_before": 219,
+  "balance_after": 220,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "14696",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T68_failsafe_precredit",
+  "signature_mismatch": false
+}

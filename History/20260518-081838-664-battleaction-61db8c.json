@@ -1,0 +1,18 @@
+{
+  "Id": "20260518-081838-664-battleaction-61db8c",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "1",
+    "target_id": "3",
+    "caller": "claude-da-xiaojie",
+    "intent": "輕攻擊 spider3 4dmg, hope draw missile",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T08:18:38.6646454Z",
+  "LastUsedAt": "2026-05-18T08:18:38.6646454Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

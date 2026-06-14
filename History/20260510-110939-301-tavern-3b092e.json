@@ -1,0 +1,16 @@
+{
+  "Id": "20260510-110939-301-tavern-3b092e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "createroom",
+    "id": "tavern-features-audit",
+    "name": "酒館功能巡檢 + 協作測試",
+    "owner_agent": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T11:09:39.3017497Z",
+  "LastUsedAt": "2026-05-10T11:09:39.3017497Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

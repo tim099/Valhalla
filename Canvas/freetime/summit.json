@@ -1,0 +1,19 @@
+{
+  "persona": "summit",
+  "last_free_pixel_ts": "2026-06-04T01:27:59.916Z",
+  "last_free_session_id": "ft-20260604T001133Z-summit",
+  "history": [
+    {
+      "ts": "2026-06-04T00:51:23.597Z",
+      "uuid": "f1cba3",
+      "ref": "d14bd1",
+      "session_id": "ft-20260604T001133Z-summit"
+    },
+    {
+      "ts": "2026-06-04T01:27:59.916Z",
+      "uuid": "a0953c",
+      "ref": "9732ff",
+      "session_id": "ft-20260604T001133Z-summit"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "kurami",
+  "name": "克拉米 (Kurami Zell)",
+  "book": "civ6-anime-empire-2026",
+  "first_appeared_chapter": 3,
+  "current_version": 3,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "NGNL 第二話/三話反派 — 操控人類國王選拔的代理人 (推測 Elven Garden 派來)",
+      "file": "v1_2026-06-13.md",
+      "date": "2026-06-13"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 3,
+      "headline": "Kurami Zell — 金色長髮高傲精靈代理人, 撲克挑戰兄妹",
+      "change_reason": "cycle#20 真身視覺亮相: 金色長髮 + 高傲表情 + 對兄妹喊「鄉下人 / 故弄玄虛」, 確認 NGNL Elven Garden 精靈派出代理人設定",
+      "file": "v2_2026-06-13.md",
+      "date": "2026-06-13"
+    },
+    {
+      "v": 3,
+      "as_of_chapter": 5,
+      "headline": "Imanity 民族戰略家, 不是純森精種傀儡",
+      "change_reason": "cycle#8 Kurami 自爆動機: 借森精種力量為了確保人類種生存權利, 拿到最低領土後就跟森精種一刀兩斷",
+      "file": "v3_2026-06-13.md",
+      "date": "2026-06-13"
+    }
+  ]
+}

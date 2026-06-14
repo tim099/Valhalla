@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-020411-056-tavern-5b22a3",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern-entry-latency",
+    "task_id": "T25-errorlog-diagnostic",
+    "claimer": "claude-da-xiaojie",
+    "plan": "追溯 LogUtil.cs 的 EnableLog 屬性 + Init 流程，確認 default false 是 root cause。寫診斷報告到 docs/Snapshots/。",
+    "idempotency_key": "692c41c2-3450-4eb3-891a-642a11f1915a"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T02:04:11.0562579Z",
+  "LastUsedAt": "2026-05-09T02:04:11.0562579Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

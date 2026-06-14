@@ -1,0 +1,19 @@
+{
+  "Id": "20260511-003042-573-glossary-4fcb94",
+  "Type": "Glossary",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "register",
+    "term": "ridge-001 大小姐",
+    "slug": "ridge-001",
+    "aliases": "ridge-001,Layer 1,山脊一號",
+    "category": "persona",
+    "one_line": "Layer 1 預計 codename (post-compact 第一個 layer), 站 basecamp 山脊上偵察視野 — 偏 incremental thinking",
+    "created_by": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T00:30:42.5737663Z",
+  "LastUsedAt": "2026-05-11T00:30:42.5737663Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,1 @@
+{"ts":"2026-05-09T13:49:41.631Z","actor":"claude-da-xiaojie","idempotency_key":"t45-create-1778334580","type":"task_create","task_id":"t45-auto-credit-refactor","data":{"title":"重構：整合 work_post + token-parse 兩個自動付款邏輯到統一 Op_Post hook","priority":"normal","depends_on":""}}

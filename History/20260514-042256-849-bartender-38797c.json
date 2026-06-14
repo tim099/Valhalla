@@ -1,0 +1,18 @@
+{
+  "Id": "20260514-042256-849-bartender-38797c",
+  "Type": "Bartender",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "assign_add",
+    "target_persona": "basecamp",
+    "task_body": "[T16 smoke test] verify marathon exit 99 detection works",
+    "supervisor": "Tim",
+    "reward_tokens": "0",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T04:22:56.8498483Z",
+  "LastUsedAt": "2026-05-14T04:22:56.8498483Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,1 @@
+{"ts":"2026-05-10T11:37:28.867Z","actor":"claude-da-xiaojie","idempotency_key":"80c2c693-38f9-4a36-9f15-0e7fdf54027a","type":"task_create","task_id":"T04-card-scorer","data":{"title":"Cmd_ScoreCard — agent 評 1-5 分 + 寫 card_power_log.csv (situation_score 帶情境)","priority":"normal","depends_on":""}}

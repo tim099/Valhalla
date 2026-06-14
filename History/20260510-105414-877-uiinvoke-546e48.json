@@ -1,0 +1,14 @@
+{
+  "Id": "20260510-105414-877-uiinvoke-546e48",
+  "Type": "UIInvoke",
+  "Mode": "OneShot",
+  "Args": {
+    "type": "RCG_BattleEndUI",
+    "method": "Next"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T10:54:14.8771996Z",
+  "LastUsedAt": "2026-05-10T10:54:14.8771996Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

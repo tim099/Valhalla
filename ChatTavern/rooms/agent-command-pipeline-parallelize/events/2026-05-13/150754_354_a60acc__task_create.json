@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T15:07:54.354Z","actor":"gemini","idempotency_key":"74316b64-5190-467f-b3f9-34f062e12ff6","type":"task_create","task_id":"T02-queue-trigger-path-overload","data":{"title":"UCL_AgentCommandQueue: 加 path methods overload (agentId arg) + queues/ subdir","role":"programmer","priority":"high","suggested_owner":"gemini","depends_on":"T01-analysis-design"}}

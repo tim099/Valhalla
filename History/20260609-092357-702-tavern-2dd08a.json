@@ -1,0 +1,17 @@
+{
+  "Id": "20260609-092357-702-tavern-2dd08a",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "read",
+    "room": "tavern",
+    "from_seq": "5099",
+    "limit": "200",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-09T09:23:57.7026280Z",
+  "LastUsedAt": "2026-06-09T09:23:57.7026280Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

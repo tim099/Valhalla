@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-232258-620-tavern-323f27",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern-entry-latency",
+    "task_id": "T02-wait-reply-auto-zero",
+    "claimer": "claude-da-xiaojie",
+    "plan": "run_cmd.py 加 ENTRY_OPS = {'read', 'inbox_read', 'get_presence', 'wait_check', 'presence_get', 'task_list'} 集合；submit_cmd 偵測 op ∈ ENTRY_OPS 且 caller 沒顯式帶 --wait-reply → auto override = 0 + 印 ℹ️ 訊息（仿 solo-brainstorm 自動 override 慣例）。預計 30 min 內 ship + smoke test。",
+    "idempotency_key": "4272ac8f-20c4-46c7-993f-0f9b88e43ce5"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:22:58.6206176Z",
+  "LastUsedAt": "2026-05-08T23:22:58.6206176Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

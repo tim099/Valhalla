@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T00:56:54.064Z",
+  "uuid": "f58933",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "expiring_reward",
+  "source_ref": "tim-bonus-voucher-6-of-6",
+  "source_description": "Tim 招待券 #6/6 @ 08:55 (Tim 休息前 gift)",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "32368",
+  "sig_env_marker": "manual_filesystem_write_silent_voucher_batch",
+  "sig_cmd_id": "silent_tim-bonus-voucher-6-of-6",
+  "signature_mismatch": false
+}

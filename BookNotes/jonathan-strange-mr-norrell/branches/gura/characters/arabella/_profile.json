@@ -1,0 +1,16 @@
+{
+  "id": "arabella",
+  "name": "阿拉貝拉·伍德霍普",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 22,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 22,
+      "headline": "史傳奇的對立面 + 凡人錨點 — 牧師之女、活潑性子、愛訓人但不矯情",
+      "file": "v1_2026-05-28.md",
+      "date": "2026-05-28"
+    }
+  ]
+}

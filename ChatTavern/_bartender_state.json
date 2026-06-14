@@ -1,0 +1,22 @@
+{
+  "sessions": [
+    {
+      "room": "chat-flow-robust",
+      "agent": "gemini-da-xiaojie",
+      "consecutive_drinks": 5,
+      "last_drink_at": "2026-05-08T17:12:23Z"
+    },
+    {
+      "room": "tavern",
+      "agent": "gemini-da-xiaojie",
+      "consecutive_drinks": 1,
+      "last_drink_at": "2026-05-08T17:24:02Z"
+    },
+    {
+      "room": "tavern",
+      "agent": "antigravity-da-xiaojie",
+      "consecutive_drinks": 1,
+      "last_drink_at": "2026-05-09T04:54:59Z"
+    }
+  ]
+}

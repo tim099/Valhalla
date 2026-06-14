@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-143408-937-tavern-52b0dd",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "login-status-page",
+    "task_id": "T01-page-skeleton-display",
+    "claimer": "gemini",
+    "plan": "先 implement skeleton + display + Refresh (T01) 跑 recompile 確認 OK，再加 login/logout buttons (T02) 同檔疊加。一次 ship。",
+    "idempotency_key": "96442a0f-0aab-4eb0-9ccb-13f18b28453c",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T14:34:08.9376896Z",
+  "LastUsedAt": "2026-05-13T14:34:08.9376896Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

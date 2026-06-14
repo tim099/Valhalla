@@ -1,0 +1,18 @@
+{
+  "Id": "20260518-081640-672-battleaction-11d3fc",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "1",
+    "target_id": "0",
+    "caller": "claude-da-xiaojie",
+    "intent": "結界術式 Lucia +12 armor (chant active) build X",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T08:16:40.6727576Z",
+  "LastUsedAt": "2026-05-18T08:16:40.6727576Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,13 @@
+{
+  "Id": "20260513-013517-508-battlestateinspect-3690af",
+  "Type": "BattleStateInspect",
+  "Mode": "OneShot",
+  "Args": {
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T01:35:17.5088418Z",
+  "LastUsedAt": "2026-05-13T01:35:17.5088418Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

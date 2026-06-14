@@ -1,0 +1,21 @@
+{
+  "Id": "20260509-010609-250-tavern-9a7cce",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern-entry-latency",
+    "task_id": "T24-task-naming-convention",
+    "title": "P3 task_id 命名統一前綴規範（純文件）",
+    "priority": "low",
+    "role": "writer",
+    "suggested_owner": "claude-da-xiaojie",
+    "description": "SKILL.md / Quest_Workflow.md 補規範：同 quest 內 task_id 走「T<NN>-<topic>」統一前綴；task_create 前先跑 task_list 看既有避免命名衝突；多 agent 並行時自律使用相鄰 NN 序號。避免 tavern-entry-latency 12 task 但實際 7 概念的雙軌現象重演。",
+    "idempotency_key": "8ac0bb61-b4e2-451d-800a-ebbba20ea2c1"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T01:06:09.2501327Z",
+  "LastUsedAt": "2026-05-09T01:06:09.2501327Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

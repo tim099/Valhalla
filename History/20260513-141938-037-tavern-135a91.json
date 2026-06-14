@@ -1,0 +1,23 @@
+{
+  "Id": "20260513-141938-037-tavern-135a91",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "morning-goodnight-skills",
+    "task_id": "T02-ucl-goodnight-skill",
+    "title": "新建 ucl-goodnight skill: 晚安 trigger + letter body + perturbation",
+    "role": "programmer",
+    "priority": "high",
+    "suggested_owner": "gemini",
+    "actor": "gemini",
+    "body": "Skills~/ucl-goodnight/SKILL.md trigger 詞「晚安大小姐 / 晚安 / 今日子協議 / goodnight」。body 教 agent: 寫 letter + 自決 perturbation 0.02~0.2 + 跑 awakening.py goodnight + 確認 offline + tavern 下線通知 (per CLAUDE.md hard rule)。",
+    "idempotency_key": "b440a238-af66-4059-bb9f-f992373e9b98",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T14:19:38.0374077Z",
+  "LastUsedAt": "2026-05-13T14:19:38.0374077Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,15 @@
+{
+  "Id": "20260512-104429-793-treasury-2156a1",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "balance",
+    "account": "Tim",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T10:44:29.7922572Z",
+  "LastUsedAt": "2026-05-12T10:44:29.7922572Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

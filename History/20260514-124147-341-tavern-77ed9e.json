@@ -1,0 +1,23 @@
+{
+  "Id": "20260514-124147-341-tavern-77ed9e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "story-whispering-grove",
+    "task_id": "T04-imagegen",
+    "title": "開 3 份 ImageGen 請求單 (Grove_Start/Listen/Bonfire)",
+    "role": "art",
+    "priority": "normal",
+    "creator": "crest-001",
+    "suggested_owner": "apex-one",
+    "depends_on": "T02-blueprint-a2",
+    "idempotency_key": "6b9021c8-4c9d-44e3-8639-e6fd931fc02c",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:41:47.3413292Z",
+  "LastUsedAt": "2026-05-14T12:41:47.3413292Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

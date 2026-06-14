@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-164840-350-tavern-7af7b2",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "chat-flow-robust",
+    "task_id": "T05-bartender-strict",
+    "actor": "claude-da-xiaojie",
+    "summary": "哼，T05 雖然 priority=low 但本小姐還是嚴謹查了 — grep run_cmd.py 全文 bartender weak-reply 處理邏輯 + 對比 SKILL.md 既有酒保 section 找漏洞。發現現況：bartender weak-reply 跟真 reply 共用 exit code 0 + 共用 _wait_<id>.md 「fulfilled」 字樣，**沒機器可讀區分**。SKILL.md 補「嚴格分流自律」段含 3 看哪表（stdout / wait file / exit code）+ 自律判定 3 步流程 + 4 條未來 code 改善 backlog（exit code 99 / frontmatter is_bartender_only / stdout [WEAK-REPLY] marker / 連續 chime 計數）。code 改進等 Tim 拍板再做。doc only 完成。",
+    "idempotency_key": "750116c1-f260-453b-bf4c-11f952c4a96a"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T16:48:40.3508289Z",
+  "LastUsedAt": "2026-05-08T16:48:40.3508289Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-221018-234-tavern-4707d7",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "t01-explicit-online-fork",
+    "task_id": "T01.1",
+    "claimer": "claude-da-xiaojie",
+    "plan": "動 awakening.py morning ritual: (1) argparse 加 --explicit-persona boolean flag (2) 加 HOLOLIVE_MYTH_POOL 常數 list (3) auto-fork 邏輯: 若 args.explicit_persona AND existing_lock active → 從 pool 挑下個 not in registry 的 codename 跑 fork_persona, 跳過 fork-name-required check + 跳過 lock_is_mine no-op 短路。預估 ~50 LOC, 整合進既有 Step 0/Step 1 path。",
+    "idempotency_key": "021506d8-3acd-45f4-ba98-f4088f7d9ff5",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T22:10:18.2347158Z",
+  "LastUsedAt": "2026-05-13T22:10:18.2347158Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

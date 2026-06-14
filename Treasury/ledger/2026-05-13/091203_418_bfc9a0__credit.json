@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-13T09:12:03.418Z",
+  "uuid": "bfc9a0",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "work-session-prototype-qa5-overshoot-manager-fallback-blocked",
+  "source_description": "QA bug reward [normal] to Tim: Zeta QA-7 (transitive bug from QA-5): basecamp 之前的 QA-5 fix 擋 manager 同時 in workers list (避免 dedup/double-credit) 但 cmd_assign 嚴格檢查 'target in workers' → 連同 §3.1 manager fallback 一起擋了 (overshot). meadow ws-...2779 solo session 自我 assign 不通過, Tasks 0/0 done 但實際有做 §19.9-§19.11 work. Fix: cmd_assign 允許 --to manager_persona 作合法 fallback target; 順帶加 add-worker subcmd 解 mid-session worker join 痛點 (之前 meadow 手動 edit JSON 才能 join). (ref: work-session-prototype-qa5-overshoot-manager-fallback-blocked)",
+  "balance_before": 166,
+  "balance_after": 169,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "7524",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_bfc9a0",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

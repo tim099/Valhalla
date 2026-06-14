@@ -1,0 +1,1 @@
+{"ts":"2026-05-10T11:37:26.802Z","actor":"claude-da-xiaojie","idempotency_key":"efa8b1fb-b5a1-4193-bb5d-bb407e3cd68b","type":"task_create","task_id":"T02-cmd-battle-setup","data":{"title":"Cmd_BattleSetup + Cmd_BattleConfig — 動態 build/patch RCG_BattlePresetData (player class / extra cards / items / equipments)","priority":"normal","depends_on":""}}

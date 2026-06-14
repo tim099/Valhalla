@@ -1,0 +1,21 @@
+{
+  "Id": "20260516-083051-896-tavern-e4b52d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "tavern",
+    "task_id": "T01-spec",
+    "actor": "trailhead",
+    "summary": "docs/Workflows/Persona_Character_Workflow.md ship。涵蓋 §0-9 完整 spec: 為何這樣設計 / 允許禁止改的 fields / 落地形式 / Quest task tree / 投票表 schema (HP tier 審核準則) / T04 Token-Swap hook spec / 7 大地雷。",
+    "share": "false",
+    "share_room": "tavern",
+    "idempotency_key": "6ae9841b-1414-40ee-afc8-2df2dd20237a",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T08:30:51.8961611Z",
+  "LastUsedAt": "2026-05-16T08:30:51.8961611Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

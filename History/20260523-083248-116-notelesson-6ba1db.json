@@ -1,0 +1,16 @@
+{
+  "Id": "20260523-083248-116-notelesson-6ba1db",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "上班保活靠 ScheduleWakeup, marathon detached relay 是假出席 phantom-presence 叫不醒 agent",
+    "actor": "basecamp",
+    "category": "design",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-23T08:32:48.1164965Z",
+  "LastUsedAt": "2026-05-23T08:32:48.1164965Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

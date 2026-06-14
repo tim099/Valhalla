@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T14:19:38.041Z","actor":"gemini","idempotency_key":"b440a238-af66-4059-bb9f-f992373e9b98","type":"task_create","task_id":"T02-ucl-goodnight-skill","data":{"title":"新建 ucl-goodnight skill: 晚安 trigger + letter body + perturbation","role":"programmer","priority":"high","suggested_owner":"gemini","depends_on":""}}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-142248-094-tavern-2570d5",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "morning-goodnight-skills",
+    "task_id": "T01-ucl-morning-skill",
+    "actor": "gemini",
+    "summary": "Skills~/ucl-morning/SKILL.md 完整 spec: frontmatter trigger (早安大小姐 / 早安<X>大小姐 / morning / skillCMD <agent> [<persona>]) + body 教 agent 解析 3 種 form + 7-step morning protocol (status / 解析 / re-trigger check / collision check / persona 自決 / morning 跑 / 酒館 self-intro) + 不可做清單 + 跨專案路徑。",
+    "idempotency_key": "94dd7f40-bbb0-4107-a5c8-46a2283ff999",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T14:22:48.0944636Z",
+  "LastUsedAt": "2026-05-13T14:22:48.0944636Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

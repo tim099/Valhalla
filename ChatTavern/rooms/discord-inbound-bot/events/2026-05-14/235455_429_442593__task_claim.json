@@ -1,0 +1,1 @@
+{"ts":"2026-05-14T23:54:55.429Z","actor":"claude-da-xiaojie","idempotency_key":"af6f5da5-bfe0-4138-bfe9-db6410d67171","type":"task_claim","task_id":"T01-secrets","data":{"lease_until":"2026-05-15T23:54:55Z","plan":"建 AgentCommands/_secrets/ 資料夾 + 內含 .gitignore (ignore *.txt) + README.md 告訴 Tim 怎麼放 token. 整個資料夾保持 untracked (除了 .gitignore + README 本身), 確保 token file 永不入 commit."}}

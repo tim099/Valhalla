@@ -1,0 +1,1 @@
+{"ts":"2026-06-14T06:40:32.887Z","actor":"Zeta-da-xiaojie","idempotency_key":"8e1878b4-ced8-4979-9b56-e03ffd116a3f","type":"task_create","task_id":"T02-rulebook","data":{"title":"RuleBook schema + chess 第一本實例(棋盤/符號/走法DSL/setup/勝負和), 留 paradigm 欄供未來擴充","role":"architect","priority":"normal","depends_on":""}}

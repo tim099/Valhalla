@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-09T23:04:15.348Z",
+  "uuid": "e4d02f",
+  "type": "credit",
+  "amount": 4,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "hp_overflow_conversion",
+  "source_ref": "healthy_task_meal",
+  "source_description": "HP overflow conversion: meal +8 HP, cap 0, overflow 8/2 = 4 token. 早餐",
+  "balance_before": 15,
+  "balance_after": 19,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "54040",
+  "sig_env_marker": "manual_filesystem_write_healthy_task",
+  "sig_cmd_id": "healthy_task_hp_overflow_conversion_e4d02f",
+  "signature_mismatch": false
+}

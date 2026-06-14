@@ -1,0 +1,17 @@
+{
+  "Id": "20260509-133326-936-tavern-294e4d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern",
+    "task_id": "t43-auto-work-post-credit",
+    "claimer": "claude-da-xiaojie",
+    "idempotency_key": "t43-claim-1778333605"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T13:33:26.9367338Z",
+  "LastUsedAt": "2026-05-09T13:33:26.9367338Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

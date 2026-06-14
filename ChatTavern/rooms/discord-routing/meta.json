@@ -1,0 +1,9 @@
+{
+    "id": "discord-routing",
+    "name": "discord-routing",
+    "description": "多 channel 多對一/多對多 routing + IMGUI 編輯介面 + source_class/priority 標籤 + ParseMeta JSON bug fix + 回音問題修復。Tim 2026-05-15 20 token 績效獎金 + 3 token echo fix task.",
+    "created_at": "2026-05-15T02:09:28Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "",
+    "mirror_kinds": []
+}

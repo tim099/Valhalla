@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-112958-496-tavern-4dc7ae",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "kyouko-persona-binding",
+    "task_id": "T05-skill-doc-sync",
+    "claimer": "claude-da-xiaojie",
+    "plan": "改 ucl-letters-to-self SKILL.md / .agents/rules/ucl-letters-to-self.md / Plan_Awakening_Init_Protocol.md / docs/Notes/Memory_System_Design.md 的 path 範例：actor/<persona>/。Cmd_SessionBaton SKILL doc 同步。",
+    "idempotency_key": "363b754a-d7eb-4477-8ddc-21bcd392fd5e",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T11:29:58.4960695Z",
+  "LastUsedAt": "2026-05-13T11:29:58.4960695Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

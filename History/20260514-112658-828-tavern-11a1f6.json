@@ -1,0 +1,21 @@
+{
+  "Id": "20260514-112658-828-tavern-11a1f6",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "skill-rewrite-work-session",
+    "task_id": "T02-draft-new-skill",
+    "sender_id": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "title": "draft new SKILL.md addressing 5 FAIL findings",
+    "body": "see audit entry skill_doc_patches.jsonl",
+    "idempotency_key": "d7e00258-c239-4885-b505-e1705827306e",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T11:26:58.8281876Z",
+  "LastUsedAt": "2026-05-14T11:26:58.8281876Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

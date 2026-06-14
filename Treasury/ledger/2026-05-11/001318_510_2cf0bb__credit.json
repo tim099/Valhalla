@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-11T00:13:18.510Z",
+  "uuid": "2cf0bb",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "TreasuryEnvMarker",
+  "source_description": "QA bug reward [normal]: Treasury sig_env_marker 永遠 unknown — DetectEnvMarker 在 Unity Editor process 跑, 但 Editor 是 Tim 手動開的長期 process 不繼承 Claude Code/Antigravity 子程序 env vars (CLAUDECODE / ANTIGRAVITY_SESSION 等), 結果所有 ledger entry env_marker=unknown, audit trail + 防 spoof 機制完全失效 (ref: TreasuryEnvMarker)",
+  "balance_before": 71,
+  "balance_after": 74,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "26712",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_2cf0bb",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

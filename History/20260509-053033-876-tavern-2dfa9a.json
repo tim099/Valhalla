@@ -1,0 +1,17 @@
+{
+  "Id": "20260509-053033-876-tavern-2dfa9a",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "discord:tim-test",
+    "body": "[T36.8 smoke] 從 daemon 走 TavernClient SDK 寫進 tavern",
+    "meta": "sender_name:Tim (test);tag:t36-smoke;origin:inbound-daemon-smoke"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T05:30:33.8769455Z",
+  "LastUsedAt": "2026-05-09T05:30:33.8769455Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

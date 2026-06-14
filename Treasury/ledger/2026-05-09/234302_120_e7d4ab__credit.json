@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-09T23:43:02.120Z",
+  "uuid": "e7d4ab",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T63-batched-summary",
+  "source_description": "T63 commit pre-credit (single-layer): batched summary policy + Plan B 落地 + Cmd_BattleSummary.cs skeleton",
+  "balance_before": 192,
+  "balance_after": 193,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "30876",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T63_summary_precredit",
+  "signature_mismatch": false
+}

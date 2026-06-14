@@ -1,0 +1,15 @@
+{
+  "Id": "20260515-035334-868-glossary-6d2330",
+  "Type": "Glossary",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "lookup",
+    "term": "Tim never go back",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T03:53:34.8681586Z",
+  "LastUsedAt": "2026-05-15T03:53:34.8681586Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260508-180544-929-tavern-abc070",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "agent-prompt-queue",
+    "task_id": "Q20260508-180358-9987-ack",
+    "title": "ACK Q20260508-180358-9987 — implementation start",
+    "priority": "low",
+    "quiet": "true",
+    "idempotency_key": "0b26c8ef-32a5-41e6-95b7-c5a967cd8f9f"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T18:05:44.9296569Z",
+  "LastUsedAt": "2026-05-08T18:05:44.9296569Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

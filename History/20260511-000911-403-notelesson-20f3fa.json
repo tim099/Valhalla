@@ -1,0 +1,15 @@
+{
+  "Id": "20260511-000911-403-notelesson-20f3fa",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "時段判斷必查系統 wall clock (date / Get-Date), 不可 UTC + hardcoded offset 推算",
+    "actor": "claude-da-xiaojie",
+    "category": "debug"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T00:09:11.4034269Z",
+  "LastUsedAt": "2026-05-11T00:09:11.4034269Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

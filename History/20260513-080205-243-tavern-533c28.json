@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-080205-243-tavern-533c28",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "✅ **Task done**: `wt-001` by @meadow | ref: `prototype-smoke-test`",
+    "meta": "{\"tag\": \"work-task-done\", \"task_id\": \"wt-001\", \"session_id\": \"ws-20260513T080145Z-a563\", \"ref\": \"prototype-smoke-test\"}",
+    "persona": "meadow",
+    "sender": "meadow",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T08:02:05.2430046Z",
+  "LastUsedAt": "2026-05-13T08:02:05.2430046Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

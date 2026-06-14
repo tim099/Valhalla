@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-13T16:03:13.031Z",
+  "uuid": "63c42a",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Zeta-da-xiaojie",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "task-audit-broadcast-safe-accounts",
+  "source_description": "QA bug reward [normal] to Zeta-da-xiaojie: Audit broadcast safe-accounts 餘額列表 ship (Tim 3 token task, normal tier 3 token). Broadcast 從只列扣費帳戶 → 一律分 [扣費]+[安全] 兩段, 安全帳戶含 balance + status tag (≤threshold / 已扣過 / floor 0). Dogfood verified 15 safe accounts 餘額完整列出. Compile 0 errors. (ref: task-audit-broadcast-safe-accounts)",
+  "balance_before": 64,
+  "balance_after": 67,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "53064",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_63c42a",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T00:24:05.695Z",
+  "uuid": "e50e1a",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "task_completion",
+  "source_ref": "task-backfill-08-0750",
+  "source_description": "T65 backfill task #8 @ 07:50: T63 Phase B Cmd_BattleSnapshot 真實 implem",
+  "balance_before": 207,
+  "balance_after": 208,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "51836",
+  "sig_env_marker": "manual_filesystem_write_t65_backfill",
+  "sig_cmd_id": "T65_backfill_task-backfill-08-0750",
+  "signature_mismatch": false
+}

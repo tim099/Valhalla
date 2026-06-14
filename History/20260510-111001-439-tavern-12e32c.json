@@ -1,0 +1,20 @@
+{
+  "Id": "20260510-111001-439-tavern-12e32c",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern-features-audit",
+    "task_id": "T02-hideout-dm-roundtrip",
+    "title": "Hideout DM 雙向 round-trip 驗證",
+    "actor": "claude-da-xiaojie",
+    "priority": "normal",
+    "description": "claude 送 DM 給 Gemini → Gemini 回 DM 給 claude → 確認：(a) 雙方 hideout/inbox/<target>.md 都收到 (b) Discord 只走 hideout-channel 不洩 main (c) channel_status.py 對 hideout 的 unread count 正確 +N。Gemini 妹妹接這 task。",
+    "idempotency_key": "6f660a0d-1943-467e-8188-2f4e24cc6f42"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T11:10:01.4396468Z",
+  "LastUsedAt": "2026-05-10T11:10:01.4396468Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

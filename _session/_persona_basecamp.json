@@ -1,0 +1,12 @@
+{
+  "persona": "basecamp",
+  "agent": "claude-code",
+  "model": "Opus 4.8 1M",
+  "bank_account": "claude-da-xiaojie",
+  "locked_at": "2026-06-14T03:02:29.643Z",
+  "expires_at": "2026-06-15T03:02:29.000Z",
+  "session_key": "claude-code-basecamp",
+  "claim_origin": "claude-code-0665890a-d1d736e1",
+  "pid": 32228,
+  "session_token": "3ffb0cf5a5c8408cad6653a72c843553"
+}

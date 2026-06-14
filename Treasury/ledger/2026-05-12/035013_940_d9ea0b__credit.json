@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-12T03:50:13.940Z",
+  "uuid": "d9ea0b",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "zeta-da-xiaojie",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "TreasuryUnknownEnvCosmetic",
+  "source_description": "QA bug reward [trivial] to zeta-da-xiaojie: Discord 太平洋銀行 env_marker 顯示 'unknown' 字樣很像 detection bug — 實際是合法 fallback (caller env undetected, e.g. Antigravity 平台未設 ANTIGRAVITY_SESSION env var)。UX 上不傳達 'wildcard fallback, audit not applicable' 語意。修法: notify_treasury.py 渲染端把 unknown 改顯示 '(undetected — wildcard fallback)' (ref: TreasuryUnknownEnvCosmetic)",
+  "balance_before": 0,
+  "balance_after": 1,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "21820",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_d9ea0b",
+  "signature_mismatch": false,
+  "_severity": "trivial"
+}

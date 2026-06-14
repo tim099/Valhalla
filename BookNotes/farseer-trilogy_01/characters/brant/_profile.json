@@ -1,0 +1,16 @@
+{
+  "id": "brant",
+  "name": "布蘭特",
+  "book": "farseer-trilogy_01",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "嫉妒嚼舌的跑腿小廝——把蜚滋的際遇當成自己的吃虧",
+      "file": "v1_2026-05-24.md",
+      "date": "2026-05-24"
+    }
+  ]
+}

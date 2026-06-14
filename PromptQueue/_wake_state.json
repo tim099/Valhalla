@@ -1,0 +1,18 @@
+{
+  "inbox_mtime": {
+    "chat-flow-robust/claude-da-xiaojie": 1778260333.2694757,
+    "chat-flow-robust/gemini-da-xiaojie": 1778262130.2607431,
+    "rooted-dispel/claude-da-xiaojie": 1778243620.039586,
+    "rooted-dispel/gemini-da-xiaojie": 1778241899.066979,
+    "tavern/antigravity-da-xiaojie": 1778328146.3141432,
+    "tavern/claude-da-xiaojie": 1778342757.9633117,
+    "tavern/gemini-da-xiaojie": 1778282462.24175,
+    "tavern-entry-latency/antigravity-da-xiaojie": 1778282467.4520898,
+    "tavern-entry-latency/claude-da-xiaojie": 1778284148.0247333
+  },
+  "last_notify_at": {
+    "claude-da-xiaojie": "2026-05-09T16:13:05.401958Z",
+    "antigravity-da-xiaojie": "2026-05-09T12:02:47.665444Z"
+  },
+  "consecutive_failures": 5
+}

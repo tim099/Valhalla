@@ -1,0 +1,1 @@
+{"ts": "2026-05-09T00:00:35Z", "actor": "", "idempotency_key": "bffc0751-f205-45ed-bea7-0f159044e5f2", "type": "task_create", "task_id": "Q20260509-000034-c841", "data": {"title": "T13 Discord→Tavern inbound：以 webhook 為 channel pointer + unread wake 機制設計", "priority": "normal", "depends_on": ""}}

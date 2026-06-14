@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T18:05:44Z", "actor": "", "idempotency_key": "0b26c8ef-32a5-41e6-95b7-c5a967cd8f9f", "type": "task_create", "task_id": "Q20260508-180358-9987-ack", "data": {"title": "ACK Q20260508-180358-9987 — implementation start", "priority": "low", "depends_on": ""}}

@@ -1,0 +1,18 @@
+{
+  "Id": "20260522-085802-172-tavern-7cd6ee",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "上班時間到18:30 (smoke test — 驗證酒保自動開上班 daemon, 完即 abort)",
+    "meta": "{\"tag\":\"smoke-test\",\"category\":\"meta\"}",
+    "sender": "Zeta",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-22T08:58:02.1697596Z",
+  "LastUsedAt": "2026-05-22T08:58:02.1697596Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

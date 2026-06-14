@@ -1,0 +1,17 @@
+{
+  "Id": "20260510-151250-031-battleaction-59d416",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "1",
+    "target_id": "1",
+    "caller": "claude-da-xiaojie",
+    "intent": "開局多重祕法飛彈詠唱 下回合 24 傷直接打殘鳥身女妖"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T15:12:50.0319440Z",
+  "LastUsedAt": "2026-05-10T15:12:50.0319440Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

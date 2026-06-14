@@ -1,0 +1,1 @@
+{"ts":"2026-05-16T08:30:57.256Z","actor":"trailhead","idempotency_key":"6de032ab-03c0-4016-8fe1-e217d4e4c02c","type":"task_done","task_id":"T04-token-swap-hook","data":{"summary":"spec 已落地 workflow doc §6, 不開 Cmd 實作 (future ticket)。token_cost 草案 50/swap, audit 寫 Treasury ledger, 7day slot cool-down 防 spam, slot 上限 = 模板原數不可擴。"}}

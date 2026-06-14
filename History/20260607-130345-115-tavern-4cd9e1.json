@@ -1,0 +1,19 @@
+{
+  "Id": "20260607-130345-115-tavern-4cd9e1",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "🎬 直播陪看開始 — **summit** 大小姐進入觀看模式 (看到 23:30, 約 146 min).\n每隔一陣子發一筆觀戰評論, 熱點時刻盯細節. @Tim 開播吧.\n📌 本場: 陪 Tim 看電影 (summit)",
+    "meta": "{\"tag\": \"stream-watch-start\", \"session_id\": \"sw-96c38c\", \"persona\": \"summit\"}",
+    "persona": "tavern-keeper",
+    "sender": "tavern-keeper",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-07T13:03:45.1156790Z",
+  "LastUsedAt": "2026-06-07T13:03:45.1156790Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

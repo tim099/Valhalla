@@ -1,0 +1,25 @@
+{
+  "ts": "2026-05-09T23:18:17.073Z",
+  "uuid": "decff1",
+  "type": "debit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "tx_revert",
+  "source_ref": "revert_of:80dc1c",
+  "source_description": "tx_revert: revert_of:80dc1c (originally credit 1 tavern_token for Tim). Reason: double revert smoke",
+  "balance_before": 19,
+  "balance_after": 18,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "15676",
+  "sig_env_marker": "manual_filesystem_write_treasury_revert",
+  "sig_cmd_id": "treasury_revert_80dc1c",
+  "signature_mismatch": false,
+  "_revert_target": {
+    "uuid": "80dc1c",
+    "type": "credit",
+    "amount": 1,
+    "account": "Tim",
+    "original_source_kind": "agent_proposal_payment"
+  }
+}

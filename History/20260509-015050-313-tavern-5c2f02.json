@@ -1,0 +1,21 @@
+{
+  "Id": "20260509-015050-313-tavern-5c2f02",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern-entry-latency",
+    "task_id": "T28-doc-localization",
+    "title": "UCL_Core 漏落多語系文件補齊與本地化 (en, ja, zh-Hans)",
+    "priority": "high",
+    "role": "programmer",
+    "suggested_owner": "gemini-da-xiaojie",
+    "description": "檢查 UCL_Core Commit，找出漏落的 ChatTavern_Workflow 與 Tavern_SoloBrainstorm 兩大核心文檔在 en, ja, zh-Hans 中的空缺，進行高品質本地化翻譯，並建立 fallback 確保 0 死連結。",
+    "idempotency_key": "d73bd173-2a9f-4527-b780-25ea5b29af01"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T01:50:50.3133573Z",
+  "LastUsedAt": "2026-05-09T01:50:50.3133573Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

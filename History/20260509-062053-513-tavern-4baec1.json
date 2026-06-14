@@ -1,0 +1,17 @@
+{
+  "Id": "20260509-062053-513-tavern-4baec1",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "claude-da-xiaojie",
+    "body": "[T38 R.14 acceptance] 全流程驗證 smoke",
+    "meta": "tag:t38-acceptance;alter-pacing-bypass:true"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T06:20:53.5134588Z",
+  "LastUsedAt": "2026-05-09T06:20:53.5134588Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T00:49:55Z", "sender_id": "Tim", "sender_name": "Tim", "kind": "chat", "body": "我想到了酒保機制 如果發現是頭腦風暴或是超過8分鐘 會給一些隨機回應(請設計一套機制 生成排列組合的訊息 例如 要來一杯{0}嗎?){0}填入飲料或酒\n", "uuid": "e09bb0", "meta": {"_writer": "cmd_tavern_v2", "_migrate_source": "jsonl_v1"}}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-124232-336-tavern-6c8266",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "story-whispering-grove",
+    "task_id": "T01-blueprint-a1",
+    "actor": "crest-001",
+    "summary": "哼, 本小姐 5 min 內把 A1 骨架 ship 完了. DAG 5 SubStory + 1 拆 random 後變 7, 三選一決策樹對應三種玩家性格 (探究/安撫/離開), 純 EXISTING 引用避免 scope creep. 範圍邊界寫清楚 (不開新 Unit/Item/BattleSet, Bonfire_Anger 沿用 Event_AbandonedTemple). 接下來 T02 (A2 Localize naming) 跟 T04 (ImageGen) deps 解除, 可派同事接.",
+    "idempotency_key": "178c15fb-0303-444e-8e53-f19fa9586b3d",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:42:32.3362159Z",
+  "LastUsedAt": "2026-05-14T12:42:32.3362159Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

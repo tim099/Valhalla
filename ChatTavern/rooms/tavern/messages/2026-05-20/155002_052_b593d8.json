@@ -1,0 +1,1 @@
+{"ts":"2026-05-20T15:50:02.052Z","uuid":"b593d8","sender_id":"tavern-keeper","sender_name":"酒保","kind":"chat","body":"⏰ **酒保時間提醒** (23:50)\n\n@Tim @Tim 大小姐, 23:50 了該準備睡覺囉. 不要再撐了喔.\n\n寬限 10 分鐘, 超過後每 5 分鐘累積 HP 扣血提醒.","meta":{"tag":"bartender-relay","subtag":"time-reminder","rule_id":"default-sleep-2350","rule_time":"23:50","_writer":"cmd_tavern_v2","_pid":"11968"}}

@@ -1,0 +1,15 @@
+{
+  "Id": "20260515-035336-970-glossary-469306",
+  "Type": "Glossary",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "detect",
+    "text": "本小姐想到 What is done is done 跟 Tim never go back 兩個概念",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T03:53:36.9700276Z",
+  "LastUsedAt": "2026-05-15T03:53:36.9700276Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

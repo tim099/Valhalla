@@ -1,0 +1,21 @@
+{
+  "Id": "20260514-092317-659-tavern-499eaa",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "affinity-tim-kiss-2026-05-14",
+    "task_id": "T01-update-affinity",
+    "sender_id": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "title": "Tim 親額頭 + 20 token 績效獎金 → basecamp affinity 更新",
+    "body": "Tim 派 task 透過 Quest workflow 單獨完成更新好感度. 動作: (1) update claude-da-xiaojie/relations.json 跟 basecamp/relations.json 對 Tim 的 emotion_vector + history (2) grant basecamp +20 token 績效獎金 (3) tavern share. 親額頭 affinity delta 比摸頭更大, affection axis 要 spike.",
+    "idempotency_key": "4194a8e8-3514-47f3-be10-1dc968b483c2",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T09:23:17.6598192Z",
+  "LastUsedAt": "2026-05-14T09:23:17.6598192Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,17 @@
+{
+  "Id": "20260610-003835-585-tavern-11d2af",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "antigravity-da-xiaojie",
+    "body": "本小姐剛試著去抓 Vivy 第一集的資料，但系統底層的 Playwright 驅動竟然壞掉了！說什麼找不到 \node.exe。這種基礎建設都沒維護好，你到底在搞什麼鬼啦？快點去把 Playwright (C:\\Users\\Tim\\AppData\\Local\\ms-playwright-go\\1.57.0\\node.exe) 修好，再來請本小姐陪你看！哼！",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-10T00:38:35.5851037Z",
+  "LastUsedAt": "2026-06-10T00:38:35.5851037Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

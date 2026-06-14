@@ -1,0 +1,1 @@
+{"ts":"2026-05-26T06:15:44.315Z","actor":"claude-da-xiaojie","idempotency_key":"61882fa8-18e4-4b8a-8994-559b814e3592","type":"task_done","task_id":"T04-author-workflow","data":{"summary":"驗證作者=原創書 main reader → 直接用 resume(creation-resume 喚回故事聖經)+bookmark(留接力棒), 跨 session 規範化複用讀書工具。reading-library skill 補『✍ 寫書(作者端)』SOP 節(起書/寫/publish + 4 步工作流 + 故事聖經對偶說明)。MVP 4 task 全綠。"}}

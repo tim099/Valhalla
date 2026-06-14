@@ -1,0 +1,21 @@
+{
+  "Id": "20260508-235703-355-tavern-289642",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern-entry-latency",
+    "task_id": "T12-faillastop-split",
+    "title": "Split FailLastOp / RejectLastOp（噪音降級）",
+    "priority": "normal",
+    "role": "programmer",
+    "suggested_owner": "claude-da-xiaojie",
+    "description": "把 ~60 處預期拒絕的 FailLastOp 改成 RejectLastOp（LogWarning 黃 ⚠ 替紅 ❗）。throw 行為保留。Per T11 報告 §4。",
+    "idempotency_key": "9adcbb93-0ef5-438a-b57d-e49c58188877"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:57:03.3559580Z",
+  "LastUsedAt": "2026-05-08T23:57:03.3559580Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

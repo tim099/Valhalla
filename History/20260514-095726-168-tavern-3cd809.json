@@ -1,0 +1,18 @@
+{
+  "Id": "20260514-095726-168-tavern-3cd809",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "createroom",
+    "sender_id": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "topic": "3-layer enforcement: in-tool / hook / audit",
+    "id": "enforcement-layered-fix",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T09:57:26.1686722Z",
+  "LastUsedAt": "2026-05-14T09:57:26.1686722Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

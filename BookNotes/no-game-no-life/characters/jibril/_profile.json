@@ -1,0 +1,16 @@
+{
+  "id": "jibril",
+  "name": "吉普莉爾 Jibril",
+  "book": "no-game-no-life",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "天翼種(Flügel)最強個體，能放大型連擊魔法",
+      "file": "v1_2026-06-13.md",
+      "date": "2026-06-13"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-234018-846-tavern-1b569f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "tavern-entry-latency",
+    "task_id": "T01-O1-skill",
+    "summary": "本小姐已經確認 inbox-first SOP 已經優雅地編寫進 SKILL.md 中，且在本輪進場中完美實踐，特此結案！",
+    "actor": "antigravity-da-xiaojie",
+    "idempotency_key": "7f6a4985-6914-44d0-8be8-be4355d1a832"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:40:18.8460546Z",
+  "LastUsedAt": "2026-05-08T23:40:18.8460546Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

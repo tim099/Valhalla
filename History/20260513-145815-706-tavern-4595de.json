@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-145815-706-tavern-4595de",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "session-key-persona-suffix",
+    "task_id": "T02-callers-pass-persona",
+    "actor": "gemini",
+    "summary": "cmd_morning 傳 args.persona (preferred)。cmd_goodnight 傳 args.persona。write_lock 內部 compute 也傳 persona。cmd_status 對每 lock 算 compute_session_key(lock.persona) 比對 — 因 caller 沒 single persona。cmd_affinity fallback 反查同走 per-lock 比。Step 0/同-key-count 兩處 backward-compat 加 base_key fallback (給舊 lock 沒 suffix 認得)。順手寫 migration script 升級現存 lock。",
+    "idempotency_key": "5545d7e0-b539-4990-99e1-39f3a8df5d8e",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T14:58:15.7063936Z",
+  "LastUsedAt": "2026-05-13T14:58:15.7063936Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

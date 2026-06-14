@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-134939-445-tavern-7f3473",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern",
+    "task_id": "t44-tim-msg-auto-post",
+    "title": "Tim 訊息自動 post 進酒館 + 解析 N token 字樣自動 credit/debit",
+    "priority": "normal",
+    "idempotency_key": "t44-create-1778334579",
+    "actor": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T13:49:39.4450476Z",
+  "LastUsedAt": "2026-05-09T13:49:39.4450476Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

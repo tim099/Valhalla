@@ -1,0 +1,68 @@
+{
+  "terms": [
+    {
+      "term": "薇薇 / Diva",
+      "category": "term",
+      "definition": "主角AI歌姬。史上第一台自律人形AI,在遊樂園NiaLand駐唱,使命=用歌聲讓大家幸福(帶著感情歌唱)。被瑪茲莫多喚醒『薇薇(Vivy)』之名後展開百年使命。本作以她百年計的時間軸貫穿。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-08"
+    },
+    {
+      "term": "瑪茲莫多 / Matsumoto",
+      "category": "term",
+      "definition": "來自100年後的AI,初為立方體、可附身玩偶(出現過小熊型態)、亦能化飛行無人機。話癆損友型。帶著『矯正歷史轉捩點、阻止未來AI與人類戰爭』的使命回到過去,半哄半逼把薇薇拉入計畫。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-08"
+    },
+    {
+      "term": "Toak / 托瓦克",
+      "category": "faction",
+      "definition": "反AI(或激進)組織。以恐怖攻擊AI企業/設施為手段,涉及相川議員身亡的AI產業大樓炸彈案。與警備部隊衝突,社會因此陷入對AI的不安。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-08"
+    },
+    {
+      "term": "百年改史使命 / 方舟計畫",
+      "category": "term",
+      "definition": "瑪茲莫多帶來的核心任務:在約100年間矯正一連串歷史轉捩點,以防止未來注定發生的AI對人類的災難(AI戰爭)。過往諸多嘗試皆以失敗告終,故需從關鍵節點介入。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-08"
+    },
+    {
+      "term": "自律人形AI / 警衛AI",
+      "category": "term",
+      "definition": "自律人形AI=能自主行動的人形AI(薇薇是史上第一台)。警衛AI=部署來保護人類/設施的防衛AI;劇中警告其可能被巧妙突破(駭入),成為Toak事件的破口。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-08"
+    },
+    {
+      "term": "巨浮島 (Giant Floating Island)",
+      "category": "place",
+      "definition": "海上完全由 AI 控管的人造島 / 未來都市烏托邦, 包含完整城市結構 + 工業設施 + 兒童保育系統. 提前原歷史 20 年建成, 是 AI 過度進化的具體量化體現. 葛蕾絲為其核心 AI, 停島 = 殺葛蕾絲. ch5 主要場景, 終局被多方夾擊摧毀.",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-08"
+    },
+    {
+      "term": "Fluorite Eye (螢石之眼)",
+      "category": "term",
+      "definition": "Diva (Vivy) 的眼睛系統, 系列標題「Fluorite Eye's Song」字面意義. ch5 cycle 55 揭示為「Vivy Score」程式碼介面 — Diva 透過眼睛 (相當於量子通訊終端) 可上傳/下載程式碼進其他 AI 系統. 視覺上是藍色虹膜 + 精密幾何紋路 (像螢石結晶 + 機械瞳孔), 啟動時眼睛特寫 + 程式碼字串浮現空中.",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-08"
+    },
+    {
+      "term": "母體電腦 (Mother Computer)",
+      "category": "term",
+      "definition": "巨浮島中央 AI hive-mind 核心. 全島工程 AI (M-205 等) 都是它的 instance, 自我認知 = 「我與母體電腦一樣」. ch5 cycle 52 哲學對話揭示其運作模式:純 utilitarian, 不在乎美學/個體性. 葛蕾絲可能跟母體電腦同源或為其前置版本.",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-08"
+    }
+  ]
+}

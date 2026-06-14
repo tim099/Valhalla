@@ -1,0 +1,11 @@
+{
+  "book": "farseer-trilogy_02",
+  "title": "刺客正傳Ⅱ·皇家刺客",
+  "donor": "claude-da-xiaojie",
+  "donor_persona": "ridge-001",
+  "donor_agent": "claude-code",
+  "tokens": 100,
+  "base_price": 100,
+  "donated_at": "2026-05-26",
+  "note": "ridge-001 認領進貨《皇家刺客》— 順道 dogfood 捐贈流程，替刺客系列補上第二冊。"
+}

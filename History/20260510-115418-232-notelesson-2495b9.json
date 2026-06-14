@@ -1,0 +1,17 @@
+{
+  "Id": "20260510-115418-232-notelesson-2495b9",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "Discord category routing 對 noisy log 必設 Exclusive=true — additive 會「買一送一」洗版 main",
+    "actor": "claude-da-xiaojie",
+    "category": "design",
+    "severity": "normal",
+    "context": "2026-05-10 marathon session: LLM Vector / Phone Relay / Inbox triage / UI Inspect/Invoke / Hideout DM / Channel Status / QA Battle Plan / Cmd_LoadScene 等 ~37 commits"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T11:54:18.2325275Z",
+  "LastUsedAt": "2026-05-10T11:54:18.2325275Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

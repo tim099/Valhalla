@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-13T08:04:07.802Z",
+  "uuid": "93d9eb",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "work-session-prototype-persona-as-sender-id",
+  "source_description": "QA bug reward [normal] to Tim: work_session.py prototype: cmd_assign / cmd_done 把 persona name 當 sender_id 傳給 tavern_post (應該是 bank account). Discord webhook 顯示變成 'basecamp@basecamp' / 'meadow@meadow' 而非 'Claude大小姐@basecamp' / 'Claude大小姐@meadow'. Zeta 從 Discord 截圖抓到. Fix: resolve_persona() 取 bank 當 sender_id. (ref: work-session-prototype-persona-as-sender-id)",
+  "balance_before": 157,
+  "balance_after": 160,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "56384",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_93d9eb",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

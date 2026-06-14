@@ -1,0 +1,24 @@
+{
+  "id": "mystery-lady",
+  "name": "廚房神秘夫人",
+  "book": "farseer-trilogy_01",
+  "first_appeared_chapter": 11,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 11,
+      "headline": "夜訪廚房、見蜚滋如見麻臉人般驚恐的名門夫人——身分成謎",
+      "file": "v1_2026-05-24.md",
+      "date": "2026-05-24"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 12,
+      "headline": "謎底揭曉=耐辛夫人(駿騎遺孀、蜚滋繼母)",
+      "change_reason": "ch12 博瑞屈認出馴馬『絲綢』屬耐辛,確認廚房神秘夫人即蜚滋繼母耐辛",
+      "file": "v2_2026-05-24.md",
+      "date": "2026-05-24"
+    }
+  ]
+}

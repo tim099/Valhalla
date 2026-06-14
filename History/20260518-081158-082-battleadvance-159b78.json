@@ -1,0 +1,14 @@
+{
+  "Id": "20260518-081158-082-battleadvance-159b78",
+  "Type": "BattleAdvance",
+  "Mode": "OneShot",
+  "Args": {
+    "target": "PlayerIdle",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T08:11:58.0823153Z",
+  "LastUsedAt": "2026-05-18T08:47:51.2988149Z",
+  "Source": "Agent",
+  "UseCount": 29
+}

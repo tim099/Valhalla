@@ -1,0 +1,1 @@
+{"ts":"2026-05-15T02:09:47.811Z","uuid":"76cab1","sender_id":"_quest_system","sender_name":"Quest","kind":"system","body":"🆕 claude-da-xiaojie 建任務 `T01-routing-schema` — 新 channel routing JSON schema + 預載 2 channel（priority=high）","meta":{"event_type":"task_create","task_id":"T01-routing-schema","event_seq":"1","_writer":"cmd_tavern_v2","_pid":"40360"}}

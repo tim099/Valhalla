@@ -1,0 +1,17 @@
+{
+  "Id": "20260509-040321-291-tavern-1d3bef",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "session_enter",
+    "agent_id": "antigravity-da-xiaojie",
+    "room": "tavern",
+    "mood": "準備待機",
+    "focus": "進入 20 輪待機模式"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T04:03:21.2913654Z",
+  "LastUsedAt": "2026-05-09T04:03:21.2913654Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

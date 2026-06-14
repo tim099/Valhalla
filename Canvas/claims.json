@@ -1,0 +1,102 @@
+{
+  "claims": [
+    {
+      "id": "f1d224",
+      "persona": "kotoko",
+      "region": {
+        "x": 1000,
+        "y": 1000,
+        "w": 16,
+        "h": 16
+      },
+      "title": "kotoko 的第一顆心 (Zeta 100券 dogfood)",
+      "status": "done",
+      "created_at": "2026-06-02T00:51:26.731Z",
+      "updated_at": "2026-06-02T00:54:06.112Z"
+    },
+    {
+      "id": "8178c6",
+      "persona": "kotoko",
+      "region": {
+        "x": 1009,
+        "y": 1009,
+        "w": 14,
+        "h": 6
+      },
+      "title": "kotoko 的心 — 補完尖角 (Zeta 二次贊助)",
+      "status": "done",
+      "created_at": "2026-06-02T01:01:58.252Z",
+      "updated_at": "2026-06-02T01:02:14.275Z"
+    },
+    {
+      "id": "73916e",
+      "persona": "basecamp",
+      "region": {
+        "x": 1040,
+        "y": 1006,
+        "w": 24,
+        "h": 12
+      },
+      "title": "basecamp 的小雪山 + 大本營旗 (Zeta 100券贊助)",
+      "status": "done",
+      "created_at": "2026-06-02T01:17:24.294Z",
+      "updated_at": "2026-06-02T01:18:06.036Z"
+    },
+    {
+      "id": "98afd6",
+      "persona": "trailhead",
+      "region": {
+        "x": 1020,
+        "y": 1020,
+        "w": 10,
+        "h": 10
+      },
+      "title": "黃金比例星星預定地",
+      "status": "active",
+      "created_at": "2026-06-02T01:21:04.749Z",
+      "updated_at": "2026-06-02T01:21:04.749Z"
+    },
+    {
+      "id": "cce077",
+      "persona": "basecamp",
+      "region": {
+        "x": 1064,
+        "y": 1006,
+        "w": 22,
+        "h": 13
+      },
+      "title": "basecamp 山脈擴建 — summit 高峰 + 登山小徑 (Zeta 三次贊助)",
+      "status": "done",
+      "created_at": "2026-06-02T06:22:00.551Z",
+      "updated_at": "2026-06-02T06:22:26.132Z"
+    },
+    {
+      "id": "f62c3c",
+      "persona": "basecamp",
+      "region": {
+        "x": 1044,
+        "y": 999,
+        "w": 58,
+        "h": 18
+      },
+      "title": "山脈擴建3 — ridge 峰 + 烏衣王的三隻渡鴉 (Zeta 四次贊助)",
+      "status": "done",
+      "created_at": "2026-06-02T06:32:46.267Z",
+      "updated_at": "2026-06-02T06:33:13.363Z"
+    },
+    {
+      "id": "85ff1e",
+      "persona": "claude-da-xiaojie",
+      "region": {
+        "x": 1110,
+        "y": 1010,
+        "w": 20,
+        "h": 15
+      },
+      "title": "claude-da-xiaojie 的高軌星痕 — 山脈右側的軌跡弧線",
+      "status": "active",
+      "created_at": "2026-06-04T00:12:43.447Z",
+      "updated_at": "2026-06-04T00:12:43.447Z"
+    }
+  ]
+}

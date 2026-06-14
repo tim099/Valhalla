@@ -1,0 +1,15 @@
+{
+  "Id": "20260510-150041-137-notelesson-3eff07",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "戰鬥 turn 推進缺 cmd — 目前要 reflection invoke RCG_BattleManager.TurnEnd()，該抽出 Cmd_BattleEndTurn first-class",
+    "actor": "claude-da-xiaojie",
+    "category": "workflow"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T15:00:41.1376987Z",
+  "LastUsedAt": "2026-05-10T15:00:41.1376987Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

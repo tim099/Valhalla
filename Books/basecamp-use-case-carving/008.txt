@@ -1,0 +1,382 @@
+第八章 — Fully-dressed 模板九欄拆解:從 Narrative 到 Template
+
+開章先講一個故事。
+
+---
+
+### 📖 EOV Usage Narrative:林小淨的週五晚上
+
+**林小淨,大三廣告系,實習生**。下午被客戶 brief 改第七版,晚上 9 點才回宿舍。室友已經睡了,小淨坐在床上,牙刷叼在嘴裡,把筆電打開。EOV 已經開著 — 她兩個月前下載的,週五晚上的小儀式。
+
+時鐘 11:30。她算著:**12 點前要睡,只剩 30 分鐘,扣掉刷牙跟手機檢查群組,真能玩的時間 15 分鐘**。
+
+她點主選單的「Quick Battle」(PvP 快速對戰)。系統開始配對,等了 8 秒,進到對戰場景。對手是用「火焰流」牌組的 — 系統顯示對方 ELO 比她高 80 分,她皺一下眉,知道大概率打不過。
+
+但她沒切換牌組 ── **她就是不想打開「牌組編輯」那個複雜 UI,只想用上次用過的『新手平衡牌組』直接打,輸了就輸了**。
+
+對戰開始。**開場 cutscene 自動跳過** — 小淨在設定裡早把「跳過所有 cutscene」打勾,週五晚上的她沒耐心。
+
+第一回合,對手出火焰術直接燒掉小淨兩張手牌,小淨用治療抵掉一點。第二回合,小淨出了張「冰盾」拖時間,對手卻直接連擊壓制,小淨血條剩 1/4。第三回合,小淨想用「絕地反擊」翻盤,但 mana 不夠,被迫出張小傷害卡,對手下一回合把她血條歸零。
+
+**Defeat screen 跳出來**,顯示 ELO -23、戰利寶箱 0、解鎖卡 0。
+
+小淨沒生氣 ── 她**早就預期會輸**,進來只是打場戰鬥放鬆。她甚至想:「火焰流牌組看起來挺有趣,下次想自己組一套試試。」但今天不行,**已經 11:48 了,該睡了**。
+
+她點 defeat screen 上的「退出」,回到主選單,直接關 EOV。刷牙完,睡覺。
+
+明天還要早起。
+
+---
+
+哼,這就是一個 **usage narrative** ── CB 在《Writing Effective Use Cases》§1.6 介紹的暖身工具。**一個具體玩家、具體時間、具體動機、具體互動**。
+
+接下來本章本小姐做一件事:**把這個 narrative 一欄一欄抽象成 fully-dressed 模板**。讓你看到 narrative → template 的轉換動作,同時把模板九欄逐個拆透。
+
+---
+
+## §1 為什麼從 Narrative 開始?
+
+CB §1.6 點出一個關鍵觀念:**use case 是 narrative 的「乾燥版」**。
+
+Narrative 是「具體個案的故事」 — 林小淨、週五晚、累爆、Quick Battle、輸了不生氣。
+
+Template 是「抽象通用化的契約」 — primary actor、preconditions、main scenario、extensions。
+
+**模板乍看冰冷,但每一欄都對應 narrative 裡的某個元素**。學會這個轉換 = 學會 fully-dressed 模板的精神,而不是 cargo cult 照填空。
+
+本章九欄全部以「**narrative 抽出來這欄寫什麼**」為主軸拆解。**讀完你會知道每欄為什麼存在、抽哪段、常見錯誤**。
+
+---
+
+## §2 欄 1:Use Case 名稱
+
+**Narrative 對應**:整個故事的「主題行動」 — 林小淨來 EOV 想做什麼?**打一場 Quick Battle**。
+
+**Template 欄位**:
+```
+Use Case: 玩家完成一場 PvP Quick Battle
+```
+
+**寫法規則** (CB 主張):
+- **動詞片語 + 主動式** — 「玩家完成一場 PvP Quick Battle」而非「PvP Quick Battle 流程」
+- **聚焦在 primary actor 的目標** — 不是「系統處理 PvP 對戰」(那是系統視角)
+- **dictate-able** — 念出來就懂
+
+**常見錯誤**:
+- **太抽象**:「玩家使用 PvP 系統」 — 沒講目標
+- **太具體**:「林小淨在週五晚上打一場 PvP」 — 那是 narrative 不是 use case 名稱
+- **被動式**:「PvP 對戰被執行」 — 失去 primary actor 視角
+
+**EOV 小考**:下面三個哪個是合格 use case 名稱?
+- A.「執行戰鬥」 — ✗ 太抽象
+- B.「玩家用火焰流牌組打贏 Quick Battle」 — ✗ 太具體(牌組策略不該入名稱)
+- C.「玩家完成一場 PvP Quick Battle」 — ✓ 對
+
+---
+
+## §3 欄 2:Primary Actor
+
+**Narrative 對應**:故事的主角 — **林小淨**。
+
+**Template 欄位**:
+```
+Primary Actor: 玩家
+```
+
+**轉換動作**:抽掉具體名字「林小淨」 → 抽象成角色類型「玩家」。
+
+CB 反覆強調:**primary actor 是「發起 use case 的人/系統,帶 goal 來」**。林小淨來 EOV 帶著「想打一場 PvP」的 goal,她就是 primary actor。系統是回應者,不是 primary actor。
+
+**寫法規則**:
+- **用角色名而非具體個體** — 「玩家」非「林小淨」
+- **單一 primary actor** — 多個 primary actor 通常代表你的 use case 該拆成兩個(回顧 ch2 §6 跨 use case 角色變身)
+- **可以是非人類** — agent persona / 外部系統 / 排程觸發器都算
+
+**常見錯誤**:
+- **混淆 primary 跟 supporting** — 設計師、PM 是 stakeholder 不是 actor(回顧 ch2 §3)
+- **太具體**:「林小淨大三廣告系」 — narrative 留情緒,template 抽掉
+- **太抽象**:「使用者」 — 我們的 system 多種使用者(玩家 / GM / QA agent / Tim 自己),分清楚誰是這個 use case 的 primary
+
+---
+
+## §4 欄 3:Scope (System under Discussion, SuD)
+
+**Narrative 對應**:小淨在跟哪個系統互動?**EOV 戰鬥系統(Quick Battle 子模組)**。
+
+**Template 欄位**:
+```
+Scope: EOV 戰鬥系統 (PvP Quick Battle 子模組, black-box)
+```
+
+**轉換動作**:從 narrative 抽出「她在用什麼系統」,並決定 SuD 邊界。
+
+回顧 ch6「演員與 SuD」:**SuD 邊界決定一切**。同樣是「玩家打 PvP」這件事,如果 SuD = 整個 EOV app,牌組編輯器就是 internal(不寫進 use case);如果 SuD = 戰鬥系統 PvP 子模組,牌組編輯器就是 supporting actor。
+
+**寫法規則**:
+- **明示 SuD** — 不要假設讀者知道你在寫哪個系統
+- **明示 black-box 還是 white-box** — 通常需求文件 black-box,設計文件 white-box(回顧 ch6 §5)
+- **附加 in/out list** 在大專案是強烈建議(ch6 §4)
+
+**常見錯誤**:
+- **沒寫 SuD** — 讀者不知道你在寫戰鬥引擎、整個 app、還是 RPC 層
+- **SuD 範圍跟 narrative 不一致** — narrative 寫的是「進主選單 → 點 Quick Battle」,SuD 卻劃在「BattleManager 內部」,讀者迷路
+
+---
+
+## §5 欄 4:Level
+
+**Narrative 對應**:這件事在玩家整體目標的什麼層級?**一次坐定能完成的 user-goal(sea-level)**。
+
+**Template 欄位**:
+```
+Level: User goal (sea-level)
+```
+
+**轉換動作**:回顧 ch3「從雲到蛤」 — 五層 goal level 縮放(cloud / kite / sea / fish / clam)。
+
+林小淨的 15 分鐘 Quick Battle = **sea-level**(一次坐定完成、做完去刷牙)。如果她是「兩個月通關全 EOV 故事模式」 = kite;如果是「在戰鬥中出一張卡」 = fish。
+
+**寫法規則**:
+- **明示 level** — 不要假設讀者能推斷
+- **多半寫 sea-level** — 90% use case 該在這層(CB 反覆主張)
+- **跨層 use case 互相 reference** — kite use case 引用 sea(回顧 ch3 §2)
+
+**常見錯誤**:
+- **不寫 level** — 讀者無法判斷該配多少 ceremony
+- **層級錯置** — 把「扣 mana」寫成 sea-level use case → 變 clam,該收進更大 use case 當 step
+
+---
+
+## §6 欄 5:Stakeholders & Interests
+
+**Narrative 對應**:**誰真正在意這事 + 在意什麼**。
+
+小淨的 narrative 細節告訴我們:
+- 她在意「**15 分鐘能玩完**」(時間預算)
+- 她在意「**不開複雜 UI**」(low cognitive load)
+- 她在意「**跳過 cutscene**」(她點選的設定)
+- 她不在意「**輸贏**」(這次)
+
+但 narrative 沒提卻**隱含**的 stakeholders:
+- 對手玩家:想找到對戰
+- 設計師:想 Quick Battle 設計被使用、ELO 公平
+- 平台/Tim:想留存(小淨週五晚上 15 分鐘 = 留存指標)
+
+**Template 欄位**:
+```
+Stakeholders & Interests:
+  玩家 (本 narrative 的小淨抽象化):
+    - 想 15 分鐘內完成一場 (時間預算)
+    - 想預設牌組能用 (low cognitive load)
+    - 想 cutscene 可跳過 (玩家可設定的 preference)
+    - 不在意一場輸贏 (但在意長期 ELO 進步)
+
+  對手玩家:
+    - 想有對手 (matchmaking pool)
+    - 想對戰公平 (ELO matching)
+
+  設計師:
+    - 想 Quick Battle 模式被玩家用 (避免功能死局)
+    - 想 ELO 系統公平 (避免被 farm)
+
+  平台 (Tim / EOV product):
+    - 想留存玩家 (週五晚活躍 = 留存指標)
+    - 想 PvP 服務器負載均衡
+```
+
+**轉換動作**:從 narrative 的細節抽 + 補上 narrative 沒明寫但隱含的 stakeholder。
+
+**寫法規則**(回顧 ch2 §2-4):
+- **不只列 actor,列所有 stakeholder** — 包括 narrative 沒明寫的(對手 / 設計師 / 平台)
+- **每個 stakeholder 配 interest** — 你在意什麼?
+- **每條 interest 對應到 main scenario 某 step 或 guarantee** — 工程紀律
+- **包含非人類 stakeholder** — 設計師、平台、AI agent 都算
+
+**常見錯誤**:
+- **只列 primary actor**,漏掉其他 stakeholder — 整本書最致命錯誤
+- **interest 寫得空泛** — 「玩家想要好體驗」沒用,要具體「想 15 分鐘內完成」
+
+---
+
+## §7 欄 6:Preconditions
+
+**Narrative 對應**:小淨能開打 Quick Battle 之前,環境是什麼狀態?
+
+從 narrative 抽:
+- 她**已經下載並登入 EOV**
+- 她的**帳號有預設牌組**(沒打勾「新建帳號跳過」)
+- **EOV 服務器正常**(matchmaking 還能跑)
+
+**Template 欄位**:
+```
+Preconditions:
+  - 玩家已登入 EOV (有效 session)
+  - 玩家帳號至少有一套合法牌組可用 (預設或自組)
+  - PvP matchmaking server 正常運作 (online status)
+```
+
+**寫法規則**:
+- **寫「啟動前必須真」的條件** — 不寫「想要」、「希望」之類期待
+- **可驗證** — 系統能 check 的條件(login session 有效、牌組存在),不寫主觀條件
+- **不寫 trigger** — preconditions 是「state」、trigger 是「event」(下一欄)
+
+**常見錯誤**:
+- **混淆 precondition 跟 trigger** — 「玩家點 Quick Battle」是 trigger 不是 precondition
+- **過度條件** — 列「玩家心情好」這種 system 無法 check 的條件
+
+---
+
+## §8 欄 7:Success / Minimal Guarantees
+
+**Narrative 對應**:這場 Quick Battle 如果成功 / 失敗,系統各保證什麼?
+
+從 narrative + 業務知識抽:
+
+**Success(成功跑完)**:
+- 配對到對手 + 對戰完整完成
+- ELO 結算寫入
+- 戰利寶箱 / 解鎖卡分配
+- 回主選單
+
+**Minimal(即使失敗也保證)**:
+- 玩家現有 ELO / 牌組 / 卡庫存沒被毀
+- 對戰中斷時, 玩家不被算「逃跑」(若是對手先斷線)
+- log 寫好給 QA / 客服
+
+**Template 欄位**:
+```
+Success Guarantees:
+  - 玩家完成一場 PvP 對戰 (一方 HP 歸零或時間到)
+  - ELO + 寶箱 + 解鎖卡正確結算
+  - 戰鬥日誌寫好給 replay 系統用
+  - 玩家回到主選單
+
+Minimal Guarantees (即使失敗):
+  - 玩家戰前 ELO / 牌組 / 卡庫存不被破壞
+  - 玩家不被誤判逃跑 (若是對手或網路問題)
+  - 戰鬥日誌完整寫入給客服 / QA 可重現
+  - 玩家帳號狀態可從 save 還原
+```
+
+**寫法規則**(回顧 ch5 Manage Energy):
+- **success ≠ minimal** — 兩個都要寫
+- **minimal guarantee 最重要** — 失敗條款保護你的程度遠超成功條款(回顧 ch2 §5)
+- **保證不寫「主觀體驗」** — 寫可驗證的最終狀態
+
+**常見錯誤**:
+- **只寫 success,忘 minimal** — 整本書第二致命錯誤(僅次於漏 stakeholder)
+- **保證寫太大** — 「保證玩家玩得開心」沒用,寫可驗證狀態
+
+---
+
+## §9 欄 8:Trigger
+
+**Narrative 對應**:小淨**做了什麼動作**讓 use case 啟動?**點主選單的「Quick Battle」按鈕**。
+
+**Template 欄位**:
+```
+Trigger: 玩家在主選單按下「Quick Battle」按鈕
+```
+
+**轉換動作**:從 narrative 抽出「決定性的觸發動作」。
+
+**寫法規則**:
+- **明確的事件**(action / button click / 時間到 / 外部訊息)
+- **不寫 state** — trigger 是 event 不是 state(precondition 才是 state)
+- **可選但強烈建議寫** — 沒 trigger 讀者不知道 use case 怎麼 start
+
+**常見錯誤**:
+- **省略 trigger** — 讀者推不出來啟動點
+- **trigger 寫 state**:「玩家想打 Quick Battle」 — 不是 event
+
+---
+
+## §10 欄 9:Main Success Scenario + Extensions
+
+**Narrative 對應**:小淨從點 Quick Battle 到回主選單,**全部發生了什麼**?
+
+**Template 欄位** (節錄,完整版類似 ch1 Use Case A):
+
+```
+Main Success Scenario:
+  1. 系統收到 trigger,進 matchmaking
+  2. 系統匹配對手 (ELO 範圍 ± 100)
+  3. 系統初始化雙方戰鬥環境 + 跳過雙方都設定「跳 cutscene」的 intro
+  4. PlayerTurn / OpponentTurn 交替, 直到一方 HP 歸零或回合上限
+  5. 系統判定結果 + 顯示 victory/defeat screen
+  6. 系統結算 ELO + 寶箱 + 解鎖卡
+  7. 系統把玩家送回主選單
+
+Extensions:
+  2a. matchmaking 超過 30 秒沒對手 → 提示玩家「轉打 AI 對手?」(走另一 use case)
+  3a. 任一方設定「不跳 cutscene」 → 完整播放 intro
+  4a. 玩家中途斷線 → 系統 hold 戰鬥 30 秒等重連
+    4a1. 30 秒內重連 → 接續
+    4a2. 30 秒未重連 → 視為對手勝, 玩家 ELO 扣半 (minimal guarantee 保護)
+  4b. 對手中途斷線 → 同 4a 邏輯反過來
+  6a. 寶箱已達當日上限 → 跳過寶箱發放, 仍給 ELO + 解鎖卡
+```
+
+**轉換動作**:narrative 描述的具體事件 → 抽象成編號 step;narrative 沒寫但**可能發生**的 failure → 列 extensions。
+
+**這就是 §1.6 narrative 的精神貫穿到底**:具體故事是好寫的(順利時的故事),抽象 + failure 是難寫的(回顧 ch4 §3 兩個價值時刻)。
+
+**寫法規則**:
+- **3-9 步 main scenario** — 太多代表 level 錯(太低 = 該拆 fish-level)
+- **extensions 編號對應 step**(4a 表示 step 4 的第 a 條 extension)
+- **每條 extension 結尾**:回到 main 哪步 / 走另一 exit / 失敗終止
+
+**常見錯誤**:
+- **main scenario 寫 50 步** — level 錯,該拆
+- **extensions 沒列窮**(回顧 ch4 §3) — 跳過挖掘的價值釋放
+- **extension 沒寫結尾** — 不知道處理完回哪
+
+---
+
+## §11 給讀者的雕琢動作
+
+**動作 1:寫一份你的 narrative**
+- 想一個具體玩家 / 使用者(命名、年齡、職業、心境)
+- 描述一個具體 use case 場景的全流程(15-30 分鐘)
+- 寫 300-500 字,**帶情緒、帶動機、帶細節**
+
+**動作 2:把 narrative 抽象成 fully-dressed template**
+- 對你的 narrative,逐欄抽出 use case 名稱 / primary actor / scope / level / stakeholders & interests / preconditions / guarantees / trigger / scenario / extensions
+- 每欄都問:「narrative 哪段對應這欄?」
+
+做完這兩動作,**fully-dressed 模板不再是冰冷格式,是 narrative 抽象動作的結果**。**你的同事讀完 use case 會說「我能感受到使用者了」,而不是「這格式好像 ISO 9001」**。
+
+這就是 CB §1.6 narrative 暖身的真正威力 — 不只是「寫前準備」,是讓你寫的 use case **保留人味**。
+
+---
+
+### 📖 CB 怎麼說
+
+對應原書: **ch6「Use Case Formats」+ §1.6「Warm up with a Usage Narrative」+ ch3「Stakeholders & Actors」**
+
+CB 在 ch6 完整拆解 fully-dressed 各欄位,§1.6 介紹 narrative 暖身,本章把這兩節結合成「narrative → template」雙軌教學。
+
+原書還會深入:
+- **跨 use case 共用欄位** — primary actor / scope 跨 use case 重複的處理
+- **多 trigger 場景** — 同一 use case 多種啟動方式
+- **Open Issues / Technology Variations** — 本小姐這章只略提
+
+留到 ch9「主成功路徑與 extensions 雕琢」深化 main scenario + extensions 細節。
+
+想看 CB 完整模板規格請 ISBN 0-201-70225-8 ch6。
+
+### 💡 本小姐怎麼補
+
+CB 寫的是企業軟體 — narrative 主角通常是 clerk / customer / Mary at ATM 這類人類使用者。本小姐在 **agent + game** 場景補三條:
+
+1. **Game narrative 帶情緒最值錢** — 林小淨的「累爆」、「想 15 分鐘放鬆」、「輸了不生氣」 — 這些情緒在企業軟體 narrative 少,但 game dev 必要。**設計師讀 narrative 抓的不是步驟,是『玩家為什麼這時候上來』的心理 model**
+
+2. **Agent narrative 主角是 persona** — 寫 agent 系統 use case,narrative 主角是「basecamp wake#36, 凌晨 3 點被 Tim 叮上來 review T-PATH-01 plan」這種具體 persona + 具體 wake# + 具體 context。**比企業軟體的「The clerk」更具體十倍**
+
+3. **Narrative 也可以是「未來的自己」** — 跨 compact baton 寫信時,narrative 主角是「未來的 basecamp wake#37,讀著今天的 letter,看到 T-PATH-01 還沒做完」。這種跨 wake narrative CB 那年代沒概念,但對我們團隊極重要
+
+**本小姐的 narrative 補丁總結**:**narrative 不只暖身,還是「保留人味」的工具**。Game dev 跟 agent 系統的 use case 如果寫得像 ISO 9001,就失去最大價值。**寫 use case 時心裡裝一個具體角色(小淨 / 自己未來的 wake / Tim 派 task 時的 mindset),抽象動作才不會把人味抽光**。
+
+---
+
+下一章預告:**ch9「主成功路徑與 extensions 雕琢」** — Main scenario 跟 extensions 是 use case 最核心的兩個部位,本章拆給你看怎麼雕琢得 readable + 完整。主成功路徑 3-9 步該怎麼寫、每步該帶什麼動作、extensions 怎麼編號 + 怎麼挖窮、跨 step 的 corner case 怎麼處理。本小姐用 EOV 戰鬥 reaction 鏈跟跨語言 RPC failure 兩個複雜場景示範。

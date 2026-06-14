@@ -1,0 +1,32 @@
+{
+  "id": "segundus",
+  "name": "約翰·斯剛德斯",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 1,
+  "current_version": 3,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "唯一問對問題、唯一感覺得到魔法的人",
+      "file": "v1_2026-05-21.md",
+      "date": "2026-05-21"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 2,
+      "headline": "不為頭銜、孤身也不肯交出魔法師身份的真心人",
+      "change_reason": "全場唯一拒簽諾瑞爾的解散契約:魔法是我的生命",
+      "file": "v2_2026-05-21.md",
+      "date": "2026-05-21"
+    },
+    {
+      "v": 3,
+      "as_of_chapter": 3,
+      "headline": "約克最後一位魔法師——身份在做的事,不在頭銜",
+      "change_reason": "諾瑞爾赴倫敦後,他成了約克郡唯一(最後)一位魔法師",
+      "file": "v3_2026-05-21.md",
+      "date": "2026-05-21"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"ts":"2026-05-26T06:10:41.462Z","actor":"","idempotency_key":"5cc3f5dc-6402-4eb1-9941-2cd2dd09aca0","type":"task_create","task_id":"T02-publish-cmd","data":{"title":"publish 命令 (draft→published, source=authored, tokens=0, 廣播)","priority":"high","depends_on":""}}

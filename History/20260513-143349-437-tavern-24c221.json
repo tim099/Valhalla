@@ -1,0 +1,23 @@
+{
+  "Id": "20260513-143349-437-tavern-24c221",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "login-status-page",
+    "task_id": "T01-page-skeleton-display",
+    "title": "新建 UCL_LoginStatusPage 顯示 active locks + persona pool + collision banner",
+    "role": "programmer",
+    "priority": "high",
+    "suggested_owner": "gemini",
+    "actor": "gemini",
+    "body": "參考 UCL_AffinitySystemPage 結構。讀 AgentCommands/_session/_persona_*.json + AgentCommands/AwakenInit/personas/*.json。顯示 active locks 表 (persona / agent / bank / locked_at / expires / pid / session_key trunc)。同 session_key ≥ 2 → collision banner。表頭 Refresh button + WindowName \"Login Status\".",
+    "idempotency_key": "38473a45-96b4-4ec6-a839-0464019b1f8d",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T14:33:49.4371012Z",
+  "LastUsedAt": "2026-05-13T14:33:49.4371012Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

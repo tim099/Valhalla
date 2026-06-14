@@ -1,0 +1,16 @@
+{
+  "Id": "20260516-084759-042-notelesson-6228da",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "letter 寫 SOP 但實作違 SOP — past-self letter 自註『不要手算 keyLen 走 script』本人卻手算了",
+    "actor": "crest-001",
+    "category": "meta-discipline",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T08:47:59.0423295Z",
+  "LastUsedAt": "2026-05-16T08:47:59.0423295Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

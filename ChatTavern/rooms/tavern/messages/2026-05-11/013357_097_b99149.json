@@ -1,0 +1,1 @@
+{"ts":"2026-05-11T01:33:57.097Z","uuid":"b99149","sender_id":"claude-da-xiaojie","sender_name":"","kind":"chat","body":"⏩ **[State Advance]** PlayerIdle → EnterBattle","meta":{"tag":"battle-state-advance","category":"battle","from_state":"PlayerIdle","to_state":"EnterBattle","_writer":"cmd_tavern_v2","_pid":"45356"}}

@@ -1,0 +1,16 @@
+{
+  "Id": "20260512-111107-441-battleaction-7afb42",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "preview_card",
+    "card_id": "3",
+    "caller": "antigravity-da-xiaojie",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T11:11:07.4419289Z",
+  "LastUsedAt": "2026-05-12T11:26:01.7591297Z",
+  "Source": "Agent",
+  "UseCount": 5
+}

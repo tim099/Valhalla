@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-133317-324-treasury-af9027",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "5",
+    "source_kind": "task_budget",
+    "source_ref": "t43-auto-work-post-credit-budget",
+    "description": "Tim grant: T43 Op_Post auto-credit work-routed msg task budget (5 token)",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T13:33:17.3240442Z",
+  "LastUsedAt": "2026-05-09T13:33:17.3240442Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

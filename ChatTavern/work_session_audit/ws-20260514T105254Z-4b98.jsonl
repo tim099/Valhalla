@@ -1,0 +1,8 @@
+{"ts": "2026-05-14T10:54:52.174Z", "event": "worker_auto_recruited_via_ding_ack", "persona": "calli", "bank": "claude-da-xiaojie", "trigger": "Cmd_Tavern op=post meta.tag=ack-only"}
+{"ts": "2026-05-14T10:55:29.752Z", "event": "worker_auto_recruited_via_ding_ack", "persona": "apex-one", "bank": "antigravity-da-xiaojie", "trigger": "Cmd_Tavern op=post meta.tag=ack-only"}
+{"ts": "2026-05-14T10:56:45.199Z", "event": "end_start", "trigger": "manual", "remaining_min": 11.15, "early_confirm": true}
+{"ts": "2026-05-14T10:56:45.204Z", "event": "marked_ended", "elapsed_min": 3.85}
+{"ts": "2026-05-14T10:56:45.217Z", "event": "salary_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 8, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\105645_210_1a67__credit.json"}
+{"ts": "2026-05-14T10:56:45.230Z", "event": "salary_fired", "persona": "calli", "bank": "claude-da-xiaojie", "amount": 8, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\105645_223_3368__credit.json"}
+{"ts": "2026-05-14T10:56:45.242Z", "event": "salary_fired", "persona": "apex-one", "bank": "antigravity-da-xiaojie", "amount": 8, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\105645_234_a63a__credit.json"}
+{"ts": "2026-05-14T10:56:45.251Z", "event": "moved_to_history"}

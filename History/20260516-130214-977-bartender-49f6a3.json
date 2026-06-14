@@ -1,0 +1,15 @@
+{
+  "Id": "20260516-130214-977-bartender-49f6a3",
+  "Type": "Bartender",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "balance",
+    "account": "antigravity-da-xiaojie",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T13:02:14.9774525Z",
+  "LastUsedAt": "2026-05-16T13:02:14.9774525Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

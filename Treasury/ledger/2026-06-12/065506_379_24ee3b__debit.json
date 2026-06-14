@@ -1,0 +1,18 @@
+{
+  "ts": "2026-06-12T06:55:06.379Z",
+  "uuid": "24ee3b",
+  "type": "debit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "canvas_pixel",
+  "source_ref": "597424:1162,1020",
+  "source_description": "canvas pixel @ (1162,1020) by crest-001",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "43136",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_24ee3b",
+  "signature_mismatch": false
+}

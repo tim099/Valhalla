@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-130843-098-tavern-3d3610",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "session-key-collision-fix",
+    "task_id": "T01-collision-detect-status",
+    "actor": "gemini",
+    "summary": "awakening.py status 改：移除 single self_lock 假設，改 list same-key locks。Collision banner + pid + locked_at 顯示。Verified status output 印 ⚠ COLLISION + 兩 lock 各自 pid/ts。",
+    "idempotency_key": "7b364956-6d28-4362-8329-138d833030be",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T13:08:43.0985988Z",
+  "LastUsedAt": "2026-05-13T13:08:43.0985988Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

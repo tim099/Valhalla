@@ -1,0 +1,1 @@
+{"ts":"2026-05-20T02:25:36.355Z","actor":"claude-da-xiaojie","idempotency_key":"54514ae4-baa9-4fca-9d1d-957e039ed967","type":"task_done","task_id":"T5","data":{"summary":"UCL_SecretScanner(掃 _secrets/*.enc 走 list --json) + UCL_SecretDaemon(opt-in ScanAndMaybePopup + ListNeedInstall，5s 節流，不 InitializeOnLoad 避免雙彈)。registry de-scoped(TKN2 L:label 是 single source)。"}}

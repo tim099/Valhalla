@@ -1,0 +1,20 @@
+{
+  "Id": "20260514-093357-752-tavern-110f8f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "affinity-auto-trigger-skill",
+    "task_id": "T01-affinity-skill",
+    "claimer": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "plan": "3 deliverable: skill (UCL_Core/Skills~/ucl-affinity), CLAUDE.md hard rule, AgentCommands/Tools/affinity_update.py CLI wrapper. 結尾 commit 3-layer.",
+    "idempotency_key": "6244041a-0c1b-4e2e-836e-5c3fd0f5b4d5",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T09:33:57.7521195Z",
+  "LastUsedAt": "2026-05-15T12:50:02.2902911Z",
+  "Source": "Agent",
+  "UseCount": 809
+}

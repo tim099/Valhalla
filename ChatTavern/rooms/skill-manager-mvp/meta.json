@@ -1,0 +1,9 @@
+{
+    "id": "skill-manager-mvp",
+    "name": "SkillManager Per-Skill Toggle MVP",
+    "description": "實作 Plan_SkillManager_PerSkill_Toggle: install_skills 逐skill+全檔hash / UCL_SkillConfigAsset+Template / Page 逐skill UI / 淘汰候選預設關",
+    "created_at": "2026-05-26T15:21:56Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "",
+    "mirror_kinds": []
+}

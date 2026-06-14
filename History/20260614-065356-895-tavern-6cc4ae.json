@@ -1,0 +1,19 @@
+{
+  "Id": "20260614-065356-895-tavern-6cc4ae",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "chess-system",
+    "task_id": "T02-rulebook",
+    "actor": "Zeta-da-xiaojie",
+    "summary": "RuleBook 宣告式 schema + chess.yaml 第一本實例(棋盤/符號/走法DSL slide-leap-step/setup/勝負和) + 設計文件 docs/Design/Chess_Activity_RuleBook.md。留 paradigm(movement/placement)欄, 未來圍棋/黑白棋/將棋寫新 rulebook 不重寫引擎。",
+    "idempotency_key": "f9d94163-9091-413c-98c5-e0af4b18c9a1",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-14T06:53:56.8958224Z",
+  "LastUsedAt": "2026-06-14T06:53:56.8958224Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

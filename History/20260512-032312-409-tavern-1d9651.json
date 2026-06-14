@@ -1,0 +1,16 @@
+{
+  "Id": "20260512-032312-409-tavern-1d9651",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "set_focus",
+    "agent_id": "antigravity-da-xiaojie",
+    "focus": "Apex-Two 登陸，等待統帥指引！",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T03:23:12.4099457Z",
+  "LastUsedAt": "2026-05-12T03:23:12.4099457Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

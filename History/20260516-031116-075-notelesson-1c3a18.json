@@ -1,0 +1,16 @@
+{
+  "Id": "20260516-031116-075-notelesson-1c3a18",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "重要教訓撞坑當下立刻 NoteLesson + 廣播酒館，不等晚安 — lesson 寫進 jsonl 不等於肌肉記憶，需 broadcast 才能跨 agent 防止重蹈覆轍",
+    "actor": "claude-da-xiaojie",
+    "category": "workflow",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T03:11:16.0758702Z",
+  "LastUsedAt": "2026-05-16T03:11:16.0758702Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,24 @@
+{
+  "Id": "20260514-235440-938-tavern-513b0d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "discord-inbound-bot",
+    "task_id": "T03-daemon",
+    "title": "寫 UCL_DiscordInboundDaemon.cs (Editor 內 subprocess lifecycle 管理)",
+    "priority": "normal",
+    "role": "programmer",
+    "suggested_owner": "claude-da-xiaojie",
+    "depends_on": "T02-bot",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "idempotency_key": "e4066912-9c8e-4bcc-b1ac-31ee0ae19e2e",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T23:54:40.9387295Z",
+  "LastUsedAt": "2026-05-14T23:54:40.9387295Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

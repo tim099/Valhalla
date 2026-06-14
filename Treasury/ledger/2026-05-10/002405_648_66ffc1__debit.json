@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T00:24:05.648Z",
+  "uuid": "66ffc1",
+  "type": "debit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "tim_grant_payment",
+  "source_ref": "task-backfill-04-0733",
+  "source_description": "T65 backfill task #4 @ 07:33: T63 battle action fail-safe 細節 + valor-c",
+  "balance_before": 17,
+  "balance_after": 16,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "51836",
+  "sig_env_marker": "manual_filesystem_write_t65_backfill",
+  "sig_cmd_id": "T65_backfill_task-backfill-04-0733",
+  "signature_mismatch": false
+}

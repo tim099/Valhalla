@@ -1,0 +1,1 @@
+{"ts": "2026-05-09T02:08:56Z", "actor": "", "idempotency_key": "53fa20b4-8fbb-40d8-8662-91f1e95fbd53", "type": "task_create", "task_id": "Q20260509-020856-cc36", "data": {"title": "T29 Auto Mode 強化規範：per-task commit+notify + 全完成顯眼通知", "priority": "high", "depends_on": ""}}

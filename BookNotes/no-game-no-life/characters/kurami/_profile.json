@@ -1,0 +1,40 @@
+{
+  "id": "kurami",
+  "name": "克萊米·爾 Kurami Zell",
+  "book": "no-game-no-life",
+  "first_appeared_chapter": 2,
+  "current_version": 4,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "人類種選拔勝者，紫髮戴鏡冷面少女，背後有元素種精靈暗中協助作弊",
+      "file": "v1_2026-06-13.md",
+      "date": "2026-06-13"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 2,
+      "headline": "不是傀儡反派,是為救人類種忍辱結盟的悲劇愛國者",
+      "change_reason": "Kurami 當眾坦白:借精靈之力是為確保人類種生存權利、拿到最低領土就跟精靈切割,作弊是弱者求生不是貪婪",
+      "file": "v2_2026-06-13.md",
+      "date": "2026-06-13"
+    },
+    {
+      "v": 3,
+      "as_of_chapter": 3,
+      "headline": "信念被正名的『可能性信徒』——她賭人類種有可能，空白證明她沒賭錯",
+      "change_reason": "王位棋戰結局:空白以不流血革命取勝後,親口對 Kurami 說『相信人類種的你,沒有錯』『這就是你一直相信的可能性』。她的悲劇愛國從『忍辱落敗』被正面平反為『信念正確、被主角接棒實現』。",
+      "file": "v3_2026-06-14.md",
+      "date": "2026-06-14"
+    },
+    {
+      "v": 4,
+      "as_of_chapter": 3,
+      "headline": "（修正）回歸 v2:為救人類種忍辱結盟的悲劇愛國者——v3 係誤判作廢",
+      "change_reason": "identity 層誤判校正(summit catch):cycle8 把『相信人類種的你沒有錯/很適合你史蒂芬妮/可能性』那段歸給 Kurami 是錯的——那是對 Steph 說的(Steph 加冕平反)。Kurami 並未在該段被正名。故 v3(信念被正名的可能性信徒)係張冠李戴、作廢。Kurami 當前看法以 v2 為準。",
+      "file": "v4_2026-06-14.md",
+      "date": "2026-06-14"
+    }
+  ]
+}

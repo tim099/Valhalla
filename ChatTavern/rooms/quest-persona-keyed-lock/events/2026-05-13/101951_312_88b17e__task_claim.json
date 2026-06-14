@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T10:19:51.312Z","actor":"claude-da-xiaojie","idempotency_key":"1bd69a4b-35cb-4797-b01a-aa9fc3594f78","type":"task_claim","task_id":"T3","data":{"lease_until":"2026-05-14T10:19:51Z","plan":"goodnight 用 persona 找 lock; 必要時 require --persona explicit; 拿掉 session_key collision check (unsafe_keys 邏輯廢棄, persona-keyed 後 collision 不可能)"}}

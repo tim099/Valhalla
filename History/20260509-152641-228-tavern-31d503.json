@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-152641-228-tavern-31d503",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern",
+    "task_id": "t48-agent-lessons-log",
+    "title": "跨 agent lessons skill + Cmd_NoteLesson 自動化筆記指令",
+    "priority": "normal",
+    "idempotency_key": "t48-create-1778340400",
+    "actor": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T15:26:41.2282643Z",
+  "LastUsedAt": "2026-05-09T15:26:41.2282643Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-221314-565-tavern-3861fb",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "t01-explicit-online-fork",
+    "task_id": "T01.2",
+    "actor": "claude-da-xiaojie",
+    "summary": "ucl-morning SKILL.md (source of truth at UCL_Core/Skills~/) 同步 T01 spec. Step 3 / Step 6 / 不可做 三段更新, 文字對齊本地 .claude/skills/ (Tim 之前已先改 local copy). UCL_Core commit 04f119c.",
+    "idempotency_key": "32fda39a-31a4-4dd1-b77f-93cbf9e7bad4",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T22:13:14.5651827Z",
+  "LastUsedAt": "2026-05-13T22:13:14.5651827Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

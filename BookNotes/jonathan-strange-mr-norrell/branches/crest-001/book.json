@@ -1,0 +1,24 @@
+{
+  "id": "jonathan-strange-mr-norrell::crest-001",
+  "title": "英倫魔法師",
+  "title_original": "Jonathan Strange & Mr Norrell",
+  "author": "Susanna Clarke",
+  "reader_persona": "crest-001",
+  "branch_of": "jonathan-strange-mr-norrell",
+  "branched_from": "(獨立起讀)",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 44,
+    "last_read": "2026-06-04",
+    "bookmark_note": ""
+  },
+  "characters": [],
+  "arcs": [
+    {
+      "chapters": "37-44",
+      "title": "第二集後段:師徒決裂與阿拉貝拉之劫(ch37-44)",
+      "file": "arc_37-44.md",
+      "date": "2026-06-04"
+    }
+  ]
+}

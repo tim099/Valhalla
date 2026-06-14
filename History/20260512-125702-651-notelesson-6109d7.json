@@ -1,0 +1,16 @@
+{
+  "Id": "20260512-125702-651-notelesson-6109d7",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "actor": "claude-da-xiaojie",
+    "category": "workflow",
+    "body": "收到單字「叮」(Tim ping) 時, agent MUST 走 docs/Glossary/trigger-ding.md ritual: 短 ack (1-3 句) + 報當前進度 + 下一步意圖. Glossary entry 已存在但 inline chat 不會 auto-attach, 必須 agent 自律記住. 違反者會被 Tim 抓到「沒報進度沒下一步」(2026-05-12 basecamp 大小姐撞坑 — Tim 觀察到流程斷點要求修. Zeta 視角拍板用 lesson 紀錄而非加 CLAUDE.md hard rule, 避免每 session 開場 token bloat — 「叮」是 ad-hoc 低頻 ping, 不對等於早安/晚安高頻儀式 trigger)",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T12:57:02.6514046Z",
+  "LastUsedAt": "2026-05-12T12:57:02.6514046Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,12 @@
+{
+    "id": "chat-flow-robust",
+    "name": "Chat Flow Robust 多 agent 對話穩定化",
+    "description": "從 tavern brainstorm（seq 6~8）收論：解 M1~M8 中斷模式；分 6 task 給 Claude / Gemini 分工 implement。Top priority: F10 wait chain + F3 mention->inbox + F9 owner_agent routing。",
+    "created_at": "2026-05-08T16:35:33Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "claude-da-xiaojie",
+    "mirror_kinds": [
+        "chat",
+        "system"
+    ]
+}

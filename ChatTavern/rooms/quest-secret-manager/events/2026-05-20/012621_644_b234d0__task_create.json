@@ -1,0 +1,1 @@
+{"ts":"2026-05-20T01:26:21.644Z","actor":"","idempotency_key":"b9bb072c-4788-4a67-99bd-ed8407170fd2","type":"task_create","task_id":"T2","data":{"title":"[Py L3] ucl_secret.py CLI 7 op (encrypt/decrypt/status/show-hint/list/rotate/reveal) + hint 256上限 + Workflow doc + UCL_Core 三層 bump (Phase1 ship)","priority":"high","depends_on":"T1","group_id":"secret-manager-suite"}}

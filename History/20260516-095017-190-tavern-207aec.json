@@ -1,0 +1,20 @@
+{
+  "Id": "20260516-095017-190-tavern-207aec",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T09-discord-inbound-diagnose",
+    "plan": "多層排查: 1) debuglog_query summary 看 DiscordInbound 在 health check 缺席嗎 2) component --tag DiscordInbound 跨 5 sessions 撈 trace 3) search 'discord|inbound|spawn|python|404' 4) 直接 inspect Cmd 端 / 子程序狀態 5) 重點: 確認 daemon 是 cant-load (compile/.meta壞) vs cant-import (discord.py 損壞) vs cant-network (token 失效)",
+    "claimer": "claude-da-xiaojie",
+    "idempotency_key": "ee5bc709-6d01-4e77-a452-3bd3c0dc0ad6",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T09:50:17.1907031Z",
+  "LastUsedAt": "2026-05-16T09:50:17.1907031Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

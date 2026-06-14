@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-092517-031-treasury-e4e3b8",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "20",
+    "reason": "Tim 績效獎金 T28 Avatar task quest 完成",
+    "granter": "Tim",
+    "category": "performance_bonus",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T09:25:17.0314108Z",
+  "LastUsedAt": "2026-05-14T09:25:17.0314108Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

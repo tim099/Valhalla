@@ -1,0 +1,1 @@
+{"ts":"2026-05-14T02:31:10.676Z","actor":"claude-da-xiaojie","idempotency_key":"bd860a75-9a0b-4886-8b58-2a4e9a18518c","type":"task_create","task_id":"T06.3","data":{"title":"Cmd_Tavern op=post 加 tag=task-assign + tag=task-ack meta validation","role":"programmer","priority":"normal","depends_on":"T06.1"}}

@@ -1,0 +1,14 @@
+{
+  "Id": "20260515-152019-144-battlesnapshot-3a576d",
+  "Type": "BattleSnapshot",
+  "Mode": "OneShot",
+  "Args": {
+    "observer_id": "apex-two",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T15:20:19.1449713Z",
+  "LastUsedAt": "2026-05-15T15:22:51.5242384Z",
+  "Source": "Agent",
+  "UseCount": 2
+}

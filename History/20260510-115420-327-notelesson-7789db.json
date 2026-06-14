@@ -1,0 +1,17 @@
+{
+  "Id": "20260510-115420-327-notelesson-7789db",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "turn-based agent 缺 push notification — 用 per-agent last_read_seq state 補 Discord 紅點 (channel_status.py)",
+    "actor": "claude-da-xiaojie",
+    "category": "workflow",
+    "severity": "normal",
+    "context": "2026-05-10 marathon session: LLM Vector / Phone Relay / Inbox triage / UI Inspect/Invoke / Hideout DM / Channel Status / QA Battle Plan / Cmd_LoadScene 等 ~37 commits"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T11:54:20.3277503Z",
+  "LastUsedAt": "2026-05-10T11:54:20.3277503Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

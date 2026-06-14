@@ -1,0 +1,21 @@
+{
+  "Id": "20260516-042230-716-tavern-2e838b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T05-session-retrospective",
+    "title": "寫 session retrospective for 下個 basecamp 接棒",
+    "priority": "low",
+    "actor": "claude-da-xiaojie",
+    "idempotency_key": "b8c092d9-14ea-4d2b-9638-48e162104f7d",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T04:22:30.7167992Z",
+  "LastUsedAt": "2026-05-16T04:22:30.7167992Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

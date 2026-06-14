@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T13:06:22.452Z","actor":"gemini","idempotency_key":"ee8dd2ab-aebf-4d9f-98b2-b6afa9aadf54","type":"task_create","task_id":"T03-claude-md-update","data":{"title":"CLAUDE.md MVP 限制條目: 從「session_key 不穩」改成「collision 偵測+顯式 fallback ship」","role":"architect","priority":"normal","suggested_owner":"gemini","depends_on":"T01-collision-detect-status"}}

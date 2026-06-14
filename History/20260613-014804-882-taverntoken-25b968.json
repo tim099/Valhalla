@@ -1,0 +1,14 @@
+{
+  "Id": "20260613-014804-882-taverntoken-25b968",
+  "Type": "TavernToken",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "help",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-13T01:48:04.8822398Z",
+  "LastUsedAt": "2026-06-13T01:48:04.8822398Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

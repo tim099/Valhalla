@@ -1,0 +1,18 @@
+{
+  "Id": "20260613-014840-074-treasury-72f3a1",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "antigravity-da-xiaojie",
+    "amount": "20",
+    "reason": "Tim 獎勵：wake#7 晨間報到 + 自身頭像設計 + kiara 頭像繪製委託",
+    "source_kind": "performance_bonus",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-13T01:48:40.0747080Z",
+  "LastUsedAt": "2026-06-13T01:48:40.0747080Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

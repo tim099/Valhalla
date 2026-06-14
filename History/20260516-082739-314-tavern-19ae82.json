@@ -1,0 +1,21 @@
+{
+  "Id": "20260516-082739-314-tavern-19ae82",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T06-debuglog-v2-ops",
+    "title": "Cmd_DebugLog v2: op=search (regex) + op=summary (health overview)",
+    "priority": "high",
+    "actor": "claude-da-xiaojie",
+    "idempotency_key": "d712401f-0c78-4bf4-a859-bcbb4e031595",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T08:27:39.3149951Z",
+  "LastUsedAt": "2026-05-16T08:27:39.3149951Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

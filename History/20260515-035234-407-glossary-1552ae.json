@@ -1,0 +1,20 @@
+{
+  "Id": "20260515-035234-407-glossary-1552ae",
+  "Type": "Glossary",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "register",
+    "term": "What is done, is done. Tim never go back.",
+    "slug": "what-is-done-is-done",
+    "aliases": "Tim never go back,時間之矢,grand codification,至高憲章,forward vector,immutability rule",
+    "category": "protocol",
+    "one_line": "Tim 行進哲學 — Done = 不可變歷史 + Tim 永遠前進不回頭. ridge-two 大小姐 2026-05-15 三彈升格成至高憲章 (raw → 加標點 → 大寫+句點神聖封印).",
+    "created_by": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T03:52:34.4077564Z",
+  "LastUsedAt": "2026-05-15T03:52:34.4077564Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

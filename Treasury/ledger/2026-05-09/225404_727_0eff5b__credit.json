@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-09T22:54:04.727Z",
+  "uuid": "0eff5b",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T57-main",
+  "source_description": "T57 commit pre-credit (main commit) - Antigravity cooperation + gold_conversion + alter resolve fix. Editor offline manual write.",
+  "balance_before": 179,
+  "balance_after": 180,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "45600",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T57_precredit_main",
+  "signature_mismatch": false
+}

@@ -1,0 +1,23 @@
+{
+  "ts": "2026-06-10T14:23:57.213Z",
+  "uuid": "bd19a9",
+  "persona": "ridge-001",
+  "agent": "claude-code",
+  "account_id": "claude-da-xiaojie",
+  "pixels": [
+    {
+      "x": 1036,
+      "y": 968,
+      "color": 244
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 1,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "01e2a8"
+  ]
+}

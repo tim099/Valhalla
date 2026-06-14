@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T10:18:10.975Z","actor":"claude-da-xiaojie","idempotency_key":"3d5d16f8-d779-47ec-ae25-d03c38d43059","type":"task_claim","task_id":"T2","data":{"lease_until":"2026-05-14T10:18:10Z","plan":"實作: 改 lock_path/write_lock/read_lock/remove_lock signature 從 session_key 改 persona; morning Step 0 邏輯改 same-persona online check; 拿掉 implicit fork (要 --fork-name 才 fork)"}}

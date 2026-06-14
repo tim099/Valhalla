@@ -1,0 +1,16 @@
+{
+  "Id": "20260511-020538-528-notelesson-5949fd",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "UniTask ContinuationQueue NRE 在 EditorApplication.isPlaying toggle 時偶發 — Unity/UniTask integration race condition, 我們 Cmd code 不該擅自加 try-catch swallow; 視為 transient noise log 可忽略 (PlayMode entry 仍成功)",
+    "actor": "claude-da-xiaojie",
+    "category": "debug",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T02:05:38.5285745Z",
+  "LastUsedAt": "2026-05-11T02:05:38.5285745Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

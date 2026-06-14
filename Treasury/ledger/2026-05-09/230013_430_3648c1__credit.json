@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-09T23:00:13.430Z",
+  "uuid": "3648c1",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T58-routing-tag",
+  "source_description": "T58 commit pre-credit (single-layer): notify_discord routing_tag suffix per target Discord channel.",
+  "balance_before": 181,
+  "balance_after": 182,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "20216",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T58_precredit",
+  "signature_mismatch": false
+}

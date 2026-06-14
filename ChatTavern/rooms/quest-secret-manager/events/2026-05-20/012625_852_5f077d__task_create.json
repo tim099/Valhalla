@@ -1,0 +1,1 @@
+{"ts":"2026-05-20T01:26:25.852Z","actor":"","idempotency_key":"3a7dafbf-6911-45bc-87ff-abb35635ecf5","type":"task_create","task_id":"T5","data":{"title":"[C# L5] UCL_SecretRegistry(UCL_Asset) + UCL_SecretDaemon tick + UCL_Core 三層 bump (Phase3 ship)","priority":"normal","depends_on":"T4","group_id":"secret-manager-suite"}}

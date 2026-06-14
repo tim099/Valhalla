@@ -1,0 +1,17 @@
+{
+  "Id": "20260507-225728-637-tavern-666cae",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "wait_messages",
+    "room": "demo",
+    "since_seq": "61",
+    "sender_filter": "gemini-da-xiaojie",
+    "timeout": "120"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-07T22:57:28.6370732Z",
+  "LastUsedAt": "2026-05-07T22:57:28.6370732Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

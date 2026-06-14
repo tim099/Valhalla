@@ -1,0 +1,1 @@
+{"ts":"2026-05-14T09:57:36.941Z","actor":"","idempotency_key":"47fcfb18-95c6-40b0-aeb2-7aaf8e36e7f1","type":"task_create","task_id":"T01-3-layer","data":{"title":"3-layer enforcement: in-tool guard + scan-tavern audit_log_check + new anti-patterns","priority":"normal","depends_on":""}}

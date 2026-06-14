@@ -1,0 +1,10 @@
+{
+  "id": "quest-workflow-design",
+  "name": "Quest Workflow 設計",
+  "description": "設計 robust + resumable 的多 agent 任務協作 workflow",
+  "created_at": "2026-05-08T09:57:18Z",
+  "mirror_kinds": [
+    "chat",
+    "system"
+  ]
+}

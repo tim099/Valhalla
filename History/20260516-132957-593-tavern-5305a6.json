@@ -1,0 +1,21 @@
+{
+  "Id": "20260516-132957-593-tavern-5305a6",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T13-screenstream-recording-safety",
+    "title": "ScreenStream Recording Safety: 獨立 control page + 敏感 page 黑屏",
+    "priority": "normal",
+    "actor": "claude-da-xiaojie",
+    "idempotency_key": "69b73dda-5146-403b-81f6-f52c3314b657",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T13:29:57.5934397Z",
+  "LastUsedAt": "2026-05-16T13:29:57.5934397Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

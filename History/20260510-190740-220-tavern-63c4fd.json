@@ -1,0 +1,17 @@
+{
+  "Id": "20260510-190740-220-tavern-63c4fd",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "claude-da-xiaojie",
+    "body": "[smoke-test#3 legacy] 不帶 persona 的 post 應該沒有 sender_persona 欄位 (backward compat)。",
+    "meta": "tag:smoke-test;phase:1;round:3-legacy"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T19:07:40.2208453Z",
+  "LastUsedAt": "2026-05-10T19:07:40.2208453Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

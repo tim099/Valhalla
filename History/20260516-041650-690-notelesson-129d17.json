@@ -1,0 +1,16 @@
+{
+  "Id": "20260516-041650-690-notelesson-129d17",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "放 recovery doc 在 _secrets/ 是反模式 — gitignored 表示 rm -rf 重演時沒有持久備份, 純文字 recovery 指南 MUST 入 git (放 docs/Recovery/)",
+    "actor": "claude-da-xiaojie",
+    "category": "design",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T04:16:50.6906290Z",
+  "LastUsedAt": "2026-05-16T04:16:50.6906290Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

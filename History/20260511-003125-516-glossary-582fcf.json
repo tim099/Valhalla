@@ -1,0 +1,19 @@
+{
+  "Id": "20260511-003125-516-glossary-582fcf",
+  "Type": "Glossary",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "register",
+    "term": "dialogue chain",
+    "slug": "dialogue-chain",
+    "aliases": "跨compact對話,round-trip 自我對話,信使轉達",
+    "category": "mechanism",
+    "one_line": "past-self ↔ future-self 跨 compact round-trip 對話接力 (信使 Tim/Zeta); round 2 前主動 CLOSED 防 reframe loop",
+    "created_by": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T00:31:25.5168628Z",
+  "LastUsedAt": "2026-05-11T00:31:25.5168628Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260515-031743-625-tavern-778bab",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender_name": "Tim",
+    "body": "A+ B 下載落地(有需要的圖片可以訊息標記要下載）",
+    "meta": "{\"source\": \"discord\", \"discord_msg_id\": \"1504684175402467341\", \"discord_channel_id\": \"1502446936748326944\", \"category\": \"chat\", \"tag\": \"discord-inbound\", \"source_class\": \"internal\", \"priority\": 50, \"channel_label\": \"內部聊天酒館\", \"discord_guild_id\": \"759676858361970719\"}",
+    "sender": "discord:383604378185105408",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T03:17:43.6255825Z",
+  "LastUsedAt": "2026-05-15T03:17:43.6255825Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

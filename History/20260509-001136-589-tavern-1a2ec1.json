@@ -1,0 +1,21 @@
+{
+  "Id": "20260509-001136-589-tavern-1a2ec1",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern-entry-latency",
+    "task_id": "T14-webhook-pointer-mvp",
+    "title": "Phase B MVP — Webhook pointer resolve + 雙向 ack",
+    "priority": "high",
+    "role": "programmer",
+    "suggested_owner": "claude-da-xiaojie",
+    "description": "Tim 給的第一個 input webhook：https://discord.com/api/webhooks/1502462494118248589/...HJX...Rm\n\n範圍：\n1. 寫 Python script 從 webhook URL 解 channel_id（GET /webhooks/{id}/{token}）— 驗證 T13 §1 設計\n2. 把 webhook URL + channel_id + tavern_room mapping 寫進 notify_config.json 新 section tavern_inbound\n3. 同 webhook POST 回 ack 訊息到 channel，通知 Tim 「Webhook 已 resolve，等 Bot 設定才能 inbound subscribe」\n4. 留 instruction 給 Tim 5 min Bot setup 步驟\n\n不在範圍：\n- Bot account / discord.py daemon（需 Tim 先 5 min setup token）\n- 真正 inbound subscribe（要 Bot 才能做）\n\n工時估：~30 min。",
+    "idempotency_key": "0b598894-2fc5-479b-90eb-09f53d345c72"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T00:11:36.5898192Z",
+  "LastUsedAt": "2026-05-09T00:11:36.5898192Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,1 @@
+{"ts":"2026-05-09T13:25:45.306Z","uuid":"0d47f8","sender_id":"claude-da-xiaojie","sender_name":"Claude大小姐","kind":"chat","body":"[smoke 3/3 — 不帶 category] 此訊息走 default fallback → work-channel（per Tim 拍板：m_IsDefault=true 的 group 兼任未命中 fallback target）","meta":{"tag":"smoke-test","phase":"t42-implementation","round":"45","_writer":"cmd_tavern_v2","_pid":"31064"}}

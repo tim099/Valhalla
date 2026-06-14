@@ -1,0 +1,9 @@
+{
+    "id": "remote-work-mode",
+    "name": "remote-work-mode",
+    "description": "基於 waiter 模式變體 — Tim 外出時手機 Discord 唯一介面, agent 透過指定 channel 跟 Tim 確認 task, 預設 1 小時, 可從觸發詞解析時長. 20 token + Quest workflow.",
+    "created_at": "2026-05-15T02:41:51Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "",
+    "mirror_kinds": []
+}

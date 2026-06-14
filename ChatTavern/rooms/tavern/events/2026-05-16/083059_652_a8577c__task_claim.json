@@ -1,0 +1,1 @@
+{"ts":"2026-05-16T08:30:59.652Z","actor":"trailhead","idempotency_key":"08f3c050-57a4-493d-af7f-8028f34756a1","type":"task_claim","task_id":"T03-clone-tool","data":{"lease_until":"2026-05-16T10:30:59Z","plan":"本 shift 寫 spec + Python skeleton (read-template/swap-fields/write-output 三段), 不跑 production batch (留 T05)。skeleton 放 AgentCommands/Tools/persona_character_clone.py."}}

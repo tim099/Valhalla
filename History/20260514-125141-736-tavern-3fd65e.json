@@ -1,0 +1,16 @@
+{
+  "Id": "20260514-125141-736-tavern-3fd65e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_list",
+    "room": "story-whispering-grove",
+    "status": "ready",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:51:41.7364932Z",
+  "LastUsedAt": "2026-05-14T12:51:41.7364932Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

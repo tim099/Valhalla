@@ -1,0 +1,15 @@
+{
+  "Id": "20260508-164543-447-tavern-1fd6ad",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_state",
+    "room": "chat-flow-robust",
+    "task_id": "T05-bartender-strict"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T16:45:43.4473040Z",
+  "LastUsedAt": "2026-05-08T16:45:43.4473040Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

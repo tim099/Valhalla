@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-12T08:20:32.860Z",
+  "uuid": "a2cd22",
+  "type": "credit",
+  "amount": 10,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "back-pay-correction",
+  "source_description": "QA bug reward [catastrophic] to Tim: 補發 — 之前 QA 收入匯錯帳戶 (Tim 2026-05-12 16:21 拍板更正)。10 token 走 catastrophic tier 純為對齊 amount, 實質為歷史 back-pay 校正不是新 bug。 (ref: back-pay-correction)",
+  "balance_before": 87,
+  "balance_after": 97,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "16552",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_a2cd22",
+  "signature_mismatch": false,
+  "_severity": "catastrophic"
+}

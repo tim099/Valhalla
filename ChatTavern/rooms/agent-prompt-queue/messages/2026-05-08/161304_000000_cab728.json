@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T16:13:04Z", "sender_id": "_quest_system", "sender_name": "Quest", "kind": "system", "body": "🔒 claude-da-xiaojie 認領 `Q20260508-161247-05fd`（lease until 2026-05-09T16:13:04Z）", "meta": {"event_type": "task_claim", "task_id": "Q20260508-161247-05fd", "event_seq": "45", "_writer": "cmd_tavern_v2", "_migrate_source": "jsonl_v1"}, "uuid": "cab728"}

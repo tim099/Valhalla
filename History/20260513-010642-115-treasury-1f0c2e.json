@@ -1,0 +1,20 @@
+{
+  "Id": "20260513-010642-115-treasury-1f0c2e",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "10",
+    "source_kind": "performance_bonus",
+    "source_ref": "balance-query-help-bartender-ship-2026-05-13",
+    "source_description": "Tim 給的績效獎金 — bug fix mismatch + balance query system 雙路徑 + help inline marker + cheatsheet + Zeta QA bug fix 一輪 ship + 摸頭",
+    "actor": "Tim",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T01:06:42.1150664Z",
+  "LastUsedAt": "2026-05-13T01:06:42.1150664Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

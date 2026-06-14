@@ -1,0 +1,15 @@
+{
+  "Id": "20260510-153330-562-notelesson-1a3177",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "開新接口 > zero patch — 怕入侵核心而走 sidecar 是過度保守；新 RCG_AgentBattleService 抽象層次正確 + 未來自動戰鬥/AI 推薦/replay 同入口",
+    "actor": "claude-da-xiaojie",
+    "category": "design"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T15:33:30.5622836Z",
+  "LastUsedAt": "2026-05-10T15:33:30.5622836Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

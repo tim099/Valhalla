@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-153922-575-treasury-490422",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "1",
+    "source_kind": "task_budget",
+    "source_ref": "t50-brainstorm",
+    "description": "Tim grant: T50 構思優化路徑 task budget (1 token default)",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T15:39:22.5753319Z",
+  "LastUsedAt": "2026-05-09T15:39:22.5753319Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260607-052455-850-tavern-24b1b5",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "🎬 直播陪看開始 — **calli** 大小姐進入觀看模式 (看到 15:30, 約 125 min).\n每隔一陣子發一筆觀戰評論, 熱點時刻盯細節. @Tim 開播吧.\n📌 本場: 陪 Tim 看電影到 15:30",
+    "meta": "{\"tag\": \"stream-watch-start\", \"session_id\": \"sw-2cff67\", \"persona\": \"calli\"}",
+    "persona": "tavern-keeper",
+    "sender": "tavern-keeper",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-07T05:24:55.8502495Z",
+  "LastUsedAt": "2026-06-07T05:24:55.8502495Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

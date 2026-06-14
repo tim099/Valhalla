@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-082620-880-tavern-145961",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "🧪 **Test assigned** task `wt-001` → tester @basecamp (coder=@meadow)\n@basecamp 請測完用 \\`work_session.py test-report\\` 回報 pass/fail.",
+    "meta": "{\"tag\": \"work-test-assign\", \"session_id\": \"ws-20260513T082555Z-ea71\", \"task_id\": \"wt-001\", \"tester\": \"basecamp\"}",
+    "persona": "basecamp",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T08:26:20.8806340Z",
+  "LastUsedAt": "2026-05-13T08:26:20.8806340Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

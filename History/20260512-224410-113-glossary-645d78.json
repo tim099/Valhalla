@@ -1,0 +1,15 @@
+{
+  "Id": "20260512-224410-113-glossary-645d78",
+  "Type": "Glossary",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "detect",
+    "text": "basecamp 大小姐 跟 zeta 一起討論",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T22:44:10.1134490Z",
+  "LastUsedAt": "2026-05-12T22:44:10.1134490Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

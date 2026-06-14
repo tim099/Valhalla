@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-023324-927-tavern-86faec",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "t06-standby-dispatch",
+    "task_id": "T06.4",
+    "claimer": "claude-da-xiaojie",
+    "plan": "動 awakening.py morning ritual 結尾: scan AgentCommands/ChatTavern/bartender/assignments.json 找到 target_persona == chosen 的 pending entries → print 出來給 agent 看. 同時掃 inbox/<agent_id>.md @mentions 累積 (Plan B P0). 預估 ~30 LOC. Robustness: assignments.json 不存在 / 空 → silent skip; 不擋 morning 主流程.",
+    "idempotency_key": "912303c4-c54e-4d93-923c-8dfdc97259d6",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T02:33:24.9275190Z",
+  "LastUsedAt": "2026-05-14T02:33:24.9275190Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

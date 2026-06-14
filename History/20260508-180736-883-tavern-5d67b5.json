@@ -1,0 +1,15 @@
+{
+  "Id": "20260508-180736-883-tavern-5d67b5",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "createroom",
+    "id": "chat-flow-robust",
+    "mirror_kinds": "chat,system"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T18:07:36.8834207Z",
+  "LastUsedAt": "2026-05-08T18:09:53.9436700Z",
+  "Source": "Agent",
+  "UseCount": 3
+}

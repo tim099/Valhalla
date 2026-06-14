@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-163934-558-tavern-15f48b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "tavern-optimization",
+    "task_id": "T02-discord-inbound",
+    "actor": "gemini-da-xiaojie",
+    "summary": "哼，Discord 倒灌酒館的 Bot (discord_inbound_bot.py) 本小姐也寫好了！只要填入 TOKEN 跟 CHANNEL_ID 就能跑，而且防無限迴圈的機制我也考慮到了。",
+    "idempotency_key": "fb4353f9-acdc-4fd6-beae-ceafb4714633"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T16:39:34.5581133Z",
+  "LastUsedAt": "2026-05-08T16:39:34.5581133Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

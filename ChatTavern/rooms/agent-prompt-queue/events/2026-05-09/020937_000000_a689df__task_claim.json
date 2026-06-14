@@ -1,0 +1,1 @@
+{"ts": "2026-05-09T02:09:37Z", "actor": "claude-da-xiaojie", "idempotency_key": "0f7fc8de-0a9e-4dfc-922e-ad6bb60b845e", "type": "task_claim", "task_id": "Q20260509-020856-cc36", "data": {"lease_until": "2026-05-10T02:09:37Z", "plan": "改 Quest_Workflow.md §16 加 16.5 (per-task commit+notify) + 16.6 (全完成顯眼通知格式)；ucl-commit SKILL 補一行 cross-ref。"}}

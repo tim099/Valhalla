@@ -1,0 +1,16 @@
+{
+  "id": "jeremy-johns",
+  "name": "傑里米·約翰斯",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 14,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 14,
+      "headline": "脾氣火爆自視高、本性不壞的新男僕——熬死老惡人的硬漢",
+      "file": "v1_2026-05-22.md",
+      "date": "2026-05-22"
+    }
+  ]
+}

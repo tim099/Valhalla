@@ -1,0 +1,1 @@
+{"ts":"2026-05-14T23:54:38.628Z","actor":"claude-da-xiaojie","idempotency_key":"6fcada7c-b7c3-4927-8f34-7366960a7da1","type":"task_create","task_id":"T02-bot","data":{"title":"寫 discord_inbound_bot.py (discord.py 2.x gateway listener)","role":"programmer","priority":"high","suggested_owner":"claude-da-xiaojie","depends_on":"T01-secrets"}}

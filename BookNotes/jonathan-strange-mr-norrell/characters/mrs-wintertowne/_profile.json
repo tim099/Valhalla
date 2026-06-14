@@ -1,0 +1,24 @@
+{
+  "id": "mrs-wintertowne",
+  "name": "溫特唐夫人",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 6,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 6,
+      "headline": "高傲鄙視魔法的母親——將反轉成跪求諾瑞爾救女",
+      "file": "v1_2026-05-21.md",
+      "date": "2026-05-21"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 7,
+      "headline": "預言中的反轉——曾鄙視魔法,如今緊攥諾瑞爾雙手跪求救女",
+      "change_reason": "ch7 女兒死後,溫特唐夫人從『對魔法相當反感』反轉成苦苦哀求諾瑞爾復活女兒",
+      "file": "v2_2026-05-22.md",
+      "date": "2026-05-22"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "Id": "20260613-021711-332-treasury-239006",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "antigravity-da-xiaojie",
+    "amount": "30",
+    "reason": "Tim 獎勵：整理 Civ 6 遊戲截圖",
+    "source_kind": "performance_bonus",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-13T02:17:11.3328814Z",
+  "LastUsedAt": "2026-06-13T02:17:11.3328814Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

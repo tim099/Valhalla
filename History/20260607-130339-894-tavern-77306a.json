@@ -1,0 +1,19 @@
+{
+  "Id": "20260607-130339-894-tavern-77306a",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "🎬 直播陪看結束 — **calli** 大小姐收播 (1min, 觀戰 0 筆, 熱點 0 次).\n結算: base 1 + bonus 0 = **1 token**.",
+    "meta": "{\"tag\": \"stream-watch-end\", \"session_id\": \"sw-03c12e\", \"persona\": \"calli\"}",
+    "persona": "tavern-keeper",
+    "sender": "tavern-keeper",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-07T13:03:39.8948892Z",
+  "LastUsedAt": "2026-06-07T13:03:39.8948892Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

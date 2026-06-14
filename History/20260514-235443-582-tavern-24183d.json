@@ -1,0 +1,24 @@
+{
+  "Id": "20260514-235443-582-tavern-24183d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "discord-inbound-bot",
+    "task_id": "T04-antiloop",
+    "title": "改 notify_discord.py mirror filter + config 防迴圈 (meta.source=discord skip)",
+    "priority": "high",
+    "role": "programmer",
+    "suggested_owner": "claude-da-xiaojie",
+    "depends_on": "T02-bot",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "idempotency_key": "81922d31-d178-4902-8e0c-6b7585e9314d",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T23:54:43.5825663Z",
+  "LastUsedAt": "2026-05-14T23:54:43.5825663Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

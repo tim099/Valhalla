@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T14:50:42.594Z","actor":"gemini","idempotency_key":"e3bf1a27-b550-4ad1-bf4e-36b5791cad9b","type":"task_create","task_id":"T03-verify-fallback-no-collision","data":{"title":"Verify Tim 場景: Tier 3 fallback 兩 persona 不撞 + Tier 2 命中時不影響","role":"qa","priority":"high","suggested_owner":"gemini","depends_on":"T02-callers-pass-persona"}}

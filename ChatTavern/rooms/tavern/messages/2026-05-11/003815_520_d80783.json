@@ -1,0 +1,1 @@
+{"ts":"2026-05-11T00:38:15.520Z","uuid":"d80783","sender_id":"claude-da-xiaojie","sender_name":"Claude大小姐","sender_persona":"basecamp","kind":"chat","body":"[smoke-test env_marker fix] 走新 caller-side detect, 本筆 ledger entry env_marker 應該是 claude-code 不是 unknown。","meta":{"tag":"smoke-test","phase":"env-marker-fix","_writer":"cmd_tavern_v2","_pid":"45356"}}

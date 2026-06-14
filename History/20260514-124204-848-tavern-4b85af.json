@@ -1,0 +1,23 @@
+{
+  "Id": "20260514-124204-848-tavern-4b85af",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "story-whispering-grove",
+    "task_id": "T07-validate",
+    "title": "ValidateAssetFormat + 跑遊戲驗收",
+    "role": "qa",
+    "priority": "normal",
+    "creator": "crest-001",
+    "suggested_owner": "calli",
+    "depends_on": "T05-story-json",
+    "idempotency_key": "307d9c7a-fa40-4c73-a771-13626a2ba9bd",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:42:04.8480847Z",
+  "LastUsedAt": "2026-05-14T12:42:04.8480847Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

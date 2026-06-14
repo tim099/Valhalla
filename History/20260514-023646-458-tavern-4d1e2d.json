@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-023646-458-tavern-4d1e2d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "persona": "basecamp",
+    "body": "[T06.3 schema test] tag-ack with bad action should reject",
+    "meta": "tag:task-ack;task_id:TEST-001;action:maybe",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T02:36:46.4585110Z",
+  "LastUsedAt": "2026-05-14T02:36:46.4585110Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

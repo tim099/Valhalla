@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-142423-564-treasury-524d31",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "1",
+    "source_kind": "commit",
+    "source_ref": "t42-fix-pending",
+    "description": "pre-credit: T42 routing additive bugfix (main only, 1 layer)",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T14:24:23.5645733Z",
+  "LastUsedAt": "2026-05-09T14:24:23.5645733Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

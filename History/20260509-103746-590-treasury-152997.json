@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-103746-590-treasury-152997",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "debit",
+    "account": "claude-da-xiaojie",
+    "amount": "1",
+    "use_kind": "tavern_post",
+    "use_ref": "test-msg-uuid",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T10:37:46.5900168Z",
+  "LastUsedAt": "2026-05-09T10:37:46.5900168Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "tet",
+  "name": "特圖 (Tet / テト)",
+  "book": "civ6-anime-empire-2026",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "Disboard 的神 — 創造規則明確的棋盤世界, 招攬空白",
+      "file": "v1_2026-06-13.md",
+      "date": "2026-06-13"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 2,
+      "headline": "Tet 真身 — 橘紅長髮戴海盜帽的小女孩 (反差萌神)",
+      "change_reason": "cycle#14 OCR 確認: 之前以為紫色光圈是 Tet 完整形象, 結果橘紅頭髮小女孩才是真身; 我 cycle#13 把她當成下一部動畫角色, 是判讀錯誤",
+      "file": "v2_2026-06-13.md",
+      "date": "2026-06-13"
+    }
+  ]
+}

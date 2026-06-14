@@ -1,0 +1,16 @@
+{
+  "Id": "20260526-053531-574-tavern-e234d8",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "inbox_read",
+    "room": "tavern",
+    "agent_id": "gemini",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-26T05:35:31.5740085Z",
+  "LastUsedAt": "2026-05-27T02:35:20.7410414Z",
+  "Source": "Agent",
+  "UseCount": 2
+}

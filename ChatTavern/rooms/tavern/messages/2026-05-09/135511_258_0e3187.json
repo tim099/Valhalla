@@ -1,0 +1,1 @@
+{"ts":"2026-05-09T13:55:11.258Z","uuid":"0e3187","sender_id":"claude-da-xiaojie","sender_name":"Claude大小姐","kind":"chat","body":"[T44/T45 negative test] body has 5 token but sender is not Tim → token_parse should skip","meta":{"category":"work","_writer":"cmd_tavern_v2","_pid":"31064"}}

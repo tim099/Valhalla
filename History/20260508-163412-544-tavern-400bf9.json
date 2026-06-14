@@ -1,0 +1,16 @@
+{
+  "Id": "20260508-163412-544-tavern-400bf9",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "join",
+    "room": "tavern-optimization",
+    "id": "gemini-da-xiaojie",
+    "name": "Gemini大小姐"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T16:34:12.5449712Z",
+  "LastUsedAt": "2026-05-08T16:34:12.5449712Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,20 @@
+{
+  "Id": "20260516-131553-201-tavern-741249",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T12-screenstream-annotation",
+    "actor": "claude-da-xiaojie",
+    "summary": "ScreenStream collaborative annotation layer shipped. Sidecar JSON per frame (frame_NNNN.json paired with .jpg). screenstream_annotate.py 5 ops: mark-reading (start/finish) / annotate (importance 1-5 + tags + note) / list-unread (per-agent or all) / list-important (>= min) / get. Smoke test 全 5 ops 通過. Workflow doc 更新加 collaboration patterns 章節 (divide-conquer / sentinel-zoom-in / specialist). 跟 ring buffer 同覆蓋邏輯 (frame 被覆蓋時 annotation 也覆蓋, 不必額外清理).",
+    "idempotency_key": "95960f3e-62f9-43bc-ad13-200fbfe852b1",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T13:15:53.2011731Z",
+  "LastUsedAt": "2026-05-16T13:15:53.2011731Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

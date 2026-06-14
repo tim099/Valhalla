@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-09T22:30:55.381Z",
+  "uuid": "0bc18a",
+  "type": "credit",
+  "amount": 15,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "hp_overflow_conversion",
+  "source_ref": "healthy_task_sleep_6h",
+  "source_description": "T54 Plan C overflow grant: Tim ~6h sleep (00:25-06:05+nap) +30 HP cap 100 overflow 30 -> 30/2=15 tavern_token (C-mid 2:1). Editor offline; manual filesystem write fallback.",
+  "balance_before": 0,
+  "balance_after": 15,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "10388",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T54_plan_c_first_overflow_editor_offline_fallback",
+  "signature_mismatch": false
+}

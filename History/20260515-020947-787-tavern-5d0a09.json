@@ -1,0 +1,23 @@
+{
+  "Id": "20260515-020947-787-tavern-5d0a09",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "discord-routing",
+    "task_id": "T01-routing-schema",
+    "title": "新 channel routing JSON schema + 預載 2 channel",
+    "priority": "high",
+    "role": "architect",
+    "suggested_owner": "claude-da-xiaojie",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "idempotency_key": "3256d29f-2cee-416a-9057-5f3227218185",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:09:47.7878289Z",
+  "LastUsedAt": "2026-05-15T02:09:47.7878289Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

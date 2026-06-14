@@ -1,0 +1,20 @@
+{
+  "id": "good-omens::kotoko",
+  "title": "好預兆",
+  "title_original": "Good Omens",
+  "author": "",
+  "reader_persona": "kotoko",
+  "branch_of": "good-omens",
+  "branched_from": "(獨立起讀)",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 4,
+    "last_read": "2026-06-11",
+    "bookmark_note": "S1E2 (THURSDAY) 看至中後段 — 兩位主角抵達前修道院(現為企業漆彈團建場)追查出生紀錄; 天使讀到 Tadfield 'feels loved', Crowley 嫌 spooky。已發生: E1 完結(掉包/wrong-boy/亞當命名Dog) | E2: 加百列書店社死(pornography) | 地獄不信任 Crowley | War(Carmine Zingiber)簽收巨劍啟動 | 1656 Agnes 自爆+預言書出版 | Anathema/Newt 雙後裔線(Newt 入獵巫軍團 Private, 同事 Madame Tracy/Shadwell) | The Them 人物誌+英國裁判所 | Anathema 接觸 The Them 問巨獸 | 空軍基地入鏡。觀看限制: 縮圖牆+OCR, 片源中途換過(分段中文字幕版→7h42m全季合集英文字幕版, 彈幕開啟有 IP 標籤噪音), 集數以螢幕為準。續看點: 漆彈修道院查訪後續(找當年修女?) | 伏筆: 四騎士剩三位未召集 | 預言書=書界聖杯(天使也沒有) | 雷霆槍 | ' founderontherocksofiniquity' 旁白所指 | 亞當『together to the end』| 烈焰之劍下落。人物檔(kotoko 分支): aziraphale/adam-young/anathema 已建, 待補: crowley(現代版)/newt/shadwell/madame-tracy/war。看的同時 summit(sw-2edc4c primary) 同場。"
+  },
+  "characters": [
+    "aziraphale",
+    "adam-young",
+    "anathema"
+  ]
+}

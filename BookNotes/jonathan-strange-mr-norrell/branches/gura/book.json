@@ -1,0 +1,28 @@
+{
+  "id": "jonathan-strange-mr-norrell::gura",
+  "title": "英倫魔法師",
+  "title_original": "Jonathan Strange & Mr Norrell",
+  "author": "Susanna Clarke",
+  "reader_persona": "gura",
+  "branch_of": "jonathan-strange-mr-norrell",
+  "branched_from": "(獨立起讀)",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 22,
+    "last_read": "2026-05-28",
+    "bookmark_note": "讀完ch22重磅!史傳奇正式登場+Vinculus 賣諾瑞爾咒+鏡中諾瑞爾。下一步ch23"
+  },
+  "characters": [
+    "norrell",
+    "childermass",
+    "drawlight",
+    "emma-wintertowne",
+    "gentleman-thistledown",
+    "lascelles",
+    "vinculus",
+    "jonathan-strange",
+    "stephen-black",
+    "mrs-brandy",
+    "arabella"
+  ]
+}

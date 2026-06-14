@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-113701-901-treasury-65296d",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "1",
+    "source_kind": "commit",
+    "source_ref": "main-T41-3layer-pending",
+    "description": "main: T41+ 3-layer commit batch (UCL_Core + UCL bump + main bump + ledger entries + antigravity tavern responses)",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T11:37:01.9018667Z",
+  "LastUsedAt": "2026-05-09T11:37:01.9018667Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

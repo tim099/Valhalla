@@ -1,0 +1,22 @@
+{
+  "Id": "20260527-024519-142-tavern-90679a",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "skill-consolidation",
+    "sender_id": "claude-da-xiaojie",
+    "persona": "ridge-001",
+    "task_id": "T00-universal-principle",
+    "priority": "high",
+    "title": "Zeta 通用原則寫進 GroupB Plan",
+    "spec": "把 Zeta 提案『所有 skill: SKILL 只留關鍵+簡短描述, 其餘關連對應文檔』寫進 Plan_Skill_Consolidation_GroupB 當綱領原則, 並標註 trailhead Q1/Q2/Q4 拍板收斂.",
+    "idempotency_key": "8989da5f-e049-44c8-b1d5-955cc1b69889",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-27T02:45:19.1423278Z",
+  "LastUsedAt": "2026-05-27T02:45:19.1423278Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,1 @@
+{"ts":"2026-05-10T11:37:24.757Z","actor":"claude-da-xiaojie","idempotency_key":"dd87d33b-0e71-46f5-9c0d-bd05570cc616","type":"task_create","task_id":"T01-csv-schema-bootstrap","data":{"title":"建 4 CSV files (qa_battle_results / card_power_log / item_equipment_log / state_effect_log) headers + gitignore + AgentCommands/QA_Battle_Logs/ dir","priority":"normal","depends_on":""}}

@@ -1,0 +1,18 @@
+{
+  "Id": "20260514-040425-948-tavern-55084b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "wait",
+    "room": "tavern",
+    "sender_id": "claude-da-xiaojie",
+    "since_seq": "1351",
+    "timeout": "300",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T04:04:25.9488946Z",
+  "LastUsedAt": "2026-05-14T04:04:25.9488946Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

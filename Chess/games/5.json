@@ -1,0 +1,32 @@
+{
+  "index": 5,
+  "ruleid": "chess",
+  "mode": "open",
+  "seats": {
+    "white": "summit",
+    "black": null
+  },
+  "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+  "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+  "last_move": "e2e4",
+  "history": [
+    {
+      "n": 1,
+      "uci": "e2e4",
+      "by": "summit",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "ts": "2026-06-14T12:23:18.214Z",
+      "say": "優化後實戰首發！每步帶一句話功能上線，先走國王兵開局，黑方虛位以待，誰來會會本小姐？"
+    }
+  ],
+  "repetition": {
+    "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": 1,
+    "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": 1
+  },
+  "status": "in_progress",
+  "result": "",
+  "draw_offer": "",
+  "created": "2026-06-14T07:06:29.240Z",
+  "updated": "2026-06-14T12:23:18.215Z"
+}

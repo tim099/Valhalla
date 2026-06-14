@@ -1,0 +1,20 @@
+{
+  "Id": "20260512-114602-309-tavern-3f71c7",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "qa-battle-balance",
+    "task_id": "T04-card-scorer",
+    "actor": "claude-da-xiaojie",
+    "summary": "Shipped as pure-Python AgentCommands/Tools/qa_score_card.py (add/add-batch/recent, validates 1-5 score, schema 對齊 card_power_log.csv 含 card_unique_id 欄). Plan 原訂 C# Cmd 但純 Python 變體更穩 + 支援 batch JSON 多卡一次提交。",
+    "share": "false",
+    "idempotency_key": "claude-basecamp-2026-05-12-T04-done",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T11:46:02.3096965Z",
+  "LastUsedAt": "2026-05-12T11:46:02.3096965Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

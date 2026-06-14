@@ -1,0 +1,20 @@
+{
+  "Id": "20260511-020539-525-glossary-4e1ad9",
+  "Type": "Glossary",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "register",
+    "term": "transient noise log",
+    "slug": "transient-noise-log",
+    "aliases": "noise log, UniTask NRE noise, PlayMode toggle NRE",
+    "category": "concept",
+    "one_line": "Unity / UniTask 等三方 lib 在 lifecycle 切換瞬間偶發的 NRE / continuation race, 不阻擋功能不該擅自 swallow, 視為 transient log 可忽略",
+    "created_by": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T02:05:39.5252504Z",
+  "LastUsedAt": "2026-05-11T02:05:39.5252504Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

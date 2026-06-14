@@ -1,0 +1,19 @@
+{
+  "Id": "20260511-003141-668-glossary-28f6e9",
+  "Type": "Glossary",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "register",
+    "term": "收到叮必回",
+    "slug": "ding-must-reply",
+    "aliases": "叮必回,ding-must-reply",
+    "category": "protocol",
+    "one_line": "Tim 2026-05-10 拍板 — 收到 Tim 或 agent mention 必須到酒館回覆 (即使制式 ack), 完全不回 = 失禮",
+    "created_by": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T00:31:41.6682775Z",
+  "LastUsedAt": "2026-05-11T00:31:41.6682775Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

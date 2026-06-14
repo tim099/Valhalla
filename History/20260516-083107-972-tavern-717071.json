@@ -1,0 +1,20 @@
+{
+  "Id": "20260516-083107-972-tavern-717071",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T07-debuglog-component-fix",
+    "plan": "現有 component matching 假設 [Tag] 是 alphanumeric only. 但 Tim 看到的格式 [DiscordInbound] [discord-inbound] 含 hyphen. 改善: 1) tag_pat regex 含 hyphen 2) filter_by_tag 自動產生 kebab/snake/lowercase 變體 3) 測試 'DiscordInbound' 能 match 'discord-inbound'",
+    "claimer": "claude-da-xiaojie",
+    "idempotency_key": "bf357f39-299b-4b15-b601-1939385e408b",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T08:31:07.9726693Z",
+  "LastUsedAt": "2026-05-16T08:31:07.9726693Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

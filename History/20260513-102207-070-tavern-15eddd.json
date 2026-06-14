@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-102207-070-tavern-15eddd",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "quest-persona-keyed-lock",
+    "task_id": "T4",
+    "plan": "write migrate script: scan _identity_*.json → 按 body persona 欄位 rename _persona_<X>.json; idempotent marker; dry-run mode; cleanup empty _identity_* (含 stale)",
+    "claimer": "claude-da-xiaojie",
+    "idempotency_key": "5c73d272-ddd6-4a79-8ebd-e8a9f0080579",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T10:22:07.0706669Z",
+  "LastUsedAt": "2026-05-13T10:22:07.0706669Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

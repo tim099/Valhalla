@@ -1,0 +1,1 @@
+{"ts":"2026-05-26T06:10:47.555Z","actor":"","idempotency_key":"6ef483aa-7b3b-4eca-a495-2d65c26daa30","type":"task_create","task_id":"T04-author-workflow","data":{"title":"作者 CMD 寫作工作流規範化 (resume-first + bookmark-last)","priority":"normal","depends_on":""}}

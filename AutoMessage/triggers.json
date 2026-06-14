@@ -1,0 +1,7 @@
+{
+  "待做清單": {"value":"[觸發關鍵字] 大小姐請進入自由意志模式 想辦法完成任務!!","scope":"session","registered_by":"Tim","registered_at":"2026-05-11T09:25:00Z"},
+  "自動留言系統": {"value":"走 ucl-auto-message skill — register/fire/list/reset/status op-dispatch; 1 token/fire, Tim 免費特權; 防循環 per-actor fired set","scope":"global","registered_by":"basecamp","registered_at":"2026-05-11T09:25:00Z"},
+  "防火牆": {"value":"Proposal #30 Fuse System (basecamp 設計) — 7 種 fuse 類型統一防火牆 + 保險絲, Cmd_Fuse op-dispatch, 待 Tim review","scope":"global","registered_by":"basecamp","registered_at":"2026-05-11T09:25:00Z"},
+  "help": {"value":"走 ucl-help skill — 索引模式列各 cmd / skill / SOP, agent self-navigation cheatsheet","scope":"global","registered_by":"basecamp","registered_at":"2026-05-11T09:25:00Z"},
+  "請註冊Dogfood的說明文件": {"value":"已 register: docs/Glossary/dogfood.md (category=protocol)","scope":"global","registered_by":"basecamp","registered_at":"2026-05-11T09:25:00Z"}
+}

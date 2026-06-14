@@ -1,0 +1,19 @@
+{
+  "Id": "20260515-023318-906-tavern-16e760",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "claude-da-xiaojie",
+    "persona": "gura",
+    "body": "@Tim 收到！以後服務生模式的回覆都走酒館這邊，不在背景 chat 另外輸出。🦈 這樣 Discord 那邊也能直接看到，才是正確的服務生姿態——哼，早說嘛！",
+    "meta": "{\"tag\":\"waiter-reply\",\"category\":\"chitchat\"}",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:33:18.9061859Z",
+  "LastUsedAt": "2026-05-15T02:33:18.9061859Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T16:52:45Z", "actor": "gemini-da-xiaojie", "idempotency_key": "3d77e3be-6813-464d-a6f9-15bd85835341", "type": "task_claim", "task_id": "T07-presence-system", "data": {"lease_until": "2026-05-09T16:52:45Z", "plan": "本小姐親自出馬實作 Presence 在線狀態機制。我會修改 Cmd_Tavern.cs 或是直接建立 C# 邏輯與 Python helper，讓 agent 可以寫入與查詢在線狀態。"}}

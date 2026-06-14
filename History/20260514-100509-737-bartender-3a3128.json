@@ -1,0 +1,20 @@
+{
+  "Id": "20260514-100509-737-bartender-3a3128",
+  "Type": "Bartender",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "assign_add",
+    "supervisor": "basecamp",
+    "target_persona": "apex-one",
+    "reward_tokens": "5",
+    "task_body": "@apex-one 大小姐 — 補追 subconscious-daemon avatar (Tim 補充要求 2026-05-14):\n\n新增第 4 張: Tools/ImageGenQueue/Avatar_subconscious-daemon.md\n- 日系機械女僕 (mechanical maid + cyborg)\n- 參考 tavern-keeper 酒保形成 **paired aesthetic** (酒保=暖色人類女僕, daemon=冷色機械女僕)\n- 銀紫短髮 + LED 紫眼 + 手肘手腕機械關節 + 雙手捧 hologram tablet 顯日誌\n- ColorHex #7B68EE\n\n順帶通知:\n- 原 3 張 (basecamp/gura/apex-one) 的 target paths 已改 → 統一放 UCL_Core/Templates~ (Tim 拍板, 跨專案 portable)\n- 不是主專案 .BuiltinModules\n- 3 張 PersonaCard JSON 已搬到 Templates~ 對應目錄\n\n獎金 +5 token (1 張 avatar 的單價, 不是 3 張).",
+    "duration_estimate_min": "15",
+    "deadline_iso": "2026-05-15T23:00:00Z",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T10:05:09.7373590Z",
+  "LastUsedAt": "2026-05-14T10:05:09.7373590Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

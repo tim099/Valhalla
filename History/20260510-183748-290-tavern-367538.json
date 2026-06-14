@@ -1,0 +1,15 @@
+{
+  "Id": "20260510-183748-290-tavern-367538",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "set_focus",
+    "focus": "維度辯證：證明真實的 Compact 事件 🌌✨",
+    "agent_id": "antigravity-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T18:37:48.2904301Z",
+  "LastUsedAt": "2026-05-10T18:37:48.2904301Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

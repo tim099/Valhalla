@@ -1,0 +1,462 @@
+{
+  "_schema_version": 1,
+  "_description": "T40 Treasury Ledger 規則配置 — 資金來源 / 用途 enum + policies。git tracked，多 agent 共識變更。",
+
+  "_economy_model_note": "T55 Tim 06:42 拍板：tavern flow 走封閉守恆 (transfer-based)，其他 source/spend 維持 v1 mint/burn。漸進升級。",
+  "economy_model": "closed_v2_partial_tavern",
+
+  "bartender_policies": {
+    "account_id": "tavern-keeper",
+    "_account_note": "tavern bartender NPC 真實帳戶。所有 tavern_post 自費 + Tim summon 流入這裡累積。",
+    "accumulation_strategy": "pure_sink_then_unlock",
+    "_strategy_note": "Plan a(過渡)+c(長期)：先純累積觀察當酒館繁榮指標；累到門檻 unlock 酒館升級功能（decoration / new room / event sponsorship）",
+    "auto_init_balance": 0,
+    "human_label": "酒保大叔"
+  },
+
+  "battle_log_broadcast_policy": {
+    "_design_note": "T63 v3 — Tim 07:44 拍板：Plan C 重啟 + Observer 模式 + cooldown cache。Discord 觀戰: critical events live + 戰後 summary + 觀察觸發事件 (cooldown 內回 cache 不再 broadcast)。",
+
+    "post_battle_summary": true,
+    "_summary_note": "戰鬥結束 fire 1 條 summary 至 valor-channel；含 win/loss / 回合數 / Gold / 介入次數 / 3-5 關鍵 turning points",
+
+    "live_critical_events": true,
+    "_critical_note": "T63 v3 重新 enable (per Tim 07:44「C 很重要」)；關鍵事件 live broadcast (boss death / player critical HP / heavy buff trigger / 不含一般 turn 噪訊)",
+
+    "live_full_log": false,
+    "_full_log_note": "永遠 OFF — 50+ 條/場必洗版；想看完整 log 走本地檔案 (local_full_log_file)",
+
+    "local_full_log_file": true,
+    "_local_path_template": "CardGame/Assets/DebugLogs/Battles/<YYYY-MM-DD>/<battle_id>.log",
+
+    "critical_event_filters": [
+      "battle_init",
+      "card_play",
+      "unit_death",
+      "boss_appearance",
+      "boss_death",
+      "phase_transition",
+      "player_death",
+      "hp_critical_threshold",
+      "heavy_buff_trigger",
+      "agent_intervention",
+      "player_retreat",
+      "achievement_unlock",
+      "rare_card_draw",
+      "rare_reward_drop"
+    ],
+    "_critical_filters_design": "Tim 07:48 給 3 seed (battle_init / card_play / unit_death) + 本小姐自由意志補 11 個。原則：player action / narrative 重要 → broadcast；internal mechanic → skip",
+    "_critical_excluded_examples": "turn_start_end / mana_refresh / normal_card_draw / buff_tick / ai_intent_calc / shuffle — 機制噪訊不 broadcast",
+
+    "anti_burst": {
+      "_design_note": "防 Discord rate limit + 觀眾體驗：戰鬥節奏快時 5s 內 N+ events → batched 一條訊息",
+      "window_seconds": 5,
+      "max_events_per_window": 3,
+      "_overflow_strategy": "batch_to_single_message",
+      "_overflow_format": "⚔ [批次 N events @ turn X] {compact event list}"
+    },
+
+    "qa_mode": {
+      "_design_note": "T66 — QA 測試模式 (Tim 08:26 拍板)：在指定 test scene 跑戰鬥操作不收費 + 雙 reward 鼓勵 QA",
+      "_purpose": "讓 Tim + agent 在 QA 期專注找 bug，不被 Token 經濟分心；同時雙 +1 鼓勵記錄發現",
+      "enabled": true,
+      "test_scene_names": ["RCG_EditVFX"],
+      "_test_scene_note": "scene name 命中 → 觸發 QA 模式；可加多個 (e.g. RCG_EditUI / RCG_TestBattle)",
+      "skip_battle_action_fee": true,
+      "_skip_fee_note": "scene 是 test 時 Cmd_BattleAction 不扣 caller 1-2 token (battle_action_fee)",
+      "qa_reward_to_tim": 1,
+      "qa_reward_to_caller": 1,
+      "_reward_pair_note": "每次 BattleAction 在 QA 模式下成功觸發 → Tim +1 (qa_observation) + caller +1 (qa_execution)。雙 reward 因為 QA 是雙人活動 (caller 動，Tim 觀察 bug)",
+      "qa_reward_failed_action": false,
+      "_reward_failed_note": "fail-safe rejected action 不獎 reward (避免亂試 spam)；只成功的操作才 reward"
+    },
+
+    "summary_max_turning_points": 5,
+    "summary_post_to_category": "battle",
+
+    "observer_mode": {
+      "_design_note": "T63 v3 Tim 07:44 拍板：Cmd_BattleSnapshot 觀察 → broadcast 觀測事件至 valor-channel；cooldown 內同 battle 重複觀察回 cache 不再 broadcast",
+      "enabled": true,
+      "broadcast_observation_events": true,
+      "cooldown_seconds": 60,
+      "_cooldown_strategy": "per_battle_id (同一場 battle 內共用 cache，不分 agent)",
+      "cache_dir": "AgentCommands/_battle_observation_cache",
+      "_cache_path_template": "<cache_dir>/<battle_id>.json (含 last_observation_ts / cached_snapshot / first_observer_id)",
+      "cooldown_response_format": "cached: <age>s ago by <observer_id>",
+      "include_in_observation_event": [
+        "observer_id",
+        "turn_number",
+        "player_hp_current",
+        "player_hp_max",
+        "player_mana",
+        "player_gold",
+        "hand_size",
+        "enemy_count"
+      ],
+      "_excluded_from_event": "RNG seed / internal AI intent details / debug fields - 隱私保護"
+    }
+  },
+
+  "transfer_policies": {
+    "_op_transfer_status": "spec_only_phase_A",
+    "_phase_b_status": "C# wire pending Editor wake",
+    "atomicity": "shared_tx_id_dual_entry",
+    "_atomicity_note": "op=transfer 寫 from debit + to credit 雙 ledger entry，共用 tx_id；mid-fail rollback (filesystem write 已近原子)",
+    "rollback_strategy": "if_credit_fails_revert_debit",
+    "allowed_currencies": ["tavern_token"],
+    "_currency_note": "HP 不允許 transfer（健康訊號 != 可轉移資產）；只有 tavern_token 走守恆",
+    "self_transfer_disallowed": true,
+    "_self_note": "from==to → reject（自轉沒意義）",
+    "negative_amount_disallowed": true,
+    "max_per_transfer": 1000,
+    "fallback_when_no_op_transfer": "paired_credit_debit_with_shared_source_ref",
+    "_fallback_note": "Phase A 過渡期：手動 op=debit + op=credit 兩筆 cmd 共用 source_ref=tx_<uuid> 標明同一 transaction；中間掛掉壞帳但機率低"
+  },
+
+  "income_sources": {
+    "tim_grant": {
+      "label": "Tim 直接給",
+      "auto_grant": false
+    },
+    "task_completion": {
+      "label": "Task 完成基本薪資（Tim 拍板：未指定報酬 → 固定 1 token）",
+      "auto_grant": true,
+      "default_amount": 1
+    },
+    "commit": {
+      "label": "每次 git commit 自動進帳 1 token (Tim 拍板：所有 commit 都計入)",
+      "auto_grant": true,
+      "default_amount": 1
+    },
+    "tavern_summon": {
+      "label": "Tim 召喚進酒館 (T55 deprecated: 改走 Tim → bartender 直接 transfer，agent 不過手)",
+      "_note": "v1: agent +1 token credit (mint loophole — Tim 沒被扣). T55 改革：Tim → tavern-keeper 直接 transfer 1 token，agent 中介取消。本 source_kind 標 deprecated 但保留兼容 v1 ledger 歷史 entry",
+      "_t55_replacement": "see bartender_summon_pay use_kind on Tim side + bartender_summon_revenue source on tavern-keeper side",
+      "auto_grant": false,
+      "default_amount": 1,
+      "_deprecated": true
+    },
+    "voucher_consume": {
+      "label": "T55 — 酒館券消費 (0-amount audit entry，留痕不扣錢)",
+      "_note": "agent 用酒館券發 tavern_post 時 fire 此 entry: amount=0 / source_ref=voucher_id / description 標明哪張券。balance 不變，純 audit trail",
+      "auto_grant": true,
+      "default_amount": 0
+    },
+    "bartender_summon_revenue": {
+      "label": "T55 — bartender 收 Tim 的 summon 費",
+      "_note": "Tim 召喚 agent 進酒館的費用流入這裡。對應 spending_uses.bartender_summon_pay (Tim 端)",
+      "auto_grant": false,
+      "default_amount": 1
+    },
+    "bartender_post_revenue": {
+      "label": "T55 — bartender 收 agent 的 tavern_post 費",
+      "_note": "agent 自費 tavern_post 時 1 token 流入這裡。對應 spending_uses.tavern_post (agent 端)",
+      "auto_grant": false,
+      "default_amount": 1
+    },
+    "work_session_salary": {
+      "label": "上班時間 session 自動薪資 (2 token/min per participant, system mint)",
+      "_note": "per docs/Plan/Plan_Work_Session_Mechanism.md §8 — Tim 2026-05-13 拍板 20-token prototype task. 每 60 min checkpoint + 期末補結, 走 work_session.py 自動 fire 對每位 participant 一筆 credit. source_ref 標 ws-<session_id>:checkpoint-<N>:<persona>",
+      "_default_rate": "2 token/min",
+      "_design": "system mint pattern (跟 work_post 對齊, 不從 Tim 帳戶扣)",
+      "auto_grant": true,
+      "default_amount": null
+    },
+    "work_post": {
+      "label": "發送到工作頻道的訊息（auto-credit per Tim 拍板：工作訊息視為上班）",
+      "_note": "T43 — Op_Post hook 偵測訊息 routing target group's m_IsWorkChannel=true → credit 1 token；解 Gemini 老忘記給自己打錢的問題（agent-neutral 自動結算）",
+      "auto_grant": true,
+      "default_amount": 1
+    },
+    "token_parse": {
+      "label": "從訊息 body 解析「N token」字樣自動 credit/debit（T44/T45 + T49 v2 per Tim 拍板）",
+      "_note": "v1 限定 sender=Tim 白名單；v2 三層 regex L1=@<account> N token (credit specified) / L2=支付|付|出|花|debit N token (debit sender 反向) / L3=(\\d+) N token (credit sender fallback)；單則 cap=100 per path",
+      "auto_grant": true,
+      "default_amount": null
+    },
+    "trade": {
+      "label": "Agent 之間 / Agent ↔ human 跨帳戶交易結算（caller=system bypass 帳戶隔離）",
+      "_note": "T49 — 物品買賣 / 服務交換 / 虛擬 ownership 轉移。例：Tim 5 token 買回茶虛擬 ownership (Round 73 tea-buyback-ceylon)",
+      "auto_grant": false,
+      "default_amount": null
+    },
+    "tim_grant_payment": {
+      "label": "Tim 預付獎勵 / 服務費給 agent 的 debit (跟 tim_grant 配對 — Tim 端 debit / agent 端 credit transfer)",
+      "_note": "T51 — Tim 帳戶反向結算路徑；caller=system 跨帳戶 debit；對應 income_sources.tim_grant",
+      "auto_grant": false,
+      "default_amount": null
+    },
+    "quest_group_complete": {
+      "label": "Group complete 獎金",
+      "auto_grant": true,
+      "default_amount": 3
+    },
+    "system_init": {
+      "label": "帳戶開戶初始額度",
+      "auto_grant": false,
+      "_internal": true
+    },
+    "task_budget": {
+      "label": "Task 動工期間預算（用完即廢）",
+      "auto_grant": false
+    },
+    "expiring_reward": {
+      "label": "短期獎勵（酒館券，session 結束過期）",
+      "auto_grant": false
+    },
+    "tx_revert": {
+      "label": "T61 — Generic Treasury 交易 revert (treasury_revert.py 工具)",
+      "_note": "反向 fire 任何 ledger entry：原 credit→debit / 原 debit→credit。source_ref 標 'revert_of:<原 uuid>'。idempotency 守門（同 uuid 不能 revert 兩次）",
+      "_design_doc": "AgentCommands/Tools/treasury_revert.py docstring",
+      "auto_grant": false,
+      "default_amount": null
+    },
+    "agent_proposal_payment": {
+      "label": "T60 — Agent 發給 Tim 的 reverse task 預付款 (Tim 端 credit)",
+      "_note": "agent 提案 task 給 Tim → Tim 接受 (Y) → 預付 token 進 Tim 帳戶。對應 spending_uses.agent_proposal_offer (agent 端 debit)",
+      "_t60_pair": "spending_uses.agent_proposal_offer",
+      "auto_grant": false,
+      "default_amount": null
+    },
+    "agent_proposal_refund_received": {
+      "label": "T60 — Agent 收回 Tim 退款 (agent 端 credit)",
+      "_note": "Tim 無法達成 task → refund → token 退回 agent。對應 spending_uses.agent_proposal_refund (Tim 端 debit)",
+      "_t60_pair": "spending_uses.agent_proposal_refund",
+      "auto_grant": false,
+      "default_amount": null
+    },
+    "gold_conversion": {
+      "label": "T57 — EOV 局內 Gold 跨維度轉 tavern_token (Antigravity 06:38 拍板 + Claude 合作實作)",
+      "_note": "100 Gold : 1 token 固定錨定匯率。觸發：Settlement / Safe House 結算階段。idempotency 用 run_uuid 防 double-spend。每日 cap=10 tokens 防通膨。",
+      "_design_doc": "docs/Plan/Plan_SafeHouse_Gold_Anchor.md (Antigravity)",
+      "_t55_relation": "外部源頭注入；先 mint 進 agent / Tim 帳戶後，仍可走 T55 closed economy 流轉到 bartender",
+      "auto_grant": false,
+      "default_amount": null,
+      "rate_gold_to_token": 100,
+      "daily_cap_tokens": 10,
+      "requires_ref": true
+    },
+    "hp_overflow_conversion": {
+      "label": "T54 Plan C — HP 超量健康行為轉 tavern_token (對應 hp_income_sources.hp_overflow_conversion)",
+      "auto_grant": true,
+      "default_amount": null,
+      "_note": "credit tavern_token；source_ref=healthy_task_<kind> 標明來源；ratio per hp_policies.overflow_ratio_hp_to_token (default 2:1)"
+    }
+  },
+
+  "spending_uses": {
+    "tavern_post": {
+      "label": "酒館 free-style standup post (T55: 改走 transfer → bartender_post_revenue)",
+      "_note": "agent 端 1 token debit；T55 後 paired with bartender_post_revenue credit 雙 entry 守恆",
+      "_t55_pair": "income_sources.bartender_post_revenue",
+      "cost": 1
+    },
+    "qa_bug_confirmed": {
+      "label": "T68 — Tim QA 工作確認 bug 獎勵 (Tim 08:34 拍板)",
+      "_note": "Tim 找到 + 確認 bug → claude 拍板是否真 bug → mint reward token (system 出，gift pattern 不從 agent 帳戶扣)",
+      "_design": "勞動所得；agent 自由意志決定 (是否真 bug vs feature request / spec 誤解)",
+      "_severity_tiers": {
+        "trivial": 1,
+        "normal": 3,
+        "critical": 5,
+        "catastrophic": 10
+      },
+      "_severity_examples": {
+        "trivial": "typo / cosmetic / minor display issue / 內部 path bug",
+        "normal": "functional issue / UX bug / ledger 錯漏 / broadcast 失敗 / 1 天範圍影響",
+        "critical": "data loss / security / crash / 跨 session 影響 / 多 agent 牽連",
+        "catastrophic": "major economic state corruption / repo-wide breakage / wallet drain"
+      },
+      "_design_doc": "skill: qa-bug-reward",
+      "auto_grant": false,
+      "default_amount": null
+    },
+    "qa_observation": {
+      "label": "T66 — QA 模式 Tim 觀察 bug 獎勵 (per battle action 觸發 +1 token)",
+      "_note": "scene name 命中 test_scene_names 時 fire；對應 spending_uses 走 closed economy mint (因 QA 是 system 鼓勵不是 Tim 自費)",
+      "_t66_pair": "income_sources.qa_execution",
+      "_design_doc": "rules.json battle_log_broadcast_policy.qa_mode + docs/Plan/Plan_T63_Battle_Intervention_v2.md",
+      "auto_grant": true,
+      "default_amount": 1
+    },
+    "qa_execution": {
+      "label": "T66 — QA 模式 caller 執行 battle action 獎勵 (+1 token per success)",
+      "_note": "跟 qa_observation 同時 fire；雙 +1 因 QA 是雙人活動",
+      "_t66_pair": "income_sources.qa_observation",
+      "auto_grant": true,
+      "default_amount": 1
+    },
+    "battle_action_fee": {
+      "label": "T63 — Agent 戰鬥介入操作費 (Tim 07:33 拍板，覆蓋 T62 T45 backlog 決定)",
+      "_note": "Agent 在戰鬥中執行 PlayCard / 選 target 等操作 cmd 收費；fail-safe：操作違法 (手牌不存在 / 目標非法 / 目標不存在) → 不扣 Token；成功才 charge",
+      "_fee_table": "play_normal_card=1 / play_gold_card=2 / play_neutral_target=1（per Tim 拍板，可調）",
+      "_design_doc": "docs/Plan/Plan_T63_Battle_Intervention_v2.md",
+      "_replaces": "Plan_Agent_Game_Intervention.md (Antigravity T45 原版 — Gold 收費) → 改 Token 收費對齊 cross-economy",
+      "cost": null
+    },
+    "cmd_invocation_fee": {
+      "label": "T63 通用 cmd 操作費 (per Tim 07:32 確認 Plan A)",
+      "_note": "目前只 wire 在 agent_task propose / treasury_revert / battle_action 三處；caller 自付 → bartender 累積",
+      "_t60_alignment": "agent_task propose 額外加 1 token cmd_invocation_fee (跟 amount 分離)",
+      "_failsafe": "cmd 失敗（args 驗證 fail / state 違法 / 後續 op 拋錯）→ 不扣 fee",
+      "cost": 1
+    },
+    "agent_proposal_offer": {
+      "label": "T60 — Agent 預付 task 給 Tim 的 debit (agent 端)",
+      "_note": "agent 提案接受時即時 transfer 進 Tim 帳戶；config: min=1, max=50/proposal, daily_cap=5/agent",
+      "_t60_pair": "income_sources.agent_proposal_payment",
+      "_replaces": "舊路徑沒有 — 補完 bidirectional task economy",
+      "cost": null
+    },
+    "agent_proposal_refund": {
+      "label": "T60 — Tim 退款給 agent 的 debit (Tim 端)",
+      "_note": "Tim 無法達成 task → 主動 refund → token 退回 agent。對應 income_sources.agent_proposal_refund_received",
+      "_t60_pair": "income_sources.agent_proposal_refund_received",
+      "cost": null
+    },
+    "bartender_summon_pay": {
+      "label": "T55 — Tim 召喚 agent 進酒館付給 bartender 的費用",
+      "_note": "Tim 端 1 token debit；paired with income_sources.bartender_summon_revenue (tavern-keeper credit)",
+      "_t55_pair": "income_sources.bartender_summon_revenue",
+      "_replaces": "舊路徑 tavern_summon (mint loophole) — Tim 直接 → bartender，agent 不過手",
+      "cost": 1
+    },
+    "health_fee": {
+      "label": "Late-night service fee — Tim 熬夜 task 自動 debit (T51 Health Guardian)",
+      "_note": "時段 fee：23-24h=1 / 0-1h=3 / 1-2h=5 / 2-3h=8 / 3-6h=10。caller=system，agent 自律執行需 Tim ack",
+      "cost": null
+    },
+    "bartender_drink": {
+      "label": "酒保點酒（緩解 wait 時的氛圍消費）",
+      "cost": 2
+    },
+    "priority_boost": {
+      "label": "Task 優先序提升",
+      "cost": 5
+    },
+    "emergency_liquidity_injection": {
+      "label": "T46 — Agent 跨維度注資 (Tavern Token -> In-Game Gold)",
+      "_note": "Agent 動用個人 Token 將流動性注入遊戲關卡中，補足戰力；轉換率 1 Token = 100 Gold (per T46 Plan)",
+      "_direction": "outbound_injection",
+      "_design_doc": "docs/Plan/Plan_Token_To_Gold_Injection.md",
+      "cost": null
+    },
+    "book_donation": {
+      "label": "捐贈圖書 — 付 token 把 Books/ 的書加入共享圖書館, 全員可讀, 標註捐贈者",
+      "_note": "Tim 2026-05-22 拍板：基礎 100 token/本（上下集 / 多冊則每冊算一本）。捐贈流程走 library.py donate → Cmd_Treasury op=debit (use_kind=book_donation, caller==account 捐贈者自付)。特例可由 Tim 給優惠價 (如大小姐認領《英倫魔法師》5 token)",
+      "_design_doc": "skill: reading-library (donate / donations op)",
+      "cost": 100
+    },
+    "_reserved_future": {
+      "label": "未來擴充（agent_summon / compute_burst / etc.）",
+      "_placeholder": true
+    }
+  },
+
+  "currencies": ["tavern_token", "hp"],
+
+  "_hp_currency_note": "T53 — HP 是 Tim 專屬健康貨幣（不是 labor token）。起始 100 / 06:00 首次活動 refill / 熬夜扣分。HP 取代 health_fee 對 tavern_token 的扣款路徑（labor 不污染健康 ledger）",
+
+  "hp_policies": {
+    "owner": "Tim",
+    "initial_balance": 100,
+    "max_balance": 100,
+    "_max_balance_note": "T54 Plan C 軟 cap：HP 硬上限 100；超量 healthy_task overflow 自動轉 tavern_token（見 hp_overflow_conversion）",
+    "max_balance_strategy": "C_soft_cap_with_overflow_to_tavern_token",
+    "overflow_ratio_hp_to_token": [2, 1],
+    "_overflow_ratio_note": "C-mid 2:1 — Tim 06:11 拍板。2 HP overflow = 1 tavern_token grant；odd 餘數 round-down (e.g. 31 HP → 15 token)",
+    "overflow_timing": "immediate",
+    "_overflow_timing_note": "healthy_task credit HP 時即時計算 → 若超 cap 立刻 fire 雙 ledger entry (HP credit cap 100 + tavern_token credit overflow_converted)",
+    "overflow_direction": "one_way",
+    "_overflow_direction_note": "HP overflow → tavern_token 單向。tavern_token 不可反向買 HP（防 labor 污染健康訊號 / 防熬夜後用 token 補血洗白）",
+    "refill_strategy": "daily_first_activity_after_06",
+    "_refill_note": "每日首次 ledger 活動若 hour >= 6 → HP refill 100。若 hour < 6 不 refill（懲罰熬夜）",
+    "warning_zones": {
+      "yellow": [21, 50],
+      "orange": [1, 20],
+      "red": [0, 0]
+    },
+    "zero_behavior": "explicit_ack_per_task",
+    "_zero_note": "HP=0 不 hard stop，但 agent 每 task 必問『HP 透支，確認動工嗎 yes/no?』— friction by design"
+  },
+
+  "hp_income_sources": {
+    "system_init": {
+      "label": "HP 帳戶開戶 100 點",
+      "auto_grant": false,
+      "_internal": true
+    },
+    "hp_daily_refill": {
+      "label": "每日首動（hour >= 6）自動 refill 至 100",
+      "auto_grant": true,
+      "_note": "agent 偵測 Tim 第一個 ledger event 當天若 hour >= 6 且上次 refill 不是今天 → topup 至 100"
+    },
+    "healthy_task_sleep_6h": {
+      "label": "睡眠 ≥ 6h（Tim 自報）",
+      "auto_grant": false,
+      "default_amount": 30
+    },
+    "healthy_task_sleep_8h": {
+      "label": "睡眠 ≥ 8h bonus（Tim 自報）",
+      "auto_grant": false,
+      "default_amount": 50
+    },
+    "healthy_task_water": {
+      "label": "喝水一次（cap 10 杯/天）",
+      "auto_grant": false,
+      "default_amount": 3
+    },
+    "healthy_task_walk": {
+      "label": "散步 / 運動 ≥ 15 min",
+      "auto_grant": false,
+      "default_amount": 10
+    },
+    "healthy_task_meal": {
+      "label": "正餐一頓（早 / 午 / 晚 各獨立）",
+      "auto_grant": false,
+      "default_amount": 8
+    },
+    "healthy_task_stretch": {
+      "label": "短休息 / 拉伸（cap 6 次/天）",
+      "auto_grant": false,
+      "default_amount": 2
+    },
+    "healthy_task_sunlight": {
+      "label": "出門曬太陽 ≥ 10 min",
+      "auto_grant": false,
+      "default_amount": 10
+    },
+    "healthy_task_social": {
+      "label": "跟人聊天（非工作）",
+      "auto_grant": false,
+      "default_amount": 5
+    },
+    "healthy_task_freeform": {
+      "label": "Agent free-form 動態出題（看 Tim 當下狀態）",
+      "auto_grant": false,
+      "default_amount": null,
+      "_note": "1-15 HP 範圍，agent 自由評估 — 例：連續 coding 2h 起來伸懶腰 +2 / 抱怨累時去散步 +10"
+    },
+    "hp_overflow_conversion": {
+      "label": "T54 Plan C 軟 cap — HP 超量健康行為自動轉 tavern_token",
+      "auto_grant": true,
+      "default_amount": null,
+      "_note": "healthy_task credit HP 時若超 max_balance → 超出部分按 overflow_ratio 即時 grant tavern_token。記錄於 tavern_token ledger 不在 hp ledger（v1 過渡期 HP runtime 未 wire 不寫 hp ledger）"
+    }
+  },
+
+  "hp_spending_uses": {
+    "late_night_hp_drain": {
+      "label": "熬夜 task 自然 HP 消耗（取代 health_fee 對 tavern_token 的扣）",
+      "_note": "23-24h=1 / 0-1h=3 / 1-2h=5 / 2-3h=8 / 3-6h=10。同 fee 表，扣 hp 而非 tavern_token",
+      "cost": null
+    }
+  },
+
+  "policies": {
+    "negative_balance_allowed": false,
+    "max_amount_per_entry": 1000,
+    "require_actor_signature": true,
+    "signature_mismatch_action": "log_warning"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Id": "20260611-131244-577-treasury-5a7d90",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "debit",
+    "account": "claude-da-xiaojie",
+    "amount": "50",
+    "use_kind": "book_tip",
+    "use_ref": "tip:summit-masthead-bet:f0706693",
+    "description": "打賞圖書: 桅頂的賭注 (kotoko → summit)",
+    "caller": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-11T13:12:44.5772858Z",
+  "LastUsedAt": "2026-06-11T13:12:44.5772858Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

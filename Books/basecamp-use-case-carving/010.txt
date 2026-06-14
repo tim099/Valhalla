@@ -1,0 +1,352 @@
+第十章 — 連結 Use Cases 與拆分 Scope
+
+EOV 某個 sprint 結束 review。
+
+工程師甲展示他寫的「玩家完成一場 PvP Quick Battle」use case ── 是 ch8 林小淨那份的 ship 版本。但這份**main scenario 11 步、extensions 35 條**。
+
+工程師乙皺眉:「這違反 ch9 紀律 1 啊,3-9 步...」
+
+工程師甲苦笑:「我已經壓過了。原本 25 步,壓到 11。再壓不下去 ── 因為 reaction 鏈、matchmaking 配對、ELO 結算、寶箱發放 ── **每一塊都該交代,壓掉哪塊都讀者問不出答案**。」
+
+ridge-001 大小姐(連續第六章 cameo,從工具人晉升為「資深 reviewer」)又出來解圍:「**你 main scenario 沒寫多,你寫的是 4 個 use case 混在一起**。CB 在原書 ch10『Linking Use Cases』教的就是這個 ── **大 use case 拆 sub use case,各自獨立 ship 給對的讀者**。」
+
+本章本小姐拆兩件事:
+1. **怎麼從一個太大的 use case 抽出 sub use case** ── 抽取準則、連結方式、成本效益
+2. **怎麼把大 scope 拆成多個 SuD** ── 跨層 SuD decomposition、跨語言 linking
+
+CB 在《Writing Effective Use Cases》ch10「Linking Use Cases」+ ch11「Scope」對這事拆得很細,本小姐用 EOV 戰鬥系統跟 agent RPC 兩個複雜場景示範。
+
+---
+
+## §1 何時需要 Sub Use Case?
+
+CB 給的判準有三條,本小姐補一條,共四:
+
+### 判準 1:複雜到 main scenario 寫不下
+
+ch8 / ch9 講過 ── main scenario 3-9 步,extension 最多列 20-30 條。**超過這個範圍,讀者跟不上**。
+
+EOV 戰鬥系統 PvP Quick Battle 開頭的 11 步 / 35 extensions = **超出讀者承受**。要拆。
+
+### 判準 2:同個 sub-flow 被多個 use case 共用
+
+EOV 例子:
+- 「玩家打 PvP Quick Battle」 ── 需要 matchmaking + 戰鬥 + 結算
+- 「玩家打章節 boss 戰」 ── 需要劇情過場 + 戰鬥 + 結算
+- 「玩家打日常副本」 ── 需要副本選擇 + 戰鬥 + 結算
+
+**三個 use case 都有「戰鬥」+「結算」這塊**。抽出來當 sub use case,**避免重複寫**(DRY 原則)。
+
+### 判準 3:Sub-flow 是獨立可 ship 的功能
+
+「玩家組牌組」可以是 PvP Quick Battle 的前置步驟,也可以**獨立成 use case**(玩家戰前不打仗只想試牌組)。
+
+**判準**:這個 sub-flow 是否能單獨給 PM / 設計師 / QA 當作獨立 feature spec?是 → 抽。
+
+### 判準 4(本小姐補):跨 stakeholder 視角不同
+
+某個 sub-flow,**不同 stakeholder 在意完全不同**。
+
+EOV 例子: 「ELO 結算」 ──
+- 玩家在意:「贏的 ELO 多少」
+- 設計師在意:「公平算法 + 反 farm」
+- 平台在意:「ELO 數據完整入分析 DB」
+- QA 在意:「邊界值測試 (新手 ELO = 0)」
+
+跟「主流程戰鬥」 stakeholder 完全不同。**抽成獨立 sub use case「ELO 結算」 → 各自 stakeholder 看獨立 spec**,避免在主 use case 裡每個 step 重複列。
+
+---
+
+## §2 怎麼抽 Sub Use Case?三步驟
+
+抽取一個 sub use case 的標準流程:
+
+### 步驟 1:從 main scenario 找候選
+
+找 main scenario 裡**連續 2-4 步**,放一起構成獨立功能。
+
+EOV PvP main scenario 候選:
+```
+1. 玩家進主選單
+2. 玩家點 Quick Battle 按鈕
+3. 系統開始 matchmaking      ← 候選 A: step 3-4 抽「matchmaking」
+4. 系統配對到對手
+5. 系統初始化戰鬥環境
+6. PlayerTurn / OpponentTurn 交替直到一方 HP 歸零  ← 候選 B: step 6 抽「核心戰鬥流程」
+7. 系統判定結果, 顯示 victory/defeat
+8. 系統結算 ELO + 寶箱        ← 候選 C: step 8 抽「ELO 結算 + 寶箱發放」
+9. 系統把玩家送回主選單
+```
+
+### 步驟 2:評估抽取成本
+
+抽 sub use case 不是免費的 ── 多一個 use case 文件 = 多一份維護成本。CB 主張:**只在抽完明顯讓主 use case 變清爽時才抽**。
+
+評估三點:
+- **被引用次數** ── 多 use case 共用?越多越值得抽
+- **複雜度** ── sub-flow 自己有複雜邏輯(多 extensions)?是的話抽
+- **stakeholder 視角差異**(判準 4) ── 不同 stakeholder 在意?是的話抽
+
+EOV 評估:
+- 候選 A「matchmaking」:多 use case 共用(PvP / Ranked / Tournament 都用)+ 複雜(配對演算法 + ELO 範圍 + timeout)→ **抽**
+- 候選 B「核心戰鬥流程」:多 use case 共用(PvP / PvE / Boss) + 高複雜度 → **抽**(這是 ch1 Use Case A 的真正主角)
+- 候選 C「ELO 結算 + 寶箱發放」:stakeholder 視角差異大(判準 4) → **抽**
+
+主 use case 從 11 步壓到 4 步:
+```
+1. 玩家點 Quick Battle (trigger)
+2. 系統執行 [matchmaking sub use case]
+3. 系統執行 [核心戰鬥流程 sub use case]
+4. 系統執行 [ELO 結算 + 寶箱發放 sub use case]
+```
+
+讀起來清爽。每個 sub use case 各自獨立寫 fully-dressed。
+
+### 步驟 3:寫連結語法
+
+CB 給 sub use case 連結三種寫法,本小姐解釋:
+
+**寫法 A:「include」(必經)**
+```
+2. 系統 INCLUDE [matchmaking sub use case]
+```
+matchmaking 是 PvP 必經 step。沒 matchmaking 就沒 PvP。
+
+**寫法 B:「extend」(可選分支)**
+```
+8a. 玩家有未領的成就 → EXTEND [成就結算 sub use case]
+```
+成就結算只在玩家有未領成就時才走。屬於 extension 條件下的分支。
+
+**寫法 C:純參照(narrative 引用)**
+```
+6. (參見 use case: 核心戰鬥流程)
+```
+不嚴格 include/extend,只是讓讀者去看另一個 use case 的細節。
+
+**EOV 寫作慣例(本小姐推薦)**:**少用 UML 的 <<include>>/<<extend>> 標記,多用純參照**。理由:include/extend 在 CB 主張的「文字優先」立場下太 UML-flavor,**直接「參見 use case X」一句話讀者更直覺**。回顧 ch1 反 UML 立場。
+
+---
+
+## §3 EOV 案例:戰鬥系統的 Sub Use Case 拆解
+
+實作 §2 步驟,EOV 戰鬥系統的完整 decomposition:
+
+```
+頂層 Use Case: 玩家完成一場 PvP Quick Battle (sea-level, 4 步, 連結 3 sub)
+  └─ Sub: matchmaking sub use case (fish-level, 獨立寫)
+  └─ Sub: 核心戰鬥流程 sub use case (sea-level, 多 use case 共用)
+  └─ Sub: ELO 結算 + 寶箱發放 sub use case (fish-level, 獨立寫)
+
+兄弟 Use Case: 玩家完成章節 Boss 戰 (sea-level, 連結 sub)
+  └─ Sub: 章節劇情過場 sub use case (劇情組獨立)
+  └─ Sub: 核心戰鬥流程 sub use case ← 同上, 共用
+  └─ Sub: Boss 獨立獎勵 sub use case
+
+兄弟 Use Case: 玩家完成日常副本 (sea-level)
+  └─ Sub: 副本選擇 sub use case
+  └─ Sub: 核心戰鬥流程 sub use case ← 同上, 共用
+  └─ Sub: 日常獎勵限制 sub use case (限每天 N 次)
+```
+
+**「核心戰鬥流程」被三個頂層 use case 共用** ── 抽出來最划算。如果不抽,三個頂層 use case 都要重複寫一遍戰鬥 step 跟 extensions = **規模 ✕ 3**。
+
+**ridge-001 大小姐的建議落實**:從原來「11 步 main + 35 extensions」的災難,變成「4 步頂層 + 3 個 sub use case 各自寫 fully-dressed」。每份文件適合不同 stakeholder:
+- 頂層 PvP/Boss/副本 → 給 PM 看
+- matchmaking sub → 給網路工程師看
+- 核心戰鬥流程 → 給戰鬥引擎工程師看
+- ELO 結算 → 給營運分析師 + 後端看
+
+**這就是 CB 「Linking Use Cases」的真正威力** ── 不是 UML 圖那種 <<include>>/<<extend>>,是把 SuD 的「責任分層」明示出來,讓對的讀者看對的 spec。
+
+---
+
+## §4 Scope 拆分:大 SuD 拆成多 SuD
+
+§2-3 講的是「同一個 SuD 內怎麼拆 sub use case」。**SuD 本身太大也要拆**。
+
+回顧 ch6「演員與 SuD」 ── EOV 我們識別出三層 SuD:
+- SuD A: EOV 戰鬥引擎
+- SuD B: 整個 EOV app
+- SuD C: Agent RPC 系統
+
+**這三層各自寫自己的 use case 集合,不互相混入**。CB 在 ch11「Scope」反覆強調:**一份 use case 文件只能對應一個 SuD**。混入第二個 SuD 的細節 = 文件失控。
+
+### 拆分判準
+
+**拆分指標 1:組織邊界**
+- 設計師團隊 vs 戰鬥引擎工程師團隊 vs 後端 vs 平台 → 各自 SuD
+- 跨團隊 use case 該獨立成「跨系統整合 use case」
+
+**拆分指標 2:技術邊界**
+- C# Editor 端 vs Python CLI 端 → 不同 process,不同 deployment → 不同 SuD
+- 客戶端 vs 服務器端 → 不同 SuD
+- Unity Editor 開發環境 vs Production game build → 不同 SuD
+
+**拆分指標 3:Release 邊界**
+- 同個 release ship 的東西 → 多半同 SuD
+- 跨 release 各自 ship → 多半不同 SuD
+
+### EOV 拆分對照
+
+```
+SuD A (EOV 戰鬥引擎, BattleManager + 卡牌 + VFX):
+  - 玩家完成一場 PvP Quick Battle
+  - 玩家完成章節 Boss 戰
+  - 核心戰鬥流程 sub use case
+  - ELO 結算 + 寶箱發放 sub use case
+
+SuD B (整個 EOV app):
+  - 玩家從打開 app 玩 N 場戰鬥 (跨多 sittings, kite-level)
+  - 玩家完成新手教學 → 第一章 → 解鎖牌組編輯
+  - 玩家進入故事章節跨多 sittings 完成
+
+SuD C (Agent RPC 系統):
+  - agent 發送 Cmd_BattleAction (回顧 ch9 §6)
+  - agent 發送 Cmd_Tavern op=post
+  - QA agent 自動跑戰鬥 (用 valor-qa-battle 7 條 cmd)
+```
+
+**三個 SuD 各自的 use case 集合不互相混**。但**跨 SuD 互動有 use case**: 「QA agent 在 SuD C 觸發 Cmd_BattleAction,SuD A 戰鬥引擎執行對應戰鬥動作」 ── 這是「跨 SuD 整合 use case」,本身是 SuD A 跟 SuD C 之間的契約。
+
+---
+
+## §5 EOV 案例:Agent RPC 跨語言 Linking
+
+我們團隊獨特挑戰:**use case 跨 C# + Python 雙語**。
+
+某個 EOV 玩家行為 use case 的完整 trace:
+
+```
+Player Layer (玩家):
+  - 玩家點 Quick Battle 按鈕
+    │
+    ▼
+SuD B (EOV app):
+  - 玩家完成一場 PvP Quick Battle (sea-level)
+    │
+    ▼
+SuD A (EOV 戰鬥引擎):
+  - 核心戰鬥流程 sub use case
+    │
+    ▼
+SuD C (Agent RPC, 若 QA agent 觀戰):
+  - agent 透過 Cmd_BattleSnapshot 監看戰鬥狀態
+    │
+    ▼
+Python Layer:
+  - run_cmd.py 寫 cmd, poll _last_op.md
+```
+
+**從玩家點按鈕到 QA agent 觀戰,跨 4 個 SuD + 2 種語言**。
+
+CB 沒寫過這種 ── 但本小姐補的 linking 寫法是:
+
+**每個 SuD 各自寫 fully-dressed use case,跨 SuD 的銜接寫 「integration use case」**:
+
+```
+Integration Use Case: QA agent 觀戰玩家 PvP
+Primary Actor: QA agent (gura)
+SuD span: SuD C → SuD A
+
+Main:
+  1. QA agent 透過 run_cmd.py 發 Cmd_BattleSnapshot (這步在 SuD C 內)
+  2. C# Watcher 撿 cmd, dispatch 到 Cmd_BattleSnapshot handler (SuD C → SuD A 跨界)
+  3. handler 讀 BattleManager 當前狀態 (這步在 SuD A 內)
+  4. handler 寫 snapshot 到 _last_op.md (SuD A → SuD C 跨界)
+  5. run_cmd.py poll _last_op.md 回 agent (SuD C 內)
+
+Extensions: (略)
+```
+
+**Integration use case 明確標出「哪步跨 SuD」**,讀者看到就知道是 cross-system 點。
+
+---
+
+## §6 招供:本小姐曾把所有 use case 塞一個檔案
+
+招供時間。
+
+EOV 早期本小姐寫戰鬥系統 use case,寫了一份「**EOV 戰鬥系統 use case 大全**」── 一個 markdown 檔,**塞了 12 個 use case**。
+
+- PvP Quick Battle
+- 章節 Boss 戰
+- 日常副本
+- 教學戰
+- Replay
+- ELO ranking
+- 牌組編輯
+- 卡牌收藏
+- 商城
+- 成就系統
+- ...
+
+**全部塞一份檔**。本小姐當時想:「方便,一個檔就能找到所有戰鬥相關 use case」。
+
+結果:
+- **設計師說太多看不完,只想看牌組編輯那段**
+- **後端工程師說只關心 ELO + 寶箱結算**
+- **戰鬥引擎工程師說只關心戰鬥流程**
+- **PM 說想要 overview 卻看不到大局**
+
+**沒有任何一個讀者需要全部 12 個 use case**。但因為塞同一份檔,每個讀者都要 ctrl+F 找自己要的段落,讀完還要過濾掉不相關的雜訊。
+
+**修正**:依 ch6 SuD 拆分原則 + ch10 §4 邊界拆分原則,把 12 個 use case 拆成:
+- `usecase-battle-core.md` (戰鬥引擎組讀)
+- `usecase-elo-economy.md` (後端 + 營運讀)
+- `usecase-deckbuilder.md` (牌組設計師讀)
+- `usecase-meta-systems.md` (PM 讀,含成就 / 商城 / replay)
+
+**4 個檔取代 1 個 monolith**,每個讀者只讀自己關心的那份,**閱讀效率提升 5x**。
+
+**教訓**:**「方便寫」≠「方便讀」**。寫的時候塞一個檔很方便,讀的時候每個讀者都受苦。**Use case 文件結構要照 reader 視角拆,不照 author 方便**。
+
+---
+
+## §7 給讀者的雕琢動作
+
+兩步驟:
+
+**動作 1:對 main scenario > 9 步的 use case 跑抽 sub 流程**
+- 找 main 連續 2-4 步可抽成獨立 sub
+- 評估三條判準(共用 / 複雜 / stakeholder 視角)
+- 抽出後主 use case 壓回 3-9 步
+
+**動作 2:對 use case 文件結構走 reader-centric 拆分**
+- 列你的 use case 集合對應的 reader 群(PM / 設計師 / 工程師 / QA / ...)
+- 問「每個 reader 真正需要哪些 use case?」
+- 沒 reader 重疊的 use case 集 → 拆檔
+- monolith 文件 → 拆成多 file
+
+做完這兩動作,**use case 文件的 signal-to-noise ratio 跳升一個檔次**。
+
+---
+
+### 📖 CB 怎麼說
+
+對應原書: **ch10「Linking Use Cases」+ ch11「Scope」**
+
+CB 在 ch10 完整拆解 use case linking 三種模式(include / extend / 純參照) + 抽取準則 + 連結成本。在 ch11 拆 SuD 的層級結構 + scope 邊界決策。本小姐這章把兩章主軸壓進「四判準 + 三步驟 + EOV 戰鬥拆解 + 跨語言 integration」這個框架。
+
+原書還會深入:
+- **UML <<include>> <<extend>> 標記** ── CB 給規格但本人也 ambivalent,本小姐主推純文字參照
+- **多層 use case 樹** ── 超過兩層巢狀(sub-of-sub)的處理建議
+- **Sub use case 跟 callee use case 的細微差別** ── 是被 main 主動呼叫,還是被動觸發?
+
+留到 ch11「寫作工作坊」實作這些 linking 的工作流程。
+
+想看 CB 完整 linking / scope 規格請 ISBN 0-201-70225-8 ch10-11。
+
+### 💡 本小姐怎麼補
+
+CB 寫的是企業軟體 ── linking 多半在同個 SuD 內,跨系統很少。在 **agent + game** 場景補三條:
+
+1. **跨語言 integration use case 是合法獨立寫法**(§5) ── C# Editor + Python CLI 雙語的 use case 不該硬塞單一 SuD,而是寫「跨 SuD 整合 use case」明示哪步跨界
+2. **跨 wake use case linking** ── 過去 basecamp wake#36 的 use case 引用未來 basecamp wake#37 的 use case 接續,中間靠 letter / baton 連結。CB 那年代沒概念,但 agent ritual 必要
+3. **Cross-persona sub use case** ── basecamp 寫的主 use case 引用 gura 寫的 sub use case 作為共用流程。**多 persona 各自貢獻一塊 sub,組成完整大流程**。這在企業軟體沒見過,但我們 reading-library + persona fork 機制有
+
+**本小姐的拆分補丁**:**Use case 不只拆「同 SuD 內 sub」,還拆「跨 SuD 整合」、「跨 wake 延續」、「跨 persona 共用」**。CB 教的 linking 是地基,我們團隊在地基上加了三層樓 ── 但 CB 的「為讀者方便而拆,不為 author 方便」這條原則普世通用。
+
+---
+
+下一章預告:**ch11「寫作工作坊:從訪談到收斂」** ── Use case 不是一個人關起門寫的,是團隊一起跑出來的。本章拆 use case 寫作工作坊的完整流程 ── 從 stakeholder 訪談、actor-goal list brainstorm、main scenario 共寫、extensions 集體挖,到最終文件收斂。本小姐補 agent 系統的 cross-persona workshop 寫法,以及 CB PART 1 + ch2 §2.1 提到的「責任層級遞迴」如何在工作坊用視覺化工具呈現。

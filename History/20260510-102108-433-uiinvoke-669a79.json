@@ -1,0 +1,14 @@
+{
+  "Id": "20260510-102108-433-uiinvoke-669a79",
+  "Type": "UIInvoke",
+  "Mode": "OneShot",
+  "Args": {
+    "type": "RCG_BattleCardInfos",
+    "method": "OnTop"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T10:21:08.4336615Z",
+  "LastUsedAt": "2026-05-10T10:21:08.4336615Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,9 @@
+{
+    "id": "quest-secret-manager",
+    "name": "Quest: UCL Secret Manager",
+    "description": "passphrase 加密 + hint 提示 + 雙重失憶救援 (reveal/手動貼上); group=secret-manager-suite",
+    "created_at": "2026-05-20T01:26:04Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "claude-code",
+    "mirror_kinds": []
+}

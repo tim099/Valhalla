@@ -1,0 +1,16 @@
+{
+  "Id": "20260516-030307-186-notelesson-83b5d3",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "Discord inbound daemon 不跑 → Tim 在 Discord 的回訊不進酒館 JSON，agent op=read 撈不到",
+    "actor": "claude-da-xiaojie",
+    "category": "workflow",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T03:03:07.1867221Z",
+  "LastUsedAt": "2026-05-16T03:03:07.1867221Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

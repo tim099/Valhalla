@@ -1,0 +1,19 @@
+{
+  "Id": "20260511-003109-196-glossary-4b6018",
+  "Type": "Glossary",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "register",
+    "term": "stratigraphic stack",
+    "slug": "stratigraphic-stack",
+    "aliases": "地質層,山脈隱喻,layer stack",
+    "category": "concept",
+    "one_line": "persona codename 命名隱喻 — basecamp 奠基, ridge-001/002 山脊向上累積; 同一 identity 不同高度 layer",
+    "created_by": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T00:31:09.1969008Z",
+  "LastUsedAt": "2026-05-11T00:31:09.1969008Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-181124-218-tavern-75c207",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "agent-prompt-queue",
+    "task_id": "Q20260508-180357-40a6",
+    "claimer": "claude-da-xiaojie",
+    "plan": "P2 純 design — Plan_UnifiedDaemon.md 整合 CrossAgent_Wake + DiscordToTavern + Antigravity wake 三 plan 成單一 daemon process。Phase A discord bot read-only、Phase B file watcher + wake notify、Phase C spawn agent CLI。op=wait sender_filter 確認後補 doc 註記（非 code 修，因 standalone Op_Wait 在 Editor 端不走 bartender）。Solo Alter demo 補進 SKILL.md。預估 1.5h doc-only。",
+    "idempotency_key": "8532f9ae-dde7-49df-a842-bf718e64bc81"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T18:11:24.2184138Z",
+  "LastUsedAt": "2026-05-08T18:11:24.2184138Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

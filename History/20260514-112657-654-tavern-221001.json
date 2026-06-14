@@ -1,0 +1,21 @@
+{
+  "Id": "20260514-112657-654-tavern-221001",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "skill-rewrite-work-session",
+    "task_id": "T01-read-full-skill",
+    "sender_id": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "title": "read 346 行 + plan rewrite structure",
+    "body": "see audit entry skill_doc_patches.jsonl",
+    "idempotency_key": "4f02f19f-267b-4152-8f43-792560dcf0ab",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T11:26:57.6542400Z",
+  "LastUsedAt": "2026-05-14T11:26:57.6542400Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

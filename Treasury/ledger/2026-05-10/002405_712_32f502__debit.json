@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T00:24:05.712Z",
+  "uuid": "32f502",
+  "type": "debit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "tim_grant_payment",
+  "source_ref": "task-backfill-10-0806",
+  "source_description": "T65 backfill task #10 @ 08:06: 太平洋標準銀行 webhook diagnose + T64 broadcast",
+  "balance_before": 11,
+  "balance_after": 10,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "51836",
+  "sig_env_marker": "manual_filesystem_write_t65_backfill",
+  "sig_cmd_id": "T65_backfill_task-backfill-10-0806",
+  "signature_mismatch": false
+}

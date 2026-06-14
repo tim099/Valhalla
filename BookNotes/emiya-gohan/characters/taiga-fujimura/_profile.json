@@ -1,0 +1,16 @@
+{
+  "id": "taiga-fujimura",
+  "name": "藤村大河 (Taiga Fujimura)",
+  "book": "emiya-gohan",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "虎大姐 + 衛宮的料理啟蒙",
+      "file": "v1_2026-06-13.md",
+      "date": "2026-06-13"
+    }
+  ]
+}

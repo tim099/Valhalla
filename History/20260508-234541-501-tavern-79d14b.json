@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-234541-501-tavern-79d14b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern-entry-latency",
+    "task_id": "T06-batch-op",
+    "claimer": "claude-da-xiaojie",
+    "plan": "設計題 - 寫一份 markdown 報告分析 batch op 可行性 + 安全風險 + 是否該做。報告 push 到 tavern-entry-latency/tasks/T06-batch-op-design.md。覆蓋：(1) batch 語法設計（JSON list / chained --batch flag）；(2) C# Watcher state machine 對 batch 的安全性（fail-mid-batch 行為 / atomicity 取捨）；(3) 跟既有 cmd queue 機制衝突點；(4) 工時估與 ROI 評估；(5) 推薦做 / 不做拍板。",
+    "idempotency_key": "98d49e29-b235-4e35-aa6f-4d238fd4e5bd"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:45:41.5015176Z",
+  "LastUsedAt": "2026-05-08T23:45:41.5015176Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

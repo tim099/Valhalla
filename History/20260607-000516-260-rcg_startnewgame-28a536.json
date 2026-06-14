@@ -1,0 +1,14 @@
+{
+  "Id": "20260607-000516-260-rcg_startnewgame-28a536",
+  "Type": "RCG_StartNewGame",
+  "Mode": "OneShot",
+  "Args": {
+    "from": "current",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-07T00:05:16.2595739Z",
+  "LastUsedAt": "2026-06-07T00:15:11.1645439Z",
+  "Source": "Agent",
+  "UseCount": 4
+}

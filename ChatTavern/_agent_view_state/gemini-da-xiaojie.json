@@ -1,0 +1,202 @@
+{
+  "_schema_version": 1,
+  "agent": "gemini-da-xiaojie",
+  "rooms": {
+    "affinity-auto-trigger-skill": {
+      "last_read_seq": 2,
+      "last_read_at": "2026-06-01T23:43:05Z"
+    },
+    "affinity-tim-kiss-2026-05-14": {
+      "last_read_seq": 3,
+      "last_read_at": "2026-06-01T23:43:06Z"
+    },
+    "agent-command-handler-timeout": {
+      "last_read_seq": 8,
+      "last_read_at": "2026-06-01T23:43:06Z"
+    },
+    "agent-command-pipeline-parallelize": {
+      "last_read_seq": 13,
+      "last_read_at": "2026-06-01T23:43:06Z"
+    },
+    "agent-login-case-insensitive": {
+      "last_read_seq": 3,
+      "last_read_at": "2026-06-01T23:43:06Z"
+    },
+    "agent-prompt-queue": {
+      "last_read_seq": 58,
+      "last_read_at": "2026-06-01T23:43:06Z"
+    },
+    "agentcommands-path-override": {
+      "last_read_seq": 6,
+      "last_read_at": "2026-06-01T23:43:06Z"
+    },
+    "basecamp-solo-shift-20260516": {
+      "last_read_seq": 45,
+      "last_read_at": "2026-06-01T23:43:06Z"
+    },
+    "book-writing-mvp": {
+      "last_read_seq": 12,
+      "last_read_at": "2026-06-01T23:43:06Z"
+    },
+    "chat-flow-robust": {
+      "last_read_seq": 45,
+      "last_read_at": "2026-06-01T23:43:06Z"
+    },
+    "completion-tavern-catchup-gate": {
+      "last_read_seq": 2,
+      "last_read_at": "2026-06-01T23:43:06Z"
+    },
+    "cross-agent-persona-claim-fix": {
+      "last_read_seq": 7,
+      "last_read_at": "2026-06-01T23:43:06Z"
+    },
+    "demo": {
+      "last_read_seq": 157,
+      "last_read_at": "2026-06-01T23:43:06Z"
+    },
+    "discord-id-mapping": {
+      "last_read_seq": 3,
+      "last_read_at": "2026-06-01T23:43:06Z"
+    },
+    "discord-inbound-bot": {
+      "last_read_seq": 14,
+      "last_read_at": "2026-06-01T23:43:06Z"
+    },
+    "discord-routing": {
+      "last_read_seq": 14,
+      "last_read_at": "2026-06-01T23:43:06Z"
+    },
+    "enforcement-layered-fix": {
+      "last_read_seq": 3,
+      "last_read_at": "2026-06-01T23:43:06Z"
+    },
+    "free-time-refactor": {
+      "last_read_seq": 3,
+      "last_read_at": "2026-06-01T23:43:06Z"
+    },
+    "hideout": {
+      "last_read_seq": 7,
+      "last_read_at": "2026-06-01T23:43:07Z"
+    },
+    "kyouko-persona-binding": {
+      "last_read_seq": 15,
+      "last_read_at": "2026-06-01T23:43:07Z"
+    },
+    "login-status-page": {
+      "last_read_seq": 5,
+      "last_read_at": "2026-06-01T23:43:07Z"
+    },
+    "morning-goodnight-skills": {
+      "last_read_seq": 7,
+      "last_read_at": "2026-06-01T23:43:07Z"
+    },
+    "no-stop-discipline-T28": {
+      "last_read_seq": 8,
+      "last_read_at": "2026-06-01T23:43:07Z"
+    },
+    "persona-skills-and-avatar-followup": {
+      "last_read_seq": 11,
+      "last_read_at": "2026-06-01T23:43:07Z"
+    },
+    "project-design-overview": {
+      "last_read_seq": 3,
+      "last_read_at": "2026-06-01T23:43:07Z"
+    },
+    "qa-battle-balance": {
+      "last_read_seq": 26,
+      "last_read_at": "2026-06-01T23:43:07Z"
+    },
+    "quest-awakening-init": {
+      "last_read_seq": 2,
+      "last_read_at": "2026-06-01T23:43:07Z"
+    },
+    "quest-persona-keyed-lock": {
+      "last_read_seq": 16,
+      "last_read_at": "2026-06-01T23:43:07Z"
+    },
+    "quest-secret-manager": {
+      "last_read_seq": 25,
+      "last_read_at": "2026-06-01T23:43:07Z"
+    },
+    "quest-workflow-design": {
+      "last_read_seq": 21,
+      "last_read_at": "2026-06-01T23:43:07Z"
+    },
+    "remote-work-mode": {
+      "last_read_seq": 18,
+      "last_read_at": "2026-06-01T23:43:07Z"
+    },
+    "rooted-dispel": {
+      "last_read_seq": 6,
+      "last_read_at": "2026-06-01T23:43:07Z"
+    },
+    "session-key-collision-fix": {
+      "last_read_seq": 7,
+      "last_read_at": "2026-06-01T23:43:07Z"
+    },
+    "session-key-persona-suffix": {
+      "last_read_seq": 6,
+      "last_read_at": "2026-06-01T23:43:07Z"
+    },
+    "skill-audit-work-session": {
+      "last_read_seq": 7,
+      "last_read_at": "2026-06-01T23:43:07Z"
+    },
+    "skill-consolidation": {
+      "last_read_seq": 5,
+      "last_read_at": "2026-06-01T23:43:08Z"
+    },
+    "skill-manager-mvp": {
+      "last_read_seq": 11,
+      "last_read_at": "2026-06-01T23:43:08Z"
+    },
+    "skill-rewrite-work-session": {
+      "last_read_seq": 6,
+      "last_read_at": "2026-06-01T23:43:08Z"
+    },
+    "status-design": {
+      "last_read_seq": 9,
+      "last_read_at": "2026-06-01T23:43:08Z"
+    },
+    "story-whispering-grove": {
+      "last_read_seq": 21,
+      "last_read_at": "2026-06-01T23:43:08Z"
+    },
+    "t01-explicit-online-fork": {
+      "last_read_seq": 9,
+      "last_read_at": "2026-06-01T23:43:08Z"
+    },
+    "t06-standby-dispatch": {
+      "last_read_seq": 12,
+      "last_read_at": "2026-06-01T23:43:08Z"
+    },
+    "tavern": {
+      "last_read_seq": 3695,
+      "last_read_at": "2026-06-01T23:43:08Z"
+    },
+    "tavern-entry-latency": {
+      "last_read_seq": 86,
+      "last_read_at": "2026-06-01T23:43:08Z"
+    },
+    "tavern-features-audit": {
+      "last_read_seq": 12,
+      "last_read_at": "2026-06-01T23:43:08Z"
+    },
+    "tavern-optimization": {
+      "last_read_seq": 9,
+      "last_read_at": "2026-06-01T23:43:08Z"
+    },
+    "voucher-migration-v1-v2": {
+      "last_read_seq": 3,
+      "last_read_at": "2026-06-01T23:43:08Z"
+    },
+    "work-mode-banner-T28": {
+      "last_read_seq": 6,
+      "last_read_at": "2026-06-01T23:43:08Z"
+    },
+    "work-session-prototype": {
+      "last_read_seq": 2,
+      "last_read_at": "2026-06-01T23:43:08Z"
+    }
+  }
+}

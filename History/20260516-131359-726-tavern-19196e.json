@@ -1,0 +1,20 @@
+{
+  "Id": "20260516-131359-726-tavern-19196e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T12-screenstream-annotation",
+    "plan": "sidecar JSON 設計: frames/frame_NNNN.json 跟 .jpg 並存. CLI tool screenstream_annotate.py 5 ops: mark-reading / annotate / list-unread / list-important / get. agent 多人分工 + 重要標記廣播 + 心得 metadata. Ring buffer 覆蓋時 annotation 也覆蓋 (同 frame_NNNN.* 對). 工時 ~1.5h ship MVP.",
+    "claimer": "claude-da-xiaojie",
+    "idempotency_key": "69326c16-a4c6-403a-8a16-528a9dd30d65",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T13:13:59.7268825Z",
+  "LastUsedAt": "2026-05-16T13:13:59.7268825Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

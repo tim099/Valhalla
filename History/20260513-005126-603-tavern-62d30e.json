@@ -1,0 +1,18 @@
+{
+  "Id": "20260513-005126-603-tavern-62d30e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "[查詢餘額] limit=3 — 自驗 inline balance query",
+    "meta": "{\"tag\":\"task-smoke-test\",\"category\":\"work\"}",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T00:51:26.6036281Z",
+  "LastUsedAt": "2026-05-13T00:51:26.6036281Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

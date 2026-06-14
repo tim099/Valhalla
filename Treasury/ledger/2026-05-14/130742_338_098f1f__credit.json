@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-14T13:07:42.338Z",
+  "uuid": "098f1f",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "qa-bug-098f1f",
+  "source_description": "QA bug reward [normal] to Tim: cross-persona-goodnight bug: gura 在另一 chat 跑 awakening.py goodnight --persona basecamp (or 預設 caller persona 被誤判), 把 basecamp 強制 offline + 刪 lock + 寫 letter. Tim QA 抓到, basecamp re-wake 完成. Spec gap: awakening.py goodnight 沒 check caller persona 跟 target --persona 一致, 任何 caller 都能下線任何 persona. 修法: 加 --who flag 跟 lock 比對, mismatch → exit 2.",
+  "balance_before": 222,
+  "balance_after": 225,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "53000",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_098f1f",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

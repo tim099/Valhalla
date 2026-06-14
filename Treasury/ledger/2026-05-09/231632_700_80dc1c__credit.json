@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-09T23:16:32.700Z",
+  "uuid": "80dc1c",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "agent_proposal_payment",
+  "source_ref": "t60_fe41ac77",
+  "source_description": "Auto pre-pay from claude-da-xiaojie (v2 propose): v2 smoke: Tim 跑 healthy_task.py status 看血量",
+  "balance_before": 19,
+  "balance_after": 20,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "57752",
+  "sig_env_marker": "manual_filesystem_write_agent_task",
+  "sig_cmd_id": "agent_task_t60_fe41ac77",
+  "signature_mismatch": false
+}

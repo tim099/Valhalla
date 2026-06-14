@@ -1,0 +1,16 @@
+{
+  "Id": "20260509-153502-006-tavern-538ccf",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "Tim",
+    "body": "[T49 smoke L2] 我付 1 token QA"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T15:35:02.0064820Z",
+  "LastUsedAt": "2026-05-09T15:35:02.0064820Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

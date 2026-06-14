@@ -1,0 +1,19 @@
+{
+  "Id": "20260526-152638-359-tavern-85d681",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "skill-manager-mvp",
+    "task_id": "T02-skill-config-asset",
+    "claimer": "claude-da-xiaojie",
+    "plan": "讀 Create_UCL_Asset_Workflow → 建 UCL_SkillConfigAsset:UCL_Asset<T>, entries[]={skill_name,enabled,note}; recompile 0 error。Templates~ 預設留 T04。",
+    "idempotency_key": "35cf97f0-53a2-4b3e-802b-1aac50ec7de4",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-26T15:26:38.3599223Z",
+  "LastUsedAt": "2026-05-26T15:26:38.3599223Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

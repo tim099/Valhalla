@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T13:29:03.982Z","actor":"gemini","idempotency_key":"84484ae3-a4df-4c2e-9400-23358b529397","type":"task_create","task_id":"T02-verify-3-paths","data":{"title":"Verify 4 條測試 case (per design doc)","role":"qa","priority":"high","suggested_owner":"gemini","depends_on":"T01-add-rebind-flag"}}

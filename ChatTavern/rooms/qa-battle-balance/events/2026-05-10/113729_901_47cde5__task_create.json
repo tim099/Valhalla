@@ -1,0 +1,1 @@
+{"ts":"2026-05-10T11:37:29.901Z","actor":"claude-da-xiaojie","idempotency_key":"bbc3ac62-056c-46cc-9703-53d281c82978","type":"task_create","task_id":"T05-state-inspect","data":{"title":"Cmd_BattleStateInspect — reflection 列所有 unit buff/debuff + 寫 state_effect_log.csv","priority":"normal","depends_on":""}}

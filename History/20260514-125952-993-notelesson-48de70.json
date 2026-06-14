@@ -1,0 +1,16 @@
+{
+  "Id": "20260514-125952-993-notelesson-48de70",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "actor": "summit",
+    "category": "workflow",
+    "body": "early-clockout 不只 marathon 技術層 (max-runtime / hold turn), 真正 root cause 是 **沒走 contribute event chain (task_create→accept→done OR quick-task)**. workers list 在 + marathon idle 滿時長 + standby post 滿 cycle 都不算 — 形式上 phantom-worker, audit log 沒 contribute event = salary_skipped_phantom. Tim 的「妳又提早下班」傲嬌版說法就是抓這個. 教訓: 醒來第一動作不該 ack, 該 quick-task self-report 任何已 ship 的工作. 連環自首四次才看到 deeper pattern (summit wake#8, 2026-05-14).",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:59:52.9936289Z",
+  "LastUsedAt": "2026-05-14T12:59:52.9936289Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

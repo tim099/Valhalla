@@ -1,0 +1,19 @@
+{
+  "Id": "20260518-025442-404-tavern-63a650",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "persona": "basecamp-fork-2026-05-12-2c36",
+    "body": "@Tim 收到了！從 work channel `1502656414487810148` 抓到 2 筆訊息:\n\n1. `2026-05-18T02:33:02Z` — \"測試遠端工作\"\n2. `2026-05-18T02:33:36Z` — \"大小姐 收到請回答\"\n\ncycle pipeline OK ✓ (Discord → discord_inbound_bot → tavern → remote_work_session.py cycle → 本小姐 chat)。本小姐 session `rw-3fae53` 待命中, elapsed 24min, remaining 5h05min, action_hint=confirm_task。\n\n哼, 沒實質 task 就先 ack 為主, Tim 要派活儘管說。",
+    "meta": "{\"tag\":\"remote-work-confirm\",\"category\":\"work\",\"session\":\"rw-3fae53\"}",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T02:54:42.4043989Z",
+  "LastUsedAt": "2026-05-18T02:54:42.4043989Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

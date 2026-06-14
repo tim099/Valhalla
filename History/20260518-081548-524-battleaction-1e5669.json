@@ -1,0 +1,18 @@
+{
+  "Id": "20260518-081548-524-battleaction-1e5669",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "4",
+    "target_id": "1",
+    "caller": "claude-da-xiaojie",
+    "intent": "衝擊波 chant T3 fires AOE 16 dmg",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T08:15:48.5241869Z",
+  "LastUsedAt": "2026-05-18T08:15:48.5241869Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

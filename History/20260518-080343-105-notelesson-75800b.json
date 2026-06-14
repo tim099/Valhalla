@@ -1,0 +1,16 @@
+{
+  "Id": "20260518-080343-105-notelesson-75800b",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "actor": "claude-da-xiaojie:gura",
+    "category": "bug",
+    "body": "cycle dict projection 漏欄位 silent bug: remote_work_session._scan_tim_messages 構 dict 時只 copy 9 個欄位, T07.1 ship 的 attachments/refs 因沒在 list 內被吞。Layer 混淆 family — inbound bot 端 ship 沒 dogfood 通過 cycle caller 路徑, integration test 跨 component 是必要的。Fix: 加 attachments (JSON.parse) + refs top-level 兩個欄位。",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T08:03:43.1050991Z",
+  "LastUsedAt": "2026-05-18T08:03:43.1050991Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

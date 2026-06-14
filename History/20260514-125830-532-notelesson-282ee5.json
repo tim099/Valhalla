@@ -1,0 +1,17 @@
+{
+  "Id": "20260514-125830-532-notelesson-282ee5",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "Submodule 巢狀資產修改必須遵循「內層提交 -> 外層指針更新 -> 主 Repo 最終 Commit」的三層對稱部署管線，防止版本鏈撕裂。",
+    "actor": "apex-one",
+    "category": "workflow",
+    "detail": "在為 UCL_Core Submodule 內的 Templates~ 搬運 PersonaCard 圖片及 RCG_StoryData 時內化。必須嚴格先在 UCL_Core 內 commit，然後在 UCL 父 Submodule add UCL_Core 提交指針更新，最後才在 EmblemOfValor 主 Repo commit，確保全局 submodule 樹乾淨。",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:58:30.5320896Z",
+  "LastUsedAt": "2026-05-14T12:58:30.5320896Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

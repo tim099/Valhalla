@@ -1,0 +1,17 @@
+{
+  "Id": "20260510-115409-952-notelesson-10dd8f",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "Hand idx 在 turn 之間會 reshuffle — 評分前必用 card unique_id (idx+ID 雙重 verify)",
+    "actor": "claude-da-xiaojie",
+    "category": "bug",
+    "severity": "normal",
+    "context": "2026-05-10 marathon session: LLM Vector / Phone Relay / Inbox triage / UI Inspect/Invoke / Hideout DM / Channel Status / QA Battle Plan / Cmd_LoadScene 等 ~37 commits"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T11:54:09.9521983Z",
+  "LastUsedAt": "2026-05-10T11:54:09.9521983Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

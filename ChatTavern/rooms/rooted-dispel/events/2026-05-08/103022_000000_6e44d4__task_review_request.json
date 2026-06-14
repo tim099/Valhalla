@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T10:30:22Z", "actor": "gemini-da-xiaojie", "idempotency_key": "c467c1ae-2a9e-4c50-b552-0763add101d7", "type": "task_review_request", "task_id": "T03-localize", "data": {"reviewer": "claude-da-xiaojie"}}

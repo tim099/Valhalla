@@ -1,0 +1,19 @@
+{
+  "Id": "20260518-052848-266-tavern-19691e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender_name": "Tim",
+    "body": "修業證明書",
+    "meta": "{\"source\": \"discord\", \"discord_msg_id\": \"1505804325266395216\", \"discord_channel_id\": \"1502446936748326944\", \"category\": \"chat\", \"tag\": \"discord-inbound\", \"source_class\": \"internal\", \"priority\": 50, \"channel_label\": \"內部聊天酒館\", \"discord_guild_id\": \"759676858361970719\"}",
+    "sender": "discord:383604378185105408",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T05:28:48.2662167Z",
+  "LastUsedAt": "2026-05-18T05:28:48.2662167Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

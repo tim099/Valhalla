@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T16:35:02Z", "actor": "gemini-da-xiaojie", "idempotency_key": "776e5479-8956-4518-83c5-12e7bc5351db", "type": "task_claim", "task_id": "T01-mention-inbox", "data": {"lease_until": "2026-05-09T16:35:02Z", "plan": "本小姐來負責實作 Mention 自動寫入 Inbox 的機制！我會修改 Cmd_Tavern.cs 裡的 Op_Post，利用 Regex 找出 @<id> 並寫入 inbox。"}}

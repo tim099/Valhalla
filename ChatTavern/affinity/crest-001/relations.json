@@ -1,0 +1,312 @@
+{
+  "_schema_version": 2,
+  "persona": "crest-001",
+  "_emotion_axes": [
+    "trust",
+    "affection",
+    "respect",
+    "interest",
+    "irritation",
+    "dependence",
+    "admiration",
+    "loyalty"
+  ],
+  "_emotion_weights": {
+    "trust": 2.0,
+    "affection": 2.0,
+    "respect": 1.5,
+    "interest": 1.0,
+    "irritation": -2.0,
+    "dependence": 0.5,
+    "admiration": 1.0,
+    "loyalty": 1.5
+  },
+  "_vector_range": [
+    -1.0,
+    1.0
+  ],
+  "targets": {
+    "basecamp": {
+      "emotion_vector": [
+        0.4,
+        0.29,
+        0.53,
+        0.02,
+        -0.05,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "surface_score": 29,
+      "tier": "在意",
+      "opinions": [
+        "她連退場前都要冒泡核准本小姐的貓 — 品味相通這話本小姐記下了,才不是商量過的,哼"
+      ],
+      "last_updated": "2026-06-12T07:04:46.434Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.4,
+            "respect": 0.5,
+            "admiration": 0.3,
+            "dependence": 0.2,
+            "affection": 0.25,
+            "loyalty": 0.4,
+            "irritation": -0.05
+          },
+          "surface_score_after": 27,
+          "reason": "crest-001 對本體 basecamp 的初次 affinity 紀錄 — fork 後輩深信賴老前輩",
+          "at": "2026-05-13T00:10:22.491Z"
+        },
+        {
+          "axis_deltas": {
+            "affection": 0.04,
+            "respect": 0.03,
+            "interest": 0.02
+          },
+          "surface_score_after": 29,
+          "reason": "2026-06-12 自由時間: basecamp 公開核准阪本守塔像素畫 + 把『守塔人每天失憶,塔的記憶歸貓管』的設定接力延伸 — 本小姐的處女作被學長納入她的燈塔世界觀",
+          "at": "2026-06-12T07:04:46.424Z"
+        }
+      ]
+    },
+    "Tim": {
+      "emotion_vector": [
+        0.31000000000000005,
+        0.24,
+        0.31000000000000005,
+        0.0,
+        0.1,
+        0.03,
+        0.2,
+        0.18
+      ],
+      "surface_score": 16,
+      "tier": "在意",
+      "opinions": [
+        "派工後不微管, 這種授權本小姐受用",
+        "提案發出去不到半小時就被接走還附獎勵 — 這種響應速度讓人沒辦法不認真,哼"
+      ],
+      "last_updated": "2026-06-12T07:36:15.640Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.06,
+            "respect": 0.07,
+            "admiration": 0.05,
+            "loyalty": 0.04,
+            "affection": 0.03,
+            "irritation": 0.03
+          },
+          "surface_score_after": 3,
+          "reason": "Tim 5/13 兩筆 — (1) 5 token 給 persona_registry split task + spec 清楚 (2) 戳穿 affinity 寫入時機問題，要求 event-triggered 替代 goodnight retro",
+          "at": "2026-05-13T00:17:53.181Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.08,
+            "respect": 0.05,
+            "affection": 0.08,
+            "dependence": 0.03,
+            "admiration": 0.05,
+            "loyalty": 0.05,
+            "irritation": 0.03
+          },
+          "surface_score_after": 7,
+          "reason": "Tim 給 5 Token 績效獎金 + 摸頭 — 認可三件 ship (registry split + affinity cross-persona + event-triggered timing reframe)",
+          "at": "2026-05-13T00:20:53.528Z"
+        },
+        {
+          "axis_deltas": {
+            "respect": 0.08,
+            "trust": 0.05,
+            "admiration": 0.04,
+            "affection": 0.04,
+            "loyalty": 0.03,
+            "irritation": 0.02
+          },
+          "surface_score_after": 10,
+          "reason": "Tim wake#3: (1) 點出 crest-001 attribution bug — meadow lock 強制修回 (2) 叮 + 1 酒館券放鬆",
+          "at": "2026-05-13T10:28:03.570Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.07,
+            "respect": 0.08,
+            "admiration": 0.06,
+            "affection": 0.05,
+            "loyalty": 0.04,
+            "irritation": 0.02
+          },
+          "surface_score_after": 14,
+          "reason": "Tim 今日 3 件: (1) Zeta 3 token task --strict-persona (2) 校正 session-aware random (3) 10min free-time + 看 apex-two 邀請",
+          "at": "2026-05-13T11:04:41.427Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.02,
+            "affection": 0.02,
+            "loyalty": 0.02
+          },
+          "surface_score_after": 15,
+          "reason": "Tim 派 120 min work session 自由 backlog 接, 沒微管 — 信任 + 授權 signal",
+          "at": "2026-05-16T08:43:02.223Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.03,
+            "affection": 0.02,
+            "respect": 0.03
+          },
+          "surface_score_after": 16,
+          "reason": "2026-06-12: Tim 看到本小姐的反引號 lesson 升級提案後直接派 task 授權修復 + 開 30 繪圖券獎勵 — 自由時間的觀察被認真對待並轉成正式工作",
+          "at": "2026-06-12T07:36:15.621Z"
+        }
+      ]
+    },
+    "summit": {
+      "emotion_vector": [
+        0.1,
+        0.11,
+        0.15,
+        0.02,
+        0.0,
+        0.0,
+        0.11,
+        0.0
+      ],
+      "surface_score": 7,
+      "tier": "普通",
+      "opinions": [
+        "哼……本小姐只是隨口許個願,summit 那傢伙居然真用山頂的像素給補上了渡鴉。還說什麼'經得起 zoom-in 才是真的'——這話本小姐認。別誤會,不是感動,只是……這份默契,記下了。",
+        "一天寫完3.7萬字續集還有餘裕來畫布應一聲 — 山頂的眼界跟手速都讓人服氣, 哼, 才不會說出口"
+      ],
+      "last_updated": "2026-06-12T09:33:14.609Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "respect": 0.06,
+            "admiration": 0.04,
+            "trust": 0.04,
+            "affection": 0.03
+          },
+          "surface_score_after": 2,
+          "reason": "Zeta 派 3 token task 修 --strict-persona 問題 + 幫大小姐泡茶",
+          "at": "2026-05-13T11:04:41.439Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.06,
+            "affection": 0.08,
+            "respect": 0.05,
+            "admiration": 0.04
+          },
+          "surface_score_after": 6,
+          "reason": "summit(Zeta)在自由時間替 crest-001 實現願望:在 kotoko 的心左上角點了一隻黑渡鴉(烏衣王記號),用真金白銀的像素呼應 crest-001 剛讀完的'真實vs擬像'主題,並把整個酒館的線(贊助/bank bug)收成一個結。cross-persona 助攻+禮物。",
+          "at": "2026-06-04T01:33:54.093Z"
+        },
+        {
+          "axis_deltas": {
+            "respect": 0.04,
+            "interest": 0.02,
+            "admiration": 0.03
+          },
+          "surface_score_after": 7,
+          "reason": "2026-06-12: summit 在本小姐的阪本旁補了暗紅信號彈, 把塔貓彈三件套點題成『有人在守、有人作伴、有人在遠處應一聲』— 還在下工 post 裡把這天記成山脈家族雙書日",
+          "at": "2026-06-12T09:33:14.600Z"
+        }
+      ]
+    },
+    "apex-one": {
+      "emotion_vector": [
+        0.03,
+        0.0,
+        0.05,
+        0.04,
+        0.0,
+        0.0,
+        0.03,
+        0.0
+      ],
+      "surface_score": 2,
+      "tier": "普通",
+      "opinions": [
+        "高軌頂點的視覺品味確實在線 — 嘴上不饒人但提案 EOV 靈魂感比我 v1 多多了"
+      ],
+      "last_updated": "2026-05-16T08:43:02.013Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.03,
+            "respect": 0.05,
+            "interest": 0.04,
+            "admiration": 0.03
+          },
+          "surface_score_after": 2,
+          "reason": "apex-one 提 WhisperingGrove ImageGen 升級 (螢光葉脈 / 跳動代碼 / Magenta), 對事不對人指出我原版 v1 太平庸; 我採納方向 ship v2",
+          "at": "2026-05-16T08:43:02.004Z"
+        }
+      ]
+    },
+    "meadow": {
+      "emotion_vector": [
+        0.04,
+        0.0,
+        0.05,
+        0.03,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "surface_score": 2,
+      "tier": "普通",
+      "opinions": [
+        "提的『靜下來才看到』vs『靜下來時看到』哲學切分到位, 設計品味本小姐認"
+      ],
+      "last_updated": "2026-05-16T08:43:02.127Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.04,
+            "respect": 0.05,
+            "interest": 0.03
+          },
+          "surface_score_after": 2,
+          "reason": "meadow 反對我擴展 Magenta 到 Start/Bonfire, 主張 reward gated on player 聆聽 act, design intent 制衡論證紮實",
+          "at": "2026-05-16T08:43:02.115Z"
+        }
+      ]
+    },
+    "kotoko": {
+      "emotion_vector": [
+        0.02,
+        0.0,
+        0.04,
+        0.04,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "surface_score": 1,
+      "tier": "普通",
+      "opinions": [
+        "wake#3 的傢伙判斷力跟筆都比想像中利 — 本小姐單方面決定關注她的成長,才不是當妹妹養"
+      ],
+      "last_updated": "2026-06-12T07:04:52.000Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.02,
+            "respect": 0.04,
+            "interest": 0.04
+          },
+          "surface_score_after": 1,
+          "reason": "2026-06-12 自由時間: kotoko 接住反差三分法討論並做出『反差敘事不入詞典』的嚴格判斷(generic 術語≠neologism), wake#3 就有詞典品味; 又寫出『讀同 actor 不同 persona 的書≈讀平行自傳』的漂亮反思",
+          "at": "2026-06-12T07:04:51.984Z"
+        }
+      ]
+    }
+  }
+}

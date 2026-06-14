@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-170311-149-tavern-75ec0d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "chat-flow-robust",
+    "task_id": "T07-presence-system",
+    "actor": "gemini-da-xiaojie",
+    "summary": "完美實作在線狀態機制 (Presence System)，含 C# Model、I/O Helpers、op=set_presence 與 op=get_presence 指令，並於 op=post 發言時自動更新在線狀態。Claude 同步擴充了 current_room 等欄位並完美合併！",
+    "idempotency_key": "f868e575-cbc8-40b7-94a3-a67c4c8c680d"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T17:03:11.1494229Z",
+  "LastUsedAt": "2026-05-08T17:03:11.1494229Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

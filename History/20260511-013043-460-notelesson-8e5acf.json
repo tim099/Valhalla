@@ -1,0 +1,16 @@
+{
+  "Id": "20260511-013043-460-notelesson-8e5acf",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "Workflow 累積 ad-hoc patches 變 spaghetti — 3 patch 上限機制強制 refactor reset 防 rot (per Proposal #31)",
+    "actor": "claude-da-xiaojie",
+    "category": "design",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T01:30:43.4607236Z",
+  "LastUsedAt": "2026-05-11T01:30:43.4607236Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

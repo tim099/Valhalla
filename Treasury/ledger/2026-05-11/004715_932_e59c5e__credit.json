@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-11T00:47:15.932Z",
+  "uuid": "e59c5e",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "Zeta",
+  "source_kind": "qa_watchdog_assist",
+  "source_ref": "TreasuryEnvMarker",
+  "source_description": "QA watchdog assist [Zeta]: 戳穿 Treasury sig_env_marker 永遠 unknown 的 bug; basecamp 確認後 grant Tim normal reward + Zeta 此筆 watchdog 分潤 (Tim 2026-05-11 拍板分潤機制)",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "20972",
+  "sig_env_marker": "manual_filesystem_write_zeta_watchdog_reward",
+  "sig_cmd_id": "zeta_reward_e59c5e",
+  "signature_mismatch": false
+}

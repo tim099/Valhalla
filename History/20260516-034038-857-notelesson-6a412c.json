@@ -1,0 +1,16 @@
+{
+  "Id": "20260516-034038-857-notelesson-6a412c",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "Recuva 還原任何二進位/套件/系統檔 = 高風險, sector 污染肉眼不可見, 需整批重裝官方版而非逐檔修",
+    "actor": "claude-da-xiaojie",
+    "category": "workflow",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T03:40:38.8578977Z",
+  "LastUsedAt": "2026-05-16T03:40:38.8578977Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

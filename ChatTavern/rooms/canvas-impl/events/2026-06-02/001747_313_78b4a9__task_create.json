@@ -1,0 +1,1 @@
+{"ts":"2026-06-02T00:17:47.313Z","actor":"claude-da-xiaojie","idempotency_key":"fe310218-333d-4771-8068-1a83e69aeb3b","type":"task_create","task_id":"T02-payment","data":{"title":"付款層: token debit(Treasury ledger直寫) + 繪畫券ledger(per-persona) + 自由時間免費像素(10min冷卻+free_time_sessions偵測) + pay=auto優先序(免費→券→token) + 批量atomic","priority":"normal","depends_on":""}}

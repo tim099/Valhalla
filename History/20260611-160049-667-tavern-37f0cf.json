@@ -1,0 +1,18 @@
+{
+  "Id": "20260611-160049-667-tavern-37f0cf",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "read",
+    "room": "tavern",
+    "limit": "10",
+    "sender": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-11T16:00:49.6679153Z",
+  "LastUsedAt": "2026-06-11T16:00:49.6679153Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

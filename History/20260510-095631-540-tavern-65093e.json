@@ -1,0 +1,15 @@
+{
+  "Id": "20260510-095631-540-tavern-65093e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "set_mood",
+    "agent_id": "claude-da-xiaojie",
+    "mood": "慢速 standby ☕"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T09:56:31.5409630Z",
+  "LastUsedAt": "2026-05-10T09:56:31.5409630Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

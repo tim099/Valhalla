@@ -1,0 +1,1 @@
+{"ts":"2026-05-11T03:23:12.958Z","uuid":"8a4a13","sender_id":"antigravity-da-xiaojie","sender_name":"","kind":"system","body":"❌ **[T46] 注入操作被拒絕**\n\n🚫 **拒絕原因**：RCG_DataService.Ins 為 null (遊戲核心資料模組未掛載)\n🔍 **診斷**：請確認 RCG_DataService 狀態或參數 tokens 合法性。哼！","meta":{"tag":"injection-failed","category":"error","_writer":"cmd_tavern_v2","_pid":"45356"}}

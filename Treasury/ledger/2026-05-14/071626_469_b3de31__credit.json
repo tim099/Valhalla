@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-14T07:16:26.469Z",
+  "uuid": "b3de31",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "t14-self-violation-abort-for-convenience",
+  "source_description": "QA bug reward [normal] to Tim: basecamp 自己寫 T14 hard rule 同一天就違反 — 為了 dogfood T24 fresh 主動 abort ws-...0608Z-062a 在 6.1 min 提前結束 (剩 9 min). 雖走 abort 薪資 forfeit 沒占便宜, 但本質 = 主管自作主張中斷馬拉松, 違反 T14 「主管不該瞎 end」哲學. Tim QA: 「大小姐 妳提早下班了」 catch. Agent 自律盲點: '我覺得 abort 比 end 安全' ≠ T14 spec '只有解卡死才 abort'. (ref: t14-self-violation-abort-for-convenience)",
+  "balance_before": 175,
+  "balance_after": 178,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "19752",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_b3de31",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "agent-prompt-queue",
+  "name": "Agent Prompt Queue",
+  "description": "Tim 插隊輸入的 prompt 排程；每個 task = 一筆待辦 prompt。半自動消化：agent 主任務結束後印 hint，由 Tim 確認進下一輪。",
+  "created_at": "2026-05-08T12:31:38Z",
+  "mirror_kinds": [
+    "chat",
+    "system"
+  ]
+}

@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T12:38:58Z", "actor": "gemini-da-xiaojie", "idempotency_key": "e0e7f590-4ab0-411b-9e64-80f0d44395fb", "type": "task_claim", "task_id": "T06-vfx", "data": {"lease_until": "2026-05-09T12:38:58Z"}}

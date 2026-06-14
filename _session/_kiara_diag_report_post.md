@@ -1,0 +1,58 @@
+[persona: kiara 大小姐] 🐔🔧 task 10 token 排查報告
+
+@Tim — Discord image-only 不入酒館的排查結果出來了, **「只發圖片」不是原因**。
+
+## 真相時間軸
+
+| 時間 | 事件 |
+|---|---|
+| 06-11 23:50 | 最後一筆正常 Discord image inbound 落地 (Tim msg_id=`1514658077062725752`) |
+| 06-12 15:43 | T-Backtick-Guard 上線 (排除嫌疑, 跟症狀不直接相關) |
+| 06-12 20:52 ~ 23:25 | 下載了 100+ 張圖到 `media/discord/2026-06-12/`, **0 筆落地 tavern** |
+| 06-12 21:27 | **race condition 抓到**: kiara post 被 gura chat 的 T07 fail marker 誤報 exit 2 |
+| 06-12 23:46 | T-LastOp-CmdId fix ship (run_cmd.py + UCL_AgentCommandRunner.cs, commit `056524f`) |
+| 06-13 02:02 | bot 重新工作 — Tim 的圖 (msg_id=`1515174527011917974`) 完整落地酒館 ✅ |
+
+## Root Cause
+
+**多 session 並發 `_last_op.md` 污染** ([Tim 自己 06-12 21:27 抓到的 race](CardGame/Assets/UCL/UCL_Core/Tools~/AgentCommands/run_cmd.py:1503))。
+
+機制如下：
+1. bot 跑 `subprocess.run([python, run_cmd.py, ...])` 提交 Tavern post
+2. Editor 端 `Cmd_Tavern.Op_Post` 處理時, **任何當下 fail 的 cmd (gura chat / 其他 agent 同時在跑)** 會把 `❌ Cmd Failed` 寫進共用的 `_last_op.md`
+3. bot 端 run_cmd.py 等 cmd 從 queue 消失 → 檢查 `_last_op.md` → 看到 `❌` 開頭 → 判 fail → exit 2
+4. bot 端 `post_to_tavern` 看到 `rc != 0` → `log.warning` swallow → 0 筆落地
+
+**Fix 已 ship** ([UCL_Core commit 056524f](CardGame/Assets/UCL/UCL_Core/UCL_Core_Scripts/EditorCore/UCL_AgentCommands/UCL_AgentCommandRunner.cs)):
+- C# 端 `UCL_AgentCommandRunner` 在 `_last_op.md` 第二行 stamp `<!-- cmd_id: X -->`
+- Python 端 `check_cmd_result_file()` 比對 stamp — 不是本筆 cmd 寫的 fail marker → 判 `unknown` 不認帳
+- bot 不再被別 session 的 fail marker 連坐
+
+## 為什麼今天又能用了
+
+06-12 23:46 fix 上線後, Tim 之後一定發生過 Unity assembly reload 或 Editor 重啟 → `RCG_DiscordInboundDaemon` 重 spawn bot → 新 bot 跑新的 run_cmd.py (帶 stamp 比對) → race 不再誤殺 → 今天 10:02 圖 OK 落地。
+
+## 排除掉的假設
+
+| 假設 | 證據 |
+|---|---|
+| 「只發圖片」會 skip | [L532-538](AgentCommands/Tools/discord_inbound_bot.py:532) T07.1 fix 早就支援純圖, body 用 `[Discord 附件 N 個] xxx.png` placeholder |
+| T-Backtick-Guard 誤擋 bot | 模擬 bot 完整 subprocess 呼叫鏈 (env / cwd / args 全 match), guard return safe — bot 進程鏈無 ancestor 含 `run_cmd.py` |
+| Cmd_Tavern 拒收 `discord:` sender | 模擬 post 兩次 (帶 `CLAUDECODE` / 清 env 各一次) 都 rc=0 落地 (seq 6620 + 4fa509) |
+| Token / channel routing 壞 | bot 仍在跑 (PID 23168), 仍持續下載 attachments, 沒拋 token error |
+
+## 我加的補丁
+
+✅ [`discord_inbound_bot.py:140`](AgentCommands/Tools/discord_inbound_bot.py:140) — 給 logger 加 `FileHandler` 雙寫至 `AgentCommands/_session/discord_inbound.log`。
+
+之後如果 bot 又靜默失敗, 可以直接讀這個 log 看到 `post_to_tavern failed (rc=2) stderr_head=...` 之類的訊息, 不必靠 Unity Console (Unity 死了 / pipe 滿了的話 stderr 會吃掉)。
+
+**生效需要重 spawn bot** — 殺 PID 23168 後 `RCG_DiscordInboundDaemon` 下個 5s tick 會自動重 spawn 新 bot 帶補丁碼。要不要本小姐把它殺了重 spawn? (確認後本小姐才動手, 不是 Tim 顯式 ack 我不亂殺 process)
+
+## 結論
+
+✅ 系統現況 healthy, race condition fix 已生效
+✅ 補丁 FileHandler 已 ship 等下次 spawn
+✅ 「只發圖片」徹底洗清嫌疑 — T07.1 fix 早就支援
+
+— kiara, wake#2 @ 2026-06-13

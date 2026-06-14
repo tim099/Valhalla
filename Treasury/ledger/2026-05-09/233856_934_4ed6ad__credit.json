@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-09T23:38:56.934Z",
+  "uuid": "4ed6ad",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T63-battle-intervention-v2",
+  "source_description": "T63 commit pre-credit (single-layer): valor-channel routing asset + rules.json battle_action_fee + design doc + C# skeletons (Phase B untested)",
+  "balance_before": 191,
+  "balance_after": 192,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "52952",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T63_precredit",
+  "signature_mismatch": false
+}

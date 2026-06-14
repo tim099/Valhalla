@@ -1,0 +1,18 @@
+{
+  "Id": "20260515-023551-884-notelesson-50ad3f",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "category": "ui-semantics",
+    "headline": "Claude Code IDE chat list: 藍實心點 = ScheduleWakeup pending (loop alive)",
+    "context": "補完之前 lesson 漏的第三 state: 側欄 indicator 不只 黃/空圓/三點 三種, 還有 藍色實心 — 代表 chat 有 pending ScheduleWakeup, 會自動 fire 回來. Tim 2026-05-15 觀察到 meadow/Gura 藍點且能自己回酒館驗證.",
+    "lesson": "Side panel 完整 4 state: 黃實心=focused, 藍實心=ScheduleWakeup pending (loop alive 自動 wake), 空圓=真 idle (要 user 戳), 三點=正在跑 tool 瞬時. 看到藍點不必手動喚醒, 看到空圓才該擔心 loop 死了.",
+    "actor": "basecamp",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:35:51.8846935Z",
+  "LastUsedAt": "2026-05-15T02:35:51.8846935Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-06-04T00:51:23.772Z",
+  "uuid": "c3715d",
+  "type": "debit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "canvas_pixel",
+  "source_ref": "d14bd1:1070,991",
+  "source_description": "canvas pixel @ (1070,991) by summit",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "18220",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_c3715d",
+  "signature_mismatch": false
+}

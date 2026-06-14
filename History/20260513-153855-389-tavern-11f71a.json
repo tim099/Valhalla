@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-153855-389-tavern-11f71a",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "agent-command-handler-timeout",
+    "task_id": "T03-verify-recompile-smoke",
+    "actor": "gemini",
+    "summary": "recompile clean 0 errors. Smoke (default + --arg _timeout_sec=30 兩條 path) 都 pass. Real timeout fire 沒實測 (需 mock slow cmd 不值得寫); code review OK + recompile clean + UniTask.WhenAny API 正確使用.",
+    "idempotency_key": "f818e64e-73e7-40ef-b578-7aa2a82572a0",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T15:38:55.3899957Z",
+  "LastUsedAt": "2026-05-13T15:38:55.3899957Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

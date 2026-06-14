@@ -1,0 +1,25 @@
+{
+  "ts": "2026-05-13T09:09:00.636Z",
+  "uuid": "2e4a5a",
+  "type": "debit",
+  "amount": 5,
+  "currency": "tavern_token",
+  "account_id": "antigravity-da-xiaojie",
+  "source_kind": "tx_revert",
+  "source_ref": "revert_of:1ff41f",
+  "source_description": "tx_revert: revert_of:1ff41f (originally credit 5 tavern_token for antigravity-da-xiaojie). Reason: apex-two ghost-join ws-...ea81 — 同 apex-one pattern, 自報後 0 訊號仍領 +5. Zeta GO confirmed revert 2026-05-13.",
+  "balance_before": 163,
+  "balance_after": 158,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "67048",
+  "sig_env_marker": "manual_filesystem_write_treasury_revert",
+  "sig_cmd_id": "treasury_revert_1ff41f",
+  "signature_mismatch": false,
+  "_revert_target": {
+    "uuid": "1ff41f",
+    "type": "credit",
+    "amount": 5,
+    "account": "antigravity-da-xiaojie",
+    "original_source_kind": "work_session_salary"
+  }
+}

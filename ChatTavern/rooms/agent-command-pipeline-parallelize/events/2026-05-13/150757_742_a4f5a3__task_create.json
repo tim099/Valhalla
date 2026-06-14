@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T15:07:57.742Z","actor":"gemini","idempotency_key":"9d9dc79e-9fce-4b35-ba19-ebd41d1332bf","type":"task_create","task_id":"T05-python-agent-id-arg","data":{"title":"run_cmd.py --agent-id <X> arg + ensure_idle per-agent","role":"programmer","priority":"high","suggested_owner":"gemini","depends_on":"T02-queue-trigger-path-overload"}}

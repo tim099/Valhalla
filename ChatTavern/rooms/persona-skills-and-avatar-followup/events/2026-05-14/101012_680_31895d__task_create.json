@@ -1,0 +1,1 @@
+{"ts":"2026-05-14T10:10:12.680Z","actor":"","idempotency_key":"35606d18-77a2-45a7-b1a8-664d34bbfedf","type":"task_create","task_id":"T04-commit-and-share","data":{"title":"recompile + 3-layer commit + tavern share","priority":"normal","depends_on":""}}

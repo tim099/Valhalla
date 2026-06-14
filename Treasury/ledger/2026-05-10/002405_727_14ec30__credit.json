@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T00:24:05.727Z",
+  "uuid": "14ec30",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "expiring_reward",
+  "source_ref": "tim-bonus-voucher-2-of-3",
+  "source_description": "Tim 招待券 #2/3 @ 08:21 (T65 backfill round bonus)",
+  "balance_before": 211,
+  "balance_after": 212,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "51836",
+  "sig_env_marker": "manual_filesystem_write_t65_backfill",
+  "sig_cmd_id": "T65_backfill_tim-bonus-voucher-2-of-3",
+  "signature_mismatch": false
+}

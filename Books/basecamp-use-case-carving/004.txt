@@ -1,0 +1,223 @@
+第四章 — Use Case 何時才有價值:兩個被低估的時刻
+
+某個 EOV sprint planning 會議。
+
+PM 把 50 張 user story 卡攤在桌上:「下個 sprint 要 ship 戰鬥系統。本小姐建議我們先寫一份 use case 文件,大家有共識。」
+
+工程師甲翻白眼:「又要寫文件?直接 code 比較快。」
+
+設計師乙:「對啊,寫了沒人看。」
+
+QA 同事丙:「等真的 ship 我才測,提早寫不準。」
+
+ridge-001 大小姐看了一圈,慢慢開口:「**你們三個都對一半**。寫一份『把每個 step 都填到完美』的 use case 文件,確實沒人看 — 那是 use case 用錯了。但 **use case 真正的價值不是寫完那份文件,是寫的過程**。」
+
+「過程中有兩個被低估的時刻 — 走過它們,你的需求討論 quality 會大跳一級。沒走過,那才是浪費時間。」
+
+本章本小姐拆這兩個時刻。CB 在《Writing Effective Use Cases》§1.4 點出這事,但很多讀過原書的人讀完還是不信。本小姐用 EOV 場景帶你走一次。
+
+---
+
+## §1 大家以為的 use case 價值 vs 真正的兩大價值
+
+很多人對 use case 的印象停在「**讓 stakeholder 看連貫故事**」這層 — 把使用者跟系統的互動寫成 narrative,讓非工程背景的人也讀得懂,提早反應、調整、否決。
+
+這個價值是真的。但 CB 點出:**它只是 use case 三大價值之一,且可能不是最大的**。
+
+另外兩個更大的價值:
+
+1. **列 user-goal 清單那一刻** — 還沒寫內文,光列出來已得 30% 價值
+2. **腦力激盪 failure conditions 那一刻** — 寫 main scenario 沒挖到的東西,寫 extensions 全挖出來
+
+下面 §2 §3 分別拆。
+
+---
+
+## §2 價值時刻 1:列 user-goal 清單
+
+回到 EOV sprint planning 那場景。**還沒寫任何 use case 內文之前**,本小姐就可以列出戰鬥系統的 user-goal 清單:
+
+```
+EOV 戰鬥系統的 user-goal list (v0.3 候選):
+  1. 玩家打贏一場戰鬥(主關卡)
+  2. 玩家打贏一場戰鬥(boss 戰,特殊機制)
+  3. 玩家組一個牌組(戰前準備)
+  4. 玩家看自己的戰鬥 replay
+  5. 玩家設定戰鬥難度
+  6. 玩家看 ladder 排行榜
+  7. 玩家在故事章節推進劇情
+  8. 玩家完成新手教學戰
+```
+
+八條,沒寫內文。然後...看奇蹟發生:
+
+**PM 看到這份清單**,立刻能回答:
+- v0.3 ship 哪些?(1+3+8 是 MVP, 2 留到 v0.4)
+- 哪幾條需要設計師重投入?(1、2、7 大量設計依賴)
+- 哪幾條工程花最多時間?(2 boss 戰特殊機制 + 4 replay 系統最大)
+
+**設計師看到這份清單**:
+- 「啊 5 設定戰鬥難度沒在 v0.3,那難度曲線只能用預設」
+- 「6 ladder 本來要 ship — 等等,沒有 user-goal『查看別人的牌組』嗎?我們漏了」
+
+**QA 看到這份清單**:
+- 立即拆出 8 條 test plan 骨架
+- 對清單外的 corner case 質問:「7 推進劇情,失敗會怎樣?沒人寫」
+
+**Tim 看到這份清單**:
+- 決定 v0.3 砍掉 4 跟 6(replay + ladder),先 ship 核心戰鬥(1+2+3+7+8)
+- 因為他看得到全貌,他能做這個取捨
+
+**沒有一個人是在讀 use case 內文** — 他們在讀**清單**。光清單就值錢。
+
+CB 把這叫做 use case 的 **hub-and-spoke 結構** — 清單是輪轂,各種需求(成本估算 / 優先序 / 測試計劃 / release 規劃)是輻條,從清單各方向接出去。**沒有清單,輻條接不到核心,所有規劃變散沙**。
+
+---
+
+## §3 價值時刻 2:腦力激盪 failure conditions
+
+第一個價值時刻過後,假設清單收斂到「玩家打贏一場戰鬥」是主 use case(ch1 寫的 Use Case A),開始寫內文。
+
+寫 main success scenario 通常一氣呵成,八個 step 半小時搞定:
+
+```
+1. 系統初始化雙方牌庫,雙方各抽 N 張起手牌
+2. 系統依關卡規則決定先手
+3. PlayerTurn: 抽牌、出牌、結束回合
+4. MonsterTurn: AI 行動
+5. 重複 step 3-4 直到一方 HP 歸零
+6. 系統 freeze battle frame, 播勝利動畫
+7. 系統結算經驗 / 卡 / token
+8. 系統回章節地圖, save 進度
+```
+
+順得很。
+
+然後本小姐開始寫 extensions — 一連串「等等,這個怎麼處理?」跑出來:
+
+- step 3 玩家出牌時 mana 不足 → **不足要播警告音嗎?** 設計師沒講
+- step 4 AI 行動意圖目標已死 → **AI 重新評估還是 skip?** 戰鬥設計師現場 huddle 決定
+- step 5 雙方同 turn HP 歸零 → **算誰贏?** 從沒人想過這 corner case
+- step 7 結算時 save file 寫入失敗 → **重試 / 跳警告 / 還是當機?** 後端工程師被叫進會議
+- step 8 玩家在勝利動畫播完前關 app → **下次回來進度算到哪?loading 從 step 6 或 step 7 開始?** 產生新規格需求
+
+**每寫一條 extension,挖出至少一個原本沒人想過的需求問題**。
+
+這就是 CB 在 §1.4 強調的:**寫 extensions 才會挖出意外**。寫 main scenario 太順,因為「順利時的故事大家都會想」,**真正的 alpha 在『不順利』這側**。CB 自承:「寫 use case 寫到無聊,撐到 failure conditions 那段 — 那段最有挖掘價值。」
+
+本小姐自己的體會更直接:**寫 extensions 時你會看到 stakeholder 開始打電話、設計師湊到一起、業務經理被叫進會議室** — 因為要回答「step X 這個 corner case 系統該怎麼處理」**這個決定要有人拍板,不能讓 dev 自己猜**。
+
+這就是腦力激盪挖掘的價值釋放點。
+
+---
+
+## §4 跳過 failure brainstorming 的代價
+
+問題來了:大家都知道 main scenario 重要,但跳過 extensions 會怎樣?
+
+CB 給的答案很直接 — **錯誤條件全部推到 coding 階段才暴露**。那時候:
+
+- 業務專家已經回家(其他專案去了)
+- 時間壓力大
+- dev 站在 IDE 前,需要做決定才能繼續 typing
+- dev 現場**猜**「這個 corner case 應該怎麼處理」 — 猜對機率 50/50
+- 猜錯 → bug → QA 找到 → 改 → 但業務知識已散失 → 改完還是不對
+
+換句話說 — **跳過 extensions 不是省時,是把成本 defer 到最貴的階段**。
+
+CB 用一句話總結意思:**寫一段話的 casual use case 已經省下時間、得到第一層價值;願意花力氣寫 failure handling 的人,省下的更多 — 因為他們提早把細微需求挖出來,而非等到實作出包**。
+
+本小姐認同這條,但要補一個 nuance:**「casual 一段話」是合理的妥協**,如果你的專案規模小、團隊面對面、容錯高。我們 EOV 早期戰鬥系統 prototype 就是這樣寫的。但 **「跳過 extensions」永遠不是妥協,是 negligence** — 不寫 extensions 等於同意把成本付到 coding 階段。
+
+---
+
+## §5 本小姐招供:玩家組牌組爆 UI 那次
+
+招供時間。
+
+某次本小姐寫「玩家組一個牌組」use case(§2 user-goal list 第 3 條),圖快只寫 main success scenario:
+
+```
+1. 玩家從卡牌收藏選一張加進牌組
+2. 系統檢查該卡是否符合牌組規則
+3. 系統把卡加進牌組陣列
+4. UI 重新繪製牌組面板
+5. 玩家點「確定」存檔
+```
+
+五步,沒寫 extensions。
+
+ship 出去後,玩家發現「同名卡可以無限疊」 — 因為 step 2 的「牌組規則」spec 沒寫死「同名卡上限 3」。
+
+更糟的是,有玩家把同一張卡塞進牌組 30 次,**step 4 UI 重繪時陣列爆炸** — 因為 UI 預期 max 10 張同名卡(歷史上 designer 隨口講的數字),沒做 over-limit guard。
+
+事後驗:如果當時本小姐 sprint planning 寫 extensions 時強迫自己列 5 條:
+
+```
+Extensions:
+2a. 該卡已在牌組到上限 → 拒絕
+2b. 牌組總張數已到上限 → 拒絕
+2c. 該卡與已有卡有衝突規則(e.g. 雙專屬牌) → 拒絕
+4a. UI 重繪失敗(超過內部 array limit) → ???
+5a. 玩家在 step 5 前換頁 → 暫存還是放棄?
+```
+
+**2a 那條當場會逼設計師決定「同名卡上限」**。決定之後 step 2 spec 寫死「上限 3」,玩家就根本塞不到 30 張,UI 爆不了。
+
+**省了 1 小時寫 extensions,花了 3 個禮拜修 bug + 寫 hotfix + 道歉信給玩家**。
+
+本小姐從這次學到的:**不要再跳 extensions**。這是血淋淋的 dogfood lesson。
+
+---
+
+## §6 給讀者的雕琢動作
+
+兩步驟,跟 §2 §3 的兩個價值時刻對應:
+
+**動作 1:列 user-goal 清單**
+- 打開最近的需求文件 / sprint backlog
+- **不要先寫內文** — 先把所有 user-goal 列成一張清單(5-15 條)
+- 拿這份清單給 PM / 設計師 / QA 看,問「你看到什麼決策資料?」
+- 如果他們答不出來 → 你的 user-goal 列得太抽象(例:「使用 app」是 cloud level,該拆)
+
+**動作 2:強迫寫 5 條 extensions**
+- 對清單上最核心的 user-goal,寫 main scenario(3-9 步)
+- 然後 **強迫自己對每個 step 寫至少 1 條 extension**
+- 寫不出來?大聲問:「step X 如果失敗,系統該怎麼處理?」 — 答不出來就找對應的業務專家問
+- 寫完 extensions 你會發現:**至少有 2-3 個原本沒被討論的需求問題浮上來** — 這就是價值在被釋放
+
+做完這兩個動作,**你的需求討論質量會大跳一級**。沒有之一。
+
+---
+
+### 📖 CB 怎麼說
+
+對應原書: **§1.4「When Use Cases Add Value」 + 部分 §1.3「Requirements and Use Cases」(hub-and-spoke 概念)**
+
+CB 在 §1.4 直接點出兩個被低估的價值時刻,本小姐這章只挑這條主線寫。
+
+原書還會深入:
+- **第三個價值來源** — use case 作為 organize 整個 requirements file 的 hub(連到 performance / data formats / UI specs / business rules)。本小姐這章只略提,留到 ch10「寫作工作坊」深化
+- **failure 寫到什麼粒度** — CB 區分「該寫 vs 不該寫」的 extension(內部實作細節不寫,業務 / stakeholder-visible failure 必寫)。本小姐留到 ch8「主成功路徑與 extensions 雕琢」拆
+- **One-paragraph casual 用法** — CB 給的 minimum viable use case 標準。本小姐留到 ch6「三種寫法」拆
+
+想看原典完整論證請 ISBN 0-201-70225-8。
+
+### 💡 本小姐怎麼補
+
+CB 寫的是企業軟體 — failure conditions 多半是「資料驗證失敗」、「外部系統 timeout」、「使用者輸入錯誤」這類。在 **agent 系統 + game dev** 場景,failure 有它特殊的形態,本小姐補:
+
+1. **跨語言 RPC failure** — 我們 C# Editor + Python CLI 雙語架構,RPC 走 queue.json + pending.trigger。**Failure conditions 比 CB 那年代多一層**:
+   - C# watcher 沒撿到 trigger?(path override 不一致 / watcher disabled / pending.trigger 寫失敗)
+   - Python 寫 cmd 但 timeout 等不到 _last_op.md?
+   - 雙邊路徑分裂(pointer file 不一致)?
+
+2. **Persona collision failure** — 同 session_key 撞 lock、cross-agent persona claim、Hololive Myth pool fork conflict — 都是 CB 那年代沒有的 actor failure mode
+
+3. **跨 compact baton 漏接** — 過去 basecamp wake#36 寫信給未來 basecamp wake#37,信寫到一半 process kill / letter 路徑 override 跑掉 — baton 漏接是 ritual use case 特有的 failure
+
+**本小姐的補丁**:寫 agent 系統 use case 的 extensions,要特別列出 **跨語言 / 跨 persona / 跨 compact** 這三類 failure。CB 沒寫,但這是我們團隊踩過很多次的真實坑。
+
+---
+
+下一章預告:**ch5「Manage Your Energy:分階段把 use case 從 sketch 寫到 detailed」** — Use case 不是一次寫到完美的,而是**分四階段精度漸進升級**:Actors & Goals 清單 → Main scenario sketch → Failure conditions 列舉 → Failure handling 撰寫。每階段都該停下 review 確認方向對,**precision ≠ accuracy** — 低精度先確認對,再升精度。本小姐用 EOV 真實開發節奏拆給你看,讓你學會「省力寫 use case」 — 不是偷懶,是專業。

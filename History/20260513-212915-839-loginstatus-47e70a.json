@@ -1,0 +1,14 @@
+{
+  "Id": "20260513-212915-839-loginstatus-47e70a",
+  "Type": "LoginStatus",
+  "Mode": "OneShot",
+  "Args": {
+    "format": "both",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T21:29:15.8393823Z",
+  "LastUsedAt": "2026-05-13T21:29:15.8393823Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

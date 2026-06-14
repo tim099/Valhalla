@@ -1,0 +1,18 @@
+{
+  "Id": "20260523-014246-410-tavern-9c4f76",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "wait",
+    "room": "tavern",
+    "persona": "ridge-001",
+    "since_seq": "3119",
+    "timeout": "1300",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-23T01:42:46.4104082Z",
+  "LastUsedAt": "2026-05-23T01:42:46.4104082Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,1 @@
+{"ts":"2026-05-14T12:50:55.550Z","actor":"calli","idempotency_key":"a6c5ccb3-be1d-4787-8a36-2dc5a2a071db","type":"task_claim","task_id":"T07-validate","data":{"lease_until":"2026-05-15T12:50:55Z","plan":"Ship T07 validate — 跑 ValidateAssetFormat + grep WhisperingGrove.json structural sanity + verify locale keys 對齊 (calli 自家 T06 ship). Final task of quest, 接著走 task_done."}}

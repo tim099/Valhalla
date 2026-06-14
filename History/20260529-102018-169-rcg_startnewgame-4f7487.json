@@ -1,0 +1,16 @@
+{
+  "Id": "20260529-102018-169-rcg_startnewgame-4f7487",
+  "Type": "RCG_StartNewGame",
+  "Mode": "OneShot",
+  "Args": {
+    "from": "reset",
+    "phaseTimeout": "25",
+    "autoEnableSetting": "true",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-29T10:20:18.1696594Z",
+  "LastUsedAt": "2026-06-06T23:46:35.4045024Z",
+  "Source": "Agent",
+  "UseCount": 3
+}

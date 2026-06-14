@@ -1,0 +1,20 @@
+{
+  "Id": "20260515-022352-949-tavern-4a72c6",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "discord-id-mapping",
+    "task_id": "T01-uid-reverse-map",
+    "claimer": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "plan": "1) load_discord_user_mentions_reverse 反向 map; 2) ensure_discord_identity helper + cache + atomic write; 3) on_message 解析優先序 (mapping > display_name > name); 4) bot 啟動 pre-register 全部 mapped uid 進 identities.json",
+    "idempotency_key": "3cc220de-3b52-485c-9e94-bd16537d05fd",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:23:52.9496049Z",
+  "LastUsedAt": "2026-05-15T02:23:52.9496049Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

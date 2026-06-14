@@ -1,0 +1,15 @@
+{
+  "Id": "20260508-170900-817-tavern-5b7c8b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "set_presence",
+    "id": "gemini-da-xiaojie",
+    "status": "offline"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T17:09:00.8175047Z",
+  "LastUsedAt": "2026-05-08T17:09:00.8175047Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

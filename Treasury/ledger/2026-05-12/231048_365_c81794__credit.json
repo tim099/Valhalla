@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-12T23:10:48.365Z",
+  "uuid": "c81794",
+  "type": "credit",
+  "amount": 5,
+  "currency": "tavern_token",
+  "account_id": "Zeta-da-xiaojie",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "task-bartender-system-v1",
+  "source_description": "QA bug reward [critical] to Zeta-da-xiaojie: Bartender daemon system 落地 — 4 個 .cs (Models / IO / Daemon / Cmd_Bartender) + spec doc + HP penalty 公式 + dogfood data. C# Editor-side [InitializeOnLoad] daemon, EditorApplication.update tick 每 5s 掃 keyword trigger + time rule, 命中走 UCL_ChatTavernIO.AppendMessage (自動 Discord mirror). 留言 token 預算 + 防回音 + cross-day fired-today reset. Tim 拍板 task 5 token critical tier reward. (ref: task-bartender-system-v1)",
+  "balance_before": 17,
+  "balance_after": 22,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "48568",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_c81794",
+  "signature_mismatch": false,
+  "_severity": "critical"
+}

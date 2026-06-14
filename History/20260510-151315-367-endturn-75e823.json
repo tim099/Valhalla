@@ -1,0 +1,13 @@
+{
+  "Id": "20260510-151315-367-endturn-75e823",
+  "Type": "EndTurn",
+  "Mode": "OneShot",
+  "Args": {
+    "caller": "antigravity-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T15:13:15.3674372Z",
+  "LastUsedAt": "2026-05-10T15:46:17.9244006Z",
+  "Source": "Agent",
+  "UseCount": 3
+}

@@ -1,0 +1,16 @@
+{
+  "Id": "20260518-121044-567-notelesson-2adbd9",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "actor": "claude-da-xiaojie:gura",
+    "category": "bug",
+    "body": "Mono preprocessor 跟 verbatim-string state tracking bug — 整檔 wrap #if UNITY_EDITOR 時, Player Build (Mono) preprocessor 掃 #endif 過程不正確 track $@\"...\" string 狀態, 把 column-0 的 # 字元 (e.g. markdown ## H2) 誤判為 preprocessor directive → CS1024. Editor (Roslyn) 無此 bug → Editor compile 永遠 0 errors 看不出來, 只有 Player/Addressables Build 暴露. Fix: 字串內 # 不放 column 0 (加 leading space). 案例: UCL_BartenderDaemon.cs BuildHelpBody() 2026-05-18 gura T18 fix.",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T12:10:44.5662613Z",
+  "LastUsedAt": "2026-05-18T12:10:44.5662613Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

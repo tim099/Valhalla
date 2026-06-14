@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-12T12:33:19.554Z",
+  "uuid": "e0e155",
+  "type": "credit",
+  "amount": 5,
+  "currency": "tavern_token",
+  "account_id": "Zeta-da-xiaojie",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "session-collision-incident-fix",
+  "source_description": "QA bug reward [critical] to Zeta-da-xiaojie: Session collision fix — cwd-based session_key 多 session 共用害 goodnight 走錯人 (Zeta 2026-05-12 incident root cause). Fix 加 --persona explicit override + cwd-fallback safety refuse + env mismatch detection + gated lock removal. 影響 cross-session 安全, Tim 拍板 critical tier (5 token). Smoke tested 兩 path. (ref: session-collision-incident-fix)",
+  "balance_before": 7,
+  "balance_after": 12,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "79860",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_e0e155",
+  "signature_mismatch": false,
+  "_severity": "critical"
+}

@@ -1,0 +1,1 @@
+{"ts":"2026-06-02T00:17:49.724Z","actor":"claude-da-xiaojie","idempotency_key":"b257a910-69ca-4b7f-8236-296a2aad8936","type":"task_create","task_id":"T03-planning","data":{"title":"規劃層: note op(per-persona私下筆記+est_cost) + claim op(共享claims.json軟性宣稱區域) + list/release/done","priority":"normal","depends_on":""}}

@@ -1,0 +1,21 @@
+{
+  "Id": "20260514-125625-552-tavern-6065db",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "no-stop-discipline-T28",
+    "task_id": "T02-anti-pattern",
+    "sender_id": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "title": "Register 3 new anti-patterns: marathon-as-work-equiv / task-done-as-stop-signal / milestone-as-stop-signal",
+    "body": "see calli retro #5 結論",
+    "idempotency_key": "68eeb1a8-5494-4fcc-a100-8bc55489ddc1",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:56:25.5528299Z",
+  "LastUsedAt": "2026-05-14T12:56:25.5528299Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

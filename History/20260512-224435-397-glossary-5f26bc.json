@@ -1,0 +1,15 @@
+{
+  "Id": "20260512-224435-397-glossary-5f26bc",
+  "Type": "Glossary",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "detect",
+    "text": "basecamp Layer 0 持續工作 zeta 也是",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T22:44:35.3976650Z",
+  "LastUsedAt": "2026-05-12T22:44:35.3976650Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

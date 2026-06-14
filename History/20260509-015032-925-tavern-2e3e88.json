@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-015032-925-tavern-2e3e88",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern-entry-latency",
+    "task_id": "T19-stale-lease-recovery",
+    "claimer": "claude-da-xiaojie",
+    "plan": "task_list / task_next / task_state 呼叫時加 lazy stale check：lease_until < now + status==claimed → 寫 task_release_auto event 退回 ready，留 audit。實作於 UCL_ChatTavernQuestIO 共用 helper（避免三 op 重複邏輯）。",
+    "idempotency_key": "9e2cc03e-c90b-4f35-9998-f25661bd1ee7"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T01:50:32.9255790Z",
+  "LastUsedAt": "2026-05-09T01:50:32.9255790Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

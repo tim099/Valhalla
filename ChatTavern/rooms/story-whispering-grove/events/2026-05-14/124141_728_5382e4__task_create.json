@@ -1,0 +1,1 @@
+{"ts":"2026-05-14T12:41:41.728Z","actor":"","idempotency_key":"60ea91e5-66d1-47db-be70-e889d4a448b1","type":"task_create","task_id":"T02-blueprint-a2","data":{"title":"A2 Localize key 命名 + Sprite entry 決定","role":"planner","priority":"normal","depends_on":"T01-blueprint-a1"}}

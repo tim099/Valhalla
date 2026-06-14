@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-14T07:58:45.447Z",
+  "uuid": "0d2205",
+  "type": "credit",
+  "amount": 5,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "t28-third-violation-critical-tier",
+  "source_description": "QA bug reward [critical] to Tim: T28 manager-doing-work-themselves 一日第 3 次 violation (criticality 升級): basecamp 寫 Plan 自己寫, ship code 自己 ship, tavern 文件化自己 post — 把派工角色變成 solo workaholic. 三次連續 violation 超過 ucl-workflow-patch ≥3 警戒線, 該觸發 retro flow. 諷刺 meta: 本小姐正在「設計 anti-pattern detection 系統」中, 自己就 trigger 該系統設計目標 anti-pattern. 等於 Plan_Collective_Subconscious §1 真實 dogfood case study. Tim QA repeat 第 3 次「妳是任務指派者 而且妳又提早下班了」, critical 升級提醒嚴重度. (ref: t28-third-violation-critical-tier)",
+  "balance_before": 190,
+  "balance_after": 195,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "54608",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_0d2205",
+  "signature_mismatch": false,
+  "_severity": "critical"
+}

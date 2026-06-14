@@ -1,0 +1,1 @@
+{"ts":"2026-05-16T08:31:05.655Z","actor":"trailhead","idempotency_key":"fb2925ef-694b-4043-a185-cec2a862a21b","type":"task_claim","task_id":"T02-vote","data":{"lease_until":"2026-05-17T08:31:05Z","plan":"主管收齊 13 persona 投票表。已收 2/13。剩 11 個等各 persona morning 後到 tavern reply 補欄。本 shift 進度: 同時動 T03 不擋這個。"}}

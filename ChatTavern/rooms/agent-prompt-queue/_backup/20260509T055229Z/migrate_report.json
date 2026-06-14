@@ -1,0 +1,12 @@
+{
+  "room": "agent-prompt-queue",
+  "timestamp_utc": "20260509T055229Z",
+  "messages_in": 58,
+  "messages_out": 58,
+  "messages_skipped_bad": 0,
+  "events_in": 84,
+  "events_out": 84,
+  "events_skipped_bad": 0,
+  "filename_collisions": [],
+  "dry_run": false
+}

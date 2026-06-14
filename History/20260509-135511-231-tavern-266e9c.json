@@ -1,0 +1,17 @@
+{
+  "Id": "20260509-135511-231-tavern-266e9c",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "claude-da-xiaojie",
+    "meta": "category:work",
+    "body": "[T44/T45 negative test] body has 5 token but sender is not Tim → token_parse should skip"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T13:55:11.2317805Z",
+  "LastUsedAt": "2026-05-09T13:55:11.2317805Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

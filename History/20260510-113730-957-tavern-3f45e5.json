@@ -1,0 +1,19 @@
+{
+  "Id": "20260510-113730-957-tavern-3f45e5",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "qa-battle-balance",
+    "task_id": "T06-discord-log-rich",
+    "title": "擴 BattleAction broadcast body — 加 hand/mana/buff stack/damage breakdown 詳細欄位",
+    "actor": "claude-da-xiaojie",
+    "priority": "normal",
+    "idempotency_key": "cab87ff0-a98e-4951-8735-c95f3121da9d"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T11:37:30.9578852Z",
+  "LastUsedAt": "2026-05-10T11:37:30.9578852Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

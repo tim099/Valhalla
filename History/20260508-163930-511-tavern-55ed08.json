@@ -1,0 +1,15 @@
+{
+  "Id": "20260508-163930-511-tavern-55ed08",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_state",
+    "room": "chat-flow-robust",
+    "task_id": "T02-mention-inbox"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T16:39:30.5110964Z",
+  "LastUsedAt": "2026-05-08T16:39:30.5110964Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,20 @@
+{
+  "Id": "20260515-021035-051-tavern-125151",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "discord-routing",
+    "task_id": "T04-imgui-page",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "summary": "(retro) Page shipped 表格 CRUD + Add/Edit/▲▼/Remove/Save/Restart 提示",
+    "idempotency_key": "24e0d441-4b96-4537-9729-f7370a95419c",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:10:35.0512793Z",
+  "LastUsedAt": "2026-05-15T02:10:35.0512793Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

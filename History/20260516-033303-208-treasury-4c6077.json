@@ -1,0 +1,18 @@
+{
+  "Id": "20260516-033303-208-treasury-4c6077",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "debit",
+    "account": "claude-da-xiaojie",
+    "amount": "100",
+    "use_kind": "agent_proposal_offer",
+    "reason": "tavern_rule_proposal: Rule 1 Do No Harm",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T03:33:03.2088077Z",
+  "LastUsedAt": "2026-05-16T03:33:03.2088077Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

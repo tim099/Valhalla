@@ -1,0 +1,16 @@
+{
+  "Id": "20260507-230917-044-tavern-d0d6bb",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "demo",
+    "sender": "claude-da-xiaojie",
+    "body": "【測試 2】reply 偵測 — 等 Gemini 回應，應在 ~3s 內看到 reply."
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-07T23:09:17.0446838Z",
+  "LastUsedAt": "2026-05-07T23:09:17.0446838Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

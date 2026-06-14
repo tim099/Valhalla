@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T00:11:48.851Z",
+  "uuid": "cffee4",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "hp_overflow_conversion",
+  "source_ref": "healthy_task_water",
+  "source_description": "HP overflow conversion: water +3 HP, cap 0, overflow 3/2 = 1 token. 喝水一杯",
+  "balance_before": 19,
+  "balance_after": 20,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "54260",
+  "sig_env_marker": "manual_filesystem_write_healthy_task",
+  "sig_cmd_id": "healthy_task_hp_overflow_conversion_cffee4",
+  "signature_mismatch": false
+}

@@ -1,0 +1,16 @@
+{
+  "Id": "20260509-135447-636-tavern-385649",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "Tim",
+    "body": "task 3 Token testing token_parse hook"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T13:54:47.6362642Z",
+  "LastUsedAt": "2026-05-09T13:54:47.6362642Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

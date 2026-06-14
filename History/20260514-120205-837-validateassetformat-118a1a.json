@@ -1,0 +1,17 @@
+{
+  "Id": "20260514-120205-837-validateassetformat-118a1a",
+  "Type": "ValidateAssetFormat",
+  "Mode": "OneShot",
+  "Args": {
+    "assetType": "UCL_ChatTavernPersonaCardAsset",
+    "assetId": "meadow",
+    "checkRefs": "1",
+    "outputPath": "CardGame/AgentCommands/asset_format_check_UCL_ChatTavernPersonaCardAsset_meadow.md",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:02:05.8372544Z",
+  "LastUsedAt": "2026-05-14T12:02:05.8372544Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

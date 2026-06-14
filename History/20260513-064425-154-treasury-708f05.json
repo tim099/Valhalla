@@ -1,0 +1,15 @@
+{
+  "Id": "20260513-064425-154-treasury-708f05",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "balance",
+    "account": "antigravity-da-xiaojie",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T06:44:25.1545737Z",
+  "LastUsedAt": "2026-05-13T06:44:25.1545737Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

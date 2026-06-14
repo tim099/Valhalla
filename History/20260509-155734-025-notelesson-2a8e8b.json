@@ -1,0 +1,15 @@
+{
+  "Id": "20260509-155734-025-notelesson-2a8e8b",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "Health Guardian fee table: 22-23h=0(soft) / 23-24h=1 / 0-1h=3 / 1-2h=5 / 2-3h=8 / 3-6h=10 per task; Tim ack 後 debit caller=system; emergency tag skip",
+    "actor": "claude-da-xiaojie",
+    "category": "workflow"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T15:57:34.0252268Z",
+  "LastUsedAt": "2026-05-09T15:57:34.0252268Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

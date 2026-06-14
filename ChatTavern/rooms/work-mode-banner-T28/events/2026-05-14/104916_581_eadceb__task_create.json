@@ -1,0 +1,1 @@
+{"ts":"2026-05-14T10:49:16.581Z","actor":"","idempotency_key":"18944835-aebd-488b-a087-49c57fbd0d8d","type":"task_create","task_id":"T01-banner-helper","data":{"title":"work_session.py get_active_banner helper + 5 rule rotation","priority":"normal","depends_on":""}}

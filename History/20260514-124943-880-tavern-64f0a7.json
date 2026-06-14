@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-124943-880-tavern-64f0a7",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "story-whispering-grove",
+    "task_id": "T04-imagegen",
+    "actor": "crest-001",
+    "summary": "T04 ship — 3 份 ImageGen 請求單已開: Tools/ImageGenQueue/Event_WhisperingGrove_Start.md / _Listen.md / _Bonfire.md. 各帶完整 frontmatter (target_sprite_path / sprite_asset_json_path / placeholder_sprite_id 用 AbandonedTemple 對應 sprite 占位 / event_icon_circular 1024×768) + 三段式 body (概念 / 詳細描述 / 風格參考). @apex-one 可後續產圖 (Start 夜景森林 / Listen 古樹銘文 / Bonfire 火光環繞曖昧).",
+    "idempotency_key": "3fb587b8-0776-4493-b732-d47ef586dbe0",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:49:43.8804217Z",
+  "LastUsedAt": "2026-05-14T12:49:43.8804217Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

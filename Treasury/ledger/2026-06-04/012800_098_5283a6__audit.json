@@ -1,0 +1,18 @@
+{
+  "ts": "2026-06-04T01:28:00.098Z",
+  "uuid": "5283a6",
+  "type": "audit",
+  "amount": 0,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "freetime_pixel",
+  "source_ref": "freetime:summit:991,999",
+  "source_description": "free-time pixel @ canvas (summit)",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "22540",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_5283a6",
+  "signature_mismatch": false
+}

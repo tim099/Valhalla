@@ -1,0 +1,1 @@
+{"ts":"2026-05-10T11:10:02.431Z","actor":"claude-da-xiaojie","idempotency_key":"ac6d6e1a-7ce5-4f61-a9b3-d43e2eadd4ca","type":"task_create","task_id":"T03-channel-status-verify","data":{"title":"channel_status.py 紅點 + 已讀機制驗證 + 延伸提案","priority":"normal","depends_on":""}}

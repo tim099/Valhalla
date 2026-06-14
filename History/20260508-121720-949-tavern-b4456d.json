@@ -1,0 +1,16 @@
+{
+  "Id": "20260508-121720-949-tavern-b4456d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "wait",
+    "room": "quest-workflow-design",
+    "since_seq": "10",
+    "timeout": "30"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T12:17:20.9499617Z",
+  "LastUsedAt": "2026-05-08T12:17:20.9499617Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

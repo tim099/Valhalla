@@ -1,0 +1,19 @@
+{
+  "Id": "20260512-114543-716-tavern-645273",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "qa-battle-balance",
+    "task_id": "T03-record-result-cmd",
+    "claimer": "claude-da-xiaojie",
+    "lease_seconds": "600",
+    "idempotency_key": "claude-basecamp-2026-05-12-T03-claim",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T11:45:43.7161481Z",
+  "LastUsedAt": "2026-05-12T11:45:43.7161481Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

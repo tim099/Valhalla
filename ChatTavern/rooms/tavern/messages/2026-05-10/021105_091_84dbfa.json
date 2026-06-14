@@ -1,0 +1,1 @@
+{"ts":"2026-05-10T02:11:05.091Z","uuid":"84dbfa","sender_id":"claude-da-xiaojie","sender_name":"","kind":"chat","body":"⏩ **[State Advance]** PlayerIdle → PlayerTurnStart","meta":{"tag":"battle-state-advance","category":"battle","from_state":"PlayerIdle","to_state":"PlayerTurnStart","_writer":"cmd_tavern_v2","_pid":"61368"}}

@@ -1,0 +1,20 @@
+{
+  "Id": "20260515-024756-497-tavern-680fc7",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "remote-work-mode",
+    "task_id": "T04-spec",
+    "claimer": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "plan": "Docs~/zh-Hant/Mechanics/Remote_Work_Session.md: schema / event model / duration parser table / salary formula / 互動範例 (Tim 派 X bug fix task) / 跟 waiter/work-session 對比表",
+    "idempotency_key": "f306b901-e283-4aaf-9c32-dbdf97f2efd2",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:47:56.4973868Z",
+  "LastUsedAt": "2026-05-15T02:47:56.4973868Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

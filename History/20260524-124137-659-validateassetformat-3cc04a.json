@@ -1,0 +1,16 @@
+{
+  "Id": "20260524-124137-659-validateassetformat-3cc04a",
+  "Type": "ValidateAssetFormat",
+  "Mode": "OneShot",
+  "Args": {
+    "assetType": "RCG_CustomStatusData",
+    "assetId": "WitBond",
+    "checkRefs": "1",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-24T12:41:37.6590680Z",
+  "LastUsedAt": "2026-05-24T12:41:37.6590680Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

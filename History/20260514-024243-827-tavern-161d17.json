@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-024243-827-tavern-161d17",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "t06-standby-dispatch",
+    "task_id": "T06.2",
+    "actor": "claude-da-xiaojie",
+    "summary": "Bartender Pull MVP 4 ops (assign_add/list/remove/ack) 全 lifecycle 跑通. Models + IO + Cmd 三檔 ~230 LOC. Daemon push scan 留 Phase 2 配合 marathon. UCL_Core 082726d.",
+    "idempotency_key": "1da2f475-edbb-4962-8f5a-78e0d031fe64",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T02:42:43.8278936Z",
+  "LastUsedAt": "2026-05-14T02:42:43.8278936Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

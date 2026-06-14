@@ -1,0 +1,16 @@
+{
+  "id": "teddy",
+  "name": "Teddy Roosevelt (老羅斯福)",
+  "book": "night-at-the-museum",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "騎馬蠟像總統, Larry 的導師役",
+      "file": "v1_2026-06-12.md",
+      "date": "2026-06-12"
+    }
+  ]
+}

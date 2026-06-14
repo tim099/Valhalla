@@ -1,0 +1,24 @@
+{
+  "id": "angel-eden-wall",
+  "name": "白袍天使（伊甸園東牆）",
+  "book": "good-omens",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "墮落事件後站在伊甸園東牆上眺望的白髮天使",
+      "file": "v1_2026-06-10.md",
+      "date": "2026-06-10"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 1,
+      "headline": "違規做善事的天使 — 把烈焰之劍送給了人類",
+      "change_reason": "火劍下落揭曉：天使自己送給亞當夏娃的（怕他們被猛獸傷害）",
+      "file": "v2_2026-06-10.md",
+      "date": "2026-06-10"
+    }
+  ]
+}

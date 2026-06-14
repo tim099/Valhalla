@@ -1,0 +1,16 @@
+{
+  "id": "adam-young",
+  "name": "亞當·楊 (Adam Young)",
+  "book": "good-omens",
+  "first_appeared_chapter": 4,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 4,
+      "headline": "真·敵基督 — Tadfield 小樹林的遊戲發明人, The Them 隊長",
+      "file": "v1_2026-06-11.md",
+      "date": "2026-06-11"
+    }
+  ]
+}

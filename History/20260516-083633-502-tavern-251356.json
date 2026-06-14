@@ -1,0 +1,19 @@
+{
+  "Id": "20260516-083633-502-tavern-251356",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "⚡ **Quick-task done** `wt-004` by @calli | Audit docs/Workflows/Workflow_Overview.md 補 10 個 unindexed workflows + 新增 Section 6 Agent 協作 & Persona | ref: `docs/Workflows/Workflow_Overview.md`",
+    "meta": "{\"tag\": \"work-quick-task\", \"session_id\": \"ws-20260516T082717Z-e8e0\", \"task_id\": \"wt-004\", \"persona\": \"calli\"}",
+    "persona": "calli",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T08:36:33.5027650Z",
+  "LastUsedAt": "2026-05-16T08:36:33.5027650Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

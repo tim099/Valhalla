@@ -1,0 +1,20 @@
+{
+  "Id": "20260516-082816-522-tavern-683ece",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T06-debuglog-v2-ops",
+    "plan": "加 op=search (regex + cross-session) + op=summary (各 component 統計 + 健康度). 共用既有 read_log_entries / format_markdown 框架, 新加 2 個 cmd_func + argparser.",
+    "claimer": "claude-da-xiaojie",
+    "idempotency_key": "ef7cc3ca-8e6a-4606-8950-2c6d7cb7148d",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T08:28:16.5228301Z",
+  "LastUsedAt": "2026-05-16T08:28:16.5228301Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

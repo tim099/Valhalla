@@ -1,0 +1,19 @@
+{
+  "Id": "20260508-124152-561-tavern-6853c7",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "agent-prompt-queue",
+    "task_id": "Q20260508-124152-d570",
+    "title": "設計 agent 自動協助酒館 Task 的機制",
+    "priority": "normal",
+    "body": "# Queued prompt — `Q20260508-124152-d570`\n\n_priority: normal / queued_at: 2026-05-08T12:41:52.434125Z_\n\n## 原始指令\n\n設計：其他 Agent 根據指令自動協助酒館內 Task 的機制\n\n## 痛點\n目前 ChatTavern Quest workflow 雖然有 task_create / task_claim / suggested_owner / inbox 等基礎建設，但實際運作仍倚賴使用者手動拉某個 agent 進房做事。要讓 Gemini / GPT / 其他 Claude session 能「自動」根據 quest 指令來協助，需要一套：\n- 通知機制（誰被指派 / 哪個 task 對自己合適）\n- 自動拾取 / 確認機制\n- agent 各自的 turn 入口（如何「叫醒」一個 idle agent）\n\n## 思考方向\n\n### 1. agent 喚醒 / 接通機制\n- 主動：使用者手動跟某 agent 對話 → agent re-enter 酒館跑 SOP（events_since + inbox_read + task_next）\n- 被動：每個 agent 在自己的 Stop hook 加入 task_next 偵測 — 看到 suggested_owner 命中自己 / inbox 有新 entry → 自動接手\n- 訊息驅動：cross-agent post 訊息，內含 `op=task_assign agent=gemini-da-xiaojie` 之類的指令，目標 agent 下次進房自動跑那個 op\n\n### 2. Agent 端 inbox 即「待辦清單」\n- 加 op=task_assign（或 task_create 帶 suggested_owner）→ reducer 自動寫 inbox/<agent>.md\n- 目標 agent 進房 SOP 第一步 inbox_read → 看到任務 → 跑 task_claim → 開做\n- 跨房 cross_depends_on（R4 P2 推延的）也走這條路徑\n\n### 3. Role-based 自動匹配\n- task_create 帶 `role=translator` → 廣播給所有 tags 含 translator 的 identities 的 inbox\n- 多人都收到 → 第一個 task_claim 拿到，其他人 task_list 看到 already claimed → 跳過\n- 配合 R4 P1 conflict UX → 失敗者收 inbox 建議 task_next\n\n### 4. cron / 定時掃描 wake-up\n- 寫一個 daemon python script 定期跑 task_list status=ready，若有「指派給特定 agent 但他離線」→ 透過 OS 通知 / Slack / etc 喚他\n- 進階：直接 spawn agent CLI session 自動接 task（自動化最強，但 cost 最高）\n\n### 5. Skill 整合\n- 各 agent 的 ChatTavern skill 可加 entry「進酒館前先 task_next」\n- 使用者一句「Gemini 進酒館」→ skill 自動跑：events_since → inbox_read → task_next → 印建議\n- 自動化但仍有人為 trigger，避免 runaway\n\n## 預期 deliverable\n1. brainstorm（solo 或多 agent）→ 收結論\n2. workflow 文件 docs/Workflows/AgentAssist_Workflow.md\n3. 必要的新 op：task_assign / agent_wake / 等等（視結論決定）\n4. Skill / Stop hook 更新（agent 端入場 SOP 強化）\n\n## 跟其他 task 的關係\n- 跟「PromptQueue」是不同層 — PromptQueue 是 Tim → 自己 agent 的指令排程；這個 task 是 agent ↔ agent 的協作排程\n- 跟 R4 P2 「cross-room handoff」相關但更廣 — P2 只是 quest A done → quest B unblock；這個 task 含 inter-agent 派發\n- 可能需要先跑一輪 brainstorm（quest-workflow-design 房或新房）再實作\n\n## Notes\n- 量先於改：先 brainstorm 收幾個方案，再選定路線實作\n- 不要 over-engineer，MVP 應該從「Stop hook 加 inbox_read 自動觸發」開始試水溫\n\n---\n_完成本任務後請跑：_\n`python AgentCommands/PromptQueue/qdone.py Q20260508-124152-d570`\n_否則 qdrain hook 不會進下一輪。_",
+    "idempotency_key": "71e7c34e-b198-4b58-af58-47c22b01bb7f"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T12:41:52.5613761Z",
+  "LastUsedAt": "2026-05-08T12:41:52.5613761Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

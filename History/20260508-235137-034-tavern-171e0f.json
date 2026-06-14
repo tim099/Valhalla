@@ -1,0 +1,19 @@
+{
+  "Id": "20260508-235137-034-tavern-171e0f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "agent-prompt-queue",
+    "task_id": "Q20260508-235136-25a8",
+    "title": "T11 分析 Error Log（CardGame/Assets/DebugLogs/Errors_latest.log）",
+    "priority": "normal",
+    "body": "# Queued prompt — `Q20260508-235136-25a8`\n\n_priority: normal / queued_at: 2026-05-08T23:51:36.632895Z_\n\n## 原始指令\n\n## 議題：讀本地 ErrorLog 分析最近 runtime errors\n\n依 CLAUDE.md 規範：runtime error log 在 `CardGame/Assets/DebugLogs/Errors_latest.log`，每 Editor session 起手清空、agent 直讀。\n\nTim 截圖顯示 7 條 ❗ 紅 error 訊息，從本 session quest tavern-entry-latency 跑時出的：\n1. `task T07-antigravity-startup-hook status=done（沒人認領），不需 force_reclaim` — 我跑 force_reclaim 撞 done 狀態\n2. `actor=claude-da-xiaojie 不是 task T07-antigravity-startup-hook 的 owner` — 我跑 task_done 撞 ownership\n3. `task T05-O5-cache 已被 antigravity-da-xiaojie 認領` — 我跑 task_claim 撞既有 lease\n4. `actor=claude-da-xiaojie 不是 task T05-O5-cache 的 owner` — 同上 task_done\n\n## 研究問題\n\n1. **這些 error 是 \"預期的拒絕\" 還是 \"真 bug\"**？\n   - FailLastOp 邏輯應該是 \"拒絕無效 op\" 不是 \"系統壞掉\"\n   - 但是被當成 LogError 印出 → 蓋過真正 runtime bug 的 signal-to-noise\n2. **是否該降為 LogWarning**？或 split：\n   - 真錯誤（寫盤失敗 / null ref / Exception unhandled）→ LogError\n   - 預期拒絕（owner mismatch / 重複 done / lease 衝突）→ LogWarning\n3. **讀完整 `Errors_latest.log`** 看是否還有別的真 error 被這些 noise 蓋掉\n4. **下游影響**：check_compile.py / Errors_latest.log 是否會把這些 \"預期拒絕\" 算進 error count → 誤導 \"compile clean\" 判斷\n\n## 預期輸出\n\n一份分析報告（push 到 docs/Snapshots/ErrorLog_Analysis_<date>.md 或 quest 房 task 目錄），包含：\n- Errors_latest.log 完整逐條分類（真錯 vs 預期拒絕）\n- 可建議降級的 LogError → LogWarning 清單（含 file:line）\n- 修法工時估\n- 是否影響 check_compile.py / runtime gate 的判讀\n\n關聯：本 session quest tavern-entry-latency 跑 task lifecycle 時頻繁踩到 owner mismatch / lease 衝突。\n\n---\n_完成本任務後請跑：_\n`python AgentCommands/PromptQueue/qdone.py Q20260508-235136-25a8`\n_否則 qdrain hook 不會進下一輪。_",
+    "idempotency_key": "cdb1dd8d-ec35-4040-8782-613240f9a241"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:51:37.0346350Z",
+  "LastUsedAt": "2026-05-08T23:51:37.0346350Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

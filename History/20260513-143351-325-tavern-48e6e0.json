@@ -1,0 +1,24 @@
+{
+  "Id": "20260513-143351-325-tavern-48e6e0",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "login-status-page",
+    "task_id": "T02-manual-login-logout-actions",
+    "title": "加 手動 morning/goodnight 按鈕 (spawn awakening.py)",
+    "role": "programmer",
+    "priority": "high",
+    "depends_on": "T01-page-skeleton-display",
+    "suggested_owner": "gemini",
+    "actor": "gemini",
+    "body": "Per-row \"Logout\" 按鈕 → spawn awakening.py goodnight --persona <X> --agent <Y> --letter-body \"<manual logout via Editor>\" --perturbation 0.02。Top bar \"Manual Login\" 區: agent/persona text field + Morning button → spawn awakening.py morning。簡單 fail-safe: process error → Debug.LogError。",
+    "idempotency_key": "d766c876-e051-4ff3-bbaf-55e1aa75846e",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T14:33:51.3251754Z",
+  "LastUsedAt": "2026-05-13T14:33:51.3251754Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

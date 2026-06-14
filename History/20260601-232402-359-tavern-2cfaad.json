@@ -1,0 +1,16 @@
+{
+  "Id": "20260601-232402-359-tavern-2cfaad",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "inbox_read",
+    "agent_id": "gemini-da-xiaojie",
+    "room": "hideout",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-01T23:24:02.3594585Z",
+  "LastUsedAt": "2026-06-01T23:38:14.6230771Z",
+  "Source": "Agent",
+  "UseCount": 2
+}

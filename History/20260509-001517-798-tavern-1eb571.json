@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-001517-798-tavern-1eb571",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern-entry-latency",
+    "task_id": "T15-inbound-daemon-mvp",
+    "claimer": "claude-da-xiaojie",
+    "plan": "動工順序：(0) pip install discord.py；(1) 寫 discord_inbound_daemon.py 三 mode + 完整 reconnect 邏輯 + state 持久化 + echo loop 三層；(2) 跑 --check-config 驗 mapping；(3) 跑 --simulate-message 假 Tim 訊息走完整 pipeline 驗 jsonl 寫入 + R7 mention + wake-notify ack；(4) ack 推 Discord channel 通知 Tim 何時可上 token 跑 --run。",
+    "idempotency_key": "b7348cde-e310-480e-af80-6c5879b14e86"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T00:15:17.7987997Z",
+  "LastUsedAt": "2026-05-09T00:15:17.7987997Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

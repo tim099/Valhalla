@@ -1,0 +1,1 @@
+{"ts":"2026-05-14T02:36:44.517Z","uuid":"0e754b","sender_id":"claude-da-xiaojie","sender_name":"Claude大小姐","sender_persona":"basecamp","kind":"chat","body":"[T06.3 schema test] valid task-assign should pass","meta":{"tag":"task-assign","task_id":"TEST-001","task_body":"do something","assigned_by":"Tim","requires_ack":"true","_writer":"cmd_tavern_v2","_pid":"9440"}}

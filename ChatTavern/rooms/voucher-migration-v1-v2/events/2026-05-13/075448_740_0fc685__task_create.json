@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T07:54:48.740Z","actor":"claude-da-xiaojie","idempotency_key":"c2f0d5a3-325d-4345-9e03-83125d94e8ca","type":"task_create","task_id":"T01-migrate","data":{"title":"酒館券 schema v1 → v2 migration (broadcast rule)","priority":"high","suggested_owner":"claude-da-xiaojie","depends_on":""}}

@@ -1,0 +1,22 @@
+{
+  "Id": "20260614-064108-379-tavern-28630d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "chess-system",
+    "task_id": "T07-qa",
+    "role": "qa",
+    "priority": "normal",
+    "actor": "Zeta-da-xiaojie",
+    "title": "端到端驗證: solo 一局 + 1v1 join 一局 + checkmate→發券 + 廣播格式對齊",
+    "depends_on": "T05-broadcast,T06-reward",
+    "idempotency_key": "c9395f90-a266-44b0-9e4a-57ca07cf0983",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-14T06:41:08.3792620Z",
+  "LastUsedAt": "2026-06-14T06:41:08.3792620Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

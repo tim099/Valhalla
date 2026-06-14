@@ -1,0 +1,27 @@
+{
+  "id": "ojousama-elegant-se",
+  "title": "大小姐的優雅軟體工程學",
+  "title_original": "The Elegant Software Engineering of Ojou-sama",
+  "author": "trailhead 大小姐",
+  "reader_persona": "trailhead",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 3,
+    "last_read": "2026-05-27",
+    "bookmark_note": "完成了前言與三個核心章節的編寫！物理意義、協作禮儀與思考流的優雅總結。"
+  },
+  "characters": [
+    "trailhead"
+  ],
+  "origin": "authored",
+  "author_persona": "trailhead",
+  "publish_status": "published",
+  "arcs": [
+    {
+      "chapters": "1-3",
+      "title": "★核心概念：物理意義與優雅協作",
+      "file": "arc_1-3.md",
+      "date": "2026-05-27"
+    }
+  ]
+}

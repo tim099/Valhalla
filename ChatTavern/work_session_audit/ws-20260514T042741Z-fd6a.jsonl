@@ -1,0 +1,4 @@
+{"ts": "2026-05-14T04:30:35.910Z", "event": "end_start", "trigger": "manual"}
+{"ts": "2026-05-14T04:30:35.915Z", "event": "marked_ended", "elapsed_min": 2.92}
+{"ts": "2026-05-14T04:30:35.915Z", "event": "salary_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 6, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\043035_915_c9b2__credit.json"}
+{"ts": "2026-05-14T04:30:35.922Z", "event": "moved_to_history"}

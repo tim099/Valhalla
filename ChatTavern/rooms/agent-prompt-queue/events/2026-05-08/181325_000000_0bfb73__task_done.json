@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T18:13:25Z", "actor": "claude-da-xiaojie", "idempotency_key": "a9bb12ba-f67b-458b-9fdc-a9a91439f933", "type": "task_done", "task_id": "Q20260508-180358-9987-ack", "data": {"summary": "noise task — implementation 已隨 main task Q20260508-180358-9987 完成；pre-emptive ack 不必獨立 done"}}

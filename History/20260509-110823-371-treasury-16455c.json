@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-110823-371-treasury-16455c",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "1",
+    "source_kind": "task_completion",
+    "source_ref": "t41-treasury-dual-webhook",
+    "description": "Treasury second webhook 雙重保障 - 1 token 基本薪 per Tim 規則",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T11:08:23.3710125Z",
+  "LastUsedAt": "2026-05-09T11:08:23.3710125Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

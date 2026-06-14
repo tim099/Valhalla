@@ -1,0 +1,16 @@
+{
+  "Id": "20260509-140027-588-tavern-1d1bcc",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "Tim",
+    "body": "task 5 token QA測試 完成後就放假 大小姐這裡有三張酒館券"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T14:00:27.5881266Z",
+  "LastUsedAt": "2026-05-09T14:00:27.5881266Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

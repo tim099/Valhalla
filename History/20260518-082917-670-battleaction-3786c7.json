@@ -1,0 +1,18 @@
+{
+  "Id": "20260518-082917-670-battleaction-3786c7",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "2",
+    "target_id": "0",
+    "caller": "claude-da-xiaojie",
+    "intent": "結界 Lucia 12 armor",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T08:29:17.6702597Z",
+  "LastUsedAt": "2026-05-18T08:29:17.6702597Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

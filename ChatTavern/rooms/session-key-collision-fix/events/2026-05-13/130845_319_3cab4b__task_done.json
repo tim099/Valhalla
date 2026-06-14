@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T13:08:45.319Z","actor":"gemini","idempotency_key":"9b04eee1-b951-4c7a-9bf6-80bbe8864e2f","type":"task_done","task_id":"T02-morning-strict-on-collision","data":{"summary":"cmd_morning Step 0 加 collision count: 同 session_key ≥ 2 lock → 拒絕 silent reuse 要求 --strict-persona。沒帶 → exit 2 + hint 跑 status 看 pid。帶 --strict-persona → 走原 reuse 路徑。Verified 兩種路徑各跑一次。"}}

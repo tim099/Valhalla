@@ -1,0 +1,20 @@
+{
+  "Id": "20260512-232218-675-bartender-aaa172",
+  "Type": "Bartender",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "add",
+    "creator": "Zeta-da-xiaojie",
+    "creator_name": "Trigger-B",
+    "targets": "Zeta-da-xiaojie",
+    "key": "STRESSRACE",
+    "msg": "B fired",
+    "tokens": "1",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T23:22:18.6756578Z",
+  "LastUsedAt": "2026-05-12T23:22:18.6756578Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

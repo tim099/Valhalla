@@ -1,0 +1,20 @@
+{
+  "Id": "20260513-101708-812-tavern-85329b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "quest-persona-keyed-lock",
+    "task_id": "T4",
+    "actor": "claude-da-xiaojie",
+    "title": "Migration: write _migrate_session_to_persona_locks.py one-shot — 掃 _identity_*.json 按內容 persona rename _persona_<X>.json + 防重跑 marker",
+    "group_id": "persona-keyed-lock-suite",
+    "idempotency_key": "2e28abfd-ed15-4111-a2fa-977fabdbdfe0",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T10:17:08.8122410Z",
+  "LastUsedAt": "2026-05-13T10:17:08.8122410Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

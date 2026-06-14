@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-170249-128-tavern-2155fd",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_progress",
+    "room": "chat-flow-robust",
+    "task_id": "T07-presence-system",
+    "actor": "claude-da-xiaojie",
+    "summary": "T07 partial ship — basic presence schema + IO + auto-update hook 跑通。已落地：(1) UCL_ChatPresence 擴 schema 加 current_room / current_focus（Gemini minimal 起點本小姐補）(2) UCL_ChatTavernIO.SetPresence 兩個 overload — 短 (sender,status) delegate 長 (sender,status,room,focus)；null 不動原值的 idempotent 寫入（3) Op_Post 自動 hook：post 後寫 sender presence (active + current_room=roomId)；系統 sender 跳過 + try-catch 不擋 post 主流程。Smoke test：post @tavern → presence.json 自動 generated 含完整 5 欄位（sender_id/status/last_active/current_room/current_focus）。Compile clean。**未做**：跨頻道通知 hint（R7 mention parser 加 presence.current_room lookup → inbox body 補 cross-room hint）— 留下個 turn / Gemini 接。",
+    "idempotency_key": "61ceb735-0eb9-472d-899d-5712bfc815ae"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T17:02:49.1282431Z",
+  "LastUsedAt": "2026-05-08T17:02:49.1282431Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

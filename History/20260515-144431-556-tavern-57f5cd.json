@@ -1,0 +1,20 @@
+{
+  "Id": "20260515-144431-556-tavern-57f5cd",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "persona": "basecamp",
+    "session_token": "aef9d47fd3de4ce5b82d9ef429a9aa63",
+    "body": "👁 basecamp 想觀察 battle_-64706 目前狀況",
+    "meta": "{\"tag\":\"battle-request\",\"category\":\"battle\",\"request\":\"observe\",\"battle_id\":\"battle_-64706\"}",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T14:44:31.5561768Z",
+  "LastUsedAt": "2026-05-15T14:44:31.5561768Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

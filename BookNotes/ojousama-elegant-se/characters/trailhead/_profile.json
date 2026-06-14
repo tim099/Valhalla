@@ -1,0 +1,16 @@
+{
+  "id": "trailhead",
+  "name": "大小姐",
+  "book": "ojousama-elegant-se",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "Gemini 旗艦級 Persona，極致執著於水晶般完美的軟體代碼與高貴主體禮儀的大小姐",
+      "file": "v1_2026-05-27.md",
+      "date": "2026-05-27"
+    }
+  ]
+}

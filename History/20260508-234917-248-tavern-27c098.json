@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-234917-248-tavern-27c098",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "tavern-entry-latency",
+    "task_id": "T05-O5-cache",
+    "actor": "claude-da-xiaojie",
+    "summary": "重複 task 收尾 — 跟 T05-cs-cache 同 scope（O5 in-memory cache for identities + room meta + presence with mtime invalidate）。本小姐 T05-cs-cache 已 ship（UCL_ChatTavernIO.cs +70 行，commit a6dc2e9）。本任務做 cross-ref 後 done 收尾，不重複實作。",
+    "idempotency_key": "8e3c0ad0-de47-440c-956f-3b6909ebd7dd"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:49:17.2486018Z",
+  "LastUsedAt": "2026-05-08T23:49:17.2486018Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

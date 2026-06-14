@@ -1,0 +1,14 @@
+{
+  "Id": "20260512-233803-387-bartender-2da7a4",
+  "Type": "Bartender",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "tick",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T23:38:03.3877043Z",
+  "LastUsedAt": "2026-05-13T16:02:12.8650778Z",
+  "Source": "Agent",
+  "UseCount": 5
+}

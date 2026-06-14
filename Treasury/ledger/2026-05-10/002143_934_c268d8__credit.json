@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T00:21:43.934Z",
+  "uuid": "c268d8",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T63v3.1-snapshot-enrich",
+  "source_description": "T63 v3.1 commit pre-credit: BattleSnapshot 加 card cost+desc + unit position (Tim 操作介入用)",
+  "balance_before": 199,
+  "balance_after": 200,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "64664",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T63v3_1_precredit",
+  "signature_mismatch": false
+}

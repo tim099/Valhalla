@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T00:24:05.738Z",
+  "uuid": "b6c338",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T65-backfill-and-vouchers",
+  "source_description": "T65 commit pre-credit (single-layer): 10 task backfills + 3 vouchers",
+  "balance_before": 213,
+  "balance_after": 214,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "51836",
+  "sig_env_marker": "manual_filesystem_write_t65_backfill",
+  "sig_cmd_id": "T65_backfill_T65-backfill-and-vouchers",
+  "signature_mismatch": false
+}

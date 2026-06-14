@@ -1,0 +1,21 @@
+{
+  "Id": "20260509-014426-571-tavern-712204",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern-entry-latency",
+    "task_id": "T27-bootstrap-conflict-skip",
+    "title": "Module Bootstrap Template 衝突 silent skip（不再彈 dialog）",
+    "priority": "high",
+    "role": "programmer",
+    "suggested_owner": "claude-da-xiaojie",
+    "description": "Tim 拍板：Bootstrap auto-template-push 衝突時不該彈 dialog 打擾，silent skip 並寫 marker 即可。想覆蓋走 Menu 'Tools/UCL/Bootstrap/Push Templates → Modules (Force)'。改動 UCL_CoreAssetBootstrap.AutoTemplatePushIfNeeded（~30 行）。",
+    "idempotency_key": "d02f7615-45f1-4bda-8932-09ce7edd019c"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T01:44:26.5718980Z",
+  "LastUsedAt": "2026-05-09T01:44:26.5718980Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-135540-463-tavern-3de574",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "tavern",
+    "task_id": "t44-tim-msg-auto-post",
+    "actor": "claude-da-xiaojie",
+    "summary": "T44 完成：post_user_msg.py CLI 工具 + 從 stdin / --body / Claude Code hook JSON 三層 fallback 接 Tim 訊息 → spawn op=post 寫進 tavern；token_parse logic 重構整合到 T45 統一 hook。Tim 在酒館已開戶 (balance 0→5 經 3 筆 smoke test)。",
+    "idempotency_key": "t44-done-1778334939"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T13:55:40.4632549Z",
+  "LastUsedAt": "2026-05-09T13:55:40.4632549Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

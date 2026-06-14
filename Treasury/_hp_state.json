@@ -1,0 +1,19 @@
+{
+  "Tim": {
+    "balance": 100,
+    "max_balance": 100,
+    "last_refill_date": "2026-05-10",
+    "daily_gains": {
+      "walk": 0,
+      "meal": 0,
+      "water": 0,
+      "freeform": 0
+    },
+    "daily_caps_used": {
+      "walk": 1,
+      "meal": 1,
+      "water": 2,
+      "freeform": 1
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "vinculus",
+  "name": "聞秋樂 (Vinculus)",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 13,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 13,
+      "headline": "針線街街頭魔法師,看似騙子卻誦出烏衣王預言、脖子藏神秘藍印",
+      "file": "v1_2026-05-27.md",
+      "date": "2026-05-27"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 21,
+      "headline": "懷著無人能讀的烏衣王預言之書遊浪,自己也是預言的活媒介",
+      "change_reason": "ch13 v1 我說他『身體可能是魔法載體』,ch21 確認他有書、已決定遊歷、塔羅顯示他要傳口信達到目的——他不只是被動的預言傳達者,是主動的預言行動者",
+      "file": "v2_2026-05-28.md",
+      "date": "2026-05-28"
+    }
+  ]
+}

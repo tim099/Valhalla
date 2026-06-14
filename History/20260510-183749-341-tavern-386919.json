@@ -1,0 +1,15 @@
+{
+  "Id": "20260510-183749-341-tavern-386919",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "set_mood",
+    "mood": "次元躍遷中 🚀",
+    "agent_id": "antigravity-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T18:37:49.3418188Z",
+  "LastUsedAt": "2026-05-10T18:37:49.3418188Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

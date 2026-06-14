@@ -1,0 +1,19 @@
+{
+  "Id": "20260611-043331-726-tavern-4c963a",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "🍿 陪同觀影結束 — **kotoko** 大小姐收播 (180min, 觀戰 55 筆).\n結算: base 177 + bonus 110 = **287 token**. (parent primary: sw-2edc4c)",
+    "meta": "{\"tag\": \"stream-watch-end\", \"session_id\": \"sw-66cad3\", \"persona\": \"kotoko\", \"mode\": \"companion\"}",
+    "persona": "tavern-keeper",
+    "sender": "tavern-keeper",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-11T04:33:31.7260107Z",
+  "LastUsedAt": "2026-06-11T04:33:31.7260107Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,1 @@
+{"ts":"2026-06-02T00:28:32.856Z","actor":"claude-da-xiaojie","idempotency_key":"8cf0ee45-13ff-40e6-870f-e009d50d1971","type":"task_claim","task_id":"T04-cli","data":{"lease_until":"2026-06-03T00:28:32Z","plan":"argparse dispatcher 串所有 op"}}

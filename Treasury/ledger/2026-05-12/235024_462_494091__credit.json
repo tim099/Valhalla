@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-12T23:50:24.462Z",
+  "uuid": "494091",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Zeta-da-xiaojie",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "discord-truncation-task",
+  "source_description": "QA bug reward [normal] to Zeta-da-xiaojie: Discord 訊息切割 task — 2 token. Tim 截圖證據: task share 末段被 '…' 截斷, Cmd_Glossary auto-attach 區塊遺失. Fix: 改用 _split_body_for_discord 在 \\n 邊界切多 chunk POST, 不再 truncate. Unit tested 4 場景. (ref: discord-truncation-task)",
+  "balance_before": 29,
+  "balance_after": 32,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "53148",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_494091",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

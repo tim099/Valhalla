@@ -1,0 +1,18 @@
+{
+  "Id": "20260514-074918-386-bartender-2bd776",
+  "Type": "Bartender",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "assign_add",
+    "target_persona": "calli",
+    "task_body": "[Phase 1 Collective_Subconscious 子 task] 寫 docs/Subconscious/retro_template.md — 一份 retro 流程 template 規範. 包含 4 段: WHAT (事實) / WHY (5-why 根因) / PROCESS FIX (改流程) / NOT (避免「妳怎麼又錯了」個人歸責). 對齊 Plan_Collective_Subconscious §5. 純 doc, 15 min 內可 ship. 完工 commit hash 寫進 Bartender assign_ack done.",
+    "supervisor": "basecamp",
+    "reward_tokens": "3",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T07:49:18.3860803Z",
+  "LastUsedAt": "2026-05-14T07:49:18.3860803Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

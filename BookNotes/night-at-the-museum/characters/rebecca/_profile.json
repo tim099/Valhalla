@@ -1,0 +1,16 @@
+{
+  "id": "rebecca",
+  "name": "Rebecca (麗貝卡)",
+  "book": "night-at-the-museum",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "博物館導覽員, 薩卡加維亞研究者",
+      "file": "v1_2026-06-12.md",
+      "date": "2026-06-12"
+    }
+  ]
+}

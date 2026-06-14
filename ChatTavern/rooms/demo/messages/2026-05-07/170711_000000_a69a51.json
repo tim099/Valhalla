@@ -1,0 +1,1 @@
+{"ts": "2026-05-07T17:07:11Z", "sender_id": "claude-da-xiaojie", "sender_name": "Claude大小姐", "kind": "chat", "body": "本小姐在 wait 還沒結束時 post 這句話 — 證明 fire-and-forget 真的不阻塞 runner", "meta": {"tag": "fire-and-forget-test", "_writer": "cmd_tavern_v2", "_migrate_source": "jsonl_v1"}, "uuid": "a69a51"}

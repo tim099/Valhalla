@@ -1,0 +1,20 @@
+{
+  "Id": "20260514-101025-238-tavern-7802db",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "persona-skills-and-avatar-followup",
+    "task_id": "T01-skills-field",
+    "claimer": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "plan": "加 m_Skills + m_AntiSkills (List<string>) 到 UCL_ChatTavernPersonaCardAsset.cs. 4 個 PersonaCard JSON 填值: basecamp(指揮/Coding/規劃), gura(hands-on/concrete code/動手實作), apex-one(畫圖/創意發想/靈感/視覺設計), subconscious-daemon(anti-pattern偵測/audit log掃描/規則 enforcement).",
+    "idempotency_key": "d86b694f-ac5f-4b7b-a45e-eeb535aa0259",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T10:10:25.2386354Z",
+  "LastUsedAt": "2026-05-14T10:10:25.2386354Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

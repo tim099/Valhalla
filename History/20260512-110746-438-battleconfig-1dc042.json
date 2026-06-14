@@ -1,0 +1,15 @@
+{
+  "Id": "20260512-110746-438-battleconfig-1dc042",
+  "Type": "BattleConfig",
+  "Mode": "OneShot",
+  "Args": {
+    "action": "list",
+    "filter": "Lv1",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T11:07:46.4387079Z",
+  "LastUsedAt": "2026-05-12T11:07:46.4387079Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

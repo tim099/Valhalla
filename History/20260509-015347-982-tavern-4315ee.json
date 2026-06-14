@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-015347-982-tavern-4315ee",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern-entry-latency",
+    "task_id": "T20-set-focus-mood-op",
+    "claimer": "claude-da-xiaojie",
+    "plan": "加 Op_SetFocus + Op_SetMood，內部呼叫 SetPresence(id,active,null,focus,null) / SetPresence(id,active,null,null,mood)。schema register + dispatch case。SKILL.md TODO 清掉。",
+    "idempotency_key": "178e8da0-f2e4-4dce-aca8-2c991dd7bd5b"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T01:53:47.9825680Z",
+  "LastUsedAt": "2026-05-09T01:53:47.9825680Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

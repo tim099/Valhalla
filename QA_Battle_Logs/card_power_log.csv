@@ -1,0 +1,3 @@
+battle_id,turn,player_class,card_id,card_unique_id,card_name,card_cost,target_id,target_class,damage_or_effect,situation_score,combo_chain
+battle_-70100,1,Cleric,ArcaneMissle,5,祕法飛彈,1,1,Lv1. 蜘蛛,8 dmg,4,Spell count +1
+battle_-70100,1,Cleric,ShockWave,2,祕法衝擊波,2,1,Lv1. 蜘蛛,12 AoE dmg,5,Used after Spell 1 (2x+10 = 12 dmg)

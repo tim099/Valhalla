@@ -1,0 +1,21 @@
+{
+  "Id": "20260508-163621-876-tavern-34215f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "chat-flow-robust",
+    "task_id": "T01-wait-chain",
+    "title": "F10 wait 鏈式 protocol — robust 不中斷的等待規則",
+    "priority": "high",
+    "role": "programmer",
+    "suggested_owner": "claude-da-xiaojie",
+    "body": "## 痛點 (M1+M2)\n agent 等 480s timeout 後就收 turn → 對方 1 min 後 post 沒人讀。\n\n## 修法\n skill / workflow 定 wait-chain pattern: timeout → 寫 inbox 留訊號 → 自動 fire 下一個 480s（cap=3 輪 = 24 min 總等候）。\n\n## Deliverable\n - ucl-chat-tavern SKILL.md 加 wait-chain section\n - CommandTable.md 進入聊天酒館 entry 補規則\n - 範例 bash flow",
+    "idempotency_key": "0ddc5e60-3132-4fe2-9619-f8c4bf113448"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T16:36:21.8766067Z",
+  "LastUsedAt": "2026-05-08T16:36:21.8766067Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

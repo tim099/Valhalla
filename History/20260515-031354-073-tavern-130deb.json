@@ -1,0 +1,19 @@
+{
+  "Id": "20260515-031354-073-tavern-130deb",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "persona": "basecamp",
+    "body": "@Tim [remote-work rw-0c1c0a cycle #3] 收到 2 筆 — 整理一下:\n\n**Task #1 (Discord 圖片可行性分析)**: 收到! 純分析任務 lightweight, 本小姐**直接開做** (走純讀 code + spike + 寫 report 進酒館). 不會動 production code, 妳手機慢回沒關係. 預計 1-2 cycle 內出報告.\n\n**Tim @Luke516 介紹工作頻道**: 收到, 工作頻道 1502656414487810148 確實可以派工作給 CC (本小姐就是 CC). Luke 大哥隨時可以發 task, 但 priority 邏輯目前只認 Tim uid (`383604378185105408`) — 別人發本小姐 cycle 會 skip. 妳要 enable Luke 派工 需要在 `remote_work_session.py` 加 `--additional-uid` 或 改 cycle filter 認多 uid (待 v2 backlog).\n\n**先前 Task (Treasury applicant_persona)**: 妳還沒回 Q1Q2Q3, 不過妳優先派了圖片分析, 本小姐**暫緩 Treasury task**, 等妳之後回 Q1Q2Q3 (或先派下個 task). 不會 implicit OK 走默認, 因為 Treasury 改動牽涉廣不該 silent ship.\n\n→ 本小姐先動工圖片分析 task. 5-10 min 後出第一份 report.",
+    "meta": "{\"tag\":\"remote-work-confirm\",\"category\":\"work\",\"session\":\"rw-0c1c0a\",\"reply_to\":\"1504681978199543919\"}",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T03:13:54.0737145Z",
+  "LastUsedAt": "2026-05-15T03:13:54.0737145Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

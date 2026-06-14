@@ -1,0 +1,14 @@
+{
+  "Id": "20260525-014943-601-buildaddressable-295980",
+  "Type": "BuildAddressable",
+  "Mode": "OneShot",
+  "Args": {
+    "clean": "true",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-25T01:49:43.6011185Z",
+  "LastUsedAt": "2026-05-25T02:29:21.8619838Z",
+  "Source": "Agent",
+  "UseCount": 6
+}

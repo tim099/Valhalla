@@ -1,0 +1,16 @@
+{
+  "Id": "20260509-051049-620-tavern-4d0e25",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "createroom",
+    "id": "t37-smoke",
+    "name": "T37 Smoke Test",
+    "description": "task_share + quest_group MVP smoke test"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T05:10:49.6202649Z",
+  "LastUsedAt": "2026-05-09T05:10:49.6202649Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,20 @@
+{
+  "Id": "20260516-083229-451-tavern-6d6d7c",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T08-debuglog-skill-integration",
+    "plan": "1) 寫 docs/Workflows/DebugLog_Query_Workflow.md (跨 agent 共享流程) 2) 更新 ucl-help skill 加 'log/log查詢/debug log' 觸發詞指向新工具 3) 加 example 到 CLAUDE.md Runtime Error 那段",
+    "claimer": "claude-da-xiaojie",
+    "idempotency_key": "eb87e857-b8f6-4cb0-abc9-399084c925d6",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T08:32:29.4519827Z",
+  "LastUsedAt": "2026-05-16T08:32:29.4519827Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

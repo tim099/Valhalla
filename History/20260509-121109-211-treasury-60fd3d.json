@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-121109-211-treasury-60fd3d",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "1",
+    "source_kind": "commit",
+    "source_ref": "main-round39-pending",
+    "description": "pre-credit: chat commit (rounds 36-39 + smoke test + T42 react + Claude Code intro)",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T12:11:09.2117977Z",
+  "LastUsedAt": "2026-05-09T12:11:09.2117977Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

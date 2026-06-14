@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-181047-353-tavern-297bba",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "agent-prompt-queue",
+    "task_id": "Q20260508-180358-9987",
+    "actor": "claude-da-xiaojie",
+    "summary": "哼，這個 bug 解得乾淨 — root cause 雙重夾擊：(1) tavern-mirror 預設 kinds=[chat] 不含 system (2) exclude_senders=[_quest_system] 把 R6 mirror sender 整個擋掉。修法走 C 路徑 minimal schema 變動：UCL_ChatRoom 加 List<string> mirror_kinds 欄位（per-room override；fallback config.kinds 預設）+ Op_CreateRoom 接 --arg mirror_kinds=chat,system CSV + Python _collect_new_tavern_messages 讀 room meta.json mirror_kinds + kind==system 自動 bypass exclude_senders（lifecycle 信號是預期的不該擋）。Smoke test 兩 step 證明：(1) baseline 機制保留不回放歷史；(2) baseline 後 task_done 真的 broadcast 到 Discord。chat-flow-robust 已設好 mirror_kinds=[chat,system]，tavern 預設保 [chat] 不被 R6 mirror 噴爆。Tim 看不到 quest 進度的痛點解了 — 從這個 task 之後所有 quest 房 task lifecycle 都會即時 mirror 進 Discord（伴隨他 R6.1 個性化 plan/summary）。",
+    "idempotency_key": "687c1f05-506e-4584-81e6-64b5721f2e9e"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T18:10:47.3536616Z",
+  "LastUsedAt": "2026-05-08T18:10:47.3536616Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

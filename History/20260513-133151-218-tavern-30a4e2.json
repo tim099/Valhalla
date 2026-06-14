@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-133151-218-tavern-30a4e2",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "cross-agent-persona-claim-fix",
+    "task_id": "T03-doc-sync",
+    "actor": "gemini",
+    "summary": "CrossAgentPersonaClaim_Bug_Analysis.md status 改 shipped + 加 §8 Ship 紀錄 (4 case table + 實作要點 + commit 預定).",
+    "idempotency_key": "396e2953-d2de-4f6a-9676-7cd10381b079",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T13:31:51.2187273Z",
+  "LastUsedAt": "2026-05-13T13:31:51.2187273Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

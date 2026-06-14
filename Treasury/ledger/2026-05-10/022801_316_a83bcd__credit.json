@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-10T02:28:01.316Z",
+  "uuid": "a83bcd",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "T72",
+  "source_description": "QA bug reward [normal]: automated QA 卡關真因 = popup 故意 blocking 設計 (RCG_AquireItemPanel.Confirm 必須 invoke 才解 BattleInit async wait) (ref: T72)",
+  "balance_before": 24,
+  "balance_after": 27,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "61236",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_a83bcd",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

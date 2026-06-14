@@ -1,0 +1,1 @@
+{"ts": "2026-05-09T01:06:09Z", "actor": "", "idempotency_key": "8ac0bb61-b4e2-451d-800a-ebbba20ea2c1", "type": "task_create", "task_id": "T24-task-naming-convention", "data": {"title": "P3 task_id 命名統一前綴規範（純文件）", "role": "writer", "priority": "low", "suggested_owner": "claude-da-xiaojie", "depends_on": ""}}

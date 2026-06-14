@@ -1,0 +1,16 @@
+{
+  "id": "jibril",
+  "name": "吉普莉爾 (Jibril)",
+  "book": "civ6-anime-empire-2026",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "天翼種代表 — 行政長官立繪 mod 換成她",
+      "file": "v1_2026-06-13.md",
+      "date": "2026-06-13"
+    }
+  ]
+}

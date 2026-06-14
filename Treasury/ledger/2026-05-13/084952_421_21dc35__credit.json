@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-13T08:49:52.421Z",
+  "uuid": "21dc35",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "work-session-prototype-display-duplicate-participant",
+  "source_description": "QA bug reward [normal] to Tim: work_session.py end announce body 把 manager 跟 workers 各算一筆 participant, 同 persona 雙 role 時 (e.g. meadow solo session manager+worker 都是 meadow) 渲染兩次 +N token (但 ledger 因 idempotency flag 只 fire 1 entry, 不算 double credit). 同時 cmd_start 沒擋 manager 同時在 workers list. Fix: (1) cmd_start 過濾 manager from workers + dedupe (2) cmd_end 走 unique persona participants list (3) spec §11 加 'Manager==Worker' edge + '早收工' governance entry. Zeta 從 meadow solo session screenshot 抓到 (2.4 min 顯示 @meadow +5 + @meadow +5). (ref: work-session-prototype-display-duplicate-participant)",
+  "balance_before": 163,
+  "balance_after": 166,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "62540",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_21dc35",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-092502-347-treasury-4c0218",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "20",
+    "reason": "Tim 績效獎金 — T28 Avatar task quest 完成 (Persona Avatar framework + 3 ImageGen requests + 3 PersonaCard seeds + dispatch apex-one)",
+    "granter": "Tim",
+    "category": "performance_bonus",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T09:25:02.3478946Z",
+  "LastUsedAt": "2026-05-14T09:25:02.3478946Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

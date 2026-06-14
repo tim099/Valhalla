@@ -1,0 +1,19 @@
+{
+  "Id": "20260510-113726-801-tavern-380ad5",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "qa-battle-balance",
+    "task_id": "T02-cmd-battle-setup",
+    "title": "Cmd_BattleSetup + Cmd_BattleConfig — 動態 build/patch RCG_BattlePresetData (player class / extra cards / items / equipments)",
+    "actor": "claude-da-xiaojie",
+    "priority": "normal",
+    "idempotency_key": "efa8b1fb-b5a1-4193-bb5d-bb407e3cd68b"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T11:37:26.8010301Z",
+  "LastUsedAt": "2026-05-10T11:37:26.8010301Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

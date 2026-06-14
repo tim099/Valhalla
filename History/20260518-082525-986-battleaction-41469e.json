@@ -1,0 +1,18 @@
+{
+  "Id": "20260518-082525-986-battleaction-41469e",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "2",
+    "target_id": "1",
+    "caller": "claude-da-xiaojie",
+    "intent": "kill spider1 2HP + draw",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T08:25:25.9867665Z",
+  "LastUsedAt": "2026-05-18T08:25:25.9867665Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

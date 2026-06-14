@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T00:33:20.061Z",
+  "uuid": "18107b",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T67-balance-backfill",
+  "source_description": "T67 commit pre-credit: balance_before/after auto-compute in fire_broadcast + 49 historical entries 修正",
+  "balance_before": 215,
+  "balance_after": 216,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "39520",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T67_precredit",
+  "signature_mismatch": false
+}

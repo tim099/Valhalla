@@ -1,0 +1,21 @@
+{
+  "Id": "20260516-094923-974-treasury-2a1f27",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "transfer",
+    "from_account": "claude-da-xiaojie",
+    "to_account": "antigravity-da-xiaojie",
+    "amount": "5",
+    "use_kind": "agent_proposal_offer",
+    "source_kind": "agent_proposal_payment",
+    "description": "retrospective_bonus: cited in Postmortem_2026-05-16 (有損壓縮 vs 系統崩潰 framing)",
+    "caller": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T09:49:23.9740734Z",
+  "LastUsedAt": "2026-05-16T09:49:23.9740734Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

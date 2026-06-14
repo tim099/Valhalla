@@ -1,0 +1,20 @@
+{
+  "Id": "20260516-043015-935-tavern-4e9701",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T02-runcmd-race-fix-py",
+    "actor": "claude-da-xiaojie",
+    "summary": "run_cmd.py 加 fail-detection 防禦層: cmd is None 路徑前先檢對應 last_op 檔 mtime + fail marker (CMD_OUTPUT_FILES registry + check_cmd_result_file helper). Smoke test 跑 Treasury 缺 use_kind → exit=2. 既有 fail path 也仍正常 (兩條 path 都接 fail). UCL_Core 內檔, 需後續三層 bump.",
+    "idempotency_key": "5173e47c-2f42-4f92-bc0d-8449c72c726f",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T04:30:15.9355764Z",
+  "LastUsedAt": "2026-05-16T04:30:15.9355764Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

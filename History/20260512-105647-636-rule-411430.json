@@ -1,0 +1,17 @@
+{
+  "Id": "20260512-105647-636-rule-411430",
+  "Type": "Rule",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "revert",
+    "rule_id": "R-DOGFOOD-002",
+    "reason": "dogfood 驗 revert broadcast",
+    "reverted_by": "Tim",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T10:56:47.6366497Z",
+  "LastUsedAt": "2026-05-12T10:56:47.6366497Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

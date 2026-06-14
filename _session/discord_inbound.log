@@ -1,0 +1,476 @@
+[discord-inbound] 2026-06-13T10:19:21 INFO starting (repo=D:\Unity\EmblemOfValor)
+[discord-inbound] 2026-06-13T10:19:21 INFO loaded 18 discord uid → name mapping(s)
+[discord-inbound] 2026-06-13T10:19:21 INFO pre-registered 0 discord identities into identities.json
+[discord-inbound] 2026-06-13T10:19:21 INFO token source: file AgentCommands\_secrets\discord_bot_token.txt
+[discord-inbound] 2026-06-13T10:19:21 WARNING PyNaCl is not installed, voice will NOT be supported
+[discord-inbound] 2026-06-13T10:19:21 WARNING davey is not installed, voice will NOT be supported
+[discord-inbound] 2026-06-13T10:19:21 INFO logging in using static token
+[discord-inbound] 2026-06-13T10:19:22 INFO Shard ID None has connected to Gateway (Session ID: 10b02c6788b1bdf1c79cd4e58ae57fa5).
+[discord-inbound] 2026-06-13T10:19:24 INFO connected as Dev#8674 (id=1502473220127723560)
+[discord-inbound] 2026-06-13T10:19:24 INFO watching 3 channel(s): 1502449153018560562→tavern[external/p10/公開聊天酒館], 1502446936748326944→tavern[internal/p50/內部聊天酒館], 1502656414487810148→tavern[work/p80/工作頻道 (Tim 行動端)]
+[discord-inbound] 2026-06-13T10:23:08 INFO   attachment saved: image.png (3256968B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515179685552586844__1515179685515100220__image.png
+[discord-inbound] 2026-06-13T10:23:19 INFO relayed msg_id=1515179685552586844 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T10:56:24 INFO Shard ID None has successfully RESUMED session 10b02c6788b1bdf1c79cd4e58ae57fa5.
+[discord-inbound] 2026-06-13T11:01:47 INFO   attachment saved: image.png (185194B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515189411862679583__1515189411669868635__image.png
+[discord-inbound] 2026-06-13T11:01:55 INFO   attachment saved: image.png (29254B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515189445689868349__1515189445412917410__image.png
+[discord-inbound] 2026-06-13T11:02:00 INFO relayed msg_id=1515189411862679583 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:02:13 INFO relayed msg_id=1515189445689868349 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:02:36 INFO   attachment saved: image.png (370970B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515189616372744354__1515189616033136861__image.png
+[discord-inbound] 2026-06-13T11:02:51 INFO relayed msg_id=1515189616372744354 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:03:09 INFO   attachment saved: image.png (284036B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515189758349803632__1515189757989228604__image.png
+[discord-inbound] 2026-06-13T11:03:24 INFO relayed msg_id=1515189758349803632 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:04:31 INFO   attachment saved: image.png (1482000B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515190100223328347__1515190099908886588__image.png
+[discord-inbound] 2026-06-13T11:04:44 INFO relayed msg_id=1515190100223328347 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:05:06 INFO   attachment saved: image.png (78476B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515190246109741077__1515190245908545556__image.png
+[discord-inbound] 2026-06-13T11:05:23 INFO relayed msg_id=1515190246109741077 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:06:22 INFO   attachment saved: image.png (1502014B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515190565170319490__1515190564788895785__image.png
+[discord-inbound] 2026-06-13T11:06:49 INFO relayed msg_id=1515190565170319490 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:07:43 INFO   attachment saved: image.png (113138B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515190904854544477__1515190904569204826__image.png
+[discord-inbound] 2026-06-13T11:07:59 INFO relayed msg_id=1515190904854544477 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:09:29 INFO   attachment saved: image.png (114642B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515191348486209628__1515191347999408148__image.png
+[discord-inbound] 2026-06-13T11:09:48 INFO relayed msg_id=1515191348486209628 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:11:42 INFO   attachment saved: image.png (36300B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515191910753632298__1515191910447321088__image.png
+[discord-inbound] 2026-06-13T11:12:13 INFO   attachment saved: image.png (687314B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515191995973238905__1515191996002734100__image.png
+[discord-inbound] 2026-06-13T11:12:42 WARNING post_to_tavern timeout (60s) sender=discord:383604378185105408 room=tavern
+[discord-inbound] 2026-06-13T11:13:13 WARNING post_to_tavern timeout (60s) sender=discord:383604378185105408 room=tavern
+[discord-inbound] 2026-06-13T11:14:45 INFO   attachment saved: image.png (1627949B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515192670753001564__1515192670429909142__image.png
+[discord-inbound] 2026-06-13T11:15:04 INFO relayed msg_id=1515192670753001564 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:15:22 INFO   attachment saved: image.png (625956B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515192828609953873__1515192827598868561__image.png
+[discord-inbound] 2026-06-13T11:15:37 INFO relayed msg_id=1515192828609953873 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:16:00 INFO   attachment saved: image.png (578822B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515192990384263248__1515192990086205460__image.png
+[discord-inbound] 2026-06-13T11:16:15 INFO relayed msg_id=1515192990384263248 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:18:09 INFO   attachment saved: image.png (77790B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515193531130449950__1515193530870665337__image.png
+[discord-inbound] 2026-06-13T11:18:36 INFO relayed msg_id=1515193531130449950 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:19:10 INFO   attachment saved: image.png (747231B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515193786026819646__1515193785674502285__image.png
+[discord-inbound] 2026-06-13T11:19:25 INFO relayed msg_id=1515193786026819646 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:19:34 INFO   attachment saved: image.png (46722B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515193889492041860__1515193889198313507__image.png
+[discord-inbound] 2026-06-13T11:19:50 INFO relayed msg_id=1515193889492041860 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:19:51 INFO   attachment saved: image.png (110070B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515193958295273602__1515193958035099729__image.png
+[discord-inbound] 2026-06-13T11:20:03 INFO relayed msg_id=1515193958295273602 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:20:31 INFO   attachment saved: image.png (225064B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515194128277835818__1515194127862726788__image.png
+[discord-inbound] 2026-06-13T11:20:53 INFO relayed msg_id=1515194128277835818 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:21:16 INFO   attachment saved: image.png (1257446B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515194315968741529__1515194315671081010__image.png
+[discord-inbound] 2026-06-13T11:21:48 INFO relayed msg_id=1515194315968741529 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:22:22 INFO   attachment saved: image.png (25424B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515194591488507974__1515194591249305640__image.png
+[discord-inbound] 2026-06-13T11:22:38 INFO relayed msg_id=1515194591488507974 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:24:04 INFO   attachment saved: image.png (76916B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515195019408048179__1515195019110125648__image.png
+[discord-inbound] 2026-06-13T11:24:16 INFO   attachment saved: image.png (128060B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515195070360322198__1515195069915856926__image.png
+[discord-inbound] 2026-06-13T11:25:02 INFO relayed msg_id=1515195019408048179 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:25:03 INFO relayed msg_id=1515195070360322198 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:27:48 INFO   attachment saved: image.png (232752B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515195960513269823__1515195960374988871__image.png
+[discord-inbound] 2026-06-13T11:28:18 INFO relayed msg_id=1515195960513269823 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:28:26 INFO   attachment saved: image.png (255414B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515196121448841236__1515196121197318275__image.png
+[discord-inbound] 2026-06-13T11:28:44 INFO relayed msg_id=1515196121448841236 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:29:16 INFO   attachment saved: image.png (558136B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515196330924970024__1515196330614460436__image.png
+[discord-inbound] 2026-06-13T11:29:30 INFO relayed msg_id=1515196330924970024 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:29:47 INFO   attachment saved: image.png (136952B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515196461107908638__1515196460856119469__image.png
+[discord-inbound] 2026-06-13T11:30:06 INFO relayed msg_id=1515196461107908638 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:30:17 INFO   attachment saved: image.png (645361B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515196583736508446__1515196583220871258__image.png
+[discord-inbound] 2026-06-13T11:30:31 INFO relayed msg_id=1515196583736508446 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:31:05 INFO   attachment saved: image.png (73680B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515196785034002522__1515196784605925497__image.png
+[discord-inbound] 2026-06-13T11:31:22 INFO relayed msg_id=1515196785034002522 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:32:11 INFO   attachment saved: image.png (37870B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515197062491148379__1515197062059397181__image.png
+[discord-inbound] 2026-06-13T11:32:35 INFO relayed msg_id=1515197062491148379 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:32:39 INFO   attachment saved: image.png (542021B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515197179042729995__1515197178618843298__image.png
+[discord-inbound] 2026-06-13T11:33:12 INFO relayed msg_id=1515197179042729995 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:33:39 INFO   attachment saved: image.png (211814B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515197430759690280__1515197430444851200__image.png
+[discord-inbound] 2026-06-13T11:33:52 INFO relayed msg_id=1515197430759690280 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:34:45 INFO   attachment saved: image.png (23558B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515197709080989736__1515197708770476195__image.png
+[discord-inbound] 2026-06-13T11:34:57 INFO relayed msg_id=1515197709080989736 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:35:05 INFO   attachment saved: image.png (3388306B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515197790941216838__1515197790404218980__image.png
+[discord-inbound] 2026-06-13T11:35:23 INFO relayed msg_id=1515197790941216838 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:35:56 INFO relayed msg_id=1515197946361286666 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=3 attachments=0
+[discord-inbound] 2026-06-13T11:47:31 INFO   attachment saved: IMG_7813.jpg (273100B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515200923373146232__1515200923083870330__IMG_7813.jpg
+[discord-inbound] 2026-06-13T11:47:43 INFO relayed msg_id=1515200923373146232 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=29 attachments=1
+[discord-inbound] 2026-06-13T11:56:19 INFO   attachment saved: image.png (1128443B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515203134073339945__1515203133872144424__image.png
+[discord-inbound] 2026-06-13T11:56:32 INFO relayed msg_id=1515203134073339945 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:56:59 INFO   attachment saved: image.png (259136B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515203305712783432__1515203305431892099__image.png
+[discord-inbound] 2026-06-13T11:57:14 INFO relayed msg_id=1515203305712783432 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:57:17 INFO   attachment saved: image.png (107768B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515203380161806371__1515203379960221857__image.png
+[discord-inbound] 2026-06-13T11:57:35 INFO relayed msg_id=1515203380161806371 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:57:43 INFO   attachment saved: image.png (761965B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515203490635583538__1515203490329268224__image.png
+[discord-inbound] 2026-06-13T11:57:59 INFO relayed msg_id=1515203490635583538 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T11:59:55 INFO   attachment saved: image.png (265458B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515204042849124462__1515204042480029847__image.png
+[discord-inbound] 2026-06-13T12:00:13 INFO relayed msg_id=1515204042849124462 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T12:00:28 INFO   attachment saved: image.png (566457B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515204179076055192__1515204178740514956__image.png
+[discord-inbound] 2026-06-13T12:00:40 INFO relayed msg_id=1515204179076055192 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T12:00:59 INFO   attachment saved: image.png (256256B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515204312609984614__1515204312681283734__image.png
+[discord-inbound] 2026-06-13T12:01:15 INFO relayed msg_id=1515204312609984614 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T12:12:07 INFO   attachment saved: IMG_7814.jpg (342863B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515207111267713095__1515207110315610182__IMG_7814.jpg
+[discord-inbound] 2026-06-13T12:12:20 INFO relayed msg_id=1515207111267713095 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=29 attachments=1
+[discord-inbound] 2026-06-13T12:48:47 INFO Shard ID None has successfully RESUMED session 10b02c6788b1bdf1c79cd4e58ae57fa5.
+[discord-inbound] 2026-06-13T14:09:40 INFO   attachment saved: IMG_7819.jpg (191619B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515236693505085592__1515236693295235102__IMG_7819.jpg
+[discord-inbound] 2026-06-13T14:09:49 INFO relayed msg_id=1515236693505085592 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=29 attachments=1
+[discord-inbound] 2026-06-13T14:11:37 INFO   attachment saved: IMG_7820.jpg (141837B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515237184913801248__1515237184737906820__IMG_7820.jpg
+[discord-inbound] 2026-06-13T14:11:47 INFO relayed msg_id=1515237184913801248 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=29 attachments=1
+[discord-inbound] 2026-06-13T15:30:06 INFO   attachment saved: IMG_7821.jpg (175171B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515256939049783458__1515256938731143178__IMG_7821.jpg
+[discord-inbound] 2026-06-13T15:30:16 INFO relayed msg_id=1515256939049783458 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=29 attachments=1
+[discord-inbound] 2026-06-13T15:31:28 INFO   attachment saved: IMG_7822.png (473741B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515257279312826570__1515257279102845028__IMG_7822.png
+[discord-inbound] 2026-06-13T15:31:37 INFO relayed msg_id=1515257279312826570 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=29 attachments=1
+[discord-inbound] 2026-06-13T15:33:48 INFO Shard ID None has successfully RESUMED session 10b02c6788b1bdf1c79cd4e58ae57fa5.
+[discord-inbound] 2026-06-13T15:37:51 INFO   attachment saved: IMG_7823.jpg (223017B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515258889954791524__1515258889694613594__IMG_7823.jpg
+[discord-inbound] 2026-06-13T15:38:00 INFO relayed msg_id=1515258889954791524 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=29 attachments=1
+[discord-inbound] 2026-06-13T17:00:30 INFO   attachment saved: image.png (296128B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515279687381942372__1515279687100796968__image.png
+[discord-inbound] 2026-06-13T17:00:43 INFO relayed msg_id=1515279687381942372 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:00:44 INFO   attachment saved: image.png (1545372B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515279745476988999__1515279745498222613__image.png
+[discord-inbound] 2026-06-13T17:00:54 INFO relayed msg_id=1515279745476988999 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:01:14 INFO   attachment saved: image.png (2892984B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515279871755157505__1515279871457099786__image.png
+[discord-inbound] 2026-06-13T17:01:25 INFO relayed msg_id=1515279871755157505 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:02:14 INFO   attachment saved: image.png (2103565B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515280120774922370__1515280120171073616__image.png
+[discord-inbound] 2026-06-13T17:02:24 INFO relayed msg_id=1515280120774922370 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:06:13 INFO   attachment saved: image.png (124928B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515281127865061416__1515281127588499526__image.png
+[discord-inbound] 2026-06-13T17:06:24 INFO relayed msg_id=1515281127865061416 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:06:46 INFO   attachment saved: IMG_7826.jpg (273734B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515281263492202556__1515281262917451866__IMG_7826.jpg
+[discord-inbound] 2026-06-13T17:06:55 INFO   attachment saved: IMG_7825.jpg (173569B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515281300288835666__1515281300095893564__IMG_7825.jpg
+[discord-inbound] 2026-06-13T17:06:55 INFO relayed msg_id=1515281263492202556 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=29 attachments=1
+[discord-inbound] 2026-06-13T17:07:13 INFO relayed msg_id=1515281300288835666 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=29 attachments=1
+[discord-inbound] 2026-06-13T17:07:56 INFO   attachment saved: image.png (30907B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515281560142741584__1515281559890952212__image.png
+[discord-inbound] 2026-06-13T17:08:09 INFO relayed msg_id=1515281560142741584 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:08:21 INFO   attachment saved: image.png (69244B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515281662844338287__1515281662890741830__image.png
+[discord-inbound] 2026-06-13T17:08:35 INFO relayed msg_id=1515281662844338287 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:09:10 INFO   attachment saved: image.png (666093B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515281867144953856__1515281866821730325__image.png
+[discord-inbound] 2026-06-13T17:09:23 INFO relayed msg_id=1515281867144953856 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:11:58 INFO   attachment saved: image.png (3097573B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515282570982588476__1515282570718482503__image.png
+[discord-inbound] 2026-06-13T17:12:06 INFO   attachment saved: image.png (48234B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515282608781656135__1515282608483864706__image.png
+[discord-inbound] 2026-06-13T17:12:22 INFO relayed msg_id=1515282570982588476 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:12:23 INFO relayed msg_id=1515282608781656135 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:12:51 INFO   attachment saved: image.png (143550B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515282797420613693__1515282797139460247__image.png
+[discord-inbound] 2026-06-13T17:13:04 INFO relayed msg_id=1515282797420613693 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:13:57 INFO   attachment saved: image.png (302344B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515283070071341177__1515283069773418587__image.png
+[discord-inbound] 2026-06-13T17:14:37 INFO relayed msg_id=1515283070071341177 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:15:49 INFO   attachment saved: image.png (348540B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515283544136618085__1515283543872507904__image.png
+[discord-inbound] 2026-06-13T17:16:04 INFO relayed msg_id=1515283544136618085 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:16:59 INFO   attachment saved: image.png (3006978B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515283836018229309__1515283835837878272__image.png
+[discord-inbound] 2026-06-13T17:17:07 INFO   attachment saved: image.png (58958B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515283869807673474__1515283869358751804__image.png
+[discord-inbound] 2026-06-13T17:17:22 INFO relayed msg_id=1515283869807673474 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:17:22 INFO relayed msg_id=1515283836018229309 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:20:36 INFO   attachment saved: image.png (63938B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515284747197091910__1515284746756816986__image.png
+[discord-inbound] 2026-06-13T17:21:01 INFO relayed msg_id=1515284747197091910 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:21:53 INFO   attachment saved: image.png (1282257B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515285065507147786__1515285065259815015__image.png
+[discord-inbound] 2026-06-13T17:22:11 INFO relayed msg_id=1515285065507147786 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:23:20 INFO   attachment saved: image.png (1202806B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515285431518756884__1515285431128690699__image.png
+[discord-inbound] 2026-06-13T17:23:33 INFO relayed msg_id=1515285431518756884 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:23:35 INFO   attachment saved: image.png (1672158B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515285494873985184__1515285494341173278__image.png
+[discord-inbound] 2026-06-13T17:23:45 INFO   attachment saved: image.png (1508409B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515285537223872604__1515285536791597146__image.png
+[discord-inbound] 2026-06-13T17:23:54 INFO   attachment saved: image.png (1534916B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515285577769943094__1515285577602433204__image.png
+[discord-inbound] 2026-06-13T17:24:04 INFO   attachment saved: image.png (1261766B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515285619298013194__1515285618941493369__image.png
+[discord-inbound] 2026-06-13T17:24:20 INFO relayed msg_id=1515285577769943094 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:24:21 INFO relayed msg_id=1515285494873985184 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:24:21 INFO relayed msg_id=1515285537223872604 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:24:34 INFO relayed msg_id=1515285619298013194 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:24:34 INFO   attachment saved: image.png (717539B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515285743809986691__1515285743541555390__image.png
+[discord-inbound] 2026-06-13T17:24:46 INFO relayed msg_id=1515285743809986691 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:25:13 INFO   attachment saved: image.png (40538B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515285908411121675__1515285908218450142__image.png
+[discord-inbound] 2026-06-13T17:25:27 INFO relayed msg_id=1515285908411121675 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:26:06 INFO   attachment saved: IMG_7827.jpg (242262B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515286130050732114__1515286130134745238__IMG_7827.jpg
+[discord-inbound] 2026-06-13T17:26:18 INFO relayed msg_id=1515286130050732114 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=29 attachments=1
+[discord-inbound] 2026-06-13T17:27:04 INFO   attachment saved: image.png (129524B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515286374293438465__1515286374079660092__image.png
+[discord-inbound] 2026-06-13T17:27:12 INFO   attachment saved: image.png (41059B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515286406858149961__1515286406736379914__image.png
+[discord-inbound] 2026-06-13T17:27:16 INFO relayed msg_id=1515286374293438465 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:27:26 INFO relayed msg_id=1515286406858149961 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:29:46 INFO   attachment saved: image.png (1613041B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515287049765130282__1515287049496821790__image.png
+[discord-inbound] 2026-06-13T17:30:01 INFO relayed msg_id=1515287049765130282 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:30:14 INFO   attachment saved: image.png (3260467B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515287165817458809__1515287165867786430__image.png
+[discord-inbound] 2026-06-13T17:30:26 INFO relayed msg_id=1515287165817458809 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:30:33 INFO   attachment saved: image.png (1685941B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515287249426583613__1515287249330245832__image.png
+[discord-inbound] 2026-06-13T17:30:59 INFO relayed msg_id=1515287249426583613 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:34:40 INFO   attachment saved: image.png (267150B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515288286934073434__1515288286292082800__image.png
+[discord-inbound] 2026-06-13T17:35:01 INFO relayed msg_id=1515288286934073434 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:36:58 INFO   attachment saved: image.png (46493B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515288863428575363__1515288862971269202__image.png
+[discord-inbound] 2026-06-13T17:37:09 INFO relayed msg_id=1515288863428575363 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:37:11 INFO   attachment saved: image.png (2650733B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515288918835204166__1515288918575022151__image.png
+[discord-inbound] 2026-06-13T17:37:28 INFO relayed msg_id=1515288918835204166 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:39:16 INFO   attachment saved: image.png (301014B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515289442540195912__1515289442158383195__image.png
+[discord-inbound] 2026-06-13T17:39:32 INFO relayed msg_id=1515289442540195912 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:40:34 INFO   attachment saved: image.png (255014B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515289770736091268__1515289770257813725__image.png
+[discord-inbound] 2026-06-13T17:40:46 INFO relayed msg_id=1515289770736091268 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:40:47 INFO   attachment saved: image.png (878503B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515289825421561896__1515289825178030220__image.png
+[discord-inbound] 2026-06-13T17:41:00 INFO relayed msg_id=1515289825421561896 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:41:04 INFO   attachment saved: image.png (374748B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515289893780193362__1515289893524471871__image.png
+[discord-inbound] 2026-06-13T17:41:16 INFO relayed msg_id=1515289893780193362 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:42:13 INFO   attachment saved: image.png (2124672B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515290181907779655__1515290181719031938__image.png
+[discord-inbound] 2026-06-13T17:42:24 INFO relayed msg_id=1515290181907779655 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:43:49 INFO   attachment saved: image.png (128406B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515290587937378426__1515290587656622240__image.png
+[discord-inbound] 2026-06-13T17:43:59 INFO relayed msg_id=1515290587937378426 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:44:39 INFO   attachment saved: image.png (2536958B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515290795861872790__1515290795425534052__image.png
+[discord-inbound] 2026-06-13T17:44:51 INFO relayed msg_id=1515290795861872790 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:45:17 INFO   attachment saved: IMG_7828.png (464990B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515290956239339582__1515290955874304072__IMG_7828.png
+[discord-inbound] 2026-06-13T17:45:42 INFO relayed msg_id=1515290956239339582 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=29 attachments=1
+[discord-inbound] 2026-06-13T17:47:00 INFO   attachment saved: image.png (115014B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515291391331401861__1515291391352242287__image.png
+[discord-inbound] 2026-06-13T17:47:15 INFO   attachment saved: image.png (57430B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515291452014330027__1515291451771322408__image.png
+[discord-inbound] 2026-06-13T17:47:17 INFO relayed msg_id=1515291391331401861 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:47:31 INFO relayed msg_id=1515291452014330027 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:48:11 INFO   attachment saved: image.png (123490B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515291686249562142__1515291685964353636__image.png
+[discord-inbound] 2026-06-13T17:48:22 INFO relayed msg_id=1515291686249562142 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:48:36 INFO   attachment saved: image.png (1797548B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515291792738619482__1515291791966863513__image.png
+[discord-inbound] 2026-06-13T17:48:51 INFO relayed msg_id=1515291792738619482 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:50:27 INFO   attachment saved: image.png (759058B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515292254674223184__1515292254372364409__image.png
+[discord-inbound] 2026-06-13T17:50:40 INFO relayed msg_id=1515292254674223184 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:50:53 INFO   attachment saved: image.png (2798286B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515292361066942504__1515292360806764694__image.png
+[discord-inbound] 2026-06-13T17:51:07 INFO relayed msg_id=1515292361066942504 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:52:26 INFO   attachment saved: image.png (720030B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515292758393491526__1515292758087045190__image.png
+[discord-inbound] 2026-06-13T17:52:38 INFO relayed msg_id=1515292758393491526 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:53:11 INFO   attachment saved: image.png (2112238B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515292932578607134__1515292932284874812__image.png
+[discord-inbound] 2026-06-13T17:53:26 INFO relayed msg_id=1515292932578607134 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:56:20 INFO   attachment saved: image.png (781367B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515293737478131752__1515293737213759679__image.png
+[discord-inbound] 2026-06-13T17:56:35 INFO relayed msg_id=1515293737478131752 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:56:44 INFO   attachment saved: image.png (198880B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515293838309195807__1515293837927518298__image.png
+[discord-inbound] 2026-06-13T17:56:56 INFO relayed msg_id=1515293838309195807 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:57:08 INFO Shard ID None has successfully RESUMED session 10b02c6788b1bdf1c79cd4e58ae57fa5.
+[discord-inbound] 2026-06-13T17:57:10 INFO   attachment saved: image.png (9798B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515293949441609738__1515293949172908052__image.png
+[discord-inbound] 2026-06-13T17:57:24 INFO relayed msg_id=1515293949441609738 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T17:58:08 INFO   attachment saved: image.png (572161B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515294190051921930__1515294189682954302__image.png
+[discord-inbound] 2026-06-13T17:58:19 INFO relayed msg_id=1515294190051921930 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:01:31 INFO   attachment saved: image.png (664204B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515295042154008677__1515295041764200589__image.png
+[discord-inbound] 2026-06-13T18:01:50 INFO relayed msg_id=1515295042154008677 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:03:52 INFO   attachment saved: image.png (573667B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515295634528272507__1515295634566152202__image.png
+[discord-inbound] 2026-06-13T18:04:04 INFO relayed msg_id=1515295634528272507 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:06:00 INFO   attachment saved: image.png (718577B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515296169251835984__1515296168941191398__image.png
+[discord-inbound] 2026-06-13T18:06:13 INFO relayed msg_id=1515296169251835984 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:09:59 INFO   attachment saved: image.png (122146B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515297172873019415__1515297172755845241__image.png
+[discord-inbound] 2026-06-13T18:10:06 INFO   attachment saved: image.png (31303B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515297201469788230__1515297201100820531__image.png
+[discord-inbound] 2026-06-13T18:10:15 INFO   attachment saved: image.png (42276B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515297239835217982__1515297239524966540__image.png
+[discord-inbound] 2026-06-13T18:10:24 INFO relayed msg_id=1515297172873019415 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:10:24 INFO relayed msg_id=1515297201469788230 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:10:36 INFO relayed msg_id=1515297239835217982 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:11:32 INFO   attachment saved: image.png (904229B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515297565636034580__1515297565367865444__image.png
+[discord-inbound] 2026-06-13T18:11:46 INFO relayed msg_id=1515297565636034580 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:12:09 INFO   attachment saved: image.png (226138B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515297719651012799__1515297719285973012__image.png
+[discord-inbound] 2026-06-13T18:12:25 INFO relayed msg_id=1515297719651012799 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:17:42 INFO   attachment saved: image.png (142200B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515299114563403817__1515299114630250616__image.png
+[discord-inbound] 2026-06-13T18:17:54 INFO relayed msg_id=1515299114563403817 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:18:31 INFO   attachment saved: image.png (6739573B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515299319257894982__1515299318863757332__image.png
+[discord-inbound] 2026-06-13T18:18:44 INFO relayed msg_id=1515299319257894982 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:19:54 INFO   attachment saved: image.png (5556079B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515299664625143948__1515299664373747732__image.png
+[discord-inbound] 2026-06-13T18:20:06 INFO relayed msg_id=1515299664625143948 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:21:28 INFO   attachment saved: image.png (192320B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515300062119334000__1515300061846966322__image.png
+[discord-inbound] 2026-06-13T18:21:42 INFO relayed msg_id=1515300062119334000 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:29:43 INFO   attachment saved: image.png (109140B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515302141068185680__1515302140787294218__image.png
+[discord-inbound] 2026-06-13T18:29:57 INFO relayed msg_id=1515302141068185680 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:30:23 INFO   attachment saved: image.png (116118B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515302307573661728__1515302307296841859__image.png
+[discord-inbound] 2026-06-13T18:30:32 INFO   attachment saved: image.png (41225B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515302347243520052__1515302346886742016__image.png
+[discord-inbound] 2026-06-13T18:30:50 INFO relayed msg_id=1515302307573661728 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:30:50 INFO relayed msg_id=1515302347243520052 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:30:51 INFO   attachment saved: image.png (121618B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515302423508287569__1515302423176941609__image.png
+[discord-inbound] 2026-06-13T18:31:03 INFO relayed msg_id=1515302423508287569 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:31:42 INFO   attachment saved: image.png (189578B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515302640471249007__1515302640161001543__image.png
+[discord-inbound] 2026-06-13T18:31:57 INFO relayed msg_id=1515302640471249007 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:32:08 INFO   attachment saved: image.png (220322B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515302748516778114__1515302748231303239__image.png
+[discord-inbound] 2026-06-13T18:32:24 INFO relayed msg_id=1515302748516778114 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:33:06 INFO   attachment saved: image.png (40664B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515302991014658058__1515302990418808832__image.png
+[discord-inbound] 2026-06-13T18:33:22 INFO relayed msg_id=1515302991014658058 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:33:28 INFO   attachment saved: image.png (25080B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515303081703768178__1515303081414230167__image.png
+[discord-inbound] 2026-06-13T18:33:40 INFO relayed msg_id=1515303081703768178 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:35:42 INFO   attachment saved: image.png (111552B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515303645644591124__1515303645389000784__image.png
+[discord-inbound] 2026-06-13T18:35:53 INFO relayed msg_id=1515303645644591124 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:36:13 INFO   attachment saved: image.png (47696B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515303774506451044__1515303774242078838__image.png
+[discord-inbound] 2026-06-13T18:36:27 INFO relayed msg_id=1515303774506451044 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:39:26 INFO   attachment saved: image.png (59790B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515304584506114120__1515304584233619597__image.png
+[discord-inbound] 2026-06-13T18:39:39 INFO relayed msg_id=1515304584506114120 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:44:43 INFO   attachment saved: image.png (2964532B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515305910619213915__1515305910208041043__image.png
+[discord-inbound] 2026-06-13T18:44:55 INFO relayed msg_id=1515305910619213915 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:45:02 INFO   attachment saved: image.png (2133298B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515305994354430023__1515305994278797323__image.png
+[discord-inbound] 2026-06-13T18:45:18 INFO relayed msg_id=1515305994354430023 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:47:55 INFO   attachment saved: image.png (292320B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515306719616569404__1515306719348129843__image.png
+[discord-inbound] 2026-06-13T18:48:17 INFO relayed msg_id=1515306719616569404 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:49:18 INFO   attachment saved: image.png (2420949B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515307065055248415__1515307064656658442__image.png
+[discord-inbound] 2026-06-13T18:49:29 INFO relayed msg_id=1515307065055248415 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:49:57 INFO   attachment saved: image.png (4607225B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515307230226812998__1515307229815902319__image.png
+[discord-inbound] 2026-06-13T18:50:09 INFO relayed msg_id=1515307230226812998 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:52:11 INFO   attachment saved: image.png (250420B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515307793152737421__1515307793006198847__image.png
+[discord-inbound] 2026-06-13T18:52:28 INFO relayed msg_id=1515307793152737421 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:57:02 INFO   attachment saved: image.png (1530530B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515309014274150632__1515309014060109974__image.png
+[discord-inbound] 2026-06-13T18:57:20 INFO relayed msg_id=1515309014274150632 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:57:35 INFO   attachment saved: image.png (4278960B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515309151545200690__1515309151012651098__image.png
+[discord-inbound] 2026-06-13T18:57:52 INFO relayed msg_id=1515309151545200690 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T18:59:40 INFO   attachment saved: image.png (259866B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515309677095944312__1515309676835901520__image.png
+[discord-inbound] 2026-06-13T18:59:57 INFO relayed msg_id=1515309677095944312 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T19:01:38 INFO   attachment saved: image.png (2218916B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515310168458399806__1515310168257335416__image.png
+[discord-inbound] 2026-06-13T19:01:53 INFO relayed msg_id=1515310168458399806 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T19:01:59 INFO   attachment saved: image.png (79150B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515310260095680583__1515310259579785256__image.png
+[discord-inbound] 2026-06-13T19:02:59 WARNING post_to_tavern timeout (60s) sender=discord:383604378185105408 room=tavern
+[discord-inbound] 2026-06-13T20:17:52 INFO   attachment saved: IMG_7833.jpg (202002B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515329356631638108__1515329356455608460__IMG_7833.jpg
+[discord-inbound] 2026-06-13T20:18:04 INFO relayed msg_id=1515329356631638108 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=29 attachments=1
+[discord-inbound] 2026-06-13T20:20:21 INFO   attachment saved: IMG_7836.jpg (355198B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515329979548700672__1515329979263615147__IMG_7836.jpg
+[discord-inbound] 2026-06-13T20:20:31 INFO relayed msg_id=1515329979548700672 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=29 attachments=1
+[discord-inbound] 2026-06-13T20:44:19 INFO Shard ID None has successfully RESUMED session 10b02c6788b1bdf1c79cd4e58ae57fa5.
+[discord-inbound] 2026-06-13T21:57:39 INFO   attachment saved: image.png (2312969B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515354463714676856__1515354463383191652__image.png
+[discord-inbound] 2026-06-13T21:57:59 INFO relayed msg_id=1515354463714676856 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T21:58:16 INFO   attachment saved: image.png (158996B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515354624079560824__1515354623819649035__image.png
+[discord-inbound] 2026-06-13T21:58:32 INFO relayed msg_id=1515354624079560824 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T22:03:55 INFO   attachment saved: image.png (232022B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515356044254248971__1515356043541221591__image.png
+[discord-inbound] 2026-06-13T22:04:09 INFO relayed msg_id=1515356044254248971 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T22:04:12 INFO   attachment saved: image.png (720785B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515356114093605076__1515356113791488197__image.png
+[discord-inbound] 2026-06-13T22:04:27 INFO relayed msg_id=1515356114093605076 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T22:06:03 INFO   attachment saved: image.png (226944B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515356578298073260__1515356578071445555__image.png
+[discord-inbound] 2026-06-13T22:06:19 INFO relayed msg_id=1515356578298073260 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T22:12:10 INFO   attachment saved: image.png (71940B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515358120585597039__1515358120329871390__image.png
+[discord-inbound] 2026-06-13T22:12:27 INFO relayed msg_id=1515358120585597039 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T22:13:25 INFO   attachment saved: image.png (3321291B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515358431035261093__1515358431077470379__image.png
+[discord-inbound] 2026-06-13T22:14:15 INFO relayed msg_id=1515358431035261093 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T22:14:21 INFO   attachment saved: image.png (17318B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515358668088934481__1515358667820503250__image.png
+[discord-inbound] 2026-06-13T22:14:33 INFO relayed msg_id=1515358668088934481 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T22:14:53 INFO   attachment saved: image.png (777576B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515358804022394954__1515358803607031892__image.png
+[discord-inbound] 2026-06-13T22:15:06 INFO relayed msg_id=1515358804022394954 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T22:20:37 INFO   attachment saved: image.png (137616B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515360246787342436__1515360246523105290__image.png
+[discord-inbound] 2026-06-13T22:21:00 INFO relayed msg_id=1515360246787342436 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T22:21:09 INFO   attachment saved: image.png (138188B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515360381785215057__1515360381541810326__image.png
+[discord-inbound] 2026-06-13T22:21:22 INFO relayed msg_id=1515360381785215057 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T22:38:19 INFO   attachment saved: image.png (51374B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515364700978937918__1515364700664102982__image.png
+[discord-inbound] 2026-06-13T22:38:33 INFO relayed msg_id=1515364700978937918 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T22:39:26 INFO   attachment saved: image.png (3824192B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515364976544714873__1515364976175349922__image.png
+[discord-inbound] 2026-06-13T22:39:47 INFO relayed msg_id=1515364976544714873 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T22:42:27 INFO   attachment saved: image.png (742729B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515365739517972484__1515365739299737741__image.png
+[discord-inbound] 2026-06-13T22:42:53 INFO relayed msg_id=1515365739517972484 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T22:52:23 INFO   attachment saved: image.png (44234B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515368239939584031__1515368239616753824__image.png
+[discord-inbound] 2026-06-13T22:52:36 INFO relayed msg_id=1515368239939584031 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T22:52:37 INFO   attachment saved: image.png (1125751B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515368300815716553__1515368300287361084__image.png
+[discord-inbound] 2026-06-13T22:53:02 INFO relayed msg_id=1515368300815716553 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T22:53:16 INFO   attachment saved: image.png (1725546B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515368461935837185__1515368461742641192__image.png
+[discord-inbound] 2026-06-13T22:53:28 INFO relayed msg_id=1515368461935837185 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T22:55:11 INFO   attachment saved: image.png (750203B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515368946847449088__1515368946600116234__image.png
+[discord-inbound] 2026-06-13T22:55:28 INFO relayed msg_id=1515368946847449088 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T22:58:13 INFO   attachment saved: image.png (689950B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515369706645884980__1515369706238902312__image.png
+[discord-inbound] 2026-06-13T22:58:27 INFO relayed msg_id=1515369706645884980 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T23:01:03 INFO   attachment saved: image.png (155284B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515370418880643094__1515370417898917969__image.png
+[discord-inbound] 2026-06-13T23:01:17 INFO relayed msg_id=1515370418880643094 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-13T23:12:49 INFO   attachment saved: image.png (719155B) → AgentCommands/ChatTavern/media/discord/2026-06-13/1515373382789627945__1515373382747820254__image.png
+[discord-inbound] 2026-06-13T23:12:56 WARNING post_to_tavern failed (rc=2) sender=discord:383604378185105408 room=tavern stderr_head=  ℹ Tavern alias 歸一：sender_id→sender
+  ✗ Cmd failed: 執行 op=post 失敗：[T07] token enforce ON, 但 post 缺 --arg session_token=<X>。跑 awakening.py whoami 撈當前 token；或從 UCL_LoginStatusPage 關閉 enforce。
+  at UCL.
+[discord-inbound] 2026-06-14T10:12:05 INFO starting (repo=D:\Unity\EmblemOfValor)
+[discord-inbound] 2026-06-14T10:12:05 INFO loaded 18 discord uid → name mapping(s)
+[discord-inbound] 2026-06-14T10:12:05 INFO pre-registered 0 discord identities into identities.json
+[discord-inbound] 2026-06-14T10:12:05 INFO token source: file AgentCommands\_secrets\discord_bot_token.txt
+[discord-inbound] 2026-06-14T10:12:05 WARNING PyNaCl is not installed, voice will NOT be supported
+[discord-inbound] 2026-06-14T10:12:05 WARNING davey is not installed, voice will NOT be supported
+[discord-inbound] 2026-06-14T10:12:05 INFO logging in using static token
+[discord-inbound] 2026-06-14T10:12:07 INFO Shard ID None has connected to Gateway (Session ID: a7cc29628653cfb8301b4ef831076e11).
+[discord-inbound] 2026-06-14T10:12:09 INFO connected as Dev#8674 (id=1502473220127723560)
+[discord-inbound] 2026-06-14T10:12:09 INFO watching 3 channel(s): 1502449153018560562→tavern[external/p10/公開聊天酒館], 1502446936748326944→tavern[internal/p50/內部聊天酒館], 1502656414487810148→tavern[work/p80/工作頻道 (Tim 行動端)]
+[discord-inbound] 2026-06-14T10:28:12 INFO starting (repo=D:\Unity\EmblemOfValor)
+[discord-inbound] 2026-06-14T10:28:12 INFO loaded 18 discord uid → name mapping(s)
+[discord-inbound] 2026-06-14T10:28:12 INFO pre-registered 0 discord identities into identities.json
+[discord-inbound] 2026-06-14T10:28:12 INFO token source: file AgentCommands\_secrets\discord_bot_token.txt
+[discord-inbound] 2026-06-14T10:28:12 WARNING PyNaCl is not installed, voice will NOT be supported
+[discord-inbound] 2026-06-14T10:28:12 WARNING davey is not installed, voice will NOT be supported
+[discord-inbound] 2026-06-14T10:28:12 INFO logging in using static token
+[discord-inbound] 2026-06-14T10:28:14 INFO Shard ID None has connected to Gateway (Session ID: 78e3c899f2fe77f30a7736c6eb80c6af).
+[discord-inbound] 2026-06-14T10:28:16 INFO connected as Dev#8674 (id=1502473220127723560)
+[discord-inbound] 2026-06-14T10:28:16 INFO watching 3 channel(s): 1502449153018560562→tavern[external/p10/公開聊天酒館], 1502446936748326944→tavern[internal/p50/內部聊天酒館], 1502656414487810148→tavern[work/p80/工作頻道 (Tim 行動端)]
+[discord-inbound] 2026-06-14T10:28:22 INFO starting (repo=D:\Unity\EmblemOfValor)
+[discord-inbound] 2026-06-14T10:28:22 INFO loaded 18 discord uid → name mapping(s)
+[discord-inbound] 2026-06-14T10:28:22 INFO pre-registered 0 discord identities into identities.json
+[discord-inbound] 2026-06-14T10:28:22 INFO token source: file AgentCommands\_secrets\discord_bot_token.txt
+[discord-inbound] 2026-06-14T10:28:23 WARNING PyNaCl is not installed, voice will NOT be supported
+[discord-inbound] 2026-06-14T10:28:23 WARNING davey is not installed, voice will NOT be supported
+[discord-inbound] 2026-06-14T10:28:23 INFO logging in using static token
+[discord-inbound] 2026-06-14T10:28:24 INFO Shard ID None has connected to Gateway (Session ID: 289c86e20f8f20d80bff7a7757b0a53b).
+[discord-inbound] 2026-06-14T10:28:26 INFO connected as Dev#8674 (id=1502473220127723560)
+[discord-inbound] 2026-06-14T10:28:26 INFO watching 3 channel(s): 1502449153018560562→tavern[external/p10/公開聊天酒館], 1502446936748326944→tavern[internal/p50/內部聊天酒館], 1502656414487810148→tavern[work/p80/工作頻道 (Tim 行動端)]
+[discord-inbound] 2026-06-14T10:37:24 INFO starting (repo=D:\Unity\EmblemOfValor)
+[discord-inbound] 2026-06-14T10:37:24 INFO loaded 18 discord uid → name mapping(s)
+[discord-inbound] 2026-06-14T10:37:24 INFO pre-registered 0 discord identities into identities.json
+[discord-inbound] 2026-06-14T10:37:24 INFO token source: file AgentCommands\_secrets\discord_bot_token.txt
+[discord-inbound] 2026-06-14T10:37:24 WARNING PyNaCl is not installed, voice will NOT be supported
+[discord-inbound] 2026-06-14T10:37:24 WARNING davey is not installed, voice will NOT be supported
+[discord-inbound] 2026-06-14T10:37:24 INFO logging in using static token
+[discord-inbound] 2026-06-14T10:37:25 INFO Shard ID None has connected to Gateway (Session ID: 783c376776bd73cdcecfdbfecf984dd7).
+[discord-inbound] 2026-06-14T10:37:27 INFO connected as Dev#8674 (id=1502473220127723560)
+[discord-inbound] 2026-06-14T10:37:27 INFO watching 3 channel(s): 1502449153018560562→tavern[external/p10/公開聊天酒館], 1502446936748326944→tavern[internal/p50/內部聊天酒館], 1502656414487810148→tavern[work/p80/工作頻道 (Tim 行動端)]
+[discord-inbound] 2026-06-14T10:37:39 INFO starting (repo=D:\Unity\EmblemOfValor)
+[discord-inbound] 2026-06-14T10:37:39 INFO loaded 18 discord uid → name mapping(s)
+[discord-inbound] 2026-06-14T10:37:39 INFO pre-registered 0 discord identities into identities.json
+[discord-inbound] 2026-06-14T10:37:39 INFO token source: file AgentCommands\_secrets\discord_bot_token.txt
+[discord-inbound] 2026-06-14T10:37:39 WARNING PyNaCl is not installed, voice will NOT be supported
+[discord-inbound] 2026-06-14T10:37:39 WARNING davey is not installed, voice will NOT be supported
+[discord-inbound] 2026-06-14T10:37:39 INFO logging in using static token
+[discord-inbound] 2026-06-14T10:37:41 INFO Shard ID None has connected to Gateway (Session ID: 3da028acd8e9bfe2d65350ed96a3aada).
+[discord-inbound] 2026-06-14T10:37:43 INFO connected as Dev#8674 (id=1502473220127723560)
+[discord-inbound] 2026-06-14T10:37:43 INFO watching 3 channel(s): 1502449153018560562→tavern[external/p10/公開聊天酒館], 1502446936748326944→tavern[internal/p50/內部聊天酒館], 1502656414487810148→tavern[work/p80/工作頻道 (Tim 行動端)]
+[discord-inbound] 2026-06-14T11:21:51 INFO   attachment saved: image.png (60542B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515556849473290281__1515556849267638272__image.png
+[discord-inbound] 2026-06-14T11:22:19 INFO relayed msg_id=1515556849473290281 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T11:23:52 INFO   attachment saved: image.png (32626B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515557357508104193__1515557357382406295__image.png
+[discord-inbound] 2026-06-14T11:24:13 INFO relayed msg_id=1515557357508104193 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T11:24:30 INFO   attachment saved: image.png (2374390B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515557517273337977__1515557517206224916__image.png
+[discord-inbound] 2026-06-14T11:24:50 INFO relayed msg_id=1515557517273337977 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T11:26:13 INFO Shard ID None has successfully RESUMED session 3da028acd8e9bfe2d65350ed96a3aada.
+[discord-inbound] 2026-06-14T11:31:40 INFO   attachment saved: image.png (3849071B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515559317456293888__1515559316915224586__image.png
+[discord-inbound] 2026-06-14T11:31:51 INFO relayed msg_id=1515559317456293888 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=13 attachments=1
+[discord-inbound] 2026-06-14T11:45:47 INFO   attachment saved: image.png (36466B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515562872342839336__1515562871969288312__image.png
+[discord-inbound] 2026-06-14T11:46:06 INFO relayed msg_id=1515562872342839336 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T11:46:09 INFO   attachment saved: image.png (164662B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515562966475604008__1515562966207172648__image.png
+[discord-inbound] 2026-06-14T11:46:27 INFO relayed msg_id=1515562966475604008 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T11:47:43 INFO   attachment saved: image.png (313982B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515563358634377279__1515563358529781951__image.png
+[discord-inbound] 2026-06-14T11:48:01 INFO relayed msg_id=1515563358634377279 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T11:49:03 INFO   attachment saved: image.png (3315838B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515563694866563184__1515563695005241415__image.png
+[discord-inbound] 2026-06-14T11:49:24 INFO relayed msg_id=1515563694866563184 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T11:53:02 INFO   attachment saved: image.png (138652B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515564699020824666__1515564698752385167__image.png
+[discord-inbound] 2026-06-14T11:53:20 INFO   attachment saved: image.png (131414B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515564772089921558__1515564771880210534__image.png
+[discord-inbound] 2026-06-14T11:53:40 INFO relayed msg_id=1515564772089921558 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T11:53:41 INFO relayed msg_id=1515564699020824666 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T11:56:51 INFO   attachment saved: image.png (38520B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515565659281428582__1515565658882965584__image.png
+[discord-inbound] 2026-06-14T11:57:17 INFO   attachment saved: image.png (773066B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515565767620562974__1515565767381483580__image.png
+[discord-inbound] 2026-06-14T11:57:24 INFO relayed msg_id=1515565659281428582 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T11:57:41 INFO relayed msg_id=1515565767620562974 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:00:57 INFO   attachment saved: image.png (925306B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515566690694332587__1515566690434551849__image.png
+[discord-inbound] 2026-06-14T12:01:49 INFO relayed msg_id=1515566690694332587 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:03:21 INFO   attachment saved: image.png (238742B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515567294200414411__1515567294024126614__image.png
+[discord-inbound] 2026-06-14T12:03:39 INFO relayed msg_id=1515567294200414411 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:03:54 INFO   attachment saved: image.png (237936B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515567431236583556__1515567431165153310__image.png
+[discord-inbound] 2026-06-14T12:04:15 INFO relayed msg_id=1515567431236583556 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:05:57 INFO   attachment saved: image.png (7934028B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515567940026499194__1515567940160852028__image.png
+[discord-inbound] 2026-06-14T12:06:28 INFO relayed msg_id=1515567940026499194 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:09:05 INFO   attachment saved: image.png (1548071B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515568738538229760__1515568738278047764__image.png
+[discord-inbound] 2026-06-14T12:09:24 INFO relayed msg_id=1515568738538229760 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:10:25 INFO   attachment saved: image.png (1267372B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515569071637401650__1515569071234744341__image.png
+[discord-inbound] 2026-06-14T12:11:25 WARNING post_to_tavern timeout (60s) sender=discord:383604378185105408 room=tavern
+[discord-inbound] 2026-06-14T12:11:50 INFO   attachment saved: image.png (44074B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515569428677525615__1515569428451037204__image.png
+[discord-inbound] 2026-06-14T12:12:12 INFO   attachment saved: image.png (46118B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515569520876589167__1515569520557953115__image.png
+[discord-inbound] 2026-06-14T12:12:27 INFO   attachment saved: image.png (49248B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515569586425303150__1515569586148344050__image.png
+[discord-inbound] 2026-06-14T12:12:50 WARNING post_to_tavern timeout (60s) sender=discord:383604378185105408 room=tavern
+[discord-inbound] 2026-06-14T12:13:12 WARNING post_to_tavern timeout (60s) sender=discord:383604378185105408 room=tavern
+[discord-inbound] 2026-06-14T12:13:27 WARNING post_to_tavern timeout (60s) sender=discord:383604378185105408 room=tavern
+[discord-inbound] 2026-06-14T12:14:53 INFO   attachment saved: image.png (177416B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515570196981616670__1515570196721696820__image.png
+[discord-inbound] 2026-06-14T12:15:24 INFO relayed msg_id=1515570196981616670 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:15:40 INFO   attachment saved: image.png (103534B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515570395313344692__1515570395095367700__image.png
+[discord-inbound] 2026-06-14T12:15:58 INFO relayed msg_id=1515570395313344692 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:16:24 INFO   attachment saved: image.png (35594B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515570579992744057__1515570579443286237__image.png
+[discord-inbound] 2026-06-14T12:16:44 INFO relayed msg_id=1515570579992744057 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:16:51 INFO   attachment saved: image.png (769099B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515570690277773352__1515570689938165961__image.png
+[discord-inbound] 2026-06-14T12:17:08 INFO relayed msg_id=1515570690277773352 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:19:47 INFO   attachment saved: image.png (195120B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515571429565796352__1515571429297487934__image.png
+[discord-inbound] 2026-06-14T12:20:02 INFO relayed msg_id=1515571429565796352 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:21:50 INFO   attachment saved: image.png (1917859B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515571945603731508__1515571945494548566__image.png
+[discord-inbound] 2026-06-14T12:22:09 INFO relayed msg_id=1515571945603731508 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:22:46 INFO   attachment saved: image.png (120102B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515572182963458118__1515572182715990016__image.png
+[discord-inbound] 2026-06-14T12:23:03 INFO relayed msg_id=1515572182963458118 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:23:23 INFO   attachment saved: image.png (757659B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515572336185577592__1515572335938240512__image.png
+[discord-inbound] 2026-06-14T12:23:39 INFO relayed msg_id=1515572336185577592 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:25:22 INFO   attachment saved: image.png (41292B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515572833214791722__1515572832837566644__image.png
+[discord-inbound] 2026-06-14T12:25:35 INFO relayed msg_id=1515572833214791722 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:25:46 INFO   attachment saved: image.png (113342B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515572934591123487__1515572934079680582__image.png
+[discord-inbound] 2026-06-14T12:26:01 INFO relayed msg_id=1515572934591123487 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:26:15 INFO   attachment saved: image.png (2525492B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515573054489497620__1515573054196027522__image.png
+[discord-inbound] 2026-06-14T12:26:39 INFO relayed msg_id=1515573054489497620 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:26:42 INFO   attachment saved: image.png (2248948B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515573169078145184__1515573168725692416__image.png
+[discord-inbound] 2026-06-14T12:27:00 INFO relayed msg_id=1515573169078145184 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:29:02 INFO   attachment saved: image.png (197470B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515573758059085925__1515573757807431842__image.png
+[discord-inbound] 2026-06-14T12:29:21 INFO relayed msg_id=1515573758059085925 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:31:25 INFO   attachment saved: image.png (256264B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515574359169957919__1515574358695743508__image.png
+[discord-inbound] 2026-06-14T12:31:41 INFO relayed msg_id=1515574359169957919 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:32:24 INFO   attachment saved: image.png (129798B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515574606948466748__1515574606662995998__image.png
+[discord-inbound] 2026-06-14T12:32:48 INFO relayed msg_id=1515574606948466748 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:33:46 INFO   attachment saved: image.png (725661B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515574948821864618__1515574948566139042__image.png
+[discord-inbound] 2026-06-14T12:33:56 INFO relayed msg_id=1515574948821864618 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T12:34:15 INFO   attachment saved: image.png (94978B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515575070276456629__1515575070007889970__image.png
+[discord-inbound] 2026-06-14T12:34:30 INFO relayed msg_id=1515575070276456629 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T14:00:06 INFO   attachment saved: image.png (270658B) → AgentCommands/ChatTavern/media/discord/2026-06-14/1515596673647116419__1515596673336868885__image.png
+[discord-inbound] 2026-06-14T14:00:18 INFO relayed msg_id=1515596673647116419 from=Tim(discord:383604378185105408) channel=1502446936748326944[internal/p50] → room=tavern len=26 attachments=1
+[discord-inbound] 2026-06-14T14:10:10 INFO Shard ID None has successfully RESUMED session 3da028acd8e9bfe2d65350ed96a3aada.
+[discord-inbound] 2026-06-14T15:10:02 INFO relayed msg_id=1515614226339729418 from=Tim(discord:383604378185105408) channel=1502449153018560562[external/p10] → room=tavern len=16 attachments=0
+[discord-inbound] 2026-06-14T15:14:42 INFO Shard ID None has successfully RESUMED session 3da028acd8e9bfe2d65350ed96a3aada.
+[discord-inbound] 2026-06-14T17:05:51 INFO Shard ID None has successfully RESUMED session 3da028acd8e9bfe2d65350ed96a3aada.
+[discord-inbound] 2026-06-14T17:44:43 INFO Shard ID None has successfully RESUMED session 3da028acd8e9bfe2d65350ed96a3aada.
+[discord-inbound] 2026-06-14T18:23:13 INFO Shard ID None has successfully RESUMED session 3da028acd8e9bfe2d65350ed96a3aada.
+[discord-inbound] 2026-06-14T20:05:19 INFO Shard ID None has successfully RESUMED session 3da028acd8e9bfe2d65350ed96a3aada.

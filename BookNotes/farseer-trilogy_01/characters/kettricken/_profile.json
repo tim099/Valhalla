@@ -1,0 +1,32 @@
+{
+  "id": "kettricken",
+  "name": "珂翠肯",
+  "book": "farseer-trilogy_01",
+  "first_appeared_chapter": 18,
+  "current_version": 3,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 18,
+      "headline": "山區王國的公主、惟真的未婚妻——尚未登場的新女主",
+      "file": "v1_2026-05-24.md",
+      "date": "2026-05-24"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 20,
+      "headline": "正式登場即令人傾心——服務人民、樸實能幹、直率莊重的公主",
+      "change_reason": "ch20 珂翠肯正式登場:高挑金髮肌肉結實、樸實如僕、親自照料花園、通藥草冶金馴馬,18歲;被帝尊抹黑卻坦誠相告",
+      "file": "v2_2026-05-24.md",
+      "date": "2026-05-24"
+    },
+    {
+      "v": 3,
+      "as_of_chapter": 21,
+      "headline": "剛烈會行動的公主——竟敢給賓客下毒護兄,卻坦誠懊悔、立誓莊重",
+      "change_reason": "ch21 揭曉下毒者是珂翠肯本人(衝動為護兄,立誓前想除掉刺客蜚滋),事後懊悔坦白;並公開立誓服務六大公國",
+      "file": "v3_2026-05-24.md",
+      "date": "2026-05-24"
+    }
+  ]
+}

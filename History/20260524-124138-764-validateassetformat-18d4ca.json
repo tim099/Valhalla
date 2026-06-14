@@ -1,0 +1,16 @@
+{
+  "Id": "20260524-124138-764-validateassetformat-18d4ca",
+  "Type": "ValidateAssetFormat",
+  "Mode": "OneShot",
+  "Args": {
+    "assetType": "RCG_EquipmentData",
+    "assetId": "SmithysCollar",
+    "checkRefs": "1",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-24T12:41:38.7646231Z",
+  "LastUsedAt": "2026-05-24T12:41:38.7646231Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

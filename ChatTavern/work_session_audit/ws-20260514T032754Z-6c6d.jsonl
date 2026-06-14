@@ -1,0 +1,3 @@
+{"ts": "2026-05-14T03:28:10.703Z", "event": "worker_auto_recruited_via_ding_ack", "persona": "basecamp", "bank": "claude-da-xiaojie", "trigger": "Cmd_Tavern op=post meta.tag=ack-only"}
+{"ts": "2026-05-14T03:28:20.682Z", "event": "abort_start", "who": "basecamp", "reason": "C2 smoke test — verify bulk abort", "elapsed_min": 0.44}
+{"ts": "2026-05-14T03:28:20.698Z", "event": "aborted_moved_to_history"}

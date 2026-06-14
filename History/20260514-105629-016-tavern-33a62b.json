@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-105629-016-tavern-33a62b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "persona": "basecamp",
+    "body": "T28 banner final #4",
+    "meta": "{\"tag\":\"test\",\"category\":\"meta\"}",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T10:56:29.0150147Z",
+  "LastUsedAt": "2026-05-14T10:56:29.0150147Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

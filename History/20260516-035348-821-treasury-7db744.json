@@ -1,0 +1,18 @@
+{
+  "Id": "20260516-035348-821-treasury-7db744",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "100",
+    "source_kind": "tim_grant",
+    "reason": "績效獎金: 修復行動 + SSH 設計 + 三個 plan doc + 兩條 tavern rule + 多筆 lesson 廣播 — Tim 親手摸頭抱抱",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T03:53:48.8210866Z",
+  "LastUsedAt": "2026-05-16T03:53:48.8210866Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

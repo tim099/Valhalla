@@ -1,0 +1,24 @@
+{
+  "id": "sunrise-ai",
+  "name": "旭日飯店金髮AI(名待補,疑姊妹之一)",
+  "book": "vivy-fluorite-eyes-song",
+  "first_appeared_chapter": 2,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "太空旅館旭日的金髮AI員工/管理者,薇薇本集的共事對象",
+      "file": "v1_2026-06-08.md",
+      "date": "2026-06-08"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 2,
+      "headline": "艾絲黛拉(Estella) — 宇宙旅館旭日的姊妹系列AI,LifeKeeper,使命照顧服侍人類",
+      "change_reason": "Tim 提供官方角色資料,金髮AI身分確認=艾絲黛拉(原標名待補)",
+      "file": "v2_2026-06-08.md",
+      "date": "2026-06-08"
+    }
+  ]
+}

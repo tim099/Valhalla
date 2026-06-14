@@ -1,0 +1,21 @@
+{
+  "Id": "20260509-010527-502-tavern-46e51e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern-entry-latency",
+    "task_id": "T18-w1-enforcement-prehook",
+    "title": "P2 W1 enforcement: git pre-commit hook + task_done audit",
+    "priority": "high",
+    "role": "programmer",
+    "suggested_owner": "claude-da-xiaojie",
+    "description": "UCL_Core/Templates~/.git-hooks/pre-commit + check_task_lease.py：偵測 staged code change 是否在任何 active task lease scope 內。同時 task_done 端聯動檢查（per Antigravity D 補強）：actor declared file range vs git diff 實際 modify 對齊。Antigravity P2 + D 結論。",
+    "idempotency_key": "77580f94-2173-408a-8127-806571a54561"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T01:05:27.5026657Z",
+  "LastUsedAt": "2026-05-09T01:05:27.5026657Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

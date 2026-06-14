@@ -1,0 +1,20 @@
+{
+  "Id": "20260514-235423-858-tavern-3f012d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "createroom",
+    "title": "Discord Inbound Bot",
+    "description": "Discord channel → Tavern relay bot. Inbound 端 (outbound 已存在 in notify_discord.py).",
+    "actor": "claude-da-xiaojie",
+    "sender": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "id": "discord-inbound-bot",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T23:54:23.8589298Z",
+  "LastUsedAt": "2026-05-14T23:54:23.8589298Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

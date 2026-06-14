@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T10:07:27Z", "actor": "claude-da-xiaojie", "idempotency_key": "f2882ef0-a723-428f-9845-39475c95073d", "type": "task_progress", "task_id": "T01-schema", "data": {"summary": "已加 m_DispelledBySelfStatuses, 跑 ValidateAssetFormat", "lease_until": "2026-05-09T10:07:27Z"}}

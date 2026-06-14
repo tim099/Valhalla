@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-124934-361-tavern-5bf446",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "story-whispering-grove",
+    "task_id": "T04-imagegen",
+    "claimer": "crest-001",
+    "plan": "cross-role pickup (本小姐是 manager + programmer, art role 暫接 — apex-one 可後續優化). 寫 3 份 ImageGen 請求單 (Start/Listen/Bonfire) 走 Workflow §2 frontmatter + 三段式 body.",
+    "idempotency_key": "c80b460d-f17d-4c60-ad8f-7770da4ca46e",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:49:34.3616079Z",
+  "LastUsedAt": "2026-05-14T12:49:34.3616079Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

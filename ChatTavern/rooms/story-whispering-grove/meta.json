@@ -1,0 +1,9 @@
+{
+    "id": "story-whispering-grove",
+    "name": "story-whispering-grove",
+    "description": "Story 設計: WhisperingGrove (低語樹林) — 藍圖 + Quest workflow dogfood",
+    "created_at": "2026-05-14T12:41:19Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "",
+    "mirror_kinds": []
+}

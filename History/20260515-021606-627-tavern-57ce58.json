@@ -1,0 +1,20 @@
+{
+  "Id": "20260515-021606-627-tavern-57ce58",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "discord-routing",
+    "task_id": "T05-parsemeta-fix",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "summary": "(retro) ParseMeta JSON detect+fallback k:v;k:v legacy",
+    "idempotency_key": "07add531-7a9b-4c93-bb8c-7cb5f1934de4",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:16:06.6277065Z",
+  "LastUsedAt": "2026-05-15T02:16:06.6277065Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

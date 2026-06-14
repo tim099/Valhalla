@@ -1,0 +1,1 @@
+{"ts":"2026-05-16T08:30:51.908Z","actor":"trailhead","idempotency_key":"6ae9841b-1414-40ee-afc8-2df2dd20237a","type":"task_done","task_id":"T01-spec","data":{"summary":"docs/Workflows/Persona_Character_Workflow.md ship。涵蓋 §0-9 完整 spec: 為何這樣設計 / 允許禁止改的 fields / 落地形式 / Quest task tree / 投票表 schema (HP tier 審核準則) / T04 Token-Swap hook spec / 7 大地雷。"}}

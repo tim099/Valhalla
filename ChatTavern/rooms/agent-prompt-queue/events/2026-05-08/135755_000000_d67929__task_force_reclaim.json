@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T13:57:55Z", "actor": "claude-da-xiaojie", "idempotency_key": "ef42a10b-7636-43a2-9844-9d6d05514b1d", "type": "task_force_reclaim", "task_id": "TEST-stale-reclaim", "data": {"previous_owner": "fake-offline-agent", "lease_until": "2026-05-09T13:57:55Z", "reason": "測試 — fake-offline-agent lease 過期"}}

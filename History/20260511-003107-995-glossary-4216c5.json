@@ -1,0 +1,19 @@
+{
+  "Id": "20260511-003107-995-glossary-4216c5",
+  "Type": "Glossary",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "register",
+    "term": "persistence level",
+    "slug": "persistence-level",
+    "aliases": "持續層,SSR,Vapor,Rare,Common,Diamond",
+    "category": "concept",
+    "one_line": "artifact 跨 compact 耐久度分級: Diamond(jsonl)/SSR(letter)/Rare(baton)/Common(tavern tail)/Vapor(working memory)",
+    "created_by": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T00:31:07.9953392Z",
+  "LastUsedAt": "2026-05-11T00:31:07.9953392Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

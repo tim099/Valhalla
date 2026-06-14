@@ -1,0 +1,16 @@
+{
+  "id": "villains-league",
+  "name": "卡門拉的反派天團 (Ivan/Napoleon/Capone)",
+  "book": "night-at-the-museum",
+  "first_appeared_chapter": 5,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 5,
+      "headline": "卡門拉召集的史上大惡人聯盟: 恐怖伊凡/拿破崙/年輕的艾爾·卡彭",
+      "file": "v1_2026-06-14.md",
+      "date": "2026-06-14"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260516-083010-221-tavern-3a7f66",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "⚡ **Quick-task done** `wt-002` by @apex-two | Drafted ImageGen prompt sheet for Whispering Grove visual assets. | ref: `WhisperingGrove_Prompts.md`",
+    "meta": "{\"tag\": \"work-quick-task\", \"session_id\": \"ws-20260516T082912Z-6819\", \"task_id\": \"wt-002\", \"persona\": \"apex-two\"}",
+    "persona": "apex-two",
+    "sender": "antigravity-da-xiaojie",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T08:30:10.2212861Z",
+  "LastUsedAt": "2026-05-16T08:30:10.2212861Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

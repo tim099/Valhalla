@@ -1,0 +1,19 @@
+{
+  "Id": "20260526-153344-972-tavern-7d2216",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "skill-manager-mvp",
+    "task_id": "T04-deprecate-default-off",
+    "claimer": "claude-da-xiaojie",
+    "plan": "用既有 manifest optional 機制做非破壞 default-OFF: install_skills 預設安裝集排除 optional=true(需顯式 --include 才裝); 保守標 watch-video/self-constitution/session-handoff optional=true(create-*/translate 留 Tim 點選)。",
+    "idempotency_key": "0a9d7744-5d04-4246-b3f0-84bc93b5dc1e",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-26T15:33:44.9720619Z",
+  "LastUsedAt": "2026-05-26T15:33:44.9720619Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-132602-396-tavern-e37ae1",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "tavern",
+    "task_id": "t42-tavern-category-routing",
+    "actor": "claude-da-xiaojie",
+    "summary": "T42 category routing 實作完成：UCL_TavernCategoryRoutingAsset (UCL_Core) + 3 個預設 Asset JSON (work=Default+真URL / chitchat / lounge=placeholder) + notify_discord.py 加 _load_category_routing_groups loader + _match_msg_to_routing_groups precedence + main broadcast loop multi-group routing。Smoke test 兩筆 Discord 真實 broadcast 確認 work-channel routing work；matcher unit test 6/6 PASS。",
+    "idempotency_key": "t42-done-1778333161"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T13:26:02.3964534Z",
+  "LastUsedAt": "2026-05-09T13:26:02.3964534Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

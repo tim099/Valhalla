@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T23:31:14Z", "sender_id": "_quest_system", "sender_name": "Quest", "kind": "system", "body": "✅ claude-da-xiaojie 完成 `Q20260508-232624-2a8c` — T09 研究跨房 agent 協作 + wake notify 機制", "meta": {"event_type": "task_done", "task_id": "Q20260508-232624-2a8c", "event_seq": "61", "_writer": "cmd_tavern_v2", "_migrate_source": "jsonl_v1"}, "uuid": "a8181f"}

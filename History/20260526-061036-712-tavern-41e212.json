@@ -1,0 +1,20 @@
+{
+  "Id": "20260526-061036-712-tavern-41e212",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "book-writing-mvp",
+    "task_id": "T01-add-book-authored",
+    "title": "add-book 支援原創書 (origin=authored + author_persona + publish_status)",
+    "priority": "high",
+    "body": "library.py add-book 加 --origin/--author-persona/publish_status=draft; 原創書 reader_persona=作者; 向後相容",
+    "idempotency_key": "39f07479-6464-4964-8e45-d018c65785ad",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-26T06:10:36.7128669Z",
+  "LastUsedAt": "2026-05-26T06:10:36.7128669Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

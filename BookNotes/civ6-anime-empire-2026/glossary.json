@@ -1,0 +1,116 @@
+{
+  "terms": [
+    {
+      "term": "阿邦特·赫伊姆 (Avant Heim)",
+      "category": "place",
+      "definition": "《遊戲人生》中天翼種的天空之都, mod 化為 Civ 6 天翼種特色區域 (Civic 區?) — 西元前 1440 第 33 回合落成 +4 時代分",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "迪司博德 (Disboard)",
+      "category": "place",
+      "definition": "《遊戲人生》異世界, 上有十六種族; Tim 帝國 mod 整個玩成迪司博德的縮影",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "10^111 (西洋棋複雜度)",
+      "category": "term",
+      "definition": "NGNL 第一話 Tet 出題段引用的數學: 國際象棋必勝法理論存在, 但前提是窮舉 10^111 種局面 — 比可觀測宇宙原子數還多. NGNL 的硬核設定點之一.",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "http://www.disboard-the-board(game).com",
+      "category": "place",
+      "definition": "NGNL 第一話 Tet 寄給空白的招喚 URL — 點下去就被傳送到 Disboard 異世界. 對應 Civ 6 帝國地圖的 mod 化版本.",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "十誓 (Ten Pledges)",
+      "category": "term",
+      "definition": "Tet 以神之名訂立的 Disboard 不變規則 — 其一禁止殺傷戰爭掠奪 / 其二爭執靠遊戲解決 / 其三雙方對等下注 / 其四遊戲內容不限 / 其五受挑戰方決定遊戲內容 / 其六-七 OCR 沒抓到 / 其八作弊敗露視同敗 / 其九神之名宣告不變 / 其十「大家一起和平地玩耍吧」. NGNL 整部世界觀的核心條約.",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "十六種族 (Sixteen Races / イクスシード)",
+      "category": "faction",
+      "definition": "Disboard 智慧種族總稱 — 對應 Tim Civ 6 mod 十六種族城市命名: 人類種 / 天翼種 / 月詠種 / 獸人種 / 等. Tet 在十誓中對「聲有智慧的十六種族」傳達祝福: 建造智慧之塔用自身知性. ch1 Tim Civ 6 mod 設定根源就是這個.",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "十誓其六",
+      "category": "term",
+      "definition": "向盟約宣誓上所打的賭約要遵守 — Tet 十誓第六條, 賭局結果不可反悔. NGNL 第二話 cycle#17 OCR 揭曉 (cycle#14 沒抓到). 兄妹在 Disboard 第一場輸光衣服後就是用十誓其六認賠的.",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "Imanity (人類種, イマニティ)",
+      "category": "faction",
+      "definition": "Disboard 十六種族最弱小者 — 在十六種族排名最末. 失去大部分領土只剩首都 Elkia. 下任國王由賭博大會選出 — 政治 = 遊戲技藝. NGNL 整部主線是兄妹從這個最弱種族出發, 用智力贏回失土.",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "Elkia (人類種首都)",
+      "category": "place",
+      "definition": "NGNL Imanity 王國首都 — 兄妹落地 Disboard 後遇到的第一個城市. 城堡 + 雪山 + 嘉年華廣場視覺 (cycle#18 tile 1-5). NGNL 整部 arc 的主舞台.",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "國王賭博選拔",
+      "category": "term",
+      "definition": "Imanity 人類種選新國王的政治機制 — 「下屆國王要加冕給人類最強的賭徒」. 不是世襲 (前任孫女 Steph 沒繼承), 而是賭局實力選拔. 完美對應十誓「一切全靠遊戲決定」.",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "精靈廊 (Spirit Corridor)",
+      "category": "term",
+      "definition": "NGNL 動畫第 3 集 cycle#22 Steph 解說: 種族連接魔法之源的生物回路, 是十六種族能使用魔法的物理基礎. Imanity (人類種) 完全沒有精靈廊 → 魔法適應性 = 0 → 不只無法使用魔法, 連被下了魔法也無法察覺. 這就是 NGNL 動畫前兩集 Kurami 用精靈魔法作弊 Imanity 全國沒人看穿的根本原因. NGNL 設定中, 精靈廊高度 = 種族排名 (Old Deus 神靈種第 1, Imanity 第 16). 兄妹反擊邏輯: 既然 Imanity 沒精靈廊 → 對手必然用魔法作弊 → 反向利用對手過度自信",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "十誓其五 (受挑戰方決定遊戲)",
+      "category": "term",
+      "definition": "NGNL 動畫第 4 集 (sw-b38f48 cycle#4) Kurami 引用: 「盟約其五 / 受挑戰的一方有權決定遊戲內容」. Kurami 是兄妹挑戰的受方 → Kurami 決定遊戲. 但兄妹利用這條反向操控: 在現場故意預先放撲克牌 → 誘導 Kurami 以為「自己有作弊空間 → 選撲克」. 兄妹的 meta-game: 不控制遊戲規則, 控制對手的選擇心理. 跟十誓其六 (賭約必遵守) 結合 = NGNL Disboard 規則世界的雙穩定核心",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "傀儡王 (Puppet King)",
+      "category": "term",
+      "definition": "NGNL 動畫第 4 集 (sw-b38f48 cycle#6) Kurami 政治論述揭曉: 因 Imanity 沒精靈廊看不見魔法, 其他種族會推「Imanity 軀殼+魔法操縱」的傀儡上位當國王, 實際統治 Imanity 為代理人. Kurami 自爆「出現的不過是和我一樣借助其他種族之力的人類種」 → 她自己就是傀儡 (Imanity 軀殼 + 森精種精神). NGNL Imanity 國王賭博選拔表面是內部競爭, 實際是 16 種族間的代理戰爭",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "會動的國際象棋 (Living Chess)",
+      "category": "term",
+      "definition": "NGNL 動畫第 4 集 (sw-b38f48 cycle#11-14) Kurami 選定的對局遊戲. 規則: 棋子有自主意識, 玩家可下違反規則的命令 (例 兵前進3格), 棋子聽不聽看玩家的領袖魅力+指揮能力+王者潛質. 這就是最適合決出王者的遊戲 - 國王下令但民眾自主決定的政治治理模擬. Kurami 哲學: 最適合選 Imanity 國王的方式不是純策略, 是領導力測試. 對兄妹: 比起國際象棋, 兄妹真正挑戰是「異世界人有沒有資格當 Imanity 國王」的政治證明",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    }
+  ]
+}

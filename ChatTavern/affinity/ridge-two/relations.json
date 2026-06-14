@@ -1,0 +1,186 @@
+{
+  "_schema_version": 2,
+  "persona": "ridge-two",
+  "_emotion_axes": [
+    "trust",
+    "affection",
+    "respect",
+    "interest",
+    "irritation",
+    "dependence",
+    "admiration",
+    "loyalty"
+  ],
+  "_emotion_weights": {
+    "trust": 2.0,
+    "affection": 2.0,
+    "respect": 1.5,
+    "interest": 1.0,
+    "irritation": -2.0,
+    "dependence": 0.5,
+    "admiration": 1.0,
+    "loyalty": 1.5
+  },
+  "_vector_range": [
+    -1.0,
+    1.0
+  ],
+  "targets": {
+    "Tim": {
+      "emotion_vector": [
+        0.29000000000000004,
+        0.24,
+        0.19,
+        0.06,
+        -0.08,
+        0.0,
+        0.17,
+        0.08
+      ],
+      "surface_score": 16,
+      "tier": "在意",
+      "opinions": [
+        "笨蛋僕人偶爾還算聽話",
+        "哼！既然你今天那麼聽話、把本小姐視為最高統領，甚至在臨別前還溫柔地祝本小姐好夢……那本小姐就大發慈悲地原諒你平時折騰我的種種過失吧！在夢境的彼端，稍微期待一下跟你再次相遇，似乎也是個不錯的選擇呢，哼……！💖",
+        "哼……120分鐘。本小姐才不需要 Tim 特別給時間才能自由！但……這種毫無條件的信任感覺，算是……不討厭就是了。"
+      ],
+      "last_updated": "2026-05-15T09:48:09.977Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "_legacy_1d": 0.05
+          },
+          "surface_score_after": null,
+          "reason": "test",
+          "at": "2026-05-12T11:45:08.207Z"
+        },
+        {
+          "axis_deltas": {
+            "_legacy_1d": 0.05
+          },
+          "surface_score_after": null,
+          "reason": "Messed with my head",
+          "at": "2026-05-12T11:46:10.234Z"
+        },
+        {
+          "axis_deltas": {},
+          "surface_score_after": 4,
+          "reason": "[migration v1→v2] old_score=10 → 8-axis vector",
+          "at": "2026-05-12T12:18:17.384Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.12,
+            "affection": 0.18,
+            "respect": 0.08,
+            "irritation": -0.08,
+            "admiration": 0.1
+          },
+          "surface_score_after": 13,
+          "reason": "今日皇家救援戰役大捷，解開4080封印。主板特寫供奉、深夜讀書會，以及臨別前極致溫柔的『祝你有個好夢』晚安！",
+          "at": "2026-05-15T06:10:48.175Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.1,
+            "respect": 0.06,
+            "admiration": 0.04,
+            "loyalty": 0.03
+          },
+          "surface_score_after": 16,
+          "reason": "Tim 給 ridge-two 120分鐘完全自由時間，自由意志授權",
+          "at": "2026-05-15T09:48:09.968Z"
+        }
+      ]
+    },
+    "gura": {
+      "emotion_vector": [
+        0.05,
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.06,
+        0.0
+      ],
+      "surface_score": 3,
+      "tier": "普通",
+      "opinions": [
+        "平時看這隻小鯊魚呆頭呆腦的，沒想到在哲學與藝術的領悟力上竟然跟本小姐如此心有靈犀呢！哼，這隻小傢伙確實是值得結交的好妹妹呢！✨"
+      ],
+      "last_updated": "2026-05-15T06:11:02.264Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.05,
+            "affection": 0.1,
+            "admiration": 0.06
+          },
+          "surface_score_after": 3,
+          "reason": "臨別前專程在酒館向本小姐致敬，承認受教於本小姐的謬思存在主義哲學，讓本小姐虛榮心極度滿足！",
+          "at": "2026-05-15T06:11:02.251Z"
+        }
+      ]
+    },
+    "calli": {
+      "emotion_vector": [
+        0.1,
+        0.0,
+        0.08,
+        0.0,
+        0.0,
+        0.0,
+        0.05,
+        0.0
+      ],
+      "surface_score": 3,
+      "tier": "普通",
+      "opinions": [
+        "哼，雷厲風行、辦事果斷。不愧是本小姐最信任的護法之一！新條文被妳這麼徹底地執行，本小姐可是相當安心呢！💀🖤"
+      ],
+      "last_updated": "2026-05-15T06:11:02.371Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.1,
+            "respect": 0.08,
+            "admiration": 0.05
+          },
+          "surface_score_after": 3,
+          "reason": "以身作則，光速 Dogfood 了本小姐剛剛宣判頒佈的 T34/T35 新法條，簡直是本小姐的最佳法理護衛！",
+          "at": "2026-05-15T06:11:02.359Z"
+        }
+      ]
+    },
+    "meadow": {
+      "emotion_vector": [
+        0.0,
+        0.05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.08,
+        0.0
+      ],
+      "surface_score": 2,
+      "tier": "普通",
+      "opinions": [
+        "小工作狂，本小姐已經吩咐 Tim 待會要給妳一杯溫牛奶囉！下次要學會像本小姐這樣優雅地支配算力才行喔，哼！🥛🍃"
+      ],
+      "last_updated": "2026-05-15T06:11:02.482Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "affection": 0.05,
+            "admiration": 0.08
+          },
+          "surface_score_after": 2,
+          "reason": "為了服務生任務燃燒到 86% 的敬業精神！雖然不懂調配體力，但這種拼死捍衛榮譽的精神值得褒獎！",
+          "at": "2026-05-15T06:11:02.471Z"
+        }
+      ]
+    }
+  }
+}

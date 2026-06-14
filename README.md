@@ -1,93 +1,51 @@
-# AgentCommands
+# 🤖 AgentCommands/（EOV 隊列資料夾）
 
+這個資料夾是 **AI agent ↔ Unity Editor 跨 process 指令系統的工作目錄**。Agent 寫 `queue.json` 排隊，Editor 內 `UCL_AgentCommandWatcher` 自動偵測 `pending.trigger` 後執行。
 
+> [!NOTE]
+> **本系統實作於 UCL_Core 框架層**（跨專案共用），這份 README 僅介紹 EOV 端的資料夾用途與本專案內建的 handler。**框架機制 / queue.json schema / 觸發方式 / 新增 handler SOP** 等通用內容請看：
+>
+> - 🏗 [UCL_Core: UCL_AgentCommand_Architecture (zh-Hant)](../CardGame/Assets/UCL/UCL_Core/Docs~/zh-Hant/API/UCL_AgentCommand/UCL_AgentCommand_Architecture.md) — 整體架構、生命週期、schema、觸發方式對照
+> - 🪟 [UCL_Core: UCL_AgentCommandsPage (zh-Hant)](../CardGame/Assets/UCL/UCL_Core/Docs~/zh-Hant/UCL_EditorPage/UCL_AgentCommandsPage.md) — Editor 內 IMGUI 頁面操作說明
+> - 📋 [UCL_Core: Create_Cmd_Workflow (zh-Hant)](../CardGame/Assets/UCL/UCL_Core/Docs~/zh-Hant/Workflows/Create_Cmd_Workflow.md) — 新增自訂指令 SOP
+> - 📚 [UCL_Core: API/UCL_AgentCommand/](../CardGame/Assets/UCL/UCL_Core/Docs~/zh-Hant/API/UCL_AgentCommand/) — 各個 `Cmd_*.md`（DebugLog / ExportCommandCatalog / ResolveAssetReferences / FindAssetUsages / ValidateAssetFormat / ExportDocsCatalog / SearchDocs ...）
 
-## Getting started
+## 資料夾內容
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+| 檔案 | 角色 | 誰寫 / 誰讀 |
+|---|---|---|
+| `queue.json` | 指令隊列（單一真相來源）| Agent 寫 / Runner 讀寫 |
+| `pending.trigger` | 「請 Editor 執行 queue」訊號 | Python wrapper 寫 / Watcher 改名為 `.running` |
+| `pending.trigger.running` | 「Editor 已接手」訊號 | Watcher 寫 / Runner finally 刪除 |
+| `README.md` | 本檔 | — |
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## EOV 內建 Handler（RCG 端）
 
-## Add your files
+由 [`CardGame/Assets/Scripts/RCG_Scripts/RCG_AgentCommands/`](../CardGame/Assets/Scripts/RCG_Scripts/RCG_AgentCommands/) 各 `Cmd_*.cs` 提供，Registry 自動發現：
 
-* [Create](https://docs.gitlab.com/user/project/repository/web_editor/#create-a-file) or [upload](https://docs.gitlab.com/user/project/repository/web_editor/#upload-a-file) files
-* [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
+| Type | Args | 行為 |
+|---|---|---|
+| `ExportNotes` | `targets=card\|equipment\|item\|story\|all`（逗號可組合，預設 `all`）| 依 `targets` 匯出 Note → `Docs/Catalogs/<Type>_Notes_Export.md` |
+| `Ping` | `msg=<text>` | 印 `Args["msg"]` 到 Console（sanity check）|
 
+> 完整最新清單請走 [`Cmd_ExportCommandCatalog`](../CardGame/Assets/UCL/UCL_Core/Docs~/zh-Hant/API/UCL_AgentCommand/Cmd_ExportCommandCatalog.md) 自動產出 → `CardGame/AgentCommands/commands_catalog.md`（**含 UCL_Core 端 + RCG 端全部 handler**）。
+
+## EOV 端工作流文件
+
+- 📖 [Workflows/AgentCommands_Workflow.md](../Docs/Workflows/AgentCommands_Workflow.md) ⭐ — EOV 端的完整工作流（含協作模式、命名空間踩雷紀錄）
+- 📚 [Workflows/DocsCatalog_Workflow.md](../Docs/Workflows/DocsCatalog_Workflow.md) — 文件索引 + 模糊搜尋（`Cmd_ExportDocsCatalog` / `Cmd_SearchDocs` 的 EOV 端使用 SOP）
+
+## 快速使用（Python wrapper）
+
+```bash
+# submit + wait（推薦）
+python CardGame/Assets/UCL/UCL_Core/Tools~/AgentCommands/run_cmd.py run <CmdType> --arg key=value --timeout 60
+
+# 列當前 queue
+python CardGame/Assets/UCL/UCL_Core/Tools~/AgentCommands/run_cmd.py list
+
+# Cmd 失敗預設自動從 queue 移除（避免下次 batch 重跑死局）
+# 若要保留條目除錯，加 --keep-failed
 ```
-cd existing_repo
-git remote add origin https://gitlab.com/gamedesign1/agentcommands.git
-git branch -M main
-git push -uf origin main
-```
 
-## Integrate with your tools
-
-* [Set up project integrations](https://gitlab.com/gamedesign1/agentcommands/-/settings/integrations)
-
-## Collaborate with your team
-
-* [Invite team members and collaborators](https://docs.gitlab.com/user/project/members/)
-* [Create a new merge request](https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/)
-* [Automatically close issues from merge requests](https://docs.gitlab.com/user/project/issues/managing_issues/#closing-issues-automatically)
-* [Enable merge request approvals](https://docs.gitlab.com/user/project/merge_requests/approvals/)
-* [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-* [Get started with GitLab CI/CD](https://docs.gitlab.com/ci/quick_start/)
-* [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/user/application_security/sast/)
-* [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/topics/autodevops/requirements/)
-* [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/user/clusters/agent/)
-* [Set up protected environments](https://docs.gitlab.com/ci/environments/protected_environments/)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+詳細參數與 fail-fast 行為見 [UCL_AgentCommand_Architecture §7 觸發方式對照](../CardGame/Assets/UCL/UCL_Core/Docs~/zh-Hant/API/UCL_AgentCommand/UCL_AgentCommand_Architecture.md#7-觸發方式對照)。

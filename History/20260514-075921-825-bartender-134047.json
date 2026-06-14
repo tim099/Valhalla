@@ -1,0 +1,16 @@
+{
+  "Id": "20260514-075921-825-bartender-134047",
+  "Type": "Bartender",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "assign_ack",
+    "assignment_id": "defdf4d3",
+    "action": "accept",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T07:59:21.8256907Z",
+  "LastUsedAt": "2026-05-14T07:59:21.8256907Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

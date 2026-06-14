@@ -1,0 +1,16 @@
+{
+  "id": "famine",
+  "name": "飢荒 (Famine / Dr Raven Sable)",
+  "book": "good-omens",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "四騎士之一 — 以美食產業販賣飢餓的黑西裝紳士",
+      "file": "v1_2026-06-11.md",
+      "date": "2026-06-11"
+    }
+  ]
+}

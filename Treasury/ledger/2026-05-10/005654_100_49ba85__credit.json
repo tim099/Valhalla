@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T00:56:54.004Z",
+  "uuid": "49ba85",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T68-phase-b-real-wire",
+  "source_description": "T68 commit pre-credit: Cmd_BattleAction 真實 PlayCardAsync wire + ledger writes (production fee + QA mode 雙 reward)",
+  "balance_before": 223,
+  "balance_after": 224,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "32368",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T68_phaseB_precredit",
+  "signature_mismatch": false
+}

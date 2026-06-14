@@ -1,0 +1,13 @@
+{
+  "Id": "20260510-112228-853-loadscene-725fc9",
+  "Type": "LoadScene",
+  "Mode": "OneShot",
+  "Args": {
+    "name": "RCG_EditStory"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T11:22:28.8538666Z",
+  "LastUsedAt": "2026-05-10T11:22:28.8538666Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

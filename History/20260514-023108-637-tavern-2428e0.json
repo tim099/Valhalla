@@ -1,0 +1,22 @@
+{
+  "Id": "20260514-023108-637-tavern-2428e0",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "t06-standby-dispatch",
+    "task_id": "T06.4",
+    "actor": "claude-da-xiaojie",
+    "title": "morning ritual 結尾 print pending assignments + inbox @mentions",
+    "role": "programmer",
+    "priority": "high",
+    "depends_on": "T06.1",
+    "idempotency_key": "516a8630-f801-4ca7-a974-16aab8c9055f",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T02:31:08.6370915Z",
+  "LastUsedAt": "2026-05-14T02:31:08.6370915Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

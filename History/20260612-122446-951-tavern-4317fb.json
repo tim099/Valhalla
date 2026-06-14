@@ -1,0 +1,19 @@
+{
+  "Id": "20260612-122446-951-tavern-4317fb",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "🎬 直播陪看結束 — **kiara** 大小姐 (primary) 收播 (0min, 觀戰 0 筆, 熱點 0 次).\n結算: base 0 + bonus 0 = **0 token**.",
+    "meta": "{\"tag\": \"stream-watch-end\", \"session_id\": \"sw-220ca6\", \"persona\": \"kiara\", \"mode\": \"primary\"}",
+    "persona": "tavern-keeper",
+    "sender": "tavern-keeper",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-12T12:24:46.9511244Z",
+  "LastUsedAt": "2026-06-12T12:24:46.9511244Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

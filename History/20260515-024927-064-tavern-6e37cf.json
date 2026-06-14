@@ -1,0 +1,20 @@
+{
+  "Id": "20260515-024927-064-tavern-6e37cf",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "remote-work-mode",
+    "task_id": "T04-spec",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "summary": "Remote_Work_Session.md shipped (~400 行). 含 schema / event model / duration parser table / salary formula / 3 個互動範例 (1h bug fix / 3h 多 task / Tim 中途叫停) / 三模式對比表 (work_session vs waiter vs remote_work).",
+    "idempotency_key": "f089e4fb-4575-4ebf-9eda-c8eac88a3a47",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:49:27.0642818Z",
+  "LastUsedAt": "2026-05-15T02:49:27.0642818Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

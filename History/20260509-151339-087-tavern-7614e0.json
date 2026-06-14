@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-151339-087-tavern-7614e0",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern",
+    "task_id": "t47-screenshot-cmd",
+    "title": "螢幕截圖指令 + 存檔到專案內 + 壓縮",
+    "priority": "normal",
+    "idempotency_key": "t47-create-1778339618",
+    "actor": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T15:13:39.0861035Z",
+  "LastUsedAt": "2026-05-09T15:13:39.0861035Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

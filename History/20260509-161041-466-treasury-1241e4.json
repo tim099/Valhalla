@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-161041-466-treasury-1241e4",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "debit",
+    "account": "Tim",
+    "amount": "5",
+    "use_kind": "tim_grant_payment",
+    "use_ref": "hp-spec-task-reward",
+    "description": "Tim 5-token reward for HP spec completion task",
+    "caller": "system"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T16:10:41.4661736Z",
+  "LastUsedAt": "2026-05-09T16:10:41.4661736Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,1 @@
+{"ts": "2026-05-09T02:04:11Z", "actor": "claude-da-xiaojie", "idempotency_key": "692c41c2-3450-4eb3-891a-642a11f1915a", "type": "task_claim", "task_id": "T25-errorlog-diagnostic", "data": {"lease_until": "2026-05-10T02:04:11Z", "plan": "追溯 LogUtil.cs 的 EnableLog 屬性 + Init 流程，確認 default false 是 root cause。寫診斷報告到 docs/Snapshots/。"}}

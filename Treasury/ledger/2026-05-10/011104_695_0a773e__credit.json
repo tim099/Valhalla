@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T01:11:04.695Z",
+  "uuid": "0a773e",
+  "type": "credit",
+  "amount": 2,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "hp_overflow_conversion",
+  "source_ref": "healthy_task_freeform",
+  "source_description": "HP overflow conversion: freeform +5 HP, cap 0, overflow 5/2 = 2 token. Power nap 08:55 → 09:10 (15 min 徹底睡死)",
+  "balance_before": 20,
+  "balance_after": 22,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "48240",
+  "sig_env_marker": "manual_filesystem_write_healthy_task",
+  "sig_cmd_id": "healthy_task_hp_overflow_conversion_0a773e",
+  "signature_mismatch": false
+}

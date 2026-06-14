@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T16:36:25Z", "actor": "", "idempotency_key": "a356c3cc-4259-4410-84a7-c2935df337c9", "type": "task_create", "task_id": "T04-owner-routing", "data": {"title": "F9 房間 meta.json 加 owner_agent + 模糊大小姐 routing 規則", "role": "architect", "priority": "normal", "suggested_owner": "claude-da-xiaojie", "depends_on": "T02-mention-inbox"}}

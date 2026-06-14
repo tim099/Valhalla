@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-12T07:06:08.369Z",
+  "uuid": "133cbd",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "zeta-da-xiaojie",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "AwakeningModelDisplayMismatch",
+  "source_description": "QA bug reward [trivial] to zeta-da-xiaojie: awakening.py Model 欄位顯示與實際不符 — registry seed 寫死 'claude-sonnet' 但本小姐實際跑的是 Opus 4.7 1M (Tim Discord 截圖確認). resolve_bank_account combo lookup 永遠 fallback (sonnet 那筆 entry 從未命中). 修法: model 該為 free-form display field, agent_model_combos 改成 (agent → bank_account) lookup, 不參與 model 比對. (ref: AwakeningModelDisplayMismatch)",
+  "balance_before": 1,
+  "balance_after": 2,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "72244",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_133cbd",
+  "signature_mismatch": false,
+  "_severity": "trivial"
+}

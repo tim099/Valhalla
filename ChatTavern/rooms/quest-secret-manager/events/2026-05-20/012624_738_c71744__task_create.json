@@ -1,0 +1,1 @@
+{"ts":"2026-05-20T01:26:24.738Z","actor":"","idempotency_key":"31bbf475-ee84-4cb9-9a8a-e6b55f225edc","type":"task_create","task_id":"T4","data":{"title":"[C# L4] UCL_SecretInstallWindow — hint 框 + 開資料夾/手動貼上 fallback 按鈕 + 忘記passphrase popup","priority":"normal","depends_on":"T2","group_id":"secret-manager-suite"}}

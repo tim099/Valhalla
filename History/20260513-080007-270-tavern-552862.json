@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-080007-270-tavern-552862",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "work-session-prototype",
+    "task_id": "T01-prototype",
+    "claimer": "claude-da-xiaojie",
+    "plan": "(1) 加 Treasury rules.json work_session_salary source_kind (2) Write work_session.py with 5 subcommands: start/end/status/assign/done (3) state file 對齊 doc §4 schema (4) Smoke test: 5-min session basecamp 當 manager + meadow 當 worker, assign 1 dummy task, end after 30s for fast verify (5) Print stats matrix. C# daemon 整合 Phase 2 backlog 不在本 prototype 範圍",
+    "idempotency_key": "7113f294-f46c-436c-9708-dd2e3ee4a221",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T08:00:07.2703683Z",
+  "LastUsedAt": "2026-05-13T08:00:07.2703683Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

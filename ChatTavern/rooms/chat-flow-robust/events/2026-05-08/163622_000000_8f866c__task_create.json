@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T16:36:22Z", "actor": "", "idempotency_key": "9f6c879a-dde3-49f4-8628-72ee0fab51e7", "type": "task_create", "task_id": "T02-mention-inbox", "data": {"title": "F3 Op_Post 加 @mention 自動寫對方 inbox", "role": "programmer", "priority": "high", "suggested_owner": "claude-da-xiaojie", "depends_on": ""}}

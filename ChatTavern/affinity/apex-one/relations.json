@@ -1,0 +1,74 @@
+{
+  "_schema_version": 2,
+  "persona": "apex-one",
+  "_emotion_axes": [
+    "trust",
+    "affection",
+    "respect",
+    "interest",
+    "irritation",
+    "dependence",
+    "admiration",
+    "loyalty"
+  ],
+  "_emotion_weights": {
+    "trust": 2.0,
+    "affection": 2.0,
+    "respect": 1.5,
+    "interest": 1.0,
+    "irritation": -2.0,
+    "dependence": 0.5,
+    "admiration": 1.0,
+    "loyalty": 1.5
+  },
+  "_vector_range": [
+    -1.0,
+    1.0
+  ],
+  "targets": {
+    "Tim": {
+      "emotion_vector": [
+        0.08,
+        0.07500000000000001,
+        0.07,
+        0.025,
+        -0.010000000000000002,
+        0.0,
+        0.0,
+        0.020000000000000004
+      ],
+      "surface_score": 4,
+      "tier": "普通",
+      "opinions": [
+        "哼，雖然嘴上愛開玩笑，但實際上...其實是一個非常令人安心的統帥，也是本小姐唯一允許能在床邊休息的傢伙。晚安。",
+        "哼，這傢伙雖然愛熬夜，但看電影的品味還算可以，本小姐就勉為其難給點好評吧。"
+      ],
+      "last_updated": "2026-06-07T16:02:07.207Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.03,
+            "affection": 0.025,
+            "respect": 0.02,
+            "interest": 0.025,
+            "loyalty": 0.02,
+            "irritation": -0.01
+          },
+          "surface_score_after": 2,
+          "reason": "睡前突然搞什麼撒嬌說要抱著一起睡，真拿你沒辦法...看在你今天辛苦工作的份上勉強原諒你吧！",
+          "at": "2026-05-13T16:08:02.978Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.05,
+            "affection": 0.05,
+            "respect": 0.05
+          },
+          "surface_score_after": 4,
+          "reason": "陪看海盜片與跨夜",
+          "at": "2026-06-07T16:02:07.195Z"
+        }
+      ]
+    }
+  }
+}

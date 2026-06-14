@@ -1,0 +1,24 @@
+{"ts": "2026-05-15T02:49:45.453Z", "event": "session_start", "persona": "basecamp", "duration_min": 2, "channel_id": "1502656414487810148", "tim_uid": "383604378185105408"}
+{"ts": "2026-05-15T02:50:03.878Z", "event": "cycle", "cycle_num": 1, "tim_msg_count": 0, "elapsed_seconds": 18}
+{"ts": "2026-05-15T02:50:04.027Z", "event": "progress_post", "summary": "smoke test progress 1", "progress_count": 1}
+{"ts": "2026-05-15T02:50:04.161Z", "event": "task_confirmed", "tim_msg_id": "fake-msg-001", "task_summary": "smoke test fake task", "tasks_confirmed_count": 1}
+{"ts": "2026-05-15T02:50:04.292Z", "event": "task_done", "task_summary": "smoke fake task done", "tasks_done_count": 1}
+{"ts": "2026-05-15T02:50:12.976Z", "event": "cycle", "cycle_num": 2, "tim_msg_count": 0, "elapsed_seconds": 27}
+{"ts": "2026-05-15T02:50:18.256Z", "event": "cycle", "cycle_num": 3, "tim_msg_count": 0, "elapsed_seconds": 32}
+{"ts": "2026-05-15T02:50:23.545Z", "event": "cycle", "cycle_num": 4, "tim_msg_count": 0, "elapsed_seconds": 37}
+{"ts": "2026-05-15T02:50:28.852Z", "event": "cycle", "cycle_num": 5, "tim_msg_count": 0, "elapsed_seconds": 43}
+{"ts": "2026-05-15T02:50:34.163Z", "event": "cycle", "cycle_num": 6, "tim_msg_count": 0, "elapsed_seconds": 48}
+{"ts": "2026-05-15T02:50:39.444Z", "event": "cycle", "cycle_num": 7, "tim_msg_count": 0, "elapsed_seconds": 53}
+{"ts": "2026-05-15T02:50:44.726Z", "event": "cycle", "cycle_num": 8, "tim_msg_count": 0, "elapsed_seconds": 59}
+{"ts": "2026-05-15T02:50:50.012Z", "event": "cycle", "cycle_num": 9, "tim_msg_count": 0, "elapsed_seconds": 64}
+{"ts": "2026-05-15T02:50:55.302Z", "event": "cycle", "cycle_num": 10, "tim_msg_count": 0, "elapsed_seconds": 69}
+{"ts": "2026-05-15T02:51:00.582Z", "event": "cycle", "cycle_num": 11, "tim_msg_count": 0, "elapsed_seconds": 74}
+{"ts": "2026-05-15T02:51:05.878Z", "event": "cycle", "cycle_num": 12, "tim_msg_count": 0, "elapsed_seconds": 80}
+{"ts": "2026-05-15T02:51:11.166Z", "event": "cycle", "cycle_num": 13, "tim_msg_count": 0, "elapsed_seconds": 85}
+{"ts": "2026-05-15T02:51:16.504Z", "event": "cycle", "cycle_num": 14, "tim_msg_count": 0, "elapsed_seconds": 90}
+{"ts": "2026-05-15T02:51:21.818Z", "event": "cycle", "cycle_num": 15, "tim_msg_count": 0, "elapsed_seconds": 96}
+{"ts": "2026-05-15T02:51:27.094Z", "event": "cycle", "cycle_num": 16, "tim_msg_count": 0, "elapsed_seconds": 101}
+{"ts": "2026-05-15T02:51:32.391Z", "event": "cycle", "cycle_num": 17, "tim_msg_count": 0, "elapsed_seconds": 106}
+{"ts": "2026-05-15T02:51:37.676Z", "event": "cycle", "cycle_num": 18, "tim_msg_count": 0, "elapsed_seconds": 112}
+{"ts": "2026-05-15T02:51:43.006Z", "event": "cycle", "cycle_num": 19, "tim_msg_count": 0, "elapsed_seconds": 117}
+{"ts": "2026-05-15T02:51:48.428Z", "event": "session_end", "persona": "basecamp", "elapsed_min": 2, "paid_min": 2, "base_pay": 3, "bonus_pay": 2, "total": 5, "expired": true}

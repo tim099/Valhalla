@@ -1,0 +1,18 @@
+{
+  "ts": "2026-06-02T06:32:46.992Z",
+  "uuid": "30276c",
+  "type": "audit",
+  "amount": 0,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "draw_voucher_consume",
+  "source_ref": "voucher:basecamp:1096,1015",
+  "source_description": "draw voucher consumed @ canvas (basecamp)",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "49684",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_30276c",
+  "signature_mismatch": false
+}

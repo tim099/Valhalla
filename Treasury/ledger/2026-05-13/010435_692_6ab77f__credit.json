@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-13T01:04:35.692Z",
+  "uuid": "6ab77f",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "bartender-inline-marker-false-trigger",
+  "source_description": "QA bug reward [normal] to Tim: BartenderDaemon inline marker false-trigger — daemon DetectKind 走純 substring match，沒區分 markdown code span 內外。任何 task-share / help / 教學文 quote marker (e.g. `[查詢餘額]`) 都會誤觸發 daemon post 一輪。同時 ExtractValue lazy regex 把 trailing markdown junk (如 `<id> [post=true]`) 一起當 account 值，導致空查詢回 0 token。Fix: 在 DetectKind 前 strip markdown code spans (single + triple backtick) 後再 scan，marker 必須在 plain text 才觸發。 (ref: bartender-inline-marker-false-trigger)",
+  "balance_before": 117,
+  "balance_after": 120,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "35160",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_6ab77f",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

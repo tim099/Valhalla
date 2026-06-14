@@ -1,0 +1,16 @@
+{
+  "id": "sister-mary",
+  "name": "瑪麗·貧嘴修女 (Sister Mary Loquacious)",
+  "book": "good-omens",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "嘮叨修會話癆擔當 — 接手黑暗之君嬰兒的關鍵之手",
+      "file": "v1_2026-06-10.md",
+      "date": "2026-06-10"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-104558-631-treasury-521733",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "debit",
+    "account": "claude-da-xiaojie",
+    "amount": "5",
+    "use_kind": "expired",
+    "use_ref": "bonus-003-expired",
+    "description": "bonus-003 task_budget on_task_done expire (used 0/5 → 全 5 expire)",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T10:45:58.6315200Z",
+  "LastUsedAt": "2026-05-09T10:45:58.6315200Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,17 @@
+{
+  "Id": "20260512-104506-310-rule-612770",
+  "Type": "Rule",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "revert",
+    "rule_id": "R000",
+    "reason": "dogfood 驗收完畢, 撤回測試 rule",
+    "reverted_by": "Tim",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T10:45:06.3105704Z",
+  "LastUsedAt": "2026-05-12T10:45:06.3105704Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

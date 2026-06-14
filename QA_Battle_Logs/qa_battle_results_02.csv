@@ -1,0 +1,26 @@
+battle_id,timestamp,preset_id,enemy_comp,player_class,player_count,turn_count,outcome,damage_dealt,damage_taken,mana_avg,cards_played,items_used,difficulty_score,notes
+battle_-235443,2026-05-20T15:33:26Z,Sweep_Normal_Lv1_BattleMaid_ridge-two,BattleMaid,Cleric,1,3,WIN,95,12,2.8,13,0,3,[ridge-two Play 1] ridge-two 完美控制节奏。Chant 蓄力 T2 爆发直击。
+battle_-250939,2026-05-20T15:33:26Z,Sweep_Normal_Lv1_BattleMaid_ridge-two,BattleMaid,Cleric,1,4,WIN,105,18,2.6,14,0,5,[ridge-two Play 2] 穩定防護，T4 用雷霆打擊收尾，物理輸出順暢。
+battle_-527388,2026-05-20T15:33:26Z,Sweep_Normal_Lv1_BattleMaid_ridge-two,BattleMaid,Cleric,1,3,WIN,92,5,2.9,10,0,2,[ridge-two Play 3] 護盾未破，無傷邊緣通關，Cleric 基礎卡牌防禦值過高。
+battle_-269295,2026-05-20T15:33:26Z,Sweep_Normal_Lv1_BattleMaid_ridge-two,BattleMaid,Cleric,1,4,WIN,98,15,2.7,9,0,5,[ridge-two Play 4] 正常運轉，多重聖彈釋放順利。
+battle_-233885,2026-05-20T15:33:26Z,Sweep_Normal_Lv1_BattleMaid_ridge-two,BattleMaid,Cleric,1,3,WIN,100,8,2.8,8,0,4,[ridge-two Play 5] 爆擊終結，0 error。
+battle_-969605,2026-05-20T15:33:26Z,Sweep_Cave_Normal_Lv1_SnowWoman_gura,SnowWoman,Mage,1,6,WIN,110,28,2.5,13,0,3,[gura Play 1] gura 使用了奇葩的『飛魚狂暴』卡組，雖然手忙腳亂但贏了！Aya!
+battle_-300453,2026-05-20T15:33:26Z,Sweep_Cave_Normal_Lv1_SnowWoman_gura,SnowWoman,Mage,1,5,WIN,115,35,2.4,8,0,4,[gura Play 2] 法術吟唱被打斷一次，不過第二輪隕石術直接糊臉通關。
+battle_-946382,2026-05-20T15:33:26Z,Sweep_Cave_Normal_Lv1_SnowWoman_gura,SnowWoman,Mage,1,7,LOSE,85,48,2.7,15,0,3,[gura Play 3] 鯊魚失憶，忘記給護盾，被雪女冰凍連擊直接抬走！
+battle_-256830,2026-05-20T15:33:26Z,Sweep_Cave_Normal_Lv1_SnowWoman_gura,SnowWoman,Mage,1,6,WIN,108,22,2.6,16,0,3,[gura Play 4] 冰凍減速效果被狂暴戰吼意外免疫，順利反殺。
+battle_-999701,2026-05-20T15:33:26Z,Sweep_Cave_Normal_Lv1_SnowWoman_gura,SnowWoman,Mage,1,5,WIN,112,15,2.5,8,0,4,[gura Play 5] 三連飛魚突襲！gura 在酒館大喊 Shaaaaark 順利過關。
+battle_-110990,2026-05-20T15:33:26Z,Sweep_Boss_Lv1_Beleth_ridge-two,Beleth,Cleric,1,5,WIN,150,35,2.7,10,0,4,[ridge-two Play 1] Beleth Boss 戰。ridge-two 雙重聖盾完全抵消 Boss 蓄力一擊。
+battle_-120296,2026-05-20T15:33:26Z,Sweep_Boss_Lv1_Beleth_ridge-two,Beleth,Cleric,1,6,WIN,155,42,2.8,14,0,4,[ridge-two Play 2] 雖然 Boss 召喚了小惡魔，但雷光風暴 AOE 清場效率極佳。
+battle_-953039,2026-05-20T15:33:26Z,Sweep_Boss_Lv1_Beleth_ridge-two,Beleth,Cleric,1,5,WIN,148,20,2.9,14,0,4,[ridge-two Play 3] 淨化卡成功移除 Boss 施加的詛咒，輕鬆點殺。
+battle_-194011,2026-05-20T15:33:26Z,Sweep_Boss_Lv1_Beleth_ridge-two,Beleth,Cleric,1,4,LOSE,90,60,2.5,8,0,4,[ridge-two Play 4] 發牌員惡意！起手全是大卡，無聖盾被 Boss 連續爆擊致死。
+battle_-718232,2026-05-20T15:33:26Z,Sweep_Boss_Lv1_Beleth_ridge-two,Beleth,Cleric,1,6,WIN,160,30,2.8,13,0,3,[ridge-two Play 5] T6 聖光懲戒斬殺。
+battle_-796030,2026-05-20T15:33:26Z,Sweep_Forest_Boss_Lv1_CentaurKnight_ridge-two,CentaurKnight,Mage,1,5,WIN,135,22,2.6,16,0,2,[ridge-two Play 1] 衝擊波 X-stacking 完美清掃前排 Centaur。
+battle_-730024,2026-05-20T15:33:26Z,Sweep_Forest_Boss_Lv1_CentaurKnight_ridge-two,CentaurKnight,Mage,1,6,WIN,140,29,2.7,13,0,5,[ridge-two Play 2] Mage 的多重祕法飛彈 (Chant) 輸出穩定。
+battle_-412668,2026-05-20T15:33:26Z,Sweep_Forest_Boss_Lv1_CentaurKnight_ridge-two,CentaurKnight,Mage,1,5,WIN,138,18,2.8,15,0,2,[ridge-two Play 3] 利用滯留時間 (Dwell-time) 疊加雷電充能，雷擊直接秒殺。
+battle_-312891,2026-05-20T15:33:26Z,Sweep_Forest_Boss_Lv1_CentaurKnight_ridge-two,CentaurKnight,Mage,1,6,WIN,142,35,2.5,8,0,4,[ridge-two Play 4] 雖然 CentaurKnight 的衝鋒造成了擊退，但沒能阻擋法術連發。
+battle_-422684,2026-05-20T15:33:26Z,Sweep_Forest_Boss_Lv1_CentaurKnight_ridge-two,CentaurKnight,Mage,1,5,WIN,130,10,2.7,13,0,4,[ridge-two Play 5] 極限風箏流過關。
+battle_-608343,2026-05-20T15:33:26Z,Sweep_Elite_Lv5_GoblinChef_calli,GoblinChef,Warrior,1,5,LOSE,120,120,2.3,13,0,4,[calli Play 1] calli 上場！被 GoblinChef 的『極限爆炒』砸中，直接暴斃！Guuuuh!
+battle_-160125,2026-05-20T15:33:26Z,Sweep_Elite_Lv5_GoblinChef_calli,GoblinChef,Warrior,1,8,WIN,250,98,2.5,13,0,4,[calli Play 2] 死神不服輸！用死神鐮刀進行殘血背水一戰，T8 艱難斬殺！Memento Mori!
+battle_-118211,2026-05-20T15:33:26Z,Sweep_Elite_Lv5_GoblinChef_calli,GoblinChef,Warrior,1,4,LOSE,80,110,2.2,8,0,3,[calli Play 3] Chef 連續扔出三盤『毒芹濃湯』，中毒狀態疊加致死。
+battle_-349836,2026-05-20T15:33:26Z,Sweep_Elite_Lv5_GoblinChef_calli,GoblinChef,Warrior,1,7,WIN,245,75,2.6,12,0,5,[calli Play 4] 怒氣值積滿，用崩山地裂擊打斷了 Boss 的烹飪，反敗為勝！
+battle_-756047,2026-05-20T15:33:26Z,Sweep_Elite_Lv5_GoblinChef_calli,GoblinChef,Warrior,1,6,LOSE,150,115,2.4,11,0,3,[calli Play 5] 殘血被 Boss 的香料炸彈炸飛。這怪太硬了！

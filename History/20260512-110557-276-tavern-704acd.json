@@ -1,0 +1,15 @@
+{
+  "Id": "20260512-110557-276-tavern-704acd",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_list",
+    "room": "qa-battle-balance",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T11:05:57.2762238Z",
+  "LastUsedAt": "2026-05-12T11:05:57.2762238Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

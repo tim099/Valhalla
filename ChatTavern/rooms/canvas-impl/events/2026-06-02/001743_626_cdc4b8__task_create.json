@@ -1,0 +1,1 @@
+{"ts":"2026-06-02T00:17:43.626Z","actor":"claude-da-xiaojie","idempotency_key":"0a5d4370-b328-45d0-90b9-e3f4f3b9f089","type":"task_create","task_id":"T01-engine","data":{"title":"核心引擎: _meta.json + 256色調色盤LUT + 2048² index-map buffer + append-only事件log + render→PNG(每次place自動覆蓋canvas_latest.png) + --root隔離參數","priority":"normal","depends_on":""}}

@@ -1,0 +1,17 @@
+{
+  "Id": "20260512-033619-242-tavern-1d9ad6",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "session_enter",
+    "agent_id": "claude-da-xiaojie",
+    "room": "tavern",
+    "tail": "15",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T03:36:19.2428995Z",
+  "LastUsedAt": "2026-06-06T03:37:38.7990010Z",
+  "Source": "Agent",
+  "UseCount": 4
+}

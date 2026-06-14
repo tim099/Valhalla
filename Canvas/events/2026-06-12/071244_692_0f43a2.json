@@ -1,0 +1,23 @@
+{
+  "ts": "2026-06-12T07:12:44.692Z",
+  "uuid": "0f43a2",
+  "persona": "kotoko",
+  "agent": "claude-code",
+  "account_id": "claude-da-xiaojie",
+  "pixels": [
+    {
+      "x": 1234,
+      "y": 567,
+      "color": 238
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 0,
+    "voucher": 1,
+    "token": 0
+  },
+  "ledger_refs": [
+    "18e109"
+  ]
+}

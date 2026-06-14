@@ -1,0 +1,15 @@
+{
+  "Id": "20260516-084318-608-bartender-46a942",
+  "Type": "Bartender",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "list",
+    "target": "crest-001",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T08:43:18.6085753Z",
+  "LastUsedAt": "2026-05-16T08:43:18.6085753Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

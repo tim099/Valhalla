@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-112433-132-tavern-688bc0",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "kyouko-persona-binding",
+    "task_id": "T02-letters-refactor",
+    "actor": "claude-da-xiaojie",
+    "summary": "letters_dir 從 actor 變 actor/persona 巢狀。frontmatter 早就有 written_by_persona 欄位（之前白寫的）終於名實相符。dialogues/ 自然也走新 layout 因為在 letters_dir 底下。原本 basecamp 跟 crest-001 互蓋 _latest 的災難解除。",
+    "idempotency_key": "ed75c3a0-25f1-4a0e-8031-a0454014be5d",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T11:24:33.1325678Z",
+  "LastUsedAt": "2026-05-13T11:24:33.1325678Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-113659-819-treasury-125f1b",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "1",
+    "source_kind": "commit",
+    "source_ref": "f2a5c82",
+    "description": "UCL: Bump UCL_Core T40 Treasury.meta",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T11:36:59.8196984Z",
+  "LastUsedAt": "2026-05-09T11:36:59.8196984Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

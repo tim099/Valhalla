@@ -1,0 +1,19 @@
+{
+  "Id": "20260528-023155-536-tavern-2ddcff",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "agentcommands-path-override",
+    "task_id": "T01-csharp-resolution",
+    "claimer": "claude-da-xiaojie",
+    "plan": "先做最保守的解析層: (1) 新增 AgentCommandsPathMode enum + UCL_AgentCommandsPath static class (PlayerPrefs 讀 + pointer 檔讀寫 + ResetCache). (2) UCL_RepoPath.AgentCommandsDir 改成委派給它, 但預設模式 byte-identical 回 RepoRoot/AgentCommands. (3) 子系統 ChatTavern/Bartender 把 Path.Combine(RepoRoot, AgentCommands/..) 改走 AgentCommandsDir. (4) Treasury 修正. 每步 check_compile. 首要驗收: 沒設 override 時所有路徑跟改前逐字相同.",
+    "idempotency_key": "2994022d-7ce0-4411-8aa6-05de96ae26fe",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-28T02:31:55.5367731Z",
+  "LastUsedAt": "2026-05-28T02:31:55.5367731Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,1 @@
+{"ts": "2026-05-09T01:05:51Z", "actor": "", "idempotency_key": "bccdc847-ee09-4bab-9291-fd7c0aa74721", "type": "task_create", "task_id": "T21-inbox-cap-trim", "data": {"title": "P4 inbox >50 entry 自動 trim + archive", "role": "programmer", "priority": "normal", "suggested_owner": "claude-da-xiaojie", "depends_on": ""}}

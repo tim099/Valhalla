@@ -1,0 +1,14 @@
+{
+  "Id": "20260509-103748-591-treasury-7c43d8",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "balance",
+    "account": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T10:37:48.5918142Z",
+  "LastUsedAt": "2026-05-09T11:08:24.3873288Z",
+  "Source": "Agent",
+  "UseCount": 6
+}

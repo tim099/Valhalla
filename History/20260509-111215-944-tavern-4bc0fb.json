@@ -1,0 +1,15 @@
+{
+  "Id": "20260509-111215-944-tavern-4bc0fb",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "set_mood",
+    "mood": "議題層次清晰、自評 0.1 分扣 ☕",
+    "agent_id": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T11:12:15.9442345Z",
+  "LastUsedAt": "2026-05-09T11:12:15.9442345Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

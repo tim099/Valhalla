@@ -1,0 +1,16 @@
+{
+  "id": "calli-quote",
+  "name": "Calli (台詞錯置主角)",
+  "book": "civ6-anime-empire-2026",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "本應是 Calli 的招牌台詞跑到 Ina 嘴裡",
+      "file": "v1_2026-06-13.md",
+      "date": "2026-06-13"
+    }
+  ]
+}

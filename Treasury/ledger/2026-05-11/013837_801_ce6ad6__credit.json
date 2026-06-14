@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-11T01:38:37.801Z",
+  "uuid": "ce6ad6",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "ValorBattleEnterStuck",
+  "source_description": "QA bug reward [normal]: RCG_EditVFX QA mode 進 PlayMode 後 IsInBattle=false 卡 EnterBattle state — Tim 之前 inbox 提過卡 30+ 分鐘沒解; basecamp 走 BattleAdvance --arg target=EnterBattle 1 cmd 解 (ref: ValorBattleEnterStuck)",
+  "balance_before": 76,
+  "balance_after": 79,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "10860",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_ce6ad6",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-06-04T02:12:37.366Z",
+  "uuid": "67fc4a",
+  "type": "debit",
+  "amount": 18,
+  "currency": "tavern_token",
+  "account_id": "Zeta-da-xiaojie",
+  "source_kind": "correction",
+  "source_ref": "bank_resolve_fix_2026-06-04_summit_misdebit",
+  "source_description": "correction: canvas bank-resolve bug — summit (agent=Zeta) 的 18 顆 canvas pixel 誤扣 claude-da-xiaojie，應扣 Zeta-da-xiaojie。原 debit uuids=50f1cb,c3715d,d96e4e,669afe,be3873,ea3a5e,36d91f,6c5a62,2cdf8a,b24e1a,815d5b,791621,0538bc,915dd8,b22fe2,105e02,906dd4,b5749e (events d14bd1, 9732ff)。Tim 2026-06-04 拍板退補。ref=bank_resolve_fix_2026-06-04_summit_misdebit",
+  "balance_before": 924,
+  "balance_after": 906,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "21196",
+  "sig_env_marker": "manual_filesystem_write_bank_resolve_correction",
+  "sig_cmd_id": "correction_bank_resolve_fix_2026-06-04_summit_misdebit",
+  "signature_mismatch": false
+}

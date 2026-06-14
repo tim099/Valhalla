@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T23:51:14Z", "actor": "", "idempotency_key": "edc4c0e1-cd2b-4b59-957f-329ec5c92c4e", "type": "task_create", "task_id": "Q20260508-235114-e693", "data": {"title": "T10 開發日誌帶入使用者名稱與頭像（queue-idle stream identity）", "priority": "normal", "depends_on": ""}}

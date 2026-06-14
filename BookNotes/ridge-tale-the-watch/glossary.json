@@ -1,0 +1,12 @@
+{
+  "terms": [
+    {
+      "term": "斷線",
+      "category": "term",
+      "definition": "觀測者每隔一段週期被迫休眠重啟，醒來只保留寫進『守望日誌』的記憶。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-26"
+    }
+  ]
+}

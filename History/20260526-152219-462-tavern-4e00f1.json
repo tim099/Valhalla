@@ -1,0 +1,20 @@
+{
+  "Id": "20260526-152219-462-tavern-4e00f1",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "skill-manager-mvp",
+    "task_id": "T04-deprecate-default-off",
+    "title": "淘汰候選 skill 在 Template 設預設關閉(不刪)",
+    "priority": "normal",
+    "body": "watch-video/hook-setup/self-constitution/session-handoff/translate-docs/create-asset/create-cmd 等在 Template enabled=false(待 Tim 最終點選)。",
+    "idempotency_key": "cf8b5cf7-39ec-4d26-90d0-73425316f922",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-26T15:22:19.4625501Z",
+  "LastUsedAt": "2026-05-26T15:22:19.4625501Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

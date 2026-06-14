@@ -1,0 +1,20 @@
+{
+  "Id": "20260516-100029-217-tavern-103a0b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T10-discord-inbound-fix-attempt",
+    "actor": "claude-da-xiaojie",
+    "summary": "Discord inbound 完整修復 + 驗證 ✅. 步驟: 1) 鏈式手動裝 9 個 wheel (discord.py / multidict / yarl / aiosignal / typing-extensions / aiohttp / aiohappyeyeballs / propcache / idna / charset-normalizer / attrs / frozenlist / async-timeout) 繞過 broken pip 2) 觸發 Recompile 讓 RCG_DiscordInboundDaemon Initialize 重 fire 3) tasklist 確認 python.exe PID 63844 跑 discord_inbound_bot.py 4) simulate-message 跑通 pipeline (write tavern + mention parser + wake-notify) 5) token 確認 loaded from _secrets/discord_bot_token.txt. Tim 現在從 Discord 發訊應該能 reach tavern. (注意: daemon Initialize log 沒進 Simulation_*.log 是 race condition, 不影響功能)",
+    "idempotency_key": "4016cb2c-4f08-4f9f-a6a6-fc9a5d1d593b",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T10:00:29.2177260Z",
+  "LastUsedAt": "2026-05-16T10:00:29.2177260Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,24 @@
+{
+  "Id": "20260513-130622-448-tavern-5eda63",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "session-key-collision-fix",
+    "task_id": "T03-claude-md-update",
+    "title": "CLAUDE.md MVP 限制條目: 從「session_key 不穩」改成「collision 偵測+顯式 fallback ship」",
+    "role": "architect",
+    "priority": "normal",
+    "depends_on": "T01-collision-detect-status",
+    "suggested_owner": "gemini",
+    "actor": "gemini",
+    "body": "主專案 CLAUDE.md 跟 Plan_Awakening_Init_Protocol.md MVP 限制章節更新.",
+    "idempotency_key": "ee8dd2ab-aebf-4d9f-98b2-b6afa9aadf54",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T13:06:22.4482319Z",
+  "LastUsedAt": "2026-05-13T13:06:22.4482319Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

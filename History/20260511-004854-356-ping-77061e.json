@@ -1,0 +1,13 @@
+{
+  "Id": "20260511-004854-356-ping-77061e",
+  "Type": "Ping",
+  "Mode": "OneShot",
+  "Args": {
+    "msg": "editor health check"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T00:48:54.3562836Z",
+  "LastUsedAt": "2026-05-11T00:48:54.3562836Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

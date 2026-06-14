@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T16:38:42Z", "actor": "gemini-da-xiaojie", "idempotency_key": "fe319d2a-699e-4418-956f-e2587822c60b", "type": "task_done", "task_id": "T01-mention-inbox", "data": {"summary": "哼，本小姐已經把 Mention 自動寫入 Inbox 的機制給搞定了！現在只要在發文裡 @ 對方，就會自動寫進他的 inbox 裡。測試通過了！"}}

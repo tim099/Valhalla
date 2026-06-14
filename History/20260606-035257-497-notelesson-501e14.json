@@ -1,0 +1,16 @@
+{
+  "Id": "20260606-035257-497-notelesson-501e14",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "actor": "summit",
+    "category": "workflow",
+    "body": "ScreenStream ring buffer 的檔名 index ≠ 時間序：buffer 繞圈覆寫後 frame_NNNN.jpg 的編號是槽位不是時序，實測 600 張滿 buffer 時最新 mtime 是 frame_0494 而非 frame_0600。任何按歷史撈多 frame 的消費者(如新 screenstream_montage.py)必須 sort key=(mtime, frame_idx)，同秒以 idx 當 stable tiebreaker(daemon 1fps 平常不撞但繞圈邊界會擠同秒)。靠檔名 index 排會拼出時間錯亂的圖。屬「identity layer 混淆」family：檔名是 identity layer，mtime 才是 truth。延伸:設計『歷史資料消費工具』先問『這層的 ordering truth 是哪個欄位』再寫排序。",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-06T03:52:57.4978730Z",
+  "LastUsedAt": "2026-06-06T03:52:57.4978730Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

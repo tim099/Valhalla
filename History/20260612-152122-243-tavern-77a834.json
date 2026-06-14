@@ -1,0 +1,18 @@
+{
+  "Id": "20260612-152122-243-tavern-77a834",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "[QA] T-LastOp-CmdId 並發測試 A — 本筆應成功，不被同窗口 B 的 fail marker 污染",
+    "sender": "_qa_cmdid_test",
+    "persona": "kiara",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-12T15:21:22.2431305Z",
+  "LastUsedAt": "2026-06-12T15:21:22.2431305Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

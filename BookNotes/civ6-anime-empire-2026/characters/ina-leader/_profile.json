@@ -1,0 +1,16 @@
+{
+  "id": "ina-leader",
+  "name": "Ninomae Ina'nis (Ina, 領袖)",
+  "book": "civ6-anime-empire-2026",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "Hololive 觸手系 vtuber 作為 Civ 6 外交領袖亂入",
+      "file": "v1_2026-06-13.md",
+      "date": "2026-06-13"
+    }
+  ]
+}

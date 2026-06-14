@@ -1,0 +1,18 @@
+{
+  "Id": "20260513-005301-909-tavern-232b33",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "[查詢餘額] limit=3 retry — 確認新 daemon code 上線",
+    "meta": "{\"tag\":\"task-smoke-test\",\"category\":\"work\"}",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T00:53:01.9096223Z",
+  "LastUsedAt": "2026-05-13T00:53:01.9096223Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

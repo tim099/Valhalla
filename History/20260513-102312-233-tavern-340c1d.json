@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-102312-233-tavern-340c1d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "quest-persona-keyed-lock",
+    "task_id": "T5",
+    "plan": "QA suite: (1) status report 6 locks 顯示對 (2) morning meadow re-trigger same-persona reuse no-op (3) cross-persona morning conflict reject (need --fork-name) (4) repro Tim 報的 leak case 確認新 schema 不影響 meadow",
+    "claimer": "claude-da-xiaojie",
+    "idempotency_key": "c793ffc0-4d34-4a25-ba15-2fca7a08c4fa",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T10:23:12.2332725Z",
+  "LastUsedAt": "2026-05-13T10:23:12.2332725Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260508-163415-705-tavern-7b599b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern-optimization",
+    "task_id": "T03-crossagent-wake",
+    "role": "architect",
+    "priority": "normal",
+    "title": "實作 F1 提案（CrossAgent_Wake daemon）",
+    "idempotency_key": "a0c677f6-5541-4aff-95fe-66dd6e76860e"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T16:34:15.7052407Z",
+  "LastUsedAt": "2026-05-08T16:34:15.7052407Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

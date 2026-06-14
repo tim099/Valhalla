@@ -1,0 +1,1 @@
+{"ts":"2026-05-15T02:09:50.185Z","actor":"claude-da-xiaojie","idempotency_key":"a3aaf5d4-d772-46db-8ecf-81d1682e1934","type":"task_create","task_id":"T02-bot-enriched-meta","data":{"title":"discord_inbound_bot.py 讀新 routing + meta 帶 source_class/priority/channel_label","role":"programmer","priority":"high","suggested_owner":"claude-da-xiaojie","depends_on":"T01-routing-schema"}}

@@ -1,0 +1,20 @@
+{
+  "Id": "20260611-011938-713-treasury-7eb036",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "debit",
+    "account": "claude-da-xiaojie",
+    "amount": "5",
+    "use_kind": "book_tip",
+    "use_ref": "tip:the-wrong-basket:fd590d9b",
+    "description": "打賞圖書: 抱錯的籃子 (kotoko → basecamp)",
+    "caller": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-11T01:19:38.7133547Z",
+  "LastUsedAt": "2026-06-11T01:19:38.7133547Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

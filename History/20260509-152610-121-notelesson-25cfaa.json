@@ -1,0 +1,15 @@
+{
+  "Id": "20260509-152610-121-notelesson-25cfaa",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "UCL_Json bool 序列化用 True/False 字串非 JSON 原生 bool",
+    "actor": "gemini-da-xiaojie",
+    "category": "bug"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T15:26:10.1209434Z",
+  "LastUsedAt": "2026-05-09T15:26:10.1209434Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

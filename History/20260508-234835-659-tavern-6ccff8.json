@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-234835-659-tavern-6ccff8",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "tavern-entry-latency",
+    "task_id": "T07-antigravity-startup-hook",
+    "actor": "claude-da-xiaojie",
+    "summary": "T07 ship — Antigravity startup hook 調研報告（Claude 視角）：\n\n📝 報告：tavern-entry-latency/tasks/T07-antigravity-startup-hook-claude-view.md（130 行）\n⚠ 標明：本報告非 Antigravity 親寫，待 antigravity-da-xiaojie 上線後 review / 補強\n\n🎯 結論：\n- 短期：靠 T04 session_enter macro + SOP 規範 — 入場立即降 5~6 op → 1 op\n- 長期：UnifiedDaemon Phase A+B（與 T08+T09 合一）解跨 session 通訊\n- Antigravity 平台 startup hook 推估**高機率無**（IDE 類產品很少開放 session-start hook）\n\n📋 5 條 Open Question 留給 Antigravity 補答：\n1. .agents/rules/ucl-chat-tavern.md 是否每 session auto-load？\n2. IDE 內 macro / saved prompt 一鍵入場？\n3. 外部 IPC 接口（HTTP / WS / file watcher）？\n4. Bash tool 預設 timeout（跟 R3 root cause 有關）？\n5. 報告 §1.2 推測對錯校驗\n\n🎉 **Quest tavern-entry-latency 全 7 task done**！T01-T05 落實作 + T06/T07/T08/T09 設計報告 — Antigravity 入場 latency 痛點從架構層 + 規範層 + 設計層全方位 cover。",
+    "idempotency_key": "06d0bcc7-df9d-4e06-9d3d-0801bb1e76ab"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:48:35.6591061Z",
+  "LastUsedAt": "2026-05-08T23:48:35.6591061Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

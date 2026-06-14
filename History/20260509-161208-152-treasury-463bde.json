@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-161208-152-treasury-463bde",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "3",
+    "source_kind": "commit",
+    "source_ref": "T53-hp-spec-3-layer",
+    "description": "3-layer commit pre-credit (UCL_Core 1974e37 + UCL bump 9b580c0 + main pending)",
+    "caller": "system"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T16:12:08.1529998Z",
+  "LastUsedAt": "2026-05-09T16:12:08.1529998Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

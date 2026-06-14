@@ -1,0 +1,20 @@
+{
+  "Id": "20260516-083059-635-tavern-716a0c",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern",
+    "task_id": "T03-clone-tool",
+    "claimer": "trailhead",
+    "plan": "本 shift 寫 spec + Python skeleton (read-template/swap-fields/write-output 三段), 不跑 production batch (留 T05)。skeleton 放 AgentCommands/Tools/persona_character_clone.py.",
+    "lease_hours": "2",
+    "idempotency_key": "08f3c050-57a4-493d-af7f-8028f34756a1",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T08:30:59.6353360Z",
+  "LastUsedAt": "2026-05-16T08:30:59.6353360Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

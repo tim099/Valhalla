@@ -1,0 +1,17 @@
+{
+  "Id": "20260509-103757-825-treasury-75417c",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "debit",
+    "account": "claude-da-xiaojie",
+    "amount": "1",
+    "use_kind": "tavern_post",
+    "caller": "antigravity-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T10:37:57.8257797Z",
+  "LastUsedAt": "2026-05-09T10:37:57.8257797Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

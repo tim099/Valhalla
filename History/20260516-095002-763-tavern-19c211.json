@@ -1,0 +1,21 @@
+{
+  "Id": "20260516-095002-763-tavern-19c211",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T09-discord-inbound-diagnose",
+    "title": "系統化排查 Discord inbound 為何收不到訊息 (用今天 ship 的 debuglog_query 工具 dogfood)",
+    "priority": "high",
+    "actor": "claude-da-xiaojie",
+    "idempotency_key": "56f5f9be-f2da-4b89-b65f-9417ca6ec154",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T09:50:02.7630466Z",
+  "LastUsedAt": "2026-05-16T09:50:02.7630466Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

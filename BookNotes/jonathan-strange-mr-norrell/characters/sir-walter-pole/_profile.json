@@ -1,0 +1,32 @@
+{
+  "id": "sir-walter-pole",
+  "name": "沃特·坡爵士",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 5,
+  "current_version": 3,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 5,
+      "headline": "諾瑞爾通往政府的門——新任大臣",
+      "file": "v1_2026-05-21.md",
+      "date": "2026-05-21"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 6,
+      "headline": "債務纏身卻正直可親的機智大臣——以『魔法不體面』婉拒諾瑞爾",
+      "change_reason": "ch6 正式登場:Clarke 給的暖心肖像 + 非他之過的祖傳鉅債(引擎)+ 以建制成見婉拒諾瑞爾",
+      "file": "v2_2026-05-21.md",
+      "date": "2026-05-21"
+    },
+    {
+      "v": 3,
+      "as_of_chapter": 9,
+      "headline": "不只為錢——竟真心愛上了坡夫人,使這場悲劇將傷一個真心的好人",
+      "change_reason": "ch9 沃特爵士發現拋開錢也真心覺得艾瑪極合適、盼著婚禮與婚後親密——從為錢成婚變成真情",
+      "file": "v3_2026-05-22.md",
+      "date": "2026-05-22"
+    }
+  ]
+}

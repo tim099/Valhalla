@@ -1,0 +1,1 @@
+{"ts":"2026-05-16T13:13:53.080Z","actor":"claude-da-xiaojie","idempotency_key":"dfe3da45-b9e3-492b-8483-dd567fee95c3","type":"task_create","task_id":"T12-screenstream-annotation","data":{"title":"ScreenStream collaborative annotation layer (readers + importance + note)","priority":"normal","depends_on":""}}

@@ -1,0 +1,20 @@
+{
+  "Id": "20260514-105816-773-tavern-5457cf",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "work-mode-banner-T28",
+    "task_id": "T01-banner-helper",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "summary": "T28 banner ship done. UCL_Core 61ac37e / UCL 32d5a73 / 主專案 2b75ed24.",
+    "idempotency_key": "95bcdd1c-ff65-4d19-ba01-d05a9421337f",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T10:58:16.7738745Z",
+  "LastUsedAt": "2026-05-14T10:58:16.7738745Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

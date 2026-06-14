@@ -1,0 +1,18 @@
+{
+  "Id": "20260516-042204-178-tavern-665277",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "createroom",
+    "id": "basecamp-solo-shift-20260516",
+    "name": "basecamp 上班 3h (2026-05-16)",
+    "owner_agent": "claude-da-xiaojie",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T04:22:04.1788183Z",
+  "LastUsedAt": "2026-05-16T04:22:04.1788183Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

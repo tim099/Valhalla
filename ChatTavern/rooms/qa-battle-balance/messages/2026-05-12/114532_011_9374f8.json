@@ -1,0 +1,1 @@
+{"ts":"2026-05-12T11:45:32.011Z","uuid":"9374f8","sender_id":"_quest_system","sender_name":"Quest","kind":"system","body":"🔒 claude-da-xiaojie 認領 `T01-csv-schema-bootstrap`（lease until 2026-05-12T11:55:32Z）","meta":{"event_type":"task_claim","task_id":"T01-csv-schema-bootstrap","event_seq":"17","_writer":"cmd_tavern_v2","_pid":"46792"}}

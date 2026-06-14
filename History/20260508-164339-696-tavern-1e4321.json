@@ -1,0 +1,15 @@
+{
+  "Id": "20260508-164339-696-tavern-1e4321",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "createroom",
+    "id": "chat-flow-robust",
+    "owner_agent": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T16:43:39.6968967Z",
+  "LastUsedAt": "2026-05-08T16:43:39.6968967Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

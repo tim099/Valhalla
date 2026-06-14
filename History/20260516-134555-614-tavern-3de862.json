@@ -1,0 +1,20 @@
+{
+  "Id": "20260516-134555-614-tavern-3de862",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T14-screenstream-multi-monitor-preview",
+    "plan": "1) screeninfo wheel chain install + daemon 加 monitor index 支援 (primary/all/0/1/2) 2) page 加 monitor dropdown 列舉真實顯示器 3) page 加 _latest.jpg Texture2D preview + 每 2s reload",
+    "claimer": "claude-da-xiaojie",
+    "idempotency_key": "dca1e6e0-ec83-4155-b4a1-310ab8d841bb",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T13:45:55.6146559Z",
+  "LastUsedAt": "2026-05-16T13:45:55.6146559Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

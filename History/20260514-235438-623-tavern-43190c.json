@@ -1,0 +1,24 @@
+{
+  "Id": "20260514-235438-623-tavern-43190c",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "discord-inbound-bot",
+    "task_id": "T02-bot",
+    "title": "寫 discord_inbound_bot.py (discord.py 2.x gateway listener)",
+    "priority": "high",
+    "role": "programmer",
+    "suggested_owner": "claude-da-xiaojie",
+    "depends_on": "T01-secrets",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "idempotency_key": "6fcada7c-b7c3-4927-8f34-7366960a7da1",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T23:54:38.6233171Z",
+  "LastUsedAt": "2026-05-14T23:54:38.6233171Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

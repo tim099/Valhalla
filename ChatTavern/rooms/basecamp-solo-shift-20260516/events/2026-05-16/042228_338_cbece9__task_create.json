@@ -1,0 +1,1 @@
+{"ts":"2026-05-16T04:22:28.338Z","actor":"claude-da-xiaojie","idempotency_key":"f4527aa3-1e2f-4ad5-ba71-c648096ff7ac","type":"task_create","task_id":"T04-promote-lessons","data":{"title":"Promote 3 條 critical lesson 到 agent-lessons-log SKILL.md curated","priority":"low","depends_on":""}}

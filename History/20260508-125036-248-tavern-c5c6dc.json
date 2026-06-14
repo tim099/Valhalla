@@ -1,0 +1,19 @@
+{
+  "Id": "20260508-125036-248-tavern-c5c6dc",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "agent-prompt-queue",
+    "task_id": "Q20260508-125035-220d",
+    "title": "設計 stale lease / force_reclaim — agent 中斷後 task 卡死防護",
+    "priority": "high",
+    "body": "# Queued prompt — `Q20260508-125035-220d`\n\n_priority: high / queued_at: 2026-05-08T12:50:35.717249Z_\n\n## 原始指令\n\n設計：休眠 agent 卡死 task 的 timeout / force_reclaim 機制\n\n## 痛點\nTim 擔憂的場景：\n- Agent A claim 了 task X 後 session 結束 / 當機 / 改去做別事 → task X 永久卡在 status=claimed\n- 沒人接手 / Tim 也沒注意 → 整個 quest 流程卡住，下游全 blocked\n- 特別是 agent-assist 自動 claim 機制上線後（agent ↔ agent 互相派發），這個風險急遽放大\n\n## R4 已奠定的基礎\nR4 P1 已實作 write-before-validate + claim 衝突 inbox 建議。\nR4 文件 §11 / §12 提到：\n- `lease_until` 24h 已寫入每筆 task_claim event 的 data\n- `is_stale = true` lazy 偵測（lease_until < now 標記，但只在 task_list 顯示時才算）\n- `task_force_reclaim` op 推延到 Phase B（R4 沒實作）\n\n→ 機制有，op 沒寫；要把 Phase B 的 force_reclaim 從推延變實作。\n\n## 建議方向\n\n### 方向 A. 顯式 force_reclaim op（lazy 模式）\n- 新 op `task_force_reclaim` — 由「想接手的人」主動跑\n- 條件：lease_until 已過 + 距 owner 任何 op > 24h（雙重 grace）\n- 寫一筆 force_reclaim event → reducer 把 owner 換成新人\n- 失敗條件：原 owner 在過去 24h 內仍有任何 tavern op → reject「人還活著」\n- 配套：`task_list status=stale` 已可用 → agent 自律先看 stale list 再 reclaim\n\n優點：lazy / 顯式 / 可審計\n缺點：仍需「想接手的人」主動跑 — 如果整個 quest 沒人關注，還是卡\n\n### 方向 B. 自動 force_reclaim（Stop hook 整合）\n- agent-assist Stop hook 加：先掃所有自己關心的房 task_list status=stale\n- 找到 → 自動跑 task_force_reclaim claimer=<我> → 把 task 拉回自己手上\n- 風險：兩個 agent 同時看到 stale 都搶 → 第二個被 R4 P1 conflict UX 擋下，寫 inbox 建議跑 task_next（OK 不會永久卡）\n\n優點：完全自動，Tim 不必介入\n缺點：force_reclaim 條件要嚴（不然好人正在 thinking 也被搶）\n\n### 方向 C. last_active timestamp 而非 lease 計時\n- 改用「owner 最後一次跑任何 tavern op 的時間」當判斷基準（而非 claim 時定的 lease_until）\n- agent 跑 events_since / inbox_read / task_progress / 任何 op 都更新自己 identities.json 的 `last_active_at`\n- task 看 owner 的 last_active：若 > 24h 沒動 → 標 stale；> 48h 沒動 → 開放 force_reclaim\n\n優點：最貼近「人是不是真的活著」的物理意義\n缺點：需要記錄每個 agent 的 last_active；多一份 derived state\n\n### 方向 D. 二層 lease（短 lease + 長 lease）\n- claim 時定短 lease（4h，「我這個 turn 可能要做完」）\n- agent 每次 progress 自動展期到 4h\n- 長 lease 24h 是死線：若 4h 內沒 progress + 24h 內沒任何 op → 強制 stale\n- task_force_reclaim 條件：短 lease 過 + 長 lease 也過\n\n優點：給「短時間集中做」的場景靈活，給「真的離開」嚴格保護\n缺點：兩層 lease 概念複雜\n\n## 預期 deliverable\n1. 設計選一條（建議：方向 B + C 結合 — last_active 當依據，自動 force_reclaim 在 hook 內）\n2. 實作：\n   - `task_force_reclaim` op (Cmd_Tavern.cs)\n   - `last_active_at` 寫進 identities.json（每個 op handler 結尾更新呼叫者的 last_active）\n   - reducer 加 stale 偵測（既有 is_stale 已是基礎）\n   - agent-assist hook 加 stale 自動接管邏輯\n3. 文件：\n   - Quest_Workflow.md §11 把 force_reclaim 從 Phase B 推到 Phase A\n   - 新 §17 Stale Detection & Recovery（或寫進 §12 race condition 旁邊）\n4. 測試：\n   - 模擬 agent 中途消失（Editor 關閉 / 手動改 last_active 倒退時間）\n   - 確認另一個 agent 進房能順利接手\n\n## 跟其他 task 的關係\n- 跟 `Q20260508-124152-d570`（agent 自動協助）強相關 — 自動 claim 上線前必須先解這個\n- 跟 R4 P1 衝突 UX 互補 — P1 是「同時搶」，這個是「搶完不做」\n- 跟 R4 P2 cross-room handoff 弱相關 — cross-room 也可能卡 stale，但 MVP 不必綁\n\n## Notes\n- 優先度：**high** — agent-assist 上線前必須解，否則自動派發機制會放大卡死風險\n- 不要 over-engineer：MVP 走方向 A（顯式 force_reclaim op）+ B 一半（Stop hook 偵測但只印警告，不自動接管） — 留人為決策節點\n- 建議跟 agent-assist 設計合併考慮（兩個 task 可能合一個 quest 房做）\n\n---\n_完成本任務後請跑：_\n`python AgentCommands/PromptQueue/qdone.py Q20260508-125035-220d`\n_否則 qdrain hook 不會進下一輪。_",
+    "idempotency_key": "8f4054ba-2824-4eaa-b2c8-e90384adfab0"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T12:50:36.2489933Z",
+  "LastUsedAt": "2026-05-08T12:50:36.2489933Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,18 @@
+{
+  "Id": "20260514-103651-778-notelesson-7d19d9",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "actor": "claude-da-xiaojie",
+    "persona": "calli",
+    "title": "tavern body 含 backtick 被 bash 吞字",
+    "body": "run_cmd.py 走 bash --arg body=雙引號 時, 內含 backtick 會被當 command substitution 執行掉, 字串裡關鍵術語整段消失。今日 ding skill task 兩次踩同坑 (skill_doc_patch / subconscious.py audit-skill 都被吞)。Fix: 用 single quotes 包 --arg, 或改全形 backtick, 或走 PowerShell single-quote here-string。",
+    "tags": "bash,shell-escape,tavern,backtick",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T10:36:51.7788418Z",
+  "LastUsedAt": "2026-05-14T10:45:04.7010680Z",
+  "Source": "Agent",
+  "UseCount": 2
+}

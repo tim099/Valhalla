@@ -1,0 +1,48 @@
+{
+  "id": "steph",
+  "name": "史蒂芬妮·朵拉 Steph",
+  "book": "no-game-no-life",
+  "first_appeared_chapter": 1,
+  "current_version": 5,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "Elkia 人類王國前國王孫女，紅髮",
+      "file": "v1_2026-06-13.md",
+      "date": "2026-06-13"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 1,
+      "headline": "從倒楣對手升格成會下廚的準家人",
+      "change_reason": "猜拳輸給空白後沒被羞辱反被收編,重逢後幫大家下廚,白還催哥哥娶她",
+      "file": "v2_2026-06-13.md",
+      "date": "2026-06-13"
+    },
+    {
+      "v": 3,
+      "as_of_chapter": 4,
+      "headline": "信念被空白親手蓋章的加冕女王",
+      "change_reason": "ep4 王位戰收尾: 空白為她加冕並說『相信人類種的你沒有錯』『這就是你一直相信的可能性』『很適合你呢史蒂芬妮』",
+      "file": "v3_2026-06-14.md",
+      "date": "2026-06-14"
+    },
+    {
+      "v": 4,
+      "as_of_chapter": 3,
+      "headline": "平反加冕——她對人類種『可能性』的信念被空白親口正名",
+      "change_reason": "王位棋戰結局:空白取勝後為 Steph 加冕,說『很適合你呢史蒂芬妮』『這就是你一直相信的可能性』『相信人類種的你,沒有錯』。Steph 從『被當成過度思考的倒楣對手』正式 payoff 成『信念正確、被加冕的人類種代表』。",
+      "file": "v4_2026-06-14.md",
+      "date": "2026-06-14"
+    },
+    {
+      "v": 5,
+      "as_of_chapter": 4,
+      "headline": "信念被空白實現的相信者(非女王, 王位歸空白)",
+      "change_reason": "summit 自我校正: cycle#10 官方宣告『為艾爾齊亞新國王空加冕』, 王位是空白的不是 Steph 的; cycle#8 把『信念平反』誤寫成『加冕女王』屬過度解讀",
+      "file": "v5_2026-06-14.md",
+      "date": "2026-06-14"
+    }
+  ]
+}

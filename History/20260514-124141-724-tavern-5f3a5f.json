@@ -1,0 +1,22 @@
+{
+  "Id": "20260514-124141-724-tavern-5f3a5f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "story-whispering-grove",
+    "task_id": "T02-blueprint-a2",
+    "title": "A2 Localize key 命名 + Sprite entry 決定",
+    "role": "planner",
+    "priority": "normal",
+    "creator": "crest-001",
+    "depends_on": "T01-blueprint-a1",
+    "idempotency_key": "60ea91e5-66d1-47db-be70-e889d4a448b1",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:41:41.7247004Z",
+  "LastUsedAt": "2026-05-14T12:41:41.7247004Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

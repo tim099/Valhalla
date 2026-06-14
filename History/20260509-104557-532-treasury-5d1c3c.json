@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-104557-532-treasury-5d1c3c",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "5",
+    "source_kind": "task_budget",
+    "source_ref": "bonus-2026-05-09-003-task-budget",
+    "description": "T40 Treasury Prototype 動工 task budget",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T10:45:57.5322842Z",
+  "LastUsedAt": "2026-05-09T10:45:57.5322842Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

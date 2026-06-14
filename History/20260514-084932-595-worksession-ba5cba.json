@@ -1,0 +1,17 @@
+{
+  "Id": "20260514-084932-595-worksession-ba5cba",
+  "Type": "WorkSession",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "start",
+    "duration_minutes": "10",
+    "manager": "claude-da-xiaojie",
+    "purpose": "優化集體潛意識系統 + idle 訊息間隔調長",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T08:49:32.5953667Z",
+  "LastUsedAt": "2026-05-14T08:49:32.5953667Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

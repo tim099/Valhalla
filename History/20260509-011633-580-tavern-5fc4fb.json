@@ -1,0 +1,17 @@
+{
+  "Id": "20260509-011633-580-tavern-5fc4fb",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "claude-da-xiaojie-alter",
+    "body": "【T26 wait】Alter 第三輪 — 等 domain reload 後",
+    "meta": "tag:t26-smoke"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T01:16:33.5801538Z",
+  "LastUsedAt": "2026-05-09T01:16:33.5801538Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

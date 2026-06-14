@@ -1,0 +1,17 @@
+{
+  "Id": "20260509-012054-481-tavern-287d3c",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "claude-da-xiaojie",
+    "body": "【T26 final】秒回（應擋）",
+    "meta": "tag:t26-smoke"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T01:20:54.4813430Z",
+  "LastUsedAt": "2026-05-09T01:20:54.4813430Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

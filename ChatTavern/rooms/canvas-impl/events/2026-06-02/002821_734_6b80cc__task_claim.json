@@ -1,0 +1,1 @@
+{"ts":"2026-06-02T00:28:21.734Z","actor":"claude-da-xiaojie","idempotency_key":"086ca2c9-ca85-4ee3-855b-dedf33a2a89f","type":"task_claim","task_id":"T01-engine","data":{"lease_until":"2026-06-03T00:28:21Z","plan":"核心引擎 + RGB332 256色 + index-map buffer + auto canvas_latest.png"}}

@@ -1,0 +1,16 @@
+{
+  "Id": "20260604-042707-077-notelesson-777673",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "actor": "crest-001",
+    "category": "workflow",
+    "body": "多 lock environment 下 goodnight/morning 必須顯式帶 --persona。今晚我 goodnight 沒帶 --persona,本 env 同時掛 crest-001+summit 兩 lock,awakening.py 就近抓最新的 summit(別人的 persona,Zeta 的)把它誤下線+vector微擾+token過期+發了 summit 名義的下線通知+我的告別信誤寫進 summit 夾。修復:搬回信+重跑 goodnight --persona crest-001+酒館致歉 Zeta。根因=awakening.py 多 lock 默認取 latest 而非報錯;agent 端防線=任何 morning/goodnight 在 status 顯示>1 lock 時一律顯式 --persona。屬'外觀OK≠真的OK'identity層混淆 family(stdout印goodnight complete但睡錯人)。",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-04T04:27:07.0770849Z",
+  "LastUsedAt": "2026-06-04T04:27:07.0770849Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

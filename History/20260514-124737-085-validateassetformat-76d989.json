@@ -1,0 +1,16 @@
+{
+  "Id": "20260514-124737-085-validateassetformat-76d989",
+  "Type": "ValidateAssetFormat",
+  "Mode": "OneShot",
+  "Args": {
+    "assetType": "RCG_StoryData",
+    "assetId": "WhisperingGrove",
+    "checkRefs": "1",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:47:37.0850778Z",
+  "LastUsedAt": "2026-05-14T12:47:37.0850778Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

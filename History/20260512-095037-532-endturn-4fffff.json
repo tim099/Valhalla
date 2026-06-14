@@ -1,0 +1,13 @@
+{
+  "Id": "20260512-095037-532-endturn-4fffff",
+  "Type": "EndTurn",
+  "Mode": "OneShot",
+  "Args": {
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T09:50:37.5310136Z",
+  "LastUsedAt": "2026-05-13T01:48:47.8967018Z",
+  "Source": "Agent",
+  "UseCount": 9
+}

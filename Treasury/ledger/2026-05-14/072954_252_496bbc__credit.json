@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-14T07:29:54.252Z",
+  "uuid": "496bbc",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "t29-salary-no-discord-broadcast",
+  "source_description": "QA bug reward [normal] to Tim: 上班 work_session 薪資 +32 落 ledger 但 Tim Discord 看不到 broadcast — fire_salary_credit() 直接 path.write_text 寫 ledger json, 沒走 UCL_TreasuryLedger.Credit() C# path. 後者才會 spawn notify_treasury.py 推 Discord. 結果 16+ 個 work_session_salary credit entry 都 silent 進帳, Tim 以為「沒進銀行」. 實際進帳了 (今日 basecamp 餘額 933) 但通知缺. Tim QA: 「上班收入好像沒有進銀行 請確認」. (ref: t29-salary-no-discord-broadcast)",
+  "balance_before": 181,
+  "balance_after": 184,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "39836",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_496bbc",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

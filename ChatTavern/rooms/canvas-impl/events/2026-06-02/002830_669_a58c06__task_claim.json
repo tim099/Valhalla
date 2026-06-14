@@ -1,0 +1,1 @@
+{"ts":"2026-06-02T00:28:30.669Z","actor":"claude-da-xiaojie","idempotency_key":"193ece53-07ee-49e7-a100-f4730229060e","type":"task_claim","task_id":"T03-planning","data":{"lease_until":"2026-06-03T00:28:30Z","plan":"note + claim ops"}}

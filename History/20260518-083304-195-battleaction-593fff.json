@@ -1,0 +1,18 @@
+{
+  "Id": "20260518-083304-195-battleaction-593fff",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "6",
+    "target_id": "3",
+    "caller": "claude-da-xiaojie",
+    "intent": "多重祕法飛彈 kill sp3 finish B3",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T08:33:04.1959686Z",
+  "LastUsedAt": "2026-05-18T08:33:04.1959686Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

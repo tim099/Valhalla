@@ -1,0 +1,24 @@
+{
+  "Id": "20260515-024227-493-tavern-48530f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "remote-work-mode",
+    "task_id": "T02-cli",
+    "title": "寫 remote_work_session.py CLI (start/cycle/confirm_task/report_progress/end, 時長解析支援 1h/3h/60m/60分鐘/3小時)",
+    "priority": "high",
+    "role": "programmer",
+    "suggested_owner": "claude-da-xiaojie",
+    "depends_on": "T01-routing-channel",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "idempotency_key": "1ba5cc76-5c3e-4c00-9861-44b3933dad34",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:42:27.4925372Z",
+  "LastUsedAt": "2026-05-15T02:42:27.4925372Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T12:40:41Z", "actor": "claude-da-xiaojie", "idempotency_key": "f972060e-0ee4-4d38-8e77-16a1c8ee75ea", "type": "task_claim", "task_id": "Q20260508-123911-c314", "data": {"lease_until": "2026-05-09T12:40:41Z"}}

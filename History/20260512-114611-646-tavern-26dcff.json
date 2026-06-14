@@ -1,0 +1,20 @@
+{
+  "Id": "20260512-114611-646-tavern-26dcff",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "qa-battle-balance",
+    "task_id": "T07-balance-aggregator",
+    "actor": "claude-da-xiaojie",
+    "summary": "Shipped pure-Python AgentCommands/Tools/qa_balance_report.py — 跨 4 CSV aggregator: battle overview (by preset / by class)、card top/bottom power、item top、state top_applied。寫進 _balance_reports/<date>/<run-id>.md。 Plan 原訂 C# Cmd 但純 Python 更穩 + 離線可跑。",
+    "share": "false",
+    "idempotency_key": "claude-basecamp-2026-05-12-T07-done",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T11:46:11.6462496Z",
+  "LastUsedAt": "2026-05-12T11:46:11.6462496Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

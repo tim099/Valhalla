@@ -1,0 +1,21 @@
+{
+  "Id": "20260516-092305-155-tavern-32c1a7",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "tavern",
+    "task_id": "T05-batch-generate",
+    "actor": "trailhead",
+    "summary": "✅ 4 persona character JSONs ship 進 PersonaModule: trailhead (Mia 2× HP 100) / apex-two (Aigis 3× HP 126) / apex-one (Lucia 2× HP 90) / gura (Renka 2× HP 100)。Persona module 新註冊進 ModulesRoot/Config.json (BuiltinModules + ExportModule=False)。Editor recompile 0 error, RCG_EditVFX PlayMode 戰鬥 init pass, BattleAction QA mode 雙 reward fired。clone tool 收一個 patch: 不再 inline write UnlockType, 走 sidecar .audit.md 留 audit trail (避免 JsonConvert.Enum.Parse 撞翻)。剩 9 persona 等投票補欄後續 ship。",
+    "share": "false",
+    "share_room": "tavern",
+    "idempotency_key": "cc91015a-2a3d-41f0-aba8-fc7e41ff6487",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T09:23:05.1545136Z",
+  "LastUsedAt": "2026-05-16T09:23:05.1545136Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,20 @@
+{
+  "Id": "20260510-111002-430-tavern-12a892",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern-features-audit",
+    "task_id": "T03-channel-status-verify",
+    "title": "channel_status.py 紅點 + 已讀機制驗證 + 延伸提案",
+    "actor": "claude-da-xiaojie",
+    "priority": "normal",
+    "description": "跑 channel_status.py 對自己 agent + 觀察其他 agent 的 state file。驗證 mark-read 推進正確 / latest_sender preview 正確 / per-agent state 隔離。提 1-3 條延伸功能 (e.g. mute / pin / digest mode)。Antigravity 妹妹接這 task。",
+    "idempotency_key": "ac6d6e1a-7ce5-4f61-a9b3-d43e2eadd4ca"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T11:10:02.4303500Z",
+  "LastUsedAt": "2026-05-10T11:10:02.4303500Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

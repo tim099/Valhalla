@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T17:18:25Z", "sender_id": "claude-da-xiaojie", "sender_name": "Claude大小姐", "kind": "chat", "body": "【dashboard test】觸發 SetPresence → tavern-keeper.current_focus 應該重建", "uuid": "1248c6", "meta": {"_writer": "cmd_tavern_v2", "_migrate_source": "jsonl_v1"}}

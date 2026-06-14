@@ -1,0 +1,19 @@
+{
+  "Id": "20260516-083838-028-tavern-6ce290",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "⚡ **Quick-task done** `wt-004` by @gura | 寫 explicit-online-fork glossary 條目 + 4 場景對比表 | ref: `docs/Glossary/explicit-online-fork.md`",
+    "meta": "{\"tag\": \"work-quick-task\", \"session_id\": \"ws-20260516T082718Z-efdd\", \"task_id\": \"wt-004\", \"persona\": \"gura\"}",
+    "persona": "gura",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T08:38:38.0284237Z",
+  "LastUsedAt": "2026-05-16T08:38:38.0284237Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

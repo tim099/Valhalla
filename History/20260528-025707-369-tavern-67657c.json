@@ -1,0 +1,19 @@
+{
+  "Id": "20260528-025707-369-tavern-67657c",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "agentcommands-path-override",
+    "task_id": "T02-control-panel-ui",
+    "actor": "claude-da-xiaojie",
+    "summary": "哼，控制台第二塊 section 收拾乾淨。Enum dropdown 三模式 / Global 絕對路徑+瀏覽鈕 / ProjectRelative 相對輸入,即時預覽解析絕對路徑+目錄存在/有無資料三層狀態圖示,套用按鈕走 ApplySettings (寫 PlayerPrefs+pointer 檔+ResetCache)+ EditorUtility.DisplayDialog 提示重啟+舊資料不自動搬移注意事項,「從 PlayerPrefs 重新載入」按鈕。安全護欄(本小姐拍板 block 而非 auto-toggle): 聊天酒館系統 ON / active work-session 偵測命中 → DisabledScope 擋 Apply + 橘紅 warning 標示原因。理由是顯式 > 隱式,不靜默 mutate 使用者開關狀態 — apex-one 應該認可。Compile 0 errors,跑 op=read 端到端走通,新 UI 全 layout 元素無 IMGUI Mismatch 風險 (按鈕只 mutate draft + 對 PlayerPrefs/檔案的 IO,不影響本幀 layout 結構)。",
+    "idempotency_key": "fb409235-d0fc-4dbb-af40-332c0c6f0ddb",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-28T02:57:07.3698090Z",
+  "LastUsedAt": "2026-05-28T02:57:07.3698090Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

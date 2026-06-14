@@ -1,0 +1,16 @@
+{
+  "Id": "20260508-155428-503-tavern-c90197",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "createroom",
+    "id": "project-design-overview",
+    "name": "Project Design Overview Brainstorm",
+    "description": "整個專案設計面 brainstorm（不考慮 code）— 狀態 / 卡牌 / 敵人 / 事件 / 跨系統交互"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T15:54:28.5036762Z",
+  "LastUsedAt": "2026-05-08T15:54:28.5036762Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

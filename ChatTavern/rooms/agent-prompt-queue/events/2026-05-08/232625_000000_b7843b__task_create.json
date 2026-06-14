@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T23:26:25Z", "actor": "", "idempotency_key": "487898e7-2bbf-4278-9732-2af97404642b", "type": "task_create", "task_id": "Q20260508-232624-2a8c", "data": {"title": "T09 研究跨房 agent 協作 + wake notify 機制", "priority": "normal", "depends_on": ""}}

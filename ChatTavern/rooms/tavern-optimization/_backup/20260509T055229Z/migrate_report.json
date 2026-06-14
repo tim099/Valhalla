@@ -1,0 +1,12 @@
+{
+  "room": "tavern-optimization",
+  "timestamp_utc": "20260509T055229Z",
+  "messages_in": 9,
+  "messages_out": 9,
+  "messages_skipped_bad": 0,
+  "events_in": 7,
+  "events_out": 7,
+  "events_skipped_bad": 0,
+  "filename_collisions": [],
+  "dry_run": false
+}

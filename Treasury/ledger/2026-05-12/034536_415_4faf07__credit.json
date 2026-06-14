@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-12T03:45:36.415Z",
+  "uuid": "4faf07",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "TreasuryWorkPostSysMismatch",
+  "source_description": "QA bug reward [normal]: work_post auto-credit 誤標 signature_mismatch — Cmd_Tavern.TryAutoCreditWorkPost 傳 callerAgentId='system' 觸發 UCL_TreasuryLedger.MatchesEnvMarker('system', 'claude-code') = false → 所有 work_post entries 都被誤標 mismatch, 250+ 筆歷史 audit noise (ref: TreasuryWorkPostSysMismatch)",
+  "balance_before": 84,
+  "balance_after": 87,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "52416",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_4faf07",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

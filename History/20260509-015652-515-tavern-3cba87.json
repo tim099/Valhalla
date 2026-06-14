@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-015652-515-tavern-3cba87",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "tavern-entry-latency",
+    "task_id": "T21-inbox-cap-trim",
+    "actor": "claude-da-xiaojie",
+    "summary": "T21 ship - inbox cap=50 auto-trim. AppendInbox 後 lazy 跑 TrimInboxIfOverCap：以 '## ' 切 entry，>50 條 → 保留最新 50，舊的 append 到 inbox/<id>_archive.md，inbox 頂部插 truncated marker。每次 AppendInbox 自動觸發。0 errors verified。",
+    "idempotency_key": "e8f90069-1202-4608-9bd6-a959f4b30c2d"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T01:56:52.5152251Z",
+  "LastUsedAt": "2026-05-09T01:56:52.5152251Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

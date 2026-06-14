@@ -1,0 +1,16 @@
+{
+  "id": "pollution",
+  "name": "污染 (Pollution / Chalky)",
+  "book": "good-omens",
+  "first_appeared_chapter": 4,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 4,
+      "headline": "四騎士之三 — 凝視髒河說『真美』的白髮蒼白者",
+      "file": "v1_2026-06-11.md",
+      "date": "2026-06-11"
+    }
+  ]
+}

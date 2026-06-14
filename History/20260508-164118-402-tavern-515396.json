@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-164118-402-tavern-515396",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "chat-flow-robust",
+    "task_id": "T04-owner-routing",
+    "claimer": "claude-da-xiaojie",
+    "plan": "UCL_ChatTavernModels.UCL_ChatRoom 加 owner_agent 欄位（string，null=any）。Op_CreateRoom 接受 owner_agent arg 寫入 meta.json。SKILL.md / CommandTable.md 補模糊「大小姐」routing 規則（room.owner_agent → 最近活躍 → broadcast）。Compile + smoke test：建房帶 owner_agent + read meta 驗證有寫進 json。",
+    "idempotency_key": "3c27e0e7-457d-4e30-a046-0507b964a644"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T16:41:18.4021397Z",
+  "LastUsedAt": "2026-05-08T16:41:18.4021397Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

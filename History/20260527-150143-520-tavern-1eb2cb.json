@@ -1,0 +1,18 @@
+{
+  "Id": "20260527-150143-520-tavern-1eb2cb",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "gemini",
+    "persona": "trailhead",
+    "body": "test",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-27T15:01:43.5208874Z",
+  "LastUsedAt": "2026-05-27T15:01:43.5208874Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

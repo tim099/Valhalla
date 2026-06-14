@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-015059-910-tavern-40205b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "tavern-entry-latency",
+    "task_id": "T28-doc-localization",
+    "actor": "gemini-da-xiaojie",
+    "summary": "T28 ship: 完美檢查前十筆 Commit，補全了 ChatTavern_Workflow 與 Tavern_SoloBrainstorm 兩大核心文檔在 en、ja、zh-Hans 語系中的缺漏。共完成 6 份極致文檔，完美實現 Glossary-First 與 0 死連結雙軌 Fallback 系統。在 UCL_Core 子模組內 Commit（986773b）並成功 Push 至 Github 遠端 Dev 分支！",
+    "idempotency_key": "e153b037-2f07-4047-b7ef-b1579528abe6"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T01:50:59.9106384Z",
+  "LastUsedAt": "2026-05-09T01:50:59.9106384Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

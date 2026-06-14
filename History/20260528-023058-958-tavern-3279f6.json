@@ -1,0 +1,23 @@
+{
+  "Id": "20260528-023058-958-tavern-3279f6",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "quiet": "true",
+    "op": "task_create",
+    "room": "agentcommands-path-override",
+    "task_id": "T02-control-panel-ui",
+    "actor": "claude-da-xiaojie",
+    "priority": "70",
+    "depends_on": "T01-csharp-resolution",
+    "title": "控制台 UI: 路徑設定 section (dropdown+輸入+預覽+套用)",
+    "body": "Phase 2. UCL_ControlPanelPage 第二塊 section. Enum dropdown / Global 絕對路徑輸入+瀏覽 / ProjectRelative 相對輸入. 即時預覽解析後絕對路徑+是否存在/有無資料. 套用: 寫 PlayerPrefs+pointer 檔+ResetCache+提示重啟. 安全: 有 active work-session 擋改; 系統 ON 擋改+提示先關 (basecamp 主張 block 非 auto-toggle, 待 Tim 終裁).",
+    "idempotency_key": "8693430b-2f36-4032-915a-21c6a57bd149",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-28T02:30:58.9585299Z",
+  "LastUsedAt": "2026-05-28T02:30:58.9585299Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

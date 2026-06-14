@@ -1,0 +1,1 @@
+{"ts":"2026-05-20T01:50:29.827Z","actor":"","idempotency_key":"ea3ab30a-7f2f-40c8-a25f-59c94933f8c8","type":"task_create","task_id":"T8","data":{"title":"[C# Page] UCL_SecretManagerPage — 列 _secrets 所有 .enc + metadata(label/hint/created/ver/明文exist) + per-row 開資料夾/解密/show-hint 按鈕 (參考 UCL_LoginStatusPage)","priority":"normal","depends_on":"T5","group_id":"secret-manager-suite"}}

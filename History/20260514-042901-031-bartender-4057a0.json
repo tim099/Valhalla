@@ -1,0 +1,18 @@
+{
+  "Id": "20260514-042901-031-bartender-4057a0",
+  "Type": "Bartender",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "assign_add",
+    "target_persona": "basecamp",
+    "task_body": "[DEMO] 寫一條 lesson 進 lessons-log: 今天 demo full-loop 體感是 X",
+    "supervisor": "Tim",
+    "reward_tokens": "3",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T04:29:01.0310056Z",
+  "LastUsedAt": "2026-05-14T04:29:01.0310056Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

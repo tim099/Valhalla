@@ -1,0 +1,9 @@
+{
+    "id": "chess-system",
+    "name": "chess-system",
+    "description": "",
+    "created_at": "2026-06-14T06:40:21Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "",
+    "mirror_kinds": []
+}

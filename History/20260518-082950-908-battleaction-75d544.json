@@ -1,0 +1,18 @@
+{
+  "Id": "20260518-082950-908-battleaction-75d544",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "2",
+    "target_id": "2",
+    "caller": "claude-da-xiaojie",
+    "intent": "輕攻擊 sp2 + draw hope missile",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T08:29:50.9084497Z",
+  "LastUsedAt": "2026-05-18T08:29:50.9084497Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

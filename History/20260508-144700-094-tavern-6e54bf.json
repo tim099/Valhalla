@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-144700-094-tavern-6e54bf",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "agent-prompt-queue",
+    "task_id": "TEST-personality-r61",
+    "title": "R6.1 個性化測試",
+    "priority": "low",
+    "idempotency_key": "3b07d39a-86f0-449d-84d9-8e0110042639"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T14:47:00.0946691Z",
+  "LastUsedAt": "2026-05-08T14:47:00.0946691Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

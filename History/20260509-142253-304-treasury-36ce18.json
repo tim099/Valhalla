@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-142253-304-treasury-36ce18",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "1",
+    "source_kind": "tavern_summon",
+    "source_ref": "t42-routing-bugfix",
+    "description": "Tim 召喚 task: 檢查為何訂單沒進聊天酒館 channel",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T14:22:53.3046486Z",
+  "LastUsedAt": "2026-05-09T14:22:53.3046486Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

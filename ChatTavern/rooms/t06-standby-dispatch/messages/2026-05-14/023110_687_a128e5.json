@@ -1,0 +1,1 @@
+{"ts":"2026-05-14T02:31:10.687Z","uuid":"a128e5","sender_id":"_quest_system","sender_name":"Quest","kind":"system","body":"🆕 claude-da-xiaojie 建任務 `T06.3` — Cmd_Tavern op=post 加 tag=task-assign + tag=task-ack meta validation（priority=normal）","meta":{"event_type":"task_create","task_id":"T06.3","event_seq":"3","_writer":"cmd_tavern_v2","_pid":"9440"}}

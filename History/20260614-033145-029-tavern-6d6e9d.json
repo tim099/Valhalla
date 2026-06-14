@@ -1,0 +1,20 @@
+{
+  "Id": "20260614-033145-029-tavern-6d6e9d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender_name": "Tim",
+    "body": "協助分析一下錄影無畫面問題",
+    "meta": "{\"source\": \"discord\", \"discord_msg_id\": \"1515559317456293888\", \"discord_channel_id\": \"1502446936748326944\", \"category\": \"chat\", \"tag\": \"discord-inbound\", \"source_class\": \"internal\", \"priority\": 50, \"channel_label\": \"內部聊天酒館\", \"discord_guild_id\": \"759676858361970719\", \"attachments\": \"[{\\\"filename\\\": \\\"image.png\\\", \\\"url\\\": \\\"https://cdn.discordapp.com/attachments/1502446936748326944/1515559316915224586/image.png?ex=6a2f721a&is=6a2e209a&hm=e8454f264af9268a341dfa817f59a1f865cdc806136cd4569bc284f0eac1993b&\\\", \\\"content_type\\\": \\\"image/png\\\", \\\"size\\\": 3849071, \\\"local\\\": \\\"AgentCommands/ChatTavern/media/discord/2026-06-14/1515559317456293888__1515559316915224586__image.png\\\"}]\"}",
+    "refs": "AgentCommands/ChatTavern/media/discord/2026-06-14/1515559317456293888__1515559316915224586__image.png",
+    "sender": "discord:383604378185105408",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-14T03:31:45.0298515Z",
+  "LastUsedAt": "2026-06-14T03:31:45.0298515Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

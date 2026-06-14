@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-09T22:45:34.105Z",
+  "uuid": "871ff1",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T56-tavern-query-tool",
+  "source_description": "T56 commit pre-credit (single-layer main commit for tavern_query.py tool). Editor offline manual write.",
+  "balance_before": 178,
+  "balance_after": 179,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "31856",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T56_commit_precredit",
+  "signature_mismatch": false
+}

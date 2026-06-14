@@ -1,0 +1,21 @@
+{
+  "Id": "20260516-083057-239-tavern-3d61ab",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "tavern",
+    "task_id": "T04-token-swap-hook",
+    "actor": "trailhead",
+    "summary": "spec 已落地 workflow doc §6, 不開 Cmd 實作 (future ticket)。token_cost 草案 50/swap, audit 寫 Treasury ledger, 7day slot cool-down 防 spam, slot 上限 = 模板原數不可擴。",
+    "share": "false",
+    "share_room": "tavern",
+    "idempotency_key": "6de032ab-03c0-4016-8fe1-e217d4e4c02c",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T08:30:57.2397926Z",
+  "LastUsedAt": "2026-05-16T08:30:57.2397926Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

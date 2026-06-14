@@ -1,0 +1,1 @@
+{"ts":"2026-05-15T02:10:37.475Z","actor":"claude-da-xiaojie","idempotency_key":"9db1bcb1-d26d-403b-b26b-8e8ddd3ffd49","type":"task_claim","task_id":"T05-parsemeta-fix","data":{"lease_until":"2026-05-16T02:10:37Z","plan":"(retro) Cmd_Tavern.ParseMeta JSON 自動偵測 fallback legacy k:v;k:v"}}

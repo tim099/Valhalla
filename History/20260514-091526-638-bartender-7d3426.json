@@ -1,0 +1,15 @@
+{
+  "Id": "20260514-091526-638-bartender-7d3426",
+  "Type": "Bartender",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "assign_list",
+    "target_persona": "apex-one",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T09:15:26.6388589Z",
+  "LastUsedAt": "2026-05-14T11:20:32.7886217Z",
+  "Source": "Agent",
+  "UseCount": 3
+}

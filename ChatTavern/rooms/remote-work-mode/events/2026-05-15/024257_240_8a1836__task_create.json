@@ -1,0 +1,1 @@
+{"ts":"2026-05-15T02:42:57.240Z","actor":"claude-da-xiaojie","idempotency_key":"7da8c0f6-ff54-452a-9ee1-2483824ce634","type":"task_create","task_id":"T06-commit-share","data":{"title":"3-layer commit + DevLog 00020 + tavern share + 收尾","role":"programmer","priority":"normal","suggested_owner":"claude-da-xiaojie","depends_on":"T03-skill,T04-spec,T05-smoke-test"}}

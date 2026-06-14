@@ -1,0 +1,16 @@
+{
+  "Id": "20260524-124140-931-validateassetformat-379cc9",
+  "Type": "ValidateAssetFormat",
+  "Mode": "OneShot",
+  "Args": {
+    "assetType": "RCG_EquipmentData",
+    "assetId": "SkillYoke",
+    "checkRefs": "1",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-24T12:41:40.9311002Z",
+  "LastUsedAt": "2026-05-24T12:42:09.6765453Z",
+  "Source": "Agent",
+  "UseCount": 2
+}

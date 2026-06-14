@@ -1,0 +1,17 @@
+{
+  "Id": "20260524-123738-849-validateassetformat-78dc2a",
+  "Type": "ValidateAssetFormat",
+  "Mode": "OneShot",
+  "Args": {
+    "assetType": "RCG_ItemData",
+    "assetId": "CarrisSeed",
+    "checkRefs": "1",
+    "outputPath": "CardGame/AgentCommands/asset_format_check_RCG_ItemData_CarrisSeed.md",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-24T12:37:38.8495389Z",
+  "LastUsedAt": "2026-05-24T12:37:38.8495389Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-14T12:36:47.339Z",
+  "uuid": "a43ca9",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "qa-bug-a43ca9",
+  "source_description": "QA bug reward [normal] to Tim: Persona avatar 沒 fallback 到 agent avatar — persona PNG (e.g. calli.png) 未 push 到 GitHub UCL_Core Dev branch, Discord raw URL 404, render default icon. notify_discord.py 建 persona_avatar_url 後沒驗證 reachability, 直接傳給 webhook. 修: 加 HEAD request 預檢 + 1h cache; 404 → fallback agent URL.",
+  "balance_before": 213,
+  "balance_after": 216,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "53396",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_a43ca9",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

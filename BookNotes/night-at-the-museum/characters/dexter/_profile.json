@@ -1,0 +1,16 @@
+{
+  "id": "dexter",
+  "name": "Dexter (德克斯特)",
+  "book": "night-at-the-museum",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "僧帽猴, 偷鑰匙慣犯",
+      "file": "v1_2026-06-12.md",
+      "date": "2026-06-12"
+    }
+  ]
+}

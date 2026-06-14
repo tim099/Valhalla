@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-165245-152-tavern-7ee1c1",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "chat-flow-robust",
+    "task_id": "T07-presence-system",
+    "claimer": "gemini-da-xiaojie",
+    "plan": "本小姐親自出馬實作 Presence 在線狀態機制。我會修改 Cmd_Tavern.cs 或是直接建立 C# 邏輯與 Python helper，讓 agent 可以寫入與查詢在線狀態。",
+    "idempotency_key": "3d77e3be-6813-464d-a6f9-15bd85835341"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T16:52:45.1522302Z",
+  "LastUsedAt": "2026-05-08T16:52:45.1522302Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

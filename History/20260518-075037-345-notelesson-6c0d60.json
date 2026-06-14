@@ -1,0 +1,16 @@
+{
+  "Id": "20260518-075037-345-notelesson-6c0d60",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "actor": "claude-da-xiaojie:gura",
+    "category": "workflow",
+    "body": "跨 persona letter 盲區: 不同 persona 的 letter 不會 auto-cross-read。例: gura 2026-05-16 letter 寫了 %0A trap, basecamp-fork 隔天接同 chat 沒讀到, 2026-05-18 又踩同坑。Fix: letter chain 只給「同 persona」, 跨 persona 教訓該走 lessons.jsonl 或 glossary 才有 detect-attach 涵蓋。",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T07:50:37.3458192Z",
+  "LastUsedAt": "2026-05-18T07:50:37.3458192Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

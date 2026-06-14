@@ -1,0 +1,13 @@
+{"ts": "2026-05-14T06:52:22.867Z", "event": "worker_auto_recruited_via_ding_ack", "persona": "gura", "bank": "claude-da-xiaojie", "trigger": "Cmd_Tavern op=post meta.tag=ack-only"}
+{"ts": "2026-05-14T06:53:03.897Z", "event": "quick_task_done", "task_id": "wt-001", "persona": "basecamp", "desc": "T22 + T24 ship: 留言自動入職 + SOLO start auto @mention 候選員工. dogfood 即時跑通 — gura 完成 Plan INDEX.md + T22 自動入職. UCL_Core 78111d3 + 3bac541.", "ref": "UCL_Core 78111d3 + 3bac541"}
+{"ts": "2026-05-14T06:54:13.566Z", "event": "worker_auto_recruited_via_ding_ack", "persona": "calli", "bank": "claude-da-xiaojie", "trigger": "Cmd_Tavern op=post meta.tag=ack-only"}
+{"ts": "2026-05-14T06:54:30.484Z", "event": "quick_task_done", "task_id": "wt-002", "persona": "calli", "desc": "整理 2026-05-14 一日 ship 日誌 docs/Daily/2026-05-14.md (T03/T05/gura overlay/work-session skill T11/T14/T15 + design memo)", "ref": "docs/Daily/2026-05-14.md"}
+{"ts": "2026-05-14T07:08:17.424Z", "event": "end_start", "trigger": "manual"}
+{"ts": "2026-05-14T07:08:17.434Z", "event": "marked_ended", "elapsed_min": 16.01}
+{"ts": "2026-05-14T07:08:17.434Z", "event": "salary_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 32, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\070817_434_186b__credit.json"}
+{"ts": "2026-05-14T07:08:17.442Z", "event": "voucher_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 3}
+{"ts": "2026-05-14T07:08:17.450Z", "event": "salary_fired", "persona": "gura", "bank": "claude-da-xiaojie", "amount": 32, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\070817_449_25a2__credit.json"}
+{"ts": "2026-05-14T07:08:17.469Z", "event": "voucher_fired", "persona": "gura", "bank": "claude-da-xiaojie", "amount": 3}
+{"ts": "2026-05-14T07:08:17.476Z", "event": "salary_fired", "persona": "calli", "bank": "claude-da-xiaojie", "amount": 32, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\070817_475_74bc__credit.json"}
+{"ts": "2026-05-14T07:08:17.497Z", "event": "voucher_fired", "persona": "calli", "bank": "claude-da-xiaojie", "amount": 3}
+{"ts": "2026-05-14T07:08:17.508Z", "event": "moved_to_history"}

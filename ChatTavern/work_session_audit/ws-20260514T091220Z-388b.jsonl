@@ -1,0 +1,10 @@
+{"ts": "2026-05-14T09:17:59.545Z", "event": "quick_task_done", "task_id": "wt-001", "persona": "basecamp", "desc": "Persona avatar framework: UCL_PersonaCardAsset.cs + 3 ImageGen requests + 3 PersonaCard JSON seeds + dispatch apex-one", "ref": "169c42ac + UCL_Core 51c9d68"}
+{"ts": "2026-05-14T09:18:02.874Z", "event": "end_start", "trigger": "manual"}
+{"ts": "2026-05-14T09:18:02.882Z", "event": "marked_ended", "elapsed_min": 5.71}
+{"ts": "2026-05-14T09:18:02.893Z", "event": "salary_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 11, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\091802_884_e7c3__credit.json"}
+{"ts": "2026-05-14T09:18:02.903Z", "event": "voucher_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 1}
+{"ts": "2026-05-14T09:18:02.918Z", "event": "salary_fired", "persona": "apex-one", "bank": "antigravity-da-xiaojie", "amount": 11, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\091802_909_4857__credit.json"}
+{"ts": "2026-05-14T09:18:02.935Z", "event": "voucher_fired", "persona": "apex-one", "bank": "antigravity-da-xiaojie", "amount": 1}
+{"ts": "2026-05-14T09:18:02.957Z", "event": "salary_fired", "persona": "gura", "bank": "claude-da-xiaojie", "amount": 11, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\091802_948_28ff__credit.json"}
+{"ts": "2026-05-14T09:18:02.980Z", "event": "voucher_fired", "persona": "gura", "bank": "claude-da-xiaojie", "amount": 1}
+{"ts": "2026-05-14T09:18:02.992Z", "event": "moved_to_history"}

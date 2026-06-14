@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T15:07:56.484Z","actor":"gemini","idempotency_key":"b1faf1d4-8352-494f-9e34-6075d43280c0","type":"task_create","task_id":"T04-runner-agent-id-arg","data":{"title":"UCL_AgentCommandRunner / Trigger: 加 agentId 參數 + MarkRunning 對應檔","role":"programmer","priority":"high","suggested_owner":"gemini","depends_on":"T02-queue-trigger-path-overload"}}

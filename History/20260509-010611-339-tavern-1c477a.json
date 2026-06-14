@@ -1,0 +1,21 @@
+{
+  "Id": "20260509-010611-339-tavern-1c477a",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern-entry-latency",
+    "task_id": "T25-errorlog-diagnostic",
+    "title": "P5 Errors_latest.log 落盤驗證 + logger config 修正",
+    "priority": "low",
+    "role": "programmer",
+    "suggested_owner": "claude-da-xiaojie",
+    "description": "觸發已知 LogError（如 op=task_done 帶錯 actor）→ check Errors_latest.log 是否實際多一條紀錄。若否 → 找 logger 配置（Application.logMessageReceived hook 可能沒掛 / 沒寫 ERROR level）→ 修正。完成後改 RejectLastOp（黃 ⚠）也要驗證 Warning 是否落盤。T11 §6.2 open question。",
+    "idempotency_key": "b6afd723-c75a-4a1e-a4ce-953f64ab30fb"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T01:06:11.3392483Z",
+  "LastUsedAt": "2026-05-09T01:06:11.3392483Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

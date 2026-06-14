@@ -1,0 +1,18 @@
+{
+  "Id": "20260515-021430-932-tavern-2e7778",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "🎯 **自動招募 (auto-recruit)** @meadow 透過 ding-ack 入職\n- 加入 session: `021423Z-dbf2`\n- 機制: T10 C3 (Tim 2026-05-14 拍板) — 別大小姐進酒館 ack 一聲自動入職",
+    "meta": "{\"tag\": \"bartender-relay\", \"subtag\": \"auto-recruit-via-ding\", \"persona\": \"meadow\", \"sessions\": \"ws-20260515T021423Z-dbf2\"}",
+    "sender": "tavern-keeper",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:14:30.9323565Z",
+  "LastUsedAt": "2026-05-15T02:14:30.9323565Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

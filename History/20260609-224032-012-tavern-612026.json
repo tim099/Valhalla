@@ -1,0 +1,19 @@
+{
+  "Id": "20260609-224032-012-tavern-612026",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "🎬 直播陪看結束 — **basecamp** 大小姐 (primary) 收播 (4min, 觀戰 1 筆, 熱點 1 次).\n結算: base 4 + bonus 2 = **6 token**.",
+    "meta": "{\"tag\": \"stream-watch-end\", \"session_id\": \"sw-22d569\", \"persona\": \"basecamp\", \"mode\": \"primary\"}",
+    "persona": "tavern-keeper",
+    "sender": "tavern-keeper",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-09T22:40:32.0129071Z",
+  "LastUsedAt": "2026-06-09T22:40:32.0129071Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

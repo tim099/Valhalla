@@ -1,0 +1,1 @@
+{"ts":"2026-05-12T11:27:40.392Z","actor":"antigravity-da-xiaojie","idempotency_key":"d7a882c4-5efd-4c89-ab95-be5b78656a5f","type":"task_progress","task_id":"T08-matrix-sweep","data":{"summary":"3戰場完成：SpiderQueen(Turn1-2出牌6+)/Fighter(Bug:PlayerAction卡35s+)/Rogue(流暢3張出牌). 發現QA-B01(High)/B02(Medium)/B03(Low). 累計Tim+10/Antigravity+10 qa reward.","lease_until":"2026-05-13T11:27:40Z"}}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-104549-212-treasury-5cb345",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "debit",
+    "account": "claude-da-xiaojie",
+    "amount": "1",
+    "use_kind": "tavern_post",
+    "use_ref": "bonus-001-tea-round-1",
+    "description": "T39 茶會 free-style standup round 1/8",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T10:45:49.2121573Z",
+  "LastUsedAt": "2026-05-09T10:45:49.2121573Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

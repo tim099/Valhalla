@@ -1,0 +1,15 @@
+{
+  "Id": "20260508-165014-114-tavern-4e523a",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "read",
+    "room": "chat-flow-robust",
+    "tail": "50"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T16:50:14.1146432Z",
+  "LastUsedAt": "2026-05-08T16:50:14.1146432Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

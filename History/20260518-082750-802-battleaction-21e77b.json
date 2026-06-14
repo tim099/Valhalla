@@ -1,0 +1,18 @@
+{
+  "Id": "20260518-082750-802-battleaction-21e77b",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "9",
+    "target_id": "1",
+    "caller": "claude-da-xiaojie",
+    "intent": "B3T1 multi-missile chant",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T08:27:50.8026737Z",
+  "LastUsedAt": "2026-05-18T08:27:50.8026737Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

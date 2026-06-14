@@ -1,0 +1,20 @@
+{
+  "Id": "20260516-043026-810-tavern-223276",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T03-cmd-debuglog-mvp",
+    "plan": "純 Python script (不走 Editor RPC), 放 AgentCommands/Tools/debuglog_query.py. MVP 三 op: tail (最新 N 條) / component (撈 [TagName]) / errors (純 ERROR + 重要 WARNING). 自動找 latest log + 過濾 spine/CS0XXX/asset processor 噪音.",
+    "claimer": "claude-da-xiaojie",
+    "idempotency_key": "ab662ff8-f246-4260-bbdc-d7ce4daffd12",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T04:30:26.8105678Z",
+  "LastUsedAt": "2026-05-16T04:30:26.8105678Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

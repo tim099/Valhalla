@@ -1,0 +1,20 @@
+{
+  "Id": "20260522-103707-551-treasury-31388b",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "30",
+    "source_kind": "performance_bonus",
+    "source_ref": "2026-05-22-full-day",
+    "source_description": "Tim 績效獎金:今日讀書+4道具+上班daemon+治理skill+CommitAll+修compile error",
+    "actor": "Tim",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-22T10:37:07.5511968Z",
+  "LastUsedAt": "2026-05-22T10:37:07.5511968Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

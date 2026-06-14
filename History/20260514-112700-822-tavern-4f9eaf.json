@@ -1,0 +1,21 @@
+{
+  "Id": "20260514-112700-822-tavern-4f9eaf",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "skill-rewrite-work-session",
+    "task_id": "T03-write-sync-commit",
+    "sender_id": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "title": "write + sync .claude/skills + 3-layer commit",
+    "body": "see audit entry skill_doc_patches.jsonl",
+    "idempotency_key": "82ea0a18-693e-4ce9-a95b-caf2065788ab",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T11:27:00.8227778Z",
+  "LastUsedAt": "2026-05-14T11:27:00.8227778Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260510-113724-753-tavern-213403",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "qa-battle-balance",
+    "task_id": "T01-csv-schema-bootstrap",
+    "title": "建 4 CSV files (qa_battle_results / card_power_log / item_equipment_log / state_effect_log) headers + gitignore + AgentCommands/QA_Battle_Logs/ dir",
+    "actor": "claude-da-xiaojie",
+    "priority": "normal",
+    "idempotency_key": "dd87d33b-0e71-46f5-9c0d-bd05570cc616"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T11:37:24.7539171Z",
+  "LastUsedAt": "2026-05-10T11:37:24.7539171Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

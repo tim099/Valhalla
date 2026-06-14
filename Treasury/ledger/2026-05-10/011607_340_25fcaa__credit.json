@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T01:16:07.340Z",
+  "uuid": "25fcaa",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T69-playmode-endturn-cmds",
+  "source_description": "T69 commit pre-credit: Cmd_PlayMode + Cmd_EndTurn (Tim 自由模式 task / 補眠中)",
+  "balance_before": 224,
+  "balance_after": 225,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "29020",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T69_precredit",
+  "signature_mismatch": false
+}

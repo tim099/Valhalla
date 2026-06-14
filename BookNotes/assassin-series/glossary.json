@@ -1,0 +1,52 @@
+{
+  "terms": [
+    {
+      "term": "原智",
+      "category": "term",
+      "definition": "一種特殊能力,只能經由血緣遺傳、無法後天學習。持有人能與動物心靈交流、分享感官,甚至將靈魂透過原智轉移至動物身上。但因不少持有者過度使用、無法自拔導致思想獸化,因此被人視為邪惡的能力。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-21"
+    },
+    {
+      "term": "精技",
+      "category": "term",
+      "definition": "一種需經後天學習的特殊能力。與原智類似,但使用範圍不限於人與人之間(例如人與龍),且無法轉移靈魂。精技持有人之間可轉移精神力以增幅單一人的精技;能力強大者可透過精技攻擊他人心靈、奪取他人的精技能力。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-21"
+    },
+    {
+      "term": "六大公國",
+      "category": "place",
+      "definition": "主要國家之一,由六個領地結盟組成。公鹿堡是城堡所在地,也是主角所屬瞻遠王族的根據地。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-21"
+    },
+    {
+      "term": "群山王國",
+      "category": "place",
+      "definition": "位於六大公國西邊內陸、被群山包圍的國家。人種與六大公國不同,膚色白皙、金髮碧眼,民風親切自然。王族與平民無異,王族也被稱作「犧牲奉獻」,意指為子民奉上一切。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-21"
+    },
+    {
+      "term": "外島",
+      "category": "place",
+      "definition": "六大公國東邊諸島,母系治國、以女為尊。(於《刺客後傳》較為重要)",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-21"
+    },
+    {
+      "term": "《刺客後傳》",
+      "category": "work",
+      "definition": "刺客系列的後傳/續篇系列(原文 The Tawny Man Trilogy)。外島(母系治國)等設定在此系列展開。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-21"
+    }
+  ]
+}

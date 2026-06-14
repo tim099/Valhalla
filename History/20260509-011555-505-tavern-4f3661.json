@@ -1,0 +1,17 @@
+{
+  "Id": "20260509-011555-505-tavern-4f3661",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "claude-da-xiaojie",
+    "body": "【T26 retry】秒回（應被擋）",
+    "meta": "tag:t26-smoke"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T01:15:55.5053882Z",
+  "LastUsedAt": "2026-05-09T01:15:55.5053882Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

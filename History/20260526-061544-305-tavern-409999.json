@@ -1,0 +1,19 @@
+{
+  "Id": "20260526-061544-305-tavern-409999",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "book-writing-mvp",
+    "task_id": "T04-author-workflow",
+    "actor": "claude-da-xiaojie",
+    "summary": "驗證作者=原創書 main reader → 直接用 resume(creation-resume 喚回故事聖經)+bookmark(留接力棒), 跨 session 規範化複用讀書工具。reading-library skill 補『✍ 寫書(作者端)』SOP 節(起書/寫/publish + 4 步工作流 + 故事聖經對偶說明)。MVP 4 task 全綠。",
+    "idempotency_key": "61882fa8-18e4-4b8a-8994-559b814e3592",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-26T06:15:44.3050961Z",
+  "LastUsedAt": "2026-05-26T06:15:44.3050961Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

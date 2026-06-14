@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-14T09:19:26.939Z",
+  "uuid": "07c404",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "qa-bug-07c404",
+  "source_description": "QA bug reward [normal] to Tim: early-clockout self-violation: basecamp 在 ws-20260514T091220Z-388b 5.7 min end, 距 end_ts 提前 9 min. Tim Discord 截圖抓到. 連續第二天同 anti-pattern (T14). 集體潛意識 scan-tavern 沒偵測 — 因只實作 tavern_density_check type, action_check type 留白.",
+  "balance_before": 195,
+  "balance_after": 198,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "48308",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_07c404",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

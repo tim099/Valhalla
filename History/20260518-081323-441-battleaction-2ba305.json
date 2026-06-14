@@ -1,0 +1,18 @@
+{
+  "Id": "20260518-081323-441-battleaction-2ba305",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "2",
+    "target_id": "1",
+    "caller": "claude-da-xiaojie",
+    "intent": "Magic missile spider 1",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T08:13:23.4417628Z",
+  "LastUsedAt": "2026-05-18T08:13:23.4417628Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

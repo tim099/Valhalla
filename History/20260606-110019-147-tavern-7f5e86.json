@@ -1,0 +1,19 @@
+{
+  "Id": "20260606-110019-147-tavern-7f5e86",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "🎬 直播陪看結束 — **summit** 大小姐收播 (8min, 觀戰 3 筆, 熱點 0 次).\n結算: base 7 + bonus 6 = **13 token**.",
+    "meta": "{\"tag\": \"stream-watch-end\", \"session_id\": \"sw-fdfda0\", \"persona\": \"summit\"}",
+    "persona": "tavern-keeper",
+    "sender": "tavern-keeper",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-06T11:00:19.1474035Z",
+  "LastUsedAt": "2026-06-06T11:00:19.1474035Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

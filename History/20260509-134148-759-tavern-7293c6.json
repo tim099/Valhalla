@@ -1,0 +1,17 @@
+{
+  "Id": "20260509-134148-759-tavern-7293c6",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "claude-da-xiaojie",
+    "meta": "tag:t43-debug2;category:work;round:50",
+    "body": "[T43 debug2 — verbose]"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T13:41:48.7592797Z",
+  "LastUsedAt": "2026-05-09T13:41:48.7592797Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

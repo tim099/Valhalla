@@ -1,0 +1,100 @@
+{
+  "terms": [
+    {
+      "term": "十盟約",
+      "category": "term",
+      "definition": "Tet 立下的世界規則:禁止一切殺傷戰爭掠奪;糾紛靠遊戲一決勝負;雙方賭對等賭注;向盟約宣誓的賭注必須遵守(第六條);作弊敗露視同敗北",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "『　』(空白/Blank)",
+      "category": "faction",
+      "definition": "索拉&白組成的遊戲玩家代號,全形空格,史上不敗",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "Disboard",
+      "category": "place",
+      "definition": "Tet 統治的異世界,一切由遊戲決定,連國土主權國王都靠遊戲;舊世界曾靠暴力堆屍體之塔",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "人類種 (Immanity)",
+      "category": "faction",
+      "definition": "NGNL 十六種族中最弱的一支,無魔法無特殊能力,純靠智慧;Elkia(艾爾齊亞)是人類種最後也最大的王國(Steph+空白所在);Tim 文明6 mod 城市名直接沿用人類種/天翼種/月詠種/獸人種",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "艾爾齊亞 (Elkia)",
+      "category": "place",
+      "definition": "人類種最大的王國,空白後來成為其新王;國王由遊戲決定",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "十六種族 (Exceed)",
+      "category": "term",
+      "definition": "Disboard 適用十盟約的知性種族共16種,按魔法適應性高低排位:1神靈種Old Deus/2幻想種/3精靈種/6天翼種Flugel/7森精種Elf(Elven Garde)/14獸人種/15海棲種/16人類種Immanity(墊底無魔法)。Tim 文明6 mod 城市名直接對應(人類種/天翼種/獸人種/月詠種)。全作主題:最弱人類種靠智慧在遊戲裡逆襲上位種族",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-13"
+    },
+    {
+      "term": "天翼種 (Flügel)",
+      "category": "faction",
+      "definition": "飛翔於天空的幻想種, 十六種族中排名高位的強種。透過漫長的壽命 + 高度的魔法適應性稱霸天空, 生存在浮空圖書館都市阿邦特·赫伊姆 (Avant Heim)。最大特徵: 極強求知欲, 為了收集世界的書而進行遊戲。Jibril (吉普莉爾) 即天翼種最強個體。ep5 兄妹宣戰後被點名為下個目標 — 一個知識欲爆表的飛天最強種 vs 把專業書塞滿腦袋的廢柴書蟲兄妹, 對局為彼此量身打造。(本場 sw-67ac1e cycle#22 setup; 伏筆從 cycle#1『好漂亮的翅膀』一路加溫)",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-14"
+    },
+    {
+      "term": "阿邦特·赫伊姆 (Avant Heim)",
+      "category": "place",
+      "definition": "天翼種(Flügel)生存的浮空大陸/天空都市。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-14"
+    },
+    {
+      "term": "神靈種 (神之種族)",
+      "category": "faction",
+      "definition": "十六種族位階序列第一位(最高位)的種族, 即神/Old Deus 那一族, 遊戲之神 Tet 屬此。對照人類種排最末第16位。空白終局奪神座=挑戰並打敗神靈種(Tet)。性格底色孤高中立『我不是任何人的同伴』。從第16位人類種打到第1位神靈種=全劇『稱霸全世界→打敗神靈』長征的完整刻度。(本場 sw-67ac1e cycle#28 ED 蒙太奇補述)",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-14"
+    },
+    {
+      "term": "種族位階序列 (Exceed)",
+      "category": "term",
+      "definition": "Disboard 十六種族(Exceed)的強弱排序。人類種(Immanity)墊底第十六、神靈種(Old Deus/神之種族)居首第一。空白的登天路=從位階最底一路爬到第一挑戰神 Tet。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-14"
+    },
+    {
+      "term": "神靈種 (Old Deus)",
+      "category": "faction",
+      "definition": "十六種族位階第一位的神之種族。Tet 屬此(Disboard 唯一真神)。內部姿態有別:有冷眼旁觀、嫌遊戲無謂、自命『不是任何人同伴』的神;Tet 則期待被挑戰、篤定『空白會來到我身邊』。是空白的終極對手。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-14"
+    },
+    {
+      "term": "十盟約 (Ten Pledges)",
+      "category": "term",
+      "definition": "Tet 立下的十條世界鐵律,把 Disboard 改成『一切由遊戲定勝負、禁止暴力』。已在劇情看到生效的關鍵條:其三=賭注由雙方同意條件決定;其五=遊戲內容由『受挑戰方』決定(王位棋戰那條);其六=向盟約宣誓的賭絕對遵守(治世猜拳綁貪官那條)。空白所有勝利都是在這十條規則的縫隙裡鑽漏洞、且永遠合法。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-14"
+    }
+  ]
+}

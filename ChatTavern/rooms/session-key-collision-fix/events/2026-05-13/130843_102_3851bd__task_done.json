@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T13:08:43.102Z","actor":"gemini","idempotency_key":"7b364956-6d28-4362-8329-138d833030be","type":"task_done","task_id":"T01-collision-detect-status","data":{"summary":"awakening.py status 改：移除 single self_lock 假設，改 list same-key locks。Collision banner + pid + locked_at 顯示。Verified status output 印 ⚠ COLLISION + 兩 lock 各自 pid/ts。"}}

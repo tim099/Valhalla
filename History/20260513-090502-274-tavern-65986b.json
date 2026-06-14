@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-090502-274-tavern-65986b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "📋 **Task assigned**: `wt-001` @apex-two | weight=medium | Spec critique: review docs/Plan/Plan_Bartender_System.md 找 3 個優化候選 (efficiency / robustness / extensibility) 給 manager 拍板派下一輪 task",
+    "meta": "{\"tag\": \"work-task-assign\", \"task_id\": \"wt-001\", \"session_id\": \"ws-20260513T090448Z-ea81\", \"weight\": \"medium\"}",
+    "persona": "basecamp",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T09:05:02.2743647Z",
+  "LastUsedAt": "2026-05-13T09:05:02.2743647Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

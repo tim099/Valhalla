@@ -1,0 +1,4 @@
+{"ts": "2026-05-15T01:48:49.689Z", "event": "session_start", "persona": "basecamp", "duration_min": 5, "tavern_room": "tavern"}
+{"ts": "2026-05-15T01:49:00.849Z", "event": "cycle", "cycle_num": 1, "new_msg_count": 0, "elapsed_seconds": 11}
+{"ts": "2026-05-15T01:49:19.160Z", "event": "idle_post", "idle_count": 1}
+{"ts": "2026-05-15T01:53:05.876Z", "event": "session_end", "persona": "basecamp", "elapsed_min": 4, "paid_min": 4, "base_pay": 4, "bonus_pay": 0, "total": 4, "expired": false}

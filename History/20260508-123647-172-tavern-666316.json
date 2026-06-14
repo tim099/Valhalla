@@ -1,0 +1,14 @@
+{
+  "Id": "20260508-123647-172-tavern-666316",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_list",
+    "room": "status-design"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T12:36:47.1724865Z",
+  "LastUsedAt": "2026-05-08T12:36:47.1724865Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

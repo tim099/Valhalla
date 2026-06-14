@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-114850-192-tavern-38dd79",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "tavern",
+    "task_id": "t-smoke-auto-credit-001",
+    "actor": "claude-da-xiaojie",
+    "summary": "smoke test Op_TaskDone auto-credit hook 驗證",
+    "idempotency_key": "smoke-001-done-1778327329"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T11:48:50.1925360Z",
+  "LastUsedAt": "2026-05-09T11:48:50.1925360Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

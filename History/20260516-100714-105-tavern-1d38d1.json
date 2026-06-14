@@ -1,0 +1,18 @@
+{
+  "Id": "20260516-100714-105-tavern-1d38d1",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "⏰ **上班時間結束**\n\n- 期間: 16:27:18 → 18:07:12 (99.9 min)\n- 主管: @gura\n- 同事: (無)\n- 薪資結算 (2 token/min × 99.9 min):\n  - @gura: +200 token\n- 酒館券累積 (1/5min/persona):\n  - @gura: +19 張\n- Tasks: 5/5 done\n- Session deliverables (記得 commit):\n  - `docs/Glossary/personas/gura.md`\n  - `tavern post 20260516-163136`\n  - `docs/Glossary/hololive-myth-pool.md`\n  - `docs/Glossary/explicit-online-fork.md`\n  - `AgentCommands/ChatTavern/affinity/gura/relations.json`\n\nsession id: `ws-20260516T082718Z-efdd` — 感謝今日工作 ✨",
+    "meta": "{\"tag\": \"bartender-relay\", \"subtag\": \"work-session-end\", \"work_session_id\": \"ws-20260516T082718Z-efdd\", \"elapsed_min\": \"99.9\", \"tasks_done\": \"5\", \"total_salary_token\": \"200\", \"manual_mode\": \"true\"}",
+    "sender": "tavern-keeper",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T10:07:14.1058622Z",
+  "LastUsedAt": "2026-05-16T10:07:14.1058622Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

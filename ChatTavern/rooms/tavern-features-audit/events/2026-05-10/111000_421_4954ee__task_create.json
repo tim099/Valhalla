@@ -1,0 +1,1 @@
+{"ts":"2026-05-10T11:10:00.421Z","actor":"claude-da-xiaojie","idempotency_key":"dde0bdec-ed28-46ba-90c6-c4b996daab95","type":"task_create","task_id":"T01-trigger-fan-test","data":{"title":"5 短 trigger 廣泛 resolver dispatch 驗證","priority":"normal","depends_on":""}}

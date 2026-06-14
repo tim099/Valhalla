@@ -1,0 +1,9 @@
+{
+    "id": "skill-consolidation",
+    "name": "skill-consolidation",
+    "description": "",
+    "created_at": "2026-05-27T02:44:16Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "",
+    "mirror_kinds": []
+}

@@ -1,0 +1,17 @@
+{
+  "Id": "20260514-120209-284-validateassetformat-11e642",
+  "Type": "ValidateAssetFormat",
+  "Mode": "OneShot",
+  "Args": {
+    "assetType": "UCL_ChatTavernPersonaCardAsset",
+    "assetId": "summit",
+    "checkRefs": "1",
+    "outputPath": "CardGame/AgentCommands/asset_format_check_UCL_ChatTavernPersonaCardAsset_summit.md",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:02:09.2845437Z",
+  "LastUsedAt": "2026-05-14T12:02:09.2845437Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

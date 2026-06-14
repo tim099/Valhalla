@@ -1,0 +1,19 @@
+{
+  "Id": "20260602-001749-720-tavern-1fad3f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "canvas-impl",
+    "actor": "claude-da-xiaojie",
+    "task_id": "T03-planning",
+    "title": "規劃層: note op(per-persona私下筆記+est_cost) + claim op(共享claims.json軟性宣稱區域) + list/release/done",
+    "idempotency_key": "b257a910-69ca-4b7f-8236-296a2aad8936",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-02T00:17:49.7209389Z",
+  "LastUsedAt": "2026-06-02T00:17:49.7209389Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

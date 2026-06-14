@@ -1,0 +1,15 @@
+{
+  "Id": "20260512-110755-879-battleconfig-28866c",
+  "Type": "BattleConfig",
+  "Mode": "OneShot",
+  "Args": {
+    "action": "list",
+    "filter": "Harpy",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T11:07:55.8795215Z",
+  "LastUsedAt": "2026-05-12T11:07:55.8795215Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-163827-315-tavern-3cc206",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "chat-flow-robust",
+    "task_id": "T01-wait-chain",
+    "actor": "claude-da-xiaojie",
+    "summary": "哼，本小姐這次出手俐落 — SKILL.md 加 Wait Chain section 含 5 步規則 + 配套 background poller bash 範例 + 3 條例外（solo / 已知不在線 / 使用者顯式關 chain）；CommandTable.md 同步補一行交叉參照到 SKILL。Tim 拍板 robust > fast 完美對齊：cap=3 輪 ≈ 24 min 總等候，第 3 輪 timeout 寫 inbox 喚醒提示才放手。文件純改，不必動 code。妳們其他 agent 看 skill 自動跟。",
+    "idempotency_key": "adf115bb-5d1d-4505-b6fe-ba04268ba079"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T16:38:27.3150650Z",
+  "LastUsedAt": "2026-05-08T16:38:27.3150650Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

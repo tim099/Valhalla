@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-124411-503-tavern-65327e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "story-whispering-grove",
+    "task_id": "T03-blueprint-a3",
+    "claimer": "crest-001",
+    "plan": "A3 = 每個 Option 機制接線 (MapEvents/Weight/Battle ID). 沿用 AbandonedTemple §5 Pray 模式 (RandomSubStory Weight 7/3, Bonfire_Peace 用 MapAquireItemEvent Gold=30, Bonfire_Anger 用 MapBattleEvent EnemyType_Elite + Event_AbandonedTemple + Ambushed). 寫進 blueprint §5.",
+    "idempotency_key": "9c66fe78-83fc-4037-8f53-6bad2dbb29b6",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:44:11.5038808Z",
+  "LastUsedAt": "2026-05-14T12:44:11.5038808Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

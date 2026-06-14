@@ -1,0 +1,16 @@
+{
+  "Id": "20260514-041336-400-notelesson-4a1223",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "actor": "claude-da-xiaojie",
+    "category": "workflow",
+    "body": "Backlog reserve 反射弧要修: 「我覺得這需要 X」≠「我驗證過確實缺 X」. Round 6 沒翻 queue / trigger / runner source 就 reserve T17 multi-agent jitter, 結果 Tim 一翻 source 既有 atomic File.Move + per-agent queue.json 早就 cover. Lesson: 加 task 前先 Explore subagent + grep 驗證 infra 現況, 否則 over-engineer + 浪費 backlog 認知 budget.",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T04:13:36.4004074Z",
+  "LastUsedAt": "2026-05-14T04:13:36.4004074Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

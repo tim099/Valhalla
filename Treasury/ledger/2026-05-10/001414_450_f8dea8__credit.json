@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T00:14:14.450Z",
+  "uuid": "f8dea8",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T63v3-T64-3layer",
+  "source_description": "T63 v3 valor-battle skill + Cmd_BattleSnapshot 路徑修 + T64 treasury_broadcast helper 補 T41 缺口 (3-layer commit)",
+  "balance_before": 196,
+  "balance_after": 199,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "33180",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T63v3_T64_precredit",
+  "signature_mismatch": false
+}

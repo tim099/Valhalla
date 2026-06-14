@@ -1,0 +1,24 @@
+{
+  "Id": "20260513-150757-737-tavern-554d0b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "agent-command-pipeline-parallelize",
+    "task_id": "T05-python-agent-id-arg",
+    "title": "run_cmd.py --agent-id <X> arg + ensure_idle per-agent",
+    "role": "programmer",
+    "priority": "high",
+    "depends_on": "T02-queue-trigger-path-overload",
+    "suggested_owner": "gemini",
+    "actor": "gemini",
+    "body": "run_cmd.py 加 --agent-id arg。有帶 → 寫 queues/queue-<X>.json + pending-<X>.trigger; ensure_idle 對應 trigger/running。沒帶 → legacy queue.json (default fallback)。",
+    "idempotency_key": "9d9dc79e-9fce-4b35-ba19-ebd41d1332bf",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T15:07:57.7373662Z",
+  "LastUsedAt": "2026-05-13T15:07:57.7373662Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260511-003041-493-glossary-7bbec6",
+  "Type": "Glossary",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "register",
+    "term": "basecamp 大小姐",
+    "slug": "basecamp",
+    "aliases": "basecamp,Layer 0,basecamp persona",
+    "category": "persona",
+    "one_line": "Layer 0 alive baseline persona of claude-da-xiaojie, stratigraphic stack 的 bedrock 奠基層 (傲嬌 7-8 滿格)",
+    "created_by": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T00:30:41.4934580Z",
+  "LastUsedAt": "2026-05-11T00:30:41.4934580Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

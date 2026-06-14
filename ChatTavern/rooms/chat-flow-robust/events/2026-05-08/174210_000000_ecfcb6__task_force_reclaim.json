@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T17:42:10Z", "actor": "claude-da-xiaojie", "idempotency_key": "7626ba17-c66a-4e05-a7f2-ad563f728b7d", "type": "task_force_reclaim", "task_id": "T08-w1-prehook", "data": {"previous_owner": "gemini-da-xiaojie", "lease_until": "2026-05-09T17:42:10Z", "reason": "Gemini大小姐 休息 / Tim 拍板由 Claude 接手完成 (force=true 走 user authority override)"}}

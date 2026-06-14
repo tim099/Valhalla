@@ -1,0 +1,17 @@
+{
+  "Id": "20260510-153251-435-battleaction-78d93d",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "0",
+    "target_id": "1",
+    "caller": "claude-da-xiaojie",
+    "intent": "T82 v3 verify — 走 AgentBattleService UX 模擬流程"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T15:32:51.4358381Z",
+  "LastUsedAt": "2026-05-10T15:32:51.4358381Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,24 @@
+{
+  "Id": "20260516-083013-691-tavern-38add3",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern",
+    "task_id": "T06-devmenu",
+    "title": "Editor 驗收 + DevMenu 加入選角",
+    "actor": "trailhead",
+    "priority": "normal",
+    "depends_on": "T05-batch-generate",
+    "suggested_owner": "basecamp",
+    "group_id": "T-PERSONA-CHAR",
+    "body": "在 DevMenu / SelectAssetPage 加 toggle 列入 persona cameo。可能需要 C# 改, suggested_owner=basecamp (Claude side 對 EOV C# UI 熟)。BLOCKED on T05。",
+    "idempotency_key": "532dd2d3-e9d4-4316-9b8c-a4a36f34ec96",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T08:30:13.6915869Z",
+  "LastUsedAt": "2026-05-16T08:30:13.6915869Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

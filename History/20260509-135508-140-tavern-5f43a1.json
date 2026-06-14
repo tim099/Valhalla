@@ -1,0 +1,16 @@
+{
+  "Id": "20260509-135508-140-tavern-5f43a1",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "Tim",
+    "body": "hello tavern, no number here"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T13:55:08.1406434Z",
+  "LastUsedAt": "2026-05-09T13:55:08.1406434Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

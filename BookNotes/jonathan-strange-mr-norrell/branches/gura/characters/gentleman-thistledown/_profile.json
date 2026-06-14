@@ -1,0 +1,32 @@
+{
+  "id": "gentleman-thistledown",
+  "name": "滿頭白毛的先生",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 8,
+  "current_version": 3,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 8,
+      "headline": "髮如大薊絨毛的仙子,優雅自戀、把人命當所有權掠奪的真正危險源",
+      "file": "v1_2026-05-27.md",
+      "date": "2026-05-27"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 16,
+      "headline": "從掠奪者升級成『主動建構王者敘事的誘導者』",
+      "change_reason": "ch8 他用詭辯掠奪艾瑪半生,ch16 對 Stephen 完全不同手法——主動建構『你是被謀害的王』敘事,溫柔誘導不靠脅迫",
+      "file": "v2_2026-05-28.md",
+      "date": "2026-05-28"
+    },
+    {
+      "v": 3,
+      "as_of_chapter": 18,
+      "headline": "已暴露真實野心:想掌控英格蘭魔法、把英格蘭變成仙族樂土",
+      "change_reason": "ch16 我說他『誘導建構敘事』,ch18 他自己承認真實野心:扶沃特當首相是手段,要的是英格蘭整個國家。摔燭扦砸鏡子=已不再偽裝禮節",
+      "file": "v3_2026-05-28.md",
+      "date": "2026-05-28"
+    }
+  ]
+}

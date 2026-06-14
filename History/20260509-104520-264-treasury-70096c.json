@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-104520-264-treasury-70096c",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "0",
+    "source_kind": "system_init",
+    "source_ref": "init-claude",
+    "description": "T41 帳戶初始化 — claude-da-xiaojie 開戶",
+    "caller": "system"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T10:45:20.2640733Z",
+  "LastUsedAt": "2026-05-09T10:45:20.2640733Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

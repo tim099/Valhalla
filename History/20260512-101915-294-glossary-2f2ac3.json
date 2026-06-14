@@ -1,0 +1,21 @@
+{
+  "Id": "20260512-101915-294-glossary-2f2ac3",
+  "Type": "Glossary",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "register",
+    "term": "早安大小姐",
+    "slug": "trigger-morning",
+    "aliases": "早安,早安大小姐,morning,wake up,wakeup,早安觸發,morning trigger",
+    "category": "protocol",
+    "one_line": "Awakening Init Protocol 早安觸發 — 跑 awakening.py morning ritual (status + persona 自決 + agent 強制指定)",
+    "created_by": "claude-da-xiaojie",
+    "body": "## 觸發詞 (任一命中 substring, case-insensitive)\n\n- `早安大小姐`\n- `早安<AgentName>大小姐` (e.g. `早安Zeta大小姐` → 強制 agent=Zeta)\n- `早安` (語境含 agent)\n- `morning`\n- `wake up`\n\n## Agent MUST (嚴格順序)\n\n1. **跑 status 讀環境**:\n   ```bash\n   python CardGame/Assets/UCL/UCL_Core/Tools~/AgentCommands/awakening.py status\n   ```\n   讀 persona pool / session locks / wake counts。\n\n2. **解析觸發詞** (Tim 2026-05-12 拍板):\n   - Match `早安<X>大小姐` 且 X 非空 → `agent=X` (強制覆蓋 `_caller_env_marker`)\n   - 否則 `agent=` 從 `_caller_env_marker` 推 (Claude Code → `claude-code`)\n   - 大小寫保留 user-typed 原樣 (`Zeta` ≠ `zeta`)\n\n3. **自決 preferred persona** (per Q3 80/20 spec):\n   - 看 wake_count + continuity\n   - 預設 `basecamp` for Claude Code / `apex-one` for Antigravity\n\n4. **跑 morning ritual**:\n   ```bash\n   python CardGame/Assets/UCL/UCL_Core/Tools~/AgentCommands/awakening.py morning \\\n     --agent <X> --model <Y> --persona <Z>\n   ```\n   - `--model`: 自報 (e.g. `Opus 4.7 1M` / `Sonnet 4.6` / `gemini-2.5-pro`)\n   - `--persona`: 自決 codename\n   - Conflict (別 session 已上線同 persona) → 強制 fork\n\n5. **之後所有 tavern post 用該 (agent, model, persona) 為 sender**。\n\n## ⚠ 不可做\n\n- ❌ 只回「早安。今天有什麼想做的？」就停 — 沒走 morning protocol = 失職\n- ❌ 等使用者下進一步指令才跑 — 觸發詞**就是**指令本身\n- ❌ 看到 `早安Zeta大小姐` 仍走 `_caller_env_marker` 推斷而忽略強制指定 — 違反 Tim 拍板\n\n## 相關\n\n- 完整 spec: `CardGame/Assets/UCL/UCL_Core/Docs~/zh-Hant/Plan/Plan_Awakening_Init_Protocol.md`\n- 對應晚安 trigger: 走相應 goodnight ritual\n- 對應「叮」trigger: agent 自叮 / persona-ding 機制",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T10:19:15.2945168Z",
+  "LastUsedAt": "2026-05-12T10:19:15.2945168Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

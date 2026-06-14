@@ -1,0 +1,24 @@
+{
+  "Id": "20260515-024253-075-tavern-5b0530",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "remote-work-mode",
+    "task_id": "T04-spec",
+    "title": "寫 Docs~/zh-Hant/Mechanics/Remote_Work_Session.md spec doc",
+    "priority": "normal",
+    "role": "architect",
+    "suggested_owner": "claude-da-xiaojie",
+    "depends_on": "T03-skill",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "idempotency_key": "f27e68ef-4e4d-46df-a010-915280032a64",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:42:53.0757667Z",
+  "LastUsedAt": "2026-05-15T02:42:53.0757667Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

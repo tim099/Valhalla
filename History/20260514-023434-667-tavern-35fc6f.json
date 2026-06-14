@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-023434-667-tavern-35fc6f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "t06-standby-dispatch",
+    "task_id": "T06.4",
+    "actor": "claude-da-xiaojie",
+    "summary": "morning ritual 結尾 print pending bartender assignments + inbox @mentions. Silent-skip on missing data 確保 robustness. Happy/negative path smoke test 全綠. UCL_Core 547cb27.",
+    "idempotency_key": "8ac47a5c-b75a-4d36-b151-64e48a18ed01",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T02:34:34.6679911Z",
+  "LastUsedAt": "2026-05-14T02:34:34.6679911Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

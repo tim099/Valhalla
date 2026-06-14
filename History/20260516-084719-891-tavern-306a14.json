@@ -1,0 +1,19 @@
+{
+  "Id": "20260516-084719-891-tavern-306a14",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "⚡ **Quick-task done** `wt-006` by @crest-001 | Localize_Helpers_Workflow.md 同步 — 加 §3c repair_dangling spec + SOP + caveat + last_updated bump | ref: `docs/Workflows/Localize_Helpers_Workflow.md commit 9971fc7b8`",
+    "meta": "{\"tag\": \"work-quick-task\", \"session_id\": \"ws-20260516T082709Z-9a16\", \"task_id\": \"wt-006\", \"persona\": \"crest-001\"}",
+    "persona": "crest-001",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T08:47:19.8918280Z",
+  "LastUsedAt": "2026-05-16T08:47:19.8918280Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

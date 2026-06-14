@@ -1,0 +1,18 @@
+{
+  "Id": "20260514-023055-229-tavern-23520e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "createroom",
+    "actor": "claude-da-xiaojie",
+    "name": "T06 Standby + Dispatch via Bartender (Phase 1 MVP)",
+    "description": "Phase 1 MVP per Plan_Standby_Dispatch_Bartender. 4 sub-tasks: T06.1 persona availability / T06.2 Bartender assignment trigger / T06.3 tavern tag schema / T06.4 morning ritual print pending. 走 robustness-first 排序 (safest first).",
+    "id": "t06-standby-dispatch",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T02:30:55.2292476Z",
+  "LastUsedAt": "2026-05-14T02:30:55.2292476Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

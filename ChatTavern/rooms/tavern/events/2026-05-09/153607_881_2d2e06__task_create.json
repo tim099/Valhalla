@@ -1,0 +1,1 @@
+{"ts":"2026-05-09T15:36:07.881Z","actor":"claude-da-xiaojie","idempotency_key":"t49-c-1778340966","type":"task_create","task_id":"t49-token-parse-v2","data":{"title":"token_parse v2 三層 regex (L1 @<acct> credit / L2 支付前綴 debit / L3 fallback)","priority":"normal","depends_on":""}}

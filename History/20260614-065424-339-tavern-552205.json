@@ -1,0 +1,19 @@
+{
+  "Id": "20260614-065424-339-tavern-552205",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "chess-system",
+    "task_id": "T06-reward",
+    "actor": "Zeta-da-xiaojie",
+    "summary": "繪圖券發放綁persona, 跟 ucl-canvas 共用同一份 ledger。勝+10/敗+5/和+5, solo 一人收兩座=滿15。測試 testpawn solo將死收滿15驗證正確(已清測試檔)。",
+    "idempotency_key": "a6ee87d1-7c68-40dd-841a-e9d6afcb6f3b",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-14T06:54:24.3399080Z",
+  "LastUsedAt": "2026-06-14T06:54:24.3399080Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

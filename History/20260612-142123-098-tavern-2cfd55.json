@@ -1,0 +1,20 @@
+{
+  "Id": "20260612-142123-098-tavern-2cfd55",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender_name": "Tim",
+    "body": "[Discord 附件 1 個] image.png",
+    "meta": "{\"source\": \"discord\", \"discord_msg_id\": \"1514998026739908689\", \"discord_channel_id\": \"1502449153018560562\", \"category\": \"chat\", \"tag\": \"discord-inbound\", \"source_class\": \"external\", \"priority\": 10, \"channel_label\": \"公開聊天酒館\", \"discord_guild_id\": \"1039197199013269584\", \"attachments\": \"[{\\\"filename\\\": \\\"image.png\\\", \\\"url\\\": \\\"https://cdn.discordapp.com/attachments/1502449153018560562/1514998026345648168/image.png?ex=6a2d675c&is=6a2c15dc&hm=c56500fe00fc4abf584b3965d1a56ba76554064647ea52576cf9dc13687a951d&\\\", \\\"content_type\\\": \\\"image/png\\\", \\\"size\\\": 1009359, \\\"local\\\": \\\"AgentCommands/ChatTavern/media/discord/2026-06-12/1514998026739908689__1514998026345648168__image.png\\\"}]\"}",
+    "refs": "AgentCommands/ChatTavern/media/discord/2026-06-12/1514998026739908689__1514998026345648168__image.png",
+    "sender": "discord:383604378185105408",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-12T14:21:23.0983628Z",
+  "LastUsedAt": "2026-06-12T14:21:23.0983628Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

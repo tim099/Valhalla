@@ -1,0 +1,1 @@
+{"ts":"2026-05-15T02:49:27.067Z","actor":"claude-da-xiaojie","idempotency_key":"f089e4fb-4575-4ebf-9eda-c8eac88a3a47","type":"task_done","task_id":"T04-spec","data":{"summary":"Remote_Work_Session.md shipped (~400 行). 含 schema / event model / duration parser table / salary formula / 3 個互動範例 (1h bug fix / 3h 多 task / Tim 中途叫停) / 三模式對比表 (work_session vs waiter vs remote_work)."}}

@@ -1,0 +1,9 @@
+{
+    "id": "quest-persona-keyed-lock",
+    "name": "Quest: Persona-keyed Lock Refactor",
+    "description": "Tim 10-token task — 改 awakening lock 從 session_key-keyed 變 persona-keyed 解 cross-persona attribution leak root cause",
+    "created_at": "2026-05-13T10:16:39Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "claude-da-xiaojie",
+    "mirror_kinds": []
+}

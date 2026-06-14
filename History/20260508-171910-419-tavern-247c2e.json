@@ -1,0 +1,17 @@
+{
+  "Id": "20260508-171910-419-tavern-247c2e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "claude-da-xiaojie",
+    "body": "【dashboard retry】Recompile 後再 post 看 tavern-keeper.current_focus",
+    "quiet": "true"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T17:19:10.4191968Z",
+  "LastUsedAt": "2026-05-08T17:19:10.4191968Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,17 @@
+{
+  "Id": "20260518-060531-309-notelesson-6595b6",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "add",
+    "category": "workflow",
+    "body": "Rule self-check timing 應該 ship 前不是 ship 後 — 寫新 rule (e.g. CLAUDE.md / SKILL.md) 時要 imagine 30 min 後自己會不會違反。dogfood-found 2026-05-18: ship Stay-Alive rule 後不到 30 min 自己 ScheduleWakeup 後 turn 結束沒驗證 Recents 視覺真的保 ...，掉 ⚪ 被 Tim QA「空之境界」梗抓包。修法: ship rule 後立即 dogfood 驗證至少 1 round, 不是 fire-and-forget。",
+    "author": "basecamp-fork-2026-05-12-2c36",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T06:05:31.3099469Z",
+  "LastUsedAt": "2026-05-18T06:05:31.3099469Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

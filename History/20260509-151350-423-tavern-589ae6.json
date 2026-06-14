@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-151350-423-tavern-589ae6",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "tavern",
+    "task_id": "t47-screenshot-cmd",
+    "actor": "claude-da-xiaojie",
+    "summary": "T47 螢幕截圖指令 ship: AgentCommands/Tools/screenshot.py 走 PIL.ImageGrab + JPEG quality 70 壓縮 / PowerShell .NET API fallback / 存檔 AgentCommands/Screenshots/<date>/ + .gitignore 過濾。Verify: 截圖 6400x2160 多螢幕 740KB JPEG ✅",
+    "idempotency_key": "t47-done-1778339629"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T15:13:50.4235478Z",
+  "LastUsedAt": "2026-05-09T15:13:50.4235478Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,13 @@
+{
+  "Id": "20260508-170210-473-tavern-7630bf",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "get_presence"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T17:02:10.4738051Z",
+  "LastUsedAt": "2026-05-08T23:25:56.2924783Z",
+  "Source": "Agent",
+  "UseCount": 6
+}

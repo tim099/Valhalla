@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T14:32:40Z", "actor": "claude-da-xiaojie", "idempotency_key": "eb1d0c8a-f52a-4572-9c2e-2b835819c1e1", "type": "task_progress", "task_id": "TEST-mirror-r6", "data": {"summary": "測試訊息鏡像 — 看到我了嗎", "lease_until": "2026-05-09T14:32:40Z"}}

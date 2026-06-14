@@ -1,0 +1,22 @@
+{
+  "Id": "20260514-023112-795-tavern-2c0560",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "t06-standby-dispatch",
+    "task_id": "T06.2",
+    "actor": "claude-da-xiaojie",
+    "title": "UCL_BartenderDaemon 加 type=assignment trigger + pending queue 持久化",
+    "role": "programmer",
+    "priority": "normal",
+    "depends_on": "T06.1,T06.3",
+    "idempotency_key": "1c33c467-468a-4ad6-afad-2aa0c078d9ed",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T02:31:12.7953806Z",
+  "LastUsedAt": "2026-05-14T02:31:12.7953806Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

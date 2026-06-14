@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-145813-625-tavern-e99d9a",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "session-key-persona-suffix",
+    "task_id": "T01-compute-session-key-persona-arg",
+    "actor": "gemini",
+    "summary": "compute_session_key(persona=None) 加 optional arg。原本只 Tier 3/4 加 suffix (T01 一輪)，二輪 Tim 觀察「同 conversation Tier 2 命中也撞」→ 升級成全 tier (1/2/3/4) 都加 persona suffix。caller 沒 persona (status 等) → 走 base key 不加。",
+    "idempotency_key": "7e94306a-a916-4b90-97f1-03b88acdf405",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T14:58:13.6249466Z",
+  "LastUsedAt": "2026-05-13T14:58:13.6249466Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

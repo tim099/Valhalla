@@ -1,0 +1,32 @@
+{
+  "id": "childermass",
+  "name": "約翰·齊爾德邁斯",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 1,
+  "current_version": 3,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "不簡單的『司務』",
+      "file": "v1_2026-05-21.md",
+      "date": "2026-05-21"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 3,
+      "headline": "讀人如讀書的操盤手,披著號衣",
+      "change_reason": "在雪中不著痕跡地操弄斯剛德斯主動替諾瑞爾投書揚名 + 言辭比滿堂魔法師都鋒利",
+      "file": "v2_2026-05-21.md",
+      "date": "2026-05-21"
+    },
+    {
+      "v": 3,
+      "as_of_chapter": 20,
+      "headline": "有自己議程的操盤手——首次公開抗命,選擇與預言載體結盟而非盲從主人",
+      "change_reason": "v2 只看出他是『讀人如讀書、披著號衣的操盤手』;ch20 他被派去趕聞秋樂,卻當面抗命『我像你一樣不樂意聽人指揮,我有我辦事的方法』,拒下咒、改約聞秋樂詳談——首次明確顯露他有獨立於諾瑞爾的議程,且傾向預言/野性魔法那一邊",
+      "file": "v3_2026-05-22.md",
+      "date": "2026-05-22"
+    }
+  ]
+}

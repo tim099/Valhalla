@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-132819-811-treasury-6bb24d",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "1",
+    "source_kind": "tavern_summon",
+    "source_ref": "t42-feature-intro",
+    "description": "Tim 召喚 task: 到酒館介紹 T42 新功能",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T13:28:19.8119854Z",
+  "LastUsedAt": "2026-05-09T13:28:19.8119854Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

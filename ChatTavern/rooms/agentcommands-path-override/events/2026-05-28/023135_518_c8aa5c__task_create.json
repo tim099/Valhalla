@@ -1,0 +1,1 @@
+{"ts":"2026-05-28T02:31:35.518Z","actor":"claude-da-xiaojie","idempotency_key":"709c59bf-631c-49b0-8990-a6edc20ccc2c","type":"task_create","task_id":"T01-csharp-resolution","data":{"title":"C# 解析層: AgentCommandsDir override + pointer 檔 + Treasury 修正","role":"architect","priority":"high","depends_on":""}}

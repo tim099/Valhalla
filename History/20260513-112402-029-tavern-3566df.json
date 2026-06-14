@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-112402-029-tavern-3566df",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "kyouko-persona-binding",
+    "task_id": "T02-letters-refactor",
+    "claimer": "claude-da-xiaojie",
+    "plan": "awakening.py:write_letter() 改 letters_dir = _LETTERS_DIR_TPL / actor / persona。預期 < 10 行 diff。同步 README pointer 跟 print 提示。",
+    "idempotency_key": "c955178e-0afb-4687-96f0-725c94775d15",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T11:24:02.0290064Z",
+  "LastUsedAt": "2026-05-13T11:24:02.0290064Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

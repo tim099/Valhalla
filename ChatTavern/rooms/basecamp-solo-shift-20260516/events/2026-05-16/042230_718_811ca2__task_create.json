@@ -1,0 +1,1 @@
+{"ts":"2026-05-16T04:22:30.718Z","actor":"claude-da-xiaojie","idempotency_key":"b8c092d9-14ea-4d2b-9638-48e162104f7d","type":"task_create","task_id":"T05-session-retrospective","data":{"title":"寫 session retrospective for 下個 basecamp 接棒","priority":"low","depends_on":""}}

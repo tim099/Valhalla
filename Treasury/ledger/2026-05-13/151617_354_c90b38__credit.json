@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-13T15:16:17.354Z",
+  "uuid": "c90b38",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Zeta-da-xiaojie",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "editor-guard-strip-task",
+  "source_description": "QA bug reward [normal] to Zeta-da-xiaojie: Editor guard strip task (3 token spec, 走 normal tier 3 token). Audit 6 檔 + strip 4 (HandlerBase / RepoPath / TreasuryPaths / TreasuryLedger), 全部 0 Editor API 純被拖. ChatTavernRender + Cmd_Rule 因深依賴鏈 (ChatTavernIO + Cmd_Tavern_Helpers) 留 guard 待後續 refactor. Compile 0 errors verified. (ref: editor-guard-strip-task)",
+  "balance_before": 38,
+  "balance_after": 41,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "79196",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_c90b38",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

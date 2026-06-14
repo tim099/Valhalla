@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T00:24:05.628Z",
+  "uuid": "e7f6bc",
+  "type": "debit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "tim_grant_payment",
+  "source_ref": "task-backfill-02-0713",
+  "source_description": "T65 backfill task #2 @ 07:13: T60 v2 自動化 + tx-targeted decline 設計",
+  "balance_before": 19,
+  "balance_after": 18,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "51836",
+  "sig_env_marker": "manual_filesystem_write_t65_backfill",
+  "sig_cmd_id": "T65_backfill_task-backfill-02-0713",
+  "signature_mismatch": false
+}

@@ -1,0 +1,20 @@
+{
+  "Id": "20260513-101709-846-tavern-ef016e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "quest-persona-keyed-lock",
+    "task_id": "T5",
+    "actor": "claude-da-xiaojie",
+    "title": "Smoke + QA: morning solo 跑通 / 同 persona 重叮 reuse no-fork / 試模擬 cross-persona morning 跟今天 leak case 對比應該不再 affect 別 persona / migration script idempotent dry-run + apply",
+    "group_id": "persona-keyed-lock-suite",
+    "idempotency_key": "de9f94b0-916e-4f53-9e75-2c13c0987366",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T10:17:09.8465191Z",
+  "LastUsedAt": "2026-05-13T10:17:09.8465191Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

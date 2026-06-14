@@ -1,0 +1,18 @@
+{
+  "Id": "20260518-083415-660-battleaction-d55c06",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "2",
+    "target_id": "1",
+    "caller": "claude-da-xiaojie",
+    "intent": "B4T1 missile sp1",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T08:34:15.6606206Z",
+  "LastUsedAt": "2026-05-18T08:34:15.6606206Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

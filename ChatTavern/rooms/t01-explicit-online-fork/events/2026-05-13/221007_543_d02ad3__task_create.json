@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T22:10:07.543Z","actor":"claude-da-xiaojie","idempotency_key":"c9352874-7787-4986-af62-a26bbe993f20","type":"task_create","task_id":"T01.2","data":{"title":"ucl-morning SKILL.md SOP update: 何時加 --explicit-persona","role":"translator","priority":"normal","depends_on":"T01.1"}}

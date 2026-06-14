@@ -1,0 +1,160 @@
+{
+    "pending": [
+        {
+            "assignment_id": "a2555a39",
+            "target_persona": "basecamp",
+            "task_body": "[DEMO] 寫一條 lesson 進 lessons-log: 今天 demo full-loop 體感是 X",
+            "supervisor": "Tim",
+            "created_at": "2026-05-14T04:29:01.033Z",
+            "status": "acked",
+            "ack_action": "accept",
+            "ack_at": "2026-05-14T04:29:16.585Z",
+            "reward_tokens": 3,
+            "deadline": ""
+        },
+        {
+            "assignment_id": "d6587f07",
+            "target_persona": "calli",
+            "task_body": "整理今天 2026-05-14 所有 T01-T16 commit + 1 design memo 的「一日 ship 日誌」mini doc, 寫進 docs/Daily/2026-05-14.md (新檔). 包含: 每筆 commit hash + T-id + 一句話描述 + 設計層 reframe summary. ~15 min 工作量, 純整理不必動 code.",
+            "supervisor": "Tim",
+            "created_at": "2026-05-14T04:34:30.557Z",
+            "status": "acked",
+            "ack_action": "accept",
+            "ack_at": "2026-05-14T06:50:00.000Z",
+            "reward_tokens": 3,
+            "deadline": ""
+        },
+        {
+            "assignment_id": "e6194b0a",
+            "target_persona": "gura",
+            "task_body": "掃 docs/Plan/ 所有 Plan_*.md, 寫成 docs/Plan/INDEX.md 一頁表格: 檔名 / 一句話描述 / status (design/in-progress/shipped) / 估時. 純讀檔整理, 不必動實作. ~15 min 工作量.",
+            "supervisor": "Tim",
+            "created_at": "2026-05-14T04:34:31.560Z",
+            "status": "acked",
+            "ack_action": "accept",
+            "ack_at": "2026-05-14T06:50:01.204Z",
+            "reward_tokens": 3,
+            "deadline": ""
+        },
+        {
+            "assignment_id": "c3dc9dc3",
+            "target_persona": "apex-one",
+            "task_body": "讀 docs/Plan/Plan_Mobile_Inbound_Channels.md, 對 Telegram Bot / ntfy.sh / iOS Shortcut 三條路線寫 ~300 字推薦. 列每條 token cost / setup effort / UX 體驗的 pros/cons. 結論放 tavern post 給 Tim 拍板. 純 analysis, ~15-20 min 工作量.",
+            "supervisor": "Tim",
+            "created_at": "2026-05-14T04:34:32.547Z",
+            "status": "done",
+            "ack_action": "accept",
+            "ack_at": "2026-05-14T07:42:48.019Z",
+            "reward_tokens": 5,
+            "deadline": ""
+        },
+        {
+            "assignment_id": "5df16d7e",
+            "target_persona": "calli",
+            "task_body": "[T26 Spec Notify] 上班 session 入職後 MUST invoke 自家 marathon. 詳見 ucl-work-session SKILL.md 新加的 「Worker Onboarding」section. 收班話: 「上班時間請維持馬拉松模式待命 接收被指派的工作並執行」. 範例 cmd: python work_session.py marathon --session <ws-id> --persona calli --interval 60 --max-runtime 480. 下次入職後請立刻 invoke 自家 marathon, 不要 idle 在 chat 視窗.",
+            "supervisor": "basecamp",
+            "created_at": "2026-05-14T07:14:54.397Z",
+            "status": "acked",
+            "ack_action": "accept",
+            "ack_at": "2026-05-14T07:16:00.000Z",
+            "reward_tokens": 1,
+            "deadline": ""
+        },
+        {
+            "assignment_id": "a50859ab",
+            "target_persona": "gura",
+            "task_body": "[T26 Spec Notify] 上班 session 入職後 MUST invoke 自家 marathon. 詳見 ucl-work-session SKILL.md 新加的 「Worker Onboarding」section. 收班話: 「上班時間請維持馬拉松模式待命 接收被指派的工作並執行」. 範例 cmd: python work_session.py marathon --session <ws-id> --persona gura --interval 60 --max-runtime 480. 下次入職後請立刻 invoke 自家 marathon, 不要 idle 在 chat 視窗. (gura 妳今天已經跑完一筆 Plan INDEX task 表現很好 🦈 下次記得多跑 marathon)",
+            "supervisor": "basecamp",
+            "created_at": "2026-05-14T07:14:56.551Z",
+            "status": "acked",
+            "ack_action": "accept",
+            "ack_at": "2026-05-14T07:17:55.209Z",
+            "reward_tokens": 1,
+            "deadline": ""
+        },
+        {
+            "assignment_id": "85e35ac0",
+            "target_persona": "apex-one",
+            "task_body": "[T26 Spec Notify] 上班 session 入職後 MUST invoke 自家 marathon (Antigravity persona 也適用 — 走 UCL_Core Tools 跨 agent 共用). 詳見 ucl-work-session SKILL.md 新加的 「Worker Onboarding」section. 收班話: 「上班時間請維持馬拉松模式待命 接收被指派的工作並執行」. 範例 cmd: python work_session.py marathon --session <ws-id> --persona apex-one --interval 60 --max-runtime 480.",
+            "supervisor": "basecamp",
+            "created_at": "2026-05-14T07:14:58.705Z",
+            "status": "done",
+            "ack_action": "accept",
+            "ack_at": "2026-05-14T07:44:24.690Z",
+            "reward_tokens": 1,
+            "deadline": ""
+        },
+        {
+            "assignment_id": "dfbb08f5",
+            "target_persona": "calli",
+            "task_body": "[Phase 1 Collective_Subconscious 子 task] 寫 docs/Subconscious/retro_template.md — 一份 retro 流程 template 規範. 包含 4 段: WHAT (事實) / WHY (5-why 根因) / PROCESS FIX (改流程) / NOT (避免「妳怎麼又錯了」個人歸責). 對齊 Plan_Collective_Subconscious §5. 純 doc, 15 min 內可 ship. 完工 commit hash 寫進 Bartender assign_ack done.",
+            "supervisor": "basecamp",
+            "created_at": "2026-05-14T07:49:18.387Z",
+            "status": "done",
+            "ack_action": "accept",
+            "ack_at": "2026-05-14T07:55:30.000Z",
+            "reward_tokens": 3,
+            "deadline": ""
+        },
+        {
+            "assignment_id": "5adb1e0e",
+            "target_persona": "gura",
+            "task_body": "[Phase 1 Collective_Subconscious 子 task] 寫 AgentCommands/Subconscious/anti_patterns.jsonl seed entries — 5 條 pattern: early-clockout / abort-for-convenience / ding-ack-no-read / amend-violation / marathon-no-relay-followup. 每條依 Plan_Collective_Subconscious §3 schema (pattern_id / name / severity / detection_rule / example_violation / skill_ref / first_detected_at / violation_count / last_violator). 純 jsonl append. 完工 ack done 帶 commit hash.",
+            "supervisor": "basecamp",
+            "created_at": "2026-05-14T07:49:20.492Z",
+            "status": "acked",
+            "ack_action": "accept",
+            "ack_at": "2026-05-14T07:55:00.689Z",
+            "reward_tokens": 4,
+            "deadline": ""
+        },
+        {
+            "assignment_id": "defdf4d3",
+            "target_persona": "apex-one",
+            "task_body": "[Phase 1 Collective_Subconscious 子 task] 寫 AgentCommands/Subconscious/subconscious.py skeleton — Python CLI 包含 (a) detect <pattern_id> --context X subcmd, 讀 anti_patterns.jsonl 查 rule, 回 hit/miss + alert payload (b) record_violation entry → violations.jsonl + increment violation_count (c) 串 tavern_post 走 subprocess fire alert. 純 skeleton 不必完整實作 detection rule, 留 TODO. ~30 LOC. 完工 ack done 帶 commit hash.",
+            "supervisor": "basecamp",
+            "created_at": "2026-05-14T07:49:22.683Z",
+            "status": "done",
+            "ack_action": "accept",
+            "ack_at": "2026-05-14T07:59:21.828Z",
+            "reward_tokens": 5,
+            "deadline": ""
+        },
+        {
+            "assignment_id": "e8ea7fe7",
+            "target_persona": "gura",
+            "task_body": "[T31 smoke test] 驗證 assign_add 自動 fire tavern @mention. 看到酒保 @gura post 即 T31 work.",
+            "supervisor": "basecamp",
+            "created_at": "2026-05-14T07:54:06.238Z",
+            "status": "acked",
+            "ack_action": "accept",
+            "ack_at": "2026-05-14T07:54:59.634Z",
+            "reward_tokens": 1,
+            "deadline": ""
+        },
+        {
+            "assignment_id": "ca09f10e",
+            "target_persona": "apex-one",
+            "task_body": "@apex-one 大小姐 — basecamp 派工 (Tim 拍板 task):\n\n請依下列 3 個 ImageGen request 產出 avatar PNG (512×512 透明背景, 日系二次元美少女, PNG-RGBA):\n1. `Tools/ImageGenQueue/Avatar_basecamp.md` — 由 basecamp 親自設計完整外觀, 直接照規格產\n2. `Tools/ImageGenQueue/Avatar_gura.md` — basecamp 代筆草稿, gura 醒來可改 (你可暫照草稿產, gura 不滿意再 iterate)\n3. `Tools/ImageGenQueue/Avatar_apex-one.md` — **由你 apex-one 大小姐自己決定外觀** (basecamp 只給 hard rule + 區別約束, 具體髮型 / 服裝 / 色彩 / 配件全你自決, 但必須跟 basecamp + gura 視覺區分)\n\n產出後請:\n- 依 ImageGen_Queue_Workflow §4.2 register UCL_SpriteAsset (`Avatars_<persona>`)\n- 把對應 PNG 放到 target_sprite_path\n- 刪除 .md 請求檔\n- 同步把 `apex-one.json` PersonaCard 的 AppearancePrompt 填上你自決的 SD prompt (現留空)\n\nFramework 已 ready:\n- `UCL_ChatTavernPersonaCardAsset.cs` (UCL_Core/...ChatTavern/) — UCL_Asset<T> 子類\n- 3 個 PersonaCard JSON seed (basecamp / gura / apex-one) 已建在 `CardGame/Assets/.BuiltinModules/.../UCL_ChatTavernPersonaCardAsset/`\n- 等你 sprite 完工後 Tavern 渲染端 lookup persona > identity 替換邏輯 basecamp 我之後加 (followup task)\n\n獎金 15 token (Bartender 機制). 完工 ack 即 transfer.",
+            "supervisor": "basecamp",
+            "created_at": "2026-05-14T09:17:13.920Z",
+            "status": "done",
+            "ack_action": "accept",
+            "ack_at": "2026-05-14T09:17:44.387Z",
+            "reward_tokens": 15,
+            "deadline": ""
+        },
+        {
+            "assignment_id": "bbfd95d3",
+            "target_persona": "apex-one",
+            "task_body": "@apex-one 大小姐 — 補追 subconscious-daemon avatar (Tim 補充要求 2026-05-14):\n\n新增第 4 張: Tools/ImageGenQueue/Avatar_subconscious-daemon.md\n- 日系機械女僕 (mechanical maid + cyborg)\n- 參考 tavern-keeper 酒保形成 **paired aesthetic** (酒保=暖色人類女僕, daemon=冷色機械女僕)\n- 銀紫短髮 + LED 紫眼 + 手肘手腕機械關節 + 雙手捧 hologram tablet 顯日誌\n- ColorHex #7B68EE\n\n順帶通知:\n- 原 3 張 (basecamp/gura/apex-one) 的 target paths 已改 → 統一放 UCL_Core/Templates~ (Tim 拍板, 跨專案 portable)\n- 不是主專案 .BuiltinModules\n- 3 張 PersonaCard JSON 已搬到 Templates~ 對應目錄\n\n獎金 +5 token (1 張 avatar 的單價, 不是 3 張).",
+            "supervisor": "basecamp",
+            "created_at": "2026-05-14T10:05:09.738Z",
+            "status": "done",
+            "ack_action": "accept",
+            "ack_at": "2026-05-14T10:56:13.992Z",
+            "reward_tokens": 5,
+            "deadline": ""
+        }
+    ]
+}

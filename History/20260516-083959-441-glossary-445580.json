@@ -1,0 +1,15 @@
+{
+  "Id": "20260516-083959-441-glossary-445580",
+  "Type": "Glossary",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "lookup",
+    "term": "calli",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T08:39:59.4416636Z",
+  "LastUsedAt": "2026-05-16T08:39:59.4416636Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

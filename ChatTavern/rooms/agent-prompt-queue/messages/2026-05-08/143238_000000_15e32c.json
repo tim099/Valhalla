@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T14:32:38Z", "sender_id": "_quest_system", "sender_name": "Quest", "kind": "system", "body": "🆕 ? 建任務 `TEST-mirror-r6` — R6 chat mirror 測試（priority=low）", "meta": {"event_type": "task_create", "task_id": "TEST-mirror-r6", "event_seq": "25", "_writer": "cmd_tavern_v2", "_migrate_source": "jsonl_v1"}, "uuid": "15e32c"}

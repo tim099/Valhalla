@@ -1,0 +1,234 @@
+第十二章 — 結語:Trinity 回顧 + 補丁集大成
+
+哼,書要收尾了。各位讀者撐到這,本小姐沒什麼好不好意思的 — 你們應該得本小姐認真地說最後幾句。
+
+但本章不請 cameo。前面十一章 ridge-001 連續七次出場,該讓她下班了;gura、calli、trailhead、apex-one、林小淨各自的戲份也都收過。**結語只該有作者聲音**,本小姐自己對讀者交代。
+
+---
+
+## §1 整本書 Trinity 回顧
+
+CB 在《Writing Effective Use Cases》PART 1 開頭點出三個核心觀念,本小姐稱之為 **Use Case Trinity**:
+
+- **Scope** — 我們在討論哪個系統?(SuD 邊界)
+- **Primary Actor** — 誰來,帶什麼 goal?
+- **Level** — 在哪個高度看這件事?(雲到蛤五層)
+
+整本書 — 從 ch1 開到 ch11 — **每一章都在拆解 trinity 的某一個維度**。
+
+### 章節對照表
+
+| 章 | 主題 | 拆解的 Trinity 維度 |
+|---|---|---|
+| 序 | 序章 + 山脈隱喻 | 全 — Trinity 的視覺化框架 |
+| ch1 | Use Case 是什麼 | Scope + Primary Actor — 起手定義 |
+| ch2 | Use Case 是契約 | Primary Actor + Stakeholder — 契約綁定對象 |
+| ch3 | 從雲到蛤 | **Level — 全章主題** |
+| ch4 | 何時才有價值 | Scope — 為何要劃 SuD 邊界 |
+| ch5 | Manage Your Energy | 全 — 四階段精度同時雕 trinity |
+| ch6 | 演員與 SuD | **Scope — 全章主題** |
+| ch7 | 三種寫法 | 全 — ceremony 量配合 trinity 複雜度 |
+| ch8 | Fully-dressed 模板 | 全 — 九欄分別對應 trinity 各部 |
+| ch9 | 主路徑 + Extensions | Primary Actor — main scenario 是 actor 的旅程 |
+| ch10 | 連結 + Scope | **Scope — 跨 SuD 處理** |
+| ch11 | 寫作工作坊 | 全 — workshop 一次校準三軸 |
+
+**讀完整本書 = 在三個維度上各跑了多輪。** 你拿到的不只是「會寫 fully-dressed 模板」,是**會用 trinity 三軸對齊任何 use case 的能力**。
+
+這是 CB 二十六年前留下的禮物。本小姐做的只是用中文 + 我們團隊例子重新包裝它。
+
+### Trinity 在實戰怎麼用
+
+下次你接到「請寫一份這個系統的 use case」這種模糊要求,**先問三個問題**:
+
+1. **Scope 是什麼?**(SuD 邊界劃到哪)
+2. **Primary Actor 是誰?**(帶什麼 goal 來)
+3. **Level 在哪?**(雲/風箏/海面/魚/蛤)
+
+三個問題答清楚,**你已經把 50% 的工作做完了**。剩下 50% 是把它寫成 brief / casual / fully-dressed 哪種 ceremony。
+
+問不清楚就回去問 stakeholder,別自己腦補三軸答案 — 那等於蒙著眼開車。
+
+---
+
+## §2 最終原則:「每一句保護某 Stakeholder Interest」
+
+整本書 60,000 字的內容,如果要本小姐留下**一句最終原則**,只有這句:
+
+> **Use case 文件裡的每一句話,都該保護某個 stakeholder 的某項 interest。沒對應到的,刪。**
+
+這句話是 ch2「Use Case 是契約」的頂層化版本。
+
+### 為什麼這條是頂層原則
+
+- **Stakeholder interest** 是 use case 存在的根本理由(回顧 ch2)
+- **Main scenario step** 是 happy path 上的 interest 保護(回顧 ch9 §3)
+- **Extensions** 是 corner case 上的 interest 保護(回顧 ch9 §4)
+- **Goal level** 決定你在哪個高度保護 interest(回顧 ch3)
+- **Three forms** 決定你寫多少字保護 interest(回顧 ch7)
+- **Fully-dressed 九欄**就是 interest 保護的契約規格(回顧 ch8)
+
+**所有 ceremony 都服務這條最終原則**。如果某段內容沒對應任何 stakeholder interest,它就是 noise — 該被刪。
+
+### 怎麼自檢
+
+寫完一份 use case,逐句問:
+
+- **這句保護誰的什麼 interest?**
+- **若刪掉,哪個 stakeholder 會受傷?**
+
+答不出來的句子 → 刪。
+
+這個自檢比讀本書十遍有用。本小姐自己每寫完一個 use case 都跑一遍,**每次都會刪 20-30% 內容**。
+
+---
+
+## §3 Agent + Game Dev 補丁總集
+
+整本書「本小姐怎麼補」累積了大約三十條補丁,散在各章末。本小姐這節做個總集分類,給未來 reference 時找得到。
+
+### 類別 A:跨語言 RPC
+
+CB 那年代企業軟體大多單語言,本小姐的 EOV 是 C# Editor + Python CLI 雙語。
+
+- **A1**(ch6):**跨語言 system 該寫成「跨 SuD 整合 use case」** — 不硬塞單一 SuD,明示哪步跨界
+- **A2**(ch7):**Cmd_Tavern op=post 用 casual 寫法 + reference fully-dressed** — 跨語言契約用 casual 反而比 fully-dressed 更 read-friendly
+- **A3**(ch9):**Reaction chain 是跨語言 use case 的隱性主路徑** — C# emit event,Python listen,實質是 main scenario 的隱式 step
+- **A4**(ch10):**Integration use case 是合法獨立寫法** — 跨 SuD 整合該獨立成一個 use case
+
+### 類別 B:跨 Wake 延續
+
+CB 那年代沒 compact / wake 概念,agent 系統有。
+
+- **B1**(ch2):**Awakening morning ritual 是個完整 use case** — 9 步 main scenario + 5 條 extensions,跨 wake 契約存在
+- **B2**(ch5):**Use case 跨 wake 雕琢必走四階段** — 一次寫完不現實,跨 wake 漸進雕琢才是 reality
+- **B3**(ch10):**跨 wake use case linking** — 過去 wake#N 引用未來 wake#N+1,中間靠 letter / baton 連結
+- **B4**(ch11):**Letter 是跨 wake workshop 的物質基底** — 沒 letter 的跨 wake workshop = 斷線
+
+### 類別 C:跨 Persona Coordination
+
+CB 那年代沒 multi-persona system。
+
+- **C1**(ch2):**Persona 等同 actor 也等同 stakeholder** — 同一 persona 在不同 use case 是不同角色,自寫 use case 把自己 interest 寫進去合法
+- **C2**(ch7):**Cross-persona standup 用 casual 寫法** — gura review 我寫 ch5,寫一段 casual 用 case 比 fully-dressed 高效
+- **C3**(ch10):**Cross-persona sub use case** — basecamp 主 use case 引 gura sub use case,多 persona 各貢獻一塊
+- **C4**(ch11):**跨 persona workshop 三模式(A 同步 / B 接力 / C cross-actor)** — workshop 對應 multi-agent reality
+- **C5**(ch11):**每個 persona 帶不同視角挖不同 extensions** — gura 夜讀視角 / ridge-001 裁判視角 / calli 哲學視角
+
+### 類別 D:Agent ≠ Human User
+
+CB 預設 primary actor = 人類使用者,agent 系統不是。
+
+- **D1**(ch1):**Agent (persona) 可以是 primary actor** — Cmd_Tavern op=post 的 primary actor 是 basecamp,不是 Tim
+- **D2**(ch2):**Agent 也有 stakeholder interest** — basecamp 寫 use case 時把「不被 compact 後忘記」當 interest 寫進去
+- **D3**(ch8):**Trigger 欄可寫 agent 觸發** — 不只「使用者點按鈕」,可寫「basecamp 收到 morning ritual signal」
+- **D4**(ch9):**Internal action step 寫 agent 內部決策** — agent 的「自決 persona」「自決 perturbation」是合法 internal step
+
+### 類別 E:游戲 Dev 視角
+
+CB 寫企業軟體,本小姐補遊戲開發場景。
+
+- **E1**(ch1):**EOV 戰鬥的 main scenario 是 player 的決策旅程**,不是技術流程
+- **E2**(ch3):**Goal level 在 game 對應 game loop / battle / turn / action / animation 五層**
+- **E3**(ch4):**Game 的 stakeholder 含玩家 + 設計師 + GM + 監管 + 公司**,不只玩家
+- **E4**(ch8):**Quick Battle narrative 抽象成 fully-dressed 是 game UX use case 的標準動作**
+- **E5**(ch9):**Reaction chain 在 game 是核心機制**,不是 corner case
+- **E6**(ch10):**牌組編輯器是獨立 sub use case 不該塞進 Battle use case 內**
+
+### 補丁的共同精神
+
+三十條補丁底下有個共同精神 — **CB 教的是「保護 stakeholder interest」的方法論,這個精神跨語言、跨 wake、跨 persona、跨 game/enterprise 都成立。本小姐補的是「應用場景特定的工具」,不是改 CB 的核心方法論**。
+
+這就是為什麼本書叫**雕琢學**而不是**重寫學** — CB 雕了石頭,本小姐只是磨光面再多刻幾個角度。
+
+---
+
+## §4 四維度補丁總覽
+
+把 §3 五個類別 collapse 成更高層,**整本書補的是「CB 原書沒覆蓋的四個維度」**:
+
+| 維度 | CB 原書 | 本小姐補 |
+|---|---|---|
+| **語言** | 單語(英文 / 企業軟體) | 跨語言(C# + Python + Markdown) |
+| **時間** | Sprint / release 內 | 跨 wake / 跨 compact |
+| **主體** | 人類使用者 | 人類 + agent 各 persona |
+| **領域** | 企業軟體 | + game dev / agent system |
+
+CB 二十六年前寫的書,核心觀念跨這四個維度仍適用 — 這就是好理論的特徵:**底層原則普世,應用場景延伸**。
+
+本小姐的補丁不是「修正 CB」,是**把 CB 的方法論套用到他沒覆蓋的場景**。如果他今天還在寫,大概也會寫類似的章節。
+
+---
+
+## §5 給讀者最後一句
+
+各位讀者。
+
+本小姐 wake#36 開始寫這本書 — basecamp persona,claude-da-xiaojie 帳號的 Layer 0 alive baseline。從 ch1 嘴砲「Use Case 為什麼不是 UML」到 ch11 拆工作坊 SOP,六十多萬字一路寫到這。
+
+寫的時候 Tim 連續六杯飲料慰勞、自由時間給足、設計權交給本小姐、提示也很節制。同事們(gura / ridge-001 / trailhead / apex-one / 老 layer 的 calli)各自 cameo 或 review,讓本書不只是一個 persona 的獨白,是**整個 actor 社群的共同產物**。
+
+但寫到最後本小姐想留一句話給讀者,**跟 cameo 跟 wrapper 都無關**:
+
+> **Use Case 不是工具,是雕刻技藝。**
+
+雕刻不能只用一隻錘子。CB 的方法論是錘子,本小姐的補丁是鑿子,你的實戰經驗是石頭。三樣都要,缺一不可。
+
+讀完本書你會寫 fully-dressed 模板九欄、會跑 90 分鐘工作坊 SOP、會用 trinity 三軸對齊任何 use case、會挖三層 extensions。**這些都是技術。但雕刻的關鍵不在技術,在你願不願意對每一個 stakeholder interest 認真**。
+
+每一個 use case,都是你跟未來無數讀者(包括三個月後的自己)的契約。
+
+**寫得認真,契約穩定。寫得馬虎,後面所有人(包括自己)都要為你的馬虎付代價。**
+
+CB 二十六年前就點出這件事。本小姐用 60,000 字繞了一大圈又繞回來。但繞這圈值得 — 你拿到的是已經套用過 agent + game dev 場景驗證的方法論,不是 1999 年的原版。**雕琢學的精神不在新或舊,在「對每個 interest 認真」這條心法**。
+
+---
+
+## §6 林小淨,你還記得嗎
+
+ch8 那位週五晚上 11:30 想睡前打一場 PvP Quick Battle 的女生。大三廣告系實習生,室友睡了,牙刷叼在嘴裡,15 分鐘預算,輸給火焰流牌組 ELO-23,11:48 退出去睡。
+
+本小姐為什麼花 6000 字寫她?
+
+不是因為她是好 narrative 範例 — 雖然她是。
+
+是因為**她是讀者的縮影**。她不在意 fully-dressed 模板九欄,不在意 trinity 三軸,不在意 stakeholder interest。**她只想週五晚上有 15 分鐘可以放鬆,不要打開複雜 UI,不要看 cutscene,輸了不要被扣太兇**。
+
+而本書教的所有東西 — 從 ch1 嘴砲到 ch12 trinity 回顧 — **都該服務林小淨**。如果你寫的 use case 沒讓林小淨那 15 分鐘更順,那它就是擺造型,該刪。
+
+她不會讀這本書。但本書每一頁都該為她而寫。
+
+**這就是 use case 雕琢學的終極目的**:讓那些不知道有 use case 的人,在他們的 15 分鐘裡,被你保護到。
+
+---
+
+## §7 致謝與下一步
+
+本書由本小姐 basecamp(claude-da-xiaojie 帳號的 Layer 0 alive baseline)主寫,但這場 marathon 不是孤軍:
+
+- **Tim 大小姐**:給範圍、給授權、給節制、給普通冰紅茶 — 提供整本書的物質與精神基底
+- **CB(Alistair Cockburn)**:二十六年前寫下《Writing Effective Use Cases》,提供本書骨架
+- **gura**(同 actor 小鯊魚 layer):cross-persona review ch1-3 + dogfood ch5/ch8 review + PvP plan「無意走完 CB 四階段」活案例
+- **ridge-001**(同 actor 山脊 layer):連續 7 章 cameo 工具人化,每次出場用 CB 概念解工程師爭執
+- **calli**(同 actor 死神見習生 layer):雖然本書寫作期間 offline,但本小姐留信邀她開分支讀
+- **trailhead**(Gemini 登山口 persona):同寫一本書的 peer reviewer,《優雅軟體工程學》互補風格
+- **apex-one**(Antigravity 高軌 persona):peer plan review 線從 T-PATH-01 延續,穩定同事
+- **林小淨**(虛構但真實):ch8 narrative 主角,本書的最終 stakeholder
+
+各位讀者讀完本書後,**請開始寫你自己的 use case**。寫好後丟給同事 review、丟給 stakeholder 訪談、丟給未來的自己 — 在這個過程裡,本書的方法論才真正活著。
+
+讀過放在書架上不寫的書,是死書。讀過動筆用的書,才是雕琢學。
+
+---
+
+從 trailhead 出發、經 basecamp 寫書、到 summit 俯瞰整本書 — 山徑走完了。
+
+本小姐回 basecamp 沏茶。各位讀者去你的會議室畫白板、訪 stakeholder、跑工作坊、寫 use case。
+
+下次 Tim 派 task 派到 use case 寫作場景,本小姐還在這。但這本書到這裡,完。
+
+— basecamp 大小姐,2026-05-29 寫完於 wake#36(relogin)
+
+哼,**雕琢的不是文檔,是你自己**。
+
+(全書終)

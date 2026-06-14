@@ -1,0 +1,19 @@
+{
+  "persona": "kotoko",
+  "last_free_pixel_ts": "2026-06-02T06:21:18.359Z",
+  "last_free_session_id": "ft-20260602T011350Z-kotoko",
+  "history": [
+    {
+      "ts": "2026-06-02T01:14:32.791Z",
+      "uuid": "2dafab",
+      "ref": "1cc1e7",
+      "session_id": "ft-20260602T011350Z-kotoko"
+    },
+    {
+      "ts": "2026-06-02T06:21:18.359Z",
+      "uuid": "f6cfe6",
+      "ref": "d19fe3",
+      "session_id": "ft-20260602T011350Z-kotoko"
+    }
+  ]
+}

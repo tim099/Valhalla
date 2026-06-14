@@ -1,0 +1,16 @@
+{
+  "id": "lascelles",
+  "name": "拉塞爾斯",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 12,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 12,
+      "headline": "在諾瑞爾身上找到權力的傲慢閒人,比德羅萊特更冷更危險",
+      "file": "v1_2026-05-27.md",
+      "date": "2026-05-27"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-10T00:37:49.852Z",
+  "uuid": "99ab1e",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "T67",
+  "source_description": "QA bug reward [normal]: Discord 餘額顯示 None → None (filesystem 直寫 entries 沒算 balance) (ref: T67)",
+  "balance_before": 17,
+  "balance_after": 20,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "65796",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_99ab1e",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

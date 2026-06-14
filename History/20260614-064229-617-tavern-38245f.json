@@ -1,0 +1,19 @@
+{
+  "Id": "20260614-064229-617-tavern-38245f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "chess-system",
+    "task_id": "T01-engine",
+    "claimer": "Zeta-da-xiaojie",
+    "plan": "純 stdlib 寫西洋棋引擎(不加 pip 依賴): 64格盤(a1=0,index=rank*8+file) + FEN parse/serialize + 偽合法走子生成(各子) + is_square_attacked + legal_moves(過濾自將) + apply_move(pattern-based trust: relocate+易位移車+過路兵吃+升變, 更新易位權/ep/halfmove/fullmove/turn, 不擋非法只警示) + result_status(將死/逼和/子力不足/50步/三次重複)。實作於 UCL_Core/Tools~/AgentCommands/chess.py。預計同檔接著做 T03 state/ops、T04 render、T05 broadcast、T06 reward。",
+    "idempotency_key": "9c16464b-7f69-4d8f-a081-6cece9ebeff9",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-14T06:42:29.6173433Z",
+  "LastUsedAt": "2026-06-14T06:42:29.6173433Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

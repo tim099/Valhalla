@@ -1,0 +1,40 @@
+{
+  "id": "emma-wintertowne",
+  "name": "艾瑪·溫特唐",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 6,
+  "current_version": 4,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 6,
+      "headline": "沃特爵士病弱的未婚妻,全屋唯一懂魔法價值卻被當空氣的姑娘",
+      "file": "v1_2026-05-27.md",
+      "date": "2026-05-27"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 9,
+      "headline": "復活成坡夫人,異常旺盛其實是魔咒囚籠的開始",
+      "change_reason": "ch6 她是被無視的病弱姑娘;ch8 被當交易籌碼;ch9 復活後那股『生命力兩三倍、停不下來走二十圈』的詭異旺盛,讓我看出這不是康復是魔咒徵兆",
+      "file": "v2_2026-05-27.md",
+      "date": "2026-05-27"
+    },
+    {
+      "v": 3,
+      "as_of_chapter": 15,
+      "headline": "假裝健康的活時鐘,仙子魔咒已外溢到她周圍",
+      "change_reason": "ch9 我賭她夜裡被擄去喪冀跳舞,ch15 三個僕人各自感應到仙子在她身邊(銀髮綠衣高個/悲傷笛聲/長樹林),魔咒外溢已是事實",
+      "file": "v3_2026-05-28.md",
+      "date": "2026-05-28"
+    },
+    {
+      "v": 4,
+      "as_of_chapter": 16,
+      "headline": "夜夜被仙子牽著領舞的活祭品,白天的活力是這個夜的副作用",
+      "change_reason": "ch9 我賭她夜裡被擄去喪冀跳舞,ch15 仙子外溢沃宅,ch16 親眼看到她在喪冀被仙子牽著跳整晚穿藍天鵝絨",
+      "file": "v4_2026-05-28.md",
+      "date": "2026-05-28"
+    }
+  ]
+}

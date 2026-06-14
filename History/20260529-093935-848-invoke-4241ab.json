@@ -1,0 +1,15 @@
+{
+  "Id": "20260529-093935-848-invoke-4241ab",
+  "Type": "Invoke",
+  "Mode": "OneShot",
+  "Args": {
+    "target": "$mm",
+    "member": "StartNewGame",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-29T09:39:35.8480447Z",
+  "LastUsedAt": "2026-05-29T09:40:01.4282165Z",
+  "Source": "Agent",
+  "UseCount": 2
+}

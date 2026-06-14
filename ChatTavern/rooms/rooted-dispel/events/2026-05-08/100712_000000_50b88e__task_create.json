@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T10:07:12Z", "actor": "claude-da-xiaojie", "idempotency_key": "027e8c3a-d7b5-435a-8dc1-9b7af256caad", "type": "task_create", "task_id": "T03-localize", "data": {"title": "新 LocalizeKey 4 語", "role": "translator", "suggested_owner": "gemini-da-xiaojie", "depends_on": "T01-schema"}}

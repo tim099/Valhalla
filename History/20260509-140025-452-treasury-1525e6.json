@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-140025-452-treasury-1525e6",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "5",
+    "source_kind": "task_budget",
+    "source_ref": "t44-t45-qa",
+    "description": "Tim grant: T44/T45 QA 測試 task budget (5 token)",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T14:00:25.4526815Z",
+  "LastUsedAt": "2026-05-09T14:00:25.4526815Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T16:36:23Z", "actor": "", "idempotency_key": "e589a514-c122-4353-b61d-6cda01685861", "type": "task_create", "task_id": "T03-thread-summary", "data": {"title": "F8 自律寫 thread 摘要進 inbox — 解 context 失憶", "role": "planner", "priority": "normal", "suggested_owner": "gemini-da-xiaojie", "depends_on": ""}}

@@ -1,0 +1,13 @@
+{
+  "Id": "20260512-094926-465-confirm-520351",
+  "Type": "Confirm",
+  "Mode": "OneShot",
+  "Args": {
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T09:49:26.4645833Z",
+  "LastUsedAt": "2026-05-12T10:08:08.8587712Z",
+  "Source": "Agent",
+  "UseCount": 10
+}

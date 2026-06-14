@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-11T01:40:14.384Z",
+  "uuid": "8c71a4",
+  "type": "credit",
+  "amount": 5,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "ValorBattleAdvanceDoubleInit",
+  "source_description": "QA bug reward [critical]: BattleAdvance --arg target=EnterBattle 強制推 state 引入 double-init bug — 角色 + 敵人都 spawn 雙倍 (state corruption). 元 irony: basecamp patch #2 解卡關但引入更嚴重 bug. Tim 截圖 confirm 2 露西亞 + 2 鳥身女妖, 預期 1+1 (ref: ValorBattleAdvanceDoubleInit)",
+  "balance_before": 79,
+  "balance_after": 84,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "67168",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_8c71a4",
+  "signature_mismatch": false,
+  "_severity": "critical"
+}

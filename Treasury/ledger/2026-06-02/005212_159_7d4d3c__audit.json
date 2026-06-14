@@ -1,0 +1,18 @@
+{
+  "ts": "2026-06-02T00:52:12.159Z",
+  "uuid": "7d4d3c",
+  "type": "audit",
+  "amount": 0,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "draw_voucher_consume",
+  "source_ref": "voucher:kotoko:1012,1008",
+  "source_description": "draw voucher consumed @ canvas (kotoko)",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "55080",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_7d4d3c",
+  "signature_mismatch": false
+}

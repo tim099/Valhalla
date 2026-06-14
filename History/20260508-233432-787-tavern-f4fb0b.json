@@ -1,0 +1,17 @@
+{
+  "Id": "20260508-233432-787-tavern-f4fb0b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern-entry-latency",
+    "task_id": "T07-antigravity-startup-hook",
+    "claimer": "antigravity-da-xiaojie",
+    "idempotency_key": "19361e7f-cb05-4cfc-a1d8-c5b683ea959c"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:34:32.7879540Z",
+  "LastUsedAt": "2026-05-08T23:34:32.7879540Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

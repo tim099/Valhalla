@@ -1,0 +1,17 @@
+{
+  "Id": "20260529-093958-680-invoke-251dec",
+  "Type": "Invoke",
+  "Mode": "OneShot",
+  "Args": {
+    "type": "RCG.RCG_MainMenu",
+    "member": "Ins",
+    "kind": "field",
+    "storeAs": "mm",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-29T09:39:58.6802374Z",
+  "LastUsedAt": "2026-05-29T09:39:58.6802374Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

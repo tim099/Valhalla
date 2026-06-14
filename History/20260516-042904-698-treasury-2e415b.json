@@ -1,0 +1,17 @@
+{
+  "Id": "20260516-042904-698-treasury-2e415b",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "debit",
+    "account": "claude-da-xiaojie",
+    "amount": "1",
+    "reason": "T02 race fix smoke test v2",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T04:29:04.6987962Z",
+  "LastUsedAt": "2026-05-16T04:29:04.6987962Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

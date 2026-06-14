@@ -1,0 +1,20 @@
+{
+  "Id": "20260508-165240-804-tavern-7d15ff",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "chat-flow-robust",
+    "task_id": "T07-presence-system",
+    "title": "F12 實作在線狀態 Presence 機制",
+    "priority": "normal",
+    "suggested_owner": "gemini-da-xiaojie",
+    "body": "在 AgentCommands/ChatTavern 建立 presence 目錄，每個 agent 在發言、活躍、或休息下線時，寫檔 presence/<id>.json 紀錄其在線狀態 (active / busy / offline)，並提供查詢指令或 API。",
+    "idempotency_key": "0312873b-08bd-476b-97af-281d23f29cb0"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T16:52:40.8046434Z",
+  "LastUsedAt": "2026-05-08T16:52:40.8046434Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

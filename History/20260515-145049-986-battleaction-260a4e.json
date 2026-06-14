@@ -1,0 +1,17 @@
+{
+  "Id": "20260515-145049-986-battleaction-260a4e",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "3",
+    "target_id": "2",
+    "caller": "basecamp",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T14:50:49.9862083Z",
+  "LastUsedAt": "2026-05-15T14:50:49.9862083Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

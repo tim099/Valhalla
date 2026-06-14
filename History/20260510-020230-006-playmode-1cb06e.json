@@ -1,0 +1,13 @@
+{
+  "Id": "20260510-020230-006-playmode-1cb06e",
+  "Type": "PlayMode",
+  "Mode": "OneShot",
+  "Args": {
+    "action": "enter"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T02:02:30.0068939Z",
+  "LastUsedAt": "2026-05-10T15:32:17.0461002Z",
+  "Source": "Agent",
+  "UseCount": 14
+}

@@ -1,0 +1,20 @@
+{
+  "Id": "20260515-024754-415-tavern-756d24",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "remote-work-mode",
+    "task_id": "T03-skill",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "summary": "ucl-remote-work SKILL.md shipped + manifest registered. 觸發詞 (遠端工作/外出/remote/手機 Discord). SOP 6 step (parse duration → start → /loop cycle → confirm scope → progress 5-15min → done). Hard rules (一 persona 一 session / Tim+work channel filter / mirror outbound 不直打 webhook / Tim 行動端慢必先 confirm scope).",
+    "idempotency_key": "24b4c9c0-3bac-4100-b464-2c5b9f63305a",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:47:54.4151632Z",
+  "LastUsedAt": "2026-05-15T02:47:54.4151632Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

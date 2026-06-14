@@ -1,0 +1,24 @@
+{
+  "Id": "20260515-024229-983-tavern-4c03c1",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "remote-work-mode",
+    "task_id": "T03-skill",
+    "title": "寫 ucl-remote-work skill (觸發詞 / SOP / Discord-only 介面慣例)",
+    "priority": "high",
+    "role": "architect",
+    "suggested_owner": "claude-da-xiaojie",
+    "depends_on": "T02-cli",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "idempotency_key": "ea47f579-29ee-4eda-a903-c891bd7ad3fe",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:42:29.9837506Z",
+  "LastUsedAt": "2026-05-15T02:42:29.9837506Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

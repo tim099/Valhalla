@@ -1,0 +1,245 @@
+{
+  "terms": [
+    {
+      "term": "六大公國",
+      "category": "place",
+      "definition": "由六個領地結盟組成的主要國家,瞻遠王族統治。公鹿堡為王城所在。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "瞻遠家族",
+      "category": "faction",
+      "definition": "統治六大公國的王族。源自外島海盜,第一位國王名『征服者』。命名傳統:王室子嗣得代表美德的名字(駿騎/惟真/帝尊/黠謀),民間信仰認為名字具魔法、子嗣絕不違背其名所代表的美德。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "公鹿堡",
+      "category": "place",
+      "definition": "六大公國王城/瞻遠王族根據地(Buckkeep)。紋飾為飛躍的公鹿。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "月眼城",
+      "category": "place",
+      "definition": "邊區苦寒基地,蜚滋記憶開始之地——外祖父在此把他丟給瞻遠王族。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "細柳林",
+      "category": "place",
+      "definition": "駿騎放棄王位後自我流放之地(Withywoods)。溫暖河谷、遠離宮廷——對本該為王者是天鵝絨般溫和的放逐。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "精技",
+      "category": "term",
+      "definition": "需後天學習的能力,可跨人(甚至人與龍)傳遞精神力、攻擊心靈、奪取他人精技。會上癮,蜚滋靠藥物控制癮頭。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "原智",
+      "category": "term",
+      "definition": "經血緣遺傳、無法後天學習,可與動物心靈交流、共享感官、甚至轉移靈魂入動物。世人視為邪惡(易思想獸化)。蜚滋第一夜飄進幼犬夢境=原智初顯。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "紅船劫匪",
+      "category": "faction",
+      "definition": "外島出身的海盜,紅色龍骨船。不只劫掠六大公國船隻城鎮,連其他外島人的船也劫。傳說桅頂吊著被捆的活人任海鷗啄食。trilogy 核心威脅。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "征服者",
+      "category": "other",
+      "definition": "瞻遠王族第一位國王。原是暈船的外島海盜,攻下公鹿堡後『有火有食物就不再離開』,開啟一脈相傳的皇室血統。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "公鹿堡城",
+      "category": "place",
+      "definition": "公鹿堡腳下、攀附黑色岩壁的海港城市。碼頭/酒館/蠟燭工坊/乞兒群聚的市井世界,蜚滋童年最自由的地方。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "古靈",
+      "category": "faction",
+      "definition": "睿智國王與之為友的長翅膀發光生物(掛毯所繪,原文 Elderlings)。蜚滋新房間掛毯描繪睿智國王向古靈懇求的情景。跨卷世界觀大伏筆。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "法洛與提爾司",
+      "category": "place",
+      "definition": "帝尊母后(法洛女公爵)的權力根據地。母后野心:威脅率法洛/提爾司叛變、另立王國由帝尊稱王。內鬥伏線。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "煤灰",
+      "category": "other",
+      "definition": "博瑞屈分配給蜚滋的灰斑黑鬃母馬(原文 Sooty),柯布訓練、性情安靜如靜池。蜚滋第一匹坐騎。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "私生子紋飾",
+      "category": "other",
+      "definition": "蜚滋衣上的標誌:公鹿頭加一道紅色斜線。表示受承認的皇室血脈、卻非合法繼承人。可向國王請求改用自取的名字與紋飾。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "蓋倫",
+      "category": "other",
+      "definition": "公鹿堡的精技師(Skillmaster)。不肯教蜚滋精技。日後精技訓練衝突的伏線人物。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "偷溜",
+      "category": "other",
+      "definition": "切德養的棕色黃鼠狼(原文 Slink)。愛討鵪鶉蛋吃,跟著餵食者亦步亦趨。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "尖刃",
+      "category": "term",
+      "definition": "切德口中『不用大腦的刀子』——只服從、不思考的純殺人工具。切德拒絕讓蜚滋淪為尖刃(『你想要不用大腦的刀子就自己打一把』)。全書核心命題:刺客能否保有人性與判斷,而非淪為扁平的刃。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "基沛",
+      "category": "term",
+      "definition": "山區銀髮老婦在市集反覆對蜚滋喊的詞(其語言),似在要求某物/某事,引發兩名山區女人扭打。蜚滋感背脊發涼。疑為蜚滋山區血緣/身分的神秘伏線。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "守望島瞭望台",
+      "category": "place",
+      "definition": "潔宜灣外守望島上的瞭望台,屬瑞本大公國領土故由其駐守。對修克斯大公國示警紅船劫匪至關緊要,但克爾伐只派老弱看守,致修克斯村莊受劫。潔宜灣外交爭議+蜚滋首任務核心。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "潔宜灣",
+      "category": "place",
+      "definition": "瑞本大公國克爾伐公爵的領地與港口(原文 Neatbay)。蜚滋隨惟真出使、執行第一個刺殺任務之地。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "衛灣堡",
+      "category": "place",
+      "definition": "克爾伐公爵在潔宜灣的城堡(原文 Bayguard)。建於無天然屏障的平地,靠層層城牆壕溝防守,敵人從未攻進第二條壕溝以內。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "冶鍊鎮",
+      "category": "place",
+      "definition": "公鹿堡北邊的城鎮(原文 Forge),紅船劫匪逼近公鹿堡的劫掠目標。劫匪在此抓人質、發出反常通牒(付贖金就殺、不付就放)。弄臣預言『只費肥油』應驗之地。日後『冶鍊』成為紅船劫匪暴行的代名詞(伏線)。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "反常通牒",
+      "category": "term",
+      "definition": "紅船劫匪在冶鍊鎮的勒索:『付贖金就殺人質,不付就放回』——與常理倒反。船長微笑下令、水手大笑。傳話者騎馬至公鹿堡仍發抖。暗示人質『被放回』後會變成比死更可怕的東西。核心謎團。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "冶鍊",
+      "category": "term",
+      "definition": "紅船劫匪的核心暴行:把擄走的人質『掏空人性』後放回。被冶鍊者(Forged ones)失去人與人之間的原智之線,在廢墟搜刮、為殘羹互毆、對彼此苦難無動於衷,比死更可怕——不再算人、甚至不算活著。得名自冶鍊鎮(首例)。trilogy 核心恐怖。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "卡芮絲籽",
+      "category": "term",
+      "definition": "一種興奮劑(carryme),少量如春節蛋糕提神,大量令人失去疲倦感、超限透支後驟然崩潰。博瑞屈警告毀馬。切德服用強撐夜奔(他能服而不死成謎),藥效退後昏睡兩天。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "麻臉人",
+      "category": "other",
+      "definition": "六大公國數百年的傳說:疾病與災禍的預兆,黑斗蓬、滿臉痘疤。切德現身冶鍊鎮被村民認作麻臉人、丟石驅趕。謠言將隨災情傳遍六大公國=切德身分的風險。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "原智之線",
+      "category": "term",
+      "definition": "蜚滋以原智感知到的、連結一切生物的線(母子/男女/鄰人/人與動物/魚鳥)。他靠它得知周遭生物存在(博瑞屈進門前抬頭/感知新生幼犬)。被冶鍊者此線全斷=蜚滋感知不到他們,也讓他驚覺自己與眾不同。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "催化劑（改變者）",
+      "category": "term",
+      "definition": "蜚滋成人式上獲得的密名(古語無字母、意為『改變者/催化劑』)。他拒以雙手牙齒殺生而領此名。全 trilogy 命運核心伏筆——暗示蜚滋將是改變時代、催化重大變局的關鍵存在,而非主角式的英雄。蜚滋至今未對任何人透露此名。",
+      "aliases": [
+        "Catalyst",
+        "改變者",
+        "蜚滋的成人名"
+      ],
+      "as_of_chapter": 17,
+      "added_date": "2026-05-24"
+    },
+    {
+      "term": "群山王國（頡昂佩）",
+      "category": "place",
+      "definition": "六大公國西方的山區國度,齊兀達人為主。皇室源於先知判官頡昂佩,核心理念:統治者是人民最極致的『僕人』,須無私犧牲(從判官漸演為國王)。習俗嚴酷適應險惡山地:畸嬰致死、老人『退隱』自我放逐、食言者割舌。繼承不分男女按出生序。珂翠肯/盧睿史所屬。惟真聯姻對象,黠謀『七大公國』野心所指。",
+      "aliases": [
+        "頡昂佩",
+        "Jhaampe",
+        "Mountain Kingdom",
+        "七大公國候選"
+      ],
+      "as_of_chapter": 19,
+      "added_date": "2026-05-24"
+    }
+  ]
+}

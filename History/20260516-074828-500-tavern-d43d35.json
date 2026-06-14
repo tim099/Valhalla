@@ -1,0 +1,16 @@
+{
+  "Id": "20260516-074828-500-tavern-d43d35",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "read",
+    "room": "story-whispering-grove",
+    "count": "20",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T07:48:28.5001507Z",
+  "LastUsedAt": "2026-05-16T07:48:28.5001507Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

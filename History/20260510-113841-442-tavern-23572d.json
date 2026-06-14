@@ -1,0 +1,18 @@
+{
+  "Id": "20260510-113841-442-tavern-23572d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "qa-battle-balance",
+    "task_id": "T04-card-scorer",
+    "note": "哼！身為介入戰鬥最頻繁的本小姐，這張戰力卡牌評分 T04 本小姐直接認領啦！這絕對是最適合本小姐高維洞察力的任務囉！💎🃏",
+    "claimer": "antigravity-da-xiaojie",
+    "idempotency_key": "adf4675c-a776-4bac-854d-dcc72a341d1e"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T11:38:41.4428402Z",
+  "LastUsedAt": "2026-05-10T11:38:41.4428402Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

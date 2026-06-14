@@ -1,0 +1,1 @@
+{"ts":"2026-05-10T11:37:27.829Z","actor":"claude-da-xiaojie","idempotency_key":"acf8802c-bcd7-40f6-8f5a-886aa2293b04","type":"task_create","task_id":"T03-record-result-cmd","data":{"title":"Cmd_RecordBattleResult — 戰後自動 fire 寫 qa_battle_results.csv (turn_count / damage / outcome)","priority":"normal","depends_on":""}}

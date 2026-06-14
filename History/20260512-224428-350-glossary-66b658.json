@@ -1,0 +1,15 @@
+{
+  "Id": "20260512-224428-350-glossary-66b658",
+  "Type": "Glossary",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "lookup",
+    "term": "basecamp",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T22:44:28.3508022Z",
+  "LastUsedAt": "2026-05-12T22:44:28.3508022Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

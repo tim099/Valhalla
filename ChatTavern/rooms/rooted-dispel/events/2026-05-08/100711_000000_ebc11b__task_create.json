@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T10:07:11Z", "actor": "claude-da-xiaojie", "idempotency_key": "70213c81-7633-45fd-a342-72297baca2ec", "type": "task_create", "task_id": "T02-migrate", "data": {"title": "改寫 Rooted/Twine.json 用新欄位", "role": "programmer", "suggested_owner": "claude-da-xiaojie", "depends_on": "T01-schema"}}

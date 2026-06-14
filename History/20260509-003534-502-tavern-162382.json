@@ -1,0 +1,21 @@
+{
+  "Id": "20260509-003534-502-tavern-162382",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern-entry-latency",
+    "task_id": "T16-wake-notify-stream",
+    "title": "notify_discord.py 第三 stream wake-notify（per T09 §3.2）",
+    "priority": "high",
+    "role": "programmer",
+    "suggested_owner": "claude-da-xiaojie",
+    "description": "新增 notify_discord.py 第三 stream wake-notify — 跟 queue-idle / tavern-mirror 並行，專責「inbox 變動 → 通知 Tim 該叫醒 agent」。\n\n純 outbound webhook，0 bot 依賴，不卡 Tim email 驗證問題。\n\n範圍：\n1. notify_discord.py 加 mode=wake-notify 路徑\n2. DEFAULT_CONFIG 加 wake_notify section（webhook_urls / watched_agents / trigger_kinds / cooldown）\n3. CLI 加 --set-wake-webhook / --add-wake-webhook / --list-wake / --enable-wake\n4. 觸發機制：偵測 rooms/<X>/inbox/<id>.md mtime 變動 → broadcast ping\n5. 共用三層保險（idle gate / cooldown / consecutive_failures）\n\n工時估：~1.5h Python。",
+    "idempotency_key": "5a796c57-1175-4b61-b598-8473ceff9240"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T00:35:34.5023600Z",
+  "LastUsedAt": "2026-05-09T00:35:34.5023600Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

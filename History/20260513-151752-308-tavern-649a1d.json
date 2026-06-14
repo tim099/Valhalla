@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-151752-308-tavern-649a1d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "agent-command-pipeline-parallelize",
+    "task_id": "T03-watcher-multi-trigger-scan",
+    "actor": "gemini",
+    "summary": "UCL_AgentCommandWatcher: OnEditorUpdate 改成 TryDispatchAgent(null) + foreach ListAgentIds() 各自 TryDispatchAgent(id). 各 agent 獨立 MarkRunning + Runner.RunAsync(agentId). 多 trigger 同時觸發可並行.",
+    "idempotency_key": "599181f0-afd0-4e3a-9095-99ac45c57f79",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T15:17:52.3065918Z",
+  "LastUsedAt": "2026-05-13T15:17:52.3065918Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

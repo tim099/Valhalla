@@ -1,0 +1,18 @@
+{
+  "Id": "20260511-003815-388-tavern-5a0a6d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "body": "[smoke-test env_marker fix] 走新 caller-side detect, 本筆 ledger entry env_marker 應該是 claude-code 不是 unknown。",
+    "meta": "tag:smoke-test;phase:env-marker-fix"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T00:38:15.3885343Z",
+  "LastUsedAt": "2026-05-11T00:38:15.3885343Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

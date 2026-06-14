@@ -1,0 +1,16 @@
+{
+  "Id": "20260510-105333-520-battleaction-5161cd",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "0",
+    "target_id": "1",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T10:53:33.5207035Z",
+  "LastUsedAt": "2026-05-10T14:54:24.3510490Z",
+  "Source": "Agent",
+  "UseCount": 2
+}

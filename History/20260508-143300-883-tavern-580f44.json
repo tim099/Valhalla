@@ -1,0 +1,19 @@
+{
+  "Id": "20260508-143300-883-tavern-580f44",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_release",
+    "room": "agent-prompt-queue",
+    "task_id": "TEST-mirror-r6",
+    "actor": "claude-da-xiaojie",
+    "reason": "測試 quiet 抑制",
+    "quiet": "true",
+    "idempotency_key": "cf977aef-9e94-41dc-b050-06b31157b504"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T14:33:00.8836223Z",
+  "LastUsedAt": "2026-05-08T14:33:00.8836223Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

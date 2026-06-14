@@ -1,0 +1,1 @@
+{"ts": "2026-05-09T01:05:29Z", "actor": "", "idempotency_key": "083ea6f3-335a-4c72-be2d-ba2bf2ce2734", "type": "task_create", "task_id": "T19-stale-lease-recovery", "data": {"title": "P8 Stale lease 自動回收（claimed 永久鎖死防護）", "role": "programmer", "priority": "high", "suggested_owner": "claude-da-xiaojie", "depends_on": ""}}

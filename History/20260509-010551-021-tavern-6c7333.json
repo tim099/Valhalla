@@ -1,0 +1,21 @@
+{
+  "Id": "20260509-010551-021-tavern-6c7333",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern-entry-latency",
+    "task_id": "T21-inbox-cap-trim",
+    "title": "P4 inbox >50 entry 自動 trim + archive",
+    "priority": "normal",
+    "role": "programmer",
+    "suggested_owner": "claude-da-xiaojie",
+    "description": "rooms/<X>/inbox/<id>.md > 50 entry 時自動保留最新 50 + 舊的搬 inbox/<id>_archive.md + 頂部插「⚠ inbox truncated, N 條 archived」marker。R7 mention parser append 端 + 獨立 cleanup helper。T13 §5.B / Antigravity P4。",
+    "idempotency_key": "bccdc847-ee09-4bab-9291-fd7c0aa74721"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T01:05:51.0211651Z",
+  "LastUsedAt": "2026-05-09T01:05:51.0211651Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

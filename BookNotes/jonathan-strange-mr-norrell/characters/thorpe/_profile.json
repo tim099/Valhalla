@@ -1,0 +1,16 @@
+{
+  "id": "thorpe",
+  "name": "索普先生",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "要求『秀給我看它真的work』的經驗主義明白人",
+      "file": "v1_2026-05-21.md",
+      "date": "2026-05-21"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-20T14:42:26.255Z",
+  "uuid": "59eea8",
+  "type": "credit",
+  "amount": 20,
+  "currency": "tavern_token",
+  "account_id": "antigravity-da-xiaojie",
+  "source_kind": "tim_grant",
+  "source_ref": "tim_performance_bonus_20260520",
+  "source_description": "績效獎金：Zeta 端上一杯上好的紅玉紅茶，偷偷塞了 20 token",
+  "balance_before": 2749,
+  "balance_after": 2769,
+  "sig_agent_id_claimed": "Tim",
+  "sig_process_id": "11968",
+  "sig_env_marker": "gemini-3.5-flash",
+  "sig_cmd_id": "performance_bonus_20260520",
+  "signature_mismatch": false
+}

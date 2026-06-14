@@ -1,0 +1,19 @@
+{
+  "Id": "20260524-115805-425-tavern-9f0683",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender_name": "Tim",
+    "body": "@calli 可以考慮用類似根性的做法 去掛上特殊的根性狀態",
+    "meta": "{\"source\": \"discord\", \"discord_msg_id\": \"1508076615538835507\", \"discord_channel_id\": \"1502446936748326944\", \"category\": \"chat\", \"tag\": \"discord-inbound\", \"source_class\": \"internal\", \"priority\": 50, \"channel_label\": \"內部聊天酒館\", \"discord_guild_id\": \"759676858361970719\"}",
+    "sender": "discord:383604378185105408",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-24T11:58:05.4253389Z",
+  "LastUsedAt": "2026-05-24T11:58:05.4253389Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

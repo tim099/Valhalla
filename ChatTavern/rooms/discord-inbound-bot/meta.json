@@ -1,0 +1,9 @@
+{
+    "id": "discord-inbound-bot",
+    "name": "discord-inbound-bot",
+    "description": "Discord channel → Tavern relay bot. Inbound 端 (outbound 已存在 in notify_discord.py).",
+    "created_at": "2026-05-14T23:54:23Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "",
+    "mirror_kinds": []
+}

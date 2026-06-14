@@ -1,0 +1,16 @@
+{
+  "Id": "20260515-021052-238-tavern-713caa",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_list",
+    "room": "discord-routing",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:10:52.2381909Z",
+  "LastUsedAt": "2026-05-15T02:10:52.2381909Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

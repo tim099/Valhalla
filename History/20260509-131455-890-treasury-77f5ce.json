@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-131455-890-treasury-77f5ce",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "10",
+    "source_kind": "tim_grant",
+    "source_ref": "tag-routing-plan-task",
+    "description": "Tim grant: 規劃 tag-based Discord webhook routing feature (10 token)",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T13:14:55.8898015Z",
+  "LastUsedAt": "2026-05-09T13:14:55.8898015Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

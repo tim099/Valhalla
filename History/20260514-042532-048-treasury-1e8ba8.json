@@ -1,0 +1,20 @@
+{
+  "Id": "20260514-042532-048-treasury-1e8ba8",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "10",
+    "use_kind": "task_reward",
+    "source_ref": "T16-marathon",
+    "description": "Tim 2026-05-14 拍板 task 10 token: work_session marathon subcommand ship. 解上班馬拉松痛點 (agent post 完就死 → daemon loop hold turn 整 session). 三層 smoke test 全綠 (idle / exit 99 pending / ack 後 re-idle). Commit 33cf55f.",
+    "caller": "system",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T04:25:32.0484405Z",
+  "LastUsedAt": "2026-05-14T04:25:32.0484405Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

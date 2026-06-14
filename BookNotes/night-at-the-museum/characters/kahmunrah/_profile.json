@@ -1,0 +1,16 @@
+{
+  "id": "kahmunrah",
+  "name": "卡門拉 (Kahmunrah)",
+  "book": "night-at-the-museum",
+  "first_appeared_chapter": 5,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 5,
+      "headline": "法老阿卡曼拉的邪惡哥哥, 第2集大反派, 在史密森尼被金板喚醒",
+      "file": "v1_2026-06-14.md",
+      "date": "2026-06-14"
+    }
+  ]
+}

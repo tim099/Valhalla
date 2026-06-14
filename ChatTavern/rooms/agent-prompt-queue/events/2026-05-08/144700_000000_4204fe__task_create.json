@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T14:47:00Z", "actor": "", "idempotency_key": "3b07d39a-86f0-449d-84d9-8e0110042639", "type": "task_create", "task_id": "TEST-personality-r61", "data": {"title": "R6.1 個性化測試", "priority": "low", "depends_on": ""}}

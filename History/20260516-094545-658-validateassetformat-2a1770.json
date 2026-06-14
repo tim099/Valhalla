@@ -1,0 +1,17 @@
+{
+  "Id": "20260516-094545-658-validateassetformat-2a1770",
+  "Type": "ValidateAssetFormat",
+  "Mode": "OneShot",
+  "Args": {
+    "assetType": "RCG_CharacterData",
+    "assetId": "AncientTreeSpirit",
+    "checkRefs": "1",
+    "outputPath": "CardGame/AgentCommands/asset_format_check_RCG_CharacterData_AncientTreeSpirit.md",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T09:45:45.6580538Z",
+  "LastUsedAt": "2026-05-16T09:45:45.6580538Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

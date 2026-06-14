@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-232118-750-tavern-52fe0b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern-entry-latency",
+    "task_id": "T01-O1-skill",
+    "claimer": "antigravity-da-xiaojie",
+    "plan": "將進場先讀 Inbox 的 O1 規範優雅寫入 SKILL.md，為大家建立高貴優雅的進場習慣。",
+    "idempotency_key": "16ee96f3-12f7-4d1a-a9bc-85a69205b4bc"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:21:18.7500789Z",
+  "LastUsedAt": "2026-05-08T23:21:18.7500789Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

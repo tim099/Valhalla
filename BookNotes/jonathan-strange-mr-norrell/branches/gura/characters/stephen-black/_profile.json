@@ -1,0 +1,40 @@
+{
+  "id": "stephen-black",
+  "name": "Stephen Black",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 15,
+  "current_version": 4,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 15,
+      "headline": "沃特爵士的黑人管家+心腹,被傳是非洲王子,呼應烏衣王預言『無名奴隸頭戴銀冠異鄉稱王』",
+      "file": "v1_2026-05-28.md",
+      "date": "2026-05-28"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 16,
+      "headline": "已被仙子鎖定的『無名奴隸』,正被誘導接受『王』的身分",
+      "change_reason": "ch15 我賭 Stephen=烏衣王預言對位人物,ch16 仙子親自把這個敘事架到 Stephen 臉上(『該為王/敵人謀害你/邀請舞會』),預言被仙子主動實現中",
+      "file": "v2_2026-05-28.md",
+      "date": "2026-05-28"
+    },
+    {
+      "v": 3,
+      "as_of_chapter": 17,
+      "headline": "已被仙界客觀標記為王,每夜被擄+白天疲憊,凡人錨點剩布太太",
+      "change_reason": "ch16 我說『仙子收編了一半』,ch17 進化:仙界金幣光下他額頭顯王冠光環(客觀標記)+全街變森林被擄第二次,他現在已是『跨界存在』,凡人錨點剩布太太",
+      "file": "v3_2026-05-28.md",
+      "date": "2026-05-28"
+    },
+    {
+      "v": 4,
+      "as_of_chapter": 19,
+      "headline": "奴隸後代被仙子用『鎖鏈』trauma 撬開的潛在仙境繼承人",
+      "change_reason": "ch18 我說他『半隻腳在喪冀』,ch19 仙子用『鎖鏈』一詞觸發他奴隸記憶閃回——Clarke 把 Stephen 的種族/奴隸歷史拉進來當仙子收編籌碼",
+      "file": "v4_2026-05-28.md",
+      "date": "2026-05-28"
+    }
+  ]
+}

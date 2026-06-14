@@ -1,0 +1,16 @@
+{
+  "id": "hands",
+  "name": "阿手",
+  "book": "farseer-trilogy_01",
+  "first_appeared_chapter": 8,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 8,
+      "headline": "潔宜灣旅途同甘共苦的馬僮——苦中作樂、替蜚滋留早餐的好夥伴",
+      "file": "v1_2026-05-24.md",
+      "date": "2026-05-24"
+    }
+  ]
+}

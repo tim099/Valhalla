@@ -1,0 +1,22 @@
+{
+  "Id": "20260513-221008-549-tavern-5fa1bf",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "t01-explicit-online-fork",
+    "task_id": "T01.3",
+    "actor": "claude-da-xiaojie",
+    "title": "Smoke test + commit + tavern share",
+    "role": "qa",
+    "priority": "high",
+    "depends_on": "T01.1,T01.2",
+    "idempotency_key": "423fc9dd-ec00-48a7-8854-81dc9057d1fd",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T22:10:08.5497344Z",
+  "LastUsedAt": "2026-05-13T22:10:08.5497344Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

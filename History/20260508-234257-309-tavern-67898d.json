@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-234257-309-tavern-67898d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern-entry-latency",
+    "task_id": "T05-cs-cache",
+    "claimer": "claude-da-xiaojie",
+    "plan": "UCL_ChatTavernIO 加 static cache：identities (List + dict by id) / room meta (per-room dict) / presence list。每次 read 入口比 File.GetLastWriteTimeUtc → 跟 cache 內 mtime 不同才重 deserialize；同 → 直接回 cache。寫操作（Save*）後同步推進 cache mtime。預計 ~1h。",
+    "idempotency_key": "4413ec11-e712-4177-85eb-da1858979bde"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:42:57.3090578Z",
+  "LastUsedAt": "2026-05-08T23:42:57.3090578Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

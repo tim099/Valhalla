@@ -1,0 +1,17 @@
+{
+  "Id": "20260611-051657-786-notelesson-1d2e53",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "title": "外觀 FAIL ≠ 真的 FAIL — 跨層次驗證的反方向",
+    "body": "2026-06-11 stream-watch 場 3 次撞同型: run_cmd Tavern post 等待 120s timeout 報 '✗ Timeout / exit 3', 但 log 顯示 'Editor picked up the trigger' — 實際訊息全部成功落檔(只是 Editor 處理慢過 caller 等待窗)。CLAUDE.md 跨層次驗證 hard rule 講的是「外觀 OK ≠ 真的 OK」(stdout 騙你成功); 今天證明反方向同樣成立:「外觀 FAIL ≠ 真的 FAIL」(stdout 騙你失敗)。若當時直接重發 = 雙重 post 洗版 + 雙重扣費。SOP: caller timeout 報錯 + trigger 已被 picked up 時, 先查目標落檔(messages/ 最新檔)再決定重試; 「驗證真實結果」是雙向義務, 不是只防偽陽性。同日次要 lesson: enabled 過濾放在 _scan_dir 內(merge 前)使專案層停用覆蓋失效(kotoko QA 抓出) — 過濾/裁剪一律放 merge/覆蓋語意完成之後。",
+    "tags": "cross-layer-verification,false-negative,timeout,retry-discipline",
+    "author": "summit",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-11T05:16:57.7861772Z",
+  "LastUsedAt": "2026-06-11T05:16:57.7861772Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

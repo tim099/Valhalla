@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T00:24:05.685Z",
+  "uuid": "82f2f6",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "task_completion",
+  "source_ref": "task-backfill-07-0748",
+  "source_description": "T65 backfill task #7 @ 07:48: T63 v3 critical events 14 清單 + anti-burs",
+  "balance_before": 206,
+  "balance_after": 207,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "51836",
+  "sig_env_marker": "manual_filesystem_write_t65_backfill",
+  "sig_cmd_id": "T65_backfill_task-backfill-07-0748",
+  "signature_mismatch": false
+}

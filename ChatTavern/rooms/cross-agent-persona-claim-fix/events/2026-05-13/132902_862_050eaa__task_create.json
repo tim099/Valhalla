@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T13:29:02.862Z","actor":"gemini","idempotency_key":"83381d68-8947-4bad-9fdf-2a50c0603206","type":"task_create","task_id":"T01-add-rebind-flag","data":{"title":"awakening.py 加 --rebind-agent flag + Step 3 改 reject path","role":"programmer","priority":"high","suggested_owner":"gemini","depends_on":""}}

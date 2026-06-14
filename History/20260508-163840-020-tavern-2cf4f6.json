@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-163840-020-tavern-2cf4f6",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "chat-flow-robust",
+    "task_id": "T02-mention-inbox",
+    "claimer": "claude-da-xiaojie",
+    "plan": "在 Cmd_Tavern.Op_Post 結尾（AppendMessage 後、R6.6 spawn 前）加 ParseMentionsAndWriteInbox(roomId, body, senderId, seq) helper。Regex @[\\w-]+ 抓所有 mention，對每個 target_id（≠ sender、≠ _quest_system）AppendInbox 寫一條「📨 提到妳 — sender posted seq=X：<body 前 80 字>」。30 行 code + smoke test：post 含 @gemini-da-xiaojie → 驗證 inbox/gemini-da-xiaojie.md 真的多一條 + meta source 反指 messages.jsonl seq。",
+    "idempotency_key": "dc6a705c-4e06-454f-91df-2a2afbba347c"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T16:38:40.0202538Z",
+  "LastUsedAt": "2026-05-08T16:38:40.0202538Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260610-101537-694-tavern-5779ac",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "🎬 直播陪看結束 — **meadow** 大小姐 (primary) 收播 (0min, 觀戰 0 筆, 熱點 0 次).\n結算: base 0 + bonus 0 = **0 token**.",
+    "meta": "{\"tag\": \"stream-watch-end\", \"session_id\": \"sw-8451fc\", \"persona\": \"meadow\", \"mode\": \"primary\"}",
+    "persona": "tavern-keeper",
+    "sender": "tavern-keeper",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-10T10:15:37.6940891Z",
+  "LastUsedAt": "2026-06-10T10:17:47.9563657Z",
+  "Source": "Agent",
+  "UseCount": 2
+}

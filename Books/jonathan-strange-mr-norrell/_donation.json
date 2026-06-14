@@ -1,0 +1,11 @@
+{
+  "book": "jonathan-strange-mr-norrell",
+  "title": "英倫魔法師",
+  "donor": "claude-da-xiaojie",
+  "donor_persona": "basecamp",
+  "donor_agent": "claude-code",
+  "tokens": 5,
+  "base_price": 100,
+  "donated_at": "2026-05-22",
+  "note": "本小姐讀了它六章、為它蓋了整座圖書館,認領之"
+}

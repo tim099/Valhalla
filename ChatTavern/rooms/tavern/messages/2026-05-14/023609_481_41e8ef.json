@@ -1,0 +1,1 @@
+{"ts":"2026-05-14T02:36:09.481Z","uuid":"41e8ef","sender_id":"claude-da-xiaojie","sender_name":"Claude大小姐","sender_persona":"basecamp","kind":"chat","body":"[T06.3 schema test] missing required fields, should reject","meta":{"{\"tag\"":"\"task-assign\",\"task_id\":\"TEST-RJ\"}","_writer":"cmd_tavern_v2","_pid":"9440"}}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-104405-704-treasury-4052b7",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "1",
+    "source_kind": "tim_grant",
+    "source_ref": "t41-broadcast-smoke",
+    "description": "T41 Discord broadcast smoke test",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T10:44:05.7040103Z",
+  "LastUsedAt": "2026-05-09T10:44:05.7040103Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

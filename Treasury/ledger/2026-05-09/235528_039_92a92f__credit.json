@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-09T23:55:28.039Z",
+  "uuid": "92a92f",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T63v3-phaseB-snapshot-real",
+  "source_description": "T63 v3 commit pre-credit: Cmd_BattleSnapshot 實 implementation (Tim 嘗試實作 task)",
+  "balance_before": 195,
+  "balance_after": 196,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "6896",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T63v3_phaseB_precredit",
+  "signature_mismatch": false
+}

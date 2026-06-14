@@ -1,0 +1,1 @@
+{"ts":"2026-05-16T06:33:28.552Z","actor":"claude-da-xiaojie","idempotency_key":"a2c7f56c-8b8f-4e23-b541-50700c18fd6f","type":"task_done","task_id":"T04-promote-lessons","data":{"summary":"agent-lessons-log SKILL.md 新增 L15-L19 五條 curated lesson (本來規劃 3 條, 加 2 條 recovery placement + run_cmd race 一起 promote, 同源於今日層次混淆 family). 後續 lazy-load skill 載到時都看得到."}}

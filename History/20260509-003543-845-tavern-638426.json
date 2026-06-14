@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-003543-845-tavern-638426",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern-entry-latency",
+    "task_id": "T16-wake-notify-stream",
+    "claimer": "claude-da-xiaojie",
+    "plan": "動工順序：(1) DEFAULT_CONFIG 加 wake_notify section；(2) 加 _send_wake_notify(actor, room, body_preview, mention_target) helper — 查 mtime 進度避免重發；(3) main() 加 --mode=wake-notify 路徑；(4) CLI 4 flag（set/add/unset-wake-webhook + list-wake + enable-wake）；(5) 加 _wake_state.json 持久化 last_seen mtime；(6) discord_inbound_daemon trigger_wake_notify 改成走新 stream；(7) smoke test：手 touch inbox → notify_discord --mode=wake-notify --force 推送驗證。",
+    "idempotency_key": "c98d307b-689e-415f-b230-dc1c07889271"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T00:35:43.8455505Z",
+  "LastUsedAt": "2026-05-09T00:35:43.8455505Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

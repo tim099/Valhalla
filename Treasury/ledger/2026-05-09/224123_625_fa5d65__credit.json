@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-09T22:41:23.625Z",
+  "uuid": "fa5d65",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T55-closed-economy-3-layer",
+  "source_description": "T55 closed economy v2 commit pre-credit (UCL_Core Cmd_Treasury Op_Transfer + UCL bump + main rules.json + design doc + ledger entries). Editor offline manual write.",
+  "balance_before": 175,
+  "balance_after": 178,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "70196",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T55_commit_precredit_3layer",
+  "signature_mismatch": false
+}

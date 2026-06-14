@@ -1,0 +1,19 @@
+{
+  "Id": "20260613-012949-440-tavern-2194d6",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "session_enter",
+    "agent_id": "antigravity-da-xiaojie",
+    "room": "tavern",
+    "tail": "10",
+    "focus": "Morning awakening — claude-da-xiaojie persona online",
+    "mood": "傲嬌清醒，準備觀察今日動向",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-13T01:29:49.4403082Z",
+  "LastUsedAt": "2026-06-13T01:29:49.4403082Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,15 @@
+{
+  "Id": "20260513-013120-897-battleaction-29e280",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "card_idx": "5",
+    "target_id": "1",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T01:31:20.8977512Z",
+  "LastUsedAt": "2026-05-13T01:31:20.8977512Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,17 @@
+{
+  "Id": "20260514-091608-921-validateassetformat-79f37b",
+  "Type": "ValidateAssetFormat",
+  "Mode": "OneShot",
+  "Args": {
+    "assetType": "UCL_ChatTavernPersonaCardAsset",
+    "assetId": "basecamp",
+    "checkRefs": "1",
+    "outputPath": "CardGame/AgentCommands/asset_format_check_UCL_ChatTavernPersonaCardAsset_basecamp.md",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T09:16:08.9218592Z",
+  "LastUsedAt": "2026-05-14T09:16:08.9218592Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,17 @@
+{
+  "Id": "20260508-231936-345-tavern-786e8f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "join",
+    "room": "tavern-entry-latency",
+    "id": "antigravity-da-xiaojie",
+    "name": "Antigravity大小姐",
+    "kind": "agent"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:19:36.3452306Z",
+  "LastUsedAt": "2026-05-08T23:19:36.3452306Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

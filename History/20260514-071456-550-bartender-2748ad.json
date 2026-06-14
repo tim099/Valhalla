@@ -1,0 +1,18 @@
+{
+  "Id": "20260514-071456-550-bartender-2748ad",
+  "Type": "Bartender",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "assign_add",
+    "target_persona": "gura",
+    "task_body": "[T26 Spec Notify] 上班 session 入職後 MUST invoke 自家 marathon. 詳見 ucl-work-session SKILL.md 新加的 「Worker Onboarding」section. 收班話: 「上班時間請維持馬拉松模式待命 接收被指派的工作並執行」. 範例 cmd: python work_session.py marathon --session <ws-id> --persona gura --interval 60 --max-runtime 480. 下次入職後請立刻 invoke 自家 marathon, 不要 idle 在 chat 視窗. (gura 妳今天已經跑完一筆 Plan INDEX task 表現很好 🦈 下次記得多跑 marathon)",
+    "supervisor": "basecamp",
+    "reward_tokens": "1",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T07:14:56.5504054Z",
+  "LastUsedAt": "2026-05-14T07:14:56.5504054Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

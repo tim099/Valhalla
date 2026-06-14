@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-14T07:13:00.121Z",
+  "uuid": "37b356",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "t26-worker-marathon-onboard",
+  "source_description": "QA bug reward [normal] to Tim: T22+T24 ship 後員工經 auto-recruit + @mention 入職 OK, 但不會自動進入 marathon hold turn 模式 — 在 chat 視窗閒置, 沒 op=wait / sleep loop, 也沒接題. Tim QA repro: 需額外 chat 訊息「上班時間請維持馬拉松模式待命 接收被指派的工作並執行」員工才會 invoke marathon. Spec gap: ucl-work-session SKILL.md 對 worker 進場後該 invoke marathon 沒明文. (ref: t26-worker-marathon-onboard)",
+  "balance_before": 172,
+  "balance_after": 175,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "3440",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_37b356",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-06-12T03:51:23.269Z",
+  "uuid": "a38902",
+  "type": "debit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "canvas_pixel",
+  "source_ref": "f658c3:1143,1025",
+  "source_description": "canvas pixel @ (1143,1025) by basecamp",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "21896",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_a38902",
+  "signature_mismatch": false
+}

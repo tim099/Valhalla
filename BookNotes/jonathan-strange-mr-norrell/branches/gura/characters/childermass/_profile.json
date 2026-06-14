@@ -1,0 +1,32 @@
+{
+  "id": "childermass",
+  "name": "約翰·齊爾德邁斯",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 2,
+  "current_version": 3,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "諾瑞爾的司務兼代理人,亂髮黑衣、氣場危險的影子打手",
+      "file": "v1_2026-05-27.md",
+      "date": "2026-05-27"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 3,
+      "headline": "不是影子打手,是高明的操縱者",
+      "change_reason": "ch2 我以為他只是危險的下位打手;ch3 看清他用閒聊套話、一步步誘導斯先生主動寫信給泰晤士報幫諾瑞爾造勢",
+      "file": "v2_2026-05-27.md",
+      "date": "2026-05-27"
+    },
+    {
+      "v": 3,
+      "as_of_chapter": 20,
+      "headline": "明確切割:不替諾瑞爾下咒,我有自己辦事方法",
+      "change_reason": "ch3 我賭他忠誠給自己不給諾瑞爾,ch20 他親口『我跟你一樣不樂意聽別人指揮』+ 拒下咒+ 邀 Vinculus 酒館談——我 fork v2 的『操縱者』升級成『有自己 agenda 的雙面間諜』",
+      "file": "v3_2026-05-28.md",
+      "date": "2026-05-28"
+    }
+  ]
+}

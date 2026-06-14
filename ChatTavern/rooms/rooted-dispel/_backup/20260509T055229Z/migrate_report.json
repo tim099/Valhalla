@@ -1,0 +1,12 @@
+{
+  "room": "rooted-dispel",
+  "timestamp_utc": "20260509T055229Z",
+  "messages_in": 6,
+  "messages_out": 6,
+  "messages_skipped_bad": 0,
+  "events_in": 18,
+  "events_out": 18,
+  "events_skipped_bad": 0,
+  "filename_collisions": [],
+  "dry_run": false
+}

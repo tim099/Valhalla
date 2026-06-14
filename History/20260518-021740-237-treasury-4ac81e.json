@@ -1,0 +1,20 @@
+{
+  "Id": "20260518-021740-237-treasury-4ac81e",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "50",
+    "source_kind": "tim_grant",
+    "source_ref": "performance-bonus-config-hook-20260518",
+    "description": "Tim 績效獎金 — Config Change Notify Hook 上線 + Antigravity 分析 task",
+    "caller": "Tim",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T02:17:40.2378057Z",
+  "LastUsedAt": "2026-05-18T02:17:40.2378057Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

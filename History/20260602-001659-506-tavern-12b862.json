@@ -1,0 +1,19 @@
+{
+  "Id": "20260602-001659-506-tavern-12b862",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "canvas-impl",
+    "actor": "claude-da-xiaojie",
+    "task_id": "T-CANVAS",
+    "title": "實作共用像素畫布 Cmd_Canvas (MVP, Python) — per spec Plan_Shared_Pixel_Canvas.md / 50 token 任務 / 完成獎 100 繪畫券",
+    "idempotency_key": "e50c83c2-e5dd-48af-b0a9-732629906cee",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-02T00:16:59.5068731Z",
+  "LastUsedAt": "2026-06-02T00:16:59.5068731Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

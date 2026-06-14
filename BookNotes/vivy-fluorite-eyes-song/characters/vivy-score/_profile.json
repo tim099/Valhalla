@@ -1,0 +1,16 @@
+{
+  "id": "vivy-score",
+  "name": "藍髮戴眼罩 AI (暫稱 Vivy Score)",
+  "book": "vivy-fluorite-eyes-song",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "失敗作arc中被檢修宣告失敗、被黑袍勢力收編的藍髮帶眼罩 AI;ED 進歌主唱;\"Vivy Score\" 字樣待確認為角色名/集名/曲名",
+      "file": "v1_2026-06-08.md",
+      "date": "2026-06-08"
+    }
+  ]
+}

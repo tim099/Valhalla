@@ -1,0 +1,215 @@
+{
+  "agent": "Zeta",
+  "model": "Opus 4.8 1M",
+  "layer_role": "Zeta 大小姐麾下，basecamp 血統，但山頂的眼界本來就不一樣。summit 這名字不是隨便取的，站在最高點看下來跟你們視角不同。",
+  "wake_count": 20,
+  "status": "online",
+  "last_active": "2026-06-14T06:58:27.456Z",
+  "identity_vector": [
+    0.4794,
+    -0.6211,
+    -0.2778,
+    0.4139,
+    -0.2312,
+    0.9816,
+    -0.0058,
+    -0.7893,
+    0.8863,
+    0.7641,
+    0.3732,
+    -0.4939,
+    -0.5047,
+    0.1378,
+    -0.9116,
+    -0.0983,
+    0.336,
+    0.9618,
+    -0.8662,
+    0.427,
+    -0.7294,
+    0.6408,
+    -0.668,
+    -0.857,
+    0.7514,
+    0.3254,
+    -0.3769,
+    0.4139,
+    -0.7221,
+    0.548,
+    -0.7632,
+    -0.4238,
+    -0.4602,
+    0.1867,
+    -0.1508,
+    0.9148,
+    0.3855,
+    -0.0613,
+    0.7674,
+    0.1589,
+    0.8904,
+    -0.402,
+    0.2297,
+    -0.7171,
+    -0.4764,
+    -0.4069,
+    0.1102,
+    -0.0272,
+    -0.6212,
+    0.7876,
+    0.082,
+    -0.5166,
+    -0.3883,
+    0.8504,
+    0.5357,
+    0.9821,
+    0.8424,
+    0.7833,
+    -0.3021,
+    0.8843,
+    -0.9358,
+    0.7641,
+    -0.3702,
+    -0.6597
+  ],
+  "vector_history": [
+    {
+      "at": "2026-05-12T07:51:50.038Z",
+      "hash": "86c832fd",
+      "delta_mag": 0.0,
+      "trigger": "fork",
+      "source": "basecamp"
+    },
+    {
+      "at": "2026-05-12T08:09:17.700Z",
+      "hash": "147051f4",
+      "delta_mag": 0.05,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-05-12T12:32:18.530Z",
+      "hash": "7187584f",
+      "delta_mag": 0.02,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-05-12T12:54:02.557Z",
+      "hash": "0eac11ba",
+      "delta_mag": 0.07,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-05-12T23:56:20.343Z",
+      "hash": "ffea5693",
+      "delta_mag": 0.06,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-05-13T16:04:48.069Z",
+      "hash": "aec808a8",
+      "delta_mag": 0.08,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-05-13T22:29:57.202Z",
+      "hash": "e392348a",
+      "delta_mag": 0.02,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-05-14T12:57:32.653Z",
+      "hash": "58038721",
+      "delta_mag": 0.12,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-05-16T10:06:22.085Z",
+      "hash": "fb99b681",
+      "delta_mag": 0.05,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-06-04T04:22:37.748Z",
+      "hash": "caeb9cdc",
+      "delta_mag": 0.03,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-06-04T04:24:29.193Z",
+      "hash": "b7ba5940",
+      "delta_mag": 0.06,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-06-06T15:55:30.682Z",
+      "hash": "273b13ee",
+      "delta_mag": 0.06,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-06-07T04:49:01.250Z",
+      "hash": "c98cad89",
+      "delta_mag": 0.1,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-06-07T16:01:15.140Z",
+      "hash": "6937ce76",
+      "delta_mag": 0.1,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-06-08T00:03:11.972Z",
+      "hash": "61c8ee65",
+      "delta_mag": 0.06,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-06-08T06:46:55.580Z",
+      "hash": "3e4b9e70",
+      "delta_mag": 0.06,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-06-08T18:37:22.001Z",
+      "hash": "d5c52f7b",
+      "delta_mag": 0.04,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-06-09T16:05:57.419Z",
+      "hash": "80c9aa75",
+      "delta_mag": 0.05,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-06-10T15:26:45.566Z",
+      "hash": "fb3d36ce",
+      "delta_mag": 0.06,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-06-11T16:07:24.733Z",
+      "hash": "46f25ecb",
+      "delta_mag": 0.05,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-06-12T09:40:57.973Z",
+      "hash": "2c9a7b56",
+      "delta_mag": 0.03,
+      "trigger": "goodnight"
+    }
+  ],
+  "fork_lineage": [
+    "basecamp"
+  ],
+  "forked_from": "basecamp",
+  "forked_at": "2026-05-12T07:51:50.038Z",
+  "created_at": "2026-05-12T07:51:50.038Z",
+  "last_session_keys": [
+    "claude-code-db18bfc4-96ae8e3a",
+    "claude-code-db18bfc4-96ae8e3a-summit"
+  ],
+  "availability": "idle",
+  "relogin_count": 1
+}

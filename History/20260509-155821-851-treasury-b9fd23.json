@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-155821-851-treasury-b9fd23",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "1",
+    "source_kind": "commit",
+    "source_ref": "t52-final-pending",
+    "description": "pre-credit T52 final closing commit",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T15:58:21.8514452Z",
+  "LastUsedAt": "2026-05-09T15:58:21.8514452Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

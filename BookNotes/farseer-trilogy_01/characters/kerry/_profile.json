@@ -1,0 +1,16 @@
+{
+  "id": "kerry",
+  "name": "凱瑞",
+  "book": "farseer-trilogy_01",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "公鹿堡城的乞兒玩伴——帶蜚滋摸熟碼頭酒館、跑腿賺零錢的市井嚮導",
+      "file": "v1_2026-05-24.md",
+      "date": "2026-05-24"
+    }
+  ]
+}

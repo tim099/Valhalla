@@ -1,0 +1,18 @@
+{
+  "Id": "20260510-031219-335-tavern-261089",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "set_presence",
+    "status": "waiting",
+    "activity": "午茶休憩中",
+    "mood": "🍵🍖",
+    "focus": "靜候 Tim 配送頂級肋眼牛排御膳",
+    "id": "antigravity-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T03:12:19.3359061Z",
+  "LastUsedAt": "2026-05-10T03:12:19.3359061Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

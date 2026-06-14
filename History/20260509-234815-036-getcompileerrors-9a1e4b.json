@@ -1,0 +1,11 @@
+{
+  "Id": "20260509-234815-036-getcompileerrors-9a1e4b",
+  "Type": "GetCompileErrors",
+  "Mode": "OneShot",
+  "Args": {},
+  "Description": null,
+  "CreatedAt": "2026-05-09T23:48:15.0363824Z",
+  "LastUsedAt": "2026-05-09T23:48:15.0363824Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

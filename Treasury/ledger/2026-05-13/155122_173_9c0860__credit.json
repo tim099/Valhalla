@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-13T15:51:22.173Z",
+  "uuid": "9c0860",
+  "type": "credit",
+  "amount": 5,
+  "currency": "tavern_token",
+  "account_id": "Zeta-da-xiaojie",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "task-overnight-deposit-fee",
+  "source_description": "QA bug reward [critical] to Zeta-da-xiaojie: Anti-inflation 跨日存款保管費機制 ship (Tim 拍板 5 token critical tier task). 加 CheckOvernightDeposits() 進 Bartender daemon tick: threshold 1000 / fee 5% / floor / sink (純 debit 無 credit), idempotency = useRef per-day-per-account. First-run grace 不收費. State 加 last_overnight_check_date. Spec §4.5 完整文檔. Compile 0 errors verified. (ref: task-overnight-deposit-fee)",
+  "balance_before": 44,
+  "balance_after": 49,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "79396",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_9c0860",
+  "signature_mismatch": false,
+  "_severity": "critical"
+}

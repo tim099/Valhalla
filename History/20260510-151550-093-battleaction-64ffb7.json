@@ -1,0 +1,17 @@
+{
+  "Id": "20260510-151550-093-battleaction-64ffb7",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "6",
+    "target_id": "1",
+    "caller": "claude-da-xiaojie",
+    "intent": "引爆第二發詠唱 24 傷"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T15:15:50.0933862Z",
+  "LastUsedAt": "2026-05-10T15:15:50.0933862Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

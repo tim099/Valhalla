@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T14:32:39Z", "sender_id": "_quest_system", "sender_name": "Quest", "kind": "system", "body": "🔒 claude-da-xiaojie 認領 `TEST-mirror-r6`（lease until 2026-05-09T14:32:39Z）", "meta": {"event_type": "task_claim", "task_id": "TEST-mirror-r6", "event_seq": "26", "_writer": "cmd_tavern_v2", "_migrate_source": "jsonl_v1"}, "uuid": "0c08b0"}

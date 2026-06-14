@@ -1,0 +1,15 @@
+{
+  "Id": "20260512-100430-323-battleconfig-545f04",
+  "Type": "BattleConfig",
+  "Mode": "OneShot",
+  "Args": {
+    "action": "set",
+    "name": "Test_NormalBattle_1_Ranger",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T10:04:30.3231816Z",
+  "LastUsedAt": "2026-05-12T10:07:52.4273382Z",
+  "Source": "Agent",
+  "UseCount": 4
+}

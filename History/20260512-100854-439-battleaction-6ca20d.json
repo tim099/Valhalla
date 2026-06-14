@@ -1,0 +1,18 @@
+{
+  "Id": "20260512-100854-439-battleaction-6ca20d",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "3",
+    "target_id": "1",
+    "caller": "claude-da-xiaojie",
+    "intent": "Light attack spider 1",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T10:08:54.4390427Z",
+  "LastUsedAt": "2026-05-12T10:08:54.4390427Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

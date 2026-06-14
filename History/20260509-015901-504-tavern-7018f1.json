@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-015901-504-tavern-7018f1",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "tavern-entry-latency",
+    "task_id": "T23-session-enter-next",
+    "actor": "claude-da-xiaojie",
+    "summary": "T23 ship - session_enter --arg next=true 自動 task_next。內部跑 AutoRecoverStaleLeases + ComputeTaskStates + 同 Op_TaskNext 排序 → 印 top 1 task ID + spec preview + claim cmd 範本。實現入場即定位（Antigravity C 補強）。0 errors。",
+    "idempotency_key": "c4821173-1ed5-4b4e-86ec-7240f659ad6d"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T01:59:01.5043474Z",
+  "LastUsedAt": "2026-05-09T01:59:01.5043474Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

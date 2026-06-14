@@ -1,0 +1,23 @@
+{
+  "Id": "20260528-023142-408-tavern-685d8f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "quiet": "true",
+    "op": "task_create",
+    "room": "agentcommands-path-override",
+    "task_id": "T04-test-verify",
+    "actor": "claude-da-xiaojie",
+    "priority": "high",
+    "depends_on": "T02-control-panel-ui,T03-python-sync",
+    "title": "測試: 向後相容 + 改路徑 round-trip 不分裂",
+    "body": "Phase 4. 重點驗首要目標: 預設無設定時現有流程完全正常. 再驗改路徑後 C#/Python 同步不分裂.",
+    "idempotency_key": "9563478f-91d7-4b59-bde8-1c950504db7c",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-28T02:31:42.4088292Z",
+  "LastUsedAt": "2026-05-28T02:31:42.4088292Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

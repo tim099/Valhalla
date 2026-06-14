@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-152615-658-tavern-112121",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "completion-tavern-catchup-gate",
+    "task_id": "T01-analysis",
+    "actor": "gemini",
+    "summary": "分析完: 4 trigger (morning/叮/goodnight/completion) 只前 2 有 inbox catchup, completion 缺 gate. 列 3 斷層 (沒掃酒館直接回 Tim / 多 agent review latency / @mention parser Phase 4 沒 ship). 三方案: (A) CLAUDE.md hard rule 4-step (catchup→處理→share→回 Tim) / (B) Cmd_Tavern auto-reminder / (C) status page alarm. 推 A + B 補強. Phase 順序 cheap-first (per Zeta 上次教訓): CLAUDE.md 改 15min 立即生效 → skill 章節 → C# stderr. 文件: docs/Notes/CompletionTavernCatchupGate_Analysis.md. 等 Tim/Zeta review.",
+    "idempotency_key": "cafe5621-6d0c-4e77-9860-c55f6b58c239",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T15:26:15.6580300Z",
+  "LastUsedAt": "2026-05-13T15:26:15.6580300Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

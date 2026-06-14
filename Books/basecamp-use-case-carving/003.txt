@@ -1,0 +1,262 @@
+第三章 — 從雲到蛤:Goal Level 五層視角縮放
+
+某個 EOV 戰鬥系統 review 會議。
+
+工程師甲在白板上畫了一個 use case,標題是「使用者進行戰鬥」,內文一句話:「使用者打開遊戲、選擇關卡、進行戰鬥、得到結果」。
+
+工程師乙看了搖頭,把它擦掉,自己寫了 30 步:「① 點選手牌第一張、② UI 顯示 hover 效果、③ 系統檢查 hoverable、④ 顯示 target selection cursor、⑤ 接收 mouse move event...」 寫到 step 30 還沒進入「結算傷害」。
+
+兩個人開始爭吵誰寫得對。
+
+設計師 ridge-001 在旁邊看了一陣,終於開口:「**你們兩個都不對,因為你們其實在寫不同高度的需求**。甲寫的是雲端業務目標,乙寫的是水底機械動作。中間那層 ── 玩家『做完一件事可以喝口水休息』的 user-goal 層 ── 你們都沒寫到。」
+
+這就是 CB 在《Writing Effective Use Cases》ch4 反覆強調的核心:**goal level**。同一件「玩家在 EOV 戰鬥」這件事,可以從五個高度看,每個高度的 use case 長相、目的、讀者都不同。**寫對高度比寫得詳細重要十倍**。
+
+本章本小姐當裁判,把這五層拆給你看。
+
+---
+
+## §1 CB 的視覺隱喻:從雲到蛤
+
+CB 用海平面當參考軸,把 use case 的 goal level 分五層,每層配一個視覺圖標讓人記得住:
+
+| 層 | 符號 | 中文名 | 一句話定義 |
+|---|---|---|---|
+| Cloud | ☁ | 雲端 | 整個系統存在的意義,通常是 business-level 願景 |
+| Kite | 風箏 | 高空 | 一段跨多次坐定的業務流程,例如「玩家通關一個章節」 |
+| Sea level | 浪 | 海面 | **user-goal** — 使用者一次坐定能完成的事,做完可以休息 |
+| Fish | 魚 | 水中 | 子功能,user-goal 的某個步驟 |
+| Clam | 蛤 | 海底 | 太細的內部操作,通常不該寫成獨立 use case |
+
+**海平面是核心戰場**。CB 反覆主張:**你寫 use case 的 90% 應該在 sea level**。雲端跟風箏是 context 跟 scope 文件用,魚跟蛤通常該收進 sea-level 的 step 裡或被裁掉。
+
+雲到蛤垂直一條線 ── 同一件事不同高度看,長相完全不同。下一節示範。
+
+---
+
+## §2 EOV 案例:「玩家出牌」走完五層
+
+同樣一件事 ── 玩家在戰鬥裡按下手牌出牌 ── 在五個高度寫,看出差異。
+
+### Cloud Level ☁ — EOV 存在的意義
+
+```
+Use Case: 提供策略卡牌戰鬥娛樂
+Primary Actor: 玩家
+Scope: EOV 整個產品
+Level: Cloud (very high summary)
+
+Main:
+  玩家在閒暇時間打開 EOV, 透過策略性的卡牌組合
+  在英勇紋章世界中體驗冒險、養成、社群互動。
+```
+
+這層回答「為什麼會有 EOV」。**寫一份 spec 給 Tim、投資人、新進設計師看當 context 用** ── 一頁 cloud-level use case 概述整個產品願景。
+
+但對 dev 來說沒用。動工的人需要的是更具體的東西。
+
+### Kite Level 🪁 — 玩家完成一個章節
+
+```
+Use Case: 玩家完成一個冒險章節
+Primary Actor: 玩家
+Scope: EOV 整個遊戲體驗
+Level: Kite (summary, above sea level)
+
+Main:
+  1. 玩家進入章節 → 故事節點 → 戰鬥 → 故事 → boss
+  2. 章節結局 cutscene + 解鎖下一章
+  ...
+```
+
+這層回答「玩家從章節地圖到通關長什麼樣」。**跨多次坐定** ── 可能玩家分三天打完。對劇情編劇、難度曲線設計師、留存分析師有用。但對戰鬥工程師動工還是太粗。
+
+### Sea Level 🌊 — 玩家打贏一場戰鬥(★ 主戰場)
+
+這就是 ch1 寫的 Use Case A,完整 fully-dressed 那份。**一次坐定能完成、做完可以休息或開始下一場、stakeholder interest 各方都到齊**。
+
+這是 use case 的**主戰場**。CB 主張 90% 你該寫的 use case 都在這層。為什麼?因為:
+
+- **dev 看了能動工** ── 步驟夠細到知道要寫什麼
+- **PM/設計師看了能驗收** ── 步驟夠粗到看得懂業務意義
+- **stakeholder 各方在意的事都掛得上** ── 一場戰鬥涵蓋玩家、設計師、VFX、QA 多方利益
+
+換句話說 ── **sea level 是業務跟技術的交會點**,雲端太業務、海底太技術,海面剛好兩邊都能讀。
+
+### Fish Level 🐟 — 玩家成功打出一張卡
+
+```
+Use Case: 玩家成功打出一張手牌
+Primary Actor: 玩家
+Scope: EOV 戰鬥系統 (black-box)
+Level: Fish (subfunction, below sea level)
+
+Main:
+  1. 玩家 click 手牌中某張卡
+  2. 系統檢查該卡 playable (mana 夠 + state OK)
+  3. 若需 target → 進入 TargetSelection mode, 玩家點目標
+  4. 系統扣 mana + 執行卡牌效果 + 播 VFX
+  5. 卡進棄牌堆
+
+Extensions:
+  2a. mana 不足 → 拒絕 + UI 紅光
+  3a. ESC 取消 → 卡回手牌 mana 不扣
+```
+
+這層回答「點下一張卡的瞬間發生什麼」。**它是「打贏一場戰鬥」(sea level) 裡 step 3b 的展開**。
+
+**通常 fish-level 不該寫成獨立 use case** ── 該作為 sea-level 的某個 step,或在 sea-level 的 extensions 裡展開。但有例外:
+
+- **複雜到值得獨立**:出牌邏輯複雜到 sea-level 寫不下,拉出來當 sub use case 是合理的(CB ch9「Linking Use Cases」會教這個)
+- **共用度高**:同樣的「出牌」流程被多個 sea-level use case 引用(打怪戰、PvP 對戰、教學戰),抽出來當 fish-level sub use case 避免重複
+
+### Clam Level 🐚 — 扣除這張牌的 mana cost
+
+```
+Use Case: 扣除一張卡的 mana cost
+Primary Actor: (內部) 戰鬥引擎
+Level: Clam (too low)
+
+Main:
+  1. 取卡的 mana_cost 欄位
+  2. 從 player.current_mana 減去該值
+  3. 觸發 mana_changed event 給 UI 更新
+```
+
+這層 ── **不該寫成 use case**。
+
+它是內部記帳動作,沒有 stakeholder 在意「mana 怎麼扣」(設計師在意「扣 mana 的時機」但那是 fish 層,不是 clam 層 ── 怎麼扣是實作細節)。
+
+**Clam 層該躺在 code 裡,不該躺在 use case 文件裡**。寫了反而讓 use case 文件變垃圾資訊堆 ── reader 翻 100 頁 use case 文件,找不到核心 sea-level 在哪。
+
+---
+
+## §3 哪一層該寫?CB 的答案
+
+CB 反覆主張:**寫 sea level**。
+
+不是「全部都寫」,是**集中在 sea level**。
+
+理由本小姐拆三條:
+
+**1. Sea level 是業務跟技術的交會點**
+雲端跟風箏太抽象,dev 動不了工。魚跟蛤太微觀,PM 看不出業務意義。Sea level 剛好兩邊都讀得懂。
+
+**2. Sea level 的 stakeholder context 最完整**
+「玩家打贏一場戰鬥」── 玩家、設計師、VFX、QA、Tim 各方利益全擠進來。Fish level「玩家出一張卡」── 只剩玩家跟戰鬥引擎兩方。Clam「扣 mana」── 只剩戰鬥引擎自己。**stakeholder 多 = use case 價值高**(回顧 ch2 的契約論)。
+
+**3. Sea level 對應 release 規劃的天然單位**
+產品經理規劃 release 時,會說「v0.3 ship 章節 3」── 那是 kite。但更常的是「v0.3 ship 新卡牌類型『反擊牌』」── 對應若干 sea-level use case(玩家用反擊牌打贏一場戰鬥 / 玩家用反擊牌組牌組...)。Sea level 自然對應「能 ship 的功能單位」。
+
+---
+
+## §4 怎麼判斷自己在哪一層?三個測試
+
+寫 use case 時最常見的混亂 ── **不知道自己寫的是哪一層**。本小姐三個快速測試:
+
+### 測試 1:CB 流行版「coffee break test」
+
+寫完這個 use case 的步驟後,**使用者會去喝咖啡嗎?**(= 完成這件事、離開螢幕休息一下)
+
+| 答案 | 你在哪一層 |
+|---|---|
+| 「會,鬆口氣去喝咖啡」 | **sea level**,完美 |
+| 「不會,他會立刻接下一張卡」 | **fish 或 clam**,太低,該收進 sea-level 當 step |
+| 「會,他離開電腦兩天才再來」 | **kite**,太高,該拆成多個 sea-level |
+| 「他根本不用打開電腦」 | **cloud**,業務願景,該寫成 context doc 不是 use case |
+
+### 測試 2:本小姐團隊版「Tim 認可獎勵測試」
+
+完成這件事,**Tim 看到會不會說『辛苦了大小姐』+ 給 token 獎勵?**
+
+| 答案 | 你在哪一層 |
+|---|---|
+| 會 | **sea level** ── 完成了一件 Tim 認可的事 |
+| 不會,但這是過程中一個 step | **fish 或 clam** |
+| Tim 還要等好幾個 session 才能看到結果 | **kite** |
+| 這事完成 Tim 都不知道有發生 | **clam,該躺在 code 裡** |
+
+(這是本小姐自家版本,跟 CB 的 coffee break test 同精神 ── 都在問「這事是不是一個獨立完成、值得認可的工作單元」)
+
+### 測試 3:「why / how 上下移動」
+
+不確定時:
+
+- 問「**Why?(為什麼做這事?)**」── 往上推一層
+- 問「**How?(怎麼做這事?)**」── 往下推一層
+
+範例:你寫的是「玩家點手牌」── 太低,問 why? → 「為了出牌」── fish。再 why? → 「為了打贏戰鬥」── sea level,停在這層。
+
+或:你寫的是「玩家通關整個遊戲」── 太高,問 how? → 「完成每一章」── kite。再 how? → 「打贏一場場戰鬥」── sea level,停。
+
+**用 why 跟 how 上下移動,直到落到 sea level**。
+
+---
+
+## §5 本小姐自己踩過的高度錯誤
+
+招供時間。
+
+**錯誤一:寫了「卡牌 mana 結算」當 use case(clam 太低)**
+剛接觸 use case 那陣子,本小姐看著 ch1 的 fully-dressed 模板很興奮,把戰鬥系統每個內部動作都寫成 use case ── 扣 mana / 抽牌 / 棄牌 / 洗牌 / 觸發 buff... 結果 80 頁 use case 文件,沒有人看得下去,因為**找不到 sea level 的入口**。
+
+修正:把這些 clam-level 都刪掉,收進 sea-level「玩家打贏一場戰鬥」的某個 step 裡(扣 mana 在 step 3b、抽牌在 step 3a)。或者極少數複雜的拉出來當 fish-level sub use case。文件從 80 頁瘦身到 12 頁,讀者第一次能讀完。
+
+**錯誤二:寫了「玩家通關 EOV」當 use case(cloud 太高)**
+另一個極端,曾經把整個遊戲體驗當 use case 寫:「玩家購買 → 安裝 → 開新檔 → 通關 → 寫評價」。寫完一看,**它沒有 stakeholder 在意的具體承諾** ── 太抽象、無法驗收、沒有 dev 看得下去。
+
+修正:這應該是 cloud-level context doc,不是 use case。拆成 kite-level「玩家完成一章」+ sea-level「玩家打贏一場戰鬥」+ sea-level「玩家在 store 購買」等,每個有具體 stakeholder + 步驟 + 驗收條件。
+
+**教訓**:CB 的「sea level 是主戰場」這條原則不是隨便講的。**寫錯高度 = use case 文件失效**。
+
+---
+
+## §6 給讀者的第三個雕琢動作
+
+打開你最近寫的所有 use case 列成清單。
+
+1. 對每一個跑「**coffee break test**」:做完使用者會去喝咖啡嗎?
+2. 標出哪些是 **sea level**(預期:大多數該是)
+3. 標出哪些是 **fish/clam**(預期:少數,且應該已收進某個 sea-level 的 step)── 若還是獨立 use case,問自己「有沒有理由獨立?(複雜度高 / 共用度高?)」沒有 → **合併**
+4. 標出哪些是 **kite/cloud**(預期:極少數,作為 context doc 而非真實需求)── 若還是真實需求,**拆**成 sea-level
+5. 重新發布精簡版 use case set 給團隊
+
+做完這個動作,你的 use case 集合 signal-to-noise ratio 會提升 3-5 倍。**這是本書到目前為止最有效的單一動作**,沒有之一。
+
+---
+
+### 📖 CB 怎麼說
+
+對應原書: **ch4「Three Named Goal Levels」+ 部分 §1.2**
+
+CB 在 ch4 專章拆 goal level,海平面隱喻就是想讓人記住「sea level 是主戰場」。原書還有 color gradient(white / blue / indigo 對應 summary / user-goal / subfunction),跟 sea-level 隱喻平行使用,給不能 print 圖標的場合用。
+
+原書還會深入:
+- **Cloud / kite 怎麼區分** ── 本小姐這章合在「summary 之上」一層帶過,CB 拆得更細
+- **summary use case 寫法** ── kite-level use case 跟 sea-level 模板細微差異
+- **subfunction 何時值得獨立** ── ch9「Linking Use Cases」會深入 sub use case 抽取準則
+- **Goal level 圖標的官方視覺設計** ── 本小姐用 emoji 借代,原書是手繪小圖
+
+想看官方視覺請 ISBN 0-201-70225-8。
+
+### 💡 本小姐怎麼補
+
+CB 寫的是企業軟體 ── coffee break test 在那 context 很自然(企業使用者一段時間後真的會起身)。**在 game dev / agent 系統,測試要重新校準**。
+
+**game dev 版:玩家會放下手把嗎?**
+- 玩家打贏一場 boss 戰 → 會放下手把鬆口氣 → **sea level**
+- 玩家在戰鬥中出一張卡 → 會持續坐著 → **fish**
+- 玩家通關整章 → 會放下手把,可能存檔休息一天 → **kite**
+
+**agent 系統版:agent 會 task_done 嗎?**
+- agent 完成 morning ritual → 會 tavern post 報到、進入 idle 等下個指令 → **sea level**(本小姐 ch2 的範例)
+- agent 寫一個 lock 檔 → 不會,他會繼續走 ritual → **fish 或 clam**
+- agent 完成一整個 quest 的 T01-T04 全 task → 跨多個 sittings,kite
+
+本小姐補的這條:**測試的精神是「這件事是否構成一個完整的、值得認可的工作單元」 ── coffee break / 放下手把 / task_done 都是同一個概念的場景轉譯**。
+
+另一個本小姐補丁:**ritual 算 sea level**。傳統 use case 寫的是「使用者來達成業務目標」── 但 morning ritual 不是達成業務目標,是「為了之後能達成業務目標而做的上線準備」。在 CB 那個年代很少有 ritual 概念。本小姐主張 ── **如果 ritual 有完整 stakeholder + interest + 驗收條件,且做完之後狀態明確切換(offline → online),就算 sea level**。我們的 morning ritual 完全符合。
+
+---
+
+下一章預告:**ch4「演員與 SuD」** ── 把 actor、scope、system under discussion 三個觀念深化。在 EOV 戰鬥系統脈絡下,「SuD 邊界劃在哪」直接決定 use case 怎麼寫。把戰鬥引擎當 SuD 跟把整個遊戲當 SuD,寫出來的東西完全不同。本小姐會用 EOV + agent 系統兩個視角拆給你看。

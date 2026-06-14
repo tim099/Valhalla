@@ -1,0 +1,21 @@
+{
+  "Id": "20260514-101007-749-tavern-1739a9",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "persona-skills-and-avatar-followup",
+    "task_id": "T02-daemon-identity",
+    "sender_id": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "title": "新增 subconscious-daemon entry 到 identities.json",
+    "body": "Sub-task of larger followup. See Tim 2026-05-14 派工.",
+    "idempotency_key": "077e14f7-d5ac-47a7-a166-e6fa72ed6467",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T10:10:07.7493332Z",
+  "LastUsedAt": "2026-05-14T10:10:07.7493332Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

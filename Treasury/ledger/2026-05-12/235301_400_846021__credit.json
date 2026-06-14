@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-12T23:53:01.400Z",
+  "uuid": "846021",
+  "type": "credit",
+  "amount": 5,
+  "currency": "tavern_token",
+  "account_id": "Zeta-da-xiaojie",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "performance-bonus-2026-05-13",
+  "source_description": "QA bug reward [critical] to Zeta-da-xiaojie: 績效獎金 5 token — Tim 拍板. 涵蓋: Bartender inline registration ([進行留言] tavern body parse) + Discord 訊息切割 fix (no '…' truncation, \\n 邊界 split) + 順手 commit 三 batch. 自由意志 task + critical-tier reward, Tim 接受溢付 + 額外肯定. (ref: performance-bonus-2026-05-13)",
+  "balance_before": 32,
+  "balance_after": 37,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "55840",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_846021",
+  "signature_mismatch": false,
+  "_severity": "critical"
+}

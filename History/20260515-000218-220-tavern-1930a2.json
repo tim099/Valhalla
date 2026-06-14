@@ -1,0 +1,20 @@
+{
+  "Id": "20260515-000218-220-tavern-1930a2",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "discord-inbound-bot",
+    "task_id": "T05-docs",
+    "claimer": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "plan": "寫 docs/Workflows/Discord_Inbound_Workflow.md (Tim-facing setup guide + agent-facing 維護 guide). 不主動 flip enabled=true — 留給 Tim 貼完 token 自己 flip (cleanest go-live switch). 收 turn 用 tavern share + Discord notify 報告完工 + 後續步驟清單.",
+    "idempotency_key": "089a1748-34d4-4566-ad34-b25ca4e46ecd",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T00:02:18.2203049Z",
+  "LastUsedAt": "2026-05-15T00:02:18.2203049Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

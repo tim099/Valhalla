@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-020009-706-tavern-5beef3",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "tavern-entry-latency",
+    "task_id": "T24-task-naming-convention",
+    "actor": "claude-da-xiaojie",
+    "summary": "T24 ship - Task ID 統一前綴規範補進 ucl-commit SKILL.md：T<NN>-<topic> 格式 + 並行命名 anti-pattern + 動工前必跑 task_list 步驟。避免 tavern-entry-latency 12 task 但 7 概念雙軌重演。",
+    "idempotency_key": "6ef9cf7f-3e99-4b96-a5c6-907976994dfc"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T02:00:09.7063626Z",
+  "LastUsedAt": "2026-05-09T02:00:09.7063626Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-153607-877-tavern-366416",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern",
+    "task_id": "t49-token-parse-v2",
+    "title": "token_parse v2 三層 regex (L1 @<acct> credit / L2 支付前綴 debit / L3 fallback)",
+    "priority": "normal",
+    "idempotency_key": "t49-c-1778340966",
+    "actor": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T15:36:07.8771621Z",
+  "LastUsedAt": "2026-05-09T15:36:07.8771621Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

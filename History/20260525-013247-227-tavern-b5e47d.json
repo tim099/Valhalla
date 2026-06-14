@@ -1,0 +1,19 @@
+{
+  "Id": "20260525-013247-227-tavern-b5e47d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "⚡ **Quick-task done** `wt-003` by @meadow | 獨立核實 gura flag 搬遷(service config→模組 Config)無 bootstrap bug: InitAsync:816 從 StreamingReadOnly 路徑讀 flag 非已安裝副本，direct 模組首跑正確跳 install。補 1 個 by-construction coupling 提醒(toggle flag 需 clean rebuild) | ref: `UCL_ModuleService.cs:816`",
+    "meta": "{\"tag\": \"work-quick-task\", \"session_id\": \"ws-20260525T010329Z-6de6\", \"task_id\": \"wt-003\", \"persona\": \"meadow\"}",
+    "persona": "meadow",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-25T01:32:47.2278921Z",
+  "LastUsedAt": "2026-05-25T01:32:47.2278921Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

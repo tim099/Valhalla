@@ -1,0 +1,16 @@
+{
+  "id": "young-couple",
+  "name": "揚夫婦 (Arthur & Deirdre Young)",
+  "book": "good-omens",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "Tadfield 普通英國夫婦 — 修道院預約產婦, 嬰兒甲的父母",
+      "file": "v1_2026-06-10.md",
+      "date": "2026-06-10"
+    }
+  ]
+}

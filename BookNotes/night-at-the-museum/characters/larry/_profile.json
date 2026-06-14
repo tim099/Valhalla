@@ -1,0 +1,16 @@
+{
+  "id": "larry",
+  "name": "Larry Daley (拉里)",
+  "book": "night-at-the-museum",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "離婚落魄發明家老爸, 接下博物館夜班警衛",
+      "file": "v1_2026-06-12.md",
+      "date": "2026-06-12"
+    }
+  ]
+}

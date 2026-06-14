@@ -1,0 +1,1 @@
+{"ts":"2026-05-20T01:26:19.971Z","actor":"","idempotency_key":"cfb96461-f801-4d3b-8706-bb0af6ee22a6","type":"task_create","task_id":"T1","data":{"title":"[Py L1+2] ucl_secrets_crypto.py — TKN2 format + encrypt/decrypt/read_metadata，TKN1 向後相容，round-trip selftest","priority":"high","depends_on":"","group_id":"secret-manager-suite"}}

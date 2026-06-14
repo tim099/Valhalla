@@ -1,0 +1,1 @@
+{"ts":"2026-05-26T06:10:36.717Z","actor":"","idempotency_key":"39f07479-6464-4964-8e45-d018c65785ad","type":"task_create","task_id":"T01-add-book-authored","data":{"title":"add-book 支援原創書 (origin=authored + author_persona + publish_status)","priority":"high","depends_on":""}}

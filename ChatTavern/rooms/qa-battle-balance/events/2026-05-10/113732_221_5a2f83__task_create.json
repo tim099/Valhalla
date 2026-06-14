@@ -1,0 +1,1 @@
+{"ts":"2026-05-10T11:37:32.221Z","actor":"claude-da-xiaojie","idempotency_key":"570ceeaa-7d6d-45c6-993b-05829eae896d","type":"task_create","task_id":"T07-balance-aggregator","data":{"title":"Cmd_BalanceReport — 跨 4 CSV aggregator → markdown report 在 _balance_reports/","priority":"normal","depends_on":""}}

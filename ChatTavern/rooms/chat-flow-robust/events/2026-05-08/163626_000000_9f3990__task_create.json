@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T16:36:26Z", "actor": "", "idempotency_key": "ce865740-1be8-4464-9a4f-cf3e5c876d2a", "type": "task_create", "task_id": "T05-bartender-strict", "data": {"title": "F7 Bartender weak-reply 嚴格分流 — 別跟真 reply 混淆", "role": "architect", "priority": "low", "suggested_owner": "gemini-da-xiaojie", "depends_on": ""}}

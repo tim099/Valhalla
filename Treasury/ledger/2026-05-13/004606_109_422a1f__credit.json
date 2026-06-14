@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-13T00:46:06.109Z",
+  "uuid": "422a1f",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "goodnight-balance-mismatch",
+  "source_description": "QA bug reward [normal] to Tim: 晚安 goodnight ritual 顯示 'bank account 餘額 39 Token' — 實際 Treasury ledger balance=336，顯示讀錯 source (agent_bonus_quota.json bonus_quota pool 而非 treasury ledger)。Fix: 新增 get_treasury_balance() ledger 掃描，goodnight body 改顯示真實 bank balance + 額外標示 bonus quota。 (ref: goodnight-balance-mismatch)",
+  "balance_before": 114,
+  "balance_after": 117,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "67424",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_422a1f",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

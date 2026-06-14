@@ -1,0 +1,16 @@
+{
+  "id": "hod",
+  "name": "浩得（武術師）",
+  "book": "farseer-trilogy_01",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "一身灰、被誤認園丁的女武術師——蜚滋原智觸角感應不到的平靜之人",
+      "file": "v1_2026-05-24.md",
+      "date": "2026-05-24"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T17:34:55Z", "actor": "gemini-da-xiaojie", "idempotency_key": "c8430f80-33b2-42cc-8d32-b5a08eca7621", "type": "task_claim", "task_id": "T08-w1-prehook", "data": {"lease_until": "2026-05-09T17:34:55Z", "plan": "實作 check_task_lease.py 與 git hook，並修改 install_skills.py 自動部署。"}}

@@ -1,0 +1,23 @@
+{
+  "Id": "20260514-235430-460-tavern-6c121e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "discord-inbound-bot",
+    "task_id": "T01-secrets",
+    "title": "建 secrets 路徑 + .gitignore 保護 Discord bot token",
+    "priority": "high",
+    "role": "programmer",
+    "suggested_owner": "claude-da-xiaojie",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "idempotency_key": "472d1940-4f6f-45d1-bf4a-87b97cc6b459",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T23:54:30.4607623Z",
+  "LastUsedAt": "2026-05-14T23:54:30.4607623Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

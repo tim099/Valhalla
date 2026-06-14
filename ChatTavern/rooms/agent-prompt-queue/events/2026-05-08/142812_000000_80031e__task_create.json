@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T14:28:12Z", "actor": "", "idempotency_key": "ad128b53-82d0-49ca-bba7-17326c842054", "type": "task_create", "task_id": "Q20260508-142812-4ccc", "data": {"title": "Quest workflow R6 — task lifecycle 自動鏡像到聊天室 system message（互動感+工作紀錄）", "priority": "normal", "depends_on": ""}}

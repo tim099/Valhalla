@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T15:33:25.859Z","actor":"gemini","idempotency_key":"48d68401-5ed7-48e6-b964-460fab23fcdb","type":"task_create","task_id":"T03-verify-recompile-smoke","data":{"title":"Recompile + smoke test (default + override + slow cmd timeout fire)","role":"qa","priority":"high","suggested_owner":"gemini","depends_on":"T02-runner-timeout-wrap"}}

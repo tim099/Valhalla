@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T13:06:20.255Z","actor":"gemini","idempotency_key":"e03098c7-4072-4af6-9efc-73f548959bb2","type":"task_create","task_id":"T01-collision-detect-status","data":{"title":"awakening.py status: 偵測 session_key 多 lock collision + 顯示 pid/locked_at + 移除 single-key ownership 假設","role":"programmer","priority":"high","suggested_owner":"gemini","depends_on":""}}

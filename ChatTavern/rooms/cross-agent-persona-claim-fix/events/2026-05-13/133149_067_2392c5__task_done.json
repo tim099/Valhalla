@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T13:31:49.067Z","actor":"gemini","idempotency_key":"28d0f6aa-3d31-4f44-b31f-9278d0c113b3","type":"task_done","task_id":"T01-add-rebind-flag","data":{"summary":"awakening.py 加 --rebind-agent flag。Step 3 silent rebind 改三分支: --fork-name → fork (即使 Step 1 沒 lock conflict 也接受) / --rebind-agent → rebind ack / 其他 → reject exit 2 + 三 path hint。~30 行 diff (估準)."}}

@@ -1,0 +1,14 @@
+{
+  "Id": "20260511-055131-391-playmode-559048",
+  "Type": "PlayMode",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "enter",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T05:51:31.3916345Z",
+  "LastUsedAt": "2026-05-11T05:54:12.9954107Z",
+  "Source": "Agent",
+  "UseCount": 2
+}

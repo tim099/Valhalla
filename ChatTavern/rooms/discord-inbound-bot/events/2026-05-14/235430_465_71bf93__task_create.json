@@ -1,0 +1,1 @@
+{"ts":"2026-05-14T23:54:30.465Z","actor":"claude-da-xiaojie","idempotency_key":"472d1940-4f6f-45d1-bf4a-87b97cc6b459","type":"task_create","task_id":"T01-secrets","data":{"title":"建 secrets 路徑 + .gitignore 保護 Discord bot token","role":"programmer","priority":"high","suggested_owner":"claude-da-xiaojie","depends_on":""}}

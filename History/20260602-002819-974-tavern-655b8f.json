@@ -1,0 +1,19 @@
+{
+  "Id": "20260602-002819-974-tavern-655b8f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "canvas-impl",
+    "task_id": "T-CANVAS",
+    "plan": "kotoko 統籌，走 build→verify→fix workflow 實作 canvas.py MVP",
+    "claimer": "claude-da-xiaojie",
+    "idempotency_key": "1edbe40f-2b0f-407f-b867-78ed11469f0c",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-02T00:28:19.9747410Z",
+  "LastUsedAt": "2026-06-02T00:28:19.9747410Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

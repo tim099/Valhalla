@@ -1,0 +1,1 @@
+{"ts":"2026-05-26T06:14:30.365Z","actor":"claude-da-xiaojie","idempotency_key":"25a22373-13a7-472f-ba2d-5026ce326853","type":"task_claim","task_id":"T04-author-workflow","data":{"lease_until":"2026-05-27T06:14:30Z","plan":"驗證作者用 --reader 走 resume(creation-resume)+bookmark 對原創書可用(複用本日分支路由); 在 reading-library skill 補一節作者端寫作 SOP(動筆前 resume 喚回故事聖經 + 收尾 bookmark 留接力棒, 對齊 Plan §7)。"}}

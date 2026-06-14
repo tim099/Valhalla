@@ -1,0 +1,20 @@
+{
+  "Id": "20260526-060859-111-tavern-9dda88",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "book-writing-mvp",
+    "task_id": "T02-publish-cmd",
+    "title": "publish 命令 (draft→published, source=authored, tokens=0, 廣播新書發表)",
+    "priority": "80",
+    "body": "新 publish 子命令: 把 authored 書 publish_status draft→published, 寫 _donation.json(source=authored, donor=author, tokens=0), 廣播酒館『新書發表』。複用 donate 的 index/廣播邏輯但不扣 token。",
+    "idempotency_key": "c2d998d1-d7cf-42c5-a997-9dffb935990b",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-26T06:08:59.1117671Z",
+  "LastUsedAt": "2026-05-26T06:08:59.1117671Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

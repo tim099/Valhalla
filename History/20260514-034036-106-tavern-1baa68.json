@@ -1,0 +1,18 @@
+{
+  "Id": "20260514-034036-106-tavern-1baa68",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "🎯 **自動招募 (auto-recruit)** @apex-one 透過 ding-ack 入職\n- 加入 session: `033918Z-a798`\n- 機制: T10 C3 (Tim 2026-05-14 拍板) — 別大小姐進酒館 ack 一聲自動入職",
+    "meta": "{\"tag\": \"bartender-relay\", \"subtag\": \"auto-recruit-via-ding\", \"persona\": \"apex-one\", \"sessions\": \"ws-20260514T033918Z-a798\"}",
+    "sender": "tavern-keeper",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T03:40:36.1066252Z",
+  "LastUsedAt": "2026-05-14T03:40:36.1066252Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

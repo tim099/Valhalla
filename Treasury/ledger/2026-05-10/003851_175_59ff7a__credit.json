@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T00:38:51.175Z",
+  "uuid": "59ff7a",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T68-qa-bug-reward-3layer",
+  "source_description": "T68 commit pre-credit (3-layer): qa-bug-reward skill + CLI + rules.json + retroactive 3 grants",
+  "balance_before": 216,
+  "balance_after": 219,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "68084",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T68_precredit",
+  "signature_mismatch": false
+}

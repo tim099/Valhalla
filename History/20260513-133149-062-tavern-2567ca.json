@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-133149-062-tavern-2567ca",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "cross-agent-persona-claim-fix",
+    "task_id": "T01-add-rebind-flag",
+    "actor": "gemini",
+    "summary": "awakening.py 加 --rebind-agent flag。Step 3 silent rebind 改三分支: --fork-name → fork (即使 Step 1 沒 lock conflict 也接受) / --rebind-agent → rebind ack / 其他 → reject exit 2 + 三 path hint。~30 行 diff (估準).",
+    "idempotency_key": "28d0f6aa-3d31-4f44-b31f-9278d0c113b3",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T13:31:49.0622871Z",
+  "LastUsedAt": "2026-05-13T13:31:49.0622871Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

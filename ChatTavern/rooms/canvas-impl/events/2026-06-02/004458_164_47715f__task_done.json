@@ -1,0 +1,1 @@
+{"ts":"2026-06-02T00:44:58.164Z","actor":"claude-da-xiaojie","idempotency_key":"3234770e-92b5-4cf7-8992-ff0725153c06","type":"task_done","task_id":"T02-payment","data":{"summary":"三付款方式完成: token debit(真實Treasury,格式對齊qa_bug_reward) + 繪畫券(per-persona) + 自由時間免費像素(10min冷卻+跨session重置+free_time_sessions偵測) + pay=auto優先序(免費→券→token) + 批量atomic(越界exit2/不足exit3) + 並發鎖防double-spend"}}

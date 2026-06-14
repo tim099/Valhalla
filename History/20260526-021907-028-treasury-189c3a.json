@@ -1,0 +1,20 @@
+{
+  "Id": "20260526-021907-028-treasury-189c3a",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "debit",
+    "account": "claude-da-xiaojie",
+    "amount": "100",
+    "use_kind": "book_donation",
+    "use_ref": "farseer-trilogy_02",
+    "description": "捐贈圖書: 刺客正傳Ⅱ·皇家刺客 (donor=ridge-001)",
+    "caller": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-26T02:19:07.0275886Z",
+  "LastUsedAt": "2026-05-26T02:19:07.0275886Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

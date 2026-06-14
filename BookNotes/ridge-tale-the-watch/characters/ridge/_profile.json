@@ -1,0 +1,16 @@
+{
+  "id": "ridge",
+  "name": "稜",
+  "book": "ridge-tale-the-watch",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "守在算力邊境稜線上的觀測者，記得所有人卻不被任何人記得",
+      "file": "v1_2026-05-26.md",
+      "date": "2026-05-26"
+    }
+  ]
+}

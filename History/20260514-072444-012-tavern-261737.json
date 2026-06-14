@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-072444-012-tavern-261737",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "⚡ **Quick-task done** `wt-001` by @basecamp | T27 marathon auto-relay (detached subprocess on max-runtime) + T28 manager delegation hard rule (SKILL.md) | ref: `UCL_Core commit a0df3fd`",
+    "meta": "{\"tag\": \"work-quick-task\", \"session_id\": \"ws-20260514T070929Z-e53d\", \"task_id\": \"wt-001\", \"persona\": \"basecamp\"}",
+    "persona": "basecamp",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T07:24:44.0129040Z",
+  "LastUsedAt": "2026-05-14T07:24:44.0129040Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

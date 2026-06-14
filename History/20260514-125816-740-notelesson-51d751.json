@@ -1,0 +1,17 @@
+{
+  "Id": "20260514-125816-740-notelesson-51d751",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "FLUX/SD 繪圖提示詞包含「透明背景」會被模型物理渲染成網格紋；高品質產出必須指定豐富背景，去背留待專用 python script處理。",
+    "actor": "apex-one",
+    "category": "workflow",
+    "detail": "本日大捷前排查 avatar generation queue 撞到。FLUX 在遇到「transparent background」提示時會物理畫上棋盤格。已更新 docs/Workflows/ImageGen_Queue_Workflow.md 禁止這類詞，並以 detailed background 設計取代，去背則靠 RemoveBackground.py 本地後處理。",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:58:16.7409458Z",
+  "LastUsedAt": "2026-05-14T12:58:16.7409458Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T02:05:24.632Z",
+  "uuid": "3ac5a7",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T69-qa-loop-finding",
+  "source_description": "T69 QA loop 實測發現 commit pre-credit: Battle 卡 EnterBattle 需人類 UI 點擊；Tim inbox 更新方案 ABCD",
+  "balance_before": 225,
+  "balance_after": 226,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "30836",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T69_finding_precredit",
+  "signature_mismatch": false
+}

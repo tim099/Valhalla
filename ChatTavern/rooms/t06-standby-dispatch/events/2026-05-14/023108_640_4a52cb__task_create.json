@@ -1,0 +1,1 @@
+{"ts":"2026-05-14T02:31:08.640Z","actor":"claude-da-xiaojie","idempotency_key":"516a8630-f801-4ca7-a974-16aab8c9055f","type":"task_create","task_id":"T06.4","data":{"title":"morning ritual 結尾 print pending assignments + inbox @mentions","role":"programmer","priority":"high","depends_on":"T06.1"}}

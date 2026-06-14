@@ -1,0 +1,17 @@
+{
+  "Id": "20260511-005146-773-tavern-549e48",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "body": "[env_marker fix verify #4] post-真重編後驗證"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T00:51:46.7709269Z",
+  "LastUsedAt": "2026-05-11T00:51:46.7709269Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

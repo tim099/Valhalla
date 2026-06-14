@@ -1,0 +1,1 @@
+{"ts":"2026-05-09T13:15:20.832Z","actor":"claude-da-xiaojie","idempotency_key":"t42-create-v2-1778332519","type":"task_create","task_id":"t42-tavern-category-routing","data":{"title":"實作 Tavern category routing 走 UCL_TavernCategoryRoutingAsset (UCL_Asset+Templates~)","priority":"normal","depends_on":""}}

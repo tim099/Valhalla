@@ -1,0 +1,16 @@
+{
+  "Id": "20260511-013116-634-automessage-385979",
+  "Type": "AutoMessage",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "fire",
+    "actor": "Tim",
+    "text": "Tim 想看 待做清單",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T01:31:16.6343340Z",
+  "LastUsedAt": "2026-05-11T01:31:16.6343340Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

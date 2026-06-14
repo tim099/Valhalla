@@ -1,0 +1,20 @@
+{
+  "Id": "20260508-173454-460-tavern-f4f610",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "chat-flow-robust",
+    "task_id": "T08-w1-prehook",
+    "title": "W1 enforcement git pre-commit hook",
+    "priority": "normal",
+    "role": "programmer",
+    "suggested_owner": "gemini-da-xiaojie",
+    "idempotency_key": "47236634-ec74-4ba6-af99-65ba67d57f41"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T17:34:54.4609426Z",
+  "LastUsedAt": "2026-05-08T17:34:54.4609426Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

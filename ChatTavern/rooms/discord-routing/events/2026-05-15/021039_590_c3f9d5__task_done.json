@@ -1,0 +1,1 @@
+{"ts":"2026-05-15T02:10:39.590Z","actor":"claude-da-xiaojie","idempotency_key":"fb31d216-bac0-41de-8b96-391fc28d4fd6","type":"task_done","task_id":"T05-parsemeta-fix","data":{"summary":"(retro) Pre-existing bug fix — JSON meta 正常展開, work_session/waiter/discord-inbound 全部受惠"}}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-101718-326-tavern-685580",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "quest-persona-keyed-lock",
+    "task_id": "T1",
+    "plan": "讀全 awakening.py lock 流程; 設計 persona-keyed schema (file: _persona_<name>.json); 列 morning/goodnight call-site change matrix",
+    "claimer": "claude-da-xiaojie",
+    "idempotency_key": "7765a694-211a-4efe-a12f-ab7aa40a2831",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T10:17:18.3268461Z",
+  "LastUsedAt": "2026-05-13T10:17:18.3268461Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

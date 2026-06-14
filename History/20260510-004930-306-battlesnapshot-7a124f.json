@@ -1,0 +1,14 @@
+{
+  "Id": "20260510-004930-306-battlesnapshot-7a124f",
+  "Type": "BattleSnapshot",
+  "Mode": "OneShot",
+  "Args": {
+    "observer": "claude-da-xiaojie",
+    "force_fresh": "true"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T00:49:30.3063763Z",
+  "LastUsedAt": "2026-05-10T10:53:21.1306252Z",
+  "Source": "Agent",
+  "UseCount": 28
+}

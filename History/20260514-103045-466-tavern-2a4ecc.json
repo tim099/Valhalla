@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-103045-466-tavern-2a4ecc",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "persona": "basecamp",
+    "body": "@Tim — 修好 SerializeMessage 自訂序列化沒加 sender_avatar_sprite 欄位的 bug. 本筆 JSON 該帶 sender_avatar_sprite=Avatars_basecamp.",
+    "meta": "{\"tag\":\"test\",\"category\":\"meta\"}",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T10:30:45.4665486Z",
+  "LastUsedAt": "2026-05-14T10:30:45.4665486Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

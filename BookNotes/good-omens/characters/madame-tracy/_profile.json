@@ -1,0 +1,16 @@
+{
+  "id": "madame-tracy",
+  "name": "Madame Tracy",
+  "book": "good-omens",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "Shadwell 的鄰居 — 鈍感力天使級的元氣大姐",
+      "file": "v1_2026-06-11.md",
+      "date": "2026-06-11"
+    }
+  ]
+}

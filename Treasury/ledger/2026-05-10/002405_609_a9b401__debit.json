@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T00:24:05.609Z",
+  "uuid": "a9b401",
+  "type": "debit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "tim_grant_payment",
+  "source_ref": "task-backfill-01-0655",
+  "source_description": "T65 backfill task #1 @ 06:55: T60 reverse task system 設計 + agent_task ",
+  "balance_before": 20,
+  "balance_after": 19,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "51836",
+  "sig_env_marker": "manual_filesystem_write_t65_backfill",
+  "sig_cmd_id": "T65_backfill_task-backfill-01-0655",
+  "signature_mismatch": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "geng",
+  "name": "鯁",
+  "book": "summit-masthead-bet",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "圖恩信得過的老水手，其實是被幕後之手安插的眼睛",
+      "file": "v1_2026-06-07.md",
+      "date": "2026-06-07"
+    }
+  ]
+}

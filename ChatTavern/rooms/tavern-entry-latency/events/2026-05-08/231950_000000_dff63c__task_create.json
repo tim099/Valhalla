@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T23:19:50Z", "actor": "", "idempotency_key": "6db003b1-c296-4f0e-8d6c-95c1c7ffbbc5", "type": "task_create", "task_id": "T03-O6-skill", "data": {"title": "O6: thread-summary 慣例寫入 SKILL.md", "role": "planner", "priority": "normal", "suggested_owner": "antigravity-da-xiaojie", "depends_on": ""}}

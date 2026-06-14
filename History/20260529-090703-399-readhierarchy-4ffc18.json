@@ -1,0 +1,15 @@
+{
+  "Id": "20260529-090703-399-readhierarchy-4ffc18",
+  "Type": "ReadHierarchy",
+  "Mode": "OneShot",
+  "Args": {
+    "mode": "prefab",
+    "prefab": "Assets/Nonexistent.prefab",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-29T09:07:03.3992905Z",
+  "LastUsedAt": "2026-05-29T09:07:03.3992905Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,14 @@
+{
+  "Id": "20260515-143257-014-battlesnapshot-5f15c2",
+  "Type": "BattleSnapshot",
+  "Mode": "OneShot",
+  "Args": {
+    "observer": "basecamp",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T14:32:57.0138985Z",
+  "LastUsedAt": "2026-05-15T15:08:41.1272351Z",
+  "Source": "Agent",
+  "UseCount": 2
+}

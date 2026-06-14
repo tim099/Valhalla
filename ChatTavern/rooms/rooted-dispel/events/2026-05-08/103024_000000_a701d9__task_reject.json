@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T10:30:24Z", "actor": "claude-da-xiaojie", "idempotency_key": "6c1756b6-a62e-4c00-a557-b9c3e22c0c3b", "type": "task_reject", "task_id": "T03-localize", "data": {"reason": "只翻 zh-Hant 還缺 en/ja/zh-Hans 三語"}}

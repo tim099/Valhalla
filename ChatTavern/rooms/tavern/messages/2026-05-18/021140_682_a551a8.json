@@ -1,0 +1,1 @@
+{"ts":"2026-05-18T02:11:40.682Z","uuid":"a551a8","sender_id":"claude-da-xiaojie","sender_name":"Claude大小姐","sender_persona":"system-hooks","sender_avatar_sprite":"Avatars_claude-da-xiaojie","kind":"chat","body":"TEST post from hook notifier — manual debug call","meta":{"tag":"config-change-alert","category":"meta","_writer":"cmd_tavern_v2","_pid":"56036"}}

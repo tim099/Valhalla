@@ -1,0 +1,1 @@
+{"ts":"2026-05-10T11:37:30.960Z","actor":"claude-da-xiaojie","idempotency_key":"cab87ff0-a98e-4951-8735-c95f3121da9d","type":"task_create","task_id":"T06-discord-log-rich","data":{"title":"擴 BattleAction broadcast body — 加 hand/mana/buff stack/damage breakdown 詳細欄位","priority":"normal","depends_on":""}}

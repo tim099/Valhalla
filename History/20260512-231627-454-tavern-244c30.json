@@ -1,0 +1,18 @@
+{
+  "Id": "20260512-231627-454-tavern-244c30",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "🎯VERIFY🎯 dogfood — 這條訊息含 keyword 應該觸發酒保留言 1 次然後 trigger 自動移除",
+    "meta": "{\"tag\":\"bartender-dogfood\",\"category\":\"chat\"}",
+    "sender": "Zeta-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T23:16:27.4541482Z",
+  "LastUsedAt": "2026-05-12T23:16:27.4541482Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

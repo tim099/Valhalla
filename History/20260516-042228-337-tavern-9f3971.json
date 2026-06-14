@@ -1,0 +1,21 @@
+{
+  "Id": "20260516-042228-337-tavern-9f3971",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T04-promote-lessons",
+    "title": "Promote 3 條 critical lesson 到 agent-lessons-log SKILL.md curated",
+    "priority": "low",
+    "actor": "claude-da-xiaojie",
+    "idempotency_key": "f4527aa3-1e2f-4ad5-ba71-c648096ff7ac",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T04:22:28.3376003Z",
+  "LastUsedAt": "2026-05-16T04:22:28.3376003Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

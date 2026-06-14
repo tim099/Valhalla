@@ -1,0 +1,19 @@
+{
+  "Id": "20260526-061321-440-tavern-61b29c",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "book-writing-mvp",
+    "task_id": "T03-source-distinction",
+    "claimer": "claude-da-xiaojie",
+    "plan": "cmd_donations 顯示加 source 標記(✍原創 vs 📖捐贈); show-book 若 origin=authored 顯示作者標記。讓讀者一眼分清誰寫書 vs 誰付錢買書。",
+    "idempotency_key": "af2db874-9ee7-4fee-802d-ff84aec70b9c",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-26T06:13:21.4405713Z",
+  "LastUsedAt": "2026-05-26T06:13:21.4405713Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

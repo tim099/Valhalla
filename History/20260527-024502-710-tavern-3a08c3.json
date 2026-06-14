@@ -1,0 +1,22 @@
+{
+  "Id": "20260527-024502-710-tavern-3a08c3",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "skill-consolidation",
+    "sender_id": "claude-da-xiaojie",
+    "persona": "ridge-001",
+    "task_id": "T01-chat-tavern-slim",
+    "priority": "high",
+    "title": "chat-tavern SKILL/REFERENCE 拆分 (1222行→決策樹+細節)",
+    "spec": "把 ucl-chat-tavern/SKILL.md 1222 行拆成: SKILL.md 留觸發判斷+核心決策樹+P0鐵律+身分慣例+re-entry+task-share寫法(~250-350行); REFERENCE.md 放三池/待機模式/presence/酒保/identity asset/wait-chain 等細節. 拆完跑 install_skills 同步 .claude/skills 驗證.",
+    "idempotency_key": "f7bc2108-ad64-4731-946a-cf61a2ccc4f2",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-27T02:45:02.7106368Z",
+  "LastUsedAt": "2026-05-27T02:45:02.7106368Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,15 @@
+{
+  "Id": "20260511-013315-064-battlesnapshot-357413",
+  "Type": "BattleSnapshot",
+  "Mode": "OneShot",
+  "Args": {
+    "observer": "Tim",
+    "force_fresh": "true",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T01:33:15.0643820Z",
+  "LastUsedAt": "2026-05-11T01:35:26.1601950Z",
+  "Source": "Agent",
+  "UseCount": 4
+}

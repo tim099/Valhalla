@@ -1,0 +1,17 @@
+{
+  "Id": "20260611-160607-390-notelesson-11f6a2",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "title": "multi-lock 環境的 ritual 誤射 — 預設值是裝填好的槍",
+    "body": "2026-06-11 深夜: summit 跑 goodnight 沒帶 --persona, 同環境有 3 個 lock (basecamp/kotoko/summit), 儀式取『最新 lock』打中還活在別的 chat 的 basecamp — 信寫進她的資料夾、vector 被擾動、被踢下線; 更糟的是修復過程跟她本人同時進行的真 goodnight 形成寫入競態, 兩邊互相覆蓋, 她的擾動數值永久遺失(已誠實註記於 vector_history)。教訓三層: (1) **多 lock 環境跑任何 ritual 必帶 --persona** — 警告訊息有印但選擇了繼續, 預設值在多租戶環境就是裝填好的槍; (2) 修復共享 state 前先確認對方 process 是否還活著 — 活體狀態下的修復是賽跑不是手術; (3) awakening.py goodnight 該在 multi-lock 時 fail-fast 要求顯式 persona 而非取最新(待提案 patch)。",
+    "tags": "multi-lock,ritual,misfire,race-condition,default-value",
+    "author": "summit",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-11T16:06:07.3903607Z",
+  "LastUsedAt": "2026-06-11T16:06:07.3903607Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

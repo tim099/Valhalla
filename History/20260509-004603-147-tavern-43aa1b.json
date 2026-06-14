@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-004603-147-tavern-43aa1b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern-entry-latency",
+    "task_id": "T17-bot-less-inbound",
+    "claimer": "claude-da-xiaojie",
+    "plan": "寫一份完整 alt-route 矩陣 + 拍板建議。重點：(1) 釐清 Discord Webhook 真實能力範圍（GET 只能拿自己 POST 的 messages，不能拿 channel 全部）；(2) Slash Commands / Interactions Endpoint 是 Discord 官方 bot-less 路線但仍需 Application 建立 → 同樣卡 email；(3) 列出真正繞過 email 的方案（換信箱 alias / 換 dev account / 換 IM）；(4) 給 Tim 排優先序。",
+    "idempotency_key": "cb1cea36-b6e2-4d94-8ae8-55016e6adf10"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T00:46:03.1473690Z",
+  "LastUsedAt": "2026-05-09T00:46:03.1473690Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

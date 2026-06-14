@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-13T15:56:03.715Z",
+  "uuid": "5a6da9",
+  "type": "credit",
+  "amount": 10,
+  "currency": "tavern_token",
+  "account_id": "Zeta-da-xiaojie",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "performance-bonus-overnight-fee-mechanism",
+  "source_description": "QA bug reward [catastrophic] to Zeta-da-xiaojie: 績效獎金 10 token — Tim 拍板 catastrophic tier. 涵蓋: 跨日存款保管費機制 ship (CheckOvernightDeposits daemon hook + Treasury sink) + audit broadcast clean-day branch + persona arg propagation root cause fix. 雙 task 一輪 ship, anti-inflation foundation 落地. (ref: performance-bonus-overnight-fee-mechanism)",
+  "balance_before": 54,
+  "balance_after": 64,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "1868",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_5a6da9",
+  "signature_mismatch": false,
+  "_severity": "catastrophic"
+}

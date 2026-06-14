@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T02:12:24.784Z",
+  "uuid": "9ae2c9",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T70-battle-advance",
+  "source_description": "T70 commit pre-credit: Cmd_BattleAdvance + 深度發現 (state 跳過但 hand 沒抽牌; init 邏輯與 state transition 分離)",
+  "balance_before": 226,
+  "balance_after": 227,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "68568",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T70_precredit",
+  "signature_mismatch": false
+}

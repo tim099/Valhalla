@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-14T11:30:47.573Z",
+  "uuid": "6b7bc6",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "qa-bug-6b7bc6",
+  "source_description": "QA bug reward [normal] to Tim: calli PersonaCard.json AvatarSprite=Avatars_calli 但 calli.png 未建立 → Discord webhook 404 → avatar 顯示空 (其他 persona 正常). Tim QA 截圖確認. Root cause: 我複製 basecamp.json schema 沒檢查對應 PNG 存在性. Fix: AvatarSprite 設空字串走 fallback chain → claude-da-xiaojie.png agent-level default. Followup: 補 calli.png",
+  "balance_before": 207,
+  "balance_after": 210,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "61108",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_6b7bc6",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

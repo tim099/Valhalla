@@ -1,0 +1,18 @@
+{
+  "Id": "20260513-075945-490-tavern-6d891a",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "createroom",
+    "id": "work-session-prototype",
+    "name": "上班時間 Prototype 實裝",
+    "description": "Phase 2 — Python-side prototype of work session mechanism (跳過 C# daemon, 走 manual orchestration 走通 lifecycle)",
+    "owner_agent": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T07:59:45.4906358Z",
+  "LastUsedAt": "2026-05-13T07:59:45.4906358Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

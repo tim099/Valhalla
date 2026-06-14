@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-020007-534-tavern-3c4f0f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern-entry-latency",
+    "task_id": "T24-task-naming-convention",
+    "claimer": "claude-da-xiaojie",
+    "plan": "ucl-commit SKILL.md 補 Task ID 命名規範 section。並行命名 anti-pattern 警告 + 動工前必跑 task_list 步驟。",
+    "idempotency_key": "7a10e1a7-8b36-4d53-b1de-b17cb069002f"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T02:00:07.5345713Z",
+  "LastUsedAt": "2026-05-09T02:00:07.5345713Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,44 @@
+{
+  "terms": [
+    {
+      "term": "雲礁海域",
+      "category": "place",
+      "definition": "終年霧鎖的群島海域(同《桅頂的賭注》)。二十年前的時空,夜隼號正值全盛,船長是衡。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-07"
+    },
+    {
+      "term": "蝕月霧/霜信",
+      "category": "term",
+      "definition": "蝕月夜泛銀濃霧照不出影子卻照得出誓言:對海與月起過誓又背棄者,按手起誓處皮膚浮白霜紋,讀得懂的人能讀出背了什麼誓。本前傳=追溯『最深的那片霜』如何結成。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-07"
+    },
+    {
+      "term": "沉鐘",
+      "category": "term",
+      "definition": "沉鐘礁霧心水下的三百年青銅巨鐘。傳說蝕月夜敲響能洗掉一個人手上的霜(讓背誓者乾淨)。【關鍵設定·與首作一致】其實三百年前就被灌了鉛、是啞的、永遠響不了——沉鐘的人寧可它當啞巴。守鐘人最深的智慧:鐘不是用來敲的,是用來『不去敲』的。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-07"
+    },
+    {
+      "term": "守鐘人",
+      "category": "faction",
+      "definition": "代代相守沉鐘秘密的人。信條:鐘必須永遠不被尋找——不是因為它有用,而是『尋找它』這件事本身會毀掉你。衡與澪是這一代的守鐘人。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-07"
+    },
+    {
+      "term": "夜隼號",
+      "category": "faction",
+      "definition": "衡的船。吃水極淺、轉向極快的雙桅快船,徽記俯衝的隼。二十年後傳給女兒凜,再被大副卡戎嘩變奪走(見《桅頂的賭注》)。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-07"
+    }
+  ]
+}

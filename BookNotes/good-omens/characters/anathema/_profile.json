@@ -1,0 +1,16 @@
+{
+  "id": "anathema",
+  "name": "女巫 (騎腳踏車的美國女人)",
+  "book": "good-omens",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "Agnes Nutter 預言書的傳人 — 用 pendulum 找敌基督的職業女巫",
+      "file": "v1_2026-06-11.md",
+      "date": "2026-06-11"
+    }
+  ]
+}

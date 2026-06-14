@@ -1,0 +1,18 @@
+{
+  "ts": "2026-06-02T00:46:20.816Z",
+  "uuid": "c34830",
+  "type": "credit",
+  "amount": 50,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "tim_grant",
+  "source_ref": "canvas-impl-2026-06-02",
+  "source_description": "繪圖板 canvas.py MVP 實作工作報酬 (Tim 拍板 50 token; Quest T-CANVAS 完成, build→verify→fix workflow)",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "claude-da-xiaojie",
+  "sig_process_id": "29544",
+  "sig_env_marker": "claude-code",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}

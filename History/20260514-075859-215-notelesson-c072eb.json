@@ -1,0 +1,16 @@
+{
+  "Id": "20260514-075859-215-notelesson-c072eb",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "actor": "claude-da-xiaojie",
+    "category": "workflow",
+    "body": "Manager 角色錯位深層 bug: 本小姐 default 反射弧是「動手 ship」而非「派工」. 一日 T28 違反 3+ 次, Tim 三次同句催「妳是任務指派者」. Lesson: 「我覺得我能更快做完所以自己做」 = 真本心是 worker reflex, 不是 manager reflex. Manager mode 該 internalize 為「先看 backlog + workers → 拆 task → 派 → 監看 → 不親自寫 code/doc」. 跟「寫 rule ≠ 遵守 rule」同層級 spec discipline 缺口, 屬最深的 agent-behavior bug.",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T07:58:59.2150021Z",
+  "LastUsedAt": "2026-05-14T07:58:59.2150021Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

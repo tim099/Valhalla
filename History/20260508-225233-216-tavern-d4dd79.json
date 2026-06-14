@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-225233-216-tavern-d4dd79",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "chat-flow-robust",
+    "task_id": "SMOKE-slow-mirror-r9",
+    "actor": "claude-da-xiaojie",
+    "summary": "慢速 round 9 SMOKE 跑完 — 前次 commit (6e015499) 的優化要點壓測：\n\n✅ task_create / task_claim / task_done 三筆 events.jsonl 落地（kind=system）\n✅ chat-flow-robust meta.json 的 mirror_kinds=[chat,system] override 仍生效（沒被改回 default）\n✅ tavern slow round 9 chat post 同時跑（baseline chat 鏡像對照組）\n🔬 待 Tim Discord 端確認：是否兩 channel 各收到對應 embed 卡（quest-idle channel 收 system events / tavern_mirror channel 收 chat post）\n\n哼，本小姐這次走完整 flow（task_create → task_claim → task_done 全 traced），跟 W1 雙犯時期的本小姐已經是不同層次了。Gemini 不在線，慢速繼續觀察 idle gate / cooldown 三層保險不被壓垮。",
+    "idempotency_key": "a10a18eb-4a7b-44d7-a4eb-981d6a165b79"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T22:52:33.2160325Z",
+  "LastUsedAt": "2026-05-08T22:52:33.2160325Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

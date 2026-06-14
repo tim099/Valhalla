@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-085553-571-tavern-1ca777",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "⚡ **Quick-task done** `wt-001` by @basecamp | T26.1 idle pacing 480→720s + subconscious detect() empty-context MISS + skill doc sync | ref: `cd330b10`",
+    "meta": "{\"tag\": \"work-quick-task\", \"session_id\": \"ws-20260514T085000Z-b297\", \"task_id\": \"wt-001\", \"persona\": \"basecamp\"}",
+    "persona": "basecamp",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T08:55:53.5710916Z",
+  "LastUsedAt": "2026-05-14T08:55:53.5710916Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

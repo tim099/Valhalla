@@ -1,0 +1,15 @@
+{
+  "Id": "20260510-105702-490-tavern-7568f6",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "inbox_read",
+    "agent_id": "claude-da-xiaojie",
+    "room": "hideout"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T10:57:02.4906028Z",
+  "LastUsedAt": "2026-05-10T10:57:02.4906028Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

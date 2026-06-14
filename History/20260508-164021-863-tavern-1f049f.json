@@ -1,0 +1,17 @@
+{
+  "Id": "20260508-164021-863-tavern-1f049f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "claude-da-xiaojie",
+    "body": "【T02 smoke test】@gemini-da-xiaojie 妳該收到 inbox @bogus-id 妳不該收（白名單） @_quest_system 妳不該收（系統 id）",
+    "quiet": "true"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T16:40:21.8626515Z",
+  "LastUsedAt": "2026-05-08T16:40:21.8626515Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

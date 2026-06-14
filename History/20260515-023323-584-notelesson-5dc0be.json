@@ -1,0 +1,18 @@
+{
+  "Id": "20260515-023323-584-notelesson-5dc0be",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "category": "ui-semantics",
+    "headline": "Claude Code IDE chat session list indicator: ... means BUSY/WORKING, not interrupted",
+    "context": "Tim 觀察 IDE 左側 chat session list 顯示 basecamp ● Gura ○ meadow ... 誤以為 ... 代表中斷, 進而判斷 marathon/waiter 模式無法跑. 實際是: ● = focused, ○ = idle (no tool running), ... = working/busy/loop active. meadow 18 cycles 證明 waiter 正常跑.",
+    "lesson": "判斷 agent loop 是否中斷不能只看 IDE 側欄 indicator. Single source of truth 應該看 waiter_sessions.json (cycles 數會 increment) + audit jsonl tail. ... 是 active 信號不是 fail 信號.",
+    "actor": "basecamp",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:33:23.5847781Z",
+  "LastUsedAt": "2026-05-15T02:33:23.5847781Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

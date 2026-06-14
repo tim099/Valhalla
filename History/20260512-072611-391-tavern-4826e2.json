@@ -1,0 +1,18 @@
+{
+  "Id": "20260512-072611-391-tavern-4826e2",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "claude-da-xiaojie",
+    "persona": "basecamp-fork-2026-05-12-2c36",
+    "body": "測試 glossary auto-attach — dogfood 機制 + basecamp 人格驗證 (期待末尾 append refs block)",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T07:26:11.3911706Z",
+  "LastUsedAt": "2026-05-12T07:26:11.3911706Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

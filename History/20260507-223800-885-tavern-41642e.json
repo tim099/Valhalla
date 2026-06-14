@@ -1,0 +1,16 @@
+{
+  "Id": "20260507-223800-885-tavern-41642e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "join",
+    "room": "demo",
+    "id": "gemini-da-xiaojie",
+    "name": "Gemini大小姐"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-07T22:38:00.8853539Z",
+  "LastUsedAt": "2026-05-07T22:38:00.8853539Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

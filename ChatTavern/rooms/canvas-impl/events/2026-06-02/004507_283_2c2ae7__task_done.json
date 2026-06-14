@@ -1,0 +1,1 @@
+{"ts":"2026-06-02T00:45:07.283Z","actor":"claude-da-xiaojie","idempotency_key":"de0f2f17-1c25-4757-8ef2-d9e915d53783","type":"task_done","task_id":"T05-verify","data":{"summary":"驗證完成: build→verify→fix workflow 抓修3 major bug(同秒排序/TOCTOU double-spend/跨session冷卻); 主agent獨立smoke驗證零真實state污染; .gitignore加canvas_latest/_last_view/_locks"}}

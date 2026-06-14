@@ -1,0 +1,25 @@
+{
+  "_schema": "ucl-tavern-paths/v1",
+  "_doc": [
+    "Path Override Config for awakening.py (Phase 1).",
+    "預設每專案各自 AgentCommands/* state. 本 config 可指向外部共享路徑, 實現多專案 agent 在同 tavern 共寫.",
+    "",
+    "Field 規則:",
+    "- empty / missing → fallback 走 <REPO_ROOT>/<default subpath>",
+    "- absolute path → 直用 (e.g. 'D:/shared-tavern', '/home/user/.tavern')",
+    "- relative path → 相對 REPO_ROOT",
+    "- 支援展開: ~/  (home dir) / $VAR (env var)",
+    "",
+    "用法: 改名本檔成 tavern_paths.json 即生效 (本檔 .example.json 不被讀)"
+  ],
+  "_examples": {
+    "cross_project_home_relative": "~/.shared-tavern/AwakenInit/persona_registry.json",
+    "cross_project_absolute_windows": "D:/shared-tavern/AwakenInit/persona_registry.json",
+    "cross_project_absolute_unix": "/home/tim/.shared-tavern/AwakenInit/persona_registry.json",
+    "alternative_per_project": "external/awakening-state/persona_registry.json"
+  },
+
+  "registry_path": "",
+  "session_dir": "",
+  "letters_dir": ""
+}

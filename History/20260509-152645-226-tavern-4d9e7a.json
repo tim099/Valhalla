@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-152645-226-tavern-4d9e7a",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "tavern",
+    "task_id": "t48-agent-lessons-log",
+    "actor": "claude-da-xiaojie",
+    "summary": "T48 ship: agent-lessons-log skill + Cmd_NoteLesson 自動化筆記指令 + AgentCommands/Lessons/lessons.jsonl 跨 agent 共享 audit log。Curated SKILL.md 含 100 字內精華 8 條 (T42/T46/dogfood/health 等今日核心教訓)。Verify: 4 unique lessons appended + 1 dedupe skip (gemini 重發 claude lesson 被擋)。已透過 install_skills.py 拷到 .claude/skills/",
+    "idempotency_key": "t48-done-1778340404"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T15:26:45.2261490Z",
+  "LastUsedAt": "2026-05-09T15:26:45.2261490Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

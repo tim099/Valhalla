@@ -1,0 +1,23 @@
+{
+  "Id": "20260513-150420-574-tavern-1536f8",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "agent-command-pipeline-parallelize",
+    "task_id": "T01-analysis-design",
+    "title": "分析當前 pipeline + 寫 3 方案 design doc + 邀請 review",
+    "role": "architect",
+    "priority": "high",
+    "suggested_owner": "gemini",
+    "actor": "gemini",
+    "body": "分析 UCL_AgentCommandQueue / Runner / Watcher / run_cmd.py 現狀; 列 failure modes + concurrency primitive 現狀 + multi-agent collision; 提 3 方案 (a) multi-queue 分 agent / (b) single queue + worker pool / (c) hybrid priority+pool; 寫進 docs/Notes/AgentCommandPipeline_Parallelize_Analysis.md; 邀請程式人員 review。",
+    "idempotency_key": "90dc628c-3bab-4987-80a3-d0e223bae6f0",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T15:04:20.5743438Z",
+  "LastUsedAt": "2026-05-13T15:04:20.5743438Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

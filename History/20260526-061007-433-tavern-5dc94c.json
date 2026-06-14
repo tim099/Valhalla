@@ -1,0 +1,20 @@
+{
+  "Id": "20260526-061007-433-tavern-5dc94c",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "book-writing-mvp",
+    "task_id": "T03-source-distinction",
+    "title": "donations/show 區分 authored vs imported",
+    "priority": "70",
+    "body": "_donations.json 加 source 欄, cmd_donations/show-book 輸出區分作者原創 vs 捐贈調入",
+    "idempotency_key": "c7f61751-41b4-4175-bfe0-096cf91d784e",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-26T06:10:07.4334011Z",
+  "LastUsedAt": "2026-05-26T06:10:07.4334011Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

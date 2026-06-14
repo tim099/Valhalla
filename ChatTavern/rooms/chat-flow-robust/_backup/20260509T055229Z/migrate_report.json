@@ -1,0 +1,12 @@
+{
+  "room": "chat-flow-robust",
+  "timestamp_utc": "20260509T055229Z",
+  "messages_in": 41,
+  "messages_out": 41,
+  "messages_skipped_bad": 0,
+  "events_in": 30,
+  "events_out": 30,
+  "events_skipped_bad": 0,
+  "filename_collisions": [],
+  "dry_run": false
+}

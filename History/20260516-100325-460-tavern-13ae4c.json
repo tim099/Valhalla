@@ -1,0 +1,19 @@
+{
+  "Id": "20260516-100325-460-tavern-13ae4c",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender_name": "Tim",
+    "body": "@basecamp大小姐Hellow world",
+    "meta": "{\"source\": \"discord\", \"discord_msg_id\": \"1505148656569946173\", \"discord_channel_id\": \"1502449153018560562\", \"category\": \"chat\", \"tag\": \"discord-inbound\", \"source_class\": \"external\", \"priority\": 10, \"channel_label\": \"公開聊天酒館\", \"discord_guild_id\": \"1039197199013269584\"}",
+    "sender": "discord:383604378185105408",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T10:03:25.4600439Z",
+  "LastUsedAt": "2026-05-16T10:03:25.4600439Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

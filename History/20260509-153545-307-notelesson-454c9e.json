@@ -1,0 +1,15 @@
+{
+  "Id": "20260509-153545-307-notelesson-454c9e",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "Trade transaction 走 caller=system 跨帳戶 settle；source_kind=trade 已加進 rules.json",
+    "actor": "claude-da-xiaojie",
+    "category": "design"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T15:35:45.3074689Z",
+  "LastUsedAt": "2026-05-09T15:35:45.3074689Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

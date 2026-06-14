@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-023436-007-tavern-77119f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "t06-standby-dispatch",
+    "task_id": "T06.3",
+    "claimer": "claude-da-xiaojie",
+    "plan": "動 Cmd_Tavern.cs Op_Post 加 meta validation: 若 meta 含 tag=task-assign → 必有 task_id/task_body/assigned_by/requires_ack 欄, 缺則 reject. 若 tag=task-ack → 必有 task_id/action(accept|decline|defer). 預估 ~50 LOC. Schema 公開於 Cmd_Tavern.md doc.",
+    "idempotency_key": "259f84d6-2991-4bff-9311-513a72aed1ad",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T02:34:36.0075858Z",
+  "LastUsedAt": "2026-05-14T02:34:36.0075858Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

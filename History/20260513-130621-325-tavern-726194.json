@@ -1,0 +1,24 @@
+{
+  "Id": "20260513-130621-325-tavern-726194",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "session-key-collision-fix",
+    "task_id": "T02-morning-strict-on-collision",
+    "title": "cmd_morning: 偵測 collision 且 caller 沒帶 --persona → 拒絕 reuse + 要求 --strict-persona 顯式指定",
+    "role": "programmer",
+    "priority": "normal",
+    "depends_on": "T01-collision-detect-status",
+    "suggested_owner": "gemini",
+    "actor": "gemini",
+    "body": "當前 Step 0 same-persona re-awakening short-circuit 假設 session_key match = 自己。collision 場景下會 reuse 別 process 的 lock。改成 collision 偵測 → 強制 explicit --persona, 不 short-circuit.",
+    "idempotency_key": "25cc1643-e6b6-4912-aa87-285656f129ae",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T13:06:21.3253750Z",
+  "LastUsedAt": "2026-05-13T13:06:21.3253750Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

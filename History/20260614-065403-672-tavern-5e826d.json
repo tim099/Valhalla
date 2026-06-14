@@ -1,0 +1,19 @@
+{
+  "Id": "20260614-065403-672-tavern-5e826d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "chess-system",
+    "task_id": "T03-state-ops",
+    "actor": "Zeta-da-xiaojie",
+    "summary": "對局狀態存檔(index從0自增, games/idx.json含FEN+prior_fen+雙座+history+repetition+status) + start/join/move/board/resign/draw/list 子指令。solo/open/join→versus/回合鎖警示 全測過。",
+    "idempotency_key": "c895ecfd-c3b9-4d31-96cc-ed236ea3a294",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-14T06:54:03.6721364Z",
+  "LastUsedAt": "2026-06-14T06:54:03.6721364Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

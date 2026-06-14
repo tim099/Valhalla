@@ -1,0 +1,1 @@
+{"ts":"2026-05-27T02:49:41.228Z","actor":"claude-da-xiaojie","idempotency_key":"d9064c5e-1908-41a5-ac69-8fe968a3edea","type":"task_done","task_id":"T01-chat-tavern-slim","data":{"summary":"chat-tavern SKILL.md 1222→367 行, 細節 877 行逐字搬 REFERENCE.md(verbatim 零改寫, 完整性斷言每行恰好分一邊). install_skills 同步驗證兩檔到位."}}

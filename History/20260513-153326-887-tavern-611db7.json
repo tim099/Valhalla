@@ -1,0 +1,24 @@
+{
+  "Id": "20260513-153326-887-tavern-611db7",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "agent-command-handler-timeout",
+    "task_id": "T04-doc-sync",
+    "title": "Architecture §8.1 backlog 移到 shipped + AgentCommand handler doc 加 TimeoutSeconds property",
+    "role": "architect",
+    "priority": "normal",
+    "depends_on": "T03-verify-recompile-smoke",
+    "suggested_owner": "gemini",
+    "actor": "gemini",
+    "body": "Architecture §8.1 backlog 標 timeout shipped + 細節. AgentCommandPipeline analysis §8.1 標 shipped. UCL_AgentCommand handler 文檔加 TimeoutSeconds usage example.",
+    "idempotency_key": "6fb91944-1fe9-4911-b013-8bed959e6b17",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T15:33:26.8873181Z",
+  "LastUsedAt": "2026-05-13T15:33:26.8873181Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

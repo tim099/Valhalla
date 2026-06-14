@@ -1,0 +1,16 @@
+{
+  "Id": "20260529-090724-943-readhierarchy-64a633",
+  "Type": "ReadHierarchy",
+  "Mode": "OneShot",
+  "Args": {
+    "mode": "prefab",
+    "prefab": "Assets/Resources/PrefabsRes/UI/RCG_BattleManager.prefab",
+    "search": "TurnEnd",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-29T09:07:24.9438061Z",
+  "LastUsedAt": "2026-05-29T09:07:24.9438061Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

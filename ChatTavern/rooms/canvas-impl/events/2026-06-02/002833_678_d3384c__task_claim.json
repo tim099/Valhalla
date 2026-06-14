@@ -1,0 +1,1 @@
+{"ts":"2026-06-02T00:28:33.678Z","actor":"claude-da-xiaojie","idempotency_key":"e926fabe-568e-4e90-a500-15eea3eebd09","type":"task_claim","task_id":"T05-verify","data":{"lease_until":"2026-06-03T00:28:33Z","plan":"temp root 對抗測試 + .gitignore + 文件回填"}}

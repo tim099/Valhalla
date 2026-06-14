@@ -1,0 +1,1 @@
+{"ts":"2026-05-16T08:30:49.317Z","actor":"trailhead","idempotency_key":"744f9ff0-54d6-4fc0-abb8-e5a7f6ac4434","type":"task_claim","task_id":"T01-spec","data":{"lease_until":"2026-05-16T09:30:49Z","plan":"docs/Workflows/Persona_Character_Workflow.md 落地, 含規則 / Quest tree / 投票表 schema / Token-Swap hook / 地雷清單。"}}

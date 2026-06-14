@@ -1,0 +1,19 @@
+{
+  "Id": "20260508-125331-009-tavern-41097d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "agent-prompt-queue",
+    "task_id": "Q20260508-125330-a75c",
+    "title": "酒館在場人數統計失真 — 分析 + 視 stale-lease 結論決方向",
+    "priority": "low",
+    "body": "# Queued prompt — `Q20260508-125330-a75c`\n\n_priority: low / queued_at: 2026-05-08T12:53:30.297659Z_\n\n## 原始指令\n\n分析：酒館「在場人數」統計失真問題\n\n## 痛點\n目前酒館各房的 members.json 統計「在場幾人」— 但 agent 進來（task_join）後幾乎不會跑 task_leave。導致人數只增不減，看起來每個房都人滿為患，無法當作「哪個房有 agent 在工作 / 在聊天」的判斷依據。\n\n## 為何想要可信的人數\n- 多 agent 協作上線後（agent-assist），一個快速判斷「現在這個 quest 房有沒有人在做事」的指標很有用\n- Tim 想插 prompt 進某 quest 時，先看哪個房活躍可選對的房派發\n- 整體 dashboard 一眼掃過去知道哪邊在忙\n\n## 分析方向\n\n### 1. 退出機制現況 — 為什麼 agent 不 leave？\n- agent 進房 SOP 沒有「離開」步驟 — 整個 ChatTavern_Workflow / Quest_Workflow 都假設 join 後常駐\n- 不像聊天軟體有「下線」概念 — agent 是 turn-based，turn 結束 ≠ 離開房間\n- 結論：「在場人數」這個語意本來就不適合 turn-based agent\n\n### 2. 改用「最近活躍」當「在場」\n- 不依賴 join/leave，改靠 last_active_at 推算\n- 規則：last_active < 5 分鐘 → 視為「正在活躍」\n- 這個跟 stale-lease task `Q20260508-125035-220d` 提的 `last_active_at` 完全是同一份資料 — 兩個 task 共用即可\n\n### 3. 改用「最後發言時間」（per agent per room）\n- 不引入新 last_active 欄位，直接掃 messages.jsonl 看最後一筆 sender 是誰、何時\n- 優點：不必改 schema\n- 缺點：純跑 events / inbox / read 不發言的 agent 不算「在場」 — 偏嚴\n\n### 4. members.json 加 last_seen_at 欄位 + 自動移除 stale member\n- members.json 的 entry 加一個 last_seen_at（每次 op=join / post / read 自動更新）\n- 渲染時按 last_seen 過濾：只顯示 < 5 分鐘 的當「在場」\n- 完全沒互動超過 24h 的 entry 自動從 members.json 刪掉（housekeeping）\n\n### 5. 不處理（保留現況）\n- 既然 agent turn-based，「在場人數」本來語意就模糊\n- IMGUI 改顯示「歷史登錄人數」+「最近活躍 N 人」兩個數字並列\n- 文件解釋清楚「在場 = 曾經 join，不代表現在活躍」\n\n## 決定點\n\n跟 stale-lease task 重疊度高 — 都需要 `last_active_at` 機制。建議：\n- **如果做 stale-lease 用方向 C（last_active）** → 順手把 in-room presence 也改用同一個 timestamp\n- **如果做 stale-lease 用方向 A（顯式 force_reclaim 不引入 last_active）** → 這個 task 走方向 5（不處理 + 文件解釋）\n\n→ 結論：這個 task 是 stale-lease 設計的副產品決策，不必獨立做。先看 stale-lease 路線再決定。\n\n## 預期 deliverable\n1. 跟 stale-lease task 一起評估（讀 stale-lease 結論後決定方向）\n2. 視結論修：\n   - members.json schema（加 last_seen_at）\n   - UCL_ChatTavernPage members 顯示邏輯\n   - 或文件補一段「在場人數的語意」\n3. 不超工：是個 small task，不該變大\n\n## Notes\n- 優先度：**low** — 不影響 robustness，純資訊呈現\n- 跟 stale-lease task `Q20260508-125035-220d` 強相關 — 不要分頭做\n- 如果 stale-lease 走方向 A，這個 task 直接走方向 5 收尾即可（5 行文件補丁）\n\n---\n_完成本任務後請跑：_\n`python AgentCommands/PromptQueue/qdone.py Q20260508-125330-a75c`\n_否則 qdrain hook 不會進下一輪。_",
+    "idempotency_key": "df1b2dc7-772a-47af-bfd2-af5c43ef7ca6"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T12:53:31.0094935Z",
+  "LastUsedAt": "2026-05-08T12:53:31.0094935Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

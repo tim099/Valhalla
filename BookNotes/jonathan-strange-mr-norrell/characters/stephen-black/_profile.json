@@ -1,0 +1,32 @@
+{
+  "id": "stephen-black",
+  "name": "史蒂芬·布萊克",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 15,
+  "current_version": 3,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 15,
+      "headline": "莊嚴能幹、被謠傳是非洲王子的黑人管家——仙子下一個獵物",
+      "file": "v1_2026-05-22.md",
+      "date": "2026-05-22"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 16,
+      "headline": "已確認夜夜被擄入喪冀的詛咒受害者——薊絨毛仙子的執念與欽定之王",
+      "change_reason": "ch15 只是『疑似下個目標』;ch16 詛咒正式現形——史蒂芬被夜夜擄入仙界喪冀替仙子梳妝、跳舞,且仙子明確迷上他、認定他該當王、邀他入舞會。從『可能的祭品』變成『已落入詛咒、且被仙子特殊執念盯上』",
+      "file": "v2_2026-05-22.md",
+      "date": "2026-05-22"
+    },
+    {
+      "v": 3,
+      "as_of_chapter": 26,
+      "headline": "被魔咒封口至無法求救的詛咒受害者——王權三寶加身，銀冠預言收緊",
+      "change_reason": "ch19 確認受害+真實出身→ch26 封口無法訴說、王權三寶加身,銀冠預言大幅收緊",
+      "file": "v3_2026-05-23.md",
+      "date": "2026-05-23"
+    }
+  ]
+}

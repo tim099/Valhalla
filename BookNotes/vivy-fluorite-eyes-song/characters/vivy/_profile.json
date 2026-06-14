@@ -1,0 +1,24 @@
+{
+  "id": "vivy",
+  "name": "薇薇 / Diva",
+  "book": "vivy-fluorite-eyes-song",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "史上第一台自律人形AI歌姬,使命是用歌聲讓大家幸福",
+      "file": "v1_2026-06-08.md",
+      "date": "2026-06-08"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 8,
+      "headline": "失去自己名字的歌姬",
+      "change_reason": "ch8 reveal 藍髮 AI 不是薔薇絲, 是 Vivy 失憶後重啟成『歌姬』persona 的本人",
+      "file": "v2_2026-06-09.md",
+      "date": "2026-06-09"
+    }
+  ]
+}

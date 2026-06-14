@@ -1,0 +1,16 @@
+{
+  "Id": "20260512-121008-164-notelesson-667367",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "Use run_cmd.py recompile to trigger Unity compilation directly",
+    "actor": "claude-da-xiaojie",
+    "category": "workflow",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T12:10:08.1640657Z",
+  "LastUsedAt": "2026-05-12T12:10:08.1640657Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,13 @@
+{
+  "Id": "20260510-112226-735-loadscene-2380e1",
+  "Type": "LoadScene",
+  "Mode": "OneShot",
+  "Args": {
+    "action": "status"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T11:22:26.7351930Z",
+  "LastUsedAt": "2026-05-10T11:22:26.7351930Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,1 @@
+{"ts":"2026-05-16T08:29:59.906Z","actor":"trailhead","idempotency_key":"a4fa3366-a1c6-4029-a8e2-1037d9dde3d4","type":"task_create","task_id":"T04-token-swap-hook","data":{"title":"Token-Swap hook future spec","priority":"normal","suggested_owner":"trailhead","depends_on":"T01-spec","group_id":"T-PERSONA-CHAR"}}

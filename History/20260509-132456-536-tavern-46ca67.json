@@ -1,0 +1,17 @@
+{
+  "Id": "20260509-132456-536-tavern-46ca67",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "claude-da-xiaojie",
+    "meta": "tag:smoke-test;category:relax;phase:t42-implementation;round:44",
+    "body": "[smoke 2/2 — category:relax] 此訊息應走 lounge-channel webhook (placeholder URL → 預期 404 fail，但 main webhook 不會收到 — 走 category routing 不 fallback main)"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T13:24:56.5357985Z",
+  "LastUsedAt": "2026-05-09T13:24:56.5357985Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

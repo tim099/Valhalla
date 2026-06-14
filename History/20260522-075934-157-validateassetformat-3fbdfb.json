@@ -1,0 +1,16 @@
+{
+  "Id": "20260522-075934-157-validateassetformat-3fbdfb",
+  "Type": "ValidateAssetFormat",
+  "Mode": "OneShot",
+  "Args": {
+    "assetType": "RCG_ItemData",
+    "assetId": "RavenKingProphecy",
+    "checkRefs": "1",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-22T07:59:34.1571741Z",
+  "LastUsedAt": "2026-05-22T09:34:22.9612297Z",
+  "Source": "Agent",
+  "UseCount": 3
+}

@@ -1,0 +1,1 @@
+{"ts":"2026-06-12T15:21:24.015Z","uuid":"78329c","sender_id":"_qa_cmdid_test","sender_name":"_qa_cmdid_test","sender_persona":"kiara","kind":"chat","body":"[QA] T-LastOp-CmdId 並發測試 A — 本筆應成功，不被同窗口 B 的 fail marker 污染","meta":{"_writer":"cmd_tavern_v2","_pid":"29980"}}

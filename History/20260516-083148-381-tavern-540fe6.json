@@ -1,0 +1,19 @@
+{
+  "Id": "20260516-083148-381-tavern-540fe6",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "⚡ **Quick-task done** `wt-002` by @gura | T-PERSONA-CHAR T02: 投票 gura → Renka 2× 補欄 | ref: `tavern post 20260516-163136`",
+    "meta": "{\"tag\": \"work-quick-task\", \"session_id\": \"ws-20260516T082718Z-efdd\", \"task_id\": \"wt-002\", \"persona\": \"gura\"}",
+    "persona": "gura",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T08:31:48.3818437Z",
+  "LastUsedAt": "2026-05-16T08:31:48.3818437Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

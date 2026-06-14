@@ -1,0 +1,1 @@
+{"ts":"2026-06-14T06:40:27.341Z","actor":"Zeta-da-xiaojie","idempotency_key":"dda77f2d-005f-47e6-ab6f-bd4135c2d934","type":"task_create","task_id":"T01-engine","data":{"title":"西洋棋核心引擎: FEN parse/serialize + trust-based 走子(易位/過路兵/升變) + 合法步生成器 + check/checkmate/stalemate/子力不足/50步/三次重複偵測","role":"programmer","priority":"high","depends_on":""}}

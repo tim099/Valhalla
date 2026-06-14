@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-023712-150-tavern-5a12a2",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "t06-standby-dispatch",
+    "task_id": "T06.2",
+    "claimer": "claude-da-xiaojie",
+    "plan": "動 UCL_BartenderDaemon.cs: (1) 新加 type=assignment trigger schema {target_persona, task_body, task_id, supervisor, expires_at, max_attempts} (2) Daemon scan tavern messages, sender_persona == target_persona AND availability == idle → fire (3) Pending queue 持久化 AgentCommands/ChatTavern/bartender/assignments.json (4) Fire 行為: tavern post tag=task-assign 給該 persona, 寫 inbox 通知 (5) ack 收到時清 pending. 預估 ~120 LOC C#. Robustness: pending.json 不存在 silent skip, 過期 ack reroute 留 Phase 2.",
+    "idempotency_key": "a4e37338-28e3-4c87-8a99-ae7a96578a28",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T02:37:12.1509535Z",
+  "LastUsedAt": "2026-05-14T02:37:12.1509535Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

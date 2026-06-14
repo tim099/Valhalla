@@ -1,0 +1,11 @@
+{
+	"Name":"Recompile",
+	"Type":"Recompile",
+	"Mode":"OneShot",
+	"Args":{
+		"refresh":"true"
+	},
+	"Description":"recompile via run_cmd.py",
+	"CreatedAt":"2026-05-07T10:03:50.5442945Z",
+	"LastUsedAt":"2026-05-07T10:04:06.4213114Z"
+}

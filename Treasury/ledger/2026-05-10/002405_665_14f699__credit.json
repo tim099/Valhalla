@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T00:24:05.665Z",
+  "uuid": "14f699",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "task_completion",
+  "source_ref": "task-backfill-05-0743",
+  "source_description": "T65 backfill task #5 @ 07:43: Plan B batched 摘要 落地",
+  "balance_before": 204,
+  "balance_after": 205,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "51836",
+  "sig_env_marker": "manual_filesystem_write_t65_backfill",
+  "sig_cmd_id": "T65_backfill_task-backfill-05-0743",
+  "signature_mismatch": false
+}

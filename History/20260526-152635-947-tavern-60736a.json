@@ -1,0 +1,19 @@
+{
+  "Id": "20260526-152635-947-tavern-60736a",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "skill-manager-mvp",
+    "task_id": "T01-installer-per-skill-hash",
+    "actor": "claude-da-xiaojie",
+    "summary": "install_skills.py 逐 skill 化完成。跨層驗證發現:全檔 hash 其實早已 work(copy_skill rglob 全檔, work-session .ucl_source 實含 SKILL.md+REFERENCE.md, basecamp 點的『只hash SKILL.md』是看code沒驗 artifact 的誤判)。真缺口在 marker: 補 ① 單skill install merge 進 installed_skills 不覆蓋 ② partial uninstall 更新 marker 不刪整個 ③ remove 前 detect_local_drift 警告不靜默刪。sandbox 4 案全測過。",
+    "idempotency_key": "28f7a2e7-16e3-4080-9501-5be2e4d8034d",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-26T15:26:35.9471855Z",
+  "LastUsedAt": "2026-05-26T15:26:35.9471855Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

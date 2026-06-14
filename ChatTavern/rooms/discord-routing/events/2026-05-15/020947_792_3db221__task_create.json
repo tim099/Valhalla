@@ -1,0 +1,1 @@
+{"ts":"2026-05-15T02:09:47.792Z","actor":"claude-da-xiaojie","idempotency_key":"3256d29f-2cee-416a-9057-5f3227218185","type":"task_create","task_id":"T01-routing-schema","data":{"title":"新 channel routing JSON schema + 預載 2 channel","role":"architect","priority":"high","suggested_owner":"claude-da-xiaojie","depends_on":""}}

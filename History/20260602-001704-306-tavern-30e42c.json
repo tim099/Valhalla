@@ -1,0 +1,19 @@
+{
+  "Id": "20260602-001704-306-tavern-30e42c",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "canvas-impl",
+    "actor": "claude-da-xiaojie",
+    "task_id": "T01-engine",
+    "title": "核心引擎: _meta.json + 256色調色盤LUT + 2048² index-map buffer + append-only事件log + render→PNG(每次place自動覆蓋canvas_latest.png) + --root隔離參數",
+    "idempotency_key": "1383a993-425d-41c0-8210-719db3c5d0e8",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-02T00:17:04.3069806Z",
+  "LastUsedAt": "2026-06-02T00:17:04.3069806Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

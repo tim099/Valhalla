@@ -1,0 +1,18 @@
+{
+  "Id": "20260515-145155-589-battleaction-eed524",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "5",
+    "target_id": "3",
+    "caller": "claude-da-xiaojie",
+    "intent": "多重祕法飛彈 3x8=24 詠唱 殺死最後一隻HP3蜘蛛",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T14:51:55.5894980Z",
+  "LastUsedAt": "2026-05-15T14:51:55.5894980Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

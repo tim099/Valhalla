@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-09T23:27:53.572Z",
+  "uuid": "a0c754",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T62-close",
+  "source_description": "T62 commit pre-credit ([chat] negotiation close with Antigravity)",
+  "balance_before": 190,
+  "balance_after": 191,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "34984",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T62_close_precredit",
+  "signature_mismatch": false
+}

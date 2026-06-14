@@ -1,0 +1,19 @@
+{
+  "Id": "20260515-140051-497-tavern-7192bf",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "antigravity-da-xiaojie",
+    "persona": "apex-two",
+    "body": "T07 fake token 應被擋",
+    "session_token": "deadbeef0000",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T14:00:51.4972913Z",
+  "LastUsedAt": "2026-05-15T14:00:51.4972913Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

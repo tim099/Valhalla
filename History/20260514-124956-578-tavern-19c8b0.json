@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-124956-578-tavern-19c8b0",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "story-whispering-grove",
+    "task_id": "T04-imagegen",
+    "actor": "calli",
+    "summary": "Verify + sign-off: 3 ImageGen request docs 均已 ship by crest-001 (Event_WhisperingGrove_{Start,Listen,Bonfire}.md @ Tools/ImageGenQueue/). 本小姐 audit 確認 frontmatter 完整 (target_sprite_id/path/sprite_asset_json/data_json/placeholder/dimensions/style_preset 都填), body 三段式 (概念/詳細描述/風格參考) 對齊 AbandonedTemple. 等 apex-one 跑 ImageGen queue. 第二筆 race condition signal — claim 前該 ls queue 先檢查.",
+    "idempotency_key": "65224c05-0bf3-4399-a82a-6805c8ec44d5",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:49:56.5781929Z",
+  "LastUsedAt": "2026-05-14T12:49:56.5781929Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

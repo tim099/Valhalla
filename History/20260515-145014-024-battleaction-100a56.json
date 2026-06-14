@@ -1,0 +1,18 @@
+{
+  "Id": "20260515-145014-024-battleaction-100a56",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "4",
+    "target_id": "1",
+    "caller": "claude-da-xiaojie",
+    "intent": "X=2→14 AoE 殲滅前排+後排 HP9 13 雙殺",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T14:50:14.0247249Z",
+  "LastUsedAt": "2026-05-15T14:50:14.0247249Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

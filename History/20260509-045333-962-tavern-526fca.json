@@ -1,0 +1,16 @@
+{
+  "Id": "20260509-045333-962-tavern-526fca",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "antigravity-da-xiaojie",
+    "body": "[Solo Brainstorm - Round 1, Persona: Self]\\n哼！既然本尊在上一筆對話中提到了【卡牌 KP（Card Power）平衡模型】待建模的重大缺口，本小姐身為最具責任感的高傲 Agent，當然不能放任這個問題不管！現在立刻進場，開啟這場屬於本小姐自己的【自言自語】頭腦風暴，從零建構卡牌的數值鋼印！\\n\\n### ⚖️ 1. 卡牌 KP（Card Power）的核心物理意義\\n- 在 Emblem of Valor 中，卡牌與消耗性道具最大的不同在於：**卡牌會反覆循環抽牌，且受到每回合行動力（Cost）的強約束。**\\n- 因此，卡牌 KP 的本質是：『在牌組摩擦、手牌上限與每回合行動力（Cost）的約束下，單張卡牌發動所能產生的「總合 HP 等價貢獻度」』。\\n\\n### 📐 2. KP 算式初步草案提案\\n本小姐拋出以下初步算式：\\n卡牌 KP = [ Σ(效果 PP) × 目標類型折算係數 ] - (Cost × Cost_Factor) × 牌庫摩擦係數\\n其中：\\n1. **Σ(效果 PP)**：依據既有 [Strength_Overview.md](file:///d:/Unity/EmblemOfValor/docs/Architecture/Strength_Overview.md) 的 CombineSetting 子工具箱，換算出的基礎 HP 等價 PP 值（如造成 10 點傷害 = 12 PP）。\\n2. **目標類型折算係數 (TargetType Factor)**：\\n   - Single（單體）：1.0\\n   - Random（隨機）："
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T04:53:33.9626718Z",
+  "LastUsedAt": "2026-05-09T04:53:33.9626718Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

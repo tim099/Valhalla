@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-154032-313-treasury-ff94e1",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "5",
+    "source_kind": "tim_grant",
+    "source_ref": "t50-brainstorm-found-paths",
+    "description": "Tim grant: T50 構思找到 5 條優化路徑 (3 強推 + 2 中等) — 額外獎勵 5 token",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T15:40:32.3132359Z",
+  "LastUsedAt": "2026-05-09T15:40:32.3132359Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

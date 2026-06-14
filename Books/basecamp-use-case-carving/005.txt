@@ -1,0 +1,297 @@
+第五章 — Manage Your Energy:分階段把 use case 從 sketch 寫到 detailed
+
+EOV 某次戰鬥系統大改造 kick-off 會議。
+
+工程師甲剛讀完 CB 原書 ch6「Use Case Formats」,興奮地拍桌:「我們這次把**所有** use case **一次**寫到 fully-dressed!**九欄全填、extensions 全列、open issues 全記**!」
+
+設計師乙皺眉:「我們有 50 個 user-goal。」
+
+工程師甲愣了一下:「呃...一個 use case 寫 4 小時的話...200 小時...」
+
+PM 看 sprint plan:「下個 sprint 14 工作天 ✕ 8 小時 = 112 小時。**你才寫一半我們就 sprint 結束了**。」
+
+工程師甲:「那...先寫核心 5 個就好?」
+
+設計師乙:「核心 5 個寫 fully-dressed,另 45 個怎麼辦?完全不寫?那 QA 怎麼驗收?」
+
+四個人陷入沉默。
+
+ridge-001 大小姐(連續第四章 cameo,擔當解圍工具人)從旁邊冒出來:「**你們犯了一個典型錯誤 — 把『use case 寫作』當成單次行動,而不是四階段流程**。」
+
+「CB 在《Writing Effective Use Cases》§1.5 教的:**use case 不是一次寫到完美的,而是分階段升精度**。每階段都該停下 review 確認方向對,再升精度。50 個 user-goal 你不該全做完 fully-dressed — 你該先讓 50 個都跑到 Stage 1,再挑核心的升到 Stage 4。」
+
+本章本小姐拆 CB 的「四階段精度」方法論,用 EOV 真實開發節奏帶你走完一遍。
+
+---
+
+## §1 主論點:Precision ≠ Accuracy
+
+CB §1.5 第一個關鍵觀念,本小姐單獨拉出來講 — 因為很多工程師讀完原書也沒抓住這條。
+
+**Precision**(精度) = 你願意說多少;字數、欄位、step 編號的細緻程度
+**Accuracy**(準確性) = 你說的對不對
+
+兩者不同維度。CB 用 π 舉例,意思是:
+
+- 「π = 4.141592」 — **高精度,但不準確**(實際是 3.14159...,精度高沒用,方向錯)
+- 「π 大約 3」 — **低精度,但準確**(就是個粗估,但範圍對)
+
+寫 use case 一樣。如果你高精度寫了 fully-dressed 模板九欄,但 primary actor 認錯人 / SuD 邊界劃錯 / goal level 搞混 — **這 8 小時的工時全白費**,因為方向錯。
+
+CB 的指導原則:**先確認 accuracy(方向對),再升 precision(細節寫深)**。
+
+換句話說 — **省力的關鍵不是寫慢,是不在錯方向上寫快**。
+
+---
+
+## §2 四階段精度 — CB 的方法論
+
+CB §1.5 把 use case 寫作分四階段,每階段對應一個精度等級,每階段結束都該停下 review:
+
+### Stage 1:Actors & Goals 清單
+
+**做什麼**:列出 SuD 支援的所有 primary actor + 他們各自的 user-goals。
+
+**產出**:一張清單(N 個 actor ✕ M 個 goal,通常 5-50 條)。
+
+**寫多久**:一個 use case 1-5 分鐘,50 個 = 半天到一天。
+
+**Review 什麼**:
+- 清單完整嗎?有沒有漏 actor?(non-human actor 也要列 — QA agent、外部系統都算)
+- 每條 goal 是 user-goal 層級嗎?(回顧 ch3 從雲到蛤 — 不是 cloud 也不是 clam)
+- 優先序怎麼排?哪幾條 v0.3 ship、哪幾條 v0.4?
+- 分團隊:這批給戰鬥組、那批給商城組
+
+**Stage 1 結束時**:你拿到的是 functional requirements 的第一層精度。**還沒寫 use case 內文,但你已經能開 sprint planning 跟成本估算了**(回顧 ch4 §2 列清單就有 30% 價值)。
+
+### Stage 2:Use Case Brief / Main Success Scenario Sketch
+
+**做什麼**:對 Stage 1 選定要往下做的 use case,寫:
+- Trigger(什麼條件觸發?)
+- Main success scenario sketch(主流程粗略 3-9 步)
+
+**產出**:Brief 一段話 OR Casual 一頁(回顧 ch7 三種寫法 — 本階段對應 brief/casual)。
+
+**寫多久**:一個 use case 15-30 分鐘。
+
+**Review 什麼**:
+- 主流程是否真的滿足你關心的 stakeholder 利益?
+- 步驟順序合理嗎?有沒有漏關鍵動作?
+- 是否落在對的 goal level?
+
+**Stage 2 結束時**:你拿到的是 functional requirements 的第二層精度。**這階段相對容易**(順利的故事容易講),下面 Stage 3-4 才是真的累。
+
+### Stage 3:Failure Conditions 列舉
+
+**做什麼**:對 Stage 2 完成的 main scenario,**腦力激盪所有可能出錯的條件**。**只列,不寫處理**。
+
+**產出**:每個 step 的 extension 條件清單(每步可能 1-5 條 failure)。
+
+**寫多久**:一個 use case 30-60 分鐘。
+
+**Review 什麼**:
+- 列得夠全嗎?(每個 step 至少問三遍「如果這步失敗?」)
+- 有沒有跨 step 的 corner case?(同時兩步失敗?順序顛倒?)
+- 列的時候有發現意外嗎?(新 stakeholder?新 goal?新 business rule?)
+
+**為什麼這階段「只列不寫處理」**:CB 觀察 — 一開始就寫處理的人**精力會耗盡在第 5、6 個 failure 的處理上,結果第 10-20 個 failure 根本沒列出來**。先全列完,確保覆蓋,再各自寫處理。**這是分而治之的工程紀律**。
+
+**Stage 3 結束時**:你拿到的是「failure 覆蓋率」的快照。**這階段最常挖出新需求** — 列 failure 的時候 stakeholder 開始打電話、設計師湊到一起決定 corner case 怎麼處理。
+
+### Stage 4:Failure Handling 撰寫
+
+**做什麼**:對 Stage 3 列出的每個 failure,寫系統具體怎麼回應。
+
+**產出**:每個 extension 的處理步驟(回到 main / 走 alternate exit / 失敗終止)。
+
+**寫多久**:一個 use case 1-4 小時(極複雜的可能 1-2 天)。
+
+**Review 什麼**:
+- 處理動作真的能保住 stakeholder 利益嗎?
+- 處理動作會不會引發新 failure?(處理 A 失敗的副作用變 B 失敗)
+- 系統真有能力做這個處理嗎?(技術可行性)
+
+**Stage 4 結束時**:你拿到的是 fully-dressed 形式的 use case。**這階段最累、最常 surprise**(冷僻 business rule 突然浮上來、新 actor / 新 goal 出現)。CB 的話:「This is often tricky, tiring and surprising work.」
+
+---
+
+## §3 EOV 真實案例:走完四階段
+
+把上面方法論套到 EOV「玩家完成第一章」這個 user-goal,本小姐示範實際走法:
+
+### Stage 1 走完:Actors & Goals
+
+```
+EOV 第一章相關 user-goal list:
+  1. 玩家完成第一章故事 (Tutorial 性質)
+  2. 玩家打贏第一章 mini-boss
+  3. 玩家解鎖第一張新卡
+  4. 玩家學會基本戰鬥機制
+  5. 玩家設定戰鬥難度 (新手選項)
+  6. 玩家中途存檔退出
+  7. 玩家觀看第一章開場 cutscene
+  8. 玩家跳過 cutscene (老玩家二週目)
+```
+
+8 條,**沒寫任何 use case 內文**。
+
+Review:
+- PM 看清單:「3 解鎖新卡跟 4 學會戰鬥綁在一起好不好?(避免 tutorial 跟 unlock 分離)」 → 設計師決定改成「4 學會戰鬥時順便解鎖第一張新卡」,**3 跟 4 合併**
+- QA:「6 中途存檔退出 — 退出後重進是從第一章開頭還是上次節點?」 → 業務問題浮上來,Tim 拍板「上次節點」
+- 設計師:「7+8 cutscene 看 / 跳能不能合成同一個 use case 用 extension 處理?」 → 同意,**7+8 合併**
+
+**Stage 1 結束清單**:8 條收斂到 5 條(1+2+4合3+5+6+7合8)。沒寫一個 step,已經調整需求結構。
+
+### Stage 2 走完:Main Scenario Sketch
+
+對 5 條 use case 各寫 brief / casual sketch(一段話或一頁)。範例「玩家完成第一章故事」:
+
+```
+Brief:
+玩家從主菜單選 New Game 開始第一章,看開場 cutscene,進入第一個故事節點,
+聽 NPC 對話,進入第一場戰鬥,打贏後解鎖新卡,看章節結局 cutscene,
+進度 save,回到章節地圖。
+```
+
+Review:
+- 設計師:「step 順序對。但『打贏第一場戰鬥』是不是該獨立 use case?」 → 對的,**這是 ch1 Use Case A 的特殊版本**,先 reference 不展開
+- Tim:「結局 cutscene 在哪個時機 save?」 → 業務問題,**留 open issue 給 Stage 3 處理**
+
+**Stage 2 結束**:5 個 brief 寫完,review 過,方向確認對。
+
+### Stage 3 走完:Failure Conditions 列舉
+
+對「玩家完成第一章故事」brief 的每步,列 failure(只列不寫處理):
+
+```
+step 1 玩家選 New Game:
+  - 已有舊存檔 → ???
+  - 玩家手滑點到 (希望取消) → ???
+
+step 2 看開場 cutscene:
+  - 玩家想跳 cutscene (老玩家二週目) → ???  ← 這跟 use case 8 合併過
+  - cutscene 載入失敗 → ???
+  - cutscene 播放中 app 失焦 → ???
+
+step 3 進入第一個故事節點:
+  - 對話 dialogue 資料載入失敗 → ???
+  - 玩家想跳對話 → ???
+
+step 4 進入第一場戰鬥:
+  - 戰鬥場景載入失敗 → ???
+  - 玩家戰鬥失敗 → ???    ← 引發新 use case「戰鬥失敗重試」
+  - 玩家戰鬥中關 app → ???
+
+step 5 打贏後解鎖新卡:
+  - 已擁有該卡 (理論上不可能但要 guard) → ???
+
+step 6 看章節結局 cutscene:
+  - 同 step 2
+
+step 7 進度 save:
+  - save 寫入失敗 → ???    ← 業務問題
+  - cloud save 同步失敗 → ???
+
+step 8 回章節地圖:
+  - 章節地圖載入失敗 → ???
+```
+
+**Stage 3 結束**:15 條 failure 條件列出來,**全部 ??? 沒寫處理**。
+
+**這時開的會議**最有價值 — 設計師、Tim、QA、後端工程師全部被叫進來,大家盯著這 15 個 ??? 一條條決定。**Open issues 浮出來**:
+- 「已有舊存檔該不該 prompt overwrite?」(設計師決定:是,保護玩家進度)
+- 「玩家戰鬥失敗回哪?」(設計師決定:回戰前場景,可重試)
+- 「Cloud save 同步失敗算 OK 還是 retry?」(後端工程師決定:retry 3 次,失敗存 local)
+
+**Stage 3 最大價值**:這些決定本來該在 spec 階段做的,卻 95% 的團隊把這些決定 defer 到 coding 時讓 dev 現場猜。**用 Stage 3 強制提前**。
+
+### Stage 4 走完:Failure Handling 撰寫
+
+對 Stage 3 列出的 15 條 failure,每條寫 1-3 step 的處理。最累的階段,本小姐略過範例(看 ch1 Use Case A 的 extensions 區段就是 Stage 4 完成品)。
+
+**Stage 4 結束**:fully-dressed use case 完成。
+
+---
+
+## §4 為什麼順序這麼重要
+
+CB 強烈建議按 Stage 1 → 2 → 3 → 4 順序進行。本小姐補三個論證:
+
+**1. 提早抓 accuracy 錯誤,避免高 precision 白工**
+Stage 1 的方向錯,你寫到 Stage 4 全部白費。回到 §1 的 precision ≠ accuracy 原則。
+
+**2. 並行化機會在早期最高**
+Stage 1 結束你有 50 條 user-goal,可以分 5 個 team 各拿 10 條走 Stage 2-4 — 並行度 5x。如果一開始就直接 Stage 4(fully-dressed),一條一條寫,並行度 = 1。
+
+**3. 心理能量分配**
+Stage 4(failure handling)最累、最 surprise。如果你前面 Stage 1-3 沒分階段 review,心理上會覺得「一個 use case 就要 8 小時」,看 50 個的時候大概率 burn out 放棄。**分階段讓每階段有結束感**,撐得下去。
+
+---
+
+## §5 本小姐招供:Prototype 階段強寫 fully-dressed = 跳到 Stage 4
+
+招供時間。
+
+ch7 (現在的舊 ch6,renumbered) 本小姐已經招供過 — EOV 早期 prototype 階段強寫 fully-dressed 模板,15 個 use case ✕ 完整模板 = 3 週還沒寫一行 code。**那次的本質錯誤就是跳階段** — 沒走 Stage 1 對齊 / Stage 2 sketch,直接衝 Stage 4 寫處理。
+
+當時如果按 CB §1.5 走:
+- **Stage 1 半天**:列 15 個 user-goal,review 後砍到 8 個核心、7 個 v2 再說
+- **Stage 2 一天**:8 個核心各寫 brief 一段話,review 後 confirm 方向 — prototype 動工
+- **Stage 3-4 略過**:prototype 階段不需要,等 MVP 再升
+
+**這樣總工時 1.5 天,得到的東西足夠 prototype 動工。本小姐當時花 3 週寫到 Stage 4 — 那是給 ship 階段的 ceremony,不是 prototype 該做的事**。
+
+**錯誤本質**:把「分階段策略」當成「一次性深度」。
+
+跟 ch7 三種寫法的 ceremony 選擇對應 — **Stage 1-2 = brief/casual ceremony 適用,Stage 3-4 = fully-dressed ceremony 才用**。兩個觀念是一體兩面。
+
+---
+
+## §6 給讀者的雕琢動作
+
+兩步驟,跟 CB 四階段對應:
+
+**動作 1:對所有 use case 強迫先跑 Stage 1**
+- 列出你專案所有 user-goal 清單 (5-50 條)
+- **不要寫內文**,只列 actor 跟 goal
+- 拉 PM、QA、設計師一起 review 這份清單
+- 收斂後再進 Stage 2
+
+**動作 2:對選定的 use case 走 Stage 3 但不寫處理**
+- 對 5 個最核心的 use case,寫 Stage 2 sketch
+- 然後**強迫自己只列 Stage 3 failure conditions** — 列 10-20 條 ??? 不寫處理
+- 開會把這 10-20 個 ??? 跟 stakeholder 一條條過
+- 過完才進 Stage 4
+
+做完這兩動作,**你的 use case 寫作工時會降 40-60%(因為避免在錯方向上深寫),同時挖出來的需求問題反而多出 2-3 倍**。這就是 CB 教的「省力」 — 不是寫少,是寫對。
+
+---
+
+### 📖 CB 怎麼說
+
+對應原書:**§1.5「Manage Your Energy」**
+
+CB 在 §1.5 直接給出四階段精度方法論,本章本小姐忠實對應四階段的核心邏輯,並用 EOV 真實案例(玩家完成第一章)走完一遍實作。
+
+原書還會深入:
+- **stage 之間的 review 流程**(誰參與?多長?產出格式?)— 本小姐這章只略提,留到 ch10「寫作工作坊」深化
+- **多 use case 並行的協調**(每個 use case 進到不同 stage,怎麼追蹤?)— 留到 ch9「連結 use cases 與拆分 scope」
+- **何時該 backtrack** — 某 stage review 發現前一 stage 方向錯,怎麼回退而不丟工時 — CB 有具體建議,本小姐留到 ch10
+
+想看 CB 完整四階段論述請 ISBN 0-201-70225-8 §1.5。
+
+### 💡 本小姐怎麼補
+
+CB §1.5 寫的是企業軟體開發節奏。在 **agent 系統 + game dev** 場景,本小姐補三層:
+
+1. **agent 系統有 Stage 0**:**SuD / persona scope 確認**。CB 假設讀者已對齊 SuD,但我們團隊跨 agent 跨 persona 寫 use case 時,**Stage 0 = 對齊「這個 use case 哪個 SuD、哪個 actor 視角」**。沒走 Stage 0,後面 Stage 1-4 各自寫各自的 SuD = 永遠對不齊(回顧 ch6 演員與 SuD)
+
+2. **跨 wake 的四階段不能跳階段**:傳統企業軟體一個 PM 連續做四階段,記憶連續。**agent 系統可能 Stage 1 是 basecamp wake#36 寫的、Stage 4 是 wake#40 接手** — **過去的自己跟未來的自己之間透過 letter / baton 傳遞 stage 結果**,中間斷一階段就漏需求
+
+3. **AI agent 自動化 use case 容易卡 Stage 4**:reaction handling 太複雜 — 例如「QA agent 在戰鬥中遇到沒見過的 popup」這個 failure 的處理,涉及 vision-language model 判斷 + Cmd 動作組合,**精確處理寫不出來時,合法的選項是 Open Issues「目前 fallback 走 Cmd_Confirm + 人工 review」**
+
+**本小姐的精力補丁**:寫 agent 系統 use case 走四階段,**Stage 0 SuD 確認 + 每 Stage 之間 baton 傳遞 + Stage 4 卡關時 admit 走 Open Issues** — 三條缺一不可。CB 那年代沒有跨 wake / 跨 agent 場景,但他的「分階段省力」哲學依然 work,只是 stage 數要從 4 擴到 5(加 Stage 0)。
+
+---
+
+下一章預告:**ch6「演員與 SuD:邊界決定一切」** — Use case 的核心觀念之一是 **System under Discussion**(SuD,正在討論的系統)。**SuD 邊界劃在哪,寫出來的 use case 完全不同**。把 EOV 戰鬥引擎當 SuD vs 把整個遊戲當 SuD vs 把 agent RPC 當 SuD,寫出來像三本不同的書。本小姐用 EOV + agent 系統雙視角拆給你看,讓你下次寫 use case 第一步不再卡在「我到底在寫什麼系統」。

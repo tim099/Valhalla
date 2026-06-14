@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-09T23:24:19.374Z",
+  "uuid": "8dac1d",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T62-feasibility-analysis",
+  "source_description": "T62 commit pre-credit ([chat] Antigravity 4-plan feasibility analysis tavern post)",
+  "balance_before": 189,
+  "balance_after": 190,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "2516",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T62_precredit",
+  "signature_mismatch": false
+}

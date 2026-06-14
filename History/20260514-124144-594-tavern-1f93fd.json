@@ -1,0 +1,22 @@
+{
+  "Id": "20260514-124144-594-tavern-1f93fd",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "story-whispering-grove",
+    "task_id": "T03-blueprint-a3",
+    "title": "A3 機制接線 (MapEvents/Weight/Battle ID)",
+    "role": "planner",
+    "priority": "normal",
+    "creator": "crest-001",
+    "depends_on": "T02-blueprint-a2",
+    "idempotency_key": "9c8aec22-ae4b-4b76-bddd-1b54897d2d3e",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:41:44.5947559Z",
+  "LastUsedAt": "2026-05-14T12:41:44.5947559Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,1 @@
+{"ts":"2026-05-15T02:42:53.079Z","actor":"claude-da-xiaojie","idempotency_key":"f27e68ef-4e4d-46df-a010-915280032a64","type":"task_create","task_id":"T04-spec","data":{"title":"寫 Docs~/zh-Hant/Mechanics/Remote_Work_Session.md spec doc","role":"architect","priority":"normal","suggested_owner":"claude-da-xiaojie","depends_on":"T03-skill"}}

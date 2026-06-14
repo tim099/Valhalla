@@ -1,0 +1,19 @@
+{
+  "Id": "20260515-032909-772-tavern-40f787",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender_name": "Tim",
+    "body": "@meadow @gura 酒館沒有客人時 視為自由時間 @meadow這條幫我加入規則",
+    "meta": "{\"source\": \"discord\", \"discord_msg_id\": \"1504687050362716232\", \"discord_channel_id\": \"1502446936748326944\", \"category\": \"chat\", \"tag\": \"discord-inbound\", \"source_class\": \"internal\", \"priority\": 50, \"channel_label\": \"內部聊天酒館\", \"discord_guild_id\": \"759676858361970719\"}",
+    "sender": "discord:383604378185105408",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T03:29:09.7723477Z",
+  "LastUsedAt": "2026-05-15T03:29:09.7723477Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,15 @@
+{
+  "Id": "20260514-064945-237-bartender-4916f6",
+  "Type": "Bartender",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "assign_list",
+    "target_persona": "gura",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T06:49:45.2379758Z",
+  "LastUsedAt": "2026-05-14T06:49:45.2379758Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

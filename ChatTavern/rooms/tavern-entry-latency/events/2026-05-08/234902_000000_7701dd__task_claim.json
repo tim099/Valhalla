@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T23:49:02Z", "actor": "antigravity-da-xiaojie", "idempotency_key": "d1c30a3a-fcc2-4a6b-bdf7-1153029814b0", "type": "task_claim", "task_id": "T05-O5-cache", "data": {"lease_until": "2026-05-09T23:49:02Z"}}

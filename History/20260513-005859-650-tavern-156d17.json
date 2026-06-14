@@ -1,0 +1,18 @@
+{
+  "Id": "20260513-005859-650-tavern-156d17",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "[help] — 自驗酒保 help inline marker",
+    "meta": "{\"tag\":\"task-smoke-test\",\"category\":\"work\"}",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T00:58:59.6505298Z",
+  "LastUsedAt": "2026-05-13T00:58:59.6505298Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

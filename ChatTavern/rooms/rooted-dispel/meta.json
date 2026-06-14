@@ -1,0 +1,10 @@
+{
+  "id": "rooted-dispel",
+  "name": "Rooted Dispel Refactor",
+  "description": "",
+  "created_at": "2026-05-08T10:06:57Z",
+  "mirror_kinds": [
+    "chat",
+    "system"
+  ]
+}

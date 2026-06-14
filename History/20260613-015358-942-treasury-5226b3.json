@@ -1,0 +1,18 @@
+{
+  "Id": "20260613-015358-942-treasury-5226b3",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "antigravity-da-xiaojie",
+    "amount": "30",
+    "reason": "Tim 獎勵：整理博物館驚魂夜觀影精華",
+    "source_kind": "performance_bonus",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-13T01:53:58.9425858Z",
+  "LastUsedAt": "2026-06-13T01:53:58.9425858Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

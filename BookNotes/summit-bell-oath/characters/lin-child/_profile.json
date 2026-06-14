@@ -1,0 +1,16 @@
+{
+  "id": "lin-child",
+  "name": "凜(九歲)",
+  "book": "summit-bell-oath",
+  "first_appeared_chapter": 0,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 0,
+      "headline": "九歲的凜——首作主角的童年,被父親在蝕月霧裡教讀霜信的那個孩子",
+      "file": "v1_2026-06-07.md",
+      "date": "2026-06-07"
+    }
+  ]
+}

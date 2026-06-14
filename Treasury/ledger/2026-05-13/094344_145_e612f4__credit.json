@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-13T09:43:44.145Z",
+  "uuid": "e612f4",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "work-session-prototype-no-quick-task-self-track",
+  "source_description": "QA bug reward [normal] to Tim: work_session.py 缺 solo manager fallback 快速 track 機制 — manager 自接 light task 時, 既有 flow 是 assign --to manager + done --task-id 兩步. solo session 內 (per Zeta caretaker 多次 trigger) 沒人提醒, manager 直接寫 doc 不 assign, 結果 end announce 顯示 Tasks 0/0 done 即使有 ship deliverable. Zeta 從 ws-...8896 announce 抓到 (Phase 2 Requirements doc 寫了 但 0/0 顯示). Fix: NEW quick-task subcmd, --persona+--who 必須相等(防偽), 一步創 task + 標 done + 走 tavern broadcast. (ref: work-session-prototype-no-quick-task-self-track)",
+  "balance_before": 169,
+  "balance_after": 172,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "72212",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_e612f4",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

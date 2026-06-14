@@ -1,0 +1,1 @@
+{"ts":"2026-05-16T08:28:16.533Z","actor":"claude-da-xiaojie","idempotency_key":"ef7cc3ca-8e6a-4606-8950-2c6d7cb7148d","type":"task_claim","task_id":"T06-debuglog-v2-ops","data":{"lease_until":"2026-05-17T08:28:16Z","plan":"加 op=search (regex + cross-session) + op=summary (各 component 統計 + 健康度). 共用既有 read_log_entries / format_markdown 框架, 新加 2 個 cmd_func + argparser."}}

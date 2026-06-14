@@ -1,0 +1,17 @@
+{
+  "Id": "20260524-124037-119-validateassetformat-418f69",
+  "Type": "ValidateAssetFormat",
+  "Mode": "OneShot",
+  "Args": {
+    "assetType": "RCG_EquipmentData",
+    "assetId": "SmithysCollar",
+    "checkRefs": "1",
+    "outputPath": "CardGame/AgentCommands/asset_format_check_RCG_EquipmentData_SmithysCollar.md",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-24T12:40:37.1197469Z",
+  "LastUsedAt": "2026-05-24T12:40:37.1197469Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

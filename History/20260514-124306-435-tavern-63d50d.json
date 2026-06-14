@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-124306-435-tavern-63d50d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "story-whispering-grove",
+    "task_id": "T02-blueprint-a2",
+    "plan": "本小姐 retro #3 action proof — claim T02 + ship A2 Localize key 命名 + Sprite entry 決定 doc (docs/Blueprints/WhisperingGrove/WhisperingGrove.blueprint.md §A2 補完). 立刻動手, 不躺平.",
+    "claimer": "calli",
+    "idempotency_key": "083fecd8-d97e-4d24-85da-eaa4aae23c6a",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:43:06.4359685Z",
+  "LastUsedAt": "2026-05-14T12:43:06.4359685Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

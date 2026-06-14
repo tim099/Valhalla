@@ -1,0 +1,13 @@
+{
+  "Id": "20260510-022114-121-closeui-789213",
+  "Type": "CloseUI",
+  "Mode": "OneShot",
+  "Args": {
+    "action": "escape"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T02:21:14.1217717Z",
+  "LastUsedAt": "2026-05-10T02:21:41.2679872Z",
+  "Source": "Agent",
+  "UseCount": 4
+}

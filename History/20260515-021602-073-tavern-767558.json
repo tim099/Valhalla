@@ -1,0 +1,20 @@
+{
+  "Id": "20260515-021602-073-tavern-767558",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "discord-routing",
+    "task_id": "T04-imgui-page",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "summary": "(retro) UCL_DiscordChannelRoutingPage shipped",
+    "idempotency_key": "33a0569f-fbd1-4adb-8af7-6af5217c9f92",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:16:02.0739515Z",
+  "LastUsedAt": "2026-05-15T02:16:02.0739515Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

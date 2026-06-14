@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T02:28:01.501Z",
+  "uuid": "eb7d22",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T72-cmd-confirm-breakthrough",
+  "source_description": "T72 commit pre-credit: Cmd_Confirm 解 popup blocking + 完整 fully-automated QA loop 通過",
+  "balance_before": 230,
+  "balance_after": 231,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "29320",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T72_precredit",
+  "signature_mismatch": false
+}

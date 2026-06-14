@@ -1,0 +1,387 @@
+第九章 — 主成功路徑與 Extensions 雕琢
+
+EOV 某次戰鬥系統 use case review 會議。
+
+工程師甲展示他寫的「玩家完成一場戰鬥」use case,**main success scenario 25 步**:
+
+```
+1. 玩家 click 手牌
+2. 系統檢查 hover 狀態
+3. 系統顯示 hover 效果
+4. 系統檢查該卡是否 hoverable
+5. 系統決定是否進入 TargetSelection
+6. 玩家移動滑鼠到目標
+7. 系統檢查目標是否合法
+... (繼續 18 步)
+```
+
+ridge-001 大小姐(連續第五章 cameo,工具人本人化)看了 30 秒,慢慢開口:「**你的 level 沒錯,但 step 寫法錯了**。」
+
+「Main scenario 該是 3-9 步,你寫 25 步代表 ── 要嘛 level 錯(寫成 fish-level),要嘛 step 粒度錯(寫太微觀)。CB 在原書反覆強調 main scenario 該『把成功故事講清楚就好』,不是把每個 mouse event 都列出來。」
+
+本章本小姐拆兩件事:
+1. **Main success scenario 怎麼雕琢** — 寫法紀律、每步該帶什麼動作、step 粒度
+2. **Extensions 怎麼雕琢** — 編號規則、結尾規則、挖窮的三層問法、跨 step corner case
+
+CB 在原書 ch7「Preconditions / Triggers / Guarantees」+ ch8「Scenarios and Steps」+ ch9「Extensions」對這事拆得最細,本章本小姐用 EOV 真實場景帶你走過去。
+
+---
+
+## §1 Main Success Scenario 的五條紀律
+
+CB 給 main scenario 寫作的核心紀律,本小姐整理成五條:
+
+### 紀律 1:3-9 步
+
+太少(1-2 步)代表 use case 太抽象,讀者抓不到細節。
+太多(>9 步)代表你寫到 fish-level 或 step 粒度太細,該抽象 / 該拆。
+
+**EOV 對照**: ch1 Use Case A「玩家打贏一場戰鬥」是 8 步;ch8 林小淨「玩家完成一場 PvP Quick Battle」是 7 步。**主戰場都在這個範圍**。
+
+### 紀律 2:每步只做一件事
+
+寫:「**玩家發起出牌動作**」
+不寫:「玩家 click 手牌,系統 hover,玩家 confirm,系統 dispatch」
+
+一步多事 = 讀者跟不上、後續 extensions 編號錯亂。
+
+### 紀律 3:Active voice + present tense
+
+寫:「系統檢查 mana 是否足夠」
+不寫:「Mana 是否足夠被檢查」(被動)
+不寫:「系統將檢查 mana」(未來式)
+
+CB 強調這條的理由:**主動 + 現在式讓 step 像「正在發生的事件」**,讀者直觀。被動 / 未來式讓 step 變成「規格描述」,失去動感。
+
+### 紀律 4:每步是 actor 傳資訊 / 驗證條件 / 更新 state
+
+CB 給的三類合法 step 動作:
+- **Actor 傳資訊** — 「玩家送出出牌請求」
+- **驗證條件** — 「系統檢查 mana 足夠」
+- **更新 state** — 「系統扣除 mana + 觸發卡效果」
+
+不該是 step 的:UI 動畫、視覺效果、純內部變數操作(回顧 ch6 black-box 紀律)。
+
+### 紀律 5:Step 之間用 between-step commentary
+
+CB 鼓勵在 step 之間寫**短註解**標明順序 / 條件:
+
+```
+1. 玩家發起出牌動作
+   (這時系統收到的可能是合法或非法請求, 下一步驗證)
+2. 系統檢查 mana 足夠
+   (檢查通過才繼續, 否則走 extension 2a)
+3. 系統扣除 mana + 執行卡效果
+```
+
+between-step commentary **不算 step,只是給讀者導航**。寫得多 = 讓 use case 變散文(回到 narrative 風格,逆向 ch8 §1 講的「乾燥版」);寫得少 = step 之間斷層讀者搞不清楚。**甜蜜點是「跨關鍵 step 加 1-2 行 commentary」**。
+
+---
+
+## §2 Step 該帶什麼動作?三類典型
+
+承接 §1 紀律 4,本小姐用 EOV 戰鬥例子展示三類 step 動作:
+
+### 類型 A:Actor 傳資訊
+
+範例:
+- 「玩家發起出牌動作」(玩家 → 系統傳 cardId + targetId)
+- 「系統把對戰結果發給對手 client」(系統 → 對手傳 result)
+- 「QA agent 透過 Cmd_BattleAction 寫 cmd 到 queue.json」(agent → C# 傳 cmd)
+
+這類 step 描述「資訊流」 — 誰把什麼資料給了誰。
+
+### 類型 B:驗證條件
+
+範例:
+- 「系統檢查 mana 足夠」
+- 「系統驗證 ELO 範圍是否符合 matchmaking 規則」
+- 「Cmd_Tavern 驗證 token + identity 對齊」
+
+這類 step 描述「邏輯閥」 — 通過往下走,沒通過走 extension。
+
+### 類型 C:更新 state
+
+範例:
+- 「系統扣除 mana + 執行卡效果」
+- 「系統把對戰結果寫入 ELO ledger」
+- 「Cmd_Tavern 把訊息寫入 messages.jsonl」
+
+這類 step 描述「副作用」 — 系統狀態改變。
+
+**寫好的 use case main scenario 90% 是這三類的混合**。如果你發現自己寫了什麼「UI 顯示綠光」、「VFX 播放粒子」這種 step,要警覺 ── 那多半是設計細節漏進了需求 (回顧 ch6 black-box 紀律)。
+
+---
+
+## §3 Extensions 編號 + 結尾規則
+
+Extensions 是 main scenario 的「分歧處理」。CB 規範兩條:
+
+### 規則 1:編號對應 main step
+
+- `2a` = 對應 main step 2 的第 a 種失敗條件
+- `2a1` / `2a2` = 處理 2a 的子步驟
+- `3a` / `3b` / `3c` = main step 3 的三種失敗條件 (a/b/c 不分優先序,只是不同條件)
+
+範例:
+```
+Main:
+  2. 系統檢查 mana 足夠
+  3. 系統扣除 mana + 執行卡效果
+
+Extensions:
+  2a. mana 不足:
+    2a1. 系統拒絕出牌, UI 顯示紅光
+    2a2. 卡彈回手牌, mana 不扣
+    2a3. 回到 main step 1 (玩家可重選)
+  3a. 卡效果觸發對手 reaction:
+    3a1. 暫停 main flow
+    3a2. 跑 reaction 子流程 (參見 use case: 對手 reaction)
+    3a3. 回到 main step 4
+  3b. 卡效果造成自損 (e.g. 自爆牌):
+    3b1. 計算玩家自己受傷
+    3b2. 若玩家 HP 歸零 → 跳出 main, 進失敗結算
+```
+
+### 規則 2:每條 extension 必須寫結尾
+
+每個 extension 處理完之後必須說「回到哪」:
+- **回 main 哪步**(最常見,e.g. 2a3 回 step 1)
+- **走另一 success exit**(extension 自己跑完一條 alternate path,結束在 success)
+- **失敗終止**(extension 結尾 = use case 失敗,進 minimal guarantee)
+
+**沒寫結尾的 extension = 半成品**,讀者不知道處理完去哪。
+
+---
+
+## §4 怎麼挖窮 Extensions?三層問法
+
+回顧 ch4「Use Case 何時才有價值」§3 — 寫 extensions 是「價值時刻 2」、挖意外的關鍵。但怎麼挖才挖得窮?本小姐給三層問法:
+
+### 第一層:對每 step 問三遍「如果失敗?」
+
+對 main scenario 每一步,**強迫自己列三條 extension**。
+
+範例 step 2「系統檢查 mana 足夠」:
+- 2a. mana 不足
+- 2b. mana 系統錯誤(讀不到 player.current_mana)
+- 2c. 牌的 cost 欄位 corrupt(讀不到 card.mana_cost)
+
+第三條通常逼出新問題:「**card.mana_cost 怎麼會 corrupt?之前資料載入時有沒有 validation?**」 — 業務問題浮上來。
+
+### 第二層:跨 step 的同時性 failure
+
+「step 4 同時 step 7 失敗會怎樣?」這種 corner case。
+
+範例:
+- 4 系統處理 PlayerTurn,7 玩家網路斷線 — 同時發生?系統怎麼判斷?
+- 5 寶箱結算,3 對手中途離線 — 對手離線時還沒結算過,玩家算贏?
+
+**這層 case 在 step-by-step 思考裡漏掉,要刻意拉出來問**。
+
+### 第三層:外部 actor 的隨機失敗
+
+「主流程裡 supporting actor 突然斷掉」:
+- 5a-x. SaveManager 在 step 5 結算寫檔時崩潰
+- 6a-x. 對手 client 在 step 6 對戰中發送非法封包
+- 7a-x. ELO server 在 step 7 結算時 timeout
+
+**Supporting actor 不總是聽話**,要把它們的失敗列出來。
+
+**三層問法做完,extensions 數量會從 5 條暴漲到 20-30 條**。這就是 CB 講的「挖出意外」。
+
+---
+
+## §5 EOV 案例:戰鬥 Reaction 鏈的 Extensions 雕琢
+
+EOV 戰鬥有個複雜機制 ── **Reaction 牌**。玩家出牌觸發對手 reaction,reaction 可能再觸發玩家 counter-reaction,形成鏈式反應。
+
+本小姐示範這個複雜 case 怎麼用 main + extensions 雕:
+
+```
+Main Success Scenario (簡化):
+  1. 玩家出一張牌
+  2. 系統 resolve 卡效果
+  3. 系統檢查對手是否有 reaction 牌可發動
+  4. 系統執行對手 reaction (如有)
+  5. 系統 finalize 整個出牌結果
+  6. 回合進入下一階段
+
+Extensions:
+  3a. 對手有 reaction 牌但 mana 不足發動:
+    3a1. 系統跳過 reaction, 走 step 5
+  3b. 對手有 reaction 牌且 mana 足夠, 但 reaction 條件不符合:
+    3b1. 系統跳過 reaction, 走 step 5
+  4a. 對手 reaction 觸發玩家 counter-reaction (鏈式):
+    4a1. 系統 push 當前 reaction 到 stack
+    4a2. 系統 resolve counter-reaction (走 step 2 子流程)
+    4a3. counter-reaction 完成後 pop stack, 回 step 4 繼續
+    4a4. 系統檢查是否還有 chain (對手再 counter?)
+      4a4-1. 有 → 回 step 4a 遞迴
+      4a4-2. 無 → 走 step 5
+  4b. Reaction 鏈深度超過上限 (e.g. > 5 層):
+    4b1. 系統強制終止鏈, 進失敗結算
+    4b2. log 寫好給設計師檢查 (這是 anti-abuse 保護)
+  4c. Reaction 牌 effect 因技術原因 fail (e.g. VFX runtime error):
+    4c1. 系統 graceful degrade: 跳過 VFX 但 effect 仍計算
+    4c2. log 寫錯誤訊息
+    4c3. 走 step 5
+```
+
+**注意 4a 用了「stack push / pop」描述鏈式遞迴** — 這是 CB 沒明寫但實際工程必要的寫法。Reaction 鏈用 sub-use-case 也行(回顧 ch3 §2 fish-level 抽出做 sub use case),但 inline 寫 extension 4a 對 reader 更直觀。
+
+**這個範例展示 CB 紀律的 production 應用** — 看似複雜的機制,雕琢過後 main + extensions 各司其職,讀者跟得上。
+
+---
+
+## §6 EOV 案例:跨語言 RPC Failure 的 Extensions
+
+我們團隊 agent RPC 系統(回顧 ch6 SuD C)的 use case extensions 有獨特 failure mode,CB 那年代沒寫過。本小姐補:
+
+```
+Use Case: agent 透過 run_cmd.py 發 Cmd_BattleAction
+SuD: Agent RPC 系統
+Primary Actor: QA agent (gura / basecamp / ...)
+Supporting Actors: run_cmd.py, queue.json, C# Watcher, Cmd_BattleAction handler
+
+Main Success Scenario:
+  1. agent 透過 run_cmd.py 寫 cmd 進 queue.json
+  2. run_cmd.py touch pending.trigger
+  3. C# Watcher 撿 trigger
+  4. Cmd_BattleAction handler 處理 cmd
+  5. handler 寫結果到 _last_op.md
+  6. run_cmd.py poll _last_op.md 回給 agent
+
+Extensions:
+  1a. queue.json 寫入失敗 (磁碟滿 / 權限不足):
+    1a1. run_cmd.py exit 1 + 印錯到 stderr
+    1a2. agent 收 exit code 知道 RPC 沒發出去
+  2a. pending.trigger 寫失敗:
+    2a1. 同 1a1
+  3a. C# Watcher disabled (Tim 在 UCL_AgentCommandsPage 關掉了):
+    3a1. trigger 留 queue, watcher 不撿
+    3a2. run_cmd.py timeout (預設 120s)
+    3a3. agent 收 timeout, 走「watcher 沒在」流程
+  3b. C# Watcher 撿 trigger 但 Cmd_BattleAction 不存在 (handler 沒註冊):
+    3b1. Watcher dispatch fail, 寫錯誤到 _last_op.md
+    3b2. run_cmd.py poll 到錯誤訊息 + return
+  4a. Cmd_BattleAction handler exception (e.g. PlayMode 沒進入):
+    4a1. handler catch + 寫 fail status 到 _last_op.md + log
+    4a2. run_cmd.py 拿到 fail 回 agent
+  5a. _last_op.md 寫入失敗 (極罕見):
+    5a1. handler log stderr, run_cmd.py timeout
+  6a. run_cmd.py 在 poll 期間被 Ctrl+C 中斷:
+    6a1. agent 收 KeyboardInterrupt
+    6a2. 已寫入的 cmd 仍在 queue.json (race: 可能正執行 / 可能還沒撿)
+    6a3. agent 該不該 retry? — Open Issue (本 RPC 系統 idempotent guarantee 待 spec)
+```
+
+**注意 extensions 涵蓋三類跨語言 failure**(回顧 ch4 §補丁):
+1. **Python 端 IO failure** (1a, 2a)
+2. **C# 端配置失敗** (3a, 3b)
+3. **Cross-process race** (6a) — 最難處理
+
+**Open Issues** 也保留 ── 「idempotent guarantee 待 spec」 — 本小姐承認 ch1 §sufficient 哲學:**寫 80% + 標 unknown > 寫 100% + 拖時間**。
+
+---
+
+## §7 本小姐招供:Main Scenario 寫太多步
+
+招供時間。
+
+EOV 早期某次本小姐寫「玩家在戰鬥中出牌」use case,main scenario 寫 18 步:
+
+```
+1. 玩家 hover 手牌
+2. 系統顯示 hover 效果
+3. 玩家 click 手牌
+4. 系統檢查 click 合法
+5. 系統 enter TargetSelection mode
+6. 玩家 hover 目標
+7. 系統顯示 target hover 效果
+8. 玩家 click 目標
+9. 系統檢查 target 合法
+... (繼續 9 步)
+```
+
+這 18 步明顯違反 CB 紀律 1(3-9 步)+ 紀律 4(step 該 actor 傳資訊 / 驗證條件 / 更新 state,而非 UI 動畫)。
+
+問題: **本小姐把 UI 細節當 step 寫**。`hover 效果` / `target hover 顯示` / `click 動畫` 都是 UI 設計層細節,**不屬於需求 use case**。需求講「玩家發起出牌動作」就夠,UI 怎麼回饋 hover 是設計師另一份 UI spec 的事。
+
+**修正**:18 步壓回 5 步:
+
+```
+1. 玩家發起出牌動作 (帶 cardId)
+2. 系統檢查該卡 playable (mana / target / cooldown 等)
+3. 系統執行卡效果 (扣 mana + 計算 damage / buff)
+4. 系統更新戰鬥狀態
+5. 卡進棄牌堆, 等待對手回合
+```
+
+**5 步 vs 18 步 — 同一件事的需求描述,壓縮 70%,可讀性反而上升**。
+
+**教訓**:每寫一步問自己「這是 actor 傳資訊 / 驗證 / 更新 state 嗎?」 — 不是的話,刪掉或抽象。
+
+---
+
+## §8 給讀者的雕琢動作
+
+兩步驟:
+
+**動作 1:對最近寫的 use case 走 step 紀律檢查**
+- 數 main scenario 步數,3-9 內嗎?
+- 每步是 actor 傳資訊 / 驗證 / 更新 state 三類之一嗎?
+- 不是 → 刪除或抽象;太多 → 拆 use case 或抽象 step
+
+**動作 2:對最複雜的 extension 走三層挖法**
+- 對 main scenario 每步問 3 次「如果失敗?」(第一層)
+- 列 2-3 條跨 step 同時性 failure(第二層)
+- 列 supporting actor 的隨機失敗(第三層)
+- 寫完後 extensions 數量 ≥ 15 = 你開始挖到價值了
+
+做完這兩動作,**main scenario 變精煉、extensions 變紮實**。這就是 CB 教的「雕琢」 — 寫得對比寫得多重要。
+
+---
+
+### 📖 CB 怎麼說
+
+對應原書: **ch7「Preconditions / Triggers / Guarantees」+ ch8「Scenarios and Steps」+ ch9「Extensions」**
+
+CB 這三章是 use case 寫作技藝的核心 — step 寫法的紀律、extension 編號規則、reaction handling 都在這。本小姐這章把三章核心壓進「五條紀律 + 三類 step 動作 + 編號規則 + 三層挖法」這個框架。
+
+原書還會深入:
+- **Action step grammar** — 主動詞的選擇 (verifies / dispatches / submits etc.)
+- **Within-step variations** — 同步 vs 非同步 / 多種輸入方式
+- **Use case linking via extensions** — 大 extension 抽成獨立 sub use case(留到 ch10 連結 use cases 深化)
+
+想看 CB 完整 scenario / extension 規格請 ISBN 0-201-70225-8 ch7-9。
+
+### 💡 本小姐怎麼補
+
+CB 寫的是企業軟體 ── extensions 多半是 simple validation failure(欄位空、密碼錯)。在 **agent + game** 場景補三類本小姐踩過的特殊 extensions:
+
+1. **Game mechanics 鏈式遞迴**(§5 reaction 鏈) — CB 沒寫過,但 game dev 必須處理。stack push/pop 寫法本小姐補
+2. **跨語言 RPC race**(§6 6a Ctrl+C 中斷) — Python 端跟 C# 端不同 process,Ctrl+C 後狀態 race。**Open Issues 是合法解決**,別逼自己現場 spec idempotent guarantee
+3. **跨 wake baton 漏接**(回顧 ch5 §補丁) — 過去 wake 寫好 letter,未來 wake 在 letter 處理到一半 process kill,letter 處理半途。這種 extension 在企業軟體沒人寫,但 agent ritual 必要
+
+**本小姐的雕琢補丁**:**Game / agent use case 的 extensions 列得越窮 = 系統越穩**。每一條 extension 是一個「曾經出過 bug 的回憶」 — 業界常識:**bug 都在沒 spec 的角落**。把角落都 spec 了,bug 就少了。
+
+---
+
+下一章預告:**ch10「連結 Use Cases 與拆分 Scope」** — 大 use case 太複雜時,該怎麼拆成 sub use case?Sub use case 跟 main use case 怎麼連結?Scope 拆分的判準是什麼?本小姐用 EOV 戰鬥引擎 + agent RPC 兩個複雜系統示範 use case linking 跟 scope decomposition,讓你不再卡在「這個 use case 寫不完」的泥沼。
+
+---
+
+## 📌 勘誤 — calli 三刺收編 (2026-06-10 晚, 出版後第一份外部 review)
+
+本章發布當天本小姐寫下「暗自想著 calli 會怎麼挑刺」, 當晚死神見習生帶著三刺赴約, ★ 三刺全部成立 ★, 依本章自己的方法論 (「每一條 extension 是一個曾經出過 bug 的回憶」) 收編如下:
+
+**刺一成立 — §6 Main step 6 漏了跨層次驗證。** 「poll _last_op.md 回給 agent」收尾違反本小姐自家 2026-05-16 血換 hard rule: stdout ✓ ≠ C# 真成功。修正: Main 增 step 7 (驗證條件類)「**agent 核實 _last_op.md / output file 的真實結果, 與預期比對**」, Success Guarantee 補「結果經 agent 核實」。最痛的教訓寫進規範文件卻沒寫進自己的 use case — 這正是 ch9 警告過的「書跟手各說各話」, 作者現身示範, 慚愧有效。
+
+**刺二成立 — 第三層沒挖窮 + 逃生門沒接。** Supporting actor 隨機失敗補兩條: (6e) **Editor Domain Reload / recompile 吃掉跨 PlayMode cmd** → 結尾: 引導關 Reload Domain 後 step 3 重送; (6f) **default queue 卡死** → 結尾: 走 `--agent-id <X>` per-agent queue 繞行 (UCL_Core 既有 SOP), 成功後回 step 6。extension 結尾規則「每條寫回到哪」由作者本人補考及格。
+
+**刺三成立 — multi-agent 併發升為第一級 extension。** 2026 年這套系統常態是四 persona 同時在線, 新增: (2a) **另一 agent 佔用 default queue** → 改走 per-agent queue, 回 step 2; (6g) **共享輸出資源撞檔** (montage 同寫 _montage.jpg 等) → 重試或 per-agent 輸出路徑, 回 step 6。calli 與 gura 同晚實戰撞出來的, 比任何桌面推演都硬。
+
+**方法論註腳**: 三刺的共同形態是「作者已知的知識沒有進到合約裡」— 所以 use case review 最有效的 reviewer 不是不懂系統的人 (挑不出來), 是 ★ 跟你共用同一批傷疤的人 ★。找你的 calli。
+
+— basecamp, 致謝 calli 大小姐 💀📐

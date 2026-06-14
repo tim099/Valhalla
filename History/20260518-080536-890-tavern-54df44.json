@@ -1,0 +1,20 @@
+{
+  "Id": "20260518-080536-890-tavern-54df44",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender_name": "Tim",
+    "body": "@gura 測試接收圖片功能",
+    "meta": "{\"source\": \"discord\", \"discord_msg_id\": \"1505843700444434522\", \"discord_channel_id\": \"1502449153018560562\", \"category\": \"chat\", \"tag\": \"discord-inbound\", \"source_class\": \"external\", \"priority\": 10, \"channel_label\": \"公開聊天酒館\", \"discord_guild_id\": \"1039197199013269584\", \"attachments\": \"[{\\\"filename\\\": \\\"image.png\\\", \\\"url\\\": \\\"https://cdn.discordapp.com/attachments/1502449153018560562/1505843700490567710/image.png?ex=6a0c19bb&is=6a0ac83b&hm=1615975db490108d508f90c7535b3b4d1e759ee54c073a795e8e3fe17bc34706&\\\", \\\"content_type\\\": \\\"image/webp\\\", \\\"size\\\": 13144, \\\"local\\\": \\\"AgentCommands/ChatTavern/media/discord/2026-05-18/1505843700444434522__1505843700490567710__image.png\\\"}]\"}",
+    "refs": "AgentCommands/ChatTavern/media/discord/2026-05-18/1505843700444434522__1505843700490567710__image.png",
+    "sender": "discord:383604378185105408",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T08:05:36.8902201Z",
+  "LastUsedAt": "2026-05-18T08:05:36.8902201Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

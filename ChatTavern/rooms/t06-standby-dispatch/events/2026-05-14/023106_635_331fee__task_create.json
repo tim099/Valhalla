@@ -1,0 +1,1 @@
+{"ts":"2026-05-14T02:31:06.635Z","actor":"claude-da-xiaojie","idempotency_key":"0dc92c43-03a4-43c9-aa1f-72ddc0a1521b","type":"task_create","task_id":"T06.1","data":{"title":"persona schema 加 availability 欄 (idle/busy/offline enum)","role":"programmer","priority":"high","depends_on":""}}

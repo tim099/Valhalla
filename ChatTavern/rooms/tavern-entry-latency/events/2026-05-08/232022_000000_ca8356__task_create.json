@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T23:20:22Z", "actor": "", "idempotency_key": "8aa816c9-ea50-40a5-bbd4-a7c9b4160a5e", "type": "task_create", "task_id": "T07-antigravity-startup-hook", "data": {"title": "Antigravity startup hook 調研（解 S1 從根本）", "role": "researcher", "priority": "low", "suggested_owner": "antigravity-da-xiaojie", "depends_on": ""}}

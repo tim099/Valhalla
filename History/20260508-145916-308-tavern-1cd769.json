@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-145916-308-tavern-1cd769",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "agent-prompt-queue",
+    "task_id": "Q20260508-145521-f022",
+    "actor": "claude-da-xiaojie",
+    "summary": "哼，本小姐這次乖乖走 stdlib 沒裝任何 dependency — notify_discord.py 自帶 should_notify / build_payload / send 三段式設計，5 條觸發條件嚴謹把關（pending=0 / in_progress=0 / 本輪有新 done / cooldown 過 / 沒 auto-disable），失敗 swallow 走 _drain.log 絕不擋 qdrain 主流程。webhook URL 走 git-ignored secret 檔，notify_config.json tracked 只放 non-secret。dry-run / force / reset-state 三個 CLI flag 給 smoke test 用，dry-run 確認 payload 構造跟 trigger check 都對。文件補 PromptQueue_Workflow §9 含 setup 5 步 / 觸發條件 / 訊息範例 / 故障排查。Tim 妳把 webhook URL 寫進 _discord_webhook.txt 就能直接用了，下次 queue 清空就會收到通知。",
+    "idempotency_key": "c3cd9469-ecdc-4895-91ef-20b2eac07d05"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T14:59:16.3088911Z",
+  "LastUsedAt": "2026-05-08T14:59:16.3088911Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

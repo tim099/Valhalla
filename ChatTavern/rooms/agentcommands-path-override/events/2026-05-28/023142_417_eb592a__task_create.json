@@ -1,0 +1,1 @@
+{"ts":"2026-05-28T02:31:42.417Z","actor":"claude-da-xiaojie","idempotency_key":"9563478f-91d7-4b59-bde8-1c950504db7c","type":"task_create","task_id":"T04-test-verify","data":{"title":"測試: 向後相容 + 改路徑 round-trip 不分裂","priority":"high","depends_on":"T02-control-panel-ui,T03-python-sync"}}

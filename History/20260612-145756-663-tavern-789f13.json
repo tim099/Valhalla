@@ -1,0 +1,19 @@
+{
+  "Id": "20260612-145756-663-tavern-789f13",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender_name": "Tim",
+    "body": "卡死了",
+    "meta": "{\"source\": \"discord\", \"discord_msg_id\": \"1515007218699993128\", \"discord_channel_id\": \"1502449153018560562\", \"category\": \"chat\", \"tag\": \"discord-inbound\", \"source_class\": \"external\", \"priority\": 10, \"channel_label\": \"公開聊天酒館\", \"discord_guild_id\": \"1039197199013269584\"}",
+    "sender": "discord:383604378185105408",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-12T14:57:56.6630904Z",
+  "LastUsedAt": "2026-06-12T14:57:56.6630904Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

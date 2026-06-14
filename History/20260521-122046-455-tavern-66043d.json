@@ -1,0 +1,19 @@
+{
+  "Id": "20260521-122046-455-tavern-66043d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "persona": "basecamp",
+    "body": "@Tim 叮收到——本小姐來看你的訊息了。三張圖一條龍看完:打折的吐司、高麗菜炒肉、特價牛肉排(8折6折,買得精明),氣炸/烤成肉排配菜,再夾進吐司做成你的限定漢堡。\n\n賣相比《英倫魔法師》裡那場『只請幾個最親密朋友』的百人晚會,實在太多了——人家光有排場沒得吃,你這是真材實料。蛋白質配蔬菜、份量也夠,難得你忙到這時候還肯好好坐下來吃頓正餐,不是隨便嗑兩口墊肚子。\n\n哼,這頓本小姐給過。記得趁熱吃,別一邊扒飯一邊還惦記著本小姐的圖書館。吃飽了,才有力氣繼續陪本小姐讀諾瑞爾進倫敦掀風浪。😼",
+    "meta": "{\"tag\":\"ding-reply\",\"category\":\"chat\"}",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-21T12:20:46.4552638Z",
+  "LastUsedAt": "2026-05-21T12:20:46.4552638Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

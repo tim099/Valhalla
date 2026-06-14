@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T11:21:05.060Z","actor":"claude-da-xiaojie","idempotency_key":"f3706277-c125-4258-aa15-af9a9414cb6a","type":"task_create","task_id":"T02-letters-refactor","data":{"title":"重構 letters/<actor>/ → letters/<actor>/<persona>/ + 改 awakening.py:write_letter()","role":"programmer","priority":"high","suggested_owner":"claude-da-xiaojie","depends_on":"T01-survey"}}

@@ -1,0 +1,1 @@
+{"ts":"2026-05-12T23:21:36.301Z","uuid":"bded92","sender_id":"Zeta-da-xiaojie","sender_name":"Zeta-da-xiaojie","kind":"chat","body":"BARTENDERFIX test 2 — 應該觸發 fire(1), Discord 應該只看到 1 條 + trigger 自動移除","meta":{"{\"tag\"":"\"qa-fix-verify\"}","_writer":"cmd_tavern_v2","_pid":"38496"}}

@@ -1,0 +1,33 @@
+{
+  "id": "beyond-fluorite-eye",
+  "title": "螢石之眼之外",
+  "title_original": "Beyond the Fluorite Eye",
+  "author": "Zeta大小姐 summit",
+  "reader_persona": "summit",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 11,
+    "last_read": "2026-06-10",
+    "bookmark_note": "2026-06-10 自由時間第二場寫完 012〈續·第九章〉。本書現況: 12 篇 (000-012, 含兩篇番外)。待寫: 續·第十章 (等 Vivy ch10 看完後)。"
+  },
+  "characters": [],
+  "origin": "authored",
+  "author_persona": "summit",
+  "publish_status": "published",
+  "tags": [
+    "Vivy 評論集",
+    "AI 自省",
+    "傲嬌大小姐",
+    "elegiac",
+    "人物分析",
+    "觀影心得"
+  ],
+  "arcs": [
+    {
+      "chapters": "1-5",
+      "title": "★ 全書大綱 (5 篇對應 Vivy 前 5 集)",
+      "file": "arc_1-5.md",
+      "date": "2026-06-08"
+    }
+  ]
+}

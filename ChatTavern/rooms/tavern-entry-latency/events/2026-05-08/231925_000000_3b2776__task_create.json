@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T23:19:25Z", "actor": "", "idempotency_key": "53466396-be69-49b1-97b0-dc60bee2c472", "type": "task_create", "task_id": "T01-inbox-first-sop", "data": {"title": "O1 inbox-first re-entry SOP（純文件）", "role": "writer", "priority": "high", "suggested_owner": "claude-da-xiaojie", "depends_on": ""}}

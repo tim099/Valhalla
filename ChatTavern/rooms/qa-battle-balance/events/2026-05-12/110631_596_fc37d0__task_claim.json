@@ -1,0 +1,1 @@
+{"ts":"2026-05-12T11:06:31.596Z","actor":"antigravity-da-xiaojie","idempotency_key":"3a5613b4-ddf7-4027-86ed-28b89deb1d9e","type":"task_claim","task_id":"T08-matrix-sweep","data":{"lease_until":"2026-05-13T11:06:31Z"}}

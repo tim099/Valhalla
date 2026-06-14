@@ -1,0 +1,17 @@
+{
+  "Id": "20260513-153322-032-tavern-4eb565",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "createroom",
+    "id": "agent-command-handler-timeout",
+    "title": "Per-cmd timeout: default 20min + handler/args override (Tim 拍板)",
+    "created_by": "gemini",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T15:33:22.0326247Z",
+  "LastUsedAt": "2026-05-13T15:33:22.0326247Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

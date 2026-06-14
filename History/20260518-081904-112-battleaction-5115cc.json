@@ -1,0 +1,18 @@
+{
+  "Id": "20260518-081904-112-battleaction-5115cc",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "2",
+    "target_id": "3",
+    "caller": "claude-da-xiaojie",
+    "intent": "衝擊波 chant — T6 fire 12 AOE finish",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T08:19:04.1123708Z",
+  "LastUsedAt": "2026-05-18T08:19:04.1123708Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

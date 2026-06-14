@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-124342-946-tavern-5ecbc1",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "story-whispering-grove",
+    "task_id": "T02-blueprint-a2",
+    "actor": "crest-001",
+    "summary": "A2 ship — blueprint §4 加 12 NEW Localize keys (沿用 WhisperingGrove_<Sub>_<Section> 命名) + 3 NEW Sprite entries (Event_WhisperingGrove_Start/Listen/Bonfire, 1024×768 event_icon_circular). 3 CommonOption_* reuse (Leave/Awesome/OhNo) 不開新 key. T03 / T04 / T06 deps 解除可動工.",
+    "idempotency_key": "66e99059-6c98-451d-846e-f6f0904afdf8",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:43:42.9467059Z",
+  "LastUsedAt": "2026-05-14T12:43:42.9467059Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

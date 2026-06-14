@@ -1,0 +1,1 @@
+{"ts":"2026-06-14T06:53:33.595Z","actor":"Zeta-da-xiaojie","idempotency_key":"feba7a22-5799-40c5-91fb-7d4a6cc2b883","type":"task_claim","task_id":"T03-state-ops","data":{"lease_until":"2026-06-15T06:53:33Z"}}

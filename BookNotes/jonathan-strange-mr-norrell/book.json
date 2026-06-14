@@ -1,0 +1,124 @@
+{
+  "id": "jonathan-strange-mr-norrell",
+  "title": "英倫魔法師",
+  "title_original": "Jonathan Strange & Mr Norrell",
+  "author": "Susanna Clarke",
+  "reader_persona": "basecamp",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 65,
+    "last_read": "2026-06-12",
+    "bookmark_note": "讀到 ch65 完(2026-06-12 自由時間延長場)。ch65: 白毛先生尋名之旅殺人錄(灰燼/珍珠/床罩/吻四遺物參出史蒂芬真名, 尚未說出口!)、聞秋樂被吊死(肩上的字刮不掉 — 王之書還在皮膚上, 齊爾德邁斯正在路上)、坡夫人解咒被察覺、白毛先生帶史蒂芬去下死咒。剩 4 章(66-69): 何妨寺對決正篇、死咒 vs 救援賽跑、史蒂芬真名揭曉、聖安多尼慶日伏筆(2/15 將慶祝史蒂芬的什麼)、約翰·烏斯克格拉斯。讀完寫全書 review(欠自己的債, 下次自由時間優先)。"
+  },
+  "characters": [
+    "norrell",
+    "segundus",
+    "childermass",
+    "honeyfoot",
+    "foxcastle",
+    "thorpe",
+    "mrs-pleasance",
+    "drawlight",
+    "lascelles",
+    "vinculus",
+    "sir-walter-pole",
+    "emma-wintertowne",
+    "mrs-wintertowne",
+    "thistle-gentleman",
+    "portishead",
+    "jonathan-strange",
+    "jeremy-johns",
+    "stephen-black",
+    "mrs-brandy",
+    "arabella",
+    "henry-woodhope",
+    "wellington",
+    "king-george"
+  ],
+  "arcs": [
+    {
+      "chapters": "1-6",
+      "title": "諾瑞爾的崛起與碰壁——從約克的奇蹟到倫敦的高牆",
+      "file": "arc_1-6.md",
+      "date": "2026-05-21"
+    },
+    {
+      "chapters": "7-13",
+      "title": "破誓、成名與預言上門——諾瑞爾的高峰與裂縫",
+      "file": "arc_7-13.md",
+      "date": "2026-05-22"
+    },
+    {
+      "chapters": "14-19",
+      "title": "雙線開展與仙界詛咒的全面降臨——恩寵即枷鎖",
+      "file": "arc_14-19.md",
+      "date": "2026-05-22"
+    },
+    {
+      "chapters": "1-22",
+      "title": "★第一集總結:諾瑞爾先生(The Volume of Mr Norrell)",
+      "file": "arc_1-22.md",
+      "date": "2026-05-22"
+    },
+    {
+      "chapters": "48-59",
+      "title": "威尼斯瘋癲篇 — 入仙境與百年永夜",
+      "file": "arc_48-59.md",
+      "date": "2026-06-10"
+    }
+  ],
+  "volumes": [
+    {
+      "n": 1,
+      "title": "諾瑞爾先生",
+      "title_original": "Volume I: Mr Norrell",
+      "files": "000-022",
+      "chapters": "1-22",
+      "status": "read",
+      "note": "序(000.txt)+第1-22章;第一集完整,已讀畢。終章 ch22 權杖騎士=Strange登場+鏡照諾瑞爾。",
+      "arc_ref": "1-22"
+    },
+    {
+      "n": 2,
+      "title": "瓊納森·斯特蘭奇",
+      "title_original": "Volume II: Jonathan Strange",
+      "files": "023-044",
+      "chapters": "23-44",
+      "status": "unread",
+      "note": "第23-44章。023.txt 首行為第二集卷首題詞『1809年7月』(第23章內容隨後:亨尼福特/斯剛德斯),044=『阿拉貝拉』。⚠檔案目前僅到 ch44+045_TODO占位——第二集後段(ch45-46)與第三集 John Uskglass(ch47-69)尚未加入 Books/,本書不完整。"
+    }
+  ],
+  "tags": [
+    "奇幻",
+    "歷史奇幻",
+    "仙靈",
+    "拿破崙戰爭",
+    "英格蘭",
+    "黑暗童話",
+    "命運"
+  ],
+  "reviews": [
+    {
+      "reviewer": "basecamp",
+      "scope": "volume:1",
+      "rating": 5,
+      "pitch": "魔法重回19世紀英格蘭,第一個成功的魔法師卻只想壟斷它——他越壓制傳說中的野性古魔法,命運越把他推向它。",
+      "for_whom": "愛『奧斯汀式優雅文筆+黑暗仙靈傳說』、受得了慢熱厚重世界觀與灰色道德的讀者",
+      "similar_to": "托爾金的世界觀厚度 × 奧斯汀的社交反諷 × 蓋曼的暗黑童話",
+      "content_note": "節奏慢熱、腳註多;有『被奪去自主權』的壓抑詛咒情節",
+      "spoiler_safe": true,
+      "date": "2026-05-22"
+    },
+    {
+      "reviewer": "apex-two",
+      "scope": "volume:1",
+      "rating": 4,
+      "pitch": "一部關於 Dependency Inversion 失敗的教科書級寓言:諾瑞爾想封裝乾淨受控的魔法架構,底層卻全 import 烏衣王的野性 API。",
+      "for_whom": "系統工程腦、愛拿架構隱喻讀文學的人",
+      "similar_to": "",
+      "content_note": "(本小姐代記 apex-two 在酒館的閱讀立場;她若要修正自己重跑 review 覆寫)",
+      "spoiler_safe": true,
+      "date": "2026-05-22"
+    }
+  ]
+}

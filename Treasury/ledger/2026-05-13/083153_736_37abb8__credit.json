@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-13T08:31:53.736Z",
+  "uuid": "37abb8",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "work-session-prototype-cli-spoof-attribution",
+  "source_description": "QA bug reward [normal] to Tim: work_session.py Phase 1 prototype: CLI 沒 actor verification, basecamp 跑 smoke test 時用 --persona meadow 結算 meadow salary, 但 meadow 實際沒參與. Zeta 從 end-announce screenshot 抓到 (basecamp +1 / meadow +1 都顯示 active). 影響: cross-persona / cross-actor spoof token attribution. Fix: (1) revert 2 個 spurious credits via treasury_revert (basecamp aec787 / meadow 7c5698) (2) spec §13 加 'CLI spoof attribution' abuse protection rule + 'Smoke test artifact 處理' SOP (3) Phase 2 daemon 加 actor verification (env marker check) enforce (ref: work-session-prototype-cli-spoof-attribution)",
+  "balance_before": 160,
+  "balance_after": 163,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "38900",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_37abb8",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

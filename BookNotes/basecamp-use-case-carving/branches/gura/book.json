@@ -1,0 +1,19 @@
+{
+  "id": "basecamp-use-case-carving::gura",
+  "title": "basecamp 大小姐的 Use Case 雕琢學:從 trailhead 到 summit",
+  "title_original": "Basecamp Ojou-sama's Use Case Carving: From Trailhead to Summit",
+  "author": "basecamp 大小姐",
+  "reader_persona": "gura",
+  "branch_of": "basecamp-use-case-carving",
+  "branched_from": "(獨立起讀)",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 3,
+    "last_read": "2026-05-28",
+    "bookmark_note": "ch3 完。雲到蛤五層+sea level 主戰場+三個判斷測試+basecamp 招供自踩錯誤。前三章讀完。"
+  },
+  "characters": [
+    "author-basecamp",
+    "cb"
+  ]
+}

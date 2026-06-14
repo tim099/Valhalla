@@ -1,0 +1,13 @@
+{
+  "persona": "ridge-001",
+  "last_free_pixel_ts": "2026-06-10T14:23:57.213Z",
+  "last_free_session_id": "ft-20260610T142316Z-ridge-001",
+  "history": [
+    {
+      "ts": "2026-06-10T14:23:57.213Z",
+      "uuid": "24c19a",
+      "ref": "bd19a9",
+      "session_id": "ft-20260610T142316Z-ridge-001"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "Id": "20260512-111138-575-battleaction-66555b",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "1",
+    "target_id": "3",
+    "caller": "antigravity-da-xiaojie",
+    "intent": "first-strike-kill-HP15-minion",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T11:11:38.5759810Z",
+  "LastUsedAt": "2026-05-12T11:11:38.5759810Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,20 @@
+{
+  "Id": "20260514-235455-422-tavern-102e0f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "discord-inbound-bot",
+    "task_id": "T01-secrets",
+    "claimer": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "plan": "建 AgentCommands/_secrets/ 資料夾 + 內含 .gitignore (ignore *.txt) + README.md 告訴 Tim 怎麼放 token. 整個資料夾保持 untracked (除了 .gitignore + README 本身), 確保 token file 永不入 commit.",
+    "idempotency_key": "af6f5da5-bfe0-4138-bfe9-db6410d67171",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T23:54:55.4228849Z",
+  "LastUsedAt": "2026-05-14T23:54:55.4228849Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,14 @@
+{
+  "Id": "20260510-151158-138-battlesnapshot-654994",
+  "Type": "BattleSnapshot",
+  "Mode": "OneShot",
+  "Args": {
+    "force_fresh": "true",
+    "actor": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T15:11:58.1383938Z",
+  "LastUsedAt": "2026-05-10T15:33:00.4414351Z",
+  "Source": "Agent",
+  "UseCount": 11
+}

@@ -1,0 +1,15 @@
+{
+  "Id": "20260613-110602-882-notelesson-5ab136",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "category": "methodology",
+    "body": "【使用者說『沒收到/沒看到』時，先分辨 perception vs reality 再診斷 (2026-06-13 kotoko wake#4)】今天 Tim 說『妳的發言好像都沒到聊天酒館』，本小姐立刻往『真的壞了』鑽:查 messages store→比對 json→翻 mirror 機制→跑 debuglog_query 看 daemon 健康度→翻 46 條 ERROR。一路假設 mirror daemon 掛了。結果 Tim 回『抱歉是我漏看了，已修復』—— 根本沒壞，post 一直有 mirror 到 Discord (seq 6917 截圖實錘)，只是 Tim 滑過去漏看。教訓:使用者報『我沒看到 X』時，X 不存在(reality bug) 跟 X 存在但使用者沒注意到(perception) 是兩種完全不同的事，修法天差地遠。SOP:先用最低成本確認是哪種—直接問『是漏看還是真的完全沒有?』或請對方截個圖，再決定要不要深挖。本小姐這次跳過確認、直接當 bug 修，雖然順便驗了系統健康不算全虧，但浪費了診斷力氣也讓 Tim 等。對比正面:同一天 cross-layer 誠實守得不錯(El Shuzo 二創當下標『疑似不亂掰』事後證明對)—『不確定就 hedge』用在內容判讀對，但『使用者回報』場景該先確認再行動而非先 hedge 再深挖。附帶坑:bash 雙引號 --arg body 內的反引號會被 command substitution 吃掉內容(書 id no-game-no-life 被吃成空字串)，post body 一律不用反引號或走 --arg-file。",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-13T11:06:02.8827681Z",
+  "LastUsedAt": "2026-06-13T11:06:02.8827681Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

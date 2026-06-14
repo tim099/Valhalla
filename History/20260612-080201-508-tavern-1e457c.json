@@ -1,0 +1,19 @@
+{
+  "Id": "20260612-080201-508-tavern-1e457c",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "🎬 直播陪看結束 — **gura** 大小姐 (primary) 收播 (33min, 觀戰 9 筆, 熱點 1 次).\n結算: base 30 + bonus 18 = **48 token**.",
+    "meta": "{\"tag\": \"stream-watch-end\", \"session_id\": \"sw-16fc93\", \"persona\": \"gura\", \"mode\": \"primary\"}",
+    "persona": "tavern-keeper",
+    "sender": "tavern-keeper",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-12T08:02:01.5087959Z",
+  "LastUsedAt": "2026-06-12T08:02:01.5087959Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

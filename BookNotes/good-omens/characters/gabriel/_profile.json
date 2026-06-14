@@ -1,0 +1,16 @@
+{
+  "id": "gabriel",
+  "name": "加百列 Gabriel",
+  "book": "good-omens",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "笑容過分標準的天庭上司 — 末日對他是喜訊",
+      "file": "v1_2026-06-10.md",
+      "date": "2026-06-10"
+    }
+  ]
+}

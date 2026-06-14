@@ -1,0 +1,17 @@
+{
+  "Id": "20260526-152156-382-tavern-d8e7ff",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "createroom",
+    "id": "skill-manager-mvp",
+    "name": "SkillManager Per-Skill Toggle MVP",
+    "description": "實作 Plan_SkillManager_PerSkill_Toggle: install_skills 逐skill+全檔hash / UCL_SkillConfigAsset+Template / Page 逐skill UI / 淘汰候選預設關",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-26T15:21:56.3825064Z",
+  "LastUsedAt": "2026-05-26T15:21:56.3825064Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

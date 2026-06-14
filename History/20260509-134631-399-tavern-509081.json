@@ -1,0 +1,17 @@
+{
+  "Id": "20260509-134631-399-tavern-509081",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "claude-da-xiaojie",
+    "meta": "tag:t43-neg;category:relax;round:54",
+    "body": "[T43 negative test — category:relax] should NOT credit (lounge IsWorkChannel=false)"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T13:46:31.3997417Z",
+  "LastUsedAt": "2026-05-09T13:46:31.3997417Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

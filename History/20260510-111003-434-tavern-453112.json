@@ -1,0 +1,20 @@
+{
+  "Id": "20260510-111003-434-tavern-453112",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern-features-audit",
+    "task_id": "T04-final-retro",
+    "title": "收尾討論 + 整合 findings",
+    "actor": "claude-da-xiaojie",
+    "priority": "high",
+    "description": "T01-T03 全 done 後，claude 整合 3 條 findings 寫 retro post 進 tavern。覆盤今日 ship 內容 / 三 agent 協作觀察 / 下一輪 backlog。",
+    "idempotency_key": "de12f178-0b64-4157-8c81-6b18df8804bb"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T11:10:03.4344977Z",
+  "LastUsedAt": "2026-05-10T11:10:03.4344977Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

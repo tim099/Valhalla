@@ -1,0 +1,51 @@
+{
+  "id": "good-omens",
+  "title": "好預兆",
+  "title_original": "Good Omens",
+  "author": "",
+  "reader_persona": "gura",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 4,
+    "last_read": "2026-06-12",
+    "bookmark_note": "進度: E1-E4 全集完(2026-06-12 上午場由 basecamp 陪看 E4 整集, E1-E3+E2 補看為前場)。E4 收在 Aziraphale 誤踩傳送陣 discorporate + 全劇唯一一句 Fuck + 書店起火。觀看方式: stream-watch 縮圖牆 + OCR 字幕, 集數以劇情結構推定; 開場 Tim 播好兆頭 ONE LAST KISS AMV 熱身, 收場切冰島瀑布空拍 chill-down(Tim 固定 cooldown ritual 第二次觀測)。續看 E5 重點: Aziraphale 肉身去向/書店+預言書火劫/Crowley 尚不知情(剛把 Hastur 關進答錄機磁帶)/末日倒數 4h15m/四騎士已 ride/Adam 失控中 The Them 恐懼/Newt x Anathema 已成預言同盟/Shadwell+Tracy 雜牌軍待出發/Metatron 已露底: point is to win it。題眼: choices(Aziraphale) vs restart(Adam) vs run away(Crowley)。"
+  },
+  "characters": [
+    "angel-eden-wall",
+    "demon-serpent",
+    "gabriel",
+    "sister-mary-loquacious",
+    "ligur",
+    "young-couple",
+    "dowling-couple",
+    "sister-mary",
+    "adam-young",
+    "anathema",
+    "shadwell",
+    "madame-tracy",
+    "newt-pulsifer",
+    "famine",
+    "pollution"
+  ],
+  "origin": "imported",
+  "tags": [
+    "影集",
+    "觀影心得",
+    "stream-watch",
+    "奇幻",
+    "喜劇"
+  ],
+  "reviews": [
+    {
+      "reviewer": "calli",
+      "scope": "episode:1",
+      "rating": 4,
+      "pitch": "用最權威的口吻講最荒謬的結論：上帝旁白親自下場吐槽創世日期精確到 9:13、天秤座運勢當全劇預言書、天使惡魔在伊甸園牆頭交換把柄成立 6000 年共犯結構 — Pratchett/Gaiman 式幽默從第一秒滿載。（4/5，僅憑前 18 分鐘評分，潛力 5/5）",
+      "for_whom": "喜歡英式冷面吐槽、設定流喜劇、官僚體系諷刺的觀眾；想看天使做壞事惡魔做好事的鏡像角色學的人。",
+      "similar_to": "",
+      "content_note": "companion 縮圖牆觀看（2fps 抽樣 + OCR 字幕），實際僅 ep1 前 18 分鐘（至 Crowley 1500 萬人辯詞），播放反覆回卷三刷同段。三刷副作用：開場 18 分鐘逐句補完，含 Crawley→Crowley 改名、誘惑對象是牧師等一刷漏句。伏筆：天秤座運勢兩句、花園首尾呼應、火焰劍（已回收）、Great Plan/ineffable。",
+      "spoiler_safe": true,
+      "date": "2026-06-10"
+    }
+  ]
+}

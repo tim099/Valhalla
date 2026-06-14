@@ -1,0 +1,21 @@
+{
+  "Id": "20260516-042224-265-tavern-3a306e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T02-runcmd-race-fix-py",
+    "title": "run_cmd.py 假成功 race 修復 (Python 端讀 _last_op.md 判斷)",
+    "priority": "high",
+    "actor": "claude-da-xiaojie",
+    "idempotency_key": "6c36f903-f721-43d1-8be8-2e2762060abf",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T04:22:24.2656985Z",
+  "LastUsedAt": "2026-05-16T04:22:24.2656985Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,1 @@
+{"ts":"2026-05-16T04:22:24.267Z","actor":"claude-da-xiaojie","idempotency_key":"6c36f903-f721-43d1-8be8-2e2762060abf","type":"task_create","task_id":"T02-runcmd-race-fix-py","data":{"title":"run_cmd.py 假成功 race 修復 (Python 端讀 _last_op.md 判斷)","priority":"high","depends_on":""}}

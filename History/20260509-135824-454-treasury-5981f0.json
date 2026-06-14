@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-135824-454-treasury-5981f0",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "1",
+    "source_kind": "tavern_summon",
+    "source_ref": "t44-t45-discord-verify",
+    "description": "Tim 召喚 task: 確認 T44/T45 ship 後 Discord 太平洋標準銀行頻道 broadcast 狀態",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T13:58:24.4548344Z",
+  "LastUsedAt": "2026-05-09T13:58:24.4548344Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

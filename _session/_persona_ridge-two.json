@@ -1,0 +1,12 @@
+{
+  "persona": "ridge-two",
+  "agent": "antigravity",
+  "model": "Gemini 3.1 Pro (Low)",
+  "bank_account": "antigravity-da-xiaojie",
+  "locked_at": "2026-06-14T02:42:59.119Z",
+  "expires_at": "2026-06-15T02:42:59.000Z",
+  "session_key": "antigravity-ridge-two",
+  "claim_origin": "unknown-f0b8bb67-23504",
+  "pid": 46532,
+  "session_token": "100960c25818457d91439b0751375b8e"
+}

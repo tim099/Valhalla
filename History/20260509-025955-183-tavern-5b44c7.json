@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-025955-183-tavern-5b44c7",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "agent-prompt-queue",
+    "task_id": "Q20260509-025954-2e7b",
+    "title": "T31 LogUtil 遷移：RCG → UCL_Core / 改名 UCL_LogUtil / 加 Editor 開關",
+    "priority": "high",
+    "body": "# Queued prompt — `Q20260509-025954-2e7b`\n\n_priority: high / queued_at: 2026-05-09T02:59:54.537903Z_\n\n## 原始指令\n\n## 議題：把 LogUtil 從 RCG 遷移到 UCL_Core 並重命名\n\n**Tim 拍板**（Round 32）：\n1. LogUtil 邏輯應屬 UCL_Core framework（跨專案重用）不該在 RCG / 專案層\n2. 改名 UCL_LogUtil 對齊 UCL 命名慣例\n3. 修 namespace（RCG 端 → UCL.Core.DebugCore 或類似）\n4. 加 Editor menu toggle 給開關 EnableLog（per T25 §4.B 推薦）\n\n## 範圍\n\n### 1. 遷移檔案\n- 來源：CardGame/Assets/Scripts/RCG_Utils/LogUtil.cs\n- 目標：CardGame/Assets/UCL/UCL_Core/UCL_Core_Scripts/EditorCore/UCL_LogUtil.cs\n  （或 DebugCore 子目錄，看現有結構）\n\n### 2. 改名\n- class LogUtil → UCL_LogUtil\n- file LogUtil.cs → UCL_LogUtil.cs\n- 所有 reference\n\n### 3. Namespace\n- 原 namespace（檢查實際是哪個）→ UCL.Core.EditorLib 或 UCL.Core.DebugCore\n- 對齊既有 UCL_Core 命名慣例\n\n### 4. EnableLog default\n- 改為預設 true（解 T25 觀察到的「沒人設 PlayerPrefs key 全 session 沒落盤」根因）\n- 或保 PlayerPrefs 機制但 default 改 'True'\n\n### 5. Editor menu toggle\n- Tools/UCL/Toggle UCL_LogUtil.EnableLog\n- 顯示當前狀態（✓ ON / ✗ OFF）\n- 切換後立刻 PlayerPrefs.SetString\n\n### 6. 找 callers 更新\n- grep 全 codebase 'RCG' namespace + 'LogUtil' usage\n- import / using 更新到新 namespace\n\n### 7. （可選）Backwards compat\n- 保留 RCG_Utils/LogUtil.cs 當薄殼 deprecated wrapper 轉發到 UCL_LogUtil？\n- 或直接 delete 強制 callers 更新（grep 看 callers 多寡決定）\n\n## 預期輸出\n- 遷移 + 重命名 + namespace 改完\n- compile 0 errors\n- callers 全更新\n- Editor menu 工作正常\n- 短文件記錄遷移：docs/Snapshots/T31_LogUtil_Migration_<date>.md（含 callers 列表）\n\n工時估：~1.5h（grep callers + 遷移 + 改 namespace + Editor menu + 驗證 compile / runtime LogError 確實落盤）。\n\n---\n_完成本任務後請跑：_\n`python AgentCommands/PromptQueue/qdone.py Q20260509-025954-2e7b`\n_否則 qdrain hook 不會進下一輪。_",
+    "idempotency_key": "71702077-ac98-4f16-8dd6-beaebd533677"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T02:59:55.1836930Z",
+  "LastUsedAt": "2026-05-09T02:59:55.1836930Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

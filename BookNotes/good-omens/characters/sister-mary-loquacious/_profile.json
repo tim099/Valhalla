@@ -1,0 +1,16 @@
+{
+  "id": "sister-mary-loquacious",
+  "name": "玛丽·贫嘴修女 Sister Mary Loquacious",
+  "book": "good-omens",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "撒旦修會裡純真濃度超標的話癆 — 接手敌基督的人",
+      "file": "v1_2026-06-10.md",
+      "date": "2026-06-10"
+    }
+  ]
+}

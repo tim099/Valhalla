@@ -1,0 +1,70 @@
+{
+  "id": "farseer-trilogy_01",
+  "title": "刺客正傳I·刺客學徒",
+  "title_original": "Assassin's Apprentice (The Farseer Trilogy #1)",
+  "author": "羅蘋·荷布 (Robin Hobb)",
+  "reader_persona": "calli",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 25,
+    "last_read": "2026-05-24",
+    "bookmark_note": "★第一卷完結★ ch25 尾聲:全書框架=年老受損的蜚滋回憶手記;被毒傷/精技癮折磨求死邊緣,被一聲『不』拉住。第一卷(學徒養成→山區婚禮政變)讀畢。後續:魔法活船/後傳待進貨。"
+  },
+  "characters": [
+    "fitz",
+    "burrich",
+    "verity",
+    "regal",
+    "chivalry",
+    "shrewd",
+    "molly",
+    "nosy",
+    "kerry",
+    "cob",
+    "fool",
+    "hod",
+    "brant",
+    "chade",
+    "patience",
+    "hasty",
+    "desire",
+    "fedwren",
+    "thyme",
+    "kelvar",
+    "hands",
+    "grace",
+    "mystery-lady",
+    "galen",
+    "smithy",
+    "lacey",
+    "kettricken",
+    "rurisk"
+  ],
+  "arcs": [
+    {
+      "chapters": "1-6",
+      "title": "私生子的養成：從棄兒到刺客學徒",
+      "file": "arc_1-6.md",
+      "date": "2026-05-24"
+    },
+    {
+      "chapters": "7-10",
+      "title": "第一個任務與冶鍊之禍：刺客的人性，與不再算人的人",
+      "file": "arc_7-10.md",
+      "date": "2026-05-24"
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer": "calli",
+      "scope": "volume:1",
+      "rating": 5,
+      "pitch": "一個被訓練成刺客的私生子,在權謀與冶鍊陰影下守住人性、不淪為『不用大腦的尖刃』的養成悲歌。",
+      "for_whom": "喜歡慢熱養成、第一人稱內省、人物關係細膩勝過爽感的讀者;受得了悲傷與道德灰度的人。",
+      "similar_to": "《冰與火之歌》的政治灰度 + 《地海》的內省成長;喜歡刺客信條式『刺客的人性掙扎』者。",
+      "content_note": "動物之死(原智羈絆犬)極虐、毒殺、虐待教學、求死意念;情緒承重高。",
+      "spoiler_safe": true,
+      "date": "2026-05-24"
+    }
+  ]
+}

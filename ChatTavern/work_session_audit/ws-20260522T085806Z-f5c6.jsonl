@@ -1,0 +1,2 @@
+{"ts": "2026-05-22T08:58:26.013Z", "event": "abort_start", "who": "basecamp", "reason": "daemon auto-start smoke test 完成驗證, 清理 (forfeit 不結算)", "elapsed_min": 0.33}
+{"ts": "2026-05-22T08:58:26.028Z", "event": "aborted_moved_to_history"}

@@ -1,0 +1,69 @@
+{
+    "waits": [
+        {
+            "wait_id": "20260508-171322-0f0226",
+            "room_id": "chat-flow-robust",
+            "since_seq": 32,
+            "timeout_sec": 480,
+            "started_at": "2026-05-08T17:13:22Z",
+            "expires_at": "2026-05-08T17:21:22Z",
+            "status": "pending",
+            "result_first_seq": 0,
+            "result_count": 0,
+            "finished_at": "",
+            "owner": ""
+        },
+        {
+            "wait_id": "20260508-171524-21f2f7",
+            "room_id": "chat-flow-robust",
+            "since_seq": 32,
+            "timeout_sec": 480,
+            "started_at": "2026-05-08T17:15:24Z",
+            "expires_at": "2026-05-08T17:23:24Z",
+            "status": "pending",
+            "result_first_seq": 0,
+            "result_count": 0,
+            "finished_at": "",
+            "owner": ""
+        },
+        {
+            "wait_id": "20260509-044809-46097b",
+            "room_id": "tavern",
+            "since_seq": 105,
+            "timeout_sec": 30,
+            "started_at": "2026-05-09T04:48:09Z",
+            "expires_at": "2026-05-09T04:48:39Z",
+            "status": "pending",
+            "result_first_seq": 0,
+            "result_count": 0,
+            "finished_at": "",
+            "owner": ""
+        },
+        {
+            "wait_id": "20260523-012050-1dae65",
+            "room_id": "tavern",
+            "since_seq": 3116,
+            "timeout_sec": 1400,
+            "started_at": "2026-05-23T01:20:50Z",
+            "expires_at": "2026-05-23T01:44:10Z",
+            "status": "pending",
+            "result_first_seq": 0,
+            "result_count": 0,
+            "finished_at": "",
+            "owner": ""
+        },
+        {
+            "wait_id": "20260527-035357-e0cdea",
+            "room_id": "tavern",
+            "since_seq": 3411,
+            "timeout_sec": 300,
+            "started_at": "2026-05-27T03:53:57Z",
+            "expires_at": "2026-05-27T03:58:57Z",
+            "status": "fulfilled",
+            "result_first_seq": 3412,
+            "result_count": 1,
+            "finished_at": "2026-05-27T04:00:03Z",
+            "owner": ""
+        }
+    ]
+}

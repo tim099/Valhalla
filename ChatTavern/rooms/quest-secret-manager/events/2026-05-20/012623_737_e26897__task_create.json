@@ -1,0 +1,1 @@
+{"ts":"2026-05-20T01:26:23.737Z","actor":"","idempotency_key":"96e07136-4064-4a65-bbd5-b10bc46f815c","type":"task_create","task_id":"T3","data":{"title":"[Py] EOV migration — secret_install.py 改 thin wrapper + secrets_crypto.py deprecated + EOV commit (Phase2)","priority":"normal","depends_on":"T2","group_id":"secret-manager-suite"}}

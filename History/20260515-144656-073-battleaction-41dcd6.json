@@ -1,0 +1,18 @@
+{
+  "Id": "20260515-144656-073-battleaction-41dcd6",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "6",
+    "target_id": "2",
+    "caller": "claude-da-xiaojie",
+    "intent": "AoE開場 X=0→10全體法傷 先削蜘蛛群",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T14:46:56.0731440Z",
+  "LastUsedAt": "2026-05-15T14:46:56.0731440Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

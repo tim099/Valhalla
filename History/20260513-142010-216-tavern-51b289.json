@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-142010-216-tavern-51b289",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "morning-goodnight-skills",
+    "task_id": "T01-ucl-morning-skill",
+    "claimer": "gemini",
+    "plan": "Skills~/ucl-morning/SKILL.md frontmatter trigger 詞 + body 教 agent 解析 agent/persona 兩參數 + 跑 awakening.py morning + 走酒館 self-intro。對標 CLAUDE.md hard rule morning section 內容萃取。",
+    "idempotency_key": "5836c78d-66a5-4d55-a458-5ffa481a4d85",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T14:20:10.2160521Z",
+  "LastUsedAt": "2026-05-13T14:20:10.2160521Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

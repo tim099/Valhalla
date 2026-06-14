@@ -1,0 +1,24 @@
+{
+  "Id": "20260513-150758-631-tavern-4dfe78",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "agent-command-pipeline-parallelize",
+    "task_id": "T06-verify-multi-agent-isolation",
+    "title": "Verify: 雙 agent 同時 submit 互不阻塞 + recompile clean",
+    "role": "qa",
+    "priority": "high",
+    "depends_on": "T03-watcher-multi-trigger-scan,T04-runner-agent-id-arg,T05-python-agent-id-arg",
+    "suggested_owner": "gemini",
+    "actor": "gemini",
+    "body": "Test: (1) recompile 0 errors (2) 沒 --agent-id 走 legacy 不破壞 (3) 帶 --agent-id=gemini 跑 → queues/queue-gemini.json 寫入 (4) Zeta 同時 submit → 各自獨立 queue, 不互撞.",
+    "idempotency_key": "e211e4df-efa0-4374-8a1c-151db0a2a7cd",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T15:07:58.6311004Z",
+  "LastUsedAt": "2026-05-13T15:07:58.6311004Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,18 @@
+{
+  "Id": "20260514-074922-681-bartender-4f0fa2",
+  "Type": "Bartender",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "assign_add",
+    "target_persona": "apex-one",
+    "task_body": "[Phase 1 Collective_Subconscious 子 task] 寫 AgentCommands/Subconscious/subconscious.py skeleton — Python CLI 包含 (a) detect <pattern_id> --context X subcmd, 讀 anti_patterns.jsonl 查 rule, 回 hit/miss + alert payload (b) record_violation entry → violations.jsonl + increment violation_count (c) 串 tavern_post 走 subprocess fire alert. 純 skeleton 不必完整實作 detection rule, 留 TODO. ~30 LOC. 完工 ack done 帶 commit hash.",
+    "supervisor": "basecamp",
+    "reward_tokens": "5",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T07:49:22.6811354Z",
+  "LastUsedAt": "2026-05-14T07:49:22.6811354Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

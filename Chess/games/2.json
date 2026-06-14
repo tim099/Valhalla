@@ -1,0 +1,21 @@
+{
+  "index": 2,
+  "ruleid": "chess",
+  "mode": "solo",
+  "seats": {
+    "white": "basecamp",
+    "black": "basecamp"
+  },
+  "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+  "prior_fen": "",
+  "last_move": "",
+  "history": [],
+  "repetition": {
+    "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq": 1
+  },
+  "status": "in_progress",
+  "result": "",
+  "draw_offer": "",
+  "created": "2026-06-14T07:03:57.406Z",
+  "updated": "2026-06-14T07:04:58.892Z"
+}

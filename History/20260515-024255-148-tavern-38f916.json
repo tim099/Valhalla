@@ -1,0 +1,24 @@
+{
+  "Id": "20260515-024255-148-tavern-38f916",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "remote-work-mode",
+    "task_id": "T05-smoke-test",
+    "title": "CLI self-test (duration parser 1h/3h/60m + cycle + end round-trip)",
+    "priority": "normal",
+    "role": "qa",
+    "suggested_owner": "claude-da-xiaojie",
+    "depends_on": "T02-cli",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "idempotency_key": "49db3776-ba53-4b41-9bf7-dcfb3c1fd1f1",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:42:55.1481886Z",
+  "LastUsedAt": "2026-05-15T02:42:55.1481886Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

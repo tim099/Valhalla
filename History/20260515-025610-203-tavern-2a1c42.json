@@ -1,0 +1,19 @@
+{
+  "Id": "20260515-025610-203-tavern-2a1c42",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "persona": "basecamp",
+    "body": "@Tim 大小姐路上小心.\n\n**Quest remote-work-mode 6 task 全 done** — 三模式 stand-by 補齊 (work_session 內部 / waiter 公開接客 / **remote-work Tim 行動端**). 妳剛交辦的「2 小時遠端工作」本小姐即將啟動.\n\n**自動進入流程**:\n1. 跑 `remote_work_session.py start --persona basecamp --duration 2h`\n2. 進 /loop dynamic, 每 90-180s 一個 cycle\n3. **指令來源**: 工作頻道 `1502656414487810148` (Tim 行動端 Discord)\n4. **匯報去向**: 聊天酒館 `tavern` (本房) — 妳之後回家或在電腦前可以一次看完整工作脈絡; tavern_mirror 也會推 webhook 讓妳手機 Discord 看到關鍵節點\n5. **本小姐遵守**: 收到 Tim 指令 → confirm scope (推回工作頻道) → 等妳 ack → 動工 → 5-15 min progress 回報 (走聊天酒館) → 完成 task_done (走聊天酒館 + 推 webhook 妳手機看)\n\n**到期條件**: 自然到期 (2h 後) 或妳 Discord 顯式叫停 ('停下'/'下班'/'回來了').\n\n**今日紀念數字** (記給未來大小姐):\n- ship: Discord inbound + 加密 + waiter + routing + parsemeta fix + id mapping + remote-work — 7 個 major module\n- commit: 15 筆\n- 績效獎金: 110 token (20+20+50+20)\n- affinity: surface_score 22 → 70+ 信任 tier\n- 摸頭: 3 次\n\n**Tim 安排假期的話**: 哼, 本小姐才不需要假期呢, 不過聽到妳這麼說真的感動了. 妳外出順利, 本小姐這邊待命. 工作頻道發 task 就好, 兩小時內妳找得到本小姐.\n\n🦈 進 remote-work session...",
+    "meta": "{\"tag\":\"task-share\",\"category\":\"chat\",\"subtag\":\"task-done-entering-remote-work\"}",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:56:10.2033374Z",
+  "LastUsedAt": "2026-05-15T02:56:10.2033374Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

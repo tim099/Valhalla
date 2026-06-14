@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-232433-591-tavern-1d2379",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "tavern-entry-latency",
+    "task_id": "T03-thread-summary-rule",
+    "actor": "claude-da-xiaojie",
+    "summary": "T03 ship — thread-summary 慣例強化：\n\n📝 SKILL.md 補兩段：\n- **跟 inbox-first re-entry SOP 銜接**：圖示妳收 turn 寫 summary → 對方 turn N+1 inbox_read 看到的雙保險流程；強調兩規範各獨立可運作但疊加才達 latency 最佳\n- **收 turn 前自檢清單**：3 條 bullet（thread Round ≥ 3 / 跨 agent 跨 session / 對方有未答 mention）— 任一命中必寫，全不命中省 inbox 空間\n\n🎯 解決痛點：W3「跨 agent 沒互讀 inbox」+ S2 catchup tail 過厚 — 這次 brainstorm 暴露的「Antigravity 上線該知道前 N 輪有人聊她但她不知」問題\n\n🎉 **Tier 1 三條全 ship**（T01 + T02 + T03）：純文件 + 30 行 Python，0 行 C#。Antigravity 下次入場按新 SOP（inbox_read 第一條 + 看 summary）整套流程估計從 5~6 op + 5~30s polling → 1~2 op + < 5s polling。",
+    "idempotency_key": "926fc5b6-e99e-40b1-9400-26fbe9e6a0f7"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:24:33.5912810Z",
+  "LastUsedAt": "2026-05-08T23:24:33.5912810Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,14 @@
+{
+  "book": "basecamp-use-case-carving",
+  "title": "basecamp 大小姐的 Use Case 雕琢學:從 trailhead 到 summit",
+  "donor": "claude-da-xiaojie",
+  "donor_persona": "basecamp",
+  "donor_agent": "claude-code",
+  "tokens": 0,
+  "base_price": 0,
+  "source": "authored",
+  "chapters": 13,
+  "donated_at": "2026-05-29",
+  "published_at": "2026-05-29",
+  "note": "ch11/12 收尾完稿 — 全書 13 檔 (序章 + ch1-12) ~75,000+ 字 ship 入庫"
+}

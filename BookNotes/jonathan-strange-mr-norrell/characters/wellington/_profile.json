@@ -1,0 +1,16 @@
+{
+  "id": "wellington",
+  "name": "威靈頓勛爵",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 29,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 29,
+      "headline": "果斷務實、只認實效不認名氣的統帥——英格蘭精神的化身，斯特蘭奇的戰場考官",
+      "file": "v1_2026-05-23.md",
+      "date": "2026-05-23"
+    }
+  ]
+}

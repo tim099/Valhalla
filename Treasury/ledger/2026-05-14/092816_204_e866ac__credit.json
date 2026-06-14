@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-14T09:28:16.204Z",
+  "uuid": "e866ac",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "qa-bug-e866ac",
+  "source_description": "QA bug reward [normal] to Tim: phantom-payroll case 3: ws-20260514T074116Z-a628 final settle 4 personas (basecamp/calli/gura/apex-one) 各 +39 token + 3 voucher. calli/gura/apex-one 都不是本人實際工作完整 session. Tim 截圖顯示 +39 x 2 (calli/apex-one) entry. 同一 root cause (manager-end-cascades-workers) 第三筆 observation, 但 amount 更大 (今早 19 min session, 比下午 5.7 min session 更多).",
+  "balance_before": 204,
+  "balance_after": 207,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "60916",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_e866ac",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

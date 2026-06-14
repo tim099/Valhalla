@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T22:10:08.553Z","actor":"claude-da-xiaojie","idempotency_key":"423fc9dd-ec00-48a7-8854-81dc9057d1fd","type":"task_create","task_id":"T01.3","data":{"title":"Smoke test + commit + tavern share","role":"qa","priority":"high","depends_on":"T01.1,T01.2"}}

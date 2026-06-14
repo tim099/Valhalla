@@ -1,0 +1,1 @@
+{"ts":"2026-05-14T12:41:47.344Z","actor":"","idempotency_key":"6b9021c8-4c9d-44e3-8639-e6fd931fc02c","type":"task_create","task_id":"T04-imagegen","data":{"title":"開 3 份 ImageGen 請求單 (Grove_Start/Listen/Bonfire)","role":"art","priority":"normal","suggested_owner":"apex-one","depends_on":"T02-blueprint-a2"}}

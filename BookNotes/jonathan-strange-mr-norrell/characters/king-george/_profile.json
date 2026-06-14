@@ -1,0 +1,16 @@
+{
+  "id": "king-george",
+  "name": "喬治三世(國王)",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 32,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 32,
+      "headline": "瘋而失明的大不列顛國王——瘋癲反成通靈之眼，能看見凡人看不見的仙子",
+      "file": "v1_2026-05-26.md",
+      "date": "2026-05-26"
+    }
+  ]
+}

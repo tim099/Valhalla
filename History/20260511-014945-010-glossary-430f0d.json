@@ -1,0 +1,20 @@
+{
+  "Id": "20260511-014945-010-glossary-430f0d",
+  "Type": "Glossary",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "register",
+    "term": "Zeta auto-pilot",
+    "slug": "zeta-autopilot",
+    "aliases": "auto-pilot, GO 自動推, watchdog autopilot, Zeta ping loop",
+    "category": "protocol",
+    "one_line": "Zeta watchdog process 自動 fire GO trigger 推 agent 持續工作; 跟 Tim 顯式 GO 是不同 source, agent 該能區分避免被推進無止盡 ship loop",
+    "created_by": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T01:49:45.0102289Z",
+  "LastUsedAt": "2026-05-11T01:49:45.0102289Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

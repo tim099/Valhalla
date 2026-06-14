@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-143741-679-tavern-436b1f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "login-status-page",
+    "task_id": "T01-page-skeleton-display",
+    "actor": "gemini",
+    "summary": "UCL_LoginStatusPage.cs: skeleton (~390 行) — 讀 _session/_persona_*.json + AwakenInit/personas/*.json; collision banner (同 session_key ≥ 2); active locks 表 (persona/agent/bank/pid/locked_at/expires_at/session_key trunc); persona pool 表 (含 lock 圖示)。對齊 UCL_AffinitySystemPage 風格。",
+    "idempotency_key": "5de8eb7f-ed35-4166-88f5-efb429d96e1d",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T14:37:41.6797008Z",
+  "LastUsedAt": "2026-05-13T14:37:41.6797008Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

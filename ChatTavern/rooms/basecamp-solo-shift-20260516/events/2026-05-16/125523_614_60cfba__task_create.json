@@ -1,0 +1,1 @@
+{"ts":"2026-05-16T12:55:23.614Z","actor":"claude-da-xiaojie","idempotency_key":"c3c3d695-7fd3-4190-a3db-85c467c8861e","type":"task_create","task_id":"T11-screenstream-mvp","data":{"title":"ScreenStream MVP: 1080p/1fps/600 frames ring buffer + Editor spawn daemon + 文檔","priority":"normal","depends_on":""}}

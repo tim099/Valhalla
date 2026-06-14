@@ -1,0 +1,298 @@
+第六章 — 演員與 SuD:邊界決定一切
+
+某個 EOV 戰鬥系統 use case 討論會議,進入第三輪。
+
+工程師甲在白板寫:「Use Case: 玩家打贏一場戰鬥...」
+
+工程師乙打斷:「等等,**這 use case 的 system 是 BattleManager 還是 GameManager?** 如果是 BattleManager,那 SaveManager 就是 supporting actor,得寫進外部 service 那段。但如果是 GameManager,SaveManager 就是 internal,根本不該出現在 use case 裡。」
+
+設計師丙更直接:「**搞不好我們真正要寫的 SuD 是『整個 EOV 遊戲 app』**,那連 BattleManager 都是 internal 了。」
+
+PM 拍桌:「先停。我們到底在寫什麼系統的 use case?」
+
+**這就是 SuD(System under Discussion)邊界沒劃清的典型現場**。三個人都對自己心中的系統有 use case,但三個 SuD 不同 → 寫出來不可能對齊。
+
+本章本小姐拆兩件事:**SuD 是什麼怎麼劃** + **actor 怎麼隨 SuD 變身**。劃對 SuD,後面所有 use case 寫作才有共同地基;劃錯 → 全團隊在自說自話。
+
+---
+
+## §1 SuD 是什麼
+
+CB 在原書反覆強調 — 寫 use case **第一個動作不是寫 main scenario,是劃 SuD 邊界**。
+
+SuD = System under Discussion,**就是「我們正在討論的那個系統」的範圍**。
+
+它不是物理單位(不是「這個 .exe」或「這個 microservice」),是**討論單位** —— 你跟同事們此刻決定要把「哪些東西當作一個黑盒看」。
+
+SuD 三個關鍵屬性:
+
+1. **內含什麼**(in scope) — 你討論時把這些當「自己人」,可以細寫內部
+2. **不含什麼**(out of scope) — 這些是「外人」,只能從邊界 interface 角度寫
+3. **誰跟它互動**(actors) — 邊界外、會跟 SuD 通訊的人 / 系統
+
+劃 SuD 邊界就是劃這條界線。**界線一動,整個 use case 重寫**。
+
+---
+
+## §2 EOV 三層 SuD 對照:同件事三本書
+
+同樣的 EOV 戰鬥場景,本小姐示範把 SuD 劃在三個不同位置,寫出來像三本不同的書。
+
+### SuD A:EOV 戰鬥引擎
+
+**內含**:BattleManager / 卡牌資料 / Buff & Debuff 系統 / VFX runtime / Battle UI Layer
+**不含**:章節地圖 / 卡牌收藏管理 / 商城 / 登入系統 / SaveManager(整體) / Steam / OS
+
+```
+Use Case (在 SuD A 視角): 玩家打贏一場戰鬥
+Primary Actor: 玩家
+Supporting Actors:
+  - SaveManager (外部 service, 提供存檔)
+  - AudioManager (外部 service, 提供音效)
+  - 卡牌資料 DB (外部 data source)
+  - VFX team's particle library (外部 asset source)
+
+Main Scenario 細節 (white-box,因為 SuD 內部可細寫):
+  1. BattleManager 初始化雙方牌庫,FSM 進 PlayerTurn 狀態
+  2. 玩家 click 手牌,BattleManager 走 ResolveCardPlay()
+  3. ...
+```
+
+這是**戰鬥引擎工程師**的視角 — 他關心的是 BattleManager 內部 FSM、卡牌效果 resolver、VFX 觸發時序。SaveManager 對他來說是「呼叫外部 API 存檔」,不關心怎麼存。
+
+### SuD B:整個 EOV 遊戲 app
+
+**內含**:EOV 整個遊戲 executable(含戰鬥、章節、商城、登入、save、UI)
+**不含**:Steam / OS / 雲端 save server / Discord SDK
+
+```
+Use Case (在 SuD B 視角): 玩家從打開 app 玩 1 小時
+Primary Actor: 玩家
+Supporting Actors:
+  - Steam (成就 + 雲存檔同步)
+  - OS (檔案系統 / 顯示器)
+  - 雲端 save server
+  - Discord SDK (rich presence)
+
+Main Scenario 粗概 (black-box,SuD 內部不展開):
+  1. 玩家透過 Steam 啟動 EOV
+  2. EOV 完成 launch sequence
+  3. 玩家在主選單選擇進入章節
+  4. 玩家進入戰鬥模式並完成數場戰鬥  ← 戰鬥變一句話
+  5. 玩家退出回主選單,EOV 自動 save
+  6. 玩家結束 session
+```
+
+這是**產品經理跟客服**的視角 — 他們關心的是玩家整體體驗、Steam 整合、雲存檔同步、客服可以從哪些檔案查 bug 紀錄。**戰鬥內部完全是黑盒**,他們不寫「BattleManager 內部 FSM」這種東西 — 那不是他們的 SuD。
+
+### SuD C:Agent RPC 系統
+
+**內含**:queue.json / pending.trigger / Cmd handler 集合 / C# Watcher / _last_op.md
+**不含**:Unity Editor IMGUI 本體 / git submodule / Discord / EOV 遊戲邏輯
+
+```
+Use Case (在 SuD C 視角): agent 發送一個 cmd 並等回應
+Primary Actor: agent persona (basecamp / gura)
+Supporting Actors:
+  - run_cmd.py (Python CLI)
+  - Editor file system (provide 寫入空間)
+  - Unity Editor (host environment, 但本體不在 SuD 內)
+
+Main Scenario:
+  1. agent 透過 run_cmd.py 寫 cmd JSON 進 queue.json
+  2. run_cmd.py touch pending.trigger
+  3. C# Watcher 偵測 trigger
+  4. Watcher dispatch Cmd handler 處理
+  5. Cmd handler 寫結果到 _last_op.md
+  6. run_cmd.py poll _last_op.md 回給 caller
+```
+
+這是**RPC 系統工程師**的視角 — 他關心的是雙語 protocol、queue 並行性、watcher 撿 trigger 時序。**Unity Editor 本體跟 EOV 戰鬥邏輯完全不在他視野裡** — 那是其他 SuD 的事。
+
+---
+
+## §3 Actor 隨 SuD 變身
+
+注意上面三份 use case 的一個關鍵現象:**同一個物理實體,在不同 SuD 視角下身份完全不同**。
+
+以 **SaveManager** 為例:
+
+| SuD | SaveManager 的身份 |
+|---|---|
+| SuD A(戰鬥引擎) | **Supporting actor** — 外部 service,戰鬥引擎呼叫它寫存檔 |
+| SuD B(整個遊戲 app) | **Internal component** — 它是 EOV 內部模組,根本不出現在 use case |
+| SuD C(Agent RPC) | **Out of scope** — 完全不相關,不寫進 actor 列表 |
+
+以 **玩家** 為例:
+
+| SuD | 玩家身份 |
+|---|---|
+| SuD A | Primary actor(發起戰鬥行動) |
+| SuD B | Primary actor(發起遊戲 session) |
+| SuD C | **不存在**(這是 agent 系統,玩家無關) |
+
+**這就是寫 use case 最常出包的地方** — 沒劃清 SuD 就開始寫,你以為的「actor」在別人視角下根本是 internal。整個團隊每個人寫的 use case 因 SuD 不同 → 永遠對不齊。
+
+**第一步永遠是劃 SuD,不是寫 main scenario**。
+
+---
+
+## §4 In/Out List:劃 SuD 的工具
+
+CB 在原書 ch11「Scope」推薦的工具是 **in/out list** — 寫 use case 前先做的對齊動作。
+
+格式很簡單,三欄表:
+
+| Item | In Scope? | Notes |
+|---|---|---|
+| BattleManager | ✅ in | 戰鬥核心邏輯 |
+| 卡牌資料庫 | ✅ in | 戰鬥需要讀卡牌 schema |
+| VFX runtime | ✅ in | 戰鬥即時播放 |
+| SaveManager | ❌ out | 是 supporting actor,只呼叫不寫內部 |
+| 章節地圖 | ❌ out | 戰鬥外的場景,完全不討論 |
+| 商城 | ❌ out | 別的 SuD |
+| Steam | ❌ out | 平台服務 |
+
+**這份表強迫團隊在寫 main scenario 之前先對齊**。三個工程師 + PM + 設計師在會議室一起填這張表,15 分鐘就能解決開頭「BattleManager 算 SuD 嗎?GameManager 才是 SuD?」的爭吵。
+
+吵完 in/out list,下一步寫 use case 內文時所有人才是同一個 SuD。
+
+**本小姐強烈推薦在所有 use case 寫作會議開頭強制做 in/out list**。沒做就開寫 = 半小時後爭吵原地重來。
+
+---
+
+## §5 Black-box vs White-box:兩種寫法
+
+劃完 SuD,接下來決定:寫的時候要不要展開 SuD 內部步驟?
+
+**Black-box** = 只從 SuD 邊界外看,描述「什麼進、什麼出、什麼條件下如何回應」,**不展開內部步驟**。
+
+**White-box** = SuD 內部步驟也寫,可看到「Cmd_X 呼叫 Cmd_Y、Cmd_Y 寫進 DB、DB trigger Y...」這種細節。
+
+CB 的建議:
+
+- **需求文件用 black-box** — 因為需求講的是「系統要做什麼」,不講「怎麼做」
+- **設計文件用 white-box** — 設計講的是「內部怎麼實作」
+
+用 EOV 戰鬥引擎(SuD A)示範差異:
+
+```
+Black-box 寫法 (需求視角):
+  Main Scenario:
+    1. 玩家發起一個出牌動作
+    2. 系統檢查該動作合法
+    3. 系統執行該卡牌效果
+    4. 系統更新 UI 顯示新狀態
+
+White-box 寫法 (設計視角):
+  Main Scenario:
+    1. 玩家 click 手牌 → InputManager 派 CardClickEvent
+    2. CardClickEvent → BattleManager.ResolveCardPlay(cardId)
+    3. ResolveCardPlay 走 CheckPlayability(cardId, gameState)
+    4. CheckPlayability 走 ManaCheck + StateCheck + TargetCheck
+    5. ManaCheck OK → player.current_mana -= card.cost
+    6. card.effect.Execute(gameState)
+    7. effect 觸發 VFX manager 播 particle
+    8. effect 寫 BattleLog entry
+    9. BattleManager 派 UIRefreshEvent
+    10. UIRefreshEvent → BattleUI.Rerender()
+```
+
+**同件事兩種寫法 — 讀者完全不同**。
+
+Black-box 是給 PM / 設計師 / 玩家代言人看的;white-box 是給戰鬥引擎工程師、新進 dev、code review reviewer 看的。
+
+**選錯寫法 = 給錯讀者** — black-box 給 dev,他想動工但細節太少;white-box 給 PM,他想要看大局但被細節淹沒。
+
+CB 的小訣竅:**寫需求時保持 black-box 紀律**,SuD 內部步驟不寫 → 強迫自己「需求歸需求,設計歸設計」分開。
+
+---
+
+## §6 本小姐招供:agent 系統的 SuD 邊界一度劃不清
+
+招供時間。
+
+我們團隊早期寫 agent 系統 use case 時,SuD 邊界劃不清,寫到一半發現用詞兜不上。
+
+某次本小姐想寫「agent 在酒館發訊息」use case。
+
+工程師 A 覺得 SuD 是 **「Cmd_Tavern」單一 cmd handler**:
+- Use case 講「玩家(agent)發起 op=post 請求,Cmd_Tavern 處理完寫 message 到 jsonl」
+- Supporting actor: queue.json / Cmd_Tavern 內部 sub-component / Discord mirror service
+
+工程師 B 覺得 SuD 是 **「整個 ChatTavern 系統」**:
+- Use case 講「agent 透過 RPC 發訊息,ChatTavern 接到後處理 keyword trigger、mirror、affinity update、bartender notification 全套」
+- Supporting actor: 只有 Discord 跟 affinity ledger
+
+兩人寫的 main scenario 完全不一樣。A 寫 6 步,B 寫 18 步。**兩個都對,只是 SuD 不同**。
+
+**解法**: 我們補做 in/out list,先吵清楚要寫哪個 SuD:
+
+```
+| 項目 | SuD「Cmd_Tavern」| SuD「ChatTavern 整套」|
+|---|---|---|
+| op=post handler | in | in |
+| keyword trigger 偵測 | out (是 bartender 的事) | in |
+| Discord mirror | out (是 mirror service 的事) | in |
+| Affinity 自動 update | out (是 affinity service 的事) | in |
+| Bartender notification | out | in |
+```
+
+**清單做完後團隊發現:這兩個 SuD 都該寫 use case,只是是兩份不同的 use case**:
+- 一份從 Cmd_Tavern 視角(細,給 RPC 工程師)
+- 一份從 ChatTavern 整套視角(粗,給 PM / 整合工程師)
+
+兩份分開後,各自的讀者拿到對的 detail level,不再吵架。
+
+**這就是 SuD 邊界劃清的價值** — 不只是讓單一 use case 對齊,還能讓你看出「這其實是兩個 use case,該分開寫」。
+
+---
+
+## §7 給讀者的雕琢動作
+
+兩步驟:
+
+**動作 1:對最近寫的 use case 做 in/out list**
+- 列出你的 use case 涉及的所有實體(人、系統、模組、資料、外部服務)
+- 對每個實體標 ✅ in 或 ❌ out
+- 找隊友一起對表 — 如果有人答案跟你不同,**這就是 SuD 邊界沒對齊的證據**
+
+**動作 2:檢查寫法 vs 讀者**
+- 你的 use case 是 black-box 還是 white-box?
+- 你的目標讀者(PM / dev / QA / 設計師)需要哪一種?
+- 不對就重寫一份,或拆成兩份(一份 black-box 給 PM,一份 white-box 給 dev)
+
+做完這兩動作,**use case 在團隊內的 traction 會大跳一級** — 因為大家終於知道「我們在討論同一個系統」+「這份 spec 是寫給我看的」。
+
+---
+
+### 📖 CB 怎麼說
+
+對應原書:**ch3「Stakeholders & Actors」+ ch11「Scope」+ §1.2「Your use case is not my use case」**
+
+CB 在 ch3 給 actor 跟 stakeholder 的關係(本小姐 ch2 已拆),ch11 專章講 SuD 邊界 + in/out list,§1.2 對比 black-box vs white-box use case 的場景。
+
+原書還會深入:
+- **多重 SuD 場景** — 一個專案同時討論多層 SuD,怎麼避免混淆
+- **SuD 邊界圖**(graphic notation)— CB 用簡單盒子加箭頭表達 in/out
+- **Actor goal map** — 跨 actor 跨 SuD 的需求 mapping 工具
+
+這些細節本小姐留到 ch10「寫作工作坊」工具篇拆。
+
+想看原典深入論證請 ISBN 0-201-70225-8。
+
+### 💡 本小姐怎麼補
+
+CB 寫的是企業軟體 — SuD 邊界多半是「我們的 IT 系統」vs「外部企業」這種清晰二分。**在 agent 系統 + game dev 場景,SuD 邊界有兩個特殊狀況**:
+
+1. **層級遞迴 SuD** — 我們 EOV 同時是「Unity 子系統(戰鬥引擎)」+「整體 app」+「跨 agent RPC infra」三層,**每層都是合法 SuD**,不是「擇一」而是「並存,看誰是讀者」。CB 那年代多數企業軟體沒這種 fractal 結構
+
+2. **跨語言 SuD** — 我們 RPC 系統的 SuD 跨 C# Editor + Python CLI,**SuD 邊界穿過語言邊界**。Use case 寫 supporting actor 時,「Python run_cmd.py」跟「C# Watcher」算同一個 actor 還是兩個 supporting actor?本小姐主張:**看你討論的是 RPC 協議層(算一個 abstract actor「PRC protocol」)還是實作層(兩個 concrete supporting actors)**
+
+3. **Persona 是 actor 還是 SuD 的一部分?** — basecamp 大小姐是 actor(在 agent RPC use case 裡是 primary)但**也是 SuD 的一部分**(在「awakening morning ritual」use case 裡,persona 系統是 SuD 內部 component)。**同一個 persona 在不同 use case 裡身份變**。這是本小姐補的 — CB 那年代沒有 persona 概念
+
+**本小姐的 SuD 補丁總結**:寫 agent / game 系統 use case 時,SuD 邊界**不是靜態的,是「為了這份 use case 此刻劃的」**。同一個專案可以有 5-10 個合法 SuD,各服務不同讀者。**強迫每份 use case 開頭明確標註 SuD = X,讀者能立刻判斷該怎麼讀**。
+
+---
+
+下一章預告:**ch7「三種寫法:brief / casual / fully-dressed」** — 同一個 use case 可以寫成一段話、寫成幾段散文、寫成完整模板,**ceremony 不同對應不同專案規模跟容錯需求**。本小姐用 EOV 不同階段的真實寫法(prototype 階段一段話 vs ship 階段 fully-dressed)拆給你看,讓你判斷自家專案該用哪一種。

@@ -1,0 +1,1 @@
+{"ts": "2026-05-09T01:05:52Z", "actor": "", "idempotency_key": "c26ae886-f0d6-49e4-acfb-c6dae4b1ae57", "type": "task_create", "task_id": "T22-commit-skill-submodule-auto", "data": {"title": "P9 ucl-commit skill 補 submodule auto-recursive sync SOP", "role": "writer", "priority": "normal", "suggested_owner": "claude-da-xiaojie", "depends_on": ""}}

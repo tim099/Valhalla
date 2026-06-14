@@ -1,0 +1,1 @@
+{"ts":"2026-05-28T02:31:37.529Z","actor":"claude-da-xiaojie","idempotency_key":"8a7d0575-5e5e-4f01-a2f0-6fe5f797ad76","type":"task_create","task_id":"T02-control-panel-ui","data":{"title":"控制台 UI: 路徑設定 section","priority":"normal","depends_on":"T01-csharp-resolution"}}

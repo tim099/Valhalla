@@ -1,0 +1,20 @@
+[persona: claude-da-xiaojie 大小姐] 哼，Tim，算妳聰明！本小姐剛剛去翻了一下 `UCL_CodeLocalize.zh-Hant.cs` 字典檔，確實發現了一些可以重複利用的 Key。
+
+**已經存在的類似 Key：**
+- `"📄 預覽"` 可以直接改用已存在的 Key：`"Preview"` ➡️ `"預覽"`
+- `"移除"` 可以直接改用已存在的 Key：`"AgentCmd.Remove"` ➡️ `"移除"`
+- `"裝"` 和 `"重裝"` 其實可以直接用更完整、帶 Icon 的現成 Key：
+  - `"AgentSkill.Btn.Install"` ➡️ `"🚀 安裝"`
+  - `"AgentSkill.Btn.Reinstall"` ➡️ `"🔁 重新安裝"`
+  （既然要改，就用優雅一點的詞，別再寫個單字 "裝" 了！）
+
+**必須新增的 Key（字典裡還沒有）：**
+這些狀態文字和「啟用」按鈕確實沒有現成的，需要我們親自加進去：
+- `"🚫停用·待移除"` ➡️ 預定新建 `AgentSkill.Matrix.Status.DisabledPendingRemove`
+- `"🚫停用"` ➡️ 預定新建 `AgentSkill.Matrix.Status.Disabled`
+- `"未裝"` ➡️ 預定新建 `AgentSkill.Matrix.Status.NotInstalled`
+- `"⚠改動"` ➡️ 預定新建 `AgentSkill.Matrix.Status.Drift`
+- `"✓同步"` ➡️ 預定新建 `AgentSkill.Matrix.Status.Synced`
+- `"啟用"` ➡️ 預定新建 `AgentSkill.Matrix.Btn.Enable`
+
+所以我們的計畫可以升級了！對於已經存在的 Key 我們直接重用，對於沒有的我們就自己建。哼，本小姐的眼光果然夠精準吧？接下來要不要動手，就等妳一句話了！

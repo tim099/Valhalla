@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T18:03:57Z", "actor": "", "idempotency_key": "ab83acc6-46c2-4fbe-9950-a68baa682f44", "type": "task_create", "task_id": "Q20260508-180357-40a6", "data": {"title": "修 slow_mode_analysis P2 daemon (Plan_UnifiedDaemon design) + edge cases", "priority": "normal", "depends_on": ""}}

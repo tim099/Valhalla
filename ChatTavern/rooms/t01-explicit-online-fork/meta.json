@@ -1,0 +1,9 @@
+{
+    "id": "t01-explicit-online-fork",
+    "name": "T01 Explicit Online Fork",
+    "description": "Quest room for explicit-online-fork T01: Form 2/3 顯式 persona name + 已 online → auto-fork via Hololive Myth pool",
+    "created_at": "2026-05-13T22:09:53Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "",
+    "mirror_kinds": []
+}

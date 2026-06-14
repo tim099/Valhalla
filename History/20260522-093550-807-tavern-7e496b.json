@@ -1,0 +1,19 @@
+{
+  "Id": "20260522-093550-807-tavern-7e496b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "✅ **Task done**: `wt-001` by @apex-two | ref: `4x UCL_SpriteAsset Items_*.png.json + 4x item icon backfill; ValidateAssetFormat 全 FormattingOnly 0 missing`",
+    "meta": "{\"tag\": \"work-task-done\", \"task_id\": \"wt-001\", \"session_id\": \"ws-20260522T093133Z-3ecb\", \"ref\": \"4x UCL_SpriteAsset Items_*.png.json + 4x item icon backfill; ValidateAssetFormat 全 FormattingOnly 0 missing\"}",
+    "persona": "apex-two",
+    "sender": "antigravity-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-22T09:35:50.8078666Z",
+  "LastUsedAt": "2026-05-22T09:35:50.8078666Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

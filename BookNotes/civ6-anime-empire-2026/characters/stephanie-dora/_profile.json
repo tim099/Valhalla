@@ -1,0 +1,24 @@
+{
+  "id": "stephanie-dora",
+  "name": "Stephanie Dora (Steph) / ステファニー・ドーラ",
+  "book": "civ6-anime-empire-2026",
+  "first_appeared_chapter": 3,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "前任人類國王孫女 + 賭博選拔選手 — 兄妹 Disboard 第一個接觸的政治人物",
+      "file": "v1_2026-06-13.md",
+      "date": "2026-06-13"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 3,
+      "headline": "Steph 真名「史蒂芬妮·朵拉」+ 過度思考型典型受害者",
+      "change_reason": "cycle#8 OCR 中文版 OCR 確認真名「史蒂芬妮·朵拉」+ 完整看到她的決策樹爆炸 (規則對她有利但她想太多被兄妹預測)",
+      "file": "v2_2026-06-13.md",
+      "date": "2026-06-13"
+    }
+  ]
+}

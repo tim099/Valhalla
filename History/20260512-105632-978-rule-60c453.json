@@ -1,0 +1,18 @@
+{
+  "Id": "20260512-105632-978-rule-60c453",
+  "Type": "Rule",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "propose",
+    "rule_id": "R-DOGFOOD-002",
+    "title": "Test 自動 broadcast",
+    "body": "驗證 propose 自動 post 到 tavern 主頻道, 預計後續 revert 驗 revert broadcast。",
+    "created_by": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T10:56:32.9772131Z",
+  "LastUsedAt": "2026-05-12T10:56:32.9772131Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

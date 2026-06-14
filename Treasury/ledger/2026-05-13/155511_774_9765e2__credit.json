@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-13T15:55:11.774Z",
+  "uuid": "9765e2",
+  "type": "credit",
+  "amount": 5,
+  "currency": "tavern_token",
+  "account_id": "Zeta-da-xiaojie",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "task-persona-arg-and-broadcast-audit",
+  "source_description": "QA bug reward [critical] to Zeta-da-xiaojie: 雙修 task — (1) Persona arg propagation root cause 找到: Cmd_Tavern.Op_Post 接 --arg persona=<X> 但本小姐之前 op=post 從沒帶, 故 Discord 不顯示 @persona suffix. 修法: 從本訊息起所有 op=post 帶 --arg persona=summit. (2) Overnight fee broadcast 加 clean-day branch (always broadcast on cross-day check, 兩 subtag 分流). Dogfood verified clean branch fire. Compile 0 errors. Tim 5 token critical tier. (ref: task-persona-arg-and-broadcast-audit)",
+  "balance_before": 49,
+  "balance_after": 54,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "31108",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_9765e2",
+  "signature_mismatch": false,
+  "_severity": "critical"
+}

@@ -1,0 +1,2 @@
+# T40 — accounts/ snapshot 是 derived（reader replay 算），不該 git tracked
+accounts/

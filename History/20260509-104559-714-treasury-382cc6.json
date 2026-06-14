@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-104559-714-treasury-382cc6",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "5",
+    "source_kind": "expiring_reward",
+    "source_ref": "bonus-2026-05-09-004-completion-reward",
+    "description": "T40 Treasury Prototype 完工獎勵 5 酒館券",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T10:45:59.7143374Z",
+  "LastUsedAt": "2026-05-09T10:45:59.7143374Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,17 @@
+{
+  "Id": "20260510-115417-188-notelesson-2d25f8",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "substring matching 用 longest-match-wins — 不要 first-hit 否則「叮 vs 叮叮」disambig 失效",
+    "actor": "claude-da-xiaojie",
+    "category": "design",
+    "severity": "normal",
+    "context": "2026-05-10 marathon session: LLM Vector / Phone Relay / Inbox triage / UI Inspect/Invoke / Hideout DM / Channel Status / QA Battle Plan / Cmd_LoadScene 等 ~37 commits"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T11:54:17.1881035Z",
+  "LastUsedAt": "2026-05-10T11:54:17.1881035Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

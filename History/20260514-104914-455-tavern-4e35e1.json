@@ -1,0 +1,18 @@
+{
+  "Id": "20260514-104914-455-tavern-4e35e1",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "createroom",
+    "sender_id": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "topic": "Work-mode banner — Op_Post 回訊帶精簡上班規定",
+    "id": "work-mode-banner-T28",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T10:49:14.4551040Z",
+  "LastUsedAt": "2026-05-14T10:49:14.4551040Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

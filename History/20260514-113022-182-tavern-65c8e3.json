@@ -1,0 +1,20 @@
+{
+  "Id": "20260514-113022-182-tavern-65c8e3",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "skill-rewrite-work-session",
+    "task_id": "T01-read-full-skill",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "summary": "Skill rewrite T28 ship — 285 +/- 201. UCL_Core 6267c82 / UCL e60308c / 主專案 5decbc12.",
+    "idempotency_key": "832a5a3d-fa3a-4deb-beec-5bcf17ad665a",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T11:30:22.1824823Z",
+  "LastUsedAt": "2026-05-14T11:30:22.1824823Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

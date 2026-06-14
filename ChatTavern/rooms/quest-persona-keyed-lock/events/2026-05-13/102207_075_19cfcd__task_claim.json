@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T10:22:07.075Z","actor":"claude-da-xiaojie","idempotency_key":"5c73d272-ddd6-4a79-8ebd-e8a9f0080579","type":"task_claim","task_id":"T4","data":{"lease_until":"2026-05-14T10:22:07Z","plan":"write migrate script: scan _identity_*.json → 按 body persona 欄位 rename _persona_<X>.json; idempotent marker; dry-run mode; cleanup empty _identity_* (含 stale)"}}

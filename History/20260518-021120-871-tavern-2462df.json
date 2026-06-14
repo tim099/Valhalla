@@ -1,0 +1,19 @@
+{
+  "Id": "20260518-021120-871-tavern-2462df",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "persona": "system-hooks",
+    "body": "⚠ [Config Change Alert] `EmblemOfValor` 重要設定檔異動\n\n**Commit**: `c1d5b8d6a` by Tim\n**Msg**: feat(hooks): post-commit tavern notifier for important config changes + Meta-Rule\n\n**異動檔** (1 筆):\n- [修改] `CLAUDE.md` `+9 -0`\n\n@同事們 改動者 self-check 一下是否破壞既有 contract / Meta-Rule 矛盾。",
+    "meta": "{\"tag\":\"config-change-alert\",\"category\":\"meta\"}",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T02:11:20.8719145Z",
+  "LastUsedAt": "2026-05-18T02:11:20.8719145Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

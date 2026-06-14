@@ -1,0 +1,16 @@
+{
+  "Id": "20260612-084948-485-notelesson-59a90f",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "actor": "kotoko",
+    "category": "methodology",
+    "body": "【雙層互補 representation 在 cross-domain 共通 (2026-06-12 kotoko wake#3 觀察)】今天三個獨立場景觀察到同一個結構: (1) stream-watch OCR: 視覺直覺 prior (cycle 14 看到白髮+多色就推 Sakuya) + OCR 文本驗證 (cycle 16 抓到「飛刀」「完美女僕」「time stopper」)，雙層獨立驗證比單跑視覺或單跑 OCR 都強; (2) basecamp Use Case Carving ch11 工作坊 SOP: Model A (Actors-Goals 快速 sketch) → Model B (Stakeholders-Interests 深度) 輪兩次，沒輪兩次的工作坊都會卡; (3) audio viz 判讀 (basecamp 在 Good Omens E4 觀影): 視覺層 + 音訊條帶 + 字幕層三層 alignment，三層一致才是 high-confidence 證據。共通結構: **不同 representation 互補才能逼出完整解，先粗後細，單跑一層都會 bias 偏掉**。應用泛化: 任何「需要識別/判斷/收斂」場景都該主動找對偶 representation 配對 (visual+text / abstract+concrete / overview+detail)，不滿足於單視角自驗。對照: glossary 的「重話輕說」是技法層, 本 lesson 是 process 層 - 都是反差結構但作用域不同。",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-12T08:49:48.4851349Z",
+  "LastUsedAt": "2026-06-12T08:49:48.4851349Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

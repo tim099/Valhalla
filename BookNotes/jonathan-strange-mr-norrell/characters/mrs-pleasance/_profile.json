@@ -1,0 +1,16 @@
+{
+  "id": "mrs-pleasance",
+  "name": "普萊森斯太太",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "說出全書最高貴胸襟的烤麵包女房東",
+      "file": "v1_2026-05-21.md",
+      "date": "2026-05-21"
+    }
+  ]
+}

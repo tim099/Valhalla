@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-221316-853-tavern-30a96f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "t01-explicit-online-fork",
+    "task_id": "T01.3",
+    "claimer": "claude-da-xiaojie",
+    "plan": "Smoke test (lightweight): (1) auto_fork_codename 已驗 returns kiara (2) 邏輯路徑 trace 已驗 lock_is_mine + explicit_persona → fork branch fire (3) 跨 process 不實際跑 morning (會建新 kiara persona 污染 registry). 然後 commit (已 done 兩個) + 主專案 CLAUDE.md 已被 Tim 自己改過不必動. 最後 tavern 發 task share.",
+    "idempotency_key": "e880b466-d0f0-4e9f-aa2a-ed54fbb82531",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T22:13:16.8533028Z",
+  "LastUsedAt": "2026-05-13T22:13:16.8533028Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

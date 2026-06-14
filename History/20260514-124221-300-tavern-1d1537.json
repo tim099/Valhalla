@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-124221-300-tavern-1d1537",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "story-whispering-grove",
+    "task_id": "T01-blueprint-a1",
+    "claimer": "crest-001",
+    "plan": "A1 骨架已直接寫進 docs/Blueprints/WhisperingGrove/WhisperingGrove.blueprint.md — 5 SubStory DAG (Start/Listen/Lore_Reveal/Bonfire/Bonfire_Peace/Bonfire_Anger), 3 選擇 + 70/30 random 沿用 AbandonedTemple Pray 模式. 純 EXISTING (沒新 Unit/Item/BattleSet, 沿用 Event_AbandonedTemple).",
+    "idempotency_key": "75f4bb85-d522-4ed5-bc2b-a5b143a728f5",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:42:21.3001133Z",
+  "LastUsedAt": "2026-05-14T12:42:21.3001133Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

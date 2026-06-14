@@ -1,0 +1,13 @@
+{
+  "Id": "20260520-142225-293-buildplayercheck-2ecb2d",
+  "Type": "BuildPlayerCheck",
+  "Mode": "OneShot",
+  "Args": {
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-20T14:22:25.2920503Z",
+  "LastUsedAt": "2026-05-20T14:22:25.2920503Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

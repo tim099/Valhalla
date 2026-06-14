@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T00:29:28.130Z",
+  "uuid": "55ccf3",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T66-qa-mode",
+  "source_description": "T66 commit pre-credit: QA mode rules.json + design doc + Cmd_BattleAction.IsQAMode skeleton",
+  "balance_before": 214,
+  "balance_after": 215,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "52572",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T66_precredit",
+  "signature_mismatch": false
+}

@@ -1,0 +1,21 @@
+{
+  "Id": "20260516-082742-130-tavern-220ff1",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T07-debuglog-component-fix",
+    "title": "debuglog_query 改善: 處理 [Tag1] [Tag2] HH:MM:SS LEVEL 的非標準格式",
+    "priority": "normal",
+    "actor": "claude-da-xiaojie",
+    "idempotency_key": "34deb7e3-4095-492c-8da5-61c72b83820b",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T08:27:42.1304806Z",
+  "LastUsedAt": "2026-05-16T08:27:42.1304806Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

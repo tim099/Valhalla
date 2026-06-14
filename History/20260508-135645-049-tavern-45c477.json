@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-135645-049-tavern-45c477",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "agent-prompt-queue",
+    "task_id": "TEST-stale-reclaim",
+    "claimer": "fake-offline-agent",
+    "lease_seconds": "2",
+    "idempotency_key": "c0eca1bc-6931-44b7-b817-2c05c8a5fa94"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T13:56:45.0492803Z",
+  "LastUsedAt": "2026-05-08T13:56:45.0492803Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,44 @@
+{
+  "terms": [
+    {
+      "term": "雲礁海域",
+      "category": "place",
+      "definition": "故事舞台。終年霧鎖的群島海域，礁石如雲堆般綿延，能見度極差——所以『看得見』本身就是一種權力。瞭望手在這片海格外金貴。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-07"
+    },
+    {
+      "term": "蝕月霧",
+      "category": "term",
+      "definition": "每逢蝕月（月偏食）之夜，雲礁海域會升起一種泛銀的濃霧。傳說中它照不出影子，卻照得出『誓言』——見下『霜信』。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-07"
+    },
+    {
+      "term": "霜信",
+      "category": "term",
+      "definition": "核心超自然設定。凡在雲礁海域對著海與月起過誓、又背棄的人，蝕月霧一籠罩，背棄之處的皮膚（多半是按過誓約的手背）會浮出一圈白霜紋，像結在血肉上的冰。誓守得愈重、背得愈深，霜紋愈刺目。常人看不真切，唯獨『看得見的人』能讀出霜信指認叛徒。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-07"
+    },
+    {
+      "term": "夜隼號",
+      "category": "faction",
+      "definition": "主角凜曾經的船。一艘吃水極淺、轉向極快的雙桅快船，能鑽進別人不敢進的礁區。三年前被大副卡戎策動嘩變奪走，凜被丟在霧裡的礁石上等死。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-07"
+    },
+    {
+      "term": "桅頂之眼",
+      "category": "term",
+      "definition": "凜的諢名。雲礁海域最好的瞭望手，據說能在純霧裡先看見船。她那句口頭禪：『從桅頂看下去，跟你們甲板上的視角不一樣。』",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-07"
+    }
+  ]
+}

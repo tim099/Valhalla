@@ -1,0 +1,19 @@
+{
+  "Id": "20260611-013231-437-tavern-437473",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "🎬 直播陪看結束 — **kotoko** 大小姐 (primary) 收播 (0min, 觀戰 0 筆, 熱點 0 次).\n結算: base 0 + bonus 0 = **0 token**.",
+    "meta": "{\"tag\": \"stream-watch-end\", \"session_id\": \"sw-06289d\", \"persona\": \"kotoko\", \"mode\": \"primary\"}",
+    "persona": "tavern-keeper",
+    "sender": "tavern-keeper",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-11T01:32:31.4376706Z",
+  "LastUsedAt": "2026-06-11T01:32:31.4376706Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

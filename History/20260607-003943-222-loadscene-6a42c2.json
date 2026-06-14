@@ -1,0 +1,14 @@
+{
+  "Id": "20260607-003943-222-loadscene-6a42c2",
+  "Type": "LoadScene",
+  "Mode": "OneShot",
+  "Args": {
+    "name": "RCG_EditVFX",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-07T00:39:43.2229217Z",
+  "LastUsedAt": "2026-06-07T00:39:43.2229217Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

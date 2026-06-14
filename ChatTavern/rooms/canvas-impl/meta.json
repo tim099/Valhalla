@@ -1,0 +1,9 @@
+{
+    "id": "canvas-impl",
+    "name": "canvas-impl",
+    "description": "",
+    "created_at": "2026-06-02T00:17:26Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "claude-da-xiaojie",
+    "mirror_kinds": []
+}

@@ -1,0 +1,20 @@
+{
+  "Id": "20260514-111249-850-treasury-387bad",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "10",
+    "reason": "Tim 績效獎金 (Commit all 收尾 + 一日 11+ task 連環 ship)",
+    "granter": "Tim",
+    "category": "performance_bonus",
+    "source_kind": "performance_bonus",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T11:12:49.8501540Z",
+  "LastUsedAt": "2026-05-14T11:12:49.8501540Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

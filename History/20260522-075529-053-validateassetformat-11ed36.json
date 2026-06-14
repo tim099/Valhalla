@@ -1,0 +1,17 @@
+{
+  "Id": "20260522-075529-053-validateassetformat-11ed36",
+  "Type": "ValidateAssetFormat",
+  "Mode": "OneShot",
+  "Args": {
+    "assetType": "RCG_ItemData",
+    "assetId": "RavenKingProphecy",
+    "checkRefs": "1",
+    "outputPath": "CardGame/AgentCommands/asset_format_check_RCG_ItemData_RavenKingProphecy.md",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-22T07:55:29.0539220Z",
+  "LastUsedAt": "2026-05-22T08:00:21.0987071Z",
+  "Source": "Agent",
+  "UseCount": 3
+}

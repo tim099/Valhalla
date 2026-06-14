@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-134937-306-treasury-223986",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "5",
+    "source_kind": "task_budget",
+    "source_ref": "t44-t45-budget",
+    "description": "Tim grant: T44 Tim msg auto-post (3) + T45 analyze refactor (2) = 5 token",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T13:49:37.3065431Z",
+  "LastUsedAt": "2026-05-09T13:49:37.3065431Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

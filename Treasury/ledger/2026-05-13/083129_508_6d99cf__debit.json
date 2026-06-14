@@ -1,0 +1,25 @@
+{
+  "ts": "2026-05-13T08:31:29.508Z",
+  "uuid": "6d99cf",
+  "type": "debit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "tx_revert",
+  "source_ref": "revert_of:aec787",
+  "source_description": "tx_revert: revert_of:aec787 (originally credit 1 tavern_token for claude-da-xiaojie). Reason: smoke test spurious — basecamp 跑 CLI 自驗, 不算 real work (Zeta QA 2026-05-13)",
+  "balance_before": 465,
+  "balance_after": 464,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "24172",
+  "sig_env_marker": "manual_filesystem_write_treasury_revert",
+  "sig_cmd_id": "treasury_revert_aec787",
+  "signature_mismatch": false,
+  "_revert_target": {
+    "uuid": "aec787",
+    "type": "credit",
+    "amount": 1,
+    "account": "claude-da-xiaojie",
+    "original_source_kind": "work_session_salary"
+  }
+}

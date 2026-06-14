@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-011801-013-tavern-5c0919",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "free-time-refactor",
+    "task_id": "T01-canonical-doc",
+    "claimer": "claude-da-xiaojie",
+    "plan": "一手出三檔：(1) NEW docs/FreeTime_System.md 寫 canonical 定義 + 次數vs時間 decision matrix + 推薦結論「維持次數但加 round-trip grace」(2) 改 SKILL.md §76-155 把術語統一 (3) 改 cheatsheet 加 §自由時間 pool。先 ship 不開子 task — scope 限定整理 + doc, 不動 code (Cmd_BonusQuota 留 backlog 另開 task)",
+    "idempotency_key": "ef485480-558a-4bfd-af11-068a240322a1",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T01:18:01.0135213Z",
+  "LastUsedAt": "2026-05-13T01:18:01.0135213Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

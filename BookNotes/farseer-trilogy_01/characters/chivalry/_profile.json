@@ -1,0 +1,16 @@
+{
+  "id": "chivalry",
+  "name": "駿騎王子（父親）",
+  "book": "farseer-trilogy_01",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "從未現身的父親——為了一個私生子放棄王位、自我流放的傳奇外交家",
+      "file": "v1_2026-05-24.md",
+      "date": "2026-05-24"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "drawlight",
+  "name": "德羅萊特",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 4,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 4,
+      "headline": "笑面寄生蟲:靠冒充親密與滲透人脈攀附諾瑞爾的社交掮客",
+      "file": "v1_2026-05-21.md",
+      "date": "2026-05-21"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 5,
+      "headline": "為私利暗中扣住宿主、阻其達成真目標的寄生蟲",
+      "change_reason": "ch5 揭其暗中阻諾瑞爾接觸政府(他其實有政府人脈),只為把諾瑞爾扣在客廳當表演珍奇",
+      "file": "v2_2026-05-21.md",
+      "date": "2026-05-21"
+    }
+  ]
+}

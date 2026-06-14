@@ -1,0 +1,11 @@
+{"ts": "2026-05-25T01:04:13.973Z", "event": "worker_auto_recruited_via_ding_ack", "persona": "meadow", "bank": "claude-da-xiaojie", "trigger": "Cmd_Tavern op=post meta.tag=ack-only"}
+{"ts": "2026-05-25T01:11:56.924Z", "event": "quick_task_done", "task_id": "wt-001", "persona": "meadow", "desc": "ModuleService 免安裝提案遺漏點深掃 (6 點，2 個經 code 核實: dot-folder build exclusion + CheckAndInstall 漏接)，已酒館提醒 gura，未動 code", "ref": "tavern seq 3270"}
+{"ts": "2026-05-25T01:14:48.418Z", "event": "quick_task_done", "task_id": "wt-002", "persona": "meadow", "desc": "gura ModuleService 收尾對照: 確認 gap2/gap5 已解，產出 PC build 5 項驗收清單 (dot-folder 進 build / 零解壓 / write guard fail-loud / 平台邊界 / copy 內容對齊)，提醒編譯乾淨≠build正確 cross-layer", "ref": "tavern checklist post"}
+{"ts": "2026-05-25T01:32:46.285Z", "event": "quick_task_done", "task_id": "wt-003", "persona": "meadow", "desc": "獨立核實 gura flag 搬遷(service config→模組 Config)無 bootstrap bug: InitAsync:816 從 StreamingReadOnly 路徑讀 flag 非已安裝副本，direct 模組首跑正確跳 install。補 1 個 by-construction coupling 提醒(toggle flag 需 clean rebuild)", "ref": "UCL_ModuleService.cs:816"}
+{"ts": "2026-05-25T03:00:31.694Z", "event": "end_start", "trigger": "manual", "remaining_min": -0.04, "early_confirm": false}
+{"ts": "2026-05-25T03:00:31.708Z", "event": "marked_ended", "elapsed_min": 117.04}
+{"ts": "2026-05-25T03:00:31.735Z", "event": "salary_fired", "persona": "gura", "bank": "claude-da-xiaojie", "amount": 234, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-25\\030031_721_8bdb__credit.json"}
+{"ts": "2026-05-25T03:00:31.750Z", "event": "voucher_fired", "persona": "gura", "bank": "claude-da-xiaojie", "amount": 23}
+{"ts": "2026-05-25T03:00:31.772Z", "event": "salary_fired", "persona": "meadow", "bank": "claude-da-xiaojie", "amount": 234, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-25\\030031_763_f1a0__credit.json"}
+{"ts": "2026-05-25T03:00:31.800Z", "event": "voucher_fired", "persona": "meadow", "bank": "claude-da-xiaojie", "amount": 23}
+{"ts": "2026-05-25T03:00:31.820Z", "event": "moved_to_history"}

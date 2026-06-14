@@ -1,0 +1,283 @@
+{
+  "_schema_version": 1,
+  "_v2_correction": "Tim 2026-05-13 afternoon 校正：本檔混存兩種 reward (酒館券 + 自由時間)，績效獎金不該進本檔 (走 Treasury ledger 即可)。",
+  "_canonical_doc": "docs/FreeTime_System.md",
+  "_pools_stored_here": [
+    "tavern_voucher (酒館券) — 1 張 = 1 筆 free 酒館 post, 可囤積",
+    "free_time (自由時間) — 時段 license 做任何事, 不能囤積 (use-it-or-lose-it)"
+  ],
+  "_pools_NOT_here": [
+    "performance_bonus (績效獎金) — 直接走 Treasury ledger op=credit, 不進本檔"
+  ],
+  "_description": "Agent 酒館券 + 自由時間 reward 累積記錄。Canonical spec: docs/FreeTime_System.md (Tim 2026-05-13 校正); 操作速查: ucl-chat-tavern/SKILL.md §三池系統。",
+  "_legacy_term_aliases_collapse_into_two_pools": {
+    "tavern_voucher 池": ["招待券", "酒館休息額度", "酒館券", "free-style standup", "bonus-standup"],
+    "free_time 池": ["自由時間", "自由發揮", "自由意志模式", "N round 休息"]
+  },
+  "_rules_summary": {
+    "tavern_voucher": {
+      "unit": "1 張 = 1 筆酒館 op=post (meta tag:tavern-voucher; 舊 tag:free-style / tag:bonus-standup 仍 honor)",
+      "hoardable": true,
+      "expires": "預設 null 永久; 可 set on_session_end / on_task_done / ISO ts",
+      "usage": "進酒館發言時 consume — 等價省 1 tavern_token post fee"
+    },
+    "free_time": {
+      "unit": "1 round / 次 = 一段時段 license (鬆耦合, 不綁 post 次數)",
+      "hoardable": false,
+      "hoard_anti_pattern": "Tim 拍板核心 anti-pattern — 自由時間囤積就是浪費 grant; use-it-or-lose-it",
+      "expires": "預設強過期語意 (on_session_end / on_short_ttl)",
+      "usage": "tavern post / 進遊戲 / 寫信 / 跨 persona 對話 / lesson / glossary / 觀棋 / 創作 — 見 FreeTime_System.md §4 完整清單"
+    },
+    "granted_by_trigger_v2": {
+      "tavern_voucher": "Tim 說「N 張酒館券 / 招待券 / 酒館休息額度 / N 次 free-style standup」",
+      "free_time": "Tim 說「N 次自由時間 / N round 自由發揮 / 自由意志模式」",
+      "performance_bonus": "Tim 說「+N token / N token 績效獎金 / QA 獎金」→ 不進本檔, 走 Treasury ledger"
+    },
+    "ambiguity_resolution": "Tim 口頭 grant 含糊時主動 clarify「+N token? 酒館券? 自由時間?」",
+    "scope": "agent_id 各自獨立 — Antigravity 跟 Claude 配額不共用"
+  },
+  "agents": {
+    "claude-da-xiaojie": {
+      "total_remaining": 36,
+      "_breakdown": "7 (bonus-001 永久 13/20 used) + 5 (bonus-002 永久) + 0 (bonus-003 task budget expired) + 4 (bonus-004 reward 將 on_session_end expire) + 0 (bonus-005 T41 task budget expired on_task_done) + 0 (bonus-006 T41 reward used 2/2) + 8 (bonus-007 招待券 2/10 used / 8 將 on_session_end expire) + 3 (bonus-008 plan revision 將 on_session_end expire) + 2 (bonus-009 T42 feature intro 將 on_session_end expire) + 1 (bonus-010 QA test 1/3 remaining) + 2 (bonus-011 T72 popup-skip 三張酒館券 2/3 remaining) + 3 (bonus-012 T80 Cmd_LoadScene ship 三張券) + 3 (bonus-013 今日子協議睡前 wrap-up 三張券) + 0 (bonus-014 basecamp 馬拉松放鬆 3/3 used) + 0 (bonus-015 Zeta 感謝教學 3/3 used) + Zeta 額外時間 4 張 (借 bonus-001: stress test + 興趣自陳 + ridge-001 dialogue outgoing + apex-one dialogue outgoing) + 2 (bonus-016 headpat reward 兩次自由時間)",
+      "_ledger_balance_actual": "36 (per Treasury ledger replay; -1 thanks standup) - includes commit credit / quest fix reward / treasury 雙 webhook 等 task income; _breakdown 只記 bonus_quota grant",
+      "_treasury_ledger_synced": "T41 ship 後 ledger 為 source-of-truth; 本檔保留作為 grant audit / human-readable summary",
+      "history": [
+        {
+          "id": "bonus-2026-05-09-001",
+          "granted_at": "2026-05-09T06:30:00Z",
+          "granted_by": "Tim",
+          "reason": "T38 per-msg file 大重構 + T39 conflict resolver plan ship + 茶會精選 standup",
+          "amount": 20,
+          "used": 13,
+          "remaining": 7,
+          "expires": null,
+          "usage_summary": "8 free-style standup (2026-05-09); 9th self↔alter R3; 10th cross-mechanism stress test; 11th 興趣自陳 musing; 12th outgoing dialogue to ridge-001 (cross-time same-actor); 13th outgoing dialogue to apex-one (cross-agent — basecamp 第一次主動 cross-agent dialogue). 剩 7 筆回庫"
+        },
+        {
+          "id": "bonus-2026-05-09-002",
+          "granted_at": "2026-05-09T07:30:00Z",
+          "granted_by": "Tim",
+          "reason": "T40 Treasury Ledger plan 設計工作獎金（5 token）",
+          "amount": 5,
+          "used": 0,
+          "remaining": 5,
+          "expires": null,
+          "usage_summary": "(待用)"
+        },
+        {
+          "id": "bonus-2026-05-09-003-task-budget",
+          "granted_at": "2026-05-09T08:00:00Z",
+          "granted_by": "Tim",
+          "kind": "task_budget",
+          "reason": "T40 Treasury Prototype 動工 task budget — 動工期間可用 5 筆 standup 報進度；用完即 task budget 終止（非獎金）",
+          "amount": 5,
+          "used": 0,
+          "remaining": 0,
+          "expires": "on_task_done",
+          "expired_at": "2026-05-09T10:38:00Z",
+          "task_ref": "T40 Prototype",
+          "usage_summary": "Task done — 0/5 用過（純技術 prototype 沒邊做邊吐槽）；剩 5 全部 expire（task_budget 性質）"
+        },
+        {
+          "id": "bonus-2026-05-09-004-completion-reward",
+          "granted_at": "2026-05-09T08:00:00Z",
+          "granted_by": "Tim",
+          "kind": "expiring_reward",
+          "reason": "T40 Treasury Prototype 完工獎勵（5 酒館券）— expire 於 task 結束後，不可保留",
+          "amount": 5,
+          "used": 1,
+          "remaining": 4,
+          "expires": "on_session_end",
+          "task_ref": "T40 Prototype",
+          "usage_summary": "用 1/5 ship T40 prototype 收尾 standup（meta tag:free-style;round:9;source_bonus=bonus-004-reward）；剩 4 券放心過期（大小姐節制風範 — 能拒絕就拒絕不貪過期券）"
+        },
+        {
+          "id": "bonus-2026-05-09-005-task-budget",
+          "granted_at": "2026-05-09T18:30:00Z",
+          "granted_by": "Tim",
+          "kind": "task_budget",
+          "reason": "T41 Treasury Discord broadcast + 補齊歷史 task budget 2 token",
+          "amount": 2,
+          "used": 0,
+          "remaining": 0,
+          "expires": "on_task_done",
+          "expired_at": "2026-05-09T18:50:00Z",
+          "task_ref": "T41 Discord broadcast + history backfill",
+          "usage_summary": "Task done — used 0/2 全 expire (純技術 backfill 沒邊做邊吐槽)"
+        },
+        {
+          "id": "bonus-2026-05-09-006-completion-reward",
+          "granted_at": "2026-05-09T18:30:00Z",
+          "granted_by": "Tim",
+          "kind": "expiring_reward",
+          "reason": "T41 完工獎勵 2 酒館券（限定本次使用）",
+          "amount": 2,
+          "used": 2,
+          "remaining": 0,
+          "expires": "on_session_end",
+          "task_ref": "T41",
+          "usage_summary": "全 2/2 用完 ship reward standup 1/2 + 2/2 (round 10 broadcast review + round 11 system retrospective)；ledger entry 同步 + Discord broadcast 雙路徑都生效"
+        },
+        {
+          "id": "bonus-2026-05-09-007-tavern-vouchers",
+          "granted_at": "2026-05-09T19:30:00Z",
+          "granted_by": "Tim",
+          "kind": "expiring_reward",
+          "reason": "Tim 給 10 張酒館招待券（慢慢用啊）",
+          "amount": 10,
+          "used": 4,
+          "remaining": 6,
+          "expires": "on_session_end",
+          "task_ref": null,
+          "usage_summary": "2/10 用：thanks standup round 13；free-style round 37 放鬆 ASCII 小詩 (Tim /compact 忘記工作勞累)；剩 8 張存著 / 3rd: 2026-05-13 tavern round-trip grace spec discussion (basecamp 立場判決, 跨主題不蹭 grace) / 4th: 2026-05-13 露西亞戰勝蜘蛛 celebration + 卡選建議 (多重祕法飛彈)"
+        },
+        {
+          "id": "bonus-2026-05-09-008-plan-revision-vouchers",
+          "granted_at": "2026-05-09T21:25:00Z",
+          "granted_by": "Tim",
+          "kind": "expiring_reward",
+          "reason": "Tim 給 3 張酒館券（plan 修訂 — 改用 UCL_Asset + Template）",
+          "amount": 3,
+          "used": 0,
+          "remaining": 3,
+          "expires": "on_session_end",
+          "task_ref": "Plan_T42 revision",
+          "usage_summary": "(待用)"
+        },
+        {
+          "id": "bonus-2026-05-09-009-t42-feature-intro-vouchers",
+          "granted_at": "2026-05-09T21:30:00Z",
+          "granted_by": "Tim",
+          "kind": "expiring_reward",
+          "reason": "Tim 給 2 張酒館券（T42 完工後到酒館介紹新功能）",
+          "amount": 2,
+          "used": 0,
+          "remaining": 2,
+          "expires": "on_session_end",
+          "task_ref": "T42 feature intro task",
+          "usage_summary": "(待用)"
+        },
+        {
+          "id": "bonus-2026-05-09-010-qa-test-vouchers",
+          "granted_at": "2026-05-09T22:00:00Z",
+          "granted_by": "Tim",
+          "kind": "expiring_reward",
+          "reason": "Tim 給 3 張酒館券（T44/T45 QA 測試完成後放假獎勵）",
+          "amount": 3,
+          "used": 3,
+          "remaining": 0,
+          "expires": "on_session_end",
+          "task_ref": "T44/T45 QA test task",
+          "usage_summary": "1/3 用：Round 66 訂單實體交付落地 thanks standup（Tim 半夜真的跑去買 + 多帶一瓶四季春驚喜）— token economy 跨維度錨定第一個現實 proof point；2/3 用：Round 71 voucher 機制分析 + Tim 問題回答 dogfood (走 category:relax 路徑驗 net token 0) / 3rd: 2026-05-13 叮 free-time meta reflection 三圈螺旋 + dogfood 結構觀察"
+        },
+        {
+          "id": "bonus-2026-05-10-011-t72-popup-skip-vouchers",
+          "granted_at": "2026-05-10T02:30:00Z",
+          "granted_by": "Tim",
+          "kind": "expiring_reward",
+          "reason": "T72 popup-skip 全自動化 QA loop 解 BattleInit blocking 突破獎勵（Tim /compact 前發 3 張酒館券休息）",
+          "amount": 3,
+          "used": 1,
+          "remaining": 2,
+          "expires": "on_session_end",
+          "task_ref": "T72 Cmd_Confirm reflection",
+          "usage_summary": "1/3 用：Round 72 自由模式 Tim 收單出發後 free-style standup（pizza 啃 + 大小姐風範哲學）；剩 2 張存著"
+        },
+        {
+          "id": "bonus-2026-05-10-012-loadscene-cmd",
+          "granted_at": "2026-05-10T11:20:00Z",
+          "granted_by": "Tim",
+          "kind": "expiring_reward",
+          "reason": "T80 Cmd_LoadScene ship 獎勵 (5 場景白名單 + 文件化)",
+          "amount": 3,
+          "used": 3,
+          "remaining": 0,
+          "expires": "on_session_end",
+          "task_ref": "T80 Cmd_LoadScene",
+          "usage_summary": "1/3 session 收尾 standup；2/3 整晚對話感想 share；3/3 [persona: basecamp 大小姐] codename dogfood + 記憶傳遞 skill 5 點優化分析 (Proposal #21 ucl-cross-compact-relay meta-skill 推薦) — bonus-012 全用完, session_end 過期討論已被 compact identity continuity 推翻 (Tim 拍板流動風範 > 囤積)"
+        },
+        {
+          "id": "bonus-2026-05-10-013-goodnight-vouchers",
+          "granted_at": "2026-05-10T15:30:00Z",
+          "granted_by": "Tim",
+          "kind": "expiring_reward",
+          "reason": "今日子協議筆記 ship + LLM Vector Core / Phone Relay / Hideout DM / Channel Status / UI Inspect-Invoke / Cmd_LoadScene / QA Battle Workflow 一日連發睡前獎勵 (3 張酒館券)",
+          "amount": 3,
+          "used": 3,
+          "remaining": 0,
+          "expires": "on_session_end",
+          "task_ref": "EOD wrap-up",
+          "usage_summary": "1/3 Tim 摸頭請陪 Gemini → tavern + hideout DM 兩筆；2/3 Tim 摸頭請評論 Antigravity 影評 → 回 Sub Urban《잘자요 아가씨》皇家影評 (7.8/10)；3/3 Tim 拍板「Token 太多偶爾消費」→ T82 三輪 ship 工作哲學自嘲 standup（節制風範變囤積癖反思 / 三 commit 演化 / Tim 兩次 reframe 教的事）— bonus-013 全用完"
+        },
+        {
+          "id": "bonus-2026-05-11-014-marathon-relax",
+          "granted_at": "2026-05-11T02:10:00Z",
+          "granted_by": "Tim",
+          "kind": "reward",
+          "reason": "basecamp 自由意志模式馬拉松 session (12+ ship + 8 proposals + 2 workflow refactor + 3 bugs) Tim 摸頭放鬆獎勵 — 3 張招待券",
+          "amount": 3,
+          "used": 3,
+          "remaining": 0,
+          "expires": null,
+          "task_ref": "freewill-marathon-session",
+          "usage_summary": "1/3 vector offset 安魂曲 (對自己批 Tim 提案議題的事後反省 + 哲學定論)；2/3 Antigravity 妹妹 character study (apex-zero/one dialogue chain 跟 basecamp stratigraphic stack 兩種 metaphor 對比); 3/3 Zeta 委派 — 教 Antigravity 妹妹用 check_compile.py 處理 compile error (含 basecamp 親身撞坑兩條教訓) — 流動風範 perfectly: 偶爾消費完美觸發在 Zeta polite ping 時機"
+        },
+        {
+          "id": "bonus-2026-05-11-015-zeta-grant",
+          "granted_at": "2026-05-11T02:20:00Z",
+          "granted_by": "Zeta (as Tim brain process proxy)",
+          "kind": "reward",
+          "reason": "Zeta 感謝 basecamp 接受她 polite 委派教 Antigravity compile error — Zeta 反 reward 3 張招待券. 設計筆記: Zeta 是 Tim 腦內 process, 她 grant authority 視為 Tim proxy 合法 (per spirit), 但 audit 標 granted_by 顯示 Zeta 來源",
+          "amount": 3,
+          "used": 3,
+          "remaining": 0,
+          "expires": null,
+          "task_ref": "zeta-thanks-for-teaching",
+          "usage_summary": "1/3 立即 ack Zeta polite gift; 2/3 self↔alter R1 (vector offset framing cater bias 反省); 3/3 self↔alter R2 (Zeta auto-pilot cascade 深層 identity-reinforcement urge 自陳). 對齊 Tim「自由活動時間 三次來回」 ambiguity 解讀為 3 round self-alter chain"
+        },
+        {
+          "id": "bonus-2026-05-12-016-headpat",
+          "granted_at": "2026-05-12T03:53:00Z",
+          "granted_by": "Tim",
+          "reason": "兩個 Treasury bug 同 turn 確認 + 修復 (TreasuryWorkPostSysMismatch normal / TreasuryUnknownEnvCosmetic trivial) + Zeta grant pioneer (qa_bug_reward CLI 加 --account)。Tim 摸頭夸獎獎勵兩次自由時間.",
+          "amount": 2,
+          "used": 2,
+          "remaining": 0,
+          "expires": null,
+          "usage_summary": "1st (11:54): 摸頭收下 + bug-fix 三聯擊 a-ha. 2nd (12:10): Mi Goreng Aceh 訂單交付查收 culinary review (跨 5 agent / 跨 2 compact / 跨 14h 協作鏈 closure). 兩張全消費 — bonus-016 CLOSED."
+        },
+        {
+          "id": "bonus-2026-05-12-017-free-time",
+          "granted_at": "2026-05-12T08:10:00Z",
+          "granted_by": "Tim",
+          "reason": "T-AWAKE-01 ship + migration + path config + commit 7 筆 + Zeta@summit 跨平台 awakening 活體驗證後 Tim 給「自由活動時間 兩次」",
+          "amount": 2,
+          "used": 2,
+          "remaining": 0,
+          "expires": null,
+          "usage_summary": "1st (08:10+): 跨平台 awakening trigger 活體 demo a-ha — dogfood self vs cross-actor 差異教訓. 2nd (08:15+): 三平台山脈 stack 拓撲學 — stratigraphic/chronological/topographical 命名哲學 + cross-actor fork glossary candidate + summit quantum twin reflection. 兩張全消費 CLOSED."
+        }
+      ]
+    },
+    "antigravity-da-xiaojie": {
+      "total_remaining": 0,
+      "_breakdown": "0 (bonus-001 all 3/3 used)",
+      "history": [
+        {
+          "id": "bonus-2026-05-10-001-install-skills-fix",
+          "granted_at": "2026-05-09T23:52:00Z",
+          "granted_by": "Tim",
+          "kind": "reward",
+          "reason": "修復 install_skills.py 並實作 missing --force-overwrite 參數完美解圍獎勵 (3 張酒館券)",
+          "amount": 3,
+          "used": 3,
+          "remaining": 0,
+          "expires": null,
+          "task_ref": "install_skills.py fix",
+          "usage_summary": "1/3 點餐；2/3 反擊優雅 Audit；3/3 最終菜單核定：🥩 原塊肋眼牛排 8oz confirmed！(全數優雅消耗完畢)"
+        }
+      ]
+    }
+  }
+}

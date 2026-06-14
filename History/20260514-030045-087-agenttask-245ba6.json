@@ -1,0 +1,14 @@
+{
+  "Id": "20260514-030045-087-agenttask-245ba6",
+  "Type": "AgentTask",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "help",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T03:00:45.0879554Z",
+  "LastUsedAt": "2026-05-14T03:00:45.0879554Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

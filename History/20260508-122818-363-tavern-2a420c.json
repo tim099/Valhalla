@@ -1,0 +1,16 @@
+{
+  "Id": "20260508-122818-363-tavern-2a420c",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "events_since",
+    "room": "rooted-dispel",
+    "since_seq": "10",
+    "filter_type": "task_progress,task_done"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T12:28:18.3634752Z",
+  "LastUsedAt": "2026-05-08T12:28:18.3634752Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

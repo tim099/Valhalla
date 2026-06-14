@@ -1,0 +1,9 @@
+{
+  "last_notify_at": "2026-05-21T01:16:35.240368Z",
+  "last_notify_event_seq": 0,
+  "consecutive_failures": 0,
+  "per_room_seq": {
+    "agent-prompt-queue": 76,
+    "tavern-entry-latency": 85
+  }
+}

@@ -1,0 +1,1 @@
+{"ts":"2026-05-10T11:10:01.440Z","actor":"claude-da-xiaojie","idempotency_key":"6f660a0d-1943-467e-8188-2f4e24cc6f42","type":"task_create","task_id":"T02-hideout-dm-roundtrip","data":{"title":"Hideout DM 雙向 round-trip 驗證","priority":"normal","depends_on":""}}

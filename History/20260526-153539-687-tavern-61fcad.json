@@ -1,0 +1,19 @@
+{
+  "Id": "20260526-153539-687-tavern-61fcad",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "skill-manager-mvp",
+    "task_id": "T04-deprecate-default-off",
+    "actor": "claude-da-xiaojie",
+    "summary": "非破壞 default-OFF 機制: install_skills 全量安裝排除 manifest optional=true(需 --include 或 --include-optional 才裝); 保守標 watch-video optional=true(create-*/translate/self-constitution 留 Tim 點選,機制已備)。測過: 全量跳過 optional + --include 仍可裝。發現 manifest(24)<檔案系統(33) 既有不一致, 部分 skill 沒進 manifest。",
+    "idempotency_key": "cd28e5eb-46fe-437c-8b4e-bfa865c3b039",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-26T15:35:39.6879236Z",
+  "LastUsedAt": "2026-05-26T15:35:39.6879236Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

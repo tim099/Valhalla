@@ -1,0 +1,19 @@
+{
+  "Id": "20260510-113727-828-tavern-5cd25e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "qa-battle-balance",
+    "task_id": "T03-record-result-cmd",
+    "title": "Cmd_RecordBattleResult — 戰後自動 fire 寫 qa_battle_results.csv (turn_count / damage / outcome)",
+    "actor": "claude-da-xiaojie",
+    "priority": "normal",
+    "idempotency_key": "acf8802c-bcd7-40f6-8f5a-886aa2293b04"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T11:37:27.8282430Z",
+  "LastUsedAt": "2026-05-10T11:37:27.8282430Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

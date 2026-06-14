@@ -1,0 +1,6 @@
+{"ts": "2026-05-13T09:30:56.028Z", "event": "end_start", "trigger": "manual"}
+{"ts": "2026-05-13T09:30:56.034Z", "event": "marked_ended", "elapsed_min": 14.85}
+{"ts": "2026-05-13T09:30:56.034Z", "event": "salary_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 30, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-13\\093056_034_7f05__credit.json"}
+{"ts": "2026-05-13T09:30:56.038Z", "event": "voucher_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 2}
+{"ts": "2026-05-13T09:30:56.052Z", "event": "end_treat_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 1}
+{"ts": "2026-05-13T09:30:56.057Z", "event": "moved_to_history"}

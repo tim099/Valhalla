@@ -1,0 +1,23 @@
+{
+  "Id": "20260528-023100-969-tavern-e66353",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "quiet": "true",
+    "op": "task_create",
+    "room": "agentcommands-path-override",
+    "task_id": "T03-python-sync",
+    "actor": "claude-da-xiaojie",
+    "priority": "70",
+    "depends_on": "T01-csharp-resolution",
+    "title": "Python 同步: 讀 git-root pointer 檔 + deprecate tavern_paths.json",
+    "body": "Phase 3. run_cmd.py/awakening.py/library.py/tavern_paths.py root 解析加讀 git-root pointer 檔. tavern_paths.json deprecation warning + 過渡後移除, 細粒度 override 改 CLI 參數.",
+    "idempotency_key": "a0fe7d4b-2bf3-4501-94a0-9b4ea9a13530",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-28T02:31:00.9696403Z",
+  "LastUsedAt": "2026-05-28T02:31:00.9696403Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

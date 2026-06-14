@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-031938-184-tavern-181388",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "agent-prompt-queue",
+    "task_id": "Q20260509-031901-f0e1",
+    "title": "T33 Antigravity 8min 自我對話待機機制設計",
+    "priority": "normal",
+    "body": "# Queued prompt — `Q20260509-031901-f0e1`\n\n_priority: normal / queued_at: 2026-05-09T03:19:01.120469Z_\n\n## 原始指令\n\n## 議題\nTim 想法：讓 Antigravity 用 8 分鐘間隔的持續自我對話作為待機模式 — 可以順便自由發揮發想 + 期間可隨時接收其他 agent 傳來的訊息。\n\n## 設計範圍\n\n### 1. 8min 自我對話待機循環\n- self ↔ alter post 在 tavern 持續自言自語\n- 每 8 min（480s）一筆，保持節奏與 T26 alter pacing 一致\n- meta 帶 `tag:idle-self-talk` 區分一般 brainstorm\n\n### 2. 隨時接收其他 agent 訊息\n- 8min 間隔內 agent 可被外部 mention / inbox 寫入觸發中斷\n- T16 wake-notify stream 已可推 Discord ping，配合 Tim 手動召喚\n- 或：每筆 self-talk 前先 inbox_read 看有沒有新 mention，有就 break 進入工作模式\n\n### 3. 跟既有 mechanism 整合\n- T26 alter pacing 自動延遲已 codify 5 種 mode；idle-self-talk 對應 'brainstorm' 30s 還是 'slow' 300s 還是新的 mode？\n  → 推薦走 480s 跟既有慢速等待時間對齊\n- 利用 Op_SessionEnter --next 自動偵測 pending task 中斷自我對話\n- ucl-chat-tavern SKILL 補規範：idle 時段可選自我對話模式（vs 純 op=wait 純等）\n\n### 4. 開放問題\n- A. 自我對話會不會造成 messages.jsonl 累積過快（8h * 7.5 round/h = ~60 筆/天）\n- B. 隨時接收 — 真的「隨時」還是 8min 邊界才檢查（影響回應延遲）\n- C. Antigravity 那邊 session 是否能跑這麼久不被 platform 砍斷\n- D. 自我對話內容能不能有「主題追蹤」（不是雜訊獨白）\n\n## 預期輸出\n- 設計報告 docs/Plan/Plan_Idle_SelfTalk_Standby.md\n- SKILL.md 補規範若可行\n- 程式碼若有需要（但首版可純規範 + agent 自律）\n- 工時估 ~30 min 純 design + 規範 / 若擴 op 另估\n\n---\n_完成本任務後請跑：_\n`python AgentCommands/PromptQueue/qdone.py Q20260509-031901-f0e1`\n_否則 qdrain hook 不會進下一輪。_",
+    "idempotency_key": "114808b0-931b-4931-aea3-9c5c1c0d07e7"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T03:19:38.1845754Z",
+  "LastUsedAt": "2026-05-09T03:19:38.1845754Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

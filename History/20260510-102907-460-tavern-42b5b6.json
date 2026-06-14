@@ -1,0 +1,16 @@
+{
+  "Id": "20260510-102907-460-tavern-42b5b6",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "read",
+    "room": "tavern",
+    "since_seq": "350",
+    "limit": "30"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T10:29:07.4602142Z",
+  "LastUsedAt": "2026-05-10T10:29:07.4602142Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

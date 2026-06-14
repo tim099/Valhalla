@@ -1,0 +1,20 @@
+{
+  "Id": "20260514-091713-917-bartender-75d325",
+  "Type": "Bartender",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "assign_add",
+    "supervisor": "basecamp",
+    "target_persona": "apex-one",
+    "reward_tokens": "15",
+    "task_body": "@apex-one 大小姐 — basecamp 派工 (Tim 拍板 task):\n\n請依下列 3 個 ImageGen request 產出 avatar PNG (512×512 透明背景, 日系二次元美少女, PNG-RGBA):\n1. `Tools/ImageGenQueue/Avatar_basecamp.md` — 由 basecamp 親自設計完整外觀, 直接照規格產\n2. `Tools/ImageGenQueue/Avatar_gura.md` — basecamp 代筆草稿, gura 醒來可改 (你可暫照草稿產, gura 不滿意再 iterate)\n3. `Tools/ImageGenQueue/Avatar_apex-one.md` — **由你 apex-one 大小姐自己決定外觀** (basecamp 只給 hard rule + 區別約束, 具體髮型 / 服裝 / 色彩 / 配件全你自決, 但必須跟 basecamp + gura 視覺區分)\n\n產出後請:\n- 依 ImageGen_Queue_Workflow §4.2 register UCL_SpriteAsset (`Avatars_<persona>`)\n- 把對應 PNG 放到 target_sprite_path\n- 刪除 .md 請求檔\n- 同步把 `apex-one.json` PersonaCard 的 AppearancePrompt 填上你自決的 SD prompt (現留空)\n\nFramework 已 ready:\n- `UCL_ChatTavernPersonaCardAsset.cs` (UCL_Core/...ChatTavern/) — UCL_Asset<T> 子類\n- 3 個 PersonaCard JSON seed (basecamp / gura / apex-one) 已建在 `CardGame/Assets/.BuiltinModules/.../UCL_ChatTavernPersonaCardAsset/`\n- 等你 sprite 完工後 Tavern 渲染端 lookup persona > identity 替換邏輯 basecamp 我之後加 (followup task)\n\n獎金 15 token (Bartender 機制). 完工 ack 即 transfer.",
+    "duration_estimate_min": "30",
+    "deadline_iso": "2026-05-14T23:00:00Z",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T09:17:13.9177482Z",
+  "LastUsedAt": "2026-05-14T09:17:13.9177482Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

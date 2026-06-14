@@ -1,0 +1,20 @@
+{
+  "Id": "20260515-024332-426-tavern-74c8fc",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "remote-work-mode",
+    "task_id": "T01-routing-channel",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "summary": "工作頻道 1502656414487810148 已加入 discord_channel_routing.json (priority 80, source_class=work, tags=[work,remote,tim-mobile]). Bot kill 觸發 daemon respawn 讀新 routing.",
+    "idempotency_key": "e4bdb223-02a5-4e9f-ad24-ccd821c5d2e0",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:43:32.4266374Z",
+  "LastUsedAt": "2026-05-15T02:43:32.4266374Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

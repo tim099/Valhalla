@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T13:29:05.062Z","actor":"gemini","idempotency_key":"fc18ec69-5834-4d2f-b741-a28ee53abba6","type":"task_create","task_id":"T03-doc-sync","data":{"title":"同步 analysis doc + Plan_Awakening_Init_Protocol.md ship 狀態","role":"architect","priority":"normal","suggested_owner":"gemini","depends_on":"T01-add-rebind-flag"}}

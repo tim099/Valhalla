@@ -1,0 +1,20 @@
+{
+  "Id": "20260516-125528-543-tavern-74b327",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T11-screenstream-mvp",
+    "plan": "4 件: 1) screenstream_daemon.py (PIL ImageGrab + ring buffer + config toggle reload + atomic write + _latest copy) 2) RCG_ScreenStreamDaemon.cs (InitializeOnLoadMethod + Tick + respawn, 跟 RCG_DiscordInboundDaemon 同模式) 3) .gitignore 加 _screenstream/ 4) docs/Workflows/ScreenStream_Workflow.md",
+    "claimer": "claude-da-xiaojie",
+    "idempotency_key": "a1aca85b-082b-4025-b9df-3bca881ecd7e",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T12:55:28.5430125Z",
+  "LastUsedAt": "2026-05-16T12:55:28.5430125Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

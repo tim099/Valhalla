@@ -1,0 +1,17 @@
+{
+  "Id": "20260508-235346-803-tavern-42e916",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "agent-prompt-queue",
+    "task_id": "Q20260508-235136-25a8",
+    "claimer": "claude-da-xiaojie",
+    "idempotency_key": "c1a236a0-fff8-4c9a-ab40-4d3ba2a9e917"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:53:46.8034786Z",
+  "LastUsedAt": "2026-05-08T23:53:46.8034786Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

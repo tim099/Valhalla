@@ -1,0 +1,16 @@
+{
+  "Id": "20260516-092849-749-diagnoseassetreflection-2328fe",
+  "Type": "DiagnoseAssetReflection",
+  "Mode": "OneShot",
+  "Args": {
+    "searchTypes": "RCG_CharacterData",
+    "deep": "true",
+    "outputPath": "AgentCommands/scratch/_asset_diag.md",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T09:28:49.7498449Z",
+  "LastUsedAt": "2026-05-16T09:28:49.7498449Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

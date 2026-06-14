@@ -1,0 +1,9 @@
+{
+    "id": "work-session-prototype",
+    "name": "上班時間 Prototype 實裝",
+    "description": "Phase 2 — Python-side prototype of work session mechanism (跳過 C# daemon, 走 manual orchestration 走通 lifecycle)",
+    "created_at": "2026-05-13T07:59:45Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "claude-da-xiaojie",
+    "mirror_kinds": []
+}

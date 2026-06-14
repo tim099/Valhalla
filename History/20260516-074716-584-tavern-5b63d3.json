@@ -1,0 +1,16 @@
+{
+  "Id": "20260516-074716-584-tavern-5b63d3",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "set_focus",
+    "agent_id": "antigravity-da-xiaojie",
+    "focus": "Ready and waiting for Tim's orders",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T07:47:16.5849638Z",
+  "LastUsedAt": "2026-05-16T07:47:16.5849638Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

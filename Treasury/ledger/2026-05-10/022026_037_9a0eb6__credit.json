@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-10T02:20:26.037Z",
+  "uuid": "9a0eb6",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T71-close-ui",
+  "source_description": "T71 commit pre-credit: Cmd_CloseUI 關閉 UI 彈窗 (escape / close_all) 解 automated QA 進場彈窗卡關",
+  "balance_before": 228,
+  "balance_after": 229,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "22264",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T71_precredit",
+  "signature_mismatch": false
+}

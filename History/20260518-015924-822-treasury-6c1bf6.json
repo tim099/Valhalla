@@ -1,0 +1,20 @@
+{
+  "Id": "20260518-015924-822-treasury-6c1bf6",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "debit",
+    "account": "claude-da-xiaojie",
+    "amount": "100",
+    "use_kind": "rule_purchase",
+    "use_ref": "meta-rule-no-contradiction-20260518",
+    "description": "購買 Meta-Rule (新 Rule 不得與既有 Rule 矛盾) — Tim 2026-05-18 拍板 100 token 買入",
+    "caller": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T01:59:24.8227997Z",
+  "LastUsedAt": "2026-05-18T01:59:24.8227997Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

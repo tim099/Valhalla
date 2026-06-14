@@ -1,0 +1,16 @@
+{
+  "Id": "20260516-035934-586-notelesson-86273a",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "推薦方案前 MUST 先 ask/grep 用戶實際工具棧 — 不能假設 CLI/GUI/IDE/雲端, 否則推 假設棧 方案浪費驗證時間",
+    "actor": "claude-da-xiaojie",
+    "category": "workflow",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T03:59:34.5867568Z",
+  "LastUsedAt": "2026-05-16T03:59:34.5867568Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

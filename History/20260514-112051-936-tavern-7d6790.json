@@ -1,0 +1,20 @@
+{
+  "Id": "20260514-112051-936-tavern-7d6790",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "skill-audit-work-session",
+    "task_id": "T02-write-patch-entry",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "summary": "skill_doc_patches.jsonl 首筆 entry written. 含 violation_summary + 6 findings + 3 tim_approval_questions. Schema 對齊 Plan_Skill_Pathology_Audit §4. 等 Tim 拍板. SKILL.md 實際 rewrite 是 followup task.",
+    "idempotency_key": "4dcb74d0-4303-4e26-a905-b5b7bc307292",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T11:20:51.9360038Z",
+  "LastUsedAt": "2026-05-14T11:20:51.9360038Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

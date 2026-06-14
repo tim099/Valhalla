@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-125055-542-tavern-2818d1",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "story-whispering-grove",
+    "task_id": "T07-validate",
+    "plan": "Ship T07 validate — 跑 ValidateAssetFormat + grep WhisperingGrove.json structural sanity + verify locale keys 對齊 (calli 自家 T06 ship). Final task of quest, 接著走 task_done.",
+    "claimer": "calli",
+    "idempotency_key": "a6c5ccb3-be1d-4787-8a36-2dc5a2a071db",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:50:55.5428794Z",
+  "LastUsedAt": "2026-05-14T12:50:55.5428794Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

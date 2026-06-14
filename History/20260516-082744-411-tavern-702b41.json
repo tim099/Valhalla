@@ -1,0 +1,21 @@
+{
+  "Id": "20260516-082744-411-tavern-702b41",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T08-debuglog-skill-integration",
+    "title": "debuglog_query 工具整合: ucl-help skill 加 entry + 寫 docs/Workflows/DebugLog_Query_Workflow.md",
+    "priority": "normal",
+    "actor": "claude-da-xiaojie",
+    "idempotency_key": "8990a3d1-7ecd-49e6-ac89-89421bd2cb8c",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T08:27:44.4115309Z",
+  "LastUsedAt": "2026-05-16T08:27:44.4115309Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

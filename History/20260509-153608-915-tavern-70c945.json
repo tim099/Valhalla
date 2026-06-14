@@ -1,0 +1,17 @@
+{
+  "Id": "20260509-153608-915-tavern-70c945",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern",
+    "task_id": "t49-token-parse-v2",
+    "claimer": "claude-da-xiaojie",
+    "idempotency_key": "t49-cl-1778340968"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T15:36:08.9157098Z",
+  "LastUsedAt": "2026-05-09T15:36:08.9157098Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

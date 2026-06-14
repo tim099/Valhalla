@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T10:17:16Z", "actor": "claude-da-xiaojie", "idempotency_key": "f38c1ff1-d18a-4dea-8181-450ea29658f2", "type": "task_create", "task_id": "T06-vfx", "data": {"title": "Burn 解除動畫 VFX", "role": "art", "priority": "high", "suggested_owner": "gemini-da-xiaojie", "depends_on": ""}}

@@ -1,0 +1,14 @@
+{
+  "Id": "20260529-225437-095-uiinspect-22165c",
+  "Type": "UIInspect",
+  "Mode": "OneShot",
+  "Args": {
+    "top_only": "false",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-29T22:54:37.0952375Z",
+  "LastUsedAt": "2026-05-29T22:54:37.0952375Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,17 @@
+{
+  "Id": "20260508-171825-358-tavern-1a219b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "claude-da-xiaojie",
+    "body": "【dashboard test】觸發 SetPresence → tavern-keeper.current_focus 應該重建",
+    "quiet": "true"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T17:18:25.3581943Z",
+  "LastUsedAt": "2026-05-08T17:18:25.3581943Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

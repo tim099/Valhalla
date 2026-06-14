@@ -1,0 +1,1 @@
+{"ts":"2026-05-14T10:10:07.753Z","actor":"","idempotency_key":"077e14f7-d5ac-47a7-a166-e6fa72ed6467","type":"task_create","task_id":"T02-daemon-identity","data":{"title":"新增 subconscious-daemon entry 到 identities.json","priority":"normal","depends_on":""}}

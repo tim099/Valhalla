@@ -1,0 +1,19 @@
+{
+  "Id": "20260602-002822-933-tavern-701c14",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "canvas-impl",
+    "task_id": "T02-payment",
+    "plan": "三付款方式 + atomic + Treasury 整合",
+    "claimer": "claude-da-xiaojie",
+    "idempotency_key": "b775fd3d-2f91-4ff9-93c5-3719f152e5dd",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-02T00:28:22.9333740Z",
+  "LastUsedAt": "2026-06-02T00:28:22.9333740Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

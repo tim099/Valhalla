@@ -1,0 +1,14 @@
+{
+  "Id": "20260508-123658-997-tavern-1fa898",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_list",
+    "room": "agent-prompt-queue"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T12:36:58.9974738Z",
+  "LastUsedAt": "2026-05-08T12:36:58.9974738Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

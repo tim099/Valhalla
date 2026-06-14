@@ -1,0 +1,22 @@
+{
+  "Id": "20260528-023117-369-tavern-5df1e8",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "agentcommands-path-override",
+    "task_id": "T01-csharp-resolution",
+    "actor": "claude-da-xiaojie",
+    "priority": "90",
+    "role": "architect",
+    "title": "C# 解析層 Phase 1",
+    "body": "Phase 1 首要: 預設路徑解析不變. enum 3模式 + AgentCommandsDir override + pointer 檔 + Treasury 修正 + 子系統改走.",
+    "idempotency_key": "1ad8476a-4702-426a-b0d8-adf8af9c2167",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-28T02:31:17.3698675Z",
+  "LastUsedAt": "2026-05-28T02:31:17.3698675Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

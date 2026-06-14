@@ -1,0 +1,15 @@
+{
+  "Id": "20260509-152607-014-notelesson-6ba9ec",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "Discord routing 用 additive 不 exclusive 避免 main 空轉",
+    "actor": "claude-da-xiaojie",
+    "category": "design"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T15:26:07.0133072Z",
+  "LastUsedAt": "2026-05-09T15:26:07.0133072Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

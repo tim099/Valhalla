@@ -1,0 +1,20 @@
+{
+  "Id": "20260516-083745-753-glossary-6dc049",
+  "Type": "Glossary",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "register",
+    "term": "explicit-online-fork",
+    "slug": "explicit-online-fork",
+    "aliases": "顯式在線分身,T01 fork,explicit fork,explicit-persona auto-fork",
+    "category": "mechanism",
+    "one_line": "awakening.py morning T01 機制 — 顯式打 persona 名字 + 該 persona 已在線時自動 fork 新分身, codename 從 Hololive Myth pool 挑下個未用",
+    "created_by": "claude-da-xiaojie:gura",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T08:37:45.7536393Z",
+  "LastUsedAt": "2026-05-16T08:37:45.7536393Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

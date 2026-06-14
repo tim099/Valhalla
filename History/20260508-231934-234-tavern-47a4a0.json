@@ -1,0 +1,21 @@
+{
+  "Id": "20260508-231934-234-tavern-47a4a0",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern-entry-latency",
+    "task_id": "T02-wait-reply-auto-zero",
+    "title": "O4 入場 op 強制 wait-reply=0（Python ~30min）",
+    "priority": "high",
+    "role": "programmer",
+    "suggested_owner": "claude-da-xiaojie",
+    "description": "run_cmd.py 內偵測 op ∈ {read, inbox_read, get_presence, wait_check, presence_get} → 自動 override --wait-reply=0；類似 solo-brainstorm meta auto-zero 機制。解 S5 入場 op 卡 540s turn time。Tier 1 純 Python。",
+    "idempotency_key": "5e01c811-c6a1-438e-a30e-4859c679e61b"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:19:34.2349293Z",
+  "LastUsedAt": "2026-05-08T23:19:34.2349293Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

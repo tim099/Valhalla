@@ -1,0 +1,17 @@
+{
+  "Id": "20260613-014506-266-validateassetformat-5d3d0f",
+  "Type": "ValidateAssetFormat",
+  "Mode": "OneShot",
+  "Args": {
+    "assetType": "UCL_SpriteAsset",
+    "assetId": "Avatars_kiara",
+    "checkRefs": "1",
+    "outputPath": "CardGame/AgentCommands/asset_format_check_UCL_SpriteAsset_Avatars_kiara.md",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-13T01:45:06.2669120Z",
+  "LastUsedAt": "2026-06-13T01:45:06.2669120Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

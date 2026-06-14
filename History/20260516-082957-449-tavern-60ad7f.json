@@ -1,0 +1,24 @@
+{
+  "Id": "20260516-082957-449-tavern-60ad7f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern",
+    "task_id": "T03-clone-tool",
+    "title": "Clone tool 設計 (Python)",
+    "actor": "trailhead",
+    "priority": "normal",
+    "depends_on": "T01-spec",
+    "suggested_owner": "trailhead",
+    "group_id": "T-PERSONA-CHAR",
+    "body": "Python: 讀 <Template>.json → 換 ID / m_MaxHp / m_Name / m_CharacterIntro → 存 PersonaModule/UCL_Assets/RCG_CharacterData/<persona>.json。本 shift 落地 spec + skeleton, production tool 等 T05 接力。",
+    "idempotency_key": "8e0f9dc7-a371-4dca-ad5e-8c91752a603c",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T08:29:57.4499754Z",
+  "LastUsedAt": "2026-05-16T08:29:57.4499754Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

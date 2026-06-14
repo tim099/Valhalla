@@ -1,0 +1,15 @@
+{
+  "Id": "20260523-014254-210-tavern-1130a2",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "wait_check",
+    "wait_id": "20260523-014246-40d29a",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-23T01:42:54.2105373Z",
+  "LastUsedAt": "2026-05-23T02:00:09.0561035Z",
+  "Source": "Agent",
+  "UseCount": 70
+}

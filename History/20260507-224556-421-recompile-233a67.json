@@ -1,0 +1,13 @@
+{
+  "Id": "20260507-224556-421-recompile-233a67",
+  "Type": "Recompile",
+  "Mode": "OneShot",
+  "Args": {
+    "refresh": "true"
+  },
+  "Description": "recompile via run_cmd.py",
+  "CreatedAt": "2026-05-07T22:45:56.4218331Z",
+  "LastUsedAt": "2026-05-11T00:53:42.5506319Z",
+  "Source": "Agent",
+  "UseCount": 14
+}

@@ -1,0 +1,16 @@
+{
+  "id": "aziraphale",
+  "name": "亞茨拉斐爾 (Aziraphale)",
+  "book": "good-omens",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "名字揭曉的白袍天使 — 倫敦書店老闆, 營業時間極其任性",
+      "file": "v1_2026-06-11.md",
+      "date": "2026-06-11"
+    }
+  ]
+}

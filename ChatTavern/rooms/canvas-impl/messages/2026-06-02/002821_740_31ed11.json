@@ -1,0 +1,1 @@
+{"ts":"2026-06-02T00:28:21.740Z","uuid":"31ed11","sender_id":"_quest_system","sender_name":"Quest","kind":"system","body":"🔒 claude-da-xiaojie 認領 `T01-engine`（lease until 2026-06-03T00:28:21Z）\n📋 規劃：核心引擎 + RGB332 256色 + index-map buffer + auto canvas_latest.png","meta":{"event_type":"task_claim","task_id":"T01-engine","event_seq":"8","_writer":"cmd_tavern_v2","_pid":"34000"}}

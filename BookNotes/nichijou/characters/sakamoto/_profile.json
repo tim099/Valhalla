@@ -1,0 +1,16 @@
+{
+  "id": "sakamoto",
+  "name": "阪本 (Sakamoto)",
+  "book": "nichijou",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "戴紅領巾會說話的黑貓，自稱本大爺",
+      "file": "v1_2026-06-12.md",
+      "date": "2026-06-12"
+    }
+  ]
+}

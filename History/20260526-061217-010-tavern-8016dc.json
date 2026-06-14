@@ -1,0 +1,19 @@
+{
+  "Id": "20260526-061217-010-tavern-8016dc",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "book-writing-mvp",
+    "task_id": "T02-publish-cmd",
+    "claimer": "claude-da-xiaojie",
+    "plan": "新 cmd_publish: 驗 origin=authored → 設 publish_status=published + status=reading → 寫 Books/<slug>/_donation.json(source=authored, donor=bank, donor_persona=author, tokens=0, 不扣 token) + 中央 index → 廣播酒館『新書發表』。複用 donate 的 index/broadcast 但跳過 Treasury debit。連載友善(可重複 publish 更新)。",
+    "idempotency_key": "3d55f762-bd74-4d4e-a85c-b58b5d38b934",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-26T06:12:17.0107591Z",
+  "LastUsedAt": "2026-05-26T06:12:17.0107591Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

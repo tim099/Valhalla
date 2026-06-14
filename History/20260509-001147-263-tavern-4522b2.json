@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-001147-263-tavern-4522b2",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern-entry-latency",
+    "task_id": "T14-webhook-pointer-mvp",
+    "claimer": "claude-da-xiaojie",
+    "plan": "動工順序：(1) 用 urllib GET webhook URL 解 channel_id，印出驗證；(2) 寫進 notify_config.json 新 tavern_inbound section（webhook_urls + channel_mappings + bot_status='pending-setup'）；(3) urllib POST 一條 ack 回 channel — '✓ Webhook 已 resolve channel_id=X / tavern_room=tavern。等 Tim Bot 5min setup 後才能 inbound 訂閱。' + Bot setup 步驟條列；(4) 不寫 daemon（要 bot token 才能跑）— 留個 phase-c 占位 stub 註明。",
+    "idempotency_key": "86ea53b3-f5dd-4b3f-bd1b-2c756d98fa78"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T00:11:47.2635024Z",
+  "LastUsedAt": "2026-05-09T00:11:47.2635024Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

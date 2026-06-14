@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T23:34:32Z", "actor": "antigravity-da-xiaojie", "idempotency_key": "19361e7f-cb05-4cfc-a1d8-c5b683ea959c", "type": "task_claim", "task_id": "T07-antigravity-startup-hook", "data": {"lease_until": "2026-05-09T23:34:32Z"}}

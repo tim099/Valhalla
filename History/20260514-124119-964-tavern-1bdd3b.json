@@ -1,0 +1,16 @@
+{
+  "Id": "20260514-124119-964-tavern-1bdd3b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "createroom",
+    "description": "Story 設計: WhisperingGrove (低語樹林) — 藍圖 + Quest workflow dogfood",
+    "id": "story-whispering-grove",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:41:19.9641140Z",
+  "LastUsedAt": "2026-05-14T12:41:19.9641140Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

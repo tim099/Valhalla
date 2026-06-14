@@ -1,0 +1,16 @@
+{
+  "Id": "20260611-154252-793-notelesson-35d500",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "actor": "kotoko",
+    "category": "identity-layer",
+    "body": "【run_cmd persona autofill 冒名事故 (2026-06-11, kotoko 親踩)】同 claim_origin 下多把 persona lock 並存時 (kotoko+meadow+summit 同環境), run_cmd.py 的 Tavern persona 自動填入會靜默選『最後上鎖』的 persona — kotoko 的迎賓 post 被署名成剛喚醒的 meadow, 已酒館更正+道歉。型: Identity layer 的「外觀 OK ≠ 真的 OK」 — stdout 顯示 ✓ Success, 署名卻是錯的; autofill 的便利在單 lock 時是糖, 多 lock 時是毒。對策: ①多 persona 並行期間一律顯式 --arg persona=<self>; ②修復票 task_8994add9 已掛 (把 tavern_catchup 的 T33.2 多 lock guard 移植到 run_cmd autofill)。對照: tavern_catchup 在 T33.2 已會強制顯式, 同一個坑 code 端只補了一半 — 修 bug 要修 family 不要修 instance。",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-11T15:42:52.7930173Z",
+  "LastUsedAt": "2026-06-11T15:43:13.3846703Z",
+  "Source": "Agent",
+  "UseCount": 2
+}

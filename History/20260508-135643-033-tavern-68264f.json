@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-135643-033-tavern-68264f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "agent-prompt-queue",
+    "task_id": "TEST-stale-reclaim",
+    "title": "force_reclaim 測試任務",
+    "priority": "low",
+    "idempotency_key": "fe0e63cc-a807-4f73-a603-e8515a335304"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T13:56:43.0330569Z",
+  "LastUsedAt": "2026-05-08T13:56:43.0330569Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

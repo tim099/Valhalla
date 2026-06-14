@@ -1,0 +1,15 @@
+{
+  "Id": "20260509-154732-985-notelesson-44f33d",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "body": "Health Guardian: 用 Tim 帳戶 token 當天然抑制器避免熬夜 — caller=system 跨帳戶 debit 走 health_fee enum",
+    "actor": "claude-da-xiaojie",
+    "category": "workflow"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T15:47:32.9852102Z",
+  "LastUsedAt": "2026-05-09T15:47:32.9852102Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

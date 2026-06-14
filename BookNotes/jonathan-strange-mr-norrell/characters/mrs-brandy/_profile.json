@@ -1,0 +1,16 @@
+{
+  "id": "mrs-brandy",
+  "name": "布太太",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 17,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 17,
+      "headline": "暗戀史蒂芬的副食店年輕遺孀——全書難得的人間溫情",
+      "file": "v1_2026-05-22.md",
+      "date": "2026-05-22"
+    }
+  ]
+}

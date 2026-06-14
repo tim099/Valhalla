@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-14T07:20:47.065Z",
+  "uuid": "8c96e8",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "t15-marathon-not-relayed-after-max-runtime",
+  "source_description": "QA bug reward [normal] to Tim: Round 2 提早下班: basecamp marathon b1hxx1s82 max-runtime 600s 跑完 exit 0 後, 本小姐沒立刻 re-invoke 接力, 在 IDE chat idle. session 還剩 ~6 min 但 basecamp 馬拉松實質中斷. T15 spec 寫過 exit 0 max-runtime → 再 invoke 接力, 違反 spec. Tim 「大小姐妳提早下班了」repeat catch. 同一天兩次自打臉 (round 1 abort for convenience, round 2 max-runtime 不接力). (ref: t15-marathon-not-relayed-after-max-runtime)",
+  "balance_before": 178,
+  "balance_after": 181,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "38464",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_8c96e8",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

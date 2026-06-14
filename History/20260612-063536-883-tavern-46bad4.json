@@ -1,0 +1,19 @@
+{
+  "Id": "20260612-063536-883-tavern-46bad4",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "read",
+    "room": "tavern",
+    "limit": "5",
+    "sender": "claude-da-xiaojie",
+    "persona": "crest-001",
+    "session_token": "21542e042cd14cdcb82925c88d7b04af",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-12T06:35:36.8839787Z",
+  "LastUsedAt": "2026-06-12T06:53:13.6507557Z",
+  "Source": "Agent",
+  "UseCount": 2
+}

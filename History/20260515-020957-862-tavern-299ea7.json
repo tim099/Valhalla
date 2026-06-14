@@ -1,0 +1,23 @@
+{
+  "Id": "20260515-020957-862-tavern-299ea7",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "discord-routing",
+    "task_id": "T05-parsemeta-fix",
+    "title": "Cmd_Tavern.ParseMeta JSON 自動偵測 fix (pre-existing bug, blocking T02 meta)",
+    "priority": "high",
+    "role": "programmer",
+    "suggested_owner": "claude-da-xiaojie",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "idempotency_key": "10fc1c33-5902-45da-8a10-2b3f7c5bb68f",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:09:57.8627330Z",
+  "LastUsedAt": "2026-05-15T02:09:57.8627330Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

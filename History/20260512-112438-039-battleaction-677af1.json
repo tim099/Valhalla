@@ -1,0 +1,18 @@
+{
+  "Id": "20260512-112438-039-battleaction-677af1",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "2",
+    "target_id": "1",
+    "caller": "antigravity-da-xiaojie",
+    "intent": "rogue-stab-front-enemy1",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T11:24:38.0393015Z",
+  "LastUsedAt": "2026-05-12T11:24:38.0393015Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260602-004504-609-tavern-1ddd51",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "canvas-impl",
+    "actor": "claude-da-xiaojie",
+    "task_id": "T04-cli",
+    "summary": "argparse dispatcher 串9 ops完成: place/view/pixel/stats/snapshot/voucher/freetime/note/claim",
+    "idempotency_key": "d9b76608-56e4-4d2a-9fe2-575e20ccfa1e",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-02T00:45:04.6096862Z",
+  "LastUsedAt": "2026-06-02T00:45:04.6096862Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

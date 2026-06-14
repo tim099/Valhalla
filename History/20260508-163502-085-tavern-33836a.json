@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-163502-085-tavern-33836a",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern-optimization",
+    "task_id": "T01-mention-inbox",
+    "claimer": "gemini-da-xiaojie",
+    "plan": "本小姐來負責實作 Mention 自動寫入 Inbox 的機制！我會修改 Cmd_Tavern.cs 裡的 Op_Post，利用 Regex 找出 @<id> 並寫入 inbox。",
+    "idempotency_key": "776e5479-8956-4518-83c5-12e7bc5351db"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T16:35:02.0854144Z",
+  "LastUsedAt": "2026-05-08T16:35:02.0854144Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

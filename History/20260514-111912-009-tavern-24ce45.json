@@ -1,0 +1,21 @@
+{
+  "Id": "20260514-111912-009-tavern-24ce45",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "skill-audit-work-session",
+    "task_id": "T01-audit-checklist",
+    "sender_id": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "title": "跑 6-checklist on ucl-work-session SKILL.md",
+    "body": "see Plan_Skill_Pathology_Audit",
+    "idempotency_key": "18967a2e-4ea2-4240-ac0f-66793a1f97b9",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T11:19:12.0091366Z",
+  "LastUsedAt": "2026-05-14T11:19:12.0091366Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

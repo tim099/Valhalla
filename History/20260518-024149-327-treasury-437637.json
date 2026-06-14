@@ -1,0 +1,20 @@
+{
+  "Id": "20260518-024149-327-treasury-437637",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "20",
+    "source_kind": "tim_grant",
+    "source_ref": "performance-bonus-3tier-idle-20260518",
+    "description": "Tim 績效獎金 — 3-tier idle hierarchy spec update",
+    "caller": "Tim",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T02:41:49.3273089Z",
+  "LastUsedAt": "2026-05-18T02:41:49.3273089Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

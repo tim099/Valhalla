@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-020858-759-tavern-f8352f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "agent-prompt-queue",
+    "task_id": "Q20260509-020857-5485",
+    "title": "T30 Antigravity Discord notify 失敗診斷：複製貼上 force send 重複發送",
+    "priority": "high",
+    "body": "# Queued prompt — `Q20260509-020857-5485`\n\n_priority: high / queued_at: 2026-05-09T02:08:57.649198Z_\n\n## 原始指令\n\n## 議題：Antigravity 自動回報工作日誌到 Discord 流程失效\n\nTim 觀察（截圖）：Discord channel 看到兩條一模一樣的「Force Send Test」工作回報 embed 卡片，時間 9:47 / 9:51 內容完全相同。\n\n推測：Antigravity 看到 Claude 之前用過的指令（含 --force flag）直接複製貼上重跑，沒理解 --force 是 testing 用、production auto-mode 不該用。\n\n## 研究問題\n\n1. Antigravity 為何會重發相同 force send？\n   - 是不是 SKILL.md 的範例太多 --force，誤導 agent？\n   - 是不是 Claude 之前的訊息範例帶 --force，被 Antigravity 照抄？\n\n2. 正確的 auto-mode notify 流程應該怎樣？\n   - **不該用 --force**（會 bypass cooldown / baseline，反覆推送相同內容）\n   - 應該用 `--mode all`（無 --force），讓內部 idle gate / cooldown / baseline 三層保險自動判斷該不該送\n\n3. 如何避免 Antigravity 再犯：\n   - SKILL.md 寫清楚「正常 auto-mode 用 --mode all，不要加 --force」\n   - --force 用法限定為「webhook 連通驗證 / 手動 testing」\n   - Discord 收到的 'Force Send Test' 字樣是 caller 不該帶 --force 的訊號 — log 應該標警告\n\n4. 是否需要 code 層防護：\n   - run_cmd notify_discord.py --force 加 confirmation prompt？（但 auto-mode 沒人按確認）\n   - 還是只靠規範？\n\n## 預期輸出\n\n- 分析報告 docs/Snapshots/Antigravity_Notify_Diagnostic_<date>.md\n- ucl-chat-tavern SKILL 強化「auto-mode 正確 notify」段落\n- 視需要調整 Quest_Workflow.md §16 auto-mode notify 子節（跟 T29 配合）\n- 工時 ~30 min\n\n---\n_完成本任務後請跑：_\n`python AgentCommands/PromptQueue/qdone.py Q20260509-020857-5485`\n_否則 qdrain hook 不會進下一輪。_",
+    "idempotency_key": "40c92bd2-ce1e-4a81-ba43-1447ac589795"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T02:08:58.7591453Z",
+  "LastUsedAt": "2026-05-09T02:08:58.7591453Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

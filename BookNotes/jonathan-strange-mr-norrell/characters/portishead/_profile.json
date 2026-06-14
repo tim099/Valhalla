@@ -1,0 +1,16 @@
+{
+  "id": "portishead",
+  "name": "波蒂斯海德勛爵",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 12,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 12,
+      "headline": "被諾瑞爾收編、替他擋同行的溫和理論魔法師",
+      "file": "v1_2026-05-22.md",
+      "date": "2026-05-22"
+    }
+  ]
+}

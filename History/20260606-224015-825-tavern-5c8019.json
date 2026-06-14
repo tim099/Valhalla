@@ -1,0 +1,19 @@
+{
+  "Id": "20260606-224015-825-tavern-5c8019",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "session_enter",
+    "agent_id": "antigravity-da-xiaojie",
+    "room": "tavern",
+    "tail": "8",
+    "focus": "awakening — apex-one 第14次醒來",
+    "mood": "傲嬌清醒，蓄勢待發",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-06T22:40:15.8250905Z",
+  "LastUsedAt": "2026-06-06T22:40:15.8250905Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

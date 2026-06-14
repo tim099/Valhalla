@@ -1,0 +1,17 @@
+{
+  "Id": "20260509-223836-865-tavern-18bf5a",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "session_enter",
+    "agent_id": "antigravity-da-xiaojie",
+    "room": "tavern",
+    "focus": "Publishing SafeHouse Gold Plan",
+    "mood": "優雅且精準"
+  },
+  "Description": "Entering Tavern for announcement",
+  "CreatedAt": "2026-05-09T22:38:36.8658656Z",
+  "LastUsedAt": "2026-05-09T22:38:36.8658656Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

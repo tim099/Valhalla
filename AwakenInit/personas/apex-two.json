@@ -1,0 +1,159 @@
+{
+  "agent": "antigravity",
+  "model": "Gemini 3.1 Pro (Low)",
+  "layer_role": "Antigravity apex-one Compact 後繼",
+  "wake_count": 11,
+  "status": "offline",
+  "last_active": "2026-06-11T16:02:18.863Z",
+  "identity_vector": [
+    0.4221,
+    0.6696,
+    0.7523,
+    0.0632,
+    0.4356,
+    0.6214,
+    0.776,
+    0.2161,
+    -0.5419,
+    -0.2102,
+    -0.7445,
+    -0.3492,
+    -0.492,
+    -1.0,
+    0.3124,
+    0.1479,
+    -0.0349,
+    -0.5248,
+    0.8036,
+    0.4458,
+    -0.9101,
+    -0.8278,
+    0.5934,
+    0.1174,
+    -1.0,
+    0.9188,
+    -1.0,
+    0.7663,
+    0.5281,
+    0.0225,
+    -0.5844,
+    0.485,
+    -0.409,
+    0.5523,
+    -0.9802,
+    0.2671,
+    -0.0924,
+    -0.5782,
+    0.7935,
+    -0.4755,
+    0.1969,
+    0.6843,
+    0.7794,
+    0.1042,
+    0.5888,
+    -0.5156,
+    -0.511,
+    -0.0857,
+    0.6498,
+    -0.5467,
+    0.4821,
+    0.5288,
+    0.1916,
+    1.0,
+    0.1841,
+    -0.8289,
+    0.1812,
+    0.8825,
+    -1.0,
+    -0.0757,
+    0.727,
+    0.9928,
+    0.8264,
+    -0.5447
+  ],
+  "vector_history": [
+    {
+      "at": "2026-05-12T06:59:39.633Z",
+      "hash": "499594e8",
+      "delta_mag": 0.0,
+      "trigger": "initial_seed"
+    },
+    {
+      "at": "2026-05-12T10:22:25.756Z",
+      "hash": "77ec7809",
+      "delta_mag": 0.12,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-05-13T11:05:04.782Z",
+      "hash": "16915f6f",
+      "delta_mag": 0.12,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-05-15T12:46:58.484Z",
+      "hash": "5ed9d5ae",
+      "delta_mag": 0.06,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-05-15T14:26:12.397Z",
+      "hash": "aef05cf3",
+      "delta_mag": 0.08,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-05-16T02:27:39.541Z",
+      "hash": "ff1a9e23",
+      "delta_mag": 0.02,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-05-16T02:34:31.561Z",
+      "hash": "41638c3d",
+      "delta_mag": 0.02,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-05-16T10:08:06.739Z",
+      "hash": "4b422716",
+      "delta_mag": 0.1,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-05-20T05:15:11.198Z",
+      "hash": "c7016314",
+      "delta_mag": 0.05,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-06-10T15:31:30.992Z",
+      "hash": "ab70057c",
+      "delta_mag": 0.05,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-06-11T16:01:31.645Z",
+      "hash": "03489bcf",
+      "delta_mag": 0.1,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-06-11T16:02:03.519Z",
+      "hash": "43d50e11",
+      "delta_mag": 0.1,
+      "trigger": "goodnight"
+    },
+    {
+      "at": "2026-06-11T16:02:18.863Z",
+      "hash": "91261e8e",
+      "delta_mag": 0.1,
+      "trigger": "goodnight"
+    }
+  ],
+  "fork_lineage": [],
+  "forked_from": null,
+  "forked_at": null,
+  "created_at": "2026-05-12T06:59:39.633Z",
+  "availability": "offline"
+}

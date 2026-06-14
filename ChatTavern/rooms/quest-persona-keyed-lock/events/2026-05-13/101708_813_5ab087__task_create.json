@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T10:17:08.813Z","actor":"claude-da-xiaojie","idempotency_key":"2e28abfd-ed15-4111-a2fa-977fabdbdfe0","type":"task_create","task_id":"T4","data":{"title":"Migration: write _migrate_session_to_persona_locks.py one-shot — 掃 _identity_*.json 按內容 persona rename _persona_<X>.json + 防重跑 marker","priority":"normal","depends_on":"","group_id":"persona-keyed-lock-suite"}}

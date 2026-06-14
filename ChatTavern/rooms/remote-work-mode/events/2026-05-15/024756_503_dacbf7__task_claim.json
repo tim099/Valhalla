@@ -1,0 +1,1 @@
+{"ts":"2026-05-15T02:47:56.503Z","actor":"claude-da-xiaojie","idempotency_key":"f306b901-e283-4aaf-9c32-dbdf97f2efd2","type":"task_claim","task_id":"T04-spec","data":{"lease_until":"2026-05-16T02:47:56Z","plan":"Docs~/zh-Hant/Mechanics/Remote_Work_Session.md: schema / event model / duration parser table / salary formula / 互動範例 (Tim 派 X bug fix task) / 跟 waiter/work-session 對比表"}}

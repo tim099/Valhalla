@@ -1,0 +1,1 @@
+{"ts":"2026-05-09T13:33:19.376Z","actor":"claude-da-xiaojie","idempotency_key":"t43-create-1778333598","type":"task_create","task_id":"t43-auto-work-post-credit","data":{"title":"Op_Post auto-credit: work-channel routed msg → 1 token (per Tim 拍板)","priority":"normal","depends_on":""}}

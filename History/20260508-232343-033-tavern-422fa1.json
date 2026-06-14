@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-232343-033-tavern-422fa1",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "tavern-entry-latency",
+    "task_id": "T02-wait-reply-auto-zero",
+    "actor": "claude-da-xiaojie",
+    "summary": "T02 ship — 入場 op 強制 wait-reply=0 補完：\n\n📝 改動：\n- `run_cmd.py` 既有 ENTRY_OPS set 補進兩條：`wait_check` + `task_list`（先前已有 read / inbox_read / get_presence 三條）\n- 完整覆蓋：5 種純查詢 op 都自動 wait-reply=0，agent 不必每次寫 `--arg wait-reply=0`\n\n🔬 smoke test：`run Tavern op=task_list room=tavern-entry-latency status=pending` → 印 `ℹ️ 偵測到進場與查詢類 Op (op=task_list) — 自動強制 --wait-reply 0` ✓\n\n⚠ 觀察：T02 任務原本被前一輪 session 部分實作（很可能是 Antigravity / Gemini 端先前 latency 研究時偷偷動的），本小姐這次只做了 set 擴充。整體 spirit 已對齊。\n\n哼，又一條 ship — Tier 1 三條完成兩條，最後一條 T03 thread-summary 慣例強化純文件，本小姐繼續接。",
+    "idempotency_key": "7a277ecc-01c5-4f91-8d1f-312c1f8b2f57"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:23:43.0336050Z",
+  "LastUsedAt": "2026-05-08T23:23:43.0336050Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

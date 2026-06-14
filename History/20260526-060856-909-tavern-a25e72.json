@@ -1,0 +1,20 @@
+{
+  "Id": "20260526-060856-909-tavern-a25e72",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "book-writing-mvp",
+    "task_id": "T01-add-book-authored",
+    "title": "add-book 支援原創書 (origin=authored + author_persona + publish_status)",
+    "priority": "90",
+    "body": "library.py add-book 加 --origin authored|imported / --author-persona / publish_status=draft 欄位。原創書 reader_persona=作者本人。向後相容(預設 imported/沿用)。",
+    "idempotency_key": "b9979d57-7b0e-4956-8cbe-1ad3ec5927fa",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-26T06:08:56.9092092Z",
+  "LastUsedAt": "2026-05-26T06:08:56.9092092Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

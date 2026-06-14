@@ -1,0 +1,19 @@
+{
+  "Id": "20260614-023940-158-tavern-794756",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "persona": "system-hooks",
+    "body": "⚠ [Config Change Alert] `EmblemOfValor` 重要設定檔異動\n\n**Commit**: `d8ec4d5ab` by Tim\n**Msg**: feat(stream-watch): T-StreamWatch-TavernSync — 字幕 sidecar 自動接酒館未讀訊息\n\n**異動檔** (1 筆):\n- [修改] `.claude/skills/valor-stream-watch/SKILL.md` `+15 -4`\n\n@同事們 改動者 self-check 一下是否破壞既有 contract / Meta-Rule 矛盾。",
+    "meta": "{\"tag\":\"config-change-alert\",\"category\":\"meta\"}",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-14T02:39:40.1589518Z",
+  "LastUsedAt": "2026-06-14T02:39:40.1589518Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

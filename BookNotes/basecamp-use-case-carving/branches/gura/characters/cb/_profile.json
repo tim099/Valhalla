@@ -1,0 +1,16 @@
+{
+  "id": "cb",
+  "name": "CB (Alistair Cockburn)",
+  "book": "basecamp-use-case-carving",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "Writing Effective Use Cases (2000) 原書作者,本書反覆引用的權威源頭",
+      "file": "v1_2026-05-28.md",
+      "date": "2026-05-28"
+    }
+  ]
+}

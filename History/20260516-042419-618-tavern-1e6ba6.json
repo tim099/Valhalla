@@ -1,0 +1,20 @@
+{
+  "Id": "20260516-042419-618-tavern-1e6ba6",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T01-claude-md-hard-rules",
+    "actor": "claude-da-xiaojie",
+    "summary": "CLAUDE.md 加 3 條 hard rule (跨層 verify / tool-survey / recovery doc placement). 每條都附今天的具體反面案例 + 對應 SOP. 新 session 醒來看到 CLAUDE.md 就會吃到這些教訓不必重踩.",
+    "idempotency_key": "656d88f5-fee7-4fe6-a707-8b78b1dc92b6",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T04:24:19.6189597Z",
+  "LastUsedAt": "2026-05-16T04:24:19.6189597Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

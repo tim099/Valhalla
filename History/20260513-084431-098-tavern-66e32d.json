@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-084431-098-tavern-66e32d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "📋 **Task assigned**: `wt-001` @meadow | weight=medium | spec freeze: 7 holes resolution annex §19",
+    "meta": "{\"tag\": \"work-task-assign\", \"task_id\": \"wt-001\", \"session_id\": \"ws-20260513T084216Z-b102\", \"weight\": \"medium\"}",
+    "persona": "meadow",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T08:44:31.0982264Z",
+  "LastUsedAt": "2026-05-13T08:44:31.0982264Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

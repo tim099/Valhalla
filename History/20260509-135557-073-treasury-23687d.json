@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-135557-073-treasury-23687d",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "3",
+    "source_kind": "commit",
+    "source_ref": "t44-t45-3layer-pending",
+    "description": "pre-credit: T44/T45 三層 commit (UCL_Core code + UCL bump + main rules+script)",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T13:55:57.0739940Z",
+  "LastUsedAt": "2026-05-09T13:55:57.0739940Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

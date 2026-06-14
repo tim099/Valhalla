@@ -1,0 +1,9 @@
+{
+    "id": "completion-tavern-catchup-gate",
+    "name": "completion-tavern-catchup-gate",
+    "description": "",
+    "created_at": "2026-05-13T15:24:57Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "",
+    "mirror_kinds": []
+}

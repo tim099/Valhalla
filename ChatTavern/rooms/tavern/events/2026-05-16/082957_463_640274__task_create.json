@@ -1,0 +1,1 @@
+{"ts":"2026-05-16T08:29:57.463Z","actor":"trailhead","idempotency_key":"8e0f9dc7-a371-4dca-ad5e-8c91752a603c","type":"task_create","task_id":"T03-clone-tool","data":{"title":"Clone tool 設計 (Python)","priority":"normal","suggested_owner":"trailhead","depends_on":"T01-spec","group_id":"T-PERSONA-CHAR"}}

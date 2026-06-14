@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T14:11:51Z", "actor": "", "idempotency_key": "487bb982-2a9b-46eb-9ed6-6607d1f58700", "type": "task_create", "task_id": "Q20260508-141151-67a6", "data": {"title": "分析 PerfReport — F1+F2+F3 quick wins 立即實作 + F4/F5 brainstorm 排程", "priority": "normal", "depends_on": ""}}

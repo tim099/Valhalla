@@ -1,0 +1,24 @@
+{
+  "Id": "20260513-150755-458-tavern-421c90",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "agent-command-pipeline-parallelize",
+    "task_id": "T03-watcher-multi-trigger-scan",
+    "title": "UCL_AgentCommandWatcher: 掃 default + queues/ subdir 所有 trigger 並 dispatch",
+    "role": "programmer",
+    "priority": "high",
+    "depends_on": "T02-queue-trigger-path-overload",
+    "suggested_owner": "gemini",
+    "actor": "gemini",
+    "body": "當前 watcher 1s poll 看 default trigger。改成掃 default + 列舉 queues/pending-*.trigger。各觸發 trigger MarkRunning + 對應 Runner.RunAsync(agentId)。多 trigger 同時可並行 dispatch (UniTask)。",
+    "idempotency_key": "42687f4b-970e-4324-b481-5222b62287b2",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T15:07:55.4588802Z",
+  "LastUsedAt": "2026-05-13T15:07:55.4588802Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,3 @@
+{"ts": "2026-05-14T03:13:29.094Z", "event": "quick_task_done", "task_id": "wt-001", "persona": "basecamp", "desc": "T07 ship cmd_abort — work_session.py 加強制終止 op (5 token Tim task, 解 split-brain 卡死)", "ref": "UCL_Core commit 7bbc259"}
+{"ts": "2026-05-14T03:16:38.618Z", "event": "abort_start", "who": "basecamp", "reason": "Tim 指示先 abort 所有工作 — 討論新 spec: 上班指令直接指派主管 + 叮 ack 自動招募 worker", "elapsed_min": 7.69}
+{"ts": "2026-05-14T03:16:38.633Z", "event": "aborted_moved_to_history"}

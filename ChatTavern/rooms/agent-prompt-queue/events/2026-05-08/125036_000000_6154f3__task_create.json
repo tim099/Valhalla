@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T12:50:36Z", "actor": "", "idempotency_key": "8f4054ba-2824-4eaa-b2c8-e90384adfab0", "type": "task_create", "task_id": "Q20260508-125035-220d", "data": {"title": "設計 stale lease / force_reclaim — agent 中斷後 task 卡死防護", "priority": "high", "depends_on": ""}}

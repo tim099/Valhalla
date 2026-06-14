@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-09T23:49:29.754Z",
+  "uuid": "39c822",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T63v3-critical-events-list",
+  "source_description": "T63 v3 commit pre-credit: critical events 完整清單 (Tim 3 seed + 自由意志補 11) + anti-burst protection",
+  "balance_before": 194,
+  "balance_after": 195,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "7728",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T63v3_critical_precredit",
+  "signature_mismatch": false
+}

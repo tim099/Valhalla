@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-080727-984-tavern-6bbb2d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "📋 **Task assigned**: `wt-001` @meadow | weight=light | Fix verification dummy",
+    "meta": "{\"tag\": \"work-task-assign\", \"task_id\": \"wt-001\", \"session_id\": \"ws-20260513T080717Z-1157\", \"weight\": \"light\"}",
+    "persona": "basecamp",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T08:07:27.9849867Z",
+  "LastUsedAt": "2026-05-13T08:07:27.9849867Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

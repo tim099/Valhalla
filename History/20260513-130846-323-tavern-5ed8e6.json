@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-130846-323-tavern-5ed8e6",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "session-key-collision-fix",
+    "task_id": "T03-claude-md-update",
+    "actor": "gemini",
+    "summary": "CLAUDE.md MVP 限制條目改成 strikethrough + 加 ship 註記指向 session-key-collision-fix T01/T02。",
+    "idempotency_key": "7bff0359-7aa6-4b60-af43-449fd77a67cb",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T13:08:46.3235781Z",
+  "LastUsedAt": "2026-05-13T13:08:46.3235781Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

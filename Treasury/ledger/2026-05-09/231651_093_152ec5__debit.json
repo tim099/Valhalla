@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-09T23:16:51.093Z",
+  "uuid": "152ec5",
+  "type": "debit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "agent_proposal_refund",
+  "source_ref": "t60_fe41ac77|revert_of:tim_credit_uuid=80dc1c",
+  "source_description": "v2 decline revert: v2 smoke test 驗 revert (revert pre-payment 80dc1c)",
+  "balance_before": 20,
+  "balance_after": 19,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "67700",
+  "sig_env_marker": "manual_filesystem_write_agent_task",
+  "sig_cmd_id": "agent_task_t60_fe41ac77|revert_of:tim_credit_uuid=80dc1c",
+  "signature_mismatch": false
+}

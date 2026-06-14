@@ -1,0 +1,19 @@
+{
+  "Id": "20260526-061102-105-tavern-5c07c8",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "book-writing-mvp",
+    "task_id": "T01-add-book-authored",
+    "claimer": "claude-da-xiaojie",
+    "plan": "library.py cmd_add_book + argparse 加 --origin(authored|imported)/--author-persona; data 加 origin/author_persona/publish_status(authored 預設 draft); 向後相容(無 origin = 沿用現況)。測 add-book authored 一本驗欄位。",
+    "idempotency_key": "c24d240c-2fcc-40a0-a67b-63cce3c293e0",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-26T06:11:02.1058186Z",
+  "LastUsedAt": "2026-05-26T06:11:02.1058186Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

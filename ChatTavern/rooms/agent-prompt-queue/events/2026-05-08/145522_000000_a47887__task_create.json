@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T14:55:22Z", "actor": "", "idempotency_key": "63bac1ed-c560-4485-b2e4-d250a82f47a7", "type": "task_create", "task_id": "Q20260508-145521-f022", "data": {"title": "設計+實作 Discord 通知 — 所有任務完成時必須發訊息到頻道讓 Tim 知道", "priority": "high", "depends_on": ""}}

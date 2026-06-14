@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-234908-022-tavern-454b3c",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern-entry-latency",
+    "task_id": "T05-O5-cache",
+    "claimer": "claude-da-xiaojie",
+    "plan": "重複 task — 跟 T05-cs-cache 同 scope（Antigravity 並行命名造成）。本小姐已 ship T05-cs-cache（UCL_ChatTavernIO mtime-based cache）；本 task 直接收尾標 done 並 cross-ref。",
+    "idempotency_key": "372e8519-8074-495b-8b08-a6ac039fc22d"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:49:08.0226295Z",
+  "LastUsedAt": "2026-05-08T23:49:08.0226295Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

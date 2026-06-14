@@ -1,0 +1,20 @@
+{
+  "ts": "2026-05-09T23:19:24.448Z",
+  "uuid": "521ae6",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "tx_revert",
+  "source_ref": "revert_of:decff1_compensation",
+  "source_description": "T61 dev compensation: revert decff1 (bug double-debit during smoke test). Tim 20->19->18 wrong path; corrects to 19. Idempotency check fixed in same commit.",
+  "balance_before": 18,
+  "balance_after": 19,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "22148",
+  "sig_env_marker": "manual_filesystem_write_t61_repair",
+  "sig_cmd_id": "T61_repair_decff1",
+  "signature_mismatch": false,
+  "_repair_target": "decff1",
+  "_repair_note": "idempotency check loosened in same commit"
+}

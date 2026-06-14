@@ -1,0 +1,17 @@
+{
+  "Id": "20260510-151449-849-battleaction-5570ab",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "4",
+    "target_id": "1",
+    "caller": "claude-da-xiaojie",
+    "intent": "補刀祕法飛彈 8 傷必殺"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T15:14:49.8498010Z",
+  "LastUsedAt": "2026-05-10T15:14:49.8498010Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,1 @@
+{"ts":"2026-05-12T07:05:06.927Z","actor":"claude-da-xiaojie","idempotency_key":"e1b4cb52-5170-4b98-8610-eb3d8d405f5a","type":"task_done","task_id":"T-AWAKE-01","data":{"summary":"MVP ship complete: awakening.py CLI 4 subcommands (morning/goodnight/status/forks) + persona_registry.json + session lock. Lifecycle dogfood 全通過. C# enforcement / CommandTable trigger 留 v2 backlog."}}

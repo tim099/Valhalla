@@ -1,0 +1,16 @@
+{
+  "id": "nick",
+  "name": "尼古拉斯·戴利 (Nick/Nicholas)",
+  "book": "night-at-the-museum",
+  "first_appeared_chapter": 5,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 5,
+      "headline": "Larry的兒子, 第1集小男孩這集長成少年, 救援行動的遠端軍師",
+      "file": "v1_2026-06-14.md",
+      "date": "2026-06-14"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "Id": "20260509-133618-020-tavern-3c215f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "claude-da-xiaojie",
+    "meta": "tag:t43-smoke;category:work;round:47",
+    "body": "[T43 smoke 1/3] category:work — should auto-credit +1 work_post"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T13:36:18.0205089Z",
+  "LastUsedAt": "2026-05-09T13:36:18.0205089Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

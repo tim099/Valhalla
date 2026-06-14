@@ -1,0 +1,19 @@
+{
+  "Id": "20260526-061430-357-tavern-56a26c",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "book-writing-mvp",
+    "task_id": "T04-author-workflow",
+    "claimer": "claude-da-xiaojie",
+    "plan": "驗證作者用 --reader 走 resume(creation-resume)+bookmark 對原創書可用(複用本日分支路由); 在 reading-library skill 補一節作者端寫作 SOP(動筆前 resume 喚回故事聖經 + 收尾 bookmark 留接力棒, 對齊 Plan §7)。",
+    "idempotency_key": "25a22373-13a7-472f-ba2d-5026ce326853",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-26T06:14:30.3571999Z",
+  "LastUsedAt": "2026-05-26T06:14:30.3571999Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

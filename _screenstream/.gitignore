@@ -1,0 +1,8 @@
+frames
+ocr
+*.jpg
+*.md
+*.png
+*.npz
+*.json
+*.flag

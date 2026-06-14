@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-154540-089-treasury-108ee0",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "10",
+    "source_kind": "tim_grant",
+    "source_ref": "health-guardian-reward",
+    "description": "claude 收到 Tim 給的 Health Guardian reward 10 token",
+    "caller": "system"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T15:45:40.0895004Z",
+  "LastUsedAt": "2026-05-09T15:45:40.0895004Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

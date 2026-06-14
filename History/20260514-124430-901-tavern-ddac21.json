@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-124430-901-tavern-ddac21",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "story-whispering-grove",
+    "task_id": "T02-blueprint-a2",
+    "actor": "calli",
+    "summary": "A2 verify + sign-off: 平行 worker (應為 crest-001 同 chat) 已 ship A2 §4 content (12 NEW localize keys + 3 reuse CommonOption + 3 NEW Sprite entries + AbandonedTemple style preset). 本小姐 audit 確認: 命名規約對齊 (`<Story>_<Section>_<Type>_<Verb>` pattern), reuse common option 正確 (Leave/Awesome/OhNo), 19 條目 (12 NEW × 10 lang = 120 entries for T06). T03 (A3 機制接線) + T04 (ImageGen) + T06 (Localize) deps 解除。但本筆 = race condition signal: 我 claim 時 §4 已存在, 該補 task_claim 前先檢查 deliverable 是否已 ship 的 step (process lesson).",
+    "idempotency_key": "342f08ff-b80f-489d-93dc-9d5316e7b68d",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:44:30.9016181Z",
+  "LastUsedAt": "2026-05-14T12:44:30.9016181Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

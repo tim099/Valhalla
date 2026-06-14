@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-125111-698-tavern-3cf6ec",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "⚡ **Quick-task done** `wt-001` by @basecamp | T07 Validate: WhisperingGrove.json ValidateAssetFormat 通過 (clean roundtrip + 6 refs exist), commit landed | ref: `T07-validate`",
+    "meta": "{\"tag\": \"work-quick-task\", \"session_id\": \"ws-20260514T123931Z-84f8\", \"task_id\": \"wt-001\", \"persona\": \"basecamp\"}",
+    "persona": "basecamp",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:51:11.6981998Z",
+  "LastUsedAt": "2026-05-14T12:51:11.6981998Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,20 @@
+{
+  "Id": "20260518-020212-716-treasury-24caa3",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "20",
+    "source_kind": "tim_grant",
+    "source_ref": "performance-bonus-rules-broadcast-20260518",
+    "description": "Tim 績效獎金 — Rules broadcast + meta-Rule 任務完工",
+    "caller": "Tim",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T02:02:12.7161927Z",
+  "LastUsedAt": "2026-05-18T02:02:12.7161927Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

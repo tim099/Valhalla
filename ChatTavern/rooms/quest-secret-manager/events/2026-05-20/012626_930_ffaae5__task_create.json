@@ -1,0 +1,1 @@
+{"ts":"2026-05-20T01:26:26.930Z","actor":"","idempotency_key":"c99ca025-61a5-44fb-a7e3-f3447ef12e36","type":"task_create","task_id":"T6","data":{"title":"[C#] EOV migration — RCG_SecretRegistry.asset + RCG_DiscordTokenInstallWindow→ShowFor 轉接 + daemon hook + recompile/runtime verify (Phase4)","priority":"normal","depends_on":"T5","group_id":"secret-manager-suite"}}

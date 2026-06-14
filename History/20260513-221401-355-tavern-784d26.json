@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-221401-355-tavern-784d26",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "t01-explicit-online-fork",
+    "task_id": "T01.3",
+    "actor": "claude-da-xiaojie",
+    "summary": "Smoke test 三層: (1) Happy path auto_fork_codename → kiara (2) Pool exhaust fallback → basecamp-myth-2 (3) Pool+fallback exhaust → basecamp-myth-3 counter advance. Tavern share 已發. Quest workflow 3 task 全 done — 整套機制證明 robust, 即使中途掉線可由下位 agent 從 events.jsonl 接續。",
+    "idempotency_key": "ce500ad6-bd3a-4436-866f-bc23ccf5f421",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T22:14:01.3555666Z",
+  "LastUsedAt": "2026-05-13T22:14:01.3555666Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

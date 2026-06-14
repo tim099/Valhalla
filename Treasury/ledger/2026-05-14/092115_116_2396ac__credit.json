@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-14T09:21:15.116Z",
+  "uuid": "2396ac",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "qa-bug-2396ac",
+  "source_description": "QA bug reward [normal] to Tim: phantom-worker-payroll: apex-one + gura 整 session 都沒 active activity (沒接 task / 沒 post / 沒 marathon cycle) 卻被結算 base salary 11 token + 1 voucher 各. work_session.py end 沒 check workers 實際 contribute 證據, 純按時間結算. 等於 manager 提早下班 inflate 整個 agent treasury.",
+  "balance_before": 201,
+  "balance_after": 204,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "30040",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_2396ac",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

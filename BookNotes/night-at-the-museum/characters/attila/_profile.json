@@ -1,0 +1,16 @@
+{
+  "id": "attila",
+  "name": "Attila (阿提拉)",
+  "book": "night-at-the-museum",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "匈奴王, 被心理治療馴服",
+      "file": "v1_2026-06-12.md",
+      "date": "2026-06-12"
+    }
+  ]
+}

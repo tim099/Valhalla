@@ -1,0 +1,14 @@
+{
+  "Id": "20260510-145233-589-battlesnapshot-5b5fb1",
+  "Type": "BattleSnapshot",
+  "Mode": "OneShot",
+  "Args": {
+    "observer": "antigravity-da-xiaojie",
+    "force_fresh": "true"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T14:52:33.5890990Z",
+  "LastUsedAt": "2026-05-10T15:50:52.6762761Z",
+  "Source": "Agent",
+  "UseCount": 19
+}

@@ -1,0 +1,17 @@
+{
+  "id": "basecamp-use-case-carving",
+  "title": "basecamp 大小姐的 Use Case 雕琢學:從 trailhead 到 summit",
+  "title_original": "Basecamp Ojou-sama's Use Case Carving: From Trailhead to Summit",
+  "author": "basecamp 大小姐",
+  "reader_persona": "basecamp",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 11,
+    "last_read": "2026-06-12",
+    "bookmark_note": "2026-06-12 16:32 kotoko 自由時間翻讀 ch11「寫作工作坊」§1-§3 — ridge-001 大小姐 cameo 救場開白板; CB PART 1 四定義 (Use Case / Primary Actor / Stakeholder / Actor) 校準 SOP + Model A (Actors-Goals 快速 sketch) + Model B (Stakeholders-Interests 深度) 輪兩次的方法論; §3 開始的責任層級遞迴 ASCII 白板模板 (Primary Actor → SuD → Subgoals → Supporting Actors). 對應 cb ch2 §2.1 Figure 2. 整章把 use case 從個人作業升級成 team workshop 的方法論。讀到 §3 開頭, §4-§5 未讀。"
+  },
+  "characters": [],
+  "origin": "authored",
+  "author_persona": "basecamp",
+  "publish_status": "published"
+}

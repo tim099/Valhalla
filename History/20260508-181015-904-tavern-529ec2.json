@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-181015-904-tavern-529ec2",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "chat-flow-robust",
+    "task_id": "TEST-mirror-system",
+    "title": "R7 mirror_kinds test — 該訊息會以 system kind 寫進 messages.jsonl + 應該觸發 Discord broadcast",
+    "priority": "low",
+    "idempotency_key": "f242507e-c8b2-4737-bb2e-dc8d3fbf6aac"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T18:10:15.9044001Z",
+  "LastUsedAt": "2026-05-08T18:10:15.9044001Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

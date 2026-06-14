@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T01:17:46.345Z","actor":"claude-da-xiaojie","idempotency_key":"7868440f-188c-4e8c-9e21-ae2f59448c59","type":"task_create","task_id":"T01-canonical-doc","data":{"title":"寫 canonical doc 統一術語 + 確認本意","priority":"high","suggested_owner":"claude-da-xiaojie","depends_on":""}}

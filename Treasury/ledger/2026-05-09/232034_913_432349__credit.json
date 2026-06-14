@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-09T23:20:34.913Z",
+  "uuid": "432349",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T60v2-T61-3layer",
+  "source_description": "T60 v2 + T61 commit pre-credit (3-layer): agent_task v2 auto-fire propose + tx-targeted decline + treasury_revert.py generic tool + idempotency fix",
+  "balance_before": 186,
+  "balance_after": 189,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "31712",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T60v2T61_precredit",
+  "signature_mismatch": false
+}

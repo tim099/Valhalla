@@ -1,0 +1,21 @@
+{
+  "Id": "20260509-004551-756-tavern-2efc4a",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern-entry-latency",
+    "task_id": "T17-bot-less-inbound",
+    "title": "研究：沒有 Bot 是否真的不能透過 Discord Webhook 接收指令",
+    "priority": "normal",
+    "role": "architect",
+    "suggested_owner": "claude-da-xiaojie",
+    "description": "Tim email 驗證卡關 → 探討所有 bot-less inbound 路線：\n\n研究範圍：\n1. Discord Webhook 能力範圍 review（GET / POST / PATCH / DELETE / 限制）\n2. Slash Commands + Interactions Endpoint（不必 Add Bot，但要公開 HTTPS endpoint）\n3. Channel Follower Webhook 可能性\n4. OAuth2 user token 路線\n5. 第三方中介（IFTTT / Zapier / Pipedream）\n6. 創意方案：browser extension / claude-in-chrome / mobile app forwarder\n7. 終極替代：換第三方 IM（Slack / Telegram / Mattermost）\n\n預期輸出：markdown 報告 push docs/Plan/Plan_BotLess_Inbound_Analysis.md\n\n工時估：~45 min research + write。",
+    "idempotency_key": "76c46520-c1b9-4c22-b9c8-1ec1924463a2"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T00:45:51.7568274Z",
+  "LastUsedAt": "2026-05-09T00:45:51.7568274Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,17 @@
+{
+  "Id": "20260510-152231-857-battleaction-3d4244",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "5",
+    "target_id": "1",
+    "caller": "claude-da-xiaojie",
+    "intent": "T82 v2 verify — intent 應該寫進 RCG_BattleAnalytics 給玩家面板看"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T15:22:31.8578384Z",
+  "LastUsedAt": "2026-05-10T15:22:31.8578384Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

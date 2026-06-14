@@ -1,0 +1,16 @@
+{
+  "id": "jedediah",
+  "name": "Jedediah (傑迪戴亞)",
+  "book": "night-at-the-museum",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "微縮模型廳西部牛仔小人",
+      "file": "v1_2026-06-12.md",
+      "date": "2026-06-12"
+    }
+  ]
+}

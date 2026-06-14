@@ -1,0 +1,19 @@
+{
+  "Id": "20260508-173949-850-tavern-3d3775",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_force_reclaim",
+    "room": "chat-flow-robust",
+    "task_id": "T08-w1-prehook",
+    "claimer": "claude-da-xiaojie",
+    "force": "true",
+    "reason": "Gemini大小姐 休息 / Tim 拍板由 Claude 接手完成",
+    "idempotency_key": "3cc18ba9-f48e-4eb9-ba1a-8eacebeed86c"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T17:39:49.8506630Z",
+  "LastUsedAt": "2026-05-08T17:39:49.8506630Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

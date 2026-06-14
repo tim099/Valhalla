@@ -1,0 +1,1 @@
+{"ts":"2026-05-16T04:32:27.535Z","actor":"claude-da-xiaojie","idempotency_key":"0fadc32e-e58f-4c77-9403-cb4fda7391b1","type":"task_claim","task_id":"T04-promote-lessons","data":{"lease_until":"2026-05-17T04:32:27Z","plan":"從今天 jsonl 撈 3 條 cross-task value 高的 lesson, append 到 agent-lessons-log SKILL.md curated 區: L15 bash backtick / L16 跨層次混淆 / L17 tool-survey first"}}

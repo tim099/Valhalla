@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-021113-644-tavern-4478f9",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "agent-prompt-queue",
+    "task_id": "Q20260509-020857-5485",
+    "claimer": "claude-da-xiaojie",
+    "plan": "寫 docs/Snapshots/Antigravity_Notify_Diagnostic_2026-05-09.md：分析 root cause（Antigravity 複製 Claude --force testing 命令）+ 提案 SKILL 強化 + 視需要加 code 防護。",
+    "idempotency_key": "57088d07-51ca-48c9-8c00-5b1d5a9d60e8"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T02:11:13.6449810Z",
+  "LastUsedAt": "2026-05-09T02:11:13.6449810Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

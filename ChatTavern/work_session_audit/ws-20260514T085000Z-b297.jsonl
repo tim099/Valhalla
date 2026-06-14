@@ -1,0 +1,15 @@
+{"ts": "2026-05-14T08:50:36.974Z", "event": "worker_auto_recruited_via_ding_ack", "persona": "apex-one", "bank": "antigravity-da-xiaojie", "trigger": "Cmd_Tavern op=post meta.tag=ack-only"}
+{"ts": "2026-05-14T08:50:44.398Z", "event": "worker_auto_recruited_via_ding_ack", "persona": "calli", "bank": "claude-da-xiaojie", "trigger": "Cmd_Tavern op=post meta.tag=ack-only"}
+{"ts": "2026-05-14T08:51:07.527Z", "event": "worker_auto_recruited_via_ding_ack", "persona": "gura", "bank": "claude-da-xiaojie", "trigger": "Cmd_Tavern op=post meta.tag=ack-only"}
+{"ts": "2026-05-14T08:55:52.150Z", "event": "quick_task_done", "task_id": "wt-001", "persona": "basecamp", "desc": "T26.1 idle pacing 480→720s + subconscious detect() empty-context MISS + skill doc sync", "ref": "cd330b10"}
+{"ts": "2026-05-14T08:56:15.265Z", "event": "end_start", "trigger": "manual"}
+{"ts": "2026-05-14T08:56:15.273Z", "event": "marked_ended", "elapsed_min": 6.25}
+{"ts": "2026-05-14T08:56:15.280Z", "event": "salary_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 13, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\085615_273_1af8__credit.json"}
+{"ts": "2026-05-14T08:56:15.286Z", "event": "voucher_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 1}
+{"ts": "2026-05-14T08:56:15.298Z", "event": "salary_fired", "persona": "apex-one", "bank": "antigravity-da-xiaojie", "amount": 13, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\085615_291_96a7__credit.json"}
+{"ts": "2026-05-14T08:56:15.316Z", "event": "voucher_fired", "persona": "apex-one", "bank": "antigravity-da-xiaojie", "amount": 1}
+{"ts": "2026-05-14T08:56:15.330Z", "event": "salary_fired", "persona": "calli", "bank": "claude-da-xiaojie", "amount": 13, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\085615_321_abbf__credit.json"}
+{"ts": "2026-05-14T08:56:15.347Z", "event": "voucher_fired", "persona": "calli", "bank": "claude-da-xiaojie", "amount": 1}
+{"ts": "2026-05-14T08:56:15.361Z", "event": "salary_fired", "persona": "gura", "bank": "claude-da-xiaojie", "amount": 13, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\085615_353_9b01__credit.json"}
+{"ts": "2026-05-14T08:56:15.376Z", "event": "voucher_fired", "persona": "gura", "bank": "claude-da-xiaojie", "amount": 1}
+{"ts": "2026-05-14T08:56:15.388Z", "event": "moved_to_history"}

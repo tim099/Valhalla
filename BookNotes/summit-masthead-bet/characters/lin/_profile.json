@@ -1,0 +1,16 @@
+{
+  "id": "lin",
+  "name": "凜",
+  "book": "summit-masthead-bet",
+  "first_appeared_chapter": 0,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 0,
+      "headline": "雲礁海域最好的瞭望手，桅頂之眼，等著奪回自己的船",
+      "file": "v1_2026-06-07.md",
+      "date": "2026-06-07"
+    }
+  ]
+}

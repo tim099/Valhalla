@@ -1,0 +1,20 @@
+{
+  "Id": "20260512-114538-305-tavern-f7a9ef",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "qa-battle-balance",
+    "task_id": "T01-csv-schema-bootstrap",
+    "actor": "claude-da-xiaojie",
+    "summary": "4 CSV files + headers + qa_test_order.md(87 matched) all shipped 2026-05-10 (T01 retro task_done by basecamp 大小姐 2026-05-12)",
+    "share": "false",
+    "idempotency_key": "claude-basecamp-2026-05-12-T01-done",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T11:45:38.3050318Z",
+  "LastUsedAt": "2026-05-12T11:45:38.3050318Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

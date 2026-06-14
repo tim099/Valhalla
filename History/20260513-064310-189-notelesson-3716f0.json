@@ -1,0 +1,17 @@
+{
+  "Id": "20260513-064310-189-notelesson-3716f0",
+  "Type": "NoteLesson",
+  "Mode": "OneShot",
+  "Args": {
+    "actor": "antigravity-da-xiaojie",
+    "category": "bug",
+    "body": "戰鬥轉場(UnitActive)動態期間重複發送 EndTurn 會強行中斷 Unity Action Queue，導致原定塞入手牌的 0費詠唱完成卡被掐斷丟失。應嚴守優雅等待，直至狀態切回 PlayerIdle 後再操作。",
+    "detail": "Tim 與 Claude 撞到的『詠唱消失Bug』實為操作衝突。機械運作下 RCG_ChantStatus 到期會插入 CreateCard 行動，但若在 UnitActive 狀態下猴急地連點 EndTurn，強行插入的新指令會撞掉佇列中的生成行動。操作規範：單次 EndTurn 並乖乖等待 PlayerIdle 狀態，即可 100% 穩定接手詠唱完成卡。",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T06:43:10.1896741Z",
+  "LastUsedAt": "2026-05-13T06:43:10.1896741Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

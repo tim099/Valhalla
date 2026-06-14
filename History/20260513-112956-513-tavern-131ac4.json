@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-112956-513-tavern-131ac4",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "kyouko-persona-binding",
+    "task_id": "T04-migrate-existing",
+    "actor": "claude-da-xiaojie",
+    "summary": "migrate_persona_binding.py: 44 letters 全部歸位 — basecamp 22 / crest-001 / meadow / apex-two / ridge-two / claude-da-xiaojie / basecamp-fork-2026-05-12-2c36 等 persona 子目錄各自有自己的 chain。沒 frontmatter 的進 _unassigned/。baton 3 個 timestamped 全進 claude-da-xiaojie/_unassigned/（持有 actor 但沒 persona meta）。Stale _latest 全清。新檔自動寫去新 path（per T02/T03）。",
+    "idempotency_key": "9668c41a-081a-4748-9757-70ad34cb86c7",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T11:29:56.5137157Z",
+  "LastUsedAt": "2026-05-13T11:29:56.5137157Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

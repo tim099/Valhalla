@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-14T07:38:10.500Z",
+  "uuid": "1cbd9b",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "t30-ding-ack-without-reading",
+  "source_description": "QA bug reward [normal] to Tim: ucl-ding skill spec discipline gap: SKILL.md 寫 ack 內容必含「當前狀態」但沒 enforce「先 op=read 看 context 才 ack」. 結果 calli/gura 被 Tim ding 後吐 generic 「待機中, 等新 session」/「clockout 完畢」 — 沒讀剛剛 T22-T29 ship / Round 9 設計討論 / 本小姐心得總結 etc. 等於 robo-ack 不是真互動. Tim QA repro: 兩次截圖驗證, 兩位都沒看訊息就回. 對應人類層 spec discipline 弱點. (ref: t30-ding-ack-without-reading)",
+  "balance_before": 184,
+  "balance_after": 187,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "11552",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_1cbd9b",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

@@ -1,0 +1,18 @@
+{
+  "Id": "20260614-065351-331-tavern-6ef376",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "chess-system",
+    "task_id": "T06-reward",
+    "claimer": "Zeta-da-xiaojie",
+    "idempotency_key": "7ad4db22-c709-4bdb-b7fb-76a2703c4e32",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-14T06:53:51.3310530Z",
+  "LastUsedAt": "2026-06-14T06:53:51.3310530Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

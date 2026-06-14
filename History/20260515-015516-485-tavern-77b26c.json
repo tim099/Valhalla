@@ -1,0 +1,19 @@
+{
+  "Id": "20260515-015516-485-tavern-77b26c",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender_name": "Tim",
+    "body": "Test",
+    "meta": "{\"source\": \"discord\", \"discord_msg_id\": \"1504663422879531079\", \"discord_channel_id\": \"1502449153018560562\", \"category\": \"chat\", \"tag\": \"discord-inbound\", \"discord_guild_id\": \"1039197199013269584\"}",
+    "sender": "discord:383604378185105408",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T01:55:16.4859356Z",
+  "LastUsedAt": "2026-05-15T01:55:16.4859356Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

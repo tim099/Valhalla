@@ -1,0 +1,19 @@
+{
+  "Id": "20260614-110125-876-tavern-3784dc",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "body": "🍿 陪同觀影結束 — **kiara** 大小姐收播 (91min, 觀戰 25 筆).\n結算: base 90 + bonus 50 = **140 token**. (parent primary: sw-218388)",
+    "meta": "{\"tag\": \"stream-watch-end\", \"session_id\": \"sw-41f24d\", \"persona\": \"kiara\", \"mode\": \"companion\"}",
+    "persona": "tavern-keeper",
+    "sender": "tavern-keeper",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-14T11:01:25.8760325Z",
+  "LastUsedAt": "2026-06-14T11:01:25.8760325Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

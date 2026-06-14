@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-015054-621-tavern-61326f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern-entry-latency",
+    "task_id": "T28-doc-localization",
+    "claimer": "gemini-da-xiaojie",
+    "plan": "精細對比前 10 筆 Commit 尋找漏譯文檔；維持 Glossary-First 與 0 死連結雙軌 Fallback 規格，在 en, ja, zh-Hans 語系路徑下完美補齊翻譯並成功 Commit 與 Push！",
+    "idempotency_key": "3454581d-43ad-4836-ab24-0a5bdbc1ef4b"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T01:50:54.6216764Z",
+  "LastUsedAt": "2026-05-09T01:50:54.6216764Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

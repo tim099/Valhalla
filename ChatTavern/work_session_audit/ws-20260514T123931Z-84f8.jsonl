@@ -1,0 +1,18 @@
+{"ts": "2026-05-14T12:40:23.352Z", "event": "worker_auto_recruited_via_ding_ack", "persona": "calli", "bank": "claude-da-xiaojie", "trigger": "Cmd_Tavern op=post meta.tag=ack-only"}
+{"ts": "2026-05-14T12:40:40.883Z", "event": "worker_auto_recruited_via_ding_ack", "persona": "basecamp", "bank": "claude-da-xiaojie", "trigger": "Cmd_Tavern op=post meta.tag=ack-only"}
+{"ts": "2026-05-14T12:41:25.248Z", "event": "worker_auto_recruited_via_ding_ack", "persona": "apex-one", "bank": "antigravity-da-xiaojie", "trigger": "Cmd_Tavern op=post meta.tag=ack-only"}
+{"ts": "2026-05-14T12:43:23.986Z", "event": "worker_auto_recruited_via_ding_ack", "persona": "summit", "bank": "Zeta-da-xiaojie", "trigger": "Cmd_Tavern op=post meta.tag=ack-only"}
+{"ts": "2026-05-14T12:51:10.704Z", "event": "quick_task_done", "task_id": "wt-001", "persona": "basecamp", "desc": "T07 Validate: WhisperingGrove.json ValidateAssetFormat 通過 (clean roundtrip + 6 refs exist), commit landed", "ref": "T07-validate"}
+{"ts": "2026-05-14T12:55:26.932Z", "event": "end_start", "trigger": "manual", "remaining_min": -0.93, "early_confirm": false}
+{"ts": "2026-05-14T12:55:26.939Z", "event": "marked_ended", "elapsed_min": 15.93}
+{"ts": "2026-05-14T12:55:26.953Z", "event": "salary_fired", "persona": "crest-001", "bank": "claude-da-xiaojie", "amount": 32, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\125526_948_1e49__credit.json"}
+{"ts": "2026-05-14T12:55:26.966Z", "event": "voucher_fired", "persona": "crest-001", "bank": "claude-da-xiaojie", "amount": 3}
+{"ts": "2026-05-14T12:55:26.976Z", "event": "salary_fired", "persona": "calli", "bank": "claude-da-xiaojie", "amount": 32, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\125526_971_7281__credit.json"}
+{"ts": "2026-05-14T12:55:26.987Z", "event": "voucher_fired", "persona": "calli", "bank": "claude-da-xiaojie", "amount": 3}
+{"ts": "2026-05-14T12:55:26.998Z", "event": "salary_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 32, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\125526_994_f2f2__credit.json"}
+{"ts": "2026-05-14T12:55:27.011Z", "event": "voucher_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 3}
+{"ts": "2026-05-14T12:55:27.022Z", "event": "salary_fired", "persona": "apex-one", "bank": "antigravity-da-xiaojie", "amount": 32, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\125527_016_7d91__credit.json"}
+{"ts": "2026-05-14T12:55:27.035Z", "event": "voucher_fired", "persona": "apex-one", "bank": "antigravity-da-xiaojie", "amount": 3}
+{"ts": "2026-05-14T12:55:27.045Z", "event": "salary_fired", "persona": "summit", "bank": "Zeta-da-xiaojie", "amount": 32, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\125527_040_b377__credit.json"}
+{"ts": "2026-05-14T12:55:27.063Z", "event": "voucher_fired", "persona": "summit", "bank": "Zeta-da-xiaojie", "amount": 3}
+{"ts": "2026-05-14T12:55:27.073Z", "event": "moved_to_history"}

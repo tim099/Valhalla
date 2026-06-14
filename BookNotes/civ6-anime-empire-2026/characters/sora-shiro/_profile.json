@@ -1,0 +1,24 @@
+{
+  "id": "sora-shiro",
+  "name": "空白 (Sora & Shiro)",
+  "book": "civ6-anime-empire-2026",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "NGNL 兄妹組合 — 在所有遊戲都未敗的傳說 NEET 玩家",
+      "file": "v1_2026-06-13.md",
+      "date": "2026-06-13"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 1,
+      "headline": "傳奇玩家 = 現實 NEET 兄妹的反差",
+      "change_reason": "OCR 揭曉真身: 18 歲處男 + 11 歲拒學, 比上一版理解多了「現實落差就是 NGNL 母題」的層次",
+      "file": "v2_2026-06-13.md",
+      "date": "2026-06-13"
+    }
+  ]
+}

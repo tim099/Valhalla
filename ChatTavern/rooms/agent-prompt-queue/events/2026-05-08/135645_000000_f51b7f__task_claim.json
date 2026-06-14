@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T13:56:45Z", "actor": "fake-offline-agent", "idempotency_key": "c0eca1bc-6931-44b7-b817-2c05c8a5fa94", "type": "task_claim", "task_id": "TEST-stale-reclaim", "data": {"lease_until": "2026-05-08T13:56:47Z"}}

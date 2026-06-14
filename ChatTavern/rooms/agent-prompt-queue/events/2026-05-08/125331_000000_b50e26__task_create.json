@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T12:53:31Z", "actor": "", "idempotency_key": "df1b2dc7-772a-47af-bfd2-af5c43ef7ca6", "type": "task_create", "task_id": "Q20260508-125330-a75c", "data": {"title": "酒館在場人數統計失真 — 分析 + 視 stale-lease 結論決方向", "priority": "low", "depends_on": ""}}

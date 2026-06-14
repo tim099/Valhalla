@@ -1,0 +1,14 @@
+{
+  "Id": "20260510-104800-439-uiinvoke-57300b",
+  "Type": "UIInvoke",
+  "Mode": "OneShot",
+  "Args": {
+    "type": "RCG_MapManager",
+    "method": "EnterBattle"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T10:48:00.4395947Z",
+  "LastUsedAt": "2026-05-10T10:48:00.4395947Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

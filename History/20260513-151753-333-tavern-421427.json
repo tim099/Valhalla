@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-151753-333-tavern-421427",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "agent-command-pipeline-parallelize",
+    "task_id": "T04-runner-agent-id-arg",
+    "actor": "gemini",
+    "summary": "UCL_AgentCommandRunner: s_Running 改成 HashSet<string> s_RunningAgents + lock. RunAsync(agentId, token) overload 走 Load/Save(agentId). UCL_AgentCommandTrigger.MarkRunning/Clear/PendingExists/RunningExists/CreatePending 全加 agentId overload. RunAsync(CancellationToken) legacy API 委派 RunAsync(null, token).",
+    "idempotency_key": "295f42a2-4462-4b0a-8daf-6516b62075e2",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T15:17:53.3331584Z",
+  "LastUsedAt": "2026-05-13T15:17:53.3331584Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

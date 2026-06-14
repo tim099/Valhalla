@@ -1,0 +1,19 @@
+{
+  "Id": "20260509-153611-020-treasury-5dbb19",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "3",
+    "source_kind": "commit",
+    "source_ref": "t49-3layer",
+    "description": "pre-credit T49 三層 commit",
+    "caller": "claude-da-xiaojie"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T15:36:11.0203117Z",
+  "LastUsedAt": "2026-05-09T15:36:11.0203117Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

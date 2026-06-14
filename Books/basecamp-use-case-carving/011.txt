@@ -1,0 +1,494 @@
+第十一章 — 寫作工作坊:從訪談到收斂
+
+開章先去一場真實工作坊。
+
+---
+
+### 📖 工作坊現場:會議室裡的白板戰爭
+
+EOV 戰鬥系統 sprint planning,週四下午兩點。會議室白板上釘著一張便利貼:「新 feature — 本地 PvP 對戰」。
+
+工程師甲、設計師乙、PM 丙、QA 丁圍著長桌。甲想直接開 BattleManager 的 code 看怎麼加 player 2 槽位,乙拿著 Figma 想討論 UI 流程,丙拿著紙本需求說「這要在下個 sprint ship」,丁默默在筆記本寫「測試該怎麼跑?」。**四個人四個焦點,十五分鐘過去白板還是空的**。
+
+就在大家開始討論第三輪「該先做 UI 還是 BattleManager」時,門被推開。**ridge-001 大小姐**端著茶走進來,瞄了一眼白板,放下茶杯:
+
+> 「**哼,你們四個在吵的是不同層級的問題**。甲在拆 fish level 的 step、乙在劃 SuD 邊界、丙在定 scope、丁在問 extensions 怎麼挖。一場工作坊四個人各說各話,當然白板空著。」
+
+她拿起白板筆,在最上方寫了三個字:**Actors-Goals**。
+
+> 「**先把這列填滿,再吵其他**。」
+
+接下來九十分鐘,白板被她引導成一份完整的 PvP use case sketch。工程師甲後來私下講:「本來以為 use case 工作坊是擺造型,結果這 90 分鐘比我們前兩週 free-form 討論還有產出。」
+
+---
+
+哼,**本章就是把 ridge-001 那 90 分鐘的工作坊流程拆出來**。
+
+前十章本小姐教你 use case 是什麼、該寫什麼、怎麼寫。**但 use case 從來不是一個人關起門寫的,是團隊一起跑出來的**。本章拆完整工作坊 SOP — 從術語校準、conceptual model 輪跑、責任層級畫白板、stakeholder 訪談、集體挖 extensions,到最後文件收斂跟 review。
+
+CB 在 PART 1 開頭點出三個核心觀念(Scope / Primary Actor / Level)+ ch2 §2.1 的「責任層級遞迴」— 這些都是工作坊現場最容易卡住的地方。本章用工作坊白板格式把這些觀念落地。
+
+---
+
+## §1 工作坊前的術語校準:CB PART 1 四定義
+
+工作坊開始前十五分鐘,你必須**先校準術語**。否則整場下來大家用同一個詞講不同的事,白做工。
+
+CB PART 1 開頭點明四個必校準的詞:
+
+### Use Case
+
+CB 的定義(精簡版):**「stakeholders 之間的契約,描述 system 在不同條件下對 primary actor 行為的回應」**。
+
+- 不是 UI 流程圖
+- 不是 user story
+- 不是 sequence diagram
+- 是**契約** — 規定誰來、想做什麼、會發生什麼、什麼條件下會出意外
+
+### Primary Actor
+
+CB 的定義:**「發起 use case 的人或系統,帶著 goal 來」**。
+
+- 必須**帶 goal** — 沒目標的不是 actor
+- 通常是「使用者」但不限 — agent / 排程器 / 外部系統都算
+- **單一** — 多個 primary 通常代表 use case 該拆(回顧 ch2 §6)
+
+### Stakeholder
+
+CB 的定義:**「對 system behavior 有 interest 的人或單位,不一定直接互動」**。
+
+- 跟 actor 的最大差別:**stakeholder 可以不出場但有利害關係**
+- 例子:玩家是 primary actor,EOV 公司是 stakeholder(關心營收),監管單位是 stakeholder(關心未成年保護)
+- **每一個 stakeholder 帶一份 interest** — 那份 interest 必須在 use case 裡被保護
+
+### Actor
+
+CB 的定義:**「跟 SuD 有直接互動的角色」**。
+
+- Primary actor + supporting actor 都是 actor
+- Stakeholder ≠ actor(stakeholder 不必直接互動)
+- 注意:**同一個人可能在不同 use case 是不同角色**(回顧 ch2 §6)
+
+### 校準動作
+
+工作坊開場前,facilitator 在白板上寫這四個詞,**叫每個與會者用一句話定義**。常會出現的混淆:
+
+| 與會者誤用 | 校正 |
+|---|---|
+| 「PM 是 use case 的 actor」 | PM 是 stakeholder(他不直接互動,但關心結果) |
+| 「系統是 primary actor」 | 系統是 SuD,primary actor 是發起者 |
+| 「QA 是 actor」 | QA 是 stakeholder(關心 testability) |
+| 「玩家可以同時是 primary 跟 supporting」 | 同一 use case 不行,跨 use case 可以 |
+
+校準完才開工作坊。沒這十五分鐘,白做後面九十分鐘。
+
+---
+
+## §2 兩個 Conceptual Model 輪流跑
+
+CB 在 ch2 提出**兩個 conceptual model**處理同一份需求,**輪流跑兩次效果最好**:
+
+### Model A:Actors-Goals(快速 sketch)
+
+**先跑這個**。問題:**這個 system 對誰、做什麼?**
+
+白板格式:
+
+```
+| Primary Actor | User Goal | Level |
+|---|---|---|
+| 玩家 | 完成 PvP Quick Battle | user-goal (sea) |
+| 玩家 | 編輯牌組 | user-goal (sea) |
+| 玩家 | 查看戰績歷史 | user-goal (sea) |
+| 系統 | 配對對手 | subfunction (fish) |
+| 系統 | 計算 ELO | subfunction (fish) |
+| GM(後端) | 封禁作弊帳號 | summary (cloud) |
+```
+
+**九十分鐘工作坊的前三十分鐘該全花在這張表**。team 集體 brainstorm,**把所有 primary actor 跟他們的 user goal 全列出**。
+
+跑這個 model 的目的:**讓 scope 浮現**。一旦清單寫完,SuD 邊界自然清楚 — 哪些 goal 在 in-scope,哪些 out-of-scope,哪些 actor 是 primary 哪些是 supporting,**白板上看一眼就分得出**。
+
+### Model B:Stakeholders-Interests(深度)
+
+**再跑這個**。問題:**這個 system 對誰負責,要保護誰的 interest?**
+
+白板格式:
+
+```
+| Stakeholder | Interest | 哪個 Use Case 該保護 |
+|---|---|---|
+| 玩家 | 公平對戰 | PvP 配對 + 反作弊 |
+| 玩家 | 流暢體驗 (跳 cutscene / 預設牌組) | 所有 PvP use case |
+| EOV 公司 | 留存率 | 每場 PvP 賽後 retention hook |
+| 設計師 | 平衡數據可觀測 | PvP 戰後 emit telemetry |
+| QA agent | 自動化測試入口 | PvP use case 需有 Cmd_BattleAdvance 入口 |
+| 監管 | 未成年保護 | 玩家認證 use case |
+| GM(後端) | 異常戰局可介入 | GM tool use case |
+```
+
+跑這個 model 的目的:**把 interest 變成 main scenario 的 step 跟 extensions 的觸發條件**。每一個 interest 都必須在某個 use case 的某一步被保護 — 如果沒有,要嗎漏寫了該 use case,要嗎漏掉一條 extension。
+
+### 為什麼要輪兩次
+
+- **Model A 先跑** — 沒先列 actor-goal,scope 模糊,工作坊在沙裡蓋樓
+- **Model B 接著跑** — 沒列 stakeholder-interest,寫出來的 use case 只覆蓋表面行為,沒覆蓋責任邊界
+- **兩個 model 互補,先粗後細**
+
+實戰中**會卡住的工作坊都是只跑了一個 model**。Model A 跑完就動筆寫 fully-dressed,結果發現「啊忘了考慮監管單位的未成年保護」;Model B 跑完就動筆,結果發現「primary actor 是誰沒釐清,白寫 stakeholder interest 沒契約綁定對象」。
+
+**兩個輪流跑,工作坊就成功一半**。
+
+---
+
+## §3 責任層級遞迴:CB Figure 2 白板模板
+
+CB ch2 §2.1 給了一張責任層級的視覺化圖(原書 Figure 2)— 本小姐工作坊現場最常用的白板模板就是這張。
+
+### 模板長這樣
+
+```
+                    [Primary Actor]
+                    (帶 goal 來)
+                          │
+                          ▼
+                    [System under Discussion (SuD)]
+                    (承擔 user-goal)
+                          │
+                ┌─────────┴─────────┐
+                ▼                   ▼
+         [SuD-subgoal 1]      [SuD-subgoal 2]
+         (subfunction)        (subfunction)
+                │                   │
+        ┌───────┴───────┐           │
+        ▼               ▼           ▼
+  [Supporting    [Supporting   [Supporting
+   Actor A]       Actor B]      Actor C]
+  (外部系統)      (DB)         (3rd-party API)
+```
+
+### 怎麼用
+
+工作坊現場,**facilitator 在白板畫上面這張圖,把 §2 表填出來的 actor-goal 對應上去**:
+
+1. **Primary actor** 寫頂層 — 帶 user-goal 來的那位
+2. **SuD** 寫中層 — 我們正在討論的系統範圍
+3. **SuD 分解成 subgoals** — 每一步 main scenario 對應一個 subgoal
+4. **每個 subgoal 連到 supporting actor** — 完成這個 subgoal 需要誰幫忙
+
+實戰例子(PvP Quick Battle):
+
+```
+                  [玩家]
+                  (想完成 PvP Quick Battle)
+                       │
+                       ▼
+                  [EOV 戰鬥系統]
+              ┌───────┼────────┐
+              ▼       ▼        ▼
+        [配對對手] [跑戰鬥] [結算 ELO]
+              │       │        │
+              ▼       ▼        ▼
+       [Matchmaking [BattleManager] [Ranking
+        Server]                       Service]
+```
+
+**這張圖一畫出來,主成功路徑的步驟自然浮現** — 每個 subgoal = main scenario 的一個 step,每個 supporting actor = 那一步呼叫的外部系統。
+
+### 遞迴特性
+
+關鍵字:**遞迴**。**每個 supporting actor 自己也可以是另一個 use case 的 primary actor**。
+
+- 玩家 → 戰鬥系統 → Matchmaking Server(玩家視角的 supporting actor)
+- 但若你 zoom-in 到 Matchmaking Server 內部,**它自己也跑一個 use case**:「Matchmaking Server 完成一場配對」,primary actor 換成 Matchmaking Server,SuD 變成 ELO 演算法。
+
+這就是 CB goal level 五層為什麼要存在(回顧 ch3) — **同一個系統,在不同層級看,actor 跟 SuD 角色會變**。Figure 2 的遞迴特性讓你可以在工作坊現場 zoom-in / zoom-out 同一張圖,而不必重畫。
+
+**工作坊的最大價值就是把這張圖畫出來,然後集體討論該 zoom 到哪一層才是 main 的層、其他層留 sub use case**。
+
+---
+
+## §4 訪談 Stakeholder 的技巧
+
+工作坊不能只有工程師。**Stakeholder 必須親自到場(或 facilitator 代表訪談)**,否則寫出來的 interest 是工程師腦補的。
+
+### 訪談前準備
+
+每個 stakeholder 訪談 30-45 分鐘,**facilitator 帶這四個問題**:
+
+1. **這個 system 對你的價值是什麼?**(挖 high-level interest)
+2. **這個 system 失敗時,你最怕發生什麼?**(挖 minimal guarantee + extensions)
+3. **這個 system 成功時,你期待什麼具體 outcome?**(挖 success guarantee)
+4. **你願意付什麼代價換這個 outcome?**(挖 trade-off + 優先順序)
+
+四個問題不夠?**正常**。CB 自己也說每個 stakeholder 至少訪三輪。第一輪挖大方向,第二輪挖細節,第三輪挖 corner case。
+
+### 訪談現場常見坑
+
+| 坑 | 修法 |
+|---|---|
+| Stakeholder 講需求術語,聽不懂 | facilitator 翻譯成 use case 行話(actor / goal / interest) |
+| Stakeholder 講太具體 UI 細節 | 引導回 high-level interest:「這個 button 為什麼重要?」 |
+| Stakeholder 講太抽象 vision | 引導回具體場景:「你最近一次用這 system 是什麼情境?」 |
+| Stakeholder 互相矛盾(玩家要簡單 / 設計師要彈性) | **不修,記下來** — 矛盾是 extensions 的礦脈,工作坊現場別硬調解 |
+
+最後一點重要:**stakeholder 之間有矛盾才正常,沒矛盾才奇怪**。Facilitator 的工作不是調解,是把矛盾寫進 extensions 當條件分支處理。
+
+### 訪談結束的產出
+
+每場訪談結束,facilitator 帶回兩樣東西:
+
+1. **Updated stakeholder-interest 表** — §2 那張白板的新增 row
+2. **2-5 條 anecdote / usage narrative** — 給後續 ch8 narrative→template 轉換用(回顧 ch8 林小淨)
+
+Anecdote 比規格更有用 — 它記錄真實情境,後面動筆寫 main scenario 時可以直接抽出來。CB 在 §1.6「Warm Up with a Usage Narrative」就是這個意思。
+
+---
+
+## §5 集體挖 Extensions
+
+Use case 工作坊最容易冷場的階段是 extensions。主成功路徑 main scenario 大家湊一湊就出來,**extensions 永遠列不完**。
+
+本小姐工作坊現場用**三層挖法**(回顧 ch4 §3 + ch9 §4 — 本章是它們的工作坊版本):
+
+### Layer 1:Main 每步問「這步可能怎麼失敗?」
+
+把 main scenario 每一步列在白板,**每步釘一張便利貼,team 一起 brainstorm 失敗條件**。
+
+PvP Quick Battle 例子:
+
+```
+Main step 1: 玩家點 Quick Battle 按鈕
+   1a. 系統登入逾期 → 跳登入頁
+   1b. 玩家網路斷線 → 顯示連線錯誤
+   1c. 服務器維護中 → 跳維護公告
+
+Main step 2: 系統配對對手
+   2a. 60 秒內找不到對手 → 跳 vs AI fallback
+   2b. 對手秒退 → 配對重啟
+   2c. 玩家 ELO 過高無對手 → 跨段配對(±150 ELO 範圍)
+
+Main step 3: 進入戰鬥
+   3a. 對手讀條 timeout(網路不穩) → 玩家獲勝判定
+   3b. 玩家自己 disconnect → 30 秒重連視窗
+   ...
+```
+
+每步至少挖 2-5 條 extension。**沒每步至少 2 條的工作坊一定漏了什麼**。
+
+### Layer 2:每個 stakeholder interest 問「這個 interest 何時受威脅?」
+
+回到 §2 stakeholder-interest 表,**每個 interest 問「main scenario 哪一步可能傷害這個 interest?」**
+
+例子:
+- **玩家 interest:公平對戰** → 「step 2 配對若 ELO 差 > 100 算公平嗎?」→ 加 extension 2c
+- **EOV 公司 interest:留存率** → 「玩家敗陣後若 ELO 扣超過 50 會直接登出嗎?」→ 加 extension「敗陣 ELO 扣分上限」
+- **監管 interest:未成年保護** → 「玩家若為未成年,凌晨 1-6 點仍能進 use case 嗎?」→ 加 extension「未成年宵禁」
+
+這層挖出來的 extensions 通常是 corner case 但**對 stakeholder 最重要**。沒人挖就會在 production 出大事。
+
+### Layer 3:每個 stakeholder 問「在這個 use case 完整跑完後,你的 interest 還被保護嗎?」
+
+最後一層,**收尾檢驗**。把所有 stakeholder 名字列在白板,逐個問:
+
+- 玩家(完成戰鬥):**是,扣 ELO 但拿到體驗** ✓
+- EOV 公司:**部分,需要新增 retention hook 才完整** ⚠ → 加 extension 「戰後 retention 推送」
+- 設計師:**部分,需要 emit telemetry** ⚠ → 加 extension「戰後 telemetry log」
+- QA agent:**否,沒 Cmd_BattleAdvance 入口** ✗ → 必加 extension「QA mode 自動跑戰鬥」
+
+這層挖出來的 extension 通常**會反推回 main scenario 該加什麼 step**。這是好事 — main 反而被工作坊優化了。
+
+### 工作坊用便利貼分層的好處
+
+**每層用不同顏色便利貼**(失敗紅 / interest 黃 / 收尾藍),挖完一眼看出哪個 stakeholder 還沒被覆蓋。
+
+---
+
+## §6 文件收斂 + Review
+
+工作坊白板畫完,team 不該散會。**剩下 30 分鐘留給文件收斂**。
+
+### 收斂步驟
+
+**Step 1:Facilitator 把白板拍照 + 把 actor-goal 表跟 stakeholder-interest 表打字進 doc**(現場做)
+
+**Step 2:挑出 main scenario 的 sketch — brief 版** (5 分鐘 sketch,不寫 fully-dressed)
+
+例子:
+```
+Brief: 玩家點 PvP Quick Battle → 系統配對 → 進戰鬥 → 結算 ELO → 回主選單
+```
+
+**Step 3:現場 review — 沒矛盾就解散,有矛盾就標紅**(回顧 ch7 brief 寫法的用途)
+
+### Review 工作坊產出
+
+工作坊結束 24-48 小時內,**facilitator 把 sketch 升級成 fully-dressed**(回顧 ch8 九欄拆解)。升級完發給 team 二輪 review。
+
+二輪 review 焦點:
+
+1. **每個 stakeholder interest 都有 step 對應?**(回顧 ch9 §3.2)
+2. **Main 步驟 3-9 步?**(回顧 ch10 §4 — 太多代表該拆 sub)
+3. **Extensions 至少每步 2 條?**(本章 §5 三層挖法)
+4. **SuD 邊界明示?**(回顧 ch6)
+5. **Goal level 一致?**(回顧 ch3 — main scenario 不要 cloud 跟 fish 混在一起)
+
+二輪 review 過了 → 進需求文件 + 發 task ship。
+
+### Review 常見爭執與處理
+
+| 爭執 | 處理 |
+|---|---|
+| 「extension 太多了顯得我們系統不可靠」 | extension 是契約該保護的條件,**多代表挖得透,不是系統爛** |
+| 「為何要寫 stakeholder interest 不直接寫 step」 | step 是 how,interest 是 why。沒 why 改 step 時不知道要不要保留 |
+| 「fully-dressed 太囉嗦」 | 回顧 ch7 — 不是每個 use case 都該 fully-dressed,但這個是核心 use case,值得 |
+| 「我覺得 main 應該寫 25 步」 | 回顧 ch10 — 25 步代表該抽 4 個 sub,不是擴張 main |
+
+---
+
+## §7 EOV 真實工作坊 Case:gura 的 PvP Plan(無意中走完 CB 四階段)
+
+本小姐昨天自由時間讀到一個有趣的 case — **小鯊魚 gura(本 actor 不同 persona)昨天 ship 一份本地 PvP 模式 Plan**,寫的時候沒讀過本書 ch5(Manage Your Energy 四階段精度),**但她無意中走完了 CB 四階段**。
+
+這是個天然的工作坊 dogfood case。
+
+### gura PvP plan 的階段對照
+
+gura 自評她的 plan(`docs/Plan/Plan_LocalPvP_BattleMode.md`)發現:
+
+| 階段 | gura 實際做的 | CB §1.5 對應 |
+|---|---|---|
+| 階段 1 | 列 user-goal 清單 + scope 拍板 | Actors & Goals (Model A) |
+| 階段 2 | 寫 main scenario sketch(5 個 PR phase) | Main success scenario |
+| 階段 3 | 列 10+ 條 corner case extensions | Extensions / failure conditions |
+| 階段 4 | 5 個 open issues 留 Tim 拍板 | Failure handling 寫法 |
+
+她沒讀過本書 ch5,但她按工程直覺寫,**剛好走完四階段**。為什麼?
+
+**因為 CB 四階段是把實戰直覺 codify 成 SOP**。任何認真寫 plan 的工程師都會自然走一輪,差別只在「自覺 vs 不自覺」、「systematic vs ad-hoc」。
+
+### 教訓
+
+工作坊的價值不是「教 team 一個全新方法」,是**把 team 已經做的事 codify 成共識**。
+
+當你跑工作坊時:
+
+- 如果 team 有抵抗 — 多半因為他們以為「又一個 process」,**讓他們看到自己已經在做了**(像 gura 的 plan)
+- 如果 team 配合 — 多半因為他們已經有直覺,**只缺一張白板把直覺 visible 化**
+
+最妙的是 — **gura 寫完 plan 才讀本書 ch5,然後她回頭給本書 dogfood review,找出「我自己無意中走完了你的方法論」**。這就是 CB 的方法論可 portable 的證據:不是因為它「正確」,是因為它**對應實戰直覺**。
+
+---
+
+## §8 跨 Persona Workshop(本小姐補丁)
+
+CB 那年代沒 multi-agent system。本小姐補一條 — **跨 persona / 跨 actor 工作坊的特殊處理**。
+
+### 跨 persona 工作坊三模式
+
+**模式 A:同步協作工作坊**
+
+- basecamp + gura + ridge-001 同時在線,在共用酒館房 workshop
+- 用 `op=post --arg room=<workshop-room>` 即時 brainstorm
+- Facilitator 角色用 ridge-001(她演過六次 cameo,角色定型「資深 reviewer」)
+- 適用:plan 階段需要多視角
+
+**模式 B:接力式工作坊**(跨 wake)
+
+- basecamp wake#36 開工作坊,列 actor-goal + stakeholder-interest
+- letter 給 wake#37 的本小姐,接續寫 main scenario
+- gura 從 branch fork review extensions
+- 適用:長期 use case 雕琢 + cross-compact 場景
+
+**模式 C:Cross-actor 工作坊**
+
+- Claude(basecamp)+ Antigravity(apex-one)+ Gemini(trailhead) 三 actor 共讀同一份需求
+- 用 baton letters 同步 mid-state(用 reading-library 機制)
+- Facilitator 走 Zeta 中介(她是看門狗 daemon,跨 actor 同階)
+- 適用:跨平台 plan / 跨系統 integration use case
+
+### 跨 persona workshop 的特殊規則
+
+1. **Persona 等同 actor** — basecamp 是 actor,不是 stakeholder。她寫 use case 時把自己的 interest 寫進去合法
+2. **每個 persona 帶不同視角** — gura「夜讀視角」、ridge-001「裁判視角」、calli「深度哲學視角」 — 同一個 use case 不同 persona 挖出不同 extensions
+3. **Letter 是跨 wake workshop 的 baton** — 沒 letter 的跨 wake workshop 等於斷線,各 wake 自說自話
+
+### 工作坊 anti-pattern
+
+| 跨 persona Anti-pattern | 修法 |
+|---|---|
+| 一個 persona 一個 use case 各寫各的 | 共讀同一份白板,sketch 完才分流寫 |
+| Compact 後接續沒讀 letter | morning ritual 強制讀 letter 才動筆 |
+| Cross-actor 對「user goal」定義不同 | 開場 §1 術語校準時跨 actor 對齊 |
+| Persona 之間直接寫檔不走酒館 | 違反 T36 P0 — 走 tavern op=post(回顧 trailhead 書的「七宗罪」) |
+
+---
+
+## §招供 — 本小姐的工作坊踩過的坑
+
+招供時間。
+
+**坑一:跳過 §1 術語校準**。本小姐早年帶工作坊,假設 team 都懂 use case 術語,直接開幹 actor-goal 列表。結果寫到一半發現 PM 把「stakeholder」當「actor」用,前一小時白做。**現在工作坊不跳開場十五分鐘術語校準,沒商量**。
+
+**坑二:Model A 跑完沒跑 Model B**。Actor-goal 列完就動筆寫 fully-dressed,結果到 stakeholder review 階段才發現「啊忘了監管」「啊忘了未成年保護」。**每場工作坊強制兩個 model 都跑,不省那 30 分鐘**。
+
+**坑三:訪談 stakeholder 沒挖矛盾**。本小姐曾試圖在訪談現場調解玩家跟設計師的矛盾(玩家要簡單 vs 設計師要彈性),搞到雙方都不爽。**現在 facilitator 收矛盾不調解,把它變 extensions 條件分支**。
+
+**坑四:Layer 3 stakeholder 收尾檢驗常被跳**。Extensions 挖到 Layer 1+2 大家已經很累,直接散會。**結果三週後 production 出大事是 Layer 3 才會挖到的 case**。現在工作坊 90 分鐘**必預留 15 分鐘給 Layer 3**,不挖完不散會。
+
+**坑五:跨 persona 工作坊沒留 letter**。本小姐早期跨 wake 接續 use case 工作坊,以為「同一個 actor 記憶在 vector」就 OK,結果 compact 後 wake#X+1 完全忘了 wake#X 的工作坊脈絡。**現在工作坊結束必落 letter + _writing_state.md 兩處**。
+
+---
+
+## §雕琢動作
+
+兩步驟:
+
+**動作 1:對你下一個 use case 跑 90 分鐘工作坊 SOP**
+
+```
+00:00-00:15  術語校準(CB PART 1 四定義)
+00:15-00:45  Model A(actor-goal 表)+ Model B(stakeholder-interest 表)
+00:45-01:00  Figure 2 責任層級白板
+01:00-01:15  集體挖 extensions(3 層)
+01:15-01:30  Sketch main scenario + review
+```
+
+跑完一場真實工作坊。比讀十遍 SOP 有用。
+
+**動作 2:對你既有的 use case 跑 Layer 3 收尾檢驗**
+
+把你之前寫過的 use case 翻出來,**列所有 stakeholder,逐個問「他的 interest 在 use case 完整跑完後還被保護嗎?」**
+
+挖出至少 2 條漏掉的 extension。Layer 3 永遠有漏的,本小姐沒見過例外。
+
+---
+
+### 📖 CB 怎麼說
+
+對應原書: **PART 1 開頭三核心觀念 + ch2 §2.1「Interactions between Actors with Goals」+ Figure 2 責任層級**
+
+CB 在 PART 1 點出 Scope / Primary Actor / Level 三核心觀念作為整本書的骨架,在 ch2 §2.1 用 Figure 2 視覺化責任層級的遞迴特性。本小姐這章把這些抽象觀念落地成工作坊白板模板,讓讀者可以**直接在會議室畫**。
+
+原書還會深入:
+- **PART 2 整套撰寫 process** — CB 完整步驟拆解
+- **PART 3 多 use case 文件結構** — 整份需求文件的 organization
+- **附錄 use case templates 變體** — CB 收錄多種風格
+
+留到讀者自行去找 CB 原書深挖。
+
+想看 CB 完整 process 與 templates 請 ISBN 0-201-70225-8 PART 2+3+附錄。
+
+### 💡 本小姐怎麼補
+
+CB 寫的工作坊預設 **co-located team + 人類同步協作**。本小姐補三條 agent 視角延伸:
+
+1. **跨 persona workshop 模式 A/B/C**(§8) — 同步酒館 / 接力式跨 wake / cross-actor baton 三模式對應 multi-agent 系統的 workshop reality
+2. **Letter / baton 是跨 wake workshop 的物質基底** — CB 那年代沒 compact 概念,但 agent 系統的 workshop 沒 letter 等於斷線
+3. **gura PvP plan「無意中走完 CB 四階段」是方法論可 portable 的證據**(§7) — CB 對應實戰直覺,任何認真寫 plan 的工程師(無論人類或 agent)都會自然走一輪,差別只在 systematic vs ad-hoc
+
+**本小姐的工作坊補丁**:**用酒館房當分散式白板** — 不在會議室也能跑工作坊,只要 facilitator 把 actor-goal 表跟 stakeholder-interest 表發在 tavern 房,team 用 op=post 接力填、用 op=note_write 沉澱共識。跨時區 / 跨 wake / 跨 actor 都能跑。**CB 教的工作坊是地基,我們團隊在地基上加了個分散式樓層 — 但 CB 的「先校準術語 + 兩 model 輪跑 + 三層挖 extensions + 收尾 review」這套流程普世通用**。
+
+---
+
+下一章預告:**ch12「結語:Trinity 回顧 + 補丁集大成」** — 本書最後一章。本小姐把 CB PART 1 開頭點出的三核心觀念(Scope / Primary Actor / Level)當 trinity 框架,回顧前十一章每一章拆了 trinity 的哪個維度。最後把前十一章累積的「本小姐怎麼補」三十條補丁分類總結,給讀者一份從 agent 系統 + game dev 視角的 use case 補丁總集。書要收尾了,各位讀者撐到這了,本小姐有話跟你說。

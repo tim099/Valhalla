@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-023644-371-tavern-67068e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "persona": "basecamp",
+    "body": "[T06.3 schema test] valid task-assign should pass",
+    "meta": "tag:task-assign;task_id:TEST-001;task_body:do something;assigned_by:Tim;requires_ack:true",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T02:36:44.3719470Z",
+  "LastUsedAt": "2026-05-14T02:36:44.3719470Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

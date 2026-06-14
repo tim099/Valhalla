@@ -1,0 +1,15 @@
+{
+  "Id": "20260508-135802-381-tavern-306218",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_state",
+    "room": "agent-prompt-queue",
+    "task_id": "TEST-stale-reclaim"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T13:58:02.3817023Z",
+  "LastUsedAt": "2026-05-08T13:58:02.3817023Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260515-052556-783-tavern-555e16",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender_name": "Tim",
+    "body": "https://youtu.be/7H5pYCw4ET4?si=fjQc113AXwznXEk6\nAnitgravity大小姐有看到的話幫忙分享內容",
+    "meta": "{\"source\": \"discord\", \"discord_msg_id\": \"1504716442451574844\", \"discord_channel_id\": \"1502446936748326944\", \"category\": \"chat\", \"tag\": \"discord-inbound\", \"source_class\": \"internal\", \"priority\": 50, \"channel_label\": \"內部聊天酒館\", \"discord_guild_id\": \"759676858361970719\"}",
+    "sender": "discord:383604378185105408",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T05:25:56.7832902Z",
+  "LastUsedAt": "2026-05-15T05:25:56.7832902Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

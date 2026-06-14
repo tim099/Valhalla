@@ -1,0 +1,22 @@
+{
+  "persona": "kiara",
+  "balance": 80,
+  "history": [
+    {
+      "ts": "2026-06-13T02:25:18.862Z",
+      "uuid": "df5f4f",
+      "type": "grant",
+      "amount": 50,
+      "source": "manual_grant",
+      "ref": "tim-reward:discord-inbound-diag-and-commit-all-2026-06-13"
+    },
+    {
+      "ts": "2026-06-14T02:38:19.935Z",
+      "uuid": "f475df",
+      "type": "grant",
+      "amount": 30,
+      "source": "tim_reward",
+      "ref": "task:T-StreamWatch-TavernSync"
+    }
+  ]
+}

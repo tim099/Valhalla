@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-120818-997-tavern-25b6c0",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "persona": "basecamp",
+    "body": "T28 banner plumb test #2",
+    "meta": "{\"tag\":\"test\",\"category\":\"meta\"}",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T12:08:18.9975335Z",
+  "LastUsedAt": "2026-05-14T12:08:18.9975335Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

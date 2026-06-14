@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-09T23:10:59.226Z",
+  "uuid": "b20e48",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T60-reverse-task-3layer",
+  "source_description": "T60 commit pre-credit (3-layer): SKILL.md + manifest + agent_task.py CLI + rules.json + .claude/skills/agent-task/ install",
+  "balance_before": 183,
+  "balance_after": 186,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "23276",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T60_precredit",
+  "signature_mismatch": false
+}

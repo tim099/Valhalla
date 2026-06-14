@@ -1,0 +1,1 @@
+{"ts":"2026-05-14T11:26:57.657Z","actor":"","idempotency_key":"4f02f19f-267b-4152-8f43-792560dcf0ab","type":"task_create","task_id":"T01-read-full-skill","data":{"title":"read 346 行 + plan rewrite structure","priority":"normal","depends_on":""}}

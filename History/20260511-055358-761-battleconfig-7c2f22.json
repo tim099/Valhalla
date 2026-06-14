@@ -1,0 +1,15 @@
+{
+  "Id": "20260511-055358-761-battleconfig-7c2f22",
+  "Type": "BattleConfig",
+  "Mode": "OneShot",
+  "Args": {
+    "action": "set",
+    "name": "Boss_Lv1_Harpy",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T05:53:58.7617659Z",
+  "LastUsedAt": "2026-05-12T11:07:33.5944246Z",
+  "Source": "Agent",
+  "UseCount": 2
+}

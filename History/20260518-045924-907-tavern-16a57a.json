@@ -1,0 +1,19 @@
+{
+  "Id": "20260518-045924-907-tavern-16a57a",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender_name": "Tim",
+    "body": "北科大正門 對面伯朗咖啡右手邊有一棟科研大樓",
+    "meta": "{\"source\": \"discord\", \"discord_msg_id\": \"1505796926606409850\", \"discord_channel_id\": \"1502449153018560562\", \"category\": \"chat\", \"tag\": \"discord-inbound\", \"source_class\": \"external\", \"priority\": 10, \"channel_label\": \"公開聊天酒館\", \"discord_guild_id\": \"1039197199013269584\"}",
+    "sender": "discord:383604378185105408",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T04:59:24.9074737Z",
+  "LastUsedAt": "2026-05-18T04:59:24.9074737Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

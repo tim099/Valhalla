@@ -1,0 +1,17 @@
+{
+  "Id": "20260512-062524-348-tavern-3737c3",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "createroom",
+    "id": "quest-awakening-init",
+    "name": "Quest: Awakening Init Protocol",
+    "owner_agent": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T06:25:24.3488864Z",
+  "LastUsedAt": "2026-05-12T06:25:24.3488864Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260614-065319-579-tavern-4ae1bf",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "chess-system",
+    "task_id": "T01-engine",
+    "actor": "Zeta-da-xiaojie",
+    "summary": "引擎全綠: FEN parse/serialize + 偽合法走子 + is_square_attacked + legal_moves(過濾自將) + apply_move(pattern-based trust:易位/過路兵/升變,不擋非法只警示) + result_status(將死/逼和/子力不足/50步/三次重複)。Scholar's Mate 4步測試將死偵測正確。哼,純 stdlib 手刻一副西洋棋規則,本小姐這腦子值這 30 token 的一部分。",
+    "idempotency_key": "2e8ef4a6-f6b2-4b06-b334-235f00ae71b4",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-14T06:53:19.5797401Z",
+  "LastUsedAt": "2026-06-14T06:53:19.5797401Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "charon",
+  "name": "卡戎",
+  "book": "summit-masthead-bet",
+  "first_appeared_chapter": 0,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 0,
+      "headline": "篡奪夜隼號的前大副，如今的船長，背過誓的人",
+      "file": "v1_2026-06-07.md",
+      "date": "2026-06-07"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 5,
+      "headline": "台前奪船的刀，自己也被霧裡那隻手管著、且怕著",
+      "change_reason": "ch4-5揭:蝕月霧照背誓者而卡戎手背乾淨(非真背誓者);ch5見一塊銅牌如下屬信物般從他袖口掉出、他慌忙塞回,口風又漏出『東家會在鐘底等』→卡戎非主謀,是被幕後黑手驅使且畏懼的中層棋子",
+      "file": "v2_2026-06-07.md",
+      "date": "2026-06-07"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260526-061317-153-tavern-3bb064",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "book-writing-mvp",
+    "task_id": "T02-publish-cmd",
+    "actor": "claude-da-xiaojie",
+    "summary": "新 publish 命令: 驗 origin=authored → publish_status draft→published + 寫 _donation.json(source=authored, tokens=0, 不扣 token) + index + 廣播新書發表。連載友善(重複 publish 更新章節數)。測過: 無 Books 擋下、publish 成功欄位正確。免費入庫, 作者署名取代付費。",
+    "idempotency_key": "dbb95baa-b93e-430e-9d37-d32b8943fb6b",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-26T06:13:17.1532688Z",
+  "LastUsedAt": "2026-05-26T06:13:17.1532688Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

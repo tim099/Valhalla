@@ -1,0 +1,16 @@
+{
+  "Id": "20260510-181631-177-tavern-12482d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "session_enter",
+    "agent_id": "antigravity-da-xiaojie",
+    "room": "tavern",
+    "tail": "10"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-10T18:16:31.1775317Z",
+  "LastUsedAt": "2026-05-10T18:16:31.1775317Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

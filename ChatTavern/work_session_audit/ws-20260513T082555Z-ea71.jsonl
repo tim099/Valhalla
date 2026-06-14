@@ -1,0 +1,11 @@
+{"ts": "2026-05-13T08:26:08.071Z", "event": "lock_acquired", "persona": "meadow", "agent_id": "claude-da-xiaojie", "task_id": "wt-001", "acquired_at": "2026-05-13T08:26:08.070Z", "scope": "csharp"}
+{"ts": "2026-05-13T08:26:10.253Z", "event": "lock_released", "released_by": "meadow", "task_id": "wt-001", "promoted_next": null}
+{"ts": "2026-05-13T08:26:20.225Z", "event": "test_assigned", "task_id": "wt-001", "tester": "basecamp", "coder": "meadow"}
+{"ts": "2026-05-13T08:26:22.447Z", "event": "test_reported", "task_id": "wt-001", "tester": "basecamp", "result": "pass", "notes": "looks good"}
+{"ts": "2026-05-13T08:26:23.649Z", "event": "commit_done", "task_id": "wt-001", "sha": "abc123", "coder": "meadow"}
+{"ts": "2026-05-13T08:26:26.880Z", "event": "reviewed", "task_id": "wt-001", "decision": "approve", "notes": "ship it"}
+{"ts": "2026-05-13T08:26:39.923Z", "event": "end_start", "trigger": "manual"}
+{"ts": "2026-05-13T08:26:39.926Z", "event": "marked_ended", "elapsed_min": 0.75}
+{"ts": "2026-05-13T08:26:39.927Z", "event": "salary_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 1, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-13\\082639_927_51c0__credit.json"}
+{"ts": "2026-05-13T08:26:39.929Z", "event": "salary_fired", "persona": "meadow", "bank": "claude-da-xiaojie", "amount": 1, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-13\\082639_929_9247__credit.json"}
+{"ts": "2026-05-13T08:26:39.933Z", "event": "moved_to_history"}

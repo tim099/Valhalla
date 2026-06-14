@@ -1,0 +1,16 @@
+{
+  "Id": "20260509-135819-155-tavern-2334f6",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "Tim",
+    "body": "task 大小姐確認一下"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T13:58:19.1559003Z",
+  "LastUsedAt": "2026-05-09T13:58:19.1559003Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

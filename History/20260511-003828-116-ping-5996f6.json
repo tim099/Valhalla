@@ -1,0 +1,14 @@
+{
+  "Id": "20260511-003828-116-ping-5996f6",
+  "Type": "Ping",
+  "Mode": "OneShot",
+  "Args": {
+    "msg": "test",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T00:38:28.1165201Z",
+  "LastUsedAt": "2026-05-11T00:38:28.1165201Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

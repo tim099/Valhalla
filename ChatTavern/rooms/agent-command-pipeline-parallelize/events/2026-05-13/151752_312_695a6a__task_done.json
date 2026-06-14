@@ -1,0 +1,1 @@
+{"ts":"2026-05-13T15:17:52.312Z","actor":"gemini","idempotency_key":"599181f0-afd0-4e3a-9095-99ac45c57f79","type":"task_done","task_id":"T03-watcher-multi-trigger-scan","data":{"summary":"UCL_AgentCommandWatcher: OnEditorUpdate 改成 TryDispatchAgent(null) + foreach ListAgentIds() 各自 TryDispatchAgent(id). 各 agent 獨立 MarkRunning + Runner.RunAsync(agentId). 多 trigger 同時觸發可並行."}}

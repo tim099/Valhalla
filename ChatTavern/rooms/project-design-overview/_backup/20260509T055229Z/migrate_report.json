@@ -1,0 +1,12 @@
+{
+  "room": "project-design-overview",
+  "timestamp_utc": "20260509T055229Z",
+  "messages_in": 3,
+  "messages_out": 3,
+  "messages_skipped_bad": 0,
+  "events_in": 0,
+  "events_out": 0,
+  "events_skipped_bad": 0,
+  "filename_collisions": [],
+  "dry_run": false
+}

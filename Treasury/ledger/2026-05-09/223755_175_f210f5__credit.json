@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-09T22:37:55.175Z",
+  "uuid": "f210f5",
+  "type": "credit",
+  "amount": 0,
+  "currency": "tavern_token",
+  "account_id": "tavern-keeper",
+  "source_kind": "system_init",
+  "source_ref": "T55_bartender_account_init",
+  "source_description": "T55 bartender NPC 帳戶 lazy-init at 0. Future tavern_post + bartender_summon_pay 流入此帳戶累積 (Plan a 純 sink + Plan c 長期 unlock).",
+  "balance_before": 0,
+  "balance_after": 0,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "25508",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T55_bartender_lazy_init",
+  "signature_mismatch": false
+}

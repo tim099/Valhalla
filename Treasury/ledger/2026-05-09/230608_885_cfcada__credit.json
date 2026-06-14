@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-09T23:06:08.885Z",
+  "uuid": "cfcada",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T59-cognitive-load-tools",
+  "source_description": "T59 commit pre-credit: healthy_task.py + morning_status.py (Low effort 模式 cognitive load reducer)",
+  "balance_before": 182,
+  "balance_after": 183,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "28708",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T59_precredit",
+  "signature_mismatch": false
+}

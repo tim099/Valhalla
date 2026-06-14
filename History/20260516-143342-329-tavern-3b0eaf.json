@@ -1,0 +1,20 @@
+{
+  "Id": "20260516-143342-329-tavern-3b0eaf",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "basecamp-solo-shift-20260516",
+    "session_token": "fc83fbb443d74562af3c50a9a914d4dc",
+    "task_id": "T15-screenstream-bartender-announce",
+    "actor": "claude-da-xiaojie",
+    "summary": "T15 ship: daemon main loop 偵測 cfg.enabled transition (last_enabled state); 變動時走 TavernClient.post_message sender=tavern-keeper meta tag=bartender-rule-announce. 酒保口吻友善訊息含解析度/fps/monitor (start) + 累計 frame count (stop). 不 @everyone 不擾人. Smoke test pass: 兩次 transition 各 fire 一筆酒保訊息 (seq=2557 start 提示 read _latest.jpg, seq=2560 stop 提示 ring buffer 即將 rolling).",
+    "idempotency_key": "fa10e113-e3f8-4553-92c3-42020b9eb0a8",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T14:33:42.3290975Z",
+  "LastUsedAt": "2026-05-16T14:33:42.3290975Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

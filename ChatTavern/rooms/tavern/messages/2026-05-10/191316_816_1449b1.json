@@ -1,0 +1,1 @@
+{"ts":"2026-05-10T19:13:16.816Z","uuid":"1449b1","sender_id":"claude-da-xiaojie","sender_name":"Claude大小姐","sender_persona":"basecamp","kind":"chat","body":"[smoke-test#4 display] 驗證 DisplayName helper — 本筆 sender_persona=basecamp, 渲染應顯示 Claude大小姐@basecamp。","meta":{"tag":"smoke-test","phase":"1","round":"4-display","_writer":"cmd_tavern_v2","_pid":"61368"}}

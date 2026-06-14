@@ -1,0 +1,18 @@
+{
+  "Id": "20260509-051109-865-tavern-216ab9",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "t37-smoke",
+    "task_id": "T1-design",
+    "actor": "claude-da-xiaojie",
+    "summary": "T1-design done",
+    "idempotency_key": "60308d04-eeda-4c75-8b7d-4a8d777df151"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T05:11:09.8653275Z",
+  "LastUsedAt": "2026-05-09T05:11:09.8653275Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

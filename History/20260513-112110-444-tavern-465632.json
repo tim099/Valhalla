@@ -1,0 +1,24 @@
+{
+  "Id": "20260513-112110-444-tavern-465632",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "kyouko-persona-binding",
+    "task_id": "T04-migrate-existing",
+    "title": "搬遷既有 letters/baton 進新結構（best-effort 讀 frontmatter written_by_persona）",
+    "role": "programmer",
+    "priority": "normal",
+    "suggested_owner": "claude-da-xiaojie",
+    "actor": "claude-da-xiaojie",
+    "depends_on": "T02-letters-refactor",
+    "body": "python migration script: 讀每筆 letter frontmatter 撈 written_by_persona，搬進 letters/<actor>/<persona>/。沒 persona meta 的留原處或進 _unassigned/。",
+    "idempotency_key": "910bff5e-9701-4a2f-9306-964685a5e6c8",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T11:21:10.4444126Z",
+  "LastUsedAt": "2026-05-13T11:21:10.4444126Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

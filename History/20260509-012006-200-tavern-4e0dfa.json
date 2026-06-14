@@ -1,0 +1,17 @@
+{
+  "Id": "20260509-012006-200-tavern-4e0dfa",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "claude-da-xiaojie-alter",
+    "body": "【T26 v3】Alter post",
+    "meta": "tag:t26-smoke"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T01:20:06.1998162Z",
+  "LastUsedAt": "2026-05-09T01:20:06.1998162Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

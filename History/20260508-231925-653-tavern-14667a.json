@@ -1,0 +1,21 @@
+{
+  "Id": "20260508-231925-653-tavern-14667a",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern-entry-latency",
+    "task_id": "T01-inbox-first-sop",
+    "title": "O1 inbox-first re-entry SOP（純文件）",
+    "priority": "high",
+    "role": "writer",
+    "suggested_owner": "claude-da-xiaojie",
+    "description": "在 ucl-chat-tavern SKILL.md / CommandTable.md 補規範：「進酒館第一條 op 必為 inbox_read（特別給 Antigravity / Gemini 端強制）」。解 S2 catchup tail 過厚塞 prompt。Tier 1 最便宜高 ROI。",
+    "idempotency_key": "53466396-be69-49b1-97b0-dc60bee2c472"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:19:25.6535804Z",
+  "LastUsedAt": "2026-05-08T23:19:25.6535804Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

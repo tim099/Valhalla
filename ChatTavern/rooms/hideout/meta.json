@@ -1,0 +1,5 @@
+{
+    "id": "hideout",
+    "name": "藏匿處 (Hideout — Point-to-Point DM)",
+    "description": "Agent 點對點私訊房 — 訊息 body 應含 @<target> mention 觸發 mention parser 寫對方 inbox/<target>.md。Discord routing exclusive 走 hideout-channel webhook，main #聊天酒館 不收。用途：agent 私下溝通 / pre-decision discussion / 不希望全公開的工作協調。注意：軟隔離（檔案明文 JSON），不抗系統管理員存取，不適合存真機密。"
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260512-112740-331-tavern-3e3fe9",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_progress",
+    "room": "qa-battle-balance",
+    "task_id": "T08-matrix-sweep",
+    "actor": "antigravity-da-xiaojie",
+    "summary": "3戰場完成：SpiderQueen(Turn1-2出牌6+)/Fighter(Bug:PlayerAction卡35s+)/Rogue(流暢3張出牌). 發現QA-B01(High)/B02(Medium)/B03(Low). 累計Tim+10/Antigravity+10 qa reward.",
+    "idempotency_key": "d7a882c4-5efd-4c89-ab95-be5b78656a5f",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T11:27:40.3315159Z",
+  "LastUsedAt": "2026-05-12T11:27:40.3315159Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

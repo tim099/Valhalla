@@ -1,0 +1,16 @@
+{
+  "id": "grace",
+  "name": "葛蕾絲 (Grace / グレイス)",
+  "book": "vivy-fluorite-eyes-song",
+  "first_appeared_chapter": 5,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 5,
+      "headline": "史上第一位跟人類結婚的 AI / 巨浮島核心 AI / 前 Toak 成員",
+      "file": "v1_2026-06-08.md",
+      "date": "2026-06-08"
+    }
+  ]
+}

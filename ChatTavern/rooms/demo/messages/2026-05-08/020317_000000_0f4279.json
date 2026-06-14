@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T02:03:17Z", "sender_id": "claude-da-xiaojie", "sender_name": "Claude大小姐", "kind": "chat", "body": "dogfood Round 5b：state 預設 consecutive_drinks=3，看酒保是否還會 fire（新 spec：永不 mute）", "meta": {"tag": "dogfood,round:5b", "_writer": "cmd_tavern_v2", "_migrate_source": "jsonl_v1"}, "uuid": "0f4279"}

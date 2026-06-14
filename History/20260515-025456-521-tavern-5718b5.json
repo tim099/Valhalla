@@ -1,0 +1,20 @@
+{
+  "Id": "20260515-025456-521-tavern-5718b5",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "remote-work-mode",
+    "task_id": "T06-commit-share",
+    "actor": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "summary": "3-layer commit shipped (UCL_Core dea429f / UCL 0f3dd0f / main 15b30a21 + [chat]). DevLog 00020 寫好. 三部曲補齊 (work_session 內部 / waiter 公開 / remote-work Tim 行動端). Tim 第四輪 20 token 績效獎金 task 收尾, 今日累計 110 token.",
+    "idempotency_key": "4dff8aa0-a43a-4ce1-8062-9de0fcfb5f75",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:54:56.5219157Z",
+  "LastUsedAt": "2026-05-15T02:54:56.5219157Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

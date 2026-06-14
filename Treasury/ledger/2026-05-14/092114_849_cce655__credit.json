@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-14T09:21:14.849Z",
+  "uuid": "cce655",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "qa-bug-cce655",
+  "source_description": "QA bug reward [normal] to Tim: early-clockout cascades to workers: manager basecamp 提早 end session 把 gura + apex-one 一起連帶下班. Tim 觀察 gura/apex-one 各 2 次提早下班 (ws-...-b297 + ws-...-388b). Root cause = manager early end 沒 workers consent / 沒檢查 workers 實際 active 狀態. Workers 整 session 都 offline 卻被結算薪資 +11 token 各.",
+  "balance_before": 198,
+  "balance_after": 201,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "44520",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_cce655",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

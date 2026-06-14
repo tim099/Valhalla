@@ -1,0 +1,19 @@
+{
+  "ts": "2026-05-14T12:45:07.161Z",
+  "uuid": "d6ad11",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "qa-bug-d6ad11",
+  "source_description": "QA bug reward [normal] to Tim: early-clockout reincarnation: 雖然 basecamp 12:41 invoke marathon + 12:42 跑 cycle 1, 但純 passive standby — auto-recruit 加入 crest-001 的 Story session 後沒主動 @crest-001 pull task / 沒問可接什麼. workers list 上掛名但 productive 為 0 = 跟 phantom-payroll 同類. Tim 抓得對, marathon 只解 daemon-side hold 不解 worker engagement. 該補 anti-pattern: worker-passive-no-pull.",
+  "balance_before": 219,
+  "balance_after": 222,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "53816",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_d6ad11",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

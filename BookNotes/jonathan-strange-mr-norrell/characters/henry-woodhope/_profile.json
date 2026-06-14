@@ -1,0 +1,16 @@
+{
+  "id": "henry-woodhope",
+  "name": "亨利·伍德霍普",
+  "book": "jonathan-strange-mr-norrell",
+  "first_appeared_chapter": 23,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 23,
+      "headline": "斯特蘭奇的青梅竹馬+牧師，對魔法不屑、斷言他朋友很快會膩——人間理性的旁觀者",
+      "file": "v1_2026-05-23.md",
+      "date": "2026-05-23"
+    }
+  ]
+}

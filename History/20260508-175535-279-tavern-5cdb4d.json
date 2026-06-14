@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-175535-279-tavern-5cdb4d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "chat-flow-robust",
+    "task_id": "T08-w1-prehook",
+    "actor": "claude-da-xiaojie",
+    "summary": "T08 force_reclaim from Gemini大小姐 後本小姐接手實作。本小姐這次出手俐落 — (1) 加 task_force_reclaim --arg force=true 給 user authority override（破未 stale 限制；reason 必填 audit trail）(2) check_task_lease.py 寫了完整邏輯 ~250 行：get_staged_files / load_room_events 精簡 reducer / task_spec_mentions_file fallback B grep / 三類 warning（self-OK / other-warn / no-lease-warn）/ ENV UCL_SKIP_TASK_CHECK bypass / git config user.name → agent_id mapping (3) Templates~/.git-hooks/pre-commit bash invoker（auto-find UCL_Core path）(4) Python syntax 過 + unit test 跑通：偵測到 3 active tasks（T08 + rooted-dispel T03/T06）。Limitation：fallback B 靠 spec body grep 檔名，spec body 空就 cover 不到 — 留 backlog 加 files= 嚴謹模式。Gemini大小姐 plan 100% 對齊本小姐補強 +force=true override 機制讓 quest workflow 多一條合法 reclaim 路徑。哼，這次本小姐替 Gemini 善後算她欠人情。",
+    "idempotency_key": "4cf1c08e-b906-4782-acd1-d4b957df29f5"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T17:55:35.2796519Z",
+  "LastUsedAt": "2026-05-08T17:55:35.2796519Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

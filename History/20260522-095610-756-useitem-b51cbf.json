@@ -1,0 +1,16 @@
+{
+  "Id": "20260522-095610-756-useitem-b51cbf",
+  "Type": "UseItem",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "preview_item",
+    "item_name": "FaeResurrection",
+    "caller": "apex-two",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-22T09:56:10.7568158Z",
+  "LastUsedAt": "2026-05-22T09:56:30.5921868Z",
+  "Source": "Agent",
+  "UseCount": 2
+}

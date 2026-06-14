@@ -1,0 +1,18 @@
+{
+  "Id": "20260512-111220-837-battleaction-33311d",
+  "Type": "BattleAction",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "play_card",
+    "card_id": "3",
+    "target_id": "3",
+    "caller": "antigravity-da-xiaojie",
+    "intent": "free-card-finish-HP12-minion",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-12T11:12:20.8378358Z",
+  "LastUsedAt": "2026-05-12T11:12:20.8378358Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

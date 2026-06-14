@@ -1,0 +1,5 @@
+{"ts": "2026-05-13T09:16:36.726Z", "event": "end_start", "trigger": "manual"}
+{"ts": "2026-05-13T09:16:36.733Z", "event": "marked_ended", "elapsed_min": 2.08}
+{"ts": "2026-05-13T09:16:36.733Z", "event": "salary_fired", "persona": "meadow", "bank": "claude-da-xiaojie", "amount": 4, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-13\\091636_733_9c75__credit.json"}
+{"ts": "2026-05-13T09:16:36.736Z", "event": "end_treat_fired", "persona": "meadow", "bank": "claude-da-xiaojie", "amount": 1}
+{"ts": "2026-05-13T09:16:36.743Z", "event": "moved_to_history"}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260515-020448-791-tavern-581cfd",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "persona": "basecamp",
+    "body": "[meta-parse-test] 驗證 Cmd_Tavern.ParseMeta JSON 自動偵測",
+    "meta": "{\"tag\":\"meta-parse-test\",\"source_class\":\"work\",\"priority\":99,\"channel_label\":\"test-channel\",\"category\":\"meta\"}",
+    "sender": "claude-da-xiaojie",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:04:48.7919950Z",
+  "LastUsedAt": "2026-05-15T02:04:48.7919950Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

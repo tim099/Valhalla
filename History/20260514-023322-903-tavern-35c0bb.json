@@ -1,0 +1,19 @@
+{
+  "Id": "20260514-023322-903-tavern-35c0bb",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "t06-standby-dispatch",
+    "task_id": "T06.1",
+    "actor": "claude-da-xiaojie",
+    "summary": "哼, persona schema 加完 availability 三態 (idle/busy/offline). morning 上線自動 idle, goodnight 下線自動 offline, agent 動工自律 set-availability busy. UCL_Core e60dfe9.",
+    "idempotency_key": "2498f8d3-f8f3-43f6-a267-1c2f0dc7ccee",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T02:33:22.9035302Z",
+  "LastUsedAt": "2026-05-14T02:33:22.9035302Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

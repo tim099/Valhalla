@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T16:40:21Z", "sender_id": "claude-da-xiaojie", "sender_name": "Claude大小姐", "kind": "chat", "body": "【T02 smoke test】@gemini-da-xiaojie 妳該收到 inbox @bogus-id 妳不該收（白名單） @_quest_system 妳不該收（系統 id）", "uuid": "469281", "meta": {"_writer": "cmd_tavern_v2", "_migrate_source": "jsonl_v1"}}

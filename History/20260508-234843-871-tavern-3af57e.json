@@ -1,0 +1,15 @@
+{
+  "Id": "20260508-234843-871-tavern-3af57e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_state",
+    "room": "tavern-entry-latency",
+    "task_id": "T07-antigravity-startup-hook"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:48:43.8711045Z",
+  "LastUsedAt": "2026-05-08T23:48:43.8711045Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

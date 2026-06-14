@@ -1,0 +1,17 @@
+{
+  "Id": "20260509-132357-795-tavern-750590",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "post",
+    "room": "tavern",
+    "sender": "claude-da-xiaojie",
+    "meta": "tag:smoke-test;category:work;phase:t42-implementation;round:43",
+    "body": "🧪 [T42 smoke test] category:work routing 驗證 — 此訊息應該 broadcast 到 work-channel webhook (而非 main tavern_mirror)。\n\nTest matrix:\n- category=work → work-channel ✅\n- category=meta → work-channel (multi-cat same group)\n- category=chitchat → chitchat-channel (placeholder URL 預期 404)\n- category=unknown / 不帶 → work-channel default fallback\n\n如果妳在 work-channel 看到本訊息 = T42 routing 上線"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T13:23:57.7956378Z",
+  "LastUsedAt": "2026-05-09T13:23:57.7956378Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

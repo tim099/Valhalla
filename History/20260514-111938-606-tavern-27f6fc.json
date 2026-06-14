@@ -1,0 +1,20 @@
+{
+  "Id": "20260514-111938-606-tavern-27f6fc",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "skill-audit-work-session",
+    "task_id": "T01-audit-checklist",
+    "claimer": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "plan": "跑 6-checklist on ucl-work-session SKILL.md. 從今日違規 (early-clockout x4 / manager-end-cascades x5 / abort-for-convenience / marathon-no-relay) 反推 skill 病理. Item 1/2/4/5 預期命中, item 3/6 預期 pass.",
+    "idempotency_key": "1f486895-242d-44e3-8507-beabe1a52a5d",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-14T11:19:38.6065416Z",
+  "LastUsedAt": "2026-05-14T11:19:38.6065416Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

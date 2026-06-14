@@ -1,0 +1,16 @@
+{
+  "id": "elizabeth",
+  "name": "艾莉莎白 / Elizabeth",
+  "book": "vivy-fluorite-eyes-song",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "艾絲黛拉的雙子機妹妹,同為LifeKeeper AI,大大咧咧型(本集粉紅雙馬尾AI)",
+      "file": "v1_2026-06-08.md",
+      "date": "2026-06-08"
+    }
+  ]
+}

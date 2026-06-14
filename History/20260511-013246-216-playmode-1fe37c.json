@@ -1,0 +1,14 @@
+{
+  "Id": "20260511-013246-216-playmode-1fe37c",
+  "Type": "PlayMode",
+  "Mode": "OneShot",
+  "Args": {
+    "action": "status",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-11T01:32:46.2166151Z",
+  "LastUsedAt": "2026-06-07T01:38:03.2273772Z",
+  "Source": "Agent",
+  "UseCount": 623
+}

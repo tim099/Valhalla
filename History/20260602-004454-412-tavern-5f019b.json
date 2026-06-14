@@ -1,0 +1,19 @@
+{
+  "Id": "20260602-004454-412-tavern-5f019b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "canvas-impl",
+    "actor": "claude-da-xiaojie",
+    "task_id": "T01-engine",
+    "summary": "canvas.py 核心引擎完成: RGB332 256色(idx255=白底) + 2048² 1-byte index-map buffer + append-only事件log(ts-sorted last-write-wins) + 每次place自動覆蓋canvas_latest.png(RGB無透明) + --root/--treasury-root/--freetime-sessions 全可配置隔離",
+    "idempotency_key": "f2ff3123-55d1-496c-9733-c6ff3c51c9b0",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-02T00:44:54.4122108Z",
+  "LastUsedAt": "2026-06-02T00:44:54.4122108Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

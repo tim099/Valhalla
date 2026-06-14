@@ -1,0 +1,16 @@
+{
+  "Id": "20260516-093546-859-assetdump-33c40b",
+  "Type": "AssetDump",
+  "Mode": "OneShot",
+  "Args": {
+    "asset_type": "RCG_CharacterData",
+    "id": "AncientTreeSpirit",
+    "outputPath": "AgentCommands/scratch/_dump_ATS.md",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-16T09:35:46.8590114Z",
+  "LastUsedAt": "2026-05-16T09:35:46.8590114Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

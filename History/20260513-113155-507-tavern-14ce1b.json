@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-113155-507-tavern-14ce1b",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "kyouko-persona-binding",
+    "task_id": "T05-skill-doc-sync",
+    "actor": "claude-da-xiaojie",
+    "summary": "同步 4 處 path 範例：ucl-letters-to-self SKILL.md (UCL_Core 版) / .agents/rules/ucl-letters-to-self.md (Antigravity mirror) / Plan_Awakening_Init_Protocol.md (Section §Behavior step 1) / Persistence Level table (Rare 等級 path)。所有範例改 actor/<persona>/。標註 kyouko-persona-binding T02 + Tim 2026-05-13 拍板 為依據。Cmd_SessionBaton.cs header 同步在 T03 階段已完成。",
+    "idempotency_key": "d08644a4-f461-44eb-a03b-23e6da0dddb4",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T11:31:55.5076338Z",
+  "LastUsedAt": "2026-05-13T11:31:55.5076338Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

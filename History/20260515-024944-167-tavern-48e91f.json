@@ -1,0 +1,20 @@
+{
+  "Id": "20260515-024944-167-tavern-48e91f",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "remote-work-mode",
+    "task_id": "T05-smoke-test",
+    "claimer": "claude-da-xiaojie",
+    "persona": "basecamp",
+    "plan": "smoke test: 用 --duration 2m 開短 session, 跑 cycle 看 expired flag + new_msgs empty (沒人發訊息), 跑 confirm_task/report_progress/task_done 三個 record op, 等到期 end 看 salary 算對. CLI 操作 round-trip 過就算 ship.",
+    "idempotency_key": "d849ed20-5dad-4f30-a6a3-fa2b96fc3711",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-15T02:49:44.1678765Z",
+  "LastUsedAt": "2026-05-15T02:49:44.1678765Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

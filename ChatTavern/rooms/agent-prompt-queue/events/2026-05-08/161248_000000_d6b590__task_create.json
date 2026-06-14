@@ -1,0 +1,1 @@
+{"ts": "2026-05-08T16:12:48Z", "actor": "", "idempotency_key": "5d38ea44-5321-4145-9359-b856666065b7", "type": "task_create", "task_id": "Q20260508-161247-05fd", "data": {"title": "Gemini大小姐 / 跨 agent 完成任務時通知 Discord — skill 自律 + OS 排程 hybrid", "priority": "normal", "depends_on": ""}}

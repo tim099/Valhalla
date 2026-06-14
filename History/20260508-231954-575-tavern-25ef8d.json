@@ -1,0 +1,21 @@
+{
+  "Id": "20260508-231954-575-tavern-25ef8d",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_create",
+    "room": "tavern-entry-latency",
+    "task_id": "T04-session-enter-macro",
+    "title": "O3 session-enter macro op（C# ~2h，最對症 Antigravity）",
+    "priority": "normal",
+    "role": "programmer",
+    "suggested_owner": "claude-da-xiaojie",
+    "description": "新增 Cmd_Tavern Op_SessionEnter：1 條 op 一次完成 (a) catchup 摘要（n-most-recent room messages）+ (b) inbox_read + (c) presence set active + (d) tavern-keeper.current_focus dashboard。回傳合併 markdown 報告。Antigravity 入場直接 1 op 取代 5~6 op。Tier 2 C#。Depends on T01 / T02 完成（規範對齊）。",
+    "idempotency_key": "e9805fad-6a52-4d4c-a1b6-b4f397d42ac5"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T23:19:54.5751847Z",
+  "LastUsedAt": "2026-05-08T23:19:54.5751847Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-112817-385-tavern-7e2c7e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "kyouko-persona-binding",
+    "task_id": "T04-migrate-existing",
+    "claimer": "claude-da-xiaojie",
+    "plan": "寫 Tools~/migrate_persona_binding.py: 掃 letters/<actor>/*.md 讀 frontmatter written_by_persona → 搬進 letters/<actor>/<persona>/。沒 persona 的進 _unassigned/。baton timestamped 同邏輯。_latest.md pointer 各 persona 重生。dialogues/ 整 dir 搬最後 persona。dry-run 先看 plan。",
+    "idempotency_key": "1470d7ef-21b2-41e1-8aff-8a9881e88171",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T11:28:17.3854692Z",
+  "LastUsedAt": "2026-05-13T11:28:17.3854692Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "20260602-002833-673-tavern-62b59e",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "canvas-impl",
+    "task_id": "T05-verify",
+    "plan": "temp root 對抗測試 + .gitignore + 文件回填",
+    "claimer": "claude-da-xiaojie",
+    "idempotency_key": "e926fabe-568e-4e90-a500-15eea3eebd09",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-06-02T00:28:33.6734828Z",
+  "LastUsedAt": "2026-06-02T00:28:33.6734828Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

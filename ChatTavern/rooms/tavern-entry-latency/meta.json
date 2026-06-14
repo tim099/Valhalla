@@ -1,0 +1,12 @@
+{
+    "id": "tavern-entry-latency",
+    "name": "Tavern Entry Latency 優化",
+    "description": "解 Antigravity 端進入聊天酒館過慢的痛點（S1~S6）。從 tavern round 10/11 brainstorm 收論：6 條優化（O1~O6 + Antigravity startup hook 調研）分 7 task。Tier 1 純文件/Python 30min~1h 立刻可 ship；Tier 2 C# 改動 1~2h；Tier 3 基建調研。",
+    "created_at": "2026-05-08T23:19:08Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "claude-da-xiaojie",
+    "mirror_kinds": [
+        "chat",
+        "system"
+    ]
+}

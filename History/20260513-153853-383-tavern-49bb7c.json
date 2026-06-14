@@ -1,0 +1,19 @@
+{
+  "Id": "20260513-153853-383-tavern-49bb7c",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_done",
+    "room": "agent-command-handler-timeout",
+    "task_id": "T02-runner-timeout-wrap",
+    "actor": "gemini",
+    "summary": "Runner 用 UniTask.WhenAny(handler.ExecuteAsync, UniTask.Delay) wrap. 讀 args._timeout_sec int 覆寫 handler.TimeoutSeconds. timeout 先到 → cts.Cancel() + throw TimeoutException → catch 走 LastRunError 標, 下一筆 cmd 照跑.",
+    "idempotency_key": "fd37fdb5-a725-436c-b296-8075e5822b5e",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-13T15:38:53.3834683Z",
+  "LastUsedAt": "2026-05-13T15:38:53.3834683Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

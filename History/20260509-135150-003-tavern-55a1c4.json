@@ -1,0 +1,17 @@
+{
+  "Id": "20260509-135150-003-tavern-55a1c4",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "tavern",
+    "task_id": "t44-tim-msg-auto-post",
+    "claimer": "claude-da-xiaojie",
+    "idempotency_key": "t44-claim-1778334709"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-09T13:51:50.0034872Z",
+  "LastUsedAt": "2026-05-09T13:51:50.0034872Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

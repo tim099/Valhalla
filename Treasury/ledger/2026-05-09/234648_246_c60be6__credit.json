@@ -1,0 +1,18 @@
+{
+  "ts": "2026-05-09T23:46:48.246Z",
+  "uuid": "c60be6",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "commit",
+  "source_ref": "T63v3-observer-cooldown",
+  "source_description": "T63 v3 commit pre-credit: Plan B+C+Observer 三方融合 (Tim 07:44 拍板) — critical events live + observer broadcast + cooldown 60s cache",
+  "balance_before": 193,
+  "balance_after": 194,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "46544",
+  "sig_env_marker": "manual_filesystem_write",
+  "sig_cmd_id": "T63v3_precredit",
+  "signature_mismatch": false
+}

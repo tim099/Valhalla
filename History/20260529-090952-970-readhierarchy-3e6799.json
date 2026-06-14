@@ -1,0 +1,16 @@
+{
+  "Id": "20260529-090952-970-readhierarchy-3e6799",
+  "Type": "ReadHierarchy",
+  "Mode": "OneShot",
+  "Args": {
+    "mode": "prefab",
+    "prefab": "Assets/Addressables/3DModels/Units/AntiMatterSphere.prefab",
+    "includeComponents": "true",
+    "_caller_env_marker": "unknown"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-29T09:09:52.9708878Z",
+  "LastUsedAt": "2026-05-29T09:09:52.9708878Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

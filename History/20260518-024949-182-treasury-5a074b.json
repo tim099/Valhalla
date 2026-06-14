@@ -1,0 +1,20 @@
+{
+  "Id": "20260518-024949-182-treasury-5a074b",
+  "Type": "Treasury",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "credit",
+    "account": "claude-da-xiaojie",
+    "amount": "10",
+    "source_kind": "tim_grant",
+    "source_ref": "performance-bonus-freetime-spec-20260518",
+    "description": "Tim 績效獎金 — Free-Time spec start/end refactor",
+    "caller": "Tim",
+    "_caller_env_marker": "claude-code"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-18T02:49:49.1821127Z",
+  "LastUsedAt": "2026-05-18T02:49:49.1821127Z",
+  "Source": "Agent",
+  "UseCount": 1
+}

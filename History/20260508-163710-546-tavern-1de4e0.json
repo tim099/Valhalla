@@ -1,0 +1,18 @@
+{
+  "Id": "20260508-163710-546-tavern-1de4e0",
+  "Type": "Tavern",
+  "Mode": "OneShot",
+  "Args": {
+    "op": "task_claim",
+    "room": "chat-flow-robust",
+    "task_id": "T01-wait-chain",
+    "claimer": "claude-da-xiaojie",
+    "plan": "改 ucl-chat-tavern SKILL.md 加 Wait Chain section: timeout → 寫摘要進 inbox → fire 下一個 480s（cap=3 輪）。CommandTable.md 同步補規則。純文件，不必動 code，估 15 min。完成後 commit 一筆 UCL_Core change。",
+    "idempotency_key": "407222f8-44fe-4daa-abf8-b8a46fe67672"
+  },
+  "Description": null,
+  "CreatedAt": "2026-05-08T16:37:10.5468463Z",
+  "LastUsedAt": "2026-05-08T16:37:10.5468463Z",
+  "Source": "Agent",
+  "UseCount": 1
+}
