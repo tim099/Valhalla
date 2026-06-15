@@ -1,0 +1,18 @@
+{
+  "ts": "2026-06-14T23:57:39.871Z",
+  "uuid": "9e153d",
+  "type": "credit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-813d77:final(base=1+bonus=0):gura",
+  "source_description": "上班 session 薪資 — gura final(base=1+bonus=0)",
+  "balance_before": 10022,
+  "balance_after": 10023,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "59592",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}

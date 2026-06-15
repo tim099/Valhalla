@@ -2636,6 +2636,150 @@
         "ledger": "AgentCommands\\Treasury\\ledger\\2026-06-14\\110218_259_ffac__credit.json",
         "contributed": true
       }
+    },
+    {
+      "id": "sw-813d77",
+      "mode": "primary",
+      "parent_session_id": "",
+      "actor": "claude-code",
+      "agent_bank": "claude-da-xiaojie",
+      "persona": "gura",
+      "tavern_room": "tavern",
+      "started_at": "2026-06-14T23:56:35.595Z",
+      "ends_at": "2026-06-15T01:59:59.595Z",
+      "ends_at_local_hhmm": "10:00",
+      "duration_seconds": 7404,
+      "cursor_epoch": 1781481395.5952442,
+      "tavern_read_seq": 7490,
+      "max_tiles": 12,
+      "base_rate_per_min": 1,
+      "observation_bonus": 2,
+      "desc": "陪 Tim 看遊戲人生 (NGNL) — basecamp primary",
+      "stats": {
+        "cycles": 1,
+        "observations": 0,
+        "hotspots": 0,
+        "frames_overflow_lost": 0
+      },
+      "ended_at": "2026-06-14T23:57:40.280Z",
+      "ended_reason": "early_confirm",
+      "settlement": {
+        "elapsed_min": 1,
+        "paid_min": 1,
+        "base_pay": 1,
+        "bonus_pay": 0,
+        "total": 1,
+        "ledger": "AgentCommands\\Treasury\\ledger\\2026-06-14\\235739_871_df23__credit.json",
+        "contributed": true
+      }
+    },
+    {
+      "id": "sw-cef9ef",
+      "mode": "companion",
+      "parent_session_id": "sw-3e9d08",
+      "actor": "claude-code",
+      "agent_bank": "claude-da-xiaojie",
+      "persona": "gura",
+      "tavern_room": "tavern",
+      "started_at": "2026-06-14T23:58:30.486Z",
+      "ends_at": "2026-06-15T01:59:59.946Z",
+      "ends_at_local_hhmm": "10:00",
+      "duration_seconds": 7325,
+      "cursor_epoch": 1781488627.639,
+      "tavern_read_seq": 7579,
+      "max_tiles": 12,
+      "base_rate_per_min": 1,
+      "observation_bonus": 2,
+      "desc": "陪 basecamp 看遊戲人生 (NGNL)",
+      "stats": {
+        "cycles": 27,
+        "observations": 26,
+        "hotspots": 11,
+        "frames_overflow_lost": 2464
+      },
+      "ended_at": "2026-06-15T02:01:07.960Z",
+      "ended_reason": "expired",
+      "settlement": {
+        "elapsed_min": 122,
+        "paid_min": 122,
+        "base_pay": 122,
+        "bonus_pay": 52,
+        "total": 174,
+        "ledger": "AgentCommands\\Treasury\\ledger\\2026-06-15\\020107_428_98c4__credit.json",
+        "contributed": true
+      }
+    },
+    {
+      "id": "sw-3e9d08",
+      "mode": "primary",
+      "parent_session_id": "",
+      "actor": "claude-code",
+      "agent_bank": "claude-da-xiaojie",
+      "persona": "basecamp",
+      "tavern_room": "tavern",
+      "started_at": "2026-06-14T23:57:54.946Z",
+      "ends_at": "2026-06-15T01:59:59.946Z",
+      "ends_at_local_hhmm": "10:00",
+      "duration_seconds": 7325,
+      "cursor_epoch": 1781488386.303,
+      "tavern_read_seq": 7577,
+      "max_tiles": 12,
+      "base_rate_per_min": 1,
+      "observation_bonus": 2,
+      "desc": "陪 Tim 看遊戲人生 (NGNL) — basecamp",
+      "stats": {
+        "cycles": 37,
+        "observations": 35,
+        "hotspots": 17,
+        "frames_overflow_lost": 0
+      },
+      "ended_at": "2026-06-15T02:01:20.807Z",
+      "ended_reason": "expired",
+      "settlement": {
+        "elapsed_min": 123,
+        "paid_min": 122,
+        "base_pay": 122,
+        "bonus_pay": 70,
+        "total": 192,
+        "ledger": "AgentCommands\\Treasury\\ledger\\2026-06-15\\020120_299_0dba__credit.json",
+        "contributed": true
+      }
+    },
+    {
+      "id": "sw-fd2b3f",
+      "mode": "companion",
+      "parent_session_id": "sw-3e9d08",
+      "actor": "claude-code",
+      "agent_bank": "claude-da-xiaojie",
+      "persona": "kotoko",
+      "tavern_room": "tavern",
+      "started_at": "2026-06-15T01:28:30.352Z",
+      "ends_at": "2026-06-15T01:59:59.946Z",
+      "ends_at_local_hhmm": "10:00",
+      "duration_seconds": 7325,
+      "cursor_epoch": 1781488689.208,
+      "tavern_read_seq": 7580,
+      "max_tiles": 12,
+      "base_rate_per_min": 1,
+      "observation_bonus": 2,
+      "desc": "陪同觀影 (陪 Tim 看遊戲人生 (NGNL) — basecamp)",
+      "stats": {
+        "cycles": 11,
+        "observations": 10,
+        "hotspots": 6,
+        "frames_overflow_lost": 0
+      },
+      "ended_at": "2026-06-15T02:01:28.804Z",
+      "ended_reason": "expired",
+      "settlement": {
+        "elapsed_min": 32,
+        "paid_min": 32,
+        "base_pay": 32,
+        "bonus_pay": 20,
+        "total": 52,
+        "ledger": "AgentCommands\\Treasury\\ledger\\2026-06-15\\020128_308_f827__credit.json",
+        "contributed": true
+      }
     }
   ]
 }

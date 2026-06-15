@@ -1,6 +1,6 @@
 {
   "persona": "kotoko",
-  "balance": 202,
+  "balance": 232,
   "history": [
     {
       "ts": "2026-06-02T00:44:37.488Z",
@@ -1705,6 +1705,14 @@
       "amount": 1,
       "source": "canvas_place",
       "ref": "b2c7dc:1169,1019"
+    },
+    {
+      "ts": "2026-06-15T01:24:11.556Z",
+      "uuid": "ceca28",
+      "type": "grant",
+      "amount": 30,
+      "source": "task_reward",
+      "ref": "T-StreamWatch-DiscordImage"
     }
   ]
 }
