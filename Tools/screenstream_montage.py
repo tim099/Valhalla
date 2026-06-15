@@ -27,6 +27,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import math
 import os
 import re
@@ -65,10 +66,50 @@ DEFAULT_OUT = STREAM_DIR / "_montage.jpg"
 TAVERN_VIEW = REPO_ROOT / "AgentCommands" / "ChatTavern" / "rooms" / "tavern" / "_last_view.md"
 # 每筆 message 起始行: [seq N] HH:MM:SS <Agent大小姐@persona>: <body 第一行>
 _TAVERN_MSG_RE = re.compile(r"^\[seq (\d+)\] (\d+:\d+:\d+) (.+?): ?(.*)$")
-# meta / refs 是渲染附帶的雜訊行 (Discord 附件 hash 等), 觀影 agent 不需要 → 過濾掉
+# meta / refs 是渲染附帶的雜訊行 (Discord 附件 hash 等), 觀影 agent 不需要 → body 過濾掉
+# (但 Discord 附件的「本地路徑」例外: 抽出來在 sidecar 露出, agent 用 Read 工具直接看圖 — 見 _extract_tavern_images)
 _TAVERN_NOISE_RE = re.compile(r"^\s*-\s*(meta|refs):")
+# meta 行裡的 attachments JSON (含每張 Discord 附件的 local 本地路徑) — 反引號包住整段 `attachments=[...]`
+_TAVERN_ATTACH_RE = re.compile(r"attachments=(\[.*?\])`")
+# refs 行 fallback: '  - refs: [path](path)' 取小括號內本地路徑 (attachments JSON 解析不出時用)
+_TAVERN_REFS_RE = re.compile(r"^\s*-\s*refs:\s*\[[^\]]*\]\(([^)]+)\)")
 # 單筆 body 過長 (e.g. 含 glossary auto-attach) → 截斷防 sidecar 爆量, 截斷標 … 並誠實附原長
 _TAVERN_BODY_CAP = 280
+
+
+def _extract_tavern_images(line: str, cur: dict):
+    """從一行 meta / refs 雜訊行抽 Discord 附件本地圖片路徑, append 進 cur['images'] (去重)。
+
+    物理意義: Discord 圖片同步進酒館後, 真正內容在 meta 行的 attachments JSON 的 `local` 欄
+              (退路: refs 行的 markdown 連結路徑)。原本這兩行被當雜訊丟棄, 觀影 agent 只看到
+              body 的「[Discord 附件 1 個] image.png」文字、看不到圖。抽出本地路徑後, sidecar
+              會列出來讓 agent 用 Read 工具直接看圖 (跟讀 montage 同一種 vision 能力)。
+    數值影響: 只收 image/* content_type 的附件 (略過非圖片附件如 .txt/.zip), 圖路徑去重保序。
+    """
+    # 首選: meta 行的 attachments JSON (有 content_type 可濾非圖片, 有 local 直給本地路徑)
+    m = _TAVERN_ATTACH_RE.search(line)
+    if m:
+        try:
+            for a in json.loads(m.group(1)):
+                if not isinstance(a, dict):
+                    continue
+                local = a.get("local")
+                ctype = (a.get("content_type") or "").lower()
+                fname = (a.get("filename") or "").lower()
+                # content_type 缺失時退看副檔名, 避免漏圖
+                is_img = ctype.startswith("image/") or fname.endswith(
+                    (".png", ".jpg", ".jpeg", ".gif", ".webp", ".bmp"))
+                if local and is_img and local not in cur["images"]:
+                    cur["images"].append(local)
+            return
+        except (json.JSONDecodeError, TypeError):
+            pass  # JSON 壞掉 → 落到 refs 退路
+    # 退路: refs 行的本地路徑 (attachments JSON 不可用時)
+    mr = _TAVERN_REFS_RE.match(line)
+    if mr:
+        p = mr.group(1).strip()
+        if p and p not in cur["images"]:
+            cur["images"].append(p)
 
 
 def render_tavern_tail(self_persona: str, since_seq: int, limit: int):
@@ -83,11 +124,11 @@ def render_tavern_tail(self_persona: str, since_seq: int, limit: int):
     找不到檔 / 解析不出任何訊息 → (None, since_seq, 0, 0)。
     """
     if not TAVERN_VIEW.exists():
-        return (None, since_seq, 0, 0)
+        return (None, since_seq, 0, 0, 0)
     try:
         raw = TAVERN_VIEW.read_text(encoding="utf-8", errors="replace")
     except Exception:
-        return (None, since_seq, 0, 0)
+        return (None, since_seq, 0, 0, 0)
 
     # ----- 解析成 message blocks -----
     # 區塊職責: 逐行掃, 命中 [seq N] 起始行開新 block, 其後非起始/非 noise 行併入 body。
@@ -99,15 +140,17 @@ def render_tavern_tail(self_persona: str, since_seq: int, limit: int):
             if cur is not None:
                 msgs.append(cur)
             cur = {"seq": int(m.group(1)), "time": m.group(2),
-                   "sender": m.group(3).strip(), "body": [m.group(4)]}
+                   "sender": m.group(3).strip(), "body": [m.group(4)], "images": []}
         elif cur is not None:
             if _TAVERN_NOISE_RE.match(line):
-                continue  # 丟棄 meta/refs 雜訊
+                # meta/refs 不進 body, 但先抽 Discord 附件本地圖片路徑 (agent 要 Read 看圖)
+                _extract_tavern_images(line, cur)
+                continue
             cur["body"].append(line)
     if cur is not None:
         msgs.append(cur)
     if not msgs:
-        return (None, since_seq, 0, 0)
+        return (None, since_seq, 0, 0, 0)
 
     # ----- 過濾: 未讀 (seq>since) + 排除自己 (@persona 後綴) -----
     self_suffix = f"@{self_persona}" if self_persona else None
@@ -121,7 +164,7 @@ def render_tavern_tail(self_persona: str, since_seq: int, limit: int):
     if not unread:
         # 沒未讀: 仍把游標推到全域 max (含自己/已濾), 避免下輪重掃
         global_max = max(d["seq"] for d in msgs)
-        return (None, max(since_seq, global_max), 0, 0)
+        return (None, max(since_seq, global_max), 0, 0, 0)
 
     unread.sort(key=lambda d: d["seq"])  # 時序由舊到新 (catch-up 順序)
     remaining_older = max(0, len(unread) - limit) if limit > 0 else 0
@@ -137,13 +180,18 @@ def render_tavern_tail(self_persona: str, since_seq: int, limit: int):
         # 禁靜默截斷: 截斷時誠實標明還有更舊未讀, 下輪會接著看
         lines.append(f"_（本輪僅顯示最舊的 {limit} 筆未讀, 另有 {remaining_older} 筆更舊未讀留待下輪）_")
         lines.append("")
+    img_count = 0
     for d in shown:
         body = " ".join(s.strip() for s in d["body"] if s.strip())
         if len(body) > _TAVERN_BODY_CAP:
             body = body[:_TAVERN_BODY_CAP] + f"…（原 {len(body)} 字, 完整內容跑 op=read）"
         lines.append(f"- **[seq {d['seq']}] {d['time']} {d['sender']}**: {body}")
+        # Discord 附件圖片: 列出本地路徑, agent 用 Read 工具直接看 (sidecar 純文字無法 inline 顯圖)
+        for img in d.get("images", []):
+            img_count += 1
+            lines.append(f"    - 🖼️ Discord 圖片附件 → **用 Read 工具看**: `{img}`")
     section = "\n".join(lines) + "\n"
-    return (section, max_shown_seq, len(shown), remaining_older)
+    return (section, max_shown_seq, len(shown), remaining_older, img_count)
 
 
 # ===========================================================
@@ -856,7 +904,7 @@ def op_make(args):
     if args.ocr and not getattr(args, "no_tavern", False):
         try:
             since_seq = int(getattr(args, "tavern_since_seq", -1))
-            section, max_shown, shown_n, older = render_tavern_tail(
+            section, max_shown, shown_n, older, img_n = render_tavern_tail(
                 getattr(args, "tavern_self", "") or "",
                 since_seq,
                 int(getattr(args, "tavern_limit", 25)))
@@ -873,7 +921,8 @@ def op_make(args):
                                      f"_⚠ OCR 段缺席 (engine 不可用), 以下僅聊天酒館未讀_\n\n")
                     ocr_sidecar_path.write_text(fallback_head + section, encoding="utf-8")
                 older_note = f", 另有 {older} 筆更舊未讀" if older else ""
-                tavern_stats = f"{shown_n} 筆未讀 (排除自己){older_note}, max_seq={max_shown} → 接入 sidecar"
+                img_note = f", 含 {img_n} 張 Discord 圖片附件 (sidecar 列本地路徑供 Read)" if img_n else ""
+                tavern_stats = f"{shown_n} 筆未讀 (排除自己){older_note}{img_note}, max_seq={max_shown} → 接入 sidecar"
             else:
                 # 沒未讀 (或全是自己發的) — 仍把游標推到 max_shown (避免下輪重掃)
                 tavern_stats = f"0 筆未讀 (max_seq={max_shown})"
