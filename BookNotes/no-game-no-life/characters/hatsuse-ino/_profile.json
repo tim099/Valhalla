@@ -1,0 +1,16 @@
+{
+  "id": "hatsuse-ino",
+  "name": "初伊野 (東部聯合外交次使)",
+  "book": "no-game-no-life",
+  "first_appeared_chapter": 10,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 10,
+      "headline": "東部聯合駐艾爾齊亞的白髮獸耳外交次使——獸人種對局的接洽者",
+      "file": "v1_2026-06-15.md",
+      "date": "2026-06-15"
+    }
+  ]
+}

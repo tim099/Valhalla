@@ -1,0 +1,24 @@
+{
+  "id": "former-king",
+  "name": "先王（艾爾齊亞前任國王・史蒂芬的祖父）",
+  "book": "no-game-no-life",
+  "first_appeared_chapter": 9,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 9,
+      "headline": "外觀昏君、實為悲劇英雄的長線佈局者",
+      "file": "v1_2026-06-15.md",
+      "date": "2026-06-15"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 9,
+      "headline": "扮演愚者的跨世代佈局者——主動賭上名聲當誘餌的最弱種族最強間諜",
+      "change_reason": "ch9 希望之鑰開啟的密室揭曉先王遺書,徹底翻案:八度慘敗不是愚蠢,是『扮愚者』的刻意設計",
+      "file": "v2_2026-06-15.md",
+      "date": "2026-06-15"
+    }
+  ]
+}
