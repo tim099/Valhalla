@@ -1,0 +1,18 @@
+{
+  "ts": "2026-06-15T12:03:04.208Z",
+  "uuid": "6964d4",
+  "type": "credit",
+  "amount": 51,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-1b2117:final(base=31+bonus=20):kotoko",
+  "source_description": "上班 session 薪資 — kotoko final(base=31+bonus=20)",
+  "balance_before": 10769,
+  "balance_after": 10820,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "22616",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}
