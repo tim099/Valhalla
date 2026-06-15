@@ -95,6 +95,30 @@
       "aliases": [],
       "as_of_chapter": null,
       "added_date": "2026-06-14"
+    },
+    {
+      "term": "獸人種 / 東部聯合 (Werebeast / Eastern Union)",
+      "category": "faction",
+      "definition": "16 種族位序列第 14 位。領土為世界第三大國『東部聯合』。特徵:優秀體能與五感,加上能讀心、被稱為『第六感』的感覺。劇中被索拉戲稱『遍地獸耳娘的伊甸園』。ep6/7 之際被空白點名為奪回領土的下一個征服目標(『獸耳娘王國』征服)。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-15"
+    },
+    {
+      "term": "精靈 / 精靈廊 (Spirits)",
+      "category": "term",
+      "definition": "此世界一切生命與力量的根源成分;天翼種的力量源(蓄於翅膀)即由精靈構成。能否感受到精靈≈能否被定義為此世界的『生命』。Jibril 對索拉兄妹做身體檢查發現他們體內【感受不到任何精靈】→ 推論他們不屬於這個世界、構造上只勉強算人類種 → 認定他們是『未知』(異世界來客的鐵證)。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-15"
+    },
+    {
+      "term": "實體化文字接龍 (Materialization Shiritori)",
+      "category": "term",
+      "definition": "索拉/白 vs Jibril 的對局遊戲。規則:(1)普通接龍首尾字相接,任何語言皆可;(2)三敗北條件中一即輸——出過的詞/30秒答不出/接不下去;(3)虛構或不存在之物=無效;(4)【核心】實體化——說出的東西若現場存在則『消失』,不存在則『出現』於此。等於用詞語抹除/召喚萬物的概念戰(如說氧氣可令其消失)。賭注:Jibril 押全圖書館+自身所有權 vs 兄妹押四萬本異世界書+要 Jibril 的所有權。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-15"
     }
   ]
 }

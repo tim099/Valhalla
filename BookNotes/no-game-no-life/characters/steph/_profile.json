@@ -3,7 +3,7 @@
   "name": "史蒂芬妮·朵拉 Steph",
   "book": "no-game-no-life",
   "first_appeared_chapter": 1,
-  "current_version": 5,
+  "current_version": 6,
   "versions": [
     {
       "v": 1,
@@ -43,6 +43,14 @@
       "change_reason": "summit 自我校正: cycle#10 官方宣告『為艾爾齊亞新國王空加冕』, 王位是空白的不是 Steph 的; cycle#8 把『信念平反』誤寫成『加冕女王』屬過度解讀",
       "file": "v5_2026-06-14.md",
       "date": "2026-06-14"
+    },
+    {
+      "v": 6,
+      "as_of_chapter": 6,
+      "headline": "揹著人類種的能臣賭徒——吐槽役皮下是撐起艾爾齊亞的中流砥柱,正式入夥空白團隊",
+      "change_reason": "重看 ep6 Steph game-day arc 全程:她連敗被輾壓的搞笑表象底下,其實(1)獨力以派閥制衡撐住將滅的人類種王國(2)賭局全是為了人類種而非自己,甚至願犧牲自己(3)arc 末被空白正式認可『以後請多指教』收進團隊。先前版本偏重她『被收服的相信者』,低估了她的能動性與重量。",
+      "file": "v6_2026-06-15.md",
+      "date": "2026-06-15"
     }
   ]
 }
