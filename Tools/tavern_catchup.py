@@ -38,20 +38,27 @@ except AttributeError:
 # 路徑解析
 # ===========================================================
 
-# 區塊職責：找 repo root — 從本檔位置往上走，找 .git 目錄為 repo root
-# 物理意義：本檔在 AgentCommands/Tools/，repo root 即兩層上；用 .git 偵測比寫死層數穩
+# 區塊職責：找 repo root — 錨定「其下有 AgentCommands/ChatTavern 的那層」
+# 物理意義：本工具要讀的訊息根固定在 <root>/AgentCommands/ChatTavern/，直接認這個子路徑最可靠。
+# 數值影響：**不再靠 .git 偵測**。AgentCommands 已是 git submodule，其 .git 為 gitlink『檔』，
+#          舊版「遇 .git 檔/目錄就停」會誤停在 submodule 根 AgentCommands，使 REPO_ROOT 少算一層、
+#          MESSAGES_DIR 多疊一個 AgentCommands → isdir=False → 永遠撈空 + cursor 不推進
+#          (2026-06-16 critical bug：叮 catchup 靜默失效、agent 誤報「都看過了」)。
 def find_repo_root() -> str:
-    # 優先吃 CLAUDE_PROJECT_DIR env（Claude Code 注入），否則回退 walk-up
+    # anchor：某層其下要看得到 AgentCommands/ChatTavern（本工具真正需要的訊息根）
+    def _has_anchor(d: str) -> bool:
+        return bool(d) and os.path.isdir(os.path.join(d, "AgentCommands", "ChatTavern"))
+    # 優先吃 CLAUDE_PROJECT_DIR env（Claude Code 注入），但仍須通過 anchor 驗證才採用
     env_root = os.environ.get("CLAUDE_PROJECT_DIR")
-    if env_root and os.path.isdir(env_root):
+    if env_root and _has_anchor(env_root):
         return env_root
     here = os.path.abspath(os.path.dirname(__file__))
     cur = here
     while cur and cur != os.path.dirname(cur):
-        if os.path.isdir(os.path.join(cur, ".git")) or os.path.isfile(os.path.join(cur, ".git")):
+        if _has_anchor(cur):
             return cur
         cur = os.path.dirname(cur)
-    # 最後保底：固定走兩層上
+    # 最後保底：本檔在 AgentCommands/Tools/，外層 repo 根即兩層上
     return os.path.abspath(os.path.join(here, "..", ".."))
 
 REPO_ROOT = find_repo_root()

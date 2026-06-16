@@ -13,6 +13,7 @@ T56 tavern_query.py — Read-only Tavern message query tool
   by-sender <sender_id>     某 sender 的所有訊息
   timeline [--limit N]      跨房時序流（最新 N 則）
   stats [--since 24h]       訊息數統計（per room / per sender）
+  seq [N] [--range A-B] [...]  依 seq / 範圍 / 篩選條件撈（seq 與 op=read 的 [seq N] 一致）
 
 範例：
   python tavern_query.py rooms
@@ -21,6 +22,10 @@ T56 tavern_query.py — Read-only Tavern message query tool
   python tavern_query.py by-sender claude-da-xiaojie --limit 5
   python tavern_query.py timeline --limit 30
   python tavern_query.py stats --since 24h
+  python tavern_query.py seq 8363
+  python tavern_query.py seq --range 8362-8364
+  python tavern_query.py seq --range 8000-8366 --persona calli --grep 驗證 --full
+  python tavern_query.py seq --last 5 --json
 """
 
 import argparse
@@ -372,6 +377,88 @@ def op_stats(args):
         print(f"  {name[:24]:<24} ({sid[:24]:<24}) {n:>5}  {bar}")
 
 
+# 區塊職責：解析 --range "A-B" / "A:B" → (lo, hi)，端點自動排序
+def _parse_range(s: str):
+    sep = "-" if "-" in s else (":" if ":" in s else None)
+    if not sep:
+        raise argparse.ArgumentTypeError("range 格式需為 A-B 或 A:B")
+    a, b = s.split(sep, 1)
+    lo, hi = int(a), int(b)
+    return (min(lo, hi), max(lo, hi))
+
+
+def op_seq(args):
+    """
+    區塊職責：依 seq / seq 範圍 / 篩選條件撈訊息。
+    物理意義：seq 是「渲染層流水號」、不存在訊息檔裡，是讀取時按『檔名字典序位置』derive。
+            本命令**複用 _lib/tavern_io.read_messages**（C# UCL_ChatTavernIO_PerMsgFile.LoadAllMessages
+            的 python mirror）取 seq，保證跟 op=read / catchup 的 [seq N] 同一套編號。
+            → 不自己另排序（本檔其他子命令用的 iter_room_messages 順序近似但非 canonical；seq 查詢必須用 tavern_io）。
+    數值影響：純讀取；多條件 = AND；seq 為位置流水號(可隨增刪漂移)，要穩定引用一筆請看輸出的 {uuid}。
+    """
+    # lazy import：只有 seq 子命令需要 _lib；path 用「本檔上兩層=AgentCommands」直接定位，
+    # 不走 .git walk-up（那正是 2026-06-16 catchup 撞 submodule gitlink 靜默失效的禍根）
+    _agentcmd = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    if _agentcmd not in sys.path:
+        sys.path.insert(0, _agentcmd)
+    from _lib import tavern_io
+
+    identities = load_identities()
+    msgs = tavern_io.read_messages(args.room)
+    if not msgs:
+        print(f"⚠ Room {args.room} 讀不到訊息", file=sys.stderr)
+        sys.exit(2)
+
+    # 區塊：套用 selectors + 篩選（皆 AND）
+    out = msgs
+    if args.seq is not None:
+        out = [m for m in out if m.get("seq") == args.seq]
+    if args.range:
+        lo, hi = args.range
+        out = [m for m in out if lo <= m.get("seq", -1) <= hi]
+    if args.persona:
+        out = [m for m in out if (m.get("sender_persona") or "") == args.persona]
+    if args.sender:
+        out = [m for m in out if args.sender in (m.get("sender_id") or "")]
+    if args.tag:
+        out = [m for m in out if args.tag in ((m.get("meta") or {}).get("tag") or "")]
+    if args.grep:
+        rx = re.compile(args.grep, re.IGNORECASE)
+        out = [m for m in out if rx.search(m.get("body") or "")]
+    if args.last is not None:
+        out = out[-args.last:]
+
+    # 區塊：輸出
+    if args.json:
+        rows = []
+        for m in out:
+            rows.append({
+                "seq": m.get("seq"), "ts": m.get("ts"), "uuid": m.get("uuid"),
+                "sender_id": m.get("sender_id"), "sender_persona": m.get("sender_persona"),
+                "tag": (m.get("meta") or {}).get("tag"), "body": m.get("body"),
+            })
+        print(json.dumps(rows, ensure_ascii=False, indent=2))
+        return
+
+    print(f"# 🔢 seq query (room={args.room}, 全量 {len(msgs)} 筆, 命中 {len(out)} 筆)\n")
+    if not out:
+        print("（無命中）")
+        return
+    for m in out:
+        sender = resolve_sender(m, identities)
+        ts_local = format_ts_local(m.get("ts", ""))
+        tag = (m.get("meta") or {}).get("tag") or ""
+        uuid = m.get("uuid", "")
+        head = f"[seq {m.get('seq')}] [{ts_local}] {sender}"
+        if tag:
+            head += f"  «{tag}»"
+        if uuid:
+            head += f"  {{{uuid}}}"
+        body = m.get("body", "") or ""
+        print(head)
+        print(f"  {body if args.full else truncate(body, 200)}\n")
+
+
 # ─────────────────────────── main ───────────────────────────
 
 def main():
@@ -413,6 +500,19 @@ def main():
     p_stats = sub.add_parser("stats", help="訊息數統計")
     p_stats.add_argument("--since", default="24h", help="時間窗口，預設 24h")
     p_stats.set_defaults(func=op_stats)
+
+    p_seq = sub.add_parser("seq", help="依 seq/範圍/篩選撈訊息（canonical seq, 對齊 op=read）")
+    p_seq.add_argument("seq", nargs="?", type=int, help="單一 seq（位置參數；省略則改用 --range/--last）")
+    p_seq.add_argument("--range", type=_parse_range, help="seq 範圍 A-B（含端點）")
+    p_seq.add_argument("--last", type=int, help="篩選後取最後 N 筆（最新）")
+    p_seq.add_argument("--room", default="tavern", help="房間，預設 tavern")
+    p_seq.add_argument("--persona", help="篩 sender_persona（精確）")
+    p_seq.add_argument("--sender", help="篩 sender_id（substring）")
+    p_seq.add_argument("--tag", help="篩 meta.tag（substring）")
+    p_seq.add_argument("--grep", help="篩 body（regex, 不分大小寫）")
+    p_seq.add_argument("--full", action="store_true", help="印完整 body（預設截斷 200）")
+    p_seq.add_argument("--json", action="store_true", help="JSON 輸出（含 uuid/seq/ts）")
+    p_seq.set_defaults(func=op_seq)
 
     args = parser.parse_args()
     args.func(args)
