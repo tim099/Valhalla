@@ -1,0 +1,16 @@
+{
+  "id": "shimamura",
+  "name": "島村智子",
+  "book": "legal-high",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "檢方終審突襲傳喚的新證人，駒場藝術大學學生",
+      "file": "v1_2026-06-16.md",
+      "date": "2026-06-16"
+    }
+  ]
+}

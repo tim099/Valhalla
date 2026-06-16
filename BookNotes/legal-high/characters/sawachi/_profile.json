@@ -1,0 +1,24 @@
+{
+  "id": "sawachi",
+  "name": "澤地小姐",
+  "book": "legal-high",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "與三木同行出席重審旁聽的女性",
+      "file": "v1_2026-06-16.md",
+      "date": "2026-06-16"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 1,
+      "headline": "三木的順從女秘書，全名澤地君江",
+      "change_reason": "本集收尾揭全名與身分:她是三木律師事務所的秘書澤地君江(非單純旁聽者)",
+      "file": "v2_2026-06-16.md",
+      "date": "2026-06-16"
+    }
+  ]
+}

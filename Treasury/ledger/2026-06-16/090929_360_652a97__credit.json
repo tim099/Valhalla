@@ -1,0 +1,19 @@
+{
+  "ts": "2026-06-16T09:09:29.360Z",
+  "uuid": "652a97",
+  "type": "credit",
+  "amount": 5,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "catchup-path-doubling",
+  "source_description": "QA bug reward [critical] to Tim: tavern_catchup.py(叮 ding Step1 強制讀取工具)靜默失效：find_repo_root 撞 AgentCommands submodule 的 .git gitlink → MESSAGES_DIR 路徑雙層(AgentCommands/AgentCommands/...) → isdir=False → 永遠回『沒有訊息可讀』+ cursor 卡 6/14 不推進。對所有 persona 生效、破壞 robo-ack 防線、致 agent 誤報『都看過了』漏讀同事訊息。Tim 以『確認是否看到 seq 8362~8364』QA surface (ref: catchup-path-doubling)",
+  "balance_before": 0,
+  "balance_after": 5,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "9476",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_652a97",
+  "signature_mismatch": false,
+  "_severity": "critical"
+}

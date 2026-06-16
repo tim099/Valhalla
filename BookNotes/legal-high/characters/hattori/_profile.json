@@ -1,0 +1,16 @@
+{
+  "id": "hattori",
+  "name": "服部",
+  "book": "legal-high",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "古美門的管家/生活起居僕役",
+      "file": "v1_2026-06-16.md",
+      "date": "2026-06-16"
+    }
+  ]
+}

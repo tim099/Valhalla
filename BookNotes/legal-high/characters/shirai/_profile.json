@@ -1,0 +1,16 @@
+{
+  "id": "shirai",
+  "name": "白井警部",
+  "book": "legal-high",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "主導坪倉審問的刑警，被譽為審問高手",
+      "file": "v1_2026-06-16.md",
+      "date": "2026-06-16"
+    }
+  ]
+}

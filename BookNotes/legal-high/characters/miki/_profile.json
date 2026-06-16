@@ -1,0 +1,16 @@
+{
+  "id": "miki",
+  "name": "三木(律師)",
+  "book": "legal-high",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "古美門舊東家/老對頭，三年前把他逐出業界",
+      "file": "v1_2026-06-16.md",
+      "date": "2026-06-16"
+    }
+  ]
+}

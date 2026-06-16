@@ -1,0 +1,16 @@
+{
+  "id": "mayuzumi",
+  "name": "黛真知子",
+  "book": "legal-high",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "黃大衣菜鳥律師，電車/卷宗場多次入鏡",
+      "file": "v1_2026-06-16.md",
+      "date": "2026-06-16"
+    }
+  ]
+}

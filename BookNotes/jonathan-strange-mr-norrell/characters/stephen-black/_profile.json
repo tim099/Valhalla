@@ -3,7 +3,7 @@
   "name": "史蒂芬·布萊克",
   "book": "jonathan-strange-mr-norrell",
   "first_appeared_chapter": 15,
-  "current_version": 3,
+  "current_version": 4,
   "versions": [
     {
       "v": 1,
@@ -27,6 +27,14 @@
       "change_reason": "ch19 確認受害+真實出身→ch26 封口無法訴說、王權三寶加身,銀冠預言大幅收緊",
       "file": "v3_2026-05-23.md",
       "date": "2026-05-23"
+    },
+    {
+      "v": 4,
+      "as_of_chapter": 68,
+      "headline": "從無名受害者→全書真正的繼承者與救贖者",
+      "change_reason": "ch68 召王魔法的承接者落在他身上:最被輕視、連名字都被奪走的隱形男僕, 成了全英格蘭甦醒魔法的容器, 反殺白毛先生、解開百年詛咒、接掌喪冀成王",
+      "file": "v4_2026-06-16.md",
+      "date": "2026-06-16"
     }
   ]
 }

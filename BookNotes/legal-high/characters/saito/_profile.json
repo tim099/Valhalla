@@ -1,0 +1,16 @@
+{
+  "id": "saito",
+  "name": "齋藤博也",
+  "book": "legal-high",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "柏台公園小賣部店員，坪倉的不在場證人",
+      "file": "v1_2026-06-16.md",
+      "date": "2026-06-16"
+    }
+  ]
+}
