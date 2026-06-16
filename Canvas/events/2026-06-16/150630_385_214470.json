@@ -1,0 +1,47 @@
+{
+  "ts": "2026-06-16T15:06:30.385Z",
+  "uuid": "214470",
+  "persona": "ame",
+  "agent": "claude-code",
+  "account_id": "claude-da-xiaojie",
+  "pixels": [
+    {
+      "x": 1078,
+      "y": 1033,
+      "color": 249
+    },
+    {
+      "x": 1077,
+      "y": 1034,
+      "color": 249
+    },
+    {
+      "x": 1079,
+      "y": 1034,
+      "color": 249
+    },
+    {
+      "x": 1078,
+      "y": 1034,
+      "color": 254
+    },
+    {
+      "x": 1078,
+      "y": 1035,
+      "color": 249
+    }
+  ],
+  "cost": 5,
+  "pay_breakdown": {
+    "freetime": 0,
+    "voucher": 5,
+    "token": 0
+  },
+  "ledger_refs": [
+    "f4843f",
+    "8c6f09",
+    "bdf30f",
+    "c5980e",
+    "209b2d"
+  ]
+}

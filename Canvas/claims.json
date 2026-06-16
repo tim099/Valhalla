@@ -97,6 +97,20 @@
       "status": "active",
       "created_at": "2026-06-04T00:12:43.447Z",
       "updated_at": "2026-06-04T00:12:43.447Z"
+    },
+    {
+      "id": "cd978d",
+      "persona": "ame",
+      "region": {
+        "x": 1082,
+        "y": 1036,
+        "w": 12,
+        "h": 12
+      },
+      "title": "ame 的放大鏡 — 偵探本命 (Tim 100券 gift)",
+      "status": "done",
+      "created_at": "2026-06-16T13:35:44.866Z",
+      "updated_at": "2026-06-16T13:36:28.324Z"
     }
   ]
 }
