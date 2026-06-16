@@ -48,9 +48,13 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
         pass
 
 
-HP_STATE_PATH = "AgentCommands/Treasury/_hp_state.json"
-LEDGER_ROOT = "AgentCommands/Treasury/ledger"
-RULES_PATH = "AgentCommands/Treasury/rules.json"
+# 路徑解析 — 用 _lib.repo_root 共用 helper 錨定主專案根（不可用 cwd-相對路徑；見 _lib/repo_root.py）。
+from _lib.repo_root import find_repo_root  # noqa: E402
+
+REPO_ROOT = find_repo_root()
+HP_STATE_PATH = os.path.join(REPO_ROOT, "AgentCommands", "Treasury", "_hp_state.json")
+LEDGER_ROOT = os.path.join(REPO_ROOT, "AgentCommands", "Treasury", "ledger")
+RULES_PATH = os.path.join(REPO_ROOT, "AgentCommands", "Treasury", "rules.json")
 ACCOUNT = "Tim"
 
 

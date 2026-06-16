@@ -51,22 +51,15 @@ if sys.platform == "win32":
         pass
 
 
-def _project_root() -> str:
-    # 區塊職責: 反推 project root (git toplevel)
-    # 物理意義: persona_ding 寫的 inbox.md 走絕對路徑, 不依賴 cwd
-    try:
-        out = subprocess.check_output(
-            ["git", "rev-parse", "--show-toplevel"],
-            stderr=subprocess.DEVNULL,
-            text=True,
-        ).strip()
-        return out
-    except Exception:
-        # fallback: 從本檔案位置反推 (Tools/ 上兩層 = project root)
-        return os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+# 區塊職責: 反推 project root — 改用 _lib.repo_root 共用 helper
+# 物理意義: persona_ding 寫的 inbox.md 走絕對路徑, 真正不依賴 cwd
+# 數值影響: 舊版用 `git rev-parse --show-toplevel`，但那吃 cwd 不吃 __file__：在 AgentCommands
+#          submodule 內跑會回 submodule 根 → inbox.md 誤落 AgentCommands/AgentCommands/...
+#          (與 qa_bug_reward cwd-相對路徑同家族潛伏 misfile)。共用 helper 與 cwd 徹底解耦。
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+from _lib.repo_root import find_repo_root  # noqa: E402
 
-
-PROJECT_ROOT = _project_root()
+PROJECT_ROOT = find_repo_root()
 CONSTITUTION_BASE = os.path.join(
     PROJECT_ROOT, "AgentCommands", "ChatTavern", "baton", "constitution"
 )

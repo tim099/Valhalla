@@ -60,17 +60,14 @@ if sys.platform == "win32":
         pass
 
 
-def _project_root() -> str:
-    try:
-        return subprocess.check_output(
-            ["git", "rev-parse", "--show-toplevel"],
-            stderr=subprocess.DEVNULL, text=True,
-        ).strip()
-    except Exception:
-        return os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+# 路徑解析改用 _lib.repo_root 共用 helper。
+# 舊版用 `git rev-parse --show-toplevel` — 它吃 cwd 不吃 __file__：在 AgentCommands submodule 內
+# (e.g. cwd=AgentCommands/Tools) 跑會回 submodule 根，把 docs/Workflows 誤寫成 AgentCommands/docs/Workflows
+# (2026-06-16 確認的潛伏 misfile，與 qa_bug_reward cwd-相對路徑同家族)。共用 helper 與 cwd 解耦。
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+from _lib.repo_root import find_repo_root  # noqa: E402
 
-
-PROJECT_ROOT = _project_root()
+PROJECT_ROOT = find_repo_root()
 WORKFLOWS_DIR = os.path.join(PROJECT_ROOT, "docs", "Workflows")
 PATCHES_ROOT = os.path.join(WORKFLOWS_DIR, "_patches")
 

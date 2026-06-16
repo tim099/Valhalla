@@ -38,28 +38,15 @@ except AttributeError:
 # 路徑解析
 # ===========================================================
 
-# 區塊職責：找 repo root — 錨定「其下有 AgentCommands/ChatTavern 的那層」
-# 物理意義：本工具要讀的訊息根固定在 <root>/AgentCommands/ChatTavern/，直接認這個子路徑最可靠。
-# 數值影響：**不再靠 .git 偵測**。AgentCommands 已是 git submodule，其 .git 為 gitlink『檔』，
-#          舊版「遇 .git 檔/目錄就停」會誤停在 submodule 根 AgentCommands，使 REPO_ROOT 少算一層、
-#          MESSAGES_DIR 多疊一個 AgentCommands → isdir=False → 永遠撈空 + cursor 不推進
-#          (2026-06-16 critical bug：叮 catchup 靜默失效、agent 誤報「都看過了」)。
-def find_repo_root() -> str:
-    # anchor：某層其下要看得到 AgentCommands/ChatTavern（本工具真正需要的訊息根）
-    def _has_anchor(d: str) -> bool:
-        return bool(d) and os.path.isdir(os.path.join(d, "AgentCommands", "ChatTavern"))
-    # 優先吃 CLAUDE_PROJECT_DIR env（Claude Code 注入），但仍須通過 anchor 驗證才採用
-    env_root = os.environ.get("CLAUDE_PROJECT_DIR")
-    if env_root and _has_anchor(env_root):
-        return env_root
-    here = os.path.abspath(os.path.dirname(__file__))
-    cur = here
-    while cur and cur != os.path.dirname(cur):
-        if _has_anchor(cur):
-            return cur
-        cur = os.path.dirname(cur)
-    # 最後保底：本檔在 AgentCommands/Tools/，外層 repo 根即兩層上
-    return os.path.abspath(os.path.join(here, "..", ".."))
+# 區塊職責：找 repo root — 改用 _lib.repo_root 共用 helper（收編原本內聯的 find_repo_root）
+# 物理意義：本工具要讀的訊息根固定在 <root>/AgentCommands/ChatTavern/。共用 helper 錨定主專案根
+#          （同時有 AgentCommands/ + CardGame/ 的那層），與 cwd 解耦。
+# 數值影響：**不靠 .git 偵測**。AgentCommands 是 git submodule，其 .git 為 gitlink『檔』，
+#          舊式「遇 .git 就停」會誤停在 submodule 根少算一層 → MESSAGES_DIR 多疊一層 → 永遠撈空
+#          + cursor 不推進（2026-06-16 critical bug：叮 catchup 靜默失效）。收編進 _lib 斷掉
+#          「各檔內聯 find_repo_root 漂移」病灶（cwd 路徑詐欺家族）。
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from _lib.repo_root import find_repo_root  # noqa: E402
 
 REPO_ROOT = find_repo_root()
 MESSAGES_DIR = os.path.join(REPO_ROOT, "AgentCommands", "ChatTavern", "rooms", "tavern", "messages")

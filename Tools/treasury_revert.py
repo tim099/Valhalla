@@ -65,7 +65,11 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
         pass
 
 
-LEDGER_ROOT = "AgentCommands/Treasury/ledger"
+# 路徑解析 — 用 _lib.repo_root 共用 helper 錨定主專案根（不可用 cwd-相對路徑；見 _lib/repo_root.py）。
+from _lib.repo_root import find_repo_root  # noqa: E402
+
+REPO_ROOT = find_repo_root()
+LEDGER_ROOT = os.path.join(REPO_ROOT, "AgentCommands", "Treasury", "ledger")
 
 
 def utcnow_iso():
