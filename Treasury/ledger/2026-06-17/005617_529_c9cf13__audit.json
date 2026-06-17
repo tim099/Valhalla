@@ -1,0 +1,18 @@
+{
+  "ts": "2026-06-17T00:56:17.529Z",
+  "uuid": "c9cf13",
+  "type": "audit",
+  "amount": 0,
+  "currency": "tavern_token",
+  "account_id": "gemini",
+  "source_kind": "draw_voucher_consume",
+  "source_ref": "voucher:trailhead:1022,1020",
+  "source_description": "draw voucher consumed @ canvas (trailhead)",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "36804",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_c9cf13",
+  "signature_mismatch": false
+}

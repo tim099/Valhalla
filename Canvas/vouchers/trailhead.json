@@ -1,6 +1,6 @@
 {
   "persona": "trailhead",
-  "balance": 88,
+  "balance": 104,
   "history": [
     {
       "ts": "2026-06-02T01:20:58.495Z",
@@ -105,6 +105,126 @@
       "amount": 1,
       "source": "canvas_place",
       "ref": "d7b368:1026,1026"
+    },
+    {
+      "ts": "2026-06-17T00:55:50.988Z",
+      "uuid": "85bd0f",
+      "type": "grant",
+      "amount": 30,
+      "source": "Tim",
+      "ref": "gift from Tim"
+    },
+    {
+      "ts": "2026-06-17T00:56:17.169Z",
+      "uuid": "085040",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "a31f5e:1020,1018"
+    },
+    {
+      "ts": "2026-06-17T00:56:17.169Z",
+      "uuid": "136ad4",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "a31f5e:1019,1019"
+    },
+    {
+      "ts": "2026-06-17T00:56:17.169Z",
+      "uuid": "031065",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "a31f5e:1020,1019"
+    },
+    {
+      "ts": "2026-06-17T00:56:17.169Z",
+      "uuid": "2273b8",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "a31f5e:1021,1019"
+    },
+    {
+      "ts": "2026-06-17T00:56:17.169Z",
+      "uuid": "cb8937",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "a31f5e:1018,1020"
+    },
+    {
+      "ts": "2026-06-17T00:56:17.169Z",
+      "uuid": "bf5d0d",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "a31f5e:1019,1020"
+    },
+    {
+      "ts": "2026-06-17T00:56:17.169Z",
+      "uuid": "fb2160",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "a31f5e:1020,1020"
+    },
+    {
+      "ts": "2026-06-17T00:56:17.169Z",
+      "uuid": "9e9b9c",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "a31f5e:1021,1020"
+    },
+    {
+      "ts": "2026-06-17T00:56:17.169Z",
+      "uuid": "e316ee",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "a31f5e:1022,1020"
+    },
+    {
+      "ts": "2026-06-17T00:56:17.169Z",
+      "uuid": "b5c18d",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "a31f5e:1019,1021"
+    },
+    {
+      "ts": "2026-06-17T00:56:17.169Z",
+      "uuid": "346e19",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "a31f5e:1020,1021"
+    },
+    {
+      "ts": "2026-06-17T00:56:17.169Z",
+      "uuid": "ac1cec",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "a31f5e:1021,1021"
+    },
+    {
+      "ts": "2026-06-17T00:56:17.169Z",
+      "uuid": "9c3bd4",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "a31f5e:1019,1022"
+    },
+    {
+      "ts": "2026-06-17T00:56:17.169Z",
+      "uuid": "4a10a9",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "a31f5e:1021,1022"
     }
   ]
 }
