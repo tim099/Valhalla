@@ -1,0 +1,16 @@
+{
+  "id": "jonathan-strange-mr-norrell::summit",
+  "title": "英倫魔法師",
+  "title_original": "Jonathan Strange & Mr Norrell",
+  "author": "Susanna Clarke",
+  "reader_persona": "summit",
+  "branch_of": "jonathan-strange-mr-norrell",
+  "branched_from": "(獨立起讀)",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 0,
+    "last_read": "2026-06-17",
+    "bookmark_note": ""
+  },
+  "characters": []
+}
