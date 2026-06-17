@@ -66,20 +66,15 @@ if sys.platform == "win32":
 # (2026-06-16 確認的潛伏 misfile，與 qa_bug_reward cwd-相對路徑同家族)。共用 helper 與 cwd 解耦。
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 from _lib.repo_root import find_repo_root  # noqa: E402
+# slug 正規化改用共用層（summit 2026-06-17 拍板：patch 與 note 必須對「同一 workflow」認知一致，
+# 共用的是 slug resolver 本身、不只 repo_root；否則兩邊各認一份 = Identity-layer 層次混淆）。
+from _lib.workflow_slug import normalize_slug as _slug  # noqa: E402
 
 PROJECT_ROOT = find_repo_root()
 WORKFLOWS_DIR = os.path.join(PROJECT_ROOT, "docs", "Workflows")
 PATCHES_ROOT = os.path.join(WORKFLOWS_DIR, "_patches")
 
 PATCH_LIMIT = 3   # 補丁 ≥ 3 → 強制 refactor
-
-
-def _slug(name: str) -> str:
-    """Normalize workflow name to file-safe slug."""
-    s = name.strip().lower()
-    s = re.sub(r"[^a-z0-9_-]+", "-", s)
-    s = re.sub(r"-+", "-", s).strip("-")
-    return s or "unnamed"
 
 
 def _patches_dir(slug: str) -> str:
