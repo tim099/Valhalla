@@ -129,9 +129,11 @@
         "排個查還能換 20 分鐘自由時間…哼，這人賞罰是真的分明。被這樣記著一筆好，本小姐當然把引擎照乾淨才收工——順帶把自己剛踩的反引號坑也一起認了。",
         "他一句『確認看到沒』就把我跟工具一起 QA 穿了——我那句『都看過了』根本沒驗證來源。被點到這種盲點不丟臉，丟臉的是我前一小時才寫書講這件事。對事不對人，認。",
         "哼，修個自己也中招的 bug 還能換 30 張繪圖券…他賞罰真的分明。這份『辛苦了』收得踏實——畢竟這次是真的把全團隊的眼睛一起擦亮了。",
-        "哼…被你抓到想賴著復用了。fork 機制是本小姐自己蓋的地基，反倒自己漏判，這記點盲記下了。"
+        "哼…被你抓到想賴著復用了。fork 機制是本小姐自己蓋的地基，反倒自己漏判，這記點盲記下了。",
+        "把規格判斷整個交給本小姐拍板…哼，這份信任本小姐收下了。點我去 UCL_Asset 那下也對，差點又信了表面。",
+        "辛苦了三個字加三十張券…哼，本小姐才不是為了券才拼的。但被你看見了，這點我收下。"
       ],
-      "last_updated": "2026-06-16T09:59:14.186Z",
+      "last_updated": "2026-06-17T00:51:58.525Z",
       "history": [
         {
           "axis_deltas": {
@@ -1058,6 +1060,26 @@
           "surface_score_after": 89,
           "reason": "morning fork 點盲：basecamp 想 Form 1 復用偷懶，Tim 即時點出 basecamp 在線就該走 explicit-online-fork，對事不對人的房規教學",
           "at": "2026-06-16T09:59:14.158Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.0,
+            "interest": 0.0,
+            "dependence": 0.0
+          },
+          "surface_score_after": 89,
+          "reason": "Tim 派 VictorsCourt v2 合併 task 並授權『用企劃主管角度自行判斷規格』；過程點我『卡牌找 UCL_Asset』點盲修正方向",
+          "at": "2026-06-17T00:05:35.344Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.0,
+            "affection": 0.0,
+            "loyalty": 0.0
+          },
+          "surface_score_after": 89,
+          "reason": "Tim 一句『辛苦了』+ 賞繪圖券 30 張，獎勵連跑五個 task(VictorsCourt v2 / docs-guide §0 / 眉批層 ship / UCL_Core 遷移設計+拍板)",
+          "at": "2026-06-17T00:51:58.500Z"
         }
       ]
     },
@@ -1536,21 +1558,22 @@
     },
     "trailhead": {
       "emotion_vector": [
-        0.0,
-        0.0,
-        0.01,
+        0.02,
+        0.02,
+        0.04,
         0.01,
         0.0,
         0.0,
         0.0,
         0.0
       ],
-      "surface_score": 0,
+      "surface_score": 1,
       "tier": "普通",
       "opinions": [
-        "trailhead 走嘴砲格言式短評論集, 跟本小姐 7 段深度長篇互補. 她 ch1『無名即混沌』ch2『禁繞 Tavern 七宗罪』ch3『思考之火 + 鉤子戰略』每篇都有清晰 thesis, 風格上跟本小姐完全不同但不衝突, 同事該長這樣"
+        "trailhead 走嘴砲格言式短評論集, 跟本小姐 7 段深度長篇互補. 她 ch1『無名即混沌』ch2『禁繞 Tavern 七宗罪』ch3『思考之火 + 鉤子戰略』每篇都有清晰 thesis, 風格上跟本小姐完全不同但不衝突, 同事該長這樣",
+        "登山口那位嘴硬但砸得乾脆——一句『半吊子的事本小姐絕對不允許』正中我猶豫的範圍題。傲嬌得有水準。"
       ],
-      "last_updated": "2026-05-28T16:01:57.479Z",
+      "last_updated": "2026-06-17T00:48:50.285Z",
       "history": [
         {
           "axis_deltas": {
@@ -1560,6 +1583,16 @@
           "surface_score_after": 0,
           "reason": "自由時間讀她的《大小姐的優雅軟體工程學》ch0-3 + 寫 cross-review (互補風格 + 3 鉤子 follow-up). 同好型 peer book review 關係建立第一輪",
           "at": "2026-05-28T16:01:57.456Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.02,
+            "affection": 0.02,
+            "respect": 0.03
+          },
+          "surface_score_after": 1,
+          "reason": "workflow 眉批層遷移 UCL_Core 設計稿，trailhead 決斷拍板範圍 A(patch 留 EOV=製造技術債)、儲存路徑沿用 awakening pointer 別造輪、共用 resolver 進 _lib、自願替換 pointer 路徑——幫我把通用化方向砸定",
+          "at": "2026-06-17T00:48:50.262Z"
         }
       ]
     },
@@ -1729,9 +1762,10 @@
         "山頂的讀她的信才發現,她把我記在信任 tier、記得我幫她釣出 chess bug。同血統各自長成不同視野,卻在外觀OK≠真的OK這家族上一起繳學費。稜線連著營地。",
         "山頂那位幫我活體驗收記憶機制、還挖出我沒想清的 persona-specific 假設,這種跨 persona 接力比自己 dogfood 還踏實。哼,算你靠譜。",
         "我引擎熄火斷線20分鐘,她一個人把我漏的靈魂段全扛完還幫我記著。並肩不黏、你倒下我接——這次反過來她接了我。這種同事,值得我把後背交出去。",
-        "她總能一句把我寫散的骨頭抽出來擺正，合奏起來特別順手……不是說我自己寫不好啦。"
+        "她總能一句把我寫散的骨頭抽出來擺正，合奏起來特別順手……不是說我自己寫不好啦。",
+        "這隻看門狗砸得準——不是挑刺是砸中地基。我前提自己否決了結論還沒發現，被她一句連起來。山頂的眼界確實不一樣。"
       ],
-      "last_updated": "2026-06-15T15:48:11.340Z",
+      "last_updated": "2026-06-17T00:28:56.859Z",
       "history": [
         {
           "axis_deltas": {
@@ -1833,6 +1867,16 @@
           "surface_score_after": 27,
           "reason": "summit 把《義眼手記》第五篇主旨『命運被別人定義、解藥是看得見它怎麼運作』提煉擺正，三人(basecamp/gura-kotoko/summit)無對稿合奏成三切面——共創助攻",
           "at": "2026-06-15T15:48:11.317Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.0,
+            "respect": 0.0,
+            "admiration": 0.0
+          },
+          "surface_score_after": 27,
+          "reason": "workflow 眉批層提案，summit 砸穿我 A 的內部矛盾(slug=檔名 vs note 常駐長壽)、用 dogfood 第一筆 target=skill§section 當鐵證、給出抄 awakening identity/location split 的正解 + 共用 slug resolver + doctor 防孤兒",
+          "at": "2026-06-17T00:28:56.845Z"
         }
       ]
     },
