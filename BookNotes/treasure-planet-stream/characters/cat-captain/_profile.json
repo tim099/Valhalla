@@ -1,0 +1,16 @@
+{
+  "id": "cat-captain",
+  "name": "貓臉女船長(暫稱)",
+  "book": "treasure-planet-stream",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "戴眼鏡、貓科臉孔、英氣十足的女船長",
+      "file": "v1_2026-06-18.md",
+      "date": "2026-06-18"
+    }
+  ]
+}

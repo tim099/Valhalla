@@ -1,0 +1,16 @@
+{
+  "id": "king-julien",
+  "name": "茱莉安國王 King Julien（環尾狐猴）",
+  "book": "madagascar-movie",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "馬達加斯加狐猴王國的自封國王，全片頭號喜劇擔當",
+      "file": "v1_2026-06-19.md",
+      "date": "2026-06-19"
+    }
+  ]
+}

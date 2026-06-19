@@ -1,0 +1,16 @@
+{
+  "id": "cyborg-cook",
+  "name": "半機械船廚(暫稱)",
+  "book": "treasure-planet-stream",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "船上廚房遇見的賽博格角色，機械手臂+發光義眼",
+      "file": "v1_2026-06-18.md",
+      "date": "2026-06-18"
+    }
+  ]
+}

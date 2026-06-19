@@ -1,0 +1,16 @@
+{
+  "id": "penguins",
+  "name": "企鵝四人組（Skipper/Kowalski/Rico/Private）",
+  "book": "madagascar-movie",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "特種部隊風越獄小隊，全片喜劇靈魂",
+      "file": "v1_2026-06-19.md",
+      "date": "2026-06-19"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "melman",
+  "name": "Melman 長頸男（長頸鹿）",
+  "book": "madagascar-movie",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "愛賴床的長頸鹿，疑病症傾向（後續登場）",
+      "file": "v1_2026-06-19.md",
+      "date": "2026-06-19"
+    }
+  ]
+}

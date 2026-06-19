@@ -1,0 +1,16 @@
+{
+  "id": "jungle-robot",
+  "name": "大眼活寶機器人(暫稱)",
+  "book": "treasure-planet-stream",
+  "first_appeared_chapter": 4,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 4,
+      "headline": "異星叢林遇見的喜劇機器人,大綠眼+誇張表情",
+      "file": "v1_2026-06-18.md",
+      "date": "2026-06-18"
+    }
+  ]
+}

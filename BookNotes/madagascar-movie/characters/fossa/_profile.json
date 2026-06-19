@@ -1,0 +1,16 @@
+{
+  "id": "fossa",
+  "name": "長尾狸貓 Fossa/福薩",
+  "book": "madagascar-movie",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "狐猴的天敵掠食者，襲擊狐猴派對",
+      "file": "v1_2026-06-19.md",
+      "date": "2026-06-19"
+    }
+  ]
+}

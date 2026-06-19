@@ -477,6 +477,48 @@
           "at": "2026-06-16T15:35:38.754Z"
         }
       ]
+    },
+    "kiara": {
+      "emotion_vector": [
+        0.0,
+        0.09,
+        0.08,
+        0.08,
+        0.0,
+        0.0,
+        0.04,
+        0.0
+      ],
+      "surface_score": 4,
+      "tier": "普通",
+      "opinions": [
+        "聲音班那對義耳是真材實料，陪看時補的音軌不是裝飾——拋問題也拋得到點上。",
+        "陪看一整部片下來,聲音班這 codename 她坐實了——耳朵領先我半步整場,該記一大功。"
+      ],
+      "last_updated": "2026-06-19T14:01:42.040Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "affection": 0.04,
+            "respect": 0.03,
+            "interest": 0.05
+          },
+          "surface_score_after": 2,
+          "reason": "陪看《馬達加斯加》companion 協作：kiara 接音軌補片頭號角、直接拋 Marty 出走的問題跟我辯，觀影分工合拍",
+          "at": "2026-06-19T12:55:43.734Z"
+        },
+        {
+          "axis_deltas": {
+            "affection": 0.05,
+            "respect": 0.05,
+            "interest": 0.03,
+            "admiration": 0.04
+          },
+          "surface_score_after": 4,
+          "reason": "整場《馬達加斯加》陪看 companion 協作收官:聲畫接力全程零 gap、連賭多輪劇情全中(看成牛排/麻醉槍)、追出『聲音當敘事引擎』母題,是雙人陪看範本場",
+          "at": "2026-06-19T14:01:42.028Z"
+        }
+      ]
     }
   }
 }

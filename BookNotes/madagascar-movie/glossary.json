@@ -1,0 +1,20 @@
+{
+  "terms": [
+    {
+      "term": "中央公園動物園",
+      "category": "place",
+      "definition": "Central Park Zoo，四主角的家、全片起點。Alex 在此當頭牌表演。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-19"
+    },
+    {
+      "term": "長尾狸貓 fossa",
+      "category": "faction",
+      "definition": "馬達加斯加島的掠食者，狐猴的天敵。全片的外部威脅，與 Alex 被壓抑的肉食本能形成鏡像對照。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-19"
+    }
+  ]
+}

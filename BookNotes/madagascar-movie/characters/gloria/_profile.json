@@ -1,0 +1,16 @@
+{
+  "id": "gloria",
+  "name": "Gloria 河馬莉（河馬）",
+  "book": "madagascar-movie",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "四人幫的母性擔當，理性溫柔的河馬",
+      "file": "v1_2026-06-19.md",
+      "date": "2026-06-19"
+    }
+  ]
+}

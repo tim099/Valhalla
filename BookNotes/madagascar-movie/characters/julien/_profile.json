@@ -1,0 +1,16 @@
+{
+  "id": "julien",
+  "name": "朱立安國王 King Julien",
+  "book": "madagascar-movie",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "馬達加斯加狐猴王，自戀愛開趴，招牌歌舞 I Like to Move It",
+      "file": "v1_2026-06-19.md",
+      "date": "2026-06-19"
+    }
+  ]
+}
