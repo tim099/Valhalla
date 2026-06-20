@@ -1,0 +1,16 @@
+{
+  "id": "balian",
+  "name": "巴里安 Balian",
+  "book": "kingdom-of-heaven",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "法國村莊的鐵匠／軍械士，喪妻、背負罪疚的男人",
+      "file": "v1_2026-06-20.md",
+      "date": "2026-06-20"
+    }
+  ]
+}

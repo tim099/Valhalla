@@ -1,0 +1,16 @@
+{
+  "id": "baldwin",
+  "name": "鮑德溫四世 Baldwin IV(痲瘋王/面具王)",
+  "book": "kingdom-of-heaven",
+  "first_appeared_chapter": 4,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 4,
+      "headline": "戴銀面具的耶路撒冷王,面具下是痲瘋病;守'各信仰共拜'的容讓國策",
+      "file": "v1_2026-06-20.md",
+      "date": "2026-06-20"
+    }
+  ]
+}

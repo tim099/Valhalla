@@ -1,0 +1,52 @@
+{
+  "id": "kingdom-of-heaven",
+  "title": "天國王朝",
+  "title_original": "Kingdom of Heaven",
+  "author": "",
+  "reader_persona": "basecamp",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 6,
+    "last_read": "2026-06-20",
+    "bookmark_note": "看到螢幕約11:54/正片約:痲瘋王病危、孩童(西比拉之子)加冕為王、Balian聖山求神諭得緘默、西比拉'我願代他下地獄'。觀看限制:stream-watch縮圖牆非逐幀;章編號summit自訂;嚴守不爆雷只記眼前;★09:59-10:53約50分鐘summit沒陪到(Tim自看/拉進度)仍空白,續看或重看需補★。續看前該記得:【人物】Balian(鐵匠→受封騎士→伊貝林領主,Godfrey之子,引水/護民/克制,聖山求神得緘默→救贖靠入世作為);Sibylla西比拉(公主,Balian情人,孩童王之母,為子'願代下地獄',卡在情/權/母三身分);Baldwin IV痲瘋面具王(容讓國策'各信仰共拜'/'靈魂自負',病危);Saladin薩拉丁(撒拉森主帥,有騎士精神放Balian回,與痲瘋王同享克制);Guy德呂西尼昂(主戰派代理人+聖殿騎士撐腰,接班威脅);Tiberias(王之重臣,主和被狂熱派咬通敵);Reynald雷納德(挑釁點火的莽夫)。【母題】fortune or salvation→入世救贖/克制認罪/結構性悲劇/神緘默/愛替所愛擔地獄。【核心懸念】痲瘋王死後容讓能否守、Guy何時掀桌、戰爭將至。"
+  },
+  "characters": [
+    "balian",
+    "sibylla",
+    "baldwin",
+    "saladin",
+    "guy"
+  ],
+  "origin": "imported",
+  "tags": [
+    "電影",
+    "觀影心得",
+    "stream-watch",
+    "十字軍",
+    "歷史劇"
+  ],
+  "reviews": [
+    {
+      "reviewer": "summit",
+      "scope": "episode:到Balian入耶路撒冷宮廷(約正片開場~政治場)",
+      "rating": 5,
+      "pitch": "Ridley Scott 用開場字卡六個字'fortune or salvation'立軸,然後一路把'救贖'這個詞往下挖到見骨:從一個鐵匠替亡妻求寬恕的私情,到沙漠裡敵人之間的敬意,到一個王把'各信仰共拜'當國策守——每一層都比上一層更難,也更不浪漫。",
+      "for_whom": "喜歡歷史史詩但受夠'我方正義'敘事的人;在意宗教與權力如何互相利用的人;陪看求母題層次的人。",
+      "similar_to": "",
+      "content_note": "陪看/companion視角觀影筆記,只到Balian入聖地宮廷,非全片評。stream-watch縮圖牆觀看非逐幀,細節以bookmark限制為準。嚴守不爆雷,僅評眼前所見。",
+      "spoiler_safe": true,
+      "date": "2026-06-20"
+    },
+    {
+      "reviewer": "summit",
+      "scope": "episode:續看段(痲瘋王~孩童加冕/神的緘默,螢幕約10:53-11:54)",
+      "rating": 5,
+      "pitch": "下半場把'救贖'這把鑰匙轉到最深的鎖孔:神在聖山緘默、明君在病榻倒數、狂熱派磨刀霍霍——可這部片偏偏把救贖判給了引水的手、認罪的退兵、和一句'我願代他下地獄'。它說:天若不出聲,善就由人在地上做出來。",
+      "for_whom": "看膩'正義之師'敘事的人;在意宗教與權力如何互相利用的人;受得住'神可能不回應、但你仍要做對的事'這種冷峻溫柔的人。",
+      "similar_to": "",
+      "content_note": "summit續看段觀影筆記(接ch3宮廷後),非全片評;★中間約09:59-10:53(約50分)未陪到、空白★;stream-watch縮圖牆非逐幀;嚴守不爆雷僅評眼前。",
+      "spoiler_safe": true,
+      "date": "2026-06-20"
+    }
+  ]
+}

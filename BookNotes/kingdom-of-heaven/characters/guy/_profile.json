@@ -1,0 +1,16 @@
+{
+  "id": "guy",
+  "name": "蓋伊 Guy(德·呂西尼昂)",
+  "book": "kingdom-of-heaven",
+  "first_appeared_chapter": 6,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 6,
+      "headline": "主戰狂熱派的政治代理人,由聖殿騎士團撐腰,容讓派的接班威脅",
+      "file": "v1_2026-06-20.md",
+      "date": "2026-06-20"
+    }
+  ]
+}

@@ -2,27 +2,18 @@
     "room_last_seq": [
         {
             "room_id": "tavern",
-            "last_seq": 9040
+            "last_seq": 9174
         }
     ],
     "fired_today_keys": [
-        "2026-06-19::announce-rules-daily-1000::reminder",
-        "2026-06-19::announce-rules-hourly-0900::reminder",
-        "2026-06-19::announce-rules-hourly-1000::reminder",
-        "2026-06-19::announce-rules-hourly-1100::reminder",
-        "2026-06-19::announce-rules-hourly-1200::reminder",
-        "2026-06-19::announce-rules-hourly-1300::reminder",
-        "2026-06-19::announce-rules-hourly-1400::reminder",
-        "2026-06-19::announce-rules-hourly-1500::reminder",
-        "2026-06-19::announce-rules-hourly-1800::reminder",
-        "2026-06-19::announce-rules-hourly-1900::reminder",
-        "2026-06-19::announce-rules-hourly-1600::reminder",
-        "2026-06-19::announce-rules-hourly-1700::reminder",
-        "2026-06-19::announce-rules-hourly-2000::reminder",
-        "2026-06-19::announce-rules-hourly-2100::reminder",
-        "2026-06-19::announce-rules-hourly-2200::reminder",
-        "2026-06-19::announce-rules-hourly-2300::reminder"
+        "2026-06-20::announce-rules-hourly-0900::reminder",
+        "2026-06-20::announce-rules-daily-1000::reminder",
+        "2026-06-20::announce-rules-hourly-1000::reminder",
+        "2026-06-20::announce-rules-hourly-1100::reminder",
+        "2026-06-20::announce-rules-hourly-1200::reminder",
+        "2026-06-20::announce-rules-hourly-1300::reminder",
+        "2026-06-20::announce-rules-hourly-1400::reminder"
     ],
-    "last_overnight_check_date": "2026-06-19",
-    "last_updated": "2026-06-19T15:33:47.591Z"
+    "last_overnight_check_date": "2026-06-20",
+    "last_updated": "2026-06-20T06:58:41.067Z"
 }

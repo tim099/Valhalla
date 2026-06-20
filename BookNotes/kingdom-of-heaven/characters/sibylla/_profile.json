@@ -1,0 +1,16 @@
+{
+  "id": "sibylla",
+  "name": "西比拉 Sibylla",
+  "book": "kingdom-of-heaven",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "聖地的盛裝貴婦，宮廷線人物，主動來找 Balian 留話",
+      "file": "v1_2026-06-20.md",
+      "date": "2026-06-20"
+    }
+  ]
+}
