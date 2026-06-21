@@ -1,0 +1,24 @@
+{
+  "id": "xiang-wentian",
+  "name": "向問天",
+  "book": "swordsman-proud-wanderer",
+  "first_appeared_chapter": 2,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "日月神教高層，教主閉關後與東方不敗、曲洋共理教務(疑為左使)",
+      "file": "v1_2026-06-21.md",
+      "date": "2026-06-21"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 9,
+      "headline": "向左使(向問天)——私下起疑東方不敗自導自演、卻苦無證據的清醒者",
+      "change_reason": "本集確認向問天為向左使;他私下質疑教主失心瘋疑點重重、童百熊與弓箭手明顯是東方不敗事先安排,但苦無證據只能走一步看一步",
+      "file": "v2_2026-06-21.md",
+      "date": "2026-06-21"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "yue-furen",
+  "name": "岳夫人",
+  "book": "swordsman-proud-wanderer",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "岳不群之妻，五嶽劍派中少數敢當眾質疑煽動、堅持是非的人",
+      "file": "v1_2026-06-21.md",
+      "date": "2026-06-21"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 3,
+      "headline": "華山掌門夫人，以母性跨越敵我、私放殷夫人的良心擔當",
+      "change_reason": "本集她用繳獲的魔教迷藥大悲清風散迷倒眾人、私下放走敵營的殷夫人，理由是『我也是當娘的人』，並暗示擄孩子的是崖上內鬼",
+      "file": "v2_2026-06-21.md",
+      "date": "2026-06-21"
+    }
+  ]
+}

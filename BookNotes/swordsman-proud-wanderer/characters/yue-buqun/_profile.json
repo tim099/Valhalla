@@ -1,0 +1,24 @@
+{
+  "id": "yue-buqun",
+  "name": "岳不群",
+  "book": "swordsman-proud-wanderer",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "華山派掌門，人稱『君子劍』，但開場戲就露出工於算計的裡子",
+      "file": "v1_2026-06-21.md",
+      "date": "2026-06-21"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 3,
+      "headline": "華山派掌門『君子劍』，『忍』字訣首次落地——用謊言替妻子的善與險兜底",
+      "change_reason": "發現妻子用魔教迷藥放走殷夫人，先斥其糊塗(風險+怕左冷禪知道)，轉頭卻對左冷禪編造『魔教人來施藥救走妖女、連我都著道』的謊圓場",
+      "file": "v2_2026-06-21.md",
+      "date": "2026-06-21"
+    }
+  ]
+}

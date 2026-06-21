@@ -1,0 +1,24 @@
+{
+  "id": "ren-yingying",
+  "name": "任盈盈",
+  "book": "swordsman-proud-wanderer",
+  "first_appeared_chapter": 2,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "任我行之女，暱稱盈盈、任大小姐、小公主；本集被擄成為棋子",
+      "file": "v1_2026-06-21.md",
+      "date": "2026-06-21"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 10,
+      "headline": "任盈盈——目睹東方不敗從背後加害父親的唯一證人,被曲洋教以沉默保命",
+      "change_reason": "盈盈撲向曲洋哭訴『是東方叔叔害的我爹,我就看見他在我爹後面下手了』,成為篡位真相的唯一目擊者;曲洋教她裝作沒看見",
+      "file": "v2_2026-06-21.md",
+      "date": "2026-06-21"
+    }
+  ]
+}

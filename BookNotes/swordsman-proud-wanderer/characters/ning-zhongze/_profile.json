@@ -1,0 +1,16 @@
+{
+  "id": "ning-zhongze",
+  "name": "寧中則（岳夫人）",
+  "book": "swordsman-proud-wanderer",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "岳不群之妻、華山掌門夫人，骨頭硬的正直人",
+      "file": "v1_2026-06-21.md",
+      "date": "2026-06-21"
+    }
+  ]
+}

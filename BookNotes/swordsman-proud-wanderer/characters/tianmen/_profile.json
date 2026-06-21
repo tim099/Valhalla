@@ -1,0 +1,16 @@
+{
+  "id": "tianmen",
+  "name": "天門(道人)",
+  "book": "swordsman-proud-wanderer",
+  "first_appeared_chapter": 5,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 5,
+      "headline": "泰山派掌門，五嶽重建聯盟時帶頭推舉左冷禪為盟主、省去比劍",
+      "file": "v1_2026-06-21.md",
+      "date": "2026-06-21"
+    }
+  ]
+}

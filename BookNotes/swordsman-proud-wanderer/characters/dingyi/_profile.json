@@ -1,0 +1,16 @@
+{
+  "id": "dingyi",
+  "name": "定逸師太",
+  "book": "swordsman-proud-wanderer",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "恒山派掌門（尼）",
+      "file": "v1_2026-06-21.md",
+      "date": "2026-06-21"
+    }
+  ]
+}

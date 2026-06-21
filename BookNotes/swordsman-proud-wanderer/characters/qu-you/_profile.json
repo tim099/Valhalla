@@ -1,0 +1,24 @@
+{
+  "id": "qu-you",
+  "name": "曲(右使/曲洋)",
+  "book": "swordsman-proud-wanderer",
+  "first_appeared_chapter": 9,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 9,
+      "headline": "曲右使,教主閉關後與東方不敗、向問天共理教務之一",
+      "file": "v1_2026-06-21.md",
+      "date": "2026-06-21"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 10,
+      "headline": "曲洋(曲右使)——對列祖禱告護教、教盈盈以沉默保命的忠義者",
+      "change_reason": "本集確認曲右使即曲洋;他與向問天定計尋任我行下落,在列祖牌位前禱告護教,並教目擊真相的盈盈『看見也當沒看見、留得青山在不怕沒柴燒』",
+      "file": "v2_2026-06-21.md",
+      "date": "2026-06-21"
+    }
+  ]
+}

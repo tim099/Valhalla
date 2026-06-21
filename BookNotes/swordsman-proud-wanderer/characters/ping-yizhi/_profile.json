@@ -1,0 +1,16 @@
+{
+  "id": "ping-yizhi",
+  "name": "平一指",
+  "book": "swordsman-proud-wanderer",
+  "first_appeared_chapter": 7,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 7,
+      "headline": "神醫，診出任我行吸星大法的反噬隱患，立誓保密後退隱",
+      "file": "v1_2026-06-21.md",
+      "date": "2026-06-21"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "yin-furen",
+  "name": "殷夫人",
+  "book": "swordsman-proud-wanderer",
+  "first_appeared_chapter": 2,
+  "current_version": 3,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "任我行之妻，三個月未見閉關的丈夫，憂心其飲食；女兒被擄後欲隻身去追",
+      "file": "v1_2026-06-21.md",
+      "date": "2026-06-21"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 4,
+      "headline": "任我行之妻，醒悟受騙後被東方不敗滅口(身故)",
+      "change_reason": "被岳夫人放走後找到東方不敗、醒悟『我們上當了，盈盈不是被五嶽擄走』，反被東方不敗坦承陰謀並當場殺害",
+      "file": "v2_2026-06-21.md",
+      "date": "2026-06-21"
+    },
+    {
+      "v": 3,
+      "as_of_chapter": 6,
+      "headline": "任我行之妻，名『雪心』(任我行喚名立誓坐實)，已遭東方不敗滅口",
+      "change_reason": "本集任我行對亡妻之名低喚『雪心…你等著』，坐實夫人名雪心；其死成為任我行一月之約的血誓動因",
+      "file": "v3_2026-06-21.md",
+      "date": "2026-06-21"
+    }
+  ]
+}

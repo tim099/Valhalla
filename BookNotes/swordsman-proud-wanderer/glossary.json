@@ -1,0 +1,164 @@
+{
+  "terms": [
+    {
+      "term": "五嶽劍派",
+      "category": "faction",
+      "definition": "嵩山、泰山、華山、恒山、衡山五派為對抗日月神教結成的聯盟，正道中流砥柱。十年一次推選盟主(實則看武功與門人多寡)。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-21"
+    },
+    {
+      "term": "日月神教",
+      "category": "faction",
+      "definition": "正派口中的『魔教』，據黑木崖，聲勢極盛。教主高深莫測，東方不敗為受教務交托的屬下，下轄天地風雷四門。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-21"
+    },
+    {
+      "term": "黑木崖",
+      "category": "place",
+      "definition": "日月神教總壇所在，『難如登天』，五嶽劍派此次剿魔的目標。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-21"
+    },
+    {
+      "term": "玉女峰",
+      "category": "place",
+      "definition": "華山派舊事發生地：當年劍宗氣宗同門內鬨，一夜廝殺折損三十位前輩高手，劍宗自此煙消雲散、氣宗也人才凋零(岳不群口述)。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-21"
+    },
+    {
+      "term": "副教主",
+      "category": "term",
+      "definition": "日月神教職銜，本集確認東方不敗為副教主；教主任我行閉關後教務交托於他。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-21"
+    },
+    {
+      "term": "天地風雷四門",
+      "category": "faction",
+      "definition": "日月神教下轄的四門編制，由東方不敗(副教主)調度。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-21"
+    },
+    {
+      "term": "劍宗氣宗",
+      "category": "term",
+      "definition": "華山派內部曾分裂的兩派。當年玉女峰一夜廝殺、損失三十多位前輩高手，劍宗覆滅、氣宗也凋零，致華山盟主之位被嵩山奪走。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-21"
+    },
+    {
+      "term": "大悲清風散",
+      "category": "term",
+      "definition": "日月神教的迷藥，對五派高手效果不大。殷夫人隨身攜帶。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-21"
+    },
+    {
+      "term": "吸星大法",
+      "category": "term",
+      "definition": "任我行的成名絕技，能吸走對手內力、使其內力堵在經絡不聽使喚；對戰中五嶽劍派有人因此吃大虧。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-21"
+    },
+    {
+      "term": "玉皇頂(泰山)",
+      "category": "place",
+      "definition": "泰山頂，五嶽劍派傳統上『十年一次齊聚泰山玉皇頂比劍結盟』推選盟主之地；本集因大敵當前免去比劍。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-21"
+    },
+    {
+      "term": "五嶽同心，其利斷金",
+      "category": "term",
+      "definition": "五嶽劍派重建聯盟共抗日月神教時的口號，強調團結。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-21"
+    },
+    {
+      "term": "泰山玉皇頂比劍奪盟",
+      "category": "term",
+      "definition": "五嶽劍派十年一次齊聚泰山玉皇頂、以比劍決出盟主的舊例。岳不群提及此規矩，被天門等以『大事臨頭、權宜之計』壓下，改為直接推舉左冷禪。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-21"
+    },
+    {
+      "term": "吸星大法-反噬隱患",
+      "category": "term",
+      "definition": "吸星大法的致命缺陷:吸來的數十高手內力終非己有,平時可用霸道內力鎮壓,一旦遇高手對拼、內力消耗時被鎮壓的內力會反噬作怪、走火焚身。這正是任我行佔上風卻對左冷禪忽然收手的原因。治本之道須散去吸來內力、停修停用神功。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-21"
+    },
+    {
+      "term": "千秋萬載一統江湖",
+      "category": "term",
+      "definition": "東方不敗篡奪日月神教教主之位後，教眾的頌讚口號：『東方教主文成武德，千秋萬載，一統江湖！』",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-21"
+    },
+    {
+      "term": "千秋萬載，一統江湖",
+      "category": "term",
+      "definition": "東方不敗登教主位後教眾高呼的口號:『日月神教戰無不勝,東方教主文成武德,千秋萬載一統江湖』。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-21"
+    },
+    {
+      "term": "承德殿",
+      "category": "place",
+      "definition": "黑木崖上日月神教教主即位/處理教務之殿;東方不敗將於翌日入承德殿正式即位。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-21"
+    },
+    {
+      "term": "沖靈劍法",
+      "category": "term",
+      "definition": "令狐沖與岳靈珊兩小無猜時合創的劍法，名字取自令狐【沖】+岳靈【珊】(靈)；最後一招由令狐沖觀察青城劍法靈光自悟，是日後獨孤九劍『無招勝有招』悟性的伏筆",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-21"
+    },
+    {
+      "term": "思過崖",
+      "category": "place",
+      "definition": "華山派面壁思過的罰地；少年弟子嬉鬧時被小師妹拿來威脅(罰面壁一年)，是日後令狐沖面壁的關鍵地，編劇從少年戲就早早點名",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-21"
+    },
+    {
+      "term": "青城派",
+      "category": "faction",
+      "definition": "余滄海為掌門的劍派，劍法為松風劍法；弟子合稱青城四秀(被令狐沖譏為青城四獸)；與華山派『井水不犯河水』，因令狐沖羞辱事件結下樑子，令狐沖奉命前去道歉",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-21"
+    },
+    {
+      "term": "辟邪劍譜(辟邪劍法)",
+      "category": "term",
+      "definition": "林家祖傳武功秘笈/七十二路劍法。錦衣衛都統林遠圖曾以此揚威江湖、打敗青城祖師長青真人。看似平平無奇招式繁複，卻藏奧秘:出招突然快速無比、如鬼似魅令人難防。與葵花寶典同源(同為自宮類陰柔絕學的伏線)。青城掌門余滄海覬覦此譜、暗中盯防林家(林震南)圖謀奪取——全劇主線發動機。令狐沖在青城偷聽到此陰謀。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-21"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ren-woxing",
+  "name": "任我行",
+  "book": "swordsman-proud-wanderer",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "日月神教教主",
+      "file": "v1_2026-06-21.md",
+      "date": "2026-06-21"
+    }
+  ]
+}
