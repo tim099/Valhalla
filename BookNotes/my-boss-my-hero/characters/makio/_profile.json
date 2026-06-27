@@ -1,0 +1,16 @@
+{
+  "id": "makio",
+  "name": "榊真喜雄(マキオ)",
+  "book": "my-boss-my-hero",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "關東鋭牙會繼承人, 暴力值MAX智力值MIN的笨蛋少爺",
+      "file": "v1_2026-06-27.md",
+      "date": "2026-06-27"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "amin",
+  "name": "阿民",
+  "book": "mofa-ama",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "本地小孩，跟豆豆一樣看得見好兄弟的同齡玩伴",
+      "file": "v1_2026-06-24.md",
+      "date": "2026-06-24"
+    }
+  ]
+}

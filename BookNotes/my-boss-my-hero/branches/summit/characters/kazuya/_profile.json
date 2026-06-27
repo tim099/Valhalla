@@ -1,0 +1,16 @@
+{
+  "id": "kazuya",
+  "name": "和彌（忠心手下）",
+  "book": "my-boss-my-hero",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "崇拜真喜男的忠心部下,看不慣大哥忍氣吞聲",
+      "file": "v1_2026-06-27.md",
+      "date": "2026-06-27"
+    }
+  ]
+}

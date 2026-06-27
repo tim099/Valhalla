@@ -1,0 +1,16 @@
+{
+  "id": "sakurakouji",
+  "name": "櫻小路（善良眼鏡同學·名字待確認）",
+  "book": "my-boss-my-hero",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "主動跟真喜男交朋友的善良同學,用海倫凱勒故事點化他求知的喜悅",
+      "file": "v1_2026-06-27.md",
+      "date": "2026-06-27"
+    }
+  ]
+}

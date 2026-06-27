@@ -1,0 +1,16 @@
+{
+  "id": "jinshuipo",
+  "name": "金水婆",
+  "book": "mofa-ama",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "阿嬤照顧的將死鄰居 — 立起阿嬤『守生死最後一程』本分的角色",
+      "file": "v1_2026-06-24.md",
+      "date": "2026-06-24"
+    }
+  ]
+}

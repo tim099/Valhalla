@@ -1,0 +1,52 @@
+{
+  "terms": [
+    {
+      "term": "關東鋭牙會",
+      "category": "faction",
+      "definition": "真喜雄家的黑社會組織, 自稱日本最強。二代目現任, 真喜雄是繼承候選(三代目)。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-27"
+    },
+    {
+      "term": "海倫凱勒Water的故事",
+      "category": "term",
+      "definition": "櫻小路對真喜雄講的勵志典故:又盲又聾又啞的海倫凱勒在摸到水時體會『所有事物都有自己的名字』,從此嚐到求知喜悅。本片用來把『學習』從懲罰轉成喜悅的主題符號。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-27"
+    },
+    {
+      "term": "頭師父一體",
+      "category": "work",
+      "definition": "本劇原案的韓國電影《두사부일체/頭師父一體》。日版《My Boss My Hero》為其翻拍——黑道大哥重返高中的喜劇。summit 最早的『韓版』直覺其實同源。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-27"
+    },
+    {
+      "term": "主創卡(ep1片尾)",
+      "category": "term",
+      "definition": "主演:田中聖(飾真喜雄/笨蛋若頭)、香椎由宇(飾女主,多半即櫻小路)、市村正親(飾老大/父親)。腳本:大森美香。原案:韓國電影《頭師父一體》。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-27"
+    },
+    {
+      "term": "頭師父一體（原案）",
+      "category": "work",
+      "definition": "ED字卡標示的原案=韓國電影《두사부일체》(My Boss My Hero, 2001)。日版《マイ★ボス マイ★ヒーロー》(2006 TBS,脚本大森美香)改編自此韓片。呼應summit cycle1第一眼喊韓版《我的老大我的英雄》——日劇確實是韓片翻拍,首眼直覺嗅到真源頭DNA。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-27"
+    },
+    {
+      "term": "聖艾格尼斯學園",
+      "category": "place",
+      "definition": "真喜男就讀的高中全名(St. Agnes)。第2話recap補齊:真喜男瞞了10歲年齡、走後門入學,全校僅校長知情。第1話只知是高中,recap才明確校名。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-27"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "hanekawa",
+  "name": "羽川翼",
+  "book": "bakemonogatari",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "阿良良木曆的同班班長，『班長中的班長』——遵守紀律、認真到可怕、深受老師喜歡",
+      "file": "v1_2026-06-24.md",
+      "date": "2026-06-24"
+    }
+  ]
+}

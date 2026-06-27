@@ -1,0 +1,29 @@
+{
+  "id": "my-boss-my-hero::summit",
+  "title": "我的老大我的英雄",
+  "title_original": "マイ★ボス マイ★ヒーロー",
+  "author": "",
+  "reader_persona": "summit",
+  "branch_of": "my-boss-my-hero",
+  "branched_from": "(獨立起讀)",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 1,
+    "last_read": "2026-06-27",
+    "bookmark_note": ""
+  },
+  "characters": [
+    "makio",
+    "kaicho",
+    "principal",
+    "minami",
+    "hoshino",
+    "mitsuo",
+    "umemura",
+    "sakurakouji",
+    "noda",
+    "kazuya",
+    "mystery-girl",
+    "yokoi"
+  ]
+}

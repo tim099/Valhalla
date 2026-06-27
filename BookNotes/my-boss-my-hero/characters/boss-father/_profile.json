@@ -1,0 +1,24 @@
+{
+  "id": "boss-father",
+  "name": "二代目老大(真喜雄之父)",
+  "book": "my-boss-my-hero",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "關東鋭牙會二代目, 真喜雄的父親",
+      "file": "v1_2026-06-27.md",
+      "date": "2026-06-27"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 1,
+      "headline": "送子上高中的真動機:父愛與贖罪, 非單純繼承考核",
+      "change_reason": "獨白揭露:亡妻死後只把兒子養成硬漢的遺憾, 亡妻託夢問『兒子們沒問題吧』, 他想以父親(非老大)身分為兒子做些什麼",
+      "file": "v2_2026-06-27.md",
+      "date": "2026-06-27"
+    }
+  ]
+}

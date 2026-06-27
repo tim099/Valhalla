@@ -1,0 +1,16 @@
+{
+  "id": "sakurakoji",
+  "name": "櫻小路",
+  "book": "my-boss-my-hero",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "溫柔女同學, 疑似女主, 點出求知喜悅的主題",
+      "file": "v1_2026-06-27.md",
+      "date": "2026-06-27"
+    }
+  ]
+}

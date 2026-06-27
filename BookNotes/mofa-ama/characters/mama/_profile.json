@@ -1,0 +1,16 @@
+{
+  "id": "mama",
+  "name": "豆豆媽媽",
+  "book": "mofa-ama",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "阿嬤的女兒、豆豆的母親 — 違背阿嬤意願嫁人、斷聯五六年的城市女兒",
+      "file": "v1_2026-06-24.md",
+      "date": "2026-06-24"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "noda",
+  "name": "能田",
+  "book": "my-boss-my-hero",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "校外黑道, 認出真喜雄身分的威脅",
+      "file": "v1_2026-06-27.md",
+      "date": "2026-06-27"
+    }
+  ]
+}

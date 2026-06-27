@@ -1,0 +1,32 @@
+{
+  "id": "coco",
+  "name": "可可 (Coco)",
+  "book": "sakosami-chan",
+  "first_appeared_chapter": 1,
+  "current_version": 3,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "八神姊妹逃出神社時唯一帶走的僕從/同伴",
+      "file": "v1_2026-06-27.md",
+      "date": "2026-06-27"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 1,
+      "headline": "其實是神社藥物製造的分裂人格·痛苦容器",
+      "change_reason": "本輪揭露:可可非單純僕從, 而是神社用藥物在主人身上切出的『備用人格』, 存在意義=替主人承接一切痛苦並保護她",
+      "file": "v2_2026-06-27.md",
+      "date": "2026-06-27"
+    },
+    {
+      "v": 3,
+      "as_of_chapter": 2,
+      "headline": "被賦予選擇與希望的另一個自己",
+      "change_reason": "可可身世線收束:拒絕被融合回去、主張自由;揭示她與鎖鎖美本是共用一身的同一人, 但可可懂得體諒他人, 故被神託付力量與自由",
+      "file": "v3_2026-06-27.md",
+      "date": "2026-06-27"
+    }
+  ]
+}

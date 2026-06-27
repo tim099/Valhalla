@@ -1,0 +1,16 @@
+{
+  "id": "heimao",
+  "name": "黑貓妖怪",
+  "book": "mofa-ama",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "咧嘴露牙、橘眼的黑貓妖——利用豆豆思鄉孤單來引誘他的反派",
+      "file": "v1_2026-06-24.md",
+      "date": "2026-06-24"
+    }
+  ]
+}

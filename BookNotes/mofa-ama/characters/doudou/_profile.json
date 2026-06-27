@@ -1,0 +1,24 @@
+{
+  "id": "doudou",
+  "name": "豆豆",
+  "book": "mofa-ama",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "都市來的小男孩，被父母送去鄉下阿嬤家過暑假的主角",
+      "file": "v1_2026-06-24.md",
+      "date": "2026-06-24"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 1,
+      "headline": "看似抗拒下鄉的都市小孩，其實天生感應得到好兄弟(跟阿嬤同款的眼)",
+      "change_reason": "豆豆夜裡對媽媽說『是真的，他們會講話耶』，他感應/聽得到鬼魂；而阿嬤交代鬼群閃遠時，鬼還說『他又看不到我們』——阿嬤尚不知孫子有陰陽眼，戲劇性反諷",
+      "file": "v2_2026-06-24.md",
+      "date": "2026-06-24"
+    }
+  ]
+}

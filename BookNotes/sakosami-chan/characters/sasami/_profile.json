@@ -1,0 +1,16 @@
+{
+  "id": "sasami",
+  "name": "鎖鎖美 (ささみ)",
+  "book": "sakosami-chan",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "家裡蹲少女，擁有與天照同級的神格",
+      "file": "v1_2026-06-27.md",
+      "date": "2026-06-27"
+    }
+  ]
+}

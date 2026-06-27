@@ -1,0 +1,16 @@
+{
+  "id": "ama",
+  "name": "阿嬤",
+  "book": "mofa-ama",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "頭戴紅帽、看得見『好兄弟』(鬼魂)、能通陰陽的鄉下阿嬤",
+      "file": "v1_2026-06-24.md",
+      "date": "2026-06-24"
+    }
+  ]
+}

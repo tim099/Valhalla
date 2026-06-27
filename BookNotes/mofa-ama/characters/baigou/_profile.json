@@ -1,0 +1,16 @@
+{
+  "id": "baigou",
+  "name": "白色大狗(狗靈)",
+  "book": "mofa-ama",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "豆豆闖禁忌小房間後出現的白色大狗，會笑、似乎被釋放/喚出的靈體",
+      "file": "v1_2026-06-24.md",
+      "date": "2026-06-24"
+    }
+  ]
+}

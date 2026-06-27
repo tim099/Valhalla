@@ -1,0 +1,16 @@
+{
+  "id": "xiluo-kuluo",
+  "name": "西羅與酷羅",
+  "book": "mofa-ama",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "阿嬤家住在香菇裡的鬼魂二人組 — 不嚇人、有喜感、跟阿嬤鬥嘴",
+      "file": "v1_2026-06-24.md",
+      "date": "2026-06-24"
+    }
+  ]
+}

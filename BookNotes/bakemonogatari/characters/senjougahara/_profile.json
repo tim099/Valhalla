@@ -1,0 +1,24 @@
+{
+  "id": "senjougahara",
+  "name": "戰場原黑儀",
+  "book": "bakemonogatari",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "體重輕得『沒有可被稱作體重的東西』的神祕同班少女",
+      "file": "v1_2026-06-24.md",
+      "date": "2026-06-24"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 1,
+      "headline": "曾是活潑開朗的田徑部明星，如今卻沉默孤僻『體弱多病』——反差本身就是謎",
+      "change_reason": "羽川爆料她的過去：初中時精力充沛、活潑開朗、田徑部明星、家世優渥(父親外資企業大人物)，與現在判若兩人",
+      "file": "v2_2026-06-24.md",
+      "date": "2026-06-24"
+    }
+  ]
+}

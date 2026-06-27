@@ -1,0 +1,16 @@
+{
+  "id": "umemura",
+  "name": "梅村（女同學·待確認)",
+  "book": "my-boss-my-hero",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "班上女同學,數學課輕鬆答對合成函數,跟真喜男形成對照",
+      "file": "v1_2026-06-27.md",
+      "date": "2026-06-27"
+    }
+  ]
+}
