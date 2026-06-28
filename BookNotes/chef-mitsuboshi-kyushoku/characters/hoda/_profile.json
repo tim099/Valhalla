@@ -1,0 +1,16 @@
+{
+  "id": "hoda",
+  "name": "葆田",
+  "book": "chef-mitsuboshi-kyushoku",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "餐廳老闆兼經營顧問，最強搭檔的另一半",
+      "file": "v1_2026-06-28.md",
+      "date": "2026-06-28"
+    }
+  ]
+}

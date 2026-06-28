@@ -1,0 +1,24 @@
+{
+  "id": "kakitani",
+  "name": "柿谷秀樹",
+  "book": "chef-mitsuboshi-kyushoku",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "美食評論家，食物中毒受害者",
+      "file": "v1_2026-06-28.md",
+      "date": "2026-06-28"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 1,
+      "headline": "做局共犯——食物中毒是假的",
+      "change_reason": "ch1 後段揭曉:柿谷根本沒病,事發後跟『一起吃飯的朋友』跑去海外打高爾夫;被點破『那是為了方便辭退星野而演的一場戲』",
+      "file": "v2_2026-06-28.md",
+      "date": "2026-06-28"
+    }
+  ]
+}

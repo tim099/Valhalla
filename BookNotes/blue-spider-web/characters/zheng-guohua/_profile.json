@@ -1,0 +1,16 @@
+{
+  "id": "zheng-guohua",
+  "name": "鄭國華",
+  "book": "blue-spider-web",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "受害者·鄭家大哥(已婚)",
+      "file": "v1_2026-06-28.md",
+      "date": "2026-06-28"
+    }
+  ]
+}

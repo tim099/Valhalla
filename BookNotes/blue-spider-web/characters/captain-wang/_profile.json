@@ -1,0 +1,16 @@
+{
+  "id": "captain-wang",
+  "name": "王小隊長",
+  "book": "blue-spider-web",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "台北市刑警，本案承辦",
+      "file": "v1_2026-06-28.md",
+      "date": "2026-06-28"
+    }
+  ]
+}

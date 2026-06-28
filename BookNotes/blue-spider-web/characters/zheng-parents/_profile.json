@@ -1,0 +1,16 @@
+{
+  "id": "zheng-parents",
+  "name": "鄭家兩老",
+  "book": "blue-spider-web",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "鄭國興、鄭國華的父母",
+      "file": "v1_2026-06-28.md",
+      "date": "2026-06-28"
+    }
+  ]
+}

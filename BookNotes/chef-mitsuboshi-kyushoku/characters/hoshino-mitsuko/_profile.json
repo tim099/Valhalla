@@ -1,0 +1,24 @@
+{
+  "id": "hoshino-mitsuko",
+  "name": "星野光子",
+  "book": "chef-mitsuboshi-kyushoku",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "天才三星女主廚，傲慢暴君人設",
+      "file": "v1_2026-06-28.md",
+      "date": "2026-06-28"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 3,
+      "headline": "為廚師夢拋棄孩子的母親·傲慢底下有未解的傷",
+      "change_reason": "廚助八卦揭露星野過去:為了廚師夢，赴法時連年幼孩子都拋棄、離婚——傲慢人設下藏著沉重的母親罪疚伏筆",
+      "file": "v2_2026-06-28.md",
+      "date": "2026-06-28"
+    }
+  ]
+}

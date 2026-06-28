@@ -1,0 +1,24 @@
+{
+  "id": "takayama-haruko",
+  "name": "高山晴子",
+  "book": "chef-mitsuboshi-kyushoku",
+  "first_appeared_chapter": 2,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "年輕女大生廚助，廚房的清流新人",
+      "file": "v1_2026-06-28.md",
+      "date": "2026-06-28"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 2,
+      "headline": "點醒星野的清流——美味不只是味道",
+      "change_reason": "ch2:晴子手藝驚人(從小沒媽、單親爸爸帶大、小學就給家裡做飯,跟荒木同構),為學費打工。並說出全劇 thesis:『美味不光指味道,和朋友快樂地一起吃,才是校餐最美味之處』",
+      "file": "v2_2026-06-28.md",
+      "date": "2026-06-28"
+    }
+  ]
+}

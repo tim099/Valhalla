@@ -1,0 +1,16 @@
+{
+  "id": "baba-shoichi",
+  "name": "馬場升一",
+  "book": "chef-mitsuboshi-kyushoku",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "調理補助員·前銀行員",
+      "file": "v1_2026-06-28.md",
+      "date": "2026-06-28"
+    }
+  ]
+}

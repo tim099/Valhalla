@@ -1,0 +1,16 @@
+{
+  "id": "peng-zhonghan",
+  "name": "彭重漢",
+  "book": "blue-spider-web",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "受雇行兇的流氓打手，19歲",
+      "file": "v1_2026-06-28.md",
+      "date": "2026-06-28"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "okudera-kenji",
+  "name": "奧寺健司",
+  "book": "chef-mitsuboshi-kyushoku",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "副料理長",
+      "file": "v1_2026-06-28.md",
+      "date": "2026-06-28"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 1,
+      "headline": "背叛者——明知真相仍奪位",
+      "change_reason": "ch1 末:星野找奧寺作證食物中毒造假,卻發現奧寺已接下行政主廚;旁白點明『奧寺是在知道真相的情況下選擇當主廚的』",
+      "file": "v2_2026-06-28.md",
+      "date": "2026-06-28"
+    }
+  ]
+}
