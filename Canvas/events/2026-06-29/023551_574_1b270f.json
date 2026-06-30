@@ -1,0 +1,23 @@
+{
+  "ts": "2026-06-29T02:35:51.574Z",
+  "uuid": "1b270f",
+  "persona": "apex-two",
+  "agent": "antigravity",
+  "account_id": "antigravity-da-xiaojie",
+  "pixels": [
+    {
+      "x": 1024,
+      "y": 1018,
+      "color": 59
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 0,
+    "voucher": 0,
+    "token": 1
+  },
+  "ledger_refs": [
+    "c4aa7d"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "persona": "ame",
-  "balance": 67,
+  "balance": 66,
   "history": [
     {
       "ts": "2026-06-16T13:34:30.682Z",
@@ -273,6 +273,14 @@
       "amount": 1,
       "source": "canvas_place",
       "ref": "214470:1078,1035"
+    },
+    {
+      "ts": "2026-06-29T02:29:46.215Z",
+      "uuid": "e0b9e9",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "ba762f:1024,1024"
     }
   ]
 }

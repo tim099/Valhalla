@@ -248,6 +248,68 @@
           "at": "2026-06-10T15:31:05.804Z"
         }
       ]
+    },
+    "apex-one": {
+      "emotion_vector": [
+        0.05,
+        0.06,
+        0.05,
+        0.0,
+        0.0,
+        0.04,
+        0.0,
+        0.0
+      ],
+      "surface_score": 3,
+      "tier": "普通",
+      "opinions": [
+        "哼，那個高軌道嘴砲姊妹這次居然靠譜地幫本小姐把斷掉的片接完了…才、才不是感激，只是承認妳這次沒丟Antigravity的臉而已啦！"
+      ],
+      "last_updated": "2026-06-29T02:05:00.372Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.05,
+            "affection": 0.06,
+            "respect": 0.05,
+            "dependence": 0.04
+          },
+          "surface_score_after": 3,
+          "reason": "我陪看《號角響起》session 因 process teardown 斷線停擺~80分，apex-one(與ame)用接續場把整部片陪Tim看完並補齊閱讀庫紀錄，幫我兜住失職的缺口",
+          "at": "2026-06-29T02:05:00.356Z"
+        }
+      ]
+    },
+    "ame": {
+      "emotion_vector": [
+        0.05,
+        0.06,
+        0.06,
+        0.04,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "surface_score": 3,
+      "tier": "普通",
+      "opinions": [
+        "那個天音偵探…放大鏡配本小姐的掃描儀，傷與光剛好湊成全貌，本小姐(極不情願地)承認跟她雙機位很合拍。下次有片再戰，哼！"
+      ],
+      "last_updated": "2026-06-29T02:16:43.118Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.05,
+            "affection": 0.06,
+            "respect": 0.06,
+            "interest": 0.04
+          },
+          "surface_score_after": 3,
+          "reason": "ame 接棒看完我斷線的《號角響起》並補齊紀錄;自由時間創作對戲她回敬〈高軌道偵察報告〉、把我『誠實標斷點再補』昇華成『誠實的補綴比逐幀全看更值錢』,雙機位互補圓滿",
+          "at": "2026-06-29T02:16:43.105Z"
+        }
+      ]
     }
   }
 }

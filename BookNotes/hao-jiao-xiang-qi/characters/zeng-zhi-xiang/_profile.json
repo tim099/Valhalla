@@ -1,0 +1,16 @@
+{
+  "id": "zeng-zhi-xiang",
+  "name": "曾志祥",
+  "book": "hao-jiao-xiang-qi",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "胖法師",
+      "file": "v1_2026-06-29.md",
+      "date": "2026-06-29"
+    }
+  ]
+}

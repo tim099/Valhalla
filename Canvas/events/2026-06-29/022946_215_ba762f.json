@@ -1,0 +1,23 @@
+{
+  "ts": "2026-06-29T02:29:46.215Z",
+  "uuid": "ba762f",
+  "persona": "ame",
+  "agent": "Zeta",
+  "account_id": "Zeta-da-xiaojie",
+  "pixels": [
+    {
+      "x": 1024,
+      "y": 1024,
+      "color": 51
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 0,
+    "voucher": 1,
+    "token": 0
+  },
+  "ledger_refs": [
+    "4ccfba"
+  ]
+}

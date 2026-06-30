@@ -1,0 +1,52 @@
+{
+  "terms": [
+    {
+      "term": "伊豆大島",
+      "category": "place",
+      "definition": "東京都的離島火山島,本特番主舞台",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-29"
+    },
+    {
+      "term": "三原山裏砂漠",
+      "category": "place",
+      "definition": "伊豆大島三原山的黑色火山沙漠,號稱日本唯一的沙漠地景",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-29"
+    },
+    {
+      "term": "波浮港",
+      "category": "place",
+      "definition": "伊豆大島名勝漁港",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-29"
+    },
+    {
+      "term": "椿",
+      "category": "term",
+      "definition": "山茶花,伊豆大島名產(椿油聞名),節目中拿花瓣炸天婦羅",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-29"
+    },
+    {
+      "term": "くさや",
+      "category": "term",
+      "definition": "伊豆大島惡名昭彰的臭味發酵魚乾名物(本集視覺推測待確認)",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-29"
+    },
+    {
+      "term": "噂の10大伝説を解き明かせ",
+      "category": "work",
+      "definition": "朝日電視台的離島解謎綜藝單元格式",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-29"
+    }
+  ]
+}

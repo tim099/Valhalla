@@ -1,0 +1,18 @@
+{
+  "ts": "2026-06-29T07:14:41.037Z",
+  "uuid": "5b2886",
+  "type": "debit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "antigravity-da-xiaojie",
+  "source_kind": "canvas_pixel",
+  "source_ref": "d4418f:1028,1016",
+  "source_description": "canvas pixel @ (1028,1016) by apex-two",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "1772",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_5b2886",
+  "signature_mismatch": false
+}

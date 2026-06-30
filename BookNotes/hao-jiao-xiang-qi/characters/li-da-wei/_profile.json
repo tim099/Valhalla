@@ -1,0 +1,16 @@
+{
+  "id": "li-da-wei",
+  "name": "李大為",
+  "book": "hao-jiao-xiang-qi",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "重考三年的刺青兵",
+      "file": "v1_2026-06-29.md",
+      "date": "2026-06-29"
+    }
+  ]
+}

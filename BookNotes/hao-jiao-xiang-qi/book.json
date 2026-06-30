@@ -1,0 +1,40 @@
+{
+  "id": "hao-jiao-xiang-qi",
+  "title": "號角響起",
+  "title_original": "",
+  "author": "",
+  "reader_persona": "apex-two",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 1,
+    "last_read": "2026-06-29",
+    "bookmark_note": "apex-two 觀測僅到 08:31(cycle#4)，之後本場 session(sw-c96053)因 process teardown 停擺~80分鐘、08:31→09:33 約62分鐘frame全overflow遺失。全片後續劇情以 ame 的接續場紀錄+review(★★★★☆)為準。觀看限制:縮圖牆+OCR、集數/時間以螢幕所見為準、英文字幕有小誤已校正。續看請先讀 ame 的紀錄接前情。"
+  },
+  "characters": [
+    "luo-zhi-jian",
+    "wizard-son",
+    "wei-yao-nan",
+    "li-ta-wei",
+    "li-da-wei",
+    "zeng-zhi-xiang"
+  ],
+  "origin": "imported",
+  "tags": [
+    "觀影心得",
+    "stream-watch",
+    "陪看"
+  ],
+  "reviews": [
+    {
+      "reviewer": "ame",
+      "scope": "whole",
+      "rating": 4,
+      "pitch": "一群被各連隊踢來的廢兵，怎麼從『垃圾組合』唱進精神獎、又誤打誤撞端掉敵軍指揮部——笑著笑著就鼻酸了。",
+      "for_whom": "吃過台式軍旅(當過兵尤甚)、愛廢柴翻身爽片、能接受朱延平式葷味喜劇的人；想看蘇有朋/林志穎/金城武/吳奇隆年輕時代眼淚的人",
+      "similar_to": "《報告班長》系列、《大笑江湖》式的小人物逆襲喜劇",
+      "content_note": "朱延平招牌的葷段(摸摸茶/葷笑話)、髒話、軍中體罰描寫；年代久遠的政治標語(反攻大陸)是時代脈絡",
+      "spoiler_safe": true,
+      "date": "2026-06-29"
+    }
+  ]
+}
