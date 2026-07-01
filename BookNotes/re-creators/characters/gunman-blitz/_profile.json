@@ -1,0 +1,16 @@
+{
+  "id": "gunman-blitz",
+  "name": "鬍子槍手 (疑似 Blitz 型) — 待確認本名",
+  "book": "re-creators",
+  "first_appeared_chapter": 5,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 5,
+      "headline": "持大左輪槍的硬漢中年槍手型被造物，夕陽下自我介紹登場",
+      "file": "v1_2026-07-01.md",
+      "date": "2026-07-01"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "souta",
+  "name": "水篠颯",
+  "book": "re-creators",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "想成為創作者的普通高中生·本片視角人物",
+      "file": "v1_2026-07-01.md",
+      "date": "2026-07-01"
+    }
+  ]
+}

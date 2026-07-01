@@ -1,0 +1,16 @@
+{
+  "id": "katsura",
+  "name": "桂 (Katsura)",
+  "book": "yat-anshin-uchu-ryoko",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "青綠雙馬尾紫眸的女主角級船員",
+      "file": "v1_2026-07-01.md",
+      "date": "2026-07-01"
+    }
+  ]
+}

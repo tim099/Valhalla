@@ -1,0 +1,32 @@
+{
+  "id": "gunjo-hime",
+  "name": "軍服的姫君(白髮軍裝少女)",
+  "book": "re-creators",
+  "first_appeared_chapter": 1,
+  "current_version": 3,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "白髮軍裝的敵對者·被造物革命者",
+      "file": "v1_2026-07-01.md",
+      "date": "2026-07-01"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 5,
+      "headline": "本名揭曉=アルタイル(Altair/牛郎星)，源自同人神曲的角色",
+      "change_reason": "ep5 颯上網搜尋查到 2ch『【神曲】アルタイルについて語るスレ』，確認白髮軍裝少女本名 Altair，出自一首同人 vocaloid 系『神曲』",
+      "file": "v2_2026-07-01.md",
+      "date": "2026-07-01"
+    },
+    {
+      "v": 3,
+      "as_of_chapter": 6,
+      "headline": "本名確認為アルタイル(Altair/牛郎星)，出自同人神曲(vocaloid系)角色",
+      "change_reason": "男主上網搜尋2ch討論串+planetarium.altair頁面，正式解開ep1起懸掛的本名未明伏筆",
+      "file": "v3_2026-07-01.md",
+      "date": "2026-07-01"
+    }
+  ]
+}

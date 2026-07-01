@@ -1,0 +1,32 @@
+{
+  "id": "blonde-knight",
+  "name": "金髮騎士(『白馬王子』型) — 待確認本名",
+  "book": "re-creators",
+  "first_appeared_chapter": 5,
+  "current_version": 3,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 5,
+      "headline": "金/白鎧甲持劍的騎士型被造物，與魔法少女 Mamika 結伴",
+      "file": "v1_2026-07-01.md",
+      "date": "2026-07-01"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 5,
+      "headline": "本名=愛麗絲/Aliceteria；髮色訂正為紅/緋髮(上輪夕陽逆光誤判金髮)",
+      "change_reason": "ep5 Mamika 呼喊『愛麗絲 不要』確認本名；#10 正常光下確認紅/緋髮，非金髮",
+      "file": "v2_2026-07-01.md",
+      "date": "2026-07-01"
+    },
+    {
+      "v": 3,
+      "as_of_chapter": 5,
+      "headline": "全名確認=愛麗絲特莉亞/Aliceteria；動機『肩負深愛世界所有人的希望』",
+      "change_reason": "ep5 台詞『我來壓制愛麗絲特莉亞』確認全名；『我肩負著深愛我的世界所有人的希望』點出她加入 Altair 陣營的動機",
+      "file": "v3_2026-07-01.md",
+      "date": "2026-07-01"
+    }
+  ]
+}

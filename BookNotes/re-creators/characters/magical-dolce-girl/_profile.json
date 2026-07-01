@@ -1,0 +1,24 @@
+{
+  "id": "magical-dolce-girl",
+  "name": "Magical Dolce Patissiere 魔法少女(兔耳粉髮，本名未明)",
+  "book": "re-creators",
+  "first_appeared_chapter": 2,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "受妖精米莉米莉賦力的魔法少女，情緒激烈控訴創造者",
+      "file": "v1_2026-07-01.md",
+      "date": "2026-07-01"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 5,
+      "headline": "本名確認=茉美香(Mamika)，向騎士解說現世是創作者的世界",
+      "change_reason": "ep5 summit 聽到台詞『茉美香 我對你有些誤會』確認本名；並見她物色/招攬盟友",
+      "file": "v2_2026-07-01.md",
+      "date": "2026-07-01"
+    }
+  ]
+}

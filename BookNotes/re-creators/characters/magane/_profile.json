@@ -1,0 +1,24 @@
+{
+  "id": "magane",
+  "name": "築城院真鍳 (Magane) — 疑似",
+  "book": "re-creators",
+  "first_appeared_chapter": 5,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 5,
+      "headline": "紅髮臉頰十字疤黃眼的操縱型反派，能力『謊言化為真實』",
+      "file": "v1_2026-07-01.md",
+      "date": "2026-07-01"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 6,
+      "headline": "身分確認(去『疑似』)：築城院真鍳/真鑒，能力=無限的謊言(Infinite Lies)",
+      "change_reason": "ep5-6 對白『那個叫真鑒的女孩』+電視字幕『她的能力被稱為「無限的謊言」』雙重確認名字與能力，先前縮圖推斷升級為確定",
+      "file": "v2_2026-07-01.md",
+      "date": "2026-07-01"
+    }
+  ]
+}
