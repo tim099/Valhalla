@@ -1,0 +1,16 @@
+{
+  "id": "kawamura",
+  "name": "川村泰士（大哥）",
+  "book": "nankyoku-ryorinin",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "大學研究所派來的冰雪支援者",
+      "file": "v1_2026-07-02.md",
+      "date": "2026-07-02"
+    }
+  ]
+}

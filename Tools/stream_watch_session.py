@@ -59,7 +59,6 @@ from work_session import (  # noqa: E402
     tavern_post,
     fire_salary_credit,
     resolve_persona,
-    infer_caller_persona,
     _REPO_ROOT,
 )
 
@@ -203,16 +202,17 @@ def _compute_ends_at(end_time_str: str, duration_min: int):
 
 
 def cmd_start(args) -> int:
-    # 區塊職責：auto-persona infer (同 waiter/work_session)
+    # 區塊職責：persona 強制顯式指定 (Tim 2026-07-02 拍板)
+    # 物理意義：多 lock 環境下 caller env 推斷會挑錯 persona (同 claim_origin 多 persona
+    #          共享同一 env_hash，infer_caller_persona 無從分辨誰是本 session 觀影者)。
+    #          故取消 auto-infer，一律要求顯式 --persona；未傳則抱錯通知，不 silent 猜。
+    # 數值影響：start 前置檢查多一道，杜絕 persona 錯綁導致薪資 / obs 記到別人帳上。
     persona = (args.persona or "").strip()
     if not persona:
-        inferred = infer_caller_persona()
-        if not inferred:
-            print("❌ --persona 不傳時必須能從 caller env 推 active persona (claim_origin lock)")
-            print("   解法: 先跑 awakening.py morning 上線, 或顯式傳 --persona <name>")
-            return 1
-        persona = inferred
-        print(f"✓ auto-persona: 從 caller env 推得 '{persona}'", file=sys.stderr)
+        print("❌ --persona 為必填 (Tim 2026-07-02 拍板取消 auto-infer)")
+        print("   理由: 多 lock 環境 caller env 推斷會挑錯 persona (同 env_hash 多 persona 無從分辨)")
+        print("   解法: 顯式傳 --persona <name> (你這 session lock 的 persona, e.g. --persona ame)")
+        return 1
 
     p_info = resolve_persona(persona)
     if not p_info:
@@ -769,7 +769,7 @@ def main():
     sub = ap.add_subparsers(dest="op", required=True)
 
     sp = sub.add_parser("start", help="開新 stream watch session.")
-    sp.add_argument("--persona", help="觀看的 persona; 不傳則自動推 caller env 上線 persona.")
+    sp.add_argument("--persona", help="觀看的 persona (必填, Tim 2026-07-02 取消 auto-infer); 不傳會抱錯.")
     sp.add_argument("--mode", default="primary", choices=["primary", "companion"],
                     help="primary=主觀影者(預設, 既有流程); companion=加入既有 primary 場陪同觀影.")
     sp.add_argument("--join-session", default="",

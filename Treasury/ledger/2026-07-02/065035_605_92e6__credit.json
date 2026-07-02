@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-02T06:50:35.605Z",
+  "uuid": "31952b",
+  "type": "credit",
+  "amount": 161,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-115a15:final(base=105+bonus=56):meadow",
+  "source_description": "上班 session 薪資 — meadow final(base=105+bonus=56)",
+  "balance_before": 10078,
+  "balance_after": 10239,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "50560",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}

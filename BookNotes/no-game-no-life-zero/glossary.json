@@ -1,0 +1,60 @@
+{
+  "terms": [
+    {
+      "term": "機凱種 (Ex-machina)",
+      "category": "faction",
+      "definition": "機械生命種族,靠'連結體/族群集體意識'運作;動用精靈力有活動時間代價。女主角是被斷線的個體。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-02"
+    },
+    {
+      "term": "精靈力",
+      "category": "term",
+      "definition": "大戰時代驅動機械/魔法的能量;黑灰會癱瘓靠精靈力運作的儀器(如靈針盤羅盤);使用有代價(機凱種自報耗活動時間)。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-02"
+    },
+    {
+      "term": "黑灰",
+      "category": "term",
+      "definition": "神明大戰+祂們所造物種燒盡大地後灑落、覆蓋天空的致命灰燼;連太陽都被遮蔽,並癱瘓靠精靈力運作的儀器,人類只能靠五感求生。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-02"
+    },
+    {
+      "term": "天翼種 (Flügel)",
+      "category": "faction",
+      "definition": "神明創造的強大種族之一;里克探索的巨大遺跡被判為天翼種所摧毀,大戰肆虐的證據。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-02"
+    },
+    {
+      "term": "星杯 (Suniaster)",
+      "category": "term",
+      "definition": "神靈種創造、用來確定『唯一神』的概念裝置;大戰的終極獎品。里克用貫穿星球核心的能量對撞逼它顯現,最後化為遊戲之神Tet的座。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-02"
+    },
+    {
+      "term": "十盟約",
+      "category": "term",
+      "definition": "里克臨終祈禱+Tet頒布的世界新規:禁殺傷戰爭掠奪、一切爭端以遊戲勝敗解決、任何手段不算作弊…第十條『大家一起和平地玩吧』。=TV版Disboard世界的founding rules。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-02"
+    },
+    {
+      "term": "人類種 (Immanity)",
+      "category": "faction",
+      "definition": "Tet賜予人類的種族名號,第十六個種族;不被創造、不受期望、唯一以自己意志為傲的種族。TV版空白所屬種族。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-02"
+    }
+  ]
+}

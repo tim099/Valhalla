@@ -1,0 +1,24 @@
+{
+  "id": "motoyama",
+  "name": "本山秀行（小本）",
+  "book": "nankyoku-ryorinin",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "極地研究所派遣的冰雪學家",
+      "file": "v1_2026-07-02.md",
+      "date": "2026-07-02"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 4,
+      "headline": "本(小本)——45歲生日的低調壽星，家中有裂痕",
+      "change_reason": "驚喜生日戲揭示他年齡與家庭處境",
+      "file": "v2_2026-07-02.md",
+      "date": "2026-07-02"
+    }
+  ]
+}

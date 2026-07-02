@@ -1,0 +1,19 @@
+{
+  "ts": "2026-07-02T00:43:56.376Z",
+  "uuid": "a8de1e",
+  "type": "credit",
+  "amount": 3,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "qa_bug_confirmed",
+  "source_ref": "stream-watch-persona-misinfer",
+  "source_description": "QA bug reward [normal] to Tim: stream_watch_session.py start 的 auto-persona 從 caller env 推斷，在多 lock 環境(同 env_hash 多 persona)會挑錯 persona — 實際 lock ame 卻被推成 summit，整場 watch session 薪資/obs 會靜默記到錯帳。修法:取消 auto-infer, --persona 改必填, 未傳抱錯 (ref: stream-watch-persona-misinfer)",
+  "balance_before": 341,
+  "balance_after": 344,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "5524",
+  "sig_env_marker": "manual_filesystem_write_qa_bug_reward",
+  "sig_cmd_id": "qa_bug_reward_a8de1e",
+  "signature_mismatch": false,
+  "_severity": "normal"
+}

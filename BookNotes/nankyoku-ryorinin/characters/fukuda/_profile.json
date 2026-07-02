@@ -1,0 +1,24 @@
+{
+  "id": "fukuda",
+  "name": "福田正志（醫生）",
+  "book": "nankyoku-ryorinin",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "北海道私立醫院派遣的醫療負責人",
+      "file": "v1_2026-07-02.md",
+      "date": "2026-07-02"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 5,
+      "headline": "歸國後真去跑了馬拉松大會(北海道1192號)",
+      "change_reason": "結局電視轉播圓『回國要運動』的約定",
+      "file": "v2_2026-07-02.md",
+      "date": "2026-07-02"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "nishimura",
+  "name": "西村淳",
+  "book": "nankyoku-ryorinin",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "本片主角·料理人（旁白『我』）",
+      "file": "v1_2026-07-02.md",
+      "date": "2026-07-02"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 2,
+      "headline": "非自願的『頂替者』料理人——頂了鈴木20年的南極夢",
+      "change_reason": "倒敘揭曉他不是自願赴南極，是臨時頂替出事的鈴木",
+      "file": "v2_2026-07-02.md",
+      "date": "2026-07-02"
+    }
+  ]
+}

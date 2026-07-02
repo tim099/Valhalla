@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-02T05:00:49.387Z",
+  "uuid": "227119",
+  "type": "credit",
+  "amount": 75,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-6b11b4:final(base=47+bonus=28):kiara",
+  "source_description": "上班 session 薪資 — kiara final(base=47+bonus=28)",
+  "balance_before": 9900,
+  "balance_after": 9975,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "27796",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}

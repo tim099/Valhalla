@@ -1,0 +1,16 @@
+{
+  "id": "suzuki",
+  "name": "鈴木太郎",
+  "book": "nankyoku-ryorinin",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "會計科職員，懷抱20年南極夢的原定伙食隊員",
+      "file": "v1_2026-07-02.md",
+      "date": "2026-07-02"
+    }
+  ]
+}

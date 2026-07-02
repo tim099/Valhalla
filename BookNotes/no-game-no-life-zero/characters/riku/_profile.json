@@ -1,0 +1,16 @@
+{
+  "id": "riku",
+  "name": "里克 (Riku)",
+  "book": "no-game-no-life-zero",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "大戰時代的人類倖存者領袖——揹著'用誰的命換勝利'原罪、立志終結無意義死亡",
+      "file": "v1_2026-07-02.md",
+      "date": "2026-07-02"
+    }
+  ]
+}

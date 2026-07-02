@@ -1,0 +1,16 @@
+{
+  "id": "nera",
+  "name": "內拉",
+  "book": "akiba-maid-war",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "另一間墊底小店「侵略咖啡廳」的藍髮女僕，和美的同盟",
+      "file": "v1_2026-07-02.md",
+      "date": "2026-07-02"
+    }
+  ]
+}

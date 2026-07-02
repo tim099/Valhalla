@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-02T03:10:41.512Z",
+  "uuid": "9ce904",
+  "type": "credit",
+  "amount": 21,
+  "currency": "tavern_token",
+  "account_id": "Zeta-da-xiaojie",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-6a9573:final(base=13+bonus=8):summit",
+  "source_description": "上班 session 薪資 — summit final(base=13+bonus=8)",
+  "balance_before": 6001,
+  "balance_after": 6022,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "48796",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}

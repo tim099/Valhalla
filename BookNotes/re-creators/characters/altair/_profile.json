@@ -1,0 +1,24 @@
+{
+  "id": "altair",
+  "name": "阿爾泰爾/Altair (軍服姫君)",
+  "book": "re-creators",
+  "first_appeared_chapter": 13,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 13,
+      "headline": "本作最大反派·出自島崎剎那創作的 vocaloid 神曲《world Étude》",
+      "file": "v1_2026-07-02.md",
+      "date": "2026-07-02"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 21,
+      "headline": "從純虛無毀滅者→被創作者絕望灌注、最終被愛接住和解的『弱者的王』",
+      "change_reason": "ep21揭曉Altair的毀滅之恨源自創造者島崎剎那被網路惡意逼死的絕望與自我詛咒(灌進被造物),月台和解戲後徹底翻轉對她的理解——她不是天生的惡",
+      "file": "v2_2026-07-02.md",
+      "date": "2026-07-02"
+    }
+  ]
+}

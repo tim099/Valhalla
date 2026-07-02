@@ -1,0 +1,16 @@
+{
+  "id": "otachi",
+  "name": "御徒町（御徒·熊貓）",
+  "book": "akiba-maid-war",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "穿熊貓裝、面癱冷淡的女僕",
+      "file": "v1_2026-07-02.md",
+      "date": "2026-07-02"
+    }
+  ]
+}

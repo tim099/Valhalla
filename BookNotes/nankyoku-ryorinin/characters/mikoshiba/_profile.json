@@ -1,0 +1,24 @@
+{
+  "id": "mikoshiba",
+  "name": "御子柴健（主任）",
+  "book": "nankyoku-ryorinin",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "汽車公司派遣的汽車維修負責人",
+      "file": "v1_2026-07-02.md",
+      "date": "2026-07-02"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 1,
+      "headline": "被貶到南極的壯年汽車商，全隊最思鄉的那個",
+      "change_reason": "雪地車裡對西村崩潰碎念，背景與心境首次展開",
+      "file": "v2_2026-07-02.md",
+      "date": "2026-07-02"
+    }
+  ]
+}

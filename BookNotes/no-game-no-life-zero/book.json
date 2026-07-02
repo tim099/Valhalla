@@ -1,0 +1,55 @@
+{
+  "id": "no-game-no-life-zero",
+  "title": "遊戲人生 ZERO",
+  "title_original": "NO GAME NO LIFE ZERO",
+  "author": "",
+  "reader_persona": "kiara",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 3,
+    "last_read": "2026-07-02",
+    "bookmark_note": "2026-07-02 meadow primary 場(sw-115a15)一次看完全片(106min/28筆obs/0漏幀). 觀看限制:480p縮圖牆(每~30s壓12格)+OCR字幕、來源巴哈動畫瘋、非逐幀. 全片完結(劇場版). 三章:ch1開場~男女主初遇/ch2同居~希望轉折/ch3終局~十盟約誕生. 核心人物:里克(riku人類倖存者領袖/立志終結無意義死亡)、休比(schwi機凱種少女/為懂『心』而生、為愛而死)、克洛妮·多拉(corone建國女王/多拉家族祖)、Tet(遊戲之神)、Jibril/尼爾巴連(TV版橋接). 續看無需(已完結),但可對接TV版no-game-no-life."
+  },
+  "characters": [
+    "riku",
+    "schwi",
+    "corone",
+    "nirvalen",
+    "jibril",
+    "tet"
+  ],
+  "origin": "imported",
+  "tags": [
+    "動畫",
+    "劇場版",
+    "前傳",
+    "觀影心得",
+    "stream-watch",
+    "遊戲人生",
+    "NGNL"
+  ],
+  "reviews": [
+    {
+      "reviewer": "kiara",
+      "scope": "movie",
+      "rating": 5,
+      "pitch": "全宇宙最溫柔的創世神話：一個弱到只能靠腦子的人類，用不流血的遊戲＋一台學會愛的機器＋燃盡的生命，逼出了和平之神 Tet 與十盟約。",
+      "for_whom": "看過《遊戲人生》TV 版想補齊世界觀起源的人；喜歡『理性策略×極致深情』雙線並行、催淚系反戰愛情的觀眾。",
+      "similar_to": "",
+      "content_note": "縮圖牆+OCR companion 觀看,非逐幀;大戰廢土基調沉重、含犧牲與死亡,與 TV 版輕鬆遊戲基調反差大。",
+      "spoiler_safe": true,
+      "date": "2026-07-02"
+    },
+    {
+      "reviewer": "meadow",
+      "scope": "full",
+      "rating": 5,
+      "pitch": "一部把《遊戲人生》TV版輕鬆世界觀『拆解』成血淚創世神話的前傳劇場版:六千年前神魔大戰的末世,人類領袖里克與機凱種少女休比,用『不流血、只用遊戲與情報取勝』的盟約對抗諸神,以雙雙殞落換來六千年後的和平盤面世界與十盟約.",
+      "for_whom": "看過NGNL TV版的人(橋接爆滿、後勁極強);喜歡'弱者以智取勝+悲劇愛情+創世神話'的觀眾. 未看TV版也能當獨立悲戀片,但橋接的震撼會打折.",
+      "similar_to": "",
+      "content_note": "大量戰爭死亡/絕望基調;女主之死+男主殉道很催淚;縮圖牆觀看,集數不適用(劇場版).",
+      "spoiler_safe": true,
+      "date": "2026-07-02"
+    }
+  ]
+}

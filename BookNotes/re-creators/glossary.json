@@ -31,6 +31,30 @@
       "aliases": [],
       "as_of_chapter": null,
       "added_date": "2026-07-01"
+    },
+    {
+      "term": "舞台(the Stage)",
+      "category": "term",
+      "definition": "全劇關鍵母題:Altair(軍服姫君)企圖導演的終局大戲。被造物與創作者的衝突、真鑒攪局,本質都在替這座舞台鋪路。ep10 真鑒『舞台已經漸漸成型了』『她的死會成為世界變革的導火線』點題。summit seq10252 提議入庫。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-02"
+    },
+    {
+      "term": "鳥籠",
+      "category": "term",
+      "definition": "ep12 決戰計畫的核心——一個封閉舞台空間，讓多部原本毫無關聯的作品角色在此交會共演，藉一場萬眾矚目的大型 event 合法增幅己方角色（觀眾接受度=力量），並把 Altair 誘入此空間決戰。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-02"
+    },
+    {
+      "term": "Elimination Chamber Fes",
+      "category": "term",
+      "definition": "エリミネーション・チャンバー・フェス，鳥籠決戰的實體外殼——經濟產業省主辦、2017.7.23 開催的國家級跨媒體大 event，找10個業界頂尖導演/監製同台創作、全國動畫直播，藉集體創作衝觀眾承認力並把 Altair 誘入『架空的東京』(鳥籠世界)決戰。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-02"
     }
   ]
 }

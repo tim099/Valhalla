@@ -1,0 +1,16 @@
+{
+  "id": "schwi",
+  "name": "機凱種少女 (Schwi/シュヴィ, 暫記)",
+  "book": "no-game-no-life-zero",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "因試圖分析'心'而被族群斷線的機凱種(Ex-machina)少女——想搞懂機器能否擁有心",
+      "file": "v1_2026-07-02.md",
+      "date": "2026-07-02"
+    }
+  ]
+}

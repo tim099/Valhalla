@@ -1,0 +1,16 @@
+{
+  "id": "jibril",
+  "name": "吉普莉爾 (Jibril)",
+  "book": "no-game-no-life-zero",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "天翼種(Flügel),戰神阿爾特休麾下殺戮爪牙——TV版吉普莉爾的大戰前身",
+      "file": "v1_2026-07-02.md",
+      "date": "2026-07-02"
+    }
+  ]
+}

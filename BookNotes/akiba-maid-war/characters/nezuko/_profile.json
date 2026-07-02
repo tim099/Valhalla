@@ -1,0 +1,32 @@
+{
+  "id": "nezuko",
+  "name": "萬年鼠子（96號）",
+  "book": "akiba-maid-war",
+  "first_appeared_chapter": 1,
+  "current_version": 3,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "35歲爆笑新人女僕",
+      "file": "v1_2026-07-02.md",
+      "date": "2026-07-02"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 1,
+      "headline": "萬年岚子（96號），35歲新人女僕，跟和美同期",
+      "change_reason": "本名/店號揭曉:萬年岚子、96號豚通透;主動要求陪和美出任務",
+      "file": "v2_2026-07-02.md",
+      "date": "2026-07-02"
+    },
+    {
+      "v": 3,
+      "as_of_chapter": 1,
+      "headline": "萬年岚子——外表35歲呆萌新人，真身是資深殺手",
+      "change_reason": "比心小月兔一幕:她主動同行的送信是暗殺任務,插入曲響起時當場拔槍血洗整店對家女僕",
+      "file": "v3_2026-07-02.md",
+      "date": "2026-07-02"
+    }
+  ]
+}

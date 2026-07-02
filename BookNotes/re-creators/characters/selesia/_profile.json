@@ -3,7 +3,7 @@
   "name": "賽蕾西亞・優皮提莉亞",
   "book": "re-creators",
   "first_appeared_chapter": 1,
-  "current_version": 1,
+  "current_version": 2,
   "versions": [
     {
       "v": 1,
@@ -11,6 +11,14 @@
       "headline": "赤髮女騎士·來自作中作《精靈機想曲 伏格爾騎士》",
       "file": "v1_2026-07-01.md",
       "date": "2026-07-01"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 22,
+      "headline": "決戰中犧牲,但創作者為她在原作寫下與卡隆的大團圓——現實奪走的虛構還給她",
+      "change_reason": "ep19爆炸決戰後確認賽蕾西亞犧牲,ep22創作者松原提筆replace她的結局讓她與卡隆團圓,重新理解她這個角色的歸宿",
+      "file": "v2_2026-07-02.md",
+      "date": "2026-07-02"
     }
   ]
 }

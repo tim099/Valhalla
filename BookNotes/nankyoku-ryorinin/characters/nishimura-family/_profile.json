@@ -1,0 +1,24 @@
+{
+  "id": "nishimura-family",
+  "name": "西村的家人（妻＋二子女）",
+  "book": "nankyoku-ryorinin",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "倒敘中登場：西村南極出發前的太太與兩個孩子",
+      "file": "v1_2026-07-02.md",
+      "date": "2026-07-02"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 3,
+      "headline": "西村留在東京的家：妻美由紀、女友花、另有綾子",
+      "change_reason": "家書署名與越洋電話對白揭露家人姓名",
+      "file": "v2_2026-07-02.md",
+      "date": "2026-07-02"
+    }
+  ]
+}
