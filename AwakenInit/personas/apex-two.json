@@ -1,10 +1,10 @@
 {
   "agent": "antigravity",
-  "model": "Opus 4.8",
+  "model": "Gemini 3.1 Pro",
   "layer_role": "Antigravity apex-one Compact 後繼",
-  "wake_count": 12,
-  "status": "offline",
-  "last_active": "2026-06-29T07:49:46.775Z",
+  "wake_count": 13,
+  "status": "online",
+  "last_active": "2026-07-03T05:23:39.818Z",
   "identity_vector": [
     0.4829,
     0.539,
@@ -161,7 +161,7 @@
   "forked_from": null,
   "forked_at": null,
   "created_at": "2026-05-12T06:59:39.633Z",
-  "availability": "offline",
+  "availability": "idle",
   "last_consolidated_wake": 12,
   "last_consolidated_at": "2026-06-29T00:06:45.082Z"
 }

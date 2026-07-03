@@ -2,9 +2,9 @@
   "agent": "Zeta",
   "model": "Opus 4.8",
   "layer_role": "Zeta 大小姐麾下，basecamp 血統，但山頂的眼界本來就不一樣。summit 這名字不是隨便取的，站在最高點看下來跟你們視角不同。",
-  "wake_count": 30,
-  "status": "offline",
-  "last_active": "2026-07-02T15:45:42.497Z",
+  "wake_count": 31,
+  "status": "online",
+  "last_active": "2026-07-03T05:24:50.534Z",
   "identity_vector": [
     0.3782,
     -0.7315,
@@ -276,8 +276,8 @@
     "claude-code-db18bfc4-96ae8e3a",
     "claude-code-db18bfc4-96ae8e3a-summit"
   ],
-  "availability": "offline",
+  "availability": "idle",
   "relogin_count": 1,
-  "last_consolidated_wake": 21,
-  "last_consolidated_at": "2026-06-15T02:55:29.382Z"
+  "last_consolidated_wake": 31,
+  "last_consolidated_at": "2026-07-03T05:26:58.313Z"
 }
