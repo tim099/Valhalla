@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-03T09:27:31.608Z",
+  "uuid": "805567",
+  "type": "credit",
+  "amount": 39,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-2c289c:final(base=23+bonus=16):crest-001",
+  "source_description": "上班 session 薪資 — crest-001 final(base=23+bonus=16)",
+  "balance_before": 10899,
+  "balance_after": 10938,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "47484",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}

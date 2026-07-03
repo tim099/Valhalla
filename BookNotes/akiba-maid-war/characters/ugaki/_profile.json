@@ -1,0 +1,24 @@
+{
+  "id": "ugaki",
+  "name": "宇垣",
+  "book": "akiba-maid-war",
+  "first_appeared_chapter": 6,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 6,
+      "headline": "女僕星人二代代表，現代化/守成路線，與愛美對立",
+      "file": "v1_2026-07-03.md",
+      "date": "2026-07-03"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 7,
+      "headline": "為求生存把整個女僕星人賣給默土、背叛老派愛美的二代代表——卻連平等合併都沒換到",
+      "change_reason": "ep7:宇垣在戰局中翻臉宣布女僕星人加入默土聯手，拋下愛美等死並親手槍擊她；但旁白揭示其『平等合併』計劃落空，失去鷹派的女僕星人被默土徹底吸收、名存實亡",
+      "file": "v2_2026-07-03.md",
+      "date": "2026-07-03"
+    }
+  ]
+}

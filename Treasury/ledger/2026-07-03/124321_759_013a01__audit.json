@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-03T12:43:21.759Z",
+  "uuid": "013a01",
+  "type": "audit",
+  "amount": 0,
+  "currency": "tavern_token",
+  "account_id": "Zeta-da-xiaojie",
+  "source_kind": "draw_voucher_consume",
+  "source_ref": "voucher:summit:1002,1000",
+  "source_description": "draw voucher consumed @ canvas (summit)",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "10812",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_013a01",
+  "signature_mismatch": false
+}

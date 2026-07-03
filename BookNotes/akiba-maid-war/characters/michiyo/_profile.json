@@ -1,0 +1,16 @@
+{
+  "id": "michiyo",
+  "name": "美千代",
+  "book": "akiba-maid-war",
+  "first_appeared_chapter": 11,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 11,
+      "headline": "60年代秋葉原傳說女僕，侍女茶館founder，嵐子與風大人的師父",
+      "file": "v1_2026-07-03.md",
+      "date": "2026-07-03"
+    }
+  ]
+}

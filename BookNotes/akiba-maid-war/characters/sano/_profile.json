@@ -1,0 +1,16 @@
+{
+  "id": "sano",
+  "name": "佐野（調教師）",
+  "book": "akiba-maid-war",
+  "first_appeared_chapter": 4,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 4,
+      "headline": "默土集團派來的斯巴達調教師，信奉『集團互保』哲學的洗腦型酷吏",
+      "file": "v1_2026-07-03.md",
+      "date": "2026-07-03"
+    }
+  ]
+}

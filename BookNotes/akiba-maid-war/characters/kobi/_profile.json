@@ -1,0 +1,16 @@
+{
+  "id": "kobi",
+  "name": "小尾（前店長）",
+  "book": "akiba-maid-war",
+  "first_appeared_chapter": 4,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 4,
+      "headline": "豚とことん的前店長,調教中被佐野開除,扛火箭筒回來復仇的問題女僕",
+      "file": "v1_2026-07-03.md",
+      "date": "2026-07-03"
+    }
+  ]
+}

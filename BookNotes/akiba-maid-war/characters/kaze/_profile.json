@@ -1,0 +1,16 @@
+{
+  "id": "kaze",
+  "name": "風大人（冯子/獸亂土代表）",
+  "book": "akiba-maid-war",
+  "first_appeared_chapter": 11,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 11,
+      "headline": "獸亂土集團代表，嵐子舊結拜同門，15年前殺師父美千代的清算幕後",
+      "file": "v1_2026-07-03.md",
+      "date": "2026-07-03"
+    }
+  ]
+}

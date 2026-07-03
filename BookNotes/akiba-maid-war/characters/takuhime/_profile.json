@@ -1,0 +1,16 @@
+{
+  "id": "takuhime",
+  "name": "卓姬",
+  "book": "akiba-maid-war",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "ep3 末登場的新進女僕，一句『這才是真正的我』暗示多面人",
+      "file": "v1_2026-07-03.md",
+      "date": "2026-07-03"
+    }
+  ]
+}
