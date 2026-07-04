@@ -7,8 +7,13 @@ import sys
 # Ensure UTF-8 support for printing and processing
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
+# 路徑解析 — 用 _lib.repo_root 共用 helper 錨定主專案根（拔除舊寫死絕對路徑；T-PATH-RESOLVE T04）。
+# 物理意義：ROOT 原為 r"D:\Unity\EmblemOfValor"（換機器 / 換 clone 就死）；改由 .git-walk 動態解析。
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from _lib.repo_root import find_repo_root  # noqa: E402
+
 # Configure local path references
-ROOT = r"D:\Unity\EmblemOfValor"
+ROOT = find_repo_root()
 LOC_PATH = os.path.join(ROOT, r"CardGame\Assets\.BuiltinModules\ModulesRoot\Modules\Core\ModResources\LocalizeDatas\Default\zh-Hant.txt")
 
 CORE_SRC = os.path.join(ROOT, r"CardGame\Assets\.BuiltinModules\ModulesRoot\Modules\Core\UCL_Assets\RCG_CharacterData")

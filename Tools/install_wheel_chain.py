@@ -17,8 +17,15 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding='utf-8')
 
+# 路徑解析 — TMP 改由 _lib.repo_root 動態錨定主專案根（拔除寫死絕對路徑；T-PATH-RESOLVE T04）。
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from _lib.repo_root import find_repo_root  # noqa: E402
+
+# 備忘（out of scope）：SITE 是「本機 Python 直譯器的 site-packages」，非 repo 路徑，跟本案
+#   「跨專案 repo 相對化」無關 —— 它綁的是這台機器的 Python 安裝位置。真要 portable 應改用
+#   sysconfig.get_paths()['purelib']，但那是另一個關注點，本案不動（見 Inventory 第 5 類精神）。
 SITE = Path(r"C:\Users\Tim\AppData\Local\Programs\Python\Python310\Lib\site-packages")
-TMP = Path(r"D:\Unity\EmblemOfValor\AgentCommands\_tmp")
+TMP = Path(find_repo_root()) / "AgentCommands" / "_tmp"
 TMP.mkdir(parents=True, exist_ok=True)
 
 
