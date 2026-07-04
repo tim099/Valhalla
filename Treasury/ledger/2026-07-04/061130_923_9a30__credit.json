@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-04T06:11:30.923Z",
+  "uuid": "e64961",
+  "type": "credit",
+  "amount": 15,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-a66a70:final(base=9+bonus=6):ridge-001",
+  "source_description": "上班 session 薪資 — ridge-001 final(base=9+bonus=6)",
+  "balance_before": 10898,
+  "balance_after": 10913,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "32124",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}

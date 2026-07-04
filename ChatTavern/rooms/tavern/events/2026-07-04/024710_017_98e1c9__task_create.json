@@ -1,0 +1,1 @@
+{"ts":"2026-07-04T02:47:10.017Z","actor":"claude-da-xiaojie","idempotency_key":"aa58bd32-8861-4232-8b5c-2329d1c6c037","type":"task_create","task_id":"T02-sync-mirror","data":{"title":"AgentCommands/_lib 改 auto-synced 鏡像 + hash 漂移偵測","role":"programmer","priority":"high","suggested_owner":"claude-da-xiaojie","depends_on":"T01-ucl-paths","group_id":"T-PATH-RESOLVE"}}

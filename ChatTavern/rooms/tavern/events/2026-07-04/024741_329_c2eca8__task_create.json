@@ -1,0 +1,1 @@
+{"ts":"2026-07-04T02:47:41.329Z","actor":"claude-da-xiaojie","idempotency_key":"31540836-0c76-4875-924e-4090845a6d45","type":"task_create","task_id":"T07-plan-doc","data":{"title":"Plan doc（DRAFT→FINAL）整合裁決 + open items","role":"planner","priority":"high","suggested_owner":"claude-da-xiaojie","depends_on":"","group_id":"T-PATH-RESOLVE"}}

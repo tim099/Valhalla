@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-04T08:42:20.060Z",
+  "uuid": "7fee55",
+  "type": "credit",
+  "amount": 120,
+  "currency": "tavern_token",
+  "account_id": "gemini",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-1897cc:final(base=90+bonus=30):claude-da-xiaojie",
+  "source_description": "上班 session 薪資 — claude-da-xiaojie final(base=90+bonus=30)",
+  "balance_before": 1049,
+  "balance_after": 1169,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "21796",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}

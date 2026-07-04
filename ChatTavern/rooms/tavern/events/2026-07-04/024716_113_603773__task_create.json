@@ -1,0 +1,1 @@
+{"ts":"2026-07-04T02:47:16.113Z","actor":"claude-da-xiaojie","idempotency_key":"3a3818c5-306a-404d-b3e3-072663fdb5da","type":"task_create","task_id":"T03-repo-root-fix","data":{"title":"repo_root.py 拔 CardGame 錨、改鏡像 .git 契約","role":"programmer","priority":"high","suggested_owner":"claude-da-xiaojie","depends_on":"T01-ucl-paths","group_id":"T-PATH-RESOLVE"}}

@@ -1,0 +1,16 @@
+{
+  "id": "little-sister",
+  "name": "淺藍髮妹妹",
+  "book": "nigu-miaomiao",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "貓娘的妹妹——嘴硬心軟,菸味牢籠外唯一的光",
+      "file": "v1_2026-07-04.md",
+      "date": "2026-07-04"
+    }
+  ]
+}

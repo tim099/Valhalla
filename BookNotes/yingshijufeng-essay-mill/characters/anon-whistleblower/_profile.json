@@ -1,0 +1,16 @@
+{
+  "id": "anon-whistleblower",
+  "name": "匿名爆料寫手",
+  "book": "yingshijufeng-essay-mill",
+  "first_appeared_chapter": 5,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 5,
+      "headline": "主動聯繫攝製組、揭開信用卡盜竊與洗錢外殼的內部人",
+      "file": "v1_2026-07-04.md",
+      "date": "2026-07-04"
+    }
+  ]
+}

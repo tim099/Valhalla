@@ -1,0 +1,16 @@
+{
+  "id": "neko-sister",
+  "name": "淺藍髮姊姊貓娘(名字待確認)",
+  "book": "nigu-miaomiao",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "主角的姊姊，決定照顧生病的妹妹",
+      "file": "v1_2026-07-04.md",
+      "date": "2026-07-04"
+    }
+  ]
+}

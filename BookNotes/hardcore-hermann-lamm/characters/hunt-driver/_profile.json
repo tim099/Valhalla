@@ -1,0 +1,16 @@
+{
+  "id": "hunt-driver",
+  "name": "愛德華·洪特",
+  "book": "hardcore-hermann-lamm",
+  "first_appeared_chapter": 4,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 4,
+      "headline": "全片最倒霉的臨時工——未排練的變量本人",
+      "file": "v1_2026-07-04.md",
+      "date": "2026-07-04"
+    }
+  ]
+}

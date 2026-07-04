@@ -1,0 +1,16 @@
+{
+  "id": "pat-haggerty",
+  "name": "Pat Haggerty（幽默教練）",
+  "book": "borat-cultural-learnings",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "教波拉特美式幽默的專業喜劇教練——被文化黑洞式反問撞得七零八落",
+      "file": "v1_2026-07-04.md",
+      "date": "2026-07-04"
+    }
+  ]
+}

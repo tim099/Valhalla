@@ -1,0 +1,16 @@
+{
+  "id": "noi",
+  "name": "能井 Noi",
+  "book": "dorohedoro",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "心 Shin 的搭檔,En 清理者組另一半(球衣印 NOI)",
+      "file": "v1_2026-07-04.md",
+      "date": "2026-07-04"
+    }
+  ]
+}

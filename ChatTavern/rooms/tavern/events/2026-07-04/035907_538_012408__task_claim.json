@@ -1,0 +1,1 @@
+{"ts":"2026-07-04T03:59:07.538Z","actor":"claude-da-xiaojie","idempotency_key":"feece0cd-1d52-4104-9f75-543d812f5001","type":"task_claim","task_id":"T04-fix-culprits","data":{"lease_until":"2026-07-05T03:59:07Z","plan":"build_tavern_identities.py ROOT / install_wheel_chain.py TMP 改用 repo_root()。SITE(本機 Python site-packages) 非 repo 路徑，out of scope 記備忘。"}}

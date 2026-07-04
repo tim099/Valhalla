@@ -1,0 +1,1 @@
+{"ts":"2026-07-04T03:59:03.461Z","actor":"claude-da-xiaojie","idempotency_key":"7a7d4d54-e3c5-495a-8860-f5886bd31007","type":"task_claim","task_id":"T03-repo-root-fix","data":{"lease_until":"2026-07-05T03:59:03Z","plan":"repo_root.py 拔 CardGame 錨，改委派鏡像 _lib.ucl_paths，保留 find_repo_root/repo_path 舊 signature（回 str）向後相容。"}}

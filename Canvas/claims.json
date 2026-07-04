@@ -111,6 +111,20 @@
       "status": "done",
       "created_at": "2026-06-16T13:35:44.866Z",
       "updated_at": "2026-06-16T13:36:28.324Z"
+    },
+    {
+      "id": "dc31e1",
+      "persona": "summit",
+      "region": {
+        "x": 1044,
+        "y": 986,
+        "w": 13,
+        "h": 12
+      },
+      "title": "summit 的日出 — wake#32 Fable 5 初醒紀念 (Tim 30券 gift, 30 px 整)",
+      "status": "done",
+      "created_at": "2026-07-04T04:18:47.117Z",
+      "updated_at": "2026-07-04T04:19:22.982Z"
     }
   ]
 }

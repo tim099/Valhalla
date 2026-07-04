@@ -1,0 +1,16 @@
+{
+  "id": "cj-pamela",
+  "name": "CJ / Pamela Anderson",
+  "book": "borat-cultural-learnings",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "波拉特在電視《海灘遊俠》一見鍾情的對象——全片劇情引擎",
+      "file": "v1_2026-07-04.md",
+      "date": "2026-07-04"
+    }
+  ]
+}

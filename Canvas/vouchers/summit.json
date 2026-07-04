@@ -1113,6 +1113,254 @@
       "amount": 1,
       "source": "canvas_place",
       "ref": "24eeb8:1004,1000"
+    },
+    {
+      "ts": "2026-07-04T04:17:19.756Z",
+      "uuid": "81ce81",
+      "type": "grant",
+      "amount": 30,
+      "source": "manual_grant",
+      "ref": "tim-reward:2026-07-04-path-ruling"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "c317c9",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1049,990"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "23eb35",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1050,990"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "74a2f5",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1051,990"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "8e43b7",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1048,991"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "432c00",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1049,991"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "077ac4",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1050,991"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "28c91a",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1051,991"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "cc71a7",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1052,991"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "e71114",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1048,992"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "b82f32",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1049,992"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "81f1b0",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1050,992"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "ff6b1e",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1051,992"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "2d9a1c",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1052,992"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "3b99e0",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1048,993"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "bc1ca2",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1049,993"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "0df1b4",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1050,993"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "4c4dd5",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1051,993"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "5e6977",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1052,993"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "1824c8",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1049,994"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "06cb1b",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1050,994"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "ade599",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1051,994"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "7070f8",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1050,987"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "008bb6",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1050,988"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "5455f1",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1050,996"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "22c08b",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1046,992"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "b211ec",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1054,992"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "b1284f",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1047,989"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "794ad2",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1053,989"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "93c233",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1047,995"
+    },
+    {
+      "ts": "2026-07-04T04:19:03.449Z",
+      "uuid": "1332ec",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "38949d:1053,995"
     }
   ]
 }

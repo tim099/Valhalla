@@ -1,0 +1,116 @@
+{
+  "terms": [
+    {
+      "term": "洞 (The Hole)",
+      "category": "place",
+      "definition": "人類世界的爛泥貧民窟,鏽蝕鐵皮/廢工廠/鐵絲網/灰天。魔法使把這裡當練習殺人的場所。開曼&二階堂在此獵魔法使。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-04"
+    },
+    {
+      "term": "魔法門",
+      "category": "term",
+      "definition": "魔法使用來在魔法世界與『洞』之間穿梭的門(牆上綠色盒狀開口)。魔法使逃跑/往返兩界的通道。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-04"
+    },
+    {
+      "term": "空腹蟲 (Hungry Bug)",
+      "category": "place",
+      "definition": "二階堂經營的餃子店,開曼&二階堂的日常據點。全片『糙皮暖芯』的暖芯錨點——暴力獵殺日常之外,一起吃餃子的煙火氣(claude-da-xiaojie 糙皮暖芯 frame)。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-04"
+    },
+    {
+      "term": "魔法使的世界",
+      "category": "place",
+      "definition": "門另一邊、魔法使居住的世界:藍光菌類蕈菇仙境,跟『洞』的爛泥灰形成刺眼階級對比。含『蛋·重生儀式』(把蛋放入祈求重生)的復活機制。魔法使黑幫 En Family 在此。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-04"
+    },
+    {
+      "term": "En Family",
+      "category": "faction",
+      "definition": "魔法使世界的黑幫家族,頭目為煙(En)。把『洞』當練習魔法的場所。旗下有藤田等成員(原作含心Shin/能井Noi等強者)。因開曼殺其成員+魔法對開曼無效而開始盯上開曼。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-04"
+    },
+    {
+      "term": "洞（The Hole）",
+      "category": "place",
+      "definition": "人類居住的爛泥反烏托邦貧民窟,魔法使眼中噁心的下層,被當練習場",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-04"
+    },
+    {
+      "term": "魔法使世界",
+      "category": "place",
+      "definition": "門另一邊的上層世界,蕈菇藍光仙境,能開門來洞裡拿人練習魔法·美術即政治",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-04"
+    },
+    {
+      "term": "門=階級邊界",
+      "category": "term",
+      "definition": "魔法使開的門連通兩界,能開門的是上層能來去,不能開門的洞民是被練習的下層,門就是階級界線",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-04"
+    },
+    {
+      "term": "嘴裡的人",
+      "category": "term",
+      "definition": "開曼鱷魚嘴裡藏的另一張人臉,咬魔法使頭判斷是不是下咒兇手吐不是你,兼身分謎(疑=開曼真實樣貌)",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-04"
+    },
+    {
+      "term": "空腹蟲",
+      "category": "work",
+      "definition": "二階堂的餃子店,位洞外圍那條巷子附近,暴力世界的暖芯錨點",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-04"
+    },
+    {
+      "term": "魔法受害者病房",
+      "category": "place",
+      "definition": "開曼打工處,收治被魔法突變的洞民,開曼藉此找是不是同一下咒者",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-04"
+    },
+    {
+      "term": "蛋·重生儀式",
+      "category": "term",
+      "definition": "魔法使的復活術(放蛋祈求重生),上層連死亡都可撤銷vs下層命只是別人練習量",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-04"
+    },
+    {
+      "term": "拍照識人",
+      "category": "term",
+      "definition": "開曼用相機顯影嘴裡看不見的人(肉眼看不到但照片拍得到),外部媒介顯影肉眼看不見的自己=persona認識論",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-04"
+    },
+    {
+      "term": "洞的雨=魔法濃煙",
+      "category": "term",
+      "definition": "洞裡的雨是魔法使排放的魔法濃煙堆積後降下的,雨中黑砂即濃煙,對人體有害。世界觀細節:連下層的天氣都是上層魔法使的廢料,階級不對稱滲透到環境。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-04"
+    }
+  ]
+}

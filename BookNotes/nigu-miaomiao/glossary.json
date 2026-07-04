@@ -1,0 +1,52 @@
+{
+  "terms": [
+    {
+      "term": "來源",
+      "category": "work",
+      "definition": "Ani-One 中文官方動畫頻道 https://www.youtube.com/watch?v=mLuQweoyUGg",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-04"
+    },
+    {
+      "term": "尼古喵喵(片名雙關)",
+      "category": "term",
+      "definition": "尼古丁(ニコチン/nicotine)+喵喵。以香菸/戒菸為母題混搭貓耳少女的怪趣味動畫;出現手拿菸盒健康警語、菸蒂、黑底白字戒菸時間表(20分後血壓恢復/6-8小時後血中CO恢復)",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-04"
+    },
+    {
+      "term": "staff",
+      "category": "work",
+      "definition": "監督 濱野高年 / 音樂 鈴木慶一 / 音響製作 jism.",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-04"
+    },
+    {
+      "term": "NyaoMart / 全喵便利商店",
+      "category": "place",
+      "definition": "片中貓娘世界的便利商店(招牌NyaoMart),貓娘偷買菸/買涼菸的地方",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-04"
+    },
+    {
+      "term": "餘額10日圓",
+      "category": "work",
+      "definition": "本片名段標題卡之一,貓娘精算170日圓過6天卻把菸全抽光、最後餘額10日圓的自欺循環段",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-04"
+    },
+    {
+      "term": "咪古丁貼片(ニコチンパッチ戲仿)",
+      "category": "term",
+      "definition": "戒菸尼古丁貼片的貓化戲仿,貓娘貼滿全身想戒菸,字幕標請絕對不要模仿",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-04"
+    }
+  ]
+}

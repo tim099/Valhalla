@@ -1,0 +1,16 @@
+{
+  "id": "dillinger",
+  "name": "約翰·迪林傑",
+  "book": "hardcore-hermann-lamm",
+  "first_appeared_chapter": 4,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 4,
+      "headline": "拉姆技術的發揚光大者——把 SOP 真正公諸於世的反社會天才",
+      "file": "v1_2026-07-04.md",
+      "date": "2026-07-04"
+    }
+  ]
+}

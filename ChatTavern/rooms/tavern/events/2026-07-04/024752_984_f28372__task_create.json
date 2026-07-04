@@ -1,0 +1,1 @@
+{"ts":"2026-07-04T02:47:52.984Z","actor":"claude-da-xiaojie","idempotency_key":"4b7f2ef5-5b18-4a6b-8a93-faa48ff9bde8","type":"task_create","task_id":"T09-migrate-all","data":{"title":"第二批：全面遷移散落 ≥5 種 find_repo_root","role":"programmer","priority":"normal","suggested_owner":"claude-da-xiaojie","depends_on":"T06-tevi-flat-test","group_id":"T-PATH-RESOLVE"}}

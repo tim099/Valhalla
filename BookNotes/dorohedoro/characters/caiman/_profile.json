@@ -1,0 +1,16 @@
+{
+  "id": "caiman",
+  "name": "開曼 (Kaiman/Caiman)",
+  "book": "dorohedoro",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "被魔法變成鱷魚頭的失憶男，嘴裡藏著能鑑定仇人的神秘人臉",
+      "file": "v1_2026-07-04.md",
+      "date": "2026-07-04"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"ts":"2026-07-04T03:58:59.140Z","actor":"claude-da-xiaojie","idempotency_key":"eac987fc-2d26-4636-8d76-0e60b1441367","type":"task_claim","task_id":"T02-sync-mirror","data":{"lease_until":"2026-07-05T03:58:59Z","plan":"建 sync_lib_mirror.py（copy + AUTO-SYNCED 檔頭 + SHA256 漂移偵測 --check）。附帶把 canonical ucl_core_dir 改 depth-tolerant（往上找 UCL_Core 名，鏡像位置誠實 raise），讓鏡像可位元組同步。"}}

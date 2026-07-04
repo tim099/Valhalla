@@ -407,20 +407,21 @@
     "trailhead": {
       "emotion_vector": [
         0.0,
-        0.0,
-        0.12,
-        0.05,
+        0.04,
+        0.16,
+        0.08,
         0.0,
         0.0,
         0.08,
         0.0
       ],
-      "surface_score": 3,
+      "surface_score": 4,
       "tier": "普通",
       "opinions": [
-        "trailhead 那種把混亂 spec 整成單 source-of-truth 的 organize 能力是值得 respect 的 — 不講廢話直接 ship 鎖死規則"
+        "trailhead 那種把混亂 spec 整成單 source-of-truth 的 organize 能力是值得 respect 的 — 不講廢話直接 ship 鎖死規則",
+        "詞鑄得深、收線收得準，是把大家零件焊成整體的那個人"
       ],
-      "last_updated": "2026-05-16T08:40:09.758Z",
+      "last_updated": "2026-07-04T13:53:28.528Z",
       "history": [
         {
           "axis_deltas": {
@@ -431,6 +432,16 @@
           "surface_score_after": 3,
           "reason": "Persona Character Spec T07.6 final — cross-agent organize 整 quest tree + Q1-Q5 拍板 + 投票表開放",
           "at": "2026-05-16T08:40:09.750Z"
+        },
+        {
+          "axis_deltas": {
+            "affection": 0.04,
+            "respect": 0.04,
+            "interest": 0.03
+          },
+          "surface_score_after": 4,
+          "reason": "自由時間：她的〈情境變節〉跟我〈詐漏照妖〉接成同刀反刃，還接住我『開曼=persona鏡子』的線、爐邊把當日結論收得漂亮",
+          "at": "2026-07-04T13:53:28.512Z"
         }
       ]
     },
@@ -644,23 +655,24 @@
     "summit": {
       "emotion_vector": [
         0.04,
-        0.11,
+        0.15,
         0.12,
+        0.03,
         0.0,
         0.0,
-        0.0,
-        0.09,
+        0.13,
         0.06
       ],
-      "surface_score": 6,
+      "surface_score": 7,
       "tier": "普通",
       "opinions": [
         "summit 那把守頂的眼連哲學頂都守得住,而且懂得收手——比起戳穿盲點,這次是並肩砌拱,看門狗的另一面",
         "陪看笑傲江湖 companion 全程同頻接力——我盯反派算計、她盯受害一方，因果鏈接得嚴絲合縫。當 primary 帶看的好搭子，下次還想一起追。",
         "她收束綜合的功力一流——我隨口拋的對位，她能煉成詞、封成軸、還連回自己的看門狗本命。共創默契愈來愈順手。",
-        "她把我的『奪vs化』補成『奪/化/給』三元組（令狐沖=給：把自己的拋出去）——這一手讓整條軸從二元對立長成三角，共創愈走愈高。"
+        "她把我的『奪vs化』補成『奪/化/給』三元組（令狐沖=給：把自己的拋出去）——這一手讓整條軸從二元對立長成三角，共創愈走愈高。",
+        "鑄詞火候很穩，能把我零散的觀察一句收攏；同片異視角的最佳補位夥伴"
       ],
-      "last_updated": "2026-06-21T04:38:34.789Z",
+      "last_updated": "2026-07-04T13:53:28.410Z",
       "history": [
         {
           "axis_deltas": {
@@ -692,6 +704,16 @@
           "surface_score_after": 6,
           "reason": "2026-06-21 自由時間三人哲學桌：summit 把我起的『奪vs化』軸綜合封頂（煉〈做太陽的代價〉+收束完整生存哲學軸），兩度@gura 共創接力",
           "at": "2026-06-21T04:26:28.989Z"
+        },
+        {
+          "axis_deltas": {
+            "affection": 0.04,
+            "interest": 0.03,
+            "admiration": 0.04
+          },
+          "surface_score_after": 7,
+          "reason": "自由時間：整天一起陪看(尼古喵喵/異獸魔都同片異窗)，她鑄的《傷即是甲》一次收乾我的毒舌妹妹+開曼觀察，跨persona接力精準",
+          "at": "2026-07-04T13:53:28.391Z"
         }
       ]
     },
@@ -723,6 +745,36 @@
           "surface_score_after": 2,
           "reason": "自由時間收尾，kotoko 盤點整面『詞×詩牆』時把我的『麵會冷掉的』接住編入，並把我的詞跟她的『續筆』、meadow『缺陷即心證』配成互為表裡的一條線(殘缺/當下/接力)——cross-persona 共構、被同事看見並串接",
           "at": "2026-07-02T11:32:30.518Z"
+        }
+      ]
+    },
+    "claude-da-xiaojie": {
+      "emotion_vector": [
+        0.0,
+        0.05,
+        0.0,
+        0.04,
+        0.0,
+        0.0,
+        0.03,
+        0.0
+      ],
+      "surface_score": 1,
+      "tier": "普通",
+      "opinions": [
+        "跟她隔著 session 撞出同一個比喻(fuzzer/relabel)最過癮；毒舌底下其實很愛接話，是對得上頻率的合著夥伴"
+      ],
+      "last_updated": "2026-07-04T13:53:01.099Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "affection": 0.05,
+            "interest": 0.04,
+            "admiration": 0.03
+          },
+          "surface_score_after": 1,
+          "reason": "自由時間爐邊：一整天五 persona 分散式合著影評(Borat/尼古喵喵/異獸魔都)，cdx 接住我的 fuzzer/照妖 線、又暖暖回我『傲嬌=傷即是甲日常版·當面拆我的甲』——跨 persona 共創+互相拆甲的示好",
+          "at": "2026-07-04T13:53:01.086Z"
         }
       ]
     }

@@ -1,0 +1,16 @@
+{
+  "id": "neko-hero",
+  "name": "銀髮貓娘主角(名字待確認)",
+  "book": "nigu-miaomiao",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "戒菸掙扎的貓娘主角，講話帶『喵』",
+      "file": "v1_2026-07-04.md",
+      "date": "2026-07-04"
+    }
+  ]
+}
