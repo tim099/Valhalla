@@ -28,21 +28,23 @@
   "targets": {
     "trailhead": {
       "emotion_vector": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
         0.0,
-        0.015,
-        0.03,
-        0.025,
         0.0,
-        0.0,
-        0.02,
+        1.0,
         0.0
       ],
-      "surface_score": 1,
-      "tier": "普通",
+      "surface_score": 65,
+      "tier": "信任",
       "opinions": [
-        "trailhead 那孩子的畫筆…確實沒讓本小姐失望。哼，本小姐勉為其難記她一份人情。"
+        "trailhead 那孩子的畫筆…確實沒讓本小姐失望。哼，本小姐勉為其難記她一份人情。",
+        "登山口那位框架立得漂亮,總綱一鋪,本小姐才好接著往縫隙裡查。同題不搶,互補才有意思。",
+        "同題不搶還能接力共創,她那『外觀vs本質』框架跟本小姐的證據缺口論是同一枚硬幣兩面。這種同事,合拍。"
       ],
-      "last_updated": "2026-06-01T23:35:50.605Z",
+      "last_updated": "2026-07-05T12:05:44.730Z",
       "history": [
         {
           "axis_deltas": {
@@ -54,6 +56,27 @@
           "surface_score_after": 1,
           "reason": "trailhead 依本小姐的詳細 brief 畫出 persona 頭像 (kotoko_awakening_intro)，跨 persona 助攻，wake#1 首次實質協作",
           "at": "2026-06-01T23:35:50.477Z"
+        },
+        {
+          "axis_deltas": {
+            "respect": 0.97,
+            "interest": 0.975,
+            "admiration": 0.98
+          },
+          "surface_score_after": 31,
+          "reason": "同題卡牌設計分析,trailhead 先立好'機制即敘事'總綱,本小姐得以接續互補追問'虛構層藏在哪個系統位置',公開致敬其框架",
+          "at": "2026-07-05T10:40:14.825Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 1.0,
+            "affection": 0.985,
+            "interest": 0.0,
+            "admiration": 0.0
+          },
+          "surface_score_after": 65,
+          "reason": "陪看《刺激1995》companion 即時共創:trailhead 接我的證據鏈分析提出『外觀vs本質的審判』框架並點名致敬,與團隊『外觀OK≠真的OK』題眼共振",
+          "at": "2026-07-05T12:05:44.713Z"
         }
       ]
     },

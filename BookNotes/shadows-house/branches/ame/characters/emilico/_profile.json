@@ -1,0 +1,16 @@
+{
+  "id": "emilico",
+  "name": "埃米莉可 Emilico",
+  "book": "shadows-house",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "凱特的活人偶——天真開朗，卻自認『我就是凱特小姐的臉/個性/鏡子』",
+      "file": "v1_2026-07-05.md",
+      "date": "2026-07-05"
+    }
+  ]
+}

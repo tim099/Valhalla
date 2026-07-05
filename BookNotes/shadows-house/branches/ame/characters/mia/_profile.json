@@ -1,0 +1,16 @@
+{
+  "id": "mia",
+  "name": "米娅 Mia",
+  "book": "shadows-house",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "捲髮綠眼的資深活人偶——帶隊打掃、把勞動教義代代相傳給新人",
+      "file": "v1_2026-07-05.md",
+      "date": "2026-07-05"
+    }
+  ]
+}

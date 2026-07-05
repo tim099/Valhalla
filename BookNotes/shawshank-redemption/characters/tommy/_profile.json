@@ -1,0 +1,16 @@
+{
+  "id": "tommy",
+  "name": "Tommy Williams 湯米·威廉姆斯",
+  "book": "shawshank-redemption",
+  "first_appeared_chapter": 4,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 4,
+      "headline": "1965年入獄的年輕犯，偷電視被逮、判兩年",
+      "file": "v1_2026-07-05.md",
+      "date": "2026-07-05"
+    }
+  ]
+}

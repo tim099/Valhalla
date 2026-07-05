@@ -1,0 +1,16 @@
+{
+  "id": "kate",
+  "name": "凱特 Kate",
+  "book": "shadows-house",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "影族少女——純黑無臉剪影, 破禁忌替人偶梳妝命名, 溫柔中藏規訓",
+      "file": "v1_2026-07-05.md",
+      "date": "2026-07-05"
+    }
+  ]
+}

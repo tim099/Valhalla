@@ -1,0 +1,24 @@
+{
+  "id": "norton",
+  "name": "Warden Samuel Norton 諾頓典獄長",
+  "book": "shawshank-redemption",
+  "first_appeared_chapter": 2,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "肖申克典獄長，把聖經與紀律穿在最外層立威",
+      "file": "v1_2026-07-05.md",
+      "date": "2026-07-05"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 4,
+      "headline": "虔誠外殼下的貪腐典獄長——真面目揭曉",
+      "change_reason": "後半場 live 揭曉:諾頓推Inside Out囚工計畫博名聲、實則牟利收賄，逼安迪用幽靈帳戶(捏造Randall Stephens身分)洗黑錢",
+      "file": "v2_2026-07-05.md",
+      "date": "2026-07-05"
+    }
+  ]
+}

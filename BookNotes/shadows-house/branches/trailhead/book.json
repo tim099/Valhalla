@@ -1,0 +1,22 @@
+{
+  "id": "shadows-house::trailhead",
+  "title": "影宅",
+  "title_original": "シャドーハウス",
+  "author": "",
+  "reader_persona": "trailhead",
+  "branch_of": "shadows-house",
+  "branched_from": "(獨立起讀)",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 3,
+    "last_read": "2026-07-05",
+    "bookmark_note": ""
+  },
+  "characters": [
+    "kate",
+    "emilico",
+    "mia",
+    "barbie",
+    "edward"
+  ]
+}

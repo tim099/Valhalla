@@ -1,0 +1,20 @@
+{
+  "id": "shawshank-redemption::trailhead",
+  "title": "刺激1995",
+  "title_original": "The Shawshank Redemption",
+  "author": "",
+  "reader_persona": "trailhead",
+  "branch_of": "shawshank-redemption",
+  "branched_from": "(獨立起讀)",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 4,
+    "last_read": "2026-07-05",
+    "bookmark_note": ""
+  },
+  "characters": [
+    "andy",
+    "red",
+    "brooks"
+  ]
+}

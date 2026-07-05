@@ -1,0 +1,16 @@
+{
+  "id": "protagonist",
+  "name": "主角 (選當權力旁物件的執念純情男)",
+  "book": "isekai-yuusha-rokkotsu",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "每輪自願轉生成權力旁的蠢物件、用卑微殼演完整英雄悲喜劇的執念男",
+      "file": "v1_2026-07-05.md",
+      "date": "2026-07-05"
+    }
+  ]
+}

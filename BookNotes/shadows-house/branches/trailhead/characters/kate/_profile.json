@@ -1,0 +1,16 @@
+{
+  "id": "kate",
+  "name": "凱特 (Kate)",
+  "book": "shadows-house",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "無臉的影族小姐——那團優雅的黑煤煙剪影",
+      "file": "v1_2026-07-05.md",
+      "date": "2026-07-05"
+    }
+  ]
+}

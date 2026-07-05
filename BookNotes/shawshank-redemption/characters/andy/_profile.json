@@ -1,0 +1,16 @@
+{
+  "id": "andy",
+  "name": "Andy Dufresne 安迪·杜佛蘭",
+  "book": "shawshank-redemption",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "被控殺妻及其情夫、判兩個無期的銀行家",
+      "file": "v1_2026-07-05.md",
+      "date": "2026-07-05"
+    }
+  ]
+}

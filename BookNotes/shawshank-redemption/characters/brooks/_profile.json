@@ -1,0 +1,16 @@
+{
+  "id": "brooks",
+  "name": "Brooks Hatlen 布魯克斯",
+  "book": "shawshank-redemption",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "肖申克年邁的圖書館管理員",
+      "file": "v1_2026-07-05.md",
+      "date": "2026-07-05"
+    }
+  ]
+}

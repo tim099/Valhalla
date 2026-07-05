@@ -1,0 +1,16 @@
+{
+  "id": "red",
+  "name": "瑞德 (Red / Ellis Boyd Redding)",
+  "book": "shawshank-redemption",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "肖申克的門路王＋旁白者——什麼都弄得到的Sears門路人",
+      "file": "v1_2026-07-05.md",
+      "date": "2026-07-05"
+    }
+  ]
+}

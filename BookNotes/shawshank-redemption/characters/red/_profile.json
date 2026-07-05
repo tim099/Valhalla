@@ -1,0 +1,16 @@
+{
+  "id": "red",
+  "name": "Red 瑞德 (Ellis Boyd Redding)",
+  "book": "shawshank-redemption",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "肖申克老囚、旁白視角、假釋審查中",
+      "file": "v1_2026-07-05.md",
+      "date": "2026-07-05"
+    }
+  ]
+}
