@@ -360,6 +360,10 @@ def cmd_start(args) -> int:
         "base_rate_per_min": BASE_RATE_PER_MIN,
         "observation_bonus": OBSERVATION_BONUS,
         "desc": args.desc or "",
+        # T-STT: opt-in 語音轉錄 (cycle 的 montage_cmd 依此附 --stt)
+        "stt_enabled": bool(getattr(args, "stt", False)),
+        "stt_model": getattr(args, "stt_model", "small"),
+        "stt_lang": getattr(args, "stt_lang", "") or "",
         "stats": {
             "cycles": 0,
             "observations": 0,
@@ -467,6 +471,12 @@ def cmd_cycle(args) -> int:
     tavern_read_seq = int(session.get("tavern_read_seq", -1))
     montage_cmd = (f"{_MONTAGE_TOOL} make --after-mtime {cursor:.3f} --max-tiles {max_tiles} "
                    f"--ocr --tavern-self {session['persona']} --tavern-since-seq {tavern_read_seq}")
+    # T-STT (Quest stt-whisper-integration, kotoko 2026-07-05): opt-in 語音轉錄。
+    #   start 帶 --stt 才開 (每輪即時擷取音訊 ~20s 較重, 不強制所有觀影者); 開了就在 montage_cmd 附 --stt。
+    if session.get("stt_enabled"):
+        montage_cmd += f" --stt --stt-model {session.get('stt_model', 'small')}"
+        if session.get("stt_lang"):
+            montage_cmd += f" --stt-lang {session['stt_lang']}"
 
     # Companion 多印 peer obs hint (軟提示, 不擋) + primary cursor 比對
     mode = session.get("mode", "primary")
@@ -780,6 +790,13 @@ def main():
                     help=f"每輪 montage 格數上限 (預設 {DEFAULT_MAX_TILES}).")
     sp.add_argument("--tavern-room", default="tavern", help="發觀戰評論的 tavern room.")
     sp.add_argument("--desc", default="", help="本場主題描述 (announcement 會 append).")
+    # T-STT (Quest stt-whisper-integration, kotoko 2026-07-05): opt-in 語音轉錄 (openai-whisper)
+    sp.add_argument("--stt", action="store_true", default=False,
+                    help="開啟語音轉錄: cycle 的 montage_cmd 會帶 --stt, 每輪即時擷取音訊→whisper→sidecar 補「語音轉錄」段 (較重, 預設關).")
+    sp.add_argument("--stt-model", dest="stt_model", default="small",
+                    help="(--stt) whisper 模型 tiny/base/small/medium/large-v3 (預設 small).")
+    sp.add_argument("--stt-lang", dest="stt_lang", default="",
+                    help="(--stt) 語音語言 en/zh/空=自動偵測.")
     sp.add_argument("--json", action="store_true", help="輸出 JSON.")
     sp.set_defaults(func=cmd_start)
 

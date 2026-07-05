@@ -701,6 +701,8 @@ def op_make(args):
     ocr_stats = None
     tavern_stats = None      # T-StreamWatch-TavernSync: 酒館未讀段落報告 (stdout + 推進游標用)
     tavern_max_seq = None    # 這輪實際顯示到的最大 seq, 供 session record_observation 推進已讀游標
+    stt_stats = None         # T-STT: 語音轉錄段報告 (stdout)
+    stt_warn = None          # T-STT: 語音轉錄 fail-soft 警告
     if args.ocr:
         try:
             from subtitle_ocr import (is_available as _ocr_avail, ocr_subtitle_band,
@@ -929,6 +931,41 @@ def op_make(args):
         except Exception as e:
             tavern_stats = f"⚠ 酒館段渲染失敗 (fail-soft): {e}"
 
+    # ===========================================================
+    # T-STT (Quest stt-whisper-integration, kotoko 2026-07-05)
+    # 區塊職責: --stt 時即時擷取最近 N 秒系統音訊 → whisper 轉錄 → 在 sidecar 末尾補「🎙 語音轉錄」段。
+    # 物理意義: OCR 讀畫面翻譯字幕(中), STT 補原始語音(英); 兩段並置給 agent 逐句雙語對照。
+    # 數值影響: 阻塞擷取 N 秒 wall-clock + GPU 轉錄 <1s(短片段); fail-soft — 依賴缺/擷取失敗只補警告不炸。
+    # ===========================================================
+    if getattr(args, "stt", False):
+        try:
+            sys.path.insert(0, str(Path(__file__).resolve().parent))
+            import audio_transcribe as _stt  # type: ignore
+            # cache-only (Tim 2026-07-05 拍板「只讀緩存, 沒緩存的音訊直接無視靠 OCR」):
+            #   讀 daemon STT worker 預產的 cache, 窗口 = [after-mtime, 最新幀 mtime (next_cursor)]。
+            #   montage 端不現跑轉錄 → 多 viewer 同拉不重複運算 (對齊 OCR cache-first 鐵律)。
+            after_ep = float(args.after_mtime)
+            until_ep = float(next_cursor) if next_cursor is not None else time.time()
+            segs, info = _stt.read_stt_cache(after_ep, until_ep)
+            section = _stt.build_stt_section_cached(
+                segs, info, model_size=getattr(args, "stt_model", "small"))
+            # 接到既有 sidecar 末尾 (OCR/tavern 之後); 沒 sidecar 就補一份 STT-only
+            if ocr_sidecar_path is not None and ocr_sidecar_path.exists():
+                with ocr_sidecar_path.open("a", encoding="utf-8") as fh:
+                    fh.write("\n" + section)
+            else:
+                ocr_sidecar_path = out_path.with_suffix(".subtitles.md")
+                head = (f"# Montage Subtitles — {out_path.name}\n\n"
+                        f"_⚠ 僅語音轉錄 (無 OCR/酒館段)_\n\n")
+                ocr_sidecar_path.write_text(head + section, encoding="utf-8")
+            if not info.get("cache_present"):
+                stt_stats = "無 cache (daemon STT worker 未開/未覆蓋此窗口) — 靠 OCR"
+            else:
+                cov = "" if info.get("covered") else " ⚠落後"
+                stt_stats = f"{len(segs)} 段 (cache-only, 命中 {info.get('chunks_hit',0)} chunk{cov}) → 接入 sidecar"
+        except Exception as e:
+            stt_warn = f"⚠ STT 段渲染失敗 (fail-soft): {e}"
+
     # 輸出報告
     try:
         rel = out_path.relative_to(REPO_ROOT)
@@ -967,6 +1004,10 @@ def op_make(args):
     if tavern_max_seq is not None:
         # session record_observation --tavern-seq <M> 拿這值推進已讀游標 (對齊 next-cursor 鐵律, 保 0-gap)
         print(f"  tavern_max_seq={tavern_max_seq}")
+    if stt_stats:
+        print(f"  stt         : {stt_stats}")
+    if stt_warn:
+        print(f"  {stt_warn}")
     if dropped:
         print(f"  dropped     : {len(dropped)} frame(s) unreadable — {', '.join(dropped[:5])}"
               + (" ..." if len(dropped) > 5 else ""))
@@ -1060,6 +1101,17 @@ def main():
                     help="(--ocr 開啟時) 單輪最多顯示幾筆未讀 (截斷取最舊, 游標推到所顯示最大 seq 保 0-gap; 預設 25)")
     pm.add_argument("--audio-strip-height", type=int, default=280,
                     help="audio strip 高度 px (預設 280, summit polish round)")
+    # T-STT (Quest stt-whisper-integration, kotoko 2026-07-05): openai-whisper 語音轉錄接底
+    # 物理意義: --stt 時即時擷取最近 N 秒系統音訊 → whisper 轉錄 → 在字幕 sidecar 末尾補「語音轉錄」段
+    #          (格式對齊 OCR)。近即時觀看用 (cursor≈now); 精確歷史對齊留 v2 (見 audio_transcribe.py 設計決策)。
+    pm.add_argument("--stt", action="store_true", default=False,
+                    help="開啟語音轉錄: 即時擷取系統音訊 → whisper → sidecar 補「🎙 語音轉錄」段")
+    pm.add_argument("--stt-model", dest="stt_model", default="small",
+                    help="whisper 模型 tiny/base/small/medium/large-v3 (預設 small; env STT_WHISPER_MODEL 亦可)")
+    pm.add_argument("--stt-lang", dest="stt_lang", default=None,
+                    help="語音語言 en/zh/None(自動偵測); 直播原文多為 en, 指定可加速穩定")
+    pm.add_argument("--stt-seconds", dest="stt_seconds", type=float, default=20.0,
+                    help="即時擷取最近幾秒音訊轉錄 (預設 20; 上限 30, 阻塞抓滿才回)")
     pm.set_defaults(func=op_make)
 
     pr = sub.add_parser("list-regions", help="列出 region preset")

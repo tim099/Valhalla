@@ -96,11 +96,20 @@ DEFAULT_CONFIG = {
     "ocr_min_conf": 0.5,    # 低信度過濾
     # T-OCR-AdaptiveDensity (Tim 2026-06-10) — lag 過大時自動跳幀追進度 (詳見 subtitle_ocr.py 常數)
     "ocr_adaptive": True,
+    # T-STT-Cache (Quest T06/T07, kotoko 2026-07-05) — 持續語音轉錄 cache (openai-whisper, GPU)
+    # 物理意義: 開啟後背景 worker 連續錄 chunk 轉錄寫 stt/stt_<epoch>.json; montage --stt cache-only 讀。
+    # 數值影響: whisper GPU 常駐 (small ~460MB VRAM); 預設 OFF (跟 ocr_enabled 一樣須手動開)。
+    "stt_enabled": False,
+    "stt_model": "small",       # tiny/base/small/medium/large-v3
+    "stt_lang": "",             # en/zh/空=自動偵測
+    "stt_chunk_sec": 15,        # 每個 cache chunk 音訊長度
     "_schema_version": 1,
 }
 
 # T-OCR-Pipeline — daemon-side OCR cache 目錄 (跟 frames/ 平行)
 OCR_CACHE_DIR = STREAM_DIR / "ocr"
+# T-STT-Cache — daemon-side STT cache 目錄 (跟 frames/ 與 ocr/ 平行)
+STT_CACHE_DIR = STREAM_DIR / "stt"
 
 RESOLUTION_MAP = {
     "2k":     (2560, 1440),
@@ -472,6 +481,9 @@ def main_loop() -> int:
     # 數值影響: pool 失敗 = None → submit skip (fail-soft, daemon 主流程不受影響)
     ocr_pool = None
     last_ocr_enabled = False
+    # T-STT-Cache — STT worker lifecycle 跟 stt_enabled 同步 (對偶 ocr_pool)
+    stt_worker = None
+    last_stt_enabled = False
     try:
         from screenstream_audio_viz import (
             AudioCapture,
@@ -666,6 +678,52 @@ def main_loop() -> int:
                     ocr_pool = None
                     last_ocr_enabled = False  # 允許 next toggle 重 init
 
+            # T-STT-Cache (Quest T07, kotoko 2026-07-05) — STT worker lifecycle 跟 stt_enabled toggle 同步
+            # 物理意義: toggle on → 起 SttCacheWorker (自開 loopback 連續錄 chunk 轉錄寫 stt cache);
+            #          off → stop 釋放 thread + 卸 whisper。model/lang/chunk 改動需 toggle off→on 重起才生效。
+            # 數值影響: whisper GPU 常駐 (small ~460MB VRAM); fail-soft — 依賴缺只 log WARN, 不影響截圖主流程。
+            curr_stt_enabled = bool(cfg.get("stt_enabled", False))
+            if curr_stt_enabled != last_stt_enabled:
+                if curr_stt_enabled:
+                    try:
+                        from audio_transcribe import SttCacheWorker, is_available as _stt_avail, init_error as _stt_err
+                        if not _stt_avail():
+                            log(f"stt worker start skip (whisper 不可用): {_stt_err()}", "WARN")
+                            stt_worker = None
+                        else:
+                            # progress_cb: 每寫一個 chunk 記一筆 daemon log (每 5 chunk 印一次避免洗版)
+                            def _stt_progress(n, n_segs, end_ep):
+                                if n % 5 == 1:
+                                    log(f"stt cache: {n} chunk 已寫 (最新 {n_segs} 段)")
+                            stt_worker = SttCacheWorker(
+                                STT_CACHE_DIR,
+                                model_size=str(cfg.get("stt_model", "small")),
+                                language=(cfg.get("stt_lang") or None),
+                                chunk_sec=float(cfg.get("stt_chunk_sec", 15)),
+                                progress_cb=_stt_progress,
+                            )
+                            stt_worker.start()
+                            log(f"stt cache worker started (model={stt_worker.model_size}, "
+                                f"chunk={stt_worker.chunk_sec}s)")
+                    except Exception as e:
+                        log(f"stt worker start fail: {e}", "WARN")
+                        stt_worker = None
+                else:
+                    if stt_worker is not None:
+                        try:
+                            stt_worker.stop()
+                            log("stt cache worker stopped")
+                        except Exception as e:
+                            log(f"stt worker stop fail: {e}", "WARN")
+                        stt_worker = None
+                last_stt_enabled = curr_stt_enabled
+            # STT worker 早死偵測 (擷取/模型失敗) — 印一次 warn 後關掉允許重 toggle
+            if stt_worker is not None and stt_worker.error() and (
+                    stt_worker._thread is None or not stt_worker._thread.is_alive()):
+                log(f"stt worker dead (will fail-soft): {stt_worker.error()}", "WARN")
+                stt_worker = None
+                last_stt_enabled = False
+
             # T-AudioLog (Tim 2026-06-08, summit ship) — 每 N frame 觸發 dump audio log
             # 物理意義: 給 screenstream_montage.py 載入後可按 cycle 區間 slice 渲染 audio strip
             # 數值影響: 寫 .npz ~1MB, atomic 換檔; 失敗只 log WARN, daemon 主流程不阻塞
@@ -699,6 +757,9 @@ def main_loop() -> int:
             except Exception: pass
         if ocr_pool is not None:
             try: ocr_pool.stop()
+            except Exception: pass
+        if stt_worker is not None:
+            try: stt_worker.stop()
             except Exception: pass
         cleanup_pid()
 
