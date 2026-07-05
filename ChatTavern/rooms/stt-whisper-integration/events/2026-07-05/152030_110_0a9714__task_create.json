@@ -1,0 +1,1 @@
+{"ts":"2026-07-05T15:20:30.110Z","actor":"","idempotency_key":"7549560d-c0c4-4e7e-b54e-8ce196f446d6","type":"task_create","task_id":"T07-cacheonly","data":{"title":"montage --stt 改cache-only讀(沒cache無視靠OCR)+daemon加stt worker lifecycle","role":"programmer","priority":"high","depends_on":"T06-cache-worker"}}

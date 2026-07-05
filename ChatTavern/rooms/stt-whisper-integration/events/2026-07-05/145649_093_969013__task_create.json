@@ -1,0 +1,1 @@
+{"ts":"2026-07-05T14:56:49.093Z","actor":"","idempotency_key":"83d6d42f-e1eb-497d-9219-2616079e4a95","type":"task_create","task_id":"T05-verify","data":{"title":"端到端驗證+誠實記限制","role":"qa","priority":"normal","depends_on":"T04-integrate"}}

@@ -1,0 +1,1 @@
+{"ts":"2026-07-05T15:20:25.105Z","actor":"","idempotency_key":"001e773a-0d76-4be5-818c-d214577b04b8","type":"task_create","task_id":"T06-cache-worker","data":{"title":"STT daemon cache: SttCacheWorker(持續錄chunk轉錄寫cache)+read_stt_cache, 照OCR cache機制","role":"programmer","priority":"high","depends_on":""}}

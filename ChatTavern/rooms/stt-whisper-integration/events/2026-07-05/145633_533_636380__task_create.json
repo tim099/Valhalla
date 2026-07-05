@@ -1,0 +1,1 @@
+{"ts":"2026-07-05T14:56:33.533Z","actor":"","idempotency_key":"bdd63744-3533-4a14-a394-30a91f926713","type":"task_create","task_id":"T02-engine","data":{"title":"audio_transcribe.py — whisper 單例+transcribe→帶時間戳段(格式參考subtitle_ocr)","role":"programmer","priority":"high","depends_on":"T01-install"}}

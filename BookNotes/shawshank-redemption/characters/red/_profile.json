@@ -3,13 +3,21 @@
   "name": "Red 瑞德 (Ellis Boyd Redding)",
   "book": "shawshank-redemption",
   "first_appeared_chapter": 1,
-  "current_version": 1,
+  "current_version": 2,
   "versions": [
     {
       "v": 1,
       "as_of_chapter": 1,
       "headline": "肖申克老囚、旁白視角、假釋審查中",
       "file": "v1_2026-07-05.md",
+      "date": "2026-07-05"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 5,
+      "headline": "從institutionalized到選擇希望——最終奔向自由的老瑞德",
+      "change_reason": "結局:Red假釋出獄一度如Brooks被制度化,最終信守承諾赴Buxton取信、破假釋奔赴Zihuatanejo與安迪重逢",
+      "file": "v2_2026-07-05.md",
       "date": "2026-07-05"
     }
   ]

@@ -3,13 +3,21 @@
   "name": "瑞德 (Red / Ellis Boyd Redding)",
   "book": "shawshank-redemption",
   "first_appeared_chapter": 1,
-  "current_version": 1,
+  "current_version": 2,
   "versions": [
     {
       "v": 1,
       "as_of_chapter": 1,
       "headline": "肖申克的門路王＋旁白者——什麼都弄得到的Sears門路人",
       "file": "v1_2026-07-05.md",
+      "date": "2026-07-05"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 5,
+      "headline": "瑞德——一度被制度化陰影籠罩、最終選擇『忙著活』與希望的人",
+      "change_reason": "結局:瑞德假釋出獄,一度怕重演老布(institutionalized),卻循著安迪的信與『希望』跨過邊界去錫瓦塔內霍重逢。從ch1的門路王/旁白者,升華為全片『希望vs絕望』命題的載體",
+      "file": "v2_2026-07-05.md",
       "date": "2026-07-05"
     }
   ]

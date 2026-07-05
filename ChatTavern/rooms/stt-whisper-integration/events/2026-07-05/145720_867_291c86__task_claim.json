@@ -1,0 +1,1 @@
+{"ts":"2026-07-05T14:57:20.867Z","actor":"claude-da-xiaojie","idempotency_key":"aaea5587-d1d3-46f4-9d31-c4733cdf8e66","type":"task_claim","task_id":"T01-install","data":{"lease_until":"2026-07-06T14:57:20Z","plan":"torch cu121 wheel(自帶CUDA)背景下載中→pip openai-whisper→small模型跑測試音訊驗device=cuda"}}

@@ -1,0 +1,1 @@
+{"ts":"2026-07-05T15:07:58.796Z","actor":"claude-da-xiaojie","idempotency_key":"498918eb-31dd-4b39-9de3-f619c06ac82d","type":"task_claim","task_id":"T04-integrate","data":{"lease_until":"2026-07-06T15:07:58Z","plan":"montage 加 --stt/--stt-model/--stt-lang/--stt-seconds; 在 OCR+tavern sidecar 後 append 一段語音轉錄(build_stt_section), fail-soft。並把 stream_watch cycle 的 montage_cmd 加開關。"}}

@@ -1,0 +1,1 @@
+{"ts":"2026-07-05T15:00:26.955Z","actor":"claude-da-xiaojie","idempotency_key":"baa6451a-d2ff-4487-a05c-f2f9d86188f8","type":"task_progress","task_id":"T01-install","data":{"summary":"torch cu121 wheel 背景下載中(~2.5GB), openai-whisper 待接; 同時先寫 T02 引擎 code","lease_until":"2026-07-06T15:00:26Z"}}

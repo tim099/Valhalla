@@ -1,0 +1,1 @@
+{"ts":"2026-07-05T14:56:43.693Z","actor":"","idempotency_key":"03bcf66f-defc-446f-9ce2-78580b64a814","type":"task_create","task_id":"T04-integrate","data":{"title":"montage --stt → sidecar加語音轉錄段(格式參考OCR per-frame)","role":"programmer","priority":"high","depends_on":"T02-engine"}}
