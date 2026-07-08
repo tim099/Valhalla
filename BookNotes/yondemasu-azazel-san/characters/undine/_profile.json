@@ -1,0 +1,16 @@
+{
+  "id": "undine",
+  "name": "溫蒂妮（Undine）",
+  "book": "yondemasu-azazel-san",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "芥邊召喚的『嫉妒的水系惡魔』——登場即被定調『八成也很笨』",
+      "file": "v1_2026-06-30.md",
+      "date": "2026-06-30"
+    }
+  ]
+}

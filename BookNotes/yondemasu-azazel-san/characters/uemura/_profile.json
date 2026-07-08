@@ -1,0 +1,24 @@
+{
+  "id": "uemura",
+  "name": "植村（教授）",
+  "book": "yondemasu-azazel-san",
+  "first_appeared_chapter": 2,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "早瀨田大學大名鼎鼎的憲法/人權學教授、謙和素食的善人，第二話委託人（找愛犬）",
+      "file": "v1_2026-06-30.md",
+      "date": "2026-06-30"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 2,
+      "headline": "善人面具下的偽善虐待狂——『聖人君子不存在』的活標本",
+      "change_reason": "貝西卜的能力逼出植村本性:鏡頭外虐待自己的狗,博愛素食善人形象全是表演",
+      "file": "v2_2026-06-30.md",
+      "date": "2026-06-30"
+    }
+  ]
+}

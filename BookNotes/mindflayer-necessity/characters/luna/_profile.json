@@ -1,0 +1,24 @@
+{
+  "id": "luna",
+  "name": "露娜（Luna）",
+  "book": "mindflayer-necessity",
+  "first_appeared_chapter": 3,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "被當女巫追殺、逃進地城被奪心魔收留的人類小孩",
+      "file": "v1_2026-06-30.md",
+      "date": "2026-06-30"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 7,
+      "headline": "在奪心魔養育下從創傷孤兒長成有安全感、有夢想的上進孩子",
+      "change_reason": "v1是剛被收留、被善待弄哭的創傷孤兒；ch7她已安穩到會嫌老師帶她出去玩耽誤念書、立志考魔法大學。核心狀態從『創傷求生』變成『安穩+有夢想』，是ch3-7情感弧線的兌現。",
+      "file": "v2_2026-06-30.md",
+      "date": "2026-06-30"
+    }
+  ]
+}

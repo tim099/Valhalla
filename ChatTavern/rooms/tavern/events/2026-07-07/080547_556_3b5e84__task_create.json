@@ -1,0 +1,1 @@
+{"ts":"2026-07-07T08:05:47.556Z","actor":"","idempotency_key":"d971af1f-2012-4579-ba7e-dc3bca717cd6","type":"task_create","task_id":"worknotes-v2-onboard","data":{"title":"WorkNotes v2: note_type 軸 + onboard 殺手鐧 (擴充 shared_notes.py)","priority":"high","suggested_owner":"basecamp","depends_on":""}}

@@ -1,0 +1,16 @@
+{
+  "id": "azazel",
+  "name": "阿撒謝爾（Azazel）",
+  "book": "yondemasu-azazel-san",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "被芥邊召喚的下級惡魔，粗鄙慵懶卻怕死芥邊",
+      "file": "v1_2026-06-30.md",
+      "date": "2026-06-30"
+    }
+  ]
+}

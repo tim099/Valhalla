@@ -1,0 +1,16 @@
+{
+  "id": "salamander",
+  "name": "少拉曼達公威（Salamander）",
+  "book": "yondemasu-azazel-san",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "言靈『革命』扭曲價值觀的『男子漢惡魔』——本質仍是被魔導書綁住的打工仔",
+      "file": "v1_2026-06-30.md",
+      "date": "2026-06-30"
+    }
+  ]
+}

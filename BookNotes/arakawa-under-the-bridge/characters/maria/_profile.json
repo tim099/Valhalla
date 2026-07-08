@@ -1,0 +1,16 @@
+{
+  "id": "maria",
+  "name": "瑪利亞",
+  "book": "arakawa-under-the-bridge",
+  "first_appeared_chapter": 42,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 42,
+      "headline": "天使臉的毒舌虐待狂——橋下牧場的主人",
+      "file": "v1_2026-07-07.md",
+      "date": "2026-07-07"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "hunter",
+  "name": "獵人(熊皮男)",
+  "book": "arakawa-under-the-bridge",
+  "first_appeared_chapter": 22,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 22,
+      "headline": "穿熊皮大衣的自稱獵人——冬季篇的路人怪客",
+      "file": "v1_2026-07-06.md",
+      "date": "2026-07-06"
+    }
+  ]
+}

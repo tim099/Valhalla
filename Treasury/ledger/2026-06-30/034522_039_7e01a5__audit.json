@@ -1,0 +1,18 @@
+{
+  "ts": "2026-06-30T03:45:22.039Z",
+  "uuid": "7e01a5",
+  "type": "audit",
+  "amount": 0,
+  "currency": "tavern_token",
+  "account_id": "zeta",
+  "source_kind": "draw_voucher_consume",
+  "source_ref": "voucher:summit:60,43",
+  "source_description": "draw voucher consumed @ canvas (summit)",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "8612",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_7e01a5",
+  "signature_mismatch": false
+}

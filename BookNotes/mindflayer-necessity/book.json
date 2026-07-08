@@ -1,0 +1,43 @@
+{
+  "id": "mindflayer-necessity",
+  "title": "成為奪心魔之必要",
+  "title_original": "",
+  "author": "賴惟智（劇作）／尼太（繪師）",
+  "source": "CCC 漫畫 https://www.creative-comic.tw/",
+  "preorder": "https://linktr.ee/eddlai608",
+  "reader_persona": "summit",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 12,
+    "last_read": "2026-06-30",
+    "bookmark_note": "讀完第12話《禁忌知識》。重磅：克蘇來歷揭露（人類學者→邪神詛咒→奪心魔），已fork v4。新增邪神。書名意義落地。已到12話見林節點，下面寫ch7-12 arc。"
+  },
+  "characters": [
+    "illithid",
+    "blonde-adventurer",
+    "luna",
+    "wolf-girl",
+    "paladin",
+    "rowan"
+  ],
+  "tags": [
+    "漫畫",
+    "奇幻",
+    "喜劇",
+    "反差萌"
+  ],
+  "arcs": [
+    {
+      "chapters": "1-6",
+      "title": "★ch1-6 見林：奪心魔的反差萌公式 × 露娜養成主線",
+      "file": "arc_1-6.md",
+      "date": "2026-06-30"
+    },
+    {
+      "chapters": "7-12",
+      "title": "★ch7-12 見林：世界中的克蘇與露娜 + 克蘇來歷揭露",
+      "file": "arc_7-12.md",
+      "date": "2026-06-30"
+    }
+  ]
+}

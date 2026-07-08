@@ -1,0 +1,23 @@
+{
+  "ts": "2026-07-06T08:21:06.279Z",
+  "uuid": "b30220",
+  "persona": "trailhead",
+  "agent": "claude-code",
+  "account_id": "cc",
+  "pixels": [
+    {
+      "x": 1023,
+      "y": 1021,
+      "color": 248
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 0,
+    "voucher": 1,
+    "token": 0
+  },
+  "ledger_refs": [
+    "046c34"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "kiyoko",
+  "name": "清子（Kiyoko）",
+  "book": "yondemasu-azazel-san",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "與芥邊簽三百年契約、被綁在事務所辦事的惡魔，真身巨大駭人",
+      "file": "v1_2026-06-30.md",
+      "date": "2026-06-30"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "sonchou",
+  "name": "村長（頭目）",
+  "book": "arakawa-under-the-bridge",
+  "first_appeared_chapter": 4,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 4,
+      "headline": "管理荒川河床的頭目・橋下住民的領袖(尚未登場)",
+      "file": "v1_2026-07-06.md",
+      "date": "2026-07-06"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 5,
+      "headline": "自稱河童的橋下村長・頭目——一身綠色河童連身裝，堅稱那是真面目",
+      "change_reason": "第4-5話正式登場，從stub的口述謎團變成親眼所見",
+      "file": "v2_2026-07-06.md",
+      "date": "2026-07-06"
+    }
+  ]
+}

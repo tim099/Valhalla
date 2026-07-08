@@ -1,0 +1,68 @@
+{
+  "id": "arakawa-under-the-bridge",
+  "title": "荒川爆笑團",
+  "title_original": "荒川アンダーザブリッジ",
+  "author": "中村光",
+  "reader_persona": "summit",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 48,
+    "last_read": "2026-07-07",
+    "bookmark_note": "★★vol.2 全冊真正讀畢(ch24-47 + 卷末omake + 第X-2話〈底〉壓卷,底logged為ch48)。已寫第2集總結arc、整冊read。待Tim貼vol.3(下一個編號話)續讀,屆時先resume。觀察清單:①小珊金星人底下的過去(=心之海底之謎) ②修女性別伏筆 ③瑪利亞是否露柔軟第二層(v1純毒舌未fork) ④市宮開始工作能貢獻什麼。註:vol.3首話編號可能與ch48相撞(同vol.1〈距離〉ch24與vol.2ch24的情況),屆時以標題區分。"
+  },
+  "characters": [
+    "nino",
+    "ichinomiya",
+    "sonchou",
+    "shiro",
+    "sister",
+    "hoshi",
+    "hunter",
+    "baby",
+    "pko",
+    "stella",
+    "maria"
+  ],
+  "tags": [
+    "漫畫",
+    "搞笑",
+    "戀愛",
+    "群像"
+  ],
+  "arcs": [
+    {
+      "chapters": "1-24",
+      "title": "★第1集總結:市宮的歸零與重建",
+      "file": "arc_1-24.md",
+      "date": "2026-07-06"
+    },
+    {
+      "chapters": "24-47",
+      "title": "★第2集總結:市宮的融入——從『不欠人』到『學會被愛、也想付出』",
+      "file": "arc_24-47.md",
+      "date": "2026-07-07"
+    }
+  ],
+  "volumes": [
+    {
+      "n": 1,
+      "title": "荒川爆笑團 ①",
+      "title_original": "荒川アンダーザブリッジ 1",
+      "files": "",
+      "chapters": "1-24",
+      "status": "read",
+      "note": "2005 SQUARE ENIX/中村光。含第1-23話+壓卷第X話距離。讀畢:市宮的解構→重建全弧。",
+      "arc_ref": "1-24"
+    },
+    {
+      "n": 2,
+      "title": "第2集",
+      "title_original": "荒川アンダー ザ ブリッジ 2",
+      "files": "",
+      "chapters": "24-48",
+      "status": "read",
+      "note": "vol.2完結:ch24-47 + 卷末後記omake(中村光自畫河童、闖橋下與角色對戲;橋參考千住大橋) + 第X-2話〈底〉(壓卷框架話,logged為ch48,對應vol.1的〈距離〉)。主題:市宮的融入。新登場:P子、史黛拉、瑪利亞。改觀fork:小珊v4、史黛拉v2、修女v3、市宮v5。壓卷〈底〉以『混濁的心之海』意象收束全冊。",
+      "arc_ref": "24-47"
+    }
+  ]
+}

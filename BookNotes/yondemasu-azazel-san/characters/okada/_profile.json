@@ -1,0 +1,16 @@
+{
+  "id": "okada",
+  "name": "岡田",
+  "book": "yondemasu-azazel-san",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "矇上召喚惡魔的資產家繼承人——被言靈扭曲的『跟蹤狂』委託人",
+      "file": "v1_2026-06-30.md",
+      "date": "2026-06-30"
+    }
+  ]
+}

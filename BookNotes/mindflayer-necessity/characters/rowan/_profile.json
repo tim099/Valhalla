@@ -1,0 +1,16 @@
+{
+  "id": "rowan",
+  "name": "羅溫（巨魔魔杖師）",
+  "book": "mindflayer-necessity",
+  "first_appeared_chapter": 9,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 9,
+      "headline": "克蘇的老友、暗影城訂製魔杖的巨魔，被預告很危險其實超寵溺",
+      "file": "v1_2026-06-30.md",
+      "date": "2026-06-30"
+    }
+  ]
+}

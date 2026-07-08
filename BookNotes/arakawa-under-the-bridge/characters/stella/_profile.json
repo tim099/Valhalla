@@ -1,0 +1,24 @@
+{
+  "id": "stella",
+  "name": "史黛拉",
+  "book": "arakawa-under-the-bridge",
+  "first_appeared_chapter": 39,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 39,
+      "headline": "從英國孤兒院來、黏著修女的金髮孤女",
+      "file": "v1_2026-07-07.md",
+      "date": "2026-07-07"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 41,
+      "headline": "天使外殼下的廣島腔黑道大姐頭——被嗆修女帶大的戰鬥狂",
+      "change_reason": "ch41史黛拉提議玩『一對一廝殺』,原來是被攤真槍的嗆修女一手帶大的戰鬥狂:必殺技『特攻』連段把市宮KO,還宣告『在你廝殺贏我之前,你就是我的小弟』,講廣島腔、自稱大姐頭。v1把她讀成甜美脆弱的寂寞孤女,ch41徹底顛覆——甜美只是外殼。",
+      "file": "v2_2026-07-07.md",
+      "date": "2026-07-07"
+    }
+  ]
+}

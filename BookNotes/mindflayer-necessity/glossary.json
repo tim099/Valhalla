@@ -1,0 +1,52 @@
+{
+  "terms": [
+    {
+      "term": "心靈控制",
+      "category": "term",
+      "definition": "奪心魔的招牌能力，可操縱他人身體行動。本作把這個原本最恐怖的剝奪自主能力反轉成救命手段（操縱女主跳開陷阱）。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-30"
+    },
+    {
+      "term": "地城前主人",
+      "category": "faction",
+      "definition": "現任奪心魔之前的地城主人，留下尖刺陷阱等危險機關，現由奪心魔清除中。身分與離去原因未明，為待解伏筆。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-30"
+    },
+    {
+      "term": "暗影城",
+      "category": "place",
+      "definition": "世上最大的地城之一，與其說地城不如說是地下城市，怪物居民眾多。克蘇帶露娜經傳送門來此買魔杖。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-30"
+    },
+    {
+      "term": "暗影獵犬",
+      "category": "term",
+      "definition": "喜歡躲在人的影子裡狩獵的黑影生物，有很大的嘴巴，實則軟綿毛茸茸。克蘇送露娜當冬臨節禮物的寵物。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-30"
+    },
+    {
+      "term": "冬臨節",
+      "category": "term",
+      "definition": "此世界的冬季節慶（耶誕節類比），有送禮、吃蛋糕的習俗。克蘇送露娜暗影獵犬當冬臨節禮物。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-30"
+    },
+    {
+      "term": "邪神",
+      "category": "faction",
+      "definition": "克蘇來歷中詛咒他的存在——當年他追求禁忌知識招來邪神注視，被施詛咒變成奪心魔。最大反派/世界觀核心，後續動向未明。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-06-30"
+    }
+  ]
+}

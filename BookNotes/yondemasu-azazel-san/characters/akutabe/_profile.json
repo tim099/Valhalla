@@ -1,0 +1,16 @@
+{
+  "id": "akutabe",
+  "name": "芥邊（Akutabe）",
+  "book": "yondemasu-azazel-san",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "表面普通偵探、真面目是召喚惡魔解案的『惡魔偵探』，連惡魔都怕他",
+      "file": "v1_2026-06-30.md",
+      "date": "2026-06-30"
+    }
+  ]
+}

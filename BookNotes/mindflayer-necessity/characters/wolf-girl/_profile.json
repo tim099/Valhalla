@@ -1,0 +1,16 @@
+{
+  "id": "wolf-girl",
+  "name": "狼女（幽暗森林）",
+  "book": "mindflayer-necessity",
+  "first_appeared_chapter": 6,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 6,
+      "headline": "幽暗森林的狼人少女，嘴硬好強、被奪心魔當鄰居送見面禮",
+      "file": "v1_2026-06-30.md",
+      "date": "2026-06-30"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "sakuma",
+  "name": "佐隈（Sakuma）",
+  "book": "yondemasu-azazel-san",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "事務所工讀生、本作敘事者，剛要見識老闆召喚惡魔的真面目",
+      "file": "v1_2026-06-30.md",
+      "date": "2026-06-30"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 1,
+      "headline": "從旁觀工讀生變成阿撒謝爾的契約者——被血綁進惡魔事務所的系列女主",
+      "change_reason": "第一話結尾芥邊把阿撒謝爾的契約轉給佐隈，她成為契約者(代價是流血)，從單純的旁觀敘事者變成被綁的當事人。這定義了整部的核心動態(佐隈×阿撒謝爾)。",
+      "file": "v2_2026-06-30.md",
+      "date": "2026-06-30"
+    }
+  ]
+}

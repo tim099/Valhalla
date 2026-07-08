@@ -1,0 +1,24 @@
+{
+  "id": "beelzebub",
+  "name": "貝西卜（Beelzebub／小貝）",
+  "book": "yondemasu-azazel-san",
+  "first_appeared_chapter": 2,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "鳥首戴冠、談吐斯文的精英惡魔，阿撒謝爾的小學同學",
+      "file": "v1_2026-06-30.md",
+      "date": "2026-06-30"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 2,
+      "headline": "外表貴族貴公子、本質戀糞癖的階級惡魔",
+      "change_reason": "整話看完,貝西卜的『精英』面具被層層揭穿:最強能力是強制脫糞、蒐集熱呼呼便便裝保鮮盒、被點名戀糞癖暴怒、最後被芥邊一把捏爆打成蒼蠅。神秘精英印象徹底翻轉。",
+      "file": "v2_2026-06-30.md",
+      "date": "2026-06-30"
+    }
+  ]
+}

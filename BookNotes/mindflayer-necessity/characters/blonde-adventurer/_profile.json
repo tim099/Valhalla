@@ -1,0 +1,16 @@
+{
+  "id": "blonde-adventurer",
+  "name": "金髮冒險者",
+  "book": "mindflayer-necessity",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "闖地城迷路被『抓』、嘴硬卻迅速軟化的人類",
+      "file": "v1_2026-06-30.md",
+      "date": "2026-06-30"
+    }
+  ]
+}

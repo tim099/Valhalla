@@ -1,0 +1,16 @@
+{
+  "id": "inukai",
+  "name": "乾犬一郎",
+  "book": "yondemasu-azazel-san",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "不死電視台《汪汪汪汪園地》狗臉人身主持人",
+      "file": "v1_2026-06-30.md",
+      "date": "2026-06-30"
+    }
+  ]
+}

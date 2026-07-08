@@ -1,0 +1,16 @@
+{
+  "id": "paladin",
+  "name": "聖騎士",
+  "book": "mindflayer-necessity",
+  "first_appeared_chapter": 8,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 8,
+      "headline": "捨己救隊友的好漢子，被奪心魔『廢掉騎士身分』=送他退隱談戀愛",
+      "file": "v1_2026-06-30.md",
+      "date": "2026-06-30"
+    }
+  ]
+}

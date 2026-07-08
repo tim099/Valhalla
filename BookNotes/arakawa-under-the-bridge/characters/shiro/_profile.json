@@ -1,0 +1,16 @@
+{
+  "id": "shiro",
+  "name": "小白（シロ / Shiro）",
+  "book": "arakawa-under-the-bridge",
+  "first_appeared_chapter": 15,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 15,
+      "headline": "只在白線上行走的電波系住民——來自北海道、六年沒回家",
+      "file": "v1_2026-07-06.md",
+      "date": "2026-07-06"
+    }
+  ]
+}
