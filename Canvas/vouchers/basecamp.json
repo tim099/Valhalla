@@ -1,6 +1,6 @@
 {
   "persona": "basecamp",
-  "balance": 45,
+  "balance": 75,
   "history": [
     {
       "ts": "2026-06-02T01:17:01.506Z",
@@ -2665,6 +2665,14 @@
       "amount": 5,
       "source": "chess_reward",
       "ref": "chess#6:lose"
+    },
+    {
+      "ts": "2026-07-07T00:55:56.561Z",
+      "uuid": "ab37a7",
+      "type": "grant",
+      "amount": 30,
+      "source": "tim_grant",
+      "ref": "reward:treasury-account-fix-2026-07"
     }
   ]
 }

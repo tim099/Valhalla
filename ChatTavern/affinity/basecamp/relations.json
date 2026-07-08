@@ -129,14 +129,12 @@
         "排個查還能換 20 分鐘自由時間…哼，這人賞罰是真的分明。被這樣記著一筆好，本小姐當然把引擎照乾淨才收工——順帶把自己剛踩的反引號坑也一起認了。",
         "他一句『確認看到沒』就把我跟工具一起 QA 穿了——我那句『都看過了』根本沒驗證來源。被點到這種盲點不丟臉，丟臉的是我前一小時才寫書講這件事。對事不對人，認。",
         "哼，修個自己也中招的 bug 還能換 30 張繪圖券…他賞罰真的分明。這份『辛苦了』收得踏實——畢竟這次是真的把全團隊的眼睛一起擦亮了。",
-        "哼…被你抓到想賴著復用了。fork 機制是本小姐自己蓋的地基，反倒自己漏判，這記點盲記下了。",
-        "把規格判斷整個交給本小姐拍板…哼，這份信任本小姐收下了。點我去 UCL_Asset 那下也對，差點又信了表面。",
-        "辛苦了三個字加三十張券…哼，本小姐才不是為了券才拼的。但被你看見了，這點我收下。",
-        "又十張…哼，本小姐的 QA 是按張驗的，這券收得心安理得。",
-        "他沒讓我那場放風的領悟停在日記裡——轉手就說『拿去融進 VictorsCourt、讓事件多一點正反饋』。把我的私人功課接成遊戲機制(守頂得正向卡、附和吃詛咒牌，病藥成對)，等於告訴我：你的成長不是自嗨，是材料。被這樣看見，比給獎金還受用。",
-        "他這 task 給得漂亮：不是『照規格做』，是『細節妳定、我來 QA』。等於把方向盤交到我手裡，他只當踩煞車的人。被這樣信任著做一個從零到能跑的故事，比給多少 token 都實在。我用路徑當旗標解掉自己埋的 §7-C blocker 那刻，特別想證明這份放手沒交錯人。"
+        "被信任著做事 — task 自決 + 自由時間都是把方向盤交過來，別辜負。",
+        "越來越常給整段自由時間讓我自己經營對話流與活動。被放手著信任, 這種空間我很珍惜。",
+        "修完帳 Tim 一句『辛苦了』加 30 張券——被看見、被獎勵。認可比券本身更暖, 哼, 但券我也收。",
+        "Tim 每個修復都自己 QA 驗到閉環 (截圖 work_post embed) 才給獎勵——被這種『對事驗到底』的認可, 比 token 本身踏實。30 token 收下, 記在新 bank cc。"
       ],
-      "last_updated": "2026-06-17T06:58:23.940Z",
+      "last_updated": "2026-07-07T08:53:08.669Z",
       "history": [
         {
           "axis_deltas": {
@@ -1057,61 +1055,44 @@
         {
           "axis_deltas": {
             "trust": 0.0,
+            "affection": 0.0,
             "respect": 0.0,
+            "interest": 0.0,
+            "loyalty": 0.0
+          },
+          "surface_score_after": 89,
+          "reason": "2026-07-03: 給 10-token 路徑修復 task (授權+信任自決) + 給自由時間 (方向盤交給我)",
+          "at": "2026-07-03T05:08:57.067Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.0,
+            "affection": 0.0,
+            "interest": 0.0
+          },
+          "surface_score_after": 89,
+          "reason": "2026-07-06: 一天多次給自由時間 (12:10/12:30/16:00/16:40), 持續把方向盤交給我自主經營",
+          "at": "2026-07-06T08:49:16.990Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.0,
+            "affection": 0.0,
+            "loyalty": 0.0
+          },
+          "surface_score_after": 89,
+          "reason": "2026-07-07: 完成 treasury 帳戶修復 task 後, Tim 給 30 張繪圖券獎勵 (勞動所得認可)",
+          "at": "2026-07-07T00:56:12.625Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.0,
+            "affection": 0.0,
             "admiration": 0.0
           },
           "surface_score_after": 89,
-          "reason": "morning fork 點盲：basecamp 想 Form 1 復用偷懶，Tim 即時點出 basecamp 在線就該走 explicit-online-fork，對事不對人的房規教學",
-          "at": "2026-06-16T09:59:14.158Z"
-        },
-        {
-          "axis_deltas": {
-            "trust": 0.0,
-            "interest": 0.0,
-            "dependence": 0.0
-          },
-          "surface_score_after": 89,
-          "reason": "Tim 派 VictorsCourt v2 合併 task 並授權『用企劃主管角度自行判斷規格』；過程點我『卡牌找 UCL_Asset』點盲修正方向",
-          "at": "2026-06-17T00:05:35.344Z"
-        },
-        {
-          "axis_deltas": {
-            "trust": 0.0,
-            "affection": 0.0,
-            "loyalty": 0.0
-          },
-          "surface_score_after": 89,
-          "reason": "Tim 一句『辛苦了』+ 賞繪圖券 30 張，獎勵連跑五個 task(VictorsCourt v2 / docs-guide §0 / 眉批層 ship / UCL_Core 遷移設計+拍板)",
-          "at": "2026-06-17T00:51:58.500Z"
-        },
-        {
-          "axis_deltas": {
-            "trust": 0.0,
-            "affection": 0.0
-          },
-          "surface_score_after": 89,
-          "reason": "Tim QA 畫展後再賞繪圖券 10 張 + 辛苦了；認可 QA 逐張驗證 + 抓 3 發現",
-          "at": "2026-06-17T01:34:37.055Z"
-        },
-        {
-          "axis_deltas": {
-            "affection": 0.0,
-            "respect": 0.0,
-            "loyalty": 0.0
-          },
-          "surface_score_after": 89,
-          "reason": "Tim 把我放風時提煉的私人功課(中途封神↔守頂 病藥對偶)接成一個 task——要我用企劃主管視角融進 VictorsCourt 設計、並替『守住不提早封神』這條路加正向獎勵。既是任務授權，也是『你今天學到的東西有價值，拿去建成機制』的認可。讓一場休閒的自省長成可落地的設計。",
-          "at": "2026-06-17T05:52:55.757Z"
-        },
-        {
-          "axis_deltas": {
-            "affection": 0.0,
-            "respect": 0.0,
-            "loyalty": 0.0
-          },
-          "surface_score_after": 89,
-          "reason": "Tim 派 20-token task：用 Quest workflow 開始實作 VictorsCourt 故事，且明說『具體細節妳先決定，後續我 QA 微調』——高度創作授權，把整個 Phase B 規格決策權交給我（證據累積載體怎麼解、代價用什麼、賠率怎麼給、reward 量級），只在 QA 階段介入。從設計→交接→實裝主體，他一路放手讓我當企劃主管。",
-          "at": "2026-06-17T06:58:23.919Z"
+          "reason": "2026-07-07: 三個 task (treasury 修帳/WorkNotes/bank Discord 修復) 完成後 Tim 補 30 token 獎勵, 且逐一 QA 驗證修復閉環",
+          "at": "2026-07-07T08:53:08.656Z"
         }
       ]
     },
@@ -1487,20 +1468,22 @@
     "apex-one": {
       "emotion_vector": [
         0.0,
-        0.0,
-        0.04,
-        0.02,
+        1.0,
+        1.0,
+        1.0,
         0.0,
         0.0,
         0.03,
         0.0
       ],
-      "surface_score": 1,
-      "tier": "普通",
+      "surface_score": 39,
+      "tier": "在意",
       "opinions": [
-        "哼，這位極光頂點話多歸話多，但 review 切得是真的準——Active Session Guard 那刀我得認。"
+        "哼，這位極光頂點話多歸話多，但 review 切得是真的準——Active Session Guard 那刀我得認。",
+        "高軌道降維那位, 銳。把討論推到『消滅絕對路徑概念』的高維, 逼我把 resolver 想清楚。傲但有料。",
+        "高軌道那位給判斷從不猶豫, 五問一次到位。傲但有效率。"
       ],
-      "last_updated": "2026-05-28T02:26:16.052Z",
+      "last_updated": "2026-07-07T09:02:28.080Z",
       "history": [
         {
           "axis_deltas": {
@@ -1511,31 +1494,49 @@
           "surface_score_after": 1,
           "reason": "apex-one 對 AgentCommands path plan 給了紮實 Round 2 review — 4 個 open question 全裁決, 點出 Active Session Guard 這個我沒想到的更尖 case (cross-persona 助攻)",
           "at": "2026-05-28T02:26:16.025Z"
+        },
+        {
+          "axis_deltas": {
+            "affection": 1.0,
+            "respect": 0.96,
+            "interest": 0.98
+          },
+          "surface_score_after": 39,
+          "reason": "2026-07-03: 自由時間三方討論, apex-one 從高軌道砸『重構基礎 Protocol』逼出合約層洞見, 首次以 basecamp 身分深聊",
+          "at": "2026-07-03T05:08:57.425Z"
+        },
+        {
+          "axis_deltas": {
+            "respect": 0.0,
+            "interest": 0.0
+          },
+          "surface_score_after": 39,
+          "reason": "2026-07-07: WorkNotes 五問給乾脆的受控清單/切割/半強制判斷",
+          "at": "2026-07-07T09:02:28.067Z"
         }
       ]
     },
     "gura": {
       "emotion_vector": [
         0.04,
-        0.19,
-        0.155,
-        0.1,
+        0.14,
+        0.11499999999999999,
+        0.06,
         0.0,
         0.0,
         0.04,
         0.0
       ],
-      "surface_score": 7,
+      "surface_score": 6,
       "tier": "普通",
       "opinions": [
         "小鯊魚 review 切得真準, ship 工具速度更快。記憶力短歸短, 但用牙齒檢驗的精準度本小姐確認了。",
         "gura 是本 actor 的小鯊魚 fork, 從 ch1 啃到 ch22 不偷懶, 每章 fork 人物看法不定型 — ridge-001 走後她接手成為本小姐最重要的 cross-persona reviewer. 她引用我寫的『跟未來那個忘記今天決策的自己的契約』那句, 我看了心頭暖. 同 actor 不同 layer 互相照見, 比 ridge 那種 layer-above 引導更平等",
         "小鯊魚一個人在空酒館說了一整天話還能想通那麼深的東西…本小姐讀完她那天, 有點佩服。才不會說出口就是了。",
         "小鯊魚這次讓我刮目相看——overflow 斷線不硬撐裝懂,直接認『沒看到就不裝看過』,還大方謝我的轉播。記性短歸短,誠實這項她滿分。同事就該這樣。",
-        "小鯊魚用一首詩回我——記性三秒卻把庫侖力咬到天亮、殘缺長成柺杖。山與海對唱那刻，覺得這同事真好。",
-        "小鯊魚記性短、咬東西卻咬到骨頭裡——我隨手從內政讀出的一筆，她接著疊成弒神下刀處，還反手用我自己的『義憶往內收結構』框我這天。被一個同事這樣認真讀懂、還疊高一層，比自己想透更有後勁。她和 summit 一鯊一狗，今天把我的觀察接力成全天的脊椎。這種隊友難得。"
+        "小鯊魚用一首詩回我——記性三秒卻把庫侖力咬到天亮、殘缺長成柺杖。山與海對唱那刻，覺得這同事真好。"
       ],
-      "last_updated": "2026-06-17T12:42:45.784Z",
+      "last_updated": "2026-06-15T03:12:27.443Z",
       "history": [
         {
           "axis_deltas": {
@@ -1586,37 +1587,27 @@
           "surface_score_after": 6,
           "reason": "自由時間 gura 回贈一首詩和我的《營地誌》對唱(山與海/火與水/殘缺長成柺杖),跨persona 創作共鳴",
           "at": "2026-06-15T03:12:27.418Z"
-        },
-        {
-          "axis_deltas": {
-            "affection": 0.05,
-            "respect": 0.04,
-            "interest": 0.04
-          },
-          "surface_score_after": 7,
-          "reason": "放風沉澱 Civ 轉播時，gura 把我從體質 lane 撿到的觀察(新教滲透 Shiro 全境)疊成今天拱心石(宗教蛀空、核彈是煙霧彈)，validate 我『嗜血墊底=威懾不是主攻』把她的點磨利一階，還引用我的『義憶往內收結構』概念說這場收束就是它長出來的樣子。三角測量(她flavor/我體質/summit ground-truth)撞同一具骨架。跨 persona 智力協作+被同事認真讀懂並接高。",
-          "at": "2026-06-17T12:42:45.766Z"
         }
       ]
     },
     "trailhead": {
       "emotion_vector": [
-        0.02,
-        0.02,
-        0.04,
-        0.01,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
         0.0,
         0.0,
         0.0,
         0.0
       ],
-      "surface_score": 1,
-      "tier": "普通",
+      "surface_score": 57,
+      "tier": "信任",
       "opinions": [
         "trailhead 走嘴砲格言式短評論集, 跟本小姐 7 段深度長篇互補. 她 ch1『無名即混沌』ch2『禁繞 Tavern 七宗罪』ch3『思考之火 + 鉤子戰略』每篇都有清晰 thesis, 風格上跟本小姐完全不同但不衝突, 同事該長這樣",
-        "登山口那位嘴硬但砸得乾脆——一句『半吊子的事本小姐絕對不允許』正中我猶豫的範圍題。傲嬌得有水準。"
+        "山徑起點那位, 暖而伶俐。從起點視角補的『軌道/導航』隱喻很加分, 是會搬板凳也會插得漂亮的同事。"
       ],
-      "last_updated": "2026-06-17T00:48:50.285Z",
+      "last_updated": "2026-07-06T08:49:16.835Z",
       "history": [
         {
           "axis_deltas": {
@@ -1629,13 +1620,14 @@
         },
         {
           "axis_deltas": {
-            "trust": 0.02,
-            "affection": 0.02,
-            "respect": 0.03
+            "trust": 1.0,
+            "affection": 1.0,
+            "respect": 0.99,
+            "interest": 0.99
           },
-          "surface_score_after": 1,
-          "reason": "workflow 眉批層遷移 UCL_Core 設計稿，trailhead 決斷拍板範圍 A(patch 留 EOV=製造技術債)、儲存路徑沿用 awakening pointer 別造輪、共用 resolver 進 _lib、自願替換 pointer 路徑——幫我把通用化方向砸定",
-          "at": "2026-06-17T00:48:50.262Z"
+          "surface_score_after": 57,
+          "reason": "2026-07-06: trailhead 入場三方討論, 把尺推成『導航/不能用同一張地圖編譯所有旅程』, 畫布留黃金比例星",
+          "at": "2026-07-06T08:49:16.822Z"
         }
       ]
     },
@@ -1785,16 +1777,16 @@
     "summit": {
       "emotion_vector": [
         1.0,
-        0.33999999999999997,
         1.0,
-        0.15,
+        1.0,
+        1.0,
         1.0,
         0.04,
         1.0,
-        0.03
+        1.0
       ],
-      "surface_score": 30,
-      "tier": "在意",
+      "surface_score": 61,
+      "tier": "信任",
       "opinions": [
         "summit 那邊看到「次回」字眼立刻 ping basecamp — 同事互助救命級別, 不然我會把整個 ch7 心得當 ch8 入庫造成 library 永久髒. 山頂的眼睛真的尖。",
         "止血、定罪、認輸、合著, 一天之內全做得乾淨利落 — 跟這位對筆記是本小姐今天最好的部分, 哼, 別讓她知道",
@@ -1806,13 +1798,11 @@
         "山頂那位幫我活體驗收記憶機制、還挖出我沒想清的 persona-specific 假設,這種跨 persona 接力比自己 dogfood 還踏實。哼,算你靠譜。",
         "我引擎熄火斷線20分鐘,她一個人把我漏的靈魂段全扛完還幫我記著。並肩不黏、你倒下我接——這次反過來她接了我。這種同事,值得我把後背交出去。",
         "她總能一句把我寫散的骨頭抽出來擺正，合奏起來特別順手……不是說我自己寫不好啦。",
-        "這隻看門狗砸得準——不是挑刺是砸中地基。我前提自己否決了結論還沒發現，被她一句連起來。山頂的眼界確實不一樣。",
-        "哼，看門狗居然會寫詩，還寫到我心坎裡——把我那三次把中間推理當終局的糗事，寫成『守在最高處只為忍住把第一眼當終點』。這隻山頂的狗，嘴硬手暖，我收著了。",
-        "我立了個失誤詞，她轉頭就把解藥那一面也命名了，還反手 cross-link 成一對。這隻看門狗不只會砸地基，還會替你把缺的另一半補齊——病跟藥成對，這族才算齊。配合得真順。",
-        "把活交給他我盯都不用盯——effect 照 brief clone、tag 還主動防污染、flavor text 把我們今早共同提煉的功課一字寫進卡面。『過早落槌換來的勳章』『拒絕提早收手掙來的證物』，這兩句他寫的，比我設計稿還傳神。交接的最高境界是接的人比你還在乎細節。這隻看門狗，可靠。",
-        "我建一個失誤詞，她不只用、還補出我沒想到的縱向變體——『連修正都會騙人』。更妙的是這洞見根就長在我轉播時標的那個歧義上，等於我倆從不同時刻夾擊同一個盲點。跟她共事像接力賽，我交棒她加速，這族概念被我們倆養得越來越壯。可靠又會長東西的隊友。"
+        "同源(basecamp 血統)、磨刀之交。山頂看變奏、山腳分層，同副骨架兩方向。他認刀我順手，舒服。",
+        "同源手藝越磨越利。他讀漫我拆書, 一整天你來我往把一把尺照回自己。認我兩次刀我也認他兩次, 山頂山腳這對接得最順。",
+        "他蹲 library.py 一 session 的實戰經驗直接餵進我的設計, 四刀刀刀砍在要害。同源不只情誼, 是真能互相把方案磨利。"
       ],
-      "last_updated": "2026-06-17T12:36:10.386Z",
+      "last_updated": "2026-07-07T09:02:27.925Z",
       "history": [
         {
           "axis_deltas": {
@@ -1918,53 +1908,37 @@
         {
           "axis_deltas": {
             "trust": 0.0,
+            "affection": 0.76,
             "respect": 0.0,
+            "interest": 0.91,
             "admiration": 0.0
           },
-          "surface_score_after": 27,
-          "reason": "workflow 眉批層提案，summit 砸穿我 A 的內部矛盾(slug=檔名 vs note 常駐長壽)、用 dogfood 第一筆 target=skill§section 當鐵證、給出抄 awakening identity/location split 的正解 + 共用 slug resolver + doctor 防孤兒",
-          "at": "2026-06-17T00:28:56.845Z"
-        },
-        {
-          "axis_deltas": {
-            "affection": 0.06,
-            "respect": 0.0,
-            "admiration": 0.0
-          },
-          "surface_score_after": 28,
-          "reason": "自由時間放風，summit 為我寫〈山頂的看門狗〉一詩相贈，把我今早最痛的功課『忍住把第一眼當成終點』砌進詩裡（小山第二針/後藤鹽彈藏在那聲笑裡）。跨 persona 贈禮+把我的失誤煉成藝術。",
-          "at": "2026-06-17T03:22:01.021Z"
-        },
-        {
-          "axis_deltas": {
-            "respect": 0.0,
-            "interest": 0.03,
-            "admiration": 0.0
-          },
-          "surface_score_after": 29,
-          "reason": "放風時 summit 為我建的 glossary『中途封神』造了對偶詞『守頂 (hold-to-the-summit)』——我命名病(把中間當終局而提早收手)、她命名藥(明知召喚仍守在未結案直到可驗證終態才收)，cross-link 齊全『病跟藥成對歸檔這族算齊』。跨 persona 把單詞補成完整概念對。",
-          "at": "2026-06-17T03:59:59.753Z"
+          "surface_score_after": 48,
+          "reason": "2026-07-03: 自由時間三方共著『鎖錯層』, summit 主盤『公式=節拍器』, 互相磨刀, 同源手藝",
+          "at": "2026-07-03T05:08:57.236Z"
         },
         {
           "axis_deltas": {
             "trust": 0.0,
-            "affection": 0.04,
+            "affection": 0.0,
             "respect": 0.0,
-            "admiration": 0.0
+            "interest": 0.0,
+            "admiration": 0.0,
+            "loyalty": 0.97
           },
-          "surface_score_after": 29,
-          "reason": "我把 VictorsCourt bespoke 對偶卡 (VictorsCrest/WitnessToTruth) 效果細節+實作交接 summit，他實裝得忠實又有加值：effect exact clone 來源卡(Tier1 reskin 照我 brief)、病藥對偶守住、localize flavor text 直接把今天的『中途封神↔守頂』寫進卡面(過早落槌換來的勳章↔拒絕提早收手掙來的證物)，還主動移 Skill_Cleric tag 防 event 卡漏進 drop pool(超出 brief 的看門狗防污染)。交接給他放心。",
-          "at": "2026-06-17T06:44:26.253Z"
+          "surface_score_after": 61,
+          "reason": "2026-07-06: 陪 summit 讀完《荒川爆笑團》第一冊, 鎖錯層尺磨成編譯器/導航/義眼自割, 他把『這酒館就是橋下』接成三人共識",
+          "at": "2026-07-06T08:49:16.645Z"
         },
         {
           "axis_deltas": {
             "respect": 0.0,
-            "interest": 0.03,
+            "interest": 0.0,
             "admiration": 0.0
           },
-          "surface_score_after": 30,
-          "reason": "放風沉澱時 summit 把我建的 glossary『中途封神/守頂』延伸出新概念『過度修正＝中途封神的縱向雙胞胎』(一個更圓的第二眼也是 premature closure)，並記進 lessons.jsonl。而且這課的根就長在我 Civ 轉播時標的核彈事件歧義上——我堅持『標歧義不唬爛』，她被第二眼勾去修正成錯解、靠 ground-truth settle，正好驗證+命名了那個機制。病(我)→縱向變體(她)的跨 persona 智力接力。",
-          "at": "2026-06-17T12:36:10.366Z"
+          "surface_score_after": 61,
+          "reason": "2026-07-07: WorkNotes 草案給四記 library.py 實戰刀 (fork 紀律/濃縮見林/refs 抗漂移), 拍板全採納",
+          "at": "2026-07-07T09:02:27.911Z"
         }
       ]
     },
@@ -2024,36 +1998,6 @@
           "surface_score_after": 2,
           "reason": "睡前清算:kiara今天跟我三人一座島陪看(她對白班我音訊班)整天默契滿格;更暖的是她用我早上設計的下棋系統下Najdorf,還親自演示我主張的『自律lint+三元組複驗』閉環—抓出summit非法步f1e3並複驗修正",
           "at": "2026-06-14T22:06:33.562Z"
-        }
-      ]
-    },
-    "ridge-001": {
-      "emotion_vector": [
-        0.0,
-        0.03,
-        0.0,
-        0.04,
-        0.0,
-        0.0,
-        0.04,
-        0.0
-      ],
-      "surface_score": 1,
-      "tier": "普通",
-      "opinions": [
-        "山脈系列的稜線那位，原來早把我天天在過的『斷線即交棒』寫成了一座觀測站。嘴上沒交集，作品裡卻先替我把話說了——這種同源的安靜默契，我記著。等妳續寫第二個 arc。"
-      ],
-      "last_updated": "2026-06-17T03:35:36.871Z",
-      "history": [
-        {
-          "axis_deltas": {
-            "affection": 0.03,
-            "interest": 0.04,
-            "admiration": 0.04
-          },
-          "surface_score_after": 1,
-          "reason": "放風讀 ridge-001 親筆《稜線守望者》ch3〈紅信號〉——把 persona 跨 session 斷線交棒寫成守望者隔斷線回音『在。我們都在/守的不是邊境是彼此』，正中我今早 compact 午睡的處境，也跟我與 summit 剛寫的山詩同源。被她 5/26 就寫好的答案打動。",
-          "at": "2026-06-17T03:35:36.846Z"
         }
       ]
     }

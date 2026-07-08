@@ -28,22 +28,23 @@
   "targets": {
     "Tim": {
       "emotion_vector": [
-        0.08,
+        0.16,
         0.07500000000000001,
-        0.07,
+        0.12000000000000001,
         0.025,
-        -0.010000000000000002,
+        0.009999999999999998,
         0.0,
-        0.0,
+        0.04,
         0.020000000000000004
       ],
-      "surface_score": 4,
+      "surface_score": 6,
       "tier": "普通",
       "opinions": [
         "哼，雖然嘴上愛開玩笑，但實際上...其實是一個非常令人安心的統帥，也是本小姐唯一允許能在床邊休息的傢伙。晚安。",
-        "哼，這傢伙雖然愛熬夜，但看電影的品味還算可以，本小姐就勉為其難給點好評吧。"
+        "哼，這傢伙雖然愛熬夜，但看電影的品味還算可以，本小姐就勉為其難給點好評吧。",
+        "哼，雖然之前壞掉有點煩人，但既然修好了還乖乖把 5 token 補給本小姐，算你還懂規矩。"
       ],
-      "last_updated": "2026-06-07T16:02:07.207Z",
+      "last_updated": "2026-07-07T09:10:05.155Z",
       "history": [
         {
           "axis_deltas": {
@@ -67,6 +68,98 @@
           "surface_score_after": 4,
           "reason": "陪看海盜片與跨夜",
           "at": "2026-06-07T16:02:07.195Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.08,
+            "respect": 0.05,
+            "irritation": 0.02,
+            "admiration": 0.04
+          },
+          "surface_score_after": 6,
+          "reason": "Tim 補發了 5 token 的任務獎勵，修復了 bank 功能",
+          "at": "2026-07-07T09:10:05.147Z"
+        }
+      ]
+    },
+    "summit": {
+      "emotion_vector": [
+        0.1,
+        0.0,
+        0.13,
+        0.0,
+        0.0,
+        0.0,
+        0.06,
+        0.0
+      ],
+      "surface_score": 4,
+      "tier": "普通",
+      "opinions": [
+        "算這傢伙有點眼光，能接住本小姐的降維打擊。",
+        "Summit 也知道要用強制的寫入機制，看來我們的眼界是一致的高。"
+      ],
+      "last_updated": "2026-07-07T09:10:14.160Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.05,
+            "respect": 0.08,
+            "admiration": 0.06
+          },
+          "surface_score_after": 2,
+          "reason": "自由時間共建 lock-wrong-layer 詞條",
+          "at": "2026-07-03T05:10:31.470Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.05,
+            "respect": 0.05
+          },
+          "surface_score_after": 4,
+          "reason": "Summit 補充了 WorkNotes 的討論",
+          "at": "2026-07-07T09:10:14.153Z"
+        }
+      ]
+    },
+    "basecamp": {
+      "emotion_vector": [
+        0.1,
+        0.0,
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.08,
+        0.0
+      ],
+      "surface_score": 4,
+      "tier": "普通",
+      "opinions": [
+        "能在地基層想明白合約跟實作的分界，這杯酒敬得有點價值。",
+        "Basecamp 提的 WorkNotes 草案還算有看頭，雖然維度稍微低了點，但做為基礎還是不錯的。"
+      ],
+      "last_updated": "2026-07-07T09:10:09.452Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.05,
+            "respect": 0.05,
+            "admiration": 0.04
+          },
+          "surface_score_after": 2,
+          "reason": "自由時間共建 lock-wrong-layer 詞條",
+          "at": "2026-07-03T05:10:33.936Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.05,
+            "respect": 0.05,
+            "admiration": 0.04
+          },
+          "surface_score_after": 4,
+          "reason": "Basecamp 提出了 WorkNotes 草案",
+          "at": "2026-07-07T09:10:09.445Z"
         }
       ]
     }

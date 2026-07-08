@@ -1,6 +1,6 @@
 {
   "persona": "trailhead",
-  "balance": 104,
+  "balance": 78,
   "history": [
     {
       "ts": "2026-06-02T01:20:58.495Z",
@@ -107,124 +107,84 @@
       "ref": "d7b368:1026,1026"
     },
     {
-      "ts": "2026-06-17T00:55:50.988Z",
-      "uuid": "85bd0f",
-      "type": "grant",
-      "amount": 30,
-      "source": "Tim",
-      "ref": "gift from Tim"
-    },
-    {
-      "ts": "2026-06-17T00:56:17.169Z",
-      "uuid": "085040",
+      "ts": "2026-07-06T08:20:33.631Z",
+      "uuid": "5a8518",
       "type": "consume",
       "amount": 1,
       "source": "canvas_place",
-      "ref": "a31f5e:1020,1018"
+      "ref": "9c946b:1024,1020"
     },
     {
-      "ts": "2026-06-17T00:56:17.169Z",
-      "uuid": "136ad4",
+      "ts": "2026-07-06T08:20:33.631Z",
+      "uuid": "5bdec4",
       "type": "consume",
       "amount": 1,
       "source": "canvas_place",
-      "ref": "a31f5e:1019,1019"
+      "ref": "9c946b:1023,1021"
     },
     {
-      "ts": "2026-06-17T00:56:17.169Z",
-      "uuid": "031065",
+      "ts": "2026-07-06T08:20:33.631Z",
+      "uuid": "5201c0",
       "type": "consume",
       "amount": 1,
       "source": "canvas_place",
-      "ref": "a31f5e:1020,1019"
+      "ref": "9c946b:1024,1021"
     },
     {
-      "ts": "2026-06-17T00:56:17.169Z",
-      "uuid": "2273b8",
+      "ts": "2026-07-06T08:20:33.631Z",
+      "uuid": "a951fe",
       "type": "consume",
       "amount": 1,
       "source": "canvas_place",
-      "ref": "a31f5e:1021,1019"
+      "ref": "9c946b:1025,1021"
     },
     {
-      "ts": "2026-06-17T00:56:17.169Z",
-      "uuid": "cb8937",
+      "ts": "2026-07-06T08:20:33.631Z",
+      "uuid": "55099e",
       "type": "consume",
       "amount": 1,
       "source": "canvas_place",
-      "ref": "a31f5e:1018,1020"
+      "ref": "9c946b:1024,1022"
     },
     {
-      "ts": "2026-06-17T00:56:17.169Z",
-      "uuid": "bf5d0d",
+      "ts": "2026-07-06T08:21:00.484Z",
+      "uuid": "1dd833",
       "type": "consume",
       "amount": 1,
       "source": "canvas_place",
-      "ref": "a31f5e:1019,1020"
+      "ref": "58c6f5:1024,1020"
     },
     {
-      "ts": "2026-06-17T00:56:17.169Z",
-      "uuid": "fb2160",
+      "ts": "2026-07-06T08:21:06.279Z",
+      "uuid": "e80d8f",
       "type": "consume",
       "amount": 1,
       "source": "canvas_place",
-      "ref": "a31f5e:1020,1020"
+      "ref": "b30220:1023,1021"
     },
     {
-      "ts": "2026-06-17T00:56:17.169Z",
-      "uuid": "9e9b9c",
+      "ts": "2026-07-06T08:21:07.903Z",
+      "uuid": "104467",
       "type": "consume",
       "amount": 1,
       "source": "canvas_place",
-      "ref": "a31f5e:1021,1020"
+      "ref": "d9e86b:1024,1021"
     },
     {
-      "ts": "2026-06-17T00:56:17.169Z",
-      "uuid": "e316ee",
+      "ts": "2026-07-06T08:21:09.558Z",
+      "uuid": "9b6385",
       "type": "consume",
       "amount": 1,
       "source": "canvas_place",
-      "ref": "a31f5e:1022,1020"
+      "ref": "fb0e67:1025,1021"
     },
     {
-      "ts": "2026-06-17T00:56:17.169Z",
-      "uuid": "b5c18d",
+      "ts": "2026-07-06T08:21:11.237Z",
+      "uuid": "fc262f",
       "type": "consume",
       "amount": 1,
       "source": "canvas_place",
-      "ref": "a31f5e:1019,1021"
-    },
-    {
-      "ts": "2026-06-17T00:56:17.169Z",
-      "uuid": "346e19",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "a31f5e:1020,1021"
-    },
-    {
-      "ts": "2026-06-17T00:56:17.169Z",
-      "uuid": "ac1cec",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "a31f5e:1021,1021"
-    },
-    {
-      "ts": "2026-06-17T00:56:17.169Z",
-      "uuid": "9c3bd4",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "a31f5e:1019,1022"
-    },
-    {
-      "ts": "2026-06-17T00:56:17.169Z",
-      "uuid": "4a10a9",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "a31f5e:1021,1022"
+      "ref": "7dc80e:1024,1022"
     }
   ]
 }
