@@ -61,12 +61,22 @@ HERE = Path(__file__).resolve().parent
 # 推斷 project root: 本工具在 AgentCommands/Tools/, repo = parent.parent
 REPO_ROOT = HERE.parent.parent
 
+# T-PATH-02: UCL_Core Docs~ 走 layout-agnostic resolver, 不再寫死 CardGame/Assets/UCL/UCL_Core。
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+from AgentCommands._lib import tavern_paths as _tp  # noqa: E402
+try:
+    _ucl_plan_rel = _tp.UCL_CORE_DIR.resolve().relative_to(REPO_ROOT.resolve()) / "Docs~" / "zh-Hant" / "Plan"
+except ValueError:
+    # UCL_Core 不在 repo root 下 (罕見) → 退回舊 CardGame 布局字面值
+    _ucl_plan_rel = Path("CardGame/Assets/UCL/UCL_Core/Docs~/zh-Hant/Plan")
+
 # 區塊職責：Plan 掃描根定義
 # 物理意義：(label, 相對 repo root 的路徑) — label 給 --root 過濾用
 # 數值影響：新增掃描根只要在此 append 一筆
 PLAN_ROOTS = [
     ("eov", Path("docs/Plan")),
-    ("ucl", Path("CardGame/Assets/UCL/UCL_Core/Docs~/zh-Hant/Plan")),
+    ("ucl", _ucl_plan_rel),
 ]
 
 # frontmatter 認得的欄位 (提議格式; 缺了不報錯)

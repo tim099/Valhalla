@@ -29,7 +29,11 @@ from pathlib import Path
 
 # ─── Paths ────────────────────────────────────────────────────────────────
 _REPO_ROOT = Path(__file__).resolve().parents[2]
-_BUILTIN_ROOT = _REPO_ROOT / "CardGame/Assets/.BuiltinModules/ModulesRoot/Modules"
+# T-PATH-02: .BuiltinModules 走 layout-agnostic resolver, 不再寫死 CardGame/Assets/.BuiltinModules
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
+from AgentCommands._lib import tavern_paths as _tp  # noqa: E402
+_BUILTIN_ROOT = _tp.BUILTIN_MODULES_DIR / "ModulesRoot" / "Modules"
 _TEMPLATE_CANDIDATE_DIRS = [
     _BUILTIN_ROOT / "Core/UCL_Assets/RCG_CharacterData",
     _BUILTIN_ROOT / "Fate/UCL_Assets/RCG_CharacterData",

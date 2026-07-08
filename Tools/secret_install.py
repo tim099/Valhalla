@@ -25,7 +25,11 @@ from pathlib import Path
 # 數值影響：路徑算錯會 import 失敗 → 印明確錯誤訊息給人 debug
 _HERE = Path(__file__).resolve().parent
 _REPO_ROOT = _HERE.parent.parent
-_UCL_TOOLS = _REPO_ROOT / "CardGame" / "Assets" / "UCL" / "UCL_Core" / "Tools~" / "AgentCommands"
+# T-PATH-02: UCL_Core Tools~/AgentCommands 走 layout-agnostic resolver, 不再寫死 CardGame/...
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
+from AgentCommands._lib import tavern_paths as _tp  # noqa: E402
+_UCL_TOOLS = _tp.UCL_AGENTCMD_DIR
 
 
 def main():

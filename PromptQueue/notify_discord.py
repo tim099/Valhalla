@@ -279,9 +279,9 @@ def _read_quest_webhook_urls(config):
 # ===========================================================
 
 # 預設 .BuiltinModules 路徑（per UCL_ModuleService 慣例）— 跟 UCL_ChatTavernIdentityAsset 同 dir layout
+# T-PATH-02: .BuiltinModules 走 layout-agnostic resolver, 不再寫死 CardGame/Assets/.BuiltinModules
 _DEFAULT_CATEGORY_ASSET_DIR = (
-    PROJECT_ROOT
-    / "CardGame" / "Assets" / ".BuiltinModules"
+    _tp.BUILTIN_MODULES_DIR
     / "ModulesRoot" / "Modules" / "Core"
     / "UCL_Assets" / "UCL_TavernCategoryRoutingAsset"
 )
