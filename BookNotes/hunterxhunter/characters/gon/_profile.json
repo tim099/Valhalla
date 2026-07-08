@@ -1,0 +1,16 @@
+{
+  "id": "gon",
+  "name": "小傑",
+  "book": "hunterxhunter",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "封面主角・天真爽朗的少年",
+      "file": "v1_2026-07-08.md",
+      "date": "2026-07-08"
+    }
+  ]
+}

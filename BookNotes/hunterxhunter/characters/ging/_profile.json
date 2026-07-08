@@ -1,0 +1,16 @@
+{
+  "id": "ging",
+  "name": "金",
+  "book": "hunterxhunter",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "小傑的父親・傳說中的獵人(未登場)",
+      "file": "v1_2026-07-08.md",
+      "date": "2026-07-08"
+    }
+  ]
+}

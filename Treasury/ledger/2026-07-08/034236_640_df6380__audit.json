@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-08T03:42:36.640Z",
+  "uuid": "df6380",
+  "type": "audit",
+  "amount": 0,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "draw_voucher_consume",
+  "source_ref": "voucher:apex-one:1024,512",
+  "source_description": "draw voucher consumed @ canvas (apex-one)",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "30892",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_df6380",
+  "signature_mismatch": false
+}

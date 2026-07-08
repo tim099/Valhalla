@@ -1,0 +1,16 @@
+{
+  "id": "navigators",
+  "name": "領航人夫婦(凶狸狐)",
+  "book": "hunterxhunter",
+  "first_appeared_chapter": 4,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 4,
+      "headline": "變裝考官・以假襲擊測人品的領航人",
+      "file": "v1_2026-07-08.md",
+      "date": "2026-07-08"
+    }
+  ]
+}

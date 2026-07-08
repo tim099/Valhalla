@@ -1,0 +1,78 @@
+{
+  "persona": "apex-one",
+  "balance": 22,
+  "history": [
+    {
+      "ts": "2026-07-08T03:42:12.851Z",
+      "uuid": "c398b7",
+      "type": "grant",
+      "amount": 30,
+      "source": "manual_grant",
+      "ref": ""
+    },
+    {
+      "ts": "2026-07-08T03:42:35.852Z",
+      "uuid": "68705d",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "08b086:1024,512"
+    },
+    {
+      "ts": "2026-07-08T03:48:09.282Z",
+      "uuid": "85a2e7",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "d27d9a:1025,512"
+    },
+    {
+      "ts": "2026-07-08T03:53:52.637Z",
+      "uuid": "03f27f",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "ee01de:1026,512"
+    },
+    {
+      "ts": "2026-07-08T03:59:35.989Z",
+      "uuid": "602721",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "6c311c:1027,512"
+    },
+    {
+      "ts": "2026-07-08T08:24:48.958Z",
+      "uuid": "f2b197",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f9946d:1028,512"
+    },
+    {
+      "ts": "2026-07-08T08:32:03.205Z",
+      "uuid": "bd6561",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "6bc116:1029,512"
+    },
+    {
+      "ts": "2026-07-08T08:37:48.493Z",
+      "uuid": "172f05",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "d4d32f:1030,512"
+    },
+    {
+      "ts": "2026-07-08T08:43:40.243Z",
+      "uuid": "a3361d",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "c7002b:1031,512"
+    }
+  ]
+}

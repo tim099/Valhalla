@@ -1,0 +1,24 @@
+{
+  "id": "killua",
+  "name": "奇犽(奇犽·揍敵客)",
+  "book": "hunterxhunter",
+  "first_appeared_chapter": 6,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 6,
+      "headline": "童顏毒殺免疫的滑板少年・與小傑同齡的宿命對手",
+      "file": "v1_2026-07-08.md",
+      "date": "2026-07-08"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 8,
+      "headline": "披著貓皮的殺手・一聞即識同類的少年",
+      "change_reason": "NO.008自白重寫其本質:奇犽稱自己與西索是『同類』、憑氣味就認得出殺手，並說自己『披了一層貓皮』——確認他是把爪子藏起來的殺手。前話的毒殺免疫/訓練有素至此有了解釋(不尋常的殺手出身)",
+      "file": "v2_2026-07-08.md",
+      "date": "2026-07-08"
+    }
+  ]
+}

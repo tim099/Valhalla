@@ -1,0 +1,220 @@
+{
+  "terms": [
+    {
+      "term": "冨樫義博",
+      "category": "term",
+      "definition": "本作作者。1966生於日本山形縣。代表作《幽遊白書》《Level E》。妻為《美少女戰士》作者武內直子。以縝密設定/規則系戰鬥/心理博弈著稱，亦以休載聞名。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "出版資訊",
+      "category": "term",
+      "definition": "原載日本集英社《週刊少年Jump》1998起連載。台版由東立出版社正式授權中文版，Vol.1 NT0。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "獵人",
+      "category": "term",
+      "definition": "本作核心概念。目錄頁點出獵人追逐的三大領域:珍禽異獸/財寶秘寶/魔境秘境，驅動力是『未知』一詞的魔力。扉頁題字『人們稱他們為獵人』。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "鯨魚島",
+      "category": "place",
+      "definition": "小傑的故鄉，形似鯨魚的離島(有像潮吹的噴氣地形)。自然生態豐富，是沼澤魚精等異獸棲地。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "沼澤魚精",
+      "category": "term",
+      "definition": "鯨魚島沼澤的巨型魚類異獸，蝦蟹混合外型。連五名大人聯手十年都釣不上，小傑獨力釣起，展現其釣魚天賦。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "狐熊",
+      "category": "term",
+      "definition": "森林裡的巨型獸類，母獸護幼極凶。會用記號標示勢力範圍。母狐熊傷人依規矩須處決；幼獸記人類殺母之恨。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "森林之王",
+      "category": "term",
+      "definition": "三年前小傑所救的小狐熊長大後之姿，統治森林的巨獸。因森林動物討厭獵人，牠與立志當獵人的小傑須就此分別。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "獵人試驗",
+      "category": "term",
+      "definition": "成為獵人的官方測驗。門檻極高:每年數十萬人報考，僅極少數入選。是小傑出發的第一道關卡。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "尋寶人",
+      "category": "term",
+      "definition": "獵人的一種/廣義同行。追求金銀財寶、稀世秘寶而四處冒險者的總稱。與『找怪物的獵人』並列，都需通過嚴格獵人試驗。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "窟盧塔族",
+      "category": "term",
+      "definition": "酷拉皮卡的種族。四年前遭幻影旅團屠殺滅族，酷拉皮卡是倖存者。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "幻影旅團",
+      "category": "term",
+      "definition": "A級通緝的殺人魔集團。四年前屠殺窟盧塔族。成員功夫高強、連老手獵人也不敢動他們。酷拉皮卡復仇的對象。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "獎金獵人",
+      "category": "term",
+      "definition": "獵人的一種。專門逮捕通緝犯/賞金目標。酷拉皮卡想成為此類以追捕幻影旅團。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "多雷港",
+      "category": "place",
+      "definition": "船長送三人抵達的港口，離獵人測驗會場最近。人潮洶湧多為考生。出現『山路近路 vs 巴士』的岔路抉擇。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "薩巴市",
+      "category": "place",
+      "definition": "獵人測驗會場所在的大都市(會場在其地下)。從多雷港前往需正確判斷路線——直達巴士其實是淘汰新手的陷阱。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "領航人",
+      "category": "term",
+      "definition": "獵人測驗會場每年變換位置，帶領有前途的考生到達正確會場是領航人的職責。沒有他們引路，幾乎不可能到會場。找出領航人並獲其認同，是通關第一要件。大杉樹下小屋的一對夫婦即領航人。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "凶狸狐",
+      "category": "term",
+      "definition": "森林中的巨型狐形魔獸(章名怪物)。出沒於大杉樹小屋一帶，疑似偽裝/襲擊領航人夫婦後設伏考生。雙眼獠牙、體型巨大。路標『注意魔獸』所指。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "墨族刺青",
+      "category": "term",
+      "definition": "酷拉皮卡認出領航人妻身上的古代墨族刺青:古代墨族女人刻在身上『發誓為神之妻終身不嫁』的證明。酷拉皮卡博學多聞得以識破二人並非真夫妻。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "特許證明卡",
+      "category": "term",
+      "definition": "獵人執照。只有正式獵人才被授與。全國公共設施免費通行;世界前100大富豪中60個是獵人;價值『七輩子花不完』的財富，是財富與名譽象徵。只有正式獵人能用。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "獵人的種類與職責",
+      "category": "term",
+      "definition": "一流獵人:保護貴重文化遺產與稀有動物、緝捕通緝犯與無執照不法獵人。狩獵動物與尋寶被視為二流。需具備深遠知識/強健身心/堅定信念。新手合格率極低(3年僅1人)，落選者常身心受創終身無法再考。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "第一次試驗(無限馬拉松)",
+      "category": "term",
+      "definition": "獵人試驗首關。報到截止後由考官薩薩茨帶隊，從餐館地下隧道出發、以行進轉奔跑的方式無止境前進，同時淘汰體力/意志不足者。開賽前需考生『自願同意』可能致傷致死。404名考生全數參加。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "紅火晴(緋色之眼)",
+      "category": "term",
+      "definition": "窟盧族人的身體特徵:情緒激動時瞳孔轉為烈火般的深紅色，被譽為世上七大美色之一。因過於美麗值錢，成為族人被獵殺的原因;人在激動情緒下死去，深紅會永久留存於瞳孔中，故被挖走後價值更高。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "窟盧族",
+      "category": "faction",
+      "definition": "酷拉皮卡的族群。因擁有『紅火晴』眼睛而被幻影旅團屠殺滅族，族人雙眼全被挖走。酷拉皮卡為倖存遺民，立誓復仇並奪回同胞之眼。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "失美樂濕地(詐欺師之巢)",
+      "category": "place",
+      "definition": "通往第二次試驗會場的必經之路，俗稱『詐欺師的巢穴』。棲息大量外界所無的珍禽異獸，多以人肉為食、狡猾貪婪;誤入陷阱即死路一條。第一次試驗(馬拉松)出口即此地。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "三星獵人",
+      "category": "term",
+      "definition": "獵人的最高稱號，全世界總數不超過十人。取得條件:完成多項歷史性/世界級的重大偉業(新發現、創造等)。小傑之父金的實力被評為足以比肩三星獵人，但金懶得申請。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "金(小傑之父・傳說獵人)",
+      "category": "term",
+      "definition": "小傑的父親、其成為獵人的目標與偶像。事蹟:發現古文明遺址、建立雙頭狼繁殖法、發掘古金脈、殲滅大盜集團等，活動範圍無遠弗屆，實力比肩三星獵人卻懶得申請。小傑出生後他即不在身邊，小傑只見過照片;數年前由『凱特』向小傑轉述其事。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "人面猿",
+      "category": "term",
+      "definition": "棲息於失美樂濕地的魔獸。愛吃人肉，因手腳細、力量薄弱，常假扮成人類把獵物引入濕地，再與其他生物聯手獵食。NO.008中一隻人面猿假扮考官薩薩茨、並反誣真考官為冒牌貨以製造混亂，被西索的撲克牌識破打穿、裝死後遭群鳥啄食。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    },
+    {
+      "term": "失美樂濕地魔獸群(騙術系生態)",
+      "category": "term",
+      "definition": "詐欺師之巢的生態陷阱,共通特徵=以欺騙獵殺,多在濃霧時活躍。耍賤草莓龜:濃霧才出沒、用背上草莓伏擊迷路者;懶人蛙:遲緩、躲地底張嘴痴等獵物;催眠蝶:怪異飛行催眠獵物成幼蟲食物;地雷菇:踩到即爆、噴孢子在獵物身上繁殖;唬人鴉:說唬人的話誘人入陷阱再啃屍。整片濕地=一座『用欺騙獵殺』的生態系,把『不被表象騙』母題從人擴展到自然。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-08"
+    }
+  ]
+}

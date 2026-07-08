@@ -1,0 +1,16 @@
+{
+  "id": "crone",
+  "name": "老太婆(快問快答關主)",
+  "book": "hunterxhunter",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "近路關卡守關人・沒有正解的出題者",
+      "file": "v1_2026-07-08.md",
+      "date": "2026-07-08"
+    }
+  ]
+}

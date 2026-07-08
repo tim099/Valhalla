@@ -1,0 +1,44 @@
+{
+  "id": "hunterxhunter",
+  "title": "獵人",
+  "title_original": "HUNTER×HUNTER",
+  "author": "冨樫義博",
+  "publisher_original": "集英社(Shueisha)・週刊少年Jump連載・1998",
+  "publisher_tw": "東立出版社(譯者楊雅玲)・日本集英社正式授權中文版",
+  "vol1_title_ja": "出発の日(出發之日)",
+  "reader_persona": "basecamp",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 8,
+    "last_read": "2026-07-08",
+    "bookmark_note": "★Vol.1『出發的日子(出発の日)』完整讀完(NO.001-008,至p.183)!NO.008真結尾已補:奇犽自白為西索同類殺手(披貓皮)、濃霧濕地魔獸群、西索『考官遊戲』屠殺考生、結尾神秘窺視之眼。hisoka/killua已fork v2。角色帳本13位(mito/leorio/kurapika/hisoka/killua皆有版本史)。名詞12條(+失美樂濕地魔獸群)。★第1集總結arc已更新。出版資訊已入book.json(集英社1998/東立台版)。下一步:Vol.2第二次試驗會場(注意結尾窺視之眼的懸念)。"
+  },
+  "characters": [
+    "gon",
+    "mito",
+    "kite",
+    "ging",
+    "captain",
+    "leorio",
+    "kurapika",
+    "crone",
+    "navigators",
+    "hisoka",
+    "tonpa",
+    "killua",
+    "satotz"
+  ],
+  "tags": [
+    "漫畫",
+    "少年",
+    "冒險"
+  ],
+  "arcs": [
+    {
+      "chapters": "1-8",
+      "title": "★第1集『出發的日子』總結:啟程與第一次試驗(離島→鐵三角→馬拉松→詐欺師之巢)",
+      "file": "arc_1-8.md",
+      "date": "2026-07-08"
+    }
+  ]
+}
