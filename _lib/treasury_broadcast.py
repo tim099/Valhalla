@@ -30,9 +30,9 @@ from pathlib import Path
 # ===========================================================
 def _load_ucl_treasury_ledger():
     try:
-        repo_root = Path(__file__).resolve().parents[2]
-        canonical = (repo_root / "CardGame" / "Assets" / "UCL" / "UCL_Core"
-                     / "Tools~" / "AgentCommands" / "_lib" / "treasury_ledger.py")
+        # T-PATH-02: 走 tavern_paths layout-agnostic resolver, 不再寫死 CardGame/Assets/UCL/UCL_Core。
+        from . import tavern_paths as _tp
+        canonical = _tp.UCL_LIB_DIR / "treasury_ledger.py"
         if not canonical.exists():
             return None
         spec = _ilu.spec_from_file_location("_ucl_treasury_ledger", canonical)

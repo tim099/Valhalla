@@ -53,16 +53,8 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 from _lib.treasury_broadcast import fire_broadcast  # noqa: E402
 
 
-# ===========================================================
-# 路徑解析 — 用 _lib.repo_root 共用 helper 錨定主專案根（**不可用 cwd-相對路徑**）
-# 數值影響：舊版 LEDGER_ROOT="AgentCommands/..." cwd-相對字串會誤落雙層位置、stdout 卻報對
-#          (2026-06-16 血證 uuid 652a97)；共用 helper 斷掉「各檔內聯 find_repo_root 漂移」病灶。
-# ===========================================================
-from _lib.repo_root import find_repo_root  # noqa: E402
-
-REPO_ROOT = find_repo_root()
-LEDGER_ROOT = os.path.join(REPO_ROOT, "AgentCommands", "Treasury", "ledger")
-RULES_PATH = os.path.join(REPO_ROOT, "AgentCommands", "Treasury", "rules.json")
+LEDGER_ROOT = "AgentCommands/Treasury/ledger"
+RULES_PATH = "AgentCommands/Treasury/rules.json"
 TIM = "Tim"
 
 # 同 rules.json income_sources.qa_bug_confirmed._severity_tiers
@@ -99,7 +91,7 @@ def write_reward_ledger(amount: int, severity: str, description: str,
     msec = f"{now_utc.microsecond//1000:03d}"
     short_uuid = secrets.token_hex(3)
     filename = f"{hhmmss}_{msec}_{short_uuid}__credit.json"
-    path = os.path.join(LEDGER_ROOT, date_dir, filename)
+    path = f"{LEDGER_ROOT}/{date_dir}/{filename}"
 
     full_desc = f"QA bug reward [{severity}] to {account_id}: {description}"
     if bug_ref:
@@ -163,7 +155,7 @@ def cmd_grant(args):
 
 def cmd_list(args):
     today = datetime.date.today().strftime("%Y-%m-%d")
-    today_path = os.path.join(LEDGER_ROOT, today)
+    today_path = f"{LEDGER_ROOT}/{today}"
     if not os.path.isdir(today_path):
         print(f"⚠ 今日無 ledger 目錄 ({today})")
         return

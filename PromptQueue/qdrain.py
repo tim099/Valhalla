@@ -23,7 +23,11 @@ import subprocess
 
 HERE = pathlib.Path(__file__).resolve().parent
 PROJECT_ROOT = HERE.parent.parent
-RUN_CMD = PROJECT_ROOT / "CardGame/Assets/UCL/UCL_Core/Tools~/AgentCommands/run_cmd.py"
+# T-PATH-02: run_cmd.py 走 layout-agnostic resolver, 不再寫死 CardGame/...
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+from AgentCommands._lib import tavern_paths as _tp  # noqa: E402
+RUN_CMD = _tp.RUN_CMD_PATH
 ROOM_DIR = PROJECT_ROOT / "AgentCommands/ChatTavern/rooms/agent-prompt-queue"
 EVENTS_PATH = ROOM_DIR / "events.jsonl"
 TASKS_DIR = ROOM_DIR / "tasks"

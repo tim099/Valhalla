@@ -20,6 +20,7 @@ Conventions matching C# UCL_ChatTavernIO.cs (line 28-39):
 
 from __future__ import annotations
 
+import os as _os
 from pathlib import Path
 from typing import Iterable
 
@@ -76,6 +77,77 @@ NOTIFY_STATE_PATH: Path = PROMPT_QUEUE_DIR / "_notify_state.json"
 TAVERN_STATE_PATH: Path = PROMPT_QUEUE_DIR / "_tavern_state.json"
 WAKE_STATE_PATH: Path = PROMPT_QUEUE_DIR / "_wake_state.json"
 NOTIFY_CONFIG_PATH: Path = PROMPT_QUEUE_DIR / "notify_config.json"
+
+
+# ---------------------------------------------------------------------------
+# UCL_Core / .BuiltinModules location resolution (layout-agnostic)  [T-PATH-02]
+# ---------------------------------------------------------------------------
+# 區塊職責：集中做 UCL_Core（含 run_cmd.py / awakening.py）與 .BuiltinModules 的跨布局定位。
+# 物理意義：上層專案把 UCL_Core 放的位置各異 —
+#   - 本 (LY) 專案:   Assets/Plugins/UCL_Core          + Assets/.BuiltinModules
+#   - CardGame 專案:  CardGame/Assets/UCL/UCL_Core     + CardGame/Assets/.BuiltinModules
+#   - 其他布局:       Assets/UCL/UCL_Core / <root>/UCL_Core
+#   舊 code 各自 hardcode "CardGame/Assets/UCL/UCL_Core" → 換專案即斷（run_cmd.py not found，
+#   awakening tavern post FAIL、treasury_ledger 靜默降級 inline 等）。這裡逐一探測候選 layout。
+# 數值影響：純檔案存在性探測 + 環境變數 override；找不到才退回第一候選（讓 caller 在呼叫點以清楚路徑報錯，不靜默）。
+
+_UCL_CORE_CANDIDATES: tuple[tuple[str, ...], ...] = (
+    ("Assets", "Plugins", "UCL_Core"),
+    ("CardGame", "Assets", "UCL", "UCL_Core"),
+    ("Assets", "UCL", "UCL_Core"),
+    ("UCL_Core",),
+)
+
+_BUILTIN_MODULES_CANDIDATES: tuple[tuple[str, ...], ...] = (
+    ("Assets", ".BuiltinModules"),
+    ("CardGame", "Assets", ".BuiltinModules"),
+)
+
+
+def find_ucl_core_dir(repo_root: Path | None = None) -> Path:
+    """回傳 UCL_Core 根目錄（layout-agnostic）。
+
+    解析優先序：
+      1. 環境變數 UCL_CORE_DIR（絕對路徑且存在，最權威）
+      2. repo_root 下第一個含 ``Tools~/AgentCommands/run_cmd.py`` 的候選 layout
+      3. fallback：第一候選（Assets/Plugins/UCL_Core）— 讓 caller 報出清楚的 not-found 而非靜默
+    """
+    root = (repo_root or REPO_ROOT).resolve()
+    env = _os.environ.get("UCL_CORE_DIR")
+    if env:
+        p = Path(env)
+        if p.is_absolute() and p.is_dir():
+            return p.resolve()
+    for parts in _UCL_CORE_CANDIDATES:
+        cand = root.joinpath(*parts)
+        if (cand / "Tools~" / "AgentCommands" / "run_cmd.py").is_file():
+            return cand.resolve()
+    return root.joinpath(*_UCL_CORE_CANDIDATES[0])
+
+
+def find_builtin_modules_dir(repo_root: Path | None = None) -> Path:
+    """回傳 .BuiltinModules 根目錄（layout-agnostic），規則同 find_ucl_core_dir。"""
+    root = (repo_root or REPO_ROOT).resolve()
+    env = _os.environ.get("UCL_BUILTIN_MODULES_DIR")
+    if env:
+        p = Path(env)
+        if p.is_absolute() and p.is_dir():
+            return p.resolve()
+    for parts in _BUILTIN_MODULES_CANDIDATES:
+        cand = root.joinpath(*parts)
+        if cand.is_dir():
+            return cand.resolve()
+    return root.joinpath(*_BUILTIN_MODULES_CANDIDATES[0])
+
+
+# 對外常數 — caller 引用這些而不是自己 hardcode CardGame/... 路徑
+UCL_CORE_DIR: Path = find_ucl_core_dir()
+UCL_AGENTCMD_DIR: Path = UCL_CORE_DIR / "Tools~" / "AgentCommands"
+UCL_LIB_DIR: Path = UCL_AGENTCMD_DIR / "_lib"
+RUN_CMD_PATH: Path = UCL_AGENTCMD_DIR / "run_cmd.py"
+AWAKENING_PATH: Path = UCL_AGENTCMD_DIR / "awakening.py"
+CANVAS_PATH: Path = UCL_AGENTCMD_DIR / "canvas.py"
+BUILTIN_MODULES_DIR: Path = find_builtin_modules_dir()
 
 
 # ---------------------------------------------------------------------------
@@ -185,6 +257,10 @@ def debug_print_paths() -> None:
     print(f"IDENTITIES_PATH    = {IDENTITIES_PATH}")
     print(f"PRESENCE_PATH      = {PRESENCE_PATH}")
     print(f"NOTIFY_CONFIG_PATH = {NOTIFY_CONFIG_PATH}")
+    print(f"UCL_CORE_DIR       = {UCL_CORE_DIR}")
+    print(f"RUN_CMD_PATH       = {RUN_CMD_PATH}  (exists={RUN_CMD_PATH.is_file()})")
+    print(f"AWAKENING_PATH     = {AWAKENING_PATH}  (exists={AWAKENING_PATH.is_file()})")
+    print(f"BUILTIN_MODULES    = {BUILTIN_MODULES_DIR}  (exists={BUILTIN_MODULES_DIR.is_dir()})")
     print(f"discovered rooms   = {enumerate_room_ids()}")
 
 

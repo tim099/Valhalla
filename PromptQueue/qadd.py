@@ -27,8 +27,11 @@ import pathlib
 HERE = pathlib.Path(__file__).resolve().parent
 PROJECT_ROOT = HERE.parent.parent
 
-# run_cmd.py 路徑（UCL_Core 內）
-RUN_CMD = PROJECT_ROOT / "CardGame/Assets/UCL/UCL_Core/Tools~/AgentCommands/run_cmd.py"
+# run_cmd.py 路徑（UCL_Core 內）— T-PATH-02: layout-agnostic resolver, 不再寫死 CardGame/...
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+from AgentCommands._lib import tavern_paths as _tp  # noqa: E402
+RUN_CMD = _tp.RUN_CMD_PATH
 QUEUE_ROOM = "agent-prompt-queue"
 
 

@@ -45,7 +45,16 @@ except Exception:
 HERE = Path(__file__).resolve().parent
 # 推斷 project root: tools 通常在 AgentCommands/Tools/, repo 為其 parent.parent
 REPO_ROOT = HERE.parent.parent
-DEBUG_LOG_DIR = REPO_ROOT / "CardGame" / "Assets" / "DebugLogs"
+# T-PATH-02: DebugLogs 布局 per-project — LY 在 repo root/DebugLogs, CardGame 在 CardGame/Assets/DebugLogs。
+# 取第一個實際存在的候選; 都不在則退回 repo root/DebugLogs (由 caller 報清楚的路徑)。
+DEBUG_LOG_DIR = next(
+    (c for c in (
+        REPO_ROOT / "DebugLogs",
+        REPO_ROOT / "CardGame" / "Assets" / "DebugLogs",
+        REPO_ROOT / "Assets" / "DebugLogs",
+    ) if c.is_dir()),
+    REPO_ROOT / "DebugLogs",
+)
 
 # 區塊職責：噪音過濾 regex
 # 物理意義：這些 pattern 命中 = log line 視為「不感興趣的固定噪音」, 預設過濾掉

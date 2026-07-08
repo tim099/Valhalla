@@ -25,8 +25,12 @@ from typing import Any, Dict, List, Optional, Tuple
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.abspath(os.path.join(_HERE, "..", ".."))
+# T-PATH-02: .BuiltinModules 走 layout-agnostic resolver, 不再寫死 CardGame/Assets/.BuiltinModules
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+from AgentCommands._lib import tavern_paths as _tp  # noqa: E402
 DEFAULT_BATTLESET_DIR = os.path.join(
-    PROJECT_ROOT, "CardGame", "Assets", ".BuiltinModules", "ModulesRoot",
+    str(_tp.BUILTIN_MODULES_DIR), "ModulesRoot",
     "Modules", "Core", "UCL_Assets", "RCG_BattleSet"
 )
 DEFAULT_OUTPUT = os.path.join(
