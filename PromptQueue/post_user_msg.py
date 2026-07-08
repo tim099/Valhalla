@@ -53,7 +53,11 @@ from pathlib import Path
 
 _HERE = Path(__file__).resolve().parent
 _REPO_ROOT = _HERE.parent.parent
-_RUN_CMD = _REPO_ROOT / "CardGame" / "Assets" / "UCL" / "UCL_Core" / "Tools~" / "AgentCommands" / "run_cmd.py"
+# T-PATH-02: run_cmd.py 走 layout-agnostic resolver, 不再寫死 CardGame/Assets/UCL/UCL_Core
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
+from AgentCommands._lib import tavern_paths as _tp  # noqa: E402
+_RUN_CMD = _tp.RUN_CMD_PATH
 
 try:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")

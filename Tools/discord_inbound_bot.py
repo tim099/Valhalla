@@ -59,11 +59,8 @@ TOKEN_ENV_VAR = "DISCORD_INBOUND_BOT_TOKEN"
 # 數值影響：若新檔存在 → 純讀新檔; 不存在 → fallback legacy. Bot 啟動時 resolve, runtime 改 config 要 kill bot 重 spawn.
 ROUTING_PATH = _tp.TAVERN_DIR / "discord_channel_routing.json"
 
-# run_cmd.py 用來打 Cmd_Tavern op=post（單一寫者）
-RUN_CMD_PATH = (
-    REPO_ROOT / "CardGame" / "Assets" / "UCL" / "UCL_Core" / "Tools~"
-    / "AgentCommands" / "run_cmd.py"
-)
+# run_cmd.py 用來打 Cmd_Tavern op=post（單一寫者）— T-PATH-02: layout-agnostic resolver
+RUN_CMD_PATH = _tp.RUN_CMD_PATH
 
 # T07.1 (2026-05-15 apex-two) — Discord 附件落地根目錄
 # 物理意義: Discord image/file attachment 下載到本地, 走 refs 機制同步進酒館 message;

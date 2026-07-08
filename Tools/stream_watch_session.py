@@ -48,7 +48,11 @@ except Exception:
 # 數值影響：路徑算錯 → import 失敗 fail-fast, 代表環境壞了, 不該 silent 跑下去。
 _HERE = Path(__file__).resolve().parent                 # <repo>/AgentCommands/Tools
 _REPO_ROOT_LOCAL = _HERE.parent.parent                  # <repo>
-_UCL_AGENTCMD = _REPO_ROOT_LOCAL / "CardGame" / "Assets" / "UCL" / "UCL_Core" / "Tools~" / "AgentCommands"
+# T-PATH-02: UCL_Core Tools~/AgentCommands 走 layout-agnostic resolver, 不再寫死 CardGame/...
+if str(_REPO_ROOT_LOCAL) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT_LOCAL))
+from AgentCommands._lib import tavern_paths as _tp  # noqa: E402
+_UCL_AGENTCMD = _tp.UCL_AGENTCMD_DIR
 sys.path.insert(0, str(_UCL_AGENTCMD))
 
 from work_session import (  # noqa: E402

@@ -17,6 +17,10 @@ from typing import Dict, List
 
 HERE = pathlib.Path(__file__).resolve().parent
 PROJECT_ROOT = HERE.parent.parent
+# T-PATH-02: run_cmd.py 走 layout-agnostic resolver, 不再寫死 CardGame/...
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+from AgentCommands._lib import tavern_paths as _tp  # noqa: E402
 EVENTS_PATH = PROJECT_ROOT / "AgentCommands/ChatTavern/rooms/agent-prompt-queue/events.jsonl"
 PAUSE_FLAG = HERE / "_pause.flag"
 
@@ -106,7 +110,7 @@ def main() -> int:
     if args.raw:
         # 走 Editor 拿完整版（慢但準）
         import subprocess
-        run_cmd = PROJECT_ROOT / "CardGame/Assets/UCL/UCL_Core/Tools~/AgentCommands/run_cmd.py"
+        run_cmd = _tp.RUN_CMD_PATH
         cmd = [sys.executable, str(run_cmd), "run", "Tavern",
                "--arg", "op=task_list", "--arg", "room=agent-prompt-queue"]
         return subprocess.run(cmd, cwd=PROJECT_ROOT).returncode

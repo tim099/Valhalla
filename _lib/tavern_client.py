@@ -51,8 +51,9 @@ class TavernOpResult:
 # TavernClient
 # ---------------------------------------------------------------------------
 
-# 找 run_cmd.py 路徑 — 從 repo root 推
-_RUN_CMD_PATH = _tp.REPO_ROOT / "CardGame" / "Assets" / "UCL" / "UCL_Core" / "Tools~" / "AgentCommands" / "run_cmd.py"
+# 找 run_cmd.py 路徑 — 走 tavern_paths 的 layout-agnostic resolver (T-PATH-02)
+# 舊版寫死 CardGame/Assets/UCL/UCL_Core → 本 (LY) 專案 UCL_Core 在 Assets/Plugins/ 下即斷。
+_RUN_CMD_PATH = _tp.RUN_CMD_PATH
 
 
 class TavernClient:

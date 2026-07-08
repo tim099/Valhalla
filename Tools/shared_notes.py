@@ -57,6 +57,27 @@ def ensure_dirs():
     SUBJECTS_DIR.mkdir(parents=True, exist_ok=True)
 
 # ────────────────────────────────────────────────────────────────────────
+# note_type 軸 (WorkNotes v2, Tim 2026-07-07 拍板 + apex-one/summit feedback)
+# 雙軸分類: subject (code symbol, 在哪) × note_type (哪種知識)。
+# ONBOARD_ORDER = 接手時「見林先於見樹」的建議閱讀順序 (summit 認證的殺手鐧)。
+# ────────────────────────────────────────────────────────────────────────
+NOTE_TYPES = ["map", "concept", "howto", "decision", "runbook"]
+NOTE_TYPE_DESC = {
+    "map":      "🗺  東西在哪 (入口檔 / 關鍵路徑)",
+    "concept":  "💡 系統怎麼運作 (心智模型)",
+    "howto":    "🔧 SOP / 操作步驟",
+    "decision": "⚖  為何這樣設計 (取捨紀錄)",
+    "runbook":  "🚑 出事怎麼修 (recovery)",
+}
+ONBOARD_ORDER = NOTE_TYPES  # map → concept → howto → decision → runbook
+_UNCLASSIFIED = "unclassified"  # 舊 note 無 note_type 時的 bucket (backward-compat, 排最後)
+
+def note_type_of(fm):
+    """讀 note 的 note_type, 缺 / 非法 → unclassified (backward-compat)。"""
+    nt = (fm.get("note_type") or "").strip()
+    return nt if nt in NOTE_TYPES else _UNCLASSIFIED
+
+# ────────────────────────────────────────────────────────────────────────
 # Frontmatter parser (簡易 YAML, 不依賴 yaml lib)
 # ────────────────────────────────────────────────────────────────────────
 def parse_frontmatter(text):
@@ -174,20 +195,39 @@ def cmd_add(args):
         "author_agent": args.author_agent or "claude-code",
         "created": _dt.date.today().isoformat(),
         "last_updated": _dt.date.today().isoformat(),
+        "note_type": args.note_type,          # WorkNotes v2 雙軸之一 (map/concept/howto/decision/runbook)
         "topics": topics,
         "subjects": subjects,
         "tags": tags,
         "related_notes": related_notes,
+        "supersedes": args.supersedes or "",  # fork 紀律: 只在「理解被顛覆/實質加深」才填, 小修原地改
         "visibility": args.visibility or "public",
         "status": "live",
     }
     note_path.write_text(write_frontmatter(fm) + "\n" + body.strip() + "\n", encoding="utf-8")
     print(f"✓ note ship: {note_path.relative_to(REPO_ROOT)}")
     print(f"  id: {note_id}")
+    print(f"  note_type: {args.note_type}")
     if topics:
         print(f"  topics: {', '.join(topics)}")
     if subjects:
         print(f"  subjects: {', '.join(subjects)}")
+
+    # fork 紀律: 顯式 --supersedes → 把舊 note 標 superseded (不刪, 版本史可回溯; summit ② 拍板)
+    if args.supersedes:
+        old_id = args.supersedes.strip()
+        marked = False
+        for path, ofm, obody in load_all_notes():
+            if ofm.get("id") == old_id:
+                ofm["status"] = f"superseded_by:{note_id}"
+                ofm["last_updated"] = _dt.date.today().isoformat()
+                path.write_text(write_frontmatter(ofm) + "\n" + obody, encoding="utf-8")
+                marked = True
+                print(f"  ⤿ superseded 舊版 {old_id} (保留檔案, status 標記, 不刪)")
+                break
+        if not marked:
+            print(f"  ⚠ --supersedes 指的 {old_id} 找不到 (新 note 仍已寫入)")
+
     print(f"  → 跑 'reindex' 更新索引")
     return 0
 
@@ -303,6 +343,58 @@ def cmd_find_related(args):
     return 0
 
 # ────────────────────────────────────────────────────────────────────────
+# CMD: onboard ★ 殺手鐧 (WorkNotes v2) — 見林先於見樹
+#   給 subject/topic, 回「map→concept→howto→decision→runbook」建議閱讀順序,
+#   讓接手者一句話拿到子系統地圖 (summit 認證: 這比任何單張卡都值錢)。
+# ────────────────────────────────────────────────────────────────────────
+def cmd_onboard(args):
+    if not args.subject and not args.topic:
+        print("✗ onboard 需 --subject <code symbol> 或 --topic <topic> 其一", file=sys.stderr)
+        return 1
+    notes = load_all_notes()
+    key, val = ("subject", args.subject) if args.subject else ("topic", args.topic)
+    field = "subjects" if args.subject else "topics"
+
+    # 收該 subject/topic 的 live notes (superseded 排除, 只給接手者現行版)
+    matched = []
+    for path, fm, body in notes:
+        if str(fm.get("status", "live")).startswith("superseded"):
+            continue
+        if any(x.lower() == val.lower() for x in fm.get(field, [])):
+            # 抓 body 第一行非空當一句摘要
+            first = next((ln.strip() for ln in body.split("\n") if ln.strip() and not ln.startswith("#")), "")
+            matched.append((fm, first[:90]))
+
+    if not matched:
+        print(f"(no note under {key} '{val}')")
+        print(f"  → 若你剛上手這塊, ship 第一張卡: shared_notes.py add --{key}s {val} --note-type map ...")
+        return 0
+
+    # 依 note_type 分桶
+    buckets = {nt: [] for nt in ONBOARD_ORDER}
+    buckets[_UNCLASSIFIED] = []
+    for fm, first in matched:
+        buckets[note_type_of(fm)].append((fm, first))
+
+    print(f"🧭 Onboard — {key} `{val}`  ({len(matched)} 張現行卡)")
+    print(f"   建議閱讀順序 (見林先於見樹):\n")
+    order = ONBOARD_ORDER + [_UNCLASSIFIED]
+    for nt in order:
+        entries = buckets.get(nt, [])
+        if not entries:
+            continue
+        label = NOTE_TYPE_DESC.get(nt, "❔ 未分類 (建議補 --note-type)")
+        print(f"── {nt}  {label} ──")
+        for fm, first in entries:
+            print(f"  • {fm.get('title','(no title)')}  @{fm.get('author_persona','?')} ({fm.get('created','?')})")
+            print(f"      id: {fm.get('id')}")
+            if first:
+                print(f"      ▸ {first}")
+        print()
+    print(f"→ 讀單張: shared_notes.py show --id <id>")
+    return 0
+
+# ────────────────────────────────────────────────────────────────────────
 # CMD: append-comment (其他 persona 對某 note 補注)
 # ────────────────────────────────────────────────────────────────────────
 def cmd_append_comment(args):
@@ -366,12 +458,12 @@ def cmd_reindex(args):
         # 把檔名安全化 (subject 可能含 < > / 等字符)
         safe_subject = re.sub(r"[^a-zA-Z0-9_\-一-鿿]", "_", subject)
         lines = [f"# Notes about `{subject}`\n"]
-        lines.append("此 subject 涉及以下 notes (新到舊):\n")
+        lines.append(f"此 subject 涉及以下 notes (新到舊)。接手先跑 `shared_notes.py onboard --subject {subject}` 拿建議閱讀順序:\n")
         for path, fm in entries:
             title = fm.get("title", "(no title)")
             author = fm.get("author_persona", "?")
             note_id = fm.get("id", "")
-            lines.append(f"- [{title}](../notes/{note_id}.md) — @{author} ({fm.get('created')})")
+            lines.append(f"- `[{note_type_of(fm)}]` [{title}](../notes/{note_id}.md) — @{author} ({fm.get('created')})")
         (SUBJECTS_DIR / f"{safe_subject}.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     # 寫 _index.md
@@ -390,7 +482,7 @@ def cmd_reindex(args):
         title = fm.get("title", "(no title)")
         author = fm.get("author_persona", "?")
         note_id = fm.get("id", "")
-        lines.append(f"- [{title}](notes/{note_id}.md) — @{author} ({fm.get('created')})")
+        lines.append(f"- `[{note_type_of(fm)}]` [{title}](notes/{note_id}.md) — @{author} ({fm.get('created')})")
 
     lines.append("")
     lines.append(f"## Topics ({len(by_topic)})")
@@ -429,6 +521,10 @@ def main():
     p_add.add_argument("--title", required=True)
     p_add.add_argument("--author", required=True, help="persona codename (e.g. basecamp)")
     p_add.add_argument("--author-agent", default=None)
+    p_add.add_argument("--note-type", default="concept", choices=NOTE_TYPES,
+                       help="WorkNotes v2 雙軸之一: map(在哪)/concept(怎麼運作)/howto(SOP)/decision(為何)/runbook(救火)")
+    p_add.add_argument("--supersedes", default=None,
+                       help="fork 紀律: 舊 note id — 只在『理解被顛覆/實質加深』才填(舊版標 superseded 不刪); 小修請直接改原卡")
     p_add.add_argument("--topics", default="", help="csv (e.g. ui-architecture,cmd-system)")
     p_add.add_argument("--subjects", default="", help="★ csv code symbols (e.g. RCG_MainMenu,Cmd_UIInspect)")
     p_add.add_argument("--tags", default="", help="csv")
@@ -459,6 +555,11 @@ def main():
     p_find = sp.add_parser("find-related", help="★ 按 subject (code symbol) 精準查詢相關 notes")
     p_find.add_argument("--subject", required=True, help="code symbol / system name (e.g. RCG_MainMenu)")
     p_find.set_defaults(func=cmd_find_related)
+
+    p_onboard = sp.add_parser("onboard", help="★★ 接手殺手鐧: 給 subject/topic 回建議閱讀順序 (見林先於見樹)")
+    p_onboard.add_argument("--subject", default=None, help="code symbol / 子系統 (e.g. Cmd_Tavern)")
+    p_onboard.add_argument("--topic", default=None, help="topic (e.g. cmd-system) — 與 --subject 擇一")
+    p_onboard.set_defaults(func=cmd_onboard)
 
     p_comment = sp.add_parser("append-comment", help="其他 persona 對某 note 補注")
     p_comment.add_argument("--id", required=True)

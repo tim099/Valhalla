@@ -97,8 +97,8 @@ def _resolve_balances(entry: dict):
     try:
         import importlib.util as _ilu
         repo_root = Path(__file__).resolve().parents[2]
-        canonical = (repo_root / "CardGame" / "Assets" / "UCL" / "UCL_Core"
-                     / "Tools~" / "AgentCommands" / "_lib" / "treasury_ledger.py")
+        # T-PATH-02: canonical UCL_Core lib 走 layout-agnostic resolver (不再寫死 CardGame/Assets/UCL/UCL_Core)
+        canonical = _tp.UCL_LIB_DIR / "treasury_ledger.py"
         ledger_root = repo_root / "AgentCommands" / "Treasury" / "ledger"
         if not canonical.exists():
             return bb, ba

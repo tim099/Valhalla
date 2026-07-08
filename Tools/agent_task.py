@@ -50,13 +50,9 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
         pass
 
 
-# 路徑解析 — 用 _lib.repo_root 共用 helper 錨定主專案根（不可用 cwd-相對路徑；見 _lib/repo_root.py）。
-from _lib.repo_root import find_repo_root  # noqa: E402
-
-REPO_ROOT = find_repo_root()
-PROPOSALS_PATH = os.path.join(REPO_ROOT, "AgentCommands", "AgentTasks", "proposals.jsonl")
-ACTIVE_PATH = os.path.join(REPO_ROOT, "AgentCommands", "AgentTasks", "_active.json")
-LEDGER_ROOT = os.path.join(REPO_ROOT, "AgentCommands", "Treasury", "ledger")
+PROPOSALS_PATH = "AgentCommands/AgentTasks/proposals.jsonl"
+ACTIVE_PATH = "AgentCommands/AgentTasks/_active.json"
+LEDGER_ROOT = "AgentCommands/Treasury/ledger"
 TIM = "Tim"
 DEFAULT_AGENT = "claude-da-xiaojie"
 

@@ -55,7 +55,7 @@ PROJECT_ROOT = _tp.REPO_ROOT
 CONFIG_PATH = _tp.NOTIFY_CONFIG_PATH
 TOKEN_FILE = HERE / "_bot_token.txt"
 LOG_FILE = HERE / "_inbound_daemon.log"
-RUN_CMD = PROJECT_ROOT / "CardGame/Assets/UCL/UCL_Core/Tools~/AgentCommands/run_cmd.py"   # legacy ref (留給 trigger_wake_notify 用)
+RUN_CMD = _tp.RUN_CMD_PATH   # legacy ref (留給 trigger_wake_notify 用); T-PATH-02: layout-agnostic resolver
 
 # 全域共用 WebhookClient instance（給 post_webhook_ack 委派用）
 _module_webhook_client = _dw.WebhookClient(_dw.WebhookConfig(label="inbound_daemon", webhook_dir=HERE))

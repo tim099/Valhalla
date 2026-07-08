@@ -18,7 +18,11 @@ from pathlib import Path
 # 區塊職責：定位 UCL_Core lib 並 import
 _HERE = Path(__file__).resolve().parent
 _REPO_ROOT = _HERE.parent.parent
-_UCL_LIB = _REPO_ROOT / "CardGame" / "Assets" / "UCL" / "UCL_Core" / "Tools~" / "AgentCommands" / "_lib"
+# T-PATH-02: UCL_Core _lib 走 layout-agnostic resolver, 不再寫死 CardGame/Assets/UCL/UCL_Core。
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
+from AgentCommands._lib import tavern_paths as _tp  # noqa: E402
+_UCL_LIB = _tp.UCL_LIB_DIR
 sys.path.insert(0, str(_UCL_LIB))
 
 import ucl_secrets_crypto as _impl  # noqa: E402

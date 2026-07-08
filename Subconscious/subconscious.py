@@ -37,7 +37,11 @@ REPO_ROOT = _find_repo_root()  # 鎖定整個 EmblemOfValor 的專案根目錄�
 SUBCONSCIOUS_DIR = REPO_ROOT / "AgentCommands" / "Subconscious"  # 子意識的核心資料儲存資料夾定位。
 ANTI_PATTERNS_FILE = SUBCONSCIOUS_DIR / "anti_patterns.jsonl"  # 跨 Agent 共享的偏差行為反面範例知識庫檔案路徑。
 VIOLATIONS_FILE = SUBCONSCIOUS_DIR / "violations.jsonl"  # 用以記錄實際發生的所有違規偏差行為審計軌跡檔案路徑。
-RUN_CMD_PY = REPO_ROOT / "CardGame" / "Assets" / "UCL" / "UCL_Core" / "Tools~" / "AgentCommands" / "run_cmd.py"  # 指向既有 UCL 指令調度入口 run_cmd.py 的 Python 橋樑位址。
+# T-PATH-02: run_cmd.py 走 layout-agnostic resolver, 不再寫死 CardGame/Assets/UCL/UCL_Core。
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+from AgentCommands._lib import tavern_paths as _tp  # noqa: E402
+RUN_CMD_PY = _tp.RUN_CMD_PATH  # 指向既有 UCL 指令調度入口 run_cmd.py 的 Python 橋樑位址。
 
 # 區塊職責：時間格式輔助函式定義
 # 物理意義：生成統一樣式、不帶微秒偏移的 ISO 8601 UTC 時間格式，以供日誌格式對齊與時間序列排序。

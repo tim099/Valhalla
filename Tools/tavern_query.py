@@ -46,14 +46,9 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     except (AttributeError, OSError):
         pass
 
-# 路徑解析 — 用 _lib.repo_root 共用 helper 錨定主專案根（不可用 cwd-相對路徑；見 _lib/repo_root.py）。
-# read-only，但 cwd 漂移會讀空 → 誤報「無訊息」，同 cwd 路徑詐欺家族，一併收編。
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
-from _lib.repo_root import find_repo_root  # noqa: E402
-
-REPO_ROOT = find_repo_root()
-TAVERN_ROOT = os.path.join(REPO_ROOT, "AgentCommands", "ChatTavern", "rooms")
-IDENTITIES_PATH = os.path.join(REPO_ROOT, "AgentCommands", "ChatTavern", "identities.json")
+# 路徑常數：相對 EOV repo root
+TAVERN_ROOT = "AgentCommands/ChatTavern/rooms"
+IDENTITIES_PATH = "AgentCommands/ChatTavern/identities.json"
 
 
 def parse_since(s: str) -> datetime.timedelta:
