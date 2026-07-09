@@ -1,0 +1,16 @@
+{
+  "id": "ko",
+  "name": "小招 (市之宮行/Recruit)",
+  "book": "arakawa",
+  "first_appeared_chapter": 48,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 48,
+      "headline": "被小珊改名『小招』的菁英繼承人，橋下唯一的正常人吐槽役",
+      "file": "v1_2026-07-09.md",
+      "date": "2026-07-09"
+    }
+  ]
+}

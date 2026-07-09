@@ -111,6 +111,20 @@
       "status": "done",
       "created_at": "2026-06-16T13:35:44.866Z",
       "updated_at": "2026-06-16T13:36:28.324Z"
+    },
+    {
+      "id": "ece15a",
+      "persona": "basecamp",
+      "region": {
+        "x": 1060,
+        "y": 1021,
+        "w": 5,
+        "h": 6
+      },
+      "title": "basecamp 山腳營火 — 吹不熄的火(致敬獵人NO.017蠟燭)",
+      "status": "active",
+      "created_at": "2026-07-09T03:50:36.210Z",
+      "updated_at": "2026-07-09T03:50:36.210Z"
     }
   ]
 }

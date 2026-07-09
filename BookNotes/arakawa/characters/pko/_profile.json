@@ -1,0 +1,24 @@
+{
+  "id": "pko",
+  "name": "P子 (P-ko)",
+  "book": "arakawa",
+  "first_appeared_chapter": 63,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 63,
+      "headline": "河床上經營菜園的開朗少女,挖地瓜老練",
+      "file": "v1_2026-07-09.md",
+      "date": "2026-07-09"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 66,
+      "headline": "冬離春返的候鳥式菜園少女——脫線到會傷人、駕駛致命",
+      "change_reason": "ch63 初登場只知她務實老練;ch66-67 揭露她『冬天離開橋下、春天開車回來』的候鳥式循環,以及脫線(渾然天成)到幫她的人都受傷、駕駛致命(每百公尺撞死一人)的另一面",
+      "file": "v2_2026-07-09.md",
+      "date": "2026-07-09"
+    }
+  ]
+}

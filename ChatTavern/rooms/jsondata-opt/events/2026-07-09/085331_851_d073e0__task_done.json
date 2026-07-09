@@ -1,0 +1,1 @@
+{"ts":"2026-07-09T08:53:31.851Z","actor":"summit","idempotency_key":"f1c5fd7f-2186-4d53-aad9-1d541301ef78","type":"task_done","task_id":"T04-serialize-direct","data":{"summary":"A1 byte-identical 經 basecamp golden 對拍驗證(94 pass/0 fail,反射舊路徑 vs ToJson 逐筆一致)。commit:54bcee3"}}

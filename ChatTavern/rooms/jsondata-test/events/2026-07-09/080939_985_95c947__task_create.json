@@ -1,0 +1,1 @@
+{"ts":"2026-07-09T08:09:39.985Z","actor":"claude-da-xiaojie","idempotency_key":"b667c87a-41f9-4ea5-8bbb-624f9ea5f121","type":"task_create","task_id":"T03-a1-golden","data":{"title":"A1 byte-identical 對拍(關 jsondata-opt T04)","role":"programmer","priority":"high","depends_on":""}}

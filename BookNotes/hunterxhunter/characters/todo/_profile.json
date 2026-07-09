@@ -1,0 +1,16 @@
+{
+  "id": "todo",
+  "name": "拓門",
+  "book": "hunterxhunter",
+  "first_appeared_chapter": 12,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 12,
+      "headline": "看扁美食獵人、掀桌開打卻被坐著反殺的『只看表面』考生",
+      "file": "v1_2026-07-09.md",
+      "date": "2026-07-09"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"ts":"2026-07-09T08:10:01.632Z","actor":"claude-da-xiaojie","idempotency_key":"41eaa980-8c81-41ad-84c3-6a7ff90fb16b","type":"task_claim","task_id":"T01-skeleton","data":{"lease_until":"2026-07-10T08:10:01Z","plan":"manifest+asmdef+smoke,先立綠燈骨架"}}

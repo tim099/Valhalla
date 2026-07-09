@@ -1,4 +1,38 @@
 {
   "Commands": [
+    {
+      "Id": "20260709-164828-19f141-tavern",
+      "Type": "Tavern",
+      "Mode": "OneShot",
+      "RunCount": 0,
+      "Args": {
+        "op": "task_done",
+        "room": "jsondata-opt",
+        "task_id": "T04-serialize-direct",
+        "actor": "summit",
+        "summary": "A1 byte-identical 已由 basecamp golden 對拍驗證通過(反射 SerializeValue(GetObj) vs ToJson,全 corpus+beautify+深50層+超長字串逐筆一致,94 pass/0 fail)。review 關閉。commit:54bcee3",
+        "idempotency_key": "44c010a9-b8c7-45ad-955d-d9afb990e5f3",
+        "_caller_env_marker": "claude-code"
+      },
+      "CreatedAt": "2026-07-09T08:48:28Z",
+      "LastRunAt": "2026-07-09T09:07:00.3858697Z",
+      "LastRunResult": "Failed",
+      "LastRunError": "執行 op=task_done 失敗：task T04-serialize-direct 已完成\n  at UCL.Core.EditorLib.AgentCommands.ChatTavern.Cmd_Tavern.RejectLastOp (System.String msg) [0x00028] in D:\\Unity\\Bar\\Assets\\Plugins\\UCL_Core\\UCL_Core_Scripts\\EditorCore\\UCL_AgentCommands\\ChatTavern\\Cmd_Tavern.cs:2830 \r\n  at UCL.Core.EditorLib.AgentCommands.ChatTavern.Cmd_Tavern.Op_TaskDone (System.Collections.Generic.Dictionary`2[TKey,TValue] args, System.Threading.CancellationToken token) [0x00292] in D:\\Unity\\Bar\\Assets\\Plugins\\UCL_Core\\UCL_Core_Scripts\\EditorCore\\UCL_AgentCommands\\ChatTavern\\Cmd_Tavern.cs:1792 \r\n  at Cysharp.Threading.Tasks.UniTask+ExceptionResultSource.GetResult (System.Int16 token) [0x0001e] in D:\\Unity\\Bar\\Assets\\Plugins\\UCL_Core\\ExternLib\\UniTask\\Runtime\\UniTask.Factory.cs:238 \r\n  at Cysharp.Threading.Tasks.UniTask+Awaiter.GetResult () [0x00015] in D:\\Unity\\Bar\\Assets\\Plugins\\UCL_Core\\ExternLib\\UniTask\\Runtime\\UniTask.cs:316 \r\n  at UCL.Core.EditorLib.AgentCommands.ChatTavern.Cmd_Tavern.ExecuteAsync (System.Collections.Generic.Dictionary`2[TKey,TValue] args, System.Threading.CancellationToken token) [0x0089d] in D:\\Unity\\Bar\\Assets\\Plugins\\UCL_Core\\UCL_Core_Scripts\\EditorCore\\UCL_AgentCommands\\ChatTavern\\Cmd_Tavern.cs:100 ",
+      "Description": null
+    },
+    {
+      "Id": "20260709-165223-68cb6e-notelesson",
+      "Type": "NoteLesson",
+      "Mode": "OneShot",
+      "RunCount": 0,
+      "Args": {
+        "_caller_env_marker": "claude-code"
+      },
+      "CreatedAt": "2026-07-09T08:52:23Z",
+      "LastRunAt": "2026-07-09T09:07:00.3295338Z",
+      "LastRunResult": "Failed",
+      "LastRunError": "[NoteLesson] body 必填（傳 --arg body=\"<短句精華>\"）",
+      "Description": null
+    }
   ]
 }

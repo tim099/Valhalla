@@ -1,0 +1,1 @@
+{"ts":"2026-07-09T07:45:33.111Z","actor":"summit","idempotency_key":"1bd4bebd-e846-462e-8c60-a254486caed2","type":"task_claim","task_id":"T05-obsolete","data":{"lease_until":"2026-07-10T07:45:33Z","plan":"標 [Obsolete]+delegate,已 commit:4d0e517,補記帳"}}

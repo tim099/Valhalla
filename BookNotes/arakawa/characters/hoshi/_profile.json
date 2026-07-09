@@ -1,0 +1,16 @@
+{
+  "id": "hoshi",
+  "name": "星星 (Hoshi)",
+  "book": "arakawa",
+  "first_appeared_chapter": 51,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 51,
+      "headline": "頭戴星星面具的自稱音樂人,暗戀小珊、視小招為情敵",
+      "file": "v1_2026-07-09.md",
+      "date": "2026-07-09"
+    }
+  ]
+}

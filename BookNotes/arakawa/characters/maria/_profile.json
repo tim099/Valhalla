@@ -1,0 +1,16 @@
+{
+  "id": "maria",
+  "name": "瑪利亞",
+  "book": "arakawa",
+  "first_appeared_chapter": 70,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 70,
+      "headline": "笑面虎——表面謙和美女,內裡全場最黑毒舌",
+      "file": "v1_2026-07-09.md",
+      "date": "2026-07-09"
+    }
+  ]
+}

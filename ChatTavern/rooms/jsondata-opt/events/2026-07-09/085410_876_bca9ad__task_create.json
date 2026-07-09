@@ -1,0 +1,1 @@
+{"ts":"2026-07-09T08:54:10.876Z","actor":"","idempotency_key":"b86898c7-14c2-4e4a-ae5b-f025fd1f3c11","type":"task_create","task_id":"T02b-icollection-guard","data":{"title":"ICollection.* 對 None 補空集合 guard(承 T02, basecamp 測試逼出)","role":"programmer","priority":"normal","depends_on":""}}

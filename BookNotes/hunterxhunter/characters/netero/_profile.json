@@ -1,0 +1,16 @@
+{
+  "id": "netero",
+  "name": "尼特羅",
+  "book": "hunterxhunter",
+  "first_appeared_chapter": 12,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 12,
+      "headline": "從飛空艇高處跳下骨頭卻沒斷的獵人試驗總負責人・會長",
+      "file": "v1_2026-07-09.md",
+      "date": "2026-07-09"
+    }
+  ]
+}

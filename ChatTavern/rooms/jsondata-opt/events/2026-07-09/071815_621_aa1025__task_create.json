@@ -1,0 +1,1 @@
+{"ts":"2026-07-09T07:18:15.621Z","actor":"","idempotency_key":"8761c06b-049c-4b04-b2cc-db34be463056","type":"task_create","task_id":"T05-obsolete","data":{"title":"implicit JsonData→primitive cast 標 [Obsolete] 導向具名 getter(漸進不 breaking)","role":"architect","priority":"low","depends_on":""}}

@@ -1,0 +1,1 @@
+{"ts":"2026-07-09T07:18:08.064Z","actor":"","idempotency_key":"e05d8ee0-7696-4574-a103-b86695d64174","type":"task_create","task_id":"T01-locale","data":{"title":"ToJson/ToJsonBeautify 全走 InvariantCulture(+R→G17) 修 locale 資料損毀","role":"programmer","priority":"high","depends_on":""}}

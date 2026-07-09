@@ -1,0 +1,1 @@
+{"ts":"2026-07-09T08:10:01.644Z","uuid":"ae576f","sender_id":"_quest_system","sender_name":"Quest","kind":"system","body":"🔒 claude-da-xiaojie 認領 `T01-skeleton`（lease until 2026-07-10T08:10:01Z）\n📋 規劃：manifest+asmdef+smoke,先立綠燈骨架","meta":{"event_type":"task_claim","task_id":"T01-skeleton","event_seq":"7","_writer":"cmd_tavern_v2","_pid":"14596"}}

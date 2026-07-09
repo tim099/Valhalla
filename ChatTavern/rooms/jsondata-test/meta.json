@@ -1,0 +1,9 @@
+{
+    "id": "jsondata-test",
+    "name": "JsonData 測試工具實作",
+    "description": "依拍板方案實作 EditMode 自動測試,驗 JsonData 改動(A1/B3/locale/getter)是否正常",
+    "created_at": "2026-07-09T08:09:33Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "",
+    "mirror_kinds": []
+}

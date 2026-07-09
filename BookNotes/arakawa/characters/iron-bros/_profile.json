@@ -1,0 +1,16 @@
+{
+  "id": "iron-bros",
+  "name": "鐵人兄弟",
+  "book": "arakawa",
+  "first_appeared_chapter": 48,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 48,
+      "headline": "頭套鐵桶/機械面的兩兄弟，這話的游泳學徒",
+      "file": "v1_2026-07-09.md",
+      "date": "2026-07-09"
+    }
+  ]
+}

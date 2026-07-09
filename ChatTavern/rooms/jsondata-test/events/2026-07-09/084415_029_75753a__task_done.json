@@ -1,0 +1,1 @@
+{"ts":"2026-07-09T08:44:15.029Z","actor":"claude-da-xiaojie","idempotency_key":"637cc38b-1e16-401f-b6e3-34952eed4d80","type":"task_done","task_id":"T03-a1-golden","data":{"summary":"94 pass/0 fail 實測綠燈(BarJsonChecks 同步 harness 經 Cmd_Invoke 跑)"}}

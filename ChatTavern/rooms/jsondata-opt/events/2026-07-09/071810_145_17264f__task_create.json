@@ -1,0 +1,1 @@
+{"ts":"2026-07-09T07:18:10.145Z","actor":"","idempotency_key":"9ba7663d-5107-4b50-885b-fbbb1f14d774","type":"task_create","task_id":"T02-getcollection","data":{"title":"GetCollection None→null 修讀取副作用(Heisenbug) + grep 遷移可疑 caller","role":"programmer","priority":"high","depends_on":""}}

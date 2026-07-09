@@ -1,0 +1,24 @@
+{
+  "id": "sister",
+  "name": "修女 (Sister)",
+  "book": "arakawa",
+  "first_appeared_chapter": 56,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 56,
+      "headline": "揹機關槍的彪形修女(本批僅封面+小招想像中登場)",
+      "file": "v1_2026-07-09.md",
+      "date": "2026-07-09"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 62,
+      "headline": "戰鬥狂修女——聽到『火箭』就當武器拔引信,但對史黛拉極溫柔(正式登場)",
+      "change_reason": "ch56 只在小招想像中出現(v1);ch62 正式在場登場,言行、性格、與史黛拉的羈絆都看到了",
+      "file": "v2_2026-07-09.md",
+      "date": "2026-07-09"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "franz",
+  "name": "法蘭滋",
+  "book": "arakawa",
+  "first_appeared_chapter": 70,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 70,
+      "headline": "自稱外籍、精通六國語言的金髮戰爭狂(演出)",
+      "file": "v1_2026-07-09.md",
+      "date": "2026-07-09"
+    }
+  ]
+}

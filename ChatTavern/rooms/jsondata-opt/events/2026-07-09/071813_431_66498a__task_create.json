@@ -1,0 +1,1 @@
+{"ts":"2026-07-09T07:18:13.431Z","actor":"","idempotency_key":"2e94e039-e0ad-4ec7-afba-4fa9d0f2e79f","type":"task_create","task_id":"T04-serialize-direct","data":{"title":"ToJson 砍 ToObject 深拷,直接序列化 JsonData 樹(吃 m_Dic) + byte-identical 驗證","role":"programmer","priority":"normal","depends_on":"T01-locale"}}

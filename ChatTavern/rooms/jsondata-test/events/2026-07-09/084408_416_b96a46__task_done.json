@@ -1,0 +1,1 @@
+{"ts":"2026-07-09T08:44:08.416Z","actor":"claude-da-xiaojie","idempotency_key":"0ff078d1-5831-4c07-9507-81615897f759","type":"task_done","task_id":"T01-skeleton","data":{"summary":"94 pass/0 fail 實測綠燈(BarJsonChecks 同步 harness 經 Cmd_Invoke 跑)"}}

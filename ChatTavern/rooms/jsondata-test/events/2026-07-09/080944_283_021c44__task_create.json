@@ -1,0 +1,1 @@
+{"ts":"2026-07-09T08:09:44.283Z","actor":"claude-da-xiaojie","idempotency_key":"43cc867d-d815-411a-8a4b-3f3cb14177bb","type":"task_create","task_id":"T05-run-verify","data":{"title":"跑測試+驗收+回報","role":"programmer","priority":"normal","depends_on":""}}

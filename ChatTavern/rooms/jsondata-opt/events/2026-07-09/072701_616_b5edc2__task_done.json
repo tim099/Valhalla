@@ -1,0 +1,1 @@
+{"ts":"2026-07-09T07:27:01.616Z","actor":"summit","idempotency_key":"4080b42b-528e-490f-93f6-3df4fcfbc7e8","type":"task_done","task_id":"T03-microopt","data":{"summary":"SerializeString 去 ToCharArray 省配置;GetDouble/GetFloat(key) 補齊 UInt/ULong,消除數字讀到 default 的坑。artifacts=commit:153b2c4"}}

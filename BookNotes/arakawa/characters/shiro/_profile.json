@@ -1,0 +1,24 @@
+{
+  "id": "shiro",
+  "name": "小白 (白/Shiro)",
+  "book": "arakawa",
+  "first_appeared_chapter": 56,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 56,
+      "headline": "穿鳥/雞布偶裝的居民(本批僅小招想像中登場)",
+      "file": "v1_2026-07-09.md",
+      "date": "2026-07-09"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 71,
+      "headline": "白井通——前大型企業業務員,如今橋下的「白色科尼什雞」",
+      "change_reason": "ch71小白實體登場並揭真名與過去:先前只在他人口中/想像裡出現(鳥裝、白線),這話揭曉真名白井通、本是某大型企業的業務員,身分從「傳聞/想像」變成「有前世、有名字的實體」",
+      "file": "v2_2026-07-09.md",
+      "date": "2026-07-09"
+    }
+  ]
+}

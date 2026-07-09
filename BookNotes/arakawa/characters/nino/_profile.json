@@ -1,0 +1,16 @@
+{
+  "id": "nino",
+  "name": "小珊 (Nino)",
+  "book": "arakawa",
+  "first_appeared_chapter": 48,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 48,
+      "headline": "自稱來自金星的金髮少女，小招的女友，橋下的謎之核心",
+      "file": "v1_2026-07-09.md",
+      "date": "2026-07-09"
+    }
+  ]
+}

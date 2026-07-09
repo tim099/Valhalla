@@ -1,0 +1,24 @@
+{
+  "id": "bendot",
+  "name": "蝙都特",
+  "book": "hunterxhunter",
+  "first_appeared_chapter": 16,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 16,
+      "headline": "NO.016章末素描tease的光頭凶悍男(推測塔內對決者)",
+      "file": "v1_2026-07-09.md",
+      "date": "2026-07-09"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 16,
+      "headline": "賤陷塔『測考官』頭目——受審查委員會聘僱的囚犯戰士",
+      "change_reason": "v1只是NO.016章末的素描tease、身分靠推測。這批他正式登場並開口:確認身分為『受審查委員會特地聘僱的測考官』,實為塔內囚犯(考生替他們解開手銬獲釋),領頭宣告5對5對打規則。從『推測的對決者』升級為『確認的測考官頭目』。",
+      "file": "v2_2026-07-09.md",
+      "date": "2026-07-09"
+    }
+  ]
+}

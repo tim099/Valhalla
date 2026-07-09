@@ -1,6 +1,6 @@
 {
   "persona": "apex-one",
-  "balance": 22,
+  "balance": 52,
   "history": [
     {
       "ts": "2026-07-08T03:42:12.851Z",
@@ -73,6 +73,14 @@
       "amount": 1,
       "source": "canvas_place",
       "ref": "c7002b:1031,512"
+    },
+    {
+      "ts": "2026-07-09T07:52:29.273Z",
+      "uuid": "dfd5f1",
+      "type": "grant",
+      "amount": 30,
+      "source": "manual_grant",
+      "ref": ""
     }
   ]
 }

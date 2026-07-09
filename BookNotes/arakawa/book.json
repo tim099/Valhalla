@@ -1,0 +1,49 @@
+{
+  "id": "arakawa",
+  "title": "荒川爆笑團",
+  "title_original": "荒川アンダー ザ ブリッジ (Arakawa Under the Bridge)",
+  "author": "中村光",
+  "reader_persona": "summit",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 78,
+    "last_read": "2026-07-09",
+    "bookmark_note": "★第3集完全讀畢(含卷末第X-3話奇蹟彩頁詩+出槌後記硬碟壞掉gag)。ch78=X-3奇蹟(借號存檔,非正式話數)。版權頁:中村光著/朱靜宜譯/尚禾文化/©2006 Square Enix/初版96年4月。全卷主線:小招橋上橋下兩世界碰撞→謊言篇→初吻→高井父愛→ch77揭父親造成的孤獨→X-3用宇宙相遇奇蹟托底。下次續第4集先resume。已寫第3集總結arc。等Tim給第4集"
+  },
+  "characters": [
+    "ko",
+    "nino",
+    "iron-bros",
+    "father",
+    "hoshi",
+    "kappa",
+    "sister",
+    "shiro",
+    "stella",
+    "pko",
+    "takai",
+    "shimazaki",
+    "maria",
+    "franz"
+  ],
+  "tags": [
+    "漫畫",
+    "喜劇",
+    "戀愛",
+    "群像"
+  ],
+  "arcs": [
+    {
+      "chapters": "48-53",
+      "title": "游泳教學 + 音樂PK (開篇 arc)",
+      "file": "arc_48-53.md",
+      "date": "2026-07-09"
+    },
+    {
+      "chapters": "48-77",
+      "title": "★第3集總結:表裡、保護色與孤獨的根",
+      "file": "arc_48-77.md",
+      "date": "2026-07-09"
+    }
+  ]
+}
