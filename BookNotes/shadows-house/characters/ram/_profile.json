@@ -1,0 +1,16 @@
+{
+  "id": "ram",
+  "name": "拉姆 Ram",
+  "book": "shadows-house",
+  "first_appeared_chapter": 6,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 6,
+      "headline": "害羞寡言的活人偶,迷宮中Emilico的協作夥伴",
+      "file": "v1_2026-07-09.md",
+      "date": "2026-07-09"
+    }
+  ]
+}

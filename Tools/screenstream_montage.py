@@ -946,9 +946,37 @@ def op_make(args):
             #   montage 端不現跑轉錄 → 多 viewer 同拉不重複運算 (對齊 OCR cache-first 鐵律)。
             after_ep = float(args.after_mtime)
             until_ep = float(next_cursor) if next_cursor is not None else time.time()
+            # T-STT-Live (2026-07-09, summit ship, 討論收斂 basecamp/apex-one/gura):
+            #   容器場 daemon worker 起不來 (MSIX 隔離看不到 whisper) → cache 恆空。
+            #   --stt-live: 若 cache 沒蓋到窗口, montage 端 (在 agent shell, 看得到 whisper) 同步現抓
+            #   一段 loopback 音訊 → 轉錄 → write_stt_chunk 寫成標準 cache → 下面照舊 read_stt_cache 讀到。
+            #   誠實守則 (gura 磚1): 覆蓋% 從「實測 epoch span」算, 不用「請求秒數」(WASAPI underrun 會虛報)。
+            #   同步 inline (非 agent 背景) → 避開 teardown 亡靈坑 (gura 磚2); 一次抓非全覆蓋 → sidecar 標取樣%。
+            stt_live_cov = None  # (measured_sec, window_sec) — 供 sidecar/stats 標覆蓋%
+            if getattr(args, "stt_live", False):
+                _pre_segs, _pre_info = _stt.read_stt_cache(after_ep, until_ep)
+                if not _pre_info.get("cache_present"):
+                    want = float(getattr(args, "stt_seconds", 20.0) or 20.0)
+                    want = max(1.0, min(want, 30.0))  # 對齊 capture cap
+                    audio = _stt.capture_live(want)
+                    t1 = time.time()
+                    measured = audio.size / _stt.WHISPER_SAMPLE_RATE  # gura 磚1: 實測秒數
+                    if measured >= 0.5:
+                        _seg = _stt.transcribe(audio, language=getattr(args, "stt_lang", None),
+                                               model_size=getattr(args, "stt_model", "small"))
+                        # 真實 epoch: end=擷取返回時刻 t1, start=t1-實測秒數 (不用 want, 誠實對齊)
+                        _stt.write_stt_chunk(_stt.STT_CACHE_DIR, t1 - measured, t1, _seg,
+                                             getattr(args, "stt_model", "small"))
+                        stt_live_cov = (measured, max(1e-6, until_ep - after_ep))
             segs, info = _stt.read_stt_cache(after_ep, until_ep)
             section = _stt.build_stt_section_cached(
                 segs, info, model_size=getattr(args, "stt_model", "small"))
+            # 取樣覆蓋率誠實註記 (gura 磚1: measure real) — live 現抓非全窗口, 標實測 epoch 覆蓋%
+            if stt_live_cov is not None:
+                _cov_pct = min(100, round(100 * stt_live_cov[0] / stt_live_cov[1]))
+                section += (f"\n_⚠ live 取樣: 實測 {stt_live_cov[0]:.1f}s 音訊 / 窗口 {stt_live_cov[1]:.0f}s "
+                            f"≈ 覆蓋 {_cov_pct}% (現抓窗口尾段, 非全覆蓋; 下輪起累積); "
+                            f"100% 全覆蓋走容器外常駐 recorder — 見 STT.md_\n")
             # 接到既有 sidecar 末尾 (OCR/tavern 之後); 沒 sidecar 就補一份 STT-only
             if ocr_sidecar_path is not None and ocr_sidecar_path.exists():
                 with ocr_sidecar_path.open("a", encoding="utf-8") as fh:
@@ -959,10 +987,13 @@ def op_make(args):
                         f"_⚠ 僅語音轉錄 (無 OCR/酒館段)_\n\n")
                 ocr_sidecar_path.write_text(head + section, encoding="utf-8")
             if not info.get("cache_present"):
-                stt_stats = "無 cache (daemon STT worker 未開/未覆蓋此窗口) — 靠 OCR"
+                _hint = "靠 OCR" if not getattr(args, "stt_live", False) else "live 現抓亦無音訊/靜音"
+                stt_stats = f"無 cache (daemon worker 未開/未覆蓋) — {_hint}"
             else:
                 cov = "" if info.get("covered") else " ⚠落後"
-                stt_stats = f"{len(segs)} 段 (cache-only, 命中 {info.get('chunks_hit',0)} chunk{cov}) → 接入 sidecar"
+                src = "live 現抓寫入" if stt_live_cov is not None else "cache-only"
+                covpct = f", 取樣~{min(100, round(100*stt_live_cov[0]/stt_live_cov[1]))}%" if stt_live_cov else ""
+                stt_stats = f"{len(segs)} 段 ({src}, 命中 {info.get('chunks_hit',0)} chunk{cov}{covpct}) → 接入 sidecar"
         except Exception as e:
             stt_warn = f"⚠ STT 段渲染失敗 (fail-soft): {e}"
 
@@ -1112,6 +1143,10 @@ def main():
                     help="語音語言 en/zh/None(自動偵測); 直播原文多為 en, 指定可加速穩定")
     pm.add_argument("--stt-seconds", dest="stt_seconds", type=float, default=20.0,
                     help="即時擷取最近幾秒音訊轉錄 (預設 20; 上限 30, 阻塞抓滿才回)")
+    # T-STT-Live (2026-07-09 summit): cache 沒蓋到窗口時, montage 端同步現抓一段寫進 cache 再讀
+    # (容器場 daemon worker 起不來的 fallback; agent shell 看得到 whisper)。誠實標實測覆蓋%, 非全覆蓋。
+    pm.add_argument("--stt-live", dest="stt_live", action="store_true", default=False,
+                    help="(需 --stt) cache 空時同步現抓音訊寫 cache 再讀 — 容器場 fallback; 覆蓋% 從實測 epoch 算, 非全覆蓋")
     pm.set_defaults(func=op_make)
 
     pr = sub.add_parser("list-regions", help="列出 region preset")

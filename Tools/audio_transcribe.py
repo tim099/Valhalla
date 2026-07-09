@@ -57,19 +57,81 @@ _model = None                # 已載入的 whisper model (單例)
 _model_key = None            # (model_size, device) — 變更時才重載
 _model_lock = threading.Lock()
 _init_error: str | None = None  # 依賴/載入失敗訊息 (fail-soft, 給 caller 印警告)
+_user_site_debug: str = ""      # _ensure_user_site 的診斷字串 (import 失敗時併入 _init_error)
+
+
+def _ensure_user_site() -> None:
+    # 區塊職責：把 pip install --user 的落點 (user-site) 補進 sys.path。
+    # 物理意義：whisper/torch 裝在 %APPDATA%\Python\PythonXY\site-packages (user-site)；
+    #          Unity Editor spawn 的 daemon 子行程環境下 user-site 有時不在 sys.path
+    #          (同一支 python.exe、shell 端 import 正常、daemon 端 No module named 'whisper' —
+    #          2026-07-09 sw-eadd06 場實錄的「同名不同環境」層次混淆案)。
+    # 數值影響：插在第一個 system site-packages「之前」— 對齊正常 python 的解析優先序
+    #          (user-site 先於 system site)。這很重要：system site-packages 存在一份
+    #          殘缺 torch/torchgen 孤兒目錄 (無 dist-info、import 後無 __version__)，
+    #          若 user-site 只 append 在尾巴，torch 會先解析到壞的 system 殘本而炸
+    #          "No module named 'torchgen.model'"。路徑不存在則不動作，fail-soft。
+    global _user_site_debug
+    try:
+        import site
+        candidates = []
+        # 正規解法：site 模組自己算 user-site (吃 APPDATA / PYTHONUSERBASE)
+        try:
+            usp = site.getusersitepackages()
+            if usp:
+                candidates.append(usp)
+        except Exception:
+            pass
+        # Fallback：daemon 環境 APPDATA 異常時，從 USERPROFILE 手拼 Roaming user-site 路徑
+        home = os.environ.get("USERPROFILE") or os.path.expanduser("~")
+        ver_dir = f"Python{sys.version_info.major}{sys.version_info.minor}"
+        candidates.append(os.path.join(home, "AppData", "Roaming", "Python", ver_dir, "site-packages"))
+        # 找出第一個 system site-packages 的位置，user-site 插它前面 (沒找到就 append)
+        insert_at = len(sys.path)
+        for i, entry in enumerate(sys.path):
+            if "site-packages" in (entry or ""):
+                insert_at = i
+                break
+        added = []
+        for p in candidates:
+            if p and os.path.isdir(p) and p not in sys.path:
+                sys.path.insert(insert_at, p)
+                insert_at += 1
+                added.append(p)
+        # 診斷字串 (import 仍失敗時併入 _init_error, 禁靜默失敗)
+        # whisper_visible=False 但 shell 端 True → 子行程環境看不到該路徑 (容器/虛擬化隔離,
+        #   2026-07-09 查明 Unity Editor 從 Claude MSIX app-container 內啟動時撞到)
+        added_note = f"added={added}" if added else f"NOT_added(candidates={candidates})"
+        whisper_visible = (candidates and os.path.isdir(os.path.join(candidates[0], "whisper")))
+        _user_site_debug = f"{added_note} whisper_visible={whisper_visible} exe={sys.executable!r}"
+    except Exception as e:
+        _user_site_debug = f"_ensure_user_site 本身炸了: {e}"
+        # fail-soft: 補路徑失敗就維持原狀, 讓 caller 的 import 失敗訊息浮出
 
 
 def is_available() -> bool:
-    """依賴是否齊全 (whisper + torch import 得動)。fail-soft: 缺就回 False, caller 跳過 STT 段。"""
+    """依賴是否齊全 (whisper + torch import 得動)。fail-soft: 缺就回 False, caller 跳過 STT 段。
+
+    import 失敗時先補 user-site 進 sys.path 重試一次 (解 Unity Editor 子行程吃不到
+    pip install --user 套件的環境差異), 兩次都失敗才回 False。
+    """
+    global _init_error
     try:
         import whisper  # noqa: F401
         import torch  # noqa: F401
         return True
-    except Exception as e:
-        global _init_error
-        _init_error = (f"openai-whisper / torch import 失敗: {e}; "
-                       f"→ pip install --user openai-whisper 且 torch cu121 wheel")
-        return False
+    except Exception:
+        _ensure_user_site()
+        try:
+            import whisper  # noqa: F401
+            import torch  # noqa: F401
+            _init_error = None
+            return True
+        except Exception as e:
+            _init_error = (f"openai-whisper / torch import 失敗 (含 user-site fallback): {e}; "
+                           f"[debug {_user_site_debug}] "
+                           f"→ pip install --user openai-whisper 且 torch cu121 wheel")
+            return False
 
 
 def init_error() -> str | None:
@@ -301,6 +363,43 @@ def read_stt_cache(after_epoch: float, until_epoch: float,
     return segs, info
 
 
+def write_stt_chunk(cache_dir, start_epoch: float, end_epoch: float,
+                    segments: list[dict], model_size: str = DEFAULT_MODEL) -> str:
+    """把一個 chunk 的段 (相對時間戳→絕對 epoch) atomic 寫成 cache json + 更新 status watermark。
+
+    區塊職責: module-level 寫入函式, 給 SttCacheWorker (常駐) 與 montage --stt-live (同步現抓) 共用,
+             避免兩處各寫一份 cache 格式漂移 (格式=stt_<start_ms>.json + _status.json, 對齊 read_stt_cache)。
+    物理意義: segments 的 start/end 是「段內相對秒」→ 加 start_epoch 還原絕對 epoch, montage 依此對齊窗口。
+    數值影響: watermark latest_end_epoch 取 max(既有, 本 chunk end) — montage-live 亂序寫時不倒退水位。
+    回傳: 寫出的 cache 檔絕對路徑 (str)。
+    """
+    cache_dir = Path(cache_dir)
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    abs_segs = [{"start_epoch": start_epoch + s["start"],
+                 "end_epoch": start_epoch + s["end"],
+                 "text": s["text"]} for s in segments]
+    fname = cache_dir / f"stt_{int(start_epoch * 1000)}.json"
+    payload = {"start_epoch": start_epoch, "end_epoch": end_epoch,
+               "model": model_size, "segments": abs_segs}
+    tmp = fname.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
+    tmp.replace(fname)
+    # 更新 watermark — 取 max 避免 montage-live 亂序寫 (窗口尾早於既有 daemon 水位) 把水位拉退
+    sp = _stt_status_path(cache_dir)
+    prev_le = 0.0
+    try:
+        prev = json.loads(sp.read_text(encoding="utf-8"))
+        prev_le = float(prev.get("latest_end_epoch", 0.0) or 0.0)
+    except Exception:
+        pass
+    new_le = max(prev_le, end_epoch)
+    tmp2 = sp.with_suffix(".json.tmp")
+    tmp2.write_text(json.dumps({"latest_end_epoch": new_le, "model": model_size,
+                                "updated_at": end_epoch}, ensure_ascii=False), encoding="utf-8")
+    tmp2.replace(sp)
+    return str(fname)
+
+
 class SttCacheWorker:
     """daemon-side 常駐 STT cache worker (對偶 subtitle_ocr.OcrWorkerPool)。
 
@@ -343,22 +442,8 @@ class SttCacheWorker:
         return self._error
 
     def _write_chunk(self, start_epoch: float, end_epoch: float, segments: list[dict]) -> None:
-        """把一個 chunk 的段 (相對時間戳→絕對 epoch) atomic 寫成 cache json + 更新 status。"""
-        abs_segs = [{"start_epoch": start_epoch + s["start"],
-                     "end_epoch": start_epoch + s["end"],
-                     "text": s["text"]} for s in segments]
-        fname = self.cache_dir / f"stt_{int(start_epoch * 1000)}.json"
-        payload = {"start_epoch": start_epoch, "end_epoch": end_epoch,
-                   "model": self.model_size, "segments": abs_segs}
-        tmp = fname.with_suffix(".json.tmp")
-        tmp.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
-        tmp.replace(fname)
-        # 更新 watermark
-        sp = _stt_status_path(self.cache_dir)
-        tmp2 = sp.with_suffix(".json.tmp")
-        tmp2.write_text(json.dumps({"latest_end_epoch": end_epoch, "model": self.model_size,
-                                    "updated_at": end_epoch}, ensure_ascii=False), encoding="utf-8")
-        tmp2.replace(sp)
+        """把一個 chunk atomic 寫成 cache json + 更新 status (委派 module-level write_stt_chunk 共用)。"""
+        write_stt_chunk(self.cache_dir, start_epoch, end_epoch, segments, self.model_size)
 
     def _cleanup(self, now_epoch: float) -> None:
         """刪超過 retention 的舊 cache (rolling, 對齊 frame ring buffer 不無限長大)。"""

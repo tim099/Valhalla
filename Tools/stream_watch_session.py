@@ -69,6 +69,39 @@ _AUDIT_DIR = _REPO_ROOT / "AgentCommands" / "ChatTavern" / "stream_watch_session
 # 區塊職責：montage 工具相對路徑 (cycle 指令提示用)
 _MONTAGE_TOOL = "python AgentCommands/Tools/screenstream_montage.py"
 
+# 區塊職責：ScreenStream daemon 共用 config (daemon 每 tick 重讀, toggle 即生效)
+# 物理意義：stt_enabled=true 時 daemon 起 SttCacheWorker 連續錄 chunk 轉錄寫 stt cache,
+#          montage --stt 走 cache-only 讀。開播同步啟動 = start --stt 時這裡切 true。
+_STREAM_CONFIG_PATH = _REPO_ROOT / "AgentCommands" / "_screenstream" / "_config.json"
+
+
+def _sync_daemon_stt(enable: bool, model: str = "", lang: str = "") -> "bool | None":
+    """同步 daemon 端 STT cache worker 開關 (T-STT-AutoStart, Tim 2026-07-09 拍板「開啟直播時同步啟動」)。
+
+    區塊職責：讀改寫 _screenstream/_config.json 的 stt_enabled (+model/lang), 回傳改前的舊值。
+    物理意義：daemon 監看 config toggle — 切 true 起 whisper worker 預產 stt cache,
+             讓 cycle 的 montage --stt 有 cache 可讀 (cache-only 設計, montage 不現跑 whisper)。
+    數值影響：daemon 同時會寫 frame_count 進同一檔 (併發寫), 故 PermissionError/JSON 半寫
+             各重試 3 次 (對齊 stream_watch_sessions.json 併發 WinError 32 的既有教訓);
+             全失敗回 None (fail-soft, 不擋開播主流程 — STT 是加值不是硬依賴)。
+    """
+    for _ in range(3):
+        try:
+            cfg = json.loads(_STREAM_CONFIG_PATH.read_text(encoding="utf-8"))
+            prev = bool(cfg.get("stt_enabled", False))
+            cfg["stt_enabled"] = bool(enable)
+            if enable:
+                if model:
+                    cfg["stt_model"] = model
+                if lang:
+                    cfg["stt_lang"] = lang
+            _STREAM_CONFIG_PATH.write_text(
+                json.dumps(cfg, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+            return prev
+        except Exception:
+            time.sleep(0.5)
+    return None
+
 
 def _tavern_current_seq(room: str = "tavern") -> int:
     """讀 rooms/<room>/_seq.txt 取當前最新 seq (T-StreamWatch-TavernSync 已讀游標初值用)。
@@ -371,6 +404,20 @@ def cmd_start(args) -> int:
             "frames_overflow_lost": 0,
         },
     }
+
+    # 區塊職責：T-STT-AutoStart — 開播同步啟動 daemon STT cache worker (Tim 2026-07-09 拍板)
+    # 物理意義：start --stt 除了讓 cycle 的 montage_cmd 附 --stt (讀 cache), 也直接把 daemon
+    #          config 的 stt_enabled 切 true 起 whisper worker — 不必再手動改 _config.json。
+    # 數值影響：記下 daemon 舊值 (stt_daemon_prev), 收播 end 時還原 — 本場開的本場關,
+    #          不干擾 Tim 手動常開的情境 (舊值本來就 true → end 後維持 true)。
+    if session["stt_enabled"]:
+        prev = _sync_daemon_stt(True, model=session["stt_model"], lang=session["stt_lang"])
+        session["stt_daemon_prev"] = prev
+        if prev is None:
+            print("⚠ daemon STT config 同步失敗 (不擋開播) — 檢查 _screenstream/_config.json 後手動切 stt_enabled")
+        elif not prev:
+            print("🎙 daemon STT cache worker 已同步啟動 (收播時自動還原)")
+
     state.setdefault("active_sessions", []).append(session)
     save_state(state)
 
@@ -473,8 +520,10 @@ def cmd_cycle(args) -> int:
                    f"--ocr --tavern-self {session['persona']} --tavern-since-seq {tavern_read_seq}")
     # T-STT (Quest stt-whisper-integration, kotoko 2026-07-05): opt-in 語音轉錄。
     #   start 帶 --stt 才開 (每輪即時擷取音訊 ~20s 較重, 不強制所有觀影者); 開了就在 montage_cmd 附 --stt。
+    # T-STT-Live (2026-07-09 summit, 討論收斂): 一律附 --stt-live —— daemon cache 有就讀 cache (Tim 本機
+    #   Editor 全覆蓋), 沒有 (容器場 daemon 起不來) 就 montage 端同步現抓寫 cache 再讀。分層 fallback 自動選路。
     if session.get("stt_enabled"):
-        montage_cmd += f" --stt --stt-model {session.get('stt_model', 'small')}"
+        montage_cmd += f" --stt --stt-live --stt-model {session.get('stt_model', 'small')}"
         if session.get("stt_lang"):
             montage_cmd += f" --stt-lang {session['stt_lang']}"
 
@@ -649,6 +698,19 @@ def cmd_end(args) -> int:
             "persona": session["persona"],
             "reason": "no_contribution_event" if not contributed else "zero_total",
         })
+
+    # 區塊職責：T-STT-AutoStart 對偶 — 收播還原 daemon STT worker 開關
+    # 物理意義：本場 start 時把 daemon stt_enabled 從 false 切 true (stt_daemon_prev=False)
+    #          → end 時切回 false 釋放 whisper 常駐 (GPU ~460MB)。
+    # 數值影響：只有「本場開的」才關 (prev=False)；若還有其他 active session 也開著 --stt
+    #          (multi-viewer 同場) 則不關, 讓最後一個收播的還原。fail-soft 不擋結算。
+    if session.get("stt_enabled") and session.get("stt_daemon_prev") is False:
+        others_using = any(
+            s.get("stt_enabled") for s in state.get("active_sessions", [])
+            if s.get("id") != session["id"])
+        if not others_using:
+            if _sync_daemon_stt(False) is not None:
+                print("🎙 daemon STT cache worker 已還原關閉 (本場開的本場關)")
 
     # 移到 history
     state.get("active_sessions", []).remove(session)
