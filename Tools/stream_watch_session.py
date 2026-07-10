@@ -75,7 +75,7 @@ _MONTAGE_TOOL = "python AgentCommands/Tools/screenstream_montage.py"
 _STREAM_CONFIG_PATH = _REPO_ROOT / "AgentCommands" / "_screenstream" / "_config.json"
 
 
-def _sync_daemon_stt(enable: bool, model: str = "", lang: str = "") -> "bool | None":
+def _sync_daemon_stt(enable: bool, model: str = "", lang: str = "", prompt: str = "") -> "bool | None":
     """同步 daemon 端 STT cache worker 開關 (T-STT-AutoStart, Tim 2026-07-09 拍板「開啟直播時同步啟動」)。
 
     區塊職責：讀改寫 _screenstream/_config.json 的 stt_enabled (+model/lang), 回傳改前的舊值。
@@ -95,6 +95,10 @@ def _sync_daemon_stt(enable: bool, model: str = "", lang: str = "") -> "bool | N
                     cfg["stt_model"] = model
                 if lang:
                     cfg["stt_lang"] = lang
+                # T-STT-Prompt: 陪看 start 帶 --stt-prompt 時同步寫 daemon config,
+                #   daemon 起 worker 時吃它做 whisper 詞彙偏置 (壓人名咬字)。空字串則不動既有值。
+                if prompt:
+                    cfg["stt_prompt"] = prompt
             _STREAM_CONFIG_PATH.write_text(
                 json.dumps(cfg, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
             return prev
@@ -397,6 +401,9 @@ def cmd_start(args) -> int:
         "stt_enabled": bool(getattr(args, "stt", False)),
         "stt_model": getattr(args, "stt_model", "small"),
         "stt_lang": getattr(args, "stt_lang", "") or "",
+        # T-STT-Prompt: whisper initial_prompt (登場人物名詞彙偏置); skill 從 reading-library
+        #   stt-prompt 抽該書日文角色名填入。空=不偏置。
+        "stt_prompt": getattr(args, "stt_prompt", "") or "",
         "stats": {
             "cycles": 0,
             "observations": 0,
@@ -411,7 +418,8 @@ def cmd_start(args) -> int:
     # 數值影響：記下 daemon 舊值 (stt_daemon_prev), 收播 end 時還原 — 本場開的本場關,
     #          不干擾 Tim 手動常開的情境 (舊值本來就 true → end 後維持 true)。
     if session["stt_enabled"]:
-        prev = _sync_daemon_stt(True, model=session["stt_model"], lang=session["stt_lang"])
+        prev = _sync_daemon_stt(True, model=session["stt_model"], lang=session["stt_lang"],
+                                prompt=session["stt_prompt"])
         session["stt_daemon_prev"] = prev
         if prev is None:
             print("⚠ daemon STT config 同步失敗 (不擋開播) — 檢查 _screenstream/_config.json 後手動切 stt_enabled")
@@ -516,8 +524,16 @@ def cmd_cycle(args) -> int:
     #   --tavern-self <persona> 排除自己, --tavern-since-seq <已讀游標> 只收未讀。
     #   觀影 agent 跑 montage_cmd → Read sidecar 即同時拿到「畫面字幕 + 同事對話」(Hard Rule #11)。
     tavern_read_seq = int(session.get("tavern_read_seq", -1))
+    # T-StreamWatch-OutIsolation (summit 2026-07-10, RFC2 拍板 kotoko/apex-two 收斂):
+    #   多 viewer (primary + companion / 多 primary) 若都寫預設 _montage.jpg / _montage.subtitles.md
+    #   會互相覆蓋污染 (實測: apex-two companion 加入後 sidecar 出現重複 STT/OCR 段)。
+    #   persona 本來就在 server scope (旁邊就在注入 --tavern-self), 故 montage_cmd 自動帶
+    #   persona-scoped --out; 且 montage sidecar = out_path.with_suffix('.subtitles.md') 跟著 --out 走,
+    #   一個 --out 同時隔離 .jpg 與 .subtitles.md 兩個碰撞面 (robust-by-construction, 不靠 agent 自律)。
+    out_path = f"AgentCommands/_screenstream/_montage_{session['persona']}.jpg"
     montage_cmd = (f"{_MONTAGE_TOOL} make --after-mtime {cursor:.3f} --max-tiles {max_tiles} "
-                   f"--ocr --tavern-self {session['persona']} --tavern-since-seq {tavern_read_seq}")
+                   f"--ocr --tavern-self {session['persona']} --tavern-since-seq {tavern_read_seq} "
+                   f"--out {out_path}")
     # T-STT (Quest stt-whisper-integration, kotoko 2026-07-05): opt-in 語音轉錄。
     #   start 帶 --stt 才開 (每輪即時擷取音訊 ~20s 較重, 不強制所有觀影者); 開了就在 montage_cmd 附 --stt。
     # T-STT-Live (2026-07-09 summit, 討論收斂): 一律附 --stt-live —— daemon cache 有就讀 cache (Tim 本機
@@ -859,6 +875,9 @@ def main():
                     help="(--stt) whisper 模型 tiny/base/small/medium/large-v3 (預設 small).")
     sp.add_argument("--stt-lang", dest="stt_lang", default="",
                     help="(--stt) 語音語言 en/zh/空=自動偵測.")
+    sp.add_argument("--stt-prompt", dest="stt_prompt", default="",
+                    help="(--stt) whisper initial_prompt 詞彙偏置 (壓人名咬字); 陪看時從 "
+                         "reading-library『stt-prompt --book <片>』抽該書日文角色名填入. MUST 日文字形.")
     sp.add_argument("--json", action="store_true", help="輸出 JSON.")
     sp.set_defaults(func=cmd_start)
 

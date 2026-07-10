@@ -249,12 +249,16 @@ def load_wav(path) -> np.ndarray:
 # 轉錄 — audio → 帶時間戳文字段
 # ===========================================================
 def transcribe(audio: np.ndarray, language: str | None = None,
-               model_size: str = DEFAULT_MODEL, device: str | None = None) -> list[dict]:
+               model_size: str = DEFAULT_MODEL, device: str | None = None,
+               initial_prompt: str | None = None) -> list[dict]:
     """把 float32 16k mono audio 丟 whisper 轉錄, 回帶時間戳的段列表。
 
     Args:
         audio: shape=(N,) float32 -1~1 @16kHz
         language: "en"/"zh"/None(自動偵測); 直播原文多為 en, 指定可加速+穩定
+        initial_prompt: (選) 前文語境, 給 whisper 做詞彙偏置 —— 主要用途是餵「登場人物名」
+            壓人名咬字 (シャーリー→サレイ 之類)。MUST 用轉錄語言的字形 (日文餵片假名, 不是中文譯名),
+            否則偏置無效甚至更糟。空/None = 不偏置 (原行為)。
     Returns:
         [{"start": float 秒, "end": float 秒, "text": str}, ...]; 失敗/靜音回 []
     """
@@ -267,7 +271,8 @@ def transcribe(audio: np.ndarray, language: str | None = None,
         import torch
         use_fp16 = (_pick_device() == "cuda")
         result = model.transcribe(audio.astype(np.float32), language=language,
-                                  fp16=use_fp16, verbose=False)
+                                  fp16=use_fp16, verbose=False,
+                                  initial_prompt=(initial_prompt or None))
         segs = []
         for s in result.get("segments", []):
             txt = (s.get("text") or "").strip()
@@ -411,10 +416,13 @@ class SttCacheWorker:
     def __init__(self, cache_dir: Path = STT_CACHE_DIR, model_size: str = DEFAULT_MODEL,
                  language: str | None = None, chunk_sec: float = DEFAULT_CHUNK_SEC,
                  retention_sec: float = DEFAULT_CACHE_RETENTION_SEC,
-                 progress_cb=None):
+                 progress_cb=None, prompt: str | None = None):
         self.cache_dir = Path(cache_dir)
         self.model_size = model_size
         self.language = language
+        # prompt: whisper initial_prompt (登場人物名詞彙偏置); 綁 worker 生命週期,
+        #   改動需 toggle off→on 重起才生效 (同 model/lang)。空=不偏置。
+        self.prompt = (prompt or "").strip() or None
         self.chunk_sec = float(chunk_sec)
         self.retention_sec = float(retention_sec)
         # progress_cb(chunk_num:int, n_segs:int, end_epoch:float) — 每寫完一個 chunk 回呼一次。
@@ -473,7 +481,8 @@ class SttCacheWorker:
                 # 短暫等待避免 busy loop (擷取失敗時)
                 self._stop.wait(1.0)
                 continue
-            segs = transcribe(audio, language=self.language, model_size=self.model_size)
+            segs = transcribe(audio, language=self.language, model_size=self.model_size,
+                              initial_prompt=self.prompt)
             t1 = time.time()
             try:
                 self._write_chunk(t0, t1, segs)

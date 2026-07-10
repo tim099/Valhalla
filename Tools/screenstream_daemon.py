@@ -103,6 +103,10 @@ DEFAULT_CONFIG = {
     "stt_model": "small",       # tiny/base/small/medium/large-v3
     "stt_lang": "",             # en/zh/空=自動偵測
     "stt_chunk_sec": 15,        # 每個 cache chunk 音訊長度
+    # T-STT-Prompt (summit 2026-07-10, RFC2): whisper initial_prompt 詞彙偏置 (登場人物名壓咬字)。
+    #   MUST 用轉錄語言字形 (日文餵片假名 e.g.「登場人物：エミリコ、ケイト」不是中文譯名)。
+    #   陪看 skill 從 reading-library stt-prompt 抽該書日文角色名填入。改動需 toggle off→on 重起。
+    "stt_prompt": "",
     "_schema_version": 1,
 }
 
@@ -484,6 +488,7 @@ def main_loop() -> int:
     # T-STT-Cache — STT worker lifecycle 跟 stt_enabled 同步 (對偶 ocr_pool)
     stt_worker = None
     last_stt_enabled = False
+    last_stt_prompt = ""   # T-STT-Prompt: 追 prompt 變動, 偵測「改了沒重起」的靜默失效
     try:
         from screenstream_audio_viz import (
             AudioCapture,
@@ -695,16 +700,20 @@ def main_loop() -> int:
                             def _stt_progress(n, n_segs, end_ep):
                                 if n % 5 == 1:
                                     log(f"stt cache: {n} chunk 已寫 (最新 {n_segs} 段)")
+                            _stt_prompt = str(cfg.get("stt_prompt") or "").strip()
                             stt_worker = SttCacheWorker(
                                 STT_CACHE_DIR,
                                 model_size=str(cfg.get("stt_model", "small")),
                                 language=(cfg.get("stt_lang") or None),
                                 chunk_sec=float(cfg.get("stt_chunk_sec", 15)),
                                 progress_cb=_stt_progress,
+                                prompt=_stt_prompt,
                             )
                             stt_worker.start()
+                            last_stt_prompt = _stt_prompt
+                            _pnote = f", prompt='{_stt_prompt[:40]}…'" if _stt_prompt else ""
                             log(f"stt cache worker started (model={stt_worker.model_size}, "
-                                f"chunk={stt_worker.chunk_sec}s)")
+                                f"chunk={stt_worker.chunk_sec}s{_pnote})")
                     except Exception as e:
                         log(f"stt worker start fail: {e}", "WARN")
                         stt_worker = None
@@ -723,6 +732,14 @@ def main_loop() -> int:
                 log(f"stt worker dead (will fail-soft): {stt_worker.error()}", "WARN")
                 stt_worker = None
                 last_stt_enabled = False
+            # T-STT-Prompt 反靜默失效: worker 運行中但 config stt_prompt 被改了 (沒 toggle 重起) →
+            #   新 prompt 不會生效 (綁 worker 生命週期)。MUST 明確 log 一次, 別讓「設了 prompt 卻沒吃到」靜默。
+            if stt_worker is not None:
+                _cur_prompt = str(cfg.get("stt_prompt") or "").strip()
+                if _cur_prompt != last_stt_prompt:
+                    log(f"stt_prompt 已改但 worker 未重起 → 新 prompt 尚未生效; "
+                        f"toggle stt_enabled off→on 才套用 (舊='{last_stt_prompt[:30]}' 新='{_cur_prompt[:30]}')", "WARN")
+                    last_stt_prompt = _cur_prompt   # 記住已警告, 避免每 loop 洗版
 
             # T-AudioLog (Tim 2026-06-08, summit ship) — 每 N frame 觸發 dump audio log
             # 物理意義: 給 screenstream_montage.py 載入後可按 cycle 區間 slice 渲染 audio strip

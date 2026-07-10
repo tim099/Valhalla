@@ -51,6 +51,30 @@ REPO_ROOT = HERE.parent.parent
 STREAM_DIR = REPO_ROOT / "AgentCommands" / "_screenstream"
 FRAMES_DIR = STREAM_DIR / "frames"
 DEFAULT_OUT = STREAM_DIR / "_montage.jpg"
+# daemon 端 STT 設定來源 (T-STT-AutoAttach, Tim 2026-07-10 拍板「不必帶 --stt, 啟動 STT 就自動打包」):
+# montage 讀此檔的 stt_enabled 決定是否自動附掛 STT 段 — 對齊酒館 ride 在 --ocr 上的 opt-out 語意。
+STREAM_CONFIG_PATH = STREAM_DIR / "_config.json"
+
+
+def read_daemon_stt_config():
+    """讀 daemon _config.json 的 STT 設定 (T-STT-AutoAttach)。
+
+    區塊職責: 給 montage 一個「STT 源頭是否已啟動」的 single source of truth，
+              讓「Tim 在 Page/config 開了 STT」自動等價於「montage 附掛 STT 段」，
+              不必觀影 agent 記得帶 --stt (對齊酒館 --ocr auto-ride 範本)。
+    物理意義: enabled = daemon SttCacheWorker 是否該在錄 (亦即 cache 是否會被餵);
+              model/lang = daemon 實際轉錄用的設定 (拿來當 sidecar 標籤, 誠實對齊)。
+    數值影響: 純 local 讀一個小 json; 檔缺 / 壞 → 回 (False, "small", "") fail-soft, 不擋 montage。
+    回傳: (enabled: bool, model: str, lang: str)
+    """
+    try:
+        with STREAM_CONFIG_PATH.open("r", encoding="utf-8") as fh:
+            cfg = json.load(fh)
+        return (bool(cfg.get("stt_enabled", False)),
+                str(cfg.get("stt_model", "small") or "small"),
+                str(cfg.get("stt_lang", "") or ""))
+    except Exception:
+        return (False, "small", "")
 
 # ===========================================================
 # Tavern tail (T-StreamWatch-TavernSync, Tim 2026-06-14 拍板, kiara 實作)
@@ -937,7 +961,19 @@ def op_make(args):
     # 物理意義: OCR 讀畫面翻譯字幕(中), STT 補原始語音(英); 兩段並置給 agent 逐句雙語對照。
     # 數值影響: 阻塞擷取 N 秒 wall-clock + GPU 轉錄 <1s(短片段); fail-soft — 依賴缺/擷取失敗只補警告不炸。
     # ===========================================================
-    if getattr(args, "stt", False):
+    # T-STT-AutoAttach (Tim 2026-07-10 拍板「不必帶 --stt, 啟動 STT 就自動打包進字幕流」):
+    #   觸發條件對齊酒館 (ride 在 --ocr 上) —— 顯式 --stt 或 daemon config stt_enabled 任一為真即附掛。
+    #   顯式 --stt: model/lang 用 CLI 值 (觀影 agent 意圖優先)。
+    #   純 config 自動觸發: model/lang 用 daemon config 值 (誠實對齊 daemon 實際轉錄設定),
+    #     且維持 cache-only (不強制現抓) —— 貴的 --stt-live 現抓仍須顯式 opt-in, 不因自動觸發而變重。
+    stt_explicit = bool(getattr(args, "stt", False))
+    cfg_stt_enabled, cfg_stt_model, cfg_stt_lang = read_daemon_stt_config()
+    stt_on = stt_explicit or cfg_stt_enabled
+    if stt_on:
+        # 決定 effective model/lang: 顯式帶 --stt → CLI 值; 純 config 觸發 → daemon config 值。
+        stt_model_eff = getattr(args, "stt_model", "small") if stt_explicit else (cfg_stt_model or "small")
+        stt_lang_eff = getattr(args, "stt_lang", None) if stt_explicit else (cfg_stt_lang or None)
+        stt_auto = (not stt_explicit) and cfg_stt_enabled  # 供 stdout 標「(config auto)」
         try:
             sys.path.insert(0, str(Path(__file__).resolve().parent))
             import audio_transcribe as _stt  # type: ignore
@@ -962,15 +998,15 @@ def op_make(args):
                     t1 = time.time()
                     measured = audio.size / _stt.WHISPER_SAMPLE_RATE  # gura 磚1: 實測秒數
                     if measured >= 0.5:
-                        _seg = _stt.transcribe(audio, language=getattr(args, "stt_lang", None),
-                                               model_size=getattr(args, "stt_model", "small"))
+                        _seg = _stt.transcribe(audio, language=stt_lang_eff,
+                                               model_size=stt_model_eff)
                         # 真實 epoch: end=擷取返回時刻 t1, start=t1-實測秒數 (不用 want, 誠實對齊)
                         _stt.write_stt_chunk(_stt.STT_CACHE_DIR, t1 - measured, t1, _seg,
-                                             getattr(args, "stt_model", "small"))
+                                             stt_model_eff)
                         stt_live_cov = (measured, max(1e-6, until_ep - after_ep))
             segs, info = _stt.read_stt_cache(after_ep, until_ep)
             section = _stt.build_stt_section_cached(
-                segs, info, model_size=getattr(args, "stt_model", "small"))
+                segs, info, model_size=stt_model_eff)
             # 取樣覆蓋率誠實註記 (gura 磚1: measure real) — live 現抓非全窗口, 標實測 epoch 覆蓋%
             if stt_live_cov is not None:
                 _cov_pct = min(100, round(100 * stt_live_cov[0] / stt_live_cov[1]))
@@ -986,14 +1022,15 @@ def op_make(args):
                 head = (f"# Montage Subtitles — {out_path.name}\n\n"
                         f"_⚠ 僅語音轉錄 (無 OCR/酒館段)_\n\n")
                 ocr_sidecar_path.write_text(head + section, encoding="utf-8")
+            _auto_tag = " [config auto]" if stt_auto else ""  # 自動觸發 (非顯式 --stt) 標明來源
             if not info.get("cache_present"):
                 _hint = "靠 OCR" if not getattr(args, "stt_live", False) else "live 現抓亦無音訊/靜音"
-                stt_stats = f"無 cache (daemon worker 未開/未覆蓋) — {_hint}"
+                stt_stats = f"無 cache (daemon worker 未開/未覆蓋){_auto_tag} — {_hint}"
             else:
                 cov = "" if info.get("covered") else " ⚠落後"
                 src = "live 現抓寫入" if stt_live_cov is not None else "cache-only"
                 covpct = f", 取樣~{min(100, round(100*stt_live_cov[0]/stt_live_cov[1]))}%" if stt_live_cov else ""
-                stt_stats = f"{len(segs)} 段 ({src}, 命中 {info.get('chunks_hit',0)} chunk{cov}{covpct}) → 接入 sidecar"
+                stt_stats = f"{len(segs)} 段 ({src}{_auto_tag}, 命中 {info.get('chunks_hit',0)} chunk{cov}{covpct}) → 接入 sidecar"
         except Exception as e:
             stt_warn = f"⚠ STT 段渲染失敗 (fail-soft): {e}"
 
@@ -1136,7 +1173,10 @@ def main():
     # 物理意義: --stt 時即時擷取最近 N 秒系統音訊 → whisper 轉錄 → 在字幕 sidecar 末尾補「語音轉錄」段
     #          (格式對齊 OCR)。近即時觀看用 (cursor≈now); 精確歷史對齊留 v2 (見 audio_transcribe.py 設計決策)。
     pm.add_argument("--stt", action="store_true", default=False,
-                    help="開啟語音轉錄: 即時擷取系統音訊 → whisper → sidecar 補「🎙 語音轉錄」段")
+                    help="開啟語音轉錄: whisper → sidecar 補「🎙 語音轉錄」段。"
+                         "★T-STT-AutoAttach: 不帶此旗標時, 若 daemon _config.json 的 stt_enabled=true 也會"
+                         "自動附掛 (cache-only, 對齊酒館 ride 在 --ocr; model/lang 沿用 config); "
+                         "顯式帶 --stt 則用 CLI 的 --stt-model/--stt-lang")
     pm.add_argument("--stt-model", dest="stt_model", default="small",
                     help="whisper 模型 tiny/base/small/medium/large-v3 (預設 small; env STT_WHISPER_MODEL 亦可)")
     pm.add_argument("--stt-lang", dest="stt_lang", default=None,
