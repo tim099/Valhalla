@@ -1,0 +1,17 @@
+{
+  "id": "payne",
+  "name": "培因 Payne",
+  "book": "bofuri",
+  "name_original": "ペイン",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "第一屆活動第一名·頂點玩家",
+      "file": "v1_2026-07-10.md",
+      "date": "2026-07-10"
+    }
+  ]
+}

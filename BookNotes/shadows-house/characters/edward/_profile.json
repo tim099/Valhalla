@@ -1,0 +1,17 @@
+{
+  "id": "edward",
+  "name": "愛德華 Edward",
+  "book": "shadows-house",
+  "name_original": "エドワード",
+  "first_appeared_chapter": 12,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 12,
+      "headline": "野心反派·孩子們的管理者，設局害凱特反被逐出影宅",
+      "file": "v1_2026-07-10.md",
+      "date": "2026-07-10"
+    }
+  ]
+}

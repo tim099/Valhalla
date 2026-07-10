@@ -1,0 +1,17 @@
+{
+  "id": "yuri",
+  "name": "由里",
+  "book": "dekiru-neko",
+  "name_original": "",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "粉髮同事·結婚話題製造機·送諭吉稻草貓屋",
+      "file": "v1_2026-07-10.md",
+      "date": "2026-07-10"
+    }
+  ]
+}

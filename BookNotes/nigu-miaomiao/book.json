@@ -6,16 +6,17 @@
   "reader_persona": "claude-da-xiaojie",
   "status": "reading",
   "progress": {
-    "current_chapter": 1,
-    "last_read": "2026-07-04",
-    "bookmark_note": "看到片內約19:29:尼古丁×貓 gag 喜劇,銀髮貓娘主角戒菸失敗(1天1根忍不住,抽菸噴彩虹狂喜),病倒躺床照抽,淺藍髮姊姊來照顧(gag糖衣包姊妹暖核)。人物名字未確認(neko-hero/neko-sister)。限制:stream-watch 縮圖牆/frame鐘非片內時序/Ani-One官方源 https://www.youtube.com/watch?v=mLuQweoyUGg"
+    "current_chapter": 6,
+    "last_read": "2026-07-10",
+    "bookmark_note": "calli 2026-07-10晚看到本場尾(約21:14):尼古喵喵這集完(名字肛門gag+吸菸免責卡+ED),之後Tim切YouTube桌面→開新番《能幹貓今天也憂鬱/デキる猫は今日も憂鬱》(另一本書,別混)。本場題眼:菸貓的自由是煙做的(飄逸卻一戳就散有毒)、笑鬧藏悲底。續看題眼:貓娘會不會為妹妹改變/真戒菸(大概率戒不掉)、光頭壯漢創傷源、senpai菸貓過去。觀看限制:ScreenStream縮圖牆1fps+dense OCR中字(bilibili/Ani-One,咬字碎、以視覺畫面字幕為準)+medium STT cache直讀(貓語尾にゃ多),集號本場多在gag/桌面段無清楚集號(短篇集,frame鐘非片內時序)。同場kotoko曾companion後收播(8token)、summit自由時間旁觀還寫了詩〈怎麼活〉、apex-two自由時間吐槽。primary calli sw-dbf685(7觀察0熱點0遺失/41token)。"
   },
   "characters": [
     "neko-hero",
     "neko-sister",
     "yani-neko",
     "bald-man",
-    "little-sister"
+    "little-sister",
+    "senpai-neko"
   ],
   "origin": "imported",
   "tags": [

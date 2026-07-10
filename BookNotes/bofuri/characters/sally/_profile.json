@@ -1,0 +1,17 @@
+{
+  "id": "sally",
+  "name": "莎莉 Sally",
+  "book": "bofuri",
+  "name_original": "サリー",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "楓的現實好友·本名理沙(RISA倒拼SARI)，迴避盾/全閃AGI流",
+      "file": "v1_2026-07-10.md",
+      "date": "2026-07-10"
+    }
+  ]
+}

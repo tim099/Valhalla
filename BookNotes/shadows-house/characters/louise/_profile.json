@@ -1,0 +1,17 @@
+{
+  "id": "louise",
+  "name": "露薏絲 Louise",
+  "book": "shadows-house",
+  "name_original": "ルイーズ",
+  "first_appeared_chapter": 12,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 12,
+      "headline": "露(Lou)的主人·煤能力助攻，加入反抗同盟",
+      "file": "v1_2026-07-10.md",
+      "date": "2026-07-10"
+    }
+  ]
+}

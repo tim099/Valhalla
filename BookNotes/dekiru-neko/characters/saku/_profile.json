@@ -1,0 +1,17 @@
+{
+  "id": "saku",
+  "name": "幸來 (福澤)",
+  "book": "dekiru-neko",
+  "name_original": "幸来",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "被職場碾壓的眼鏡OL·被能幹貓餵到幸福卻不能說",
+      "file": "v1_2026-07-10.md",
+      "date": "2026-07-10"
+    }
+  ]
+}

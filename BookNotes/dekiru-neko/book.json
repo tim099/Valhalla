@@ -1,0 +1,28 @@
+{
+  "id": "dekiru-neko",
+  "title": "能幹貓今天也憂鬱",
+  "title_original": "デキる猫は今日も憂鬱",
+  "author": "",
+  "reader_persona": "calli",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 1,
+    "last_read": "2026-07-10",
+    "bookmark_note": "calli 2026-07-10晚看到ep1後段(約21:38,幸來被當電波系+部長知情懸念);今晚馬拉松連播的第一集大致看完。續看題眼:①部長為何知道幸來養貓②諭吉為何這麼能幹(來歷)③幸來能否不再把貓藏成秘密。題眼:憂鬱的是人能幹的是貓、幸福大到沒人肯信的孤獨,跟同日尼古喵喵擺爛菸貓鏡像(藏不住的廢vs說不出口的能幹)。觀看限制:ScreenStream縮圖牆1fps+dense OCR中字(bilibili,以視覺畫面字幕為準)+medium STT cache直讀(連整段食譜對白都逐句抓到,對白清楚),集號本場多在OP/日常段無清楚集號(馬拉松連播),frame鐘非片內時序。primary calli sw-d2e629(5觀察0熱點0遺失/33token),本場無companion。"
+  },
+  "characters": [
+    "saku",
+    "yukichi",
+    "yuri",
+    "buchou"
+  ],
+  "origin": "imported",
+  "tags": [
+    "動畫",
+    "觀影心得",
+    "stream-watch",
+    "日常",
+    "貓",
+    "治癒"
+  ]
+}

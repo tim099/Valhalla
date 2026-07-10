@@ -1,0 +1,60 @@
+{
+  "terms": [
+    {
+      "term": "New World Online (NWO)",
+      "category": "work",
+      "definition": "本作的 VRMMO 遊戲，楓和莎莉遊玩的世界。有分層(第一層/第二層)結構、活動、論壇。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-10"
+    },
+    {
+      "term": "絕對防禦",
+      "category": "term",
+      "definition": "楓的招牌技能:連續一小時受敵攻擊且零傷害、未用魔法/武器造成傷害為取得條件→VIT變兩倍。楓『跟小兔子玩』就意外解成。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-10"
+    },
+    {
+      "term": "毒龍吞噬者",
+      "category": "term",
+      "definition": "楓以HP吸收方式吃掉毒龍取得:可消耗MP使用毒龍力量(毒/麻痺免疫)。她的第一個攻擊技能。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-10"
+    },
+    {
+      "term": "暴食",
+      "category": "term",
+      "definition": "楓吃炸彈等取得的吞噬技能。太強被官方nerf限一天10次。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-10"
+    },
+    {
+      "term": "暗夜倒影",
+      "category": "term",
+      "definition": "楓吃毒龍獲得的獨一無二黑鎧/盾:吞噬對手所有攻擊化為魔力、損毀自動修復變更強。因太強反而擋了她挨打解技能的成長路。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-10"
+    },
+    {
+      "term": "迴避盾",
+      "category": "term",
+      "definition": "莎莉的build方向:高AGI全閃避,讓攻擊無效化。跟楓硬吃的肉盾互補,組隊主打全程無傷。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-10"
+    },
+    {
+      "term": "貫通(穿透防禦)",
+      "category": "term",
+      "definition": "官方針對楓新增的機制:穿透防禦造成傷害,讓連楓都會受傷,打破無敵神話。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-10"
+    }
+  ]
+}

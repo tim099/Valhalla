@@ -1,0 +1,17 @@
+{
+  "id": "yukichi",
+  "name": "諭吉 (ユキチ)",
+  "book": "dekiru-neko",
+  "name_original": "ユキチ",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "能幹到不可思議的大黑貓·穿圍裙包辦家事煮飯做點心·比主人自律",
+      "file": "v1_2026-07-10.md",
+      "date": "2026-07-10"
+    }
+  ]
+}

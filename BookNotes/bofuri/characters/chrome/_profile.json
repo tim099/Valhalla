@@ -1,0 +1,17 @@
+{
+  "id": "chrome",
+  "name": "克羅姆 Chrome",
+  "book": "bofuri",
+  "name_original": "クロム",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "塔盾前輩·頂尖玩家，帶楓入門介紹Iz工坊",
+      "file": "v1_2026-07-10.md",
+      "date": "2026-07-10"
+    }
+  ]
+}

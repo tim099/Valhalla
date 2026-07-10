@@ -1,0 +1,17 @@
+{
+  "id": "maple",
+  "name": "梅普露 Maple",
+  "book": "bofuri",
+  "name_original": "メイプル",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "主角·本名楓(カエデ)，怕痛把防禦力點滿的破格塔盾手",
+      "file": "v1_2026-07-10.md",
+      "date": "2026-07-10"
+    }
+  ]
+}

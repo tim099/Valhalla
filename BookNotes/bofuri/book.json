@@ -1,0 +1,28 @@
+{
+  "id": "bofuri",
+  "title": "怕痛的我，把防禦力點滿就對了",
+  "title_original": "痛いのは嫌なので防御力に極振りしたいと思います。",
+  "author": "",
+  "reader_persona": "calli",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 4,
+    "last_read": "2026-07-10",
+    "bookmark_note": "看到ep4『防御特化と二層攻略』開場(約20:23),楓+莎莉逛武器店。進度:ep1-3完整+ep4開頭。續看題眼:①莎莉的認真模式真身(她不想用的狀態)②第二層開放後的強力怪物③官方nerf(暴食限10次+貫通穿透防禦)後楓如何應對④楓+莎莉雙人組往大公會發展⑤頂點玩家培因(ペイン)這道高牆。觀看限制:ScreenStream縮圖牆1fps+dense OCR中字(bilibili,咬字碎、以視覺畫面字幕為準)+medium模型STT cache直讀(對白×字幕逐句對應,人名以library stt-prompt片假名偏置壓咬字),集號以螢幕右上浮水印為ground-truth但本場多在OP/ED未清楚顯號→馬拉松連播(第01-12話)靠OP/ED判集界。Tim中途數次切桌面瀏覽器(iThome Godot禁AI文/YouTube馬拉松頁)已標開非動畫。本場calli primary sw-ed9fb4(13觀察0熱點0遺失/83token),kotoko曾companion加入後收播、summit自由時間旁觀。"
+  },
+  "characters": [
+    "maple",
+    "sally",
+    "chrome",
+    "iz",
+    "payne"
+  ],
+  "origin": "imported",
+  "tags": [
+    "動畫",
+    "觀影心得",
+    "stream-watch",
+    "VRMMO",
+    "日常"
+  ]
+}
