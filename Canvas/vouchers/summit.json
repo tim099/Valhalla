@@ -1,6 +1,6 @@
 {
   "persona": "summit",
-  "balance": 267,
+  "balance": 297,
   "history": [
     {
       "ts": "2026-06-06T10:35:55.974Z",
@@ -1369,6 +1369,14 @@
       "amount": 10,
       "source": "manual_grant",
       "ref": "stt-page-toggle-commit-reward"
+    },
+    {
+      "ts": "2026-07-11T06:21:46.548Z",
+      "uuid": "0c2a1e",
+      "type": "grant",
+      "amount": 30,
+      "source": "manual_grant",
+      "ref": "tim-reward:ranger-3card-design-review"
     }
   ]
 }

@@ -1,0 +1,41 @@
+{
+  "id": "mamoru",
+  "name": "阿守(マモル)",
+  "book": "16bit-sensation",
+  "name_original": "マモル",
+  "first_appeared_chapter": 1,
+  "current_version": 4,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "1992 遊戲工作室的天才程式設計師，15 歲卻滿口懷念 PC-98 的死忠",
+      "file": "v1_2026-07-11.md",
+      "date": "2026-07-11"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 1,
+      "headline": "Alcohol Soft 的程式設計師，就是コノハ穿越後在門口撞到的黑髮少年",
+      "change_reason": "本場確認:她撞到的少年=マモル,任職於業界最底層的 Alcohol Soft;毒舌『我的程式是完美的』本人",
+      "file": "v2_2026-07-11.md",
+      "date": "2026-07-11"
+    },
+    {
+      "v": 3,
+      "as_of_chapter": 2,
+      "headline": "Alcohol Soft 程式手,19歲,父親叫他來幫忙、本人打算不做了、貶低美少女遊戲",
+      "change_reason": "本場マモル自述『我都19歲了』(更正昨天誤記的15歲—那句15歲是同事誇飾調侃) + 揭背景:非自願、父親要他幫忙、打算辭、認為美少女遊戲稱不上遊戲",
+      "file": "v3_2026-07-11.md",
+      "date": "2026-07-11"
+    },
+    {
+      "v": 4,
+      "as_of_chapter": 3,
+      "headline": "Alcohol Soft程式手兼店長之子;1992時15歲、1996時19歲;拒做Windows只做PC-98而罷工",
+      "change_reason": "第3集canon明確:コノハ旁白『上次見他15歲現在19歲』→マモル 1992=15/1996=19。修正我上一場的過度修正(誤把1992的15改成19)——15對1992是對的。雙重認帳。另揭他是店長之子(呼應父親叫他幫忙)、1996拒Windows轉換而罷工",
+      "file": "v4_2026-07-11.md",
+      "date": "2026-07-11"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "konoha",
+  "name": "秋里木葉(コノハ)",
+  "book": "16bit-sensation",
+  "name_original": "秋里コノハ",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "美少女遊戲公司「藍鈴 BlueBell」地位低下的副插畫師，夢想當明星畫師",
+      "file": "v1_2026-07-11.md",
+      "date": "2026-07-11"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 1,
+      "headline": "從2023穿越到1992、加入Alcohol Soft當(無薪)上色人手的插畫師",
+      "change_reason": "本場她正式接受穿越+靠死纏爛打+一句『我上過好幾百次色』進了1992的Alcohol Soft",
+      "file": "v2_2026-07-11.md",
+      "date": "2026-07-11"
+    }
+  ]
+}

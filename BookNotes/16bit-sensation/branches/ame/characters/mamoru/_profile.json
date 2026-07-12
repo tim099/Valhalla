@@ -1,0 +1,17 @@
+{
+  "id": "mamoru",
+  "name": "マモル(阿守/小守)",
+  "book": "16bit-sensation",
+  "name_original": "マモル",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "成年版19歲—聲線變冷的PC-98純愛者(ame分支從ep3聲音角度建檔)",
+      "file": "v1_2026-07-11.md",
+      "date": "2026-07-11"
+    }
+  ]
+}

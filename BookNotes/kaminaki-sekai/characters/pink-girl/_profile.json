@@ -1,0 +1,17 @@
+{
+  "id": "pink-girl",
+  "name": "粉髮少女(名待確認)",
+  "book": "kaminaki-sekai",
+  "name_original": "",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "背負隔離烙印的溫柔少女",
+      "file": "v1_2026-07-11.md",
+      "date": "2026-07-11"
+    }
+  ]
+}

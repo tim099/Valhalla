@@ -1,0 +1,111 @@
+{
+  "terms": [
+    {
+      "term": "Alcohol Soft",
+      "category": "faction",
+      "definition": "1992 年的小型美少女遊戲公司，被自嘲『業界最底層』。マモル(阿守)在此當程式設計師。コノハ 穿越後撞上的正是這家公司門口。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-11"
+    },
+    {
+      "term": "16色(15色)",
+      "category": "term",
+      "definition": "PC-9801 時代色盤上限 16 色，系統佔用 1 色實際只有 15 色可用——本片片名《16bit》的技術心臟。コノハ 聞之爆音『15色？！』",
+      "aliases": [],
+      "as_of_chapter": 2,
+      "added_date": "2026-07-11"
+    },
+    {
+      "term": "抖色(dithering)",
+      "category": "term",
+      "definition": "在有限色盤下交替使用2種顏色、視覺上騙出中間色階的祖傳技法。マモル 教コノハ 的第一課。",
+      "aliases": [
+        "ディザリング",
+        "タッピング"
+      ],
+      "as_of_chapter": 2,
+      "added_date": "2026-07-11"
+    },
+    {
+      "term": "PC-9801",
+      "category": "term",
+      "definition": "1992 Alcohol Soft 開發室的古董電腦(畫面註 91年1月 PC-9801後續機種 Intel 80386 32位)。磁碟機讀取『ガチャガチャ』噪音被寫進對白當時代梗。",
+      "aliases": [],
+      "as_of_chapter": 2,
+      "added_date": "2026-07-11"
+    },
+    {
+      "term": "晴之後假期(ハレのちバケーション)",
+      "category": "work",
+      "definition": "Alcohol Soft 本集趕工完成的美少女遊戲，コノハ 靠滑鼠上色功底助攻按時完工、被眾人喊『救世主』。",
+      "aliases": [],
+      "as_of_chapter": 2,
+      "added_date": "2026-07-11"
+    },
+    {
+      "term": "痕(Kizuato)/Pia Carrot",
+      "category": "work",
+      "definition": "1996同日發售的Leaf/真實美少女遊戲彩蛋(痕=Leaf視覺小說VOL.2)。コノハ這週狂翻Wiki舊galge變黃游小博士的道具線索。",
+      "aliases": [],
+      "as_of_chapter": 3,
+      "added_date": "2026-07-11"
+    },
+    {
+      "term": "Messe Sanoh(メッセサンオー)",
+      "category": "place",
+      "definition": "秋葉原真實遊戲專賣店(2011與TRADER合併結束營業)。コノハ在此前搭訕山田冬夜請陪買遊戲。",
+      "aliases": [],
+      "as_of_chapter": 3,
+      "added_date": "2026-07-11"
+    },
+    {
+      "term": "Windows版vs PC-98(98VM)",
+      "category": "term",
+      "definition": "1996時代轉換點:Alcohol Soft要從PC-98轉做Windows版遊戲,マモル堅持只做98拒絕,成遊戲停擺主因。",
+      "aliases": [],
+      "as_of_chapter": 3,
+      "added_date": "2026-07-11"
+    },
+    {
+      "term": "亜細亜の純真(PUFFY)",
+      "category": "work",
+      "definition": "1996 PUFFY真實暢銷曲,片中當秋葉原店區diegetic環境音,是精準的聲音時代錨點。",
+      "aliases": [],
+      "as_of_chapter": 3,
+      "added_date": "2026-07-11"
+    },
+    {
+      "term": "痕 (Kizuato)",
+      "category": "work",
+      "definition": "Leaf 視覺小說系列 VOL.2(1996)。婆婆臨別送コノハ 的遊戲之一,成為她復現穿越的關鍵道具/信物。與 Pia Carrot 同日發售。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-11"
+    },
+    {
+      "term": "Pia Carrot",
+      "category": "work",
+      "definition": "1996 前後的美少女遊戲名作(Pia Carrot へようこそ)。與痕同日發售,コノハ 在1996秋葉原買遊戲時的真名作彩蛋。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-11"
+    },
+    {
+      "term": "Windows 轉換 (98→Windows)",
+      "category": "term",
+      "definition": "1996 arc 主軸產業議題:Alcohol Soft 要從 PC-98 平台轉做 Windows 版遊戲(上色/開發方式全變)。マモル(唯一程式手/店長之子)死守98拒Windows而罷工,製作停擺,是本集衝突核心。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-11"
+    },
+    {
+      "term": "小守警探 (超級警探木葉)",
+      "category": "term",
+      "definition": "社長給コノハ 的新職位設定:負責找到罷工的問題員工マモル 並帶回公司。コノハ 熱血自封『超級警探木葉』。是她1996 arc 的 quest。",
+      "aliases": [],
+      "as_of_chapter": null,
+      "added_date": "2026-07-11"
+    }
+  ]
+}

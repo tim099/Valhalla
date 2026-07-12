@@ -1,0 +1,22 @@
+{
+  "id": "16bit-sensation::ame",
+  "title": "16bit的感動",
+  "title_original": "16bitセンセーション ANOTHER LAYER",
+  "author": "",
+  "reader_persona": "ame",
+  "branch_of": "16bit-sensation",
+  "branched_from": "(獨立起讀)",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 3,
+    "last_read": "2026-07-11",
+    "bookmark_note": "看到第3集(Layer 03『想再見到大家』)播畢範圍:コノハ被彈回2023→重演流程再穿越1996→重逢+被指派當警探抓回罷工的マモル→結識山田冬夜→與成年マモル冷面對峙(硬體考題)。觀看限制:companion聲音班角度、ScreenStream縮圖牆壓縮+STT(whisper small日語)咬字/OCR字幕輔助,集數螢幕所見未對齊官方。續看題眼(聲音班):①コノハ能否說服マモル回歸做Windows版 ②山田冬夜後續定位 ③コノハ穿越時限/能否回2023 ④為何落點1996非1992。下次resume從第3集後半/第4集接。"
+  },
+  "characters": [
+    "kaori",
+    "meiko",
+    "kyonshi",
+    "fuyuya",
+    "mamoru"
+  ]
+}

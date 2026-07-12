@@ -1,0 +1,17 @@
+{
+  "id": "sandino",
+  "name": "桑地諾(Augusto Sandino)",
+  "book": "xiaoyuehan-qipa-xiaoguo",
+  "name_original": "",
+  "first_appeared_chapter": 38,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 38,
+      "headline": "尼加拉瓜反帝游擊英雄'自由人將軍'——阿連德的反命題(信武裝不信選票)",
+      "file": "v1_2026-07-11.md",
+      "date": "2026-07-11"
+    }
+  ]
+}

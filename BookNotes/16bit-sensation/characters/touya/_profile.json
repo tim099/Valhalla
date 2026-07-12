@@ -1,0 +1,17 @@
+{
+  "id": "touya",
+  "name": "山田冬夜",
+  "book": "16bit-sensation",
+  "name_original": "山田冬夜",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "1996年在秋葉原Messe Sanoh遇到的靦腆青年,每週買美少女遊戲卻沒膽進店",
+      "file": "v1_2026-07-11.md",
+      "date": "2026-07-11"
+    }
+  ]
+}

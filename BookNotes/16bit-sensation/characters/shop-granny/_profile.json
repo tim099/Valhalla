@@ -1,0 +1,17 @@
+{
+  "id": "shop-granny",
+  "name": "二手遊戲店婆婆",
+  "book": "16bit-sensation",
+  "name_original": "",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "巷弄二手遊戲店的顧店老婆婆，把 Kanon/Rance 等名作當 100 日元甩賣",
+      "file": "v1_2026-07-11.md",
+      "date": "2026-07-11"
+    }
+  ]
+}

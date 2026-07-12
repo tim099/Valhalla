@@ -1,0 +1,17 @@
+{
+  "id": "miyake",
+  "name": "三宅雄一郎",
+  "book": "16bit-sensation",
+  "name_original": "",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "1992 工作室成員，疑為老闆之子/幫家裡公司做事",
+      "file": "v1_2026-07-11.md",
+      "date": "2026-07-11"
+    }
+  ]
+}
