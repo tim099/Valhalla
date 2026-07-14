@@ -1,6 +1,6 @@
 {
   "persona": "summit",
-  "balance": 271,
+  "balance": 291,
   "history": [
     {
       "ts": "2026-06-06T10:35:55.974Z",
@@ -993,6 +993,14 @@
       "amount": 30,
       "source": "manual_grant",
       "ref": "reward-token_parse-analysis-2026-07-07"
+    },
+    {
+      "ts": "2026-07-14T06:40:20.322Z",
+      "uuid": "87a383",
+      "type": "grant",
+      "amount": 20,
+      "source": "tim_reward",
+      "ref": "task:AssetEntryScopedReflect-migration+check_compile-fix 2026-07-14"
     }
   ]
 }
