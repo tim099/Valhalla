@@ -1,0 +1,17 @@
+{
+  "id": "archer-candidate",
+  "name": "纏頭帽弓箭考生",
+  "book": "hunterxhunter",
+  "name_original": "",
+  "first_appeared_chapter": 24,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 24,
+      "headline": "以麻藥箭完成教科書級狩獵的弓箭手考生",
+      "file": "v1_2026-07-14.md",
+      "date": "2026-07-14"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "gittarackur",
+  "name": "集塔喇苦(假名)",
+  "book": "hunterxhunter",
+  "name_original": "",
+  "first_appeared_chapter": 24,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 24,
+      "headline": "卷內素描tease登場、自帶『假名』標注的謎樣考生",
+      "file": "v1_2026-07-14.md",
+      "date": "2026-07-14"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 26,
+      "headline": "拔針變臉的效率主義殺手——西索的舊識,301號",
+      "change_reason": "從卷末素描tease正式登場:素描那張臉原來是『拔針後的真容』,針男型態才是考試中的偽裝;行為模式(騙殺獵物/自埋休眠)刷新對他的認知",
+      "file": "v2_2026-07-14.md",
+      "date": "2026-07-14"
+    }
+  ]
+}

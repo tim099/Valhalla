@@ -1,0 +1,17 @@
+{
+  "id": "sommy",
+  "name": "索彌",
+  "book": "hunterxhunter",
+  "name_original": "",
+  "first_appeared_chapter": 25,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 25,
+      "headline": "帶猴子行動的考生——東巴的詐騙同夥",
+      "file": "v1_2026-07-14.md",
+      "date": "2026-07-14"
+    }
+  ]
+}
