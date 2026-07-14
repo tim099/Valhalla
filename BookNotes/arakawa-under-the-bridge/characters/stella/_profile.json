@@ -1,24 +1,32 @@
 {
   "id": "stella",
-  "name": "史黛拉",
-  "book": "arakawa-under-the-bridge",
-  "first_appeared_chapter": 39,
-  "current_version": 2,
+  "name": "史黛拉 (Stella)",
+  "book": "arakawa",
+  "first_appeared_chapter": 57,
+  "current_version": 3,
   "versions": [
     {
       "v": 1,
-      "as_of_chapter": 39,
-      "headline": "從英國孤兒院來、黏著修女的金髮孤女",
-      "file": "v1_2026-07-07.md",
-      "date": "2026-07-07"
+      "as_of_chapter": 57,
+      "headline": "自稱『大姐頭』的雙馬尾少女,曾教居民『劃分』等概念",
+      "file": "v1_2026-07-09.md",
+      "date": "2026-07-09"
     },
     {
       "v": 2,
-      "as_of_chapter": 41,
-      "headline": "天使外殼下的廣島腔黑道大姐頭——被嗆修女帶大的戰鬥狂",
-      "change_reason": "ch41史黛拉提議玩『一對一廝殺』,原來是被攤真槍的嗆修女一手帶大的戰鬥狂:必殺技『特攻』連段把市宮KO,還宣告『在你廝殺贏我之前,你就是我的小弟』,講廣島腔、自稱大姐頭。v1把她讀成甜美脆弱的寂寞孤女,ch41徹底顛覆——甜美只是外殼。",
-      "file": "v2_2026-07-07.md",
-      "date": "2026-07-07"
+      "as_of_chapter": 60,
+      "headline": "黑手黨裝扮、對『橋下老師』地位有地盤意識的大姐頭少女(正式登場)",
+      "change_reason": "從 ch57 僅耳聞(鐵人兄弟提到她教過劃分)升級為 ch60 正式在場登場,樣貌與動機都看到了",
+      "file": "v2_2026-07-09.md",
+      "date": "2026-07-09"
+    },
+    {
+      "v": 3,
+      "as_of_chapter": 61,
+      "headline": "用黑道兇相當保護色的孤單小孩——真相是怕被搶走朋友的傲嬌",
+      "change_reason": "ch60 我把她讀成單純『地盤意識的黑道大姐頭』;ch61 揭底才知那身兇惡全是保護色,真相是『覺得學校搶走她朋友、她孤單』的小孩,連兆/億誰大都不懂",
+      "file": "v3_2026-07-09.md",
+      "date": "2026-07-09"
     }
   ]
 }

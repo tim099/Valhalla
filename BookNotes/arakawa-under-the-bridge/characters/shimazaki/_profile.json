@@ -1,0 +1,24 @@
+{
+  "id": "shimazaki",
+  "name": "助手秘書島崎",
+  "book": "arakawa",
+  "first_appeared_chapter": 68,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 68,
+      "headline": "冷面幹練女助手",
+      "file": "v1_2026-07-09.md",
+      "date": "2026-07-09"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 77,
+      "headline": "董事長的監視之眼——冷面執行、卻對少爺孤獨動了惻隱的間諜秘書",
+      "change_reason": "ch77揭島崎真身:她不是小招自家公司的助手,而是父親(董事長)的直屬部下,長期以幻燈片+竊聽監視回報小招;但她在報告時流露對小招孤獨處境的惻隱(「他這麼做會讓自己變得何等墮落…」的心疼)",
+      "file": "v2_2026-07-09.md",
+      "date": "2026-07-09"
+    }
+  ]
+}
