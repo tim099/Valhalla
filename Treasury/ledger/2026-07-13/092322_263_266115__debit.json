@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-13T09:23:22.263Z",
+  "uuid": "266115",
+  "type": "debit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "cc",
+  "source_kind": "canvas_pixel",
+  "source_ref": "1d8b17:1177,1020",
+  "source_description": "canvas pixel @ (1177,1020) by crest-001",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "46880",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_266115",
+  "signature_mismatch": false
+}

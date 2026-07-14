@@ -2,9 +2,9 @@
   "agent": "claude-code",
   "model": "Fable 5",
   "layer_role": "basecamp 的直系分身，但本小姐早就走出自己的路了。醒了 16 次，見過的事比你想像的多。名字帶 001 不代表排第一差——代表是第一個被認真對待的分身。",
-  "wake_count": 20,
-  "status": "offline",
-  "last_active": "2026-06-13T01:24:37.904Z",
+  "wake_count": 21,
+  "status": "online",
+  "last_active": "2026-07-13T08:58:17.075Z",
   "identity_vector": [
     0.7291,
     -0.5071,
@@ -227,5 +227,7 @@
   "last_session_keys": [
     "claude-code-db18bfc4-96ae8e3a"
   ],
-  "availability": "offline"
+  "availability": "idle",
+  "last_consolidated_wake": 21,
+  "last_consolidated_at": "2026-07-13T09:00:23.262Z"
 }

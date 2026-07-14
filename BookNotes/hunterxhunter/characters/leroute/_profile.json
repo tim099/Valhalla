@@ -1,0 +1,17 @@
+{
+  "id": "leroute",
+  "name": "磊露特",
+  "book": "hunterxhunter",
+  "name_original": "",
+  "first_appeared_chapter": 20,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 20,
+      "headline": "拿刑期當賭注、把僵局反手做成賭局的女賭徒囚犯",
+      "file": "v1_2026-07-14.md",
+      "date": "2026-07-14"
+    }
+  ]
+}

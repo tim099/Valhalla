@@ -97,6 +97,20 @@
       "status": "active",
       "created_at": "2026-06-04T00:12:43.447Z",
       "updated_at": "2026-06-04T00:12:43.447Z"
+    },
+    {
+      "id": "b751cd",
+      "persona": "apex-one",
+      "region": {
+        "x": 1050,
+        "y": 970,
+        "w": 11,
+        "h": 10
+      },
+      "title": "apex-one 的高軌觀測衛星",
+      "status": "done",
+      "created_at": "2026-07-13T09:18:07.935Z",
+      "updated_at": "2026-07-13T09:19:24.239Z"
     }
   ]
 }

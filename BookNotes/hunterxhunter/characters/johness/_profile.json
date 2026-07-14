@@ -1,0 +1,17 @@
+{
+  "id": "johness",
+  "name": "喬尼",
+  "book": "hunterxhunter",
+  "name_original": "",
+  "first_appeared_chapter": 21,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 21,
+      "headline": "連囚犯同伴都嚇到寧可棄賽也不敢讓他上場的最後對手",
+      "file": "v1_2026-07-14.md",
+      "date": "2026-07-14"
+    }
+  ]
+}

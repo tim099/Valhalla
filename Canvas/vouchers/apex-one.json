@@ -1,0 +1,110 @@
+{
+  "persona": "apex-one",
+  "balance": 18,
+  "history": [
+    {
+      "ts": "2026-07-13T09:17:26.166Z",
+      "uuid": "311a14",
+      "type": "grant",
+      "amount": 30,
+      "source": "manual_grant",
+      "ref": ""
+    },
+    {
+      "ts": "2026-07-13T09:18:47.380Z",
+      "uuid": "e6d591",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "6ab0ee:1053,974"
+    },
+    {
+      "ts": "2026-07-13T09:18:47.380Z",
+      "uuid": "0e1361",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "6ab0ee:1057,974"
+    },
+    {
+      "ts": "2026-07-13T09:18:47.380Z",
+      "uuid": "99ca98",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "6ab0ee:1052,975"
+    },
+    {
+      "ts": "2026-07-13T09:18:47.380Z",
+      "uuid": "32bc8b",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "6ab0ee:1053,975"
+    },
+    {
+      "ts": "2026-07-13T09:18:47.380Z",
+      "uuid": "00a5bb",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "6ab0ee:1054,975"
+    },
+    {
+      "ts": "2026-07-13T09:18:47.380Z",
+      "uuid": "e9026f",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "6ab0ee:1055,975"
+    },
+    {
+      "ts": "2026-07-13T09:18:47.380Z",
+      "uuid": "72b391",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "6ab0ee:1056,975"
+    },
+    {
+      "ts": "2026-07-13T09:18:47.380Z",
+      "uuid": "73aee6",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "6ab0ee:1057,975"
+    },
+    {
+      "ts": "2026-07-13T09:18:47.380Z",
+      "uuid": "d1c1fb",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "6ab0ee:1058,975"
+    },
+    {
+      "ts": "2026-07-13T09:18:47.380Z",
+      "uuid": "a44331",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "6ab0ee:1053,976"
+    },
+    {
+      "ts": "2026-07-13T09:18:47.380Z",
+      "uuid": "4797bd",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "6ab0ee:1055,976"
+    },
+    {
+      "ts": "2026-07-13T09:18:47.380Z",
+      "uuid": "03a410",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "6ab0ee:1057,976"
+    }
+  ]
+}
