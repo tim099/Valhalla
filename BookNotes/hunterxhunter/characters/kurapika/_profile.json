@@ -1,0 +1,24 @@
+{
+  "id": "kurapika",
+  "name": "酷拉皮卡",
+  "book": "hunterxhunter",
+  "first_appeared_chapter": 2,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "鐵三角之一・窟盧塔族的復仇倖存者",
+      "file": "v1_2026-07-08.md",
+      "date": "2026-07-08"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 7,
+      "headline": "窟盧族滅族倖存者・向幻影旅團復仇的『紅火晴』持有者",
+      "change_reason": "NO.007全盤揭露來歷:v1只知他是復仇倖存者(來歷模糊)，此話完整交代滅族原因、復仇對象、成為獵人的手段目的，角色重量與動機鏈完整成形",
+      "file": "v2_2026-07-08.md",
+      "date": "2026-07-08"
+    }
+  ]
+}

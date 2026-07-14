@@ -1,0 +1,16 @@
+{
+  "id": "kite",
+  "name": "凱特",
+  "book": "hunterxhunter",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "金的徒弟・點燃小傑的獵人",
+      "file": "v1_2026-07-08.md",
+      "date": "2026-07-08"
+    }
+  ]
+}

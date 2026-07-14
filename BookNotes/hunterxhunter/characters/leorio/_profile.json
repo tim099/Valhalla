@@ -1,0 +1,24 @@
+{
+  "id": "leorio",
+  "name": "雷歐力",
+  "book": "hunterxhunter",
+  "first_appeared_chapter": 2,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "鐵三角之一・為錢當獵人的直腸子",
+      "file": "v1_2026-07-08.md",
+      "date": "2026-07-08"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 7,
+      "headline": "為『不用錢的醫生』夢想而當獵人的熱血理想主義者",
+      "change_reason": "NO.007揭露雷歐力當獵人求財的真正理由:兒時朋友的病本可治、卻因付不起手術費而死，他立志成為肯替窮人免費看病的醫生;念醫學院要錢故求財。從v1『俗氣拜金直腸子』翻成有血有肉的理想主義者",
+      "file": "v2_2026-07-08.md",
+      "date": "2026-07-08"
+    }
+  ]
+}

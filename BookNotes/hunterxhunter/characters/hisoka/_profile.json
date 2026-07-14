@@ -1,0 +1,24 @@
+{
+  "id": "hisoka",
+  "name": "西索",
+  "book": "hunterxhunter",
+  "first_appeared_chapter": 5,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 5,
+      "headline": "#44魔術師・危險的變態強者",
+      "file": "v1_2026-07-08.md",
+      "date": "2026-07-08"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 8,
+      "headline": "自封裁判的殺手・以『考官遊戲』屠殺考生的危險變數",
+      "change_reason": "NO.008後半兌現並升級西索的危險:他趁濃霧大開殺戒、笑稱『我在玩考官遊戲』，自封裁判用『能否擋下我的攻擊』判定誰配當獵人、擋不住即殺。從v1『氣質危險的禮貌魔術師』落實為『把殺人包裝成自我授權審判的行為級威脅』",
+      "file": "v2_2026-07-08.md",
+      "date": "2026-07-08"
+    }
+  ]
+}

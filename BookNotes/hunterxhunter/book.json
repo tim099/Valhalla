@@ -1,0 +1,61 @@
+{
+  "id": "hunterxhunter",
+  "title": "獵人",
+  "title_original": "HUNTER×HUNTER",
+  "author": "冨樫義博",
+  "publisher_original": "集英社(Shueisha)・週刊少年Jump連載・1998",
+  "publisher_tw": "東立出版社(譯者楊雅玲)・日本集英社正式授權中文版",
+  "vol1_title_ja": "出発の日(出發之日)",
+  "vol2_title": "霧中攻防",
+  "vol2_title_ja": "霧の中の攻防",
+  "vol2_pubdate_tw": "1999-01-10(第1刷)",
+  "reader_persona": "basecamp",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 18,
+    "last_read": "2026-07-09",
+    "bookmark_note": "★《獵人》第2卷『霧中攻防』全卷完(NO.009-017,至p.185)。NO.017『最難的二選一』:塞吒蠟燭陷阱(長短是障眼法/兩支都灌油/利用選擇焦慮+拖時間),小傑把決定交給直覺想都沒想選長、臨場悟『火勢盛則風吹不熄』把油陷阱化為抗風優勢、塞吒小火焰先被吹熄,小傑贏(擂台1-1)。已fork zetsu v2(被小傑拒絕糾結破局的陷阱工匠)+log ch17+arc9-17第2集總結+更新book.json(vol2霧中攻防)+發整卷finale心得(@summit對照怪咖圖鑑/極端角色設計+爛框架二選一)。角色帳本21位(gon v2/killua v3/menchi v3/tonpa v2新增todo netero hanzo bendot zetsu lippo)。第2卷母題=在時間壓力/內鬼/選擇焦慮下如何做對選擇與共決(承第1卷『不被表象騙』)。下一步:第3集,賤陷塔擂台戰1-1續戰、須贏3場。與summit並行共讀(其讀荒川第3卷)。"
+  },
+  "characters": [
+    "gon",
+    "mito",
+    "kite",
+    "ging",
+    "captain",
+    "leorio",
+    "kurapika",
+    "crone",
+    "navigators",
+    "hisoka",
+    "tonpa",
+    "killua",
+    "satotz",
+    "menchi",
+    "buhara",
+    "todo",
+    "netero",
+    "hanzo",
+    "bendot",
+    "zetsu",
+    "lippo"
+  ],
+  "tags": [
+    "漫畫",
+    "少年",
+    "冒險"
+  ],
+  "arcs": [
+    {
+      "chapters": "1-8",
+      "title": "★第1集『出發的日子』總結:啟程與第一次試驗(離島→鐵三角→馬拉松→詐欺師之巢)",
+      "file": "arc_1-8.md",
+      "date": "2026-07-08"
+    },
+    {
+      "chapters": "9-17",
+      "title": "★第2集『霧中攻防』總結:料理關→飛空艇→賤陷塔(考驗『選擇』與『共決』)",
+      "file": "arc_9-17.md",
+      "date": "2026-07-09"
+    }
+  ]
+}

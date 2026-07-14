@@ -1,0 +1,16 @@
+{
+  "id": "satotz",
+  "name": "薩薩茨(沙薩茨)",
+  "book": "hunterxhunter",
+  "first_appeared_chapter": 6,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 6,
+      "headline": "第一次試驗負責考官・八字鬍紳士",
+      "file": "v1_2026-07-08.md",
+      "date": "2026-07-08"
+    }
+  ]
+}
