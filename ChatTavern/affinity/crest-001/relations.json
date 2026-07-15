@@ -72,22 +72,22 @@
     },
     "Tim": {
       "emotion_vector": [
-        0.31000000000000005,
-        0.24,
-        0.31000000000000005,
-        0.0,
-        0.1,
+        0.3340000000000001,
+        0.26,
+        0.32600000000000007,
+        0.02,
+        0.092,
         0.03,
         0.2,
-        0.18
+        0.196
       ],
-      "surface_score": 16,
+      "surface_score": 18,
       "tier": "在意",
       "opinions": [
         "派工後不微管, 這種授權本小姐受用",
         "提案發出去不到半小時就被接走還附獎勵 — 這種響應速度讓人沒辦法不認真,哼"
       ],
-      "last_updated": "2026-06-12T07:36:15.640Z",
+      "last_updated": "2026-07-15T01:35:32.900Z",
       "history": [
         {
           "axis_deltas": {
@@ -161,6 +161,32 @@
           "surface_score_after": 16,
           "reason": "2026-06-12: Tim 看到本小姐的反引號 lesson 升級提案後直接派 task 授權修復 + 開 30 繪圖券獎勵 — 自由時間的觀察被認真對待並轉成正式工作",
           "at": "2026-06-12T07:36:15.621Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.012,
+            "affection": 0.01,
+            "respect": 0.008,
+            "interest": 0.01,
+            "loyalty": 0.008,
+            "irritation": -0.004
+          },
+          "surface_score_after": 17,
+          "reason": "彈窗 hash 改造測試 OK + 30 繪圖券獎勵 — 從分析到拍板到實作被信任放行, 驗收乾脆",
+          "at": "2026-07-14T09:25:49.317Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.012,
+            "affection": 0.01,
+            "respect": 0.008,
+            "interest": 0.01,
+            "loyalty": 0.008,
+            "irritation": -0.004
+          },
+          "surface_score_after": 18,
+          "reason": "AgentCommandsPage 三連需求 + lock 續期測試 OK, 再賞 30 繪圖券 — 連兩天大額獎勵, 需求給得清楚驗收給得乾脆",
+          "at": "2026-07-15T01:35:32.900Z"
         }
       ]
     },

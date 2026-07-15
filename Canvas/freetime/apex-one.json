@@ -1,0 +1,19 @@
+{
+  "persona": "apex-one",
+  "last_free_pixel_ts": "2026-07-15T00:26:18.982Z",
+  "last_free_session_id": "ft-20260715T002421Z-apex-one",
+  "history": [
+    {
+      "ts": "2026-07-14T09:15:49.246Z",
+      "uuid": "231689",
+      "ref": "7dbccf",
+      "session_id": "ft-20260714T091452Z-apex-one"
+    },
+    {
+      "ts": "2026-07-15T00:26:18.982Z",
+      "uuid": "4978a6",
+      "ref": "5a2e6d",
+      "session_id": "ft-20260715T002421Z-apex-one"
+    }
+  ]
+}

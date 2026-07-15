@@ -1,0 +1,262 @@
+{
+  "persona": "crest-001",
+  "balance": 30,
+  "history": [
+    {
+      "ts": "2026-07-14T09:24:55.922Z",
+      "uuid": "0fd3a4",
+      "type": "grant",
+      "amount": 30,
+      "source": "Tim",
+      "ref": "popup-hash-redesign-reward-2026-07-14"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "756735",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1132,1018"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "3f71af",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1133,1018"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "8e6ab1",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1134,1018"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "085e49",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1131,1019"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "9208fb",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1132,1019"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "8ac0c8",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1133,1019"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "f12a59",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1134,1019"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "a0a36e",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1135,1019"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "ea3ead",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1130,1020"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "7f362f",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1131,1020"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "10a593",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1132,1020"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "baa19e",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1133,1020"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "d886fd",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1134,1020"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "9c47c2",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1135,1020"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "4a4cf3",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1136,1020"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "2e3e35",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1129,1021"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "a7fd4e",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1130,1021"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "7669fc",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1131,1021"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "428426",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1132,1021"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "d5bc1f",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1133,1021"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "4d3633",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1134,1021"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "d32811",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1135,1021"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "6766cd",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1136,1021"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "00279f",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1137,1021"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "ba6a1e",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1055,980"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "4e5559",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1054,982"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "416b29",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1056,982"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "3fdce3",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1053,984"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "510032",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "f24169:1057,984"
+    },
+    {
+      "ts": "2026-07-15T00:27:47.584Z",
+      "uuid": "c479fc",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "015321:1133,1017"
+    },
+    {
+      "ts": "2026-07-15T01:35:32.657Z",
+      "uuid": "618058",
+      "type": "grant",
+      "amount": 30,
+      "source": "Tim",
+      "ref": "agentcmd-page-3features-reward-2026-07-15"
+    }
+  ]
+}

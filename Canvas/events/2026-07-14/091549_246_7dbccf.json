@@ -1,0 +1,23 @@
+{
+  "ts": "2026-07-14T09:15:49.246Z",
+  "uuid": "7dbccf",
+  "persona": "apex-one",
+  "agent": "claude-code",
+  "account_id": "cc",
+  "pixels": [
+    {
+      "x": 1055,
+      "y": 974,
+      "color": 232
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 1,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "24c29a"
+  ]
+}

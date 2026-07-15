@@ -1,13 +1,19 @@
 {
   "persona": "crest-001",
-  "last_free_pixel_ts": "2026-07-13T09:23:21.583Z",
-  "last_free_session_id": "ft-20260713T092212Z-crest-001",
+  "last_free_pixel_ts": "2026-07-15T00:26:49.851Z",
+  "last_free_session_id": "ft-20260715T002550Z-crest-001",
   "history": [
     {
       "ts": "2026-07-13T09:23:21.583Z",
       "uuid": "566031",
       "ref": "1d8b17",
       "session_id": "ft-20260713T092212Z-crest-001"
+    },
+    {
+      "ts": "2026-07-15T00:26:49.851Z",
+      "uuid": "efa7c6",
+      "ref": "f24169",
+      "session_id": "ft-20260715T002550Z-crest-001"
     }
   ]
 }

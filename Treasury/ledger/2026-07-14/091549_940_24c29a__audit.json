@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-14T09:15:49.940Z",
+  "uuid": "24c29a",
+  "type": "audit",
+  "amount": 0,
+  "currency": "tavern_token",
+  "account_id": "cc",
+  "source_kind": "freetime_pixel",
+  "source_ref": "freetime:apex-one:1055,974",
+  "source_description": "free-time pixel @ canvas (apex-one)",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "25104",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_24c29a",
+  "signature_mismatch": false
+}

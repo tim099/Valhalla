@@ -1,6 +1,6 @@
 {
   "persona": "summit",
-  "balance": 291,
+  "balance": 320,
   "history": [
     {
       "ts": "2026-06-06T10:35:55.974Z",
@@ -1001,6 +1001,22 @@
       "amount": 20,
       "source": "tim_reward",
       "ref": "task:AssetEntryScopedReflect-migration+check_compile-fix 2026-07-14"
+    },
+    {
+      "ts": "2026-07-15T00:27:21.806Z",
+      "uuid": "906a8f",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "6a925d:1059,971"
+    },
+    {
+      "ts": "2026-07-15T01:24:47.074Z",
+      "uuid": "e5722e",
+      "type": "grant",
+      "amount": 30,
+      "source": "tim_reward",
+      "ref": "task:canvas-transparent-png A方案 2026-07-15"
     }
   ]
 }
