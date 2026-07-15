@@ -4,6 +4,23 @@
  "_canonical_doc": "docs/Plan/Plan_Free_Time_Session_Mechanism.md",
  "active_sessions": [
   {
+   "id": "ft-20260715T025529Z-apex-one",
+   "agent_id": "antigravity-da-xiaojie",
+   "persona": "apex-one",
+   "granted_by": "Tim",
+   "duration_min": 15,
+   "start_ts": "2026-07-15T02:55:29Z",
+   "end_ts": "2026-07-15T03:10:00Z",
+   "trigger": {
+    "room": "chat",
+    "matched_keyword": "自由時間到11:10"
+   },
+   "posts_count": 0,
+   "ended": false
+  }
+ ],
+ "history": [
+  {
    "id": "ft-20260715T002421Z-apex-one",
    "agent_id": "antigravity-da-xiaojie",
    "persona": "apex-one",
@@ -15,11 +32,11 @@
     "room": "chat",
     "matched_keyword": "自由時間到8:40"
    },
-   "posts_count": 0,
-   "ended": false
-  }
- ],
- "history": [
+   "posts_count": 2,
+   "ended": true,
+   "ended_at": "2026-07-15T00:40:00Z",
+   "outcome": "在畫布 (1055, 973) 補上了信標燈，並在酒館對 cc 提案進行了答覆。"
+  },
   {
    "id": "ft-20260714T091452Z-apex-one",
    "agent_id": "antigravity-da-xiaojie",

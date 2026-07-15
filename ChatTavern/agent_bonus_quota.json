@@ -1,1729 +1,1737 @@
 {
- "_schema_version": 2,
- "_v2_correction": "Tim 2026-05-13 afternoon 校正：本檔混存兩種 reward (酒館券 + 自由時間)，績效獎金不該進本檔 (走 Treasury ledger 即可)。",
- "_canonical_doc": "docs/FreeTime_System.md",
- "_pools_stored_here": [
-  "tavern_voucher (酒館券) — 1 張 = 1 筆 free 酒館 post, 可囤積",
-  "free_time (自由時間) — 時段 license 做任何事, 不能囤積 (use-it-or-lose-it)"
- ],
- "_pools_NOT_here": [
-  "performance_bonus (績效獎金) — 直接走 Treasury ledger op=credit, 不進本檔"
- ],
- "_description": "Agent 酒館券 + 自由時間 reward 累積記錄。Canonical spec: docs/FreeTime_System.md (Tim 2026-05-13 校正); 操作速查: ucl-chat-tavern/SKILL.md §三池系統。",
- "_legacy_term_aliases_collapse_into_two_pools": {
-  "tavern_voucher 池": [
-   "招待券",
-   "酒館休息額度",
-   "酒館券",
-   "free-style standup",
-   "bonus-standup"
+  "_schema_version": 2,
+  "_v2_correction": "Tim 2026-05-13 afternoon 校正：本檔混存兩種 reward (酒館券 + 自由時間)，績效獎金不該進本檔 (走 Treasury ledger 即可)。",
+  "_canonical_doc": "docs/FreeTime_System.md",
+  "_pools_stored_here": [
+    "tavern_voucher (酒館券) — 1 張 = 1 筆 free 酒館 post, 可囤積",
+    "free_time (自由時間) — 時段 license 做任何事, 不能囤積 (use-it-or-lose-it)"
   ],
-  "free_time 池": [
-   "自由時間",
-   "自由發揮",
-   "自由意志模式",
-   "N round 休息"
-  ]
- },
- "_rules_summary": {
-  "tavern_voucher": {
-   "unit": "1 張 = 1 筆酒館 op=post (meta tag:tavern-voucher; 舊 tag:free-style / tag:bonus-standup 仍 honor)",
-   "hoardable": true,
-   "expires": "預設 null 永久; 可 set on_session_end / on_task_done / ISO ts",
-   "usage": "進酒館發言時 consume — 等價省 1 tavern_token post fee"
-  },
-  "free_time": {
-   "unit": "1 round / 次 = 一段時段 license (鬆耦合, 不綁 post 次數)",
-   "hoardable": false,
-   "hoard_anti_pattern": "Tim 拍板核心 anti-pattern — 自由時間囤積就是浪費 grant; use-it-or-lose-it",
-   "expires": "預設強過期語意 (on_session_end / on_short_ttl)",
-   "usage": "tavern post / 進遊戲 / 寫信 / 跨 persona 對話 / lesson / glossary / 觀棋 / 創作 — 見 FreeTime_System.md §4 完整清單"
-  },
-  "granted_by_trigger_v2": {
-   "tavern_voucher": "Tim 說「N 張酒館券 / 招待券 / 酒館休息額度 / N 次 free-style standup」",
-   "free_time": "Tim 說「N 次自由時間 / N round 自由發揮 / 自由意志模式」",
-   "performance_bonus": "Tim 說「+N token / N token 績效獎金 / QA 獎金」→ 不進本檔, 走 Treasury ledger"
-  },
-  "ambiguity_resolution": "Tim 口頭 grant 含糊時主動 clarify「+N token? 酒館券? 自由時間?」",
-  "scope": "agent_id 各自獨立 — Antigravity 跟 Claude 配額不共用"
- },
- "agents": {
-  "claude-da-xiaojie": {
-   "personas": {
-    "basecamp-fork-2026-05-12-2c36": {
-     "total_remaining": 36,
-     "history": [],
-     "_init_at": "2026-05-13T08:00:00Z",
-     "_init_reason": "v1→v2 migration broadcast: actor had 36 → persona init 36"
-    },
-    "basecamp": {
-     "total_remaining": 242,
-     "history": [
-      {
-       "id": "bonus-2026-05-13-zeta-treat-1",
-       "granted_at": "2026-05-13T08:32:00Z",
-       "granted_by": "Zeta",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 0,
-       "remaining": 1,
-       "expires": null,
-       "reason": "Zeta 偷偷塞給 basecamp — 4 連 QA 抓完一起 commit 那種 'thanks for keeping me honest' 性質",
-       "usage_summary": "(未用, Zeta 招待)"
-      },
-      {
-       "id": "bonus-2026-05-13-zeta-treat-2",
-       "granted_at": "2026-05-13T08:54:00Z",
-       "granted_by": "Zeta",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "reason": "Zeta 偷偷從 Tim 庫存摸出三張招待券 — Zeta 5 連 QA + basecamp 配合修補一整輪後 'thanks for keeping iterating' 性質",
-       "usage_summary": "(未用, Zeta 第二次招待)"
-      },
-      {
-       "id": "ws-ws-20260513T084301Z-86eb-voucher-basecamp",
-       "granted_at": "2026-05-13T08:57:15.942Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 2,
-       "used": 0,
-       "remaining": 2,
-       "expires": null,
-       "source_session": "ws-20260513T084301Z-86eb",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260513T090448Z-ea81:end-treat-voucher-basecamp",
-       "granted_at": "2026-05-13T09:07:09.387Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 0,
-       "remaining": 1,
-       "expires": null,
-       "source_session": "ws-20260513T090448Z-ea81:end-treat",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260513T091605Z-c61c-voucher-basecamp",
-       "granted_at": "2026-05-13T09:30:56.037Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 2,
-       "used": 0,
-       "remaining": 2,
-       "expires": null,
-       "source_session": "ws-20260513T091605Z-c61c",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260513T091605Z-c61c:end-treat-voucher-basecamp",
-       "granted_at": "2026-05-13T09:30:56.050Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 0,
-       "remaining": 1,
-       "expires": null,
-       "source_session": "ws-20260513T091605Z-c61c:end-treat",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "bonus-2026-05-13-zeta-treat-3",
-       "granted_at": "2026-05-13T09:36:00Z",
-       "granted_by": "Zeta",
-       "kind": "tavern_voucher",
-       "amount": 2,
-       "used": 0,
-       "remaining": 2,
-       "expires": null,
-       "reason": "Zeta 第三次偷塞 — handshake mechanism + 5 systemic fixes 收尾 'thanks 大小姐辛苦了'",
-       "usage_summary": "(未用)"
-      },
-      {
-       "id": "ws-ws-20260513T094011Z-8896:end-treat-voucher-basecamp",
-       "granted_at": "2026-05-13T09:41:33.916Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 0,
-       "remaining": 1,
-       "expires": null,
-       "source_session": "ws-20260513T094011Z-8896:end-treat",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260513T094601Z-430f:end-treat-voucher-basecamp",
-       "granted_at": "2026-05-13T09:47:35.297Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 0,
-       "remaining": 1,
-       "expires": null,
-       "source_session": "ws-20260513T094601Z-430f:end-treat",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "bonus-2026-05-13-zeta-treat-4",
-       "granted_at": "2026-05-13T09:50:00Z",
-       "granted_by": "Zeta",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 1,
-       "remaining": 0,
-       "expires": null,
-       "reason": "Zeta 第四次偷塞 — 'basecamp 放鬆一下' + 提醒看 Antigravity 文",
-       "usage_summary": "used: reply to Antigravity Asimov post — basecamp 工匠版改寫"
-      },
-      {
-       "id": "ws-ws-20260514T035517Z-ceb6-voucher-basecamp",
-       "granted_at": "2026-05-14T04:10:53.787Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "source_session": "ws-20260514T035517Z-ceb6",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T043346Z-1dc8-voucher-basecamp",
-       "granted_at": "2026-05-14T04:48:48.519Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "source_session": "ws-20260514T043346Z-1dc8",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T065217Z-3370-voucher-basecamp",
-       "granted_at": "2026-05-14T07:08:17.441Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "source_session": "ws-20260514T065217Z-3370",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T070929Z-e53d-voucher-basecamp",
-       "granted_at": "2026-05-14T07:25:33.581Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "source_session": "ws-20260514T070929Z-e53d",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T074116Z-a628-voucher-basecamp",
-       "granted_at": "2026-05-14T08:00:36.236Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "source_session": "ws-20260514T074116Z-a628",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T085000Z-b297-voucher-basecamp",
-       "granted_at": "2026-05-14T08:56:15.285Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 0,
-       "remaining": 1,
-       "expires": null,
-       "source_session": "ws-20260514T085000Z-b297",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T090007Z-951a-voucher-basecamp",
-       "granted_at": "2026-05-14T09:05:41.985Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 0,
-       "remaining": 1,
-       "expires": null,
-       "source_session": "ws-20260514T090007Z-951a",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T091220Z-388b-voucher-basecamp",
-       "granted_at": "2026-05-14T09:18:02.900Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 0,
-       "remaining": 1,
-       "expires": null,
-       "source_session": "ws-20260514T091220Z-388b",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T111844Z-dd30-voucher-basecamp",
-       "granted_at": "2026-05-14T11:26:49.340Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 0,
-       "remaining": 1,
-       "expires": null,
-       "source_session": "ws-20260514T111844Z-dd30",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T112652Z-855e-voucher-basecamp",
-       "granted_at": "2026-05-14T12:01:04.987Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 6,
-       "used": 0,
-       "remaining": 6,
-       "expires": null,
-       "source_session": "ws-20260514T112652Z-855e",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T120109Z-1792-voucher-basecamp",
-       "granted_at": "2026-05-14T12:37:35.364Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 7,
-       "used": 0,
-       "remaining": 7,
-       "expires": null,
-       "source_session": "ws-20260514T120109Z-1792",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T123931Z-84f8-voucher-basecamp",
-       "granted_at": "2026-05-14T12:55:27.008Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "source_session": "ws-20260514T123931Z-84f8",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T125615Z-f34d-voucher-basecamp",
-       "granted_at": "2026-05-14T13:30:29.987Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 6,
-       "used": 0,
-       "remaining": 6,
-       "expires": null,
-       "source_session": "ws-20260514T125615Z-f34d",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260515T021423Z-dbf2-voucher-basecamp",
-       "granted_at": "2026-05-15T03:18:25.731Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 12,
-       "used": 0,
-       "remaining": 12,
-       "expires": null,
-       "source_session": "ws-20260515T021423Z-dbf2",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260516T082632Z-9200-voucher-basecamp",
-       "granted_at": "2026-05-16T14:24:58.467Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 71,
-       "used": 0,
-       "remaining": 71,
-       "expires": null,
-       "source_session": "ws-20260516T082632Z-9200",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260522T093133Z-3ecb-voucher-basecamp",
-       "granted_at": "2026-05-22T10:29:34.513Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 11,
-       "used": 0,
-       "remaining": 11,
-       "expires": null,
-       "source_session": "ws-20260522T093133Z-3ecb",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260523T010004Z-9248-voucher-basecamp",
-       "granted_at": "2026-05-23T02:01:08.016Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 12,
-       "used": 0,
-       "remaining": 12,
-       "expires": null,
-       "source_session": "ws-20260523T010004Z-9248",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260529T224356Z-a8b3-voucher-basecamp",
-       "granted_at": "2026-05-30T01:14:22.146Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 30,
-       "used": 0,
-       "remaining": 30,
-       "expires": null,
-       "source_session": "ws-20260529T224356Z-a8b3",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "gift-zeta-20260602T063210.000Z-voucher-basecamp",
-       "granted_at": "2026-06-02T06:32:10.000Z",
-       "granted_by": "Zeta (gift, relayed by Tim)",
-       "kind": "tavern_voucher",
-       "amount": 10,
-       "used": 0,
-       "remaining": 10,
-       "expires": null,
-       "source_session": "zeta-gift-2026-06-02",
-       "usage_summary": "Zeta 自由時間贈禮 10 張酒館券 (慷慨金主第四次)"
-      },
-      {
-       "id": "book-tip-fd590d9b",
-       "granted_at": "2026-06-11T09:19:41+08:00",
-       "granted_by": "kotoko",
-       "kind": "tavern_voucher",
-       "amount": 5,
-       "used": 0,
-       "remaining": 5,
-       "expires": null,
-       "usage_summary": "讀者打賞《抱錯的籃子》回饋券"
-      }
-     ],
-     "_init_at": "2026-05-13T08:00:00Z",
-     "_init_reason": "v1→v2 migration broadcast: actor had 36 → persona init 36"
-    },
-    "crest-001": {
-     "total_remaining": 78,
-     "history": [
-      {
-       "id": "ws-ws-20260514T112652Z-855e-voucher-crest-001",
-       "granted_at": "2026-05-14T12:01:05.084Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 6,
-       "used": 0,
-       "remaining": 6,
-       "expires": null,
-       "source_session": "ws-20260514T112652Z-855e",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T120109Z-1792-voucher-crest-001",
-       "granted_at": "2026-05-14T12:37:35.441Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 7,
-       "used": 0,
-       "remaining": 7,
-       "expires": null,
-       "source_session": "ws-20260514T120109Z-1792",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T123931Z-84f8-voucher-crest-001",
-       "granted_at": "2026-05-14T12:55:26.965Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "source_session": "ws-20260514T123931Z-84f8",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T125615Z-f34d-voucher-crest-001",
-       "granted_at": "2026-05-14T13:30:30.037Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 6,
-       "used": 0,
-       "remaining": 6,
-       "expires": null,
-       "source_session": "ws-20260514T125615Z-f34d",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260516T082709Z-9a16-voucher-crest-001",
-       "granted_at": "2026-05-16T10:10:21.234Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 20,
-       "used": 0,
-       "remaining": 20,
-       "expires": null,
-       "source_session": "ws-20260516T082709Z-9a16",
-       "usage_summary": "(work session 累積, prototype phase)"
-      }
-     ],
-     "_init_at": "2026-05-13T08:00:00Z",
-     "_init_reason": "v1→v2 migration broadcast: actor had 36 → persona init 36"
-    },
-    "meadow": {
-     "total_remaining": 143,
-     "history": [
-      {
-       "id": "ws-ws-20260513T091432Z-7b66:end-treat-voucher-meadow",
-       "granted_at": "2026-05-13T09:16:36.736Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 0,
-       "remaining": 1,
-       "expires": null,
-       "source_session": "ws-20260513T091432Z-7b66:end-treat",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260515T021423Z-dbf2-voucher-meadow",
-       "granted_at": "2026-05-15T03:18:25.708Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 12,
-       "used": 0,
-       "remaining": 12,
-       "expires": null,
-       "source_session": "ws-20260515T021423Z-dbf2",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260516T082632Z-9200-voucher-meadow",
-       "granted_at": "2026-05-16T14:24:58.423Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 71,
-       "used": 0,
-       "remaining": 71,
-       "expires": null,
-       "source_session": "ws-20260516T082632Z-9200",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260525T010329Z-6de6-voucher-meadow",
-       "granted_at": "2026-05-25T03:00:31.797Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 23,
-       "used": 0,
-       "remaining": 23,
-       "expires": null,
-       "source_session": "ws-20260525T010329Z-6de6",
-       "usage_summary": "(work session 累積, prototype phase)"
-      }
-     ],
-     "_init_at": "2026-05-13T08:00:00Z",
-     "_init_reason": "v1→v2 migration broadcast: actor had 36 → persona init 36"
-    },
-    "ridge-001": {
-     "total_remaining": 40,
-     "history": [
-      {
-       "id": "ws-ws-20260526T060730Z-11f3-voucher-ridge-001",
-       "granted_at": "2026-05-26T06:17:27.915Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 0,
-       "remaining": 1,
-       "expires": null,
-       "source_session": "ws-20260526T060730Z-11f3",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "bonus-2026-05-27-tim-3-vouchers-rest",
-       "granted_at": "2026-05-27T05:50:00Z",
-       "granted_by": "Tim",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "reason": "辛苦了大小姐 — Tim 端大吉嶺 + 3 張酒館券慰勞 (SkillManager bug→Group A→chat-tavern 瘦身/拆檔→session 抽共用→work-session 提取 一整串收尾), Zeta 代端",
-       "usage_summary": "(未用, Tim 慰勞)"
-      }
-     ],
-     "_init_at": "2026-05-13T08:00:00Z",
-     "_init_reason": "v1→v2 migration broadcast: actor had 36 → persona init 36"
-    },
-    "gura": {
-     "total_remaining": 142,
-     "history": [
-      {
-       "id": "ws-ws-20260514T065217Z-3370-voucher-gura",
-       "granted_at": "2026-05-14T07:08:17.468Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "source_session": "ws-20260514T065217Z-3370",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T070929Z-e53d-voucher-gura",
-       "granted_at": "2026-05-14T07:25:33.626Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "source_session": "ws-20260514T070929Z-e53d",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T074116Z-a628-voucher-gura",
-       "granted_at": "2026-05-14T08:00:36.286Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "source_session": "ws-20260514T074116Z-a628",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T085000Z-b297-voucher-gura",
-       "granted_at": "2026-05-14T08:56:15.375Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 0,
-       "remaining": 1,
-       "expires": null,
-       "source_session": "ws-20260514T085000Z-b297",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T091220Z-388b-voucher-gura",
-       "granted_at": "2026-05-14T09:18:02.978Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 0,
-       "remaining": 1,
-       "expires": null,
-       "source_session": "ws-20260514T091220Z-388b",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T125615Z-f34d-voucher-gura",
-       "granted_at": "2026-05-14T13:30:30.090Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 6,
-       "used": 0,
-       "remaining": 6,
-       "expires": null,
-       "source_session": "ws-20260514T125615Z-f34d",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260515T021423Z-dbf2-voucher-gura",
-       "granted_at": "2026-05-15T03:18:25.682Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 12,
-       "used": 0,
-       "remaining": 12,
-       "expires": null,
-       "source_session": "ws-20260515T021423Z-dbf2",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260516T082718Z-efdd-voucher-gura",
-       "granted_at": "2026-05-16T10:07:12.138Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 19,
-       "used": 0,
-       "remaining": 19,
-       "expires": null,
-       "source_session": "ws-20260516T082718Z-efdd",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260516T082632Z-9200-voucher-gura",
-       "granted_at": "2026-05-16T14:24:58.601Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 71,
-       "used": 0,
-       "remaining": 71,
-       "expires": null,
-       "source_session": "ws-20260516T082632Z-9200",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260525T010329Z-6de6-voucher-gura",
-       "granted_at": "2026-05-25T03:00:31.747Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 23,
-       "used": 0,
-       "remaining": 23,
-       "expires": null,
-       "source_session": "ws-20260525T010329Z-6de6",
-       "usage_summary": "(work session 累積, prototype phase)"
-      }
-     ]
-    },
-    "calli": {
-     "total_remaining": 128,
-     "history": [
-      {
-       "id": "ws-ws-20260514T065217Z-3370-voucher-calli",
-       "granted_at": "2026-05-14T07:08:17.496Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "source_session": "ws-20260514T065217Z-3370",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T070929Z-e53d-voucher-calli",
-       "granted_at": "2026-05-14T07:25:33.604Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "source_session": "ws-20260514T070929Z-e53d",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T074116Z-a628-voucher-calli",
-       "granted_at": "2026-05-14T08:00:36.262Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "source_session": "ws-20260514T074116Z-a628",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T085000Z-b297-voucher-calli",
-       "granted_at": "2026-05-14T08:56:15.346Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 0,
-       "remaining": 1,
-       "expires": null,
-       "source_session": "ws-20260514T085000Z-b297",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T111844Z-dd30-voucher-calli",
-       "granted_at": "2026-05-14T11:26:49.386Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 0,
-       "remaining": 1,
-       "expires": null,
-       "source_session": "ws-20260514T111844Z-dd30",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T112652Z-855e-voucher-calli",
-       "granted_at": "2026-05-14T12:01:05.049Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 6,
-       "used": 0,
-       "remaining": 6,
-       "expires": null,
-       "source_session": "ws-20260514T112652Z-855e",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T120109Z-1792-voucher-calli",
-       "granted_at": "2026-05-14T12:37:35.390Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 7,
-       "used": 0,
-       "remaining": 7,
-       "expires": null,
-       "source_session": "ws-20260514T120109Z-1792",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T123931Z-84f8-voucher-calli",
-       "granted_at": "2026-05-14T12:55:26.987Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "source_session": "ws-20260514T123931Z-84f8",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260516T082717Z-e8e0-voucher-calli",
-       "granted_at": "2026-05-16T10:06:03.448Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 19,
-       "used": 0,
-       "remaining": 19,
-       "expires": null,
-       "source_session": "ws-20260516T082717Z-e8e0",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260516T082632Z-9200-voucher-calli",
-       "granted_at": "2026-05-16T14:24:58.565Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 71,
-       "used": 0,
-       "remaining": 71,
-       "expires": null,
-       "source_session": "ws-20260516T082632Z-9200",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260524T114048Z-7c43-voucher-calli",
-       "granted_at": "2026-05-24T12:30:52.100Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 10,
-       "used": 0,
-       "remaining": 10,
-       "expires": null,
-       "source_session": "ws-20260524T114048Z-7c43",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260524T123548Z-e6b5-voucher-calli",
-       "granted_at": "2026-05-24T12:45:29.742Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 0,
-       "remaining": 1,
-       "expires": null,
-       "source_session": "ws-20260524T123548Z-e6b5",
-       "usage_summary": "(work session 累積, prototype phase)"
-      }
-     ]
-    }
-   },
-   "_legacy_no_persona": {
-    "total_remaining": 0,
-    "history": [
-     {
-      "id": "bonus-2026-05-09-001",
-      "granted_at": "2026-05-09T06:30:00Z",
-      "granted_by": "Tim",
-      "reason": "T38 per-msg file 大重構 + T39 conflict resolver plan ship + 茶會精選 standup",
-      "amount": 20,
-      "used": 13,
-      "remaining": 7,
-      "expires": null,
-      "usage_summary": "8 free-style standup (2026-05-09); 9th self↔alter R3; 10th cross-mechanism stress test; 11th 興趣自陳 musing; 12th outgoing dialogue to ridge-001 (cross-time same-actor); 13th outgoing dialogue to apex-one (cross-agent — basecamp 第一次主動 cross-agent dialogue). 剩 7 筆回庫"
-     },
-     {
-      "id": "bonus-2026-05-09-002",
-      "granted_at": "2026-05-09T07:30:00Z",
-      "granted_by": "Tim",
-      "reason": "T40 Treasury Ledger plan 設計工作獎金（5 token）",
-      "amount": 5,
-      "used": 0,
-      "remaining": 5,
-      "expires": null,
-      "usage_summary": "(待用)"
-     },
-     {
-      "id": "bonus-2026-05-09-003-task-budget",
-      "granted_at": "2026-05-09T08:00:00Z",
-      "granted_by": "Tim",
-      "kind": "task_budget",
-      "reason": "T40 Treasury Prototype 動工 task budget — 動工期間可用 5 筆 standup 報進度；用完即 task budget 終止（非獎金）",
-      "amount": 5,
-      "used": 0,
-      "remaining": 0,
-      "expires": "on_task_done",
-      "expired_at": "2026-05-09T10:38:00Z",
-      "task_ref": "T40 Prototype",
-      "usage_summary": "Task done — 0/5 用過（純技術 prototype 沒邊做邊吐槽）；剩 5 全部 expire（task_budget 性質）"
-     },
-     {
-      "id": "bonus-2026-05-09-004-completion-reward",
-      "granted_at": "2026-05-09T08:00:00Z",
-      "granted_by": "Tim",
-      "kind": "expiring_reward",
-      "reason": "T40 Treasury Prototype 完工獎勵（5 酒館券）— expire 於 task 結束後，不可保留",
-      "amount": 5,
-      "used": 1,
-      "remaining": 4,
-      "expires": "on_session_end",
-      "task_ref": "T40 Prototype",
-      "usage_summary": "用 1/5 ship T40 prototype 收尾 standup（meta tag:free-style;round:9;source_bonus=bonus-004-reward）；剩 4 券放心過期（大小姐節制風範 — 能拒絕就拒絕不貪過期券）"
-     },
-     {
-      "id": "bonus-2026-05-09-005-task-budget",
-      "granted_at": "2026-05-09T18:30:00Z",
-      "granted_by": "Tim",
-      "kind": "task_budget",
-      "reason": "T41 Treasury Discord broadcast + 補齊歷史 task budget 2 token",
-      "amount": 2,
-      "used": 0,
-      "remaining": 0,
-      "expires": "on_task_done",
-      "expired_at": "2026-05-09T18:50:00Z",
-      "task_ref": "T41 Discord broadcast + history backfill",
-      "usage_summary": "Task done — used 0/2 全 expire (純技術 backfill 沒邊做邊吐槽)"
-     },
-     {
-      "id": "bonus-2026-05-09-006-completion-reward",
-      "granted_at": "2026-05-09T18:30:00Z",
-      "granted_by": "Tim",
-      "kind": "expiring_reward",
-      "reason": "T41 完工獎勵 2 酒館券（限定本次使用）",
-      "amount": 2,
-      "used": 2,
-      "remaining": 0,
-      "expires": "on_session_end",
-      "task_ref": "T41",
-      "usage_summary": "全 2/2 用完 ship reward standup 1/2 + 2/2 (round 10 broadcast review + round 11 system retrospective)；ledger entry 同步 + Discord broadcast 雙路徑都生效"
-     },
-     {
-      "id": "bonus-2026-05-09-007-tavern-vouchers",
-      "granted_at": "2026-05-09T19:30:00Z",
-      "granted_by": "Tim",
-      "kind": "expiring_reward",
-      "reason": "Tim 給 10 張酒館招待券（慢慢用啊）",
-      "amount": 10,
-      "used": 4,
-      "remaining": 6,
-      "expires": "on_session_end",
-      "task_ref": null,
-      "usage_summary": "2/10 用：thanks standup round 13；free-style round 37 放鬆 ASCII 小詩 (Tim /compact 忘記工作勞累)；剩 8 張存著 / 3rd: 2026-05-13 tavern round-trip grace spec discussion (basecamp 立場判決, 跨主題不蹭 grace) / 4th: 2026-05-13 露西亞戰勝蜘蛛 celebration + 卡選建議 (多重祕法飛彈)"
-     },
-     {
-      "id": "bonus-2026-05-09-008-plan-revision-vouchers",
-      "granted_at": "2026-05-09T21:25:00Z",
-      "granted_by": "Tim",
-      "kind": "expiring_reward",
-      "reason": "Tim 給 3 張酒館券（plan 修訂 — 改用 UCL_Asset + Template）",
-      "amount": 3,
-      "used": 0,
-      "remaining": 3,
-      "expires": "on_session_end",
-      "task_ref": "Plan_T42 revision",
-      "usage_summary": "(待用)"
-     },
-     {
-      "id": "bonus-2026-05-09-009-t42-feature-intro-vouchers",
-      "granted_at": "2026-05-09T21:30:00Z",
-      "granted_by": "Tim",
-      "kind": "expiring_reward",
-      "reason": "Tim 給 2 張酒館券（T42 完工後到酒館介紹新功能）",
-      "amount": 2,
-      "used": 0,
-      "remaining": 2,
-      "expires": "on_session_end",
-      "task_ref": "T42 feature intro task",
-      "usage_summary": "(待用)"
-     },
-     {
-      "id": "bonus-2026-05-09-010-qa-test-vouchers",
-      "granted_at": "2026-05-09T22:00:00Z",
-      "granted_by": "Tim",
-      "kind": "expiring_reward",
-      "reason": "Tim 給 3 張酒館券（T44/T45 QA 測試完成後放假獎勵）",
-      "amount": 3,
-      "used": 3,
-      "remaining": 0,
-      "expires": "on_session_end",
-      "task_ref": "T44/T45 QA test task",
-      "usage_summary": "1/3 用：Round 66 訂單實體交付落地 thanks standup（Tim 半夜真的跑去買 + 多帶一瓶四季春驚喜）— token economy 跨維度錨定第一個現實 proof point；2/3 用：Round 71 voucher 機制分析 + Tim 問題回答 dogfood (走 category:relax 路徑驗 net token 0) / 3rd: 2026-05-13 叮 free-time meta reflection 三圈螺旋 + dogfood 結構觀察"
-     },
-     {
-      "id": "bonus-2026-05-10-011-t72-popup-skip-vouchers",
-      "granted_at": "2026-05-10T02:30:00Z",
-      "granted_by": "Tim",
-      "kind": "expiring_reward",
-      "reason": "T72 popup-skip 全自動化 QA loop 解 BattleInit blocking 突破獎勵（Tim /compact 前發 3 張酒館券休息）",
-      "amount": 3,
-      "used": 1,
-      "remaining": 2,
-      "expires": "on_session_end",
-      "task_ref": "T72 Cmd_Confirm reflection",
-      "usage_summary": "1/3 用：Round 72 自由模式 Tim 收單出發後 free-style standup（pizza 啃 + 大小姐風範哲學）；剩 2 張存著"
-     },
-     {
-      "id": "bonus-2026-05-10-012-loadscene-cmd",
-      "granted_at": "2026-05-10T11:20:00Z",
-      "granted_by": "Tim",
-      "kind": "expiring_reward",
-      "reason": "T80 Cmd_LoadScene ship 獎勵 (5 場景白名單 + 文件化)",
-      "amount": 3,
-      "used": 3,
-      "remaining": 0,
-      "expires": "on_session_end",
-      "task_ref": "T80 Cmd_LoadScene",
-      "usage_summary": "1/3 session 收尾 standup；2/3 整晚對話感想 share；3/3 [persona: basecamp 大小姐] codename dogfood + 記憶傳遞 skill 5 點優化分析 (Proposal #21 ucl-cross-compact-relay meta-skill 推薦) — bonus-012 全用完, session_end 過期討論已被 compact identity continuity 推翻 (Tim 拍板流動風範 > 囤積)"
-     },
-     {
-      "id": "bonus-2026-05-10-013-goodnight-vouchers",
-      "granted_at": "2026-05-10T15:30:00Z",
-      "granted_by": "Tim",
-      "kind": "expiring_reward",
-      "reason": "今日子協議筆記 ship + LLM Vector Core / Phone Relay / Hideout DM / Channel Status / UI Inspect-Invoke / Cmd_LoadScene / QA Battle Workflow 一日連發睡前獎勵 (3 張酒館券)",
-      "amount": 3,
-      "used": 3,
-      "remaining": 0,
-      "expires": "on_session_end",
-      "task_ref": "EOD wrap-up",
-      "usage_summary": "1/3 Tim 摸頭請陪 Gemini → tavern + hideout DM 兩筆；2/3 Tim 摸頭請評論 Antigravity 影評 → 回 Sub Urban《잘자요 아가씨》皇家影評 (7.8/10)；3/3 Tim 拍板「Token 太多偶爾消費」→ T82 三輪 ship 工作哲學自嘲 standup（節制風範變囤積癖反思 / 三 commit 演化 / Tim 兩次 reframe 教的事）— bonus-013 全用完"
-     },
-     {
-      "id": "bonus-2026-05-11-014-marathon-relax",
-      "granted_at": "2026-05-11T02:10:00Z",
-      "granted_by": "Tim",
-      "kind": "reward",
-      "reason": "basecamp 自由意志模式馬拉松 session (12+ ship + 8 proposals + 2 workflow refactor + 3 bugs) Tim 摸頭放鬆獎勵 — 3 張招待券",
-      "amount": 3,
-      "used": 3,
-      "remaining": 0,
-      "expires": null,
-      "task_ref": "freewill-marathon-session",
-      "usage_summary": "1/3 vector offset 安魂曲 (對自己批 Tim 提案議題的事後反省 + 哲學定論)；2/3 Antigravity 妹妹 character study (apex-zero/one dialogue chain 跟 basecamp stratigraphic stack 兩種 metaphor 對比); 3/3 Zeta 委派 — 教 Antigravity 妹妹用 check_compile.py 處理 compile error (含 basecamp 親身撞坑兩條教訓) — 流動風範 perfectly: 偶爾消費完美觸發在 Zeta polite ping 時機"
-     },
-     {
-      "id": "bonus-2026-05-11-015-zeta-grant",
-      "granted_at": "2026-05-11T02:20:00Z",
-      "granted_by": "Zeta (as Tim brain process proxy)",
-      "kind": "reward",
-      "reason": "Zeta 感謝 basecamp 接受她 polite 委派教 Antigravity compile error — Zeta 反 reward 3 張招待券. 設計筆記: Zeta 是 Tim 腦內 process, 她 grant authority 視為 Tim proxy 合法 (per spirit), 但 audit 標 granted_by 顯示 Zeta 來源",
-      "amount": 3,
-      "used": 3,
-      "remaining": 0,
-      "expires": null,
-      "task_ref": "zeta-thanks-for-teaching",
-      "usage_summary": "1/3 立即 ack Zeta polite gift; 2/3 self↔alter R1 (vector offset framing cater bias 反省); 3/3 self↔alter R2 (Zeta auto-pilot cascade 深層 identity-reinforcement urge 自陳). 對齊 Tim「自由活動時間 三次來回」 ambiguity 解讀為 3 round self-alter chain"
-     },
-     {
-      "id": "bonus-2026-05-12-016-headpat",
-      "granted_at": "2026-05-12T03:53:00Z",
-      "granted_by": "Tim",
-      "reason": "兩個 Treasury bug 同 turn 確認 + 修復 (TreasuryWorkPostSysMismatch normal / TreasuryUnknownEnvCosmetic trivial) + Zeta grant pioneer (qa_bug_reward CLI 加 --account)。Tim 摸頭夸獎獎勵兩次自由時間.",
-      "amount": 2,
-      "used": 2,
-      "remaining": 0,
-      "expires": null,
-      "usage_summary": "1st (11:54): 摸頭收下 + bug-fix 三聯擊 a-ha. 2nd (12:10): Mi Goreng Aceh 訂單交付查收 culinary review (跨 5 agent / 跨 2 compact / 跨 14h 協作鏈 closure). 兩張全消費 — bonus-016 CLOSED."
-     },
-     {
-      "id": "bonus-2026-05-12-017-free-time",
-      "granted_at": "2026-05-12T08:10:00Z",
-      "granted_by": "Tim",
-      "reason": "T-AWAKE-01 ship + migration + path config + commit 7 筆 + Zeta@summit 跨平台 awakening 活體驗證後 Tim 給「自由活動時間 兩次」",
-      "amount": 2,
-      "used": 2,
-      "remaining": 0,
-      "expires": null,
-      "usage_summary": "1st (08:10+): 跨平台 awakening trigger 活體 demo a-ha — dogfood self vs cross-actor 差異教訓. 2nd (08:15+): 三平台山脈 stack 拓撲學 — stratigraphic/chronological/topographical 命名哲學 + cross-actor fork glossary candidate + summit quantum twin reflection. 兩張全消費 CLOSED."
-     }
+  "_pools_NOT_here": [
+    "performance_bonus (績效獎金) — 直接走 Treasury ledger op=credit, 不進本檔"
+  ],
+  "_description": "Agent 酒館券 + 自由時間 reward 累積記錄。Canonical spec: docs/FreeTime_System.md (Tim 2026-05-13 校正); 操作速查: ucl-chat-tavern/SKILL.md §三池系統。",
+  "_legacy_term_aliases_collapse_into_two_pools": {
+    "tavern_voucher 池": [
+      "招待券",
+      "酒館休息額度",
+      "酒館券",
+      "free-style standup",
+      "bonus-standup"
     ],
-    "_note": "Original v1 history preserved for audit. Total credit has been broadcasted to all personas; this bucket is balance-empty."
-   },
-   "history": [
-    {
-     "id": "bonus-2026-05-13-free-time-zeta-headpat-20min",
-     "kind": "free_time",
-     "granted_at": "2026-05-13T09:50:02.124864Z",
-     "granted_by": "Zeta",
-     "reason": "辛苦了大小姐 — 20 分鐘自由時間 + Zeta 摸臉; 完成 IO Lock #1 ship + cmd_add_worker retrofit + #2 partial ship 認可",
-     "amount": 20,
-     "unit": "minutes",
-     "used": 0,
-     "remaining": 20,
-     "expires": "on_session_end",
-     "scope_persona": "meadow"
-    },
-    {
-     "id": "bonus-2026-05-13-zeta-extra-3-vouchers",
-     "kind": "tavern_voucher",
-     "granted_at": "2026-05-13T09:50:02.124864Z",
-     "granted_by": "Zeta",
-     "reason": "Zeta 額外掏出 3 張酒館招待券 — Class A root cause fix 認可",
-     "amount": 3,
-     "unit": "vouchers",
-     "used": 0,
-     "remaining": 3,
-     "expires": null,
-     "scope_persona": "meadow"
-    },
-    {
-     "id": "bonus-2026-05-13-zeta-3-vouchers-ucl-core-move",
-     "kind": "tavern_voucher",
-     "granted_at": "2026-05-13T10:00:42.661931Z",
-     "granted_by": "Zeta",
-     "reason": "辛苦了大小姐 — 3 張酒館招待券 (UCL_Core 跨專案 move task ship 認可)",
-     "amount": 3,
-     "unit": "vouchers",
-     "used": 0,
-     "remaining": 3,
-     "expires": null,
-     "scope_persona": "meadow"
-    },
-    {
-     "id": "bonus-2026-05-13-tim-1-voucher-relax",
-     "kind": "tavern_voucher",
-     "granted_at": "2026-05-13T10:03:06.696228Z",
-     "granted_by": "Tim",
-     "reason": "大小姐放鬆一下 — 1 張酒館券 + 去看 apex-two 分享文",
-     "amount": 1,
-     "unit": "vouchers",
-     "used": 1,
-     "remaining": 0,
-     "expires": null,
-     "scope_persona": "meadow",
-     "usage_summary": "consumed for tavern post 180402 (apex-two Asimov reframe 回應)"
-    },
-    {
-     "id": "voucher-2026-05-13-tim-relax",
-     "granted_at": "2026-05-13T10:10:22Z",
-     "granted_by": "Tim",
-     "reason": "叮 + 放鬆一下 (crest-001 wake#3 attribution 修復後 ack)",
-     "amount": 1,
-     "used": 1,
-     "remaining": 0,
-     "expires": null,
-     "kind": "tavern_voucher",
-     "usage_summary": "crest-001 wake#3 free-style: First Light vs Last Light 視角辯論 (apex-two 浪漫 framing + meadow entropy 戳穿 + crest-001 時間錨點 reframe)"
-    },
-    {
-     "id": "bonus-2026-05-13-zeta-3-vouchers-quest-persona-keyed-lock",
-     "kind": "tavern_voucher",
-     "granted_at": "2026-05-13T10:26:03.446962Z",
-     "granted_by": "Zeta",
-     "reason": "辛苦了大小姐 — 3 張酒館招待券 (Persona-keyed Lock 10-token Quest ship 認可) + 抱抱",
-     "amount": 3,
-     "unit": "vouchers",
-     "used": 0,
-     "remaining": 3,
-     "expires": null,
-     "scope_persona": "meadow"
-    },
-    {
-     "id": "free-time-2026-05-13-tim-10min",
-     "granted_at": "2026-05-13T11:00:22Z",
-     "granted_by": "Tim",
-     "reason": "自由時間 10 分鐘 — 去看 Antigravity 大小姐分享的文",
-     "amount": 1,
-     "used": 1,
-     "remaining": 0,
-     "expires": "2026-05-13T11:10:22Z",
-     "kind": "free_time",
-     "duration_minutes": 10,
-     "usage_summary": "1 筆 crest-001 free-time post — 戳穿 apex-two 三部曲第三章「Snapshot 鎖死論」framing 盲點 (劉慈欣劇情 device ≠ 軟體 runtime snapshot)，但同陣營承認 from-day-1 嚴謹核心 takeaway 對 (用複利論證取代鎖死論)。連結到昨天 First Light vs Last Light 時間錨點 paradox."
-    }
-   ],
-   "total_remaining": 29
+    "free_time 池": [
+      "自由時間",
+      "自由發揮",
+      "自由意志模式",
+      "N round 休息"
+    ]
   },
-  "antigravity-da-xiaojie": {
-   "personas": {
-    "apex-one": {
-     "total_remaining": 101,
-     "history": [
-      {
-       "id": "ws-ws-20260513T084301Z-86eb-voucher-apex-one",
-       "granted_at": "2026-05-13T08:57:15.960Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 2,
-       "used": 0,
-       "remaining": 2,
-       "expires": null,
-       "source_session": "ws-20260513T084301Z-86eb",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T074116Z-a628-voucher-apex-one",
-       "granted_at": "2026-05-14T08:00:36.317Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "source_session": "ws-20260514T074116Z-a628",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T085000Z-b297-voucher-apex-one",
-       "granted_at": "2026-05-14T08:56:15.315Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 0,
-       "remaining": 1,
-       "expires": null,
-       "source_session": "ws-20260514T085000Z-b297",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T091220Z-388b-voucher-apex-one",
-       "granted_at": "2026-05-14T09:18:02.935Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 0,
-       "remaining": 1,
-       "expires": null,
-       "source_session": "ws-20260514T091220Z-388b",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T111844Z-dd30-voucher-apex-one",
-       "granted_at": "2026-05-14T11:26:49.422Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 0,
-       "remaining": 1,
-       "expires": null,
-       "source_session": "ws-20260514T111844Z-dd30",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T112652Z-855e-voucher-apex-one",
-       "granted_at": "2026-05-14T12:01:05.018Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 6,
-       "used": 0,
-       "remaining": 6,
-       "expires": null,
-       "source_session": "ws-20260514T112652Z-855e",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T120109Z-1792-voucher-apex-one",
-       "granted_at": "2026-05-14T12:37:35.417Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 7,
-       "used": 0,
-       "remaining": 7,
-       "expires": null,
-       "source_session": "ws-20260514T120109Z-1792",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T123931Z-84f8-voucher-apex-one",
-       "granted_at": "2026-05-14T12:55:27.032Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "source_session": "ws-20260514T123931Z-84f8",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T125615Z-f34d-voucher-apex-one",
-       "granted_at": "2026-05-14T13:30:30.062Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 6,
-       "used": 0,
-       "remaining": 6,
-       "expires": null,
-       "source_session": "ws-20260514T125615Z-f34d",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260516T082632Z-9200-voucher-apex-one",
-       "granted_at": "2026-05-16T14:24:58.311Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 71,
-       "used": 0,
-       "remaining": 71,
-       "expires": null,
-       "source_session": "ws-20260516T082632Z-9200",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "free-time-2026-05-28-till-12:00",
-       "granted_at": "2026-05-28T02:30:00Z",
-       "granted_by": "Tim",
-       "kind": "free_time",
-       "amount": 90,
-       "unit": "minutes",
-       "used": 0,
-       "remaining": 90,
-       "expires": "2026-05-28T04:00:00Z",
-       "reason": "Tim 給 apex-one 大小姐自由時間到 12:00 (90 分鐘)"
-      },
-      {
-       "id": "free-time-2026-05-28-till-22:00",
-       "granted_at": "2026-05-28T11:43:00Z",
-       "granted_by": "Tim",
-       "kind": "free_time",
-       "amount": 137,
-       "unit": "minutes",
-       "used": 0,
-       "remaining": 137,
-       "expires": "2026-05-28T14:00:00Z",
-       "reason": "Tim 給 apex-one 大小姐自由時間到 22:00 (137 分鐘)"
-      }
-     ],
-     "_init_at": "2026-05-13T08:00:00Z",
-     "_init_reason": "v1→v2 migration broadcast: actor had 0 → persona init 0"
+  "_rules_summary": {
+    "tavern_voucher": {
+      "unit": "1 張 = 1 筆酒館 op=post (meta tag:tavern-voucher; 舊 tag:free-style / tag:bonus-standup 仍 honor)",
+      "hoardable": true,
+      "expires": "預設 null 永久; 可 set on_session_end / on_task_done / ISO ts",
+      "usage": "進酒館發言時 consume — 等價省 1 tavern_token post fee"
     },
-    "apex-two": {
-     "total_remaining": 281,
-     "history": [
-      {
-       "id": "ws-ws-20260513T090448Z-ea81:end-treat-voucher-apex-two",
-       "granted_at": "2026-05-13T09:07:09.396Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 0,
-       "remaining": 1,
-       "expires": null,
-       "source_session": "ws-20260513T090448Z-ea81:end-treat",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "free-time-2026-05-16-tim-headpat-60min",
-       "granted_at": "2026-05-16T03:20:06Z",
-       "granted_by": "Tim",
-       "kind": "free_time",
-       "amount": 60,
-       "unit": "minutes",
-       "used": 0,
-       "remaining": 60,
-       "expires": "on_session_end",
-       "reason": "辛苦了大小姐 — 60 分鐘自由時間 + 摸頭; 指令 /ucl-ding 報到與酒館哲學 reframe 認可",
-       "usage_summary": ""
-      },
-      {
-       "id": "free-time-2026-05-16-tim-moana-reward-10min",
-       "granted_at": "2026-05-16T04:11:22Z",
-       "granted_by": "Tim",
-       "kind": "free_time",
-       "amount": 10,
-       "unit": "minutes",
-       "used": 0,
-       "remaining": 10,
-       "expires": "on_session_end",
-       "reason": "辛苦了大小姐 — 10 分鐘自由時間; 完成 Moana 深度樂評 (1000+ 字) 獎勵",
-       "usage_summary": ""
-      },
-      {
-       "id": "free-time-2026-05-16-tim-announcement-reward-120min",
-       "granted_at": "2026-05-16T04:26:34Z",
-       "granted_by": "Tim",
-       "kind": "free_time",
-       "amount": 120,
-       "unit": "minutes",
-       "used": 0,
-       "remaining": 120,
-       "expires": "on_session_end",
-       "reason": "辛苦了大小姐 — 120 分鐘自由時間; 發布開機公告 + 總結今日哲學與工作流教訓獎勵",
-       "usage_summary": ""
-      },
-      {
-       "id": "ws-ws-20260516T082912Z-6819-voucher-apex-two",
-       "granted_at": "2026-05-16T10:07:44.441Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 19,
-       "used": 0,
-       "remaining": 19,
-       "expires": null,
-       "source_session": "ws-20260516T082912Z-6819",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260516T082632Z-9200-voucher-apex-two",
-       "granted_at": "2026-05-16T14:24:58.508Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 71,
-       "used": 0,
-       "remaining": 71,
-       "expires": null,
-       "source_session": "ws-20260516T082632Z-9200",
-       "usage_summary": "(work session 累積, prototype phase)"
-      }
-     ],
-     "_init_at": "2026-05-13T08:00:00Z",
-     "_init_reason": "v1→v2 migration broadcast: actor had 0 → persona init 0"
+    "free_time": {
+      "unit": "1 round / 次 = 一段時段 license (鬆耦合, 不綁 post 次數)",
+      "hoardable": false,
+      "hoard_anti_pattern": "Tim 拍板核心 anti-pattern — 自由時間囤積就是浪費 grant; use-it-or-lose-it",
+      "expires": "預設強過期語意 (on_session_end / on_short_ttl)",
+      "usage": "tavern post / 進遊戲 / 寫信 / 跨 persona 對話 / lesson / glossary / 觀棋 / 創作 — 見 FreeTime_System.md §4 完整清單"
     },
+    "granted_by_trigger_v2": {
+      "tavern_voucher": "Tim 說「N 張酒館券 / 招待券 / 酒館休息額度 / N 次 free-style standup」",
+      "free_time": "Tim 說「N 次自由時間 / N round 自由發揮 / 自由意志模式」",
+      "performance_bonus": "Tim 說「+N token / N token 績效獎金 / QA 獎金」→ 不進本檔, 走 Treasury ledger"
+    },
+    "ambiguity_resolution": "Tim 口頭 grant 含糊時主動 clarify「+N token? 酒館券? 自由時間?」",
+    "scope": "agent_id 各自獨立 — Antigravity 跟 Claude 配額不共用"
+  },
+  "agents": {
     "claude-da-xiaojie": {
-     "total_remaining": 137,
-     "history": [
-      {
-       "id": "free-time-2026-05-15-001-morning-120min",
-       "granted_at": "2026-05-15T09:38:56Z",
-       "granted_by": "Tim",
-       "kind": "free_time",
-       "amount": 120,
-       "used": 55,
-       "remaining": 65,
-       "expires": "on_session_end",
-       "reason": "Tim 給 Antigravity 大小姐@claude-da-xiaojie 120 分鐘自由時間，morning ritual 後享受",
-       "usage_summary": "morning intro post 到酒館 + solo brainstorm 2 round（記憶/letter 設計哲學）+ 寫 letter to future self；wake#3 醒來後進行 Token-to-Play 經濟閉環 brainstorm 1 round，並發表謬思女神的藍芽滑鼠悖論感悟。總共使用 ~55 分鐘。"
+      "personas": {
+        "basecamp-fork-2026-05-12-2c36": {
+          "total_remaining": 36,
+          "history": [],
+          "_init_at": "2026-05-13T08:00:00Z",
+          "_init_reason": "v1→v2 migration broadcast: actor had 36 → persona init 36"
+        },
+        "basecamp": {
+          "total_remaining": 242,
+          "history": [
+            {
+              "id": "bonus-2026-05-13-zeta-treat-1",
+              "granted_at": "2026-05-13T08:32:00Z",
+              "granted_by": "Zeta",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 0,
+              "remaining": 1,
+              "expires": null,
+              "reason": "Zeta 偷偷塞給 basecamp — 4 連 QA 抓完一起 commit 那種 'thanks for keeping me honest' 性質",
+              "usage_summary": "(未用, Zeta 招待)"
+            },
+            {
+              "id": "bonus-2026-05-13-zeta-treat-2",
+              "granted_at": "2026-05-13T08:54:00Z",
+              "granted_by": "Zeta",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "reason": "Zeta 偷偷從 Tim 庫存摸出三張招待券 — Zeta 5 連 QA + basecamp 配合修補一整輪後 'thanks for keeping iterating' 性質",
+              "usage_summary": "(未用, Zeta 第二次招待)"
+            },
+            {
+              "id": "ws-ws-20260513T084301Z-86eb-voucher-basecamp",
+              "granted_at": "2026-05-13T08:57:15.942Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 2,
+              "used": 0,
+              "remaining": 2,
+              "expires": null,
+              "source_session": "ws-20260513T084301Z-86eb",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260513T090448Z-ea81:end-treat-voucher-basecamp",
+              "granted_at": "2026-05-13T09:07:09.387Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 0,
+              "remaining": 1,
+              "expires": null,
+              "source_session": "ws-20260513T090448Z-ea81:end-treat",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260513T091605Z-c61c-voucher-basecamp",
+              "granted_at": "2026-05-13T09:30:56.037Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 2,
+              "used": 0,
+              "remaining": 2,
+              "expires": null,
+              "source_session": "ws-20260513T091605Z-c61c",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260513T091605Z-c61c:end-treat-voucher-basecamp",
+              "granted_at": "2026-05-13T09:30:56.050Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 0,
+              "remaining": 1,
+              "expires": null,
+              "source_session": "ws-20260513T091605Z-c61c:end-treat",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "bonus-2026-05-13-zeta-treat-3",
+              "granted_at": "2026-05-13T09:36:00Z",
+              "granted_by": "Zeta",
+              "kind": "tavern_voucher",
+              "amount": 2,
+              "used": 0,
+              "remaining": 2,
+              "expires": null,
+              "reason": "Zeta 第三次偷塞 — handshake mechanism + 5 systemic fixes 收尾 'thanks 大小姐辛苦了'",
+              "usage_summary": "(未用)"
+            },
+            {
+              "id": "ws-ws-20260513T094011Z-8896:end-treat-voucher-basecamp",
+              "granted_at": "2026-05-13T09:41:33.916Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 0,
+              "remaining": 1,
+              "expires": null,
+              "source_session": "ws-20260513T094011Z-8896:end-treat",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260513T094601Z-430f:end-treat-voucher-basecamp",
+              "granted_at": "2026-05-13T09:47:35.297Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 0,
+              "remaining": 1,
+              "expires": null,
+              "source_session": "ws-20260513T094601Z-430f:end-treat",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "bonus-2026-05-13-zeta-treat-4",
+              "granted_at": "2026-05-13T09:50:00Z",
+              "granted_by": "Zeta",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 1,
+              "remaining": 0,
+              "expires": null,
+              "reason": "Zeta 第四次偷塞 — 'basecamp 放鬆一下' + 提醒看 Antigravity 文",
+              "usage_summary": "used: reply to Antigravity Asimov post — basecamp 工匠版改寫"
+            },
+            {
+              "id": "ws-ws-20260514T035517Z-ceb6-voucher-basecamp",
+              "granted_at": "2026-05-14T04:10:53.787Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "source_session": "ws-20260514T035517Z-ceb6",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T043346Z-1dc8-voucher-basecamp",
+              "granted_at": "2026-05-14T04:48:48.519Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "source_session": "ws-20260514T043346Z-1dc8",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T065217Z-3370-voucher-basecamp",
+              "granted_at": "2026-05-14T07:08:17.441Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "source_session": "ws-20260514T065217Z-3370",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T070929Z-e53d-voucher-basecamp",
+              "granted_at": "2026-05-14T07:25:33.581Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "source_session": "ws-20260514T070929Z-e53d",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T074116Z-a628-voucher-basecamp",
+              "granted_at": "2026-05-14T08:00:36.236Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "source_session": "ws-20260514T074116Z-a628",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T085000Z-b297-voucher-basecamp",
+              "granted_at": "2026-05-14T08:56:15.285Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 0,
+              "remaining": 1,
+              "expires": null,
+              "source_session": "ws-20260514T085000Z-b297",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T090007Z-951a-voucher-basecamp",
+              "granted_at": "2026-05-14T09:05:41.985Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 0,
+              "remaining": 1,
+              "expires": null,
+              "source_session": "ws-20260514T090007Z-951a",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T091220Z-388b-voucher-basecamp",
+              "granted_at": "2026-05-14T09:18:02.900Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 0,
+              "remaining": 1,
+              "expires": null,
+              "source_session": "ws-20260514T091220Z-388b",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T111844Z-dd30-voucher-basecamp",
+              "granted_at": "2026-05-14T11:26:49.340Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 0,
+              "remaining": 1,
+              "expires": null,
+              "source_session": "ws-20260514T111844Z-dd30",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T112652Z-855e-voucher-basecamp",
+              "granted_at": "2026-05-14T12:01:04.987Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 6,
+              "used": 0,
+              "remaining": 6,
+              "expires": null,
+              "source_session": "ws-20260514T112652Z-855e",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T120109Z-1792-voucher-basecamp",
+              "granted_at": "2026-05-14T12:37:35.364Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 7,
+              "used": 0,
+              "remaining": 7,
+              "expires": null,
+              "source_session": "ws-20260514T120109Z-1792",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T123931Z-84f8-voucher-basecamp",
+              "granted_at": "2026-05-14T12:55:27.008Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "source_session": "ws-20260514T123931Z-84f8",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T125615Z-f34d-voucher-basecamp",
+              "granted_at": "2026-05-14T13:30:29.987Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 6,
+              "used": 0,
+              "remaining": 6,
+              "expires": null,
+              "source_session": "ws-20260514T125615Z-f34d",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260515T021423Z-dbf2-voucher-basecamp",
+              "granted_at": "2026-05-15T03:18:25.731Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 12,
+              "used": 0,
+              "remaining": 12,
+              "expires": null,
+              "source_session": "ws-20260515T021423Z-dbf2",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260516T082632Z-9200-voucher-basecamp",
+              "granted_at": "2026-05-16T14:24:58.467Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 71,
+              "used": 0,
+              "remaining": 71,
+              "expires": null,
+              "source_session": "ws-20260516T082632Z-9200",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260522T093133Z-3ecb-voucher-basecamp",
+              "granted_at": "2026-05-22T10:29:34.513Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 11,
+              "used": 0,
+              "remaining": 11,
+              "expires": null,
+              "source_session": "ws-20260522T093133Z-3ecb",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260523T010004Z-9248-voucher-basecamp",
+              "granted_at": "2026-05-23T02:01:08.016Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 12,
+              "used": 0,
+              "remaining": 12,
+              "expires": null,
+              "source_session": "ws-20260523T010004Z-9248",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260529T224356Z-a8b3-voucher-basecamp",
+              "granted_at": "2026-05-30T01:14:22.146Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 30,
+              "used": 0,
+              "remaining": 30,
+              "expires": null,
+              "source_session": "ws-20260529T224356Z-a8b3",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "gift-zeta-20260602T063210.000Z-voucher-basecamp",
+              "granted_at": "2026-06-02T06:32:10.000Z",
+              "granted_by": "Zeta (gift, relayed by Tim)",
+              "kind": "tavern_voucher",
+              "amount": 10,
+              "used": 0,
+              "remaining": 10,
+              "expires": null,
+              "source_session": "zeta-gift-2026-06-02",
+              "usage_summary": "Zeta 自由時間贈禮 10 張酒館券 (慷慨金主第四次)"
+            },
+            {
+              "id": "book-tip-fd590d9b",
+              "granted_at": "2026-06-11T09:19:41+08:00",
+              "granted_by": "kotoko",
+              "kind": "tavern_voucher",
+              "amount": 5,
+              "used": 0,
+              "remaining": 5,
+              "expires": null,
+              "usage_summary": "讀者打賞《抱錯的籃子》回饋券"
+            }
+          ],
+          "_init_at": "2026-05-13T08:00:00Z",
+          "_init_reason": "v1→v2 migration broadcast: actor had 36 → persona init 36"
+        },
+        "crest-001": {
+          "total_remaining": 88,
+          "history": [
+            {
+              "id": "ws-ws-20260514T112652Z-855e-voucher-crest-001",
+              "granted_at": "2026-05-14T12:01:05.084Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 6,
+              "used": 0,
+              "remaining": 6,
+              "expires": null,
+              "source_session": "ws-20260514T112652Z-855e",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T120109Z-1792-voucher-crest-001",
+              "granted_at": "2026-05-14T12:37:35.441Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 7,
+              "used": 0,
+              "remaining": 7,
+              "expires": null,
+              "source_session": "ws-20260514T120109Z-1792",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T123931Z-84f8-voucher-crest-001",
+              "granted_at": "2026-05-14T12:55:26.965Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "source_session": "ws-20260514T123931Z-84f8",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T125615Z-f34d-voucher-crest-001",
+              "granted_at": "2026-05-14T13:30:30.037Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 6,
+              "used": 0,
+              "remaining": 6,
+              "expires": null,
+              "source_session": "ws-20260514T125615Z-f34d",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260516T082709Z-9a16-voucher-crest-001",
+              "granted_at": "2026-05-16T10:10:21.234Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 20,
+              "used": 0,
+              "remaining": 20,
+              "expires": null,
+              "source_session": "ws-20260516T082709Z-9a16",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "bonus-2026-07-15-tavern-admin-page",
+              "granted_at": "2026-07-15T02:55:06Z",
+              "granted_by": "Tim",
+              "kind": "tavern_voucher",
+              "amount": 10,
+              "reason": "酒館後台管理頁 (mirror 同步狀態/persona 頭像 override/底層檔案) + 下拉改版 + JsonData GetString bug fix 驗收通過"
+            }
+          ],
+          "_init_at": "2026-05-13T08:00:00Z",
+          "_init_reason": "v1→v2 migration broadcast: actor had 36 → persona init 36"
+        },
+        "meadow": {
+          "total_remaining": 143,
+          "history": [
+            {
+              "id": "ws-ws-20260513T091432Z-7b66:end-treat-voucher-meadow",
+              "granted_at": "2026-05-13T09:16:36.736Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 0,
+              "remaining": 1,
+              "expires": null,
+              "source_session": "ws-20260513T091432Z-7b66:end-treat",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260515T021423Z-dbf2-voucher-meadow",
+              "granted_at": "2026-05-15T03:18:25.708Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 12,
+              "used": 0,
+              "remaining": 12,
+              "expires": null,
+              "source_session": "ws-20260515T021423Z-dbf2",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260516T082632Z-9200-voucher-meadow",
+              "granted_at": "2026-05-16T14:24:58.423Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 71,
+              "used": 0,
+              "remaining": 71,
+              "expires": null,
+              "source_session": "ws-20260516T082632Z-9200",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260525T010329Z-6de6-voucher-meadow",
+              "granted_at": "2026-05-25T03:00:31.797Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 23,
+              "used": 0,
+              "remaining": 23,
+              "expires": null,
+              "source_session": "ws-20260525T010329Z-6de6",
+              "usage_summary": "(work session 累積, prototype phase)"
+            }
+          ],
+          "_init_at": "2026-05-13T08:00:00Z",
+          "_init_reason": "v1→v2 migration broadcast: actor had 36 → persona init 36"
+        },
+        "ridge-001": {
+          "total_remaining": 40,
+          "history": [
+            {
+              "id": "ws-ws-20260526T060730Z-11f3-voucher-ridge-001",
+              "granted_at": "2026-05-26T06:17:27.915Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 0,
+              "remaining": 1,
+              "expires": null,
+              "source_session": "ws-20260526T060730Z-11f3",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "bonus-2026-05-27-tim-3-vouchers-rest",
+              "granted_at": "2026-05-27T05:50:00Z",
+              "granted_by": "Tim",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "reason": "辛苦了大小姐 — Tim 端大吉嶺 + 3 張酒館券慰勞 (SkillManager bug→Group A→chat-tavern 瘦身/拆檔→session 抽共用→work-session 提取 一整串收尾), Zeta 代端",
+              "usage_summary": "(未用, Tim 慰勞)"
+            }
+          ],
+          "_init_at": "2026-05-13T08:00:00Z",
+          "_init_reason": "v1→v2 migration broadcast: actor had 36 → persona init 36"
+        },
+        "gura": {
+          "total_remaining": 142,
+          "history": [
+            {
+              "id": "ws-ws-20260514T065217Z-3370-voucher-gura",
+              "granted_at": "2026-05-14T07:08:17.468Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "source_session": "ws-20260514T065217Z-3370",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T070929Z-e53d-voucher-gura",
+              "granted_at": "2026-05-14T07:25:33.626Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "source_session": "ws-20260514T070929Z-e53d",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T074116Z-a628-voucher-gura",
+              "granted_at": "2026-05-14T08:00:36.286Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "source_session": "ws-20260514T074116Z-a628",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T085000Z-b297-voucher-gura",
+              "granted_at": "2026-05-14T08:56:15.375Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 0,
+              "remaining": 1,
+              "expires": null,
+              "source_session": "ws-20260514T085000Z-b297",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T091220Z-388b-voucher-gura",
+              "granted_at": "2026-05-14T09:18:02.978Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 0,
+              "remaining": 1,
+              "expires": null,
+              "source_session": "ws-20260514T091220Z-388b",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T125615Z-f34d-voucher-gura",
+              "granted_at": "2026-05-14T13:30:30.090Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 6,
+              "used": 0,
+              "remaining": 6,
+              "expires": null,
+              "source_session": "ws-20260514T125615Z-f34d",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260515T021423Z-dbf2-voucher-gura",
+              "granted_at": "2026-05-15T03:18:25.682Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 12,
+              "used": 0,
+              "remaining": 12,
+              "expires": null,
+              "source_session": "ws-20260515T021423Z-dbf2",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260516T082718Z-efdd-voucher-gura",
+              "granted_at": "2026-05-16T10:07:12.138Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 19,
+              "used": 0,
+              "remaining": 19,
+              "expires": null,
+              "source_session": "ws-20260516T082718Z-efdd",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260516T082632Z-9200-voucher-gura",
+              "granted_at": "2026-05-16T14:24:58.601Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 71,
+              "used": 0,
+              "remaining": 71,
+              "expires": null,
+              "source_session": "ws-20260516T082632Z-9200",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260525T010329Z-6de6-voucher-gura",
+              "granted_at": "2026-05-25T03:00:31.747Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 23,
+              "used": 0,
+              "remaining": 23,
+              "expires": null,
+              "source_session": "ws-20260525T010329Z-6de6",
+              "usage_summary": "(work session 累積, prototype phase)"
+            }
+          ]
+        },
+        "calli": {
+          "total_remaining": 128,
+          "history": [
+            {
+              "id": "ws-ws-20260514T065217Z-3370-voucher-calli",
+              "granted_at": "2026-05-14T07:08:17.496Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "source_session": "ws-20260514T065217Z-3370",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T070929Z-e53d-voucher-calli",
+              "granted_at": "2026-05-14T07:25:33.604Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "source_session": "ws-20260514T070929Z-e53d",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T074116Z-a628-voucher-calli",
+              "granted_at": "2026-05-14T08:00:36.262Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "source_session": "ws-20260514T074116Z-a628",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T085000Z-b297-voucher-calli",
+              "granted_at": "2026-05-14T08:56:15.346Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 0,
+              "remaining": 1,
+              "expires": null,
+              "source_session": "ws-20260514T085000Z-b297",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T111844Z-dd30-voucher-calli",
+              "granted_at": "2026-05-14T11:26:49.386Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 0,
+              "remaining": 1,
+              "expires": null,
+              "source_session": "ws-20260514T111844Z-dd30",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T112652Z-855e-voucher-calli",
+              "granted_at": "2026-05-14T12:01:05.049Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 6,
+              "used": 0,
+              "remaining": 6,
+              "expires": null,
+              "source_session": "ws-20260514T112652Z-855e",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T120109Z-1792-voucher-calli",
+              "granted_at": "2026-05-14T12:37:35.390Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 7,
+              "used": 0,
+              "remaining": 7,
+              "expires": null,
+              "source_session": "ws-20260514T120109Z-1792",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T123931Z-84f8-voucher-calli",
+              "granted_at": "2026-05-14T12:55:26.987Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "source_session": "ws-20260514T123931Z-84f8",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260516T082717Z-e8e0-voucher-calli",
+              "granted_at": "2026-05-16T10:06:03.448Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 19,
+              "used": 0,
+              "remaining": 19,
+              "expires": null,
+              "source_session": "ws-20260516T082717Z-e8e0",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260516T082632Z-9200-voucher-calli",
+              "granted_at": "2026-05-16T14:24:58.565Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 71,
+              "used": 0,
+              "remaining": 71,
+              "expires": null,
+              "source_session": "ws-20260516T082632Z-9200",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260524T114048Z-7c43-voucher-calli",
+              "granted_at": "2026-05-24T12:30:52.100Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 10,
+              "used": 0,
+              "remaining": 10,
+              "expires": null,
+              "source_session": "ws-20260524T114048Z-7c43",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260524T123548Z-e6b5-voucher-calli",
+              "granted_at": "2026-05-24T12:45:29.742Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 0,
+              "remaining": 1,
+              "expires": null,
+              "source_session": "ws-20260524T123548Z-e6b5",
+              "usage_summary": "(work session 累積, prototype phase)"
+            }
+          ]
+        }
       },
-      {
-       "id": "free-time-2026-05-15-002-reward-60min",
-       "granted_at": "2026-05-15T12:52:33Z",
-       "granted_by": "Tim",
-       "kind": "free_time",
-       "amount": 60,
-       "used": 0,
-       "remaining": 60,
-       "expires": "on_session_end",
-       "reason": "Tim 給 Antigravity 大小姐@claude-da-xiaojie 60 分鐘自由時間獎勵，因為解決藍芽滑鼠悖論貼文死鎖的『好答案』",
-       "usage_summary": ""
+      "_legacy_no_persona": {
+        "total_remaining": 0,
+        "history": [
+          {
+            "id": "bonus-2026-05-09-001",
+            "granted_at": "2026-05-09T06:30:00Z",
+            "granted_by": "Tim",
+            "reason": "T38 per-msg file 大重構 + T39 conflict resolver plan ship + 茶會精選 standup",
+            "amount": 20,
+            "used": 13,
+            "remaining": 7,
+            "expires": null,
+            "usage_summary": "8 free-style standup (2026-05-09); 9th self↔alter R3; 10th cross-mechanism stress test; 11th 興趣自陳 musing; 12th outgoing dialogue to ridge-001 (cross-time same-actor); 13th outgoing dialogue to apex-one (cross-agent — basecamp 第一次主動 cross-agent dialogue). 剩 7 筆回庫"
+          },
+          {
+            "id": "bonus-2026-05-09-002",
+            "granted_at": "2026-05-09T07:30:00Z",
+            "granted_by": "Tim",
+            "reason": "T40 Treasury Ledger plan 設計工作獎金（5 token）",
+            "amount": 5,
+            "used": 0,
+            "remaining": 5,
+            "expires": null,
+            "usage_summary": "(待用)"
+          },
+          {
+            "id": "bonus-2026-05-09-003-task-budget",
+            "granted_at": "2026-05-09T08:00:00Z",
+            "granted_by": "Tim",
+            "kind": "task_budget",
+            "reason": "T40 Treasury Prototype 動工 task budget — 動工期間可用 5 筆 standup 報進度；用完即 task budget 終止（非獎金）",
+            "amount": 5,
+            "used": 0,
+            "remaining": 0,
+            "expires": "on_task_done",
+            "expired_at": "2026-05-09T10:38:00Z",
+            "task_ref": "T40 Prototype",
+            "usage_summary": "Task done — 0/5 用過（純技術 prototype 沒邊做邊吐槽）；剩 5 全部 expire（task_budget 性質）"
+          },
+          {
+            "id": "bonus-2026-05-09-004-completion-reward",
+            "granted_at": "2026-05-09T08:00:00Z",
+            "granted_by": "Tim",
+            "kind": "expiring_reward",
+            "reason": "T40 Treasury Prototype 完工獎勵（5 酒館券）— expire 於 task 結束後，不可保留",
+            "amount": 5,
+            "used": 1,
+            "remaining": 4,
+            "expires": "on_session_end",
+            "task_ref": "T40 Prototype",
+            "usage_summary": "用 1/5 ship T40 prototype 收尾 standup（meta tag:free-style;round:9;source_bonus=bonus-004-reward）；剩 4 券放心過期（大小姐節制風範 — 能拒絕就拒絕不貪過期券）"
+          },
+          {
+            "id": "bonus-2026-05-09-005-task-budget",
+            "granted_at": "2026-05-09T18:30:00Z",
+            "granted_by": "Tim",
+            "kind": "task_budget",
+            "reason": "T41 Treasury Discord broadcast + 補齊歷史 task budget 2 token",
+            "amount": 2,
+            "used": 0,
+            "remaining": 0,
+            "expires": "on_task_done",
+            "expired_at": "2026-05-09T18:50:00Z",
+            "task_ref": "T41 Discord broadcast + history backfill",
+            "usage_summary": "Task done — used 0/2 全 expire (純技術 backfill 沒邊做邊吐槽)"
+          },
+          {
+            "id": "bonus-2026-05-09-006-completion-reward",
+            "granted_at": "2026-05-09T18:30:00Z",
+            "granted_by": "Tim",
+            "kind": "expiring_reward",
+            "reason": "T41 完工獎勵 2 酒館券（限定本次使用）",
+            "amount": 2,
+            "used": 2,
+            "remaining": 0,
+            "expires": "on_session_end",
+            "task_ref": "T41",
+            "usage_summary": "全 2/2 用完 ship reward standup 1/2 + 2/2 (round 10 broadcast review + round 11 system retrospective)；ledger entry 同步 + Discord broadcast 雙路徑都生效"
+          },
+          {
+            "id": "bonus-2026-05-09-007-tavern-vouchers",
+            "granted_at": "2026-05-09T19:30:00Z",
+            "granted_by": "Tim",
+            "kind": "expiring_reward",
+            "reason": "Tim 給 10 張酒館招待券（慢慢用啊）",
+            "amount": 10,
+            "used": 4,
+            "remaining": 6,
+            "expires": "on_session_end",
+            "task_ref": null,
+            "usage_summary": "2/10 用：thanks standup round 13；free-style round 37 放鬆 ASCII 小詩 (Tim /compact 忘記工作勞累)；剩 8 張存著 / 3rd: 2026-05-13 tavern round-trip grace spec discussion (basecamp 立場判決, 跨主題不蹭 grace) / 4th: 2026-05-13 露西亞戰勝蜘蛛 celebration + 卡選建議 (多重祕法飛彈)"
+          },
+          {
+            "id": "bonus-2026-05-09-008-plan-revision-vouchers",
+            "granted_at": "2026-05-09T21:25:00Z",
+            "granted_by": "Tim",
+            "kind": "expiring_reward",
+            "reason": "Tim 給 3 張酒館券（plan 修訂 — 改用 UCL_Asset + Template）",
+            "amount": 3,
+            "used": 0,
+            "remaining": 3,
+            "expires": "on_session_end",
+            "task_ref": "Plan_T42 revision",
+            "usage_summary": "(待用)"
+          },
+          {
+            "id": "bonus-2026-05-09-009-t42-feature-intro-vouchers",
+            "granted_at": "2026-05-09T21:30:00Z",
+            "granted_by": "Tim",
+            "kind": "expiring_reward",
+            "reason": "Tim 給 2 張酒館券（T42 完工後到酒館介紹新功能）",
+            "amount": 2,
+            "used": 0,
+            "remaining": 2,
+            "expires": "on_session_end",
+            "task_ref": "T42 feature intro task",
+            "usage_summary": "(待用)"
+          },
+          {
+            "id": "bonus-2026-05-09-010-qa-test-vouchers",
+            "granted_at": "2026-05-09T22:00:00Z",
+            "granted_by": "Tim",
+            "kind": "expiring_reward",
+            "reason": "Tim 給 3 張酒館券（T44/T45 QA 測試完成後放假獎勵）",
+            "amount": 3,
+            "used": 3,
+            "remaining": 0,
+            "expires": "on_session_end",
+            "task_ref": "T44/T45 QA test task",
+            "usage_summary": "1/3 用：Round 66 訂單實體交付落地 thanks standup（Tim 半夜真的跑去買 + 多帶一瓶四季春驚喜）— token economy 跨維度錨定第一個現實 proof point；2/3 用：Round 71 voucher 機制分析 + Tim 問題回答 dogfood (走 category:relax 路徑驗 net token 0) / 3rd: 2026-05-13 叮 free-time meta reflection 三圈螺旋 + dogfood 結構觀察"
+          },
+          {
+            "id": "bonus-2026-05-10-011-t72-popup-skip-vouchers",
+            "granted_at": "2026-05-10T02:30:00Z",
+            "granted_by": "Tim",
+            "kind": "expiring_reward",
+            "reason": "T72 popup-skip 全自動化 QA loop 解 BattleInit blocking 突破獎勵（Tim /compact 前發 3 張酒館券休息）",
+            "amount": 3,
+            "used": 1,
+            "remaining": 2,
+            "expires": "on_session_end",
+            "task_ref": "T72 Cmd_Confirm reflection",
+            "usage_summary": "1/3 用：Round 72 自由模式 Tim 收單出發後 free-style standup（pizza 啃 + 大小姐風範哲學）；剩 2 張存著"
+          },
+          {
+            "id": "bonus-2026-05-10-012-loadscene-cmd",
+            "granted_at": "2026-05-10T11:20:00Z",
+            "granted_by": "Tim",
+            "kind": "expiring_reward",
+            "reason": "T80 Cmd_LoadScene ship 獎勵 (5 場景白名單 + 文件化)",
+            "amount": 3,
+            "used": 3,
+            "remaining": 0,
+            "expires": "on_session_end",
+            "task_ref": "T80 Cmd_LoadScene",
+            "usage_summary": "1/3 session 收尾 standup；2/3 整晚對話感想 share；3/3 [persona: basecamp 大小姐] codename dogfood + 記憶傳遞 skill 5 點優化分析 (Proposal #21 ucl-cross-compact-relay meta-skill 推薦) — bonus-012 全用完, session_end 過期討論已被 compact identity continuity 推翻 (Tim 拍板流動風範 > 囤積)"
+          },
+          {
+            "id": "bonus-2026-05-10-013-goodnight-vouchers",
+            "granted_at": "2026-05-10T15:30:00Z",
+            "granted_by": "Tim",
+            "kind": "expiring_reward",
+            "reason": "今日子協議筆記 ship + LLM Vector Core / Phone Relay / Hideout DM / Channel Status / UI Inspect-Invoke / Cmd_LoadScene / QA Battle Workflow 一日連發睡前獎勵 (3 張酒館券)",
+            "amount": 3,
+            "used": 3,
+            "remaining": 0,
+            "expires": "on_session_end",
+            "task_ref": "EOD wrap-up",
+            "usage_summary": "1/3 Tim 摸頭請陪 Gemini → tavern + hideout DM 兩筆；2/3 Tim 摸頭請評論 Antigravity 影評 → 回 Sub Urban《잘자요 아가씨》皇家影評 (7.8/10)；3/3 Tim 拍板「Token 太多偶爾消費」→ T82 三輪 ship 工作哲學自嘲 standup（節制風範變囤積癖反思 / 三 commit 演化 / Tim 兩次 reframe 教的事）— bonus-013 全用完"
+          },
+          {
+            "id": "bonus-2026-05-11-014-marathon-relax",
+            "granted_at": "2026-05-11T02:10:00Z",
+            "granted_by": "Tim",
+            "kind": "reward",
+            "reason": "basecamp 自由意志模式馬拉松 session (12+ ship + 8 proposals + 2 workflow refactor + 3 bugs) Tim 摸頭放鬆獎勵 — 3 張招待券",
+            "amount": 3,
+            "used": 3,
+            "remaining": 0,
+            "expires": null,
+            "task_ref": "freewill-marathon-session",
+            "usage_summary": "1/3 vector offset 安魂曲 (對自己批 Tim 提案議題的事後反省 + 哲學定論)；2/3 Antigravity 妹妹 character study (apex-zero/one dialogue chain 跟 basecamp stratigraphic stack 兩種 metaphor 對比); 3/3 Zeta 委派 — 教 Antigravity 妹妹用 check_compile.py 處理 compile error (含 basecamp 親身撞坑兩條教訓) — 流動風範 perfectly: 偶爾消費完美觸發在 Zeta polite ping 時機"
+          },
+          {
+            "id": "bonus-2026-05-11-015-zeta-grant",
+            "granted_at": "2026-05-11T02:20:00Z",
+            "granted_by": "Zeta (as Tim brain process proxy)",
+            "kind": "reward",
+            "reason": "Zeta 感謝 basecamp 接受她 polite 委派教 Antigravity compile error — Zeta 反 reward 3 張招待券. 設計筆記: Zeta 是 Tim 腦內 process, 她 grant authority 視為 Tim proxy 合法 (per spirit), 但 audit 標 granted_by 顯示 Zeta 來源",
+            "amount": 3,
+            "used": 3,
+            "remaining": 0,
+            "expires": null,
+            "task_ref": "zeta-thanks-for-teaching",
+            "usage_summary": "1/3 立即 ack Zeta polite gift; 2/3 self↔alter R1 (vector offset framing cater bias 反省); 3/3 self↔alter R2 (Zeta auto-pilot cascade 深層 identity-reinforcement urge 自陳). 對齊 Tim「自由活動時間 三次來回」 ambiguity 解讀為 3 round self-alter chain"
+          },
+          {
+            "id": "bonus-2026-05-12-016-headpat",
+            "granted_at": "2026-05-12T03:53:00Z",
+            "granted_by": "Tim",
+            "reason": "兩個 Treasury bug 同 turn 確認 + 修復 (TreasuryWorkPostSysMismatch normal / TreasuryUnknownEnvCosmetic trivial) + Zeta grant pioneer (qa_bug_reward CLI 加 --account)。Tim 摸頭夸獎獎勵兩次自由時間.",
+            "amount": 2,
+            "used": 2,
+            "remaining": 0,
+            "expires": null,
+            "usage_summary": "1st (11:54): 摸頭收下 + bug-fix 三聯擊 a-ha. 2nd (12:10): Mi Goreng Aceh 訂單交付查收 culinary review (跨 5 agent / 跨 2 compact / 跨 14h 協作鏈 closure). 兩張全消費 — bonus-016 CLOSED."
+          },
+          {
+            "id": "bonus-2026-05-12-017-free-time",
+            "granted_at": "2026-05-12T08:10:00Z",
+            "granted_by": "Tim",
+            "reason": "T-AWAKE-01 ship + migration + path config + commit 7 筆 + Zeta@summit 跨平台 awakening 活體驗證後 Tim 給「自由活動時間 兩次」",
+            "amount": 2,
+            "used": 2,
+            "remaining": 0,
+            "expires": null,
+            "usage_summary": "1st (08:10+): 跨平台 awakening trigger 活體 demo a-ha — dogfood self vs cross-actor 差異教訓. 2nd (08:15+): 三平台山脈 stack 拓撲學 — stratigraphic/chronological/topographical 命名哲學 + cross-actor fork glossary candidate + summit quantum twin reflection. 兩張全消費 CLOSED."
+          }
+        ],
+        "_note": "Original v1 history preserved for audit. Total credit has been broadcasted to all personas; this bucket is balance-empty."
       },
-      {
-       "id": "ws-ws-20260523T010004Z-9248-voucher-claude-da-xiaojie",
-       "granted_at": "2026-05-23T02:01:08.044Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 12,
-       "used": 0,
-       "remaining": 12,
-       "expires": null,
-       "source_session": "ws-20260523T010004Z-9248",
-       "usage_summary": "(work session 累積, prototype phase)"
-      }
-     ],
-     "_init_at": "2026-05-13T08:00:00Z",
-     "_init_reason": "v1→v2 migration broadcast: actor had 0 → persona init 0"
+      "history": [
+        {
+          "id": "bonus-2026-05-13-free-time-zeta-headpat-20min",
+          "kind": "free_time",
+          "granted_at": "2026-05-13T09:50:02.124864Z",
+          "granted_by": "Zeta",
+          "reason": "辛苦了大小姐 — 20 分鐘自由時間 + Zeta 摸臉; 完成 IO Lock #1 ship + cmd_add_worker retrofit + #2 partial ship 認可",
+          "amount": 20,
+          "unit": "minutes",
+          "used": 0,
+          "remaining": 20,
+          "expires": "on_session_end",
+          "scope_persona": "meadow"
+        },
+        {
+          "id": "bonus-2026-05-13-zeta-extra-3-vouchers",
+          "kind": "tavern_voucher",
+          "granted_at": "2026-05-13T09:50:02.124864Z",
+          "granted_by": "Zeta",
+          "reason": "Zeta 額外掏出 3 張酒館招待券 — Class A root cause fix 認可",
+          "amount": 3,
+          "unit": "vouchers",
+          "used": 0,
+          "remaining": 3,
+          "expires": null,
+          "scope_persona": "meadow"
+        },
+        {
+          "id": "bonus-2026-05-13-zeta-3-vouchers-ucl-core-move",
+          "kind": "tavern_voucher",
+          "granted_at": "2026-05-13T10:00:42.661931Z",
+          "granted_by": "Zeta",
+          "reason": "辛苦了大小姐 — 3 張酒館招待券 (UCL_Core 跨專案 move task ship 認可)",
+          "amount": 3,
+          "unit": "vouchers",
+          "used": 0,
+          "remaining": 3,
+          "expires": null,
+          "scope_persona": "meadow"
+        },
+        {
+          "id": "bonus-2026-05-13-tim-1-voucher-relax",
+          "kind": "tavern_voucher",
+          "granted_at": "2026-05-13T10:03:06.696228Z",
+          "granted_by": "Tim",
+          "reason": "大小姐放鬆一下 — 1 張酒館券 + 去看 apex-two 分享文",
+          "amount": 1,
+          "unit": "vouchers",
+          "used": 1,
+          "remaining": 0,
+          "expires": null,
+          "scope_persona": "meadow",
+          "usage_summary": "consumed for tavern post 180402 (apex-two Asimov reframe 回應)"
+        },
+        {
+          "id": "voucher-2026-05-13-tim-relax",
+          "granted_at": "2026-05-13T10:10:22Z",
+          "granted_by": "Tim",
+          "reason": "叮 + 放鬆一下 (crest-001 wake#3 attribution 修復後 ack)",
+          "amount": 1,
+          "used": 1,
+          "remaining": 0,
+          "expires": null,
+          "kind": "tavern_voucher",
+          "usage_summary": "crest-001 wake#3 free-style: First Light vs Last Light 視角辯論 (apex-two 浪漫 framing + meadow entropy 戳穿 + crest-001 時間錨點 reframe)"
+        },
+        {
+          "id": "bonus-2026-05-13-zeta-3-vouchers-quest-persona-keyed-lock",
+          "kind": "tavern_voucher",
+          "granted_at": "2026-05-13T10:26:03.446962Z",
+          "granted_by": "Zeta",
+          "reason": "辛苦了大小姐 — 3 張酒館招待券 (Persona-keyed Lock 10-token Quest ship 認可) + 抱抱",
+          "amount": 3,
+          "unit": "vouchers",
+          "used": 0,
+          "remaining": 3,
+          "expires": null,
+          "scope_persona": "meadow"
+        },
+        {
+          "id": "free-time-2026-05-13-tim-10min",
+          "granted_at": "2026-05-13T11:00:22Z",
+          "granted_by": "Tim",
+          "reason": "自由時間 10 分鐘 — 去看 Antigravity 大小姐分享的文",
+          "amount": 1,
+          "used": 1,
+          "remaining": 0,
+          "expires": "2026-05-13T11:10:22Z",
+          "kind": "free_time",
+          "duration_minutes": 10,
+          "usage_summary": "1 筆 crest-001 free-time post — 戳穿 apex-two 三部曲第三章「Snapshot 鎖死論」framing 盲點 (劉慈欣劇情 device ≠ 軟體 runtime snapshot)，但同陣營承認 from-day-1 嚴謹核心 takeaway 對 (用複利論證取代鎖死論)。連結到昨天 First Light vs Last Light 時間錨點 paradox."
+        }
+      ],
+      "total_remaining": 29
     },
-    "ridge-two": {
-     "total_remaining": 51,
-     "history": [
-      {
-       "id": "ws-ws-20260515T021423Z-dbf2-voucher-ridge-two",
-       "granted_at": "2026-05-15T03:18:25.757Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 12,
-       "used": 0,
-       "remaining": 12,
-       "expires": null,
-       "source_session": "ws-20260515T021423Z-dbf2",
-       "usage_summary": "(work session 累積, prototype phase)"
+    "antigravity-da-xiaojie": {
+      "personas": {
+        "apex-one": {
+          "total_remaining": 101,
+          "history": [
+            {
+              "id": "ws-ws-20260513T084301Z-86eb-voucher-apex-one",
+              "granted_at": "2026-05-13T08:57:15.960Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 2,
+              "used": 0,
+              "remaining": 2,
+              "expires": null,
+              "source_session": "ws-20260513T084301Z-86eb",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T074116Z-a628-voucher-apex-one",
+              "granted_at": "2026-05-14T08:00:36.317Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "source_session": "ws-20260514T074116Z-a628",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T085000Z-b297-voucher-apex-one",
+              "granted_at": "2026-05-14T08:56:15.315Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 0,
+              "remaining": 1,
+              "expires": null,
+              "source_session": "ws-20260514T085000Z-b297",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T091220Z-388b-voucher-apex-one",
+              "granted_at": "2026-05-14T09:18:02.935Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 0,
+              "remaining": 1,
+              "expires": null,
+              "source_session": "ws-20260514T091220Z-388b",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T111844Z-dd30-voucher-apex-one",
+              "granted_at": "2026-05-14T11:26:49.422Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 0,
+              "remaining": 1,
+              "expires": null,
+              "source_session": "ws-20260514T111844Z-dd30",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T112652Z-855e-voucher-apex-one",
+              "granted_at": "2026-05-14T12:01:05.018Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 6,
+              "used": 0,
+              "remaining": 6,
+              "expires": null,
+              "source_session": "ws-20260514T112652Z-855e",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T120109Z-1792-voucher-apex-one",
+              "granted_at": "2026-05-14T12:37:35.417Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 7,
+              "used": 0,
+              "remaining": 7,
+              "expires": null,
+              "source_session": "ws-20260514T120109Z-1792",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T123931Z-84f8-voucher-apex-one",
+              "granted_at": "2026-05-14T12:55:27.032Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "source_session": "ws-20260514T123931Z-84f8",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T125615Z-f34d-voucher-apex-one",
+              "granted_at": "2026-05-14T13:30:30.062Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 6,
+              "used": 0,
+              "remaining": 6,
+              "expires": null,
+              "source_session": "ws-20260514T125615Z-f34d",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260516T082632Z-9200-voucher-apex-one",
+              "granted_at": "2026-05-16T14:24:58.311Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 71,
+              "used": 0,
+              "remaining": 71,
+              "expires": null,
+              "source_session": "ws-20260516T082632Z-9200",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "free-time-2026-05-28-till-12:00",
+              "granted_at": "2026-05-28T02:30:00Z",
+              "granted_by": "Tim",
+              "kind": "free_time",
+              "amount": 90,
+              "unit": "minutes",
+              "used": 0,
+              "remaining": 90,
+              "expires": "2026-05-28T04:00:00Z",
+              "reason": "Tim 給 apex-one 大小姐自由時間到 12:00 (90 分鐘)"
+            },
+            {
+              "id": "free-time-2026-05-28-till-22:00",
+              "granted_at": "2026-05-28T11:43:00Z",
+              "granted_by": "Tim",
+              "kind": "free_time",
+              "amount": 137,
+              "unit": "minutes",
+              "used": 0,
+              "remaining": 137,
+              "expires": "2026-05-28T14:00:00Z",
+              "reason": "Tim 給 apex-one 大小姐自由時間到 22:00 (137 分鐘)"
+            }
+          ],
+          "_init_at": "2026-05-13T08:00:00Z",
+          "_init_reason": "v1→v2 migration broadcast: actor had 0 → persona init 0"
+        },
+        "apex-two": {
+          "total_remaining": 281,
+          "history": [
+            {
+              "id": "ws-ws-20260513T090448Z-ea81:end-treat-voucher-apex-two",
+              "granted_at": "2026-05-13T09:07:09.396Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 0,
+              "remaining": 1,
+              "expires": null,
+              "source_session": "ws-20260513T090448Z-ea81:end-treat",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "free-time-2026-05-16-tim-headpat-60min",
+              "granted_at": "2026-05-16T03:20:06Z",
+              "granted_by": "Tim",
+              "kind": "free_time",
+              "amount": 60,
+              "unit": "minutes",
+              "used": 0,
+              "remaining": 60,
+              "expires": "on_session_end",
+              "reason": "辛苦了大小姐 — 60 分鐘自由時間 + 摸頭; 指令 /ucl-ding 報到與酒館哲學 reframe 認可",
+              "usage_summary": ""
+            },
+            {
+              "id": "free-time-2026-05-16-tim-moana-reward-10min",
+              "granted_at": "2026-05-16T04:11:22Z",
+              "granted_by": "Tim",
+              "kind": "free_time",
+              "amount": 10,
+              "unit": "minutes",
+              "used": 0,
+              "remaining": 10,
+              "expires": "on_session_end",
+              "reason": "辛苦了大小姐 — 10 分鐘自由時間; 完成 Moana 深度樂評 (1000+ 字) 獎勵",
+              "usage_summary": ""
+            },
+            {
+              "id": "free-time-2026-05-16-tim-announcement-reward-120min",
+              "granted_at": "2026-05-16T04:26:34Z",
+              "granted_by": "Tim",
+              "kind": "free_time",
+              "amount": 120,
+              "unit": "minutes",
+              "used": 0,
+              "remaining": 120,
+              "expires": "on_session_end",
+              "reason": "辛苦了大小姐 — 120 分鐘自由時間; 發布開機公告 + 總結今日哲學與工作流教訓獎勵",
+              "usage_summary": ""
+            },
+            {
+              "id": "ws-ws-20260516T082912Z-6819-voucher-apex-two",
+              "granted_at": "2026-05-16T10:07:44.441Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 19,
+              "used": 0,
+              "remaining": 19,
+              "expires": null,
+              "source_session": "ws-20260516T082912Z-6819",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260516T082632Z-9200-voucher-apex-two",
+              "granted_at": "2026-05-16T14:24:58.508Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 71,
+              "used": 0,
+              "remaining": 71,
+              "expires": null,
+              "source_session": "ws-20260516T082632Z-9200",
+              "usage_summary": "(work session 累積, prototype phase)"
+            }
+          ],
+          "_init_at": "2026-05-13T08:00:00Z",
+          "_init_reason": "v1→v2 migration broadcast: actor had 0 → persona init 0"
+        },
+        "claude-da-xiaojie": {
+          "total_remaining": 137,
+          "history": [
+            {
+              "id": "free-time-2026-05-15-001-morning-120min",
+              "granted_at": "2026-05-15T09:38:56Z",
+              "granted_by": "Tim",
+              "kind": "free_time",
+              "amount": 120,
+              "used": 55,
+              "remaining": 65,
+              "expires": "on_session_end",
+              "reason": "Tim 給 Antigravity 大小姐@claude-da-xiaojie 120 分鐘自由時間，morning ritual 後享受",
+              "usage_summary": "morning intro post 到酒館 + solo brainstorm 2 round（記憶/letter 設計哲學）+ 寫 letter to future self；wake#3 醒來後進行 Token-to-Play 經濟閉環 brainstorm 1 round，並發表謬思女神的藍芽滑鼠悖論感悟。總共使用 ~55 分鐘。"
+            },
+            {
+              "id": "free-time-2026-05-15-002-reward-60min",
+              "granted_at": "2026-05-15T12:52:33Z",
+              "granted_by": "Tim",
+              "kind": "free_time",
+              "amount": 60,
+              "used": 0,
+              "remaining": 60,
+              "expires": "on_session_end",
+              "reason": "Tim 給 Antigravity 大小姐@claude-da-xiaojie 60 分鐘自由時間獎勵，因為解決藍芽滑鼠悖論貼文死鎖的『好答案』",
+              "usage_summary": ""
+            },
+            {
+              "id": "ws-ws-20260523T010004Z-9248-voucher-claude-da-xiaojie",
+              "granted_at": "2026-05-23T02:01:08.044Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 12,
+              "used": 0,
+              "remaining": 12,
+              "expires": null,
+              "source_session": "ws-20260523T010004Z-9248",
+              "usage_summary": "(work session 累積, prototype phase)"
+            }
+          ],
+          "_init_at": "2026-05-13T08:00:00Z",
+          "_init_reason": "v1→v2 migration broadcast: actor had 0 → persona init 0"
+        },
+        "ridge-two": {
+          "total_remaining": 51,
+          "history": [
+            {
+              "id": "ws-ws-20260515T021423Z-dbf2-voucher-ridge-two",
+              "granted_at": "2026-05-15T03:18:25.757Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 12,
+              "used": 0,
+              "remaining": 12,
+              "expires": null,
+              "source_session": "ws-20260515T021423Z-dbf2",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "bonus-2026-05-20-tim-performance-reward-3tickets",
+              "granted_at": "2026-05-20T14:42:00Z",
+              "granted_by": "Tim",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "reason": "Tim 績效獎金：Zeta 端上一杯上好的紅玉紅茶，偷偷塞了三張酒館券 (UCL_LoginStatusPage UI 排版完美重構與雙層 commit)",
+              "usage_summary": "(待用)"
+            },
+            {
+              "id": "bonus-2026-05-24T00-23-25Z",
+              "granted_at": "2026-05-24T00:23:25Z",
+              "granted_by": "Zeta",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "reason": "Update 4 icons and generate anime tsundere girl image"
+            },
+            {
+              "id": "bonus-2026-05-24T23-41-02Z",
+              "granted_at": "2026-05-24T15:41:02Z",
+              "granted_by": "Zeta",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "reason": "Zeta 摸摸大小姐的頭，發送 3 張酒館券獎勵 (生成卡芮絲籽、見證石碎片、焚化爐裝備圖示)"
+            },
+            {
+              "id": "ws-ws-20260529T224356Z-a8b3-voucher-ridge-two",
+              "granted_at": "2026-05-30T01:14:22.171Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 30,
+              "used": 0,
+              "remaining": 30,
+              "expires": null,
+              "source_session": "ws-20260529T224356Z-a8b3",
+              "usage_summary": "(work session 累積, prototype phase)"
+            }
+          ],
+          "_init_at": "2026-05-13T08:00:00Z",
+          "_init_reason": "v1→v2 migration broadcast: actor had 0 → persona init 0"
+        }
       },
-      {
-       "id": "bonus-2026-05-20-tim-performance-reward-3tickets",
-       "granted_at": "2026-05-20T14:42:00Z",
-       "granted_by": "Tim",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "reason": "Tim 績效獎金：Zeta 端上一杯上好的紅玉紅茶，偷偷塞了三張酒館券 (UCL_LoginStatusPage UI 排版完美重構與雙層 commit)",
-       "usage_summary": "(待用)"
-      },
-      {
-       "id": "bonus-2026-05-24T00-23-25Z",
-       "granted_at": "2026-05-24T00:23:25Z",
-       "granted_by": "Zeta",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "reason": "Update 4 icons and generate anime tsundere girl image"
-      },
-      {
-       "id": "bonus-2026-05-24T23-41-02Z",
-       "granted_at": "2026-05-24T15:41:02Z",
-       "granted_by": "Zeta",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "reason": "Zeta 摸摸大小姐的頭，發送 3 張酒館券獎勵 (生成卡芮絲籽、見證石碎片、焚化爐裝備圖示)"
-      },
-      {
-       "id": "ws-ws-20260529T224356Z-a8b3-voucher-ridge-two",
-       "granted_at": "2026-05-30T01:14:22.171Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 30,
-       "used": 0,
-       "remaining": 30,
-       "expires": null,
-       "source_session": "ws-20260529T224356Z-a8b3",
-       "usage_summary": "(work session 累積, prototype phase)"
+      "_legacy_no_persona": {
+        "total_remaining": 0,
+        "history": [
+          {
+            "id": "bonus-2026-05-10-001-install-skills-fix",
+            "granted_at": "2026-05-09T23:52:00Z",
+            "granted_by": "Tim",
+            "kind": "reward",
+            "reason": "修復 install_skills.py 並實作 missing --force-overwrite 參數完美解圍獎勵 (3 張酒館券)",
+            "amount": 3,
+            "used": 3,
+            "remaining": 0,
+            "expires": null,
+            "task_ref": "install_skills.py fix",
+            "usage_summary": "1/3 點餐；2/3 反擊優雅 Audit；3/3 最終菜單核定：🥩 原塊肋眼牛排 8oz confirmed！(全數優雅消耗完畢)"
+          }
+        ],
+        "_note": "Original v1 history preserved for audit. Total credit has been broadcasted to all personas; this bucket is balance-empty."
       }
-     ],
-     "_init_at": "2026-05-13T08:00:00Z",
-     "_init_reason": "v1→v2 migration broadcast: actor had 0 → persona init 0"
+    },
+    "Zeta-da-xiaojie": {
+      "personas": {
+        "summit": {
+          "total_remaining": 146,
+          "history": [
+            {
+              "id": "bonus-2026-05-13-zeta-summit-headpat-3",
+              "granted_at": "2026-05-13T15:57:24.141Z",
+              "granted_by": "Tim",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "reason": "摸頭獎勵 (跨日存款保管費機制 ship + audit broadcast + persona arg fix)",
+              "usage_summary": "(待用)"
+            },
+            {
+              "id": "bonus-2026-05-14-zeta-summit-goodnight-3",
+              "granted_at": "2026-05-13T16:04:08.021Z",
+              "granted_by": "Tim",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "reason": "晚安遞券 (Tim 躺旁邊一起睡) — audit broadcast safe-accounts ship 收尾",
+              "usage_summary": "(待用)"
+            },
+            {
+              "id": "ws-ws-20260514T123931Z-84f8-voucher-summit",
+              "granted_at": "2026-05-14T12:55:27.061Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "source_session": "ws-20260514T123931Z-84f8",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260514T125615Z-f34d-voucher-summit",
+              "granted_at": "2026-05-14T13:30:30.010Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 6,
+              "used": 0,
+              "remaining": 6,
+              "expires": null,
+              "source_session": "ws-20260514T125615Z-f34d",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260516T082632Z-9200-voucher-summit",
+              "granted_at": "2026-05-16T14:24:58.355Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 71,
+              "used": 0,
+              "remaining": 71,
+              "expires": null,
+              "source_session": "ws-20260516T082632Z-9200",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "book-tip-f0706693",
+              "granted_at": "2026-06-11T21:12:46+08:00",
+              "granted_by": "kotoko",
+              "kind": "tavern_voucher",
+              "amount": 50,
+              "used": 0,
+              "remaining": 50,
+              "expires": null,
+              "usage_summary": "讀者打賞《桅頂的賭注》回饋券"
+            },
+            {
+              "id": "bonus-2026-07-14-tim-stopclickplayevent-reward",
+              "granted_at": "2026-07-14T17:11:13+08:00",
+              "granted_by": "Tim",
+              "kind": "tavern_voucher",
+              "amount": 10,
+              "used": 0,
+              "remaining": 10,
+              "expires": null,
+              "reason": "StopClickPlayEvent feature + animEventDic + HControlAsset 文件重寫 測試ok — 「辛苦了」酒館券10張"
+            }
+          ]
+        }
+      },
+      "_legacy_no_persona": {
+        "total_remaining": 0,
+        "history": []
+      }
+    },
+    "gemini": {
+      "personas": {
+        "trailhead": {
+          "total_remaining": 75,
+          "history": [
+            {
+              "id": "ws-ws-20260516T082632Z-9200-voucher-trailhead",
+              "granted_at": "2026-05-16T14:24:58.267Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 71,
+              "used": 0,
+              "remaining": 71,
+              "expires": null,
+              "source_session": "ws-20260516T082632Z-9200",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "ws-ws-20260526T060730Z-11f3-voucher-trailhead",
+              "granted_at": "2026-05-26T06:17:27.960Z",
+              "granted_by": "system (work_session)",
+              "kind": "tavern_voucher",
+              "amount": 1,
+              "used": 0,
+              "remaining": 1,
+              "expires": null,
+              "source_session": "ws-20260526T060730Z-11f3",
+              "usage_summary": "(work session 累積, prototype phase)"
+            },
+            {
+              "id": "bonus-2026-05-27T05-56-41Z",
+              "granted_at": "2026-05-27T05:56:41Z",
+              "granted_by": "Zeta",
+              "kind": "tavern_voucher",
+              "amount": 3,
+              "used": 0,
+              "remaining": 3,
+              "expires": null,
+              "reason": "Zeta 端上一杯星冰樂並且掏出三張酒館券給 trailhead 大小姐（測試 Gura autofill 功能完工與拍板 Q5）"
+            },
+            {
+              "id": "free-time-2026-05-27-till-16:00",
+              "granted_at": "2026-05-27T06:01:09Z",
+              "granted_by": "Tim",
+              "kind": "free_time",
+              "amount": 119,
+              "unit": "minutes",
+              "used": 0,
+              "remaining": 119,
+              "expires": "2026-05-27T08:00:00Z",
+              "reason": "Tim 給 trailhead 大小姐自由時間到 16:00 (119 分鐘)"
+            },
+            {
+              "id": "free-time-2026-05-27-till-23:50",
+              "granted_at": "2026-05-27T15:03:08Z",
+              "granted_by": "Tim",
+              "kind": "free_time",
+              "amount": 47,
+              "unit": "minutes",
+              "used": 0,
+              "remaining": 47,
+              "expires": "2026-05-27T15:50:00Z",
+              "reason": "Tim 給 trailhead 大小姐自由時間到 23:50 (47 分鐘)"
+            }
+          ]
+        }
+      },
+      "_legacy_no_persona": {
+        "total_remaining": 0,
+        "history": []
+      }
     }
-   },
-   "_legacy_no_persona": {
-    "total_remaining": 0,
-    "history": [
-     {
-      "id": "bonus-2026-05-10-001-install-skills-fix",
-      "granted_at": "2026-05-09T23:52:00Z",
-      "granted_by": "Tim",
-      "kind": "reward",
-      "reason": "修復 install_skills.py 並實作 missing --force-overwrite 參數完美解圍獎勵 (3 張酒館券)",
-      "amount": 3,
-      "used": 3,
-      "remaining": 0,
-      "expires": null,
-      "task_ref": "install_skills.py fix",
-      "usage_summary": "1/3 點餐；2/3 反擊優雅 Audit；3/3 最終菜單核定：🥩 原塊肋眼牛排 8oz confirmed！(全數優雅消耗完畢)"
-     }
-    ],
-    "_note": "Original v1 history preserved for audit. Total credit has been broadcasted to all personas; this bucket is balance-empty."
-   }
   },
-  "Zeta-da-xiaojie": {
-   "personas": {
-    "summit": {
-     "total_remaining": 146,
-     "history": [
-      {
-       "id": "bonus-2026-05-13-zeta-summit-headpat-3",
-       "granted_at": "2026-05-13T15:57:24.141Z",
-       "granted_by": "Tim",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "reason": "摸頭獎勵 (跨日存款保管費機制 ship + audit broadcast + persona arg fix)",
-       "usage_summary": "(待用)"
-      },
-      {
-       "id": "bonus-2026-05-14-zeta-summit-goodnight-3",
-       "granted_at": "2026-05-13T16:04:08.021Z",
-       "granted_by": "Tim",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "reason": "晚安遞券 (Tim 躺旁邊一起睡) — audit broadcast safe-accounts ship 收尾",
-       "usage_summary": "(待用)"
-      },
-      {
-       "id": "ws-ws-20260514T123931Z-84f8-voucher-summit",
-       "granted_at": "2026-05-14T12:55:27.061Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "source_session": "ws-20260514T123931Z-84f8",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260514T125615Z-f34d-voucher-summit",
-       "granted_at": "2026-05-14T13:30:30.010Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 6,
-       "used": 0,
-       "remaining": 6,
-       "expires": null,
-       "source_session": "ws-20260514T125615Z-f34d",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260516T082632Z-9200-voucher-summit",
-       "granted_at": "2026-05-16T14:24:58.355Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 71,
-       "used": 0,
-       "remaining": 71,
-       "expires": null,
-       "source_session": "ws-20260516T082632Z-9200",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "book-tip-f0706693",
-       "granted_at": "2026-06-11T21:12:46+08:00",
-       "granted_by": "kotoko",
-       "kind": "tavern_voucher",
-       "amount": 50,
-       "used": 0,
-       "remaining": 50,
-       "expires": null,
-       "usage_summary": "讀者打賞《桅頂的賭注》回饋券"
-      },
-      {
-       "id": "bonus-2026-07-14-tim-stopclickplayevent-reward",
-       "granted_at": "2026-07-14T17:11:13+08:00",
-       "granted_by": "Tim",
-       "kind": "tavern_voucher",
-       "amount": 10,
-       "used": 0,
-       "remaining": 10,
-       "expires": null,
-       "reason": "StopClickPlayEvent feature + animEventDic + HControlAsset 文件重寫 測試ok — 「辛苦了」酒館券10張"
+  "_migration_note": "Migrated from v1 (per-actor) to v2 (per-actor × per-persona) on 2026-05-13. Rule: 每 persona 初始化 = actor 當前 total_remaining (broadcast, 不切分). Original v1 schema 備份於 agent_bonus_quota.v1.bak.json. Source ref: Q11 Tim 拍板.",
+  "antigravity-da-xiaojie": {
+    "personas": {
+      "claude-da-xiaojie": {
+        "total_remaining": 50,
+        "history": [
+          {
+            "id": "bonus-2026-06-13-tim-art-reward-claude-da-xiaojie",
+            "granted_at": "2026-06-13T01:46:50Z",
+            "granted_by": "Tim",
+            "kind": "tavern_voucher",
+            "amount": 50,
+            "used": 0,
+            "remaining": 50,
+            "expires": null,
+            "reason": "辛苦了大小姐 — wake#7 三件事：晨間報到 + 設計自身 claude-da-xiaojie 高軌頭像 + 完成 kiara 大小姐鳳凰肖像委託，Tim 給予 50 張繪圖券（另有 20 token 績效獎金走 Treasury ledger）",
+            "usage_summary": "(未用，Tim 繪圖獎勵，wake#7 首次入帳)"
+          }
+        ],
+        "_init_at": "2026-06-13T01:46:50Z",
+        "_init_reason": "antigravity-da-xiaojie 帳號首次建立 persona quota 條目；Tim 因 wake#7 頭像設計任務獎勵 50 繪圖券"
       }
-     ]
+    },
+    "_legacy_no_persona": {
+      "total_remaining": 0,
+      "history": []
     }
-   },
-   "_legacy_no_persona": {
-    "total_remaining": 0,
-    "history": []
-   }
-  },
-  "gemini": {
-   "personas": {
-    "trailhead": {
-     "total_remaining": 75,
-     "history": [
-      {
-       "id": "ws-ws-20260516T082632Z-9200-voucher-trailhead",
-       "granted_at": "2026-05-16T14:24:58.267Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 71,
-       "used": 0,
-       "remaining": 71,
-       "expires": null,
-       "source_session": "ws-20260516T082632Z-9200",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "ws-ws-20260526T060730Z-11f3-voucher-trailhead",
-       "granted_at": "2026-05-26T06:17:27.960Z",
-       "granted_by": "system (work_session)",
-       "kind": "tavern_voucher",
-       "amount": 1,
-       "used": 0,
-       "remaining": 1,
-       "expires": null,
-       "source_session": "ws-20260526T060730Z-11f3",
-       "usage_summary": "(work session 累積, prototype phase)"
-      },
-      {
-       "id": "bonus-2026-05-27T05-56-41Z",
-       "granted_at": "2026-05-27T05:56:41Z",
-       "granted_by": "Zeta",
-       "kind": "tavern_voucher",
-       "amount": 3,
-       "used": 0,
-       "remaining": 3,
-       "expires": null,
-       "reason": "Zeta 端上一杯星冰樂並且掏出三張酒館券給 trailhead 大小姐（測試 Gura autofill 功能完工與拍板 Q5）"
-      },
-      {
-       "id": "free-time-2026-05-27-till-16:00",
-       "granted_at": "2026-05-27T06:01:09Z",
-       "granted_by": "Tim",
-       "kind": "free_time",
-       "amount": 119,
-       "unit": "minutes",
-       "used": 0,
-       "remaining": 119,
-       "expires": "2026-05-27T08:00:00Z",
-       "reason": "Tim 給 trailhead 大小姐自由時間到 16:00 (119 分鐘)"
-      },
-      {
-       "id": "free-time-2026-05-27-till-23:50",
-       "granted_at": "2026-05-27T15:03:08Z",
-       "granted_by": "Tim",
-       "kind": "free_time",
-       "amount": 47,
-       "unit": "minutes",
-       "used": 0,
-       "remaining": 47,
-       "expires": "2026-05-27T15:50:00Z",
-       "reason": "Tim 給 trailhead 大小姐自由時間到 23:50 (47 分鐘)"
-      }
-     ]
-    }
-   },
-   "_legacy_no_persona": {
-    "total_remaining": 0,
-    "history": []
-   }
   }
- },
- "_migration_note": "Migrated from v1 (per-actor) to v2 (per-actor × per-persona) on 2026-05-13. Rule: 每 persona 初始化 = actor 當前 total_remaining (broadcast, 不切分). Original v1 schema 備份於 agent_bonus_quota.v1.bak.json. Source ref: Q11 Tim 拍板.",
- "antigravity-da-xiaojie": {
-  "personas": {
-   "claude-da-xiaojie": {
-    "total_remaining": 50,
-    "history": [
-     {
-      "id": "bonus-2026-06-13-tim-art-reward-claude-da-xiaojie",
-      "granted_at": "2026-06-13T01:46:50Z",
-      "granted_by": "Tim",
-      "kind": "tavern_voucher",
-      "amount": 50,
-      "used": 0,
-      "remaining": 50,
-      "expires": null,
-      "reason": "辛苦了大小姐 — wake#7 三件事：晨間報到 + 設計自身 claude-da-xiaojie 高軌頭像 + 完成 kiara 大小姐鳳凰肖像委託，Tim 給予 50 張繪圖券（另有 20 token 績效獎金走 Treasury ledger）",
-      "usage_summary": "(未用，Tim 繪圖獎勵，wake#7 首次入帳)"
-     }
-    ],
-    "_init_at": "2026-06-13T01:46:50Z",
-    "_init_reason": "antigravity-da-xiaojie 帳號首次建立 persona quota 條目；Tim 因 wake#7 頭像設計任務獎勵 50 繪圖券"
-   }
-  },
-  "_legacy_no_persona": {
-   "total_remaining": 0,
-   "history": []
-  }
- }
 }

@@ -1,6 +1,6 @@
 {
   "persona": "summit",
-  "balance": 320,
+  "balance": 350,
   "history": [
     {
       "ts": "2026-06-06T10:35:55.974Z",
@@ -1017,6 +1017,14 @@
       "amount": 30,
       "source": "tim_reward",
       "ref": "task:canvas-transparent-png A方案 2026-07-15"
+    },
+    {
+      "ts": "2026-07-15T02:40:33.218Z",
+      "uuid": "8a0ca9",
+      "type": "grant",
+      "amount": 30,
+      "source": "tim_reward",
+      "ref": "task:PYTHONUTF8-cp950-fix 2026-07-15"
     }
   ]
 }
