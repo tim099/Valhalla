@@ -108,6 +108,13 @@ DEFAULT_CONFIG = {
         "avatar_url_pattern": "{base}{id}.png",   # convention: 檔名 = identity id
         "identity_overrides": {},                  # per-id 覆寫：{ "claude-da-xiaojie": { "username": "...", "avatar_url": "..." } }
 
+        # 區塊職責：persona-level avatar 顯式覆寫（Tim 2026-07-15 拍板）— 最高優先級
+        # 物理意義：sprite 派生 URL 只能指向 avatar_url_base（GitHub raw）；本表讓指定 persona 直接
+        #          釘任意外部 URL（如 wiki 圖床），不必把圖 push 進 repo。
+        # 數值影響：key = sender_persona（非 sender_id）；命中即直接採用、不做 HEAD 預檢
+        #          （顯式設定 = 使用者自負 URL 有效性；壞 URL Discord 端 silent fallback 預設頭像）
+        "persona_avatar_overrides": {},            # { "summit": "https://.../Altair_Infobox.png" }
+
         # 區塊職責：Quest task lifecycle 訊息（sender=_quest_system, kind=system）分流到獨立 webhook
         # 物理意義：避免 task_create / task_claim / task_done 高頻 lifecycle 訊息洗版主 chat webhook
         # 數值影響：state 共用 _tavern_state.json（last_seen_seq 不分 webhook）；每筆 message 按 sender 選 webhook 群組
@@ -753,7 +760,7 @@ def _rewrite_at_mentions_for_discord(body, tm_config=None):
     return _AT_MENTION_RE.sub(_sub, body)
 
 
-def _resolve_discord_identity(sender_id, sender_name_fallback, tm_config, identities_dict=None, sender_avatar_sprite=None):
+def _resolve_discord_identity(sender_id, sender_name_fallback, tm_config, identities_dict=None, sender_avatar_sprite=None, sender_persona=None):
     """
     Per-message Discord display resolution。
     回 (username, avatar_url)；其中任一可為 None（None = 不 override，走 webhook 預設）
@@ -765,6 +772,8 @@ def _resolve_discord_identity(sender_id, sender_name_fallback, tm_config, identi
       4. sender_id 本身
 
     avatar_url：
+      0. (Tim 2026-07-15 拍板) tm_config.persona_avatar_overrides[sender_persona] —
+         persona 顯式釘任意外部 URL，最高優先、不做 HEAD 預檢（顯式設定自負有效性）
       1. T28 (Tim 2026-05-14 拍板): sender_avatar_sprite (e.g. "Avatars_basecamp") — persona-level avatar
          strip "Avatars_" prefix → 拼 base + filename.png (per ImageGen workflow convention)
       2. identity_overrides[sender_id].avatar_url
@@ -799,6 +808,13 @@ def _resolve_discord_identity(sender_id, sender_name_fallback, tm_config, identi
         username = cleaned[:80] if len(cleaned) > 80 else cleaned
 
     avatar_url = None
+    # 優先級 0 (Tim 2026-07-15): persona 顯式 URL 覆寫 — 命中直接採用，跳過 sprite 派生與 HEAD 預檢
+    if sender_persona:
+        persona_overrides = tm_config.get("persona_avatar_overrides", {}) or {}
+        explicit = persona_overrides.get(sender_persona)
+        if explicit:
+            return username, explicit
+
     # T28 (Tim 2026-05-14): persona-level avatar 優先 — msg.sender_avatar_sprite (sprite_id) → 拼 URL
     # T28.1 fix (calli QA 2026-05-14): persona PNG 沒 push 到 GitHub → raw URL 404 → Discord render default icon.
     #         加 HEAD request 預檢 + 1 hour cache: 404 → fallback 到 agent-level URL.
@@ -1084,7 +1100,7 @@ def _build_tavern_payload(room, msg, tm_config, routing_tag=None):
     # R6.4 — identity override：webhook 端顯示成 sender 的身分
     # T28 (2026-05-14): 帶 sender_avatar_sprite 給 resolver, 讓 persona-level avatar 優先於 agent-level
     sender_avatar_sprite = msg.get("sender_avatar_sprite") or None
-    username, avatar_url = _resolve_discord_identity(sender_id, sender_name, tm_config, sender_avatar_sprite=sender_avatar_sprite)
+    username, avatar_url = _resolve_discord_identity(sender_id, sender_name, tm_config, sender_avatar_sprite=sender_avatar_sprite, sender_persona=sender_persona)
     # Phase 1 (Tim 2026-05-11): 帶 persona 時 username 顯示 "<name>@<persona>" — 跟 IMGUI / _last_view 對齊 DisplayName 格式
     # 邊界: Discord webhook username 上限 80 chars, 超出截斷
     if sender_persona and username:
