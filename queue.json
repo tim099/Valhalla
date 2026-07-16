@@ -15,9 +15,9 @@
         "_caller_env_marker": "claude-code"
       },
       "CreatedAt": "2026-07-09T08:48:28Z",
-      "LastRunAt": "2026-07-09T09:07:00.3858697Z",
+      "LastRunAt": "2026-07-16T00:42:29.1112002Z",
       "LastRunResult": "Failed",
-      "LastRunError": "執行 op=task_done 失敗：task T04-serialize-direct 已完成\n  at UCL.Core.EditorLib.AgentCommands.ChatTavern.Cmd_Tavern.RejectLastOp (System.String msg) [0x00028] in D:\\Unity\\Bar\\Assets\\Plugins\\UCL_Core\\UCL_Core_Scripts\\EditorCore\\UCL_AgentCommands\\ChatTavern\\Cmd_Tavern.cs:2830 \r\n  at UCL.Core.EditorLib.AgentCommands.ChatTavern.Cmd_Tavern.Op_TaskDone (System.Collections.Generic.Dictionary`2[TKey,TValue] args, System.Threading.CancellationToken token) [0x00292] in D:\\Unity\\Bar\\Assets\\Plugins\\UCL_Core\\UCL_Core_Scripts\\EditorCore\\UCL_AgentCommands\\ChatTavern\\Cmd_Tavern.cs:1792 \r\n  at Cysharp.Threading.Tasks.UniTask+ExceptionResultSource.GetResult (System.Int16 token) [0x0001e] in D:\\Unity\\Bar\\Assets\\Plugins\\UCL_Core\\ExternLib\\UniTask\\Runtime\\UniTask.Factory.cs:238 \r\n  at Cysharp.Threading.Tasks.UniTask+Awaiter.GetResult () [0x00015] in D:\\Unity\\Bar\\Assets\\Plugins\\UCL_Core\\ExternLib\\UniTask\\Runtime\\UniTask.cs:316 \r\n  at UCL.Core.EditorLib.AgentCommands.ChatTavern.Cmd_Tavern.ExecuteAsync (System.Collections.Generic.Dictionary`2[TKey,TValue] args, System.Threading.CancellationToken token) [0x0089d] in D:\\Unity\\Bar\\Assets\\Plugins\\UCL_Core\\UCL_Core_Scripts\\EditorCore\\UCL_AgentCommands\\ChatTavern\\Cmd_Tavern.cs:100 ",
+      "LastRunError": "執行 op=task_done 失敗：task T04-serialize-direct 已完成\n  at UCL.Core.EditorLib.AgentCommands.ChatTavern.Cmd_Tavern.RejectLastOp (System.String msg) [0x00028] in D:\\Unity\\Bar\\Assets\\Plugins\\UCL_Core\\UCL_Core_Scripts\\EditorCore\\UCL_AgentCommands\\ChatTavern\\Cmd_Tavern.cs:2873 \r\n  at UCL.Core.EditorLib.AgentCommands.ChatTavern.Cmd_Tavern.Op_TaskDone (System.Collections.Generic.Dictionary`2[TKey,TValue] args, System.Threading.CancellationToken token) [0x00292] in D:\\Unity\\Bar\\Assets\\Plugins\\UCL_Core\\UCL_Core_Scripts\\EditorCore\\UCL_AgentCommands\\ChatTavern\\Cmd_Tavern.cs:1835 \r\n  at Cysharp.Threading.Tasks.UniTask+ExceptionResultSource.GetResult (System.Int16 token) [0x0001e] in D:\\Unity\\Bar\\Assets\\Plugins\\UCL_Core\\ExternLib\\UniTask\\Runtime\\UniTask.Factory.cs:238 \r\n  at Cysharp.Threading.Tasks.UniTask+Awaiter.GetResult () [0x00015] in D:\\Unity\\Bar\\Assets\\Plugins\\UCL_Core\\ExternLib\\UniTask\\Runtime\\UniTask.cs:316 \r\n  at UCL.Core.EditorLib.AgentCommands.ChatTavern.Cmd_Tavern.ExecuteAsync (System.Collections.Generic.Dictionary`2[TKey,TValue] args, System.Threading.CancellationToken token) [0x0089d] in D:\\Unity\\Bar\\Assets\\Plugins\\UCL_Core\\UCL_Core_Scripts\\EditorCore\\UCL_AgentCommands\\ChatTavern\\Cmd_Tavern.cs:100 ",
       "Description": null
     },
     {
@@ -29,7 +29,7 @@
         "_caller_env_marker": "claude-code"
       },
       "CreatedAt": "2026-07-09T08:52:23Z",
-      "LastRunAt": "2026-07-09T09:07:00.3295338Z",
+      "LastRunAt": "2026-07-16T00:42:29.0500304Z",
       "LastRunResult": "Failed",
       "LastRunError": "[NoteLesson] body 必填（傳 --arg body=\"<短句精華>\"）",
       "Description": null

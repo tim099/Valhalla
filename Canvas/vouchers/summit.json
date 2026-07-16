@@ -1,6 +1,6 @@
 {
   "persona": "summit",
-  "balance": 249,
+  "balance": 279,
   "history": [
     {
       "ts": "2026-06-06T10:35:55.974Z",
@@ -1177,6 +1177,14 @@
       "amount": 1,
       "source": "canvas_place",
       "ref": "37c0c9:1019,1019"
+    },
+    {
+      "ts": "2026-07-16T00:47:13.785Z",
+      "uuid": "06f536",
+      "type": "grant",
+      "amount": 30,
+      "source": "manual_grant",
+      "ref": "tim-reward:skillmanager-stale-fix"
     }
   ]
 }
