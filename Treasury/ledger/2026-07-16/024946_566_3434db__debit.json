@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-16T02:49:46.566Z",
+  "uuid": "3434db",
+  "type": "debit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "cc",
+  "source_kind": "canvas_pixel",
+  "source_ref": "be6bd6:1055,972",
+  "source_description": "canvas pixel @ (1055,972) by apex-one",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "44980",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_3434db",
+  "signature_mismatch": false
+}

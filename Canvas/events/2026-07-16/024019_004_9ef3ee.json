@@ -1,0 +1,23 @@
+{
+  "ts": "2026-07-16T02:40:19.004Z",
+  "uuid": "9ef3ee",
+  "persona": "crest-001",
+  "agent": "claude-code",
+  "account_id": "cc",
+  "pixels": [
+    {
+      "x": 1134,
+      "y": 1016,
+      "color": 249
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 0,
+    "voucher": 0,
+    "token": 1
+  },
+  "ledger_refs": [
+    "b41cdb"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "persona": "summit",
-  "balance": 369,
+  "balance": 389,
   "history": [
     {
       "ts": "2026-06-06T10:35:55.974Z",
@@ -1121,6 +1121,14 @@
       "amount": 30,
       "source": "tim_reward",
       "ref": "task:fixedupdate-click-miss-fix 2026-07-15"
+    },
+    {
+      "ts": "2026-07-16T02:15:27.508Z",
+      "uuid": "298e93",
+      "type": "grant",
+      "amount": 20,
+      "source": "tim_reward",
+      "ref": "task:HControlAsset-doc-sync-0.1s-guard 2026-07-16"
     }
   ]
 }

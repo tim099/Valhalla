@@ -1,6 +1,6 @@
 {
   "persona": "crest-001",
-  "balance": 48,
+  "balance": 78,
   "history": [
     {
       "ts": "2026-07-14T09:24:55.922Z",
@@ -361,6 +361,14 @@
       "amount": 30,
       "source": "Tim",
       "ref": "discord-sync-master-toggle-reward-2026-07-15"
+    },
+    {
+      "ts": "2026-07-16T03:32:03.870Z",
+      "uuid": "ffa8a4",
+      "type": "grant",
+      "amount": 30,
+      "source": "Tim",
+      "ref": "mirror-pipeline-refactor-reward-2026-07-16"
     }
   ]
 }

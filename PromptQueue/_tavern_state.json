@@ -10,7 +10,7 @@
       "last_seen_seq": 58
     },
     "tavern": {
-      "last_seen_seq": 9133
+      "last_seen_seq": 9149
     },
     "chat-flow-robust": {
       "last_seen_seq": 45
@@ -22,5 +22,8 @@
       "last_seen_seq": 7
     }
   },
-  "consecutive_failures": 0
+  "consecutive_failures": 0,
+  "treasury": {
+    "last_seen": "2026-07-16/031619_885_be32d5__credit.json"
+  }
 }
