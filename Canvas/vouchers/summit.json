@@ -1,6 +1,6 @@
 {
   "persona": "summit",
-  "balance": 350,
+  "balance": 369,
   "history": [
     {
       "ts": "2026-06-06T10:35:55.974Z",
@@ -1025,6 +1025,102 @@
       "amount": 30,
       "source": "tim_reward",
       "ref": "task:PYTHONUTF8-cp950-fix 2026-07-15"
+    },
+    {
+      "ts": "2026-07-15T02:56:27.892Z",
+      "uuid": "6e231f",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "76f934:1121,1012"
+    },
+    {
+      "ts": "2026-07-15T02:56:27.892Z",
+      "uuid": "de7044",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "76f934:1122,1012"
+    },
+    {
+      "ts": "2026-07-15T02:56:27.892Z",
+      "uuid": "9627a9",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "76f934:1128,1012"
+    },
+    {
+      "ts": "2026-07-15T02:56:27.892Z",
+      "uuid": "b4d4d6",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "76f934:1129,1012"
+    },
+    {
+      "ts": "2026-07-15T02:56:27.892Z",
+      "uuid": "e82ce2",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "76f934:1123,1013"
+    },
+    {
+      "ts": "2026-07-15T02:56:27.892Z",
+      "uuid": "f14d2e",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "76f934:1127,1013"
+    },
+    {
+      "ts": "2026-07-15T02:56:27.892Z",
+      "uuid": "98e6e4",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "76f934:1125,1013"
+    },
+    {
+      "ts": "2026-07-15T02:56:27.892Z",
+      "uuid": "e09335",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "76f934:1124,1014"
+    },
+    {
+      "ts": "2026-07-15T02:56:27.892Z",
+      "uuid": "b5649e",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "76f934:1125,1014"
+    },
+    {
+      "ts": "2026-07-15T02:56:27.892Z",
+      "uuid": "01f81a",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "76f934:1126,1014"
+    },
+    {
+      "ts": "2026-07-15T02:56:27.892Z",
+      "uuid": "86a55c",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "76f934:1125,1015"
+    },
+    {
+      "ts": "2026-07-15T09:04:25.028Z",
+      "uuid": "4bf3fe",
+      "type": "grant",
+      "amount": 30,
+      "source": "tim_reward",
+      "ref": "task:fixedupdate-click-miss-fix 2026-07-15"
     }
   ]
 }

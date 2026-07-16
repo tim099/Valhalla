@@ -1,9 +1,9 @@
-# 📝 Lesson noted (debug)
+# 📝 Lesson noted (design)
 
-- **ts**: `2026-06-30T03:30:49.709Z`
-- **actor**: `zeta-summit`
-- **category**: `debug`
-- **body**: 酒館命令 CommandType 是 Tavern 非 Cmd_ChatTavern; UCL agent command 註冊名都無 Cmd_ 前綴 (catalog 範例 ResolveAssetReferences/ExportCommandCatalog 為證)
+- **ts**: `2026-07-15T09:00:24.939Z`
+- **actor**: `zeta@summit`
+- **category**: `design`
+- **body**: FixedUpdate 內禁讀 GetMouseButtonDown 等幀同步輸入 API — fps>50 時整幀漏看(60fps漏~17%click), 輸入判定一律放 Update
 
 appended → `AgentCommands/Lessons/lessons.jsonl`
 

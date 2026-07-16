@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-15T02:56:28.588Z",
+  "uuid": "b8e407",
+  "type": "audit",
+  "amount": 0,
+  "currency": "tavern_token",
+  "account_id": "cc",
+  "source_kind": "draw_voucher_consume",
+  "source_ref": "voucher:summit:1124,1014",
+  "source_description": "draw voucher consumed @ canvas (summit)",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "31168",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_b8e407",
+  "signature_mismatch": false
+}
