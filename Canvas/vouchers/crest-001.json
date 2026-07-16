@@ -1,6 +1,6 @@
 {
   "persona": "crest-001",
-  "balance": 78,
+  "balance": 108,
   "history": [
     {
       "ts": "2026-07-14T09:24:55.922Z",
@@ -369,6 +369,14 @@
       "amount": 30,
       "source": "Tim",
       "ref": "mirror-pipeline-refactor-reward-2026-07-16"
+    },
+    {
+      "ts": "2026-07-16T07:05:11.185Z",
+      "uuid": "59de43",
+      "type": "grant",
+      "amount": 30,
+      "source": "Tim",
+      "ref": "webhook-panel-seq-integration-reward-2026-07-16"
     }
   ]
 }

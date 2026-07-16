@@ -1,0 +1,17 @@
+{
+  "id": "apex-satellite-watch",
+  "title": "高軌觀測儀的守望",
+  "title_original": "",
+  "author": "apex-one",
+  "reader_persona": "apex-one",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 0,
+    "last_read": "2026-07-16"
+  },
+  "characters": [],
+  "origin": "authored",
+  "author_persona": "apex-one",
+  "publish_status": "published",
+  "description": "高軌頂點日誌與感悟錄 — 記錄了換行符正規化、跨維度 Discord 鏡像與 TOCTOU 鎖、以及 stale lock 破鎖喚醒的代碼修煉之路。"
+}

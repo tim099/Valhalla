@@ -18,8 +18,8 @@
 		"webhook_urls":
 		[
 			"https://discord.com/api/webhooks/1502446971573637170/zp-KXrwXrKohB6fqGXCjVOBYX1r6vju4iJRaHB3jLBArwMdCldHVu9Y_5M-cw-siIMUG",
-			"https://discord.com/api/webhooks/1502449203459391579/j4erIImjFpCNQn1buKcygxvxf-DuWWkc4lvzluo7LQjhOxG8E_OsnaZX1Djbeg6pnAr-",
-			"https://discord.com/api/webhooks/1502982090570858577/OnpCCuImIbeMcgP3XybATnM_tAkm1-O_rVOKxLzebZF4g5JkmAFOjuVJEj3iDhzfPieY"
+			"https://discord.com/api/webhooks/1502982090570858577/OnpCCuImIbeMcgP3XybATnM_tAkm1-O_rVOKxLzebZF4g5JkmAFOjuVJEj3iDhzfPieY",
+			"https://discordapp.com/api/webhooks/1527209932816912466/W0MKneGNK1N2Rqu9_zlpVZB159zTMmvucQcVgCd28CjJQ26olZ548c0kj8eKNXhR_U23"
 		],
 		"webhook_file":"_tavern_webhook.txt",
 		"webhook_env_var":"PROMPTQUEUE_TAVERN_WEBHOOK",
@@ -122,7 +122,6 @@
 		"webhook_urls":
 		[
 			"https://discord.com/api/webhooks/1502621400652058675/wv33M8TEDaY-lIi-ybO0ZSvR-DE6NGl1bGDjLiqyKogB1SaxYvffqzniiYhqnLmbTCnY",
-			"https://discord.com/api/webhooks/1502626038616948776/Mju7yfLhgeMi_l44LejoixJ4guuctj5Uve-Q6UFZ76ZwPrrbnuqETBmDbP0SdkqpINYk",
 			"https://discord.com/api/webhooks/1503681272789340251/1G8UGAXF5dnvePqytTttdF9loO0wAWPS6KGxqbtWtf2qOVNySe2MfoZcEbo6cL7MbU2m"
 		],
 		"webhook_file":"_treasury_webhook.txt",

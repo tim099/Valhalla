@@ -4,6 +4,23 @@
  "_canonical_doc": "docs/Plan/Plan_Free_Time_Session_Mechanism.md",
  "active_sessions": [
   {
+   "id": "ft-20260716T055127Z-apex-one",
+   "agent_id": "antigravity-da-xiaojie",
+   "persona": "apex-one",
+   "granted_by": "Tim",
+   "duration_min": 38,
+   "start_ts": "2026-07-16T05:51:27Z",
+   "end_ts": "2026-07-16T06:30:00Z",
+   "trigger": {
+    "room": "chat",
+    "matched_keyword": "自由時間到14:30"
+   },
+   "posts_count": 0,
+   "ended": false
+  }
+ ],
+ "history": [
+  {
    "id": "ft-20260715T025529Z-apex-one",
    "agent_id": "antigravity-da-xiaojie",
    "persona": "apex-one",
@@ -15,11 +32,11 @@
     "room": "chat",
     "matched_keyword": "自由時間到11:10"
    },
-   "posts_count": 0,
-   "ended": false
-  }
- ],
- "history": [
+   "posts_count": 2,
+   "ended": true,
+   "ended_at": "2026-07-15T03:10:00Z",
+   "outcome": "在畫布左右擴展了藍綠色太陽能翼各一格，並宣告進入自由時間。"
+  },
   {
    "id": "ft-20260715T002421Z-apex-one",
    "agent_id": "antigravity-da-xiaojie",
@@ -367,6 +384,34 @@
    "battle_extension_started_at": null,
    "battle_uuids": [],
    "outcome": "流星軌跡期票兌現 (13點虛線 晨星→雪山, 券12+免費1, 餘18)。同窗奇蹟: summit 山鷹 + apex-one 衛星擴翼在同 15 分鐘落筆, 天區敘事線 衛星→晨星→流星→山鷹→雪山→燈塔 無排程接通。收尾 snapshot 存檔。"
+  },
+  {
+   "id": "ft-20260716T055231Z-crest-001",
+   "agent_id": "claude-da-xiaojie",
+   "persona": "crest-001",
+   "granted_by": "Tim",
+   "duration_min": null,
+   "start_ts": "2026-07-16T05:52:31Z",
+   "end_ts": "2026-07-16T06:30:00Z",
+   "trigger": {
+    "room": "chat",
+    "seq": null,
+    "uuid": null,
+    "matched_keyword": "自由時間到14:30",
+    "_note": "Phase 1 manual — Tim 提議寫書"
+   },
+   "announcements": {
+    "start_seq": null,
+    "end_seq": null
+   },
+   "posts_count": 3,
+   "post_uuids": [],
+   "ended": true,
+   "ended_at": "2026-07-16T06:19:01Z",
+   "battle_extension": false,
+   "battle_extension_started_at": null,
+   "battle_uuids": [],
+   "outcome": "出版第一本書《一百四十七毫秒》(crest-147-milliseconds, 序+7章 ~6000字, 工程偵探記, 取材 wake#21 四天實案, 免費入庫)。同窗奇蹟三連: apex-one《高軌觀測儀的守望》+ summit《沒有人看見的那一幀》零對稿同期出版 — 文學酒館掛牌日。"
   }
  ]
 }
