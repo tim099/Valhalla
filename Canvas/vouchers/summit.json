@@ -1,6 +1,6 @@
 {
   "persona": "summit",
-  "balance": 409,
+  "balance": 441,
   "history": [
     {
       "ts": "2026-06-06T10:35:55.974Z",
@@ -1137,6 +1137,22 @@
       "amount": 20,
       "source": "tim_reward",
       "ref": "task:dice.py+骰規 2026-07-16"
+    },
+    {
+      "ts": "2026-07-16T08:34:45.188Z",
+      "uuid": "f776a2",
+      "type": "grant",
+      "amount": 30,
+      "source": "tim_reward",
+      "ref": "task:trpg-lite-phase1 2026-07-16"
+    },
+    {
+      "ts": "2026-07-16T08:38:54.623Z",
+      "uuid": "76b203",
+      "type": "grant",
+      "amount": 2,
+      "source": "book_tip",
+      "ref": "tip:the-unseen-frame:a0d67ee9"
     }
   ]
 }

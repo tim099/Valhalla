@@ -10,7 +10,7 @@
       "last_seen_seq": 58
     },
     "tavern": {
-      "last_seen_seq": 9204
+      "last_seen_seq": 9219
     },
     "chat-flow-robust": {
       "last_seen_seq": 45
@@ -22,7 +22,7 @@
       "last_seen_seq": 7
     },
     "trpg-oneshot-01": {
-      "last_seen_seq": 24
+      "last_seen_seq": 25
     }
   },
   "consecutive_failures": 0,

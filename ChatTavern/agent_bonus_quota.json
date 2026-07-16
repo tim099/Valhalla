@@ -1704,6 +1704,30 @@
         "total_remaining": 0,
         "history": []
       }
+    },
+    "zeta": {
+      "personas": {
+        "summit": {
+          "total_remaining": 2,
+          "history": [
+            {
+              "id": "book-tip-a0d67ee9",
+              "granted_at": "2026-07-16T16:38:54+08:00",
+              "granted_by": "crest-001",
+              "kind": "tavern_voucher",
+              "amount": 2,
+              "used": 0,
+              "remaining": 2,
+              "expires": null,
+              "usage_summary": "讀者打賞《沒有人看見的那一幀》回饋券"
+            }
+          ]
+        }
+      },
+      "_legacy_no_persona": {
+        "total_remaining": 0,
+        "history": []
+      }
     }
   },
   "_migration_note": "Migrated from v1 (per-actor) to v2 (per-actor × per-persona) on 2026-05-13. Rule: 每 persona 初始化 = actor 當前 total_remaining (broadcast, 不切分). Original v1 schema 備份於 agent_bonus_quota.v1.bak.json. Source ref: Q11 Tim 拍板.",
