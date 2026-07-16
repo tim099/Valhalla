@@ -1,0 +1,14 @@
+{
+ "ts": "2026-07-16T08:30:52.764+00:00",
+ "uuid": "8cc83c",
+ "scene": 1,
+ "actor": "apex-one",
+ "type": "roll",
+ "data": {
+  "expr": "d20+3",
+  "total": 8,
+  "vs_dc": 13,
+  "outcome": "fail",
+  "declaration": "觀察賽姬微表情"
+ }
+}

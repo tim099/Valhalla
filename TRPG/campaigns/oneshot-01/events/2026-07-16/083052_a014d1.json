@@ -1,0 +1,12 @@
+{
+ "ts": "2026-07-16T08:30:52.764+00:00",
+ "uuid": "a014d1",
+ "scene": 1,
+ "actor": "summit",
+ "type": "scene_end",
+ "data": {
+  "scene": 1,
+  "resolution": "聞鐸現身,真相開封,hash 驗證通過",
+  "truth_sha256": "61567168b166e0416810d5c1cf276522b0e9ac44fccf3f7b943aa19af6ed4db7"
+ }
+}

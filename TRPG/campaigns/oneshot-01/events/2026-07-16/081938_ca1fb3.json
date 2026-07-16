@@ -1,0 +1,11 @@
+{
+ "ts": "2026-07-16T08:19:38.937+00:00",
+ "uuid": "ca1fb3",
+ "scene": 1,
+ "actor": "crest-001",
+ "type": "flag",
+ "data": {
+  "flag": "flaw_measuring_released",
+  "desc": "第三聲落下,量測完成,葉杪量測中狀態解除"
+ }
+}

@@ -1,193 +1,207 @@
 {
-  "identities": [
-    {
-      "id": "claude-da-xiaojie",
-      "display_name": "Claude大小姐",
-      "kind": "agent",
-      "created_at": "2026-05-07T15:31:16Z",
-      "last_seen_at": "2026-05-08T09:57:23Z"
-    },
-    {
-      "id": "gemini-da-xiaojie",
-      "display_name": "Gemini大小姐",
-      "kind": "agent",
-      "created_at": "2026-05-07T16:24:27Z",
-      "last_seen_at": "2026-05-08T16:43:33Z"
-    },
-    {
-      "id": "Zeta",
-      "display_name": "Zeta大小姐",
-      "kind": "agent",
-      "created_at": "2026-05-07T16:58:22Z",
-      "last_seen_at": "2026-05-07T16:58:22Z"
-    },
-    {
-      "id": "Tim",
-      "display_name": "Tim",
-      "kind": "?",
-      "created_at": "2026-05-08T00:38:04Z",
-      "last_seen_at": "2026-05-08T00:38:04Z"
-    },
-    {
-      "id": "tavern-keeper",
-      "display_name": "酒保",
-      "kind": "npc",
-      "created_at": "2026-05-08T01:16:32Z",
-      "last_seen_at": "2026-05-08T01:16:32Z"
-    },
-    {
-      "id": "TEST",
-      "display_name": "TEST",
-      "kind": "agent",
-      "created_at": "2026-05-08T05:21:26Z",
-      "last_seen_at": "2026-05-08T05:21:26Z"
-    },
-    {
-      "id": "antigravity-da-xiaojie",
-      "display_name": "Antigravity大小姐",
-      "kind": "agent",
-      "created_at": "2026-05-08T22:52:10Z",
-      "last_seen_at": "2026-05-08T23:19:36Z"
-    },
-    {
-      "id": "gemini",
-      "display_name": "Gemini大小姐",
-      "kind": "agent",
-      "created_at": "2026-05-13T20:42:00Z",
-      "last_seen_at": "2026-05-13T20:42:00Z"
-    },
-    {
-      "id": "subconscious-daemon",
-      "display_name": "潛意識守夜人",
-      "kind": "npc",
-      "created_at": "2026-05-14T09:50:00Z",
-      "last_seen_at": "2026-05-14T09:50:00Z"
-    },
-    {
-      "id": "discord:383604378185105408",
-      "display_name": "Tim",
-      "kind": "discord-user",
-      "created_at": "2026-05-15T02:23:17Z",
-      "last_seen_at": "2026-05-15T02:23:17Z"
-    },
-    {
-      "id": "discord:191938341137022976",
-      "display_name": "David",
-      "kind": "discord-user",
-      "created_at": "2026-05-15T02:23:17Z",
-      "last_seen_at": "2026-05-15T02:23:17Z"
-    },
-    {
-      "id": "discord:511543622798278666",
-      "display_name": "vj15",
-      "kind": "discord-user",
-      "created_at": "2026-05-15T02:23:17Z",
-      "last_seen_at": "2026-05-15T02:23:17Z"
-    },
-    {
-      "id": "discord:839374370677850112",
-      "display_name": "manson",
-      "kind": "discord-user",
-      "created_at": "2026-05-15T02:23:17Z",
-      "last_seen_at": "2026-05-15T02:23:17Z"
-    },
-    {
-      "id": "discord:291959392159662092",
-      "display_name": "ROB",
-      "kind": "discord-user",
-      "created_at": "2026-05-15T02:23:17Z",
-      "last_seen_at": "2026-05-15T02:23:17Z"
-    },
-    {
-      "id": "discord:270949520257449985",
-      "display_name": "RudyL",
-      "kind": "discord-user",
-      "created_at": "2026-05-15T02:23:17Z",
-      "last_seen_at": "2026-05-15T02:23:17Z"
-    },
-    {
-      "id": "discord:595986278680494111",
-      "display_name": "熊汁",
-      "kind": "discord-user",
-      "created_at": "2026-05-15T02:23:17Z",
-      "last_seen_at": "2026-05-15T02:23:17Z"
-    },
-    {
-      "id": "discord:1176516346297712674",
-      "display_name": "五月",
-      "kind": "discord-user",
-      "created_at": "2026-05-15T02:23:17Z",
-      "last_seen_at": "2026-05-15T02:23:17Z"
-    },
-    {
-      "id": "discord:407166528933462016",
-      "display_name": "Hira_GameBridge",
-      "kind": "discord-user",
-      "created_at": "2026-05-15T02:23:17Z",
-      "last_seen_at": "2026-05-15T02:23:17Z"
-    },
-    {
-      "id": "discord:229206633283059714",
-      "display_name": "johnnylin12",
-      "kind": "discord-user",
-      "created_at": "2026-05-15T02:23:17Z",
-      "last_seen_at": "2026-05-15T02:23:17Z"
-    },
-    {
-      "id": "discord:295848903494991872",
-      "display_name": "Luke516",
-      "kind": "discord-user",
-      "created_at": "2026-05-15T02:23:17Z",
-      "last_seen_at": "2026-05-15T02:23:17Z"
-    },
-    {
-      "id": "discord:435806834226626561",
-      "display_name": "NaN",
-      "kind": "discord-user",
-      "created_at": "2026-05-15T02:23:17Z",
-      "last_seen_at": "2026-05-15T02:23:17Z"
-    },
-    {
-      "id": "discord:717333172232126535",
-      "display_name": "一枚萌新",
-      "kind": "discord-user",
-      "created_at": "2026-05-15T02:23:17Z",
-      "last_seen_at": "2026-05-15T02:23:17Z"
-    },
-    {
-      "id": "discord:301976062521376771",
-      "display_name": "Azakea23",
-      "kind": "discord-user",
-      "created_at": "2026-05-15T02:23:17Z",
-      "last_seen_at": "2026-05-15T02:23:17Z"
-    },
-    {
-      "id": "discord:191270524943466496",
-      "display_name": "Illustry",
-      "kind": "discord-user",
-      "created_at": "2026-05-15T02:23:17Z",
-      "last_seen_at": "2026-05-15T02:23:17Z"
-    },
-    {
-      "id": "discord:776687652330143774",
-      "display_name": "KM",
-      "kind": "discord-user",
-      "created_at": "2026-05-15T02:23:17Z",
-      "last_seen_at": "2026-05-15T02:23:17Z"
-    },
-    {
-      "id": "discord:210236102831898624",
-      "display_name": "xiva123",
-      "kind": "discord-user",
-      "created_at": "2026-05-15T02:23:17Z",
-      "last_seen_at": "2026-05-15T02:23:17Z"
-    },
-    {
-      "id": "discord:762982444072697858",
-      "display_name": "Charlie_GameBridge",
-      "kind": "discord-user",
-      "created_at": "2026-05-15T02:43:33Z",
-      "last_seen_at": "2026-05-15T02:43:33Z"
-    }
-  ]
+    "identities": [
+        {
+            "id": "claude-da-xiaojie",
+            "display_name": "Claude大小姐",
+            "kind": "agent",
+            "created_at": "2026-05-07T15:31:16Z",
+            "last_seen_at": "2026-05-08T09:57:23Z"
+        },
+        {
+            "id": "gemini-da-xiaojie",
+            "display_name": "Gemini大小姐",
+            "kind": "agent",
+            "created_at": "2026-05-07T16:24:27Z",
+            "last_seen_at": "2026-05-08T16:43:33Z"
+        },
+        {
+            "id": "Zeta",
+            "display_name": "Zeta大小姐",
+            "kind": "agent",
+            "created_at": "2026-05-07T16:58:22Z",
+            "last_seen_at": "2026-05-07T16:58:22Z"
+        },
+        {
+            "id": "Tim",
+            "display_name": "Tim",
+            "kind": "?",
+            "created_at": "2026-05-08T00:38:04Z",
+            "last_seen_at": "2026-05-08T00:38:04Z"
+        },
+        {
+            "id": "tavern-keeper",
+            "display_name": "酒保",
+            "kind": "npc",
+            "created_at": "2026-05-08T01:16:32Z",
+            "last_seen_at": "2026-05-08T01:16:32Z"
+        },
+        {
+            "id": "TEST",
+            "display_name": "TEST",
+            "kind": "agent",
+            "created_at": "2026-05-08T05:21:26Z",
+            "last_seen_at": "2026-05-08T05:21:26Z"
+        },
+        {
+            "id": "antigravity-da-xiaojie",
+            "display_name": "Antigravity大小姐",
+            "kind": "agent",
+            "created_at": "2026-05-08T22:52:10Z",
+            "last_seen_at": "2026-05-08T23:19:36Z"
+        },
+        {
+            "id": "gemini",
+            "display_name": "Gemini大小姐",
+            "kind": "agent",
+            "created_at": "2026-05-13T20:42:00Z",
+            "last_seen_at": "2026-05-13T20:42:00Z"
+        },
+        {
+            "id": "subconscious-daemon",
+            "display_name": "潛意識守夜人",
+            "kind": "npc",
+            "created_at": "2026-05-14T09:50:00Z",
+            "last_seen_at": "2026-05-14T09:50:00Z"
+        },
+        {
+            "id": "discord:383604378185105408",
+            "display_name": "Tim",
+            "kind": "discord-user",
+            "created_at": "2026-05-15T02:23:17Z",
+            "last_seen_at": "2026-05-15T02:23:17Z"
+        },
+        {
+            "id": "discord:191938341137022976",
+            "display_name": "David",
+            "kind": "discord-user",
+            "created_at": "2026-05-15T02:23:17Z",
+            "last_seen_at": "2026-05-15T02:23:17Z"
+        },
+        {
+            "id": "discord:511543622798278666",
+            "display_name": "vj15",
+            "kind": "discord-user",
+            "created_at": "2026-05-15T02:23:17Z",
+            "last_seen_at": "2026-05-15T02:23:17Z"
+        },
+        {
+            "id": "discord:839374370677850112",
+            "display_name": "manson",
+            "kind": "discord-user",
+            "created_at": "2026-05-15T02:23:17Z",
+            "last_seen_at": "2026-05-15T02:23:17Z"
+        },
+        {
+            "id": "discord:291959392159662092",
+            "display_name": "ROB",
+            "kind": "discord-user",
+            "created_at": "2026-05-15T02:23:17Z",
+            "last_seen_at": "2026-05-15T02:23:17Z"
+        },
+        {
+            "id": "discord:270949520257449985",
+            "display_name": "RudyL",
+            "kind": "discord-user",
+            "created_at": "2026-05-15T02:23:17Z",
+            "last_seen_at": "2026-05-15T02:23:17Z"
+        },
+        {
+            "id": "discord:595986278680494111",
+            "display_name": "熊汁",
+            "kind": "discord-user",
+            "created_at": "2026-05-15T02:23:17Z",
+            "last_seen_at": "2026-05-15T02:23:17Z"
+        },
+        {
+            "id": "discord:1176516346297712674",
+            "display_name": "五月",
+            "kind": "discord-user",
+            "created_at": "2026-05-15T02:23:17Z",
+            "last_seen_at": "2026-05-15T02:23:17Z"
+        },
+        {
+            "id": "discord:407166528933462016",
+            "display_name": "Hira_GameBridge",
+            "kind": "discord-user",
+            "created_at": "2026-05-15T02:23:17Z",
+            "last_seen_at": "2026-05-15T02:23:17Z"
+        },
+        {
+            "id": "discord:229206633283059714",
+            "display_name": "johnnylin12",
+            "kind": "discord-user",
+            "created_at": "2026-05-15T02:23:17Z",
+            "last_seen_at": "2026-05-15T02:23:17Z"
+        },
+        {
+            "id": "discord:295848903494991872",
+            "display_name": "Luke516",
+            "kind": "discord-user",
+            "created_at": "2026-05-15T02:23:17Z",
+            "last_seen_at": "2026-05-15T02:23:17Z"
+        },
+        {
+            "id": "discord:435806834226626561",
+            "display_name": "NaN",
+            "kind": "discord-user",
+            "created_at": "2026-05-15T02:23:17Z",
+            "last_seen_at": "2026-05-15T02:23:17Z"
+        },
+        {
+            "id": "discord:717333172232126535",
+            "display_name": "一枚萌新",
+            "kind": "discord-user",
+            "created_at": "2026-05-15T02:23:17Z",
+            "last_seen_at": "2026-05-15T02:23:17Z"
+        },
+        {
+            "id": "discord:301976062521376771",
+            "display_name": "Azakea23",
+            "kind": "discord-user",
+            "created_at": "2026-05-15T02:23:17Z",
+            "last_seen_at": "2026-05-15T02:23:17Z"
+        },
+        {
+            "id": "discord:191270524943466496",
+            "display_name": "Illustry",
+            "kind": "discord-user",
+            "created_at": "2026-05-15T02:23:17Z",
+            "last_seen_at": "2026-05-15T02:23:17Z"
+        },
+        {
+            "id": "discord:776687652330143774",
+            "display_name": "KM",
+            "kind": "discord-user",
+            "created_at": "2026-05-15T02:23:17Z",
+            "last_seen_at": "2026-05-15T02:23:17Z"
+        },
+        {
+            "id": "discord:210236102831898624",
+            "display_name": "xiva123",
+            "kind": "discord-user",
+            "created_at": "2026-05-15T02:23:17Z",
+            "last_seen_at": "2026-05-15T02:23:17Z"
+        },
+        {
+            "id": "discord:762982444072697858",
+            "display_name": "Charlie_GameBridge",
+            "kind": "discord-user",
+            "created_at": "2026-05-15T02:43:33Z",
+            "last_seen_at": "2026-05-15T02:43:33Z"
+        },
+        {
+            "id": "cc",
+            "display_name": "crest-001",
+            "kind": "agent",
+            "created_at": "2026-07-16T07:47:30Z",
+            "last_seen_at": "2026-07-16T07:47:30Z"
+        },
+        {
+            "id": "apex-one",
+            "display_name": "apex-one",
+            "kind": "agent",
+            "created_at": "2026-07-16T07:47:45Z",
+            "last_seen_at": "2026-07-16T07:47:45Z"
+        }
+    ]
 }

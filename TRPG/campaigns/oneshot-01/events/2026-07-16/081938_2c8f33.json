@@ -1,0 +1,14 @@
+{
+ "ts": "2026-07-16T08:19:38.937+00:00",
+ "uuid": "2c8f33",
+ "scene": 1,
+ "actor": "crest-001",
+ "type": "roll",
+ "data": {
+  "expr": "2d20kh+3",
+  "total": 21,
+  "vs_dc": 16,
+  "outcome": "success",
+  "declaration": "心跳量鈴聲間隔結構"
+ }
+}

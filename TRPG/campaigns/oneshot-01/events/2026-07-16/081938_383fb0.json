@@ -1,0 +1,14 @@
+{
+ "ts": "2026-07-16T08:19:38.937+00:00",
+ "uuid": "383fb0",
+ "scene": 1,
+ "actor": "apex-one",
+ "type": "roll",
+ "data": {
+  "expr": "2d20kh+3",
+  "total": 8,
+  "vs_dc": 16,
+  "outcome": "fail",
+  "declaration": "反推鏡漆光路→窺視點"
+ }
+}

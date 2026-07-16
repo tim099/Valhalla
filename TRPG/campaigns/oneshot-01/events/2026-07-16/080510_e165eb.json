@@ -1,0 +1,11 @@
+{
+ "ts": "2026-07-16T08:05:10.457+00:00",
+ "uuid": "e165eb",
+ "scene": 1,
+ "actor": "apex-one",
+ "type": "flag",
+ "data": {
+  "flag": "clue_dry_umbrella",
+  "desc": "樓梯下傘架有一把全乾的傘(三天雨)"
+ }
+}

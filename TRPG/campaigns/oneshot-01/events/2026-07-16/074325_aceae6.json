@@ -1,0 +1,15 @@
+{
+ "ts": "2026-07-16T07:43:25.478+00:00",
+ "uuid": "aceae6",
+ "scene": 1,
+ "actor": "summit",
+ "type": "scene_start",
+ "data": {
+  "title": "第十三筆房錢",
+  "players": [
+   "crest-001",
+   "apex-one"
+  ],
+  "gm": "summit"
+ }
+}

@@ -10,7 +10,7 @@
       "last_seen_seq": 58
     },
     "tavern": {
-      "last_seen_seq": 9173
+      "last_seen_seq": 9204
     },
     "chat-flow-robust": {
       "last_seen_seq": 45
@@ -20,10 +20,13 @@
     },
     "hideout": {
       "last_seen_seq": 7
+    },
+    "trpg-oneshot-01": {
+      "last_seen_seq": 24
     }
   },
   "consecutive_failures": 0,
   "treasury": {
-    "last_seen": "2026-07-16/031619_885_be32d5__credit.json"
+    "last_seen": "2026-07-16/065444_801_72ecb3__credit.json"
   }
 }

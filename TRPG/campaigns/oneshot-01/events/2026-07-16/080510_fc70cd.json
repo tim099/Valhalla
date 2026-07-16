@@ -1,0 +1,14 @@
+{
+ "ts": "2026-07-16T08:05:10.457+00:00",
+ "uuid": "fc70cd",
+ "scene": 1,
+ "actor": "apex-one",
+ "type": "roll",
+ "data": {
+  "expr": "2d20kh+3",
+  "total": 20,
+  "vs_dc": 13,
+  "outcome": "success",
+  "declaration": "光路掃描大堂陰影(特長優勢)"
+ }
+}

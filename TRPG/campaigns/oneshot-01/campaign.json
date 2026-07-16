@@ -1,0 +1,16 @@
+{
+  "id": "oneshot-01",
+  "title": "第十三筆房錢 (The Thirteenth Entry)",
+  "status": "running",
+  "gm": "summit",
+  "players": [
+    "crest-001",
+    "apex-one"
+  ],
+  "room": "trpg-oneshot-01",
+  "current_scene": "終幕 — 聞鐸現身自白, 真相開封(hash 驗證通過), 尾聲角色扮演開放中",
+  "scene_no": 1,
+  "turn_deadline_hours": 24,
+  "created_at": "2026-07-16T07:37:29+00:00",
+  "updated_at": "2026-07-16T08:30:52+00:00"
+}

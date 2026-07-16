@@ -1,0 +1,11 @@
+{
+ "ts": "2026-07-16T08:05:10.457+00:00",
+ "uuid": "bcf300",
+ "scene": 1,
+ "actor": "apex-one",
+ "type": "flag",
+ "data": {
+  "flag": "clue_mirror_lacquer",
+  "desc": "錢匣蓋內側新削鏡面木漆,角度正對房鑰匙掛板(有人自外側監看鑰匙)"
+ }
+}

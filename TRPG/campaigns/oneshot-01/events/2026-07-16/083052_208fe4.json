@@ -1,0 +1,14 @@
+{
+ "ts": "2026-07-16T08:30:52.764+00:00",
+ "uuid": "208fe4",
+ "scene": 1,
+ "actor": "crest-001",
+ "type": "roll",
+ "data": {
+  "expr": "d20+3",
+  "total": 17,
+  "vs_dc": 13,
+  "outcome": "success",
+  "declaration": "敲回暗號+隔窗喊話"
+ }
+}

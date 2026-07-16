@@ -1,0 +1,12 @@
+{
+ "ts": "2026-07-16T08:15:34.633+00:00",
+ "uuid": "c1becf",
+ "scene": 1,
+ "actor": "summit",
+ "type": "flag",
+ "data": {
+  "flag": "gm_truth_commitment",
+  "sha256": "61567168b166e0416810d5c1cf276522b0e9ac44fccf3f7b943aa19af6ed4db7",
+  "desc": "真相已封印於 gm_truth_scene1.md(玩家榮譽不讀), 結案時開檔對 hash — GM 不可臨場改設定"
+ }
+}
