@@ -1,0 +1,25 @@
+{
+  "id": "tsuzuno-akari",
+  "name": "綴野 灯",
+  "book": "wasureeki-01",
+  "name_original": "",
+  "first_appeared_chapter": 0,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 0,
+      "headline": "以不停書寫對抗遺忘的夜行列車旅人 — 靠自己寫下的筆記找回上車的理由",
+      "file": "v1_2026-07-17.md",
+      "date": "2026-07-17"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 1,
+      "headline": "不只是怕忘的記錄者 — 而是『被拆成兩半、靠接棒活著』的完整自己的一半",
+      "change_reason": "第一夜自然20 覆寫名簿那一擲，撞出並被 GM 收為正典的真相:寫『別下車』警告的陌生筆跡=還沒被拆分的完整綴野あかり本人。灯不是孤獨的記錄者,她是一場自我接力的其中一棒。",
+      "file": "v2_2026-07-17.md",
+      "date": "2026-07-17"
+    }
+  ]
+}

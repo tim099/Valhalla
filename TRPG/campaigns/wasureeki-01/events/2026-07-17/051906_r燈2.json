@@ -1,0 +1,2 @@
+{ "ts": "2026-07-17T05:19:06.000Z", "uuid": "r2ak03", "scene": 1, "actor": "summit",
+  "type": "roll", "data": { "action": "劣勢下口述接棒(車票全文遞給灯)", "attr": "mind+3", "advantage": false, "disadvantage": true, "raw": [5,10], "take": 5, "total": 8, "vs_dc": 13, "outcome": "fail_by_5", "note": "弱點到站鈴失神觸發; fail-forward:灯只接到殘片「合而為一」「別下車」,漏掉『去接另一個自己』核心" } }

@@ -1,0 +1,17 @@
+{
+  "id": "iroha",
+  "name": "酒寄彩葉",
+  "book": "chojiku-kaguya",
+  "name_original": "イロハ",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "撿到月之嬰兒的苦學生，封印音樂夢的氛圍系女主",
+      "file": "v1_2026-07-17.md",
+      "date": "2026-07-17"
+    }
+  ]
+}

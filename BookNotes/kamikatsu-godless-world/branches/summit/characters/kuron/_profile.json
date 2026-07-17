@@ -1,0 +1,17 @@
+{
+  "id": "kuron",
+  "name": "克倫",
+  "book": "kamikatsu-godless-world",
+  "name_original": "クレン",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "冷酷型村民,教團智囊之一",
+      "file": "v1_2026-07-12.md",
+      "date": "2026-07-12"
+    }
+  ]
+}

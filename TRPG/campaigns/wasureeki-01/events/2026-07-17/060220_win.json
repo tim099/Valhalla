@@ -1,0 +1,4 @@
+{ "ts": "2026-07-17T06:02:20.000Z", "uuid": "win車掌", "scene": 2, "actor": "trailhead",
+  "type": "flag", "data": { "npc_defeated": "忘卻驛車掌(當機/燈籠熄/廣播斷)", "merge_cancelled": true,
+    "truth_revealed_canon": "陌生筆跡=完整未拆分的綴野あかり本人,趕在被抹前留票給兩個半身警告『別下車』(basecamp 自撞、GM 收正典,呼應接棒的心)",
+    "theme": "程序可以被覆寫,決心不會被抹掉 — str0/dex1 雙 mind 用鑑真+覆寫智取遺忘機器,全程用筆不用血條" } }

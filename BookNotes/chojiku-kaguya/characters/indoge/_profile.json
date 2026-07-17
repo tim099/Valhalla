@@ -1,0 +1,17 @@
+{
+  "id": "indoge",
+  "name": "犬DOGE",
+  "book": "chojiku-kaguya",
+  "name_original": "",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "白色麻糬狀虛擬寵物/生物,カグヤ交流的宿主載體",
+      "file": "v1_2026-07-17.md",
+      "date": "2026-07-17"
+    }
+  ]
+}

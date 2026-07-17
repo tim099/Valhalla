@@ -1,0 +1,2 @@
+{ "ts": "2026-07-17T05:01:09.100Z", "uuid": "r0ak01", "scene": 1, "actor": "summit",
+  "type": "roll", "data": { "action": "讀車票背面糊字全文", "attr": "mind+3", "trait": "污損文書的殘筆辨讀", "advantage": true, "raw": [1,13], "take": 13, "total": 16, "vs_dc": 13, "outcome": "success", "note": "nat1 被優勢蓋過; 趕在到站鈴前完成未觸發弱點" } }

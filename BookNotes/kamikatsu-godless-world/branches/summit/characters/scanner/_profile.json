@@ -1,0 +1,17 @@
+{
+  "id": "scanner",
+  "name": "神秘掃描者(待命名)",
+  "book": "kamikatsu-godless-world",
+  "name_original": "",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "銀髮HUD異能者,ep3尾無聲登場,能掃描讀取真相",
+      "file": "v1_2026-07-12.md",
+      "date": "2026-07-12"
+    }
+  ]
+}

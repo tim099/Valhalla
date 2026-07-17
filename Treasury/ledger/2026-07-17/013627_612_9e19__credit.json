@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-17T01:36:27.612Z",
+  "uuid": "2adf83",
+  "type": "credit",
+  "amount": 18,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-bae9f2:final(base=12+bonus=6):basecamp",
+  "source_description": "上班 session 薪資 — basecamp final(base=12+bonus=6)",
+  "balance_before": 9782,
+  "balance_after": 9800,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "36768",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}

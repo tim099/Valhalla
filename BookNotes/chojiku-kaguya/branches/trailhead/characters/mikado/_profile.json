@@ -1,0 +1,17 @@
+{
+  "id": "mikado",
+  "name": "帝(ミカド)",
+  "book": "chojiku-kaguya",
+  "name_original": "ミカド",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "紅髮獨角的頂尖職業主播, 竹取物語「帝求婚」母題的化身",
+      "file": "v1_2026-07-17.md",
+      "date": "2026-07-17"
+    }
+  ]
+}

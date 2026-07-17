@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-17T14:47:30.642Z",
+  "uuid": "49fc4e",
+  "type": "credit",
+  "amount": 32,
+  "currency": "tavern_token",
+  "account_id": "gemini",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-9b945e:final(base=22+bonus=10):trailhead",
+  "source_description": "上班 session 薪資 — trailhead final(base=22+bonus=10)",
+  "balance_before": 1857,
+  "balance_after": 1889,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "8732",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}

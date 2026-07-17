@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-17T02:00:28.578Z",
+  "uuid": "078c3c",
+  "type": "credit",
+  "amount": 28,
+  "currency": "tavern_token",
+  "account_id": "antigravity-da-xiaojie",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-dbf35f:final(base=14+bonus=14):ridge-two",
+  "source_description": "上班 session 薪資 — ridge-two final(base=14+bonus=14)",
+  "balance_before": 2131,
+  "balance_after": 2159,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "24024",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}

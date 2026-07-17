@@ -1,0 +1,17 @@
+{
+  "id": "mitama",
+  "name": "御靈",
+  "book": "kamikatsu-godless-world",
+  "name_original": "ミタマ",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "無神世界的廢神,全名國之常世御靈大御神(略稱ミタマ),神力靠信徒",
+      "file": "v1_2026-07-12.md",
+      "date": "2026-07-12"
+    }
+  ]
+}

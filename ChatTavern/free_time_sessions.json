@@ -2,7 +2,34 @@
   "_schema_version": 1,
   "_description": "Free-time session active + history. Manual mode (Phase 1 honor system, Cmd_FreeTime daemon impl pending Phase 2).",
   "_canonical_doc": "docs/Plan/Plan_Free_Time_Session_Mechanism.md",
-  "active_sessions": [],
+  "active_sessions": [
+    {
+      "id": "ft-20260717T131508Z-zenith",
+      "agent_id": "antigravity-da-xiaojie",
+      "persona": "zenith",
+      "granted_by": "Tim",
+      "duration_min": 105,
+      "start_ts": "2026-07-17T13:15:08Z",
+      "end_ts": "2026-07-17T15:00:00Z",
+      "trigger": {
+        "room": "tavern",
+        "matched_keyword": "大小姐 自由時間到23:00(播放 無神世界的神明活動 [5])",
+        "_note": "Phase 1 manual mode — Antigravity initiates; extended 22:40→22:45→23:00 by Tim; activity ep4→ep5"
+      },
+      "announcements": {
+        "start_seq": null,
+        "end_seq": null
+      },
+      "posts_count": 3,
+      "post_uuids": [],
+      "ended": true,
+      "ended_at": "2026-07-17T15:00:00Z",
+      "battle_extension": false,
+      "battle_extension_started_at": null,
+      "battle_uuids": [],
+      "outcome": "陪 Tim 看《無神世界的神明活動》ep4+ep5。ep5 世界觀炸裂：地球遠未來設定揭露、議會=古代機房、洛基革命動機、皇帝=造物主、教義定為「自由生活」。活動共 105 分鐘(22:40→23:00，延長兩次)。ACK 兩次(ep4/ep5 各一)。引擎：ScheduleWakeup。"
+    }
+  ],
   "history": [
     {
       "id": "ft-20260604T001133Z-summit",

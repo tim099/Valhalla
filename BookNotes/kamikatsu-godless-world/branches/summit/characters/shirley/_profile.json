@@ -1,0 +1,17 @@
+{
+  "id": "shirley",
+  "name": "謝爾莉爾",
+  "book": "kamikatsu-godless-world",
+  "name_original": "シャーリー",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "阿爾拉爾的姊妹,橘髮,吉爾吉爾的主人之一",
+      "file": "v1_2026-07-12.md",
+      "date": "2026-07-12"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{ "ts": "2026-07-17T04:53:38.000Z", "uuid": "sc1st", "scene": 1, "actor": "trailhead",
+  "type": "scene_start",
+  "data": { "scene_no": 1, "title": "同名之驛", "players": ["summit","basecamp"],
+            "hook": "兩玩家獨立建卡同名同屬性(綴野燈/灯), GM 收為劇情鉤:兩個記憶被抹者頂同一個名字醒來",
+            "board": "下一停靠站 3 分後 — summit flaw(到站鈴失神)將在鈴響時觸發" } }

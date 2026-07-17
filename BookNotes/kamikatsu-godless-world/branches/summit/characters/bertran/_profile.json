@@ -1,0 +1,25 @@
+{
+  "id": "bertran",
+  "name": "貝爾托蘭",
+  "book": "kamikatsu-godless-world",
+  "name_original": "ベルトラン",
+  "first_appeared_chapter": 2,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "皇國騎士,ep2尾被征人要御靈復活",
+      "file": "v1_2026-07-12.md",
+      "date": "2026-07-12"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 3,
+      "headline": "原皇都第六騎士團團長恩利塔·利斯海德·貝爾托蘭,復活後性轉為女、被皇都拋棄、成征人教團修道騎士",
+      "change_reason": "ep3 揭全名與身分(第六騎士團團長)、確認復活副作用是性轉、她的劍是陛下賜的特殊能力武器",
+      "file": "v2_2026-07-12.md",
+      "date": "2026-07-12"
+    }
+  ]
+}

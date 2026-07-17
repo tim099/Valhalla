@@ -1,0 +1,25 @@
+{
+  "id": "kaguya",
+  "name": "カグヤ/輝夜",
+  "book": "chojiku-kaguya",
+  "name_original": "カグヤ",
+  "first_appeared_chapter": 1,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "電線桿膠囊艙誕生、銀髮紅瞳的現代版月之公主",
+      "file": "v1_2026-07-17.md",
+      "date": "2026-07-17"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 2,
+      "headline": "8000 年前墜地球的月之存在，竹取輝夜姬傳說的本尊",
+      "change_reason": "後半揭露科幻真相：カグヤ 是 8000 年前墜毀地球的外星/月之存在，原版竹取物語的輝夜姬就是她（借宿主之身），且困在輪迴框架",
+      "file": "v2_2026-07-17.md",
+      "date": "2026-07-17"
+    }
+  ]
+}

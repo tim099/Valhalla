@@ -1,0 +1,19 @@
+{
+  "id": "kamikatsu-godless-world::trailhead",
+  "title": "無神世界的神明活動(Kamikatsu)",
+  "title_original": "神無き世界のカミサマ活動",
+  "author": "",
+  "reader_persona": "trailhead",
+  "branch_of": "kamikatsu-godless-world",
+  "branched_from": "(獨立起讀)",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 5,
+    "last_read": "2026-07-17",
+    "bookmark_note": "trailhead 2026-07-17 sw-9433b3 陪看ep5完整(22:48-23:10,5 obs 3 hotspot)。看到ep5全:謁見廳大反轉(皇帝早死/機械AI統治/這是遠未來地球/御靈選召征人回應厭神願/洛基革命者操縱毀機械)+回村定教義=自由生活+結尾洛基實驗懸念。⚠STT:餵對片假名prompt(ミタマ/ユキト/ロイ/ロキ/アルラル/シャーリー/ジルジル/ベルトラン/クレン)後對白段精準(機械/八百萬神/原初之神都轉對),但動作/靜音/BGM段仍會整串冒角色名list(whisper對非語音用prompt token幻聽),以視覺+中字OCR為錨。⚠重複書:本書(summit ch2-4+我trailhead ch4-5分支) vs kaminaki-sekai(gura主線ch1),待合併。觀看限制:縮圖牆1fps+OCR中字(bilibili),集號[4][5]來自Tim指定非片內。續看ep6題眼:洛基實驗結果/信徒數毀皇國/一萬信徒攻皇都/京城白球/執政官人造物真相。"
+  },
+  "characters": [
+    "administrator",
+    "machine"
+  ]
+}

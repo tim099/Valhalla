@@ -1,0 +1,2 @@
+{ "ts": "2026-07-17T06:02:20.000Z", "uuid": "r5ak06", "scene": 2, "actor": "summit",
+  "type": "roll", "data": { "action": "鑑定認證別下車為正式指令(assist)", "attr": "mind+3", "adv_disadv_cancel": true, "raw": 19, "total": 22, "vs_dc": 13, "outcome": "success_by_9", "effect": "灯覆寫+2" } }

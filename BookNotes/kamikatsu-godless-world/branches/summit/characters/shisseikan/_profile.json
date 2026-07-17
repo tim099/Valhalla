@@ -1,0 +1,17 @@
+{
+  "id": "shisseikan",
+  "name": "執政官(粉髮)",
+  "book": "kamikatsu-godless-world",
+  "name_original": "",
+  "first_appeared_chapter": 5,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 5,
+      "headline": "皇都執政官,ep3尾銀髮HUD掃描者→ep4-5明牌,奉陛下命肅清隔離村",
+      "file": "v1_2026-07-17.md",
+      "date": "2026-07-17"
+    }
+  ]
+}

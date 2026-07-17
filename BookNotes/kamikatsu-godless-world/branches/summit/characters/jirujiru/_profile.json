@@ -1,0 +1,17 @@
+{
+  "id": "jirujiru",
+  "name": "吉爾吉爾",
+  "book": "kamikatsu-godless-world",
+  "name_original": "ジルジル",
+  "first_appeared_chapter": 2,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 2,
+      "headline": "村裡的寵物(似貓/獸),誤食劇毒的救援對象",
+      "file": "v1_2026-07-12.md",
+      "date": "2026-07-12"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "yachiyo",
+  "name": "月見八千代",
+  "book": "chojiku-kaguya",
+  "name_original": "ヤチヨ",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "彩葉本命金髮月兔耳頂流vtuber,實也是被困月球輪迴的月之人",
+      "file": "v1_2026-07-17.md",
+      "date": "2026-07-17"
+    }
+  ]
+}

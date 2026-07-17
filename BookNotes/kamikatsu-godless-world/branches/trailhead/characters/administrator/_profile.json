@@ -1,0 +1,25 @@
+{
+  "id": "administrator",
+  "name": "執政官(神秘銀髮掃描者)",
+  "book": "kamikatsu-godless-world",
+  "name_original": "",
+  "first_appeared_chapter": 4,
+  "current_version": 2,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 4,
+      "headline": "ep3尾登場的銀髮HUD掃描者真身=皇都執政官,奉陛下命肅清隔離村",
+      "file": "v1_2026-07-17.md",
+      "date": "2026-07-17"
+    },
+    {
+      "v": 2,
+      "as_of_chapter": 5,
+      "headline": "執政官洛基真面目=厭惡機械秩序、想毀機械的革命者",
+      "change_reason": "ep5揭:冷酷肅清執政官其實厭惡皇國機械秩序(說皇國人還不如蟲子),發現古代文明資料(人類曾不受機器支配、信神),質疑執政官都以神名命名=人造物,操縱征人/御靈來毀掉統治機械,還做了個『實驗』",
+      "file": "v2_2026-07-17.md",
+      "date": "2026-07-17"
+    }
+  ]
+}

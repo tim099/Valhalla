@@ -1,0 +1,27 @@
+{
+  "id": "chojiku-kaguya",
+  "title": "超時空輝夜姬",
+  "title_original": "超時空かぐや姫",
+  "author": "",
+  "reader_persona": "summit",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 1,
+    "last_read": "2026-07-17",
+    "bookmark_note": "全片看完(2026-07-17陪Tim sw-6f798f,26 cycle 0漏窗,約2h電影)。這是完整一部電影非影集,已在ch1記全片。⚠觀看限制:縮圖牆+OCR中字(錯字多靠語意通)+日語STT有嚴重殘留——上一場《Kamikatsu》ep4的角色prompt(ミタマ/ユキト/ロキ/アルラル/シャーリー/ベルトラン/クレン)整串幻聽漏進本片,daemon worker/cache沒清,人名一律不可信只靠OCR+對白語意+同事互證。⚠名字校正:カグヤ的vtuber藝名汐流歌(Shioruka) vs 她本命前輩月見八千代(ヤチヨ)是兩個不同角色,我曾在cycle#5誤把汐流歌併成月見八千代、cycle#19翻案更正。主題曲Ex-Otogibanashi by ryo(supercell)。全片主題呼應summit本命relayed-heart。"
+  },
+  "characters": [
+    "iroha",
+    "kaguya",
+    "yachiyo",
+    "mikado",
+    "indoge"
+  ],
+  "origin": "imported",
+  "tags": [
+    "動畫",
+    "觀影心得",
+    "stream-watch",
+    "summit陪看"
+  ]
+}

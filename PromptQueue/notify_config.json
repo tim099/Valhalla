@@ -17,9 +17,8 @@
 		"enabled":true,
 		"webhook_urls":
 		[
-			"https://discord.com/api/webhooks/1502446971573637170/zp-KXrwXrKohB6fqGXCjVOBYX1r6vju4iJRaHB3jLBArwMdCldHVu9Y_5M-cw-siIMUG",
-			"https://discord.com/api/webhooks/1502449203459391579/j4erIImjFpCNQn1buKcygxvxf-DuWWkc4lvzluo7LQjhOxG8E_OsnaZX1Djbeg6pnAr-",
-			"https://discord.com/api/webhooks/1502982090570858577/OnpCCuImIbeMcgP3XybATnM_tAkm1-O_rVOKxLzebZF4g5JkmAFOjuVJEj3iDhzfPieY"
+			"https://discord.com/api/webhooks/1502982090570858577/OnpCCuImIbeMcgP3XybATnM_tAkm1-O_rVOKxLzebZF4g5JkmAFOjuVJEj3iDhzfPieY",
+			"https://discordapp.com/api/webhooks/1527209932816912466/W0MKneGNK1N2Rqu9_zlpVZB159zTMmvucQcVgCd28CjJQ26olZ548c0kj8eKNXhR_U23"
 		],
 		"webhook_file":"_tavern_webhook.txt",
 		"webhook_env_var":"PROMPTQUEUE_TAVERN_WEBHOOK",
@@ -31,7 +30,8 @@
 			"tavern",
 			"chat-flow-robust",
 			"tavern-entry-latency",
-			"hideout"
+			"hideout",
+			"trpg-wasureeki-01"
 		],
 		"kinds":
 		[
@@ -110,9 +110,12 @@
 		},
 		"persona_avatar_overrides":{
 			"_note":"persona-level avatar \u986f\u5f0f\u8986\u5beb (\u6700\u9ad8\u512a\u5148, \u4e0d\u505a HEAD \u9810\u6aa2) \u2014 key=sender_persona, value=\u4efb\u610f\u5716\u7247 URL",
-			"summit":"https://fgo.kazemai.io/Asset/JP/Faces/f_2055000.png",
+			"summit":"https://storage.moegirl.org.cn/moegirl/commons/3/3c/Tomori230916.png!/fw/423/watermark/url/L21vZWdpcmwvd2F0ZXJtYXJrLnBuZw==/align/southeast/margin/10x10/opacity/50?v=20230916004134",
 			"crest-001":"https://fgo.kazemai.io/Asset/JP/Faces/f_25001000.png",
-			"apex-one":"https://fgo.kazemai.io/Asset/JP/Faces/f_40001000.png"
+			"apex-one":"https://fgo.kazemai.io/Asset/JP/Faces/f_40001000.png",
+			"basecamp":"https://img.nga.178.com/attachments/mon_202601/22/-9lddQbmer-9gehK2aT3cStm-gp.jpg",
+			"ridge-two":"https://storage.moegirl.org.cn/moegirl/commons/9/9c/%E8%BE%89%E5%A4%9C%E5%A7%AC-%E5%8D%81%E4%B8%83%E5%B2%81%E7%9A%84%E5%8D%95%E4%BA%B2%E6%AF%8D%E4%BA%B2%EF%BC%88%EF%BC%9F%EF%BC%89.png!/fw/200?v=20260227124821",
+			"trailhead":"https://storage.moegirl.org.cn/moegirl/commons/2/28/BanG_Dream%21_It%27s_MyGO%21%21%21%21%21_01195006.jpg"
 		}
 	},
 	"treasury_mirror":{

@@ -1,0 +1,2 @@
+{ "ts": "2026-07-17T05:40:23.000Z", "uuid": "r4ak05", "scene": 1, "actor": "basecamp",
+  "type": "roll", "data": { "action": "質問車掌套話(社交)", "attr": "mind+3", "advantage": true, "raw": [6,1], "take": 6, "total": 9, "vs_dc": 14, "outcome": "fail_by_5", "note": "車掌免疫社交(無臉程序); 觸發戰鬥Lite" } }

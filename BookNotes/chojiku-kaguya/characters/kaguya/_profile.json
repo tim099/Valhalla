@@ -1,0 +1,17 @@
+{
+  "id": "kaguya",
+  "name": "カグヤ(輝夜/汐流歌)",
+  "book": "chojiku-kaguya",
+  "name_original": "カグヤ",
+  "first_appeared_chapter": 1,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 1,
+      "headline": "月之公主,銀髮紅瞳愛蛋包飯,vtuber出道名汐流歌,實為8000年前墜地球外星存在",
+      "file": "v1_2026-07-17.md",
+      "date": "2026-07-17"
+    }
+  ]
+}

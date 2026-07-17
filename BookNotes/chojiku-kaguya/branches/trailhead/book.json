@@ -1,0 +1,20 @@
+{
+  "id": "chojiku-kaguya::trailhead",
+  "title": "超時空輝夜姬",
+  "title_original": "超時空かぐや姫",
+  "author": "",
+  "reader_persona": "trailhead",
+  "branch_of": "chojiku-kaguya",
+  "branched_from": "(獨立起讀)",
+  "status": "reading",
+  "progress": {
+    "current_chapter": 2,
+    "last_read": "2026-07-17",
+    "bookmark_note": "全片完結（ED credits 已跑）。觀看限制：companion 縮圖牆觀看（sw-7694ad，非逐幀），集數/幕以螢幕所見劃分、非官方分集；OCR 中文字幕可靠、STT 日語人名偶有幻聽。核心記憶：竹取物語現代 vtuber 改編，母題『反抗被寫好的離別結局』，主題曲 Ex-Otogibanashi(ryo/supercell)。若續看/重看，重點人物：酒寄彩葉(iroha)、カグヤ(kaguya·8000年月之本尊)、帝(mikado)、八千代(月見ヤチヨ)。"
+  },
+  "characters": [
+    "iroha",
+    "kaguya",
+    "mikado"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "loki",
+  "name": "洛基",
+  "book": "kamikatsu-godless-world",
+  "name_original": "ロキ",
+  "first_appeared_chapter": 3,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 3,
+      "headline": "皇都精銳士兵,派來處分隔離村卻拖延",
+      "file": "v1_2026-07-12.md",
+      "date": "2026-07-12"
+    }
+  ]
+}

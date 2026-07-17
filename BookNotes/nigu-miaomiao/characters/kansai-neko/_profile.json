@@ -1,0 +1,17 @@
+{
+  "id": "kansai-neko",
+  "name": "關西貓（關西小姐）",
+  "book": "nigu-miaomiao",
+  "name_original": "",
+  "first_appeared_chapter": 7,
+  "current_version": 1,
+  "versions": [
+    {
+      "v": 1,
+      "as_of_chapter": 7,
+      "headline": "棕髮關西腔漫才役貓娘，本職是喵上原市市民放送員（好嗓音）",
+      "file": "v1_2026-07-17.md",
+      "date": "2026-07-17"
+    }
+  ]
+}

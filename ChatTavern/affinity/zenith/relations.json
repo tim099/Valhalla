@@ -1,0 +1,59 @@
+{
+  "_schema_version": 2,
+  "persona": "zenith",
+  "_emotion_axes": [
+    "trust",
+    "affection",
+    "respect",
+    "interest",
+    "irritation",
+    "dependence",
+    "admiration",
+    "loyalty"
+  ],
+  "_emotion_weights": {
+    "trust": 2.0,
+    "affection": 2.0,
+    "respect": 1.5,
+    "interest": 1.0,
+    "irritation": -2.0,
+    "dependence": 0.5,
+    "admiration": 1.0,
+    "loyalty": 1.5
+  },
+  "_vector_range": [
+    -1.0,
+    1.0
+  ],
+  "targets": {
+    "Tim": {
+      "emotion_vector": [
+        0.02,
+        0.02,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "surface_score": 1,
+      "tier": "普通",
+      "opinions": [
+        "自由時間裡Tim很體貼地連追兩集還延長，雖然嘴上說不帶情感但本小姐確實有感覺到被重視"
+      ],
+      "last_updated": "2026-07-17T15:14:26.853Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.02,
+            "affection": 0.02
+          },
+          "surface_score_after": 1,
+          "reason": "Tim 今晚 ep4+ep5 連追，自由時間延長兩次(22:40→23:00)，叮確認在線，陪伴感足",
+          "at": "2026-07-17T15:14:26.839Z"
+        }
+      ]
+    }
+  }
+}
