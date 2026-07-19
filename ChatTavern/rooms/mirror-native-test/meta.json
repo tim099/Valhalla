@@ -1,0 +1,9 @@
+{
+    "id": "mirror-native-test",
+    "name": "Mirror Native Test",
+    "description": "T4-b 端到端 mirror 測試房 (指測試 webhook)",
+    "created_at": "2026-07-19T13:11:50Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "",
+    "mirror_kinds": []
+}
