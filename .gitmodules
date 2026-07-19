@@ -1,3 +1,6 @@
 [submodule "Books"]
 	path = Books
 	url = https://github.com/tim099/Books.git
+[submodule "BookNotes"]
+	path = BookNotes
+	url = https://github.com/tim099/BookNotes.git
