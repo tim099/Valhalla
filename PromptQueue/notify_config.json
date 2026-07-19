@@ -112,7 +112,6 @@
     "enabled": true,
     "webhook_urls": [
       "https://discord.com/api/webhooks/1502621400652058675/wv33M8TEDaY-lIi-ybO0ZSvR-DE6NGl1bGDjLiqyKogB1SaxYvffqzniiYhqnLmbTCnY",
-      "https://discord.com/api/webhooks/1502626038616948776/Mju7yfLhgeMi_l44LejoixJ4guuctj5Uve-Q6UFZ76ZwPrrbnuqETBmDbP0SdkqpINYk",
       "https://discord.com/api/webhooks/1503681272789340251/1G8UGAXF5dnvePqytTttdF9loO0wAWPS6KGxqbtWtf2qOVNySe2MfoZcEbo6cL7MbU2m"
     ],
     "webhook_file": "_treasury_webhook.txt",
