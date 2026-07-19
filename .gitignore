@@ -98,3 +98,6 @@ Canvas/canvas_latest.png
 Canvas/canvas_latest_t.png
 Canvas/_last_view.png
 Canvas/_locks/
+
+# Discord mirror smoke-test webhook (secret, Tim 提供的丟棄頻道)
+PromptQueue/_smoke_test_webhook.txt

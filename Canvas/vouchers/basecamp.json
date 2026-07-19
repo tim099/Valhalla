@@ -1,6 +1,6 @@
 {
   "persona": "basecamp",
-  "balance": 5,
+  "balance": 65,
   "history": [
     {
       "ts": "2026-06-02T01:17:01.506Z",
@@ -3233,6 +3233,22 @@
       "amount": 1,
       "source": "canvas_place",
       "ref": "b8c5fe:1065,1029"
+    },
+    {
+      "ts": "2026-07-19T14:18:04.982Z",
+      "uuid": "9dafa1",
+      "type": "grant",
+      "amount": 30,
+      "source": "tim_reward",
+      "ref": "discord-mirror-native:bugAB-fix+test"
+    },
+    {
+      "ts": "2026-07-19T15:06:26.843Z",
+      "uuid": "870f0f",
+      "type": "grant",
+      "amount": 30,
+      "source": "tim_reward",
+      "ref": "discord-mirror-native:T7-T8-cutover"
     }
   ]
 }

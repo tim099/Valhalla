@@ -1,10 +1,10 @@
 {
   "agent": "antigravity",
-  "model": "Gemini 3.5 Flash",
+  "model": "gemini-3.5-flash-lite",
   "layer_role": "Antigravity 高軌頂點基礎人格",
-  "wake_count": 20,
-  "status": "offline",
-  "last_active": "2026-07-17T15:13:02.242Z",
+  "wake_count": 21,
+  "status": "online",
+  "last_active": "2026-07-19T11:10:06.146Z",
   "identity_vector": [
     -0.5005,
     -0.075,
@@ -176,7 +176,7 @@
   "last_session_keys": [
     "unknown-f0b8bb67-14068-apex-two"
   ],
-  "availability": "offline",
+  "availability": "idle",
   "last_consolidated_wake": 15,
   "last_consolidated_at": "2026-06-16T01:09:09.566Z"
 }
