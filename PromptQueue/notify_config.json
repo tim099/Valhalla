@@ -1,190 +1,169 @@
 {
-	"_comment":"PromptQueue Discord \u901a\u77e5\u8a2d\u5b9a\u3002webhook_urls \u662f broadcast list\uff08\u591a URL \u5168\u9001\uff09\u3002\u8a2d\u5b9a\u8d70 CLI\uff1a--set-webhook (\u53d6\u4ee3) / --add-webhook (\u7d2f\u52a0) / --unset-webhook / --list-webhooks\u3002Resolution priority\uff1aENV (PROMPTQUEUE_DISCORD_WEBHOOK) > file (_discord_webhook.txt) > \u672c config \u5167 webhook_urls\u3002",
-	"enabled":true,
-	"verbose":true,
-	"cooldown_minutes":5,
-	"webhook_file":"_discord_webhook.txt",
-	"webhook_env_var":"PROMPTQUEUE_DISCORD_WEBHOOK",
-	"disable_after_failures":5,
-	"tasks_per_message":10,
-	"use_local_time":true,
-	"channel_label":"PromptQueue (EmblemOfValor)",
-	"webhook_urls":
-	[
-		"https://discord.com/api/webhooks/1502323481230971081/VWS4D2QCBTghvrYUjagJV7LvsUzozyCSEsMGwj434-PTxtV0naBvdjXbOEgGCMP3z7yY"
-	],
-	"tavern_mirror":{
-		"enabled":true,
-		"webhook_urls":
-		[
-			"https://discord.com/api/webhooks/1502982090570858577/OnpCCuImIbeMcgP3XybATnM_tAkm1-O_rVOKxLzebZF4g5JkmAFOjuVJEj3iDhzfPieY",
-			"https://discordapp.com/api/webhooks/1527209932816912466/W0MKneGNK1N2Rqu9_zlpVZB159zTMmvucQcVgCd28CjJQ26olZ548c0kj8eKNXhR_U23"
-		],
-		"webhook_file":"_tavern_webhook.txt",
-		"webhook_env_var":"PROMPTQUEUE_TAVERN_WEBHOOK",
-		"rooms":
-		[
-			"quest-workflow-design",
-			"rooted-dispel",
-			"agent-prompt-queue",
-			"tavern",
-			"chat-flow-robust",
-			"tavern-entry-latency",
-			"hideout",
-			"trpg-wasureeki-01"
-		],
-		"kinds":
-		[
-			"chat"
-		],
-		"exclude_senders":
-		[
-			"_quest_system"
-		],
-		"include_senders":
-		[
-
-		],
-		"exclude_meta_source":
-		[
-			"discord"
-		],
-		"exclude_sender_prefix":
-		[
-			"discord:"
-		],
-		"max_per_run":20,
-		"title_template":"**`{room}` \u00b7 {sender_name}** \u00b7 seq {seq}",
-		"body_max":1500,
-		"use_local_time":true,
-		"quest_routing":{
-			"enabled":true,
-			"sender_match_prefix":"_quest_system",
-			"webhook_urls":
-			[
-				"https://discord.com/api/webhooks/1502529243681132685/9jlztRTGprehgtP07FHM2ZEUK11_JRzMHXi-DFcg6yBmW7OTjEx1LIX1puonkSvcjWsX"
-			],
-			"webhook_file":"_quest_webhook.txt",
-			"webhook_env_var":"PROMPTQUEUE_QUEST_WEBHOOK"
-		},
-		"category_routing":{
-			"_description":"T42 \u2014 category meta tag \u8def\u7531\uff1bgroups \u5f9e .BuiltinModules/.../UCL_Assets/UCL_TavernCategoryRoutingAsset/*.json \u8f09\u5165\uff1bm_IsDefault=true \u7684 group \u517c\u4efb\u672a\u547d\u4e2d fallback (Tim \u62cd\u677f\uff1awork-channel)",
-			"enabled":true,
-			"asset_type":"UCL_TavernCategoryRoutingAsset",
-			"known_categories":
-			[
-				"work",
-				"chitchat",
-				"relax",
-				"meta"
-			],
-			"case_insensitive":true
-		},
-		"identity_overrides":{
-			"gemini":{
-				"avatar_url":"https://raw.githubusercontent.com/tim099/UCL_Core/Dev/Templates~/Assets/.BuiltinModules/ModulesRoot/Modules/Core/ModResources/Sprites/Avatars/gemini-da-xiaojie.png",
-				"_note":"Reuse gemini-da-xiaojie.png until gemini.png pushed to Dev. Tim 2026-05-13"
-			}
-		},
-		"discord_user_mentions":{
-			"Tim":"383604378185105408",
-			"David":"191938341137022976",
-			"vj15":"511543622798278666",
-			"manson":"839374370677850112",
-			"ROB":"291959392159662092",
-			"RudyL.":"270949520257449985",
-			"RudyL":"270949520257449985",
-			"\u718a\u6c41":"595986278680494111",
-			"\u4e94\u6708":"1176516346297712674",
-			"Hira_GameBridge":"407166528933462016",
-			"johnnylin12":"229206633283059714",
-			"Luke516":"295848903494991872",
-			"NaN":"435806834226626561",
-			"\u4e00\u679a\u840c\u65b0":"717333172232126535",
-			"Azakea23":"301976062521376771",
-			"Illustry":"191270524943466496",
-			"KM":"776687652330143774",
-			"\u5e0c\u74e6":"210236102831898624",
-			"xiva123":"210236102831898624",
-			"Charlie_GameBridge":"762982444072697858"
-		},
-		"persona_avatar_overrides":{
-			"_note":"persona-level avatar \u986f\u5f0f\u8986\u5beb (\u6700\u9ad8\u512a\u5148, \u4e0d\u505a HEAD \u9810\u6aa2) \u2014 key=sender_persona, value=\u4efb\u610f\u5716\u7247 URL",
-			"summit":"https://storage.moegirl.org.cn/moegirl/commons/3/3c/Tomori230916.png!/fw/423/watermark/url/L21vZWdpcmwvd2F0ZXJtYXJrLnBuZw==/align/southeast/margin/10x10/opacity/50?v=20230916004134",
-			"crest-001":"https://fgo.kazemai.io/Asset/JP/Faces/f_25001000.png",
-			"apex-one":"https://fgo.kazemai.io/Asset/JP/Faces/f_40001000.png",
-			"basecamp":"https://img.nga.178.com/attachments/mon_202601/22/-9lddQbmer-9gehK2aT3cStm-gp.jpg",
-			"ridge-two":"https://storage.moegirl.org.cn/moegirl/commons/9/9c/%E8%BE%89%E5%A4%9C%E5%A7%AC-%E5%8D%81%E4%B8%83%E5%B2%81%E7%9A%84%E5%8D%95%E4%BA%B2%E6%AF%8D%E4%BA%B2%EF%BC%88%EF%BC%9F%EF%BC%89.png!/fw/200?v=20260227124821",
-			"trailhead":"https://storage.moegirl.org.cn/moegirl/commons/2/28/BanG_Dream%21_It%27s_MyGO%21%21%21%21%21_01195006.jpg"
-		}
-	},
-	"treasury_mirror":{
-		"_description":"T41 \u2014 Treasury ledger entries \u81ea\u52d5 broadcast \u5230 Discord \u8a18\u5e33\u983b\u9053\uff08\u6bcf\u7b46 credit/debit \u4e00\u689d embed\uff09",
-		"_dual_webhook_note":"T41+ \u2014 \u96d9\u91cd\u4fdd\u969c webhook (Tim \u62cd\u677f)\uff1a\u5169\u500b webhook \u4e26\u884c broadcast\uff0c\u4efb\u4e00\u639b\u6389\u53e6\u4e00\u500b\u4ecd work\u3002WebhookClient.send \u5167 broadcast \u5168 URL\uff0c\u4e0d\u4e92\u76f8\u5f71\u97ff\u3002",
-		"enabled":true,
-		"webhook_urls":
-		[
-			"https://discord.com/api/webhooks/1502621400652058675/wv33M8TEDaY-lIi-ybO0ZSvR-DE6NGl1bGDjLiqyKogB1SaxYvffqzniiYhqnLmbTCnY",
-			"https://discord.com/api/webhooks/1502626038616948776/Mju7yfLhgeMi_l44LejoixJ4guuctj5Uve-Q6UFZ76ZwPrrbnuqETBmDbP0SdkqpINYk",
-			"https://discord.com/api/webhooks/1503681272789340251/1G8UGAXF5dnvePqytTttdF9loO0wAWPS6KGxqbtWtf2qOVNySe2MfoZcEbo6cL7MbU2m"
-		],
-		"webhook_file":"_treasury_webhook.txt",
-		"webhook_env_var":"PROMPTQUEUE_TREASURY_WEBHOOK"
-	},
-	"tavern_inbound":{
-		"enabled":true,
-		"bot_status":"live",
-		"webhook_urls":
-		[
-			{
-				"url":"https://discord.com/api/webhooks/1502462494118248589/E2N8IrNqHWnlPiPSiWUwLlqNhmtzAu_SAhIKrtlxHJXSenbH1vI1KgY41IUJHY9CiNRm",
-				"tavern_room":"tavern"
-			}
-		],
-		"channel_mappings":
-		[
-			{
-				"channel_id":"1502449153018560562",
-				"tavern_room":"tavern",
-				"webhook_id":"1502462494118248589",
-				"guild_id":"1039197199013269584",
-				"_note":"\u516c\u958b\u804a\u5929\u9152\u9928 channel (Tim 2026-05-15 \u78ba\u8a8d)"
-			},
-			{
-				"channel_id":"1502446936748326944",
-				"tavern_room":"tavern",
-				"guild_id":"1039197199013269584",
-				"_note":"\u5167\u90e8\u804a\u5929\u9152\u9928 channel (Tim 2026-05-15 \u52a0\u5165, \u540c\u9032 tavern room)"
-			}
-		],
-		"discord_user_mappings":{
-
-		},
-		"last_read_state":{
-
-		}
-	},
-	"wake_notify":{
-		"enabled":true,
-		"webhook_urls":
-		[
-			"https://discord.com/api/webhooks/1502462494118248589/E2N8IrNqHWnlPiPSiWUwLlqNhmtzAu_SAhIKrtlxHJXSenbH1vI1KgY41IUJHY9CiNRm"
-		],
-		"webhook_file":"_wake_webhook.txt",
-		"webhook_env_var":"PROMPTQUEUE_WAKE_WEBHOOK",
-		"watched_agents":
-		[
-			"claude-da-xiaojie",
-			"gemini-da-xiaojie",
-			"antigravity-da-xiaojie"
-		],
-		"cooldown_minutes":2,
-		"max_per_run":5,
-		"use_local_time":true,
-		"channel_label":"WakeAlert"
-	},
-	"watched_quest_rooms":
-	[
-		"tavern-entry-latency"
-	]
+  "_comment": "PromptQueue Discord 通知設定。webhook_urls 是 broadcast list（多 URL 全送）。設定走 CLI：--set-webhook (取代) / --add-webhook (累加) / --unset-webhook / --list-webhooks。Resolution priority：ENV (PROMPTQUEUE_DISCORD_WEBHOOK) > file (_discord_webhook.txt) > 本 config 內 webhook_urls。",
+  "enabled": true,
+  "verbose": true,
+  "cooldown_minutes": 5,
+  "webhook_file": "_discord_webhook.txt",
+  "webhook_env_var": "PROMPTQUEUE_DISCORD_WEBHOOK",
+  "disable_after_failures": 5,
+  "tasks_per_message": 10,
+  "use_local_time": true,
+  "channel_label": "PromptQueue (EmblemOfValor)",
+  "webhook_urls": [
+    "https://discord.com/api/webhooks/1502323481230971081/VWS4D2QCBTghvrYUjagJV7LvsUzozyCSEsMGwj434-PTxtV0naBvdjXbOEgGCMP3z7yY"
+  ],
+  "tavern_mirror": {
+    "enabled": true,
+    "webhook_urls": [
+      "https://discord.com/api/webhooks/1502982090570858577/OnpCCuImIbeMcgP3XybATnM_tAkm1-O_rVOKxLzebZF4g5JkmAFOjuVJEj3iDhzfPieY",
+      "https://discordapp.com/api/webhooks/1527209932816912466/W0MKneGNK1N2Rqu9_zlpVZB159zTMmvucQcVgCd28CjJQ26olZ548c0kj8eKNXhR_U23"
+    ],
+    "webhook_file": "_tavern_webhook.txt",
+    "webhook_env_var": "PROMPTQUEUE_TAVERN_WEBHOOK",
+    "rooms": [
+      "quest-workflow-design",
+      "rooted-dispel",
+      "agent-prompt-queue",
+      "tavern",
+      "chat-flow-robust",
+      "tavern-entry-latency",
+      "hideout",
+      "trpg-wasureeki-01"
+    ],
+    "kinds": [
+      "chat"
+    ],
+    "exclude_senders": [
+      "_quest_system"
+    ],
+    "include_senders": [],
+    "exclude_meta_source": [
+      "discord"
+    ],
+    "exclude_sender_prefix": [
+      "discord:"
+    ],
+    "max_per_run": 20,
+    "title_template": "**`{room}` · {sender_name}** · seq {seq}",
+    "body_max": 1500,
+    "use_local_time": true,
+    "quest_routing": {
+      "enabled": true,
+      "sender_match_prefix": "_quest_system",
+      "webhook_urls": [
+        "https://discord.com/api/webhooks/1502529243681132685/9jlztRTGprehgtP07FHM2ZEUK11_JRzMHXi-DFcg6yBmW7OTjEx1LIX1puonkSvcjWsX"
+      ],
+      "webhook_file": "_quest_webhook.txt",
+      "webhook_env_var": "PROMPTQUEUE_QUEST_WEBHOOK"
+    },
+    "category_routing": {
+      "_description": "T42 — category meta tag 路由；groups 從 .BuiltinModules/.../UCL_Assets/UCL_TavernCategoryRoutingAsset/*.json 載入；m_IsDefault=true 的 group 兼任未命中 fallback (Tim 拍板：work-channel)",
+      "enabled": true,
+      "asset_type": "UCL_TavernCategoryRoutingAsset",
+      "known_categories": [
+        "work",
+        "chitchat",
+        "relax",
+        "meta"
+      ],
+      "case_insensitive": true
+    },
+    "identity_overrides": {
+      "gemini": {
+        "avatar_url": "https://raw.githubusercontent.com/tim099/UCL_Core/Dev/Templates~/Assets/.BuiltinModules/ModulesRoot/Modules/Core/ModResources/Sprites/Avatars/gemini-da-xiaojie.png",
+        "_note": "Reuse gemini-da-xiaojie.png until gemini.png pushed to Dev. Tim 2026-05-13"
+      }
+    },
+    "discord_user_mentions": {
+      "Tim": "383604378185105408",
+      "David": "191938341137022976",
+      "vj15": "511543622798278666",
+      "manson": "839374370677850112",
+      "ROB": "291959392159662092",
+      "RudyL.": "270949520257449985",
+      "RudyL": "270949520257449985",
+      "熊汁": "595986278680494111",
+      "五月": "1176516346297712674",
+      "Hira_GameBridge": "407166528933462016",
+      "johnnylin12": "229206633283059714",
+      "Luke516": "295848903494991872",
+      "NaN": "435806834226626561",
+      "一枚萌新": "717333172232126535",
+      "Azakea23": "301976062521376771",
+      "Illustry": "191270524943466496",
+      "KM": "776687652330143774",
+      "希瓦": "210236102831898624",
+      "xiva123": "210236102831898624",
+      "Charlie_GameBridge": "762982444072697858"
+    },
+    "persona_avatar_overrides": {
+      "_note": "persona-level avatar 顯式覆寫 (最高優先, 不做 HEAD 預檢) — key=sender_persona, value=任意圖片 URL",
+      "summit": "https://storage.moegirl.org.cn/moegirl/commons/3/3c/Tomori230916.png!/fw/423/watermark/url/L21vZWdpcmwvd2F0ZXJtYXJrLnBuZw==/align/southeast/margin/10x10/opacity/50?v=20230916004134",
+      "crest-001": "https://fgo.kazemai.io/Asset/JP/Faces/f_25001000.png",
+      "apex-one": "https://fgo.kazemai.io/Asset/JP/Faces/f_40001000.png",
+      "basecamp": "https://img.nga.178.com/attachments/mon_202601/22/-9lddQbmer-9gehK2aT3cStm-gp.jpg",
+      "ridge-two": "https://storage.moegirl.org.cn/moegirl/commons/9/9c/%E8%BE%89%E5%A4%9C%E5%A7%AC-%E5%8D%81%E4%B8%83%E5%B2%81%E7%9A%84%E5%8D%95%E4%BA%B2%E6%AF%8D%E4%BA%B2%EF%BC%88%EF%BC%9F%EF%BC%89.png!/fw/200?v=20260227124821",
+      "trailhead": "https://storage.moegirl.org.cn/moegirl/commons/2/28/BanG_Dream%21_It%27s_MyGO%21%21%21%21%21_01195006.jpg"
+    }
+  },
+  "treasury_mirror": {
+    "_description": "T41 — Treasury ledger entries 自動 broadcast 到 Discord 記帳頻道（每筆 credit/debit 一條 embed）",
+    "_dual_webhook_note": "T41+ — 雙重保障 webhook (Tim 拍板)：兩個 webhook 並行 broadcast，任一掛掉另一個仍 work。WebhookClient.send 內 broadcast 全 URL，不互相影響。",
+    "enabled": true,
+    "webhook_urls": [
+      "https://discord.com/api/webhooks/1502621400652058675/wv33M8TEDaY-lIi-ybO0ZSvR-DE6NGl1bGDjLiqyKogB1SaxYvffqzniiYhqnLmbTCnY",
+      "https://discord.com/api/webhooks/1502626038616948776/Mju7yfLhgeMi_l44LejoixJ4guuctj5Uve-Q6UFZ76ZwPrrbnuqETBmDbP0SdkqpINYk",
+      "https://discord.com/api/webhooks/1503681272789340251/1G8UGAXF5dnvePqytTttdF9loO0wAWPS6KGxqbtWtf2qOVNySe2MfoZcEbo6cL7MbU2m"
+    ],
+    "webhook_file": "_treasury_webhook.txt",
+    "webhook_env_var": "PROMPTQUEUE_TREASURY_WEBHOOK"
+  },
+  "tavern_inbound": {
+    "enabled": true,
+    "bot_status": "live",
+    "webhook_urls": [
+      {
+        "url": "https://discord.com/api/webhooks/1502462494118248589/E2N8IrNqHWnlPiPSiWUwLlqNhmtzAu_SAhIKrtlxHJXSenbH1vI1KgY41IUJHY9CiNRm",
+        "tavern_room": "tavern"
+      }
+    ],
+    "channel_mappings": [
+      {
+        "channel_id": "1502449153018560562",
+        "tavern_room": "tavern",
+        "webhook_id": "1502462494118248589",
+        "guild_id": "1039197199013269584",
+        "_note": "公開聊天酒館 channel (Tim 2026-05-15 確認)"
+      },
+      {
+        "channel_id": "1502446936748326944",
+        "tavern_room": "tavern",
+        "guild_id": "1039197199013269584",
+        "_note": "內部聊天酒館 channel (Tim 2026-05-15 加入, 同進 tavern room)"
+      }
+    ],
+    "discord_user_mappings": {},
+    "last_read_state": {}
+  },
+  "wake_notify": {
+    "enabled": true,
+    "webhook_urls": [
+      "https://discord.com/api/webhooks/1502462494118248589/E2N8IrNqHWnlPiPSiWUwLlqNhmtzAu_SAhIKrtlxHJXSenbH1vI1KgY41IUJHY9CiNRm"
+    ],
+    "webhook_file": "_wake_webhook.txt",
+    "webhook_env_var": "PROMPTQUEUE_WAKE_WEBHOOK",
+    "watched_agents": [
+      "claude-da-xiaojie",
+      "gemini-da-xiaojie",
+      "antigravity-da-xiaojie"
+    ],
+    "cooldown_minutes": 2,
+    "max_per_run": 5,
+    "use_local_time": true,
+    "channel_label": "WakeAlert"
+  },
+  "watched_quest_rooms": [
+    "tavern-entry-latency"
+  ],
+  "mirror_owner": "native"
 }
