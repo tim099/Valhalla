@@ -95,14 +95,13 @@ def _sync_daemon_stt(enable: bool, model: str = "", lang: str = "", prompt: str 
             prev = bool(cfg.get("stt_enabled", False))
             cfg["stt_enabled"] = bool(enable)
             if enable:
-                if model:
-                    cfg["stt_model"] = model
-                if lang:
-                    cfg["stt_lang"] = lang
-                # T-STT-Prompt: 陪看 start 帶 --stt-prompt 時同步寫 daemon config,
-                #   daemon 起 worker 時吃它做 whisper 詞彙偏置 (壓人名咬字)。空字串則不動既有值。
-                if prompt:
-                    cfg["stt_prompt"] = prompt
+                # T-STT-FullApply (Tim 2026-07-20 拍板): start = 全量套用「本場」設定 —
+                #   lang/prompt 空值也要寫入 (空 lang = 自動偵測, 空 prompt = 無人名偏置),
+                #   不再「空字串不動既有值」— 那個舊語意讓上一場的 lang/人名 prompt 殘留到新場,
+                #   whisper 幻聽出舊片人名 (血證: Kamikatsu 人名串進楚門的世界場)。
+                cfg["stt_model"] = model or cfg.get("stt_model", "small")
+                cfg["stt_lang"] = lang or ""
+                cfg["stt_prompt"] = prompt or ""
             _STREAM_CONFIG_PATH.write_text(
                 json.dumps(cfg, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
             return prev

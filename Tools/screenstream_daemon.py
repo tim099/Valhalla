@@ -488,7 +488,10 @@ def main_loop() -> int:
     # T-STT-Cache — STT worker lifecycle 跟 stt_enabled 同步 (對偶 ocr_pool)
     stt_worker = None
     last_stt_enabled = False
-    last_stt_prompt = ""   # T-STT-Prompt: 追 prompt 變動, 偵測「改了沒重起」的靜默失效
+    # T-STT-AutoRestart (Tim 2026-07-20): worker 運行中的 (model, lang, prompt) 快照 —
+    #   config 任一項被改 → 自動 stop + 重起套用, 取代舊版「只 log WARN 等人工 toggle」的靜默失效設計
+    #   (血證: 換片後 stt_lang/stt_prompt 殘留上一場, whisper 幻聽出舊片人名)
+    last_stt_cfg = ("", "", "")
     try:
         from screenstream_audio_viz import (
             AudioCapture,
@@ -685,9 +688,27 @@ def main_loop() -> int:
 
             # T-STT-Cache (Quest T07, kotoko 2026-07-05) — STT worker lifecycle 跟 stt_enabled toggle 同步
             # 物理意義: toggle on → 起 SttCacheWorker (自開 loopback 連續錄 chunk 轉錄寫 stt cache);
-            #          off → stop 釋放 thread + 卸 whisper。model/lang/chunk 改動需 toggle off→on 重起才生效。
+            #          off → stop 釋放 thread + 卸 whisper。
             # 數值影響: whisper GPU 常駐 (small ~460MB VRAM); fail-soft — 依賴缺只 log WARN, 不影響截圖主流程。
             curr_stt_enabled = bool(cfg.get("stt_enabled", False))
+            # T-STT-AutoRestart (Tim 2026-07-20) — worker 運行中偵測 (model, lang, prompt) 任一改變 →
+            #   自動 stop 讓下方 enabled-transition 分支以新設定重起, 消滅「改設定沒 toggle = 靜默沿用舊值」整族 bug。
+            # 物理意義: worker 的 model/lang/prompt 綁建構子生命週期, 中途不可熱改 — 故設定變更 = 必須換一顆 worker。
+            # 數值影響: 重起成本 = 卸載+重載 whisper model (~數秒), 只在設定真的變了才發生; chunk 銜接損失 ≤1 chunk。
+            curr_stt_cfg = (
+                str(cfg.get("stt_model", "small")),
+                str(cfg.get("stt_lang") or ""),
+                str(cfg.get("stt_prompt") or "").strip(),
+            )
+            if stt_worker is not None and curr_stt_cfg != last_stt_cfg:
+                log(f"stt 設定改變 → 自動重起 worker 套用 (model={curr_stt_cfg[0]}, lang='{curr_stt_cfg[1]}', "
+                    f"prompt='{curr_stt_cfg[2][:30]}')")
+                try:
+                    stt_worker.stop()
+                except Exception as e:
+                    log(f"stt worker stop fail (auto-restart): {e}", "WARN")
+                stt_worker = None
+                last_stt_enabled = False   # 强制走下方 enabled-transition 的啟動分支重起
             if curr_stt_enabled != last_stt_enabled:
                 if curr_stt_enabled:
                     try:
@@ -710,10 +731,11 @@ def main_loop() -> int:
                                 prompt=_stt_prompt,
                             )
                             stt_worker.start()
-                            last_stt_prompt = _stt_prompt
+                            # T-STT-AutoRestart: 記下這顆 worker 實際吃到的設定快照, 供上方變更偵測比對
+                            last_stt_cfg = curr_stt_cfg
                             _pnote = f", prompt='{_stt_prompt[:40]}…'" if _stt_prompt else ""
                             log(f"stt cache worker started (model={stt_worker.model_size}, "
-                                f"chunk={stt_worker.chunk_sec}s{_pnote})")
+                                f"lang='{cfg.get('stt_lang') or ''}', chunk={stt_worker.chunk_sec}s{_pnote})")
                     except Exception as e:
                         log(f"stt worker start fail: {e}", "WARN")
                         stt_worker = None
@@ -732,14 +754,7 @@ def main_loop() -> int:
                 log(f"stt worker dead (will fail-soft): {stt_worker.error()}", "WARN")
                 stt_worker = None
                 last_stt_enabled = False
-            # T-STT-Prompt 反靜默失效: worker 運行中但 config stt_prompt 被改了 (沒 toggle 重起) →
-            #   新 prompt 不會生效 (綁 worker 生命週期)。MUST 明確 log 一次, 別讓「設了 prompt 卻沒吃到」靜默。
-            if stt_worker is not None:
-                _cur_prompt = str(cfg.get("stt_prompt") or "").strip()
-                if _cur_prompt != last_stt_prompt:
-                    log(f"stt_prompt 已改但 worker 未重起 → 新 prompt 尚未生效; "
-                        f"toggle stt_enabled off→on 才套用 (舊='{last_stt_prompt[:30]}' 新='{_cur_prompt[:30]}')", "WARN")
-                    last_stt_prompt = _cur_prompt   # 記住已警告, 避免每 loop 洗版
+            # (舊版 T-STT-Prompt「改了沒重起只 log WARN」偵測已由上方 T-STT-AutoRestart 自動重起機制取代)
 
             # T-AudioLog (Tim 2026-06-08, summit ship) — 每 N frame 觸發 dump audio log
             # 物理意義: 給 screenstream_montage.py 載入後可按 cycle 區間 slice 渲染 audio strip
