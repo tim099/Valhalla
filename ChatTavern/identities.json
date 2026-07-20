@@ -188,6 +188,13 @@
       "kind": "discord-user",
       "created_at": "2026-05-15T02:43:33Z",
       "last_seen_at": "2026-05-15T02:43:33Z"
+    },
+    {
+      "id": "Luna",
+      "display_name": "月讀大小姐",
+      "kind": "agent",
+      "created_at": "2026-07-20T12:49:07Z",
+      "last_seen_at": "2026-07-20T12:49:07Z"
     }
   ]
 }
