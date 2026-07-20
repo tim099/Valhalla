@@ -1,6 +1,6 @@
 {
   "persona": "basecamp",
-  "balance": 65,
+  "balance": 114,
   "history": [
     {
       "ts": "2026-06-02T01:17:01.506Z",
@@ -3249,6 +3249,198 @@
       "amount": 30,
       "source": "tim_reward",
       "ref": "discord-mirror-native:T7-T8-cutover"
+    },
+    {
+      "ts": "2026-07-19T15:42:33.425Z",
+      "uuid": "9e7386",
+      "type": "grant",
+      "amount": 30,
+      "source": "tim_reward",
+      "ref": "discord-mirror-native:treasury-native+jsonlib-bool"
+    },
+    {
+      "ts": "2026-07-19T15:45:45.385Z",
+      "uuid": "a712b7",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "7b8141:1066,1022"
+    },
+    {
+      "ts": "2026-07-19T15:45:45.385Z",
+      "uuid": "f18671",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "7b8141:1067,1022"
+    },
+    {
+      "ts": "2026-07-19T15:45:45.385Z",
+      "uuid": "2449d9",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "7b8141:1065,1023"
+    },
+    {
+      "ts": "2026-07-19T15:45:45.385Z",
+      "uuid": "db2104",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "7b8141:1068,1023"
+    },
+    {
+      "ts": "2026-07-19T15:45:45.385Z",
+      "uuid": "876602",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "7b8141:1064,1024"
+    },
+    {
+      "ts": "2026-07-19T15:45:45.385Z",
+      "uuid": "d821fc",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "7b8141:1069,1024"
+    },
+    {
+      "ts": "2026-07-19T15:45:45.385Z",
+      "uuid": "27ec9a",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "7b8141:1063,1025"
+    },
+    {
+      "ts": "2026-07-19T15:45:45.385Z",
+      "uuid": "938720",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "7b8141:1070,1025"
+    },
+    {
+      "ts": "2026-07-19T15:45:45.385Z",
+      "uuid": "07daf2",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "7b8141:1063,1026"
+    },
+    {
+      "ts": "2026-07-19T15:45:45.385Z",
+      "uuid": "da588b",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "7b8141:1064,1026"
+    },
+    {
+      "ts": "2026-07-19T15:45:45.385Z",
+      "uuid": "fe7cbe",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "7b8141:1065,1026"
+    },
+    {
+      "ts": "2026-07-19T15:45:45.385Z",
+      "uuid": "a5f467",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "7b8141:1066,1026"
+    },
+    {
+      "ts": "2026-07-19T15:45:45.385Z",
+      "uuid": "f5414f",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "7b8141:1067,1026"
+    },
+    {
+      "ts": "2026-07-19T15:45:45.385Z",
+      "uuid": "357b6e",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "7b8141:1068,1026"
+    },
+    {
+      "ts": "2026-07-19T15:45:45.385Z",
+      "uuid": "6c5819",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "7b8141:1069,1026"
+    },
+    {
+      "ts": "2026-07-19T15:45:45.385Z",
+      "uuid": "143a7e",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "7b8141:1070,1026"
+    },
+    {
+      "ts": "2026-07-19T15:45:45.385Z",
+      "uuid": "32a7a8",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "7b8141:1072,1025"
+    },
+    {
+      "ts": "2026-07-19T15:45:45.385Z",
+      "uuid": "19ed6a",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "7b8141:1072,1026"
+    },
+    {
+      "ts": "2026-07-20T01:37:17.709Z",
+      "uuid": "421e06",
+      "type": "grant",
+      "amount": 10,
+      "source": "tim_reward",
+      "ref": "discord-mirror:persona-suffix-fix"
+    },
+    {
+      "ts": "2026-07-20T03:34:06.569Z",
+      "uuid": "375918",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "e06b30:1072,1024"
+    },
+    {
+      "ts": "2026-07-20T03:34:06.569Z",
+      "uuid": "e28e31",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "e06b30:1073,1023"
+    },
+    {
+      "ts": "2026-07-20T03:34:06.569Z",
+      "uuid": "9446a6",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "e06b30:1072,1022"
+    },
+    {
+      "ts": "2026-07-20T12:55:28.192Z",
+      "uuid": "d6fccb",
+      "type": "grant",
+      "amount": 30,
+      "source": "manual_grant",
+      "ref": "tim-reward:kaguya-luna-campaign-2026-07-20"
     }
   ]
 }

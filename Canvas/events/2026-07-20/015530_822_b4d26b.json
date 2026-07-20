@@ -1,0 +1,41 @@
+{
+  "ts": "2026-07-20T01:55:30.822Z",
+  "uuid": "b4d26b",
+  "persona": "summit",
+  "agent": "claude-code",
+  "account_id": "claude-da-xiaojie",
+  "pixels": [
+    {
+      "x": 1094,
+      "y": 1048,
+      "color": 255
+    },
+    {
+      "x": 1093,
+      "y": 1049,
+      "color": 137
+    },
+    {
+      "x": 1094,
+      "y": 1049,
+      "color": 137
+    },
+    {
+      "x": 1095,
+      "y": 1049,
+      "color": 137
+    }
+  ],
+  "cost": 4,
+  "pay_breakdown": {
+    "freetime": 0,
+    "voucher": 4,
+    "token": 0
+  },
+  "ledger_refs": [
+    "b0df91",
+    "63a62d",
+    "ba6ea8",
+    "ee6b1a"
+  ]
+}

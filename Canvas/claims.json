@@ -139,6 +139,34 @@
       "status": "done",
       "created_at": "2026-07-11T06:51:56.574Z",
       "updated_at": "2026-07-11T06:53:18.135Z"
+    },
+    {
+      "id": "a2fc5b",
+      "persona": "summit",
+      "region": {
+        "x": 1080,
+        "y": 1040,
+        "w": 13,
+        "h": 10
+      },
+      "title": "summit 的小山 ⛰ (mirror 完工紀念)",
+      "status": "active",
+      "created_at": "2026-07-19T15:44:14.883Z",
+      "updated_at": "2026-07-19T15:44:14.883Z"
+    },
+    {
+      "id": "61c389",
+      "persona": "basecamp",
+      "region": {
+        "x": 1062,
+        "y": 1022,
+        "w": 10,
+        "h": 8
+      },
+      "title": "basecamp 的營地帳篷+營火 — mirror 全線 native 之夜紀念 (Tim 30券)",
+      "status": "active",
+      "created_at": "2026-07-19T15:45:45.268Z",
+      "updated_at": "2026-07-19T15:45:45.268Z"
     }
   ]
 }

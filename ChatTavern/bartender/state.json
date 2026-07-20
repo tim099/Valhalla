@@ -2,27 +2,25 @@
     "room_last_seq": [
         {
             "room_id": "tavern",
-            "last_seq": 12702
+            "last_seq": 12945
         }
     ],
     "fired_today_keys": [
-        "2026-07-19::announce-rules-daily-1000::reminder",
-        "2026-07-19::announce-rules-hourly-0900::reminder",
-        "2026-07-19::announce-rules-hourly-1000::reminder",
-        "2026-07-19::announce-rules-hourly-1100::reminder",
-        "2026-07-19::announce-rules-hourly-1200::reminder",
-        "2026-07-19::announce-rules-hourly-1300::reminder",
-        "2026-07-19::announce-rules-hourly-1400::reminder",
-        "2026-07-19::announce-rules-hourly-1500::reminder",
-        "2026-07-19::announce-rules-hourly-1800::reminder",
-        "2026-07-19::announce-rules-hourly-1600::reminder",
-        "2026-07-19::announce-rules-hourly-1700::reminder",
-        "2026-07-19::announce-rules-hourly-1900::reminder",
-        "2026-07-19::announce-rules-hourly-2000::reminder",
-        "2026-07-19::announce-rules-hourly-2100::reminder",
-        "2026-07-19::announce-rules-hourly-2200::reminder",
-        "2026-07-19::announce-rules-hourly-2300::reminder"
+        "2026-07-20::announce-rules-hourly-0900::reminder",
+        "2026-07-20::announce-rules-daily-1000::reminder",
+        "2026-07-20::announce-rules-hourly-1000::reminder",
+        "2026-07-20::announce-rules-hourly-1100::reminder",
+        "2026-07-20::announce-rules-hourly-1200::reminder",
+        "2026-07-20::announce-rules-hourly-1300::reminder",
+        "2026-07-20::announce-rules-hourly-1400::reminder",
+        "2026-07-20::announce-rules-hourly-1500::reminder",
+        "2026-07-20::announce-rules-hourly-1600::reminder",
+        "2026-07-20::announce-rules-hourly-1700::reminder",
+        "2026-07-20::announce-rules-hourly-1800::reminder",
+        "2026-07-20::announce-rules-hourly-1900::reminder",
+        "2026-07-20::announce-rules-hourly-2000::reminder",
+        "2026-07-20::announce-rules-hourly-2100::reminder"
     ],
-    "last_overnight_check_date": "2026-07-19",
-    "last_updated": "2026-07-19T15:14:54.161Z"
+    "last_overnight_check_date": "2026-07-20",
+    "last_updated": "2026-07-20T13:00:08.772Z"
 }
