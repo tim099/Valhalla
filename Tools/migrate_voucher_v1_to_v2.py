@@ -2,6 +2,12 @@
 """
 migrate_voucher_v1_to_v2.py — 酒館券 schema v1 → v2 migration
 
+⚠️ DEPRECATED / ONE-SHOT COMPLETE (2026-05-13 已執行完畢)。保留作歷史/文件參考，
+   **請勿重跑**（會重複 init 每 persona 的 voucher = 二次通膨）。下方 AGENT_TO_BANK 是
+   遷移當時的殘留硬編表、**非 live SOT**、已 stale（缺 gemini/Luna）——agent→bank 的
+   唯一真相在 _lib/bank_resolver.py + AwakenInit/_registry_meta.json（Bank 整合 2026-07-21
+   收攏；本表僅供讀懂當年遷移邏輯，勿當成可信的 agent→bank 對照）。
+
 依據: Q11 Tim 2026-05-13 拍板規則
   > 每 persona 初始化 = 該 actor 帳戶當前 voucher total
   > broadcast 不 split (eg. actor 36 → 每 persona 36)
@@ -43,7 +49,8 @@ _REPO_ROOT = _HERE.parent.parent
 _QUOTA_PATH = _REPO_ROOT / "AgentCommands" / "ChatTavern" / "agent_bonus_quota.json"
 _PERSONAS_DIR = _REPO_ROOT / "AgentCommands" / "AwakenInit" / "personas"
 
-# Agent → bank_account mapping (per awakening.py resolve_bank_account convention)
+# ⚠️ DEAD 一次性遷移殘留 (2026-05-13)，非 live SOT、已 stale (缺 gemini/Luna)。
+# agent→bank 真相見 _lib/bank_resolver.py + _registry_meta.json。勿新增/信任本表。
 AGENT_TO_BANK = {
     "claude-code": "claude-da-xiaojie",
     "antigravity": "antigravity-da-xiaojie",

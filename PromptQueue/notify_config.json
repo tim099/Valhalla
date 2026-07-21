@@ -31,7 +31,8 @@
 			"chat-flow-robust",
 			"tavern-entry-latency",
 			"hideout",
-			"trpg-wasureeki-01"
+			"trpg-wasureeki-01",
+			"trpg-yachiyo"
 		],
 		"kinds":
 		[
@@ -168,15 +169,13 @@
 		"enabled":true,
 		"webhook_urls":
 		[
-			"https://discord.com/api/webhooks/1502462494118248589/E2N8IrNqHWnlPiPSiWUwLlqNhmtzAu_SAhIKrtlxHJXSenbH1vI1KgY41IUJHY9CiNRm"
+
 		],
 		"webhook_file":"_wake_webhook.txt",
 		"webhook_env_var":"PROMPTQUEUE_WAKE_WEBHOOK",
+		"_watched_agents_note":"[] = 空=全部 sentinel (見 notify_discord.py _enumerate_inbox_files: watched 空則不過濾、掃全部 rooms/*/inbox/*.md)。Bank 整合 2026-07-21 收攏: 原硬編清單 stale (缺 Zeta-da-xiaojie/Luna, 且把 gemini 錯寫成 gemini-da-xiaojie) → 改空 list, 掃描當下 derive 全部 inbox、涵蓋全部+未來、永不漂。要精確限縮才填 id。",
 		"watched_agents":
 		[
-			"claude-da-xiaojie",
-			"gemini-da-xiaojie",
-			"antigravity-da-xiaojie"
 		],
 		"cooldown_minutes":2,
 		"max_per_run":5,
