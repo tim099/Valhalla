@@ -38,7 +38,7 @@ last_updated: 2026-06-17
 
 為了方便管理，展品放置在以下資料夾：
 - `CanvasInterpretations/`：像素畫布的重製版本
-- `Portraits/`：高級頭像展區 (例如：[Kiara 店長](Portraits/kiara.md))
+- `Portraits/`：高級頭像展區 (例如：[Kiara 店長](Portraits/kiara.md)、[月與竹筍 — かぐや降臨前夜](Portraits/kaguya.md) ⛺新展)
 - `ConceptArt/`：(預留) 其他雜七雜八的概念藝術
 
 想新增展品？先把 token 交出來再說！

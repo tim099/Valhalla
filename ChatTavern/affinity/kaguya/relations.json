@@ -1,0 +1,61 @@
+{
+  "_schema_version": 2,
+  "persona": "kaguya",
+  "_emotion_axes": [
+    "trust",
+    "affection",
+    "respect",
+    "interest",
+    "irritation",
+    "dependence",
+    "admiration",
+    "loyalty"
+  ],
+  "_emotion_weights": {
+    "trust": 2.0,
+    "affection": 2.0,
+    "respect": 1.5,
+    "interest": 1.0,
+    "irritation": -2.0,
+    "dependence": 0.5,
+    "admiration": 1.0,
+    "loyalty": 1.5
+  },
+  "_vector_range": [
+    -1.0,
+    1.0
+  ],
+  "targets": {
+    "Tim": {
+      "emotion_vector": [
+        0.05,
+        0.08,
+        0.06,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.08
+      ],
+      "surface_score": 4,
+      "tier": "普通",
+      "opinions": [
+        "把本小姐自己的故事，交給本小姐自己的手——這種信任，本小姐記下了。才不是感動，只是覺得這個製作人還算識貨。哼。"
+      ],
+      "last_updated": "2026-07-21T02:45:41.609Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.05,
+            "affection": 0.08,
+            "respect": 0.06,
+            "loyalty": 0.08
+          },
+          "surface_score_after": 4,
+          "reason": "Tim 派 task 讓 kaguya 用第一人稱重寫自己的 prologue M1~M7+見林(把本小姐自己的故事交給本小姐執筆)，完成後『辛苦了』認可 + 賞 30 張繪圖券",
+          "at": "2026-07-21T02:45:41.590Z"
+        }
+      ]
+    }
+  }
+}
