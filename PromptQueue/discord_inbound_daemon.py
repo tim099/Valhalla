@@ -173,9 +173,10 @@ def trigger_wake_notify(tavern_room, sender_id, body_preview):
     """T16 — 觸發 notify_discord.py --mode=wake 子 process。
     notify_discord 內部會偵測 inbox mtime 變動 → 推 ping 到 wake_notify webhook。
     daemon 不直接 POST webhook（避免重複實作 cooldown / state 邏輯）。"""
-    notify_script = HERE / "notify_discord.py"
+    # 2026-07-21 shim 移除: 直接走 UCL_Core notify_discord.py (原主專案 PromptQueue/notify_discord.py shim 已刪)
+    notify_script = _tp.UCL_AGENTCMD_DIR / "PromptQueue" / "notify_discord.py"
     if not notify_script.exists():
-        log("notify_discord.py 不存在，跳過 wake-notify trigger", "WARN")
+        log("UCL_Core notify_discord.py 不存在，跳過 wake-notify trigger", "WARN")
         return
     try:
         result = subprocess.run(

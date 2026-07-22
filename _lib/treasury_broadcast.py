@@ -130,12 +130,17 @@ def _fallback_fire_broadcast(entry_path, *, quiet=True) -> None:
         _fallback_backfill(entry_path)
     except Exception:
         pass
-    script_path = Path(__file__).resolve().parents[1] / "PromptQueue" / "notify_treasury.py"
+    # 2026-07-21 shim 移除: 直接觸發 UCL_Core notify_discord.py --mode tavern
+    # (不再走主專案 PromptQueue/notify_treasury.py shim — 該 shim 本就轉發到這; --mode tavern
+    #  觸發統一 mirror run, 新 entry 由 pull adapter 依 cursor 冪等撿走)。
+    try:
+        from . import tavern_paths as _tp
+        script_path = _tp.UCL_AGENTCMD_DIR / "PromptQueue" / "notify_discord.py"
+    except Exception:
+        return
     if not script_path.exists():
         return
-    cmd = [sys.executable, str(script_path), "--entry-file", str(entry_path)]
-    if quiet:
-        cmd.append("--quiet")
+    cmd = [sys.executable, str(script_path), "--mode", "tavern"]
     try:
         subprocess.Popen(cmd,
                          stdout=subprocess.DEVNULL if quiet else None,

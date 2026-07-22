@@ -71,9 +71,10 @@ BARTENDER_LINES_PATH: Path = TAVERN_DIR / "bartender_lines.json"
 BARTENDER_STATE_PATH: Path = TAVERN_DIR / "bartender_state.json"
 
 # PromptQueue = mirror 系統的「資料目錄」(config / state / webhook secret / log) — 留專案 canonical
-# (T-PATH-01 不跟 DataRoot override 搬)。T-MOVE (Tim 2026-07-15 拍板): scripts 本體
+# (T-PATH-01 不跟 DataRoot override 搬)。T-MOVE (Tim 2026-07-15): scripts 本體
 # (notify_discord.py / notify_treasury.py) 已搬 UCL_CORE 的 Tools~/AgentCommands/PromptQueue/
-# (UCL_AGENTCMD_DIR / "PromptQueue")；本目錄舊檔為 forwarding shim (過渡一版)。
+# (UCL_AGENTCMD_DIR / "PromptQueue")。2026-07-21: 本目錄的 forwarding shim 已移除, caller 一律
+# 直接用 UCL_Core 版 (notify_treasury 語意併入 notify_discord --mode tavern)。本目錄僅剩資料檔。
 PROMPT_QUEUE_DIR: Path = REPO_ROOT / "AgentCommands" / "PromptQueue"
 NOTIFY_STATE_PATH: Path = PROMPT_QUEUE_DIR / "_notify_state.json"
 TAVERN_STATE_PATH: Path = PROMPT_QUEUE_DIR / "_tavern_state.json"
