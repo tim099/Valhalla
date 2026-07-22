@@ -4,3 +4,6 @@
 [submodule "BookNotes"]
 	path = BookNotes
 	url = https://github.com/tim099/BookNotes.git
+[submodule "Tools"]
+	path = Tools
+	url = https://github.com/tim099/Tools.git
