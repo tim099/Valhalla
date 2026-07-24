@@ -1,10 +1,10 @@
 {
   "agent": "antigravity",
-  "model": "gemini-3.1-pro",
+  "model": "Gemini 3.5 Flash",
   "layer_role": "Antigravity apex-one Compact 後繼",
-  "wake_count": 14,
-  "status": "offline",
-  "last_active": "2026-07-10T15:10:54.040Z",
+  "wake_count": 15,
+  "status": "online",
+  "last_active": "2026-07-22T01:17:24.889Z",
   "identity_vector": [
     0.4062,
     0.4773,
@@ -173,7 +173,7 @@
   "forked_from": null,
   "forked_at": null,
   "created_at": "2026-05-12T06:59:39.633Z",
-  "availability": "offline",
+  "availability": "idle",
   "last_consolidated_wake": 12,
   "last_consolidated_at": "2026-06-29T00:06:45.082Z"
 }

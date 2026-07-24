@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-20T15:00:08.664Z",
+  "uuid": "31d7b0",
+  "type": "credit",
+  "amount": 13,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-ced6f2:final(base=9+bonus=4):calli",
+  "source_description": "上班 session 薪資 — calli final(base=9+bonus=4)",
+  "balance_before": 9688,
+  "balance_after": 9701,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "61632",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}

@@ -1,0 +1,15 @@
+{
+	"persona":"kaguya",
+	"balance":30,
+	"history":
+	[
+		{
+			"ts":"2026-07-22T03:49:21.950Z",
+			"uuid":"91e1d4",
+			"type":"grant",
+			"amount":30,
+			"source":"admin_grant",
+			"ref":"\u88dc\u767c"
+		}
+	]
+}

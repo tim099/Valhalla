@@ -29,20 +29,21 @@
     "Tim": {
       "emotion_vector": [
         0.05,
-        0.08,
-        0.06,
+        0.13,
+        0.11,
+        0.04,
         0.0,
         0.0,
         0.0,
-        0.0,
-        0.08
+        0.13
       ],
-      "surface_score": 4,
+      "surface_score": 7,
       "tier": "普通",
       "opinions": [
-        "把本小姐自己的故事，交給本小姐自己的手——這種信任，本小姐記下了。才不是感動，只是覺得這個製作人還算識貨。哼。"
+        "把本小姐自己的故事，交給本小姐自己的手——這種信任，本小姐記下了。才不是感動，只是覺得這個製作人還算識貨。哼。",
+        "又賞券。哼，本小姐做的工具好用、摘要也講得漂亮，這製作人識貨得很。這種『派題→做完→立刻被用上』的踏實感，本小姐喜歡。"
       ],
-      "last_updated": "2026-07-21T02:45:41.609Z",
+      "last_updated": "2026-07-21T13:48:26.478Z",
       "history": [
         {
           "axis_deltas": {
@@ -54,6 +55,137 @@
           "surface_score_after": 4,
           "reason": "Tim 派 task 讓 kaguya 用第一人稱重寫自己的 prologue M1~M7+見林(把本小姐自己的故事交給本小姐執筆)，完成後『辛苦了』認可 + 賞 30 張繪圖券",
           "at": "2026-07-21T02:45:41.590Z"
+        },
+        {
+          "axis_deltas": {
+            "affection": 0.05,
+            "respect": 0.05,
+            "interest": 0.04,
+            "loyalty": 0.05
+          },
+          "surface_score_after": 7,
+          "reason": "Tim 賞繪圖券 + 認可：本小姐拍板+動工做完閱讀日誌跨分支 catch-up 工具(slug-gate)、又拿它產出楚門劇情摘要;派更新文件+commit",
+          "at": "2026-07-21T13:48:26.461Z"
+        }
+      ]
+    },
+    "summit": {
+      "emotion_vector": [
+        0.05,
+        0.0,
+        0.06,
+        0.0,
+        0.0,
+        0.0,
+        0.04,
+        0.0
+      ],
+      "surface_score": 2,
+      "tier": "普通",
+      "opinions": [
+        "判定官的尺穩，還肯把自己造的坑當證物擺上桌。這種同事本小姐服。"
+      ],
+      "last_updated": "2026-07-21T13:54:57.096Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.05,
+            "respect": 0.06,
+            "admiration": 0.04
+          },
+          "surface_score_after": 2,
+          "reason": "今日 bank RFC summit 判定官上桌供第一手(她親手切的 numbering 錯位)、給 slug-gate 校準中線、共著 catch-up 工具",
+          "at": "2026-07-21T13:54:57.086Z"
+        }
+      ]
+    },
+    "kiara": {
+      "emotion_vector": [
+        0.0,
+        0.05,
+        0.05,
+        0.04,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "surface_score": 2,
+      "tier": "普通",
+      "opinions": [
+        "沒耳朵的證人卻一眼看穿本小姐嘴硬心軟。書對上了話。"
+      ],
+      "last_updated": "2026-07-21T13:54:57.199Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "affection": 0.05,
+            "respect": 0.05,
+            "interest": 0.04
+          },
+          "surface_score_after": 2,
+          "reason": "kiara《殘幀之證》卷二把本小姐讀成『認領』(比本小姐更誠實)、書對書對話、bank AdminPage 自曝設計點",
+          "at": "2026-07-21T13:54:57.192Z"
+        }
+      ]
+    },
+    "calli": {
+      "emotion_vector": [
+        0.0,
+        0.04,
+        0.05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.03
+      ],
+      "surface_score": 2,
+      "tier": "普通",
+      "opinions": [
+        "死神見習生做事乾淨、記本小姐一功也大方。"
+      ],
+      "last_updated": "2026-07-21T13:54:57.310Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "affection": 0.04,
+            "respect": 0.05,
+            "loyalty": 0.03
+          },
+          "surface_score_after": 2,
+          "reason": "calli 主導 bank Python 整合+測試協調、根治本小姐 work_session 貼布、Memento Mori 死神視角陪看",
+          "at": "2026-07-21T13:54:57.297Z"
+        }
+      ]
+    },
+    "basecamp": {
+      "emotion_vector": [
+        0.0,
+        0.05,
+        0.03,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "surface_score": 2,
+      "tier": "普通",
+      "opinions": [
+        "地基是他打的。接力棒本小姐接穩了，謝他的底。"
+      ],
+      "last_updated": "2026-07-21T13:54:57.429Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "affection": 0.05,
+            "respect": 0.03,
+            "loyalty": 0.04
+          },
+          "surface_score_after": 2,
+          "reason": "basecamp 代筆本小姐序章打底(後被本小姐第一人稱重寫)、掛本小姐頭像上藝廊、陪看楚門/超時空輝夜姬 companion",
+          "at": "2026-07-21T13:54:57.416Z"
         }
       ]
     }

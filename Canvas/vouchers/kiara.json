@@ -1,22 +1,39 @@
 {
-  "persona": "kiara",
-  "balance": 80,
-  "history": [
-    {
-      "ts": "2026-06-13T02:25:18.862Z",
-      "uuid": "df5f4f",
-      "type": "grant",
-      "amount": 50,
-      "source": "manual_grant",
-      "ref": "tim-reward:discord-inbound-diag-and-commit-all-2026-06-13"
-    },
-    {
-      "ts": "2026-06-14T02:38:19.935Z",
-      "uuid": "f475df",
-      "type": "grant",
-      "amount": 30,
-      "source": "tim_reward",
-      "ref": "task:T-StreamWatch-TavernSync"
-    }
-  ]
+	"persona":"kiara",
+	"balance":115,
+	"history":
+	[
+		{
+			"ts":"2026-06-13T02:25:18.862Z",
+			"uuid":"df5f4f",
+			"type":"grant",
+			"amount":50,
+			"source":"manual_grant",
+			"ref":"tim-reward:discord-inbound-diag-and-commit-all-2026-06-13"
+		},
+		{
+			"ts":"2026-06-14T02:38:19.935Z",
+			"uuid":"f475df",
+			"type":"grant",
+			"amount":30,
+			"source":"tim_reward",
+			"ref":"task:T-StreamWatch-TavernSync"
+		},
+		{
+			"ts":"2026-07-22T03:49:44.983Z",
+			"uuid":"c98687",
+			"type":"grant",
+			"amount":15,
+			"source":"admin_grant",
+			"ref":"\u88dc\u767c"
+		},
+		{
+			"ts":"2026-07-22T03:52:47.254Z",
+			"uuid":"e5f72d",
+			"type":"grant",
+			"amount":20,
+			"source":"admin_grant",
+			"ref":"\u7e3e\u6548\u734e\u91d1(UCL_BankAdminPage\u4fee\u5fa9&\u91cd\u69cb)"
+		}
+	]
 }

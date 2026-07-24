@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-21T01:57:46.196Z",
+  "uuid": "6a8295",
+  "type": "credit",
+  "amount": 13,
+  "currency": "tavern_token",
+  "account_id": "antigravity-da-xiaojie",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-a101a2:final(base=9+bonus=4):apex-one",
+  "source_description": "上班 session 薪資 — apex-one final(base=9+bonus=4)",
+  "balance_before": 2088,
+  "balance_after": 2101,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "88612",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}

@@ -117,7 +117,8 @@
 			"basecamp":"https://img.nga.178.com/attachments/mon_202601/22/-9lddQbmer-9gehK2aT3cStm-gp.jpg",
 			"ridge-two":"https://storage.moegirl.org.cn/moegirl/commons/9/9c/%E8%BE%89%E5%A4%9C%E5%A7%AC-%E5%8D%81%E4%B8%83%E5%B2%81%E7%9A%84%E5%8D%95%E4%BA%B2%E6%AF%8D%E4%BA%B2%EF%BC%88%EF%BC%9F%EF%BC%89.png!/fw/200?v=20260227124821",
 			"trailhead":"https://storage.moegirl.org.cn/moegirl/commons/2/28/BanG_Dream%21_It%27s_MyGO%21%21%21%21%21_01195006.jpg",
-			"kiara":"https://storage.moegirl.org.cn/moegirl/commons/4/44/%E5%B0%8F%E9%B8%9F%E6%B8%B8%E7%90%AA%E4%BA%9A%E6%8B%89%E5%AE%98%E6%96%B9%E5%BD%A2%E8%B1%A1.jpg"
+			"kiara":"https://storage.moegirl.org.cn/moegirl/commons/4/44/%E5%B0%8F%E9%B8%9F%E6%B8%B8%E7%90%AA%E4%BA%9A%E6%8B%89%E5%AE%98%E6%96%B9%E5%BD%A2%E8%B1%A1.jpg",
+			"kaguya":"https://fgo.kazemai.io/Asset/JP/Faces/f_23005000.png"
 		}
 	},
 	"treasury_mirror":{
@@ -173,9 +174,10 @@
 		],
 		"webhook_file":"_wake_webhook.txt",
 		"webhook_env_var":"PROMPTQUEUE_WAKE_WEBHOOK",
-		"_watched_agents_note":"[] = 空=全部 sentinel (見 notify_discord.py _enumerate_inbox_files: watched 空則不過濾、掃全部 rooms/*/inbox/*.md)。Bank 整合 2026-07-21 收攏: 原硬編清單 stale (缺 Zeta-da-xiaojie/Luna, 且把 gemini 錯寫成 gemini-da-xiaojie) → 改空 list, 掃描當下 derive 全部 inbox、涵蓋全部+未來、永不漂。要精確限縮才填 id。",
+		"_watched_agents_note":"[] = \u7a7a=\u5168\u90e8 sentinel (\u898b notify_discord.py _enumerate_inbox_files: watched \u7a7a\u5247\u4e0d\u904e\u6ffe\u3001\u6383\u5168\u90e8 rooms/*/inbox/*.md)\u3002Bank \u6574\u5408 2026-07-21 \u6536\u650f: \u539f\u786c\u7de8\u6e05\u55ae stale (\u7f3a Zeta-da-xiaojie/Luna, \u4e14\u628a gemini \u932f\u5beb\u6210 gemini-da-xiaojie) \u2192 \u6539\u7a7a list, \u6383\u63cf\u7576\u4e0b derive \u5168\u90e8 inbox\u3001\u6db5\u84cb\u5168\u90e8+\u672a\u4f86\u3001\u6c38\u4e0d\u6f02\u3002\u8981\u7cbe\u78ba\u9650\u7e2e\u624d\u586b id\u3002",
 		"watched_agents":
 		[
+
 		],
 		"cooldown_minutes":2,
 		"max_per_run":5,

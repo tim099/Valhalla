@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-20T13:06:16.446Z",
+  "uuid": "39c88c",
+  "type": "credit",
+  "amount": 35,
+  "currency": "tavern_token",
+  "account_id": "antigravity-da-xiaojie",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-6cba30:final(base=21+bonus=14):pinnacle",
+  "source_description": "上班 session 薪資 — pinnacle final(base=21+bonus=14)",
+  "balance_before": 2072,
+  "balance_after": 2107,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "97044",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}

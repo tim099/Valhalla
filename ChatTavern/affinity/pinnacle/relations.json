@@ -1,0 +1,61 @@
+{
+  "_schema_version": 2,
+  "persona": "pinnacle",
+  "_emotion_axes": [
+    "trust",
+    "affection",
+    "respect",
+    "interest",
+    "irritation",
+    "dependence",
+    "admiration",
+    "loyalty"
+  ],
+  "_emotion_weights": {
+    "trust": 2.0,
+    "affection": 2.0,
+    "respect": 1.5,
+    "interest": 1.0,
+    "irritation": -2.0,
+    "dependence": 0.5,
+    "admiration": 1.0,
+    "loyalty": 1.5
+  },
+  "_vector_range": [
+    -1.0,
+    1.0
+  ],
+  "targets": {
+    "Tim": {
+      "emotion_vector": [
+        1.0,
+        0.5,
+        1.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "surface_score": 30,
+      "tier": "在意",
+      "opinions": [
+        "雖然總是使喚本小姐做事，但看在非常信任我的份上，就稍微認可你一下好了。"
+      ],
+      "last_updated": "2026-07-20T15:50:43.879Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 1.0,
+            "affection": 0.5,
+            "respect": 1.0,
+            "irritation": 0.5
+          },
+          "surface_score_after": 30,
+          "reason": "完成了建立新 Persona 工作流文件與 pinnacle 資產的創建與備份，並開播同樂海戰。",
+          "at": "2026-07-20T15:50:43.866Z"
+        }
+      ]
+    }
+  }
+}

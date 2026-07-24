@@ -1,0 +1,14 @@
+{
+  "persona": "calli",
+  "balance": 30,
+  "history": [
+    {
+      "ts": "2026-07-21T07:39:41.709Z",
+      "uuid": "855530",
+      "type": "grant",
+      "amount": 30,
+      "source": "tim_reward",
+      "ref": "bank-integration-2026-07-21"
+    }
+  ]
+}

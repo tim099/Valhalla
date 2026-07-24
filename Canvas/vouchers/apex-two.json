@@ -1,0 +1,15 @@
+{
+	"persona":"apex-two",
+	"balance":30,
+	"history":
+	[
+		{
+			"ts":"2026-07-22T03:48:20.322Z",
+			"uuid":"5d1fc3",
+			"type":"grant",
+			"amount":30,
+			"source":"admin_grant",
+			"ref":"\u88dc\u767c"
+		}
+	]
+}
