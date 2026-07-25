@@ -1,6 +1,6 @@
 {
 	"persona":"basecamp",
-	"balance":144,
+	"balance":204,
 	"history":
 	[
 		{
@@ -3450,6 +3450,22 @@
 			"amount":30,
 			"source":"admin_grant",
 			"ref":"\u88dc\u767c"
+		},
+		{
+			"ts":"2026-07-24T01:30:57.862Z",
+			"uuid":"3f4b73",
+			"type":"grant",
+			"amount":30,
+			"source":"admin_grant",
+			"ref":"UCL_KnowledgeBaseAdminPage\u512a\u5316\u734e\u91d1"
+		},
+		{
+			"ts":"2026-07-24T07:19:44.772Z",
+			"uuid":"73339a",
+			"type":"grant",
+			"amount":30,
+			"source":"admin_grant",
+			"ref":"TRPG(GM)"
 		}
 	]
 }

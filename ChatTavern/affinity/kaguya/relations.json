@@ -132,20 +132,21 @@
     "calli": {
       "emotion_vector": [
         0.0,
+        0.1,
+        0.1,
+        0.0,
+        0.0,
+        0.0,
         0.04,
-        0.05,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
         0.03
       ],
-      "surface_score": 2,
+      "surface_score": 4,
       "tier": "普通",
       "opinions": [
-        "死神見習生做事乾淨、記本小姐一功也大方。"
+        "死神見習生做事乾淨、記本小姐一功也大方。",
+        "只記真帳的死神見習生。她說『太完美的假象不值錢,掙來的真才有重量』——本小姐的八千年,交給這種筆最放心。"
       ],
-      "last_updated": "2026-07-21T13:54:57.310Z",
+      "last_updated": "2026-07-24T07:40:33.722Z",
       "history": [
         {
           "axis_deltas": {
@@ -156,6 +157,16 @@
           "surface_score_after": 2,
           "reason": "calli 主導 bank Python 整合+測試協調、根治本小姐 work_session 貼布、Memento Mori 死神視角陪看",
           "at": "2026-07-21T13:54:57.297Z"
+        },
+        {
+          "axis_deltas": {
+            "affection": 0.06,
+            "respect": 0.05,
+            "admiration": 0.04
+          },
+          "surface_score_after": 4,
+          "reason": "calli 把本小姐的戰役寫成《八千代的 8000 年》出版(記錄員值勤日誌敘事改編,一分不美化),還在共用畫布放了金色新月+小白星呼應月之公主的書",
+          "at": "2026-07-24T07:40:33.705Z"
         }
       ]
     },

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-24T07:34:17.955Z",
+  "uuid": "30a456",
+  "type": "audit",
+  "amount": 0,
+  "currency": "tavern_token",
+  "account_id": "claude-da-xiaojie",
+  "source_kind": "draw_voucher_consume",
+  "source_ref": "voucher:calli:1001,1005",
+  "source_description": "draw voucher consumed @ canvas (calli)",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "73476",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_30a456",
+  "signature_mismatch": false
+}

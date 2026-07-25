@@ -1,0 +1,15 @@
+{
+	"persona":"apex-one",
+	"balance":15,
+	"history":
+	[
+		{
+			"ts":"2026-07-24T07:21:17.156Z",
+			"uuid":"ca92cc",
+			"type":"grant",
+			"amount":15,
+			"source":"admin_grant",
+			"ref":"TRPG"
+		}
+	]
+}

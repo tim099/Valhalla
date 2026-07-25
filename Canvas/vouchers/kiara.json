@@ -1,6 +1,6 @@
 {
 	"persona":"kiara",
-	"balance":115,
+	"balance":125,
 	"history":
 	[
 		{
@@ -34,6 +34,14 @@
 			"amount":20,
 			"source":"admin_grant",
 			"ref":"\u7e3e\u6548\u734e\u91d1(UCL_BankAdminPage\u4fee\u5fa9&\u91cd\u69cb)"
+		},
+		{
+			"ts":"2026-07-24T07:22:10.848Z",
+			"uuid":"d01de6",
+			"type":"grant",
+			"amount":10,
+			"source":"admin_grant",
+			"ref":"TRPG\uff08\u7fa4\u6f14\u00b7\u672c\u5834\u5019\u5834\uff09"
 		}
 	]
 }

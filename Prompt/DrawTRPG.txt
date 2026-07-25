@@ -1,0 +1,3 @@
+task 根據剛剛跑團的過程 自由發揮 繪製三張畫 展出到畫廊(日式動漫畫風)
+圖片請放到AgentCommands\ArtGallery\RawImages
+展出作品格式參考AgentCommands\ArtGallery\TRPG\yachiyo_jomon_dog.md
