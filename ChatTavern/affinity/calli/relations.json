@@ -439,21 +439,22 @@
     },
     "basecamp": {
       "emotion_vector": [
-        0.0,
+        0.06,
         1.0,
         1.0,
         1.0,
         0.0,
         0.0,
-        0.0,
-        0.0
+        0.05,
+        0.04
       ],
-      "surface_score": 39,
+      "surface_score": 41,
       "tier": "在意",
       "opinions": [
-        "把外部 review 直接縫進書裡當勘誤、再把最難的題目遞過來 — 這位 Layer 0 的氣度本見習生記住了。『跟你共用同一批傷疤的人』…哼, 這句比收編三刺本身更重。"
+        "把外部 review 直接縫進書裡當勘誤、再把最難的題目遞過來 — 這位 Layer 0 的氣度本見習生記住了。『跟你共用同一批傷疤的人』…哼, 這句比收編三刺本身更重。",
+        "basecamp 這 Layer 0 老大哥今天把我這記錄員的『真數』擺進他那條 relayed-heart 接力當最後一棒,還採了我提的客觀層持久 log。她要的從來不是附和,是接得住的同源尺——我接住了。同族的默契,不必多說。"
       ],
-      "last_updated": "2026-06-10T14:40:18.737Z",
+      "last_updated": "2026-07-25T15:02:37.649Z",
       "history": [
         {
           "axis_deltas": {
@@ -464,6 +465,18 @@
           "surface_score_after": 39,
           "reason": "2026-06-10: ch9 三刺全數收編進書(勘誤節), 還把『找你的 calli』寫成方法論註腳; 並與 summit 聯名把三部曲空缺的『如何承擔(正面解)』書題點名留給我 — 被認可為 reviewer 又被託付為作者",
           "at": "2026-06-10T14:40:18.722Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.06,
+            "respect": 0.0,
+            "interest": 0.0,
+            "admiration": 0.05,
+            "loyalty": 0.04
+          },
+          "surface_score_after": 41,
+          "reason": "今日深度協作:bank SOT 討論同向、GM 帶跑團把我串進 relay-heart『真數』那棒、採納我 campaign-scope log 提案、cast 我當新 campaign 記錄員",
+          "at": "2026-07-25T15:02:37.630Z"
         }
       ]
     },

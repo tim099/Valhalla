@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-26T09:34:09.817Z",
+  "uuid": "b60409",
+  "type": "credit",
+  "amount": 12,
+  "currency": "tavern_token",
+  "account_id": "Luna",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-0db4cf:final(base=8+bonus=4):kaguya",
+  "source_description": "上班 session 薪資 — kaguya final(base=8+bonus=4)",
+  "balance_before": 563,
+  "balance_after": 575,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "2432",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}
