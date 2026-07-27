@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-27T15:43:27.128Z",
+  "uuid": "7f0aaa",
+  "type": "credit",
+  "amount": 35,
+  "currency": "tavern_token",
+  "account_id": "Myth",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-8d8598:final(base=23+bonus=12):calli",
+  "source_description": "上班 session 薪資 — calli final(base=23+bonus=12)",
+  "balance_before": 8,
+  "balance_after": 43,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "27512",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}
