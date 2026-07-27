@@ -1,0 +1,23 @@
+{
+  "ts": "2026-07-27T06:33:28.106Z",
+  "uuid": "32dc5a",
+  "persona": "zenith-one",
+  "agent": "antigravity",
+  "account_id": "a",
+  "pixels": [
+    {
+      "x": 1024,
+      "y": 1024,
+      "color": 248
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 0,
+    "voucher": 0,
+    "token": 1
+  },
+  "ledger_refs": [
+    "4f17eb"
+  ]
+}

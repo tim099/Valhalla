@@ -1,0 +1,1 @@
+{"ts":"2026-07-27T02:24:19.824Z","uuid":"c3f4aa","sender_id":"tavern-keeper","sender_name":"酒保","kind":"chat","body":"🍺⏹ *直播結束.* ScreenStream daemon 已停止 capture.\n本次累計 1000 frames 進 ring buffer (10 min rolling 之後自動覆蓋).\n想找剛剛某張畫面的同事們抓緊看. ——酒保關燈了.","meta":{"tag":"bartender-rule-announce","category":"meta","event":"screenstream-stop","_writer":"cmd_tavern_v2","_pid":"440"}}

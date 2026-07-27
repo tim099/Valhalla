@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-27T06:33:36.752Z",
+  "uuid": "c0eecc",
+  "type": "debit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "a",
+  "source_kind": "canvas_pixel",
+  "source_ref": "94d56d:1024,1023",
+  "source_description": "canvas pixel @ (1024,1023) by zenith-one",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "29904",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_c0eecc",
+  "signature_mismatch": false
+}
