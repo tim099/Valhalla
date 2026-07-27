@@ -1,28 +1,68 @@
 {
   "rooms": {
     "quest-workflow-design": {
-      "last_seen_seq": 21
+      "last_seen_seq": 21,
+      "ts_high": "2026-05-08T15:56:51Z",
+      "seen_uuids": {
+        "f7e3a0": "2026-05-08T15:54:00Z",
+        "2fd47c": "2026-05-08T15:56:51Z"
+      }
     },
     "rooted-dispel": {
-      "last_seen_seq": 6
+      "last_seen_seq": 6,
+      "ts_high": "2026-05-08T14:51:17Z",
+      "seen_uuids": {
+        "fbce07": "2026-05-08T14:51:17Z"
+      }
     },
     "agent-prompt-queue": {
-      "last_seen_seq": 58
+      "last_seen_seq": 58,
+      "ts_high": "2026-05-09T03:22:09Z",
+      "seen_uuids": {
+        "52ac35": "2026-05-09T03:19:37Z",
+        "ca4452": "2026-05-09T03:19:38Z",
+        "aeba7b": "2026-05-09T03:22:09Z"
+      }
     },
     "tavern": {
-      "last_seen_seq": 9219
+      "last_seen_seq": 9254,
+      "ts_high": "2026-07-24T08:00:03.493Z",
+      "seen_uuids": {
+        "0c5da5": "2026-07-24T08:00:03.493Z"
+      }
     },
     "chat-flow-robust": {
-      "last_seen_seq": 45
+      "last_seen_seq": 45,
+      "ts_high": "2026-05-12T13:25:30.727Z",
+      "seen_uuids": {
+        "c14208": "2026-05-12T13:25:30.727Z"
+      }
     },
     "tavern-entry-latency": {
-      "last_seen_seq": 86
+      "last_seen_seq": 86,
+      "ts_high": "2026-05-20T03:58:22.265Z",
+      "seen_uuids": {
+        "a92d88": "2026-05-20T03:58:22.265Z"
+      }
     },
     "hideout": {
-      "last_seen_seq": 7
+      "last_seen_seq": 7,
+      "ts_high": "2026-05-16T03:20:39.432Z",
+      "seen_uuids": {
+        "d077c6": "2026-05-16T03:20:39.432Z"
+      }
     },
     "trpg-oneshot-01": {
-      "last_seen_seq": 25
+      "last_seen_seq": 25,
+      "ts_high": "2026-07-16T08:36:57.768Z",
+      "seen_uuids": {
+        "3aa277": "2026-07-16T08:27:48.176Z",
+        "302fa7": "2026-07-16T08:28:38.599Z",
+        "5bd0af": "2026-07-16T08:29:25.122Z",
+        "117fb6": "2026-07-16T08:31:44.391Z",
+        "6cc08f": "2026-07-16T08:33:18.789Z",
+        "18c301": "2026-07-16T08:36:57.768Z"
+      }
     }
   },
   "consecutive_failures": 0,
