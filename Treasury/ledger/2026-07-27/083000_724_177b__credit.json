@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-27T08:30:00.724Z",
+  "uuid": "106577",
+  "type": "credit",
+  "amount": 6,
+  "currency": "tavern_token",
+  "account_id": "zeta",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-77f235:final(base=4+bonus=2):summit",
+  "source_description": "上班 session 薪資 — summit final(base=4+bonus=2)",
+  "balance_before": 230,
+  "balance_after": 236,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "33796",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}
