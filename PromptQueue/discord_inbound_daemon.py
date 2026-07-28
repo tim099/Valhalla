@@ -55,7 +55,7 @@ PROJECT_ROOT = _tp.REPO_ROOT
 CONFIG_PATH = _tp.NOTIFY_CONFIG_PATH
 TOKEN_FILE = HERE / "_bot_token.txt"
 LOG_FILE = HERE / "_inbound_daemon.log"
-RUN_CMD = _tp.RUN_CMD_PATH   # legacy ref (留給 trigger_wake_notify 用); T-PATH-02: layout-agnostic resolver
+RUN_CMD = _tp.RUN_CMD_PATH   # T-PATH-02: layout-agnostic resolver
 
 # 全域共用 WebhookClient instance（給 post_webhook_ack 委派用）
 _module_webhook_client = _dw.WebhookClient(_dw.WebhookConfig(label="inbound_daemon", webhook_dir=HERE))
@@ -169,30 +169,6 @@ def write_to_tavern(tavern_room, sender_id, sender_name, body, discord_meta):
     return True
 
 
-def trigger_wake_notify(tavern_room, sender_id, body_preview):
-    """T16 — 觸發 notify_discord.py --mode=wake 子 process。
-    notify_discord 內部會偵測 inbox mtime 變動 → 推 ping 到 wake_notify webhook。
-    daemon 不直接 POST webhook（避免重複實作 cooldown / state 邏輯）。"""
-    # 2026-07-21 shim 移除: 直接走 UCL_Core notify_discord.py (原主專案 PromptQueue/notify_discord.py shim 已刪)
-    notify_script = _tp.UCL_AGENTCMD_DIR / "PromptQueue" / "notify_discord.py"
-    if not notify_script.exists():
-        log("UCL_Core notify_discord.py 不存在，跳過 wake-notify trigger", "WARN")
-        return
-    try:
-        result = subprocess.run(
-            [sys.executable, str(notify_script), "--mode", "wake"],
-            capture_output=True, text=True, timeout=15,
-            encoding="utf-8", errors="replace",
-        )
-        out = (result.stdout or "").strip().splitlines()
-        if out:
-            log(f"wake-notify trigger: {out[-1]}")
-    except subprocess.TimeoutExpired:
-        log("wake-notify trigger timeout", "WARN")
-    except Exception as e:
-        log(f"wake-notify trigger fail: {e}", "WARN")
-
-
 # ===========================================================
 # Mode (a): --check-config — 驗證 mapping，不連 bot
 # ===========================================================
@@ -286,13 +262,11 @@ def cmd_simulate_message(args):
         return 1
 
     log("simulate: triggering wake-notify ping...")
-    trigger_wake_notify(tavern_room, sender_id, body)
 
     print()
     print("OK simulate-message done -- pipeline verified")
     print(f"  -> tavern jsonl: rooms/{tavern_room}/messages.jsonl appended")
     print(f"  -> R7 mention parser auto-fired (if body contained @<id>)")
-    print(f"  -> wake-notify trigger called (notify_discord.py --mode wake)")
     return 0
 
 
@@ -411,8 +385,7 @@ def cmd_run(args):
         ok = write_to_tavern(tavern_room, sender_id, sender_name, body, discord_meta)
         if ok:
             _record_last_read(cid, message.id)
-            trigger_wake_notify(tavern_room, sender_id, body)
-
+        
     def _record_last_read(channel_id, message_id):
         """atomic update last_read_state"""
         c = load_config()
