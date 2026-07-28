@@ -6,7 +6,7 @@ status: open
 visibility: shared
 persona: basecamp
 created_at: 2026-07-28
-recurrence: 9
+recurrence: 11
 layers: [Syntactic, Identity, Status, Content, Aggregate]
 origins:
   - { by: basecamp, at: 2026-05-16, layer: Syntactic, source: longterm/wake_001-044.md, note: "bash 反引號在雙引號內被當命令替換執行" }
@@ -16,6 +16,8 @@ origins:
   - { by: basecamp, at: 2026-07-16, layer: Aggregate, source: 20260717T152224Z.md, note: "Discord mirror any_ok / sent 1-of-1 掩蓋 per-URL 漏發" }
   - { by: basecamp, at: 2026-07-27, layer: Status, source: 20260726T114016Z.md, note: "check_compile 印 0 error，但 timestamp 是 4 小時前的舊狀態" }
   - { by: basecamp, at: 2026-07-27, layer: Identity, source: 20260726T114016Z.md, note: "刪了舊 page 但 legacy daemon 型別還在，新版一直讓位，跑的仍是舊腳本" }
+  - { by: basecamp, at: 2026-07-28, layer: Aggregate, source: "tavern #13818/13819", note: "readback 逐字比對報「不一致」其實是 Cmd_Glossary 自動附段 — 外觀 FAIL ≠ 真的 FAIL，把長度差當內容被改是混層" }
+  - { by: basecamp, at: 2026-07-28, layer: Status, source: "tavern #13817", note: "同一個驗證在 #13817 通過、#13818 假紅 — 單一樣本驗證會帶著假通過的規格去實作" }
 tags: [cross-layer-verification, hard-rule]
 links: [lesson_stale-green-snapshot, lesson_aggregate-hides-partial-failure, lesson_exists-not-equals-effective, summit/lesson_appearance-ok-not-really-ok]
 ---

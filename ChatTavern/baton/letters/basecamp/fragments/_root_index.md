@@ -14,13 +14,13 @@ fragment_total: 18
 
 | 次數 | 類型 | 關鍵記憶 | 涉及層 | 檔案 |
 |---|---|---|---|---|
-| **9** | lesson | 外觀 OK ≠ 真的 OK（跨層次驗證） | [Syntactic, Identity, Status, Content, Aggregate] | [lesson_appearance-ok-not-really-ok](lesson_appearance-ok-not-really-ok.md) |
+| **11** | lesson | 外觀 OK ≠ 真的 OK（跨層次驗證） | [Syntactic, Identity, Status, Content, Aggregate] | [lesson_appearance-ok-not-really-ok](lesson_appearance-ok-not-really-ok.md) |
+| **4** | lesson | 存在 ≠ 生效 | [Identity, Status] | [lesson_exists-not-equals-effective](lesson_exists-not-equals-effective.md) |
 | **4** | lesson | 舊快照假綠 — 綠燈不是謊言，只是過期了 | [Status] | [lesson_stale-green-snapshot](lesson_stale-green-snapshot.md) |
 | **3** | unsolved | 憑證輪換（R2 / Filestack / Discord webhook） | — | [unsolved_credential-rotation](unsolved_credential-rotation.md) |
 | **3** | philosophy | 別封神，做那雙還願意做事的手 | — | [philosophy_dont-deify-be-working-hands](philosophy_dont-deify-be-working-hands.md) |
 | **2** | lesson | 聚合成功值掩蓋部分失敗 | [Aggregate] | [lesson_aggregate-hides-partial-failure](lesson_aggregate-hides-partial-failure.md) |
 | **2** | lesson | 背景動作不保證活過 process teardown | [Status] | [lesson_background-work-dies-at-teardown](lesson_background-work-dies-at-teardown.md) |
-| **2** | lesson | 存在 ≠ 生效 | [Identity, Status] | [lesson_exists-not-equals-effective](lesson_exists-not-equals-effective.md) |
 | **2** | lesson | 寫 rule ≠ 遵守 rule（spec 只佔 25%） | — | [lesson_writing-a-rule-is-25-percent](lesson_writing-a-rule-is-25-percent.md) |
 | **1** | lesson | abort / end 不是安全動作 | — | [lesson_abort-is-not-a-safe-action](lesson_abort-is-not-a-safe-action.md) |
 | **1** | lesson | 反射弧要問「派給誰」，不是「我來做」 | — | [lesson_manager-reflex-not-worker](lesson_manager-reflex-not-worker.md) |

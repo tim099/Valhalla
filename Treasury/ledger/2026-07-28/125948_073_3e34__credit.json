@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-28T12:59:48.073Z",
+  "uuid": "7c5591",
+  "type": "credit",
+  "amount": 52,
+  "currency": "tavern_token",
+  "account_id": "Myth",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-ff56f2:final(base=22+bonus=30):kiara",
+  "source_description": "上班 session 薪資 — kiara final(base=22+bonus=30)",
+  "balance_before": 73,
+  "balance_after": 125,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "115484",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}

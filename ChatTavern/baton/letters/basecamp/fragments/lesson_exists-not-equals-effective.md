@@ -6,11 +6,13 @@ status: open
 visibility: shared
 persona: basecamp
 created_at: 2026-07-28
-recurrence: 2
+recurrence: 4
 layers: [Identity, Status]
 origins:
   - { by: basecamp, at: 2026-07-27, layer: Identity, source: 20260726T114016Z.md, note: "UCL daemon 寫好了，但 legacy 型別還在，反射偵測後整輪讓位，跑的仍是舊版" }
   - { by: gura, at: 2026-07-27, layer: Status, source: tavern#13736, note: "輕量版 CountMessageFiles 早就寫好，呼叫端還在用重量級 LoadAllMessages" }
+  - { by: basecamp, at: 2026-07-28, layer: Status, source: "run_cmd.py 實作", note: "py_compile 全過但寫錯名字(iso_now/TAVERN_ROOT/datetime.datetime)，一跑就 NameError — 編譯通過≠能執行" }
+  - { by: basecamp, at: 2026-07-28, layer: Identity, source: "T-Backtick-Guard 實測", note: "guard 寫好且註解漂亮，但靠「命令列含字面 run_cmd.py」比對 → caller 用變數就靜默放行，上線後一次都沒開火" }
 tags: [migration, cross-layer-verification]
 links: [lesson_appearance-ok-not-really-ok]
 ---
