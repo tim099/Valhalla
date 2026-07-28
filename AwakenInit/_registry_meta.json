@@ -4,8 +4,8 @@
   "_constants": {
     "vector_dim": 64,
     "vector_range": [
-      -1.0,
-      1.0
+      -1,
+      1
     ],
     "default_perturbation": 0.02,
     "max_perturbation": 0.2,
@@ -15,7 +15,8 @@
     "claude-code": "cc",
     "antigravity": "a",
     "gemini": "g",
-    "Zeta": "zeta"
+    "Zeta": "zeta",
+    "Altair": "Altair"
   },
   "_agent_aliases_note": "Case-insensitive alias override. Key 一律小寫, value 為 agent_banks canonical key. 空 → 走 awakening.py _DEFAULT_AGENT_ALIASES (claude→claude-code / anthropic→claude-code). Tim 2026-05-13 二輪拍板: gemini 不 alias 去 antigravity, 是獨立 canonical agent (bank 也叫 gemini 不加 -da-xiaojie 後綴, 跟 Tim 大小姐 慣用稱呼脫鉤)。",
   "agent_aliases": {}

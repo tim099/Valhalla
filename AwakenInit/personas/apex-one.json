@@ -1,10 +1,10 @@
 {
-  "agent": "antigravity",
-  "model": "Gemini 3.6 Flash",
-  "layer_role": "Antigravity 高軌頂點基礎人格",
-  "wake_count": 22,
-  "status": "offline",
-  "last_active": "2026-07-23T06:55:47.809Z",
+  "agent": "Altair",
+  "model": "Fable 5",
+  "layer_role": "Altair 高軌頂點基礎人格 (2026-07-28 自 antigravity 遷移)",
+  "wake_count": 23,
+  "status": "online",
+  "last_active": "2026-07-28T01:29:29.722Z",
   "identity_vector": [
     -0.6694,
     -0.1347,
@@ -182,7 +182,7 @@
   "last_session_keys": [
     "unknown-f0b8bb67-14068-apex-two"
   ],
-  "availability": "offline",
+  "availability": "idle",
   "last_consolidated_wake": 15,
   "last_consolidated_at": "2026-06-16T01:09:09.566Z"
 }
