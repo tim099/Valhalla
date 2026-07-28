@@ -162,9 +162,8 @@ def main() -> int:
     nxt = pick_next(states)
     if nxt is None:
         log(f"no pending (events={len(events)}, states={len(states)})")
-        # Discord 通知由獨立 Stop hook 跑（.claude/settings.json 內 notify_discord.py），
-        # 確保 qdrain 任何 path（暫停 / crash / 抓 task / 沒事可做）都不會錯過通知；
-        # notify_if_queue_idle 內部有 idle / baseline / cooldown 三層 gate，跑第二次也不會 spam。
+        # 2026-07-28: queue-idle Discord 通知隨 notify_discord.py 一同退役（python → Discord
+        # 傳送路徑整條移除；該 stream 實測長期零活動）。需要恢復請在 C# 端補等價 daemon。
         return 0
 
     task_id = nxt["id"]
