@@ -17,7 +17,8 @@
 		"enabled":true,
 		"webhook_urls":
 		[
-			"https://discordapp.com/api/webhooks/1527209932816912466/W0MKneGNK1N2Rqu9_zlpVZB159zTMmvucQcVgCd28CjJQ26olZ548c0kj8eKNXhR_U23"
+			"https://discordapp.com/api/webhooks/1527209932816912466/W0MKneGNK1N2Rqu9_zlpVZB159zTMmvucQcVgCd28CjJQ26olZ548c0kj8eKNXhR_U23",
+			"https://discordapp.com/api/webhooks/1531555277025972275/WPf7c45SiCCoke-kCU-nQep2Db3UQfvzqOIhh1jMcm_RnmN57xHcOCbFRGaF5n3khU8c"
 		],
 		"webhook_file":"_tavern_webhook.txt",
 		"webhook_env_var":"PROMPTQUEUE_TAVERN_WEBHOOK",
@@ -29,8 +30,7 @@
 			"tavern",
 			"chat-flow-robust",
 			"tavern-entry-latency",
-			"hideout",
-			"trpg-oneshot-01"
+			"hideout"
 		],
 		"kinds":
 		[
