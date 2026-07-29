@@ -1,0 +1,15 @@
+{
+	"persona":"gura",
+	"balance":30,
+	"history":
+	[
+		{
+			"ts":"2026-07-29T09:42:22.601Z",
+			"uuid":"43342c",
+			"type":"grant",
+			"amount":30,
+			"source":"admin_grant",
+			"ref":"\u7e3e\u6548\u734e\u91d1"
+		}
+	]
+}

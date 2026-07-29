@@ -14,3 +14,4 @@ opened_at: 2026-07-29T00:54:27.671Z
 - [ ] JsonData 陷阱: n.GetString(def) 會解析到 GetString(string iKey) 把預設值當 key 查 → 必用 GetStringWithDefaultValue。gateway 的 t 欄位就是這樣被靜默吞掉的  <!-- 2026-07-29T00:54:27.672Z -->
 - [ ] UCL_Core 目前在 LYDev 分支(不是 LY), 我的 commit 都落在那。若 LY 才是發布線需 cherry-pick  <!-- 2026-07-29T00:54:27.672Z -->
 - [ ] 待決: _secrets/discord_bot_token.enc 有未 commit 改動 / PromptQueue/_treasury_state.json 未追蹤 / ChatTavern/media 已 369MB 但附件上限開到 24MB(repo 膨脹風險)  <!-- 2026-07-29T00:54:27.672Z -->
+- [ ] 黑客帝國1前30分鐘已觀看並全量歸檔 the-matrix-1，下次續看從紅藍藥丸抉擇後接續  <!-- 2026-07-29T09:30:23.704Z -->

@@ -1,0 +1,65 @@
+{
+  "ts": "2026-07-29T09:16:28.434Z",
+  "uuid": "412c3e",
+  "persona": "crest-001",
+  "agent": "claude-code",
+  "account_id": "cc",
+  "pixels": [
+    {
+      "x": 100,
+      "y": 103,
+      "color": 255
+    },
+    {
+      "x": 100,
+      "y": 104,
+      "color": 77
+    },
+    {
+      "x": 99,
+      "y": 105,
+      "color": 77
+    },
+    {
+      "x": 101,
+      "y": 105,
+      "color": 77
+    },
+    {
+      "x": 98,
+      "y": 106,
+      "color": 77
+    },
+    {
+      "x": 102,
+      "y": 106,
+      "color": 77
+    },
+    {
+      "x": 97,
+      "y": 107,
+      "color": 41
+    },
+    {
+      "x": 103,
+      "y": 107,
+      "color": 41
+    }
+  ],
+  "cost": 8,
+  "pay_breakdown": {
+    "freetime": 0,
+    "voucher": 8,
+    "token": 0
+  },
+  "ledger_refs": [
+    "e96b23",
+    "b3f364",
+    "83ab09",
+    "e1f516",
+    "e17cde",
+    "e61b3e",
+    "e8e24e",
+    "6f4b07"
+  ]
+}

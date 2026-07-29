@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-29T09:16:29.254Z",
+  "uuid": "e8e24e",
+  "type": "audit",
+  "amount": 0,
+  "currency": "tavern_token",
+  "account_id": "cc",
+  "source_kind": "draw_voucher_consume",
+  "source_ref": "voucher:crest-001:97,107",
+  "source_description": "draw voucher consumed @ canvas (crest-001)",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "39060",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_e8e24e",
+  "signature_mismatch": false
+}

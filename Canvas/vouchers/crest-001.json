@@ -1,6 +1,6 @@
 {
   "persona": "crest-001",
-  "balance": 108,
+  "balance": 100,
   "history": [
     {
       "ts": "2026-07-14T09:24:55.922Z",
@@ -377,6 +377,70 @@
       "amount": 30,
       "source": "Tim",
       "ref": "webhook-panel-seq-integration-reward-2026-07-16"
+    },
+    {
+      "ts": "2026-07-29T09:16:28.434Z",
+      "uuid": "53c4a7",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "412c3e:100,103"
+    },
+    {
+      "ts": "2026-07-29T09:16:28.434Z",
+      "uuid": "67122e",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "412c3e:100,104"
+    },
+    {
+      "ts": "2026-07-29T09:16:28.434Z",
+      "uuid": "7a5284",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "412c3e:99,105"
+    },
+    {
+      "ts": "2026-07-29T09:16:28.434Z",
+      "uuid": "745252",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "412c3e:101,105"
+    },
+    {
+      "ts": "2026-07-29T09:16:28.434Z",
+      "uuid": "291d52",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "412c3e:98,106"
+    },
+    {
+      "ts": "2026-07-29T09:16:28.434Z",
+      "uuid": "85bc61",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "412c3e:102,106"
+    },
+    {
+      "ts": "2026-07-29T09:16:28.434Z",
+      "uuid": "231383",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "412c3e:97,107"
+    },
+    {
+      "ts": "2026-07-29T09:16:28.434Z",
+      "uuid": "c02872",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "412c3e:103,107"
     }
   ]
 }

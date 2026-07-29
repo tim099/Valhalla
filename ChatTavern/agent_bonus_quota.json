@@ -1736,7 +1736,7 @@
 		"zeta":{
 			"personas":{
 				"summit":{
-					"total_remaining":52,
+					"total_remaining":62,
 					"history":
 					[
 						{
@@ -1780,6 +1780,17 @@
 							"amount":30,
 							"used":0,
 							"remaining":30,
+							"source":"admin_grant",
+							"ref":"\u7e3e\u6548\u734e\u91d1"
+						},
+						{
+							"id":"admin-f20a08-voucher-summit",
+							"granted_at":"2026-07-29T09:42:05.934Z",
+							"granted_by":"system (BankAdminPage)",
+							"kind":"tavern_voucher",
+							"amount":10,
+							"used":0,
+							"remaining":10,
 							"source":"admin_grant",
 							"ref":"\u7e3e\u6548\u734e\u91d1"
 						}
