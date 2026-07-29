@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-29T01:17:25.575Z",
+  "uuid": "e9ac7a",
+  "type": "credit",
+  "amount": 11,
+  "currency": "tavern_token",
+  "account_id": "cc",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-d57baa:final(base=7+bonus=4):crest-001",
+  "source_description": "上班 session 薪資 — crest-001 final(base=7+bonus=4)",
+  "balance_before": 91,
+  "balance_after": 102,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "3152",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}

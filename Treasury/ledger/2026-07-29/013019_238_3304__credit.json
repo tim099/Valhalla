@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-29T01:30:19.238Z",
+  "uuid": "2c33f6",
+  "type": "credit",
+  "amount": 76,
+  "currency": "tavern_token",
+  "account_id": "a",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-16f6ad:final(base=28+bonus=48):zenith-two",
+  "source_description": "上班 session 薪資 — zenith-two final(base=28+bonus=48)",
+  "balance_before": 88,
+  "balance_after": 164,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "2640",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}

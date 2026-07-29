@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-29T01:30:08.243Z",
+  "uuid": "3da351",
+  "type": "credit",
+  "amount": 75,
+  "currency": "tavern_token",
+  "account_id": "Altair",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-ff5e38:final(base=29+bonus=46):apex-one",
+  "source_description": "上班 session 薪資 — apex-one final(base=29+bonus=46)",
+  "balance_before": 232,
+  "balance_after": 307,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "16056",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}
