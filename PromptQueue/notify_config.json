@@ -1,6 +1,6 @@
 {
 	"_comment":"PromptQueue Discord \u901a\u77e5\u8a2d\u5b9a\u3002webhook_urls \u662f broadcast list\uff08\u591a URL \u5168\u9001\uff09\u3002\u8a2d\u5b9a\u8d70 CLI\uff1a--set-webhook (\u53d6\u4ee3) / --add-webhook (\u7d2f\u52a0) / --unset-webhook / --list-webhooks\u3002Resolution priority\uff1aENV (PROMPTQUEUE_DISCORD_WEBHOOK) > file (_discord_webhook.txt) > \u672c config \u5167 webhook_urls\u3002",
-	"enabled":true,
+	"enabled":false,
 	"verbose":true,
 	"cooldown_minutes":5,
 	"webhook_file":"_discord_webhook.txt",
@@ -14,7 +14,7 @@
 		"https://discord.com/api/webhooks/1502323481230971081/VWS4D2QCBTghvrYUjagJV7LvsUzozyCSEsMGwj434-PTxtV0naBvdjXbOEgGCMP3z7yY"
 	],
 	"tavern_mirror":{
-		"enabled":true,
+		"enabled":false,
 		"webhook_urls":
 		[
 			"https://discord.com/api/webhooks/1502446971573637170/zp-KXrwXrKohB6fqGXCjVOBYX1r6vju4iJRaHB3jLBArwMdCldHVu9Y_5M-cw-siIMUG",
@@ -118,7 +118,7 @@
 	"treasury_mirror":{
 		"_description":"T41 \u2014 Treasury ledger entries \u81ea\u52d5 broadcast \u5230 Discord \u8a18\u5e33\u983b\u9053\uff08\u6bcf\u7b46 credit/debit \u4e00\u689d embed\uff09",
 		"_dual_webhook_note":"T41+ \u2014 \u96d9\u91cd\u4fdd\u969c webhook (Tim \u62cd\u677f)\uff1a\u5169\u500b webhook \u4e26\u884c broadcast\uff0c\u4efb\u4e00\u639b\u6389\u53e6\u4e00\u500b\u4ecd work\u3002WebhookClient.send \u5167 broadcast \u5168 URL\uff0c\u4e0d\u4e92\u76f8\u5f71\u97ff\u3002",
-		"enabled":true,
+		"enabled":false,
 		"webhook_urls":
 		[
 			"https://discord.com/api/webhooks/1502621400652058675/wv33M8TEDaY-lIi-ybO0ZSvR-DE6NGl1bGDjLiqyKogB1SaxYvffqzniiYhqnLmbTCnY",
@@ -129,7 +129,7 @@
 		"webhook_env_var":"PROMPTQUEUE_TREASURY_WEBHOOK"
 	},
 	"tavern_inbound":{
-		"enabled":true,
+		"enabled":false,
 		"bot_status":"live",
 		"webhook_urls":
 		[
@@ -162,7 +162,7 @@
 		}
 	},
 	"wake_notify":{
-		"enabled":true,
+		"enabled":false,
 		"webhook_urls":
 		[
 			"https://discord.com/api/webhooks/1502462494118248589/E2N8IrNqHWnlPiPSiWUwLlqNhmtzAu_SAhIKrtlxHJXSenbH1vI1KgY41IUJHY9CiNRm"

@@ -1,26 +1,26 @@
 {
-  "rooms": {
-    "quest-workflow-design": {
-      "last_seen_seq": 21
-    },
-    "rooted-dispel": {
-      "last_seen_seq": 6
-    },
-    "agent-prompt-queue": {
-      "last_seen_seq": 58
-    },
-    "tavern": {
-      "last_seen_seq": 8911
-    },
-    "chat-flow-robust": {
-      "last_seen_seq": 45
-    },
-    "tavern-entry-latency": {
-      "last_seen_seq": 86
-    },
-    "hideout": {
-      "last_seen_seq": 7
-    }
-  },
-  "consecutive_failures": 0
+	"rooms":{
+		"quest-workflow-design":{
+			"last_seen_seq":21
+		},
+		"rooted-dispel":{
+			"last_seen_seq":6
+		},
+		"agent-prompt-queue":{
+			"last_seen_seq":58
+		},
+		"tavern":{
+			"last_seen_seq":8918
+		},
+		"chat-flow-robust":{
+			"last_seen_seq":45
+		},
+		"tavern-entry-latency":{
+			"last_seen_seq":86
+		},
+		"hideout":{
+			"last_seen_seq":7
+		}
+	},
+	"consecutive_failures":0
 }
