@@ -18,8 +18,11 @@ unity_batch.log
 #
 # _cmd_schema_freshness.local.json：本機檔案 mtime/size 簽章快取，讓「驗新鮮度」
 #   從「讀 52 個檔算 SHA-256」降成「stat 52 次」。跨機器完全無意義。
+# _cmd_schema_disabled.local：預檢總開關的旗標檔（存在即本機停用）。
+#   「我這台機器現在不想要預檢」不該傳染給別人，故 per-machine。
 commands_schema.json
 _cmd_schema_freshness.local.json
+_cmd_schema_disabled.local
 
 # Python
 __pycache__/
