@@ -159,25 +159,6 @@
 
 		}
 	},
-	"wake_notify":{
-		"enabled":true,
-		"webhook_urls":
-		[
-			"https://discord.com/api/webhooks/1502462494118248589/E2N8IrNqHWnlPiPSiWUwLlqNhmtzAu_SAhIKrtlxHJXSenbH1vI1KgY41IUJHY9CiNRm"
-		],
-		"webhook_file":"_wake_webhook.txt",
-		"webhook_env_var":"PROMPTQUEUE_WAKE_WEBHOOK",
-		"watched_agents":
-		[
-			"claude-da-xiaojie",
-			"gemini-da-xiaojie",
-			"antigravity-da-xiaojie"
-		],
-		"cooldown_minutes":2,
-		"max_per_run":5,
-		"use_local_time":true,
-		"channel_label":"WakeAlert"
-	},
 	"watched_quest_rooms":
 	[
 		"tavern-entry-latency"
