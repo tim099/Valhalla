@@ -8,6 +8,19 @@
 .compile_status.json
 unity_batch.log
 
+# Cmd schema 產物與其新鮮度快取 —— 兩者都是 per-machine 衍生物，不入 git（Tim 2026-07-30 拍板）。
+#
+# commands_schema.json：由 C# UCL_CmdSchemaExporter 反射當前 handler 生成。
+#   不入 git 的理由：內含 source_hash（本機 Cmd_*.cs 內容的雜湊）。各人的工作區狀態不同 →
+#   同一份檔在不同機器上必然不同 → 入 git 會製造永久 diff，且 pull 到別人的 hash 反而變成假過期。
+#   缺席不是錯誤：Python 端 fail-open 跳過預檢；Unity 端偵測到缺檔會無視每日節流立刻生成。
+#   手動補：run_cmd.py run ExportCmdSchema，或 控制台 → Cmd 後台管理頁。
+#
+# _cmd_schema_freshness.local.json：本機檔案 mtime/size 簽章快取，讓「驗新鮮度」
+#   從「讀 52 個檔算 SHA-256」降成「stat 52 次」。跨機器完全無意義。
+commands_schema.json
+_cmd_schema_freshness.local.json
+
 # Python
 __pycache__/
 *.pyc
