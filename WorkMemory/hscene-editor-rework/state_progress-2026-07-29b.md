@@ -3,10 +3,10 @@ id: state_progress-2026-07-29b
 topic: hscene-editor-rework
 title: 施工進度快照 2026-07-29b（A/B/PopupGrouped 完工, 下一棒 C）
 type: state
-status: active
+status: superseded
 created_at: 2026-07-29
 created_by: crest-001
-links: []
+links: [hscene-editor-rework/state_progress-2026-07-29c]
 related_docs: [Docs/Plan/HSceneEditorRework/Plan_B_AssetImport_SpineGroups.md, Docs/Plan/HSceneEditorRework/Discussion_Pending.md]
 ---
 
