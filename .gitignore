@@ -98,3 +98,6 @@ Canvas/canvas_latest.png
 Canvas/canvas_latest_t.png
 Canvas/_last_view.png
 Canvas/_locks/
+
+# backtick guard 攔截稽核紀錄（本機診斷用；每台機器各自累積，共享只會互相打架）
+_backtick_guard_blocks.jsonl
