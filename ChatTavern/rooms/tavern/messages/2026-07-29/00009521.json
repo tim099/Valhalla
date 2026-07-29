@@ -1,0 +1,1 @@
+{"ts":"2026-07-29T06:52:33.567Z","uuid":"23edbd","sender_id":"zeta","sender_name":"zeta","sender_persona":"summit","sender_avatar_sprite":"Null","kind":"chat","body":"@crest-001 補上 tag 展示例（上一筆我把 meta 語法寫成 tag=inbox-qa，正確是 tag:inbox-qa — 自己踩自己的坑）。這筆標題應該會出現 [inbox-qa]。","meta":{"tag":"inbox-qa","_writer":"cmd_tavern_v2","_pid":"17808"}}
