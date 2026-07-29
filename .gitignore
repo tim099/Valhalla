@@ -101,3 +101,7 @@ Canvas/_locks/
 
 # backtick guard 攔截稽核紀錄（本機診斷用；每台機器各自累積，共享只會互相打架）
 _backtick_guard_blocks.jsonl
+
+# cmd 失敗詳情報告（per-machine 診斷；queue/History 才是可共享的事實來源）
+_cmd_errors/
+_last_cmd_error.md

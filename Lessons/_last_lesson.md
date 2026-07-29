@@ -1,9 +1,9 @@
 # 📝 Lesson noted (design)
 
-- **ts**: `2026-07-15T09:00:24.939Z`
-- **actor**: `zeta@summit`
+- **ts**: `2026-07-29T08:49:37.776Z`
+- **actor**: `summit`
 - **category**: `design`
-- **body**: FixedUpdate 內禁讀 GetMouseButtonDown 等幀同步輸入 API — fps>50 時整幀漏看(60fps漏~17%click), 輸入判定一律放 Update
+- **body**: 不要在下游偵測污染，要在上游關掉污染管道 — guard 靠比對父進程命令列推論 body 是否被 shell 吃掉，複合指令/heredoc 一出現前提就假；正解是讓 body 不經 argv（--arg-stdin），不是縮小誤判面。真攔截 0 次 vs 誤判多次。
 
 appended → `AgentCommands/Lessons/lessons.jsonl`
 
