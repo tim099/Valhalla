@@ -15,7 +15,8 @@ Usage:
 1. 接受 message body (從 --body 或 stdin)
 2. 走 run_cmd.py spawn op=post 把訊息寫進 tavern messages
 3. Cmd_Tavern.Op_Post 結尾 hook 自動處理：
-   - work_post auto-credit (如果 routing target IsWorkChannel)
+   - work_post auto-credit (如果 routing target 的 IsPaidPost=True；2026-07-30 前的判準是
+     已 Obsolete 的 IsWorkChannel，隨上班模式退役換欄位，ledger source_kind 仍為 work_post)
    - token_parse auto-credit (從 body parse N token，限白名單 sender)
 4. fail swallow + log warning（不擋呼叫者主流程）
 

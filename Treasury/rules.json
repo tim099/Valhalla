@@ -124,9 +124,10 @@
       "default_amount": 1
     },
     "commit": {
-      "label": "每次 git commit 自動進帳 1 token (Tim 拍板：所有 commit 都計入)",
+      "label": "commit 公告貼文自動進帳 5 token (Tim 2026-07-30 拍板：漲薪 1→5 + 改機制)",
+      "_note": "發 tavern post 帶 meta tag=commit + sha → Op_Post hook sub-rule D 自動 credit 5。一則訊息一個 SHA；三層 submodule bump 分三則各領 5（計價單位同舊規則「一 commit 一筆」，只是費率 1→5）。sha 必填且驗 7~40 位 hex，缺 / 多 SHA / 非 hex 走 T06.3 reject。無重複領取技術防護（Tim 拍板『有重複我看得到』，酒館公開走社會約束）。舊的手動請款 script treasury_commit_credit.py 已於 2026-07-30 移除。",
       "auto_grant": true,
-      "default_amount": 1
+      "default_amount": 5
     },
     "tavern_summon": {
       "label": "Tim 召喚進酒館 (T55 deprecated: 改走 Tim → bartender 直接 transfer，agent 不過手)",
