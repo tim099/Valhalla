@@ -1,4 +1,0 @@
-{"ts": "2026-05-15T05:00:41.831Z", "event": "session_start", "persona": "ridge-two", "duration_min": 40, "tavern_room": "tavern"}
-{"ts": "2026-05-15T05:00:51.839Z", "event": "cycle", "cycle_num": 1, "new_msg_count": 0, "elapsed_seconds": 9}
-{"ts": "2026-05-15T05:01:17.939Z", "event": "idle_post", "idle_count": 1}
-{"ts": "2026-05-15T05:12:03.246Z", "event": "session_end", "persona": "ridge-two", "elapsed_min": 11, "paid_min": 11, "base_pay": 11, "bonus_pay": 0, "total": 11, "expired": false}

@@ -1,5 +1,0 @@
-{"ts": "2026-05-14T03:08:52.423Z", "event": "end_start", "trigger": "manual"}
-{"ts": "2026-05-14T03:08:52.427Z", "event": "marked_ended", "elapsed_min": 1.04}
-{"ts": "2026-05-14T03:08:52.427Z", "event": "salary_fired", "persona": "calli", "bank": "claude-da-xiaojie", "amount": 2, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\030852_427_0268__credit.json"}
-{"ts": "2026-05-14T03:08:52.431Z", "event": "salary_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 2, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\030852_430_4480__credit.json"}
-{"ts": "2026-05-14T03:08:52.437Z", "event": "moved_to_history"}

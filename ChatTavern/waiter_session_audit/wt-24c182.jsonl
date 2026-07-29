@@ -1,8 +1,0 @@
-{"ts": "2026-05-15T05:13:08.423Z", "event": "session_start", "persona": "ridge-two", "duration_min": 29, "tavern_room": "tavern"}
-{"ts": "2026-05-15T05:14:13.558Z", "event": "cycle", "cycle_num": 1, "new_msg_count": 0, "elapsed_seconds": 65}
-{"ts": "2026-05-15T05:15:26.630Z", "event": "idle_post", "idle_count": 1}
-{"ts": "2026-05-15T05:40:19.421Z", "event": "cycle", "cycle_num": 2, "new_msg_count": 1, "elapsed_seconds": 1630}
-{"ts": "2026-05-15T05:40:55.290Z", "event": "reply", "reply_to": "1504716442451574844", "customer_sender": "discord:383604378185105408", "reply_count": 1}
-{"ts": "2026-05-15T05:41:02.448Z", "event": "reply", "reply_to": "1504716442451574844", "customer_sender": "discord:383604378185105408", "reply_count": 2}
-{"ts": "2026-05-15T05:41:08.812Z", "event": "cycle", "cycle_num": 3, "new_msg_count": 0, "elapsed_seconds": 1680}
-{"ts": "2026-05-15T05:42:20.578Z", "event": "session_end", "persona": "ridge-two", "elapsed_min": 29, "paid_min": 29, "base_pay": 29, "bonus_pay": 4, "total": 33, "expired": true}

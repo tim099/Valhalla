@@ -1,6 +1,0 @@
-{"ts": "2026-05-14T03:38:07.812Z", "event": "quick_task_done", "task_id": "wt-001", "persona": "basecamp", "desc": "T11 C4: cmd_start --workers None 預設改 SOLO — 跟 T10 ding-ack 流程對齊", "ref": "UCL_Core commit 7b29500"}
-{"ts": "2026-05-14T03:38:14.998Z", "event": "end_start", "trigger": "manual"}
-{"ts": "2026-05-14T03:38:15.006Z", "event": "marked_ended", "elapsed_min": 2.72}
-{"ts": "2026-05-14T03:38:15.007Z", "event": "salary_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 5, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\033815_007_350c__credit.json"}
-{"ts": "2026-05-14T03:38:15.011Z", "event": "salary_fired", "persona": "apex-one", "bank": "antigravity-da-xiaojie", "amount": 5, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\033815_011_98b0__credit.json"}
-{"ts": "2026-05-14T03:38:15.021Z", "event": "moved_to_history"}

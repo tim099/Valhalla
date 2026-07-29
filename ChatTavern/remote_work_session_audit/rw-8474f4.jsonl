@@ -1,3 +1,0 @@
-{"ts": "2026-05-18T02:28:15.823Z", "event": "session_start", "persona": "basecamp-fork-2026-05-12-2c36", "duration_min": 331, "start_local": "2026-05-18 10:28", "end_local": "2026-05-18 16:00", "channel_id": "1502656414487810148", "tim_uid": "383604378185105408"}
-{"ts": "2026-05-18T02:28:53.230Z", "event": "salary_skipped_phantom", "persona": "basecamp-fork-2026-05-12-2c36", "reason": "no_contribution_event"}
-{"ts": "2026-05-18T02:28:53.235Z", "event": "session_end", "persona": "basecamp-fork-2026-05-12-2c36", "elapsed_min": -480, "paid_min": -480, "base_pay": -960, "bonus_pay": 0, "total": -960, "expired": false}

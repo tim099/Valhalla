@@ -1,6 +1,0 @@
-{"ts": "2026-05-14T04:38:13.648Z", "event": "quick_task_done", "task_id": "wt-001", "persona": "basecamp", "desc": "Ship Plan_Bartender_Optimization_Backlog P3 — work session recompile catch-up sweep (daemon first-tick spawn end subprocess for overdue)", "ref": "UCL_Core commit 244a074"}
-{"ts": "2026-05-14T04:48:48.492Z", "event": "end_start", "trigger": "manual"}
-{"ts": "2026-05-14T04:48:48.501Z", "event": "marked_ended", "elapsed_min": 15.04}
-{"ts": "2026-05-14T04:48:48.501Z", "event": "salary_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 30, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\044848_501_8d13__credit.json"}
-{"ts": "2026-05-14T04:48:48.521Z", "event": "voucher_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 3}
-{"ts": "2026-05-14T04:48:48.529Z", "event": "moved_to_history"}

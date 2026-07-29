@@ -1,8 +1,0 @@
-{"ts": "2026-05-29T22:54:25.516Z", "event": "worker_auto_recruited_via_ding_ack", "persona": "ridge-two", "bank": "antigravity-da-xiaojie", "trigger": "Cmd_Tavern op=post meta.tag=ack-only"}
-{"ts": "2026-05-30T01:14:22.112Z", "event": "end_start", "trigger": "manual", "remaining_min": 45.56, "early_confirm": true}
-{"ts": "2026-05-30T01:14:22.126Z", "event": "marked_ended", "elapsed_min": 150.44}
-{"ts": "2026-05-30T01:14:22.139Z", "event": "salary_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 301, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-30\\011422_134_9b04__credit.json"}
-{"ts": "2026-05-30T01:14:22.149Z", "event": "voucher_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 30}
-{"ts": "2026-05-30T01:14:22.160Z", "event": "salary_fired", "persona": "ridge-two", "bank": "antigravity-da-xiaojie", "amount": 301, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-30\\011422_155_fc57__credit.json"}
-{"ts": "2026-05-30T01:14:22.175Z", "event": "voucher_fired", "persona": "ridge-two", "bank": "antigravity-da-xiaojie", "amount": 30}
-{"ts": "2026-05-30T01:14:22.188Z", "event": "moved_to_history"}

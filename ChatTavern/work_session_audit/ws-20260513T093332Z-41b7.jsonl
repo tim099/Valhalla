@@ -1,4 +1,0 @@
-{"ts": "2026-05-13T09:33:35.333Z", "event": "worker_added_mid_session", "persona": "meadow", "bank": "claude-da-xiaojie", "added_at": "2026-05-13T09:33:35.333Z", "added_by": "(unspecified)"}
-{"ts": "2026-05-13T09:33:37.518Z", "event": "end_start", "trigger": "manual"}
-{"ts": "2026-05-13T09:33:37.521Z", "event": "marked_ended", "elapsed_min": 0.09}
-{"ts": "2026-05-13T09:33:37.524Z", "event": "moved_to_history"}

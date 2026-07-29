@@ -1,6 +1,0 @@
-{"ts": "2026-05-14T09:05:34.126Z", "event": "quick_task_done", "task_id": "wt-001", "persona": "basecamp", "desc": "T28: marathon interval 240→600 + subconscious scan-tavern + Stop hook + 2 new anti-patterns + self-violation", "ref": "11d51eb1 + UCL_Core 350e7d3"}
-{"ts": "2026-05-14T09:05:41.951Z", "event": "end_start", "trigger": "manual"}
-{"ts": "2026-05-14T09:05:41.960Z", "event": "marked_ended", "elapsed_min": 5.58}
-{"ts": "2026-05-14T09:05:41.973Z", "event": "salary_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 11, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\090541_962_2b19__credit.json"}
-{"ts": "2026-05-14T09:05:41.989Z", "event": "voucher_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 1}
-{"ts": "2026-05-14T09:05:42.007Z", "event": "moved_to_history"}

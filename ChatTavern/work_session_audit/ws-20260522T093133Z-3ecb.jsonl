@@ -1,6 +1,0 @@
-{"ts": "2026-05-22T10:29:34.389Z", "event": "end_start", "trigger": "manual", "remaining_min": -0.02, "early_confirm": false}
-{"ts": "2026-05-22T10:29:34.489Z", "event": "marked_ended", "elapsed_min": 58.02}
-{"ts": "2026-05-22T10:29:34.506Z", "event": "salary_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 116, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-22\\102934_502_8e13__credit.json"}
-{"ts": "2026-05-22T10:29:34.514Z", "event": "voucher_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 11}
-{"ts": "2026-05-22T10:29:34.518Z", "event": "salary_skipped_phantom", "persona": "apex-two", "reason": "no contribute event in audit log"}
-{"ts": "2026-05-22T10:29:34.525Z", "event": "moved_to_history"}

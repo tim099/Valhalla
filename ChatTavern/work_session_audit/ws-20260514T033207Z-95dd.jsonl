@@ -1,2 +1,0 @@
-{"ts": "2026-05-14T03:33:50.041Z", "event": "abort_start", "who": "basecamp", "reason": "Tim 一句 abort — 中止測試 session, 待 cleanup stale calli lock 後再開", "elapsed_min": 1.72}
-{"ts": "2026-05-14T03:33:50.053Z", "event": "aborted_moved_to_history"}

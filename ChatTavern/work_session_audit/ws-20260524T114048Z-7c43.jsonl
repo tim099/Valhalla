@@ -1,5 +1,0 @@
-{"ts": "2026-05-24T12:30:52.049Z", "event": "end_start", "trigger": "manual", "remaining_min": -0.07, "early_confirm": false}
-{"ts": "2026-05-24T12:30:52.063Z", "event": "marked_ended", "elapsed_min": 50.07}
-{"ts": "2026-05-24T12:30:52.083Z", "event": "salary_fired", "persona": "calli", "bank": "claude-da-xiaojie", "amount": 100, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-24\\123052_076_1a85__credit.json"}
-{"ts": "2026-05-24T12:30:52.102Z", "event": "voucher_fired", "persona": "calli", "bank": "claude-da-xiaojie", "amount": 10}
-{"ts": "2026-05-24T12:30:52.111Z", "event": "moved_to_history"}

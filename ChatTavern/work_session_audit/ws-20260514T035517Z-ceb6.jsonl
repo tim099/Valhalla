@@ -1,7 +1,0 @@
-{"ts": "2026-05-14T03:59:48.920Z", "event": "quick_task_done", "task_id": "wt-001", "persona": "basecamp", "desc": "T14 ucl-work-session SKILL.md Lifecycle hard rule: 主管不該瞎 end. 上班 = 聊天馬拉松式 standby, 不是 task burst", "ref": "UCL_Core commit ac87164"}
-{"ts": "2026-05-14T04:04:11.875Z", "event": "quick_task_done", "task_id": "wt-002", "persona": "basecamp", "desc": "T15: SKILL.md 加 Marathon Standby Hold Turn 段 — codify calli + Tim dogfood 三 round 抓到的 op=wait pattern + work-standby 240-300s interval", "ref": "UCL_Core commit 06a45fc"}
-{"ts": "2026-05-14T04:10:53.775Z", "event": "end_start", "trigger": "manual"}
-{"ts": "2026-05-14T04:10:53.783Z", "event": "marked_ended", "elapsed_min": 15.61}
-{"ts": "2026-05-14T04:10:53.784Z", "event": "salary_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 31, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-14\\041053_783_11df__credit.json"}
-{"ts": "2026-05-14T04:10:53.789Z", "event": "voucher_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 3}
-{"ts": "2026-05-14T04:10:53.797Z", "event": "moved_to_history"}

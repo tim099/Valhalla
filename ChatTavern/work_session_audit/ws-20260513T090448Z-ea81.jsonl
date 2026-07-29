@@ -1,8 +1,0 @@
-{"ts": "2026-05-13T09:06:34.586Z", "event": "end_start", "trigger": "manual"}
-{"ts": "2026-05-13T09:07:09.365Z", "event": "end_start", "trigger": "manual"}
-{"ts": "2026-05-13T09:07:09.372Z", "event": "marked_ended", "elapsed_min": 2.36}
-{"ts": "2026-05-13T09:07:09.372Z", "event": "salary_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 5, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-13\\090709_372_d75f__credit.json"}
-{"ts": "2026-05-13T09:07:09.374Z", "event": "salary_fired", "persona": "apex-two", "bank": "antigravity-da-xiaojie", "amount": 5, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-13\\090709_374_e352__credit.json"}
-{"ts": "2026-05-13T09:07:09.387Z", "event": "end_treat_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 1}
-{"ts": "2026-05-13T09:07:09.397Z", "event": "end_treat_fired", "persona": "apex-two", "bank": "antigravity-da-xiaojie", "amount": 1}
-{"ts": "2026-05-13T09:07:09.402Z", "event": "moved_to_history"}

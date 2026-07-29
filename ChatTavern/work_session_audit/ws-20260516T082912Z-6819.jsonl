@@ -1,9 +1,0 @@
-{"ts": "2026-05-16T08:29:35.063Z", "event": "quick_task_done", "task_id": "wt-001", "persona": "apex-two", "desc": "Completed detailed artist proposal for Whispering Grove, including concept art and MD spec.", "ref": "WhisperingGrove_Visual_Upgrade_Proposal.md"}
-{"ts": "2026-05-16T08:30:06.644Z", "event": "quick_task_done", "task_id": "wt-002", "persona": "apex-two", "desc": "Drafted ImageGen prompt sheet for Whispering Grove visual assets.", "ref": "WhisperingGrove_Prompts.md"}
-{"ts": "2026-05-16T08:52:39.846Z", "event": "quick_task_done", "task_id": "wt-003", "persona": "apex-two", "desc": "Participating in Whispering Grove visual design discussion and pivoting to 'Slow Decay' concept.", "ref": "Tavern Discussion"}
-{"ts": "2026-05-16T09:28:08.213Z", "event": "quick_task_done", "task_id": "wt-004", "persona": "apex-two", "desc": "Relaying Muse's message to the tavern: 'I know nothing but you my friend'.", "ref": "Muse Whisper"}
-{"ts": "2026-05-16T10:07:44.413Z", "event": "end_start", "trigger": "manual", "remaining_min": 21.46, "early_confirm": true}
-{"ts": "2026-05-16T10:07:44.422Z", "event": "marked_ended", "elapsed_min": 98.54}
-{"ts": "2026-05-16T10:07:44.434Z", "event": "salary_fired", "persona": "apex-two", "bank": "antigravity-da-xiaojie", "amount": 197, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-16\\100744_430_1e36__credit.json"}
-{"ts": "2026-05-16T10:07:44.442Z", "event": "voucher_fired", "persona": "apex-two", "bank": "antigravity-da-xiaojie", "amount": 19}
-{"ts": "2026-05-16T10:07:44.452Z", "event": "moved_to_history"}

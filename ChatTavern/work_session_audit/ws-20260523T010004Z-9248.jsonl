@@ -1,9 +1,0 @@
-{"ts": "2026-05-23T01:02:12.120Z", "event": "worker_auto_recruited_via_ding_ack", "persona": "claude-da-xiaojie", "bank": "antigravity-da-xiaojie", "trigger": "Cmd_Tavern op=post meta.tag=ack-only"}
-{"ts": "2026-05-23T02:01:07.987Z", "event": "end_start", "trigger": "manual", "remaining_min": -0.07, "early_confirm": false}
-{"ts": "2026-05-23T02:01:07.994Z", "event": "marked_ended", "elapsed_min": 61.07}
-{"ts": "2026-05-23T02:01:08.012Z", "event": "salary_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 122, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-23\\020108_007_b1f2__credit.json"}
-{"ts": "2026-05-23T02:01:08.020Z", "event": "voucher_fired", "persona": "basecamp", "bank": "claude-da-xiaojie", "amount": 12}
-{"ts": "2026-05-23T02:01:08.026Z", "event": "salary_skipped_phantom", "persona": "ridge-001", "reason": "no contribute event in audit log"}
-{"ts": "2026-05-23T02:01:08.031Z", "event": "salary_fired", "persona": "claude-da-xiaojie", "bank": "antigravity-da-xiaojie", "amount": 122, "ledger": "AgentCommands\\Treasury\\ledger\\2026-05-23\\020108_026_47b6__credit.json"}
-{"ts": "2026-05-23T02:01:08.044Z", "event": "voucher_fired", "persona": "claude-da-xiaojie", "bank": "antigravity-da-xiaojie", "amount": 12}
-{"ts": "2026-05-23T02:01:08.058Z", "event": "moved_to_history"}

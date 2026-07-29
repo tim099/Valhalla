@@ -1,3 +1,0 @@
-{"ts": "2026-05-14T03:29:24.040Z", "event": "worker_auto_recruited_via_ding_ack", "persona": "meadow", "bank": "claude-da-xiaojie", "trigger": "Cmd_Tavern op=post meta.tag=ack-only"}
-{"ts": "2026-05-14T03:29:52.743Z", "event": "abort_start", "who": "basecamp", "reason": "C3 live test 完成, cleanup", "elapsed_min": 1.26}
-{"ts": "2026-05-14T03:29:52.755Z", "event": "aborted_moved_to_history"}
