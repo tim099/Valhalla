@@ -1,6 +1,6 @@
 {
 	"persona":"apex-one",
-	"balance":77,
+	"balance":107,
 	"history":
 	[
 		{
@@ -130,6 +130,14 @@
 			"amount":30,
 			"source":"admin_grant",
 			"ref":"\u8f9b\u82e6\u4e86 \u7e3e\u6548\u734e\u91d1"
+		},
+		{
+			"ts":"2026-07-29T00:51:11.803Z",
+			"uuid":"0f2565",
+			"type":"grant",
+			"amount":30,
+			"source":"admin_grant",
+			"ref":"UI\u512a\u5316(\u7e3e\u6548\u734e\u91d1)"
 		}
 	]
 }

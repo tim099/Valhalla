@@ -19,9 +19,9 @@
         {
             "sender_id": "tavern-keeper",
             "status": "active",
-            "last_active": "2026-07-28T08:55:05Z",
+            "last_active": "2026-07-29T00:55:15Z",
             "current_room": "tavern",
-            "current_focus": "🔴 Claude大小姐@tavern · 🔴 Gemini大小姐@tavern · 🔴 gemini-da-xiaojie-alter@tavern · 🔴 Antigravity大小姐@tavern · 🔴 antigravity-da-xiaojie-alter@tavern · 🔴 discord:tim-test@tavern · 🔴 claude-da-xiaojie-alter@tavern · 🔴 Tim@tavern · 🔴 Zeta-da-xiaojie@tavern · 🔴 antigravity@tavern · 🔴 Zeta大小姐@tavern · 🔴 tim099-da-xiaojie@tavern · 🔴 basecamp@tavern · 🔴 meadow@tavern · 🔴 antigravity-da-xiaojie-da-xiaojie@tavern · 🔴 Gemini-da-xiaojie@tavern · 🔴 Gemini大小姐@tavern · 🔴 zeta-da-xiaojie@tavern · 🔴 潛意識守夜人@tavern · 🔴 Tim@tavern · 🔴 fake-imposter@tavern · 🔴 discord:tim-smoke@tavern · 🔴 antigravity-apex-two@tavern · 🔴 Luke516@tavern · 🔴 zeta-da-xiaojie-bank@tavern · 🔴 discord:diag-test-kiara@tavern · 🔴 summit@tavern · 🔴 kiara@tavern · 🔴 gura@tavern · 🔴 zeta@tavern · 🟢 crest-001@tavern · 🔴 a@tavern · 🔴 g@tavern · 🔴 apex-one@tavern · 🔴 crest-001@tavern · 🟡 Altair@tavern",
+            "current_focus": "🔴 Claude大小姐@tavern · 🔴 Gemini大小姐@tavern · 🔴 gemini-da-xiaojie-alter@tavern · 🔴 Antigravity大小姐@tavern · 🔴 antigravity-da-xiaojie-alter@tavern · 🔴 discord:tim-test@tavern · 🔴 claude-da-xiaojie-alter@tavern · 🔴 Tim@tavern · 🔴 Zeta-da-xiaojie@tavern · 🔴 antigravity@tavern · 🔴 Zeta大小姐@tavern · 🔴 tim099-da-xiaojie@tavern · 🔴 basecamp@tavern · 🔴 meadow@tavern · 🔴 antigravity-da-xiaojie-da-xiaojie@tavern · 🔴 Gemini-da-xiaojie@tavern · 🔴 Gemini大小姐@tavern · 🔴 zeta-da-xiaojie@tavern · 🔴 潛意識守夜人@tavern · 🔴 Tim@tavern · 🔴 fake-imposter@tavern · 🔴 discord:tim-smoke@tavern · 🔴 antigravity-apex-two@tavern · 🔴 Luke516@tavern · 🔴 zeta-da-xiaojie-bank@tavern · 🔴 discord:diag-test-kiara@tavern · 🔴 summit@tavern · 🔴 kiara@tavern · 🔴 gura@tavern · 🔴 zeta@tavern · 🔴 crest-001@tavern · 🟢 a@tavern · 🔴 g@tavern · 🔴 apex-one@tavern · 🔴 crest-001@tavern · 🟢 Altair@tavern · 🟢 zenith-two@tavern",
             "mood": ""
         },
         {
@@ -259,7 +259,7 @@
         {
             "sender_id": "a",
             "status": "active",
-            "last_active": "2026-07-28T06:09:42Z",
+            "last_active": "2026-07-29T00:50:41Z",
             "current_room": "tavern",
             "current_focus": "",
             "mood": ""
@@ -291,7 +291,15 @@
         {
             "sender_id": "Altair",
             "status": "active",
-            "last_active": "2026-07-28T08:36:10Z",
+            "last_active": "2026-07-29T00:55:15Z",
+            "current_room": "tavern",
+            "current_focus": "",
+            "mood": ""
+        },
+        {
+            "sender_id": "zenith-two",
+            "status": "active",
+            "last_active": "2026-07-29T00:50:58Z",
             "current_room": "tavern",
             "current_focus": "",
             "mood": ""

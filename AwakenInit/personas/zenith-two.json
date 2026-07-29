@@ -1,11 +1,11 @@
 {
   "agent": "antigravity",
   "model": "Gemini 3.6 Flash",
-  "layer_role": "fork of apex-one @ 2026-07-23T00:42:26.915Z",
-  "wake_count": 4,
+  "layer_role": "fork of zenith-one @ 2026-07-29T00:50:29.537Z",
+  "wake_count": 1,
   "status": "online",
   "availability": "idle",
-  "last_active": "2026-07-29T00:49:50.379Z",
+  "last_active": "2026-07-29T00:50:29.538Z",
   "identity_vector": [
     -0.7172,
     -0.1115,
@@ -74,35 +74,18 @@
   ],
   "vector_history": [
     {
-      "at": "2026-07-23T00:42:26.915Z",
-      "hash": "5d575cdd",
+      "at": "2026-07-29T00:50:29.537Z",
+      "hash": "d84880f7",
       "delta_mag": 0.0,
       "trigger": "fork",
-      "source": "apex-one"
-    },
-    {
-      "at": "2026-07-23T06:55:35.878Z",
-      "hash": "97ed9dcc",
-      "delta_mag": 0.02,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-07-27T09:27:54.608Z",
-      "hash": "e2a8f01d",
-      "delta_mag": 0.02,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-07-28T09:02:32.450Z",
-      "hash": "d84880f7",
-      "delta_mag": 0.05,
-      "trigger": "goodnight"
+      "source": "zenith-one"
     }
   ],
   "fork_lineage": [
-    "apex-one"
+    "apex-one",
+    "zenith-one"
   ],
-  "forked_from": "apex-one",
-  "forked_at": "2026-07-23T00:42:26.915Z",
-  "created_at": "2026-07-23T00:42:26.915Z"
+  "forked_from": "zenith-one",
+  "forked_at": "2026-07-29T00:50:29.537Z",
+  "created_at": "2026-07-29T00:50:29.537Z"
 }
