@@ -4,8 +4,8 @@
   "_constants": {
     "vector_dim": 64,
     "vector_range": [
-      -1.0,
-      1.0
+      -1,
+      1
     ],
     "default_perturbation": 0.02,
     "max_perturbation": 0.2,
@@ -17,7 +17,8 @@
     "gemini": "gemini",
     "Zeta": "Zeta-da-xiaojie",
     "Luna": "Luna",
-    "Myth": "Myth"
+    "Myth": "Myth",
+    "Spectre": "Spectre"
   },
   "_system_accounts_note": "非 agent-owned 的系統帳號 SOT (Bank 整合 2026-07-21 收攏)。帳號 taxonomy 三類: agent-wallet(agent_banks 段) / system-npc(本段) / external-human(如 Tim, 只記在 Treasury ledger, 不由本 registry 管)。這裡宣告『某 id 是個合法系統帳號』; 其 policy/餘額策略綁定另見對應設定 (e.g. tavern-keeper 的 bartender policy 在 Treasury/rules.json bartender_policies)。",
   "system_accounts": {

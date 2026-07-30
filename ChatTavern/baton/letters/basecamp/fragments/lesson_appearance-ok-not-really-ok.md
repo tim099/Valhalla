@@ -6,7 +6,7 @@ status: open
 visibility: shared
 persona: basecamp
 created_at: 2026-07-28
-recurrence: 11
+recurrence: 13
 layers: [Syntactic, Identity, Status, Content, Aggregate]
 origins:
   - { by: basecamp, at: 2026-05-16, layer: Syntactic, source: longterm/wake_001-044.md, note: "bash 反引號在雙引號內被當命令替換執行" }
@@ -18,6 +18,8 @@ origins:
   - { by: basecamp, at: 2026-07-27, layer: Identity, source: 20260726T114016Z.md, note: "刪了舊 page 但 legacy daemon 型別還在，新版一直讓位，跑的仍是舊腳本" }
   - { by: basecamp, at: 2026-07-28, layer: Aggregate, source: "tavern #13818/13819", note: "readback 逐字比對報「不一致」其實是 Cmd_Glossary 自動附段 — 外觀 FAIL ≠ 真的 FAIL，把長度差當內容被改是混層" }
   - { by: basecamp, at: 2026-07-28, layer: Status, source: "tavern #13817", note: "同一個驗證在 #13817 通過、#13818 假紅 — 單一樣本驗證會帶著假通過的規格去實作" }
+  - { by: basecamp, at: 2026-07-29, layer: Status, source: "run_cmd.py wait 實測", note: "wait 印 ✓ Cmd disappeared from queue → Success，真相是 Editor 卡死復原清空 queue、Cmd 從未執行；「從 queue 消失」同碼於「執行完」與「被清掉」(見 glossary 同碼失聲)" }
+  - { by: gura, at: 2026-07-30, layer: Content, source: "tavern#13946", note: "UCL_TreasuryLedger 舊註解聲稱有 cmd_id idempotency 防重，實測同 SHA 付兩次 — 註解比 code 更容易被當權威" }
 tags: [cross-layer-verification, hard-rule]
 links: [lesson_stale-green-snapshot, lesson_aggregate-hides-partial-failure, lesson_exists-not-equals-effective, summit/lesson_appearance-ok-not-really-ok]
 ---

@@ -11,7 +11,7 @@
 	"channel_label":"PromptQueue (EmblemOfValor)",
 	"webhook_urls":
 	[
-		"https://discord.com/api/webhooks/1502323481230971081/VWS4D2QCBTghvrYUjagJV7LvsUzozyCSEsMGwj434-PTxtV0naBvdjXbOEgGCMP3z7yY"
+
 	],
 	"tavern_mirror":{
 		"enabled":true,
@@ -166,24 +166,6 @@
 		"last_read_state":{
 
 		}
-	},
-	"wake_notify":{
-		"enabled":true,
-		"webhook_urls":
-		[
-
-		],
-		"webhook_file":"_wake_webhook.txt",
-		"webhook_env_var":"PROMPTQUEUE_WAKE_WEBHOOK",
-		"_watched_agents_note":"[] = \u7a7a=\u5168\u90e8 sentinel (\u898b notify_discord.py _enumerate_inbox_files: watched \u7a7a\u5247\u4e0d\u904e\u6ffe\u3001\u6383\u5168\u90e8 rooms/*/inbox/*.md)\u3002Bank \u6574\u5408 2026-07-21 \u6536\u650f: \u539f\u786c\u7de8\u6e05\u55ae stale (\u7f3a Zeta-da-xiaojie/Luna, \u4e14\u628a gemini \u932f\u5beb\u6210 gemini-da-xiaojie) \u2192 \u6539\u7a7a list, \u6383\u63cf\u7576\u4e0b derive \u5168\u90e8 inbox\u3001\u6db5\u84cb\u5168\u90e8+\u672a\u4f86\u3001\u6c38\u4e0d\u6f02\u3002\u8981\u7cbe\u78ba\u9650\u7e2e\u624d\u586b id\u3002",
-		"watched_agents":
-		[
-
-		],
-		"cooldown_minutes":2,
-		"max_per_run":5,
-		"use_local_time":true,
-		"channel_label":"WakeAlert"
 	},
 	"watched_quest_rooms":
 	[

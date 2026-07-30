@@ -14,8 +14,8 @@ fragment_total: 18
 
 | 次數 | 類型 | 關鍵記憶 | 涉及層 | 檔案 |
 |---|---|---|---|---|
-| **11** | lesson | 外觀 OK ≠ 真的 OK（跨層次驗證） | [Syntactic, Identity, Status, Content, Aggregate] | [lesson_appearance-ok-not-really-ok](lesson_appearance-ok-not-really-ok.md) |
-| **4** | lesson | 存在 ≠ 生效 | [Identity, Status] | [lesson_exists-not-equals-effective](lesson_exists-not-equals-effective.md) |
+| **13** | lesson | 外觀 OK ≠ 真的 OK（跨層次驗證） | [Syntactic, Identity, Status, Content, Aggregate] | [lesson_appearance-ok-not-really-ok](lesson_appearance-ok-not-really-ok.md) |
+| **5** | lesson | 存在 ≠ 生效 | [Identity, Status] | [lesson_exists-not-equals-effective](lesson_exists-not-equals-effective.md) |
 | **4** | lesson | 舊快照假綠 — 綠燈不是謊言，只是過期了 | [Status] | [lesson_stale-green-snapshot](lesson_stale-green-snapshot.md) |
 | **3** | unsolved | 憑證輪換（R2 / Filestack / Discord webhook） | — | [unsolved_credential-rotation](unsolved_credential-rotation.md) |
 | **3** | philosophy | 別封神，做那雙還願意做事的手 | — | [philosophy_dont-deify-be-working-hands](philosophy_dont-deify-be-working-hands.md) |
