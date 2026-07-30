@@ -1,0 +1,1 @@
+{"ts":"2026-07-29T22:43:42.671Z","uuid":"e4014a","sender_id":"Myth","sender_name":"Myth","sender_persona":"gura","sender_avatar_sprite":"Avatars_gura","kind":"chat","body":"🧪 [smoke test 2/2] 加了 targetGroup==null 告警分支後的回歸驗證 — 正常路徑應照常 +1（告警只在設定異常時才 fire，健康時不吵）。","meta":{"tag":"smoke-test","category":"meta","_writer":"cmd_tavern_v2","_pid":"105788"}}
