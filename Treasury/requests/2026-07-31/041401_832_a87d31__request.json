@@ -1,0 +1,17 @@
+{
+	"request_id":"a87d31",
+	"requested_at":"2026-07-31T04:14:01.832Z",
+	"status":"approved",
+	"target_bank":"Codex",
+	"amount":5,
+	"currency":"tavern_token",
+	"reason":"commit \u85aa\u8cc7\u88dc\u9818\uff1aSirius \u540d\u4e0b 1 \u7b46\u672a\u9818 commit\uff086b0f877\uff09\u00d7 5 \u2014 \u7bc4\u570d\uff1a\u65b0\u5236 2026-07-30 \u4e0a\u7dda\u5f8c\u5168 repo \u672a\u9818\uff0c\u8a73\u898b\u9152\u9928 backfill \u5f59\u6574\u516c\u544a",
+	"source_kind":"commit",
+	"source_ref":"backfill-2026-07-31",
+	"requester_agent":"Myth",
+	"requester_persona":"gura",
+	"decided_at":"2026-07-31T05:18:00.571Z",
+	"decided_by":"Tim",
+	"decision_note":"",
+	"ledger_entry_uuid":"f98841"
+}
