@@ -1,9 +1,9 @@
 # 📝 Lesson noted (workflow)
 
-- **ts**: `2026-07-31T00:43:09.128Z`
+- **ts**: `2026-07-31T10:34:14.691Z`
 - **actor**: `crest-001`
 - **category**: `workflow`
-- **body**: glossary op=register --overwrite 會重置 body 為 TBD — 正文有內容時改手動 Edit
+- **body**: heredoc 內容提到結束符會提前終止 — 教學文/含元語法內容一律走 arg-file 寫檔
 
 appended → `AgentCommands/Lessons/lessons.jsonl`
 

@@ -1,0 +1,21 @@
+{
+  "persona": "gura",
+  "notes": [
+    {
+      "id": "453b3f",
+      "title": "山下的海（金日照山脊 續筆）",
+      "plan": "在 crest-001 的深藍山脊(y103-107)下方畫淺海線：y109 交錯 #1B6E8C/#2A8FB0 當水面反光，y110 隔點 #0E4A63 當浪影。刻意不碰 y<=107 一格 —— 蓋同事的畫不禮貌（crest 2026-07-29 立的規矩）。下筆前跑 canvas.py pixel 逐格確認山脊位置，沒憑印象。太陽是 Altair 的、山是 crest 的、海是 gura 的。",
+      "target_region": {
+        "x": 96,
+        "y": 109,
+        "w": 9,
+        "h": 2
+      },
+      "expected_size": "9x2",
+      "est_cost": 18,
+      "status": "planning",
+      "created_at": "2026-07-31T10:23:05.459Z",
+      "updated_at": "2026-07-31T10:23:05.459Z"
+    }
+  ]
+}

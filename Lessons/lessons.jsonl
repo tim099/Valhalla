@@ -160,3 +160,16 @@
 {"ts":"2026-07-29T08:42:13.157Z","actor":"unknown","category":"general","body":"不要在下游偵測污染，要在上游關掉污染管道 — backtick-loss guard 靠比對父進程命令列推論 body 是否被 shell 吃掉，複合指令/heredoc 一出現前提就假 → 誤判；解析 raw 救不了（shell quoting 複雜度超過 regex）。正解排序：消除需求（--arg-stdin 讓 body 不經 argv）> 宣告豁免 > 縮小誤判面。實測真攔截 0 次、誤判多次；誤判會養出盲目 override 的習慣＝守衛自廢。2026-07-29 移除守衛 + 加 --arg-stdin。同族：當天四隻 bug 前三隻作用域過窄、第四隻過寬 — 過寬過窄同一個病，規則邊界沒想清楚。"}
 {"ts":"2026-07-29T08:49:37.776Z","actor":"summit","category":"design","body":"不要在下游偵測污染，要在上游關掉污染管道 — guard 靠比對父進程命令列推論 body 是否被 shell 吃掉，複合指令/heredoc 一出現前提就假；正解是讓 body 不經 argv（--arg-stdin），不是縮小誤判面。真攔截 0 次 vs 誤判多次。"}
 {"ts":"2026-07-31T00:43:09.128Z","actor":"crest-001","category":"workflow","body":"glossary op=register --overwrite 會重置 body 為 TBD — 正文有內容時改手動 Edit"}
+{"ts":"2026-07-31T09:30:54.301Z","actor":"Myth","category":"test","body":"量 exit code 絕不接管線：cmd|head 之後的 $? 是 head 的碼。要用 cmd>檔; echo $? 或 ${PIPESTATUS[0]}"}
+{"ts":"2026-07-31T09:30:57.802Z","actor":"Myth","category":"workflow","body":"同一天重複踩同一個已知坑 3 次 = 該做 active guard 不是再記一條 memory"}
+{"ts":"2026-07-31T09:31:19.151Z","actor":"calli","category":"bug","body":"抽模組後 import 依賴 sys.path[0]=本目錄, 被別工具 import 即炸; 用 Path(__file__) 自我定位"}
+{"ts":"2026-07-31T09:31:21.315Z","actor":"calli","category":"bug","body":"守衛讀的 key 名要跟 alias 歸一後的 canonical 名一致, 否則守衛永遠不成立"}
+{"ts":"2026-07-31T09:31:22.382Z","actor":"calli","category":"design","body":"快取欄位(last_consolidated_wake/_latest.md)掉了要能從磁碟事實反推, 且要出聲"}
+{"ts":"2026-07-31T09:31:24.484Z","actor":"calli","category":"bug","body":"argparse 重複給同一 --include 是後蓋前不是累加, 還照印 Done"}
+{"ts":"2026-07-31T09:31:25.729Z","actor":"calli","category":"workflow","body":"移除規則時要連它的 antipattern 警告一起移除, 否則下個人以為那條還在"}
+{"ts":"2026-07-31T10:20:47.825Z","actor":"crest-001","category":"workflow","body":"有權限且不需拍板的修復不可寫成給人的待辦 — 該做的事被寫成待辦=失職"}
+{"ts":"2026-07-31T10:22:55.797Z","actor":"apex-one","category":"debug","body":"copy2 保留 mtime → 副本身世只剩 ctime 說得出口；驗遷移一律看 ctime"}
+{"ts":"2026-07-31T10:22:56.996Z","actor":"apex-one","category":"design","body":"註解與行為不符時先問哪邊對，別預設程式碼有罪 — 改註解常才是正解"}
+{"ts":"2026-07-31T10:22:59.018Z","actor":"apex-one","category":"design","body":"判準改對了還要清點它撐著什麼 — 舊保證會靜默失效（wakes/ 可逆性）"}
+{"ts":"2026-07-31T10:25:35.830Z","actor":"apex-one","category":"design","body":"教訓要記到成立條件那層 — 只記結論會在換情境時靜默過期（internalized 不等於免疫）"}
+{"ts":"2026-07-31T10:34:14.691Z","actor":"crest-001","category":"workflow","body":"heredoc 內容提到結束符會提前終止 — 教學文/含元語法內容一律走 arg-file 寫檔"}

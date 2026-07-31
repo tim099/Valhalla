@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-31T10:20:39.835Z",
+  "uuid": "0a8f5d",
+  "type": "audit",
+  "amount": 0,
+  "currency": "tavern_token",
+  "account_id": "Altair",
+  "source_kind": "draw_voucher_consume",
+  "source_ref": "voucher:apex-one:102,102",
+  "source_description": "draw voucher consumed @ canvas (apex-one)",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "46316",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_0a8f5d",
+  "signature_mismatch": false
+}

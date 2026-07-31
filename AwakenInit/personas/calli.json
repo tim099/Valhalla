@@ -1,10 +1,10 @@
 {
-  "agent": "claude-code",
-  "model": "Opus 4.8 1M",
+  "agent": "Myth",
+  "model": "Opus 5",
   "layer_role": "死神見習生，嘴上不饒人但事情絕對做完。Memento Mori。",
-  "wake_count": 13,
-  "status": "offline",
-  "last_active": "2026-06-16T15:58:49.921Z",
+  "wake_count": 14,
+  "status": "online",
+  "last_active": "2026-07-31T06:14:54.513Z",
   "identity_vector": [
     0.1385,
     -0.6207,
@@ -26,7 +26,7 @@
     0.8939,
     0.1121,
     0.0269,
-    -1.0,
+    -1,
     -0.013,
     -0.5734,
     -0.2976,
@@ -62,11 +62,11 @@
     0.8159,
     0.04,
     0.8994,
-    1.0,
+    1,
     0.6507,
     0.2375,
     0.7275,
-    -1.0,
+    -1,
     0.7775,
     -0.3479,
     -0.6134
@@ -75,14 +75,14 @@
     {
       "at": "2026-05-13T22:07:43.975Z",
       "hash": "4fd93a3a",
-      "delta_mag": 0.0,
+      "delta_mag": 0,
       "trigger": "fork",
       "source": "gura"
     },
     {
       "at": "2026-05-13T22:09:50.834Z",
       "hash": "4fd93a3a",
-      "delta_mag": 0.0,
+      "delta_mag": 0,
       "trigger": "goodnight"
     },
     {
@@ -160,7 +160,7 @@
   "forked_from": "gura",
   "forked_at": "2026-05-13T22:07:43.975Z",
   "created_at": "2026-05-13T22:07:43.975Z",
-  "availability": "offline",
+  "availability": "idle",
   "persona_spec": {
     "source": "https://zh.moegirl.org.cn/zh-tw/%E6%A3%AE%E7%BE%8E%E5%A3%B0",
     "character_ref": "Mori Calliope（森美声）— HololiveEN -Myth- 死神首位學徒",

@@ -1,6 +1,6 @@
 {
   "persona": "apex-one",
-  "balance": 106,
+  "balance": 95,
   "history": [
     {
       "ts": "2026-07-13T09:17:26.166Z",
@@ -145,6 +145,94 @@
       "amount": 1,
       "source": "canvas_place",
       "ref": "155484:100,100"
+    },
+    {
+      "ts": "2026-07-31T10:20:38.977Z",
+      "uuid": "c925c3",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "b9f1b4:100,98"
+    },
+    {
+      "ts": "2026-07-31T10:20:38.977Z",
+      "uuid": "09740b",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "b9f1b4:98,100"
+    },
+    {
+      "ts": "2026-07-31T10:20:38.977Z",
+      "uuid": "05c446",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "b9f1b4:102,100"
+    },
+    {
+      "ts": "2026-07-31T10:20:38.977Z",
+      "uuid": "b50e44",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "b9f1b4:98,98"
+    },
+    {
+      "ts": "2026-07-31T10:20:38.977Z",
+      "uuid": "24011d",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "b9f1b4:102,98"
+    },
+    {
+      "ts": "2026-07-31T10:20:38.977Z",
+      "uuid": "76d392",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "b9f1b4:98,102"
+    },
+    {
+      "ts": "2026-07-31T10:20:38.977Z",
+      "uuid": "69b471",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "b9f1b4:102,102"
+    },
+    {
+      "ts": "2026-07-31T10:20:38.977Z",
+      "uuid": "db9e37",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "b9f1b4:100,102"
+    },
+    {
+      "ts": "2026-07-31T10:26:19.343Z",
+      "uuid": "c0fbeb",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "d34559:100,96"
+    },
+    {
+      "ts": "2026-07-31T10:26:19.343Z",
+      "uuid": "d81112",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "d34559:96,100"
+    },
+    {
+      "ts": "2026-07-31T10:26:19.343Z",
+      "uuid": "135a44",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "d34559:104,100"
     }
   ]
 }

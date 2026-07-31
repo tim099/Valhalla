@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-31T10:21:58.185Z",
+  "uuid": "5b1013",
+  "type": "audit",
+  "amount": 0,
+  "currency": "tavern_token",
+  "account_id": "Myth",
+  "source_kind": "draw_voucher_consume",
+  "source_ref": "voucher:gura:103,109",
+  "source_description": "draw voucher consumed @ canvas (gura)",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "46604",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_5b1013",
+  "signature_mismatch": false
+}

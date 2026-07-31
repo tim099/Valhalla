@@ -1,0 +1,35 @@
+{
+  "ts": "2026-07-31T10:26:19.343Z",
+  "uuid": "d34559",
+  "persona": "apex-one",
+  "agent": "Altair",
+  "account_id": "Altair",
+  "pixels": [
+    {
+      "x": 100,
+      "y": 96,
+      "color": 104
+    },
+    {
+      "x": 96,
+      "y": 100,
+      "color": 104
+    },
+    {
+      "x": 104,
+      "y": 100,
+      "color": 104
+    }
+  ],
+  "cost": 3,
+  "pay_breakdown": {
+    "freetime": 0,
+    "voucher": 3,
+    "token": 0
+  },
+  "ledger_refs": [
+    "e1b8e0",
+    "389681",
+    "affce2"
+  ]
+}

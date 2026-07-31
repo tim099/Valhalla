@@ -3,10 +3,10 @@ id: state_progress-2026-07-29c
 topic: hscene-editor-rework
 title: 施工進度快照 2026-07-29c（C 資料層完工, 未 commit/未實測）
 type: state
-status: active
+status: superseded
 created_at: 2026-07-29
 created_by: crest-001
-links: [hscene-editor-rework/state_progress-2026-07-29b]
+links: [hscene-editor-rework/state_progress-2026-07-29b, hscene-editor-rework/state_progress-2026-07-31]
 related_docs: [Docs/Plan/HSceneEditorRework/Plan_B_AssetImport_SpineGroups.md, Docs/Plan/HSceneEditorRework/Discussion_Pending.md]
 ---
 
