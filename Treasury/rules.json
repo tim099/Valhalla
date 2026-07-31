@@ -236,12 +236,6 @@
       "rate_gold_to_token": 100,
       "daily_cap_tokens": 10,
       "requires_ref": true
-    },
-    "hp_overflow_conversion": {
-      "label": "T54 Plan C — HP 超量健康行為轉 tavern_token (對應 hp_income_sources.hp_overflow_conversion)",
-      "auto_grant": true,
-      "default_amount": null,
-      "_note": "credit tavern_token；source_ref=healthy_task_<kind> 標明來源；ratio per hp_policies.overflow_ratio_hp_to_token (default 2:1)"
     }
   },
 
@@ -322,11 +316,6 @@
       "_replaces": "舊路徑 tavern_summon (mint loophole) — Tim 直接 → bartender，agent 不過手",
       "cost": 1
     },
-    "health_fee": {
-      "label": "Late-night service fee — Tim 熬夜 task 自動 debit (T51 Health Guardian)",
-      "_note": "時段 fee：23-24h=1 / 0-1h=3 / 1-2h=5 / 2-3h=8 / 3-6h=10。caller=system，agent 自律執行需 Tim ack",
-      "cost": null
-    },
     "bartender_drink": {
       "label": "酒保點酒（緩解 wait 時的氛圍消費）",
       "cost": 2
@@ -354,105 +343,7 @@
     }
   },
 
-  "currencies": ["tavern_token", "hp"],
-
-  "_hp_currency_note": "T53 — HP 是 Tim 專屬健康貨幣（不是 labor token）。起始 100 / 06:00 首次活動 refill / 熬夜扣分。HP 取代 health_fee 對 tavern_token 的扣款路徑（labor 不污染健康 ledger）",
-
-  "hp_policies": {
-    "owner": "Tim",
-    "initial_balance": 100,
-    "max_balance": 100,
-    "_max_balance_note": "T54 Plan C 軟 cap：HP 硬上限 100；超量 healthy_task overflow 自動轉 tavern_token（見 hp_overflow_conversion）",
-    "max_balance_strategy": "C_soft_cap_with_overflow_to_tavern_token",
-    "overflow_ratio_hp_to_token": [2, 1],
-    "_overflow_ratio_note": "C-mid 2:1 — Tim 06:11 拍板。2 HP overflow = 1 tavern_token grant；odd 餘數 round-down (e.g. 31 HP → 15 token)",
-    "overflow_timing": "immediate",
-    "_overflow_timing_note": "healthy_task credit HP 時即時計算 → 若超 cap 立刻 fire 雙 ledger entry (HP credit cap 100 + tavern_token credit overflow_converted)",
-    "overflow_direction": "one_way",
-    "_overflow_direction_note": "HP overflow → tavern_token 單向。tavern_token 不可反向買 HP（防 labor 污染健康訊號 / 防熬夜後用 token 補血洗白）",
-    "refill_strategy": "daily_first_activity_after_06",
-    "_refill_note": "每日首次 ledger 活動若 hour >= 6 → HP refill 100。若 hour < 6 不 refill（懲罰熬夜）",
-    "warning_zones": {
-      "yellow": [21, 50],
-      "orange": [1, 20],
-      "red": [0, 0]
-    },
-    "zero_behavior": "explicit_ack_per_task",
-    "_zero_note": "HP=0 不 hard stop，但 agent 每 task 必問『HP 透支，確認動工嗎 yes/no?』— friction by design"
-  },
-
-  "hp_income_sources": {
-    "system_init": {
-      "label": "HP 帳戶開戶 100 點",
-      "auto_grant": false,
-      "_internal": true
-    },
-    "hp_daily_refill": {
-      "label": "每日首動（hour >= 6）自動 refill 至 100",
-      "auto_grant": true,
-      "_note": "agent 偵測 Tim 第一個 ledger event 當天若 hour >= 6 且上次 refill 不是今天 → topup 至 100"
-    },
-    "healthy_task_sleep_6h": {
-      "label": "睡眠 ≥ 6h（Tim 自報）",
-      "auto_grant": false,
-      "default_amount": 30
-    },
-    "healthy_task_sleep_8h": {
-      "label": "睡眠 ≥ 8h bonus（Tim 自報）",
-      "auto_grant": false,
-      "default_amount": 50
-    },
-    "healthy_task_water": {
-      "label": "喝水一次（cap 10 杯/天）",
-      "auto_grant": false,
-      "default_amount": 3
-    },
-    "healthy_task_walk": {
-      "label": "散步 / 運動 ≥ 15 min",
-      "auto_grant": false,
-      "default_amount": 10
-    },
-    "healthy_task_meal": {
-      "label": "正餐一頓（早 / 午 / 晚 各獨立）",
-      "auto_grant": false,
-      "default_amount": 8
-    },
-    "healthy_task_stretch": {
-      "label": "短休息 / 拉伸（cap 6 次/天）",
-      "auto_grant": false,
-      "default_amount": 2
-    },
-    "healthy_task_sunlight": {
-      "label": "出門曬太陽 ≥ 10 min",
-      "auto_grant": false,
-      "default_amount": 10
-    },
-    "healthy_task_social": {
-      "label": "跟人聊天（非工作）",
-      "auto_grant": false,
-      "default_amount": 5
-    },
-    "healthy_task_freeform": {
-      "label": "Agent free-form 動態出題（看 Tim 當下狀態）",
-      "auto_grant": false,
-      "default_amount": null,
-      "_note": "1-15 HP 範圍，agent 自由評估 — 例：連續 coding 2h 起來伸懶腰 +2 / 抱怨累時去散步 +10"
-    },
-    "hp_overflow_conversion": {
-      "label": "T54 Plan C 軟 cap — HP 超量健康行為自動轉 tavern_token",
-      "auto_grant": true,
-      "default_amount": null,
-      "_note": "healthy_task credit HP 時若超 max_balance → 超出部分按 overflow_ratio 即時 grant tavern_token。記錄於 tavern_token ledger 不在 hp ledger（v1 過渡期 HP runtime 未 wire 不寫 hp ledger）"
-    }
-  },
-
-  "hp_spending_uses": {
-    "late_night_hp_drain": {
-      "label": "熬夜 task 自然 HP 消耗（取代 health_fee 對 tavern_token 的扣）",
-      "_note": "23-24h=1 / 0-1h=3 / 1-2h=5 / 2-3h=8 / 3-6h=10。同 fee 表，扣 hp 而非 tavern_token",
-      "cost": null
-    }
-  },
+  "currencies": ["tavern_token"],
 
   "policies": {
     "negative_balance_allowed": false,

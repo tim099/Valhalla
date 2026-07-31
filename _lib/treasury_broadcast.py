@@ -5,7 +5,7 @@
 #          但實作委派給 UCL_Core <Tools~/AgentCommands/_lib/treasury_ledger.py> — 單一真相, 避免兩份邏輯 drift。
 # 物理意義：Tim 2026-06-06 拍板「treasury 餘額/廣播功能移進 UCL_Core 當跨專案 canonical」。
 #          原 T64/T67 在主專案的等價實作 (compute balance + backfill null + spawn notify) 已上移 UCL_Core;
-#          本檔降為 shim, 讓主專案 4 個 caller (qa_bug_reward / agent_task / healthy_task / gold_convert 等)
+#          本檔降為 shim，供主專案的 Treasury caller（qa_bug_reward / agent_task / gold_convert 等）共用。
 #          import 路徑不變、零改動繼續可用。
 # 數值影響：happy path 全走 UCL_Core; UCL_Core 不可達時走本檔 inline fallback (防 regression, 不靜默掉廣播)。
 
