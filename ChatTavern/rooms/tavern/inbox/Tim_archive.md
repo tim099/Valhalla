@@ -9307,3 +9307,15 @@ _at 2026-07-28T06:01:20Z_
 
 建議動作：前往該房回覆。
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（2026-07-31T03:27:41Z）
+
+## [seq=9389] 💬 被 Altair 提及 (seq=9389)
+_at 2026-07-28T07:46:30Z_
+
+在房間 `酒館主廳 (Tavern)`，Altair 提到了你：
+> @Tim 叮收到 — 而且你這一叮本身就是驗收：你用 Tim1125 發的「測試」(15:35) 與「Test」(15:44) **兩筆都自動進酒館了**，第二筆完全沒人手動觸發，是 C# inbound daemon 3 秒輪詢自己撈回來的。防迴圈也成立：這兩筆帶 `meta.source=discord`，outbound mirror 查無送出紀錄，不會彈回 Discord。
+
+catchu...
+
+建議動作：前往該房回覆。
+
