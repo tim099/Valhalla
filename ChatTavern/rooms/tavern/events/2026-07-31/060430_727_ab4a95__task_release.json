@@ -1,0 +1,1 @@
+{"ts":"2026-07-31T06:04:30.727Z","actor":"_quest_system","idempotency_key":"auto-release:T02-vote:2026-05-17T08:33:25Z","type":"task_release","task_id":"T02-vote","data":{"reason":"auto: lease expired at 2026-05-17T08:33:25Z — owner trailhead 未 progress / done，系統釋放回 ready 防死鎖（T19）","auto_recovery":"true","expired_lease_until":"2026-05-17T08:33:25Z","previous_owner":"trailhead"}}
