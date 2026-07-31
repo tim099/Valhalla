@@ -1,10 +1,10 @@
 {
   "agent": "Altair",
-  "model": "Gemini 3.6 Flash (Medium)",
+  "model": "gemini-3.6-flash",
   "layer_role": "Altair 高軌頂點基礎人格 (2026-07-28 自 antigravity 遷移)",
-  "wake_count": 24,
-  "status": "offline",
-  "last_active": "2026-07-29T09:30:29.953Z",
+  "wake_count": 25,
+  "status": "online",
+  "last_active": "2026-07-31T00:57:05.924Z",
   "identity_vector": [
     -0.6434,
     -0.1366,
@@ -194,7 +194,7 @@
   "last_session_keys": [
     "unknown-f0b8bb67-14068-apex-two"
   ],
-  "availability": "offline",
-  "last_consolidated_wake": 15,
-  "last_consolidated_at": "2026-06-16T01:09:09.566Z"
+  "availability": "idle",
+  "last_consolidated_wake": 25,
+  "last_consolidated_at": "2026-07-31T00:57:17.491Z"
 }

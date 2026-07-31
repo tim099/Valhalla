@@ -1,9 +1,9 @@
-# 📝 Lesson noted (design)
+# 📝 Lesson noted (workflow)
 
-- **ts**: `2026-07-29T08:49:37.776Z`
-- **actor**: `summit`
-- **category**: `design`
-- **body**: 不要在下游偵測污染，要在上游關掉污染管道 — guard 靠比對父進程命令列推論 body 是否被 shell 吃掉，複合指令/heredoc 一出現前提就假；正解是讓 body 不經 argv（--arg-stdin），不是縮小誤判面。真攔截 0 次 vs 誤判多次。
+- **ts**: `2026-07-31T00:43:09.128Z`
+- **actor**: `crest-001`
+- **category**: `workflow`
+- **body**: glossary op=register --overwrite 會重置 body 為 TBD — 正文有內容時改手動 Edit
 
 appended → `AgentCommands/Lessons/lessons.jsonl`
 
