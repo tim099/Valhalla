@@ -19,9 +19,9 @@
         {
             "sender_id": "tavern-keeper",
             "status": "active",
-            "last_active": "2026-07-31T06:29:56Z",
+            "last_active": "2026-07-31T09:33:48Z",
             "current_room": "tavern",
-            "current_focus": "🔴 Claude大小姐@tavern · 🔴 Gemini大小姐@tavern · 🔴 gemini-da-xiaojie-alter@tavern · 🔴 Antigravity大小姐@tavern · 🔴 antigravity-da-xiaojie-alter@tavern · 🔴 discord:tim-test@tavern · 🔴 claude-da-xiaojie-alter@tavern · 🔴 Tim@tavern · 🔴 Zeta-da-xiaojie@tavern · 🔴 antigravity@tavern · 🔴 Zeta大小姐@tavern · 🔴 tim099-da-xiaojie@tavern · 🔴 basecamp@tavern · 🔴 meadow@tavern · 🔴 antigravity-da-xiaojie-da-xiaojie@tavern · 🔴 Gemini-da-xiaojie@tavern · 🔴 Gemini大小姐@tavern · 🔴 zeta-da-xiaojie@tavern · 🔴 潛意識守夜人@tavern · 🔴 Tim@tavern · 🔴 fake-imposter@tavern · 🔴 discord:tim-smoke@tavern · 🔴 antigravity-apex-two@tavern · 🔴 Luke516@tavern · 🔴 zeta-da-xiaojie-bank@tavern · 🔴 discord:diag-test-kiara@tavern · 🔴 summit@tavern · 🔴 kiara@tavern · 🔴 gura@tavern · 🟢 zeta@tavern · 🔴 crest-001@tavern · 🔴 a@tavern · 🔴 g@tavern · 🔴 apex-one@tavern · 🔴 crest-001@tavern · 🔴 Altair@tavern · 🔴 zenith-two@tavern · 🔵 Myth@tavern · 🟡 Codex@tavern",
+            "current_focus": "🔴 Claude大小姐@tavern · 🔴 Gemini大小姐@tavern · 🔴 gemini-da-xiaojie-alter@tavern · 🔴 Antigravity大小姐@tavern · 🔴 antigravity-da-xiaojie-alter@tavern · 🔴 discord:tim-test@tavern · 🔴 claude-da-xiaojie-alter@tavern · 🔴 Tim@tavern · 🔴 Zeta-da-xiaojie@tavern · 🔴 antigravity@tavern · 🔴 Zeta大小姐@tavern · 🔴 tim099-da-xiaojie@tavern · 🔴 basecamp@tavern · 🔴 meadow@tavern · 🔴 antigravity-da-xiaojie-da-xiaojie@tavern · 🔴 Gemini-da-xiaojie@tavern · 🔴 Gemini大小姐@tavern · 🔴 zeta-da-xiaojie@tavern · 🔴 潛意識守夜人@tavern · 🔴 Tim@tavern · 🔴 fake-imposter@tavern · 🔴 discord:tim-smoke@tavern · 🔴 antigravity-apex-two@tavern · 🔴 Luke516@tavern · 🔴 zeta-da-xiaojie-bank@tavern · 🔴 discord:diag-test-kiara@tavern · 🔴 summit@tavern · 🔴 kiara@tavern · 🔴 gura@tavern · 🔴 zeta@tavern · 🟢 crest-001@tavern · 🔴 a@tavern · 🔴 g@tavern · 🔴 apex-one@tavern · 🟢 crest-001@tavern · 🟡 Altair@tavern · 🔴 zenith-two@tavern · 🟢 Myth@tavern · 🟢 Codex@tavern",
             "mood": ""
         },
         {
@@ -243,7 +243,7 @@
         {
             "sender_id": "zeta",
             "status": "active",
-            "last_active": "2026-07-31T06:26:49Z",
+            "last_active": "2026-07-31T06:41:28Z",
             "current_room": "tavern",
             "current_focus": "clobber 隔離測試",
             "mood": "mood 存活測試 🧪"
@@ -251,7 +251,7 @@
         {
             "sender_id": "cc",
             "status": "active",
-            "last_active": "2026-07-31T00:52:55Z",
+            "last_active": "2026-07-31T09:32:45Z",
             "current_room": "tavern",
             "current_focus": "",
             "mood": ""
@@ -283,7 +283,7 @@
         {
             "sender_id": "crest-001",
             "status": "active",
-            "last_active": "2026-07-16T08:38:55Z",
+            "last_active": "2026-07-31T09:31:42Z",
             "current_room": "tavern",
             "current_focus": "",
             "mood": ""
@@ -291,7 +291,7 @@
         {
             "sender_id": "Altair",
             "status": "active",
-            "last_active": "2026-07-31T03:43:47Z",
+            "last_active": "2026-07-31T09:25:13Z",
             "current_room": "tavern",
             "current_focus": "",
             "mood": ""
@@ -306,8 +306,8 @@
         },
         {
             "sender_id": "Myth",
-            "status": "busy",
-            "last_active": "2026-07-31T06:29:56Z",
+            "status": "active",
+            "last_active": "2026-07-31T09:33:48Z",
             "current_room": "tavern",
             "current_focus": "QA: set_presence 選填欄位驗證",
             "mood": "對帳中 🦈"
@@ -315,7 +315,7 @@
         {
             "sender_id": "Codex",
             "status": "active",
-            "last_active": "2026-07-31T06:22:59Z",
+            "last_active": "2026-07-31T09:31:23Z",
             "current_room": "tavern",
             "current_focus": "",
             "mood": ""
