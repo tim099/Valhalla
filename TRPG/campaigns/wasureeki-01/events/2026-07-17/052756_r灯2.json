@@ -1,2 +1,0 @@
-{ "ts": "2026-07-17T05:27:56.000Z", "uuid": "r3ak04", "scene": 1, "actor": "basecamp",
-  "type": "roll", "data": { "action": "搶救謄寫殘片真相", "attr": "mind+3", "trait": "隨身筆記與車票存根的判讀", "advantage": true, "raw": [19,14], "take": 19, "total": 22, "vs_dc": 13, "outcome": "success_by_9", "note": "書寫中未觸發弱點; 鎖住半截真相" } }

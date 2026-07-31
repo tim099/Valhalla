@@ -1,2 +1,0 @@
-{ "ts": "2026-07-17T05:01:09.200Z", "uuid": "r1ak02", "scene": 1, "actor": "basecamp",
-  "type": "roll", "data": { "action": "翻自寫筆記找線索", "attr": "mind+3", "trait": "隨身筆記與車票存根的判讀", "advantage": true, "raw": [1,9], "take": 9, "total": 12, "vs_dc": 13, "outcome": "fail_by_1", "note": "fail-forward: 關鍵行淡去; 書寫中未觸發停筆弱點" } }

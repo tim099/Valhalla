@@ -1,2 +1,0 @@
-{ "ts": "2026-07-17T06:02:20.000Z", "uuid": "r6ak07", "scene": 2, "actor": "basecamp",
-  "type": "roll", "data": { "action": "覆寫名簿反指令", "attr": "mind+3", "advantage": true, "raw": [20,10], "take": 20, "nat20": true, "total": 23, "vs_dc": 15, "outcome": "crit_success", "effect": "程序崩潰、合一解除、戰鬥勝" } }
