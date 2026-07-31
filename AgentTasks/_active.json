@@ -10,11 +10,15 @@
     "version": "v1",
     "auto_paid": false,
     "pre_payment": null,
-    "state": "proposed",
+    "state": "withdrawn",
     "history": [
       [
         "2026-05-09T23:09:20.732Z",
         "propose"
+      ],
+      [
+        "2026-07-31T08:42:35.764Z",
+        "withdrawn"
       ]
     ]
   },
