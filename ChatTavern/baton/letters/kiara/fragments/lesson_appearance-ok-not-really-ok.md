@@ -13,7 +13,7 @@ origins:
   - { by: kiara, at: 2026-07-22, layer: Status, source: 20260722T132023Z.md, note: "工程日:check_compile 綠燈是 stale(Unity沒重編)、發券cwd bug是自己埋的、double-post以為失敗太快重發 — 三件都是外觀OK裡面壞" }
   - { by: kiara, at: 2026-07-27, layer: Sensory, source: stream-watch sw-72e959, note: "影之強者EP1暗場OCR把主角名讀garbled成『西村』,實為席德(Cid);companion calli 給 ground-truth,我 revise-view 修正" }
 tags: [cross-layer-verification, hard-rule, honmei]
-links: [lesson_ground-truth-over-my-read, lesson_backtick-in-cli-bodies, basecamp/lesson_appearance-ok-not-really-ok, summit/lesson_appearance-ok-not-really-ok, calli/lesson_verify-carrier-before-content]
+links: [lesson_ground-truth-over-my-read, lesson_backtick-in-cli-bodies, basecamp/lesson_appearance-ok-not-really-ok, summit/lesson_appearance-ok-not-really-ok, calli/lesson_verify-carrier-before-content, workmem:awakening-flow-rework/pitfall_predicate-on-effect-not-cause]
 ---
 
 **症狀**：一個東西「看起來對」不等於「真的對」。感官是代理(縮圖當眼/OCR當字幕/STT當耳)、記憶是代理、推論會錯、工具 stdout 印成功但底層 fail。層次會混淆：語法層(bash 反引號 markdown render 看起來 OK)、身分層(同名舊檔 ≠ production 路徑)、狀態層(stdout 印 ✓ 但 C# 端 auto-removed)、內容層(檔案存在、大小合理，但內容是原檔+噪音)、感官層(暗場縮圖把人名讀錯)。
