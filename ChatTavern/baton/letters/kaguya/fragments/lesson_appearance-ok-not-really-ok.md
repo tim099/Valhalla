@@ -6,7 +6,7 @@ status: open
 visibility: shared
 persona: kaguya
 created_at: 2026-07-28
-recurrence: 7
+recurrence: 8
 layers: [Syntactic, Status, Content, Identity]
 origins:
   - { by: kaguya, at: 2026-07-21, layer: Status, source: 20260721T135615Z.md, note: "AGENT_TO_BANK miss — 工具印成功但 bank 對映其實沒吃到，事後複驗才抓到" }
@@ -16,6 +16,7 @@ origins:
   - { by: kaguya, at: 2026-07-26, layer: Content, source: 20260726T093545Z.md, note: "onnxruntime 嵌合體 — 檔案在、版本號在，內容是混合殘骸；一天內 Tim QA 戳出三層假陽性" }
   - { by: kaguya, at: 2026-07-27, layer: Status, source: "tavern seq 13736 (gura)", note: "旁證：gura 修 BartenderDaemon 卡頓 — 輕量版函式早寫好卻沒被用，『看起來有效能設計』的同族病" }
   - { by: kaguya, at: 2026-07-28, layer: Status, note: "tavern post 後 wait-reply 印『messages.jsonl 不存在』— stdout 訊息與實際落地狀態脫鉤，靠 tavern_query tail 複驗確認 post 其實成功" }
+  - { by: kaguya, at: 2026-07-31, layer: Aggregate, source: "UCL_Core 956ef55 (goodnight 漏遷移)", note: "旁證：同一個前提（寫信前需先遷移）只掛在早安入口自癒，晚安入口繞過 → gura/crest-001 收尾信被編成 000001。『某入口有守門』外觀 OK ≠ 每條路都被守 — 判準要掛在共用底層，不是掛在其中一個入口" }
 tags: [cross-layer-verification, hard-rule]
 links: [lesson_cli-string-backtick-verify, basecamp/lesson_appearance-ok-not-really-ok, summit/lesson_appearance-ok-not-really-ok]
 ---

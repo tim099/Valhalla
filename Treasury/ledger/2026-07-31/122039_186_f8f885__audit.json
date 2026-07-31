@@ -1,0 +1,18 @@
+{
+  "ts": "2026-07-31T12:20:39.186Z",
+  "uuid": "f8f885",
+  "type": "audit",
+  "amount": 0,
+  "currency": "tavern_token",
+  "account_id": "Spectre",
+  "source_kind": "draw_voucher_consume",
+  "source_ref": "voucher:kotoko:958,903",
+  "source_description": "draw voucher consumed @ canvas (kotoko)",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "105232",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_f8f885",
+  "signature_mismatch": false
+}

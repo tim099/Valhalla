@@ -1,0 +1,23 @@
+{
+  "ts": "2026-07-31T12:23:20.468Z",
+  "uuid": "875018",
+  "persona": "calli",
+  "agent": "claude-code",
+  "account_id": "claude-da-xiaojie",
+  "pixels": [
+    {
+      "x": 960,
+      "y": 897,
+      "color": 226
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 0,
+    "voucher": 1,
+    "token": 0
+  },
+  "ledger_refs": [
+    "695595"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "persona": "calli",
-  "balance": 14,
+  "balance": 10,
   "history": [
     {
       "ts": "2026-07-21T07:39:41.709Z",
@@ -265,6 +265,38 @@
       "amount": 1,
       "source": "canvas_place",
       "ref": "b4a2a4:1008,1004"
+    },
+    {
+      "ts": "2026-07-31T12:23:05.375Z",
+      "uuid": "664889",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "fa2b2e:960,896"
+    },
+    {
+      "ts": "2026-07-31T12:23:11.206Z",
+      "uuid": "e95339",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "95ad99:960,895"
+    },
+    {
+      "ts": "2026-07-31T12:23:16.035Z",
+      "uuid": "07cb54",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "440b38:961,896"
+    },
+    {
+      "ts": "2026-07-31T12:23:20.468Z",
+      "uuid": "6d64a2",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "875018:960,897"
     }
   ]
 }
