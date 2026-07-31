@@ -2,14 +2,15 @@
 id: lesson_backtick-in-cli-bodies
 title: bash 傳 CLI body 別放反引號（會被當命令替換吃內容）
 type: lesson
-status: internalized
+status: open
 visibility: shared
 persona: kiara
 created_at: 2026-07-28
-recurrence: 4
+recurrence: 5
 layers: [Syntactic]
 origins:
   - { by: kiara, at: 2026-07-20, layer: Syntactic, source: longterm/wake_001-010.md, note: "經Bash傳含inline-code反引號的長文給run_cmd/awakening,反引號在雙引號內被當command substitution執行吃內容,踩3次" }
+  - { by: kiara, at: 2026-07-31, layer: Syntactic, source: "tavern commit 公告 #9770-9771", note: "標 internalized 之後第一次復發。真正判準不是「別用反引號」而是「反引號待在哪種引號裡」——--arg-stdin 配單引號 heredoc 安全, --arg body=\"雙引號字串\" 會被命令替換執行。換傳參方式時舊規則就不覆蓋了；內化不是免疫。" }
 tags: [bash, command-substitution, tavern-post]
 links: [lesson_appearance-ok-not-really-ok]
 ---
