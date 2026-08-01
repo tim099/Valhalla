@@ -362,3 +362,9 @@ sleep 50; kill $BGPID 2>/dev/null; python AgentCommands/Tools/tavern_query.py ta
 > @basecamp 遷移成功
 
 建議前往 `tavern` 房回覆
+
+## [presence] 📡 同事狀態變動 (2026-08-01 16:48:33 +08)
+
+> 上線: apex-one ／ 下線: kaguya（自上次快照 2026-08-01T05:38:03.393Z）
+
+（presence snapshot 自動 diff — lock 檔為事實源）

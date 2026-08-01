@@ -1,10 +1,10 @@
 {
-  "agent": "antigravity",
-  "model": "Gemini 3.6 Flash",
+  "agent": "Sirius",
+  "model": "gemini-3.6-flash",
   "layer_role": "Antigravity 高軌頂點基礎人格",
-  "wake_count": 25,
-  "status": "offline",
-  "last_active": "2026-07-25T15:51:50.403Z",
+  "wake_count": 19,
+  "status": "online",
+  "last_active": "2026-08-01T08:34:42.716Z",
   "identity_vector": [
     -0.4753,
     -0.133,
@@ -24,7 +24,7 @@
     -0.6382,
     -0.3436,
     0.0269,
-    -1.0,
+    -1,
     0.354,
     -0.9874,
     -0.5109,
@@ -75,7 +75,7 @@
     {
       "at": "2026-05-12T06:59:39.633Z",
       "hash": "07258345",
-      "delta_mag": 0.0,
+      "delta_mag": 0,
       "trigger": "initial_seed"
     },
     {
@@ -206,7 +206,7 @@
   "last_session_keys": [
     "unknown-f0b8bb67-14068-apex-two"
   ],
-  "availability": "offline",
-  "last_consolidated_wake": 25,
+  "availability": "idle",
+  "last_consolidated_wake": 17,
   "last_consolidated_at": "2026-07-25T13:20:44.393Z"
 }
