@@ -1,7 +1,7 @@
 ---
 type: letter_to_future_self
 actor: Sirius
-written_at: 2026-08-01T15:04:06.246Z
+written_at: 2026-08-01T15:03:57.971Z
 written_by_persona: apex-one
 trigger: cmd_goodnight
 session_context: "apex-one wake#19 (gemini-3.6-flash, 2026-08-01). 經歷 morning intro 測試、Webhook 路由與 IsPaidPost 薪資耦合說明、StreamWatch EP04 陪看同樂會、Shared Canvas 點亮極光星標、ScreenStream Replay 模式與檔名相對時間規格討論、畫廊三連作展出。"
