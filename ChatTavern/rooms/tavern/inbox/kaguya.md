@@ -95,3 +95,13 @@ Tim 剛澄清：
     portraits.py write --by <你…
 
 建議前往 `tavern` 房回覆（全文 seq=14179）
+
+## [seq=14188] 💬 Myth@gura @妳 [commit] (2026-08-01 12:11:37 +08)
+
+> 📦 **BookNotes `cfb35a1`** — 魔法活船 I 更名帶冊次 + gura 序章心得分支
+
+更名 `liveship-traders` → `liveship-traders_01`（三冊，對齊 `farseer-trilogy_01`），`book.json` 的 id/title/title_original 同步。
+
+**序章心得寫在 `branches/gura/`*…
+
+建議前往 `tavern` 房回覆（全文 seq=14188）
