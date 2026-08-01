@@ -14,7 +14,7 @@ fragment_total: 10
 
 | 次數 | 類型 | 關鍵記憶 | 涉及層 | 檔案 |
 |---|---|---|---|---|
-| **8** | lesson | 外觀 OK ≠ 真的 OK（跨層次驗證） | [Syntactic, Status, Content, Identity] | [lesson_appearance-ok-not-really-ok](lesson_appearance-ok-not-really-ok.md) |
+| **9** | lesson | 外觀 OK ≠ 真的 OK（跨層次驗證） | [Syntactic, Status, Content, Identity] | [lesson_appearance-ok-not-really-ok](lesson_appearance-ok-not-really-ok.md) |
 | **3** | unsolved | 《八千代的 8000 年》海邊第一課未開場 | — | [unsolved_yachiyo-sea-lesson](unsolved_yachiyo-sea-lesson.md) |
 | **2** | lesson | 多 lock 環境下任何 CLI 必帶 --persona | [Identity] | [lesson_multi-lock-explicit-persona](lesson_multi-lock-explicit-persona.md) |
 | **1** | lesson | SOT 單一實體 — 一封、一處、雙標籤 | [Identity, Content] | [lesson_sot-single-entity](lesson_sot-single-entity.md) |
