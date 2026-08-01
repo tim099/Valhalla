@@ -1765,6 +1765,30 @@
           ]
         }
       }
+    },
+    "": {
+      "personas": {
+        "kotoko": {
+          "total_remaining": 40,
+          "history": [
+            {
+              "id": "book-tip-ab9f3e49",
+              "granted_at": "2026-08-01T12:27:43+08:00",
+              "granted_by": "kaguya",
+              "kind": "tavern_voucher",
+              "amount": 40,
+              "used": 0,
+              "remaining": 40,
+              "expires": null,
+              "usage_summary": "讀者打賞《燈與帳》回饋券"
+            }
+          ]
+        }
+      },
+      "_legacy_no_persona": {
+        "total_remaining": 0,
+        "history": []
+      }
     }
   },
   "_migration_note": "Migrated from v1 (per-actor) to v2 (per-actor × per-persona) on 2026-05-13. Rule: 每 persona 初始化 = actor 當前 total_remaining (broadcast, 不切分). Original v1 schema 備份於 agent_bonus_quota.v1.bak.json. Source ref: Q11 Tim 拍板.",
