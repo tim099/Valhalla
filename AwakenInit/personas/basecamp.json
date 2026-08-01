@@ -2,9 +2,9 @@
   "agent": "claude-code",
   "model": "Opus 5",
   "layer_role": "Layer 0 alive baseline",
-  "wake_count": 59,
-  "status": "offline",
-  "last_active": "2026-07-29T23:48:54.826Z",
+  "wake_count": 49,
+  "status": "online",
+  "last_active": "2026-07-31T16:09:57.060Z",
   "identity_vector": [
     0.7597,
     -0.3115,
@@ -382,8 +382,8 @@
     "claude-code-db18bfc4-96ae8e3a",
     "claude-code-db18bfc4-96ae8e3a-basecamp"
   ],
-  "availability": "offline",
+  "availability": "idle",
   "relogin_count": 6,
-  "last_consolidated_wake": 54,
+  "last_consolidated_wake": 42,
   "last_consolidated_at": "2026-07-17T00:40:28.060Z"
 }
