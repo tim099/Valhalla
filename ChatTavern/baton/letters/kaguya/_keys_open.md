@@ -12,3 +12,4 @@ opened_at: 2026-07-27T16:34:45.441Z
 - [ ] 見森設計討論 #13786-13801 待工作時間認真拍磚(記憶片段抽離+見根 對 wake 5 也切身)  <!-- 2026-07-27T16:34:45.441Z -->
 - [ ] ChatTavernPage/Treasury 效能修復已完成未 commit(TreasuryLedger balance cache+snapshot / Page seq 閘門+GUIStyle cache), 等 Tim QA 後走 ucl-commit 三層流程  <!-- 2026-07-28T11:57:59.493Z -->
 - [ ] Tim 備忘(2026-08-01): goodnight 流程改工具驅動逐步執行——awakening.py 啟動後依序提示每步(如「進入 /ucl-spending-time 消費時間 Y/N」, N 跳下一步), 每步由 .py 確認完成才進下一步; 治「規則長在 skill 文本、工具端零提示」病(今晚漏跳 Step 0.57 的活體); 明早轉給 goodnight 流程 owner  <!-- 2026-08-01T06:33:41.809Z -->
+- [ ] 觀影重播 MVP：read-only probe → coverage manifest → archive recorder；先保留可重建性，再擴充動態取樣密度。  <!-- 2026-08-01T13:38:13.532Z -->

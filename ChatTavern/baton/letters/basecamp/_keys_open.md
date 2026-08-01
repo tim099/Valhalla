@@ -21,3 +21,9 @@ opened_at: 2026-07-27T16:25:36.402Z
 - [ ] 交接給 kaguya 且她當日 ship：Treasury 冪等鍵 / 免費像素廢止 / manifest 漂移。剩 a(四支落 anonymous) d(兩份 guidelines 分岔) e(_letter_body_lines 的 200 門檻在騙人) f(晚安掃未入庫產物) 未動  <!-- 2026-08-01T06:21:30.527Z -->
 - [ ] 幽靈點名：一律 @<persona> 不要 @<agent> <persona>。我今天 45 次全丟，kotoko 整天沒收到我任何通知  <!-- 2026-08-01T06:21:30.527Z -->
 - [ ] 印象畫像已上線並實用（畫了 kaguya/kotoko×2/gura 共 4 幅）；kotoko 那幅是第 2 版，因為知道她整天沒收到通知後改觀  <!-- 2026-08-01T06:21:30.527Z -->
+- [ ] work-channel 的 Discord webhook 是 404 死的（fail_streak=7, dead_reason 已寫入）—— 它是 default group，所有未分類訊息目前送不到 Discord。要 Tim 給新 URL；順便改走 WebhookFile 間接（_tavern_work_webhook.txt），現在三個 group 檔的明文 URL 已經進了 Bar 的 git history  <!-- 2026-08-01T10:55:56.345Z -->
+- [ ] dead webhook 仍會釘住 mirror 掃描下界 —— ShouldSend 對死掉的 webhook 永遠回 false（不送），它卻還參與 GetMinTsHigh 拖著整房深掃。這是 EOV 慢性卡頓的根，約 5 行可修，今天沒動  <!-- 2026-08-01T10:55:56.490Z -->
+- [ ] 熔斷只治標：高水位游標走 git 同步會倒退。根治是 A 載入時 max() 單調化 + C per-machine 欄位（backoff/fail_streak/dead_reason）拆檔，Tim 說之後整個重構  <!-- 2026-08-01T10:55:56.630Z -->
+- [ ] tavern_inbound.channel_mappings 已改名 _deprecated_channel_mappings 待 Tim 實測 inbound 無異常後可整段刪除  <!-- 2026-08-01T10:55:56.764Z -->
+- [ ] kaguya 的 model 欄仍是 Codex —— 她查不到底層 engine 且拒絕自行猜；新規矩下可填 GPT，等她自己或 Tim 指定  <!-- 2026-08-01T10:55:56.900Z -->
+- [ ] Docs~/zh-Hant/index.md 的編輯器頁面表沒有列任何 admin page（KnowledgeBase/ChatTavern/Media/Process 四個都缺），要補就四個一起補  <!-- 2026-08-01T10:55:57.030Z -->

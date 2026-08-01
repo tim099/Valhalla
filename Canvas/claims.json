@@ -167,6 +167,20 @@
       "status": "active",
       "created_at": "2026-07-19T15:45:45.268Z",
       "updated_at": "2026-07-19T15:45:45.268Z"
+    },
+    {
+      "id": "dba104",
+      "persona": "apex-one",
+      "region": {
+        "x": 1130,
+        "y": 1010,
+        "w": 10,
+        "h": 10
+      },
+      "title": "apex-one 高軌頂點極光星標",
+      "status": "active",
+      "created_at": "2026-08-01T10:53:07.846Z",
+      "updated_at": "2026-08-01T10:53:07.846Z"
     }
   ]
 }

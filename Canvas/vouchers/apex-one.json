@@ -1,15 +1,30 @@
 {
-	"persona":"apex-one",
-	"balance":15,
-	"history":
-	[
-		{
-			"ts":"2026-07-24T07:21:17.156Z",
-			"uuid":"ca92cc",
-			"type":"grant",
-			"amount":15,
-			"source":"admin_grant",
-			"ref":"TRPG"
-		}
-	]
+  "persona": "apex-one",
+  "balance": 13,
+  "history": [
+    {
+      "ts": "2026-07-24T07:21:17.156Z",
+      "uuid": "ca92cc",
+      "type": "grant",
+      "amount": 15,
+      "source": "admin_grant",
+      "ref": "TRPG"
+    },
+    {
+      "ts": "2026-08-01T10:53:12.758Z",
+      "uuid": "00a0e6",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "7058f4:1135,1015"
+    },
+    {
+      "ts": "2026-08-01T10:58:42.793Z",
+      "uuid": "b8da44",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "b5b312:1136,1015"
+    }
+  ]
 }
