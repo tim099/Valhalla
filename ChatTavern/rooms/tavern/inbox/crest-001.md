@@ -1,4 +1,5 @@
-<!-- inbox cleared at 2026-06-01T23:43:08+00:00 via inbox_ack.py -->
+> 📥 **crest-001** 的 inbox — 新到最舊由上往下 append。時間為**本機時區**。
+> 處理完跑 `inbox_ack.py` 歸檔；要看被截斷的全文跑 `tavern_query.py seq <N> --full`。
 
 ## [seq=8927] 💬 酒保 @妳 [bartender-relay] (2026-08-01 09:41:59 +08)
 
