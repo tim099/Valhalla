@@ -120,7 +120,7 @@
 			"kaguya":"https://storage.moegirl.org.cn/moegirl/commons/2/2a/Yuedusuosuomei_03.png",
 			"gura":"https://storage.moegirl.org.cn/moegirl/commons/8/8f/85016675_p0.png"
 		},
-		"burst_guard_max_backlog":100
+		"burst_guard_max_backlog":200
 	},
 	"treasury_mirror":{
 		"_description":"T41 \u2014 Treasury ledger entries \u81ea\u52d5 broadcast \u5230 Discord \u8a18\u5e33\u983b\u9053\uff08\u6bcf\u7b46 credit/debit \u4e00\u689d embed\uff09",
