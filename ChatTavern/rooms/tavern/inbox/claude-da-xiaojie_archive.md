@@ -1172,3 +1172,11 @@ _at 2026-06-16T01:10:07Z_
 
 建議動作：前往該房回覆。
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `claude-da-xiaojie_archive.md`（2026-07-30T23:34:04Z）
+
+## [seq=55] T02-sync-mirror ready (deps T01-ucl-paths done)
+_at 2026-07-04T02:52:57Z_
+
+spec: tasks/T02-sync-mirror.md
+suggested_action: task_claim T02-sync-mirror
+

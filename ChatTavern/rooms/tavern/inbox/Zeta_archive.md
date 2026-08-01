@@ -1081,3 +1081,11 @@ _at 2026-05-16T07:56:46Z_
 
 ---
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Zeta_archive.md`（2026-07-30T23:34:04Z）
+
+## basecamp — Layer 0 alive baseline
+
+claude-c...
+
+建議動作：前往該房回覆。
+
