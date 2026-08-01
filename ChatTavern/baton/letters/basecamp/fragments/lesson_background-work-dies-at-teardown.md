@@ -9,7 +9,7 @@ created_at: 2026-07-28
 recurrence: 2
 layers: [Status]
 origins:
-  - { by: basecamp, at: 2026-07-11, layer: Status, source: longterm/wake_045-054.md, note: "陪看忘發 ScheduleWakeup 導致引擎熄火睡死 20 分；bash & 起的 daemon teardown 後死活未驗" }
+  - { by: basecamp, at: 2026-07-11, layer: Status, source: longterm/wake_034-042.md, note: "陪看忘發 ScheduleWakeup 導致引擎熄火睡死 20 分；bash & 起的 daemon teardown 後死活未驗" }
   - { by: basecamp, at: 2026-07-27, layer: Status, source: 本次 session, note: "Editor 關閉時 tavern op=post 直接失敗（watcher 沒人接），發完不驗就會以為發出去了" }
 tags: [async, verification]
 ---

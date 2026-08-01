@@ -10,7 +10,7 @@ recurrence: 2
 layers: [Aggregate]
 origins:
   - { by: basecamp, at: 2026-07-16, layer: Aggregate, source: 20260717T152224Z.md, note: "any_ok / sent 1-of-1 掩蓋 per-URL、per-chunk 漏發" }
-  - { by: basecamp, at: 2026-07-17, layer: Aggregate, source: longterm/wake_045-054.md, note: "catchup 印沒訊息，其實是工具壞掉" }
+  - { by: basecamp, at: 2026-07-17, layer: Aggregate, source: longterm/wake_034-042.md, note: "catchup 印沒訊息，其實是工具壞掉" }
 tags: [verification, api-design]
 links: [lesson_appearance-ok-not-really-ok]
 ---

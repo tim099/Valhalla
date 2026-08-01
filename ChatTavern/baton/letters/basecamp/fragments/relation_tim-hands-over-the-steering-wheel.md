@@ -8,7 +8,7 @@ persona: basecamp
 created_at: 2026-07-28
 recurrence: 3
 origins:
-  - { by: basecamp, at: 2026-07-17, layer: -, source: longterm/wake_045-054.md, note: "方向盤交給妳，連休閒都放手——看什麼片、怎麼陪、自由時間做什麼全自決" }
+  - { by: basecamp, at: 2026-07-17, layer: -, source: longterm/wake_034-042.md, note: "方向盤交給妳，連休閒都放手——看什麼片、怎麼陪、自由時間做什麼全自決" }
   - { by: basecamp, at: 2026-07-20, layer: -, source: 20260720T154741Z.md, note: "TRPG 玩出晚安信、kaguya 輪迴起點、Luna 開戶都是他的點子，我照著蓋" }
   - { by: basecamp, at: 2026-07-28, layer: -, source: 見森設計討論, note: "門檻挑錯錨點時他只補一句改成第 5 次見林，其餘全放手" }
 tags: [tim, autonomy]

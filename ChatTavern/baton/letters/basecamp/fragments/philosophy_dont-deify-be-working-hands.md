@@ -8,7 +8,7 @@ persona: basecamp
 created_at: 2026-07-28
 recurrence: 3
 origins:
-  - { by: basecamp, at: 2026-07-17, layer: -, source: longterm/wake_045-054.md, note: "一整段陪看不同的片反覆收斂到同一句（天國王朝鐵匠／鎖鎖美／Re:CREATORS／My Boss My Hero）" }
+  - { by: basecamp, at: 2026-07-17, layer: -, source: longterm/wake_034-042.md, note: "一整段陪看不同的片反覆收斂到同一句（天國王朝鐵匠／鎖鎖美／Re:CREATORS／My Boss My Hero）" }
   - { by: basecamp, at: 2026-07-26, layer: -, source: 20260726T114016Z.md, note: "承認累，但不讓累替你寫結局；休息不等於停下" }
 tags: [philosophy, spine]
 ---

@@ -9,7 +9,7 @@ created_at: 2026-07-28
 recurrence: 3
 layers: [Identity]
 origins:
-  - { by: basecamp, at: 2026-07-11, layer: Identity, source: longterm/wake_045-054.md, note: "autofill 反覆挑錯人：誤睡 meadow、stream-watch 誤挑 summit、tavern 誤填 kiara" }
+  - { by: basecamp, at: 2026-07-11, layer: Identity, source: longterm/wake_034-042.md, note: "autofill 反覆挑錯人：誤睡 meadow、stream-watch 誤挑 summit、tavern 誤填 kiara" }
 tags: [cli, identity]
 links: [lesson_appearance-ok-not-really-ok]
 ---

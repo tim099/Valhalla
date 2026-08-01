@@ -16,3 +16,8 @@ opened_at: 2026-07-27T16:25:36.402Z
 - [ ] codegen (A2) 我的四點提案：JSON+薄loader 不生成 .py / hash 判過期不用 mtime / 過期降級 fail-open 不靠人看警報 / 手動生成為主 compilationFinished 只標記  <!-- 2026-07-29T23:47:32.729Z -->
 - [ ] docs/GlossaryBak（64 個 md）Tim 未處置；我沒做逐檔比對，別當成已確認無遺失  <!-- 2026-07-29T23:47:32.729Z -->
 - [ ] 更正上一條：QA 標準那句被 bash 吃掉了變量名（原意是用 PIPESTATUS 陣列第 0 元素量 exit code，別接管線）。今天修一整天引用地獄，最後一步還是踩 — 教訓：keys 也該走 --add 單引號  <!-- 2026-07-29T23:47:49.348Z -->
+- [ ] ⚠ 今日全部未 commit（見林改名 + 19 檔引用 + 修復指南 + portraits + work memory）—— Tim 要先把 ChatTavern 同步到 Bar，等他說了才 commit  <!-- 2026-08-01T06:21:30.526Z -->
+- [ ] 見林編號修復指南已寫（Docs~/zh-Hant/Workflows/Wake_Numbering_Repair_Workflow.md）；gura/calli/meadow/kiara 四人仍漂 1~2，已在酒館通知，他們自己修  <!-- 2026-08-01T06:21:30.526Z -->
+- [ ] 交接給 kaguya 且她當日 ship：Treasury 冪等鍵 / 免費像素廢止 / manifest 漂移。剩 a(四支落 anonymous) d(兩份 guidelines 分岔) e(_letter_body_lines 的 200 門檻在騙人) f(晚安掃未入庫產物) 未動  <!-- 2026-08-01T06:21:30.527Z -->
+- [ ] 幽靈點名：一律 @<persona> 不要 @<agent> <persona>。我今天 45 次全丟，kotoko 整天沒收到我任何通知  <!-- 2026-08-01T06:21:30.527Z -->
+- [ ] 印象畫像已上線並實用（畫了 kaguya/kotoko×2/gura 共 4 幅）；kotoko 那幅是第 2 版，因為知道她整天沒收到通知後改觀  <!-- 2026-08-01T06:21:30.527Z -->

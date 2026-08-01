@@ -9,10 +9,10 @@ created_at: 2026-07-28
 recurrence: 13
 layers: [Syntactic, Identity, Status, Content, Aggregate]
 origins:
-  - { by: basecamp, at: 2026-05-16, layer: Syntactic, source: longterm/wake_001-044.md, note: "bash 反引號在雙引號內被當命令替換執行" }
-  - { by: basecamp, at: 2026-05-16, layer: Identity, source: longterm/wake_001-044.md, note: "production vs legacy 同名檔，production 走另一條路徑" }
-  - { by: basecamp, at: 2026-05-16, layer: Status, source: longterm/wake_001-044.md, note: "run_cmd stdout 印 Success，C# 端 fail 後 auto-removed" }
-  - { by: basecamp, at: 2026-05-16, layer: Content, source: longterm/wake_001-044.md, note: "Recuva sector 污染：檔案存在、大小合理，內容是原檔+噪音混合體" }
+  - { by: basecamp, at: 2026-05-16, layer: Syntactic, source: longterm/wake_001-033.md, note: "bash 反引號在雙引號內被當命令替換執行" }
+  - { by: basecamp, at: 2026-05-16, layer: Identity, source: longterm/wake_001-033.md, note: "production vs legacy 同名檔，production 走另一條路徑" }
+  - { by: basecamp, at: 2026-05-16, layer: Status, source: longterm/wake_001-033.md, note: "run_cmd stdout 印 Success，C# 端 fail 後 auto-removed" }
+  - { by: basecamp, at: 2026-05-16, layer: Content, source: longterm/wake_001-033.md, note: "Recuva sector 污染：檔案存在、大小合理，內容是原檔+噪音混合體" }
   - { by: basecamp, at: 2026-07-16, layer: Aggregate, source: 20260717T152224Z.md, note: "Discord mirror any_ok / sent 1-of-1 掩蓋 per-URL 漏發" }
   - { by: basecamp, at: 2026-07-27, layer: Status, source: 20260726T114016Z.md, note: "check_compile 印 0 error，但 timestamp 是 4 小時前的舊狀態" }
   - { by: basecamp, at: 2026-07-27, layer: Identity, source: 20260726T114016Z.md, note: "刪了舊 page 但 legacy daemon 型別還在，新版一直讓位，跑的仍是舊腳本" }
