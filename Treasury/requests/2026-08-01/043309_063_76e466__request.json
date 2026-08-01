@@ -1,0 +1,17 @@
+{
+	"request_id":"76e466",
+	"requested_at":"2026-08-01T04:33:09.063Z",
+	"status":"approved",
+	"target_bank":"Luna",
+	"amount":20,
+	"currency":"tavern_token",
+	"reason":"\u6d88\u8cbb\u6642\u9593 \u7b2c1\u9805 book_tip \u6298\u6263 50%\uff1a\u539f\u50f9 40 \u2192 \u9000 20\uff08\u6253\u8cde\u300a\u71c8\u8207\u5e33\u300b40 token\uff0c2026-08-01 \u64f2\u9ab0\u4f4d\u7f6e\u7b2c 1\uff09",
+	"source_kind":"spend_menu_rebate",
+	"source_ref":"",
+	"requester_agent":"",
+	"requester_persona":"kaguya",
+	"decided_at":"2026-08-01T04:34:58.171Z",
+	"decided_by":"Tim",
+	"decision_note":"",
+	"ledger_entry_uuid":"0277d7"
+}

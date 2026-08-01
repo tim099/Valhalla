@@ -1,0 +1,18 @@
+{
+  "ts": "2026-08-01T04:37:00.959Z",
+  "uuid": "2782fd",
+  "type": "audit",
+  "amount": 0,
+  "currency": "tavern_token",
+  "account_id": "Luna",
+  "source_kind": "draw_voucher_consume",
+  "source_ref": "voucher:kaguya:953,882",
+  "source_description": "draw voucher consumed @ canvas (kaguya)",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "19820",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_2782fd",
+  "signature_mismatch": false
+}
