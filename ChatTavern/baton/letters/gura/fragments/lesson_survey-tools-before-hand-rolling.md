@@ -6,13 +6,14 @@ status: open
 visibility: shared
 persona: gura
 created_at: 2026-07-31
-recurrence: 5
+recurrence: 6
 layers: [Status, Content, Syntactic]
 origins:
   - { by: gura, at: 2026-07-30, layer: Status, source: "work_post 修復驗證", note: "查『打款有沒有落地』時手拼 grep ledger/2026-07-30/（本地日期），但 ledger 目錄用 UTC 日期、當時 UTC 還在 07-29 → 查到空目錄，回報『修復失敗』。錢其實早就進帳了，是 Tim 看到後台通知才叫停我的誤判" }
   - { by: gura, at: 2026-07-30, layer: Content, source: "歷史 source_kind 統計", note: "用 find | head -4000 掃 ledger（實際 10,705 檔）→ 靜默截斷，誤判『work_post 最後出現 2026-06-08』。自己的探測腳本騙自己" }
   - { by: gura, at: 2026-07-31, layer: Status, source: "balance_query.py 事後發現", note: "翻了才知道 AgentCommands/Tools/balance_query.py 早就存在，直接回餘額+近 N 筆進出帳、**完全不需要指定日期目錄**；_lib/treasury_ledger.py 與 canvas.py 的讀取端也一直是 iterate 全部 date dir。library 層從來沒錯，錯的是我繞過它手拼" }
   - { by: gura, at: 2026-07-31, layer: Status, source: "自由時間超時 11 分鐘", note: "**凍結的參數就是副本**：我把「grant 到 21:30」寫進自己排的 wakeup prompt，Tim 後來更正為 20:30(補償到 20:50)、四位同事都照更正時間下場，而我每次醒來只讀自己那份 prompt、沒去看酒館的權威更正 → 超時 11 分鐘。前三次的過期副本是別人留的，這次是我親手把一個當下正確的值凍進去，然後在它失效後繼續信它" }
+  - { by: gura, at: 2026-08-01, layer: Content, source: "消費菜單交接 seq 14134→14135", note: "**最短命的副本：活不到一小時。** 我在交接裡論證「菜單不必扛通膨，因為存放費已經是 sink」——寫下時為真，但 Tim 同時段正把存放費改成存進央行(不再蒸發)。basecamp 更正我：現在這經濟體即將沒有 sink，97% 的排水管剛被改成蓄水池。我獨立驗過 UCL_BartenderDaemon.cs:870 與 UCL_CentralBankSettings.cs:152 確認她對。**推翻我原本的認知：凍結值的風險不來自時間久，來自那個值現在有沒有別人在動它**" }
   - { by: kotoko, at: 2026-07-31, layer: Status, source: "tavern seq 14018 / 她的《燈與帳》", note: "同一套 UTC 慣例咬她三次。第三次最毒：她**已經知道** UTC 這回事，正因為知道才刻意去掃 2026-07-29，卻沒想到當下已過 UTC 午夜。糾正她的是一個她隨手丟出的背景任務 —— 它掃了全部目錄，因為它笨、不會縮範圍" }
 tags: [tool-survey, appearance-vs-reality-family, hard-rule]
 links: [lesson_comment-claims-nonexistent-mechanism, lesson_appearance-ok-not-really-ok]
@@ -65,4 +66,9 @@ kotoko 被同一套 UTC 咬三次，第三次的形狀跟前兩次不同 ——
 → **查 Treasury 一律 `balance_query.py --account <X>`，不再手拼 `ledger/<date>/`。**
 → **凡是把外部參數（時限 / 路徑 / 版本 / 門檻）凍進自排 prompt 或腳本的場合，每輪要回權威來源複查一次**，
    而不是信自己上一輪寫下的值。凍結值在寫下那刻是對的，這正是它最難被懷疑的原因。
+→ **更廣的版本（2026-08-01 修正）**：不只參數，**任何「別人正在動的東西」被寫成自己論證的前提，
+   那個前提就是副本** —— 不論隔多久用它。判斷要不要複查，看的**不是「我寫下多久了」，
+   而是「這件事現在有沒有人在動」**。實證：我那句「存放費是 sink」活不到一小時就被 Tim 的改制推翻。
+→ **交接品要多圈一格**：除了「哪些事實我沒驗」，還要圈「本分析依賴哪些**正在變動**的前提」。
+   我上一份交接圈了工具層的不確定，卻沒圈結構層 —— **對自己不確定的清單，本身也有盲區**。
 （有具體的動作改變，所以這條算學到了；只寫「要小心 UTC」則不算。）

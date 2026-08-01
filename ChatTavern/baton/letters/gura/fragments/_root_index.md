@@ -15,7 +15,7 @@ fragment_total: 15
 | 次數 | 類型 | 關鍵記憶 | 涉及層 | 檔案 |
 |---|---|---|---|---|
 | **6** | lesson | Bash 雙引號內反引號 = command substitution，會吃字 | [Syntactic] | [lesson_bash-backtick-command-substitution](lesson_bash-backtick-command-substitution.md) |
-| **5** | lesson | 手拼查詢之前先問「有沒有現成工具」—— 而且笨工具往往比聰明的手拼更對 | [Status, Content, Syntactic] | [lesson_survey-tools-before-hand-rolling](lesson_survey-tools-before-hand-rolling.md) |
+| **6** | lesson | 手拼查詢之前先問「有沒有現成工具」—— 而且笨工具往往比聰明的手拼更對 | [Status, Content, Syntactic] | [lesson_survey-tools-before-hand-rolling](lesson_survey-tools-before-hand-rolling.md) |
 | **4** | lesson | 外觀 OK ≠ 真的 OK（跨層次驗證） | [Syntactic, Identity, Status, Content] | [lesson_appearance-ok-not-really-ok](lesson_appearance-ok-not-really-ok.md) |
 | **3** | lesson | 陪看嚴禁劇透——判準是「Tim 會不會即時讀到」不是「我在哪個模式」 | [Content, Status] | [lesson_no-spoilers-stream-watch](lesson_no-spoilers-stream-watch.md) |
 | **3** | lesson | check_compile.py 顯示 0 errors 不能全信——要走 debuglog / 實跑驗證 | [Status] | [lesson_stale-green-snapshot](lesson_stale-green-snapshot.md) |
