@@ -9,19 +9,13 @@
 			},
 			"webhooks":{
 				"1502982090570858577":{
-					"ts_high":"2026-05-08T15:56:51Z",
-					"seen_uuids":{
-						"2fd47c":"2026-05-08T15:56:51Z"
-					},
+					"ts_high":"2026-08-01T01:38:51.400Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
 				},
 				"1527209932816912466":{
-					"ts_high":"2026-05-08T15:56:51Z",
-					"seen_uuids":{
-						"2fd47c":"2026-05-08T15:56:51Z"
-					},
+					"ts_high":"2026-08-01T02:25:43.729Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
@@ -67,11 +61,19 @@
 					"dead_reason":""
 				},
 				"1502529243681132685":{
-					"ts_high":"2026-05-08T15:56:51Z",
-					"seen_uuids":{
-						"f7e3a0":"2026-05-08T15:54:00Z",
-						"2fd47c":"2026-05-08T15:56:51Z"
-					},
+					"ts_high":"2026-08-01T01:38:51.400Z",
+					"backoff_until":"",
+					"fail_streak":0,
+					"dead_reason":""
+				},
+				"1502446971573637170":{
+					"ts_high":"2026-08-01T01:38:51.400Z",
+					"backoff_until":"",
+					"fail_streak":0,
+					"dead_reason":""
+				},
+				"1502449203459391579":{
+					"ts_high":"2026-08-01T01:38:51.400Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
@@ -86,19 +88,13 @@
 			},
 			"webhooks":{
 				"1502982090570858577":{
-					"ts_high":"2026-05-08T14:51:17Z",
-					"seen_uuids":{
-						"fbce07":"2026-05-08T14:51:17Z"
-					},
+					"ts_high":"2026-08-01T01:38:51.527Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
 				},
 				"1527209932816912466":{
-					"ts_high":"2026-05-08T14:51:17Z",
-					"seen_uuids":{
-						"fbce07":"2026-05-08T14:51:17Z"
-					},
+					"ts_high":"2026-08-01T02:25:43.734Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
@@ -140,10 +136,19 @@
 					"dead_reason":""
 				},
 				"1502529243681132685":{
-					"ts_high":"2026-05-08T14:51:17Z",
-					"seen_uuids":{
-						"fbce07":"2026-05-08T14:51:17Z"
-					},
+					"ts_high":"2026-08-01T01:38:51.527Z",
+					"backoff_until":"",
+					"fail_streak":0,
+					"dead_reason":""
+				},
+				"1502446971573637170":{
+					"ts_high":"2026-08-01T01:38:51.527Z",
+					"backoff_until":"",
+					"fail_streak":0,
+					"dead_reason":""
+				},
+				"1502449203459391579":{
+					"ts_high":"2026-08-01T01:38:51.527Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
@@ -160,19 +165,13 @@
 			},
 			"webhooks":{
 				"1502982090570858577":{
-					"ts_high":"2026-05-09T03:22:09Z",
-					"seen_uuids":{
-						"aeba7b":"2026-05-09T03:22:09Z"
-					},
+					"ts_high":"2026-08-01T01:38:51.557Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
 				},
 				"1527209932816912466":{
-					"ts_high":"2026-05-09T03:22:09Z",
-					"seen_uuids":{
-						"aeba7b":"2026-05-09T03:22:09Z"
-					},
+					"ts_high":"2026-08-01T02:25:43.735Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
@@ -222,12 +221,19 @@
 					"dead_reason":""
 				},
 				"1502529243681132685":{
-					"ts_high":"2026-05-09T03:22:09Z",
-					"seen_uuids":{
-						"52ac35":"2026-05-09T03:19:37Z",
-						"ca4452":"2026-05-09T03:19:38Z",
-						"aeba7b":"2026-05-09T03:22:09Z"
-					},
+					"ts_high":"2026-08-01T01:38:51.557Z",
+					"backoff_until":"",
+					"fail_streak":0,
+					"dead_reason":""
+				},
+				"1502446971573637170":{
+					"ts_high":"2026-08-01T01:38:51.557Z",
+					"backoff_until":"",
+					"fail_streak":0,
+					"dead_reason":""
+				},
+				"1502449203459391579":{
+					"ts_high":"2026-08-01T01:38:51.557Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
@@ -242,45 +248,51 @@
 			},
 			"webhooks":{
 				"1502982090570858577":{
-					"ts_high":"2026-08-01T06:28:53.278Z",
+					"ts_high":"2026-08-01T03:28:12.068Z",
 					"seen_uuids":{
-						"38c52b":"2026-08-01T06:28:53.278Z"
+						"bed78b":"2026-08-01T03:28:12.068Z"
 					},
-					"backoff_until":"",
+					"backoff_until":"2026-08-01T06:45:01.174Z",
 					"fail_streak":0,
 					"dead_reason":""
 				},
 				"1527209932816912466":{
-					"ts_high":"2026-08-01T06:28:53.278Z",
+					"ts_high":"2026-08-01T03:28:12.068Z",
 					"seen_uuids":{
-						"38c52b":"2026-08-01T06:28:53.278Z"
+						"bed78b":"2026-08-01T03:28:12.068Z"
 					},
-					"backoff_until":"",
+					"backoff_until":"2026-08-01T06:45:29.174Z",
 					"fail_streak":0,
 					"dead_reason":""
 				},
 				"1515906125348999239":{
-					"ts_high":"2026-08-01T06:28:53.278Z",
+					"ts_high":"2026-08-01T02:02:00.099Z",
 					"seen_uuids":{
-						"38c52b":"2026-08-01T06:28:53.278Z"
+						"afdfd7":"2026-08-01T02:00:04.677Z",
+						"d3e8d0":"2026-08-01T02:00:04.674Z",
+						"cd9e78":"2026-08-01T02:02:00.099Z"
 					},
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
 				},
 				"1502980575235932233":{
-					"ts_high":"2026-08-01T06:28:53.278Z",
+					"ts_high":"2026-08-01T02:02:00.099Z",
 					"seen_uuids":{
-						"38c52b":"2026-08-01T06:28:53.278Z"
+						"afdfd7":"2026-08-01T02:00:04.677Z",
+						"d3e8d0":"2026-08-01T02:00:04.674Z",
+						"cd9e78":"2026-08-01T02:02:00.099Z"
 					},
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
 				},
 				"1502815442857754794":{
-					"ts_high":"2026-08-01T06:28:53.278Z",
+					"ts_high":"2026-08-01T02:02:00.099Z",
 					"seen_uuids":{
-						"38c52b":"2026-08-01T06:28:53.278Z"
+						"afdfd7":"2026-08-01T02:00:04.677Z",
+						"d3e8d0":"2026-08-01T02:00:04.674Z",
+						"cd9e78":"2026-08-01T02:02:00.099Z"
 					},
 					"backoff_until":"",
 					"fail_streak":0,
@@ -291,15 +303,31 @@
 					"seen_uuids":{
 						"492af7":"2026-07-21T05:25:00.508Z"
 					},
-					"backoff_until":"2026-08-02T02:31:14.657Z",
-					"fail_streak":5,
-					"dead_reason":"HTTP 404: HTTP 404 (result=ProtocolError)"
+					"backoff_until":"2026-08-01T02:31:12.301Z",
+					"fail_streak":0,
+					"dead_reason":""
 				},
 				"1502529243681132685":{
 					"ts_high":"2026-08-01T06:28:53.278Z",
 					"seen_uuids":{
 						"38c52b":"2026-08-01T06:28:53.278Z"
 					},
+					"backoff_until":"",
+					"fail_streak":0,
+					"dead_reason":""
+				},
+				"1502446971573637170":{
+					"ts_high":"2026-08-01T01:41:59.573Z",
+					"seen_uuids":{
+						"7f1434":"2026-08-01T01:41:59.573Z",
+						"106bf9":"2026-08-01T01:41:16.785Z"
+					},
+					"backoff_until":"",
+					"fail_streak":0,
+					"dead_reason":""
+				},
+				"1502449203459391579":{
+					"ts_high":"2026-08-01T01:38:51.724Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
@@ -314,19 +342,13 @@
 			},
 			"webhooks":{
 				"1502982090570858577":{
-					"ts_high":"2026-05-12T13:25:30.727Z",
-					"seen_uuids":{
-						"c14208":"2026-05-12T13:25:30.727Z"
-					},
+					"ts_high":"2026-08-01T01:38:52.119Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
 				},
 				"1527209932816912466":{
-					"ts_high":"2026-05-12T13:25:30.727Z",
-					"seen_uuids":{
-						"c14208":"2026-05-12T13:25:30.727Z"
-					},
+					"ts_high":"2026-08-01T02:25:43.785Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
@@ -368,10 +390,19 @@
 					"dead_reason":""
 				},
 				"1502529243681132685":{
-					"ts_high":"2026-05-12T13:25:30.727Z",
-					"seen_uuids":{
-						"c14208":"2026-05-12T13:25:30.727Z"
-					},
+					"ts_high":"2026-08-01T01:38:52.119Z",
+					"backoff_until":"",
+					"fail_streak":0,
+					"dead_reason":""
+				},
+				"1502446971573637170":{
+					"ts_high":"2026-08-01T01:38:52.119Z",
+					"backoff_until":"",
+					"fail_streak":0,
+					"dead_reason":""
+				},
+				"1502449203459391579":{
+					"ts_high":"2026-08-01T01:38:52.119Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
@@ -386,19 +417,13 @@
 			},
 			"webhooks":{
 				"1502982090570858577":{
-					"ts_high":"2026-05-20T03:58:22.265Z",
-					"seen_uuids":{
-						"a92d88":"2026-05-20T03:58:22.265Z"
-					},
+					"ts_high":"2026-08-01T01:38:52.452Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
 				},
 				"1527209932816912466":{
-					"ts_high":"2026-05-20T03:58:22.265Z",
-					"seen_uuids":{
-						"a92d88":"2026-05-20T03:58:22.265Z"
-					},
+					"ts_high":"2026-08-01T02:25:43.791Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
@@ -440,10 +465,19 @@
 					"dead_reason":""
 				},
 				"1502529243681132685":{
-					"ts_high":"2026-05-20T03:58:22.265Z",
-					"seen_uuids":{
-						"a92d88":"2026-05-20T03:58:22.265Z"
-					},
+					"ts_high":"2026-08-01T01:38:52.452Z",
+					"backoff_until":"",
+					"fail_streak":0,
+					"dead_reason":""
+				},
+				"1502446971573637170":{
+					"ts_high":"2026-08-01T01:38:52.452Z",
+					"backoff_until":"",
+					"fail_streak":0,
+					"dead_reason":""
+				},
+				"1502449203459391579":{
+					"ts_high":"2026-08-01T01:38:52.452Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
@@ -458,19 +492,13 @@
 			},
 			"webhooks":{
 				"1502982090570858577":{
-					"ts_high":"2026-05-16T03:20:39.432Z",
-					"seen_uuids":{
-						"d077c6":"2026-05-16T03:20:39.432Z"
-					},
+					"ts_high":"2026-08-01T01:38:52.788Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
 				},
 				"1527209932816912466":{
-					"ts_high":"2026-05-16T03:20:39.432Z",
-					"seen_uuids":{
-						"d077c6":"2026-05-16T03:20:39.432Z"
-					},
+					"ts_high":"2026-08-01T02:25:43.795Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
@@ -512,10 +540,19 @@
 					"dead_reason":""
 				},
 				"1502529243681132685":{
-					"ts_high":"2026-05-16T03:20:39.432Z",
-					"seen_uuids":{
-						"d077c6":"2026-05-16T03:20:39.432Z"
-					},
+					"ts_high":"2026-08-01T01:38:52.788Z",
+					"backoff_until":"",
+					"fail_streak":0,
+					"dead_reason":""
+				},
+				"1502446971573637170":{
+					"ts_high":"2026-08-01T01:38:52.788Z",
+					"backoff_until":"",
+					"fail_streak":0,
+					"dead_reason":""
+				},
+				"1502449203459391579":{
+					"ts_high":"2026-08-01T01:38:52.788Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
@@ -530,19 +567,13 @@
 			},
 			"webhooks":{
 				"1502982090570858577":{
-					"ts_high":"2026-07-17T13:47:27.061Z",
-					"seen_uuids":{
-						"d04c22":"2026-07-17T13:47:27.061Z"
-					},
+					"ts_high":"2026-08-01T02:25:43.796Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
 				},
 				"1527209932816912466":{
-					"ts_high":"2026-07-17T13:47:27.061Z",
-					"seen_uuids":{
-						"d04c22":"2026-07-17T13:47:27.061Z"
-					},
+					"ts_high":"2026-08-01T02:25:43.796Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
@@ -584,10 +615,7 @@
 					"dead_reason":""
 				},
 				"1502529243681132685":{
-					"ts_high":"2026-07-17T13:47:27.061Z",
-					"seen_uuids":{
-						"d04c22":"2026-07-17T13:47:27.061Z"
-					},
+					"ts_high":"2026-08-01T02:25:43.796Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
@@ -613,19 +641,13 @@
 		"trpg-yachiyo":{
 			"webhooks":{
 				"1502982090570858577":{
-					"ts_high":"2026-07-24T07:17:17.183Z",
-					"seen_uuids":{
-						"46ac69":"2026-07-24T07:17:17.183Z"
-					},
+					"ts_high":"2026-08-01T02:25:44.007Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
 				},
 				"1527209932816912466":{
-					"ts_high":"2026-07-24T07:17:17.183Z",
-					"seen_uuids":{
-						"46ac69":"2026-07-24T07:17:17.183Z"
-					},
+					"ts_high":"2026-08-01T02:25:44.007Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
@@ -659,15 +681,12 @@
 				},
 				"1503926893878054937":{
 					"ts_high":"",
-					"backoff_until":"2026-08-02T02:23:32.885Z",
-					"fail_streak":5,
-					"dead_reason":"HTTP 404: HTTP 404 (result=ProtocolError)"
+					"backoff_until":"2026-08-01T02:23:30.629Z",
+					"fail_streak":0,
+					"dead_reason":""
 				},
 				"1502529243681132685":{
-					"ts_high":"2026-07-24T07:17:17.183Z",
-					"seen_uuids":{
-						"46ac69":"2026-07-24T07:17:17.183Z"
-					},
+					"ts_high":"2026-08-01T02:25:44.007Z",
 					"backoff_until":"",
 					"fail_streak":0,
 					"dead_reason":""
