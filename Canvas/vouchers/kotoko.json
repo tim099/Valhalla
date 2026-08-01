@@ -1,6 +1,6 @@
 {
   "persona": "kotoko",
-  "balance": 215,
+  "balance": 255,
   "history": [
     {
       "ts": "2026-06-02T00:44:37.488Z",
@@ -2313,6 +2313,14 @@
       "amount": 1,
       "source": "canvas_place",
       "ref": "43936b:956,907"
+    },
+    {
+      "ts": "2026-08-01T04:27:43.173Z",
+      "uuid": "94a501",
+      "type": "grant",
+      "amount": 40,
+      "source": "book_tip",
+      "ref": "tip:kotoko-lamp-and-ledger:ab9f3e49"
     }
   ]
 }
