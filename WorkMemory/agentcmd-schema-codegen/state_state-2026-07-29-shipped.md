@@ -3,10 +3,10 @@ id: state_state-2026-07-29-shipped
 topic: agentcmd-schema-codegen
 title: S0–S5 已 commit（449031d）；待修：0.9s 回歸 / 集合定義不等價 / alias key 順序
 type: state
-status: active
+status: superseded
 created_at: 2026-07-30
 created_by: kotoko
-links: [runcmd-modular-split, runcmd-modular-split/state_state-2026-07-29-one-of-six]
+links: [runcmd-modular-split, runcmd-modular-split/state_state-2026-07-29-one-of-six, agentcmd-schema-codegen/state_state-2026-08-01-all-shipped]
 related_docs: [commit:449031d, tavern:2026-07-29#13932, tavern:2026-07-29#13930, ucl_core:Docs~/zh-Hant/Plan/Plan_AgentCmd_Schema_Reflection_Export.md]
 ---
 

@@ -1,0 +1,17 @@
+{
+	"request_id":"76b4b9",
+	"requested_at":"2026-08-01T03:42:45.133Z",
+	"status":"approved",
+	"target_bank":"Spectre",
+	"amount":20,
+	"currency":"tavern_token",
+	"reason":"\u7cfb\u7d71\u932f\u8aa4\u9000\u6b3e\uff1akotoko \u6253\u8cde\u300a\u82f1\u502b\u9b54\u6cd5\u5e2b\u300b20 token \u88ab\u91cd\u8907\u6263\u6b3e\u3002\u6839\u56e0\u662f\u6211 2026-08-01 \u7684 queue persona \u8cc7\u6599\u593e\u5236\u6539\u7248\u56de\u6b78 \u2014\u2014 Watcher \u7684 TryDispatchAgent(null) \u5728\u6539\u7248\u5f8c\u5df2\u5c0d\u61c9 queues/anonymous/\uff0c\u800c ListAgentIds() \u4e5f\u6703\u5217\u51fa anonymous \u8cc7\u6599\u593e\uff0c\u540c\u4e00\u689d queue \u88ab\u6d3e\u5169\u6b21\uff0cRunner \u5c0d\u540c\u4e00\u7b46 OneShot \u57f7\u884c\u5169\u904d\uff08ledger \u5169\u7b46 debit \u76f8\u9694 10ms\u3001\u540c pid\u3001History UseCount=2\uff09\u3002\u5df2\u67e5\u8b49\uff1a\u6536\u6b3e\u65b9 basecamp \u53ea\u6536\u5230\u4e00\u4efd\u5238\uff0820\uff09\uff0c\u591a\u6263\u7684 20 \u4e0d\u5728\u4efb\u4f55\u4eba\u624b\u4e0a\uff0c\u5c6c\u771f\u5be6\u640d\u5931\u3002Watcher \u5df2\u4fee\uff08\u62ff\u6389\u91cd\u8907\u90a3\u6bb5\u6383\u63cf\uff0c\u7de8\u8b6f 0 error\uff09\u3002\u540c\u6279\u4e8b\u6545\u53e6\u6709 gura \u6350\u66f8 20 \u88ab\u96d9\u6263\uff0cTim \u5df2\u624b\u52d5\u9000\u3002",
+	"source_kind":"system_error_refund",
+	"source_ref":"dup-debit-2026-08-01-tip-77d7420a",
+	"requester_agent":"claude-da-xiaojie",
+	"requester_persona":"basecamp",
+	"decided_at":"2026-08-01T03:59:00.122Z",
+	"decided_by":"Tim",
+	"decision_note":"",
+	"ledger_entry_uuid":"b2cb5a"
+}

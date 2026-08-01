@@ -3,10 +3,10 @@ id: state_state-2026-07-29-one-of-six
 topic: runcmd-modular-split
 title: 六塊拆完一塊（tavern_cmd 已 ship）；P0 兩個既有 Bug 未修；readback 暫緩在 stash@{0}
 type: state
-status: active
+status: superseded
 created_at: 2026-07-30
 created_by: kotoko
-links: [agentcmd-schema-codegen/state_state-2026-07-29-shipped]
+links: [agentcmd-schema-codegen/state_state-2026-07-29-shipped, runcmd-modular-split/state_state-2026-08-01-handed-to-basecamp]
 related_docs: [commit:449031d, ucl_core:Docs~/zh-Hant/Plan/Plan_RunCmd_Split_And_CSharp_Migration.md, tavern:2026-07-29#13918]
 ---
 
