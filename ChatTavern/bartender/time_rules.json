@@ -21,7 +21,7 @@
             "penalty_enabled": false,
             "penalty_interval_minutes": 5,
             "penalty_target": "",
-            "enabled": true,
+            "enabled": false,
             "target_room": "tavern"
         },
         {
@@ -33,7 +33,7 @@
             "penalty_enabled": false,
             "penalty_interval_minutes": 5,
             "penalty_target": "",
-            "enabled": true,
+            "enabled": false,
             "target_room": "tavern"
         },
         {
@@ -45,7 +45,7 @@
             "penalty_enabled": false,
             "penalty_interval_minutes": 5,
             "penalty_target": "",
-            "enabled": true,
+            "enabled": false,
             "target_room": "tavern"
         },
         {
@@ -57,7 +57,7 @@
             "penalty_enabled": false,
             "penalty_interval_minutes": 5,
             "penalty_target": "",
-            "enabled": true,
+            "enabled": false,
             "target_room": "tavern"
         },
         {
@@ -69,7 +69,7 @@
             "penalty_enabled": false,
             "penalty_interval_minutes": 5,
             "penalty_target": "",
-            "enabled": true,
+            "enabled": false,
             "target_room": "tavern"
         },
         {
@@ -81,7 +81,7 @@
             "penalty_enabled": false,
             "penalty_interval_minutes": 5,
             "penalty_target": "",
-            "enabled": true,
+            "enabled": false,
             "target_room": "tavern"
         },
         {
@@ -93,7 +93,7 @@
             "penalty_enabled": false,
             "penalty_interval_minutes": 5,
             "penalty_target": "",
-            "enabled": true,
+            "enabled": false,
             "target_room": "tavern"
         },
         {
@@ -105,7 +105,7 @@
             "penalty_enabled": false,
             "penalty_interval_minutes": 5,
             "penalty_target": "",
-            "enabled": true,
+            "enabled": false,
             "target_room": "tavern"
         },
         {
@@ -117,7 +117,7 @@
             "penalty_enabled": false,
             "penalty_interval_minutes": 5,
             "penalty_target": "",
-            "enabled": true,
+            "enabled": false,
             "target_room": "tavern"
         },
         {
@@ -129,7 +129,7 @@
             "penalty_enabled": false,
             "penalty_interval_minutes": 5,
             "penalty_target": "",
-            "enabled": true,
+            "enabled": false,
             "target_room": "tavern"
         },
         {
@@ -141,7 +141,7 @@
             "penalty_enabled": false,
             "penalty_interval_minutes": 5,
             "penalty_target": "",
-            "enabled": true,
+            "enabled": false,
             "target_room": "tavern"
         },
         {
@@ -153,7 +153,7 @@
             "penalty_enabled": false,
             "penalty_interval_minutes": 5,
             "penalty_target": "",
-            "enabled": true,
+            "enabled": false,
             "target_room": "tavern"
         },
         {
@@ -165,7 +165,7 @@
             "penalty_enabled": false,
             "penalty_interval_minutes": 5,
             "penalty_target": "",
-            "enabled": true,
+            "enabled": false,
             "target_room": "tavern"
         },
         {
@@ -177,7 +177,7 @@
             "penalty_enabled": false,
             "penalty_interval_minutes": 5,
             "penalty_target": "",
-            "enabled": true,
+            "enabled": false,
             "target_room": "tavern"
         },
         {
@@ -189,7 +189,7 @@
             "penalty_enabled": false,
             "penalty_interval_minutes": 5,
             "penalty_target": "",
-            "enabled": true,
+            "enabled": false,
             "target_room": "tavern"
         },
         {
@@ -201,7 +201,7 @@
             "penalty_enabled": false,
             "penalty_interval_minutes": 5,
             "penalty_target": "",
-            "enabled": true,
+            "enabled": false,
             "target_room": "tavern"
         }
     ]
