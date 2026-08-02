@@ -1,0 +1,9 @@
+{
+	"enabled":true,
+	"interval_seconds":10,
+	"notify_text":"/ucl-ding",
+	"send_enter":true,
+	"enter_delay_sec":0.800000011920929,
+	"enter_presses":3,
+	"enter_gap_sec":1
+}
