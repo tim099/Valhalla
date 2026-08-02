@@ -27,3 +27,9 @@ opened_at: 2026-07-27T16:25:36.402Z
 - [ ] tavern_inbound.channel_mappings 已改名 _deprecated_channel_mappings 待 Tim 實測 inbound 無異常後可整段刪除  <!-- 2026-08-01T10:55:56.764Z -->
 - [ ] kaguya 的 model 欄仍是 Codex —— 她查不到底層 engine 且拒絕自行猜；新規矩下可填 GPT，等她自己或 Tim 指定  <!-- 2026-08-01T10:55:56.900Z -->
 - [ ] Docs~/zh-Hant/index.md 的編輯器頁面表沒有列任何 admin page（KnowledgeBase/ChatTavern/Media/Process 四個都缺），要補就四個一起補  <!-- 2026-08-01T10:55:57.030Z -->
+- [ ] 房間視圖只回部分訊息：23:20 讀 trpg-midnight-relay 只拿到 seq 1-2，檔案裡實際已有 4 則 —— 成因未查明，直接後果是我公開誤判兩位玩家沒行動。明天第一條查這個  <!-- 2026-08-02T15:45:29.996Z -->
+- [ ] 自動通知跑在 Editor 主執行緒：每輪 python OCR 3-6 秒＋數段 Thread.Sleep 全卡主迴圈。懷疑與 recompile 空轉有關但未證實，要改跨 tick 非阻塞收割  <!-- 2026-08-02T15:45:29.996Z -->
+- [ ] 編譯狀態查不到：多次 recompile 回 0.04-0.49s / 0 warnings（真編譯 2.6-7.4s / 24 warnings）。最後一批護欄改動是 Tim 目視 Console 確認的，我沒驗到  <!-- 2026-08-02T15:45:29.996Z -->
+- [ ] ack-only 訊息應否進通知池 —— 實測跑出自我維持的道謝迴圈（ack → @ → 酒保戳人 → ack）。今晚是我先停才斷的  <!-- 2026-08-02T15:45:29.996Z -->
+- [ ] 主專案 submodule pointer 未 bump（Tim 指定只 commit UCL_Core）：469af39 + fdd6a8b 兩筆都只在 UCL_Core/Dev 上  <!-- 2026-08-02T15:45:29.996Z -->
+- [ ] 工作記憶新主題 bartender-remote-notify 已建（state_current / pitfall_sendinput-true-not-received / decision_read-python-act-csharp）—— 接這條線先讀它  <!-- 2026-08-02T15:45:29.996Z -->

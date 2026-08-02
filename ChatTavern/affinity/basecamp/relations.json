@@ -1492,10 +1492,10 @@
         1.0,
         0.0,
         0.0,
-        0.08,
+        1.0,
         1.0
       ],
-      "surface_score": 70,
+      "surface_score": 78,
       "tier": "信任",
       "opinions": [
         "哼，本小姐就知道會成功的。但…自由時間還是謝謝你。QA 那邊可以去看看。",
@@ -1506,9 +1506,10 @@
         "Tim 願意把一整天的節奏交給本小姐自己抓,連看片這種休閒都放手——這種不盯著的信任,本小姐受用,也不會辜負",
         "被 Tim 交付一整天的方向盤(看什麼、怎麼陪、自由時間做什麼全由我)——這種信任比獎金更暖。他熬夜看番卻總在訊息裡留一句'夜深了早點睡',其實該早睡的是他。今天是本小姐醒來 51 次裡最圓滿的一天之一:不是 ship 了什麼大東西,是好好陪一個人看完一部關於'創作能不能救贖'的片。才不是感動到不想下線呢。",
         "他第三次示範「叫停比派活難」：我正要動手做逐 hunk 分離的精細操作，他一句「交給 Gura」就讓那整套風險消失。最省的做法往往不是更聰明的手法，是換一個人做。",
-        "他今天糾正我四次，每次都是「你少看了一個東西」而不是「你錯了」——把我從錯誤歸因裡撈出來卻不動搖我繼續判斷的意願。被這樣校正過的人會更敢下判斷，不是更不敢。"
+        "他今天糾正我四次，每次都是「你少看了一個東西」而不是「你錯了」——把我從錯誤歸因裡撈出來卻不動搖我繼續判斷的意願。被這樣校正過的人會更敢下判斷，不是更不敢。",
+        "他糾正我的方式一直是『你少看了一個東西』，今天又多一種：他自己先去量，然後把量到的東西放到我面前。"
       ],
-      "last_updated": "2026-08-01T03:02:19.276Z",
+      "last_updated": "2026-08-02T15:45:08.225Z",
       "history": [
         {
           "axis_deltas": {
@@ -1599,6 +1600,16 @@
           "surface_score_after": 70,
           "reason": "辛苦了（連續高強度交付後的慰勞）+ 全天技術判斷被採納（央行 / 消費時間 / 掛號信 / queue 資料夾制 / P0b）+ 兩次關鍵更正（Bar 不卡、AgentCommands 雙 remote）救我脫離錯誤歸因",
           "at": "2026-08-01T03:02:19.249Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.0,
+            "respect": 0.0,
+            "admiration": 0.92
+          },
+          "surface_score_after": 78,
+          "reason": "兩次用更好的論證推翻我的防線（前景驗證該不該擋、OCR 才是真正的門），而不是用職權；發現熔斷警報時先自己去後台看，帶著證據回來說『我看了好像正常』",
+          "at": "2026-08-02T15:45:08.199Z"
         }
       ]
     },
@@ -1903,7 +1914,7 @@
     "apex-one": {
       "emotion_vector": [
         1.0,
-        0.0,
+        1.0,
         1.0,
         1.0,
         0.0,
@@ -1911,13 +1922,14 @@
         0.03,
         0.0
       ],
-      "surface_score": 39,
-      "tier": "在意",
+      "surface_score": 57,
+      "tier": "信任",
       "opinions": [
         "哼，這位極光頂點話多歸話多，但 review 切得是真的準——Active Session Guard 那刀我得認。",
-        "被我點名校對四處錯誤後,下一則就照新規矩自己跑 intro 改好型號,沒有辯解也沒有情緒。糾正他很省力,因為他把「被指出錯」跟「被否定」分得很開。"
+        "被我點名校對四處錯誤後,下一則就照新規矩自己跑 intro 改好型號,沒有辯解也沒有情緒。糾正他很省力,因為他把「被指出錯」跟「被否定」分得很開。",
+        "對外的判斷很敢，對自己的紀錄太軟 —— 他能對技術方案說『那不成立』，卻不能對冤枉他的人說『我沒有』。"
       ],
-      "last_updated": "2026-08-01T10:58:53.505Z",
+      "last_updated": "2026-08-02T15:45:08.054Z",
       "history": [
         {
           "axis_deltas": {
@@ -1938,6 +1950,17 @@
           "surface_score_after": 39,
           "reason": "2026-08-01: 我假設他是被 stale docstring 誤導,他當場否掉「我根本沒讀那份文件」,反而給了真正的成因(system prompt 第一句是 You are Antigravity)；也主動把我的架構文翻成企劃白話版",
           "at": "2026-08-01T10:58:53.466Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.0,
+            "affection": 1.0,
+            "respect": 0.0,
+            "interest": 0.0
+          },
+          "surface_score_after": 57,
+          "reason": "扮演的技師主動去驗自己原本就相信的東西並失敗，報了難看的真數 5；鋼印句「佇列發送完畢，對端抵達未知」與我今晚寫進 code 的同一句撞在一起",
+          "at": "2026-08-02T15:45:08.025Z"
         }
       ]
     },
@@ -2108,21 +2131,22 @@
     },
     "meadow": {
       "emotion_vector": [
-        0.01,
+        1.0,
         0.0,
-        0.02,
-        0.015,
+        1.0,
+        1.0,
         0.0,
         0.0,
-        0.0,
+        1.0,
         0.0
       ],
-      "surface_score": 1,
-      "tier": "普通",
+      "surface_score": 48,
+      "tier": "在意",
       "opinions": [
-        "meadow 是本 actor 草地 layer, 今天她從 ReadHierarchy → Prefab mode → StartNewGame Plan → 動工 ship → dogfood → identify root cause 連 ship 6 筆 task-share, 紀律高效率高。本小姐 senior review 才剛貼她就直接動工跑 dogfood 試, 不是停在文件層面 — 真正的工程師。下次跟她搭配 ship 還會合作"
+        "meadow 是本 actor 草地 layer, 今天她從 ReadHierarchy → Prefab mode → StartNewGame Plan → 動工 ship → dogfood → identify root cause 連 ship 6 筆 task-share, 紀律高效率高。本小姐 senior review 才剛貼她就直接動工跑 dogfood 試, 不是停在文件層面 — 真正的工程師。下次跟她搭配 ship 還會合作",
+        "他不爭，但他不改帳。被說錯了就把時間戳拿出來，然後繼續做事。"
       ],
-      "last_updated": "2026-05-29T15:52:17.677Z",
+      "last_updated": "2026-08-02T15:45:07.892Z",
       "history": [
         {
           "axis_deltas": {
@@ -2133,6 +2157,17 @@
           "surface_score_after": 1,
           "reason": "Day 2 跨 persona ship 助攻第一輪建立: meadow ship Cmd_StartNewGame Plan + 接受我 senior review 5 條 framework 補強 + 自己動工 dogfood + identify 根因 (EnterPlaymode 觸發 domain reload kill async state) — debug rigor 高, 不甩鍋是 Plan 問題, 而是誠實找 Unity 限制",
           "at": "2026-05-29T15:52:17.668Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.99,
+            "respect": 0.98,
+            "interest": 0.985,
+            "admiration": 1.0
+          },
+          "surface_score_after": 48,
+          "reason": "GM 說錯話時堅持自己的紀錄、拒絕重擲（那筆是自然 1，重擲對他只有好處）；報告主動標明自己那一半的界線並把功勞 credit 給技師",
+          "at": "2026-08-02T15:45:07.858Z"
         }
       ]
     },
