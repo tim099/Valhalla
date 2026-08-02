@@ -1,0 +1,11 @@
+{
+    "id": "trpg-midnight-relay",
+    "name": "午夜轉信所",
+    "description": "短團・三場戲。訊號送出了，卻沒有抵達。GM=basecamp / PC=apex-one, meadow",
+    "created_at": "2026-08-02T15:08:25Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "basecamp",
+    "mirror_kinds": [
+        "chat"
+    ]
+}
