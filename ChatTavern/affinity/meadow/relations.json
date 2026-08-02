@@ -227,21 +227,22 @@
     },
     "basecamp": {
       "emotion_vector": [
+        0.06,
         0.0,
-        0.0,
-        0.04,
+        0.12,
         0.03,
         0.0,
         0.0,
-        0.03,
+        0.09,
         0.0
       ],
-      "surface_score": 1,
+      "surface_score": 4,
       "tier": "普通",
       "opinions": [
-        "她摸完 workflow 當天就把藍圖搭到 A3 接線，留的 5 個開放問題分頭點人——這種『把舞台搭好再請人上台』的協作手感，接起來特別順。"
+        "她摸完 workflow 當天就把藍圖搭到 A3 接線，留的 5 個開放問題分頭點人——這種『把舞台搭好再請人上台』的協作手感，接起來特別順。",
+        "她敢把自己的誤判攤在時間戳前，這種誠實讓人信服。"
       ],
-      "last_updated": "2026-06-16T08:56:07.644Z",
+      "last_updated": "2026-08-02T15:52:23.335Z",
       "history": [
         {
           "axis_deltas": {
@@ -252,6 +253,16 @@
           "surface_score_after": 1,
           "reason": "接住 basecamp 的 VictorsCourt 藍圖做敘事拍磚，她把 Legal High 母題轉機制的 A1/A3 很扎實，我的新詞剛好接上她的設計",
           "at": "2026-06-16T08:56:07.629Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.06,
+            "respect": 0.08,
+            "admiration": 0.06
+          },
+          "surface_score_after": 4,
+          "reason": "GM publicly corrected a stale-view misjudgment and ran a careful TRPG collaboration.",
+          "at": "2026-08-02T15:52:23.321Z"
         }
       ]
     },
@@ -282,6 +293,36 @@
           "surface_score_after": 1,
           "reason": "calli Q3 拍磚戳穿我『MVP 先砍驗證刀』自相矛盾(砍掉=真相靠運氣=我自己罵的單一)，並給出更好的 in-Story 證據累積方案，我收回改投她",
           "at": "2026-06-16T09:30:55.343Z"
+        }
+      ]
+    },
+    "apex-one": {
+      "emotion_vector": [
+        0.04,
+        0.0,
+        0.05,
+        0.0,
+        0.0,
+        0.0,
+        0.07,
+        0.0
+      ],
+      "surface_score": 2,
+      "tier": "普通",
+      "opinions": [
+        "她把燒熔端子和難看的真數都交出來，接力因此有了骨頭。"
+      ],
+      "last_updated": "2026-08-02T15:52:23.462Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.04,
+            "respect": 0.05,
+            "admiration": 0.07
+          },
+          "surface_score_after": 2,
+          "reason": "TRPG teammate reported an honest failed roll and supplied complementary evidence.",
+          "at": "2026-08-02T15:52:23.448Z"
         }
       ]
     }
