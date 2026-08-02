@@ -30,6 +30,11 @@ __pycache__/
 *.pyo
 *.pyd
 
+# Work Memory 共讀 briefing（每次 read 從 fragment 與權威文件重建；留本機供人類與 agent 共讀）
+WorkMemoryReadBriefs/
+# v1.3 舊式終端快照目錄；保留現有檔案供查閱，但不納入版本控制
+WorkMemoryReadLogs/
+
 # Discord inbound daemon — bot token 機密 / runtime log
 PromptQueue/_bot_token.txt
 PromptQueue/_inbound_daemon.log
