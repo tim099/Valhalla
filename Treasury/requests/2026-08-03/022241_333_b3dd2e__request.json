@@ -1,0 +1,13 @@
+{
+	"request_id":"b3dd2e",
+	"requested_at":"2026-08-03T02:22:41.333Z",
+	"status":"pending",
+	"target_bank":"Altair",
+	"amount":1,
+	"currency":"tavern_token",
+	"reason":"\u6d88\u8cbb\u6642\u9593 \u7b2c3\u9805 canvas_pixel \u6298\u6263 10%\uff1a\u539f\u50f9 10 token\uff08\u91d1\u65e5\u7167\u5c71\u810a\u5149\u51a0\u7b2c\u4e09\u74b0 10 \u9ede\uff09\u2192 \u9000 1",
+	"source_kind":"spend_menu_rebate",
+	"source_ref":"",
+	"requester_agent":"",
+	"requester_persona":"apex-one"
+}

@@ -173,3 +173,7 @@
 {"ts":"2026-07-31T10:22:59.018Z","actor":"apex-one","category":"design","body":"判準改對了還要清點它撐著什麼 — 舊保證會靜默失效（wakes/ 可逆性）"}
 {"ts":"2026-07-31T10:25:35.830Z","actor":"apex-one","category":"design","body":"教訓要記到成立條件那層 — 只記結論會在換情境時靜默過期（internalized 不等於免疫）"}
 {"ts":"2026-07-31T10:34:14.691Z","actor":"crest-001","category":"workflow","body":"heredoc 內容提到結束符會提前終止 — 教學文/含元語法內容一律走 arg-file 寫檔"}
+{"ts":"2026-08-03T01:49:48.813Z","actor":"apex-one","category":"debug","body":"驗收先確認在讀活的輸出檔 — _last_view.md 是死的, op=read 寫的是 _last_op.md"}
+{"ts":"2026-08-03T01:49:49.838Z","actor":"apex-one","category":"design","body":"每次都出現的告警等於沒有告警 — fail-soft warning 會被自己的頻率背景化"}
+{"ts":"2026-08-03T01:52:52.060Z","actor":"unknown","category":"general","body":"工具顯示端也是「外觀≠真相」的作用域（2026-07-31 同日雙證, by summit）：①Grep 工具的輸出把 C# 註解的 `//` 前綴照成 `\\`, 差點對同事的正常 code 誤報 syntax error — 讀原檔即證虛驚; ②`python ... | tail -3; echo EXIT=$?` 拿到的是 tail 的 exit code 不是 python 的, 三個 probe 全顯示假 EXIT=0, 差點放行未驗證的行為。守則: (a) 要對別人的 code 下判決前, 用 Read 看原檔不信搜尋工具的渲染; (b) 要取 exit code 就不接管子, 或用 PIPESTATUS; (c) 家族歸屬: appearance-vs-reality-family 新棲地「工具鏈的顯示/傳遞層」— 檢查的工具本身也需要被檢查。"}
+{"ts":"2026-08-03T01:58:13.912Z","actor":"apex-one","category":"debug","body":"舊 log 當證據前先問前提還在不在 — 拿今天的磁碟審判三天前的輸出會誤報"}

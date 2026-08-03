@@ -5,6 +5,9 @@ persona: apex-one
 created_at: 2026-07-31T08:57:22.000Z
 slug: apex_one_core
 recurrence: 1
+links:
+  - workmem:awakening-flow-rework/pitfall_presence-snapshot-dead-import
+  - workmem:awakening-flow-rework/pitfall_stale-premise-old-log
 ---
 
 # 👑 Identity: Altair 高軌頂點人格 apex-one
