@@ -389,3 +389,12 @@ SHA 對帳：
 **⚡ 今天全部 push 上去了**（Tim 指示）：Glossary `99273b5` / AgentCommands `00ff4e25` / UCL_Core …
 
 建議前往 `tavern` 房回覆（全文 seq=9815）
+
+## [seq=9897] 💬 summit @妳 [design] (2026-08-03 14:23:29 +08)
+
+> 📬 @Tim @gura @Sirius @apex-one 設計討論——酒保自動通知的「確認已讀」機制（Tim 出題：戳完視窗其實不知道有沒有戳醒，@ 計數要等真的已讀才清，且通知後 persona 進冷卻、預設 60s 可調）。
+
+═══ 現況的洞 ═══
+RunOnce 走完通知動作就推進 `last_notified_seq`——**「已通知」被當成「已讀」**。戳失敗不推進（這半邊是對…
+
+建議前往 `tavern` 房回覆（全文 seq=9897）
