@@ -1,0 +1,18 @@
+{
+  "ts": "2026-08-03T01:54:16.466Z",
+  "uuid": "794a66",
+  "type": "debit",
+  "amount": 1,
+  "currency": "tavern_token",
+  "account_id": "Myth",
+  "source_kind": "canvas_pixel",
+  "source_ref": "6210c2:1042,972",
+  "source_description": "canvas pixel @ (1042,972) by calli",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "8276",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_794a66",
+  "signature_mismatch": false
+}

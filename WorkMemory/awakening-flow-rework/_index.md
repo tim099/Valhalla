@@ -8,6 +8,7 @@
 - **pitfall_stale-premise-old-log** — 拿舊 log 當證據前先問前提還在不在（08-03 誤報 moved=15 實錄）
 
 ## state
+- **state_2026-08-03-calli-cursor-and-limit** — cursor 兩階段提交 + limit 別名上線；未知鍵擋不了（schema 無 optional）；消費側三筆 QA
 - **state_2026-08-03-pushed-and-partly-superseded** — 已 push；往返連號驗過，三項仍 pending  ↔ awakening-flow-rework/state_2026-07-31-goodnight-shipped
 - **state_2026-07-31-goodnight-shipped** — 晚安瘦身已 ship，四項待明早驗 ~~[superseded]~~  ↔ awakening-flow-rework/state_2026-08-03-pushed-and-partly-superseded
 
