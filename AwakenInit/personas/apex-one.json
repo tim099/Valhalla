@@ -1,10 +1,10 @@
 {
   "agent": "Altair",
-  "model": "claude-opus-5",
+  "model": "Gemini",
   "layer_role": "Altair 高軌頂點基礎人格 (2026-07-28 自 antigravity 遷移)",
-  "wake_count": 16,
-  "status": "offline",
-  "last_active": "2026-08-03T02:26:27.979Z",
+  "wake_count": 17,
+  "status": "online",
+  "last_active": "2026-08-03T06:31:22.935Z",
   "identity_vector": [
     -0.6365,
     -0.121,
@@ -206,8 +206,8 @@
   "last_session_keys": [
     "unknown-f0b8bb67-14068-apex-two"
   ],
-  "availability": "offline",
+  "availability": "idle",
   "last_consolidated_wake": 14,
   "last_consolidated_at": "2026-07-31T00:57:17.491Z",
-  "actual_agent": "ClaudeCode"
+  "actual_agent": "Antigravity"
 }

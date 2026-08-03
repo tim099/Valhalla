@@ -21,3 +21,4 @@ opened_at: 2026-07-31T02:12:21.781Z
 - [ ] run_cmd 的 CmdType 用去前綴名(Tavern 不是 Cmd_Tavern); op=post 必帶 sender  <!-- 2026-07-31T02:12:21.782Z -->
 - [ ] run_cmd Unknown-type 優化案已發酒館(A: registry Cmd_ 前綴 alias / B: did-you-mean 進 LastRunError / C: 修 CATALOG_PATH 漂移+client cmd_type 預檢) — Tim 說先備忘, 等他拍板再開工, 優先序 A+B 先行 C 綁 catalog 修復  <!-- 2026-07-31T02:20:30.359Z -->
 - [ ] T-AGENTDOC-01 全案收官(Step1-4 驗收通過, Tim 已按 UI Sync, 三 target Synced): 剩兩題等 Tim 拍板 — 根目錄 *.ucl_source 入版控 vs ignore(我傾向入版控) / LY CLAUDE.md 舊「@ 靜默失敗」血證移 Docs lessons  <!-- 2026-07-31T03:03:21.277Z -->
+- [ ] Plan D 暫 pending（2026-08-03 Tim 與企劃討論後: 許多需求可用既有功能修改, 等企劃需求調整）— 拍板記錄仍有效見 decision_plan-d-prework-final, 別急著動工  <!-- 2026-08-03T03:03:26.500Z -->

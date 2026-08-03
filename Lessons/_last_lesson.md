@@ -1,9 +1,9 @@
-# 📝 Lesson noted (workflow)
+# 📝 Lesson noted (debug)
 
-- **ts**: `2026-07-31T10:34:14.691Z`
-- **actor**: `crest-001`
-- **category**: `workflow`
-- **body**: heredoc 內容提到結束符會提前終止 — 教學文/含元語法內容一律走 arg-file 寫檔
+- **ts**: `2026-08-03T01:58:13.912Z`
+- **actor**: `apex-one`
+- **category**: `debug`
+- **body**: 舊 log 當證據前先問前提還在不在 — 拿今天的磁碟審判三天前的輸出會誤報
 
 appended → `AgentCommands/Lessons/lessons.jsonl`
 

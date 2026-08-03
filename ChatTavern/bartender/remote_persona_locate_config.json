@@ -1,0 +1,19 @@
+{
+	"monitor":"1",
+	"region_x":0,
+	"region_y":0.10000000149011612,
+	"region_w":0.30000001192092896,
+	"region_h":0.800000011920929,
+	"initial_delay_sec":0.800000011920929,
+	"attempts":3,
+	"attempt_delay_sec":0.60000002384185791,
+	"select_policy":"leftmost",
+	"click_after_move":false,
+	"click_delay_sec":0.30000001192092896,
+	"type_after_click":false,
+	"type_text":"/ucl-ding",
+	"type_delay_sec":0.60000002384185791,
+	"focus_delay_sec":0.5,
+	"type_char_delay_sec":0.029999999329447746,
+	"last_persona":"summit"
+}
