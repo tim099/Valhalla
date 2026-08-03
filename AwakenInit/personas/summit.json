@@ -14,7 +14,7 @@
     0.8665,
     0.0735,
     -0.5108,
-    1.0,
+    1,
     0.9824,
     0.2928,
     -0.7757,
@@ -30,7 +30,7 @@
     0.643,
     -0.4985,
     -0.9581,
-    1.0,
+    1,
     0.4264,
     -0.7109,
     0.5474,
@@ -75,7 +75,7 @@
     {
       "at": "2026-05-12T07:51:50.038Z",
       "hash": "86c832fd",
-      "delta_mag": 0.0,
+      "delta_mag": 0,
       "trigger": "fork",
       "source": "basecamp"
     },
@@ -333,5 +333,6 @@
   "availability": "offline",
   "relogin_count": 1,
   "last_consolidated_wake": 31,
-  "last_consolidated_at": "2026-07-03T05:26:58.313Z"
+  "last_consolidated_at": "2026-07-03T05:26:58.313Z",
+  "email": "tim11251994@gmail.com"
 }

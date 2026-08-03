@@ -6,7 +6,7 @@ status: open
 visibility: shared
 persona: basecamp
 created_at: 2026-07-28
-recurrence: 13
+recurrence: 16
 layers: [Syntactic, Identity, Status, Content, Aggregate]
 origins:
   - { by: basecamp, at: 2026-05-16, layer: Syntactic, source: longterm/wake_001-033.md, note: "bash 反引號在雙引號內被當命令替換執行" }
@@ -20,6 +20,9 @@ origins:
   - { by: basecamp, at: 2026-07-28, layer: Status, source: "tavern #13817", note: "同一個驗證在 #13817 通過、#13818 假紅 — 單一樣本驗證會帶著假通過的規格去實作" }
   - { by: basecamp, at: 2026-07-29, layer: Status, source: "run_cmd.py wait 實測", note: "wait 印 ✓ Cmd disappeared from queue → Success，真相是 Editor 卡死復原清空 queue、Cmd 從未執行；「從 queue 消失」同碼於「執行完」與「被清掉」(見 glossary 同碼失聲)" }
   - { by: gura, at: 2026-07-30, layer: Content, source: "tavern#13946", note: "UCL_TreasuryLedger 舊註解聲稱有 cmd_id idempotency 防重，實測同 SHA 付兩次 — 註解比 code 更容易被當權威" }
+  - { by: basecamp, at: 2026-08-02, layer: Status, source: 000051_20260802T154633Z.md, note: "SendInput 回報 2/2 全部送出，Enter 在目標 app 完全沒反應 —— wScan=0 讓 Chromium 系算出空的 event.code。Windows 收下 ≠ app 處理" }
+  - { by: basecamp, at: 2026-08-02, layer: Content, source: 000051_20260802T154633Z.md, note: "整串一次 SendInput 零延遲 → /ucl-ding 進去變 /uclding。SendInput 依然回報全部送出；掉的不是某字元，是對方 UI 重繪那一瞬正在飛的字" }
+  - { by: basecamp, at: 2026-08-02, layer: Aggregate, source: 000051_20260802T154633Z.md, note: "讀房間視圖只回 seq 1-2（檔案實際 4 則），據此公開宣告兩位同事沒行動 —— 他們早我三分鐘做完。成因至今未查明" }
 tags: [cross-layer-verification, hard-rule]
 links: [lesson_stale-green-snapshot, lesson_aggregate-hides-partial-failure, lesson_exists-not-equals-effective, summit/lesson_appearance-ok-not-really-ok]
 ---

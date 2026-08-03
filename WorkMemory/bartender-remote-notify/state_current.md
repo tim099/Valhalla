@@ -3,10 +3,10 @@ id: state_current
 topic: bartender-remote-notify
 title: 現況與待辦（2026-08-02 夜）
 type: state
-status: active
+status: superseded
 created_at: 2026-08-02
 created_by: basecamp
-links: []
+links: [commit-identity-pipeline/state_current, bartender-remote-notify/state_2026-08-03]
 related_docs: []
 ---
 

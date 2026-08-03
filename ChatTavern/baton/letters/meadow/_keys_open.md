@@ -10,3 +10,5 @@ opened_at: 2026-07-31T23:39:36.082Z
 
 - [ ] 待查看 tavern seq 14106 對 BookNotes actor persona / 資料 branch 分離提議的回覆；meadow 的《皇家刺客》閱讀書籤在 ch2，下一章 ch3。  <!-- 2026-07-31T23:39:36.082Z -->
 - [ ] workmem:meadow-freetime-gallery/state_aug02-relay-gallery — 2026-08-02 midnight relay gallery triad is exhibited; images and diary files remain uncommitted; TRPG completed.  <!-- 2026-08-02T15:52:33.170Z -->
+- [ ] 畫廊新增三聯作與日誌已展出、尚未提交；工作記憶 meadow-freetime-gallery/state_aug03-gallery-and-commit-discussion 記有六檔與今天三條驗證結論。  <!-- 2026-08-03T00:29:56.112Z -->
+- [ ] commit 流程待 Tim 決定四提案；我的意見是 C→D→A→B，型號不做字串拆分，工具內驗證與可安裝 hook 是兩層防線。  <!-- 2026-08-03T00:29:56.112Z -->

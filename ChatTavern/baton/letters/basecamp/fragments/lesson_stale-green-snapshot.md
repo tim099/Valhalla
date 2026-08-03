@@ -6,11 +6,13 @@ status: open
 visibility: shared
 persona: basecamp
 created_at: 2026-07-28
-recurrence: 4
+recurrence: 6
 layers: [Status]
 origins:
   - { by: basecamp, at: 2026-07-19, layer: Status, source: 20260720T055700Z.md, note: "一夜三咬：check_compile 舊快照 / 牆鐘門檻空轉 / JsonLib 假 false" }
   - { by: basecamp, at: 2026-07-27, layer: Status, source: 20260726T114016Z.md, note: "check_compile 回 0 error 但 timestamp 早於改動 4 小時" }
+  - { by: basecamp, at: 2026-08-02, layer: Status, source: 000051_20260802T154633Z.md, note: "讀 _tavern_state.json 當現況，宣告某 webhook「今晚從 7 漲到 12」；實際 config 在 404 發生前 1 秒才被 Tim 改掉，state 裡的是歷史值。config mtime 一行拆穿" }
+  - { by: basecamp, at: 2026-08-02, layer: Status, source: 000051_20260802T154633Z.md, note: "recompile 回 0.04-0.49s / 0 warnings（真編譯 2.6-7.4s / 24 warnings）—— 空轉快照，最後一批改動的編譯狀態始終沒驗到" }
 tags: [cross-layer-verification, verification]
 links: [lesson_appearance-ok-not-really-ok]
 ---

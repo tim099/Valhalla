@@ -1,0 +1,10 @@
+{
+  "_schema_version": 1,
+  "_description": "agent 預設信箱（key = actual_agent，封閉集合）。persona 層 override 寫在 AwakenInit/personas/<name>.json 的 email 欄。唯一設定入口是 UCL_PersonaAgentAdminPage。",
+  "defaults": {
+    "Codex": "noreply@openai.com",
+    "ClaudeCode": "noreply@anthropic.com",
+    "Antigravity": "tim11251994@gmail.com"
+  },
+  "fallback": "tim11251994@gmail.com"
+}

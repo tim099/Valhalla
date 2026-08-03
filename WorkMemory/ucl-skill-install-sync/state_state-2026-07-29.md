@@ -6,7 +6,7 @@ type: state
 status: active
 created_at: 2026-07-29
 created_by: basecamp
-links: []
+links: [commit-identity-pipeline/decision_identity-and-payout]
 related_docs: []
 ---
 

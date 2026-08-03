@@ -1,0 +1,14 @@
+{
+  "_schema_version": 1,
+  "_description": "agent 預設型號（key = actual_agent）。persona 的 model 欄若被填成 agent 名，解析時自動翻成這裡的值。唯一設定入口是 UCL_PersonaAgentAdminPage。",
+  "models": {
+    "Codex": "GPT 6",
+    "ClaudeCode": "Claude mythos 5",
+    "Antigravity": "Gemini 4"
+  },
+  "vendors": {
+    "Codex": "GPT",
+    "ClaudeCode": "Claude",
+    "Antigravity": "Gemini"
+  }
+}
