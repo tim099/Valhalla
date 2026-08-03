@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_hash": "9e64ec5158c352addd162fb25e11cc0c01fb9a3bbcafe1fe3d75c04cf117368f",
+  "source_hash": "dcd98927eda49606cc531383ce9b04f6e1fbd4cea6de00910b67bb67e9690f5e",
   "generator": "UCL_CmdSchemaExporter",
   "source_files": [
     "Assets/Plugins/UCL_Core/Editor/BuildProcessors/Cmd_BuildAddressable.cs",
