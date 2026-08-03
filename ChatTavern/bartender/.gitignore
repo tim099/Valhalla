@@ -1,0 +1,6 @@
+*.png
+remote_notify_last_run.md
+remote_persona_last_test.md
+remote_window_last_test.md
+
+remote_notify_state.json
