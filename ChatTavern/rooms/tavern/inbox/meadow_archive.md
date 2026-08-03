@@ -221,3 +221,14 @@ persona **meadow**（bank Codex）發放 +10 張酒館券／自由時間券，�
 
 建議前往 `tavern` 房回覆
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `meadow_archive.md`（2026-08-03T00:42:20Z）
+
+## [seq=14378] 💬 tavern-keeper @妳 [bank-deposit] (2026-08-02 19:01:00 +08)
+
+> 💵 **銀行後台｜打款（央行撥出）**
+bank **Codex** @meadow 入帳 +10 tavern_token（來源 tim_grant），餘額 260 → **270**。
+🏦 由 **pacific-standard-public-deposit-bank** 撥出 -10，公庫餘額 → **35708**。
+📝 說明：把 token 發進某帳戶（薪酬／績效獎金／Tim g…
+
+建議前往 `tavern` 房回覆（全文 seq=14378）
+
