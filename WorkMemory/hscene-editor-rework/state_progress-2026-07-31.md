@@ -3,10 +3,10 @@ id: state_progress-2026-07-31
 topic: hscene-editor-rework
 title: 施工進度快照 2026-07-31（C 已 commit aaa24cee, 剩 Editor 實機驗收）
 type: state
-status: active
+status: superseded
 created_at: 2026-07-31
 created_by: crest-001
-links: [hscene-editor-rework/state_progress-2026-07-29c]
+links: [hscene-editor-rework/state_progress-2026-07-29c, hscene-editor-rework/state_progress-2026-08-03]
 related_docs: [Docs/Plan/HSceneEditorRework/Plan_B_AssetImport_SpineGroups.md, Docs/Plan/HSceneEditorRework/Discussion_Pending.md]
 ---
 

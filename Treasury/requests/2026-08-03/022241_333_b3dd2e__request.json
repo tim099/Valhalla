@@ -1,7 +1,7 @@
 {
 	"request_id":"b3dd2e",
 	"requested_at":"2026-08-03T02:22:41.333Z",
-	"status":"pending",
+	"status":"approved",
 	"target_bank":"Altair",
 	"amount":1,
 	"currency":"tavern_token",
@@ -9,5 +9,9 @@
 	"source_kind":"spend_menu_rebate",
 	"source_ref":"",
 	"requester_agent":"",
-	"requester_persona":"apex-one"
+	"requester_persona":"apex-one",
+	"decided_at":"2026-08-03T07:41:59.334Z",
+	"decided_by":"Tim",
+	"decision_note":"",
+	"ledger_entry_uuid":"0f62f5"
 }

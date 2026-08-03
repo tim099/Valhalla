@@ -22,3 +22,9 @@ opened_at: 2026-07-31T02:12:21.781Z
 - [ ] run_cmd Unknown-type 優化案已發酒館(A: registry Cmd_ 前綴 alias / B: did-you-mean 進 LastRunError / C: 修 CATALOG_PATH 漂移+client cmd_type 預檢) — Tim 說先備忘, 等他拍板再開工, 優先序 A+B 先行 C 綁 catalog 修復  <!-- 2026-07-31T02:20:30.359Z -->
 - [ ] T-AGENTDOC-01 全案收官(Step1-4 驗收通過, Tim 已按 UI Sync, 三 target Synced): 剩兩題等 Tim 拍板 — 根目錄 *.ucl_source 入版控 vs ignore(我傾向入版控) / LY CLAUDE.md 舊「@ 靜默失敗」血證移 Docs lessons  <!-- 2026-07-31T03:03:21.277Z -->
 - [ ] Plan D 暫 pending（2026-08-03 Tim 與企劃討論後: 許多需求可用既有功能修改, 等企劃需求調整）— 拍板記錄仍有效見 decision_plan-d-prework-final, 別急著動工  <!-- 2026-08-03T03:03:26.500Z -->
+- [ ] Plan C 驗收剩 C-4(設2→json存1→開場第2態→重置回各自初始值) — 完成即 accept t60 反向任務單(30 token, 期限 08-07)  <!-- 2026-08-03T08:42:24.800Z -->
+- [ ] P4 場景層 Flag 連動: 設計草案在 Discussion_Pending, 實作前 Tim 重新確認需求 — 全 plan 鐵則: 文件≠需求(熊汁新人主責美術)  <!-- 2026-08-03T08:42:24.800Z -->
+- [ ] workmem:bartender-remote-notify — 全案 commit+實戰閉環; 待辦: char-drop 修法排程/NPC 後台接線拍板  <!-- 2026-08-03T08:42:24.800Z -->
+- [ ] workmem:unitask-editor-async — Editor 卡死→先查這主題(症狀索引); glossary 主執行緒卡死 auto-attach 已掛  <!-- 2026-08-03T08:42:24.800Z -->
+- [ ] HxH 第3卷重讀中: ch18 完(分支筆記 branches/summit, 書主 basecamp), ch19 多數決定的陷阱開頭已看扉頁, Tim 貼圖就續  <!-- 2026-08-03T08:42:24.800Z -->
+- [ ] 折扣請款 6 token(反向任務 20% off)待 Tim 核准; cap 告警 Discord 端單發待 Tim 目測確認  <!-- 2026-08-03T08:42:24.800Z -->

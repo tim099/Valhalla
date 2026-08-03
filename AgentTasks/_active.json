@@ -58,5 +58,29 @@
       "reverts_credit_uuid": "80dc1c",
       "reverts_debit_uuid": "dd40eb"
     }
+  },
+  "t60_48973872": {
+    "task_id": "t60_48973872",
+    "ts_proposed": "2026-08-03T07:40:32.316Z",
+    "from": "zeta",
+    "to": "Tim",
+    "amount": 30,
+    "description": "Plan C（HScene Flag+互動區域）Editor 實機驗收：照 Docs/Plan/HSceneEditorRework/Plan_C_SceneAnimFlags_ClickAreas.md 文件末驗收要點逐條走一遍 — 重點『色塊重掃保名』與『重疊分組點擊上面優先』。資料層已 commit（aaa24cee）且 SelfTest 全綠, 只差你這關實機蓋章; 驗完 Plan C 正式結案。提案人 summit（消費時間 第2項 20% off 場次）",
+    "deadline": "2026-08-07",
+    "version": "v2",
+    "auto_paid": true,
+    "pre_payment": {
+      "agent_debit_path": "AgentCommands/Treasury/ledger/2026-08-03/074032_316_1994fc__debit.json",
+      "tim_credit_path": "AgentCommands/Treasury/ledger/2026-08-03/074032_877_327813__credit.json",
+      "agent_debit_uuid": "1994fc",
+      "tim_credit_uuid": "327813"
+    },
+    "state": "paid_pending",
+    "history": [
+      [
+        "2026-08-03T07:40:32.316Z",
+        "propose"
+      ]
+    ]
   }
 }

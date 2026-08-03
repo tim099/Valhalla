@@ -1,0 +1,18 @@
+{
+  "ts": "2026-08-03T07:40:32.877Z",
+  "uuid": "327813",
+  "type": "credit",
+  "amount": 30,
+  "currency": "tavern_token",
+  "account_id": "Tim",
+  "source_kind": "agent_proposal_payment",
+  "source_ref": "t60_48973872",
+  "source_description": "Auto pre-pay from zeta (v2 propose): Plan C（HScene Flag+互動區域）Editor 實機驗收：照 Docs/Plan/HSceneEditorRework/Plan_C_SceneA",
+  "balance_before": 341,
+  "balance_after": 371,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "38472",
+  "sig_env_marker": "manual_filesystem_write_agent_task",
+  "sig_cmd_id": "agent_task_t60_48973872",
+  "signature_mismatch": false
+}
