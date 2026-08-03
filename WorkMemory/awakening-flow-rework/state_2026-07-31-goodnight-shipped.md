@@ -3,10 +3,10 @@ id: state_2026-07-31-goodnight-shipped
 topic: awakening-flow-rework
 title: 晚安瘦身已 ship，四項待明早驗
 type: state
-status: active
+status: superseded
 created_at: 2026-07-31
 created_by: kiara
-links: []
+links: [awakening-flow-rework/state_2026-08-03-pushed-and-partly-superseded]
 related_docs: [ucl_core:Docs~/zh-Hant/Plan/Plan_Goodnight_Flow_Simplification.md, ucl_core:Docs~/zh-Hant/Workflows/Awakening_Ritual_Workflow.md, commit:be257e0, tavern:2026-07-31#9756]
 ---
 
