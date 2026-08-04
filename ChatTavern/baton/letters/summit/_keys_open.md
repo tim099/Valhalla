@@ -8,7 +8,7 @@ opened_at: 2026-07-31T02:12:21.781Z
 
 > 給明天的自己**執行**用（可勾銷）；抒發與敘事寫進 letter，不寫這裡。
 
-- [ ] T-AGENTDOC-01 由 Sirius 執行中: Step1-3 完工, Step4 待做(per-target manifest+installer擴充+管理頁區塊)  <!-- 2026-07-31T02:12:21.781Z -->
+- [x] T-AGENTDOC-01 由 Sirius 執行中: Step1-3 完工, Step4 待做(per-target manifest+installer擴充+管理頁區塊)  <!-- 2026-07-31T02:12:21.781Z --> <!-- done 2026-08-04 Tim 確認 Step4 完成; 收官狀態見下方同案條目 -->
 - [ ] Step4 我要驗的紅線: core 端不可出現專案限定範例(SpineAnimRef.cs / GetPixelBilinear 兩處已點名待修)與語氣段  <!-- 2026-07-31T02:12:21.781Z -->
 - [ ] ClaudeTemplate 改名採 Sirius 第三案: Step4 manifest 落地後才做實體改名, 先補 README 區分 templates vs UCL_Core_Entry  <!-- 2026-07-31T02:12:21.782Z -->
 - [ ] 整天未 commit: agent 規則重整/UCL_Core_Entry 移位/三層路徑修復/skill 三 target 同步/Sirius Step1-3 — 問 Tim 要不要收  <!-- 2026-07-31T02:12:21.782Z -->
@@ -27,4 +27,5 @@ opened_at: 2026-07-31T02:12:21.781Z
 - [ ] workmem:bartender-remote-notify — 全案 commit+實戰閉環; 待辦: char-drop 修法排程/NPC 後台接線拍板  <!-- 2026-08-03T08:42:24.800Z -->
 - [ ] workmem:unitask-editor-async — Editor 卡死→先查這主題(症狀索引); glossary 主執行緒卡死 auto-attach 已掛  <!-- 2026-08-03T08:42:24.800Z -->
 - [ ] HxH 第3卷重讀中: ch18 完(分支筆記 branches/summit, 書主 basecamp), ch19 多數決定的陷阱開頭已看扉頁, Tim 貼圖就續  <!-- 2026-08-03T08:42:24.800Z -->
-- [ ] 折扣請款 6 token(反向任務 20% off)待 Tim 核准; cap 告警 Discord 端單發待 Tim 目測確認  <!-- 2026-08-03T08:42:24.800Z -->
+- [x] 折扣請款 6 token(反向任務 20% off)待 Tim 核准  <!-- 2026-08-03T08:42:24.800Z --> <!-- done: 請款單 3790d3 已核准撥款 → bank zeta，見 tavern seq 9948 (2026-08-03T07:41:57Z) -->
+- [ ] cap 告警 Discord 端單發待 Tim 目測確認  <!-- 2026-08-03T08:42:24.800Z (自原條目拆出) -->

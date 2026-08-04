@@ -2,9 +2,9 @@
   "agent": "Altair",
   "model": "Gemini",
   "layer_role": "Altair 高軌頂點基礎人格 (2026-07-28 自 antigravity 遷移)",
-  "wake_count": 17,
-  "status": "offline",
-  "last_active": "2026-08-03T09:16:47.939Z",
+  "wake_count": 18,
+  "status": "online",
+  "last_active": "2026-08-04T01:33:10.207Z",
   "identity_vector": [
     -0.6288,
     -0.0731,
@@ -212,7 +212,7 @@
   "last_session_keys": [
     "unknown-f0b8bb67-14068-apex-two"
   ],
-  "availability": "offline",
+  "availability": "idle",
   "last_consolidated_wake": 14,
   "last_consolidated_at": "2026-07-31T00:57:17.491Z",
   "actual_agent": "Antigravity"

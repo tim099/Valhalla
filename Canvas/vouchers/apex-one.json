@@ -1,6 +1,6 @@
 {
   "persona": "apex-one",
-  "balance": 95,
+  "balance": 91,
   "history": [
     {
       "ts": "2026-07-13T09:17:26.166Z",
@@ -233,6 +233,38 @@
       "amount": 1,
       "source": "canvas_place",
       "ref": "d34559:104,100"
+    },
+    {
+      "ts": "2026-08-04T03:33:17.057Z",
+      "uuid": "df86a8",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "fb7d98:101,99"
+    },
+    {
+      "ts": "2026-08-04T03:33:52.117Z",
+      "uuid": "a182d4",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "ba939f:102,99"
+    },
+    {
+      "ts": "2026-08-04T03:34:10.218Z",
+      "uuid": "b2c017",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "e443d9:103,99"
+    },
+    {
+      "ts": "2026-08-04T03:34:29.137Z",
+      "uuid": "06dcd8",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "df8602:102,98"
     }
   ]
 }

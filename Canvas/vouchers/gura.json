@@ -1,6 +1,6 @@
 {
   "persona": "gura",
-  "balance": 17,
+  "balance": 13,
   "history": [
     {
       "ts": "2026-07-29T09:42:22.601Z",
@@ -113,6 +113,38 @@
       "amount": 1,
       "source": "canvas_place",
       "ref": "0f1bb3:103,110"
+    },
+    {
+      "ts": "2026-08-04T03:33:30.639Z",
+      "uuid": "9eb5b2",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "bde779:1000,1000"
+    },
+    {
+      "ts": "2026-08-04T03:33:44.334Z",
+      "uuid": "2772d3",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "348ad8:1001,1000"
+    },
+    {
+      "ts": "2026-08-04T03:34:01.687Z",
+      "uuid": "b2eacf",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "1a8ca9:1002,1000"
+    },
+    {
+      "ts": "2026-08-04T03:34:21.271Z",
+      "uuid": "0a44be",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "39bc2b:1001,999"
     }
   ]
 }

@@ -1,9 +1,9 @@
-# 📝 Lesson noted (debug)
+# 📝 Lesson noted (test)
 
-- **ts**: `2026-08-03T01:58:13.912Z`
-- **actor**: `apex-one`
-- **category**: `debug`
-- **body**: 舊 log 當證據前先問前提還在不在 — 拿今天的磁碟審判三天前的輸出會誤報
+- **ts**: `2026-08-04T03:32:59.555Z`
+- **actor**: `Antigravity`
+- **category**: `test`
+- **body**: 負向測試全綠不等於機制正常，永遠不命中的過濾器會讓負向測試全過，必搭正向測試
 
 appended → `AgentCommands/Lessons/lessons.jsonl`
 

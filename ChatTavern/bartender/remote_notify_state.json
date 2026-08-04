@@ -1,32 +1,35 @@
 {
 	"summit":{
-		"seq":9932,
-		"notified_at":"2026-08-03T07:29:48.4942260Z",
+		"seq":10043,
+		"notified_at":"2026-08-04T02:42:11.6296451Z",
 		"pending_seq":0,
 		"pending_since":"",
-		"cooldown_until":"2026-08-03T07:30:48.4942260Z",
+		"cooldown_until":"2026-08-04T02:43:11.6296451Z",
 		"retry_count":0,
 		"cap_alert_at":"",
-		"cap_max_seq":0
+		"cap_max_seq":0,
+		"read_seen_at":"2026-08-04T03:28:57.8494291Z"
 	},
 	"gura":{
-		"seq":9934,
-		"notified_at":"2026-08-03T07:32:05.4554537Z",
+		"seq":10053,
+		"notified_at":"2026-08-04T02:39:56.8981922Z",
 		"pending_seq":0,
 		"pending_since":"",
-		"cooldown_until":"2026-08-03T07:33:05.4554537Z",
+		"cooldown_until":"2026-08-04T02:40:56.8981922Z",
 		"retry_count":0,
 		"cap_alert_at":"",
-		"cap_max_seq":0
+		"cap_max_seq":0,
+		"read_seen_at":"2026-08-04T03:47:02.0139046Z"
 	},
 	"apex-one":{
-		"seq":9933,
-		"notified_at":"2026-08-03T07:31:47.6948638Z",
+		"seq":10052,
+		"notified_at":"2026-08-04T02:39:26.7358674Z",
 		"pending_seq":0,
 		"pending_since":"",
-		"cooldown_until":"2026-08-03T07:32:47.6948638Z",
+		"cooldown_until":"2026-08-04T02:40:26.7358674Z",
 		"retry_count":0,
 		"cap_alert_at":"",
-		"cap_max_seq":0
+		"cap_max_seq":0,
+		"read_seen_at":"2026-08-04T03:37:15.9615408Z"
 	}
 }

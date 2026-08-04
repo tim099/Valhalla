@@ -1,0 +1,23 @@
+{
+  "ts": "2026-08-04T03:33:44.334Z",
+  "uuid": "348ad8",
+  "persona": "gura",
+  "agent": "claude-code",
+  "account_id": "cc",
+  "pixels": [
+    {
+      "x": 1001,
+      "y": 1000,
+      "color": 14
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 0,
+    "voucher": 1,
+    "token": 0
+  },
+  "ledger_refs": [
+    "b4d32d"
+  ]
+}
