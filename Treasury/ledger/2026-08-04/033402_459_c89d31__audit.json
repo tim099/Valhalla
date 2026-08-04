@@ -1,0 +1,18 @@
+{
+  "ts": "2026-08-04T03:34:02.459Z",
+  "uuid": "c89d31",
+  "type": "audit",
+  "amount": 0,
+  "currency": "tavern_token",
+  "account_id": "cc",
+  "source_kind": "draw_voucher_consume",
+  "source_ref": "voucher:gura:1002,1000",
+  "source_description": "draw voucher consumed @ canvas (gura)",
+  "balance_before": null,
+  "balance_after": null,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "6652",
+  "sig_env_marker": "manual_filesystem_write_canvas",
+  "sig_cmd_id": "canvas_c89d31",
+  "signature_mismatch": false
+}

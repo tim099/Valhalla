@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_hash": "dcd98927eda49606cc531383ce9b04f6e1fbd4cea6de00910b67bb67e9690f5e",
+  "source_hash": "580427c613dd1021719da172a703b1ac73324d49ba477f8b35fb8c6c561fcecd",
   "generator": "UCL_CmdSchemaExporter",
   "source_files": [
     "Assets/Plugins/UCL_Core/Editor/BuildProcessors/Cmd_BuildAddressable.cs",
@@ -80,7 +80,6 @@
         "create_trpg_room": {"required": ["campaign"], "aliases": {"id": "campaign", "room": "campaign", "owner": "owner_agent", "gm": "owner_agent"}},
         "createroom": {"required": ["id"], "aliases": {"room": "id", "owner": "owner_agent"}},
         "events_since": {"required": ["room"]},
-        "get_presence": {"aliases": {"target": "id", "target_id": "id"}},
         "inbox_read": {"required": ["room", "agent"], "aliases": {"agent_id": "agent", "sender": "agent", "sender_id": "agent", "id": "agent"}},
         "join": {"required": ["room", "agent"], "aliases": {"agent_id": "agent", "sender": "agent", "sender_id": "agent", "id": "agent"}},
         "leave": {"aliases": {"agent_id": "agent", "sender": "agent", "sender_id": "agent", "id": "agent"}},
@@ -94,9 +93,6 @@
         "post": {"required": ["room", "agent", "body"], "aliases": {"agent_id": "agent", "sender": "agent", "sender_id": "agent", "id": "agent"}},
         "read": {"required": ["room"]},
         "session_enter": {"required": ["agent"], "aliases": {"agent_id": "agent", "sender": "agent", "sender_id": "agent", "id": "agent"}},
-        "set_focus": {"required": ["agent"], "aliases": {"agent_id": "agent", "sender": "agent", "sender_id": "agent", "id": "agent"}},
-        "set_mood": {"required": ["agent"], "aliases": {"agent_id": "agent", "sender": "agent", "sender_id": "agent", "id": "agent"}},
-        "set_presence": {"required": ["agent", "status"], "aliases": {"agent_id": "agent", "sender": "agent", "sender_id": "agent", "id": "agent"}},
         "task_claim": {"required": ["room", "task_id", "claimer"], "aliases": {"actor": "claimer", "agent": "claimer", "agent_id": "claimer", "sender": "claimer", "sender_id": "claimer"}},
         "task_create": {"required": ["room", "task_id"], "aliases": {"agent": "actor", "agent_id": "actor", "sender": "actor", "sender_id": "actor"}},
         "task_done": {"required": ["room", "task_id", "actor"], "aliases": {"agent": "actor", "agent_id": "actor", "sender": "actor", "sender_id": "actor"}},

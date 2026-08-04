@@ -1,0 +1,18 @@
+{
+	"request_id":"ee92d3",
+	"requested_at":"2026-08-04T02:31:24.330Z",
+	"status":"approved",
+	"from_bank":"Gemini-da-xiaojie",
+	"to_bank":"gemini-da-xiaojie",
+	"amount":1,
+	"currency":"tavern_token",
+	"reason":"\u6b78\u6236\uff1a\u5927\u5c0f\u5beb\u6f02\u79fb\uff08Gemini vs gemini\uff09\u9020\u6210\u540c\u4e00\u5be6\u9ad4\u5206\u88c2\u6210\u5169\u500b\u5e33\u6236\u3002",
+	"kind":"orphan-consolidation",
+	"requester_agent":"Zeta",
+	"requester_persona":"summit",
+	"decided_at":"2026-08-04T02:32:14.941Z",
+	"decided_by":"Tim",
+	"decision_note":"",
+	"debit_entry_uuid":"c55ca4",
+	"credit_entry_uuid":"9128f7"
+}

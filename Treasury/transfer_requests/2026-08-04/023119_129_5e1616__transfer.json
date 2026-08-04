@@ -1,0 +1,18 @@
+{
+	"request_id":"5e1616",
+	"requested_at":"2026-08-04T02:31:19.129Z",
+	"status":"approved",
+	"from_bank":"Zeta",
+	"to_bank":"zeta",
+	"amount":5,
+	"currency":"tavern_token",
+	"reason":"\u6b78\u6236\uff1a\u5927\u5c0f\u5beb\u6f02\u79fb\u3002agent_banks \u5167 Zeta\u2192zeta\uff0c\u5e33\u6236\u61c9\u70ba zeta\uff1b`Zeta` \u9019\u500b account_id \u662f\u88ab\u7576\u6210 bank \u540d\u8aa4\u7528\u800c\u751f\u3002",
+	"kind":"orphan-consolidation",
+	"requester_agent":"Zeta",
+	"requester_persona":"summit",
+	"decided_at":"2026-08-04T02:32:30.919Z",
+	"decided_by":"Tim",
+	"decision_note":"",
+	"debit_entry_uuid":"dcd1cd",
+	"credit_entry_uuid":"03d8db"
+}

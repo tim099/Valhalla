@@ -1,0 +1,18 @@
+{
+	"request_id":"843496",
+	"requested_at":"2026-08-04T02:31:22.243Z",
+	"status":"approved",
+	"from_bank":"antigravity-da-xiaojie-da-xiaojie",
+	"to_bank":"antigravity-da-xiaojie",
+	"amount":8,
+	"currency":"tavern_token",
+	"reason":"\u6b78\u6236\uff1a\u547d\u540d\u6163\u4f8b {agent}-da-xiaojie \u88ab\u5957\u7528\u5169\u6b21\uff08agent \u6b04\u5df2\u542b -da-xiaojie \u53c8\u518d\u52a0\u4e00\u6b21\uff09\u9020\u6210\u7684\u91cd\u8907\u5f8c\u7db4\u5e7d\u9748\u5e33\u6236\u3002",
+	"kind":"orphan-consolidation",
+	"requester_agent":"Zeta",
+	"requester_persona":"summit",
+	"decided_at":"2026-08-04T02:32:20.189Z",
+	"decided_by":"Tim",
+	"decision_note":"",
+	"debit_entry_uuid":"a6e007",
+	"credit_entry_uuid":"fcbcf6"
+}

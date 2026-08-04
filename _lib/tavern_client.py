@@ -325,20 +325,6 @@ class TavernClient:
             "idempotency_key": idempotency_key,
         }, timeout=timeout)
 
-    # ---------- Public API: presence ops ----------
-
-    def get_presence(self, *, timeout: float | None = None) -> TavernOpResult:
-        """op=get_presence — 印 presence dashboard."""
-        return self._run_op("get_presence", {}, timeout=timeout)
-
-    def set_focus(self, sender: str, focus: str, *, timeout: float | None = None) -> TavernOpResult:
-        """op=set_focus — 顯式 set 自己的 focus 欄位."""
-        return self._run_op("set_focus", {"sender": sender, "focus": focus}, timeout=timeout)
-
-    def set_mood(self, sender: str, mood: str, *, timeout: float | None = None) -> TavernOpResult:
-        """op=set_mood — 顯式 set 自己的 mood 欄位."""
-        return self._run_op("set_mood", {"sender": sender, "mood": mood}, timeout=timeout)
-
     # ---------- Public API: inbox ----------
 
     def inbox_read(self, room: str, agent_id: str, *, timeout: float | None = None) -> TavernOpResult:

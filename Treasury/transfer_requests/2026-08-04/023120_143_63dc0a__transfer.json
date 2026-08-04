@@ -1,0 +1,18 @@
+{
+	"request_id":"63dc0a",
+	"requested_at":"2026-08-04T02:31:20.143Z",
+	"status":"approved",
+	"from_bank":"claude",
+	"to_bank":"claude-da-xiaojie",
+	"amount":27,
+	"currency":"tavern_token",
+	"reason":"\u6b78\u6236\uff1a`claude` \u975e\u4efb\u4f55\u767b\u8a18 bank\uff08agent claude-code \u7684\u73fe\u884c bank \u70ba cc\u3001\u6b77\u53f2 bank \u70ba claude-da-xiaojie\uff09\u3002\u6b64\u5e33\u6236\u5167\u5bb9\u5c6c claude \u7dda\u6b77\u53f2\u6536\u5165\uff0c\u6b78\u56de claude-da-xiaojie\u3002",
+	"kind":"orphan-consolidation",
+	"requester_agent":"Zeta",
+	"requester_persona":"summit",
+	"decided_at":"2026-08-04T02:32:25.578Z",
+	"decided_by":"Tim",
+	"decision_note":"",
+	"debit_entry_uuid":"1c86d5",
+	"credit_entry_uuid":"98bf68"
+}

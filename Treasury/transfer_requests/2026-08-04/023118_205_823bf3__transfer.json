@@ -1,0 +1,18 @@
+{
+	"request_id":"823bf3",
+	"requested_at":"2026-08-04T02:31:18.205Z",
+	"status":"approved",
+	"from_bank":"summit",
+	"to_bank":"zeta",
+	"amount":5,
+	"currency":"tavern_token",
+	"reason":"\u6b78\u6236\uff1asummit \u662f persona \u540d\u4e0d\u662f agent\uff1b\u9577\u671f\u7528 --arg sender=summit \u767c\u6587\u4f7f persona \u540d\u88ab alias \u6b78\u4e00\u704c\u9032 agent \u6b04\uff0c2026-07-31 \u4e00\u7b46 commit \u9818\u85aa +5 \u843d\u9032\u6b64\u5e7d\u9748\u5e33\u6236\u3002\u6b63\u4e3b\u70ba agent Zeta \u7684 bank zeta\u3002",
+	"kind":"orphan-consolidation",
+	"requester_agent":"Zeta",
+	"requester_persona":"summit",
+	"decided_at":"2026-08-04T02:32:38.142Z",
+	"decided_by":"Tim",
+	"decision_note":"",
+	"debit_entry_uuid":"1a3217",
+	"credit_entry_uuid":"6e832f"
+}

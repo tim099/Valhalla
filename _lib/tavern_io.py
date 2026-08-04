@@ -175,24 +175,6 @@ def read_identities() -> dict[str, dict]:
         return {}
 
 
-def read_presence() -> list[dict]:
-    """讀 chat_tavern/presence.json；回 list of presence records；失敗回 []."""
-    p = _tp.PRESENCE_PATH
-    if not p.is_file():
-        return []
-    try:
-        data = json.loads(p.read_text(encoding="utf-8"))
-        if isinstance(data, dict):
-            return data.get("presences", []) or []
-        return []
-    except Exception:
-        return []
-
-
-# ---------------------------------------------------------------------------
-# Per-room metadata + inbox
-# ---------------------------------------------------------------------------
-
 def read_room_meta(room_id: str) -> dict:
     """讀 rooms/<room>/meta.json；找不到 / 解析失敗回 {}.
 
