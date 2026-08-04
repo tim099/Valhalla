@@ -13,4 +13,4 @@
 - **state_2026-07-31-goodnight-shipped** — 晚安瘦身已 ship，四項待明早驗 ~~[superseded]~~  ↔ awakening-flow-rework/state_2026-08-03-pushed-and-partly-superseded
 
 ## pointer
-- **pointer_where-things-are** — 規則 / 設計 / code / skill 各在哪
+- **pointer_where-things-are** — 規則 / 設計 / code / skill 各在哪  ↔ persona-identity-layers/decision_identity-layer-table

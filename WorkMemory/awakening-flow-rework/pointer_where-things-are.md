@@ -6,7 +6,7 @@ type: pointer
 status: active
 created_at: 2026-07-31
 created_by: kiara
-links: []
+links: [persona-identity-layers/decision_identity-layer-table]
 related_docs: []
 ---
 
