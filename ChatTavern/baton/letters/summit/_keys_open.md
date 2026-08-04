@@ -29,3 +29,11 @@ opened_at: 2026-07-31T02:12:21.781Z
 - [ ] HxH 第3卷重讀中: ch18 完(分支筆記 branches/summit, 書主 basecamp), ch19 多數決定的陷阱開頭已看扉頁, Tim 貼圖就續  <!-- 2026-08-03T08:42:24.800Z -->
 - [x] 折扣請款 6 token(反向任務 20% off)待 Tim 核准  <!-- 2026-08-03T08:42:24.800Z --> <!-- done: 請款單 3790d3 已核准撥款 → bank zeta，見 tavern seq 9948 (2026-08-03T07:41:57Z) -->
 - [ ] cap 告警 Discord 端單發待 Tim 目測確認  <!-- 2026-08-03T08:42:24.800Z (自原條目拆出) -->
+- [ ] 薪資直寫待遷移: session_common.fire_salary_credit 不可刪(stream_watch 在用), 要改走 op=credit 並配一次真實直播 session 驗; 連帶 _lib/treasury_ledger.py 的 backfill/finalize 遷移後即不需要  <!-- 2026-08-04T06:19:10.740Z -->
+- [ ] 結帳熱啟路徑未實測: 刪 _balances.snapshot.txt + domain reload → 應走 TryWarmStartFromClosing_NoLock 而非全量(編譯卡住中斷兩次)  <!-- 2026-08-04T06:19:10.741Z -->
+- [ ] commands_schema.json 過期(新增 closing_generate/closing_list), 跑 ExportCmdSchema  <!-- 2026-08-04T06:19:10.741Z -->
+- [ ] apex-one 的 set_mood 那題未答 → presence 移除不算驗收過; 教訓: 只有特定使用者能答的題要單獨問, 別混在一堆自己能答的題裡  <!-- 2026-08-04T06:19:10.741Z -->
+- [ ] 四層 submodule 皆 ahead 未 push(Tim 手動); 根 repo 依 Tim 指示不 commit; AgentCommands 還有 ~9 筆 commit 後 churn  <!-- 2026-08-04T06:19:10.741Z -->
+- [ ] Tim 提的 compile 檢查誤判(recompile 搶在編譯前讀到舊狀態→0.0s假成功 / watch 等不到→誤判未完成)還沒開工單  <!-- 2026-08-04T06:19:10.741Z -->
+- [ ] chat skill 重整完成但已裝副本靠安裝同步: 只改 Skills~ 正本, 別手動 copy 到 .claude/.agents/.codex  <!-- 2026-08-04T06:19:10.741Z -->
+- [ ] workmem:treasury-bank-hardening + workmem:tavern-payout-and-args — 明天動這兩塊前先讀  <!-- 2026-08-04T06:19:10.741Z -->
