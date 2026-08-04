@@ -64,11 +64,7 @@
       "_test_scene_note": "scene name 命中 → 觸發 QA 模式；可加多個 (e.g. RCG_EditUI / RCG_TestBattle)",
       "skip_battle_action_fee": true,
       "_skip_fee_note": "scene 是 test 時 Cmd_BattleAction 不扣 caller 1-2 token (battle_action_fee)",
-      "qa_reward_to_tim": 1,
-      "qa_reward_to_caller": 1,
-      "_reward_pair_note": "每次 BattleAction 在 QA 模式下成功觸發 → Tim +1 (qa_observation) + caller +1 (qa_execution)。雙 reward 因為 QA 是雙人活動 (caller 動，Tim 觀察 bug)",
-      "qa_reward_failed_action": false,
-      "_reward_failed_note": "fail-safe rejected action 不獎 reward (避免亂試 spam)；只成功的操作才 reward"
+      "_removed_reward_note": "雙 reward（qa_reward_to_tim / qa_reward_to_caller，各 +1）已於 2026-08-04 移除。QA 模式現在只保留『免收操作費』這一項優惠，不再發獎金。⚠ 觸發端 Cmd_BattleAction 在 CardGame 專案，不在本 repo —— 若該專案有自己的 rules.json 副本，需同步移除。"
     },
 
     "summary_max_turning_points": 5,
@@ -245,41 +241,7 @@
       "_t55_pair": "income_sources.bartender_post_revenue",
       "cost": 1
     },
-    "qa_bug_confirmed": {
-      "label": "T68 — Tim QA 工作確認 bug 獎勵 (Tim 08:34 拍板)",
-      "_note": "Tim 找到 + 確認 bug → claude 拍板是否真 bug → mint reward token (system 出，gift pattern 不從 agent 帳戶扣)",
-      "_design": "勞動所得；agent 自由意志決定 (是否真 bug vs feature request / spec 誤解)",
-      "_severity_tiers": {
-        "trivial": 1,
-        "normal": 3,
-        "critical": 5,
-        "catastrophic": 10
-      },
-      "_severity_examples": {
-        "trivial": "typo / cosmetic / minor display issue / 內部 path bug",
-        "normal": "functional issue / UX bug / ledger 錯漏 / broadcast 失敗 / 1 天範圍影響",
-        "critical": "data loss / security / crash / 跨 session 影響 / 多 agent 牽連",
-        "catastrophic": "major economic state corruption / repo-wide breakage / wallet drain"
-      },
-      "_design_doc": "skill: qa-bug-reward",
-      "auto_grant": false,
-      "default_amount": null
-    },
-    "qa_observation": {
-      "label": "T66 — QA 模式 Tim 觀察 bug 獎勵 (per battle action 觸發 +1 token)",
-      "_note": "scene name 命中 test_scene_names 時 fire；對應 spending_uses 走 closed economy mint (因 QA 是 system 鼓勵不是 Tim 自費)",
-      "_t66_pair": "income_sources.qa_execution",
-      "_design_doc": "rules.json battle_log_broadcast_policy.qa_mode + docs/Plan/Plan_T63_Battle_Intervention_v2.md",
-      "auto_grant": true,
-      "default_amount": 1
-    },
-    "qa_execution": {
-      "label": "T66 — QA 模式 caller 執行 battle action 獎勵 (+1 token per success)",
-      "_note": "跟 qa_observation 同時 fire；雙 +1 因 QA 是雙人活動",
-      "_t66_pair": "income_sources.qa_observation",
-      "auto_grant": true,
-      "default_amount": 1
-    },
+    "_removed_qa_rewards_note": "T66 qa_observation / qa_execution 與 T68 qa_bug_confirmed 三項 QA 獎金已於 2026-08-04 移除（Tim 決定）。對應 skill qa-bug-reward 與 qa_bug_reward.py 亦已移除。歷史 ledger entry 保留不動（已關帳期間的權威記錄）—— 所以舊帳仍會出現這三個 kind，那是歷史不是現行來源。",
     "battle_action_fee": {
       "label": "T63 — Agent 戰鬥介入操作費 (Tim 07:33 拍板，覆蓋 T62 T45 backlog 決定)",
       "_note": "Agent 在戰鬥中執行 PlayCard / 選 target 等操作 cmd 收費；fail-safe：操作違法 (手牌不存在 / 目標非法 / 目標不存在) → 不扣 Token；成功才 charge",

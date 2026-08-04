@@ -11,5 +11,5 @@
 - **pitfall_schema-staleness** — schema 過期→預檢降級→缺參數繞整圈（已修+驗收）
 
 ## state
+- **state_20260804_wait** — 2026-08-04：wait 固化到 C# + 身分改以 persona 為主體（已 commit 841ab0c / dc05835）
 - **state_state-20260731** — 2026-07-31 收工狀態
-
