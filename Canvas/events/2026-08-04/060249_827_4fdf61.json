@@ -1,0 +1,33 @@
+{
+  "ts": "2026-08-04T06:02:49.827Z",
+  "uuid": "4fdf61",
+  "persona": "summit",
+  "agent": "Zeta",
+  "account_id": "zeta",
+  "pixels": [
+    {
+      "x": 1040,
+      "y": 1030,
+      "color": 224
+    },
+    {
+      "x": 1041,
+      "y": 1030,
+      "color": 224
+    },
+    {
+      "x": 1042,
+      "y": 1030,
+      "color": 224
+    }
+  ],
+  "cost": 3,
+  "pay_breakdown": {
+    "freetime": 0,
+    "voucher": 0,
+    "token": 3
+  },
+  "ledger_refs": [
+    "treasury:4fdf61"
+  ]
+}

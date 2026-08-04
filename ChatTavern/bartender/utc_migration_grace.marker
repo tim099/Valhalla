@@ -1,0 +1,5 @@
+UTC 遷移 grace 已執行
+at_utc=2026-08-04T05:29:15Z
+prev_state_date=2026-08-04
+new_state_date=2026-08-04
+本次刻意不收保管費 —— 避免 local→UTC 換算期間重複扣款。

@@ -1,6 +1,6 @@
 {
 	"persona":"summit",
-	"balance":478,
+	"balance":472,
 	"history":
 	[
 		{
@@ -1194,6 +1194,22 @@
 			"amount":10,
 			"source":"admin_grant",
 			"ref":"UCL_BankAdminPage\u512a\u5316\u734e\u91d1"
+		},
+		{
+			"ts":"2026-08-04T06:03:07.860Z",
+			"uuid":"47a9cb",
+			"type":"consume",
+			"amount":4,
+			"source":"canvas_place",
+			"ref":"ad3965"
+		},
+		{
+			"ts":"2026-08-04T06:03:44.850Z",
+			"uuid":"4145c7",
+			"type":"consume",
+			"amount":2,
+			"source":"canvas_place",
+			"ref":"344639"
 		}
 	]
 }

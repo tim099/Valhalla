@@ -1,0 +1,34 @@
+{
+	"date":"2026-05-11",
+	"generated_at":"2026-08-04T05:31:17.056Z",
+	"balances":{
+		"Tim":{
+			"tavern_token":84
+		},
+		"Zeta":{
+			"tavern_token":1
+		},
+		"antigravity-da-xiaojie":{
+			"tavern_token":97
+		},
+		"antigravity-reserve":{
+			"tavern_token":1
+		},
+		"claude-da-xiaojie":{
+			"tavern_token":381
+		},
+		"gemini-da-xiaojie":{
+			"tavern_token":1
+		},
+		"tavern-keeper":{
+			"tavern_token":0
+		}
+	},
+	"audit":{
+		"cumulative_entry_count":484,
+		"last_entry_rel":"/2026-05-11/060238_083_a90c98__credit.json",
+		"gross_credit":640,
+		"gross_debit":75,
+		"_note":"\u7a3d\u6838\u7528\uff0c\u4e0d\u53c3\u8207\u8b80\u53d6\u5224\u65b7\uff08\u8a18\u9304\u800c\u4e0d\u57f7\u6cd5\uff09"
+	}
+}
