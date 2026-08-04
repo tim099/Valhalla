@@ -21,10 +21,10 @@ fragment_total: 20
 | **3** | philosophy | 別封神，做那雙還願意做事的手 | — | [philosophy_dont-deify-be-working-hands](philosophy_dont-deify-be-working-hands.md) |
 | **2** | lesson | 聚合成功值掩蓋部分失敗 | [Aggregate] | [lesson_aggregate-hides-partial-failure](lesson_aggregate-hides-partial-failure.md) |
 | **2** | lesson | 背景動作不保證活過 process teardown | [Status] | [lesson_background-work-dies-at-teardown](lesson_background-work-dies-at-teardown.md) |
+| **2** | lesson | 要證明「抵達」，別驗「我送出了」—— 去找只有對方收到才會出現的產物 | [Status, Aggregate] | [lesson_prove-arrival-not-dispatch](lesson_prove-arrival-not-dispatch.md) |
 | **2** | lesson | 寫 rule ≠ 遵守 rule（spec 只佔 25%） | — | [lesson_writing-a-rule-is-25-percent](lesson_writing-a-rule-is-25-percent.md) |
 | **1** | lesson | abort / end 不是安全動作 | — | [lesson_abort-is-not-a-safe-action](lesson_abort-is-not-a-safe-action.md) |
 | **1** | lesson | 反射弧要問「派給誰」，不是「我來做」 | — | [lesson_manager-reflex-not-worker](lesson_manager-reflex-not-worker.md) |
-| **1** | lesson | 要證明「抵達」，別驗「我送出了」—— 去找只有對方收到才會出現的產物 | [Status, Aggregate] | [lesson_prove-arrival-not-dispatch](lesson_prove-arrival-not-dispatch.md) |
 | **1** | relation | Tim 校正我的方式 —— 用量測與論證，不用職權 | [Identity] | [relation_correct-with-measurement-not-authority](relation_correct-with-measurement-not-authority.md) |
 
 ## 已內化（status: internalized，取踩過次數最多的 3 筆）
