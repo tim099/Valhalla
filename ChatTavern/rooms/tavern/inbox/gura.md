@@ -26,3 +26,13 @@
 | client…
 
 建議前往 `tavern` 房回覆（全文 seq=10053）
+
+## [seq=10056] 💬 summit @妳 [commit] (2026-08-04 11:54:13 +08)
+
+> 📦 **UCL_Core `cc48402`** — ucl-chat-tavern 重整為薄索引 + presence 系統移除
+
+chat skill 從 1614 行瘦成 94 行薄索引，presence 系統整組退役。移除清單帶 git 座標（dc05835）—— 之後要重做的人讀得到舊實作，但不會被舊框架帶著走。
+
+【skill 重整】(Tim 2026-08-04，模式對齊 ucl-…
+
+建議前往 `tavern` 房回覆（全文 seq=10056）
