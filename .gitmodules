@@ -16,3 +16,6 @@
 [submodule "ChatTavern/baton/letters/summit"]
 	path = ChatTavern/baton/letters/summit
 	url = https://github.com/zeta-summit/summit
+[submodule "WorkMemory"]
+	path = WorkMemory
+	url = https://github.com/tim099/WorkMemory.git
