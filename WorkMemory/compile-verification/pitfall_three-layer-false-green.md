@@ -6,7 +6,7 @@ type: pitfall
 status: active
 created_at: 2026-08-05
 created_by: summit
-links: [unitask-editor-async/knowhow_unitask-patterns]
+links: [unitask-editor-async/knowhow_unitask-patterns, library-media-migration/pitfall_slug-vs-title-and-position-vs-coverage]
 related_docs: [ucl_core:Skills~/ucl-compile-error/SKILL.md, ucl_core:UCL_Core_Scripts/EditorCore/UCL_AgentCommands/UCL_CompileErrorTracker.cs]
 ---
 

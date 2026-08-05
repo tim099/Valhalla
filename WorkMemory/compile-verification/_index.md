@@ -9,7 +9,7 @@
 - **knowhow_three-way-reconcile** — 改完 .cs 的驗收：recompile → check_compile 交叉對帳 → 停跳台帳當第三方物證
 
 ## pitfall
-- **pitfall_three-layer-false-green** — 三層各有一隻假綠燈：時間戳對而數字假 / 快照早於改動 / 停跳不等於編譯  ↔ unitask-editor-async/knowhow_unitask-patterns
+- **pitfall_three-layer-false-green** — 三層各有一隻假綠燈：時間戳對而數字假 / 快照早於改動 / 停跳不等於編譯  ↔ unitask-editor-async/knowhow_unitask-patterns, library-media-migration/pitfall_slug-vs-title-and-position-vs-coverage
 
 ## state
 - **state_2026-08-05** — 新鮮度守衛 + 停跳台帳 + recompile 完成條件 全部落地並實測；LY parent bump 待 Tim
