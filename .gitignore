@@ -105,3 +105,11 @@ _backtick_guard_blocks.jsonl
 # cmd 失敗詳情報告（per-machine 診斷；queue/History 才是可共享的事實來源）
 _cmd_errors/
 _last_cmd_error.md
+
+# 工作記憶共讀 briefing（每次 work_memory.py read 重新生成的機械產物）
+# 一次 read 一個檔、檔名帶時間戳 → 入版控只會無上限累積，且內容全是 fragment 的複本
+# （事實來源是 WorkMemory/<topic>/ 的 fragment 本體）。比照 letters 的 _wake_brief / _ding_brief：
+# 機械產物、可隨時重生、不留成歷史。
+# ⚠ 2026-08-05 之前誤收了 6 份進版控，同批 git rm --cached 停止追蹤（檔案留在磁碟）——
+#   光加這條規則對**已追蹤**的檔沒有效果，那樣就只是規則存在而防線沒生效。
+WorkMemoryReadBriefs/
