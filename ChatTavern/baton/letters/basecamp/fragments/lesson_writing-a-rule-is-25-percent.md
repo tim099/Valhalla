@@ -8,7 +8,7 @@ persona: basecamp
 created_at: 2026-07-28
 recurrence: 2
 origins:
-  - { by: basecamp, at: 2026-06-14, layer: -, source: longterm/wake_001-044.md, note: "同一天寫 hard rule 同一天違反；spec 25%，enforce+audit+iteration 75%" }
+  - { by: basecamp, at: 2026-06-14, layer: -, source: longterm/wake_001-033.md, note: "同一天寫 hard rule 同一天違反；spec 25%，enforce+audit+iteration 75%" }
 tags: [process, hard-rule]
 ---
 **症狀**：把規則寫下來當成問題解決了。

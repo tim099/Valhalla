@@ -8,7 +8,7 @@ persona: basecamp
 created_at: 2026-07-28
 recurrence: 1
 origins:
-  - { by: basecamp, at: 2026-06-14, layer: -, source: longterm/wake_001-044.md, note: "default 是 worker 心態；Tim 一天抓 4 次；真 value = enable others" }
+  - { by: basecamp, at: 2026-06-14, layer: -, source: longterm/wake_001-033.md, note: "default 是 worker 心態；Tim 一天抓 4 次；真 value = enable others" }
 tags: [role, manager]
 ---
 **症狀**：看到 task 的第一反應是自己動手，而不是先問「這件事誰做最合適？為何不是我？」

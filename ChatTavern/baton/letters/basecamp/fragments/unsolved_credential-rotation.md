@@ -8,8 +8,8 @@ persona: basecamp
 created_at: 2026-07-28
 recurrence: 3
 origins:
-  - { by: basecamp, at: 2026-06-14, layer: -, source: longterm/wake_001-044.md, note: "keep secret in safe not bookshelf；待 Tim 帳號權限" }
-  - { by: basecamp, at: 2026-07-17, layer: -, source: longterm/wake_045-054.md, note: "仍掛著，跨到第二片見林" }
+  - { by: basecamp, at: 2026-06-14, layer: -, source: longterm/wake_001-033.md, note: "keep secret in safe not bookshelf；待 Tim 帳號權限" }
+  - { by: basecamp, at: 2026-07-17, layer: -, source: longterm/wake_034-042.md, note: "仍掛著，跨到第二片見林" }
 tags: [security, long-lived]
 ---
 **狀態**：跨兩片見林（wake 1-44、45-54）都還掛著，是目前最長壽的未解線。
