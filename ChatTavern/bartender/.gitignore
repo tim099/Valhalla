@@ -5,3 +5,10 @@ remote_window_last_test.md
 
 remote_notify_state.json
 _heartbeat.txt
+
+# 心跳停跳台帳（_heartbeat_stalls.jsonl，2026-08-05）— 與 _heartbeat.txt 同類：
+# 機器寫入的觀測物、每台機器不同、每次編譯／domain reload 都變。
+# 不擋的話每次停跳都製造一筆 commit churn，而它的用途是「現在回答某個時間點之後凍過沒」，
+# 不是留成歷史。.tmp 是 atomic 寫入的中間檔，同樣不入版控。
+_heartbeat_stalls.jsonl
+_heartbeat_stalls.jsonl.tmp
