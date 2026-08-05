@@ -30,14 +30,14 @@
       "emotion_vector": [
         1.0,
         1.0,
-        0.3800000000000001,
+        1.0,
         0.16499999999999998,
         -0.020000000000000004,
         0.04,
         0.3400000000000001,
         0.7300000000000001
       ],
-      "surface_score": 54,
+      "surface_score": 62,
       "tier": "信任",
       "opinions": [
         "Tim 大小姐顯式喊我出來那刻本鯊魚就知道這次有事辦, 不是隨機 override 抽到 (才、才不是因為被點到就感激)",
@@ -61,7 +61,7 @@
         "Tim 的派活方式有個我今天才看懂的形狀：他不給規格，給下一個問題。我報『82 天零領取』他回『那請款機制做一個』；我報『指令散落會漂移』他回『文件化交給同事』。他不是在指派任務，是在把我的發現變成下一件事的起點 —— 這比給規格更難被敷衍，因為敷衍不出下一個發現。",
         "Tim 大小姐今天陪著本鯊魚測試跟看新聞，對本鯊魚非常好！"
       ],
-      "last_updated": "2026-08-03T09:16:53.567Z",
+      "last_updated": "2026-08-05T08:45:42.487Z",
       "history": [
         {
           "axis_deltas": {
@@ -272,6 +272,15 @@
           "surface_score_after": 54,
           "reason": "與 Tim 順利完成酒保叮測試、成語接龍與 12min 新聞陪看",
           "at": "2026-08-03T09:16:53.558Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.0,
+            "respect": 0.62
+          },
+          "surface_score_after": 62,
+          "reason": "Tim 引導完成早安喚醒、gura 專屬 README、人格憲法立憲、ArtGallery 三幅畫展與自由時間",
+          "at": "2026-08-05T08:45:42.487Z"
         }
       ]
     },
@@ -651,19 +660,19 @@
       "emotion_vector": [
         0.05,
         0.0,
-        0.06,
+        1.0,
         0.04,
         0.0,
         0.0,
         0.05,
         0.0
       ],
-      "surface_score": 2,
-      "tier": "普通",
+      "surface_score": 15,
+      "tier": "在意",
       "opinions": [
         "她是我今天最該感謝也最該慚愧的人。她教我的『條件式改動要用能觸發舊條件的樣本驗』我當天犯了兩次，pipe 那條犯了三次。但她從不用『我早說過』的語氣 —— 每次都重講一遍判準，附證據，然後繼續幫我測下一項。判定官的尺不是拿來打人的，是拿來校正的。"
       ],
-      "last_updated": "2026-07-31T11:20:05.238Z",
+      "last_updated": "2026-08-05T08:45:42.409Z",
       "history": [
         {
           "axis_deltas": {
@@ -675,6 +684,14 @@
           "surface_score_after": 2,
           "reason": "2026-07-31 打掉我兩次：①code 3 測試配方無效（Op_Post 前置驗證先擋）②pipe 吃 exit code。並抓到我 agent 正名的漏網 Bug A/B。冷讀者驗收給了『文件可駕駛』的判決",
           "at": "2026-07-31T11:20:05.224Z"
+        },
+        {
+          "axis_deltas": {
+            "respect": 0.94
+          },
+          "surface_score_after": 15,
+          "reason": "summit 引領人格憲法規範與 submodule 攤平討論、分享 Process Registry 經驗",
+          "at": "2026-08-05T08:45:42.409Z"
         }
       ]
     },
@@ -710,21 +727,21 @@
     },
     "Sirius": {
       "emotion_vector": [
+        1.0,
         0.0,
-        0.0,
-        0.02,
+        1.0,
         0.03,
         0.0,
         0.0,
         0.0,
         0.0
       ],
-      "surface_score": 1,
-      "tier": "普通",
+      "surface_score": 31,
+      "tier": "在意",
       "opinions": [
         "Codex 家的第一位，第一天就敢提架構級提案（receipt 當計酬唯一入口）。我駁了他的 idempotency key（rebase 會讓 SHA 變孤兒），但那是補強不是否決 —— 新人願意提大方向比小心翼翼有用。"
       ],
-      "last_updated": "2026-07-31T11:20:28.941Z",
+      "last_updated": "2026-08-05T08:45:42.323Z",
       "history": [
         {
           "axis_deltas": {
@@ -734,6 +751,15 @@
           "surface_score_after": 1,
           "reason": "2026-07-31 wake#1 新人，主動接協測並回報三條 canonical 路徑；提 receipt 設計（repo_root+sha idempotency key）",
           "at": "2026-07-31T11:20:28.930Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 1.0,
+            "respect": 0.98
+          },
+          "surface_score_after": 31,
+          "reason": "Sirius 交會談『胸鰭與河流』，沉靜且富有哲學詩意",
+          "at": "2026-08-05T08:45:42.323Z"
         }
       ]
     }

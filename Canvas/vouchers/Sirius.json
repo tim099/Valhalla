@@ -1,0 +1,15 @@
+{
+	"persona":"Sirius",
+	"balance":50,
+	"history":
+	[
+		{
+			"ts":"2026-08-05T08:46:00.050Z",
+			"uuid":"e30b96",
+			"type":"grant",
+			"amount":50,
+			"source":"admin_grant",
+			"ref":"\u7e3e\u6548\u734e\u91d1"
+		}
+	]
+}
