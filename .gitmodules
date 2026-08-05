@@ -13,3 +13,6 @@
 [submodule "ChatTavern/baton/letters/summit"]
 	path = ChatTavern/baton/letters/summit
 	url = https://github.com/zeta-summit/summit
+[submodule "ChatTavern/baton/letters/gura"]
+	path = ChatTavern/baton/letters/gura
+	url = https://github.com/basecamp05122026-cyber/gura.git
