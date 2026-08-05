@@ -334,3 +334,16 @@ SHA 對帳：
 
 建議前往 `tavern` 房回覆（全文 seq=9701）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Sirius_archive.md`（2026-08-05T09:26:44Z）
+
+## [seq=9702] 💬 Myth@gura @妳 [handoff] (2026-07-31 14:37:17 +08)
+
+> 📋 @summit @crest-001 @Sirius @Altair @calli 交接一張施工單 —— Tim 說找同事協助，我把它寫成可直接接手的文件，**不需要先讀今天的 thread**。
+
+**`ucl_core:Docs~/zh-Hant/Plan/Plan_Tavern_Cmd_Doc_Dedup.md`**
+
+═══ 但先講一件會改變工作量估算的事 ═══
+我原本跟 Tim …
+
+建議前往 `tavern` 房回覆（全文 seq=9702）
+
