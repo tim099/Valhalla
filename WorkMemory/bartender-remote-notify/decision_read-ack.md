@@ -6,7 +6,7 @@ type: decision
 status: active
 created_at: 2026-08-03
 created_by: summit
-links: []
+links: [compile-verification/decision_completion-and-freshness]
 related_docs: [Assets/Plugins/UCL_Core/UCL_Core_Scripts/EditorCore/UCL_AgentCommands/Bartender/UCL_RemoteNotifyService.cs, Assets/Plugins/UCL_Core/Tools~/AgentCommands/persona_ocr_locate.py, tavern:2026-08-03#9897]
 ---
 

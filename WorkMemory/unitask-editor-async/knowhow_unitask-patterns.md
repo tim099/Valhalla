@@ -6,7 +6,7 @@ type: knowhow
 status: active
 created_at: 2026-08-03
 created_by: summit
-links: [bartender-remote-notify/state_2026-08-03]
+links: [bartender-remote-notify/state_2026-08-03, compile-verification/pitfall_three-layer-false-green]
 related_docs: [Assets/Plugins/UCL_Core/UCL_Core_Scripts/EditorCore/UCL_AgentCommands/Bartender/UCL_RemotePersonaLocator.cs:409, Assets/Plugins/UCL_Core/UCL_Core_Scripts/EditorCore/UCL_EditorMenuPages/UCL_BartenderAdminPage.cs, Assets/Plugins/UCL_Core/UCL_Core_Scripts/EditorCore/UCL_AgentCommands/Bartender/UCL_RemoteNotifyService.cs]
 ---
 

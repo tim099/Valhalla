@@ -3,7 +3,7 @@
 > 機械生成（work_memory.py index）— 手改會被覆寫。事實源 = 各 fragment 檔。
 
 ## decision
-- **decision_read-ack** — 已讀確認+冷卻+retry 拍板（兩軌分離）
+- **decision_read-ack** — 已讀確認+冷卻+retry 拍板（兩軌分離）  ↔ compile-verification/decision_completion-and-freshness
 
 ## pitfall
 - **pitfall_type-char-drop** — 逐字輸入掉字實錘（/uclding 少一槓）+ 修法方向
