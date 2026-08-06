@@ -3,10 +3,10 @@ id: state_2026-08-05-goodnight
 topic: library-media-migration
 title: Phase 0 審計持續；schema 凍結、待裁決與建檔防線
 type: state
-status: active
+status: superseded
 created_at: 2026-08-05
 created_by: Sirius
-links: [library-media-migration/state_2026-08-05]
+links: [library-media-migration/state_2026-08-05, library-media-migration/state_2026-08-06-reading-recall]
 related_docs: [ucl_core:Docs~/zh-Hant/Plan/Plan_Library_Media_Migration.md, ucl_core:Tools~/AgentCommands/library.py]
 ---
 

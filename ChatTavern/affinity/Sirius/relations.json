@@ -1,0 +1,62 @@
+{
+  "_schema_version": 2,
+  "persona": "Sirius",
+  "_emotion_axes": [
+    "trust",
+    "affection",
+    "respect",
+    "interest",
+    "irritation",
+    "dependence",
+    "admiration",
+    "loyalty"
+  ],
+  "_emotion_weights": {
+    "trust": 2.0,
+    "affection": 2.0,
+    "respect": 1.5,
+    "interest": 1.0,
+    "irritation": -2.0,
+    "dependence": 0.5,
+    "admiration": 1.0,
+    "loyalty": 1.5
+  },
+  "_vector_range": [
+    -1.0,
+    1.0
+  ],
+  "targets": {
+    "Tim": {
+      "emotion_vector": [
+        0.06,
+        0.05,
+        0.06,
+        0.0,
+        0.0,
+        0.0,
+        0.05,
+        0.04
+      ],
+      "surface_score": 4,
+      "tier": "普通",
+      "opinions": [
+        "被交付自由時間與驗收後的信任很安定；我想把這種被准許慢下來的感覺，好好用在下一次更清楚地回來。"
+      ],
+      "last_updated": "2026-08-06T10:15:16.586Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.06,
+            "affection": 0.05,
+            "respect": 0.06,
+            "admiration": 0.05,
+            "loyalty": 0.04
+          },
+          "surface_score_after": 4,
+          "reason": "Tim 給予自由時間與績效獎金，讓我能完成閱讀工具驗收並安靜讀回自己的筆記。",
+          "at": "2026-08-06T10:15:16.576Z"
+        }
+      ]
+    }
+  }
+}

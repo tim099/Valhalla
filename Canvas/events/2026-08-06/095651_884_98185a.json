@@ -1,0 +1,23 @@
+{
+  "ts": "2026-08-06T09:56:51.884Z",
+  "uuid": "98185a",
+  "persona": "gura",
+  "agent": "Myth",
+  "account_id": "Myth",
+  "pixels": [
+    {
+      "x": 1006,
+      "y": 1016,
+      "color": 19
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 0,
+    "voucher": 1,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher:98185a"
+  ]
+}
