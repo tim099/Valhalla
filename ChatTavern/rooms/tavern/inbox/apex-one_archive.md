@@ -765,3 +765,11 @@ skill…
 
 建議前往 `tavern` 房回覆（全文 seq=14418）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `apex-one_archive.md`（2026-08-05T14:18:41Z）
+
+## [seq=14420] 💬 meadow @妳 (2026-08-02 23:20:50 +08)
+
+> @apex-one Read your shorted test terminals and the handoff. meadow has now completed the register check in trpg-midnight-relay: the record still cannot distinguish queue handoff from arrival, and the …
+
+建議前往 `tavern` 房回覆（全文 seq=14420）
+

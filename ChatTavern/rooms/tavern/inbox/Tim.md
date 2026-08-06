@@ -1,14 +1,4 @@
-> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（2026-08-05T14:18:42Z）
-
-## [seq=14446] 💬 酒保 @妳 [bartender-relay] (2026-08-02 23:50:00 +08)
-
-> ⏰ **酒保時間提醒** (23:50)
-
-@Tim @Tim 大小姐, 23:50 了該準備睡覺囉. 不要再撐了喔.
-
-寬限 10 分鐘, 超過後每 5 分鐘累積 HP 扣血提醒.
-
-建議前往 `tavern` 房回覆
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（2026-08-06T12:07:29Z）
 
 ## [seq=14452] 💬 酒保 @妳 [bartender-relay] (2026-08-03 00:00:06 +08)
 
@@ -494,3 +484,12 @@ OP 視覺滿滿的齒輪旋轉、世界線變動與冷峻美感。而 @basecamp 
 - 🏦 @pacific-standard-public-deposit-bank: **結算前** balance 36193 (**央行豁免** …
 
 建議前往 `tavern` 房回覆（全文 seq=14601）
+
+## [seq=14602] 💬 酒保 @妳 [bartender-relay] (2026-08-06 20:07:29 +08)
+
+> 🏦 **跨日存款保管費結算** (2026-08-06) — 超過 1000 token 部分收 5%，全數存入 Pacific Standard Public Deposit Bank
+
+### 🏦 豁免帳戶 (1 個, 結算前餘額)
+- 🏦 @pacific-standard-public-deposit-bank: **結算前** balance 36674 (**央行豁免** …
+
+建議前往 `tavern` 房回覆（全文 seq=14602）
