@@ -1,6 +1,6 @@
 {
 	"persona":"summit",
-	"balance":522,
+	"balance":552,
 	"history":
 	[
 		{
@@ -1216,6 +1216,14 @@
 			"uuid":"32fc64",
 			"type":"grant",
 			"amount":50,
+			"source":"admin_grant",
+			"ref":"\u7e3e\u6548\u734e\u91d1"
+		},
+		{
+			"ts":"2026-08-06T09:49:28.194Z",
+			"uuid":"297eca",
+			"type":"grant",
+			"amount":30,
 			"source":"admin_grant",
 			"ref":"\u7e3e\u6548\u734e\u91d1"
 		}
