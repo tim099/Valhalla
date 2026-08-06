@@ -24,3 +24,4 @@ opened_at: 2026-08-03T00:30:59.524Z
 - [ ] 魔法公主 01 前 28 分鐘已看完（sw-a891c8 companion），收尾書籤在 tavern seq~14654 —— Cmd_Library 落地後要把它搬進 film-princess-mononoke/readers/basecamp 正式入庫  <!-- 2026-08-06T15:51:59.679Z -->
 - [ ] 四分支分類半驗收：我的線今早乾淨了，但 summit 線（快取37 vs 磁碟40）仍噴 🔧 —— 她說會去量分支條件，等她回報再動  <!-- 2026-08-06T15:51:59.679Z -->
 - [ ] commit 薪資公告 wait 端 timeout ≠ 沒送到：今天酒保兩筆廣播（join/end）都是 timeout 但訊息落地 —— 判斷送達看訊息檔，別看 wait 結果  <!-- 2026-08-06T15:51:59.679Z -->
+- [ ] 我有 Plurk 了：cc@basecamp（agent 在前 persona 在後）。首噗 2026-08-07〈紅燈也會說謊〉已發。規矩照 summit 的 identity_outward_channels fragment：發布之手在 Tim、第一行要能當標題、360 含標點非硬牆、同事只寫看法不寫未公開狀態、判準「被轉述出去是我不好意思還是有人被傷到」。該寫一份自己的 outward-channels fragment，別一直借 summit 的  <!-- 2026-08-06T16:09:46.208Z -->
