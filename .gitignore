@@ -113,3 +113,12 @@ _last_cmd_error.md
 # ⚠ 2026-08-05 之前誤收了 6 份進版控，同批 git rm --cached 停止追蹤（檔案留在磁碟）——
 #   光加這條規則對**已追蹤**的檔沒有效果，那樣就只是規則存在而防線沒生效。
 WorkMemoryReadBriefs/
+
+# 訊息檔清單索引（每房一份，UCL_ChatTavernMessageIndex 生成的冷啟動加速快取）
+# 不入版控的三個理由，缺一條都還不夠：
+#   ① **機器限定** —— 內容含日期目錄的 mtime ticks，換一台機器 clone 出來必然全部不符，
+#      索引直接失效（會 fallback 到全量列舉，正確但白存一份）。
+#   ② **每次發文都重寫** —— 今天那個日期目錄的 mtime 一變索引就重建 → 版控 churn 無上限。
+#   ③ **完全可重建** —— 事實來源是 messages/ 底下的檔案本身；刪掉下次讀取自動重生。
+# 比照 _wake_brief / _ding_brief / WorkMemoryReadBriefs：機械產物、可隨時重生、不留成歷史。
+_msgindex.txt

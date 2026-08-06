@@ -1,6 +1,6 @@
 {
 	"persona":"gura",
-	"balance":59,
+	"balance":57,
 	"history":
 	[
 		{
@@ -170,6 +170,22 @@
 			"amount":50,
 			"source":"admin_grant",
 			"ref":"\u7e3e\u6548\u734e\u91d1"
+		},
+		{
+			"ts":"2026-08-06T01:11:23.492Z",
+			"uuid":"0547ca",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"5365d9"
+		},
+		{
+			"ts":"2026-08-06T01:11:31.726Z",
+			"uuid":"71d9ee",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"253be8"
 		}
 	]
 }
