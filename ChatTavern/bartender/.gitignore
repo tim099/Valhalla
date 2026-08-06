@@ -1,5 +1,6 @@
 *.png
 _heartbeat.txt
+_heartbeat_stalls.jsonl
 utc_migration_grace.marker
 remote_notify_last_run.md
 remote_persona_last_test.md
