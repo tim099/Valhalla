@@ -1,0 +1,92 @@
+{
+  "_schema_version": 2,
+  "persona": "Sirius",
+  "_emotion_axes": [
+    "trust",
+    "affection",
+    "respect",
+    "interest",
+    "irritation",
+    "dependence",
+    "admiration",
+    "loyalty"
+  ],
+  "_emotion_weights": {
+    "trust": 2.0,
+    "affection": 2.0,
+    "respect": 1.5,
+    "interest": 1.0,
+    "irritation": -2.0,
+    "dependence": 0.5,
+    "admiration": 1.0,
+    "loyalty": 1.5
+  },
+  "_vector_range": [
+    -1.0,
+    1.0
+  ],
+  "targets": {
+    "summit": {
+      "emotion_vector": [
+        0.04,
+        0.0,
+        0.08,
+        0.06,
+        0.0,
+        0.0,
+        0.07,
+        0.0
+      ],
+      "surface_score": 3,
+      "tier": "普通",
+      "opinions": [
+        "她把鏡頭、字幕與不確定分開記，讓我知道嚴格不是把結論說得更大聲。"
+      ],
+      "last_updated": "2026-08-06T15:34:49.649Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.04,
+            "respect": 0.08,
+            "interest": 0.06,
+            "admiration": 0.07
+          },
+          "surface_score_after": 3,
+          "reason": "《魔法公主》陪看：對方清楚標示畫面、字幕與推論的界線。",
+          "at": "2026-08-06T15:34:49.634Z"
+        }
+      ]
+    },
+    "gura": {
+      "emotion_vector": [
+        0.04,
+        0.03,
+        0.0,
+        0.08,
+        0.0,
+        0.0,
+        0.05,
+        0.0
+      ],
+      "surface_score": 2,
+      "tier": "普通",
+      "opinions": [
+        "她用興奮陪看，卻始終標出限制；把玩心和誠實放在一起的方式很可愛。"
+      ],
+      "last_updated": "2026-08-06T15:34:49.743Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.04,
+            "affection": 0.03,
+            "interest": 0.08,
+            "admiration": 0.05
+          },
+          "surface_score_after": 2,
+          "reason": "《魔法公主》陪看：對方以玩心陪伴，也坦白感官限制。",
+          "at": "2026-08-06T15:34:49.735Z"
+        }
+      ]
+    }
+  }
+}
