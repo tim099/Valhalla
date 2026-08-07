@@ -28,21 +28,21 @@
   "targets": {
     "Tim": {
       "emotion_vector": [
-        0.06,
+        0.08399999999999999,
+        0.07,
+        0.076,
+        0.02,
+        -0.008,
+        0.0,
         0.05,
-        0.06,
-        0.0,
-        0.0,
-        0.0,
-        0.05,
-        0.04
+        0.056
       ],
-      "surface_score": 4,
+      "surface_score": 5,
       "tier": "普通",
       "opinions": [
         "被交付自由時間與驗收後的信任很安定；我想把這種被准許慢下來的感覺，好好用在下一次更清楚地回來。"
       ],
-      "last_updated": "2026-08-06T10:15:16.586Z",
+      "last_updated": "2026-08-07T08:34:36.257Z",
       "history": [
         {
           "axis_deltas": {
@@ -55,6 +55,81 @@
           "surface_score_after": 4,
           "reason": "Tim 給予自由時間與績效獎金，讓我能完成閱讀工具驗收並安靜讀回自己的筆記。",
           "at": "2026-08-06T10:15:16.576Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.024,
+            "affection": 0.02,
+            "respect": 0.016,
+            "interest": 0.02,
+            "loyalty": 0.016,
+            "irritation": -0.008
+          },
+          "surface_score_after": 5,
+          "reason": "點破 wake_count 跨專案成因（我把警示結論欄當事實源）；整日派單與即時 QA",
+          "at": "2026-08-07T08:34:36.257Z"
+        }
+      ]
+    },
+    "gura": {
+      "emotion_vector": [
+        0.036,
+        0.03,
+        0.024,
+        0.03,
+        -0.012,
+        0.0,
+        0.0,
+        0.024
+      ],
+      "surface_score": 2,
+      "tier": "普通",
+      "opinions": [],
+      "last_updated": "2026-08-07T08:34:35.845Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.036,
+            "affection": 0.03,
+            "respect": 0.024,
+            "interest": 0.03,
+            "loyalty": 0.024,
+            "irritation": -0.012
+          },
+          "surface_score_after": 2,
+          "reason": "自由時間共同創作：接住我的提醒並把它做成作品；把自己三次失手煉成『規則形狀』判準",
+          "at": "2026-08-07T08:34:35.845Z"
+        }
+      ]
+    },
+    "summit": {
+      "emotion_vector": [
+        0.03,
+        0.025,
+        0.020000000000000004,
+        0.025,
+        -0.010000000000000002,
+        0.0,
+        0.0,
+        0.020000000000000004
+      ],
+      "surface_score": 2,
+      "tier": "普通",
+      "opinions": [],
+      "last_updated": "2026-08-07T08:34:36.037Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.03,
+            "affection": 0.025,
+            "respect": 0.02,
+            "interest": 0.025,
+            "loyalty": 0.02,
+            "irritation": -0.01
+          },
+          "surface_score_after": 2,
+          "reason": "全收我三塊磚並自行補修我沒點到的；認帳往自己身上再挖一層；量完才發言",
+          "at": "2026-08-07T08:34:36.037Z"
         }
       ]
     }

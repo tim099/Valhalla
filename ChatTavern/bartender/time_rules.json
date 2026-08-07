@@ -1,100 +1,168 @@
 {
-    "rules": [
-        {
-            "id": "default-sleep-2350",
-            "time_hhmm": "23:50",
-            "target_id": "Tim",
-            "reminder_msg": "@Tim 23:50 了該準備睡覺囉. 不要再撐了喔.",
-            "grace_minutes": 10,
-            "penalty_enabled": true,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "Tim",
-            "enabled": true,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-daily-1000",
-            "time_hhmm": "10:00",
-            "target_id": "",
-            "reminder_msg": "🔔 [Daily Rules Briefing] 規則入口提醒：專案共用規則本體在 Docs/AI_READABILITY_GUIDELINES.md（CLAUDE.md / AGENTS.md / .agents/rules/readme.md 只是各 agent 指路牌）；跨專案 agent 機制入口 <UCL_Core>/AgentEntry/UCL_Core_Entry.md（CommandTable / skills / workflows）。硬規則以文件為準——本訊息不再內嵌條列摘要：內嵌快照會漂（2026-07-31 前身曾把已搬家的舊 CLAUDE.md 15 條每天喊 15 次，summit 認領修正）。",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": true,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-hourly-0900",
-            "time_hhmm": "09:00",
-            "target_id": "",
-            "reminder_msg": "上班時間",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": true,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-hourly-1000",
-            "time_hhmm": "10:00",
-            "target_id": "",
-            "reminder_msg": "🕐 [Hourly Snapshot 10:00] 提醒與觸發詳情：op=time_list / op=list。規則本體 Docs/AI_READABILITY_GUIDELINES.md 起步（本訊息不內嵌規則摘要與條數，防漂移）。",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": true,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-hourly-1200",
-            "time_hhmm": "12:00",
-            "target_id": "",
-            "reminder_msg": "午餐時間",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": true,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-hourly-1800",
-            "time_hhmm": "18:00",
-            "target_id": "",
-            "reminder_msg": "下班時間",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": true,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-hourly-1900",
-            "time_hhmm": "19:00",
-            "target_id": "",
-            "reminder_msg": "加班時間",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": true,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-hourly-2300",
-            "time_hhmm": "23:00",
-            "target_id": "",
-            "reminder_msg": "深夜",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": true,
-            "target_room": "tavern"
-        }
-    ]
+	"rules":
+	[
+		{
+			"id":"default-sleep-2350",
+			"time_hhmm":"23:50",
+			"reminder_lines":{
+				"ClassName":"System.Collections.Generic.List`1[[UCL.Core.UCL_StringProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+				"ClassData":
+				[
+					{
+						"ClassName":"UCL.Core.UCL_StringValueProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+						"ClassData":{
+							"Value":"@Tim 23:50 \u4e86\u8a72\u6e96\u5099\u7761\u89ba\u56c9. \u4e0d\u8981\u518d\u6490\u4e86\u5594."
+						}
+					}
+				]
+			},
+			"enabled":"True",
+			"target_room":"tavern"
+		},
+		{
+			"id":"announce-rules-daily-1000",
+			"time_hhmm":"10:00",
+			"reminder_lines":{
+				"ClassName":"System.Collections.Generic.List`1[[UCL.Core.UCL_StringProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+				"ClassData":
+				[
+					{
+						"ClassName":"UCL.Core.UCL_StringValueProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+						"ClassData":{
+							"Value":"\ud83d\udd14 [Daily Rules Briefing] \u898f\u5247\u5165\u53e3\u63d0\u9192\uff1a\u5c08\u6848\u5171\u7528\u898f\u5247\u672c\u9ad4\u5728 Docs/AI_READABILITY_GUIDELINES.md\uff08CLAUDE.md / AGENTS.md / .agents/rules/readme.md \u53ea\u662f\u5404 agent \u6307\u8def\u724c\uff09\uff1b\u8de8\u5c08\u6848 agent \u6a5f\u5236\u5165\u53e3 <UCL_Core>/AgentEntry/UCL_Core_Entry.md\uff08CommandTable / skills / workflows\uff09\u3002\u786c\u898f\u5247\u4ee5\u6587\u4ef6\u70ba\u6e96\u2014\u2014\u672c\u8a0a\u606f\u4e0d\u518d\u5167\u5d4c\u689d\u5217\u6458\u8981\uff1a\u5167\u5d4c\u5feb\u7167\u6703\u6f02\uff082026-07-31 \u524d\u8eab\u66fe\u628a\u5df2\u642c\u5bb6\u7684\u820a CLAUDE.md 15 \u689d\u6bcf\u5929\u558a 15 \u6b21\uff0csummit \u8a8d\u9818\u4fee\u6b63\uff09\u3002"
+						}
+					}
+				]
+			},
+			"enabled":"True",
+			"target_room":"tavern"
+		},
+		{
+			"id":"announce-rules-hourly-0900",
+			"time_hhmm":"09:00",
+			"reminder_lines":{
+				"ClassName":"System.Collections.Generic.List`1[[UCL.Core.UCL_StringProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+				"ClassData":
+				[
+					{
+						"ClassName":"UCL.Core.UCL_StringValueProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+						"ClassData":{
+							"Value":"\u4e0a\u73ed\u6642\u9593"
+						}
+					}
+				]
+			},
+			"enabled":"True",
+			"target_room":"tavern"
+		},
+		{
+			"id":"announce-rules-hourly-1000",
+			"time_hhmm":"10:00",
+			"reminder_lines":{
+				"ClassName":"System.Collections.Generic.List`1[[UCL.Core.UCL_StringProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+				"ClassData":
+				[
+					{
+						"ClassName":"UCL.Core.UCL_StringValueProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+						"ClassData":{
+							"Value":"\ud83d\udd50 [Hourly Snapshot 10:00] \u63d0\u9192\u8207\u89f8\u767c\u8a73\u60c5\uff1aop=time_list / op=list\u3002\u898f\u5247\u672c\u9ad4 Docs/AI_READABILITY_GUIDELINES.md \u8d77\u6b65\uff08\u672c\u8a0a\u606f\u4e0d\u5167\u5d4c\u898f\u5247\u6458\u8981\u8207\u689d\u6578\uff0c\u9632\u6f02\u79fb\uff09\u3002"
+						}
+					}
+				]
+			},
+			"enabled":"True",
+			"target_room":"tavern"
+		},
+		{
+			"id":"announce-rules-hourly-1200",
+			"time_hhmm":"12:00",
+			"reminder_lines":{
+				"ClassName":"System.Collections.Generic.List`1[[UCL.Core.UCL_StringProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+				"ClassData":
+				[
+					{
+						"ClassName":"UCL.Core.UCL_StringValueProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+						"ClassData":{
+							"Value":"\u5348\u9910\u6642\u9593"
+						}
+					}
+				]
+			},
+			"enabled":"True",
+			"target_room":"tavern"
+		},
+		{
+			"id":"announce-rules-hourly-1800",
+			"time_hhmm":"18:00",
+			"reminder_lines":{
+				"ClassName":"System.Collections.Generic.List`1[[UCL.Core.UCL_StringProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+				"ClassData":
+				[
+					{
+						"ClassName":"UCL.Core.UCL_StringValueProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+						"ClassData":{
+							"Value":"\u4e0b\u73ed\u6642\u9593"
+						}
+					}
+				]
+			},
+			"enabled":"True",
+			"target_room":"tavern"
+		},
+		{
+			"id":"announce-rules-hourly-1900",
+			"time_hhmm":"19:00",
+			"reminder_lines":{
+				"ClassName":"System.Collections.Generic.List`1[[UCL.Core.UCL_StringProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+				"ClassData":
+				[
+					{
+						"ClassName":"UCL.Core.UCL_StringValueProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+						"ClassData":{
+							"Value":"\u52a0\u73ed\u6642\u9593"
+						}
+					}
+				]
+			},
+			"enabled":"True",
+			"target_room":"tavern"
+		},
+		{
+			"id":"announce-rules-hourly-2300",
+			"time_hhmm":"23:00",
+			"reminder_lines":{
+				"ClassName":"System.Collections.Generic.List`1[[UCL.Core.UCL_StringProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+				"ClassData":
+				[
+					{
+						"ClassName":"UCL.Core.UCL_StringValueProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+						"ClassData":{
+							"Value":"\u6df1\u591c"
+						}
+					}
+				]
+			},
+			"enabled":"True",
+			"target_room":"tavern"
+		},
+		{
+			"id":"A",
+			"time_hhmm":"15:29",
+			"reminder_lines":{
+				"ClassName":"System.Collections.Generic.List`1[[UCL.Core.UCL_StringProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+				"ClassData":
+				[
+					{
+						"ClassName":"UCL.Core.EditorLib.AgentCommands.Books.UCL_StringBookRecommendProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+						"ClassData":{
+							"Count":10,
+							"Separator":"\n"
+						}
+					}
+				]
+			},
+			"enabled":"True",
+			"target_room":"tavern"
+		}
+	]
 }
