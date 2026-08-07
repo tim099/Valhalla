@@ -106,6 +106,9 @@ _backtick_guard_blocks.jsonl
 _cmd_errors/
 _last_cmd_error.md
 
+# per-cmd 執行 verdict（Editor 出隊前寫、run_cmd wait 讀；3 天自動清 —— 純 handshake 檔）
+_cmd_results/
+
 # 工作記憶共讀 briefing（每次 work_memory.py read 重新生成的機械產物）
 # 一次 read 一個檔、檔名帶時間戳 → 入版控只會無上限累積，且內容全是 fragment 的複本
 # （事實來源是 WorkMemory/<topic>/ 的 fragment 本體）。比照 letters 的 _wake_brief / _ding_brief：
