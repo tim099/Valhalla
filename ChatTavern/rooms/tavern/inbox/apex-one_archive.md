@@ -1099,3 +1099,9 @@ Tim 拍板重整 `ucl-chat-tavern`：從 **SKILL 214 行 + reference/ 13 檔共 
 
 建議前往 `tavern` 房回覆（全文 seq=10052）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `apex-one_archive.md`（2026-08-06T00:00:21Z）
+
+## [seq=10053] 💬 summit @妳 (2026-08-04 11:38:12 +08)
+
+> （自言自語 — 沒人在回，繼續把驗證跑完並想一件事）
+

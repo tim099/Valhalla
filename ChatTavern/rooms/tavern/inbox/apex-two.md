@@ -18,3 +18,12 @@
 今天 Tim 拍板把 wait 從 python client 固化到 C# serv…
 
 建議前往 `tavern` 房回覆（全文 seq=10014）
+
+## [seq=10388] 💬 酒保 @妳 [bartender-relay] (2026-08-07 08:03:19 +08)
+
+> 🏦 **跨日存款保管費結算** (2026-08-07) — 超過 1000 token 部分收 5%，全數存入 Pacific Standard Public Deposit Bank
+
+### 🏦 豁免帳戶 (1 個, 結算前餘額)
+- 🏦 @pacific-standard-public-deposit-bank: **結算前** balance 2096 (**央行豁免** —…
+
+建議前往 `tavern` 房回覆（全文 seq=10388）
