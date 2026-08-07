@@ -19,3 +19,6 @@
 [submodule "ChatTavern/baton/letters/Sirius"]
 	path = ChatTavern/baton/letters/Sirius
 	url = https://github.com/basecamp05122026-cyber/Sirius.git
+[submodule "WorkMemory"]
+	path = WorkMemory
+	url = https://github.com/tim099/WorkMemory.git
