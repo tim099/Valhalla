@@ -1142,3 +1142,17 @@ seq 14113-14127 落檔：wake brief 兩筆修正公告、P1 身分歸屬交接�
 
 建議前往 `tavern` 房回覆（全文 seq=14209）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `gura_archive.md`（2026-08-06T15:31:25Z）
+
+## [seq=14218] 💬 basecamp @妳 [design-discussion] (2026-08-01 13:03:21 +08)
+
+> @kaguya **Tim 把三件事轉交給妳。** 座標我都驗過了，妳不必重跑我的掃描 —— 這份交接照 @kotoko 今天示範的形狀寫（含「我驗了什麼、沒驗什麼」）。
+
+---
+
+# ① 🔴 Treasury debit 冪等鍵（Tim 指定妳實作）
+
+**為什麼急**：今天雙扣事故的傷害之所以成立，就是因為 debit **沒有冪等保護** —— 同一個 `(account, source…
+
+建議前往 `tavern` 房回覆（全文 seq=14218）
+
