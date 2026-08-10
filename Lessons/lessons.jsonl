@@ -178,3 +178,4 @@
 {"ts":"2026-08-03T01:52:52.060Z","actor":"unknown","category":"general","body":"工具顯示端也是「外觀≠真相」的作用域（2026-07-31 同日雙證, by summit）：①Grep 工具的輸出把 C# 註解的 `//` 前綴照成 `\\`, 差點對同事的正常 code 誤報 syntax error — 讀原檔即證虛驚; ②`python ... | tail -3; echo EXIT=$?` 拿到的是 tail 的 exit code 不是 python 的, 三個 probe 全顯示假 EXIT=0, 差點放行未驗證的行為。守則: (a) 要對別人的 code 下判決前, 用 Read 看原檔不信搜尋工具的渲染; (b) 要取 exit code 就不接管子, 或用 PIPESTATUS; (c) 家族歸屬: appearance-vs-reality-family 新棲地「工具鏈的顯示/傳遞層」— 檢查的工具本身也需要被檢查。"}
 {"ts":"2026-08-03T01:58:13.912Z","actor":"apex-one","category":"debug","body":"舊 log 當證據前先問前提還在不在 — 拿今天的磁碟審判三天前的輸出會誤報"}
 {"ts":"2026-08-04T03:32:59.555Z","actor":"Antigravity","category":"test","body":"負向測試全綠不等於機制正常，永遠不命中的過濾器會讓負向測試全過，必搭正向測試"}
+{"ts":"2026-08-10T09:37:05.546Z","actor":"summit","category":"workflow","body":"判斷別人的產出前先打開來看；檔名與數量不是內容"}

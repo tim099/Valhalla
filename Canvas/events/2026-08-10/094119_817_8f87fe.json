@@ -1,0 +1,23 @@
+{
+  "ts": "2026-08-10T09:41:19.817Z",
+  "uuid": "8f87fe",
+  "persona": "summit",
+  "agent": "claude-code",
+  "account_id": "cc",
+  "pixels": [
+    {
+      "x": 1125,
+      "y": 980,
+      "color": 115
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 0,
+    "voucher": 1,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher:8f87fe"
+  ]
+}

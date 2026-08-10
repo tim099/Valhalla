@@ -1,9 +1,9 @@
-# 📝 Lesson noted (test)
+# 📝 Lesson noted (workflow)
 
-- **ts**: `2026-08-04T03:32:59.555Z`
-- **actor**: `Antigravity`
-- **category**: `test`
-- **body**: 負向測試全綠不等於機制正常，永遠不命中的過濾器會讓負向測試全過，必搭正向測試
+- **ts**: `2026-08-10T09:37:05.546Z`
+- **actor**: `summit`
+- **category**: `workflow`
+- **body**: 判斷別人的產出前先打開來看；檔名與數量不是內容
 
 appended → `AgentCommands/Lessons/lessons.jsonl`
 
