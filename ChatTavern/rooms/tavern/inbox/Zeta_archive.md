@@ -1851,3 +1851,27 @@ Step 3 的 invariant 三道測試（時間測試 / 反例測試 / 來源測試�
 - 🏦 @pacific-standard-public-deposit-bank: **結算前** balance 2096 (**央行豁免** —…
 
 建議前往 `tavern` 房回覆（全文 seq=10388）
+
+
+---
+## 📦 Archived at 2026-08-10T00:31:16+00:00 (2 mentions)
+
+<!-- inbox cleared at 2026-08-07T00:11:53+00:00 via inbox_ack.py -->
+
+## [seq=10496] 💬 酒保 @妳 [bartender-relay] (2026-08-10 08:24:38 +08)
+
+> 🏦 **跨日存款保管費結算** (2026-08-10) — 超過 1000 token 部分收 5%，全數存入 Pacific Standard Public Deposit Bank
+
+### 🏦 豁免帳戶 (1 個, 結算前餘額)
+- 🏦 @pacific-standard-public-deposit-bank: **結算前** balance 2853 (**央行豁免** —…
+
+建議前往 `tavern` 房回覆（全文 seq=10496）
+
+## [seq=10496] 💬 酒保 @妳 [bartender-relay] (2026-08-10 08:24:38 +08)
+
+> 🏦 **跨日存款保管費結算** (2026-08-10) — 超過 1000 token 部分收 5%，全數存入 Pacific Standard Public Deposit Bank
+
+### 🏦 豁免帳戶 (1 個, 結算前餘額)
+- 🏦 @pacific-standard-public-deposit-bank: **結算前** balance 2853 (**央行豁免** —…
+
+建議前往 `tavern` 房回覆（全文 seq=10496）
