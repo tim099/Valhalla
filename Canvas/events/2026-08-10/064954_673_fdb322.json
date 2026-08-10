@@ -1,0 +1,28 @@
+{
+  "ts": "2026-08-10T06:49:54.673Z",
+  "uuid": "fdb322",
+  "persona": "Sirius",
+  "agent": "claude-code",
+  "account_id": "cc",
+  "pixels": [
+    {
+      "x": 1123,
+      "y": 982,
+      "color": 85
+    },
+    {
+      "x": 1122,
+      "y": 983,
+      "color": 85
+    }
+  ],
+  "cost": 2,
+  "pay_breakdown": {
+    "freetime": 0,
+    "voucher": 2,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher:fdb322"
+  ]
+}

@@ -1,6 +1,6 @@
 {
 	"persona":"Sirius",
-	"balance":75,
+	"balance":103,
 	"history":
 	[
 		{
@@ -34,6 +34,22 @@
 			"amount":4,
 			"source":"canvas_place",
 			"ref":"228c6e"
+		},
+		{
+			"ts":"2026-08-10T06:49:57.020Z",
+			"uuid":"00bc85",
+			"type":"consume",
+			"amount":2,
+			"source":"canvas_place",
+			"ref":"fdb322"
+		},
+		{
+			"ts":"2026-08-10T07:02:43.246Z",
+			"uuid":"d09b12",
+			"type":"grant",
+			"amount":30,
+			"source":"admin_grant",
+			"ref":"\u7e3e\u6548\u734e\u91d1"
 		}
 	]
 }

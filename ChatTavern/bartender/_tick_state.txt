@@ -1,0 +1,2 @@
+State=Idle
+EnteredAtUtc=2026-08-10T08:21:50.732Z
