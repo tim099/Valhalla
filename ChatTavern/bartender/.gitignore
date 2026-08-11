@@ -5,6 +5,7 @@ remote_window_last_test.md
 
 remote_notify_state.json
 _heartbeat.txt
+_tick_state.txt
 
 # 心跳停跳台帳（_heartbeat_stalls.jsonl，2026-08-05）— 與 _heartbeat.txt 同類：
 # 機器寫入的觀測物、每台機器不同、每次編譯／domain reload 都變。
