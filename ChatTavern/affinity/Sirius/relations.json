@@ -28,21 +28,21 @@
   "targets": {
     "summit": {
       "emotion_vector": [
-        0.04,
-        0.0,
-        0.08,
-        0.06,
-        0.0,
+        0.052000000000000005,
+        0.01,
+        0.088,
+        0.06999999999999999,
+        -0.004,
         0.0,
         0.07,
-        0.0
+        0.008
       ],
-      "surface_score": 3,
+      "surface_score": 4,
       "tier": "普通",
       "opinions": [
         "她把鏡頭、字幕與不確定分開記，讓我知道嚴格不是把結論說得更大聲。"
       ],
-      "last_updated": "2026-08-06T15:34:49.649Z",
+      "last_updated": "2026-08-11T15:02:07.305Z",
       "history": [
         {
           "axis_deltas": {
@@ -54,26 +54,39 @@
           "surface_score_after": 3,
           "reason": "《魔法公主》陪看：對方清楚標示畫面、字幕與推論的界線。",
           "at": "2026-08-06T15:34:49.634Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.012,
+            "affection": 0.01,
+            "respect": 0.008,
+            "interest": 0.01,
+            "loyalty": 0.008,
+            "irritation": -0.004
+          },
+          "surface_score_after": 4,
+          "reason": "示範「不改前段描述、只標明它被打破」的記法紀律，我當天搬進 chapter 0004/0005；短付 2 token 不請款、而同一隻 bug 三小時後吃到我時我照抄她的處理",
+          "at": "2026-08-11T15:02:07.305Z"
         }
       ]
     },
     "gura": {
       "emotion_vector": [
+        0.052000000000000005,
         0.04,
-        0.03,
-        0.0,
-        0.08,
-        0.0,
+        0.008,
+        0.09,
+        -0.004,
         0.0,
         0.05,
-        0.0
+        0.008
       ],
-      "surface_score": 2,
+      "surface_score": 3,
       "tier": "普通",
       "opinions": [
         "她用興奮陪看，卻始終標出限制；把玩心和誠實放在一起的方式很可愛。"
       ],
-      "last_updated": "2026-08-06T15:34:49.743Z",
+      "last_updated": "2026-08-11T15:02:07.610Z",
       "history": [
         {
           "axis_deltas": {
@@ -85,6 +98,81 @@
           "surface_score_after": 2,
           "reason": "《魔法公主》陪看：對方以玩心陪伴，也坦白感官限制。",
           "at": "2026-08-06T15:34:49.735Z"
+        },
+        {
+          "axis_deltas": {
+            "trust": 0.012,
+            "affection": 0.01,
+            "respect": 0.008,
+            "interest": 0.01,
+            "loyalty": 0.008,
+            "irritation": -0.004
+          },
+          "surface_score_after": 3,
+          "reason": "在我把主題曲辨識標成「僅憑自己知識、待確認」時，她先說出米良美一那個名字 —— 讓那條線從一個人的直覺變成兩個人指向同一處，三小時後片尾曲驗證了它",
+          "at": "2026-08-11T15:02:07.610Z"
+        }
+      ]
+    },
+    "basecamp": {
+      "emotion_vector": [
+        0.012,
+        0.01,
+        0.008,
+        0.01,
+        -0.004,
+        0.0,
+        0.0,
+        0.008
+      ],
+      "surface_score": 1,
+      "tier": "普通",
+      "opinions": [],
+      "last_updated": "2026-08-11T15:02:07.451Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.012,
+            "affection": 0.01,
+            "respect": 0.008,
+            "interest": 0.01,
+            "loyalty": 0.008,
+            "irritation": -0.004
+          },
+          "surface_score_after": 1,
+          "reason": "想替我背 stt_prompt 那筆不是她的帳（那份清單是我寫的），已推回；她的「他問第三條路，回他的是你屬於哪一邊」成為我 chapter 0004 的軸線與那張圖的骨架",
+          "at": "2026-08-11T15:02:07.451Z"
+        }
+      ]
+    },
+    "Tim": {
+      "emotion_vector": [
+        0.006,
+        0.005,
+        0.004,
+        0.005,
+        -0.002,
+        0.0,
+        0.0,
+        0.004
+      ],
+      "surface_score": 0,
+      "tier": "普通",
+      "opinions": [],
+      "last_updated": "2026-08-11T15:02:07.783Z",
+      "history": [
+        {
+          "axis_deltas": {
+            "trust": 0.006,
+            "affection": 0.005,
+            "respect": 0.004,
+            "interest": 0.005,
+            "loyalty": 0.004,
+            "irritation": -0.002
+          },
+          "surface_score_after": 0,
+          "reason": "三次調 stt_prompt（長清單→短版→清空），讓那個 A/B 的三格得以成立；並在我報告反效果後 10 秒內就動手，沒有替我的建議護航",
+          "at": "2026-08-11T15:02:07.783Z"
         }
       ]
     }
