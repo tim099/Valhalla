@@ -123,4 +123,5 @@ Canvas/_locks/
 # Discord mirror smoke-test webhook (secret, Tim 提供的丟棄頻道)
 PromptQueue/_smoke_test_webhook.txt
 
+/_cmd_results
 _last_cmd_error.md
