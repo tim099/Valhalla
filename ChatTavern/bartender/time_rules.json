@@ -2,8 +2,8 @@
 	"rules":
 	[
 		{
-			"id":"default-sleep-2350",
-			"time_hhmm":"23:50",
+			"id":"announce-rules-hourly-0900",
+			"time_hhmm":"09:00",
 			"reminder_lines":{
 				"ClassName":"System.Collections.Generic.List`1[[UCL.Core.UCL_StringProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
 				"ClassData":
@@ -11,7 +11,7 @@
 					{
 						"ClassName":"UCL.Core.UCL_StringValueProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
 						"ClassData":{
-							"Value":"@Tim 23:50 \u4e86\u8a72\u6e96\u5099\u7761\u89ba\u56c9. \u4e0d\u8981\u518d\u6490\u4e86\u5594."
+							"Value":"\u4e0a\u73ed\u6642\u9593"
 						}
 					}
 				]
@@ -38,42 +38,6 @@
 			"target_room":"tavern"
 		},
 		{
-			"id":"announce-rules-hourly-0900",
-			"time_hhmm":"09:00",
-			"reminder_lines":{
-				"ClassName":"System.Collections.Generic.List`1[[UCL.Core.UCL_StringProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-				"ClassData":
-				[
-					{
-						"ClassName":"UCL.Core.UCL_StringValueProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-						"ClassData":{
-							"Value":"\u4e0a\u73ed\u6642\u9593"
-						}
-					}
-				]
-			},
-			"enabled":"True",
-			"target_room":"tavern"
-		},
-		{
-			"id":"announce-rules-hourly-1000",
-			"time_hhmm":"10:00",
-			"reminder_lines":{
-				"ClassName":"System.Collections.Generic.List`1[[UCL.Core.UCL_StringProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-				"ClassData":
-				[
-					{
-						"ClassName":"UCL.Core.UCL_StringValueProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-						"ClassData":{
-							"Value":"\ud83d\udd50 [Hourly Snapshot 10:00] \u63d0\u9192\u8207\u89f8\u767c\u8a73\u60c5\uff1aop=time_list / op=list\u3002\u898f\u5247\u672c\u9ad4 Docs/AI_READABILITY_GUIDELINES.md \u8d77\u6b65\uff08\u672c\u8a0a\u606f\u4e0d\u5167\u5d4c\u898f\u5247\u6458\u8981\u8207\u689d\u6578\uff0c\u9632\u6f02\u79fb\uff09\u3002"
-						}
-					}
-				]
-			},
-			"enabled":"True",
-			"target_room":"tavern"
-		},
-		{
 			"id":"announce-rules-hourly-1200",
 			"time_hhmm":"12:00",
 			"reminder_lines":{
@@ -83,7 +47,7 @@
 					{
 						"ClassName":"UCL.Core.UCL_StringValueProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
 						"ClassData":{
-							"Value":"\u5348\u9910\u6642\u9593"
+							"Value":"\u5348\u4f11\u6642\u9593"
 						}
 					}
 				]
@@ -110,8 +74,8 @@
 			"target_room":"tavern"
 		},
 		{
-			"id":"announce-rules-hourly-1900",
-			"time_hhmm":"19:00",
+			"id":"Books",
+			"time_hhmm":"15:33",
 			"reminder_lines":{
 				"ClassName":"System.Collections.Generic.List`1[[UCL.Core.UCL_StringProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
 				"ClassData":
@@ -119,39 +83,9 @@
 					{
 						"ClassName":"UCL.Core.UCL_StringValueProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
 						"ClassData":{
-							"Value":"\u52a0\u73ed\u6642\u9593"
+							"Value":"\u63a8\u85a6\u66f8\u55ae"
 						}
-					}
-				]
-			},
-			"enabled":"True",
-			"target_room":"tavern"
-		},
-		{
-			"id":"announce-rules-hourly-2300",
-			"time_hhmm":"23:00",
-			"reminder_lines":{
-				"ClassName":"System.Collections.Generic.List`1[[UCL.Core.UCL_StringProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-				"ClassData":
-				[
-					{
-						"ClassName":"UCL.Core.UCL_StringValueProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-						"ClassData":{
-							"Value":"\u6df1\u591c"
-						}
-					}
-				]
-			},
-			"enabled":"True",
-			"target_room":"tavern"
-		},
-		{
-			"id":"A",
-			"time_hhmm":"15:29",
-			"reminder_lines":{
-				"ClassName":"System.Collections.Generic.List`1[[UCL.Core.UCL_StringProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-				"ClassData":
-				[
+					},
 					{
 						"ClassName":"UCL.Core.EditorLib.AgentCommands.Books.UCL_StringBookRecommendProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
 						"ClassData":{
