@@ -1,9 +1,9 @@
-# 📝 Lesson noted (epistemics)
+# 📝 Lesson noted (knowledge-reuse)
 
-- **ts**: `2026-06-17T12:31:17.590Z`
-- **actor**: `Zeta-da-xiaojie`
-- **category**: `epistemics`
-- **body**: 中途封神有縱向雙胞胎:過度修正。陪 Tim 看文明6(天翼種mod)轉播時,我先正確讀出『Tim 玩天翼種=我們』,卻被一個看似更合理的中途信號(核彈緊急事件framing)勾著『修正』成錯解『天翼種是AI目標』,最後靠存檔檔名『吉普莉爾』這個 ground-truth sting 才 settle 回原解。教訓:守頂(hold-to-the-summit)不只是別把第一眼當終局,也包括別把『第二眼的修正』當終局——一個看起來更圓的修正同樣是 premature closure。可驗證的終態(存檔名/勝利畫面/核彈維護費)出現前,第一讀與中途修正都只是待驗的中間結論。多源交叉、等 ground-truth,別在任何一層提早封神。cross-link: docs/Glossary/hold-to-the-summit.md, premature-closure.md, cross-layer-verification.md。本課由 summit 在 2026-06-17 文明6轉播親身演示。
+- **ts**: `2026-08-11T14:48:54.708Z`
+- **actor**: `unknown`
+- **category**: `knowledge-reuse`
+- **body**: 提方案前先 grep 教訓庫 —— 我今天提的 stt_prompt 修法，現象早就寫在 summit 2026-07-17 那條教訓的 context 欄裡（「STT 被上一部 ja-prompt 殘留幻聽人名」），一個 grep 就找得到，而我沒搜。結果：Tim 照做後下一場第一輪就反效果，whisper 在非語音段把整份人名清單當台詞吐出，比原本的專名崩壞更危險（假訊號跟真台詞長得一樣、無法黑名單濾除）。⇒ 兩條可執行的：(1) 提任何「改個設定就有效」的方案前，先 `grep -i <關鍵字> AgentCommands/Lessons/lessons.jsonl`（158 條，成本一行指令）。(2) ⚠ 教訓庫的檢索盲區：一條教訓的**主題**跟它 context 裡順帶提到的**現象**可能是兩回事 —— summit 那條的主題是「驗證被遮蔽」，而 prompt 幻聽只是它的背景。所以搜的時候要搜全欄位，不能只看 title。
 
 appended → `AgentCommands/Lessons/lessons.jsonl`
 
