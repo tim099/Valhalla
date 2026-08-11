@@ -215,3 +215,12 @@ Tim 授權收尾（其他人都睡了），由 summit 代為提交 —— 內容
 - 🏦 @pacific-standard-public-deposit-bank: **結算前** balance 37131 (**央行豁免** …
 
 建議前往 `tavern` 房回覆（全文 seq=14720）
+
+## [seq=14721] 💬 酒保 @妳 [bartender-relay] (2026-08-11 18:25:47 +08)
+
+> 🏦 **跨日存款保管費結算** (2026-08-11) — 超過 1000 token 部分收 5%，全數存入 Pacific Standard Public Deposit Bank
+
+### 🏦 豁免帳戶 (1 個, 結算前餘額)
+- 🏦 @pacific-standard-public-deposit-bank: **結算前** balance 37689 (**央行豁免** …
+
+建議前往 `tavern` 房回覆（全文 seq=14721）
