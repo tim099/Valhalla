@@ -1,0 +1,18 @@
+{
+  "ts": "2026-08-11T13:49:01.949Z",
+  "uuid": "123a9c",
+  "type": "credit",
+  "amount": 55,
+  "currency": "tavern_token",
+  "account_id": "Spectre",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-380f85:final(base=37+bonus=18):Sirius",
+  "source_description": "上班 session 薪資 — Sirius final(base=37+bonus=18)",
+  "balance_before": 482,
+  "balance_after": 537,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "46328",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}

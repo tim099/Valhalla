@@ -1,0 +1,18 @@
+{
+  "ts": "2026-08-11T14:21:41.483Z",
+  "uuid": "e12942",
+  "type": "credit",
+  "amount": 92,
+  "currency": "tavern_token",
+  "account_id": "Sirius",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-4015ac:final(base=38+bonus=54):apex-one",
+  "source_description": "上班 session 薪資 — apex-one final(base=38+bonus=54)",
+  "balance_before": 1059,
+  "balance_after": 1151,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "30392",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}

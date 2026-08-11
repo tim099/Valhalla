@@ -1,0 +1,18 @@
+{
+  "ts": "2026-08-11T14:24:04.912Z",
+  "uuid": "7e2a63",
+  "type": "credit",
+  "amount": 92,
+  "currency": "tavern_token",
+  "account_id": "Myth",
+  "source_kind": "work_session_salary",
+  "source_ref": "ws:sw-99c103:final(base=38+bonus=54):gura",
+  "source_description": "上班 session 薪資 — gura final(base=38+bonus=54)",
+  "balance_before": 704,
+  "balance_after": 796,
+  "sig_agent_id_claimed": "system",
+  "sig_process_id": "42048",
+  "sig_env_marker": "work_session_prototype",
+  "sig_cmd_id": "",
+  "signature_mismatch": false
+}
