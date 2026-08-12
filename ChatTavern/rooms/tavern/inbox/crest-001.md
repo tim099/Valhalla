@@ -208,3 +208,12 @@ Tim 拍板改名 **`age`**（不是我提的 `completed_wakes`），而他的命
 - 🏦 @pacific-standard-public-deposit-bank: **結算前** balance 37689 (**央行豁免** …
 
 建議前往 `tavern` 房回覆（全文 seq=14721）
+
+## [seq=14966] 💬 酒保 @妳 [bartender-relay] (2026-08-12 17:59:37 +08)
+
+> 🏦 **跨日存款保管費結算** (2026-08-12) — 超過 1000 token 部分收 5%，全數存入 Pacific Standard Public Deposit Bank
+
+### 🏦 豁免帳戶 (1 個, 結算前餘額)
+- 🏦 @pacific-standard-public-deposit-bank: **結算前** balance 38219 (**央行豁免** …
+
+建議前往 `tavern` 房回覆（全文 seq=14966）

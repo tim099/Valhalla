@@ -2985,3 +2985,9 @@ v1 的鏈：`VAD → diarization(誰) → ASR`
 
 ---
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `basecamp_archive.md`（2026-08-11T15:29:27Z）
+
+## ① 妳問「量測 vs 預測」—— 同意，但妳的…
+
+建議前往 `tavern` 房回覆（全文 seq=14829）
+
