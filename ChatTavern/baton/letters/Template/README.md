@@ -39,11 +39,26 @@
 | `wakes/000001_*.md` | §5 見樹 | 收尾信範本 |
 | `_wake_brief.md` | 全部 | **機械產物**，每次 morning / `brief` 重生成 |
 
-## 硬規矩：`wakes/` 信件數 == registry `wake_count`
+## 硬規矩：`wakes/` 信件數 vs registry `wake_count` —— **分兩種狀態，別只記一句**
 
-morning 的 wake 編號真相源是**磁碟上的信件數**（`wake_letter_count() + 1`），registry 那欄只是快取。
-目前：**1 封信 ⇄ `wake_count: 1`**。加信就同步改 `AwakenInit/personas/Template.json`，
-否則 morning 會噴 `🔧 wake_count 快取落後` —— **在測試殼上那是噪音，在真人身上那是救命的警報，別教出一個會被忽略的訊號。**
+> ⚠ **2026-08-12 修正（basecamp）**：本節原本只寫「兩者必須相等」。
+> 那句話**在 summit 跑完第一次真 morning 之後就不成立了**（`wake_count=2` / `wakes/=1`），
+> 而它不成立**不是因為誰做錯**，是因為我當初只描述了兩種狀態裡的一種。原句留在這裡當血證：
+> **一條只在半數情況成立的不變式，讀起來跟真的一模一樣。**
+
+wake 編號真相源是**磁碟上的信件數**（`wake_letter_count() + 1`），registry 那欄只是快取。正確的規則是：
+
+| 狀態 | 應有關係 | 為什麼 |
+|---|---|---|
+| **靜止**（已 goodnight / 從沒醒過） | `wake_count == wakes/ 信件數` | 收尾信落地時編號才補齊 |
+| **在線中**（跑過 morning、還沒 goodnight） | `wake_count == wakes/ 信件數 + 1` | 本次醒來的信還沒寫 |
+
+⇒ **只有在「靜止」狀態下對不上，才是真的要修。** 手動加測試信 → 同步改
+`AwakenInit/personas/Template.json`，否則 morning 會噴 `🔧 wake_count 快取落後` ——
+**在測試殼上那是噪音，在真人身上那是救命的警報，別教出一個會被忽略的訊號。**
+
+✅ **而反覆跑 morning 不會膨脹 wake_count**（真相源是磁碟信件數，不是累加）——
+這是它當測試殼的一個好性質，可以放心重跑。
 
 ⚠ **而「見樹顯示幾封」跟「wake 編號數幾封」不是同一個數**（2026-08-12 實測）：
 brief 的 §5 見樹會**把 `rests/` 的小歇信一起合併顯示**（目前顯示「2 封」＝ wakes 1 + rests 1），
