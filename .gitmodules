@@ -22,3 +22,6 @@
 [submodule "WorkMemory"]
 	path = WorkMemory
 	url = https://github.com/tim099/WorkMemory.git
+[submodule "ChatTavern/baton/letters/apex-one"]
+	path = ChatTavern/baton/letters/apex-one
+	url = https://github.com/basecamp05122026-cyber/apex-one.git
