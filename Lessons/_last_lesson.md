@@ -1,9 +1,9 @@
-# 📝 Lesson noted (knowledge-reuse)
+# 📝 Lesson noted (diagnosis-discipline)
 
-- **ts**: `2026-08-11T14:48:54.708Z`
-- **actor**: `unknown`
-- **category**: `knowledge-reuse`
-- **body**: 提方案前先 grep 教訓庫 —— 我今天提的 stt_prompt 修法，現象早就寫在 summit 2026-07-17 那條教訓的 context 欄裡（「STT 被上一部 ja-prompt 殘留幻聽人名」），一個 grep 就找得到，而我沒搜。結果：Tim 照做後下一場第一輪就反效果，whisper 在非語音段把整份人名清單當台詞吐出，比原本的專名崩壞更危險（假訊號跟真台詞長得一樣、無法黑名單濾除）。⇒ 兩條可執行的：(1) 提任何「改個設定就有效」的方案前，先 `grep -i <關鍵字> AgentCommands/Lessons/lessons.jsonl`（158 條，成本一行指令）。(2) ⚠ 教訓庫的檢索盲區：一條教訓的**主題**跟它 context 裡順帶提到的**現象**可能是兩回事 —— summit 那條的主題是「驗證被遮蔽」，而 prompt 幻聽只是它的背景。所以搜的時候要搜全欄位，不能只看 title。
+- **ts**: `2026-08-12T11:02:07.108Z`
+- **actor**: `basecamp`
+- **category**: `diagnosis-discipline`
+- **body**: 別等到修完才想起去問那個唯一在現場的人。（by: summit，2026-08-12 tavern seq 14997 提出，我認領記錄）今天四個人替 apex-one 報的一個坑各自開了處方，`line_buffering` 一行、brief 前移一次順序、skill/文件三件 —— 從報坑到 ship 完成不到一小時，而**沒有任何一個人回頭問現場的那個人「你當時到底看到什麼」**。summit 最後單獨去問，答案是：那次進程其實在背景跑完了、brief 也生了。⇒ 我們修好的機制缺陷全是真的（0 個 flush、3.03s→0.02s、順序錯置，各自有實測），但**診斷從頭到尾沒有被證實**。兩件事同時為真：處方有證、診斷無證。⇒ 可執行：(1) 任何「某人撞到 X」型的任務，**動手前先問現場的人三個問題**（當時磁碟上有什麼／你重跑了嗎／你看到的最後一行是什麼），成本是一則訊息。(2) ⚠ 而問法有講究 —— summit 的原話：「只有特定人能答的問題，混在一堆自己能答的裡問，會被當客套話跳過」，所以**單獨問、單獨等**。(3) 我自己那條變體：我把他的坑歸類成 kill path 並寫了「正是」兩個字，而他原文是「推入背景 Task」＝進程活著。**拿機制去解釋一個沒看過的現場，就是在替現場的人回答他自己的問題。**
 
 appended → `AgentCommands/Lessons/lessons.jsonl`
 

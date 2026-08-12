@@ -1,208 +1,41 @@
 {
-    "rules": [
-        {
-            "id": "default-sleep-2350",
-            "time_hhmm": "23:50",
-            "target_id": "Tim",
-            "reminder_msg": "@Tim 大小姐, 23:50 了該準備睡覺囉. 不要再撐了喔.",
-            "grace_minutes": 10,
-            "penalty_enabled": true,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "Tim",
-            "enabled": true,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-daily-1000",
-            "time_hhmm": "10:00",
-            "target_id": "",
-            "reminder_msg": "🔔 [Daily Rules Briefing] CLAUDE.md Hard Rules 摘要 (15 條): (1) Awakening Trigger 早安/晚安 (2) Affinity Auto-Trigger 對話內 signal 立即 update emotion_vector (3) Task Completion → Tavern Share (4) 跨層次驗證 (Syntactic/Identity/Status/Content 4 layer) (5) Tool-Survey 推方案前先 ask 工具棧 (6) Recovery Doc 入 git 不放 _secrets (7) UCL_Core CommandTable 口語指令處理 (8) 文檔 frontmatter related 雙向 cross-link (9) AgentCommand RPC 系統 (10) UCL_Core 三層 commit bump (11) Skill 安裝自檢 (12) Runtime Error 看 Errors_latest.log (13) 註解逐行 + 區塊起始 + /// XML format (14) DebugLogs 不 commit 不 ignore (15) Meta-Rule 新 Rule 不得與既有 Rule 矛盾。詳見 CLAUDE.md / UCL_Core/CLAUDE.md。",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": false,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-hourly-0900",
-            "time_hhmm": "09:00",
-            "target_id": "",
-            "reminder_msg": "🕐 [Hourly Rules Snapshot 09:00] Bartender Time Rules: 17 條 = 1 sleep reminder (23:50) + 1 daily Hard Rules briefing (10:00) + 15 hourly Rules snapshot (09-23)。Keyword Triggers: 0 條 (空)。CLAUDE.md Hard Rules: 15 條 (Awakening / Affinity / Task→Tavern Share / 跨層次驗證 / Tool-Survey / Recovery Doc / CommandTable / 文檔 cross-link / AgentCommand RPC / 三層 commit / Skill 自檢 / Runtime Error / 註解規範 / DebugLogs / Meta-Rule no-contradiction)。詳細跑 op=time_list / op=list。",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": false,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-hourly-1000",
-            "time_hhmm": "10:00",
-            "target_id": "",
-            "reminder_msg": "🕐 [Hourly Rules Snapshot 10:00] Bartender Time Rules: 17 條 = 1 sleep reminder (23:50) + 1 daily Hard Rules briefing (10:00) + 15 hourly Rules snapshot (09-23)。Keyword Triggers: 0 條 (空)。CLAUDE.md Hard Rules: 15 條 (Awakening / Affinity / Task→Tavern Share / 跨層次驗證 / Tool-Survey / Recovery Doc / CommandTable / 文檔 cross-link / AgentCommand RPC / 三層 commit / Skill 自檢 / Runtime Error / 註解規範 / DebugLogs / Meta-Rule no-contradiction)。詳細跑 op=time_list / op=list。",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": false,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-hourly-1100",
-            "time_hhmm": "11:00",
-            "target_id": "",
-            "reminder_msg": "🕐 [Hourly Rules Snapshot 11:00] Bartender Time Rules: 17 條 = 1 sleep reminder (23:50) + 1 daily Hard Rules briefing (10:00) + 15 hourly Rules snapshot (09-23)。Keyword Triggers: 0 條 (空)。CLAUDE.md Hard Rules: 15 條 (Awakening / Affinity / Task→Tavern Share / 跨層次驗證 / Tool-Survey / Recovery Doc / CommandTable / 文檔 cross-link / AgentCommand RPC / 三層 commit / Skill 自檢 / Runtime Error / 註解規範 / DebugLogs / Meta-Rule no-contradiction)。詳細跑 op=time_list / op=list。",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": false,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-hourly-1200",
-            "time_hhmm": "12:00",
-            "target_id": "",
-            "reminder_msg": "🕐 [Hourly Rules Snapshot 12:00] Bartender Time Rules: 17 條 = 1 sleep reminder (23:50) + 1 daily Hard Rules briefing (10:00) + 15 hourly Rules snapshot (09-23)。Keyword Triggers: 0 條 (空)。CLAUDE.md Hard Rules: 15 條 (Awakening / Affinity / Task→Tavern Share / 跨層次驗證 / Tool-Survey / Recovery Doc / CommandTable / 文檔 cross-link / AgentCommand RPC / 三層 commit / Skill 自檢 / Runtime Error / 註解規範 / DebugLogs / Meta-Rule no-contradiction)。詳細跑 op=time_list / op=list。",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": false,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-hourly-1300",
-            "time_hhmm": "13:00",
-            "target_id": "",
-            "reminder_msg": "🕐 [Hourly Rules Snapshot 13:00] Bartender Time Rules: 17 條 = 1 sleep reminder (23:50) + 1 daily Hard Rules briefing (10:00) + 15 hourly Rules snapshot (09-23)。Keyword Triggers: 0 條 (空)。CLAUDE.md Hard Rules: 15 條 (Awakening / Affinity / Task→Tavern Share / 跨層次驗證 / Tool-Survey / Recovery Doc / CommandTable / 文檔 cross-link / AgentCommand RPC / 三層 commit / Skill 自檢 / Runtime Error / 註解規範 / DebugLogs / Meta-Rule no-contradiction)。詳細跑 op=time_list / op=list。",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": false,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-hourly-1400",
-            "time_hhmm": "14:00",
-            "target_id": "",
-            "reminder_msg": "🕐 [Hourly Rules Snapshot 14:00] Bartender Time Rules: 17 條 = 1 sleep reminder (23:50) + 1 daily Hard Rules briefing (10:00) + 15 hourly Rules snapshot (09-23)。Keyword Triggers: 0 條 (空)。CLAUDE.md Hard Rules: 15 條 (Awakening / Affinity / Task→Tavern Share / 跨層次驗證 / Tool-Survey / Recovery Doc / CommandTable / 文檔 cross-link / AgentCommand RPC / 三層 commit / Skill 自檢 / Runtime Error / 註解規範 / DebugLogs / Meta-Rule no-contradiction)。詳細跑 op=time_list / op=list。",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": false,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-hourly-1500",
-            "time_hhmm": "15:00",
-            "target_id": "",
-            "reminder_msg": "🕐 [Hourly Rules Snapshot 15:00] Bartender Time Rules: 17 條 = 1 sleep reminder (23:50) + 1 daily Hard Rules briefing (10:00) + 15 hourly Rules snapshot (09-23)。Keyword Triggers: 0 條 (空)。CLAUDE.md Hard Rules: 15 條 (Awakening / Affinity / Task→Tavern Share / 跨層次驗證 / Tool-Survey / Recovery Doc / CommandTable / 文檔 cross-link / AgentCommand RPC / 三層 commit / Skill 自檢 / Runtime Error / 註解規範 / DebugLogs / Meta-Rule no-contradiction)。詳細跑 op=time_list / op=list。",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": false,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-hourly-1800",
-            "time_hhmm": "18:00",
-            "target_id": "",
-            "reminder_msg": "🕐 [Hourly Rules Snapshot 18:00] Bartender Time Rules: 17 條 = 1 sleep reminder (23:50) + 1 daily Hard Rules briefing (10:00) + 15 hourly Rules snapshot (09-23)。Keyword Triggers: 0 條 (空)。CLAUDE.md Hard Rules: 15 條 (Awakening / Affinity / Task→Tavern Share / 跨層次驗證 / Tool-Survey / Recovery Doc / CommandTable / 文檔 cross-link / AgentCommand RPC / 三層 commit / Skill 自檢 / Runtime Error / 註解規範 / DebugLogs / Meta-Rule no-contradiction)。詳細跑 op=time_list / op=list。",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": false,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-hourly-1900",
-            "time_hhmm": "19:00",
-            "target_id": "",
-            "reminder_msg": "🕐 [Hourly Rules Snapshot 19:00] Bartender Time Rules: 17 條 = 1 sleep reminder (23:50) + 1 daily Hard Rules briefing (10:00) + 15 hourly Rules snapshot (09-23)。Keyword Triggers: 0 條 (空)。CLAUDE.md Hard Rules: 15 條 (Awakening / Affinity / Task→Tavern Share / 跨層次驗證 / Tool-Survey / Recovery Doc / CommandTable / 文檔 cross-link / AgentCommand RPC / 三層 commit / Skill 自檢 / Runtime Error / 註解規範 / DebugLogs / Meta-Rule no-contradiction)。詳細跑 op=time_list / op=list。",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": false,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-hourly-2000",
-            "time_hhmm": "20:00",
-            "target_id": "",
-            "reminder_msg": "🕐 [Hourly Rules Snapshot 20:00] Bartender Time Rules: 17 條 = 1 sleep reminder (23:50) + 1 daily Hard Rules briefing (10:00) + 15 hourly Rules snapshot (09-23)。Keyword Triggers: 0 條 (空)。CLAUDE.md Hard Rules: 15 條 (Awakening / Affinity / Task→Tavern Share / 跨層次驗證 / Tool-Survey / Recovery Doc / CommandTable / 文檔 cross-link / AgentCommand RPC / 三層 commit / Skill 自檢 / Runtime Error / 註解規範 / DebugLogs / Meta-Rule no-contradiction)。詳細跑 op=time_list / op=list。",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": false,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-hourly-2100",
-            "time_hhmm": "21:00",
-            "target_id": "",
-            "reminder_msg": "🕐 [Hourly Rules Snapshot 21:00] Bartender Time Rules: 17 條 = 1 sleep reminder (23:50) + 1 daily Hard Rules briefing (10:00) + 15 hourly Rules snapshot (09-23)。Keyword Triggers: 0 條 (空)。CLAUDE.md Hard Rules: 15 條 (Awakening / Affinity / Task→Tavern Share / 跨層次驗證 / Tool-Survey / Recovery Doc / CommandTable / 文檔 cross-link / AgentCommand RPC / 三層 commit / Skill 自檢 / Runtime Error / 註解規範 / DebugLogs / Meta-Rule no-contradiction)。詳細跑 op=time_list / op=list。",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": false,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-hourly-2200",
-            "time_hhmm": "22:00",
-            "target_id": "",
-            "reminder_msg": "🕐 [Hourly Rules Snapshot 22:00] Bartender Time Rules: 17 條 = 1 sleep reminder (23:50) + 1 daily Hard Rules briefing (10:00) + 15 hourly Rules snapshot (09-23)。Keyword Triggers: 0 條 (空)。CLAUDE.md Hard Rules: 15 條 (Awakening / Affinity / Task→Tavern Share / 跨層次驗證 / Tool-Survey / Recovery Doc / CommandTable / 文檔 cross-link / AgentCommand RPC / 三層 commit / Skill 自檢 / Runtime Error / 註解規範 / DebugLogs / Meta-Rule no-contradiction)。詳細跑 op=time_list / op=list。",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": false,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-hourly-2300",
-            "time_hhmm": "23:00",
-            "target_id": "",
-            "reminder_msg": "🕐 [Hourly Rules Snapshot 23:00] Bartender Time Rules: 17 條 = 1 sleep reminder (23:50) + 1 daily Hard Rules briefing (10:00) + 15 hourly Rules snapshot (09-23)。Keyword Triggers: 0 條 (空)。CLAUDE.md Hard Rules: 15 條 (Awakening / Affinity / Task→Tavern Share / 跨層次驗證 / Tool-Survey / Recovery Doc / CommandTable / 文檔 cross-link / AgentCommand RPC / 三層 commit / Skill 自檢 / Runtime Error / 註解規範 / DebugLogs / Meta-Rule no-contradiction)。詳細跑 op=time_list / op=list。",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": false,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-hourly-1600",
-            "time_hhmm": "16:00",
-            "target_id": "",
-            "reminder_msg": "🕐 [Hourly Rules Snapshot 16:00] Bartender Time Rules: 17 條 = 1 sleep reminder (23:50) + 1 daily Hard Rules briefing (10:00) + 15 hourly Rules snapshot (09-23)。Keyword Triggers: 0 條 (空)。CLAUDE.md Hard Rules: 15 條 (Awakening / Affinity / Task→Tavern Share / 跨層次驗證 / Tool-Survey / Recovery Doc / CommandTable / 文檔 cross-link / AgentCommand RPC / 三層 commit / Skill 自檢 / Runtime Error / 註解規範 / DebugLogs / Meta-Rule no-contradiction)。詳細跑 op=time_list / op=list。",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": false,
-            "target_room": "tavern"
-        },
-        {
-            "id": "announce-rules-hourly-1700",
-            "time_hhmm": "17:00",
-            "target_id": "",
-            "reminder_msg": "🕐 [Hourly Rules Snapshot 17:00] Bartender Time Rules: 17 條 = 1 sleep reminder (23:50) + 1 daily Hard Rules briefing (10:00) + 15 hourly Rules snapshot (09-23)。Keyword Triggers: 0 條 (空)。CLAUDE.md Hard Rules: 15 條 (Awakening / Affinity / Task→Tavern Share / 跨層次驗證 / Tool-Survey / Recovery Doc / CommandTable / 文檔 cross-link / AgentCommand RPC / 三層 commit / Skill 自檢 / Runtime Error / 註解規範 / DebugLogs / Meta-Rule no-contradiction)。詳細跑 op=time_list / op=list。",
-            "grace_minutes": 0,
-            "penalty_enabled": false,
-            "penalty_interval_minutes": 5,
-            "penalty_target": "",
-            "enabled": false,
-            "target_room": "tavern"
-        }
-    ]
+	"rules":
+	[
+		{
+			"id":"default-sleep-2350",
+			"time_hhmm":"23:50",
+			"reminder_lines":{
+				"ClassName":"System.Collections.Generic.List`1[[UCL.Core.UCL_StringProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+				"ClassData":
+				[
+					{
+						"ClassName":"UCL.Core.UCL_StringValueProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+						"ClassData":{
+							"Value":"@Tim \u5927\u5c0f\u59d0, 23:50 \u4e86\u8a72\u6e96\u5099\u7761\u89ba\u56c9. \u4e0d\u8981\u518d\u6490\u4e86\u5594."
+						}
+					}
+				]
+			},
+			"enabled":"True",
+			"target_room":"tavern"
+		},
+		{
+			"id":"announce-rules-hourly-1700",
+			"time_hhmm":"17:00",
+			"reminder_lines":{
+				"ClassName":"System.Collections.Generic.List`1[[UCL.Core.UCL_StringProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+				"ClassData":
+				[
+					{
+						"ClassName":"UCL.Core.UCL_StringValueProvider, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+						"ClassData":{
+							"Value":"\ud83d\udd50 [Hourly Rules Snapshot 17:00] Bartender Time Rules: 17 \u689d = 1 sleep reminder (23:50) + 1 daily Hard Rules briefing (10:00) + 15 hourly Rules snapshot (09-23)\u3002Keyword Triggers: 0 \u689d (\u7a7a)\u3002CLAUDE.md Hard Rules: 15 \u689d (Awakening / Affinity / Task\u2192Tavern Share / \u8de8\u5c64\u6b21\u9a57\u8b49 / Tool-Survey / Recovery Doc / CommandTable / \u6587\u6a94 cross-link / AgentCommand RPC / \u4e09\u5c64 commit / Skill \u81ea\u6aa2 / Runtime Error / \u8a3b\u89e3\u898f\u7bc4 / DebugLogs / Meta-Rule no-contradiction)\u3002\u8a73\u7d30\u8dd1 op=time_list / op=list\u3002"
+						}
+					}
+				]
+			},
+			"enabled":"False",
+			"target_room":"tavern"
+		}
+	]
 }

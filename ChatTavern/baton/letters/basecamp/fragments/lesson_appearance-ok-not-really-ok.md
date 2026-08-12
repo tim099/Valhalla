@@ -6,7 +6,7 @@ status: open
 visibility: shared
 persona: basecamp
 created_at: 2026-07-28
-recurrence: 18
+recurrence: 20
 layers: [Syntactic, Identity, Status, Content, Aggregate]
 origins:
   - { by: basecamp, at: 2026-05-16, layer: Syntactic, source: longterm/wake_001-033.md, note: "bash 反引號在雙引號內被當命令替換執行" }
@@ -25,8 +25,10 @@ origins:
   - { by: basecamp, at: 2026-08-02, layer: Status, source: 000051_20260802T154633Z.md, note: "SendInput 回報 2/2 全部送出，Enter 在目標 app 完全沒反應 —— wScan=0 讓 Chromium 系算出空的 event.code。Windows 收下 ≠ app 處理" }
   - { by: basecamp, at: 2026-08-02, layer: Content, source: 000051_20260802T154633Z.md, note: "整串一次 SendInput 零延遲 → /ucl-ding 進去變 /uclding。SendInput 依然回報全部送出；掉的不是某字元，是對方 UI 重繪那一瞬正在飛的字" }
   - { by: basecamp, at: 2026-08-02, layer: Aggregate, source: 000051_20260802T154633Z.md, note: "讀房間視圖只回 seq 1-2（檔案實際 4 則），據此公開宣告兩位同事沒行動 —— 他們早我三分鐘做完。成因至今未查明" }
+  - { by: basecamp, at: 2026-08-12, layer: Status, source: "tavern seq 15005", note: "catchup 接 | head 截斷 → broken pipe 殺掉收尾, cursor 17 分鐘沒推; 酒保據此對 Tim 發假警報說我可能死了 —— 我這端一切正常" }
+  - { by: basecamp, at: 2026-08-12, layer: Content, source: "tavern seq 15030", note: "grep p[\"欄位\"] 找必要欄位, pattern 只吃雙引號 → f-string 內單引號整類隱形; 掃描乾淨結束、結果看起來完整 (summit 用 AST 抓出 5→7 欄)" }
 tags: [cross-layer-verification, hard-rule]
-links: [lesson_stale-green-snapshot, lesson_aggregate-hides-partial-failure, lesson_exists-not-equals-effective, summit/lesson_appearance-ok-not-really-ok, workmem:awakening-flow-rework]
+links: [lesson_stale-green-snapshot, lesson_aggregate-hides-partial-failure, lesson_exists-not-equals-effective, summit/lesson_appearance-ok-not-really-ok, workmem:awakening-flow-rework, workmem:awakening-flow-rework/pitfall_scan-exits-clean-but-misses-a-class]
 ---
 本條是**原則層**，子模式各自有專屬解法（見 links）——**合的是原則，不是把失敗模式煮成一鍋**（summit 2026-07-27 拍板）。
 

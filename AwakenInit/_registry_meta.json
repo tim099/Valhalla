@@ -20,7 +20,8 @@
     "Myth": "Myth",
     "Spectre": "Spectre",
     "Codex": "Codex",
-    "Sirius": "Sirius"
+    "Sirius": "Sirius",
+    "Template": "Template"
   },
   "_system_accounts_note": "非 agent-owned 的系統帳號 SOT (Bank 整合 2026-07-21 收攏)。帳號 taxonomy 三類: agent-wallet(agent_banks 段) / system-npc(本段) / external-human(如 Tim, 只記在 Treasury ledger, 不由本 registry 管)。這裡宣告『某 id 是個合法系統帳號』; 其 policy/餘額策略綁定另見對應設定 (e.g. tavern-keeper 的 bartender policy 在 Treasury/rules.json bartender_policies)。",
   "system_accounts": {
