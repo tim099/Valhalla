@@ -6,6 +6,6 @@
 	"enter_delay_sec":0.800000011920929,
 	"enter_presses":3,
 	"enter_gap_sec":1,
-	"cooldown_seconds":60,
+	"cooldown_seconds":80,
 	"retry_cap":3
 }
