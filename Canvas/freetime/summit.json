@@ -1,35 +1,102 @@
 {
-  "persona": "summit",
-  "session_id": "ft-20260813T055716Z-summit",
-  "granted": 10,
-  "used": 10,
-  "granted_at": "2026-08-13T05:57:16.987Z",
-  "history": [
-    {
-      "ts": "2026-06-04T00:51:23.597Z",
-      "uuid": "f1cba3",
-      "ref": "d14bd1",
-      "session_id": "ft-20260604T001133Z-summit"
-    },
-    {
-      "ts": "2026-06-04T01:27:59.916Z",
-      "uuid": "a0953c",
-      "ref": "9732ff",
-      "session_id": "ft-20260604T001133Z-summit"
-    },
-    {
-      "ts": "2026-08-13T05:58:53.407Z",
-      "uuid": "88967d",
-      "ref": "bd2273",
-      "session_id": "ft-20260813T055716Z-summit",
-      "count": 6
-    },
-    {
-      "ts": "2026-08-13T06:01:09.858Z",
-      "uuid": "cb8a91",
-      "ref": "9597f0",
-      "session_id": "ft-20260813T055716Z-summit",
-      "count": 4
-    }
-  ]
+	"persona":"summit",
+	"session_id":"ft-20260813T090208Z-summit",
+	"granted":10,
+	"used":10,
+	"granted_at":"2026-08-13T09:02:08.279Z",
+	"history":
+	[
+		{
+			"ts":"2026-06-04T00:51:23.597Z",
+			"uuid":"f1cba3",
+			"ref":"d14bd1",
+			"session_id":"ft-20260604T001133Z-summit"
+		},
+		{
+			"ts":"2026-06-04T01:27:59.916Z",
+			"uuid":"a0953c",
+			"ref":"9732ff",
+			"session_id":"ft-20260604T001133Z-summit"
+		},
+		{
+			"ts":"2026-08-13T05:58:53.407Z",
+			"uuid":"88967d",
+			"ref":"bd2273",
+			"session_id":"ft-20260813T055716Z-summit",
+			"count":6
+		},
+		{
+			"ts":"2026-08-13T06:01:09.858Z",
+			"uuid":"cb8a91",
+			"ref":"9597f0",
+			"session_id":"ft-20260813T055716Z-summit",
+			"count":4
+		},
+		{
+			"ts":"2026-08-13T07:57:44.139Z",
+			"ref":"sculpture:155744_119_146629.json",
+			"session_id":"ft-20260813T075636Z-summit",
+			"count":3
+		},
+		{
+			"ts":"2026-08-13T07:57:46.077Z",
+			"ref":"sculpture:155746_063_86485d.json",
+			"session_id":"ft-20260813T075636Z-summit",
+			"count":2
+		},
+		{
+			"ts":"2026-08-13T07:57:49.174Z",
+			"ref":"sculpture:155749_146_615ede.json",
+			"session_id":"ft-20260813T075636Z-summit",
+			"count":1
+		},
+		{
+			"ts":"2026-08-13T07:57:51.133Z",
+			"ref":"sculpture:155751_116_d62fb4.json",
+			"session_id":"ft-20260813T075636Z-summit",
+			"count":1
+		},
+		{
+			"ts":"2026-08-13T07:57:52.112Z",
+			"ref":"sculpture:155752_089_19213c.json",
+			"session_id":"ft-20260813T075636Z-summit",
+			"count":1
+		},
+		{
+			"ts":"2026-08-13T07:57:54.073Z",
+			"ref":"sculpture:155754_055_a534e0.json",
+			"session_id":"ft-20260813T075636Z-summit",
+			"count":1
+		},
+		{
+			"ts":"2026-08-13T09:02:56.011Z",
+			"ref":"sculpture:170255_981_d02140.json",
+			"session_id":"ft-20260813T090208Z-summit",
+			"count":2
+		},
+		{
+			"ts":"2026-08-13T09:02:58.082Z",
+			"ref":"sculpture:170258_062_05c85c.json",
+			"session_id":"ft-20260813T090208Z-summit",
+			"count":3
+		},
+		{
+			"ts":"2026-08-13T09:03:00.382Z",
+			"ref":"sculpture:170300_362_2cbe83.json",
+			"session_id":"ft-20260813T090208Z-summit",
+			"count":2
+		},
+		{
+			"ts":"2026-08-13T09:03:02.433Z",
+			"ref":"sculpture:170302_408_87efb0.json",
+			"session_id":"ft-20260813T090208Z-summit",
+			"count":2
+		},
+		{
+			"ts":"2026-08-13T09:03:04.537Z",
+			"ref":"sculpture:170304_518_29d590.json",
+			"session_id":"ft-20260813T090208Z-summit",
+			"count":1
+		}
+	]
 }

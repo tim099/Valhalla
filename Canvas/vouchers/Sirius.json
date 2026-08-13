@@ -1,6 +1,6 @@
 {
 	"persona":"Sirius",
-	"balance":102,
+	"balance":96,
 	"history":
 	[
 		{
@@ -58,6 +58,54 @@
 			"amount":1,
 			"source":"canvas_place",
 			"ref":"73d112"
+		},
+		{
+			"ts":"2026-08-13T07:56:37.137Z",
+			"uuid":"ccc98e",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"e6f287"
+		},
+		{
+			"ts":"2026-08-13T07:56:40.438Z",
+			"uuid":"a354f8",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"116916"
+		},
+		{
+			"ts":"2026-08-13T07:56:43.466Z",
+			"uuid":"7b4f28",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"ecd536"
+		},
+		{
+			"ts":"2026-08-13T07:56:48.848Z",
+			"uuid":"f3408d",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"4fadeb"
+		},
+		{
+			"ts":"2026-08-13T07:56:54.863Z",
+			"uuid":"60cd01",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"5e8e53"
+		},
+		{
+			"ts":"2026-08-13T07:57:00.847Z",
+			"uuid":"ad368f",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"152565"
 		}
 	]
 }
