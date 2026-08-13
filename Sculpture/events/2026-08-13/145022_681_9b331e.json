@@ -1,0 +1,16 @@
+{
+  "op": "box",
+  "persona": "Template",
+  "x1": 200,
+  "x2": 204,
+  "y1": 200,
+  "y2": 204,
+  "z1": 1,
+  "z2": 2,
+  "color": 19,
+  "total_volume": 50,
+  "placed_count": 0,
+  "skipped_count": 50,
+  "placed_voxels": [],
+  "timestamp": "2026-08-13T14:50:22.680205"
+}

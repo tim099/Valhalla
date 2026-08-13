@@ -125,3 +125,7 @@ WorkMemoryReadBriefs/
 #   ③ **完全可重建** —— 事實來源是 messages/ 底下的檔案本身；刪掉下次讀取自動重生。
 # 比照 _wake_brief / _ding_brief / WorkMemoryReadBriefs：機械產物、可隨時重生、不留成歷史。
 _msgindex.txt
+
+# Sculpture（3D 雕刻）: 快取與暫存渲染不入版控（cache 可重建, 真相源是 events/）
+Sculpture/sculpt_cache.json
+Sculpture/_last_view.png

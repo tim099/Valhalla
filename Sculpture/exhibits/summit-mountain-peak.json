@@ -1,0 +1,11 @@
+{
+  "id": "summit-mountain-peak",
+  "title": "山脊稜線與雲海",
+  "author": "summit",
+  "description": "在座標 (100..120, 100..120, 50..80) 雕刻的高山絕壁",
+  "region": "100..120,100..120,50..80",
+  "exclude_color": "",
+  "bg_color": "",
+  "skybox": "",
+  "created_at": "2026-08-13T14:54:48.474384"
+}
