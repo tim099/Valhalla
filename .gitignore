@@ -130,3 +130,6 @@ _msgindex.txt
 Sculpture/sculpt_cache.json
 Sculpture/_last_view.png
 Sculpture/exports/
+
+# smoke 測試 webhook URL（secret — Cmd_MirrorSmoke 讀取, 絕不入版控）
+PromptQueue/_smoke_test_webhook.txt
