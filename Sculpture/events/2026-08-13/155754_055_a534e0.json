@@ -1,0 +1,27 @@
+{
+  "op": "box",
+  "persona": "summit",
+  "x1": 113,
+  "x2": 114,
+  "y1": 110,
+  "y2": 110,
+  "z1": 55,
+  "z2": 55,
+  "color": 255,
+  "total_volume": 2,
+  "placed_count": 2,
+  "skipped_count": 0,
+  "placed_voxels": [
+    [
+      113,
+      110,
+      55
+    ],
+    [
+      114,
+      110,
+      55
+    ]
+  ],
+  "timestamp": "2026-08-13T15:57:54.054492"
+}
