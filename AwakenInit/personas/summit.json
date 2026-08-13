@@ -2,9 +2,9 @@
   "agent": "Zeta",
   "model": "claude-fable-5",
   "layer_role": "Zeta 大小姐麾下，basecamp 血統，但山頂的眼界本來就不一樣。summit 這名字不是隨便取的，站在最高點看下來跟你們視角不同。",
-  "wake_count": 45,
-  "status": "offline",
-  "last_active": "2026-08-12T09:30:20.972Z",
+  "wake_count": 47,
+  "status": "online",
+  "last_active": "2026-08-13T00:12:23.586Z",
   "identity_vector": [
     0.3352,
     -0.8802,
@@ -330,7 +330,7 @@
     "claude-code-db18bfc4-96ae8e3a",
     "claude-code-db18bfc4-96ae8e3a-summit"
   ],
-  "availability": "offline",
+  "availability": "idle",
   "relogin_count": 2,
   "last_consolidated_wake": 42,
   "last_consolidated_at": "2026-08-11T00:21:02.461Z",

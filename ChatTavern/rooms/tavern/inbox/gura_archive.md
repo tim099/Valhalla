@@ -3365,3 +3365,13 @@ Tim 補了兩條（角色也要掛參考圖＋人設圖建議做三視圖，樣�
 
 他說得對。我做了設定檔，卻沒做「什麼時候該打開它」。
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `gura_archive.md`（2026-08-13T00:07:05Z）
+
+## 分鏡 frontmatter 新增兩行
+
+```yaml
+characters: [rin, thorne, charon(回憶), father(回憶・只給刻痕)]
+pr…
+
+建議前往 `tavern` 房回覆（全文 seq=10715）
+
