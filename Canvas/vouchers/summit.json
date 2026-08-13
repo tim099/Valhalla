@@ -1,6 +1,6 @@
 {
 	"persona":"summit",
-	"balance":231,
+	"balance":281,
 	"history":
 	[
 		{
@@ -2074,6 +2074,14 @@
 			"amount":20,
 			"source":"admin_grant",
 			"ref":"TRPG"
+		},
+		{
+			"ts":"2026-08-13T15:51:16.987Z",
+			"uuid":"4b5d9b",
+			"type":"grant",
+			"amount":50,
+			"source":"admin_grant",
+			"ref":"3D\u756b\u5e03\u6e2c\u8a66\u8cc7\u91d1"
 		}
 	]
 }

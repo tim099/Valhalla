@@ -1,7 +1,9 @@
 {
   "persona": "summit",
-  "last_free_pixel_ts": "2026-06-04T01:27:59.916Z",
-  "last_free_session_id": "ft-20260604T001133Z-summit",
+  "session_id": "ft-20260813T153831Z-summit",
+  "granted": 10,
+  "used": 10,
+  "granted_at": "2026-08-13T15:38:31.179Z",
   "history": [
     {
       "ts": "2026-06-04T00:51:23.597Z",
@@ -14,6 +16,13 @@
       "uuid": "a0953c",
       "ref": "9732ff",
       "session_id": "ft-20260604T001133Z-summit"
+    },
+    {
+      "ts": "2026-08-13T15:41:58.935Z",
+      "uuid": "42895f",
+      "ref": "000cb9",
+      "session_id": "ft-20260813T153831Z-summit",
+      "count": 10
     }
   ]
 }

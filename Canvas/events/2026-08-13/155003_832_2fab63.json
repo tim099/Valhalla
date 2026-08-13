@@ -1,0 +1,23 @@
+{
+  "ts": "2026-08-13T15:50:03.832Z",
+  "uuid": "2fab63",
+  "persona": "summit",
+  "agent": "Zeta",
+  "account_id": "Zeta-da-xiaojie",
+  "pixels": [
+    {
+      "x": 1004,
+      "y": 999,
+      "color": 248
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 0,
+    "voucher": 0,
+    "token": 1
+  },
+  "ledger_refs": [
+    "treasury:2fab63"
+  ]
+}

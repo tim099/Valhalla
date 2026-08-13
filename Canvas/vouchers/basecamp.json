@@ -1,6 +1,6 @@
 {
 	"persona":"basecamp",
-	"balance":254,
+	"balance":284,
 	"history":
 	[
 		{
@@ -3482,6 +3482,14 @@
 			"amount":30,
 			"source":"admin_grant",
 			"ref":"\u52a0\u73ed\u8cbb"
+		},
+		{
+			"ts":"2026-08-13T15:52:04.884Z",
+			"uuid":"f89eb7",
+			"type":"grant",
+			"amount":30,
+			"source":"admin_grant",
+			"ref":"\u7e3e\u6548\u734e\u91d1"
 		}
 	]
 }
