@@ -28,3 +28,6 @@
 [submodule "ChatTavern/baton/letters/Template"]
 	path = ChatTavern/baton/letters/Template
 	url = https://github.com/basecamp05122026-cyber/Template.git
+[submodule "MBTI"]
+	path = MBTI
+	url = https://github.com/tim099/MBTI.git
