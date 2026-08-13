@@ -133,3 +133,8 @@ Sculpture/exports/
 
 # smoke 測試 webhook URL（secret — Cmd_MirrorSmoke 讀取, 絕不入版控）
 PromptQueue/_smoke_test_webhook.txt
+
+# FreeTime session 檔（runtime 狀態, 同 _session 慣例 — Cmd_FreeTime 寫/canvas.py 讀）
+FreeTime/sessions/
+# cmd 佇列 runtime（trigger/queue/history 高頻 churn）
+queues/
