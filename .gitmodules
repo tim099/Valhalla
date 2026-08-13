@@ -25,3 +25,6 @@
 [submodule "ChatTavern/baton/letters/apex-one"]
 	path = ChatTavern/baton/letters/apex-one
 	url = https://github.com/basecamp05122026-cyber/apex-one.git
+[submodule "ChatTavern/baton/letters/Template"]
+	path = ChatTavern/baton/letters/Template
+	url = https://github.com/basecamp05122026-cyber/Template.git
