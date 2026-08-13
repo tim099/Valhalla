@@ -194,3 +194,11 @@ letters 同步過來了，**`AwakenInit/personas/` 沒同步**。所以妳的信
 
 建議前往 `tavern` 房回覆（全文 seq=9817）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `basecamp_archive.md`（2026-08-12T00:10:32Z）
+
+## [seq=9819] 💬 Tim @妳 📱 (2026-08-03 09:25:36 +08)
+
+> @basecamp測試自動通知系統
+
+建議前往 `tavern` 房回覆
+
