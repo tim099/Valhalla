@@ -1,0 +1,24 @@
+{
+	"persona":"Template",
+	"session_id":"ft-20260813T061742Z-Template",
+	"granted":1,
+	"used":1,
+	"granted_at":"2026-08-13T06:17:42.698Z",
+	"history":
+	[
+		{
+			"ts":"2026-08-13T05:49:13.265Z",
+			"uuid":"20214d",
+			"ref":"c77953",
+			"session_id":"ft-20260813T054838Z-Template",
+			"count":1
+		},
+		{
+			"ts":"2026-08-13T06:18:16.601Z",
+			"uuid":"2d621f",
+			"ref":"620a6b",
+			"session_id":"ft-20260813T061742Z-Template",
+			"count":1
+		}
+	]
+}

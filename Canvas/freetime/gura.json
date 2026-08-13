@@ -1,0 +1,79 @@
+{
+  "persona": "gura",
+  "session_id": "ft-20260813T055730Z-gura",
+  "granted": 10,
+  "used": 10,
+  "granted_at": "2026-08-13T05:57:30.935Z",
+  "history": [
+    {
+      "ts": "2026-08-13T05:57:59.325Z",
+      "uuid": "bbd825",
+      "ref": "5c622d",
+      "session_id": "ft-20260813T055730Z-gura",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T06:00:44.135Z",
+      "uuid": "673052",
+      "ref": "bc537f",
+      "session_id": "ft-20260813T055730Z-gura",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T06:01:46.887Z",
+      "uuid": "0ffdb5",
+      "ref": "235b0f",
+      "session_id": "ft-20260813T055730Z-gura",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T06:01:50.459Z",
+      "uuid": "3a8227",
+      "ref": "25da67",
+      "session_id": "ft-20260813T055730Z-gura",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T06:01:54.009Z",
+      "uuid": "1c0b39",
+      "ref": "6cea8f",
+      "session_id": "ft-20260813T055730Z-gura",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T06:01:57.662Z",
+      "uuid": "876aeb",
+      "ref": "5379f9",
+      "session_id": "ft-20260813T055730Z-gura",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T06:02:01.408Z",
+      "uuid": "996ac5",
+      "ref": "f3cc76",
+      "session_id": "ft-20260813T055730Z-gura",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T06:02:05.573Z",
+      "uuid": "1c7258",
+      "ref": "4b782c",
+      "session_id": "ft-20260813T055730Z-gura",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T06:02:09.712Z",
+      "uuid": "d1fd0c",
+      "ref": "a8233f",
+      "session_id": "ft-20260813T055730Z-gura",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T06:02:13.377Z",
+      "uuid": "4f9764",
+      "ref": "2fae37",
+      "session_id": "ft-20260813T055730Z-gura",
+      "count": 1
+    }
+  ]
+}

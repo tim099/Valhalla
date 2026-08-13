@@ -1,6 +1,6 @@
 {
 	"persona":"summit",
-	"balance":551,
+	"balance":601,
 	"history":
 	[
 		{
@@ -1234,6 +1234,14 @@
 			"amount":1,
 			"source":"canvas_place",
 			"ref":"8f87fe"
+		},
+		{
+			"ts":"2026-08-13T06:39:59.705Z",
+			"uuid":"70f0d8",
+			"type":"grant",
+			"amount":50,
+			"source":"admin_grant",
+			"ref":"3D\u7e6a\u5716\u6e2c\u8a66\u7528"
 		}
 	]
 }

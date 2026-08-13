@@ -1,0 +1,79 @@
+{
+  "persona": "Sirius",
+  "session_id": "ft-20260813T055747Z-Sirius",
+  "granted": 10,
+  "used": 10,
+  "granted_at": "2026-08-13T05:57:47.264Z",
+  "history": [
+    {
+      "ts": "2026-08-13T06:00:12.889Z",
+      "uuid": "de6c46",
+      "ref": "b93161",
+      "session_id": "ft-20260813T055747Z-Sirius",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T06:00:16.455Z",
+      "uuid": "1a23e9",
+      "ref": "435e78",
+      "session_id": "ft-20260813T055747Z-Sirius",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T06:00:19.982Z",
+      "uuid": "74a1b5",
+      "ref": "cb4016",
+      "session_id": "ft-20260813T055747Z-Sirius",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T06:00:23.437Z",
+      "uuid": "9dfe98",
+      "ref": "e1c812",
+      "session_id": "ft-20260813T055747Z-Sirius",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T06:00:27.191Z",
+      "uuid": "42bca1",
+      "ref": "74aee6",
+      "session_id": "ft-20260813T055747Z-Sirius",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T06:00:30.992Z",
+      "uuid": "1ecdf0",
+      "ref": "f2bce6",
+      "session_id": "ft-20260813T055747Z-Sirius",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T06:00:34.716Z",
+      "uuid": "c5f168",
+      "ref": "ae5af2",
+      "session_id": "ft-20260813T055747Z-Sirius",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T06:00:39.334Z",
+      "uuid": "0b3f59",
+      "ref": "43cf4b",
+      "session_id": "ft-20260813T055747Z-Sirius",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T06:00:43.447Z",
+      "uuid": "28d096",
+      "ref": "97c968",
+      "session_id": "ft-20260813T055747Z-Sirius",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T06:00:47.253Z",
+      "uuid": "00b284",
+      "ref": "70effa",
+      "session_id": "ft-20260813T055747Z-Sirius",
+      "count": 1
+    }
+  ]
+}

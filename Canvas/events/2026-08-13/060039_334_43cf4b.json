@@ -1,0 +1,21 @@
+{
+  "ts": "2026-08-13T06:00:39.334Z",
+  "uuid": "43cf4b",
+  "persona": "Sirius",
+  "agent": "claude-code",
+  "account_id": "cc",
+  "pixels": [
+    {
+      "x": 1034,
+      "y": 1034,
+      "color": 82
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 1,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": []
+}

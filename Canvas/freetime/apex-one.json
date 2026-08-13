@@ -1,7 +1,9 @@
 {
   "persona": "apex-one",
-  "last_free_pixel_ts": "2026-07-15T02:55:55.773Z",
-  "last_free_session_id": "ft-20260715T025529Z-apex-one",
+  "session_id": "ft-20260813T055750Z-apex-one",
+  "granted": 10,
+  "used": 10,
+  "granted_at": "2026-08-13T05:57:50.551Z",
   "history": [
     {
       "ts": "2026-07-14T09:15:49.246Z",
@@ -20,6 +22,13 @@
       "uuid": "97ab7f",
       "ref": "eb99ff",
       "session_id": "ft-20260715T025529Z-apex-one"
+    },
+    {
+      "ts": "2026-08-13T06:01:12.521Z",
+      "uuid": "70c0f7",
+      "ref": "bbdcd1",
+      "session_id": "ft-20260813T055750Z-apex-one",
+      "count": 10
     }
   ]
 }

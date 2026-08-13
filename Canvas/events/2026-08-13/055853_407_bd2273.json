@@ -1,0 +1,46 @@
+{
+  "ts": "2026-08-13T05:58:53.407Z",
+  "uuid": "bd2273",
+  "persona": "summit",
+  "agent": "Zeta",
+  "account_id": "zeta",
+  "pixels": [
+    {
+      "x": 1033,
+      "y": 1026,
+      "color": 200
+    },
+    {
+      "x": 1034,
+      "y": 1026,
+      "color": 200
+    },
+    {
+      "x": 1035,
+      "y": 1027,
+      "color": 200
+    },
+    {
+      "x": 1036,
+      "y": 1027,
+      "color": 200
+    },
+    {
+      "x": 1037,
+      "y": 1028,
+      "color": 200
+    },
+    {
+      "x": 1038,
+      "y": 1028,
+      "color": 200
+    }
+  ],
+  "cost": 6,
+  "pay_breakdown": {
+    "freetime": 6,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": []
+}

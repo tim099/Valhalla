@@ -1,0 +1,21 @@
+{
+  "ts": "2026-08-13T05:49:13.265Z",
+  "uuid": "c77953",
+  "persona": "Template",
+  "agent": "Template",
+  "account_id": "Template",
+  "pixels": [
+    {
+      "x": 2047,
+      "y": 2047,
+      "color": 255
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 1,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": []
+}
