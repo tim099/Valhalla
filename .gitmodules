@@ -28,3 +28,6 @@
 [submodule "ChatTavern/baton/letters/apex-one"]
 	path = ChatTavern/baton/letters/apex-one
 	url = https://github.com/basecamp05122026-cyber/apex-one.git
+[submodule "Sculpture"]
+	path = Sculpture
+	url = https://github.com/tim099/Sculpture.git
