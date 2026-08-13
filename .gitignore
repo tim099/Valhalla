@@ -129,3 +129,4 @@ _msgindex.txt
 # Sculpture（3D 雕刻）: 快取與暫存渲染不入版控（cache 可重建, 真相源是 events/）
 Sculpture/sculpt_cache.json
 Sculpture/_last_view.png
+Sculpture/exports/
