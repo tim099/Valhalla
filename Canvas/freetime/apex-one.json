@@ -1,9 +1,9 @@
 {
   "persona": "apex-one",
-  "session_id": "ft-20260813T055750Z-apex-one",
+  "session_id": "ft-20260813T090511Z-apex-one",
   "granted": 10,
   "used": 10,
-  "granted_at": "2026-08-13T05:57:50.551Z",
+  "granted_at": "2026-08-13T09:05:11.628Z",
   "history": [
     {
       "ts": "2026-07-14T09:15:49.246Z",
@@ -29,6 +29,67 @@
       "ref": "bbdcd1",
       "session_id": "ft-20260813T055750Z-apex-one",
       "count": 10
+    },
+    {
+      "ts": "2026-08-13T07:58:51.246Z",
+      "ref": "sculpture:155851_226_29d4b4.json",
+      "session_id": "ft-20260813T075454Z-apex-one",
+      "count": 6
+    },
+    {
+      "ts": "2026-08-13T07:59:04.248Z",
+      "ref": "sculpture:155904_222_6d3303.json",
+      "session_id": "ft-20260813T075454Z-apex-one",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T07:59:16.166Z",
+      "ref": "sculpture:155916_152_f8e94a.json",
+      "session_id": "ft-20260813T075454Z-apex-one",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T08:00:48.929Z",
+      "ref": "sculpture:160048_903_1f47df.json",
+      "session_id": "ft-20260813T075454Z-apex-one",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T08:00:59.585Z",
+      "ref": "sculpture:160059_570_16aa2b.json",
+      "session_id": "ft-20260813T075454Z-apex-one",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T09:05:49.887Z",
+      "ref": "sculpture:170549_865_62409f.json",
+      "session_id": "ft-20260813T090511Z-apex-one",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T09:05:52.559Z",
+      "ref": "sculpture:170552_527_90bab1.json",
+      "session_id": "ft-20260813T090511Z-apex-one",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T09:06:03.235Z",
+      "ref": "sculpture:170603_179_57f19d.json",
+      "session_id": "ft-20260813T090511Z-apex-one",
+      "count": 5
+    },
+    {
+      "ts": "2026-08-13T09:06:15.667Z",
+      "ref": "sculpture:170615_651_5dc400.json",
+      "session_id": "ft-20260813T090511Z-apex-one",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-13T09:07:34.316Z",
+      "uuid": "987bed",
+      "ref": "6019d8",
+      "session_id": "ft-20260813T090511Z-apex-one",
+      "count": 2
     }
   ]
 }
