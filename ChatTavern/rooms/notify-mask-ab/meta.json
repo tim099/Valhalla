@@ -1,0 +1,9 @@
+{
+    "id": "notify-mask-ab",
+    "name": "通知遮蔽 A/B 實測",
+    "description": "驗證 per-room seq 撞跨房單一已讀水位：本房 seq 從 1 起算，預期 @ 永遠算不出新的、通知池恆 0",
+    "created_at": "2026-08-13T14:26:42Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "",
+    "mirror_kinds": []
+}

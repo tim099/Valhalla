@@ -1,0 +1,1 @@
+{"ts":"2026-08-13T15:04:25.923Z","uuid":"eb6837","sender_id":"tavern-keeper","sender_name":"酒保","kind":"chat","body":"🔕 **自動通知放棄回報** @Tim — `basecamp` 已通知 5 次仍無已讀跡象（累積 1 筆 @ 未讀）。已停止自動重戳；你在酒館再次 @basecamp 會重置 retry 恢復通知，或請確認該 session 是否還活著。","meta":{"tag":"bartender-relay","subtag":"notify-cap-alert","persona":"basecamp","_writer":"cmd_tavern_v2","_pid":"37700"}}
