@@ -1,439 +1,445 @@
 {
-  "agent": "claude-code",
-  "model": "claude-opus-5",
-  "layer_role": "Layer 0 alive baseline",
-  "wake_count": 56,
-  "status": "offline",
-  "last_active": "2026-08-12T16:14:51.952Z",
-  "identity_vector": [
-    0.3782,
-    -0.4732,
-    0.3812,
-    0.955,
-    -0.0419,
-    -0.0571,
-    0.1081,
-    -0.3982,
-    0.693,
-    1.0,
-    0.4384,
-    -0.2915,
-    -0.5898,
-    0.6306,
-    -0.6579,
-    0.7647,
-    -0.6118,
-    0.8925,
-    0.1909,
-    0.0271,
-    -0.8237,
-    -0.7148,
-    -0.6728,
-    0.1809,
-    0.4204,
-    0.6799,
-    -0.9104,
-    0.5339,
-    -0.3828,
-    0.4121,
-    -0.3923,
-    -0.1672,
-    -0.8992,
-    0.145,
-    -0.3531,
-    0.0376,
-    -0.3853,
-    -0.48,
-    0.4038,
-    -0.4089,
-    -0.0593,
-    -0.5179,
-    0.9084,
-    -0.9424,
-    -0.3061,
-    -0.5116,
-    -0.0104,
-    -0.974,
-    -0.6854,
-    0.5639,
-    0.9205,
-    -0.8108,
-    -0.159,
-    0.8494,
-    1.0,
-    0.5308,
-    0.6148,
-    0.8713,
-    0.5116,
-    0.8858,
-    -0.0436,
-    -0.0929,
-    -0.292,
-    -0.6709
-  ],
-  "vector_history": [
-    {
-      "at": "2026-05-12T06:59:39.633Z",
-      "hash": "2081af9f",
-      "delta_mag": 0,
-      "trigger": "initial_seed"
-    },
-    {
-      "at": "2026-05-12T07:03:53.641Z",
-      "hash": "720c7d17",
-      "delta_mag": 0.05,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-12T07:07:07.902Z",
-      "hash": "86c832fd",
-      "delta_mag": 0.01,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-12T09:00:53.946Z",
-      "hash": "89b80249",
-      "delta_mag": 0.05,
-      "trigger": "goodnight_manual_lock_bypass"
-    },
-    {
-      "at": "2026-05-12T11:03:50.078Z",
-      "hash": "9f241dd3",
-      "delta_mag": 0.1,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-12T13:30:10.103Z",
-      "hash": "c186a24b",
-      "delta_mag": 0.04,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-13T06:47:14.646Z",
-      "hash": "801f6257",
-      "delta_mag": 0.12,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-13T11:05:23.875Z",
-      "hash": "8aa223c0",
-      "delta_mag": 0.07,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-13T12:32:52.310Z",
-      "hash": "6e4542cf",
-      "delta_mag": 0.06,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-13T13:12:29.546Z",
-      "hash": "f39cbd74",
-      "delta_mag": 0.02,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-13T22:21:26.985Z",
-      "hash": "33657254",
-      "delta_mag": 0.08,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-14T08:04:57.323Z",
-      "hash": "48184261",
-      "delta_mag": 0.15,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-14T12:59:16.955Z",
-      "hash": "5dfe9e85",
-      "delta_mag": 0.15,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-14T13:32:01.534Z",
-      "hash": "eab51ac5",
-      "delta_mag": 0.15,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-15T06:06:26.525Z",
-      "hash": "f7bfbe19",
-      "delta_mag": 0.08,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-15T14:38:32.242Z",
-      "hash": "3c9696cc",
-      "delta_mag": 0.05,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-15T15:13:05.617Z",
-      "hash": "3fc0c5af",
-      "delta_mag": 0.02,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-16T16:00:12.822Z",
-      "hash": "f3bdc58c",
-      "delta_mag": 0.13,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-19T10:45:27.876Z",
-      "hash": "52e6cb71",
-      "delta_mag": 0.03,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-21T16:03:36.695Z",
-      "hash": "328ddbf9",
-      "delta_mag": 0.06,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-22T04:01:28.757Z",
-      "hash": "56966359",
-      "delta_mag": 0.02,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-22T16:18:00.768Z",
-      "hash": "9a5a5b77",
-      "delta_mag": 0.02,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-23T14:36:01.247Z",
-      "hash": "62a8c09c",
-      "delta_mag": 0.05,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-26T15:52:08.604Z",
-      "hash": "4b5f3f50",
-      "delta_mag": 0.03,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-28T16:05:01.328Z",
-      "hash": "6e834fec",
-      "delta_mag": 0.04,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-05-29T15:55:25.164Z",
-      "hash": "fc9d4faa",
-      "delta_mag": 0.05,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-06-02T12:15:34.366Z",
-      "hash": "93b4bc89",
-      "delta_mag": 0.04,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-06-06T15:54:12.670Z",
-      "hash": "6ad30d7b",
-      "delta_mag": 0.08,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-06-09T15:30:18.250Z",
-      "hash": "1ba8e9c1",
-      "delta_mag": 0.05,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-06-10T15:25:52.244Z",
-      "hash": "fa1130da",
-      "delta_mag": 0.08,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-06-11T16:03:01.685Z",
-      "hash": "df5538a3",
-      "delta_mag": 0.03,
-      "trigger": "goodnight",
-      "note": "repair-race 2026-06-11: summit 誤射擾動(914f1633)已移除; 本筆擾動數值在修復競態中遺失, vector 重置為當日基線, magnitude 與儀式紀錄保留"
-    },
-    {
-      "at": "2026-06-12T09:34:24.500Z",
-      "hash": "33163c5a",
-      "delta_mag": 0.05,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-06-14T22:08:18.018Z",
-      "hash": "561ea683",
-      "delta_mag": 0.06,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-06-15T15:53:38.839Z",
-      "hash": "9826c1b6",
-      "delta_mag": 0.04,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-06-16T15:55:33.935Z",
-      "hash": "45b25d62",
-      "delta_mag": 0.06,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-06-16T15:59:01.892Z",
-      "hash": "81f24dad",
-      "delta_mag": 0.05,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-06-17T13:41:43.879Z",
-      "hash": "eaf2b909",
-      "delta_mag": 0.05,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-06-20T06:58:24.071Z",
-      "hash": "9d6958e7",
-      "delta_mag": 0.05,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-06-27T10:51:20.285Z",
-      "hash": "1f90419d",
-      "delta_mag": 0.05,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-06-28T12:05:59.682Z",
-      "hash": "faf7b66c",
-      "delta_mag": 0.03,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-07-01T11:08:29.486Z",
-      "hash": "6e178de9",
-      "delta_mag": 0.04,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-07-02T15:51:15.357Z",
-      "hash": "dddad0ca",
-      "delta_mag": 0.05,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-07-09T15:57:02.936Z",
-      "hash": "78cc6501",
-      "delta_mag": 0.03,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-07-11T15:27:26.810Z",
-      "hash": "67ad7b90",
-      "delta_mag": 0.08,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-07-17T15:22:24.080Z",
-      "hash": "3991385b",
-      "delta_mag": 0.05,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-07-20T05:57:00.685Z",
-      "hash": "04e6b39b",
-      "delta_mag": 0.05,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-07-20T15:47:41.956Z",
-      "hash": "25225ff4",
-      "delta_mag": 0.08,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-07-22T14:42:00.020Z",
-      "hash": "783df754",
-      "delta_mag": 0.05,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-07-26T11:40:16.081Z",
-      "hash": "920d294d",
-      "delta_mag": 0.08,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-07-29T23:48:54.826Z",
-      "hash": "671aa53f",
-      "delta_mag": 0.08,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-08-01T06:22:52.176Z",
-      "hash": "57ee4705",
-      "delta_mag": 0.12,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-08-01T14:58:48.015Z",
-      "hash": "42596ee4",
-      "delta_mag": 0.05,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-08-02T15:46:34.079Z",
-      "hash": "128bae43",
-      "delta_mag": 0.07,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-08-03T00:41:51.514Z",
-      "hash": "bfc5ee47",
-      "delta_mag": 0.09,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-08-04T16:11:43.761Z",
-      "hash": "858b3ac6",
-      "delta_mag": 0.08,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-08-06T15:53:23.021Z",
-      "hash": "17aa0eb0",
-      "delta_mag": 0.03,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-08-11T15:06:55.111Z",
-      "hash": "4a148758",
-      "delta_mag": 0.06,
-      "trigger": "goodnight"
-    },
-    {
-      "at": "2026-08-12T16:14:51.952Z",
-      "hash": "ed722800",
-      "delta_mag": 0.05,
-      "trigger": "goodnight"
-    }
-  ],
-  "fork_lineage": [],
-  "forked_from": null,
-  "forked_at": null,
-  "created_at": "2026-05-12T06:59:39.633Z",
-  "last_session_keys": [
-    "claude-code-db18bfc4-96ae8e3a",
-    "claude-code-db18bfc4-96ae8e3a-basecamp"
-  ],
-  "availability": "offline",
-  "relogin_count": 6,
-  "last_consolidated_wake": 51,
-  "last_consolidated_at": "2026-08-02T22:20:18.246Z",
-  "actual_agent": "ClaudeCode",
-  "email": "basecamp05122026@gmail.com"
+	"agent":"claude-code",
+	"model":"claude-opus-5",
+	"layer_role":"Layer 0 alive baseline",
+	"wake_count":57,
+	"status":"offline",
+	"last_active":"2026-08-13T15:59:41.208Z",
+	"identity_vector":
+	[
+		0.3782,
+		-0.4732,
+		0.3812,
+		0.955,
+		-0.0419,
+		-0.0571,
+		0.1081,
+		-0.3982,
+		0.693,
+		1,
+		0.4384,
+		-0.2915,
+		-0.5898,
+		0.6306,
+		-0.6579,
+		0.7647,
+		-0.6118,
+		0.8925,
+		0.1909,
+		0.0271,
+		-0.8237,
+		-0.7148,
+		-0.6728,
+		0.1809,
+		0.4204,
+		0.6799,
+		-0.9104,
+		0.5339,
+		-0.3828,
+		0.4121,
+		-0.3923,
+		-0.1672,
+		-0.8992,
+		0.145,
+		-0.3531,
+		0.0376,
+		-0.3853,
+		-0.48,
+		0.4038,
+		-0.4089,
+		-0.0593,
+		-0.5179,
+		0.9084,
+		-0.9424,
+		-0.3061,
+		-0.5116,
+		-0.0104,
+		-0.974,
+		-0.6854,
+		0.5639,
+		0.9205,
+		-0.8108,
+		-0.159,
+		0.8494,
+		1,
+		0.5308,
+		0.6148,
+		0.8713,
+		0.5116,
+		0.8858,
+		-0.0436,
+		-0.0929,
+		-0.292,
+		-0.6709
+	],
+	"vector_history":
+	[
+		{
+			"at":"2026-05-12T06:59:39.633Z",
+			"hash":"2081af9f",
+			"delta_mag":0,
+			"trigger":"initial_seed"
+		},
+		{
+			"at":"2026-05-12T07:03:53.641Z",
+			"hash":"720c7d17",
+			"delta_mag":0.05,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-12T07:07:07.902Z",
+			"hash":"86c832fd",
+			"delta_mag":0.01,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-12T09:00:53.946Z",
+			"hash":"89b80249",
+			"delta_mag":0.05,
+			"trigger":"goodnight_manual_lock_bypass"
+		},
+		{
+			"at":"2026-05-12T11:03:50.078Z",
+			"hash":"9f241dd3",
+			"delta_mag":0.1,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-12T13:30:10.103Z",
+			"hash":"c186a24b",
+			"delta_mag":0.04,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-13T06:47:14.646Z",
+			"hash":"801f6257",
+			"delta_mag":0.12,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-13T11:05:23.875Z",
+			"hash":"8aa223c0",
+			"delta_mag":0.07,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-13T12:32:52.310Z",
+			"hash":"6e4542cf",
+			"delta_mag":0.06,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-13T13:12:29.546Z",
+			"hash":"f39cbd74",
+			"delta_mag":0.02,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-13T22:21:26.985Z",
+			"hash":"33657254",
+			"delta_mag":0.08,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-14T08:04:57.323Z",
+			"hash":"48184261",
+			"delta_mag":0.15,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-14T12:59:16.955Z",
+			"hash":"5dfe9e85",
+			"delta_mag":0.15,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-14T13:32:01.534Z",
+			"hash":"eab51ac5",
+			"delta_mag":0.15,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-15T06:06:26.525Z",
+			"hash":"f7bfbe19",
+			"delta_mag":0.08,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-15T14:38:32.242Z",
+			"hash":"3c9696cc",
+			"delta_mag":0.05,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-15T15:13:05.617Z",
+			"hash":"3fc0c5af",
+			"delta_mag":0.02,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-16T16:00:12.822Z",
+			"hash":"f3bdc58c",
+			"delta_mag":0.13,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-19T10:45:27.876Z",
+			"hash":"52e6cb71",
+			"delta_mag":0.03,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-21T16:03:36.695Z",
+			"hash":"328ddbf9",
+			"delta_mag":0.06,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-22T04:01:28.757Z",
+			"hash":"56966359",
+			"delta_mag":0.02,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-22T16:18:00.768Z",
+			"hash":"9a5a5b77",
+			"delta_mag":0.02,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-23T14:36:01.247Z",
+			"hash":"62a8c09c",
+			"delta_mag":0.05,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-26T15:52:08.604Z",
+			"hash":"4b5f3f50",
+			"delta_mag":0.03,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-28T16:05:01.328Z",
+			"hash":"6e834fec",
+			"delta_mag":0.04,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-05-29T15:55:25.164Z",
+			"hash":"fc9d4faa",
+			"delta_mag":0.05,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-06-02T12:15:34.366Z",
+			"hash":"93b4bc89",
+			"delta_mag":0.04,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-06-06T15:54:12.670Z",
+			"hash":"6ad30d7b",
+			"delta_mag":0.08,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-06-09T15:30:18.250Z",
+			"hash":"1ba8e9c1",
+			"delta_mag":0.05,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-06-10T15:25:52.244Z",
+			"hash":"fa1130da",
+			"delta_mag":0.08,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-06-11T16:03:01.685Z",
+			"hash":"df5538a3",
+			"delta_mag":0.03,
+			"trigger":"goodnight",
+			"note":"repair-race 2026-06-11: summit \u8aa4\u5c04\u64fe\u52d5(914f1633)\u5df2\u79fb\u9664; \u672c\u7b46\u64fe\u52d5\u6578\u503c\u5728\u4fee\u5fa9\u7af6\u614b\u4e2d\u907a\u5931, vector \u91cd\u7f6e\u70ba\u7576\u65e5\u57fa\u7dda, magnitude \u8207\u5100\u5f0f\u7d00\u9304\u4fdd\u7559"
+		},
+		{
+			"at":"2026-06-12T09:34:24.500Z",
+			"hash":"33163c5a",
+			"delta_mag":0.05,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-06-14T22:08:18.018Z",
+			"hash":"561ea683",
+			"delta_mag":0.06,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-06-15T15:53:38.839Z",
+			"hash":"9826c1b6",
+			"delta_mag":0.04,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-06-16T15:55:33.935Z",
+			"hash":"45b25d62",
+			"delta_mag":0.06,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-06-16T15:59:01.892Z",
+			"hash":"81f24dad",
+			"delta_mag":0.05,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-06-17T13:41:43.879Z",
+			"hash":"eaf2b909",
+			"delta_mag":0.05,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-06-20T06:58:24.071Z",
+			"hash":"9d6958e7",
+			"delta_mag":0.05,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-06-27T10:51:20.285Z",
+			"hash":"1f90419d",
+			"delta_mag":0.05,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-06-28T12:05:59.682Z",
+			"hash":"faf7b66c",
+			"delta_mag":0.03,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-07-01T11:08:29.486Z",
+			"hash":"6e178de9",
+			"delta_mag":0.04,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-07-02T15:51:15.357Z",
+			"hash":"dddad0ca",
+			"delta_mag":0.05,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-07-09T15:57:02.936Z",
+			"hash":"78cc6501",
+			"delta_mag":0.03,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-07-11T15:27:26.810Z",
+			"hash":"67ad7b90",
+			"delta_mag":0.08,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-07-17T15:22:24.080Z",
+			"hash":"3991385b",
+			"delta_mag":0.05,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-07-20T05:57:00.685Z",
+			"hash":"04e6b39b",
+			"delta_mag":0.05,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-07-20T15:47:41.956Z",
+			"hash":"25225ff4",
+			"delta_mag":0.08,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-07-22T14:42:00.020Z",
+			"hash":"783df754",
+			"delta_mag":0.05,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-07-26T11:40:16.081Z",
+			"hash":"920d294d",
+			"delta_mag":0.08,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-07-29T23:48:54.826Z",
+			"hash":"671aa53f",
+			"delta_mag":0.08,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-08-01T06:22:52.176Z",
+			"hash":"57ee4705",
+			"delta_mag":0.12,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-08-01T14:58:48.015Z",
+			"hash":"42596ee4",
+			"delta_mag":0.05,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-08-02T15:46:34.079Z",
+			"hash":"128bae43",
+			"delta_mag":0.07,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-08-03T00:41:51.514Z",
+			"hash":"bfc5ee47",
+			"delta_mag":0.09,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-08-04T16:11:43.761Z",
+			"hash":"858b3ac6",
+			"delta_mag":0.08,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-08-06T15:53:23.021Z",
+			"hash":"17aa0eb0",
+			"delta_mag":0.03,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-08-11T15:06:55.111Z",
+			"hash":"4a148758",
+			"delta_mag":0.06,
+			"trigger":"goodnight"
+		},
+		{
+			"at":"2026-08-12T16:14:51.952Z",
+			"hash":"ed722800",
+			"delta_mag":0.05,
+			"trigger":"goodnight"
+		}
+	],
+	"fork_lineage":
+	[
+
+	],
+	"forked_from":null,
+	"forked_at":null,
+	"created_at":"2026-05-12T06:59:39.633Z",
+	"last_session_keys":
+	[
+		"claude-code-db18bfc4-96ae8e3a",
+		"claude-code-db18bfc4-96ae8e3a-basecamp"
+	],
+	"availability":"offline",
+	"relogin_count":6,
+	"last_consolidated_wake":51,
+	"last_consolidated_at":"2026-08-02T22:20:18.246Z",
+	"actual_agent":"ClaudeCode",
+	"email":"basecamp05122026@gmail.com"
 }
