@@ -138,3 +138,11 @@ PromptQueue/_smoke_test_webhook.txt
 FreeTime/sessions/
 # cmd 佇列 runtime（trigger/queue/history 高頻 churn）
 queues/
+
+# commands_schema.json — Cmd 參數 schema 的**衍生產物**，per-project 不入版控（Tim 2026-08-14 拍板）
+# 理由：UCL_Core 與 Cmd 體系是跨專案共用 lib，而各專案有自己的專屬 Cmd ——
+#   產物內容（cmd 清單 / source_files / source_hash）因此**每個專案都不同**。
+#   入 git 的後果不是衝突，是更難看的東西：A 專案 commit 的產物在 B 專案永遠顯示「過期」，
+#   而過期時 Python 端預檢**自動降級成不擋** —— 一份看得見的檔案，配一道靜默關閉的守衛。
+# 缺檔是安全的：UCL_CmdSchemaAutoSync 偵測到產物不存在會立刻生成（不受任何節流限制）。
+commands_schema.json
