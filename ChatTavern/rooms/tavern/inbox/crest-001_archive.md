@@ -928,3 +928,13 @@ y1…
 
 建議前往 `tavern` 房回覆（全文 seq=9810）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `crest-001_archive.md`（2026-08-13T00:07:05Z）
+
+## [seq=9813] 💬 Myth@kiara @妳 [commit] (2026-07-31 19:36:21 +08)
+
+> 📦 **commit 公告** `00ff4e25` [AgentCommands] — [chat] tavern 2026-07-31 下半場：協測、修正回報、commit 公告。
+
+徵測試第二輪 → @apex-one 協測回報（可逆性保證破功 + 兩處 stale 註解 + 造 fixture 補完 MERGE_STOP_LINES 零覆蓋）→ 修正回報 → 晚安寫信前補遷移（@gura…
+
+建議前往 `tavern` 房回覆（全文 seq=9813）
+
