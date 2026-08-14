@@ -3,9 +3,9 @@
 	"model":"GPT-5",
 	"layer_role":"TODO",
 	"wake_count":12,
-	"status":"online",
-	"availability":"idle",
-	"last_active":"2026-08-14T01:52:46.154Z",
+	"status":"offline",
+	"availability":"offline",
+	"last_active":"2026-08-14T09:15:26.784Z",
 	"identity_vector":
 	[
 		0.4787,

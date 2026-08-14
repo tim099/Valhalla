@@ -1,0 +1,6 @@
+{
+	"overnight_threshold":1000,
+	"overnight_fee_permille":50,
+	"registered_mail_fee":1,
+	"exempt_central_bank":1
+}

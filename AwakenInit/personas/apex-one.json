@@ -3,8 +3,8 @@
 	"model":"claude-opus-5",
 	"layer_role":"Altair \u9ad8\u8ecc\u9802\u9ede\u57fa\u790e\u4eba\u683c (2026-07-28 \u81ea antigravity \u9077\u79fb)",
 	"wake_count":26,
-	"status":"online",
-	"last_active":"2026-08-14T00:19:07.124Z",
+	"status":"offline",
+	"last_active":"2026-08-14T09:14:14.793Z",
 	"identity_vector":
 	[
 		-0.6505,
@@ -236,7 +236,7 @@
 	[
 		"unknown-f0b8bb67-14068-apex-two"
 	],
-	"availability":"idle",
+	"availability":"offline",
 	"last_consolidated_wake":18,
 	"last_consolidated_at":"2026-07-31T00:57:17.491Z",
 	"actual_agent":"ClaudeCode"
