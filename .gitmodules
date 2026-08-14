@@ -31,3 +31,6 @@
 [submodule "Sculpture"]
 	path = Sculpture
 	url = https://github.com/tim099/Sculpture.git
+[submodule "MBTI"]
+	path = MBTI
+	url = https://github.com/tim099/MBTI.git
