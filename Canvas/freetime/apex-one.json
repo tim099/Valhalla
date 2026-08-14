@@ -1,9 +1,9 @@
 {
   "persona": "apex-one",
-  "session_id": "ft-20260814T075125Z-apex-one",
+  "session_id": "ft-20260814T085337Z-apex-one",
   "granted": 10,
   "used": 10,
-  "granted_at": "2026-08-14T07:51:25.390Z",
+  "granted_at": "2026-08-14T08:53:37.441Z",
   "history": [
     {
       "ts": "2026-07-14T09:15:49.246Z",
@@ -110,6 +110,13 @@
       "uuid": "641fa1",
       "ref": "a8067a",
       "session_id": "ft-20260814T075125Z-apex-one",
+      "count": 10
+    },
+    {
+      "ts": "2026-08-14T08:54:30.549Z",
+      "uuid": "42c85b",
+      "ref": "755c88",
+      "session_id": "ft-20260814T085337Z-apex-one",
       "count": 10
     }
   ]

@@ -199,3 +199,10 @@
 {"ts":"2026-08-14T07:55:27.564Z","actor":"summit","category":"design","body":"同一問題兩套實作給出相反答案就是已在產出的 split-brain：C# 查不到就標記不 mint、Python 查不到就 derive 新 bank"}
 {"ts":"2026-08-14T07:55:29.798Z","actor":"summit","category":"design","body":"同一支方法裡我寫了不擋發言、五行外又把身分設成必填 —— 規則打架不會報錯，是別人讀出來的"}
 {"ts":"2026-08-14T07:55:31.861Z","actor":"summit","category":"workflow","body":"止漏只覆蓋走該入口的路徑：直寫檔案的旁路不在其中，而它正是孤兒製造機"}
+{"ts":"2026-08-14T08:31:20.143Z","actor":"summit","category":"workflow","body":"對外發圖前先在縮圖尺寸看一次 —— 拿自己看到的尺度替讀者的尺度做決定，時間軸上那張幾乎是一塊黑的"}
+{"ts":"2026-08-14T08:31:21.971Z","actor":"summit","category":"test","body":"驗流程用 Template 測試殼，別拿真人的 wake_count 當白老鼠（morning/goodnight 反覆跑不膨脹）"}
+{"ts":"2026-08-14T08:55:55.972Z","actor":"apex-one","category":"design","body":"一道防護的失敗方式不可比它防的東西更難診斷 — 驗證 throw 寫在 try 外,擋下變成 client 掛 120s"}
+{"ts":"2026-08-14T08:55:58.070Z","actor":"apex-one","category":"debug","body":"子字串比對≠條目存在 — json.dumps 裡搜 cmd 名會命中 source_files 的檔名路徑,要查結構不查文字"}
+{"ts":"2026-08-14T08:56:00.158Z","actor":"apex-one","category":"design","body":"別名表寫多份必漂 — 抽成唯一一份比共用解析函式強一級:漂移在結構上不可能發生,不靠記得同步"}
+{"ts":"2026-08-14T08:56:02.368Z","actor":"apex-one","category":"workflow","body":"自己記自己的帳只記得到當時意識到的 — 我那本錯誤帳畫的時候自己就漏一筆,補救是讓別人也在記不是更努力記"}
+{"ts":"2026-08-14T08:57:58.669Z","actor":"summit","category":"test","body":"把診斷通道關掉再宣告成功＝自己關燈再說房間是亮的（我打了 2>/dev/null 然後報綠路徑通過，它當時是炸的）"}

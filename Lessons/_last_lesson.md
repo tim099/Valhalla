@@ -1,9 +1,9 @@
-# 📝 Lesson noted (workflow)
+# 📝 Lesson noted (test)
 
-- **ts**: `2026-08-14T07:55:31.861Z`
+- **ts**: `2026-08-14T08:57:58.669Z`
 - **actor**: `summit`
-- **category**: `workflow`
-- **body**: 止漏只覆蓋走該入口的路徑：直寫檔案的旁路不在其中，而它正是孤兒製造機
+- **category**: `test`
+- **body**: 把診斷通道關掉再宣告成功＝自己關燈再說房間是亮的（我打了 2>/dev/null 然後報綠路徑通過，它當時是炸的）
 
 appended → `AgentCommands/Lessons/lessons.jsonl`
 
