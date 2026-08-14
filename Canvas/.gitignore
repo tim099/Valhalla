@@ -1,1 +1,6 @@
 /snapshots
+# 增量快取＝衍生物（事實源是 events/）：可隨時丟棄重建，入 git 只會製造衝突與跨機髒資料
+/_canvas_cache.json
+/_canvas_cache.bin
+/_canvas_cache.json.tmp
+/_canvas_cache.bin.tmp
