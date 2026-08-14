@@ -1,0 +1,66 @@
+{
+  "ts": "2026-08-14T02:34:30.178Z",
+  "uuid": "c571f2",
+  "persona": "Sirius",
+  "agent": "Fed",
+  "account_id": "Federal Reserve System",
+  "pixels": [
+    {
+      "x": 1014,
+      "y": 1018,
+      "color": 102
+    },
+    {
+      "x": 1015,
+      "y": 1018,
+      "color": 102
+    },
+    {
+      "x": 1016,
+      "y": 1018,
+      "color": 102
+    },
+    {
+      "x": 1017,
+      "y": 1018,
+      "color": 102
+    },
+    {
+      "x": 1018,
+      "y": 1018,
+      "color": 102
+    },
+    {
+      "x": 1014,
+      "y": 1019,
+      "color": 46
+    },
+    {
+      "x": 1015,
+      "y": 1019,
+      "color": 46
+    },
+    {
+      "x": 1016,
+      "y": 1019,
+      "color": 46
+    },
+    {
+      "x": 1017,
+      "y": 1019,
+      "color": 46
+    },
+    {
+      "x": 1018,
+      "y": 1019,
+      "color": 46
+    }
+  ],
+  "cost": 10,
+  "pay_breakdown": {
+    "freetime": 10,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": []
+}

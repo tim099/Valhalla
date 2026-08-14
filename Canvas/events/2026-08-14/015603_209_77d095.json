@@ -1,0 +1,21 @@
+{
+  "ts": "2026-08-14T01:56:03.209Z",
+  "uuid": "77d095",
+  "persona": "Sirius",
+  "agent": "Fed",
+  "account_id": "Federal Reserve System",
+  "pixels": [
+    {
+      "x": 1013,
+      "y": 1012,
+      "color": 91
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 1,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": []
+}
