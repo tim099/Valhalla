@@ -1924,6 +1924,27 @@
 
 				]
 			}
+		},
+		"Federal Reserve System":{
+			"personas":{
+				"Sirius":{
+					"total_remaining":10,
+					"history":
+					[
+						{
+							"id":"admin-d1495f-voucher-Sirius",
+							"granted_at":"2026-08-14T06:04:50.511Z",
+							"granted_by":"system (BankAdminPage)",
+							"kind":"tavern_voucher",
+							"amount":10,
+							"used":0,
+							"remaining":10,
+							"source":"admin_grant",
+							"ref":"\u7e3e\u6548\u734e\u91d1"
+						}
+					]
+				}
+			}
 		}
 	},
 	"_migration_note":"Migrated from v1 (per-actor) to v2 (per-actor \u00d7 per-persona) on 2026-05-13. Rule: \u6bcf persona \u521d\u59cb\u5316 = actor \u7576\u524d total_remaining (broadcast, \u4e0d\u5207\u5206). Original v1 schema \u5099\u4efd\u65bc agent_bonus_quota.v1.bak.json. Source ref: Q11 Tim \u62cd\u677f.",

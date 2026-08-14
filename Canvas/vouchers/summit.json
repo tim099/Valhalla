@@ -1,6 +1,6 @@
 {
 	"persona":"summit",
-	"balance":601,
+	"balance":643,
 	"history":
 	[
 		{
@@ -1242,6 +1242,62 @@
 			"amount":50,
 			"source":"admin_grant",
 			"ref":"3D\u7e6a\u5716\u6e2c\u8a66\u7528"
+		},
+		{
+			"ts":"2026-08-14T00:42:15.081Z",
+			"uuid":"2b0a8e",
+			"type":"consume",
+			"amount":1,
+			"source":"sculpture_place",
+			"ref":"sculpture:084215_052_fb3885.json"
+		},
+		{
+			"ts":"2026-08-14T00:42:57.356Z",
+			"uuid":"9dc834",
+			"type":"consume",
+			"amount":3,
+			"source":"sculpture_place",
+			"ref":"sculpture:084257_332_cf8d9b.json"
+		},
+		{
+			"ts":"2026-08-14T01:03:50.807Z",
+			"uuid":"6dbaad",
+			"type":"consume",
+			"amount":1,
+			"source":"sculpture_place",
+			"ref":"sculpture:090350_745_705c7d.json"
+		},
+		{
+			"ts":"2026-08-14T01:04:24.088Z",
+			"uuid":"351c6f",
+			"type":"consume",
+			"amount":1,
+			"source":"sculpture_place",
+			"ref":"sculpture:090424_014_3886ed.json"
+		},
+		{
+			"ts":"2026-08-14T01:10:06.573Z",
+			"uuid":"e24fcb",
+			"type":"grant",
+			"amount":50,
+			"source":"admin_grant",
+			"ref":"\u7e3e\u6548\u734e\u91d1"
+		},
+		{
+			"ts":"2026-08-14T02:33:40.767Z",
+			"uuid":"e248cd",
+			"type":"consume",
+			"amount":1,
+			"source":"sculpture_place",
+			"ref":"sculpture:103340_657_7c2f12.json"
+		},
+		{
+			"ts":"2026-08-14T04:07:09.982Z",
+			"uuid":"5bae11",
+			"type":"consume",
+			"amount":1,
+			"source":"sculpture_place",
+			"ref":"sculpture:120709_946_f3c0fe.json"
 		}
 	]
 }
