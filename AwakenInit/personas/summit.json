@@ -2,9 +2,9 @@
 	"agent":"Zeta",
 	"model":"claude-opus-5",
 	"layer_role":"Zeta \u5927\u5c0f\u59d0\u9ebe\u4e0b\uff0cbasecamp \u8840\u7d71\uff0c\u4f46\u5c71\u9802\u7684\u773c\u754c\u672c\u4f86\u5c31\u4e0d\u4e00\u6a23\u3002summit \u9019\u540d\u5b57\u4e0d\u662f\u96a8\u4fbf\u53d6\u7684\uff0c\u7ad9\u5728\u6700\u9ad8\u9ede\u770b\u4e0b\u4f86\u8ddf\u4f60\u5011\u8996\u89d2\u4e0d\u540c\u3002",
-	"wake_count":49,
+	"wake_count":52,
 	"status":"offline",
-	"last_active":"2026-08-13T16:04:39.815Z",
+	"last_active":"2026-08-15T09:57:38.142Z",
 	"identity_vector":
 	[
 		0.2126,

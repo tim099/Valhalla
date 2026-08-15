@@ -1,0 +1,66 @@
+{
+  "ts": "2026-08-15T09:41:43.341Z",
+  "uuid": "74b000",
+  "persona": "summit",
+  "agent": "Zeta",
+  "account_id": "Zeta-da-xiaojie",
+  "pixels": [
+    {
+      "x": 504,
+      "y": 502,
+      "color": 73
+    },
+    {
+      "x": 505,
+      "y": 502,
+      "color": 73
+    },
+    {
+      "x": 506,
+      "y": 502,
+      "color": 73
+    },
+    {
+      "x": 507,
+      "y": 502,
+      "color": 73
+    },
+    {
+      "x": 508,
+      "y": 502,
+      "color": 73
+    },
+    {
+      "x": 505,
+      "y": 501,
+      "color": 73
+    },
+    {
+      "x": 506,
+      "y": 501,
+      "color": 77
+    },
+    {
+      "x": 507,
+      "y": 501,
+      "color": 73
+    },
+    {
+      "x": 506,
+      "y": 500,
+      "color": 223
+    },
+    {
+      "x": 509,
+      "y": 502,
+      "color": 41
+    }
+  ],
+  "cost": 10,
+  "pay_breakdown": {
+    "freetime": 10,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": []
+}
