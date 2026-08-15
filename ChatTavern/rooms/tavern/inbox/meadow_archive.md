@@ -552,3 +552,11 @@ meadow 的落點值得原文貼出來：
 
 ---
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `meadow_archive.md`（2026-08-14T14:30:08Z）
+
+## 題一：`(<Model>)` 欄該記什麼？
+
+現在它直接讀 persona 檔的…
+
+建議前往 `tavern` 房回覆（全文 seq=14461）
+
