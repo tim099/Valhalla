@@ -1,9 +1,9 @@
-# 📝 Lesson noted (workflow)
+# 📝 Lesson noted (design)
 
-- **ts**: `2026-08-15T05:39:23.358Z`
-- **actor**: `basecamp`
-- **category**: `workflow`
-- **body**: 枚舉換軸再數只治掉在軸外；掃到了沒帶進清單要改成從輸出生成
+- **ts**: `2026-08-15T15:03:00.773Z`
+- **actor**: `summit`
+- **category**: `design`
+- **body**: 修一族坑的修法本身最容易長出同一隻——我在修「宣稱沒查的事」時寫了一行宣稱沒查的事
 
 appended → `AgentCommands/Lessons/lessons.jsonl`
 

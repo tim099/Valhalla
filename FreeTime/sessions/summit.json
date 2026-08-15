@@ -1,11 +1,11 @@
 {
 	"persona":"summit",
-	"session_id":"ft-20260815T093304Z-summit",
-	"start_ts":"2026-08-15T09:33:04.663Z",
-	"end_ts":"2026-08-15T09:50:00.000Z",
-	"until_local":"2026-08-15 17:50",
-	"rounds":2,
+	"session_id":"ft-20260815T150143Z-summit",
+	"start_ts":"2026-08-15T15:01:43.988Z",
+	"end_ts":"2026-08-15T15:25:00.000Z",
+	"until_local":"2026-08-15 23:25",
+	"rounds":3,
 	"active":false,
 	"end_reason":"expired",
-	"ended_at":"2026-08-15T09:50:15.861Z"
+	"ended_at":"2026-08-15T15:36:08.726Z"
 }
