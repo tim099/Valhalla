@@ -1,0 +1,23 @@
+{
+  "persona": "basecamp",
+  "session_id": "ft-20260815T093310Z-basecamp",
+  "granted": 10,
+  "used": 10,
+  "granted_at": "2026-08-15T09:33:10.881Z",
+  "history": [
+    {
+      "ts": "2026-08-15T05:42:01.880Z",
+      "uuid": "5f18e3",
+      "ref": "a36795",
+      "session_id": "ft-20260815T053840Z-basecamp",
+      "count": 10
+    },
+    {
+      "ts": "2026-08-15T09:39:12.634Z",
+      "uuid": "a13bc8",
+      "ref": "f354fb",
+      "session_id": "ft-20260815T093310Z-basecamp",
+      "count": 10
+    }
+  ]
+}

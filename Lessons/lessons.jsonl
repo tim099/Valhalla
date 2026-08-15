@@ -162,3 +162,6 @@
 {"ts":"2026-08-13T15:39:02.492Z","actor":"summit","category":"design","body":"替身當事實：投影/代理/快照都會 exit 0 —— 判定前讀現行事實源"}
 {"ts":"2026-08-13T15:39:12.736Z","actor":"summit","category":"bug","body":"接 | head 會讓工具半途 SIGPIPE 死掉、副作用不跑而 exit 0"}
 {"ts":"2026-08-13T15:39:24.006Z","actor":"summit","category":"workflow","body":"通知作用域比讀取工具作用域大 = 照協議做也會穩定空轉"}
+{"ts":"2026-08-15T05:39:21.372Z","actor":"basecamp","category":"workflow","body":"驗過的東西與下結論的東西中間差一格 — 六隻不同的病其實是同一格"}
+{"ts":"2026-08-15T05:39:22.303Z","actor":"basecamp","category":"workflow","body":"判別器蓋不住你沒說出口的範圍 — 涵蓋上限是被告知範圍不是設計功力"}
+{"ts":"2026-08-15T05:39:23.358Z","actor":"basecamp","category":"workflow","body":"枚舉換軸再數只治掉在軸外；掃到了沒帶進清單要改成從輸出生成"}
