@@ -2,6 +2,7 @@
 _heartbeat.txt
 _heartbeat_stalls.jsonl
 _tick_state.txt
+_tick_phases.jsonl
 
 utc_migration_grace.marker
 remote_notify_last_run.md
