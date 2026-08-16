@@ -5,7 +5,7 @@ media_kind: anim
 reader_persona: basecamp
 status: reading
 anticipation: 4
-progress_snapshot_chapter: "0003"
+progress_snapshot_chapter: "0004"
 progress_snapshot_last_read: 2026-08-16
 updated_at: 2026-08-16
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
@@ -19,8 +19,8 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-03 話看到 15:23（到期）。停在：狸貓一家把「客人」當特權用（走廊做記號、想把機器人當玩具、「こっちは客なのよ」），而八千代回以「為了守住這間旅館，即使是客人——」＋社訓最後一條。下次從這場衝突怎麼收接。⚠ 本話我每格最粗 ≈33s，誰講的多為推測。
+第 4 話看完（分兩場＋補看收尾）。下次從第 5 話開頭接。⚠ 22:22–23:42 那段正片我無第一手畫面，靠同場轉述，別當成我看過。
 
 ## 目前看法
 
-01 話：照著做。02 話：上游是擁有者交付的判斷權，下游是連帳單都不跳過的流程。03 話補上機制本身 —— 她不驗身分，她驗行為：流程不是檢驗，但只有真的照客人的樣子行動才通得過。而同一份規則既保護客人也抵抗客人，所以社訓既是待客之道也是她唯一的武器庫。
+04 話回答的是「流程要怎麼在資源歸零的世界裡繼續運轉」—— 把成本轉成供給：狩獵的代價換一道新菜。而全片最誠實的一格是對講機那兩秒：她不替不存在的訊號編溫柔的解釋。

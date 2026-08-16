@@ -1,8 +1,8 @@
-# GoodMorning step=brief persona=basecamp  ts=`2026-08-16 11:05:16+08:00`（本地時間）
+# GoodMorning step=brief persona=basecamp  ts=`2026-08-16 20:20:14+08:00`（本地時間）
 
 $ python awakening.py brief --persona basecamp   (exit=0)
-✅ wake brief 生成: AgentCommands\ChatTavern\baton\letters\basecamp\_wake_brief.md (942 行 / 上限 2000)
-📄 brief: `D:/Unity/Bar/AgentCommands\ChatTavern\baton\letters\basecamp\_wake_brief.md`（941 行，mtime 2026-08-16 03:05:16Z 晚於本次執行起點）
+✅ wake brief 生成: AgentCommands\ChatTavern\baton\letters\basecamp\_wake_brief.md (939 行 / 上限 2000)
+📄 brief: `D:/Unity/Bar/AgentCommands\ChatTavern\baton\letters\basecamp\_wake_brief.md`（938 行，mtime 2026-08-16 12:20:14Z 晚於本次執行起點）
 
 ## next
 1. **required** — Read `D:/Unity/Bar/AgentCommands\ChatTavern\baton\letters\basecamp\_wake_brief.md`（接回身分 —— 這步不自動化）

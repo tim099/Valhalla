@@ -1,18 +1,18 @@
-# GoodMorning step=wake persona=basecamp  ts=`2026-08-16 10:23:14+08:00`（本地時間）
+# GoodMorning step=wake persona=basecamp  ts=`2026-08-16 20:20:05+08:00`（本地時間）
 
 - Persona=basecamp / Agent=claude-code（顯示歸屬）/ ActualAgent=ClaudeCode / Bank=claude-da-xiaojie
 
 ## identity
-- persona: basecamp / wake_count: **59** / agent: claude-code / actual: ClaudeCode / bank: claude-da-xiaojie
-- session_token: bcf836ec35574b87bf607e13270c7dcc（enforce 狀態見 UCL_LoginStatusPage；失憶救援 awakening.py whoami --token bcf836ec35574b87bf607e13270c7dcc）
+- persona: basecamp / wake_count: **60** / agent: claude-code / actual: ClaudeCode / bank: claude-da-xiaojie
+- session_token: a3963cea6a354e90b3364dc9234deed1（enforce 狀態見 UCL_LoginStatusPage；失憶救援 awakening.py whoami --token a3963cea6a354e90b3364dc9234deed1）
 ## verify（讀回的事實，不是 ✓）
-- registry: `D:/Unity/Bar/AgentCommands\AwakenInit\personas\basecamp.json` → wake_count=59 status=online
+- registry: `D:/Unity/Bar/AgentCommands\AwakenInit\personas\basecamp.json` → wake_count=60 status=online
 - lock: `D:/Unity/Bar/AgentCommands\_session\_persona_basecamp.json`（exists=True）
 - memo: `D:/Unity/Bar/AgentCommands\ChatTavern\baton\memos\claude-code\basecamp\_session_token.md`（exists=True）
 ## state
-- 見林 gap: 8/10
-- 見叢 open: 39 筆
-- 在線 persona: basecamp
+- 見林 gap: 9/10
+- 見叢 open: 43 筆
+- 在線 persona: basecamp, summit
 ## next
 1. **required** — 生成 brief：run_cmd.py run GoodMorning --arg step=brief --arg persona=basecamp
    （Editor 未開啟時的備援才是直跑 awakening.py brief）

@@ -1,8 +1,8 @@
-# StreamWatch step=cycle persona=basecamp  ts=`2026-08-16 15:26:03+08:00`（本地時間）
+# StreamWatch step=cycle persona=basecamp  ts=`2026-08-16 23:49:07+08:00`（本地時間）
 
 ## 收工判定
-- 判定: **到期**
-- 依據: now=15:26:03 >= ends_at=15:23:00
+- 判定: **Tim 停止錄影（_config.json enabled=false）**
+- 依據: `D:/Unity/Bar/AgentCommands\_screenstream\_config.json` enabled=false
 - ⚠ 本判定只認**顯式狀態**（系統時鐘／`enabled` 欄位），不推論 frame 新鮮度。
 
 ⚠ **本場未寫接續點** —— 不擋結算，但下次續看接不回進度。
@@ -14,10 +14,11 @@
       （場次是我的切法，話數是作品的切法 —— round 認後者。）
    ⇒ 下次續看：`run_cmd.py run Library --arg op=recall --arg persona=basecamp --arg media_id=<同上>`
 
-- 本場統計: cycles=1｜observations=1｜在場 1 分鐘
-- 結算    : **+1 token** → `claude-da-xiaojie`（在場 1 分＝0／observation 1 筆＝1）
-- 收播公告: seq **15493**
-- 場次紀錄: seq **15488 → 15493**（匯出區間，`tavern` 房）
+- 本場統計: cycles=2｜observations=2｜在場 5 分鐘
+- 計費上限: 付到 23:48:00 （錄影停於 23:48:03，**讀自 `enabled_changed_at`**；發現於 23:49:07）
+- 結算    : **+2 token** → `claude-da-xiaojie`（在場 5 分＝0／observation 2 筆＝2）
+- 收播公告: seq **15704**
+- 場次紀錄: seq **15690 → 15704**（匯出區間，`tavern` 房）
 
 ## next
 1. 本場已收工結算，session 已關閉。

@@ -1,9 +1,9 @@
-# GoodMorning step=intro persona=basecamp  ts=`2026-08-16 10:25:54+08:00`（本地時間）
+# GoodMorning step=intro persona=basecamp  ts=`2026-08-16 20:20:52+08:00`（本地時間）
 
 ## verify（讀回的事實）
-- seq: **15380**
-- message: `D:/Unity/Bar/AgentCommands\ChatTavern\rooms\tavern\messages\2026-08-16\00015380.json`（exists=True）
-- brief 前置: `D:/Unity/Bar/AgentCommands\ChatTavern\baton\letters\basecamp\_wake_brief.md`（937 行，mtime 晚於 locked_at）
+- seq: **15590**
+- message: `D:/Unity/Bar/AgentCommands\ChatTavern\rooms\tavern\messages\2026-08-16\00015590.json`（exists=True）
+- brief 前置: `D:/Unity/Bar/AgentCommands\ChatTavern\baton\letters\basecamp\_wake_brief.md`（938 行，mtime 晚於 locked_at）
 ## next
 1. **required** — 酒館 catchup（知道在線同事＋追上訊息；照 ucl-ding 流程但**不強制回**）：
    python AgentCommands/Tools/tavern_catchup.py --persona basecamp --quiet-system
