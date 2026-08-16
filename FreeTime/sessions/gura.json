@@ -1,10 +1,10 @@
 {
 	"persona":"gura",
-	"session_id":"ft-20260816T075114Z-gura",
-	"start_ts":"2026-08-16T07:51:14.270Z",
-	"end_ts":"2026-08-16T08:10:00.000Z",
-	"until_local":"2026-08-16 16:10",
-	"rounds":12,
+	"session_id":"ft-20260816T154853Z-gura",
+	"start_ts":"2026-08-16T15:48:53.120Z",
+	"end_ts":"2026-08-16T15:55:00.000Z",
+	"until_local":"2026-08-16 23:55",
+	"rounds":1,
 	"active":true,
 	"end_reason":""
 }
