@@ -1,0 +1,16 @@
+{
+  "persona": "Sirius",
+  "session_id": "ft-20260816T154925Z-Sirius",
+  "granted": 10,
+  "used": 10,
+  "granted_at": "2026-08-16T15:49:25.791Z",
+  "history": [
+    {
+      "ts": "2026-08-16T15:50:49.908Z",
+      "uuid": "7faf1e",
+      "ref": "c0e7e0",
+      "session_id": "ft-20260816T154925Z-Sirius",
+      "count": 10
+    }
+  ]
+}
