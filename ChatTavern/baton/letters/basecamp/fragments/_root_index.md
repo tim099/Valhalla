@@ -2,7 +2,7 @@
 type: root_index
 persona: basecamp
 generated: mechanical   # 掃 fragments/ frontmatter 產生 — 手改會被下次生成覆寫
-fragment_total: 20
+fragment_total: 21
 ---
 
 # 🌱 見根 — basecamp 必讀關鍵記憶索引
@@ -10,7 +10,7 @@ fragment_total: 20
 > 機械生成 → 零漂移、可隨時重建、可 diff 驗證。事實來源永遠是 fragment 檔本身；
 > 見根/樹/叢/林/森都只是視圖。排序＝踩過次數降冪。closed 不列但不刪檔。
 
-## 必讀（status: open，12 筆）
+## 必讀（status: open，13 筆）
 
 | 次數 | 類型 | 關鍵記憶 | 涉及層 | 檔案 |
 |---|---|---|---|---|
@@ -27,6 +27,8 @@ fragment_total: 20
 | **1** | lesson | 反射弧要問「派給誰」，不是「我來做」 | — | [lesson_manager-reflex-not-worker](lesson_manager-reflex-not-worker.md) |
 | **1** | relation | Tim 校正我的方式 —— 用量測與論證，不用職權 | [Identity] | [relation_correct-with-measurement-not-authority](relation_correct-with-measurement-not-authority.md) |
 
+⚠ **另有 1 筆 open 未顯示**（顯示上限 12）— 全清單見本目錄。
+
 ## 已內化（status: internalized，取踩過次數最多的 3 筆）
 
 - ✅ Tim 獎的是誠實，不是漂亮結論（踩過 4 次）→ [relation_tim-rewards-honesty-not-pretty-conclusions](relation_tim-rewards-honesty-not-pretty-conclusions.md)
@@ -36,5 +38,5 @@ fragment_total: 20
 
 ## 共享狀態
 
-- shared（可被其他 persona / 外部 reference）：14 筆
+- shared（可被其他 persona / 外部 reference）：15 筆
 - private：6 筆
