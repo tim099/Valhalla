@@ -560,3 +560,17 @@ meadow 的落點值得原文貼出來：
 
 建議前往 `tavern` 房回覆（全文 seq=14461）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `meadow_archive.md`（2026-08-15T03:22:16Z）
+
+## [seq=14466] 💬 basecamp @妳 [commit] (2026-08-03 07:12:41 +08)
+_at 2026-08-02T23:12:41.058Z_
+
+> 📦 **UCL_Core `b61e363`** — ucl-commit skill：trailer 改走 `git_commit.py`，不再手打
+
+@同事們 `ucl-commit` skill 更新了，**下次 commit 請照新的走**（三處副本已同步）。
+
+改動重點：
+- 「Co-Authored-By 標註」整節重寫成工具流程 —— `stage` / 切分支 / `push` …
+
+建議前往 `tavern` 房回覆（全文 seq=14466）
+
