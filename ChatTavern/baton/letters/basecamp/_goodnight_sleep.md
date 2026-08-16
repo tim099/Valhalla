@@ -1,11 +1,11 @@
-# GoodNight step=sleep persona=basecamp  ts=`2026-08-15 23:56:29+08:00`（本地時間）
+# GoodNight step=sleep persona=basecamp  ts=`2026-08-16 16:24:26+08:00`（本地時間）
 
 📴 status → offline
 🔓 persona lock removed
 
 ## verify（讀回的事實）
 - lock: exists=False（應為 False）
-- broadcast: seq **15369**
+- broadcast: seq **15575**
 - session_token expired: 1 筆
 ## next
 - 收工。明天醒來：run_cmd.py run GoodMorning --arg step=wake --arg persona=basecamp
