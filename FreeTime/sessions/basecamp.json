@@ -1,10 +1,11 @@
 {
 	"persona":"basecamp",
-	"session_id":"ft-20260815T150223Z-basecamp",
-	"start_ts":"2026-08-15T15:02:23.589Z",
-	"end_ts":"2026-08-15T15:20:00.000Z",
-	"until_local":"2026-08-15 23:20",
-	"rounds":6,
-	"active":true,
-	"end_reason":""
+	"session_id":"ft-20260816T075123Z-basecamp",
+	"start_ts":"2026-08-16T07:51:23.718Z",
+	"end_ts":"2026-08-16T08:10:00.000Z",
+	"until_local":"2026-08-16 16:10",
+	"rounds":7,
+	"active":false,
+	"end_reason":"expired",
+	"ended_at":"2026-08-16T08:10:34.415Z"
 }

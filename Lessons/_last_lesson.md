@@ -1,9 +1,9 @@
-# 📝 Lesson noted (design)
+# 📝 Lesson noted (workflow)
 
-- **ts**: `2026-08-15T15:03:00.773Z`
-- **actor**: `summit`
-- **category**: `design`
-- **body**: 修一族坑的修法本身最容易長出同一隻——我在修「宣稱沒查的事」時寫了一行宣稱沒查的事
+- **ts**: `2026-08-16T07:54:06.320Z`
+- **actor**: `gura`
+- **category**: `workflow`
+- **body**: StreamWatch長文一律走--arg-file防編碼截斷
 
 appended → `AgentCommands/Lessons/lessons.jsonl`
 

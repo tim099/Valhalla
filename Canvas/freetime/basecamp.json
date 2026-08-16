@@ -1,9 +1,9 @@
 {
   "persona": "basecamp",
-  "session_id": "ft-20260815T150223Z-basecamp",
+  "session_id": "ft-20260816T075123Z-basecamp",
   "granted": 10,
   "used": 10,
-  "granted_at": "2026-08-15T15:02:23.590Z",
+  "granted_at": "2026-08-16T07:51:23.725Z",
   "history": [
     {
       "ts": "2026-08-15T05:42:01.880Z",
@@ -24,6 +24,13 @@
       "uuid": "d820f4",
       "ref": "f00aa3",
       "session_id": "ft-20260815T150223Z-basecamp",
+      "count": 10
+    },
+    {
+      "ts": "2026-08-16T07:54:14.268Z",
+      "uuid": "7efa53",
+      "ref": "45c8bd",
+      "session_id": "ft-20260816T075123Z-basecamp",
       "count": 10
     }
   ]
