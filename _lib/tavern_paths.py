@@ -24,6 +24,14 @@ import os as _os
 from pathlib import Path
 from typing import Iterable
 
+# 本 module 被兩種姿勢 import：套件式（`AgentCommands._lib.tavern_paths`）與
+# sibling 式（`_lib.tavern_paths`，_lib 當 top-level namespace package，見 repo_root.py）。
+# 相對 import 只在前者成立，故兩條都留 —— 缺哪一條都會在某一棵工具樹 import 期就炸。
+try:                                                    # 套件式
+    from . import ucl_paths as _ucl_paths               # type: ignore
+except ImportError:                                     # sibling 式
+    from _lib import ucl_paths as _ucl_paths           # type: ignore
+
 
 # ---------------------------------------------------------------------------
 # Repo root resolution
@@ -151,6 +159,15 @@ RUN_CMD_PATH: Path = UCL_AGENTCMD_DIR / "run_cmd.py"
 AWAKENING_PATH: Path = UCL_AGENTCMD_DIR / "awakening.py"
 CANVAS_PATH: Path = UCL_AGENTCMD_DIR / "canvas.py"
 BUILTIN_MODULES_DIR: Path = find_builtin_modules_dir()
+
+# 區塊職責：persona registry 目錄（awakening 的 `AwakenInit/personas/<persona>.json`）。
+# 物理意義：解析本身不在這裡做 —— 委派鏡像 _lib/ucl_paths.personas_dir()（canonical 在
+#          UCL_Core，對側 = C# ResolvePersonaFile）。本常數只是給 AgentCommands/Tools 那棵樹
+#          一個跟其他路徑同形的引用點，不是第二套解析器。
+# 數值影響：2026-08-17 血證 —— Tools 端 2e01bb6「委派 tavern_paths」委派給了一個從未存在的
+#          `tavern_paths.PERSONAS_DIR`，tavern_catchup.py 直接 AttributeError 開不了機
+#          （import 期就炸，不是靜默降級）。缺的不是解析邏輯，是這一行。
+PERSONAS_DIR: Path = _ucl_paths.personas_dir()
 
 
 # ---------------------------------------------------------------------------
