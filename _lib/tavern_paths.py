@@ -40,15 +40,40 @@ def _find_repo_root() -> Path:
 # 物理意義：C# 控制台 Apply 時把絕對資料根寫到 <git-root>/.agentcommands_root.local;
 #          本 helper 讀這檔得實際資料根,沒有 → 預設 git_root/AgentCommands (與舊行為相同)。
 # 數值影響：跨語言 (C#/Python) 共讀同一檔,per-machine (gitignored);純文字 IO。
+# ⚠ 2026-08-17（Tim 拍板）：pointer 檔讀取的唯一實作在 UCL_Core 的 _lib/ucl_paths.py。
+#   原本有 10 份平行實作（本檔是唯一住在**專案側 repo**的那份）。十份都對，
+#   但十份就是十個會各自漂移的真相源；漂移的症狀是「這支讀 A 目錄、那支讀 B 目錄」，
+#   兩邊都不報錯。⇒ 之後改 pointer 檔格式只需改一處。
+# ⚠ 跨 repo：本檔在 AgentCommands（專案狀態側），ucl_paths 在 UCL_Core（程式碼側，
+#   掛載位置跨專案不定）⇒ 用**資料夾名搜尋**定位 UCL_Core，與 C# UCL_RepoPath.FindUCLCoreDir
+#   同演算法（只搜 Assets/ 底下，不往專案外找 —— 專案外可能有另一份 checkout）。
+#   找不到就走 fallback，不 raise：本檔是被 daemon / notify 這類長壽命工具 import 的，
+#   在此炸掉會讓整條通知線斷掉，而那比「用預設路徑」嚴重。
+def _load_ucl_paths(git_root: Path):
+    assets = git_root / "Assets"
+    if assets.is_dir():
+        for cand in assets.rglob("UCL_Core"):
+            mod_path = cand / "Tools~" / "AgentCommands" / "_lib" / "ucl_paths.py"
+            if mod_path.is_file():
+                import importlib.util as ilu
+                spec = ilu.spec_from_file_location("_ucl_paths_from_tavern_paths", mod_path)
+                m = ilu.module_from_spec(spec)
+                spec.loader.exec_module(m)
+                return m
+    return None
+
+
 def _resolve_agentcommands_data_root(git_root: Path) -> Path:
+    mod = _load_ucl_paths(git_root)
+    if mod is not None:
+        return mod.data_root()
+    # fallback：找不到 UCL_Core（非標準佈局）→ 保留原本的最小行為，但只在這一格
     pointer = git_root / ".agentcommands_root.local"
     try:
         if pointer.exists():
             content = pointer.read_text(encoding="utf-8").strip()
-            if content:
-                p = Path(content)
-                if p.is_absolute():
-                    return p.resolve()
+            if content and Path(content).is_absolute():
+                return Path(content).resolve()
     except Exception:
         pass
     return (git_root / "AgentCommands").resolve()
