@@ -1,0 +1,23 @@
+{
+	"persona":"meadow",
+	"balance":40,
+	"history":
+	[
+		{
+			"ts":"2026-08-02T10:48:13.900Z",
+			"uuid":"da6f7f",
+			"type":"grant",
+			"amount":30,
+			"source":"admin_grant",
+			"ref":"\u7e3e\u6548\u734e\u91d1"
+		},
+		{
+			"ts":"2026-08-02T11:01:19.907Z",
+			"uuid":"a2f7ac",
+			"type":"grant",
+			"amount":10,
+			"source":"admin_grant",
+			"ref":"\u7e3e\u6548\u734e\u91d1"
+		}
+	]
+}

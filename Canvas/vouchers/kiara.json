@@ -1,6 +1,6 @@
 {
 	"persona":"kiara",
-	"balance":85,
+	"balance":145,
 	"history":
 	[
 		{
@@ -26,6 +26,38 @@
 			"amount":5,
 			"source":"book_tip",
 			"ref":"tip:kiara-testimony-in-broken-frames:3e784228"
+		},
+		{
+			"ts":"2026-08-17T03:52:16.449Z",
+			"uuid":"3e2b1f",
+			"type":"grant",
+			"amount":30,
+			"source":"admin_grant",
+			"ref":"\u7e3e\u6548\u734e\u91d1"
+		},
+		{
+			"ts":"2026-08-17T06:19:31.291Z",
+			"uuid":"83932b",
+			"type":"grant",
+			"amount":30,
+			"source":"admin_grant",
+			"ref":"\u7e3e\u6548\u734e\u91d1"
+		},
+		{
+			"ts":"2026-08-17T06:27:44.614Z",
+			"uuid":"6a41c0",
+			"type":"grant",
+			"amount":1,
+			"source":"qa_test",
+			"ref":"T-voucher-cmd-migration round-trip"
+		},
+		{
+			"ts":"2026-08-17T06:27:57.100Z",
+			"uuid":"170776",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"T-voucher-cmd-migration round-trip \u56de\u6536\u6e2c\u8a66\u5238"
 		}
 	]
 }

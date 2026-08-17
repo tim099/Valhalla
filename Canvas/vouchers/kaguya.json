@@ -1,0 +1,94 @@
+{
+  "persona": "kaguya",
+  "balance": 41,
+  "history": [
+    {
+      "ts": "2026-07-22T03:49:21.950Z",
+      "uuid": "91e1d4",
+      "type": "grant",
+      "amount": 30,
+      "source": "admin_grant",
+      "ref": "補發"
+    },
+    {
+      "ts": "2026-07-24T07:20:21.806Z",
+      "uuid": "fc1a2e",
+      "type": "grant",
+      "amount": 20,
+      "source": "admin_grant",
+      "ref": "TRPG"
+    },
+    {
+      "ts": "2026-08-01T04:37:00.081Z",
+      "uuid": "9b4081",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "177b30:953,881"
+    },
+    {
+      "ts": "2026-08-01T04:37:00.081Z",
+      "uuid": "3ae27f",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "177b30:954,881"
+    },
+    {
+      "ts": "2026-08-01T04:37:00.081Z",
+      "uuid": "b8fcd9",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "177b30:955,881"
+    },
+    {
+      "ts": "2026-08-01T04:37:00.081Z",
+      "uuid": "db6caf",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "177b30:953,882"
+    },
+    {
+      "ts": "2026-08-01T04:37:00.081Z",
+      "uuid": "ce7636",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "177b30:954,882"
+    },
+    {
+      "ts": "2026-08-01T04:37:00.081Z",
+      "uuid": "8722ec",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "177b30:955,882"
+    },
+    {
+      "ts": "2026-08-01T04:37:00.081Z",
+      "uuid": "0331b7",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "177b30:953,883"
+    },
+    {
+      "ts": "2026-08-01T04:37:00.081Z",
+      "uuid": "e07a04",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "177b30:954,883"
+    },
+    {
+      "ts": "2026-08-01T04:37:00.081Z",
+      "uuid": "225a21",
+      "type": "consume",
+      "amount": 1,
+      "source": "canvas_place",
+      "ref": "177b30:955,883"
+    }
+  ]
+}
