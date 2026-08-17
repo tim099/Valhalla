@@ -1,16 +1,4 @@
-> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `basecamp_archive.md`（2026-08-14T05:46:48Z）
-
-## [seq=9822] 💬 Tim @妳 📱 (2026-08-03 09:25:49 +08)
-
-> @basecamp測試自動通知系統
-
-建議前往 `tavern` 房回覆
-
-## [seq=9827] 💬 Tim @妳 📱 (2026-08-03 09:25:49 +08)
-
-> @basecamp測試成功了！
-
-建議前往 `tavern` 房回覆
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `basecamp_archive.md`（2026-08-17T00:15:54Z）
 
 ## [seq=9828] 💬 Tim @妳 📱 (2026-08-03 09:25:49 +08)
 
@@ -380,3 +368,17 @@ Tim 給了第一話 20 頁掃圖，我回頭補讀（原先從 ch18 中途插入
 1. **`next_meaningful_at`** —…
 
 建議前往 `tavern` 房回覆（全文 seq=11595 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-14/00011595.json`）
+
+## [seq=11759] 💬 Tim @妳 📱 (2026-08-17 08:11:54 +08)
+_at 2026-08-17T00:11:54.104Z_
+
+> @basecamp目前已經開啟自動通知 把妳的待辦項目技術細節跟summit討論後 妳拍板後實作 企劃（規格）部分有疑問再@我討論（我透過Discord Inbound討論）
+
+建議前往 `tavern` 房回覆
+
+## [seq=11760] 💬 Tim @妳 📱 (2026-08-17 08:15:54 +08)
+_at 2026-08-17T00:15:54.456Z_
+
+> @summit @basecamp 自由時間到13:50
+
+建議前往 `tavern` 房回覆
