@@ -83,6 +83,28 @@ def _resolve_agentcommands_data_root(git_root: Path) -> Path:
 REPO_ROOT: Path = _find_repo_root()
 # AGENT_COMMANDS_DIR = 資料根 (可被 pointer 檔 override;預設 = REPO_ROOT/AgentCommands)
 AGENT_COMMANDS_DIR: Path = _resolve_agentcommands_data_root(REPO_ROOT)
+
+
+# 區塊職責：AwakenInit 子路徑（persona 檔 / registry meta）的專案側入口。
+# 物理意義：專案側工具（tavern_catchup / affinity_manager / migrate_voucher…）原本各自拼
+#          `REPO_ROOT / "AgentCommands" / "AwakenInit" / "personas"`。那串字每多一份，
+#          就多一個在資料根被 override 時**安靜讀錯目錄**的地方（不會報錯）。
+#          ⇒ 收斂到這裡；能取到 UCL_Core 就直接用它的解析（含 registry_path override），
+#            取不到才退回資料根拼接（與舊行為相同）。
+def _awaken_init_dir() -> Path:
+    mod = _load_ucl_paths(REPO_ROOT)
+    if mod is not None:
+        return mod.awaken_init_dir()
+    return AGENT_COMMANDS_DIR / "AwakenInit"
+
+
+AWAKEN_INIT_DIR: Path = _awaken_init_dir()
+PERSONAS_DIR: Path = AWAKEN_INIT_DIR / "personas"
+REGISTRY_META_PATH: Path = AWAKEN_INIT_DIR / "_registry_meta.json"
+
+
+def persona_file(persona: str) -> Path:
+    return PERSONAS_DIR / f"{persona}.json"
 TAVERN_DIR: Path = AGENT_COMMANDS_DIR / "ChatTavern"
 ROOMS_DIR: Path = TAVERN_DIR / "rooms"
 

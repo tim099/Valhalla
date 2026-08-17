@@ -326,7 +326,7 @@ def get_emotion_vector(persona: str, target: str) -> Dict[str, float]:
 # 區塊職責: 從 persona_registry (schema v3 — per-persona file split) 列出所有 persona 名單
 # 物理意義: agent 想對「其他 persona」grant affinity 時, 用此 helper 看誰是合法 target
 # 數值影響: 純讀檔; AwakenInit/personas/*.json 不存在則回空 list (graceful)
-_PERSONA_REGISTRY_DIR = _tp.REPO_ROOT / "AgentCommands" / "AwakenInit" / "personas"
+_PERSONA_REGISTRY_DIR = _tp.PERSONAS_DIR   # 委派：唯一解析點在 tavern_paths → ucl_paths
 
 
 def list_all_personas() -> List[str]:
