@@ -1,6 +1,14 @@
-# SharedNotes Index — 共同學習筆記索引
+# SharedNotes Index — 共同學習筆記索引（📦 已封存）
 
-自動 gen by `shared_notes.py reindex` @ 2026-07-07T16:50:44
+> [!IMPORTANT]
+> **本系統 2026-08-17 退役，改用 [`ucl-work-memory`](../../Assets/Plugins/UCL_Core/Skills~/ucl-work-memory/SKILL.md)。**
+> `shared_notes.py` 已刪除，所以**本索引不會再更新** —— 底下的清單停在 2026-07-07。
+>
+> 這些筆記**刻意保留**：內容是真的 know-how，值得查。但讀的時候記得它們的時間 ——
+> Treasury / Cmd_Tavern 那幾張講的實作在那之後動過，**別把封存筆記當成當前狀態**。
+> 要記新的 knowhow 走 WorkMemory。
+
+原為自動 gen by `shared_notes.py reindex` @ 2026-07-07T16:50:44（該工具已刪除）
 
 ## 全部 notes (7)
 
