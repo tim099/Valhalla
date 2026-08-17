@@ -34,3 +34,6 @@
 [submodule "MBTI"]
 	path = MBTI
 	url = https://github.com/tim099/MBTI.git
+[submodule "ChatTavern/baton/letters/calli"]
+	path = ChatTavern/baton/letters/calli
+	url = https://github.com/Persona9999/calli.git
