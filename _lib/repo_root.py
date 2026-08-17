@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # 區塊職責：跨 Tool 共用的 repo-root 解析器 — 取代各腳本內聯的第 N 份 find_repo_root copy。
 # 物理意義：
-#   AgentCommands/Tools 下一票工具（ledger 寫入 / workflow_patch / persona_ding 等）都要把
+#   AgentCommands/Tools 下一票工具（ledger 寫入 / workflow_patch / tavern_query 等）都要把
 #   相對 AgentCommands/... 的資料路徑釘在「主專案根」上。歷史上各檔各寫一份 find_repo_root，
 #   寫法漂移（cwd-相對字串 / .git walk-up / git rev-parse 吃 cwd）正是 cwd 路徑詐欺 bug
 #   蔓延全家族的病灶（2026-06-16 qa_bug_reward + 4 支 ledger 工具血證）。本檔把解析邏輯收斂成一處。
