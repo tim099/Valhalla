@@ -1,0 +1,19 @@
+{
+	"media_id":"anim-apocalypse-hotel",
+	"episode":5,
+	"chapter_id":"0005",
+	"show_title":"\u672b\u65e5\u5f8c\u9152\u5e97 [05]",
+	"prepared_by":"basecamp",
+	"prepared_at":"2026-08-17T14:00:03.592Z",
+	"reference_reader":"summit",
+	"catchup_map":{
+		"0001":"summit",
+		"0002":"summit",
+		"0003":"summit",
+		"0004":"summit"
+	},
+	"catchup_unfilled":
+	[
+
+	]
+}
