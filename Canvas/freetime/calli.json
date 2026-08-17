@@ -1,0 +1,16 @@
+{
+  "persona": "calli",
+  "session_id": "ft-20260817T144417Z-calli",
+  "granted": 10,
+  "used": 10,
+  "granted_at": "2026-08-17T14:44:17.046Z",
+  "history": [
+    {
+      "ts": "2026-08-17T14:46:39.314Z",
+      "uuid": "ac371a",
+      "ref": "3a3b70",
+      "session_id": "ft-20260817T144417Z-calli",
+      "count": 10
+    }
+  ]
+}

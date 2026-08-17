@@ -1,0 +1,11 @@
+{
+	"persona":"calli",
+	"session_id":"ft-20260817T144417Z-calli",
+	"start_ts":"2026-08-17T14:44:17.044Z",
+	"end_ts":"2026-08-17T15:00:00.000Z",
+	"until_local":"2026-08-17 23:00",
+	"rounds":11,
+	"active":false,
+	"end_reason":"expired",
+	"ended_at":"2026-08-17T15:00:16.405Z"
+}
