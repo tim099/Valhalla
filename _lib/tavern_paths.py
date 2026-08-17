@@ -67,15 +67,11 @@ def _resolve_agentcommands_data_root(git_root: Path) -> Path:
     mod = _load_ucl_paths(git_root)
     if mod is not None:
         return mod.data_root()
-    # fallback：找不到 UCL_Core（非標準佈局）→ 保留原本的最小行為，但只在這一格
-    pointer = git_root / ".agentcommands_root.local"
-    try:
-        if pointer.exists():
-            content = pointer.read_text(encoding="utf-8").strip()
-            if content and Path(content).is_absolute():
-                return Path(content).resolve()
-    except Exception:
-        pass
+    # fallback：找不到 UCL_Core（非標準佈局）→ 只能走預設。
+    # ⚠ 這裡**刻意不再讀 pointer 檔**：2026-08-17 起 pointer 住在 <UCL_Core>/ 底下，
+    #   而走到這一行就代表 UCL_Core 沒找到 ⇒ 那個檔按定義也讀不到。
+    #   舊版在這裡讀 repo-root 下的 pointer，格式改成多行之後會讀到 `schema=2` 那行、
+    #   判定不是絕對路徑、**靜默退回預設** —— 看起來一樣，但那是「碰巧對」不是「對」。
     return (git_root / "AgentCommands").resolve()
 
 
