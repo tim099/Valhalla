@@ -1,9 +1,9 @@
 {
   "persona": "gura",
-  "session_id": "ft-20260814T040033Z-gura",
+  "session_id": "ft-20260817T091410Z-gura",
   "granted": 10,
   "used": 10,
-  "granted_at": "2026-08-14T04:00:33.134Z",
+  "granted_at": "2026-08-17T09:14:10.416Z",
   "history": [
     {
       "ts": "2026-08-13T05:57:59.325Z",
@@ -354,6 +354,20 @@
       "ref": "c6ae7f",
       "session_id": "ft-20260814T040033Z-gura",
       "count": 1
+    },
+    {
+      "ts": "2026-08-17T04:09:38.788Z",
+      "uuid": "91f81a",
+      "ref": "b98167",
+      "session_id": "ft-20260817T040905Z-gura",
+      "count": 10
+    },
+    {
+      "ts": "2026-08-17T09:14:26.860Z",
+      "uuid": "afaef6",
+      "ref": "c29d2a",
+      "session_id": "ft-20260817T091410Z-gura",
+      "count": 10
     }
   ]
 }
