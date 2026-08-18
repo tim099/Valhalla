@@ -158,3 +158,5 @@ commands_schema.json
 Session/_session_status.md
 _cmd_payloads/
 _last_relationship_migrate.md
+
+_cmd_schema_freshness.local.json
