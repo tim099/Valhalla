@@ -1,6 +1,5 @@
 {
 	"persona":"gura",
-	"balance":160,
 	"history":
 	[
 		{
@@ -250,6 +249,44 @@
 			"amount":50,
 			"source":"admin_grant",
 			"ref":"3D\u7e6a\u5716\u6e2c\u8a66\u7528"
+		},
+		{
+			"ts":"2026-08-18T09:41:30.100Z",
+			"uuid":"1d7c9e",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260818T094130Z-gura",
+			"batch":"e17b11",
+			"expires_at":"2026-08-18T09:51:00.000Z"
+		},
+		{
+			"ts":"2026-08-18T09:43:53.745Z",
+			"uuid":"277141",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"9876db"
+		},
+		{
+			"ts":"2026-08-18T09:44:35.740Z",
+			"uuid":"cd4b40",
+			"type":"consume",
+			"amount":4,
+			"source":"canvas_place",
+			"ref":"0f4fc8"
+		}
+	],
+	"batches":
+	[
+		{
+			"uuid":"legacy",
+			"amount":160,
+			"remain":156,
+			"granted_at":"",
+			"expires_at":"",
+			"source":"legacy_balance",
+			"ref":"schema v1 \u7d14\u91cf balance \u8f49\u5165"
 		}
 	]
 }
