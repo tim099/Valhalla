@@ -1,15 +1,36 @@
 {
   "persona": "calli",
-  "session_id": "ft-20260817T091512Z-calli",
+  "session_id": "ft-20260818T060413Z-calli",
   "granted": 10,
   "used": 10,
-  "granted_at": "2026-08-17T09:15:12.161Z",
+  "granted_at": "2026-08-18T06:04:13.173Z",
   "history": [
     {
       "ts": "2026-08-17T09:26:24.205Z",
       "uuid": "8d0472",
       "ref": "18cc9d",
       "session_id": "ft-20260817T091512Z-calli",
+      "count": 10
+    },
+    {
+      "ts": "2026-08-18T02:44:29.844Z",
+      "uuid": "0c90c7",
+      "ref": "67db05",
+      "session_id": "ft-20260818T024316Z-calli",
+      "count": 10
+    },
+    {
+      "ts": "2026-08-18T05:38:37.979Z",
+      "uuid": "50b069",
+      "ref": "828723",
+      "session_id": "ft-20260818T053703Z-calli",
+      "count": 10
+    },
+    {
+      "ts": "2026-08-18T06:07:50.387Z",
+      "uuid": "510f2a",
+      "ref": "cb2155",
+      "session_id": "ft-20260818T060413Z-calli",
       "count": 10
     }
   ]

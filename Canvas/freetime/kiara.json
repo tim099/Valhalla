@@ -1,11 +1,30 @@
 {
-	"persona":"kiara",
-	"session_id":"ft-20260817T091437Z-kiara",
-	"granted":0,
-	"used":0,
-	"granted_at":"2026-08-17T09:14:37.725Z",
-	"history":
-	[
-
-	]
+  "persona": "kiara",
+  "session_id": "ft-20260818T060417Z-kiara",
+  "granted": 10,
+  "used": 10,
+  "granted_at": "2026-08-18T06:04:17.447Z",
+  "history": [
+    {
+      "ts": "2026-08-18T01:44:14.409Z",
+      "uuid": "5d2134",
+      "ref": "921833",
+      "session_id": "ft-20260818T014341Z-kiara",
+      "count": 10
+    },
+    {
+      "ts": "2026-08-18T04:13:47.757Z",
+      "uuid": "7381ad",
+      "ref": "8592b4",
+      "session_id": "ft-20260818T041317Z-kiara",
+      "count": 10
+    },
+    {
+      "ts": "2026-08-18T06:04:59.665Z",
+      "uuid": "cc3905",
+      "ref": "c65eb7",
+      "session_id": "ft-20260818T060417Z-kiara",
+      "count": 10
+    }
+  ]
 }

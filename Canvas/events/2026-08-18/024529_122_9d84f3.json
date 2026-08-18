@@ -1,0 +1,36 @@
+{
+  "ts": "2026-08-18T02:45:29.122Z",
+  "uuid": "9d84f3",
+  "persona": "basecamp",
+  "agent": "claude-code",
+  "account_id": "cc",
+  "pixels": [
+    {
+      "x": 518,
+      "y": 497,
+      "color": 213
+    },
+    {
+      "x": 524,
+      "y": 497,
+      "color": 213
+    },
+    {
+      "x": 519,
+      "y": 495,
+      "color": 250
+    },
+    {
+      "x": 523,
+      "y": 495,
+      "color": 250
+    }
+  ],
+  "cost": 4,
+  "pay_breakdown": {
+    "freetime": 4,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": []
+}

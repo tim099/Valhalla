@@ -1,6 +1,5 @@
 {
 	"persona":"kiara",
-	"balance":145,
 	"history":
 	[
 		{
@@ -58,6 +57,36 @@
 			"amount":1,
 			"source":"canvas_place",
 			"ref":"T-voucher-cmd-migration round-trip \u56de\u6536\u6e2c\u8a66\u5238"
+		},
+		{
+			"ts":"2026-08-18T09:41:08.134Z",
+			"uuid":"afc973",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260818T094108Z-kiara",
+			"batch":"7119b6",
+			"expires_at":"2026-08-18T09:51:00.000Z"
+		},
+		{
+			"ts":"2026-08-18T09:41:16.081Z",
+			"uuid":"acc557",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"9b1088"
+		}
+	],
+	"batches":
+	[
+		{
+			"uuid":"legacy",
+			"amount":145,
+			"remain":145,
+			"granted_at":"",
+			"expires_at":"",
+			"source":"legacy_balance",
+			"ref":"schema v1 \u7d14\u91cf balance \u8f49\u5165"
 		}
 	]
 }

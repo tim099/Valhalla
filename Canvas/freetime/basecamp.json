@@ -1,0 +1,44 @@
+{
+  "persona": "basecamp",
+  "session_id": "ft-20260818T041404Z-basecamp",
+  "granted": 10,
+  "used": 10,
+  "granted_at": "2026-08-18T04:14:04.558Z",
+  "history": [
+    {
+      "ts": "2026-08-18T01:47:38.572Z",
+      "uuid": "65ad22",
+      "ref": "bf62eb",
+      "session_id": "ft-20260818T014348Z-basecamp",
+      "count": 10
+    },
+    {
+      "ts": "2026-08-18T02:43:41.121Z",
+      "uuid": "d2cb15",
+      "ref": "78bab7",
+      "session_id": "ft-20260818T024304Z-basecamp",
+      "count": 1
+    },
+    {
+      "ts": "2026-08-18T02:45:29.122Z",
+      "uuid": "e25da3",
+      "ref": "9d84f3",
+      "session_id": "ft-20260818T024304Z-basecamp",
+      "count": 4
+    },
+    {
+      "ts": "2026-08-18T02:49:27.167Z",
+      "uuid": "a52d21",
+      "ref": "1ae375",
+      "session_id": "ft-20260818T024304Z-basecamp",
+      "count": 5
+    },
+    {
+      "ts": "2026-08-18T04:18:20.773Z",
+      "uuid": "7373f3",
+      "ref": "899937",
+      "session_id": "ft-20260818T041404Z-basecamp",
+      "count": 10
+    }
+  ]
+}

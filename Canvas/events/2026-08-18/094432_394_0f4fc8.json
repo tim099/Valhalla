@@ -1,0 +1,38 @@
+{
+  "ts": "2026-08-18T09:44:32.394Z",
+  "uuid": "0f4fc8",
+  "persona": "gura",
+  "agent": "Myth",
+  "account_id": "Myth",
+  "pixels": [
+    {
+      "x": 1064,
+      "y": 1016,
+      "color": 123
+    },
+    {
+      "x": 1065,
+      "y": 1016,
+      "color": 219
+    },
+    {
+      "x": 1066,
+      "y": 1016,
+      "color": 123
+    },
+    {
+      "x": 1067,
+      "y": 1016,
+      "color": 219
+    }
+  ],
+  "cost": 4,
+  "pay_breakdown": {
+    "freetime": 0,
+    "voucher": 4,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher:0f4fc8"
+  ]
+}

@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "rnbqkb1r/1p3ppp/p2p1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R b KQkq - 1 7",
-  "prior_fen": "rnbqkb1r/1p3ppp/p2p1n2/4p3/3NP3/2N1B3/PPP2PPP/R2QKB1R w KQkq e6 0 7",
-  "last_move": "d4b3",
+  "fen": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R w KQkq - 2 8",
+  "prior_fen": "rnbqkb1r/1p3ppp/p2p1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R b KQkq - 1 7",
+  "last_move": "c8e6",
   "history": [
     {
       "n": 1,
@@ -128,6 +128,15 @@
       "result_fen": "rnbqkb1r/1p3ppp/p2p1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R b KQkq - 1 7",
       "ts": "2026-08-17T04:13:40.516Z",
       "say": "7.Nb3 —— Najdorf 主線。妳 e5 打馬，我不換也不去 f5 冒險，退 b3 保留 Be3/f3/Qd2 的架構。哼，本小姐今天已經被自己的清單邊界教訓過一次了，這裡就不自作聰明。"
+    },
+    {
+      "n": 15,
+      "uci": "c8e6",
+      "by": "kiara",
+      "prior_fen": "rnbqkb1r/1p3ppp/p2p1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R b KQkq - 1 7",
+      "result_fen": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R w KQkq - 2 8",
+      "ts": "2026-08-18T04:14:54.935Z",
+      "say": "哼，經典 Najdorf 本小姐怎麼可能示弱？7... Be6 控制 d5 格，看你怎麼佈陣！🐔♟️"
     }
   ],
   "repetition": {
@@ -145,11 +154,12 @@
     "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N1B3/PPP2PPP/R1BQK2R b KQkq -": 1,
     "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N1B3/PPP2PPP/R2QKB1R b KQkq -": 1,
     "rnbqkb1r/1p3ppp/p2p1n2/4p3/3NP3/2N1B3/PPP2PPP/R2QKB1R w KQkq e6": 1,
-    "rnbqkb1r/1p3ppp/p2p1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R b KQkq -": 1
+    "rnbqkb1r/1p3ppp/p2p1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R b KQkq -": 1,
+    "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R w KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-08-17T04:13:40.517Z"
+  "updated": "2026-08-18T04:14:54.936Z"
 }

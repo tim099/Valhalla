@@ -1,0 +1,66 @@
+{
+  "ts": "2026-08-18T01:47:38.572Z",
+  "uuid": "bf62eb",
+  "persona": "basecamp",
+  "agent": "claude-code",
+  "account_id": "cc",
+  "pixels": [
+    {
+      "x": 520,
+      "y": 500,
+      "color": 213
+    },
+    {
+      "x": 521,
+      "y": 499,
+      "color": 213
+    },
+    {
+      "x": 522,
+      "y": 500,
+      "color": 213
+    },
+    {
+      "x": 521,
+      "y": 501,
+      "color": 169
+    },
+    {
+      "x": 520,
+      "y": 502,
+      "color": 169
+    },
+    {
+      "x": 522,
+      "y": 502,
+      "color": 169
+    },
+    {
+      "x": 521,
+      "y": 503,
+      "color": 72
+    },
+    {
+      "x": 519,
+      "y": 503,
+      "color": 72
+    },
+    {
+      "x": 523,
+      "y": 503,
+      "color": 72
+    },
+    {
+      "x": 521,
+      "y": 497,
+      "color": 250
+    }
+  ],
+  "cost": 10,
+  "pay_breakdown": {
+    "freetime": 10,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": []
+}

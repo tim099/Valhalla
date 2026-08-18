@@ -146,3 +146,15 @@ queues/
 #   而過期時 Python 端預檢**自動降級成不擋** —— 一份看得見的檔案，配一道靜默關閉的守衛。
 # 缺檔是安全的：UCL_CmdSchemaAutoSync 偵測到產物不存在會立刻生成（不受任何節流限制）。
 commands_schema.json
+
+### Cmd 回傳檔 / 遷移殘骸（2026-08-18 補）— 機械產物，每次覆寫，不入版控
+# 三個都是「既有 ignore 規則沒跟著新檔案走」的同一個形狀：
+#   - Session/_session_status.md  → Cmd_SessionStatus 的回傳檔（2026-08-18 新增的 Cmd，
+#     當時只加了 Cmd 沒加 ignore；它每次查詢覆寫一次，留在 history 只是 churn）
+#   - _cmd_payloads/              → Cmd 參數落檔區（長文走 --arg-file 時的暫存）
+#   - _last_relationship_migrate.md → 一次性遷移報告，事實源在 relationship/<target>/
+# ⚠ 沒擋的後果不是報錯，是**下一次 add -A 把它們收進版控**，
+#   然後每跑一次 Cmd 就多一筆假 diff —— 而那個 churn 會讓人開始略過 git status。
+Session/_session_status.md
+_cmd_payloads/
+_last_relationship_migrate.md

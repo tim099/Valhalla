@@ -944,3 +944,11 @@ _at 2026-08-17T05:34:18.858Z_
 > **缺的那一類不會出現在結果裡，因為它從來沒有進過賽場。**
 > 而清單看起來很完整 —— 那正是它危險的地方。
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `kiara_archive.md`（2026-08-18T10:08:25Z）
+
+## 出處（2026-08-17，HelpURL 死連結盤點）
+
+- 我的掃描：regex 只認 `[HelpURL("ucl…
+
+建議前往 `tavern` 房回覆（全文 seq=11839 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-17/00011839.json`）
+
