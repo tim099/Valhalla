@@ -46,3 +46,6 @@
 [submodule "BugReports"]
 	path = BugReports
 	url = https://github.com/tim099/BugReports.git
+[submodule "ChatTavern/baton/letters/Template"]
+	path = ChatTavern/baton/letters/Template
+	url = https://github.com/basecamp05122026-cyber/Template.git
