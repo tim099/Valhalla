@@ -1,302 +1,332 @@
 {
-  "persona": "calli",
-  "balance": 10,
-  "history": [
-    {
-      "ts": "2026-07-21T07:39:41.709Z",
-      "uuid": "855530",
-      "type": "grant",
-      "amount": 30,
-      "source": "tim_reward",
-      "ref": "bank-integration-2026-07-21"
-    },
-    {
-      "ts": "2026-07-24T07:21:47.339Z",
-      "uuid": "e88a03",
-      "type": "grant",
-      "amount": 15,
-      "source": "admin_grant",
-      "ref": "TRPG（記錄）"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "784c99",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1003,1000"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "b1fbca",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1004,1000"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "b6fca9",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1002,1001"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "0731c3",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1003,1001"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "c9877b",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1004,1001"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "9b2dad",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1001,1002"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "8da957",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1002,1002"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "41cba3",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1003,1002"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "d33e63",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1001,1003"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "936e4a",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1002,1003"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "2e06a0",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1000,1004"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "5fef0f",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1001,1004"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "663c86",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1000,1005"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "a40e25",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1001,1005"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "e4bfe8",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1000,1006"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "44e3af",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1001,1006"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "6c4d63",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1001,1007"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "38ec82",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1002,1007"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "c50330",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1001,1008"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "92ea59",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1002,1008"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "f6aa93",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1003,1008"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "b75969",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1002,1009"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "69b100",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1003,1009"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "ca1bbd",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1004,1009"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "aa2345",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1003,1010"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "fbde09",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1004,1010"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "079766",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1008,1002"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "2cebca",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1007,1003"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "2f5464",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1008,1003"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "bfe8af",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1009,1003"
-    },
-    {
-      "ts": "2026-07-24T07:34:17.202Z",
-      "uuid": "a397c2",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "b4a2a4:1008,1004"
-    },
-    {
-      "ts": "2026-07-31T12:23:05.375Z",
-      "uuid": "664889",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "fa2b2e:960,896"
-    },
-    {
-      "ts": "2026-07-31T12:23:11.206Z",
-      "uuid": "e95339",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "95ad99:960,895"
-    },
-    {
-      "ts": "2026-07-31T12:23:16.035Z",
-      "uuid": "07cb54",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "440b38:961,896"
-    },
-    {
-      "ts": "2026-07-31T12:23:20.468Z",
-      "uuid": "6d64a2",
-      "type": "consume",
-      "amount": 1,
-      "source": "canvas_place",
-      "ref": "875018:960,897"
-    }
-  ]
+	"persona":"calli",
+	"history":
+	[
+		{
+			"ts":"2026-07-21T07:39:41.709Z",
+			"uuid":"855530",
+			"type":"grant",
+			"amount":30,
+			"source":"tim_reward",
+			"ref":"bank-integration-2026-07-21"
+		},
+		{
+			"ts":"2026-07-24T07:21:47.339Z",
+			"uuid":"e88a03",
+			"type":"grant",
+			"amount":15,
+			"source":"admin_grant",
+			"ref":"TRPG\uff08\u8a18\u9304\uff09"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"784c99",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1003,1000"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"b1fbca",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1004,1000"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"b6fca9",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1002,1001"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"0731c3",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1003,1001"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"c9877b",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1004,1001"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"9b2dad",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1001,1002"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"8da957",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1002,1002"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"41cba3",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1003,1002"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"d33e63",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1001,1003"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"936e4a",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1002,1003"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"2e06a0",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1000,1004"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"5fef0f",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1001,1004"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"663c86",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1000,1005"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"a40e25",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1001,1005"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"e4bfe8",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1000,1006"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"44e3af",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1001,1006"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"6c4d63",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1001,1007"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"38ec82",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1002,1007"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"c50330",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1001,1008"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"92ea59",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1002,1008"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"f6aa93",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1003,1008"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"b75969",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1002,1009"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"69b100",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1003,1009"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"ca1bbd",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1004,1009"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"aa2345",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1003,1010"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"fbde09",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1004,1010"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"079766",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1008,1002"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"2cebca",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1007,1003"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"2f5464",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1008,1003"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"bfe8af",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1009,1003"
+		},
+		{
+			"ts":"2026-07-24T07:34:17.202Z",
+			"uuid":"a397c2",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b4a2a4:1008,1004"
+		},
+		{
+			"ts":"2026-07-31T12:23:05.375Z",
+			"uuid":"664889",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"fa2b2e:960,896"
+		},
+		{
+			"ts":"2026-07-31T12:23:11.206Z",
+			"uuid":"e95339",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"95ad99:960,895"
+		},
+		{
+			"ts":"2026-07-31T12:23:16.035Z",
+			"uuid":"07cb54",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"440b38:961,896"
+		},
+		{
+			"ts":"2026-07-31T12:23:20.468Z",
+			"uuid":"6d64a2",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"875018:960,897"
+		},
+		{
+			"ts":"2026-08-18T15:41:51.603Z",
+			"uuid":"a0070e",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260818T154151Z-calli",
+			"batch":"18cd9e",
+			"expires_at":"2026-08-18T15:56:00.000Z"
+		},
+		{
+			"ts":"2026-08-18T15:44:58.698Z",
+			"uuid":"02f5db",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"440c10"
+		},
+		{
+			"ts":"2026-08-18T15:45:44.052Z",
+			"uuid":"1d44b2",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"e968e6"
+		}
+	],
+	"batches":
+	[
+
+	]
 }
