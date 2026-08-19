@@ -20,3 +20,10 @@
 {"ts":"2026-08-19T07:15:27.221Z","persona":"Template","fields":"profile/email","actor":"kiara:A-verify","reason":"\u7d14\u91cf\u6b04\u9577\u5f97\u50cf JSON \u4e5f\u4e0d\u731c"}
 {"ts":"2026-08-19T07:15:48.512Z","persona":"Template","fields":"profile/fork_lineage","actor":"kiara:A-verify","reason":"\u9a57\u6536\u5b8c\u5fa9\u539f\uff08\u539f\u503c\u7a7a\u9663\u5217\uff09"}
 {"ts":"2026-08-19T07:15:49.515Z","persona":"Template","fields":"profile/email","actor":"kiara:A-verify","reason":"\u9a57\u6536\u5b8c\u5fa9\u539f\uff08\u539f\u503c\u7a7a\u5b57\u4e32\uff09"}
+{"ts":"2026-08-19T08:09:05.716Z","persona":"kiara","fields":"profile/layer_role","actor":"lazy-migration","reason":"phase1 auto-migrate layer_role from personas/kiara.json"}
+{"ts":"2026-08-19T08:09:05.727Z","persona":"kiara","fields":"profile/forked_from","actor":"lazy-migration","reason":"phase1 auto-migrate forked_from from personas/kiara.json"}
+{"ts":"2026-08-19T08:09:05.727Z","persona":"kiara","fields":"profile/fork_lineage","actor":"lazy-migration","reason":"phase1 auto-migrate fork_lineage from personas/kiara.json"}
+{"ts":"2026-08-19T08:09:05.732Z","persona":"kiara","fields":"profile/forked_at","actor":"lazy-migration","reason":"phase1 auto-migrate forked_at from personas/kiara.json"}
+{"ts":"2026-08-19T08:09:05.732Z","persona":"kiara","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/kiara.json"}
+{"ts":"2026-08-19T08:09:05.737Z","persona":"kiara","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/kiara.json"}
+{"ts":"2026-08-19T08:09:05.739Z","persona":"kiara","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/kiara.json"}
