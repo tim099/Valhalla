@@ -14,3 +14,4 @@
 {"ts":"2026-08-19T06:06:13.791Z","persona":"Template","fields":"profile/email","actor":"kiara:p1-verify","reason":"Phase 1 \u9a57\u6536\uff1aidentity \u6b04\u5beb\u5165\u5fc5\u9808\u843d profile/ \u4e14\u4e0d\u56de\u5beb\u820a\u6e90"}
 {"ts":"2026-08-19T06:06:31.577Z","persona":"Template","fields":"actual_agent,wake_count,status,availability,last_active,model","actor":"Cmd_GoodMorning:claude-code","reason":"morning \u767b\u5165 patch-write\uff08owned \u6b04\uff09"}
 {"ts":"2026-08-19T06:06:53.889Z","persona":"Template","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-19T06:36:53.031Z","persona":"Template","fields":"profile/email","actor":"kiara:bug15-verify","reason":"BUG-15 \u4fee\u6cd5\u9a57\u8b49\uff0b\u6e05\u56de Template email \u539f\u503c\uff08\u7a7a\u5b57\u4e32\uff09"}
