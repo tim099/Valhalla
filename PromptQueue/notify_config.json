@@ -18,7 +18,8 @@
 		"webhook_urls":
 		[
 			"https://discord.com/api/webhooks/1502982090570858577/OnpCCuImIbeMcgP3XybATnM_tAkm1-O_rVOKxLzebZF4g5JkmAFOjuVJEj3iDhzfPieY",
-			"https://discordapp.com/api/webhooks/1527209932816912466/W0MKneGNK1N2Rqu9_zlpVZB159zTMmvucQcVgCd28CjJQ26olZ548c0kj8eKNXhR_U23"
+			"https://discordapp.com/api/webhooks/1527209932816912466/W0MKneGNK1N2Rqu9_zlpVZB159zTMmvucQcVgCd28CjJQ26olZ548c0kj8eKNXhR_U23",
+			"https://discord.com/api/webhooks/1531555277025972275/WPf7c45SiCCoke-kCU-nQep2Db3UQfvzqOIhh1jMcm_RnmN57xHcOCbFRGaF5n3khU8c"
 		],
 		"webhook_file":"_tavern_webhook.txt",
 		"webhook_env_var":"PROMPTQUEUE_TAVERN_WEBHOOK",
@@ -107,7 +108,8 @@
 			"KM":"776687652330143774",
 			"\u5e0c\u74e6":"210236102831898624",
 			"xiva123":"210236102831898624",
-			"Charlie_GameBridge":"762982444072697858"
+			"Charlie_GameBridge":"762982444072697858",
+			"Dump":"191938341137022976"
 		},
 		"persona_avatar_overrides":{
 			"_note":"persona-level avatar \u986f\u5f0f\u8986\u5beb (\u6700\u9ad8\u512a\u5148, \u4e0d\u505a HEAD \u9810\u6aa2) \u2014 key=sender_persona, value=\u4efb\u610f\u5716\u7247 URL",
@@ -172,6 +174,39 @@
 		},
 		"last_read_state":{
 
+		},
+		"user_whitelist":{
+			"enabled":true,
+			"users":
+			[
+				{
+					"user_id":"383604378185105408",
+					"display_name":"Tim",
+					"profile":"\u7ba1\u7406\u54e1",
+					"aliases":
+					[
+
+					]
+				},
+				{
+					"user_id":"595986278680494111",
+					"display_name":"\u718a\u6c41",
+					"profile":"",
+					"aliases":
+					[
+
+					]
+				},
+				{
+					"user_id":"191938341137022976",
+					"display_name":"David",
+					"profile":"",
+					"aliases":
+					[
+
+					]
+				}
+			]
 		}
 	},
 	"watched_quest_rooms":

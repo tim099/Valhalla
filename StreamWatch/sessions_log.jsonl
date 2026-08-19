@@ -15,3 +15,5 @@
 {"record_type": "export", "session_id": "sw-20260818T233454Z-calli", "exported_chapter": "001", "book": "watch-qi-pa-xiao-guo", "exported_at": "2026-08-18T23:49:09.036Z"}
 {"record_type": "export", "session_id": "sw-20260818T233343Z-summit", "exported_chapter": "001", "book": "watch-qi-pa-xiao-guo", "exported_at": "2026-08-18T23:49:52.290Z"}
 {"record_type": "export", "session_id": "sw-20260818T233454Z-calli", "exported_chapter": "001", "book": "watch-qi-pa-xiao-guo", "exported_at": "2026-08-18T23:49:52.290Z"}
+{"session_id":"sw-20260819T142434Z-basecamp","persona":"basecamp","role":"primary","media_id":"apocalypse-hotel","library_media_id":"anim-apocalypse-hotel","parent_session_id":"","start_ts":"2026-08-19T14:24:34.770Z","settled_at":"2026-08-19T14:50:57.086Z","end_reason":"expired","start_seq":16093,"end_seq":16107,"cycles":9,"observations":9,"paid_minutes":25,"paid_total":11,"exported_chapter":""}
+{"record_type": "export", "session_id": "sw-20260819T142434Z-basecamp", "exported_chapter": "007", "book": "watch-apocalypse-hotel", "exported_at": "2026-08-19T14:50:57.383Z"}

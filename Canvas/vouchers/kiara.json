@@ -1,6 +1,5 @@
 {
 	"persona":"kiara",
-	"balance":125,
 	"history":
 	[
 		{
@@ -42,6 +41,44 @@
 			"amount":10,
 			"source":"admin_grant",
 			"ref":"TRPG\uff08\u7fa4\u6f14\u00b7\u672c\u5834\u5019\u5834\uff09"
+		},
+		{
+			"ts":"2026-08-19T16:02:50.237Z",
+			"uuid":"5e3fd6",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260819T160250Z-kiara",
+			"batch":"cc001e",
+			"expires_at":"2026-08-19T16:11:00.000Z"
+		},
+		{
+			"ts":"2026-08-19T16:05:53.106Z",
+			"uuid":"18dee1",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"75471f"
+		},
+		{
+			"ts":"2026-08-19T16:06:12.957Z",
+			"uuid":"2ac405",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"ceb405"
+		}
+	],
+	"batches":
+	[
+		{
+			"uuid":"legacy",
+			"amount":125,
+			"remain":115,
+			"granted_at":"",
+			"expires_at":"",
+			"source":"legacy_balance",
+			"ref":"schema v1 \u7d14\u91cf balance \u8f49\u5165"
 		}
 	]
 }

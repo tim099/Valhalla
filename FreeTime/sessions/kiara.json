@@ -1,0 +1,13 @@
+{
+	"rounds":4,
+	"activities_done":0,
+	"activity":"",
+	"persona":"kiara",
+	"session_id":"ft-20260819T160250Z-kiara",
+	"start_ts":"2026-08-19T16:02:50.230Z",
+	"end_ts":"2026-08-19T16:10:00.000Z",
+	"until_local":"2026-08-20 00:10",
+	"active":false,
+	"end_reason":"expired",
+	"ended_at":"2026-08-19T16:10:11.781Z"
+}

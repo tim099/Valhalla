@@ -1,19 +1,25 @@
 {
 	"media_id":"anim-apocalypse-hotel",
-	"episode":5,
-	"chapter_id":"0005",
-	"show_title":"\u672b\u65e5\u5f8c\u9152\u5e97 [05]",
+	"episode":7,
+	"chapter_id":"0007",
+	"show_title":"\u672b\u65e5\u5f8c\u9152\u5e97 [07]",
 	"prepared_by":"basecamp",
-	"prepared_at":"2026-08-17T14:00:03.592Z",
-	"reference_reader":"summit",
+	"prepared_at":"2026-08-19T14:45:12.409Z",
+	"reference_reader":"basecamp",
 	"catchup_map":{
-		"0001":"summit",
-		"0002":"summit",
-		"0003":"summit",
-		"0004":"summit"
+		"0001":"basecamp",
+		"0002":"basecamp",
+		"0003":"basecamp",
+		"0004":"basecamp",
+		"0005":"basecamp"
 	},
 	"catchup_unfilled":
 	[
-
-	]
+		"0006"
+	],
+	"chapter_title":"\u8239\u4e00\u76f4\u4fee\u5f97\u597d",
+	"export_chapter":"",
+	"export_work_title":"",
+	"auto_export":true,
+	"work_id":"apocalypse-hotel"
 }

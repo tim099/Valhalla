@@ -1,6 +1,5 @@
 {
 	"persona":"basecamp",
-	"balance":284,
 	"history":
 	[
 		{
@@ -3490,6 +3489,80 @@
 			"amount":30,
 			"source":"admin_grant",
 			"ref":"\u7e3e\u6548\u734e\u91d1"
+		},
+		{
+			"ts":"2026-08-19T15:52:08.345Z",
+			"uuid":"dd5534",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260819T155208Z-basecamp",
+			"batch":"264472",
+			"expires_at":"2026-08-19T15:56:00.000Z"
+		},
+		{
+			"ts":"2026-08-19T15:53:35.141Z",
+			"uuid":"b1002b",
+			"type":"consume",
+			"amount":5,
+			"source":"canvas_place",
+			"ref":"1ac4d6"
+		},
+		{
+			"ts":"2026-08-19T15:54:30.684Z",
+			"uuid":"851c02",
+			"type":"consume",
+			"amount":5,
+			"source":"canvas_place",
+			"ref":"68ace0"
+		},
+		{
+			"ts":"2026-08-19T15:56:37.728Z",
+			"uuid":"cf7ae6",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260819T155637Z-basecamp",
+			"batch":"17c86e",
+			"expires_at":"2026-08-19T16:01:00.000Z"
+		},
+		{
+			"ts":"2026-08-19T15:58:08.158Z",
+			"uuid":"8c6b69",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"5315d6"
+		},
+		{
+			"ts":"2026-08-19T16:02:49.746Z",
+			"uuid":"c04c73",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260819T160249Z-basecamp",
+			"batch":"dcb789",
+			"expires_at":"2026-08-19T16:11:00.000Z"
+		},
+		{
+			"ts":"2026-08-19T16:06:33.258Z",
+			"uuid":"fa2e74",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"bc623c"
+		}
+	],
+	"batches":
+	[
+		{
+			"uuid":"legacy",
+			"amount":284,
+			"remain":284,
+			"granted_at":"",
+			"expires_at":"",
+			"source":"legacy_balance",
+			"ref":"schema v1 \u7d14\u91cf balance \u8f49\u5165"
 		}
 	]
 }

@@ -7,5 +7,5 @@
 	"enabled":true,
 	"mention_enabled":true,
 	"mention_cooldown_seconds":30,
-	"mention_daily_cap":50
+	"mention_daily_cap":999
 }

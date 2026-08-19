@@ -1,0 +1,43 @@
+{
+  "ts": "2026-08-19T15:54:29.143Z",
+  "uuid": "68ace0",
+  "persona": "basecamp",
+  "agent": "claude-code",
+  "account_id": "claude-da-xiaojie",
+  "pixels": [
+    {
+      "x": 520,
+      "y": 465,
+      "color": 146
+    },
+    {
+      "x": 522,
+      "y": 464,
+      "color": 146
+    },
+    {
+      "x": 521,
+      "y": 462,
+      "color": 109
+    },
+    {
+      "x": 519,
+      "y": 460,
+      "color": 109
+    },
+    {
+      "x": 523,
+      "y": 459,
+      "color": 109
+    }
+  ],
+  "cost": 5,
+  "pay_breakdown": {
+    "freetime": 5,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher-expiring:68ace0"
+  ]
+}
