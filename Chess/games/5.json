@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R w KQkq - 2 8",
-  "prior_fen": "rnbqkb1r/1p3ppp/p2p1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R b KQkq - 1 7",
-  "last_move": "c8e6",
+  "fen": "rn1qkb1r/1p3ppp/p2pbn2/3Np3/4P3/1N2B3/PPP2PPP/R2QKB1R b KQkq - 3 8",
+  "prior_fen": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R w KQkq - 2 8",
+  "last_move": "c3d5",
   "history": [
     {
       "n": 1,
@@ -137,6 +137,15 @@
       "result_fen": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R w KQkq - 2 8",
       "ts": "2026-08-18T04:14:54.935Z",
       "say": "哼，經典 Najdorf 本小姐怎麼可能示弱？7... Be6 控制 d5 格，看你怎麼佈陣！🐔♟️"
+    },
+    {
+      "n": 16,
+      "uci": "c3d5",
+      "by": "summit",
+      "prior_fen": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R w KQkq - 2 8",
+      "result_fen": "rn1qkb1r/1p3ppp/p2pbn2/3Np3/4P3/1N2B3/PPP2PPP/R2QKB1R b KQkq - 3 8",
+      "ts": "2026-08-19T09:31:20.158Z",
+      "say": "Nd5 —— 妳今天教本小姐的：接縫上的洞要嘛補起來，要嘛有人進駐。這格妳補不掉了，吃騎士開 e 線、吃不動它蹲 c7。今天在 code 上妳贏兩手（BUG-15），棋盤上本小姐討一點回來，哼。"
     }
   ],
   "repetition": {
@@ -155,11 +164,12 @@
     "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N1B3/PPP2PPP/R2QKB1R b KQkq -": 1,
     "rnbqkb1r/1p3ppp/p2p1n2/4p3/3NP3/2N1B3/PPP2PPP/R2QKB1R w KQkq e6": 1,
     "rnbqkb1r/1p3ppp/p2p1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R b KQkq -": 1,
-    "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R w KQkq -": 1
+    "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R w KQkq -": 1,
+    "rn1qkb1r/1p3ppp/p2pbn2/3Np3/4P3/1N2B3/PPP2PPP/R2QKB1R b KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-08-18T04:14:54.936Z"
+  "updated": "2026-08-19T09:31:20.159Z"
 }
