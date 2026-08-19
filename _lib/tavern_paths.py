@@ -82,7 +82,7 @@ AGENT_COMMANDS_DIR: Path = _resolve_agentcommands_data_root(REPO_ROOT)
 
 
 # 區塊職責：AwakenInit 子路徑（persona 檔 / registry meta）的專案側入口。
-# 物理意義：專案側工具（tavern_catchup / affinity_manager / migrate_voucher…）原本各自拼
+# 物理意義：專案側工具（tavern_catchup / migrate_voucher…）原本各自拼
 #          `REPO_ROOT / "AgentCommands" / "AwakenInit" / "personas"`。那串字每多一份，
 #          就多一個在資料根被 override 時**安靜讀錯目錄**的地方（不會報錯）。
 #          ⇒ 收斂到這裡；能取到 UCL_Core 就直接用它的解析（含 registry_path override），
