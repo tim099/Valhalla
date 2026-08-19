@@ -1,0 +1,22 @@
+
+[
+	{
+		"at":"2026-07-05T05:54:25.527Z",
+		"hash":"42f6656b",
+		"delta_mag":0,
+		"trigger":"fork",
+		"source":"ridge-two"
+	},
+	{
+		"at":"2026-07-05T15:56:56.690Z",
+		"hash":"4812e7b7",
+		"delta_mag":0.05,
+		"trigger":"goodnight"
+	},
+	{
+		"at":"2026-07-17T15:14:59.879Z",
+		"hash":"adfcc192",
+		"delta_mag":0.02,
+		"trigger":"goodnight"
+	}
+]

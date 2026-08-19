@@ -1,0 +1,53 @@
+
+[
+	{
+		"at":"2026-07-20T09:10:25.195Z",
+		"hash":"372be074",
+		"delta_mag":0,
+		"trigger":"manual-create",
+		"source":"story:chojiku-kaguya",
+		"note":"seed=743(\u96fb\u7dda\u687f743A\u5f69\u86cb); campaign \u8d77\u9ede\u5f62\u614b, vector \u7531 trpg-goodnight perturbation \u6210\u9577 (Plan_Yachiyo_Persona_Creation \u65b9\u6848B)"
+	},
+	{
+		"at":"2026-07-21T13:56:15.206Z",
+		"hash":"13609a93",
+		"delta_mag":0.03,
+		"trigger":"goodnight"
+	},
+	{
+		"at":"2026-07-22T15:54:47.674Z",
+		"hash":"069bd6fa",
+		"delta_mag":0.03,
+		"trigger":"goodnight"
+	},
+	{
+		"at":"2026-07-26T09:35:45.052Z",
+		"hash":"4f7c0d51",
+		"delta_mag":0.03,
+		"trigger":"goodnight"
+	},
+	{
+		"at":"2026-07-26T15:55:36.074Z",
+		"hash":"5d5e448d",
+		"delta_mag":0.02,
+		"trigger":"goodnight"
+	},
+	{
+		"at":"2026-08-01T06:18:49.068Z",
+		"hash":"3c5e9a86",
+		"delta_mag":0.05,
+		"trigger":"goodnight"
+	},
+	{
+		"at":"2026-08-01T13:38:29.919Z",
+		"hash":"43bd60e7",
+		"delta_mag":0.02,
+		"trigger":"goodnight"
+	},
+	{
+		"at":"2026-08-12T16:05:49.097Z",
+		"hash":"745d1d5f",
+		"delta_mag":0.05,
+		"trigger":"goodnight"
+	}
+]
