@@ -160,3 +160,8 @@ _cmd_payloads/
 _last_relationship_migrate.md
 
 _cmd_schema_freshness.local.json
+### 酒館歷史書 Phase A 草稿區 — 機械產物，不入版控（Tim 2026-08-19 拍板）
+# <date>_raw.md 每次 export-day 重生（手改無效）；triage.json 是 Phase B 的填表鷹架。
+# triage 本身不可機械重建，但**編者的取捨最終固化在書裡**（每則 seq 的去向都寫進成書的
+# 處置總表）⇒ 鷹架丟了可以從書回推，所以整區不入版控是安全的。
+/TavernHistory/
