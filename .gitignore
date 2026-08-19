@@ -165,3 +165,7 @@ _cmd_schema_freshness.local.json
 # triage 本身不可機械重建，但**編者的取捨最終固化在書裡**（每則 seq 的去向都寫進成書的
 # 處置總表）⇒ 鷹架丟了可以從書回推，所以整區不入版控是安全的。
 /TavernHistory/
+
+# persona profile 快照（C# 衍生快取，reload/Cmd/寫入端動作後重寫 —— §8.7 A+B）
+AwakenInit/_persona_profile_snapshot.json
+AwakenInit/_persona_profile_snapshot.json.tmp
