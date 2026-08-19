@@ -46,3 +46,6 @@
 [submodule "BugReports"]
 	path = BugReports
 	url = https://github.com/tim099/BugReports.git
+[submodule "ChatTavern/baton/letters/meadow"]
+	path = ChatTavern/baton/letters/meadow
+	url = https://github.com/Persona9999/meadow.git
