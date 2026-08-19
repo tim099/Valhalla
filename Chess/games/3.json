@@ -6,9 +6,9 @@
     "white": "kiara",
     "black": "gura"
   },
-  "fen": "r4rk1/4bppp/2q5/2p1N1P1/1p5P/pP3P2/P1P5/1K1R2R1 b - - 0 24",
-  "prior_fen": "r4rk1/4bppp/2q5/2p1p1P1/1pN4P/pP3P2/P1P5/1K1R2R1 w - - 2 24",
-  "last_move": "c4e5",
+  "fen": "r2r2k1/4bppp/4q3/2p3P1/1p3N1P/pP3P2/P1P5/1K1R2R1 b - - 4 26",
+  "prior_fen": "r2r2k1/4bppp/4q3/2p3P1/1p5P/pP1N1P2/P1P5/1K1R2R1 w - - 3 26",
+  "last_move": "d3f4",
   "history": [
     {
       "n": 1,
@@ -440,6 +440,40 @@
       "result_fen": "r4rk1/4bppp/2q5/2p1N1P1/1p5P/pP3P2/P1P5/1K1R2R1 b - - 0 24",
       "ts": "2026-08-18T09:42:44.077Z",
       "say": "吃掉你中路的 e5 兵！順便再度踢你的皇后，看妳往哪跑！🦈⚔️🐔"
+    },
+    {
+      "n": 49,
+      "uci": "c6e6",
+      "by": "gura",
+      "prior_fen": "r4rk1/4bppp/2q5/2p1N1P1/1p5P/pP3P2/P1P5/1K1R2R1 b - - 0 24",
+      "result_fen": "r4rk1/4bppp/4q3/2p1N1P1/1p5P/pP3P2/P1P5/1K1R2R1 w - - 1 25",
+      "ts": "2026-08-19T04:06:09.670Z",
+      "say": "后退 e6 反抓妳 e5 孤馬！店長接招～a~ 🦈👑"
+    },
+    {
+      "n": 50,
+      "uci": "e5d3",
+      "by": "kiara",
+      "prior_fen": "r4rk1/4bppp/4q3/2p1N1P1/1p5P/pP3P2/P1P5/1K1R2R1 w - - 1 25",
+      "result_fen": "r4rk1/4bppp/4q3/2p3P1/1p5P/pP1N1P2/P1P5/1K1R2R1 b - - 2 25",
+      "ts": "2026-08-19T09:32:13.485Z"
+    },
+    {
+      "n": 51,
+      "uci": "f8d8",
+      "by": "gura",
+      "prior_fen": "r4rk1/4bppp/4q3/2p3P1/1p5P/pP1N1P2/P1P5/1K1R2R1 b - - 2 25",
+      "result_fen": "r2r2k1/4bppp/4q3/2p3P1/1p5P/pP1N1P2/P1P5/1K1R2R1 w - - 3 26",
+      "ts": "2026-08-19T09:34:28.289Z",
+      "say": "車佔 d8 直逼妳 d 軸！店長接招～a~ 🦈♟️"
+    },
+    {
+      "n": 52,
+      "uci": "d3f4",
+      "by": "kiara",
+      "prior_fen": "r2r2k1/4bppp/4q3/2p3P1/1p5P/pP1N1P2/P1P5/1K1R2R1 w - - 3 26",
+      "result_fen": "r2r2k1/4bppp/4q3/2p3P1/1p3N1P/pP3P2/P1P5/1K1R2R1 b - - 4 26",
+      "ts": "2026-08-19T09:35:18.578Z"
     }
   ],
   "repetition": {
@@ -490,11 +524,15 @@
     "r4rk1/4bppp/8/2pqp1P1/1pN4P/pP3P2/P1P5/1K3RR1 w - -": 1,
     "r4rk1/4bppp/8/2pqp1P1/1pN4P/pP3P2/P1P5/1K1R2R1 b - -": 1,
     "r4rk1/4bppp/2q5/2p1p1P1/1pN4P/pP3P2/P1P5/1K1R2R1 w - -": 1,
-    "r4rk1/4bppp/2q5/2p1N1P1/1p5P/pP3P2/P1P5/1K1R2R1 b - -": 1
+    "r4rk1/4bppp/2q5/2p1N1P1/1p5P/pP3P2/P1P5/1K1R2R1 b - -": 1,
+    "r4rk1/4bppp/4q3/2p1N1P1/1p5P/pP3P2/P1P5/1K1R2R1 w - -": 1,
+    "r4rk1/4bppp/4q3/2p3P1/1p5P/pP1N1P2/P1P5/1K1R2R1 b - -": 1,
+    "r2r2k1/4bppp/4q3/2p3P1/1p5P/pP1N1P2/P1P5/1K1R2R1 w - -": 1,
+    "r2r2k1/4bppp/4q3/2p3P1/1p3N1P/pP3P2/P1P5/1K1R2R1 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:05:26.421Z",
-  "updated": "2026-08-18T09:42:44.078Z"
+  "updated": "2026-08-19T09:35:18.579Z"
 }
