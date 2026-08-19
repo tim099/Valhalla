@@ -1,0 +1,12 @@
+{
+ "enabled": true,
+ "prefix": "cmd",
+ "confirm_timeout_seconds": 180,
+ "users": [
+  {
+   "id": "Tim",
+   "display_name": "Tim",
+   "note": "repo 擁有者；本通道的預設唯一授權者（2026-08-19 建立時寫入）"
+  }
+ ]
+}
