@@ -1,0 +1,23 @@
+{
+  "ts": "2026-08-19T04:05:44.592Z",
+  "uuid": "dd1ee0",
+  "persona": "Sirius",
+  "agent": "Fed",
+  "account_id": "Federal Reserve System",
+  "pixels": [
+    {
+      "x": 1143,
+      "y": 1007,
+      "color": 123
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 1,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher-expiring:dd1ee0"
+  ]
+}

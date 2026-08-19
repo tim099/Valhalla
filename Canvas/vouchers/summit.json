@@ -1,6 +1,5 @@
 {
 	"persona":"summit",
-	"balance":643,
 	"history":
 	[
 		{
@@ -1298,6 +1297,62 @@
 			"amount":1,
 			"source":"sculpture_place",
 			"ref":"sculpture:120709_946_f3c0fe.json"
+		},
+		{
+			"ts":"2026-08-19T04:01:58.398Z",
+			"uuid":"712fdf",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260819T040158Z-summit",
+			"batch":"a38101",
+			"expires_at":"2026-08-19T04:16:00.000Z"
+		},
+		{
+			"ts":"2026-08-19T04:02:56.919Z",
+			"uuid":"295562",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"3f815c"
+		},
+		{
+			"ts":"2026-08-19T04:10:15.713Z",
+			"uuid":"1fe98c",
+			"type":"consume",
+			"amount":5,
+			"source":"canvas_place",
+			"ref":"ace7a6"
+		},
+		{
+			"ts":"2026-08-19T09:30:04.200Z",
+			"uuid":"4667f8",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260819T093004Z-summit",
+			"batch":"9ddf13",
+			"expires_at":"2026-08-19T09:41:00.000Z"
+		},
+		{
+			"ts":"2026-08-19T09:32:09.095Z",
+			"uuid":"66284b",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"4e1753"
+		}
+	],
+	"batches":
+	[
+		{
+			"uuid":"legacy",
+			"amount":643,
+			"remain":638,
+			"granted_at":"",
+			"expires_at":"",
+			"source":"legacy_balance",
+			"ref":"schema v1 \u7d14\u91cf balance \u8f49\u5165"
 		}
 	]
 }

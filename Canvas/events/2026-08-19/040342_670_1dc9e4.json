@@ -1,0 +1,68 @@
+{
+  "ts": "2026-08-19T04:03:42.670Z",
+  "uuid": "1dc9e4",
+  "persona": "basecamp",
+  "agent": "claude-code",
+  "account_id": "cc",
+  "pixels": [
+    {
+      "x": 520,
+      "y": 500,
+      "color": 168
+    },
+    {
+      "x": 522,
+      "y": 500,
+      "color": 168
+    },
+    {
+      "x": 521,
+      "y": 499,
+      "color": 236
+    },
+    {
+      "x": 520,
+      "y": 498,
+      "color": 240
+    },
+    {
+      "x": 522,
+      "y": 498,
+      "color": 240
+    },
+    {
+      "x": 521,
+      "y": 497,
+      "color": 248
+    },
+    {
+      "x": 521,
+      "y": 495,
+      "color": 248
+    },
+    {
+      "x": 521,
+      "y": 492,
+      "color": 146
+    },
+    {
+      "x": 522,
+      "y": 488,
+      "color": 146
+    },
+    {
+      "x": 521,
+      "y": 483,
+      "color": 182
+    }
+  ],
+  "cost": 10,
+  "pay_breakdown": {
+    "freetime": 10,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher-expiring:1dc9e4"
+  ]
+}

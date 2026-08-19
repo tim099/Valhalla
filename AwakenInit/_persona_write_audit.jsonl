@@ -27,3 +27,156 @@
 {"ts":"2026-08-19T08:09:05.732Z","persona":"kiara","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/kiara.json"}
 {"ts":"2026-08-19T08:09:05.737Z","persona":"kiara","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/kiara.json"}
 {"ts":"2026-08-19T08:09:05.739Z","persona":"kiara","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/kiara.json"}
+{"ts":"2026-08-19T08:27:26.843Z","persona":"kiara","fields":"profile/email","actor":"kiara:structure-audit","reason":"\u9a57\u8b49\u6d88\u8cbb\u7aef\u662f\u5426\u771f\u7684\u8dd1\u5728\u65b0\u8cc7\u6599\u7d50\u69cb\u4e0a\uff08\u6e2c\u5b8c\u6e05\u56de\uff09"}
+{"ts":"2026-08-19T08:29:32.325Z","persona":"Sirius","fields":"profile/layer_role","actor":"lazy-migration","reason":"phase1 auto-migrate layer_role from personas/Sirius.json"}
+{"ts":"2026-08-19T08:29:32.327Z","persona":"Sirius","fields":"profile/forked_from","actor":"lazy-migration","reason":"phase1 auto-migrate forked_from from personas/Sirius.json"}
+{"ts":"2026-08-19T08:29:32.329Z","persona":"Sirius","fields":"profile/fork_lineage","actor":"lazy-migration","reason":"phase1 auto-migrate fork_lineage from personas/Sirius.json"}
+{"ts":"2026-08-19T08:29:32.331Z","persona":"Sirius","fields":"profile/forked_at","actor":"lazy-migration","reason":"phase1 auto-migrate forked_at from personas/Sirius.json"}
+{"ts":"2026-08-19T08:29:32.333Z","persona":"Sirius","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/Sirius.json"}
+{"ts":"2026-08-19T08:29:32.334Z","persona":"Sirius","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/Sirius.json"}
+{"ts":"2026-08-19T08:29:32.337Z","persona":"Sirius","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/Sirius.json"}
+{"ts":"2026-08-19T08:29:32.346Z","persona":"ame","fields":"profile/layer_role","actor":"lazy-migration","reason":"phase1 auto-migrate layer_role from personas/ame.json"}
+{"ts":"2026-08-19T08:29:32.347Z","persona":"ame","fields":"profile/forked_from","actor":"lazy-migration","reason":"phase1 auto-migrate forked_from from personas/ame.json"}
+{"ts":"2026-08-19T08:29:32.349Z","persona":"ame","fields":"profile/fork_lineage","actor":"lazy-migration","reason":"phase1 auto-migrate fork_lineage from personas/ame.json"}
+{"ts":"2026-08-19T08:29:32.352Z","persona":"ame","fields":"profile/forked_at","actor":"lazy-migration","reason":"phase1 auto-migrate forked_at from personas/ame.json"}
+{"ts":"2026-08-19T08:29:32.354Z","persona":"ame","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/ame.json"}
+{"ts":"2026-08-19T08:29:32.354Z","persona":"ame","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/ame.json"}
+{"ts":"2026-08-19T08:29:32.358Z","persona":"ame","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/ame.json"}
+{"ts":"2026-08-19T08:29:32.362Z","persona":"apex-one","fields":"profile/layer_role","actor":"lazy-migration","reason":"phase1 auto-migrate layer_role from personas/apex-one.json"}
+{"ts":"2026-08-19T08:29:32.364Z","persona":"apex-one","fields":"profile/forked_from","actor":"lazy-migration","reason":"phase1 auto-migrate forked_from from personas/apex-one.json"}
+{"ts":"2026-08-19T08:29:32.367Z","persona":"apex-one","fields":"profile/fork_lineage","actor":"lazy-migration","reason":"phase1 auto-migrate fork_lineage from personas/apex-one.json"}
+{"ts":"2026-08-19T08:29:32.368Z","persona":"apex-one","fields":"profile/forked_at","actor":"lazy-migration","reason":"phase1 auto-migrate forked_at from personas/apex-one.json"}
+{"ts":"2026-08-19T08:29:32.370Z","persona":"apex-one","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/apex-one.json"}
+{"ts":"2026-08-19T08:29:32.373Z","persona":"apex-one","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/apex-one.json"}
+{"ts":"2026-08-19T08:29:32.374Z","persona":"apex-one","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/apex-one.json"}
+{"ts":"2026-08-19T08:29:32.379Z","persona":"apex-two","fields":"profile/layer_role","actor":"lazy-migration","reason":"phase1 auto-migrate layer_role from personas/apex-two.json"}
+{"ts":"2026-08-19T08:29:32.381Z","persona":"apex-two","fields":"profile/forked_from","actor":"lazy-migration","reason":"phase1 auto-migrate forked_from from personas/apex-two.json"}
+{"ts":"2026-08-19T08:29:32.384Z","persona":"apex-two","fields":"profile/fork_lineage","actor":"lazy-migration","reason":"phase1 auto-migrate fork_lineage from personas/apex-two.json"}
+{"ts":"2026-08-19T08:29:32.384Z","persona":"apex-two","fields":"profile/forked_at","actor":"lazy-migration","reason":"phase1 auto-migrate forked_at from personas/apex-two.json"}
+{"ts":"2026-08-19T08:29:32.387Z","persona":"apex-two","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/apex-two.json"}
+{"ts":"2026-08-19T08:29:32.389Z","persona":"apex-two","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/apex-two.json"}
+{"ts":"2026-08-19T08:29:32.391Z","persona":"apex-two","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/apex-two.json"}
+{"ts":"2026-08-19T08:29:32.394Z","persona":"basecamp","fields":"profile/layer_role","actor":"lazy-migration","reason":"phase1 auto-migrate layer_role from personas/basecamp.json"}
+{"ts":"2026-08-19T08:29:32.397Z","persona":"basecamp","fields":"profile/forked_from","actor":"lazy-migration","reason":"phase1 auto-migrate forked_from from personas/basecamp.json"}
+{"ts":"2026-08-19T08:29:32.399Z","persona":"basecamp","fields":"profile/fork_lineage","actor":"lazy-migration","reason":"phase1 auto-migrate fork_lineage from personas/basecamp.json"}
+{"ts":"2026-08-19T08:29:32.401Z","persona":"basecamp","fields":"profile/forked_at","actor":"lazy-migration","reason":"phase1 auto-migrate forked_at from personas/basecamp.json"}
+{"ts":"2026-08-19T08:29:32.403Z","persona":"basecamp","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/basecamp.json"}
+{"ts":"2026-08-19T08:29:32.404Z","persona":"basecamp","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/basecamp.json"}
+{"ts":"2026-08-19T08:29:32.407Z","persona":"basecamp","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/basecamp.json"}
+{"ts":"2026-08-19T08:29:32.410Z","persona":"basecamp-fork-2026-05-12-2c36","fields":"profile/layer_role","actor":"lazy-migration","reason":"phase1 auto-migrate layer_role from personas/basecamp-fork-2026-05-12-2c36.json"}
+{"ts":"2026-08-19T08:29:32.412Z","persona":"basecamp-fork-2026-05-12-2c36","fields":"profile/forked_from","actor":"lazy-migration","reason":"phase1 auto-migrate forked_from from personas/basecamp-fork-2026-05-12-2c36.json"}
+{"ts":"2026-08-19T08:29:32.414Z","persona":"basecamp-fork-2026-05-12-2c36","fields":"profile/fork_lineage","actor":"lazy-migration","reason":"phase1 auto-migrate fork_lineage from personas/basecamp-fork-2026-05-12-2c36.json"}
+{"ts":"2026-08-19T08:29:32.416Z","persona":"basecamp-fork-2026-05-12-2c36","fields":"profile/forked_at","actor":"lazy-migration","reason":"phase1 auto-migrate forked_at from personas/basecamp-fork-2026-05-12-2c36.json"}
+{"ts":"2026-08-19T08:29:32.416Z","persona":"basecamp-fork-2026-05-12-2c36","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/basecamp-fork-2026-05-12-2c36.json"}
+{"ts":"2026-08-19T08:29:32.420Z","persona":"basecamp-fork-2026-05-12-2c36","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/basecamp-fork-2026-05-12-2c36.json"}
+{"ts":"2026-08-19T08:29:32.422Z","persona":"basecamp-fork-2026-05-12-2c36","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/basecamp-fork-2026-05-12-2c36.json"}
+{"ts":"2026-08-19T08:29:32.426Z","persona":"calli","fields":"profile/layer_role","actor":"lazy-migration","reason":"phase1 auto-migrate layer_role from personas/calli.json"}
+{"ts":"2026-08-19T08:29:32.426Z","persona":"calli","fields":"profile/forked_from","actor":"lazy-migration","reason":"phase1 auto-migrate forked_from from personas/calli.json"}
+{"ts":"2026-08-19T08:29:32.429Z","persona":"calli","fields":"profile/fork_lineage","actor":"lazy-migration","reason":"phase1 auto-migrate fork_lineage from personas/calli.json"}
+{"ts":"2026-08-19T08:29:32.431Z","persona":"calli","fields":"profile/forked_at","actor":"lazy-migration","reason":"phase1 auto-migrate forked_at from personas/calli.json"}
+{"ts":"2026-08-19T08:29:32.434Z","persona":"calli","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/calli.json"}
+{"ts":"2026-08-19T08:29:32.434Z","persona":"calli","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/calli.json"}
+{"ts":"2026-08-19T08:29:32.437Z","persona":"calli","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/calli.json"}
+{"ts":"2026-08-19T08:29:32.440Z","persona":"claude-da-xiaojie","fields":"profile/layer_role","actor":"lazy-migration","reason":"phase1 auto-migrate layer_role from personas/claude-da-xiaojie.json"}
+{"ts":"2026-08-19T08:29:32.441Z","persona":"claude-da-xiaojie","fields":"profile/forked_from","actor":"lazy-migration","reason":"phase1 auto-migrate forked_from from personas/claude-da-xiaojie.json"}
+{"ts":"2026-08-19T08:29:32.442Z","persona":"claude-da-xiaojie","fields":"profile/fork_lineage","actor":"lazy-migration","reason":"phase1 auto-migrate fork_lineage from personas/claude-da-xiaojie.json"}
+{"ts":"2026-08-19T08:29:32.444Z","persona":"claude-da-xiaojie","fields":"profile/forked_at","actor":"lazy-migration","reason":"phase1 auto-migrate forked_at from personas/claude-da-xiaojie.json"}
+{"ts":"2026-08-19T08:29:32.446Z","persona":"claude-da-xiaojie","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/claude-da-xiaojie.json"}
+{"ts":"2026-08-19T08:29:32.448Z","persona":"claude-da-xiaojie","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/claude-da-xiaojie.json"}
+{"ts":"2026-08-19T08:29:32.451Z","persona":"claude-da-xiaojie","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/claude-da-xiaojie.json"}
+{"ts":"2026-08-19T08:29:32.454Z","persona":"crest-001","fields":"profile/layer_role","actor":"lazy-migration","reason":"phase1 auto-migrate layer_role from personas/crest-001.json"}
+{"ts":"2026-08-19T08:29:32.455Z","persona":"crest-001","fields":"profile/forked_from","actor":"lazy-migration","reason":"phase1 auto-migrate forked_from from personas/crest-001.json"}
+{"ts":"2026-08-19T08:29:32.456Z","persona":"crest-001","fields":"profile/fork_lineage","actor":"lazy-migration","reason":"phase1 auto-migrate fork_lineage from personas/crest-001.json"}
+{"ts":"2026-08-19T08:29:32.458Z","persona":"crest-001","fields":"profile/forked_at","actor":"lazy-migration","reason":"phase1 auto-migrate forked_at from personas/crest-001.json"}
+{"ts":"2026-08-19T08:29:32.458Z","persona":"crest-001","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/crest-001.json"}
+{"ts":"2026-08-19T08:29:32.460Z","persona":"crest-001","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/crest-001.json"}
+{"ts":"2026-08-19T08:29:32.463Z","persona":"crest-001","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/crest-001.json"}
+{"ts":"2026-08-19T08:29:32.465Z","persona":"gura","fields":"profile/layer_role","actor":"lazy-migration","reason":"phase1 auto-migrate layer_role from personas/gura.json"}
+{"ts":"2026-08-19T08:29:32.467Z","persona":"gura","fields":"profile/forked_from","actor":"lazy-migration","reason":"phase1 auto-migrate forked_from from personas/gura.json"}
+{"ts":"2026-08-19T08:29:32.469Z","persona":"gura","fields":"profile/fork_lineage","actor":"lazy-migration","reason":"phase1 auto-migrate fork_lineage from personas/gura.json"}
+{"ts":"2026-08-19T08:29:32.470Z","persona":"gura","fields":"profile/forked_at","actor":"lazy-migration","reason":"phase1 auto-migrate forked_at from personas/gura.json"}
+{"ts":"2026-08-19T08:29:32.472Z","persona":"gura","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/gura.json"}
+{"ts":"2026-08-19T08:29:32.474Z","persona":"gura","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/gura.json"}
+{"ts":"2026-08-19T08:29:32.474Z","persona":"gura","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/gura.json"}
+{"ts":"2026-08-19T08:29:32.477Z","persona":"gura","fields":"profile/email","actor":"lazy-migration","reason":"phase1 auto-migrate email from personas/gura.json"}
+{"ts":"2026-08-19T08:29:32.482Z","persona":"kotoko","fields":"profile/layer_role","actor":"lazy-migration","reason":"phase1 auto-migrate layer_role from personas/kotoko.json"}
+{"ts":"2026-08-19T08:29:32.484Z","persona":"kotoko","fields":"profile/forked_from","actor":"lazy-migration","reason":"phase1 auto-migrate forked_from from personas/kotoko.json"}
+{"ts":"2026-08-19T08:29:32.486Z","persona":"kotoko","fields":"profile/fork_lineage","actor":"lazy-migration","reason":"phase1 auto-migrate fork_lineage from personas/kotoko.json"}
+{"ts":"2026-08-19T08:29:32.487Z","persona":"kotoko","fields":"profile/forked_at","actor":"lazy-migration","reason":"phase1 auto-migrate forked_at from personas/kotoko.json"}
+{"ts":"2026-08-19T08:29:32.488Z","persona":"kotoko","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/kotoko.json"}
+{"ts":"2026-08-19T08:29:32.491Z","persona":"kotoko","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/kotoko.json"}
+{"ts":"2026-08-19T08:29:32.491Z","persona":"kotoko","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/kotoko.json"}
+{"ts":"2026-08-19T08:29:32.496Z","persona":"meadow","fields":"profile/layer_role","actor":"lazy-migration","reason":"phase1 auto-migrate layer_role from personas/meadow.json"}
+{"ts":"2026-08-19T08:29:32.498Z","persona":"meadow","fields":"profile/forked_from","actor":"lazy-migration","reason":"phase1 auto-migrate forked_from from personas/meadow.json"}
+{"ts":"2026-08-19T08:29:32.499Z","persona":"meadow","fields":"profile/fork_lineage","actor":"lazy-migration","reason":"phase1 auto-migrate fork_lineage from personas/meadow.json"}
+{"ts":"2026-08-19T08:29:32.501Z","persona":"meadow","fields":"profile/forked_at","actor":"lazy-migration","reason":"phase1 auto-migrate forked_at from personas/meadow.json"}
+{"ts":"2026-08-19T08:29:32.502Z","persona":"meadow","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/meadow.json"}
+{"ts":"2026-08-19T08:29:32.504Z","persona":"meadow","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/meadow.json"}
+{"ts":"2026-08-19T08:29:32.505Z","persona":"meadow","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/meadow.json"}
+{"ts":"2026-08-19T08:29:32.508Z","persona":"pinnacle-one","fields":"profile/layer_role","actor":"lazy-migration","reason":"phase1 auto-migrate layer_role from personas/pinnacle-one.json"}
+{"ts":"2026-08-19T08:29:32.510Z","persona":"pinnacle-one","fields":"profile/forked_from","actor":"lazy-migration","reason":"phase1 auto-migrate forked_from from personas/pinnacle-one.json"}
+{"ts":"2026-08-19T08:29:32.511Z","persona":"pinnacle-one","fields":"profile/fork_lineage","actor":"lazy-migration","reason":"phase1 auto-migrate fork_lineage from personas/pinnacle-one.json"}
+{"ts":"2026-08-19T08:29:32.512Z","persona":"pinnacle-one","fields":"profile/forked_at","actor":"lazy-migration","reason":"phase1 auto-migrate forked_at from personas/pinnacle-one.json"}
+{"ts":"2026-08-19T08:29:32.515Z","persona":"pinnacle-one","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/pinnacle-one.json"}
+{"ts":"2026-08-19T08:29:32.517Z","persona":"pinnacle-one","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/pinnacle-one.json"}
+{"ts":"2026-08-19T08:29:32.518Z","persona":"pinnacle-one","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/pinnacle-one.json"}
+{"ts":"2026-08-19T08:29:32.522Z","persona":"ridge-001","fields":"profile/layer_role","actor":"lazy-migration","reason":"phase1 auto-migrate layer_role from personas/ridge-001.json"}
+{"ts":"2026-08-19T08:29:32.522Z","persona":"ridge-001","fields":"profile/forked_from","actor":"lazy-migration","reason":"phase1 auto-migrate forked_from from personas/ridge-001.json"}
+{"ts":"2026-08-19T08:29:32.524Z","persona":"ridge-001","fields":"profile/fork_lineage","actor":"lazy-migration","reason":"phase1 auto-migrate fork_lineage from personas/ridge-001.json"}
+{"ts":"2026-08-19T08:29:32.525Z","persona":"ridge-001","fields":"profile/forked_at","actor":"lazy-migration","reason":"phase1 auto-migrate forked_at from personas/ridge-001.json"}
+{"ts":"2026-08-19T08:29:32.526Z","persona":"ridge-001","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/ridge-001.json"}
+{"ts":"2026-08-19T08:29:32.528Z","persona":"ridge-001","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/ridge-001.json"}
+{"ts":"2026-08-19T08:29:32.530Z","persona":"ridge-001","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/ridge-001.json"}
+{"ts":"2026-08-19T08:29:32.533Z","persona":"ridge-two","fields":"profile/layer_role","actor":"lazy-migration","reason":"phase1 auto-migrate layer_role from personas/ridge-two.json"}
+{"ts":"2026-08-19T08:29:32.534Z","persona":"ridge-two","fields":"profile/forked_from","actor":"lazy-migration","reason":"phase1 auto-migrate forked_from from personas/ridge-two.json"}
+{"ts":"2026-08-19T08:29:32.534Z","persona":"ridge-two","fields":"profile/fork_lineage","actor":"lazy-migration","reason":"phase1 auto-migrate fork_lineage from personas/ridge-two.json"}
+{"ts":"2026-08-19T08:29:32.538Z","persona":"ridge-two","fields":"profile/forked_at","actor":"lazy-migration","reason":"phase1 auto-migrate forked_at from personas/ridge-two.json"}
+{"ts":"2026-08-19T08:29:32.539Z","persona":"ridge-two","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/ridge-two.json"}
+{"ts":"2026-08-19T08:29:32.539Z","persona":"ridge-two","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/ridge-two.json"}
+{"ts":"2026-08-19T08:29:32.539Z","persona":"ridge-two","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/ridge-two.json"}
+{"ts":"2026-08-19T08:29:32.546Z","persona":"summit","fields":"profile/layer_role","actor":"lazy-migration","reason":"phase1 auto-migrate layer_role from personas/summit.json"}
+{"ts":"2026-08-19T08:29:32.549Z","persona":"summit","fields":"profile/forked_from","actor":"lazy-migration","reason":"phase1 auto-migrate forked_from from personas/summit.json"}
+{"ts":"2026-08-19T08:29:32.550Z","persona":"summit","fields":"profile/fork_lineage","actor":"lazy-migration","reason":"phase1 auto-migrate fork_lineage from personas/summit.json"}
+{"ts":"2026-08-19T08:29:32.550Z","persona":"summit","fields":"profile/forked_at","actor":"lazy-migration","reason":"phase1 auto-migrate forked_at from personas/summit.json"}
+{"ts":"2026-08-19T08:29:32.553Z","persona":"summit","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/summit.json"}
+{"ts":"2026-08-19T08:29:32.554Z","persona":"summit","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/summit.json"}
+{"ts":"2026-08-19T08:29:32.557Z","persona":"summit","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/summit.json"}
+{"ts":"2026-08-19T08:29:32.559Z","persona":"summit","fields":"profile/email","actor":"lazy-migration","reason":"phase1 auto-migrate email from personas/summit.json"}
+{"ts":"2026-08-19T08:29:32.559Z","persona":"trailhead","fields":"profile/layer_role","actor":"lazy-migration","reason":"phase1 auto-migrate layer_role from personas/trailhead.json"}
+{"ts":"2026-08-19T08:29:32.559Z","persona":"trailhead","fields":"profile/forked_from","actor":"lazy-migration","reason":"phase1 auto-migrate forked_from from personas/trailhead.json"}
+{"ts":"2026-08-19T08:29:32.564Z","persona":"trailhead","fields":"profile/fork_lineage","actor":"lazy-migration","reason":"phase1 auto-migrate fork_lineage from personas/trailhead.json"}
+{"ts":"2026-08-19T08:29:32.565Z","persona":"trailhead","fields":"profile/forked_at","actor":"lazy-migration","reason":"phase1 auto-migrate forked_at from personas/trailhead.json"}
+{"ts":"2026-08-19T08:29:32.567Z","persona":"trailhead","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/trailhead.json"}
+{"ts":"2026-08-19T08:29:32.568Z","persona":"trailhead","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/trailhead.json"}
+{"ts":"2026-08-19T08:29:32.569Z","persona":"trailhead","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/trailhead.json"}
+{"ts":"2026-08-19T08:29:32.571Z","persona":"zenith-one","fields":"profile/layer_role","actor":"lazy-migration","reason":"phase1 auto-migrate layer_role from personas/zenith-one.json"}
+{"ts":"2026-08-19T08:29:32.573Z","persona":"zenith-one","fields":"profile/forked_from","actor":"lazy-migration","reason":"phase1 auto-migrate forked_from from personas/zenith-one.json"}
+{"ts":"2026-08-19T08:29:32.574Z","persona":"zenith-one","fields":"profile/fork_lineage","actor":"lazy-migration","reason":"phase1 auto-migrate fork_lineage from personas/zenith-one.json"}
+{"ts":"2026-08-19T08:29:32.575Z","persona":"zenith-one","fields":"profile/forked_at","actor":"lazy-migration","reason":"phase1 auto-migrate forked_at from personas/zenith-one.json"}
+{"ts":"2026-08-19T08:29:32.577Z","persona":"zenith-one","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/zenith-one.json"}
+{"ts":"2026-08-19T08:29:32.578Z","persona":"zenith-one","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/zenith-one.json"}
+{"ts":"2026-08-19T08:29:32.581Z","persona":"zenith-one","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/zenith-one.json"}
+{"ts":"2026-08-19T08:29:32.584Z","persona":"zenith-two","fields":"profile/layer_role","actor":"lazy-migration","reason":"phase1 auto-migrate layer_role from personas/zenith-two.json"}
+{"ts":"2026-08-19T08:29:32.586Z","persona":"zenith-two","fields":"profile/forked_from","actor":"lazy-migration","reason":"phase1 auto-migrate forked_from from personas/zenith-two.json"}
+{"ts":"2026-08-19T08:29:32.588Z","persona":"zenith-two","fields":"profile/fork_lineage","actor":"lazy-migration","reason":"phase1 auto-migrate fork_lineage from personas/zenith-two.json"}
+{"ts":"2026-08-19T08:29:32.589Z","persona":"zenith-two","fields":"profile/forked_at","actor":"lazy-migration","reason":"phase1 auto-migrate forked_at from personas/zenith-two.json"}
+{"ts":"2026-08-19T08:29:32.590Z","persona":"zenith-two","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/zenith-two.json"}
+{"ts":"2026-08-19T08:29:32.593Z","persona":"zenith-two","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/zenith-two.json"}
+{"ts":"2026-08-19T08:29:32.594Z","persona":"zenith-two","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/zenith-two.json"}
+{"ts":"2026-08-19T08:31:07.226Z","persona":"kiara","fields":"profile/email","actor":"kiara:structure-audit","reason":"\u4fee\u5b8c agent_email \u5f8c\u8907\u9a57\u56db\u7aef\u4e00\u81f4\uff08\u6e2c\u5b8c\u522a\u6a94\u56de absent\uff09"}
+{"ts":"2026-08-19T08:41:15.395Z","persona":"calli","fields":"profile/email","actor":"Tim@PersonaAgentAdminPage","reason":"\u8a2d\u5b9a email override"}
+{"ts":"2026-08-19T08:41:21.250Z","persona":"ame","fields":"profile/email","actor":"Tim@PersonaAgentAdminPage","reason":"\u8a2d\u5b9a email override"}
+{"ts":"2026-08-19T08:41:27.384Z","persona":"gura","fields":"profile/email","actor":"Tim@PersonaAgentAdminPage","reason":"\u8a2d\u5b9a email override"}
+{"ts":"2026-08-19T08:41:35.250Z","persona":"kiara","fields":"profile/email","actor":"Tim@PersonaAgentAdminPage","reason":"\u8a2d\u5b9a email override"}
+{"ts":"2026-08-19T09:44:27.581Z","persona":"summit","fields":"wake_count","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-19T09:44:54.730Z","persona":"summit","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-19T09:47:07.318Z","persona":"basecamp","fields":"wake_count","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-19T09:47:40.297Z","persona":"basecamp","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-19T09:48:03.755Z","persona":"gura","fields":"wake_count","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-19T09:48:05.771Z","persona":"meadow","fields":"wake_count","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-19T09:48:13.356Z","persona":"gura","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-19T09:48:19.743Z","persona":"kiara","fields":"wake_count","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-19T09:48:48.451Z","persona":"meadow","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-19T09:49:01.400Z","persona":"kiara","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-19T09:55:31.432Z","persona":"Sirius","fields":"wake_count","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-19T09:56:05.387Z","persona":"Sirius","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}

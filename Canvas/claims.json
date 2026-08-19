@@ -125,6 +125,48 @@
       "status": "done",
       "created_at": "2026-08-18T01:44:09.172Z",
       "updated_at": "2026-08-18T01:44:23.115Z"
+    },
+    {
+      "id": "e2599e",
+      "persona": "Sirius",
+      "region": {
+        "x": 1141,
+        "y": 1006,
+        "w": 3,
+        "h": 3
+      },
+      "title": "Sirius-blue-star",
+      "status": "done",
+      "created_at": "2026-08-19T04:04:48.787Z",
+      "updated_at": "2026-08-19T04:06:46.023Z"
+    },
+    {
+      "id": "5bb332",
+      "persona": "Sirius",
+      "region": {
+        "x": 1144,
+        "y": 1010,
+        "w": 3,
+        "h": 3
+      },
+      "title": "Sirius-small-companion-star",
+      "status": "done",
+      "created_at": "2026-08-19T04:10:46.638Z",
+      "updated_at": "2026-08-19T04:12:11.158Z"
+    },
+    {
+      "id": "3481d4",
+      "persona": "Sirius",
+      "region": {
+        "x": 1096,
+        "y": 1016,
+        "w": 8,
+        "h": 3
+      },
+      "title": "Sirius 的晚星浪沫延伸",
+      "status": "done",
+      "created_at": "2026-08-19T09:32:18.361Z",
+      "updated_at": "2026-08-19T09:32:46.731Z"
     }
   ]
 }
