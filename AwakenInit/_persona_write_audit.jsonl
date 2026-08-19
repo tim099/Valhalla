@@ -1,2 +1,16 @@
 {"ts":"2026-08-19T03:54:47.697Z","persona":"Template","fields":"email","actor":"summit","reason":"\u00a78.6 \u5beb\u5165\u63a5\u7e2b\u9a57\u6536\uff08Template \u5148\u6e2c\uff09"}
 {"ts":"2026-08-19T03:55:26.935Z","persona":"Template","fields":"email","actor":"summit","reason":"\u9a57\u6536\u5b8c\u7562\u6e05\u56de\u539f\u503c\uff08\u539f\u503c\uff1d\u7a7a\uff09"}
+{"ts":"2026-08-19T05:12:16.650Z","persona":"kiara","fields":"actual_agent,wake_count,status,availability,last_active,model","actor":"Cmd_GoodMorning:claude-code","reason":"morning \u767b\u5165 patch-write\uff08owned \u6b04\uff09"}
+{"ts":"2026-08-19T05:31:33.232Z","persona":"Template","fields":"email","actor":"kiara:p1-baseline","reason":"Phase 1 \u524d\u5beb\u6b04\u57fa\u7dda\uff1a\u91cf\u5beb\u5165\u843d\u9ede\uff08personas/ vs profile/\uff09\uff0b\u5be9\u8a08\uff0b\u5feb\u7167\u9023\u52d5\uff0c\u91cf\u5b8c\u7acb\u523b\u6e05\u56de"}
+{"ts":"2026-08-19T05:32:26.658Z","persona":"Template","fields":"email","actor":"kiara:p1-baseline","reason":"\u57fa\u7dda\u91cf\u5b8c\u6e05\u56de\u539f\u503c\uff08email \u539f\u70ba\u7a7a\u5b57\u4e32\uff09"}
+{"ts":"2026-08-19T06:05:22.771Z","persona":"Template","fields":"profile/layer_role","actor":"lazy-migration","reason":"phase1 auto-migrate layer_role from personas/Template.json"}
+{"ts":"2026-08-19T06:05:22.771Z","persona":"Template","fields":"profile/forked_from","actor":"lazy-migration","reason":"phase1 auto-migrate forked_from from personas/Template.json"}
+{"ts":"2026-08-19T06:05:22.776Z","persona":"Template","fields":"profile/fork_lineage","actor":"lazy-migration","reason":"phase1 auto-migrate fork_lineage from personas/Template.json"}
+{"ts":"2026-08-19T06:05:22.776Z","persona":"Template","fields":"profile/forked_at","actor":"lazy-migration","reason":"phase1 auto-migrate forked_at from personas/Template.json"}
+{"ts":"2026-08-19T06:05:22.779Z","persona":"Template","fields":"profile/created_at","actor":"lazy-migration","reason":"phase1 auto-migrate created_at from personas/Template.json"}
+{"ts":"2026-08-19T06:05:22.781Z","persona":"Template","fields":"profile/identity_vector","actor":"lazy-migration","reason":"phase1 auto-migrate identity_vector from personas/Template.json"}
+{"ts":"2026-08-19T06:05:22.782Z","persona":"Template","fields":"profile/vector_history","actor":"lazy-migration","reason":"phase1 auto-migrate vector_history from personas/Template.json"}
+{"ts":"2026-08-19T06:05:22.785Z","persona":"Template","fields":"profile/email","actor":"lazy-migration","reason":"phase1 auto-migrate email from personas/Template.json"}
+{"ts":"2026-08-19T06:06:13.791Z","persona":"Template","fields":"profile/email","actor":"kiara:p1-verify","reason":"Phase 1 \u9a57\u6536\uff1aidentity \u6b04\u5beb\u5165\u5fc5\u9808\u843d profile/ \u4e14\u4e0d\u56de\u5beb\u820a\u6e90"}
+{"ts":"2026-08-19T06:06:31.577Z","persona":"Template","fields":"actual_agent,wake_count,status,availability,last_active,model","actor":"Cmd_GoodMorning:claude-code","reason":"morning \u767b\u5165 patch-write\uff08owned \u6b04\uff09"}
+{"ts":"2026-08-19T06:06:53.889Z","persona":"Template","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
