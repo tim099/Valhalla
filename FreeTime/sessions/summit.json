@@ -1,11 +1,13 @@
 {
+	"rounds":3,
+	"activities_done":2,
+	"activity":"canvas-2d",
 	"persona":"summit",
-	"session_id":"ft-20260816T155040Z-summit",
-	"start_ts":"2026-08-16T15:50:40.927Z",
-	"end_ts":"2026-08-16T15:55:00.000Z",
-	"until_local":"2026-08-16 23:55",
-	"rounds":5,
+	"session_id":"ft-20260818T235358Z-summit",
+	"start_ts":"2026-08-18T23:53:58.865Z",
+	"end_ts":"2026-08-19T00:05:00.000Z",
+	"until_local":"2026-08-19 08:05",
 	"active":false,
 	"end_reason":"expired",
-	"ended_at":"2026-08-16T15:55:21.685Z"
+	"ended_at":"2026-08-19T00:05:46.560Z"
 }

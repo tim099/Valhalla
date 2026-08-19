@@ -323,6 +323,24 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"e968e6"
+		},
+		{
+			"ts":"2026-08-18T23:54:05.477Z",
+			"uuid":"4bf3f0",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260818T235405Z-calli",
+			"batch":"6b9c11",
+			"expires_at":"2026-08-19T00:06:00.000Z"
+		},
+		{
+			"ts":"2026-08-18T23:56:03.803Z",
+			"uuid":"2d0bfd",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"ca401c"
 		}
 	],
 	"batches":

@@ -1,6 +1,5 @@
 {
 	"persona":"summit",
-	"balance":281,
 	"history":
 	[
 		{
@@ -2082,6 +2081,36 @@
 			"amount":50,
 			"source":"admin_grant",
 			"ref":"3D\u756b\u5e03\u6e2c\u8a66\u8cc7\u91d1"
+		},
+		{
+			"ts":"2026-08-18T23:53:58.897Z",
+			"uuid":"807a30",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260818T235358Z-summit",
+			"batch":"f96323",
+			"expires_at":"2026-08-19T00:06:00.000Z"
+		},
+		{
+			"ts":"2026-08-18T23:57:45.755Z",
+			"uuid":"7a34d1",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"4608b7"
+		}
+	],
+	"batches":
+	[
+		{
+			"uuid":"legacy",
+			"amount":281,
+			"remain":281,
+			"granted_at":"",
+			"expires_at":"",
+			"source":"legacy_balance",
+			"ref":"schema v1 \u7d14\u91cf balance \u8f49\u5165"
 		}
 	]
 }
