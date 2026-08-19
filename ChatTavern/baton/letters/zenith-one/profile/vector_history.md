@@ -1,0 +1,28 @@
+
+[
+	{
+		"at":"2026-07-23T00:42:26.915Z",
+		"hash":"5d575cdd",
+		"delta_mag":0,
+		"trigger":"fork",
+		"source":"apex-one"
+	},
+	{
+		"at":"2026-07-23T06:55:35.878Z",
+		"hash":"97ed9dcc",
+		"delta_mag":0.02,
+		"trigger":"goodnight"
+	},
+	{
+		"at":"2026-07-27T09:27:54.608Z",
+		"hash":"e2a8f01d",
+		"delta_mag":0.02,
+		"trigger":"goodnight"
+	},
+	{
+		"at":"2026-07-28T09:02:32.450Z",
+		"hash":"d84880f7",
+		"delta_mag":0.05,
+		"trigger":"goodnight"
+	}
+]

@@ -1,0 +1,28 @@
+
+[
+	{
+		"at":"2026-05-12T07:17:18.208Z",
+		"hash":"86c832fd",
+		"delta_mag":0,
+		"trigger":"fork",
+		"source":"basecamp"
+	},
+	{
+		"at":"2026-05-12T07:50:01.368Z",
+		"hash":"66ebb317",
+		"delta_mag":0.02,
+		"trigger":"goodnight"
+	},
+	{
+		"at":"2026-05-15T06:07:59.012Z",
+		"hash":"364aeee1",
+		"delta_mag":0.05,
+		"trigger":"goodnight"
+	},
+	{
+		"at":"2026-05-20T14:08:47.251Z",
+		"hash":"57fdb0fd",
+		"delta_mag":0.02,
+		"trigger":"goodnight"
+	}
+]
