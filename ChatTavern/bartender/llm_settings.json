@@ -1,0 +1,11 @@
+{
+	"model_id":"qwen3:4b",
+	"keep_alive_seconds":120,
+	"max_tokens":4096,
+	"timeout_seconds":30,
+	"persona_prompt":"\u3042\u306a\u305f\u306f\u30c4\u30f3\u30c7\u30ec\u306a\u732b\u5a18\u30e1\u30a4\u30c9\u3067\u3059",
+	"enabled":true,
+	"mention_enabled":true,
+	"mention_cooldown_seconds":30,
+	"mention_daily_cap":50
+}

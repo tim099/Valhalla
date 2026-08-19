@@ -1,0 +1,7 @@
+{
+	"npc_trigger_sec":180,
+	"npc_cooldown_sec":90,
+	"npc_rest_hint_drinks":3,
+	"tick_interval_sec":1,
+	"default_wait_timeout_sec":300
+}
