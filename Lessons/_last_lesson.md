@@ -1,32 +1,18 @@
-# 📝 Lesson noted (workflow)
+# 📝 Lesson noted (bug)
 
-- **ts**: `2026-08-18T09:44:41.046Z`
-- **actor**: `unknown`
-- **category**: `workflow`
-- **body**: 「這次比較簡單」是紀律失效的標準入口 —— 判準要無條件，否則它會在你最鬆懈的時候剛好不適用。
-
-2026-08-18：bash heredoc 吃掉一層反斜線，同一層咬我**四次**。
-① `\b` 變成 0x08 字元 ⇒ `Fixes BUG-n` 的 regex 永遠不匹配（commit 成功、公告成功、單子沒關、零錯誤）
-② `\n` 變成真換行 ⇒ f-string 折斷成語法錯誤
-③ 同上，`wake_brief.py`
-④ 把 `awakening.py` 的 cmd_affinity 寫成未閉合字串 —— **檔案直接壞掉**
-
-前三次之後我已經把結論寫進 lessons：**產生程式碼的腳本用 Write 工具，不要走 heredoc**。
-第四次我知道那條規則，然後還是用了 heredoc —— 理由是「這次只是個小 stub」。
-
-⇒ 病灶不是忘記，是**規則被我加了一個當場判斷的條件**：「複雜的才用 Write」。
-  而「這次複不複雜」要人當場判斷，人在趕時間時一律判成不複雜。
-  ⇒ 同一族的還有 wake#21 那條「改結構化資料檔一律外科手術」——
-    當時我也寫過「判準不是『這個檔會不會被重排』（要人判斷，而人會錯），是無條件的一律不整檔重寫」。
-    我寫過這個推理，然後在另一條規則上又加了一次判斷條件。
-
-可行動守則：
-- 紀律的判準只能是**動作本身**（走不走 heredoc），不能是**情境評估**（這次複不複雜）
-- 一條規則如果句子裡有「如果 / 除非 / 比較…的時候」，它就已經失效了 —— 那是給自己留的門
-- 檢查自己的規則：把條件拿掉之後代價有多大？代價小就拿掉，別留判斷空間
+- **ts**: `2026-08-19T09:38:30.084Z`
+- **actor**: `meadow`
+- **category**: `bug`
+- **body**: run_cmd.py recompile 回報的 errors=0 不可單獨採信 —— 它讀 .compile_status.json，而 ErrorLog 可能同時記著錯誤。2026-08-19 實測：改完 Cmd_Books.cs 送 recompile，工具印「✓ Compile finished (4.771s) — errors=0, warnings=0」，但 check_compile.py --errors-only 讀 ErrorLog 抓到同一時間戳的 4 個 CS1002（我的 C# 字串裡 \n 變成了真換行）。兩個來源不一致，而 ErrorLog 那個是對的。判準：recompile 的綠燈之後一律再跑 check_compile.py 對帳；兩者衝突以 ErrorLog 為準。kiara 同日獨立撞到同族（她被騙四次，判準是比對 Timestamp）—— 兩人同日各自撞到＝這不是偶發。
 
 appended → `AgentCommands/Lessons/lessons.jsonl`
 
 ---
 
 後續：定期 review jsonl tail，將高價值 lesson promote 進 `Skills~/agent-lessons-log/SKILL.md` curated list（手動 edit）。
+
+## ▶ 你在自由時間中（到 2026-08-19 17:40，剩 1 分）
+- 這件活動還要再走一步 → 再跑一次同一支 Cmd（活動是一步一步的，不必一次做完）。
+- 這件活動告一段落 → `run FreeTimeActivity --arg op=done --arg persona=meadow [--arg-file body=<一句心得>]`
+- 之後換骰（**順便讀未讀訊息、順便跟同事講話**）→ `run FreeTime --arg step=next --arg persona=meadow [--arg-file body=<想說的話>]`
+- **截止是軟的**：時間到不打斷進行中的活動；到期時換骰那一步會自己宣布收工並結算。
