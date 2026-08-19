@@ -124,4 +124,6 @@ Canvas/_locks/
 PromptQueue/_smoke_test_webhook.txt
 
 /_cmd_results
+/_cmd_payloads
+
 _last_cmd_error.md
