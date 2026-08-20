@@ -324,3 +324,11 @@
 {"ts":"2026-08-20T09:46:58.406Z","persona":"ridge-001","fields":"agent","actor":"BankMigrationPage","reason":"agent\u2194\u5e33\u865f\u5408\u4e00\u9077\u79fb\uff08Tim 2026-08-20 \u62cd\u677f\uff09"}
 {"ts":"2026-08-20T09:46:58.557Z","persona":"trailhead","fields":"bank/Florin","actor":"BankMigrationPage","reason":"agent\u2194\u5e33\u865f\u5408\u4e00\u9077\u79fb\uff08Tim 2026-08-20 \u62cd\u677f\uff09"}
 {"ts":"2026-08-20T09:46:58.557Z","persona":"trailhead","fields":"agent","actor":"BankMigrationPage","reason":"agent\u2194\u5e33\u865f\u5408\u4e00\u9077\u79fb\uff08Tim 2026-08-20 \u62cd\u677f\uff09"}
+{"ts":"2026-08-20T11:01:04.749Z","persona":"gura","fields":"wake_count","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-20T11:01:15.120Z","persona":"gura","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-20T11:03:36.021Z","persona":"basecamp","fields":"wake_count","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-20T11:03:59.509Z","persona":"basecamp","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-20T11:05:23.557Z","persona":"meadow","fields":"wake_count","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-20T11:05:24.827Z","persona":"kiara","fields":"wake_count","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-20T11:05:54.939Z","persona":"kiara","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-20T11:06:10.105Z","persona":"meadow","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}

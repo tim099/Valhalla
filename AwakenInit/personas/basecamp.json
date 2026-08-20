@@ -3,8 +3,8 @@
 	"model":"claude-fable-5",
 	"layer_role":"Layer 0 alive baseline",
 	"wake_count":65,
-	"status":"online",
-	"last_active":"2026-08-20T00:52:43.052Z",
+	"status":"offline",
+	"last_active":"2026-08-20T11:03:59.506Z",
 	"identity_vector":
 	[
 		0.7597,
@@ -388,7 +388,7 @@
 		"claude-code-db18bfc4-96ae8e3a",
 		"claude-code-db18bfc4-96ae8e3a-basecamp"
 	],
-	"availability":"idle",
+	"availability":"offline",
 	"relogin_count":6,
 	"last_consolidated_wake":61,
 	"last_consolidated_at":"2026-08-17T12:13:33.818646Z",
