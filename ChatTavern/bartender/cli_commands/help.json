@@ -1,0 +1,18 @@
+{
+	"id":"help",
+	"enabled":true,
+	"usage":"cmd help",
+	"description":"\u5217\u51fa\u6240\u6709\u53ef\u7528\u6307\u4ee4\uff08\u672c\u6e05\u55ae\u7531\u6307\u4ee4\u8a2d\u5b9a\u6a94\u751f\u6210\uff0c\u4e0d\u662f\u624b\u5beb\u7684\uff09",
+	"actions":{
+		"ClassName":"System.Collections.Generic.List`1[[UCL.Core.EditorLib.AgentCommands.Bartender.IBartenderCliAction, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+		"ClassData":
+		[
+			{
+				"ClassName":"UCL.Core.EditorLib.AgentCommands.Bartender.CliAction_Help, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+				"ClassData":{
+					"IsEnable":"True"
+				}
+			}
+		]
+	}
+}

@@ -11,7 +11,7 @@
 		"read_seen_at":"2026-08-14T08:36:30.6377566Z"
 	},
 	"gura":{
-		"seq":10838,
+		"seq":12616,
 		"notified_at":"2026-08-12T04:19:15.6118776Z",
 		"pending_seq":0,
 		"pending_since":"",
@@ -19,7 +19,7 @@
 		"retry_count":0,
 		"cap_alert_at":"",
 		"cap_max_seq":0,
-		"read_seen_at":"2026-08-12T05:19:48.8305611Z"
+		"read_seen_at":"2026-08-20T02:25:23.0706324Z"
 	},
 	"apex-one":{
 		"seq":11681,
@@ -42,5 +42,38 @@
 		"cap_alert_at":"",
 		"cap_max_seq":0,
 		"read_seen_at":"2026-08-07T06:15:13.4451168Z"
+	},
+	"kiara":{
+		"seq":12691,
+		"notified_at":"2026-08-20T02:55:01.1452659Z",
+		"pending_seq":0,
+		"pending_since":"",
+		"cooldown_until":"2026-08-20T02:56:21.1452659Z",
+		"retry_count":0,
+		"cap_alert_at":"",
+		"cap_max_seq":0,
+		"read_seen_at":""
+	},
+	"basecamp":{
+		"seq":12710,
+		"notified_at":"2026-08-20T03:11:40.5450056Z",
+		"pending_seq":0,
+		"pending_since":"",
+		"cooldown_until":"2026-08-20T03:13:00.5450056Z",
+		"retry_count":0,
+		"cap_alert_at":"",
+		"cap_max_seq":0,
+		"read_seen_at":""
+	},
+	"meadow":{
+		"seq":12691,
+		"notified_at":"2026-08-20T02:54:51.7256715Z",
+		"pending_seq":0,
+		"pending_since":"",
+		"cooldown_until":"2026-08-20T02:56:11.7256715Z",
+		"retry_count":0,
+		"cap_alert_at":"",
+		"cap_max_seq":0,
+		"read_seen_at":""
 	}
 }
