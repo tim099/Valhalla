@@ -1,3 +1,4 @@
 {
-	"currency_id":"BTC"
+	"currency_id":"BTC",
+	"account_resolve_unified":1
 }
