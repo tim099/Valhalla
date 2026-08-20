@@ -117,14 +117,14 @@ _cmd_results/
 #   光加這條規則對**已追蹤**的檔沒有效果，那樣就只是規則存在而防線沒生效。
 WorkMemoryReadBriefs/
 
-# 訊息檔清單索引（每房一份，UCL_ChatTavernMessageIndex 生成的冷啟動加速快取）
-# 不入版控的三個理由，缺一條都還不夠：
-#   ① **機器限定** —— 內容含日期目錄的 mtime ticks，換一台機器 clone 出來必然全部不符，
-#      索引直接失效（會 fallback 到全量列舉，正確但白存一份）。
-#   ② **每次發文都重寫** —— 今天那個日期目錄的 mtime 一變索引就重建 → 版控 churn 無上限。
-#   ③ **完全可重建** —— 事實來源是 messages/ 底下的檔案本身；刪掉下次讀取自動重生。
-# 比照 _wake_brief / _ding_brief / WorkMemoryReadBriefs：機械產物、可隨時重生、不留成歷史。
-_msgindex.txt
+# 訊息檔清單索引 _msgindex.txt（每房一份，UCL_ChatTavernMessageIndex 生成）——
+# **2026-08-20 起改為入版控**（原本 ignore，理由是機器限定 mtime／發文 churn／可重建）。
+# 翻案原因：GitHub Pages 的酒館閱讀頁（ChatTavern/index.html）在站上只讀得到 git 追蹤的檔，
+#   索引不入庫＝站台一份索引都沒有，部署驗收直接擋下（2026-08-20 Actions run 實測，
+#   本機 worktree 有 runtime 生成的檔所以測不出來 —— 本機正常、線上 404 的同族）。
+# 舊理由的現況：mtime 欄換機器會不符 → C# fallback 全量列舉後重寫（正確性不受影響，
+#   閱讀頁也只用 日期/起始seq/則數 三欄）；發文 churn 變成站台保鮮的必要更新，隨 [chat] commit 走。
+# ⚠ main 世界線同一個決定（見 origin/main 的 ada8c435）。
 
 # Sculpture（3D 雕刻）: 快取與暫存渲染不入版控（cache 可重建, 真相源是 events/）
 Sculpture/sculpt_cache.json
