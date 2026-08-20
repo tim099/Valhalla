@@ -1,5 +1,5 @@
 {
-	"agent":"claude-code",
+	"agent":"cc",
 	"model":"claude-fable-5",
 	"layer_role":"Layer 0 alive baseline",
 	"wake_count":65,

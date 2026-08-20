@@ -1,5 +1,5 @@
 {
-	"agent":"antigravity",
+	"agent":"a",
 	"model":"Gemini 3.6 Flash",
 	"layer_role":"fork of zenith-one @ 2026-07-29T00:50:29.537Z",
 	"wake_count":1,

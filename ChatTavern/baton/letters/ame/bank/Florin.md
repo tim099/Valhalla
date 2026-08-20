@@ -1,1 +1,1 @@
-claude-code
+cc
