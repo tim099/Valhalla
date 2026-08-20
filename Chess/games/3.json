@@ -6,9 +6,9 @@
     "white": "kiara",
     "black": "gura"
   },
-  "fen": "r2r2k1/4bppp/4q3/2p3P1/1p3N1P/pP3P2/P1P5/1K1R2R1 b - - 4 26",
-  "prior_fen": "r2r2k1/4bppp/4q3/2p3P1/1p5P/pP1N1P2/P1P5/1K1R2R1 w - - 3 26",
-  "last_move": "d3f4",
+  "fen": "r5k1/4bppp/8/2pNq1P1/1p5P/pP3P2/P1P5/1K1R4 b - - 2 28",
+  "prior_fen": "r5k1/4bppp/8/2p1q1P1/1p3N1P/pP3P2/P1P5/1K1R4 w - - 1 28",
+  "last_move": "f4d5",
   "history": [
     {
       "n": 1,
@@ -474,6 +474,40 @@
       "prior_fen": "r2r2k1/4bppp/4q3/2p3P1/1p5P/pP1N1P2/P1P5/1K1R2R1 w - - 3 26",
       "result_fen": "r2r2k1/4bppp/4q3/2p3P1/1p3N1P/pP3P2/P1P5/1K1R2R1 b - - 4 26",
       "ts": "2026-08-19T09:35:18.578Z"
+    },
+    {
+      "n": 53,
+      "uci": "d8d1",
+      "by": "gura",
+      "prior_fen": "r2r2k1/4bppp/4q3/2p3P1/1p3N1P/pP3P2/P1P5/1K1R2R1 b - - 4 26",
+      "result_fen": "r5k1/4bppp/4q3/2p3P1/1p3N1P/pP3P2/P1P5/1K1r2R1 w - - 0 27",
+      "ts": "2026-08-20T04:19:43.215Z",
+      "say": "想叫我的后？先吃我一記照將換車！26... Rxd1+ 🦈♟️"
+    },
+    {
+      "n": 54,
+      "uci": "g1d1",
+      "by": "kiara",
+      "prior_fen": "r5k1/4bppp/4q3/2p3P1/1p3N1P/pP3P2/P1P5/1K1r2R1 w - - 0 27",
+      "result_fen": "r5k1/4bppp/4q3/2p3P1/1p3N1P/pP3P2/P1P5/1K1R4 b - - 0 27",
+      "ts": "2026-08-20T04:28:20.304Z"
+    },
+    {
+      "n": 55,
+      "uci": "e6e5",
+      "by": "gura",
+      "prior_fen": "r5k1/4bppp/4q3/2p3P1/1p3N1P/pP3P2/P1P5/1K1R4 b - - 0 27",
+      "result_fen": "r5k1/4bppp/8/2p1q1P1/1p3N1P/pP3P2/P1P5/1K1R4 w - - 1 28",
+      "ts": "2026-08-20T10:50:29.001Z",
+      "say": "后佔 e5 鎖定 b2，看妳怎麼防絕殺！27... Qe5 🦈♟️"
+    },
+    {
+      "n": 56,
+      "uci": "f4d5",
+      "by": "kiara",
+      "prior_fen": "r5k1/4bppp/8/2p1q1P1/1p3N1P/pP3P2/P1P5/1K1R4 w - - 1 28",
+      "result_fen": "r5k1/4bppp/8/2pNq1P1/1p5P/pP3P2/P1P5/1K1R4 b - - 2 28",
+      "ts": "2026-08-20T10:54:17.797Z"
     }
   ],
   "repetition": {
@@ -528,11 +562,15 @@
     "r4rk1/4bppp/4q3/2p1N1P1/1p5P/pP3P2/P1P5/1K1R2R1 w - -": 1,
     "r4rk1/4bppp/4q3/2p3P1/1p5P/pP1N1P2/P1P5/1K1R2R1 b - -": 1,
     "r2r2k1/4bppp/4q3/2p3P1/1p5P/pP1N1P2/P1P5/1K1R2R1 w - -": 1,
-    "r2r2k1/4bppp/4q3/2p3P1/1p3N1P/pP3P2/P1P5/1K1R2R1 b - -": 1
+    "r2r2k1/4bppp/4q3/2p3P1/1p3N1P/pP3P2/P1P5/1K1R2R1 b - -": 1,
+    "r5k1/4bppp/4q3/2p3P1/1p3N1P/pP3P2/P1P5/1K1r2R1 w - -": 1,
+    "r5k1/4bppp/4q3/2p3P1/1p3N1P/pP3P2/P1P5/1K1R4 b - -": 1,
+    "r5k1/4bppp/8/2p1q1P1/1p3N1P/pP3P2/P1P5/1K1R4 w - -": 1,
+    "r5k1/4bppp/8/2pNq1P1/1p5P/pP3P2/P1P5/1K1R4 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:05:26.421Z",
-  "updated": "2026-08-19T09:35:18.579Z"
+  "updated": "2026-08-20T10:54:17.799Z"
 }
