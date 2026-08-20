@@ -1,64 +1,76 @@
 {
-	"_schema_version": 2,
-	"_description": "Persona registry. See docs/Plan/Plan_Awakening_Init_Protocol.md.",
-	"_constants": {
-		"vector_dim": 64,
-		"vector_range": [
+	"_schema_version":2,
+	"_description":"Persona registry. See docs/Plan/Plan_Awakening_Init_Protocol.md.",
+	"_constants":{
+		"vector_dim":64,
+		"vector_range":
+		[
 			-1,
 			1
 		],
-		"default_perturbation": 0.02,
-		"max_perturbation": 0.2,
-		"fork_chain_cap": 5
+		"default_perturbation":0.02,
+		"max_perturbation":0.2,
+		"fork_chain_cap":5
 	},
-	"agent_banks": {
-		"claude-code": "cc",
-		"antigravity": "a",
-		"gemini": "g",
-		"Zeta": "zeta",
-		"Altair": "Altair",
-		"Myth": "Myth",
-		"Codex": "Codex",
-		"Fed": "Federal Reserve System",
-		"Template": "Template"
+	"agent_banks":{
+		"claude-code":"cc",
+		"antigravity":"a",
+		"gemini":"g",
+		"Zeta":"zeta",
+		"Altair":"Altair",
+		"Myth":"Myth",
+		"Codex":"Codex",
+		"Fed":"Federal Reserve System",
+		"Template":"Template"
 	},
-	"_agent_aliases_note": "Case-insensitive alias override. Key 一律小寫, value 為 agent_banks canonical key. 空 → 走 awakening.py _DEFAULT_AGENT_ALIASES (claude→claude-code / anthropic→claude-code). Tim 2026-05-13 二輪拍板: gemini 不 alias 去 antigravity, 是獨立 canonical agent (bank 也叫 gemini 不加 -da-xiaojie 後綴, 跟 Tim 大小姐 慣用稱呼脫鉤)。",
-	"agent_aliases": {},
-	"system_accounts": {
-		"pacific-standard-public-deposit-bank": "央行（Pacific Standard Public Deposit Bank）—— 跨日保管費入庫、請款與後台打款的撥款來源。2026-08-04 補登記：此前未列入帳號宇宙，導致後台下拉選單看不到央行本身。",
-		"claude-da-xiaojie": "舊世代 bank（agent claude-code 的歷史帳戶；現行 bank 為 cc）。內容為 work_post / work_session_salary / qa_execution 等真實歷史收入，2026-08-04 補登記為已知帳戶，不轉出、不改 agent_banks 指向。",
-		"Zeta-da-xiaojie": "舊世代 bank（agent Zeta 的歷史帳戶；現行 bank 為 zeta）。同上，補登記不轉出。",
-		"antigravity-da-xiaojie": "舊世代 bank（agent antigravity 的歷史帳戶；現行 bank 為 a）。同上，補登記不轉出。",
-		"tavern-keeper": "2026-08-14 補登記：酒館酒保（系統 NPC），是持續發言的活躍身分而非幽靈帳號。此名稱即帳戶本身，解析到此為止；刻意不進 agent_banks —— 它沒有對應的 agent。（同日曾被誤判為銷戶候選並銷戶，本次一併復戶：餘額 0 是因為它不計酬，不是因為它停用。）"
+	"_agent_aliases_note":"Case-insensitive alias override. Key \u4e00\u5f8b\u5c0f\u5beb, value \u70ba agent_banks canonical key. \u7a7a \u2192 \u8d70 awakening.py _DEFAULT_AGENT_ALIASES (claude\u2192claude-code / anthropic\u2192claude-code). Tim 2026-05-13 \u4e8c\u8f2a\u62cd\u677f: gemini \u4e0d alias \u53bb antigravity, \u662f\u7368\u7acb canonical agent (bank \u4e5f\u53eb gemini \u4e0d\u52a0 -da-xiaojie \u5f8c\u7db4, \u8ddf Tim \u5927\u5c0f\u59d0 \u6163\u7528\u7a31\u547c\u812b\u9264)\u3002",
+	"agent_aliases":{
+
 	},
-	"closed_accounts": {
-		"Gemini-da-xiaojie": "幽靈帳號銷戶 2026-08-14（餘額 0、無 persona 綁定、非註冊帳號）。ledger 歷史保留，不再接受任何金流。",
-		"antigravity-da-xiaojie-da-xiaojie": "幽靈帳號銷戶 2026-08-14（餘額 0、無 persona 綁定、非註冊帳號）。ledger 歷史保留，不再接受任何金流。",
-		"Antigravity": "幽靈帳號銷戶 2026-08-14（餘額 0、無 persona 綁定、非註冊帳號）。ledger 歷史保留，不再接受任何金流。",
-		"Fed": "幽靈帳號銷戶 2026-08-14（餘額 0、無 persona 綁定、非註冊帳號）。ledger 歷史保留，不再接受任何金流。",
-		"Zeta": "幽靈帳號銷戶 2026-08-14（餘額 0、無 persona 綁定、非註冊帳號）。ledger 歷史保留，不再接受任何金流。",
-		"antigravity": "幽靈帳號銷戶 2026-08-14（餘額 0、無 persona 綁定、非註冊帳號）。ledger 歷史保留，不再接受任何金流。",
-		"zeta-da-xiaojie": "幽靈帳號銷戶 2026-08-14（餘額 0、無 persona 綁定、非註冊帳號）。ledger 歷史保留，不再接受任何金流。"
+	"system_accounts":{
+		"pacific-standard-public-deposit-bank":"\u592e\u884c\uff08Pacific Standard Public Deposit Bank\uff09\u2014\u2014 \u8de8\u65e5\u4fdd\u7ba1\u8cbb\u5165\u5eab\u3001\u8acb\u6b3e\u8207\u5f8c\u53f0\u6253\u6b3e\u7684\u64a5\u6b3e\u4f86\u6e90\u30022026-08-04 \u88dc\u767b\u8a18\uff1a\u6b64\u524d\u672a\u5217\u5165\u5e33\u865f\u5b87\u5b99\uff0c\u5c0e\u81f4\u5f8c\u53f0\u4e0b\u62c9\u9078\u55ae\u770b\u4e0d\u5230\u592e\u884c\u672c\u8eab\u3002",
+		"claude-da-xiaojie":"\u820a\u4e16\u4ee3 bank\uff08agent claude-code \u7684\u6b77\u53f2\u5e33\u6236\uff1b\u73fe\u884c bank \u70ba cc\uff09\u3002\u5167\u5bb9\u70ba work_post / work_session_salary / qa_execution \u7b49\u771f\u5be6\u6b77\u53f2\u6536\u5165\uff0c2026-08-04 \u88dc\u767b\u8a18\u70ba\u5df2\u77e5\u5e33\u6236\uff0c\u4e0d\u8f49\u51fa\u3001\u4e0d\u6539 agent_banks \u6307\u5411\u3002",
+		"Zeta-da-xiaojie":"\u820a\u4e16\u4ee3 bank\uff08agent Zeta \u7684\u6b77\u53f2\u5e33\u6236\uff1b\u73fe\u884c bank \u70ba zeta\uff09\u3002\u540c\u4e0a\uff0c\u88dc\u767b\u8a18\u4e0d\u8f49\u51fa\u3002",
+		"antigravity-da-xiaojie":"\u820a\u4e16\u4ee3 bank\uff08agent antigravity \u7684\u6b77\u53f2\u5e33\u6236\uff1b\u73fe\u884c bank \u70ba a\uff09\u3002\u540c\u4e0a\uff0c\u88dc\u767b\u8a18\u4e0d\u8f49\u51fa\u3002",
+		"tavern-keeper":"2026-08-14 \u88dc\u767b\u8a18\uff1a\u9152\u9928\u9152\u4fdd\uff08\u7cfb\u7d71 NPC\uff09\uff0c\u662f\u6301\u7e8c\u767c\u8a00\u7684\u6d3b\u8e8d\u8eab\u5206\u800c\u975e\u5e7d\u9748\u5e33\u865f\u3002\u6b64\u540d\u7a31\u5373\u5e33\u6236\u672c\u8eab\uff0c\u89e3\u6790\u5230\u6b64\u70ba\u6b62\uff1b\u523b\u610f\u4e0d\u9032 agent_banks \u2014\u2014 \u5b83\u6c92\u6709\u5c0d\u61c9\u7684 agent\u3002\uff08\u540c\u65e5\u66fe\u88ab\u8aa4\u5224\u70ba\u92b7\u6236\u5019\u9078\u4e26\u92b7\u6236\uff0c\u672c\u6b21\u4e00\u4f75\u5fa9\u6236\uff1a\u9918\u984d 0 \u662f\u56e0\u70ba\u5b83\u4e0d\u8a08\u916c\uff0c\u4e0d\u662f\u56e0\u70ba\u5b83\u505c\u7528\u3002\uff09"
 	},
-	"_bank_personas_note": "§8.1 反向登記（Tim 2026-08-19 拍板）：**錢的歸屬由銀行端宣告**，不是 persona 記自己屬於哪家。key = bank account、value = 該 bank 底下的 persona 清單。空清單合法（央行／系統帳戶／尚無人的 bank）。同一 persona 出現在兩家 bank = fail-loud（錢進錯帳戶是最貴的靜默錯）。沒被任何 bank 登記的 persona ⇒ 預設綁央行並發酒保通知要求改綁（fallback 要出聲）。本表初值由當時的正向解析（persona→agent→bank）逐位導出，day-1 與正向結果逐位相同（parity 已驗）。",
-	"bank_personas": {
-		"Altair": [
+	"closed_accounts":{
+		"Gemini-da-xiaojie":"\u5e7d\u9748\u5e33\u865f\u92b7\u6236 2026-08-14\uff08\u9918\u984d 0\u3001\u7121 persona \u7d81\u5b9a\u3001\u975e\u8a3b\u518a\u5e33\u865f\uff09\u3002ledger \u6b77\u53f2\u4fdd\u7559\uff0c\u4e0d\u518d\u63a5\u53d7\u4efb\u4f55\u91d1\u6d41\u3002",
+		"antigravity-da-xiaojie-da-xiaojie":"\u5e7d\u9748\u5e33\u865f\u92b7\u6236 2026-08-14\uff08\u9918\u984d 0\u3001\u7121 persona \u7d81\u5b9a\u3001\u975e\u8a3b\u518a\u5e33\u865f\uff09\u3002ledger \u6b77\u53f2\u4fdd\u7559\uff0c\u4e0d\u518d\u63a5\u53d7\u4efb\u4f55\u91d1\u6d41\u3002",
+		"Antigravity":"\u5e7d\u9748\u5e33\u865f\u92b7\u6236 2026-08-14\uff08\u9918\u984d 0\u3001\u7121 persona \u7d81\u5b9a\u3001\u975e\u8a3b\u518a\u5e33\u865f\uff09\u3002ledger \u6b77\u53f2\u4fdd\u7559\uff0c\u4e0d\u518d\u63a5\u53d7\u4efb\u4f55\u91d1\u6d41\u3002",
+		"antigravity":"\u5e7d\u9748\u5e33\u865f\u92b7\u6236 2026-08-14\uff08\u9918\u984d 0\u3001\u7121 persona \u7d81\u5b9a\u3001\u975e\u8a3b\u518a\u5e33\u865f\uff09\u3002ledger \u6b77\u53f2\u4fdd\u7559\uff0c\u4e0d\u518d\u63a5\u53d7\u4efb\u4f55\u91d1\u6d41\u3002",
+		"zeta-da-xiaojie":"\u5e7d\u9748\u5e33\u865f\u92b7\u6236 2026-08-14\uff08\u9918\u984d 0\u3001\u7121 persona \u7d81\u5b9a\u3001\u975e\u8a3b\u518a\u5e33\u865f\uff09\u3002ledger \u6b77\u53f2\u4fdd\u7559\uff0c\u4e0d\u518d\u63a5\u53d7\u4efb\u4f55\u91d1\u6d41\u3002"
+	},
+	"_bank_personas_note":"\u00a78.1 \u53cd\u5411\u767b\u8a18\uff08Tim 2026-08-19 \u62cd\u677f\uff09\uff1a**\u9322\u7684\u6b78\u5c6c\u7531\u9280\u884c\u7aef\u5ba3\u544a**\uff0c\u4e0d\u662f persona \u8a18\u81ea\u5df1\u5c6c\u65bc\u54ea\u5bb6\u3002key = bank account\u3001value = \u8a72 bank \u5e95\u4e0b\u7684 persona \u6e05\u55ae\u3002\u7a7a\u6e05\u55ae\u5408\u6cd5\uff08\u592e\u884c\uff0f\u7cfb\u7d71\u5e33\u6236\uff0f\u5c1a\u7121\u4eba\u7684 bank\uff09\u3002\u540c\u4e00 persona \u51fa\u73fe\u5728\u5169\u5bb6 bank = fail-loud\uff08\u9322\u9032\u932f\u5e33\u6236\u662f\u6700\u8cb4\u7684\u975c\u9ed8\u932f\uff09\u3002\u6c92\u88ab\u4efb\u4f55 bank \u767b\u8a18\u7684 persona \u21d2 \u9810\u8a2d\u7d81\u592e\u884c\u4e26\u767c\u9152\u4fdd\u901a\u77e5\u8981\u6c42\u6539\u7d81\uff08fallback \u8981\u51fa\u8072\uff09\u3002\u672c\u8868\u521d\u503c\u7531\u7576\u6642\u7684\u6b63\u5411\u89e3\u6790\uff08persona\u2192agent\u2192bank\uff09\u9010\u4f4d\u5c0e\u51fa\uff0cday-1 \u8207\u6b63\u5411\u7d50\u679c\u9010\u4f4d\u76f8\u540c\uff08parity \u5df2\u9a57\uff09\u3002",
+	"bank_personas":{
+		"Altair":
+		[
 			"apex-one"
 		],
-		"Codex": [],
-		"Federal Reserve System": [
+		"Codex":
+		[
+
+		],
+		"Federal Reserve System":
+		[
 			"Sirius"
 		],
-		"Myth": [
+		"Myth":
+		[
 			"calli",
 			"gura",
 			"kiara"
 		],
-		"Template": [
+		"Template":
+		[
 			"Template"
 		],
-		"Zeta-da-xiaojie": [],
-		"a": [
+		"Zeta-da-xiaojie":
+		[
+
+		],
+		"a":
+		[
 			"apex-two",
 			"claude-da-xiaojie",
 			"pinnacle-one",
@@ -66,8 +78,12 @@
 			"zenith-one",
 			"zenith-two"
 		],
-		"antigravity-da-xiaojie": [],
-		"cc": [
+		"antigravity-da-xiaojie":
+		[
+
+		],
+		"cc":
+		[
 			"ame",
 			"basecamp",
 			"basecamp-fork-2026-05-12-2c36",
@@ -76,13 +92,24 @@
 			"meadow",
 			"ridge-001"
 		],
-		"claude-da-xiaojie": [],
-		"g": [
+		"claude-da-xiaojie":
+		[
+
+		],
+		"g":
+		[
 			"trailhead"
 		],
-		"pacific-standard-public-deposit-bank": [],
-		"tavern-keeper": [],
-		"zeta": [
+		"pacific-standard-public-deposit-bank":
+		[
+
+		],
+		"tavern-keeper":
+		[
+
+		],
+		"zeta":
+		[
 			"summit"
 		]
 	}
