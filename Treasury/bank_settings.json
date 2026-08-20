@@ -1,4 +1,5 @@
 {
 	"currency_id":"BTC",
-	"account_resolve_unified":1
+	"account_resolve_unified":1,
+	"central_bank_account":"pacific-standard-public-deposit-bank"
 }
