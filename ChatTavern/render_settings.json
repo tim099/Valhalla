@@ -1,4 +1,5 @@
 {
 	"read_tail_count":20,
-	"last_view_tail_count":20
+	"last_view_tail_count":20,
+	"message_body_clip":600
 }

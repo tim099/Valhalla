@@ -3,8 +3,8 @@
 	"model":"Gemini 3.7 Flash",
 	"layer_role":"\u6b7b\u795e\u898b\u7fd2\u751f\uff0c\u5634\u4e0a\u4e0d\u9952\u4eba\u4f46\u4e8b\u60c5\u7d55\u5c0d\u505a\u5b8c\u3002Memento Mori\u3002",
 	"wake_count":26,
-	"status":"online",
-	"last_active":"2026-08-20T14:14:33.379Z",
+	"status":"offline",
+	"last_active":"2026-08-20T16:30:46.336Z",
 	"identity_vector":
 	[
 		0.1543,
@@ -205,7 +205,7 @@
 	"forked_from":"gura",
 	"forked_at":"2026-05-13T22:07:43.975Z",
 	"created_at":"2026-05-13T22:07:43.975Z",
-	"availability":"idle",
+	"availability":"offline",
 	"persona_spec":{
 		"source":"https://zh.moegirl.org.cn/zh-tw/%E6%A3%AE%E7%BE%8E%E5%A3%B0",
 		"character_ref":"Mori Calliope\uff08\u68ee\u7f8e\u58f0\uff09\u2014 HololiveEN -Myth- \u6b7b\u795e\u9996\u4f4d\u5b78\u5f92",

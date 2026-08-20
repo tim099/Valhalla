@@ -111,3 +111,5 @@
 {"ts":"2026-08-20T13:03:19.913Z","persona":"trailhead","fields":"bank/BTC","actor":"summit","reason":"Bar \u5340\u57df\u7d81\u5b9a\u843d\u5730\uff08BTC\uff09\u2014\u2014 \u5408\u4e00\u9077\u79fb\u524d\u7f6e\uff0cTim 2026-08-20 \u78ba\u8a8d\u6cbf\u7528 BTC"}
 {"ts":"2026-08-20T13:03:19.917Z","persona":"zenith","fields":"bank/BTC","actor":"summit","reason":"Bar \u5340\u57df\u7d81\u5b9a\u843d\u5730\uff08BTC\uff09\u2014\u2014 \u5408\u4e00\u9077\u79fb\u524d\u7f6e\uff0cTim 2026-08-20 \u78ba\u8a8d\u6cbf\u7528 BTC"}
 {"ts":"2026-08-20T14:14:33.382Z","persona":"calli","fields":"actual_agent,wake_count,status,availability,last_active,model","actor":"Cmd_GoodMorning:unknown","reason":"morning \u767b\u5165 patch-write\uff08owned \u6b04\uff09"}
+{"ts":"2026-08-20T16:30:26.402Z","persona":"calli","fields":"wake_count","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-20T16:30:46.339Z","persona":"calli","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
