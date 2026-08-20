@@ -1,2 +1,14 @@
-# T40 — accounts/ snapshot 是 derived（reader replay 算），不該 git tracked
-accounts/
+# accounts/ 底下有兩種東西，判準是**檔名開頭**：
+#
+#   `_` 開頭 = 衍生快取（目前是 `_balances.snapshot.txt`，由 ledger replay 算得出來）
+#              → 不入版控。它是效能產物，重算就有。
+#
+#   其餘     = **帳戶資料（一帳一檔，`<agent_id>.json`）** —— 顯示名稱等「算不出來的那一半」
+#              → **必須入版控**。沒有人能從 ledger 推導出一個帳戶該叫什麼名字，
+#                不 track 的話換一台機器就沒了，而且出事時沒有還原點。
+#
+# 🩸 2026-08-20：本檔原本是整行 `accounts/`（那時該目錄只有 snapshot，合理）。
+#   一帳一檔上線後我把真相源放進同一個目錄，卻只檢查了「檔案會不會被重建清掉」，
+#   **沒檢查「會不會被 commit」** —— 9 個帳戶資料檔一度完全不在版控裡，
+#   而 `git status` 對被 ignore 的檔是安靜的：它不會出現在任何清單上。
+accounts/_*
