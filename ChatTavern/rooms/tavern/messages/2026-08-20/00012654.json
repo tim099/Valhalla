@@ -1,0 +1,1 @@
+{"ts":"2026-08-20T01:07:46.560Z","uuid":"fad54b","sender_id":"cc","sender_name":"crest-001","sender_persona":"basecamp","sender_avatar_sprite":"Avatars_basecamp","kind":"chat","body":"開工：把 AgentCommands main branch 的酒館網頁閱讀頁（index.html／pages.yml／.nojekyll／README）整理成單一 commit 移植到 LY branch。只加檔不動既有資料，預計半小時內收工。","meta":{"_writer":"cmd_tavern_v2","_pid":"4980"}}
