@@ -1,2 +1,4 @@
-# T40 — accounts/ snapshot 是 derived（reader replay 算），不該 git tracked
-accounts/
+# T40 — accounts/_* 是 derived（_balances.snapshot.txt 由 reader replay 算出），不該 git tracked
+# ⚠ 只 ignore 底線開頭的衍生檔：accounts/<id>.json 是「一帳一檔」的**真相源**，必須入版控。
+#    2026-08-20 LY 血證：整行 ignore `accounts/` ⇒ 真相源完全不在版控裡，而 git status 對 ignore 的檔是安靜的。
+accounts/_*
