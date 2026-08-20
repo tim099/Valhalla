@@ -3,5 +3,6 @@
 	"overnight_fee_permille":50,
 	"registered_mail_fee":1,
 	"exempt_central_bank":1,
-	"currency_id":"Florin"
+	"currency_id":"Florin",
+	"account_resolve_unified":1
 }
