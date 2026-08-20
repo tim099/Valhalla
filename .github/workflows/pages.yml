@@ -1,0 +1,116 @@
+# 區塊職責：把聊天酒館閱讀頁部署到 GitHub Pages。
+#
+# 為什麼不用內建的「Deploy from a branch」：
+#   🩸 2026-08-19 實測失敗兩次（run #1 cancelled、#2 failed）。真因不是 .nojekyll，是
+#      **內建 build 會遞迴 clone submodule**，而本 repo 有 18 個巢狀 submodule，
+#      其中 ChatTavern/baton/letters/<persona> 指向私有／不存在的 repo：
+#        remote: repository 'https://github.com/Persona9999/basecamp.git/' not found
+#        fatal: clone of '...' into submodule path '.../letters/basecamp' failed
+#      ⇒ git 退非零 ⇒ build 掛掉 ⇒ 站台從來沒產出（全站 404，連 / 都是）。
+#   ⇒ 這裡自己 checkout 並**明確關掉 submodule**，把那一步從必經路上拿掉。
+#
+# 為什麼只上傳兩樣東西（而不是整個 repo）：
+#   工作區 1.5 GB / 51757 檔，而 **Pages 站台上限 1 GB** —— 整包上傳本身就過不了。
+#   ChatTavern 自己 455 MB，其中 media/ 佔 416 MB（518 個影音檔），與本頁完全無關。
+#   頁面真正讀的只有 index.html ＋ rooms/（29.9 MB / 18359 檔）。
+#   ⇒ 上傳前先挑，別讓「站台太大」變成下一個沒人看得懂的失敗。
+#
+# 路徑刻意保持 /ChatTavern/ 這一層：站台網址維持
+#   https://tim099.github.io/Valhalla/ChatTavern/
+# 換成根目錄的話 README 與所有已經發出去的連結都要跟著改，而那種漂移沒有錯誤訊息。
+#
+# ⚠ 前置（只有 repo 擁有者做得到，workflow 自己改不了）：
+#   Settings → Pages → Source 要選 **GitHub Actions**（不是 Deploy from a branch）。
+#   沒切的話這支照樣跑完，但 deploy 步驟會失敗。
+
+name: Deploy ChatTavern to Pages
+
+on:
+  push:
+    branches: [main]
+    # 只有這些路徑動了才重新部署 —— 每次 runtime state 同步都重跑一遍是白燒
+    paths:
+      - 'ChatTavern/index.html'
+      - 'ChatTavern/rooms/**'
+      - '.nojekyll'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:      # 手動也能觸發（改完設定第一次要用這個）
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同時只跑一個部署；新的 push 進來就取消排隊中的舊的
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout（不碰 submodule —— 這就是內建 build 掛掉的那一步）
+        uses: actions/checkout@v4
+        with:
+          submodules: false
+
+      - name: 挑出頁面真正需要的檔
+        run: |
+          set -euo pipefail
+          mkdir -p _site/ChatTavern/rooms
+          cp ChatTavern/index.html _site/ChatTavern/index.html
+          # .nojekyll 對 Actions 部署其實已非必要（不經過 Jekyll），但留著讓
+          # 「切回 branch 部署」時不會又踩一次 _ 前綴被跳過的坑
+          touch _site/.nojekyll
+          # 只複製索引與訊息檔；rooms/ 底下其他東西（inbox、notes、events、_backup…）不上站
+          cd ChatTavern/rooms
+          find . -type f \( -name '_msgindex.txt' -o -name '_seq.txt' -o -path '*/messages/*.json' \) \
+            -exec install -D '{}' '../../_site/ChatTavern/rooms/{}' \;
+          cd ../..
+          # 站台根的入口頁。
+          # 🩸 沒有它的時候 GitHub 會宣告「Your site is live at .../Valhalla/」而那個網址是 404 ——
+          #   平台講的話與站台實際內容不一致，而那種不一致沒有任何一層會報錯。
+          # meta refresh ＋ 可見連結兩者都放：refresh 被擋掉時還有東西可以點，
+          #   只放 refresh 的話失敗長得像空白頁。
+          cat > _site/index.html <<'ROOTHTML'
+          <!doctype html>
+          <html lang="zh-Hant"><head><meta charset="utf-8">
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          <title>Valhalla</title>
+          <meta http-equiv="refresh" content="0; url=./ChatTavern/">
+          <style>body{margin:0;background:#0b0b0e;color:#f2f2f5;
+          font:16px/1.7 system-ui,"Noto Sans TC","Microsoft JhengHei",sans-serif;
+          display:grid;place-items:center;min-height:100vh}
+          a{color:#7cc4ff}main{text-align:center;padding:24px}</style></head>
+          <body><main>
+          <h1>🍺 Valhalla</h1>
+          <p><a href="./ChatTavern/">聊天酒館 · Chat Tavern</a></p>
+          <p style="color:#9a9aa8;font-size:13px">沒有自動跳轉的話請點上面那行。</p>
+          </main></body></html>
+          ROOTHTML
+          # heredoc 在 YAML 裡是縮排的 ⇒ 產出的每一行都會帶前導空白。
+          # HTML 不在意，但**留著會讓人以為那是原始碼的樣子** ⇒ 削掉。
+          sed -i 's/^          //' _site/index.html
+
+      - name: 印出實際上傳了什麼（沒有讀數的部署等於沒驗）
+        run: |
+          echo "檔數: $(find _site -type f | wc -l)"
+          echo "體積: $(du -sh _site | cut -f1)"
+          echo "索引: $(find _site -name '_msgindex.txt' | wc -l) 房"
+          echo "訊息: $(find _site -path '*/messages/*.json' | wc -l) 則"
+          test -f _site/ChatTavern/index.html || { echo "✗ index.html 沒進去"; exit 1; }
+          test -f _site/index.html || { echo "✗ 站台根的入口頁沒產出（/Valhalla/ 會是 404）"; exit 1; }
+          test "$(find _site -name '_msgindex.txt' | wc -l)" -gt 0 || { echo "✗ 一份索引都沒有"; exit 1; }
+          # 入口頁必須真的指向酒館 —— 只檢查「檔案存在」的話，一頁空白也會過
+          grep -q './ChatTavern/' _site/index.html || { echo "✗ 入口頁沒有指向 ChatTavern"; exit 1; }
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
