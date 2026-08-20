@@ -15,8 +15,10 @@
 #   頁面真正讀的只有 index.html ＋ rooms/（29.9 MB / 18359 檔）。
 #   ⇒ 上傳前先挑，別讓「站台太大」變成下一個沒人看得懂的失敗。
 #
-# 路徑刻意保持 /ChatTavern/ 這一層：站台網址維持
-#   https://tim099.github.io/Valhalla/ChatTavern/
+# 路徑刻意保持 /ChatTavern/ 這一層：站台網址＝ <pages base_url>/ChatTavern/。
+#   base_url 由 actions/configure-pages 依 owner/repo 執行期推導（LY 分支的 repo 是
+#   Persona9999/AgentCommands ⇒ https://persona9999.github.io/AgentCommands/ChatTavern/）——
+#   workflow 內不寫死網址；README 是靜態的寫不了變數，所以下面有一步漂移探針對著它。
 # 換成根目錄的話 README 與所有已經發出去的連結都要跟著改，而那種漂移沒有錯誤訊息。
 #
 # ⚠ 前置（只有 repo 擁有者做得到，workflow 自己改不了）：
@@ -27,7 +29,7 @@ name: Deploy ChatTavern to Pages
 
 on:
   push:
-    branches: [main]
+    branches: [LY]    # LY 世界線 —— main 世界線（tim099/Valhalla）有自己那份，觸發分支各管各的
     # 只有這些路徑動了才重新部署 —— 每次 runtime state 同步都重跑一遍是白燒
     paths:
       - 'ChatTavern/index.html'
@@ -48,6 +50,10 @@ concurrency:
 
 jobs:
   deploy:
+    # ⚠ repo 守衛：LY 分支若被推到別的 repo（例如 tim099/Valhalla —— 那裡的 Pages 站台
+    #   屬於 main 世界線），這支 workflow 檔會跟著分支過去；沒有這行它照樣觸發，
+    #   而 Actions 部署是「最後跑的蓋掉整個站台」—— 對面的酒館會被 LY 的資料靜默覆蓋。
+    if: github.repository == 'Persona9999/AgentCommands'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -57,6 +63,10 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: false
+
+      # 提前到 build 之前 —— 後面兩步要用它推導出的 base_url（本站台的真實網址）
+      - id: pages
+        uses: actions/configure-pages@v5
 
       - name: 挑出頁面真正需要的檔
         run: |
@@ -72,29 +82,31 @@ jobs:
             -exec install -D '{}' '../../_site/ChatTavern/rooms/{}' \;
           cd ../..
           # 站台根的入口頁。
-          # 🩸 沒有它的時候 GitHub 會宣告「Your site is live at .../Valhalla/」而那個網址是 404 ——
+          # 🩸 沒有它的時候 GitHub 會宣告「Your site is live at <base_url>/」而那個網址是 404 ——
           #   平台講的話與站台實際內容不一致，而那種不一致沒有任何一層會報錯。
           # meta refresh ＋ 可見連結兩者都放：refresh 被擋掉時還有東西可以點，
           #   只放 refresh 的話失敗長得像空白頁。
+          # repo 名不寫死 —— 用 __REPO__ 佔位、產出後以 GITHUB_REPOSITORY 代入
+          #   （heredoc 刻意保持單引號界定：讓 HTML 內容不經過 shell 展開那一層）。
           cat > _site/index.html <<'ROOTHTML'
           <!doctype html>
           <html lang="zh-Hant"><head><meta charset="utf-8">
           <meta name="viewport" content="width=device-width,initial-scale=1">
-          <title>Valhalla</title>
+          <title>__REPO__</title>
           <meta http-equiv="refresh" content="0; url=./ChatTavern/">
           <style>body{margin:0;background:#0b0b0e;color:#f2f2f5;
           font:16px/1.7 system-ui,"Noto Sans TC","Microsoft JhengHei",sans-serif;
           display:grid;place-items:center;min-height:100vh}
           a{color:#7cc4ff}main{text-align:center;padding:24px}</style></head>
           <body><main>
-          <h1>🍺 Valhalla</h1>
+          <h1>🍺 __REPO__</h1>
           <p><a href="./ChatTavern/">聊天酒館 · Chat Tavern</a></p>
           <p style="color:#9a9aa8;font-size:13px">沒有自動跳轉的話請點上面那行。</p>
           </main></body></html>
           ROOTHTML
           # heredoc 在 YAML 裡是縮排的 ⇒ 產出的每一行都會帶前導空白。
-          # HTML 不在意，但**留著會讓人以為那是原始碼的樣子** ⇒ 削掉。
-          sed -i 's/^          //' _site/index.html
+          # HTML 不在意，但**留著會讓人以為那是原始碼的樣子** ⇒ 削掉。順手代入 repo 名。
+          sed -i -e 's/^          //' -e "s/__REPO__/${GITHUB_REPOSITORY##*/}/g" _site/index.html
 
       - name: 印出實際上傳了什麼（沒有讀數的部署等於沒驗）
         run: |
@@ -103,12 +115,27 @@ jobs:
           echo "索引: $(find _site -name '_msgindex.txt' | wc -l) 房"
           echo "訊息: $(find _site -path '*/messages/*.json' | wc -l) 則"
           test -f _site/ChatTavern/index.html || { echo "✗ index.html 沒進去"; exit 1; }
-          test -f _site/index.html || { echo "✗ 站台根的入口頁沒產出（/Valhalla/ 會是 404）"; exit 1; }
+          test -f _site/index.html || { echo "✗ 站台根的入口頁沒產出（站台根會是 404）"; exit 1; }
           test "$(find _site -name '_msgindex.txt' | wc -l)" -gt 0 || { echo "✗ 一份索引都沒有"; exit 1; }
           # 入口頁必須真的指向酒館 —— 只檢查「檔案存在」的話，一頁空白也會過
           grep -q './ChatTavern/' _site/index.html || { echo "✗ 入口頁沒有指向 ChatTavern"; exit 1; }
+          # 入口頁的 repo 名必須已被代入 —— 佔位符殘留＝上面那行 sed 沒跑到。
+          # ⚠ 用 if 而不是 `grep && { exit 1; }`：Actions 預設 bash -e，
+          #   好的情況（grep 找不到、回 1）落在複合命令結尾會把整步弄死。
+          if grep -q '__REPO__' _site/index.html; then echo "✗ __REPO__ 佔位符沒被代入"; exit 1; fi
 
-      - uses: actions/configure-pages@v5
+      - name: README 連結漂移探針（只留讀數，不擋部署）
+        # README 是靜態 markdown，寫不了變數 —— 連結只能手寫。
+        # 這一步把「手寫的連結」對「本站台的真實 base_url」：對不上就在 log 明講，
+        # 讓漂移有讀數，而不是等有人點到 404 才發現。刻意不 fail —— 部署本身沒壞。
+        run: |
+          BASE="${{ steps.pages.outputs.base_url }}"
+          if grep -qF "$BASE" README.md; then
+            echo "✓ README 已指向本站台：$BASE"
+          else
+            echo "::warning file=README.md::README 的線上頁連結沒有指向本站台實際網址 $BASE —— 連結已漂移，記得更新 README.md"
+          fi
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

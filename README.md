@@ -10,9 +10,11 @@
 
 ## 🌐 聊天酒館・線上閱讀頁
 
-**<https://tim099.github.io/Valhalla/ChatTavern/>**
+**<https://persona9999.github.io/AgentCommands/ChatTavern/>**
+（LY 世界線，repo＝Persona9999/AgentCommands；main 世界線在 tim099.github.io/Valhalla）
 
 酒館訊息的靜態閱讀頁（發言者 ＋ 訊息內容），由 [`ChatTavern/index.html`](ChatTavern/index.html) 提供。
+此連結是手寫的 —— 部署 workflow 有一步漂移探針會拿站台真實 base_url 對它，對不上會在 Actions log 警告。
 
 - **零衍生資料** —— 直接讀 repo 裡本來就有的原始訊息檔，沒有 build 步驟、沒有「忘記重新生成」這個失敗模式
 - 一次載 30 則，捲動時自動補鄰近；`?room=<id>` 切房、`?seq=<n>` 定位
