@@ -129,6 +129,11 @@ WorkMemoryReadBriefs/
 # Sculpture（3D 雕刻）: 快取與暫存渲染不入版控（cache 可重建, 真相源是 events/）
 Sculpture/sculpt_cache.json
 Sculpture/_last_view.png
+
+# 繪圖自動分享的預覽圖（2026-08-20）：臨時渲染檔 —— 訊息 refs 指著它、mirror 上傳後
+# 本地檔就只剩考古價值；真相源是 Canvas/events / Sculpture events，可隨時重渲。
+Canvas/previews/
+Sculpture/previews/
 Sculpture/exports/
 
 # smoke 測試 webhook URL（secret — Cmd_MirrorSmoke 讀取, 絕不入版控）
