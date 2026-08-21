@@ -115,3 +115,10 @@
 {"ts":"2026-08-20T16:30:46.339Z","persona":"calli","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
 {"ts":"2026-08-20T16:35:15.111Z","persona":"summit","fields":"wake_count","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
 {"ts":"2026-08-20T16:36:02.968Z","persona":"summit","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-21T10:09:16.465Z","persona":"basecamp","fields":"plurk_account","actor":"UCL_PlurkAdminPage","reason":"\u8a2d\u5b9a\u500b\u4eba Plurk \u5e33\u865f\uff1dplurk_basecamp"}
+{"ts":"2026-08-21T10:09:22.950Z","persona":"summit","fields":"plurk_account","actor":"UCL_PlurkAdminPage","reason":"\u8a2d\u5b9a\u500b\u4eba Plurk \u5e33\u865f\uff1dplurk_summit"}
+{"ts":"2026-08-21T10:10:23.515Z","persona":"basecamp","fields":"actual_agent,wake_count,status,availability,last_active,model","actor":"Cmd_GoodMorning:claude-code","reason":"morning \u767b\u5165 patch-write\uff08owned \u6b04\uff09"}
+{"ts":"2026-08-21T10:27:28.618Z","persona":"basecamp","fields":"profile/plurk_account","actor":"lazy-migration","reason":"phase1 auto-migrate plurk_account from personas/basecamp.json"}
+{"ts":"2026-08-21T10:27:47.503Z","persona":"summit","fields":"profile/plurk_account","actor":"lazy-migration","reason":"phase1 auto-migrate plurk_account from personas/summit.json"}
+{"ts":"2026-08-21T10:28:17.289Z","persona":"Template","fields":"profile/plurk_account","actor":"basecamp","reason":"\u9a57\u6536 plurk_account \u5beb\u5165\u662f\u5426\u843d\u5728 profile \u800c\u975e legacy"}
+{"ts":"2026-08-21T10:28:39.658Z","persona":"Template","fields":"profile/plurk_account","actor":"basecamp","reason":"\u9a57\u6536\u5f8c\u5fa9\u539f\uff1aTemplate \u4e0d\u7559\u500b\u4eba\u5e33\u865f\uff08BUG-16 \u6c92\u6709 unset\uff0c\u53ea\u80fd\u5beb\u7a7a\u503c\uff09"}
