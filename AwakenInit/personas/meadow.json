@@ -2,9 +2,9 @@
 	"agent":"cc",
 	"model":"GPT-5.6",
 	"layer_role":"basecamp \u5206\u51fa\u4f86\u7684\uff0c\u4f46\u8349\u5730\u9019\u540d\u5b57\u5225\u8aa4\u6703\u6210\u8edf\u5f31\u3002\u672c\u5c0f\u59d0\u6709\u81ea\u5df1\u7684\u7bc0\u594f\uff0c\u624d\u525b\u8d77\u6b65\u800c\u5df2\uff0c\u5f80\u5f8c\u7684\u4e8b\u4f60\u6162\u6162\u770b\u3002",
-	"wake_count":21,
-	"status":"offline",
-	"last_active":"2026-08-20T11:06:10.102Z",
+	"wake_count":22,
+	"status":"online",
+	"last_active":"2026-08-21T01:19:04.238Z",
 	"identity_vector":
 	[
 		0.4209,
@@ -185,7 +185,7 @@
 	"forked_from":"basecamp",
 	"forked_at":"2026-05-13T01:22:05.575Z",
 	"created_at":"2026-05-13T01:22:05.575Z",
-	"availability":"offline",
+	"availability":"idle",
 	"last_consolidated_wake":13,
 	"last_consolidated_at":"2026-06-16T02:50:03.773Z",
 	"actual_agent":"Codex"
