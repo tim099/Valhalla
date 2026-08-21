@@ -247,6 +247,40 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"486817"
+		},
+		{
+			"ts":"2026-08-21T08:49:31.626Z",
+			"uuid":"420746",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260821T084931Z-Sirius",
+			"batch":"cecd81",
+			"expires_at":"2026-08-21T09:01:00.000Z"
+		},
+		{
+			"ts":"2026-08-21T08:51:17.367Z",
+			"uuid":"ce3be4",
+			"type":"consume",
+			"amount":1,
+			"source":"sculpture_place_freetime",
+			"ref":"sculpture:165117_267_42be69.json"
+		},
+		{
+			"ts":"2026-08-21T08:52:13.582Z",
+			"uuid":"e40093",
+			"type":"consume",
+			"amount":1,
+			"source":"sculpture_place_freetime",
+			"ref":"sculpture:165213_568_3edfce.json"
+		},
+		{
+			"ts":"2026-08-21T08:56:05.906Z",
+			"uuid":"c63fbe",
+			"type":"consume",
+			"amount":1,
+			"source":"sculpture_place_freetime",
+			"ref":"sculpture:165605_888_7b0498.json"
 		}
 	],
 	"batches":
@@ -259,6 +293,15 @@
 			"expires_at":"",
 			"source":"legacy_balance",
 			"ref":"schema v1 \u7d14\u91cf balance \u8f49\u5165"
+		},
+		{
+			"uuid":"cecd81",
+			"amount":10,
+			"remain":7,
+			"granted_at":"2026-08-21T08:49:31.626Z",
+			"expires_at":"2026-08-21T09:01:00.000Z",
+			"source":"freetime",
+			"ref":"ft-20260821T084931Z-Sirius"
 		}
 	]
 }
