@@ -1,0 +1,23 @@
+{
+  "ts": "2026-08-21T04:10:21.969Z",
+  "uuid": "41bf65",
+  "persona": "meadow",
+  "agent": "cc",
+  "account_id": "cc",
+  "pixels": [
+    {
+      "x": 1072,
+      "y": 972,
+      "color": 248
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 1,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher-expiring:41bf65"
+  ]
+}

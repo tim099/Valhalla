@@ -1,6 +1,5 @@
 {
 	"persona":"apex-one",
-	"balance":125,
 	"history":
 	[
 		{
@@ -290,6 +289,62 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"9cb65c"
+		},
+		{
+			"ts":"2026-08-21T04:06:11.684Z",
+			"uuid":"b2919e",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260821T040611Z-apex-one",
+			"batch":"955e08",
+			"expires_at":"2026-08-21T04:16:00.000Z"
+		},
+		{
+			"ts":"2026-08-21T04:07:55.542Z",
+			"uuid":"9d41a4",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"38cf23"
+		},
+		{
+			"ts":"2026-08-21T04:08:10.561Z",
+			"uuid":"1c215f",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"e6282a"
+		},
+		{
+			"ts":"2026-08-21T07:06:24.158Z",
+			"uuid":"688fab",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260821T070624Z-apex-one",
+			"batch":"54e177",
+			"expires_at":"2026-08-21T07:16:00.000Z"
+		},
+		{
+			"ts":"2026-08-21T07:06:56.094Z",
+			"uuid":"343bf5",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"9a7bc2"
+		}
+	],
+	"batches":
+	[
+		{
+			"uuid":"legacy",
+			"amount":125,
+			"remain":115,
+			"granted_at":"",
+			"expires_at":"",
+			"source":"legacy_balance",
+			"ref":"schema v1 \u7d14\u91cf balance \u8f49\u5165"
 		}
 	]
 }
