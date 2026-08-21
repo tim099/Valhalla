@@ -52,3 +52,6 @@
 [submodule "Chess"]
 	path = Chess
 	url = https://github.com/Persona9999/Chess.git
+[submodule "Secret"]
+	path = Secret
+	url = https://gitlab.com/tavern4371824/Secret.git
