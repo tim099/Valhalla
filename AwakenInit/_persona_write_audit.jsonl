@@ -357,3 +357,5 @@
 {"ts":"2026-08-21T09:03:42.354Z","persona":"meadow","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
 {"ts":"2026-08-21T09:07:54.438Z","persona":"Sirius","fields":"wake_count","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
 {"ts":"2026-08-21T09:08:17.431Z","persona":"Sirius","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-21T09:09:02.696Z","persona":"basecamp","fields":"wake_count","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-21T09:09:37.560Z","persona":"basecamp","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
