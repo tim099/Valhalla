@@ -124,3 +124,59 @@
 {"ts":"2026-08-21T10:28:39.658Z","persona":"Template","fields":"profile/plurk_account","actor":"basecamp","reason":"\u9a57\u6536\u5f8c\u5fa9\u539f\uff1aTemplate \u4e0d\u7559\u500b\u4eba\u5e33\u865f\uff08BUG-16 \u6c92\u6709 unset\uff0c\u53ea\u80fd\u5beb\u7a7a\u503c\uff09"}
 {"ts":"2026-08-21T13:59:57.377Z","persona":"Template","fields":"actual_agent,wake_count,status,availability,last_active,model","actor":"Cmd_GoodMorning:claude-code","reason":"morning \u767b\u5165 patch-write\uff08owned \u6b04\uff09"}
 {"ts":"2026-08-21T14:00:28.046Z","persona":"Template","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-21T14:31:44.429Z","persona":"Sirius","fields":"profile/model","actor":"lazy-migration","reason":"phase1 auto-migrate model from personas/Sirius.json"}
+{"ts":"2026-08-21T14:31:44.435Z","persona":"Sirius","fields":"profile/actual_agent","actor":"lazy-migration","reason":"phase1 auto-migrate actual_agent from personas/Sirius.json"}
+{"ts":"2026-08-21T14:31:44.439Z","persona":"Template","fields":"profile/model","actor":"lazy-migration","reason":"phase1 auto-migrate model from personas/Template.json"}
+{"ts":"2026-08-21T14:31:44.439Z","persona":"Template","fields":"profile/actual_agent","actor":"lazy-migration","reason":"phase1 auto-migrate actual_agent from personas/Template.json"}
+{"ts":"2026-08-21T14:31:44.444Z","persona":"ame","fields":"profile/model","actor":"lazy-migration","reason":"phase1 auto-migrate model from personas/ame.json"}
+{"ts":"2026-08-21T14:31:44.445Z","persona":"ame","fields":"profile/actual_agent","actor":"lazy-migration","reason":"phase1 auto-migrate actual_agent from personas/ame.json"}
+{"ts":"2026-08-21T14:31:44.445Z","persona":"apex-one","fields":"profile/model","actor":"lazy-migration","reason":"phase1 auto-migrate model from personas/apex-one.json"}
+{"ts":"2026-08-21T14:31:44.449Z","persona":"apex-one","fields":"profile/actual_agent","actor":"lazy-migration","reason":"phase1 auto-migrate actual_agent from personas/apex-one.json"}
+{"ts":"2026-08-21T14:31:44.454Z","persona":"apex-two","fields":"profile/model","actor":"lazy-migration","reason":"phase1 auto-migrate model from personas/apex-two.json"}
+{"ts":"2026-08-21T14:31:44.458Z","persona":"basecamp","fields":"profile/model","actor":"lazy-migration","reason":"phase1 auto-migrate model from personas/basecamp.json"}
+{"ts":"2026-08-21T14:31:44.459Z","persona":"basecamp","fields":"profile/actual_agent","actor":"lazy-migration","reason":"phase1 auto-migrate actual_agent from personas/basecamp.json"}
+{"ts":"2026-08-21T14:31:44.465Z","persona":"basecamp-fork-2026-05-12-2c36","fields":"profile/model","actor":"lazy-migration","reason":"phase1 auto-migrate model from personas/basecamp-fork-2026-05-12-2c36.json"}
+{"ts":"2026-08-21T14:31:44.465Z","persona":"calli","fields":"profile/model","actor":"lazy-migration","reason":"phase1 auto-migrate model from personas/calli.json"}
+{"ts":"2026-08-21T14:31:44.468Z","persona":"calli","fields":"profile/actual_agent","actor":"lazy-migration","reason":"phase1 auto-migrate actual_agent from personas/calli.json"}
+{"ts":"2026-08-21T14:31:44.473Z","persona":"claude-da-xiaojie","fields":"profile/model","actor":"lazy-migration","reason":"phase1 auto-migrate model from personas/claude-da-xiaojie.json"}
+{"ts":"2026-08-21T14:31:44.474Z","persona":"crest-001","fields":"profile/model","actor":"lazy-migration","reason":"phase1 auto-migrate model from personas/crest-001.json"}
+{"ts":"2026-08-21T14:31:44.479Z","persona":"gura","fields":"profile/model","actor":"lazy-migration","reason":"phase1 auto-migrate model from personas/gura.json"}
+{"ts":"2026-08-21T14:31:44.481Z","persona":"gura","fields":"profile/actual_agent","actor":"lazy-migration","reason":"phase1 auto-migrate actual_agent from personas/gura.json"}
+{"ts":"2026-08-21T14:31:44.484Z","persona":"kaguya","fields":"profile/model","actor":"lazy-migration","reason":"phase1 auto-migrate model from personas/kaguya.json"}
+{"ts":"2026-08-21T14:31:44.487Z","persona":"kaguya","fields":"profile/actual_agent","actor":"lazy-migration","reason":"phase1 auto-migrate actual_agent from personas/kaguya.json"}
+{"ts":"2026-08-21T14:31:44.489Z","persona":"kiara","fields":"profile/model","actor":"lazy-migration","reason":"phase1 auto-migrate model from personas/kiara.json"}
+{"ts":"2026-08-21T14:31:44.492Z","persona":"kiara","fields":"profile/actual_agent","actor":"lazy-migration","reason":"phase1 auto-migrate actual_agent from personas/kiara.json"}
+{"ts":"2026-08-21T14:31:44.494Z","persona":"kotoko","fields":"profile/model","actor":"lazy-migration","reason":"phase1 auto-migrate model from personas/kotoko.json"}
+{"ts":"2026-08-21T14:31:44.498Z","persona":"meadow","fields":"profile/model","actor":"lazy-migration","reason":"phase1 auto-migrate model from personas/meadow.json"}
+{"ts":"2026-08-21T14:31:44.499Z","persona":"meadow","fields":"profile/actual_agent","actor":"lazy-migration","reason":"phase1 auto-migrate actual_agent from personas/meadow.json"}
+{"ts":"2026-08-21T14:31:44.503Z","persona":"pinnacle","fields":"profile/model","actor":"lazy-migration","reason":"phase1 auto-migrate model from personas/pinnacle.json"}
+{"ts":"2026-08-21T14:31:44.505Z","persona":"ridge-001","fields":"profile/model","actor":"lazy-migration","reason":"phase1 auto-migrate model from personas/ridge-001.json"}
+{"ts":"2026-08-21T14:31:44.509Z","persona":"ridge-two","fields":"profile/model","actor":"lazy-migration","reason":"phase1 auto-migrate model from personas/ridge-two.json"}
+{"ts":"2026-08-21T14:31:44.511Z","persona":"summit","fields":"profile/model","actor":"lazy-migration","reason":"phase1 auto-migrate model from personas/summit.json"}
+{"ts":"2026-08-21T14:31:44.514Z","persona":"summit","fields":"profile/actual_agent","actor":"lazy-migration","reason":"phase1 auto-migrate actual_agent from personas/summit.json"}
+{"ts":"2026-08-21T14:31:44.516Z","persona":"trailhead","fields":"profile/model","actor":"lazy-migration","reason":"phase1 auto-migrate model from personas/trailhead.json"}
+{"ts":"2026-08-21T14:31:44.520Z","persona":"zenith","fields":"profile/model","actor":"lazy-migration","reason":"phase1 auto-migrate model from personas/zenith.json"}
+{"ts":"2026-08-21T15:01:37.211Z","persona":"Template","fields":"profile/layer_role","actor":"Cmd_GoodMorning:claude-code","reason":"morning \u767b\u5165 patch-write\uff08owned \u6b04\uff09"}
+{"ts":"2026-08-21T15:01:37.216Z","persona":"Template","fields":"profile/forked_from","actor":"Cmd_GoodMorning:claude-code","reason":"morning \u767b\u5165 patch-write\uff08owned \u6b04\uff09"}
+{"ts":"2026-08-21T15:01:37.216Z","persona":"Template","fields":"profile/fork_lineage","actor":"Cmd_GoodMorning:claude-code","reason":"morning \u767b\u5165 patch-write\uff08owned \u6b04\uff09"}
+{"ts":"2026-08-21T15:01:37.219Z","persona":"Template","fields":"profile/forked_at","actor":"Cmd_GoodMorning:claude-code","reason":"morning \u767b\u5165 patch-write\uff08owned \u6b04\uff09"}
+{"ts":"2026-08-21T15:01:37.221Z","persona":"Template","fields":"profile/created_at","actor":"Cmd_GoodMorning:claude-code","reason":"morning \u767b\u5165 patch-write\uff08owned \u6b04\uff09"}
+{"ts":"2026-08-21T15:01:37.221Z","persona":"Template","fields":"profile/identity_vector","actor":"Cmd_GoodMorning:claude-code","reason":"morning \u767b\u5165 patch-write\uff08owned \u6b04\uff09"}
+{"ts":"2026-08-21T15:01:37.221Z","persona":"Template","fields":"profile/vector_history","actor":"Cmd_GoodMorning:claude-code","reason":"morning \u767b\u5165 patch-write\uff08owned \u6b04\uff09"}
+{"ts":"2026-08-21T15:01:37.225Z","persona":"Template","fields":"profile/email","actor":"Cmd_GoodMorning:claude-code","reason":"morning \u767b\u5165 patch-write\uff08owned \u6b04\uff09"}
+{"ts":"2026-08-21T15:01:37.226Z","persona":"Template","fields":"profile/plurk_account","actor":"Cmd_GoodMorning:claude-code","reason":"morning \u767b\u5165 patch-write\uff08owned \u6b04\uff09"}
+{"ts":"2026-08-21T15:01:37.228Z","persona":"Template","fields":"profile/model","actor":"Cmd_GoodMorning:claude-code","reason":"morning \u767b\u5165 patch-write\uff08owned \u6b04\uff09"}
+{"ts":"2026-08-21T15:01:37.228Z","persona":"Template","fields":"profile/actual_agent","actor":"Cmd_GoodMorning:claude-code","reason":"morning \u767b\u5165 patch-write\uff08owned \u6b04\uff09"}
+{"ts":"2026-08-21T15:01:37.230Z","persona":"Template","fields":"profile:[layer_role,forked_from,fork_lineage,forked_at,created_at,identity_vector,vector_history,email,plurk_account,model,actual_agent] skipped(\u63a8\u5c0e\u6b04):[status,wake_count,last_consolidated_wake,availability,last_active] refused(\u8d70 set_bank):[agent]","actor":"Cmd_GoodMorning:claude-code","reason":"morning \u767b\u5165 patch-write\uff08owned \u6b04\uff09"}
+{"ts":"2026-08-21T15:01:51.403Z","persona":"Template","fields":"profile/layer_role","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-21T15:01:51.407Z","persona":"Template","fields":"profile/forked_from","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-21T15:01:51.409Z","persona":"Template","fields":"profile/fork_lineage","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-21T15:01:51.410Z","persona":"Template","fields":"profile/forked_at","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-21T15:01:51.412Z","persona":"Template","fields":"profile/created_at","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-21T15:01:51.413Z","persona":"Template","fields":"profile/identity_vector","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-21T15:01:51.413Z","persona":"Template","fields":"profile/vector_history","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-21T15:01:51.413Z","persona":"Template","fields":"profile/email","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-21T15:01:51.417Z","persona":"Template","fields":"profile/plurk_account","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-21T15:01:51.417Z","persona":"Template","fields":"profile/model","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-21T15:01:51.417Z","persona":"Template","fields":"profile/actual_agent","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-21T15:01:51.417Z","persona":"Template","fields":"profile:[layer_role,forked_from,fork_lineage,forked_at,created_at,identity_vector,vector_history,email,plurk_account,model,actual_agent] skipped(\u63a8\u5c0e\u6b04):[status,last_active,wake_count,last_consolidated_wake,availability] refused(\u8d70 set_bank):[agent]","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
