@@ -2,9 +2,9 @@
 	"agent":"Altair",
 	"model":"Gemini 3.7 Flash",
 	"layer_role":"Altair \u9ad8\u8ecc\u9802\u9ede\u57fa\u790e\u4eba\u683c (2026-07-28 \u81ea antigravity \u9077\u79fb)",
-	"wake_count":27,
-	"status":"offline",
-	"last_active":"2026-08-17T10:01:46.183Z",
+	"wake_count":28,
+	"status":"online",
+	"last_active":"2026-08-21T00:25:52.116Z",
 	"identity_vector":
 	[
 		-0.6505,
@@ -236,8 +236,8 @@
 	[
 		"unknown-f0b8bb67-14068-apex-two"
 	],
-	"availability":"offline",
-	"last_consolidated_wake":18,
-	"last_consolidated_at":"2026-07-31T00:57:17.491Z",
+	"availability":"idle",
+	"last_consolidated_wake":25,
+	"last_consolidated_at":"2026-07-25T13:20:44.393Z",
 	"actual_agent":"Antigravity"
 }
