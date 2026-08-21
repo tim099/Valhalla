@@ -160,14 +160,12 @@ AWAKENING_PATH: Path = UCL_AGENTCMD_DIR / "awakening.py"
 CANVAS_PATH: Path = UCL_AGENTCMD_DIR / "canvas.py"
 BUILTIN_MODULES_DIR: Path = find_builtin_modules_dir()
 
-# 區塊職責：persona registry 目錄（awakening 的 `AwakenInit/personas/<persona>.json`）。
-# 物理意義：解析本身不在這裡做 —— 委派鏡像 _lib/ucl_paths.personas_dir()（canonical 在
-#          UCL_Core，對側 = C# ResolvePersonaFile）。本常數只是給 AgentCommands/Tools 那棵樹
-#          一個跟其他路徑同形的引用點，不是第二套解析器。
-# 數值影響：2026-08-17 血證 —— Tools 端 2e01bb6「委派 tavern_paths」委派給了一個從未存在的
-#          `tavern_paths.PERSONAS_DIR`，tavern_catchup.py 直接 AttributeError 開不了機
-#          （import 期就炸，不是靜默降級）。缺的不是解析邏輯，是這一行。
-PERSONAS_DIR: Path = _ucl_paths.personas_dir()
+# ⛔ `PERSONAS_DIR` 已退場（2026-08-21）：persona 資料整合到 letters/<persona>/，
+#    中央 `AwakenInit/personas/` 不存在了（`_lib/ucl_paths.personas_dir()` 現在會 raise）。
+#    要 persona 名單走 `awakening.list_persona_names()`；要欄位走 `_lib/persona_profile` 接縫。
+#    📌 留這段註解而不是留一個空常數：2026-08-17 的血證是「委派給一個從未存在的常數」
+#      （import 期 AttributeError），而現在的風險反過來 —— 留一個指向不存在目錄的常數
+#      會讓消費端拿到「空目錄」而不是錯誤，那是靜默的。
 
 
 # ---------------------------------------------------------------------------
