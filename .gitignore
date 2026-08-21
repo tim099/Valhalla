@@ -125,5 +125,10 @@ PromptQueue/_smoke_test_webhook.txt
 
 /_cmd_results
 /_cmd_payloads
+# 失敗記錄與錯誤報告：跟 _cmd_results 同族（每跑一次一份、重跑即重生），
+# 而它們原本沒被 ignore ⇒ 會以 untracked 混進 `git status`，並落進 AutoCommit 的 __other。
+# 🩸 2026-08-21 basecamp：今天三次 Cmd blocked／失敗就長出 9 個檔在那裡等人分類。
+/_cmd_failed
+/_cmd_errors
 
 _last_cmd_error.md
