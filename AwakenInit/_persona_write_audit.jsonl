@@ -344,3 +344,10 @@
 {"ts":"2026-08-21T06:03:59.036Z","persona":"summit","fields":"plurk_account","actor":"summit","reason":"round-trip \u6536\u5c3e\uff1a\u6e05\u9664\u9a57\u8b49\u7528\u7684\u63a2\u91dd\u503c"}
 {"ts":"2026-08-21T07:30:51.288Z","persona":"calli","fields":"wake_count","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
 {"ts":"2026-08-21T07:32:39.886Z","persona":"summit","fields":"wake_count","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-21T07:33:19.523Z","persona":"summit","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-21T07:34:54.285Z","persona":"calli","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-21T07:50:19.641Z","persona":"summit","fields":"plurk_account","actor":"UCL_PlurkAdminPage","reason":"\u8a2d\u5b9a\u500b\u4eba Plurk \u5e33\u865f\uff1dplurk_summit"}
+{"ts":"2026-08-21T07:57:22.724Z","persona":"basecamp","fields":"plurk_account","actor":"UCL_PlurkAdminPage","reason":"\u8a2d\u5b9a\u500b\u4eba Plurk \u5e33\u865f\uff1dplurk_basecamp"}
+{"ts":"2026-08-21T08:04:09.051Z","persona":"Template","fields":"wake_count","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-21T08:04:26.723Z","persona":"Template","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-21T08:05:03.016Z","persona":"Template","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
