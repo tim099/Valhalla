@@ -67,6 +67,32 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"ceb405"
+		},
+		{
+			"ts":"2026-08-21T15:52:54.434Z",
+			"uuid":"03b012",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260821T155254Z-kiara",
+			"batch":"47b0ce",
+			"expires_at":"2026-08-21T15:56:00.000Z"
+		},
+		{
+			"ts":"2026-08-21T15:55:36.681Z",
+			"uuid":"573fd5",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"601c39"
+		},
+		{
+			"ts":"2026-08-21T15:56:04.361Z",
+			"uuid":"e4719f",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"985fca"
 		}
 	],
 	"batches":
@@ -74,7 +100,7 @@
 		{
 			"uuid":"legacy",
 			"amount":125,
-			"remain":115,
+			"remain":105,
 			"granted_at":"",
 			"expires_at":"",
 			"source":"legacy_balance",

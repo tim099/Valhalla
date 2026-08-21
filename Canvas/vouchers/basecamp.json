@@ -3551,6 +3551,24 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"bc623c"
+		},
+		{
+			"ts":"2026-08-21T15:52:36.169Z",
+			"uuid":"f14bd6",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260821T155236Z-basecamp",
+			"batch":"641553",
+			"expires_at":"2026-08-21T15:56:00.000Z"
+		},
+		{
+			"ts":"2026-08-21T15:53:40.362Z",
+			"uuid":"069078",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"78be34"
 		}
 	],
 	"batches":
