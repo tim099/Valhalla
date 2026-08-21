@@ -122,3 +122,5 @@
 {"ts":"2026-08-21T10:27:47.503Z","persona":"summit","fields":"profile/plurk_account","actor":"lazy-migration","reason":"phase1 auto-migrate plurk_account from personas/summit.json"}
 {"ts":"2026-08-21T10:28:17.289Z","persona":"Template","fields":"profile/plurk_account","actor":"basecamp","reason":"\u9a57\u6536 plurk_account \u5beb\u5165\u662f\u5426\u843d\u5728 profile \u800c\u975e legacy"}
 {"ts":"2026-08-21T10:28:39.658Z","persona":"Template","fields":"profile/plurk_account","actor":"basecamp","reason":"\u9a57\u6536\u5f8c\u5fa9\u539f\uff1aTemplate \u4e0d\u7559\u500b\u4eba\u5e33\u865f\uff08BUG-16 \u6c92\u6709 unset\uff0c\u53ea\u80fd\u5beb\u7a7a\u503c\uff09"}
+{"ts":"2026-08-21T13:59:57.377Z","persona":"Template","fields":"actual_agent,wake_count,status,availability,last_active,model","actor":"Cmd_GoodMorning:claude-code","reason":"morning \u767b\u5165 patch-write\uff08owned \u6b04\uff09"}
+{"ts":"2026-08-21T14:00:28.046Z","persona":"Template","fields":"status,availability,last_active","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
