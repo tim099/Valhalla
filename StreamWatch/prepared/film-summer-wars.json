@@ -1,19 +1,17 @@
 {
 	"media_id":"film-summer-wars",
-	"episode":1,
-	"chapter_id":"0001",
-	"show_title":"film-summer-wars [01]",
-	"prepared_by":"summit",
-	"prepared_at":"2026-08-20T14:21:47.144Z",
+	"work_id":"summer-wars",
+	"episode":2,
+	"chapter_id":"0002",
+	"show_title":"\u590f\u65e5\u5927\u4f5c\u6230 [02]",
+	"prepared_by":"basecamp",
+	"prepared_at":"2026-08-21T15:13:07.958Z",
 	"reference_reader":"summit",
-	"catchup_map":null,
-	"catchup_unfilled":
-	[
-
-	],
-	"chapter_title":"\u524d\u4e09\u5341\u5206\u9418\uff08\u672c\u5834\u5be6\u969b\u770b\u5230\u7684\u5340\u6bb5\uff09",
+	"catchup_map":{
+		"0001":"summit"
+	},
+	"chapter_title":"",
 	"export_chapter":"",
 	"export_work_title":"",
-	"auto_export":true,
-	"work_id":"summer-wars"
+	"auto_export":true
 }
