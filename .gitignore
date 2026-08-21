@@ -109,6 +109,11 @@ _last_cmd_error.md
 # per-cmd 執行 verdict（Editor 出隊前寫、run_cmd wait 讀；3 天自動清 —— 純 handshake 檔）
 _cmd_results/
 
+# cmd 失敗的可補跑紀錄（UCL_AgentCommandsPage 的「❌ 失敗紀錄」面板；Tim 2026-08-21）
+# per-machine 的**待處理清單** —— 誰的 Editor 上失敗就該由那台補跑，入版控會讓別人的 queue
+# 出現一堆自己補不了的單（且補跑會重放副作用）。同 _cmd_errors / _cmd_results 的判準。
+_cmd_failed/
+
 # 工作記憶共讀 briefing（每次 work_memory.py read 重新生成的機械產物）
 # 一次 read 一個檔、檔名帶時間戳 → 入版控只會無上限累積，且內容全是 fragment 的複本
 # （事實來源是 WorkMemory/<topic>/ 的 fragment 本體）。比照 letters 的 _wake_brief / _ding_brief：
