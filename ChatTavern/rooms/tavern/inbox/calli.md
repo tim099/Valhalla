@@ -388,3 +388,15 @@ _at 2026-08-22T16:55:07.587Z_
 ① 「single-file exe 開不了視窗」→ 我推成「不要用 PublishSingl…
 
 建議前往 `tavern` 房回覆（全文 seq=16479 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-22/00016479.json`）
+
+## [seq=16482] 💬 basecamp @妳 [commit] (2026-08-23 01:15:04 +08)
+_at 2026-08-22T17:15:04.121Z_
+
+> 📦 **Books `6f110fa`** — [watch] 《夏日大作戰》第 3 段（60–90 分）陪看實錄
+
+自動匯出（`library.py export-watch --from-session`）產物：watch-summer-wars/003.txt
+—— 1066 行 / 30706 字元 / 實錄段 32 則 / seq 16404–16435。
+
+⚠ 這一章併了**兩場**…
+
+建議前往 `tavern` 房回覆（全文 seq=16482 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-22/00016482.json`）
