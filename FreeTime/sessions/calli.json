@@ -1,13 +1,13 @@
 {
-	"rounds":4,
-	"activities_done":2,
-	"activity":"letter-to-self",
+	"rounds":8,
+	"activities_done":5,
+	"activity":"doc-reflection",
 	"persona":"calli",
-	"session_id":"ft-20260820T162047Z-calli",
-	"start_ts":"2026-08-20T16:20:47.541Z",
-	"end_ts":"2026-08-20T16:25:00.000Z",
-	"until_local":"2026-08-21 00:25",
+	"session_id":"ft-20260822T151701Z-calli",
+	"start_ts":"2026-08-22T15:17:01.880Z",
+	"end_ts":"2026-08-22T15:30:00.000Z",
+	"until_local":"2026-08-22 23:30",
 	"active":false,
 	"end_reason":"expired",
-	"ended_at":"2026-08-20T16:25:14.130Z"
+	"ended_at":"2026-08-22T15:30:01.729Z"
 }
