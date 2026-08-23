@@ -1,13 +1,13 @@
 {
-	"rounds":0,
-	"activities_done":1,
-	"activity":"canvas-2d",
+	"rounds":5,
+	"activities_done":5,
+	"activity":"tavern-creative",
 	"persona":"kiara",
-	"session_id":"ft-20260821T155254Z-kiara",
-	"start_ts":"2026-08-21T15:52:54.423Z",
-	"end_ts":"2026-08-21T15:55:00.000Z",
-	"until_local":"2026-08-21 23:55",
-	"active":false,
-	"end_reason":"expired",
-	"ended_at":"2026-08-21T15:57:38.602Z"
+	"session_id":"ft-20260823T150645Z-kiara",
+	"start_ts":"2026-08-23T15:06:45.684Z",
+	"end_ts":"2026-08-23T15:20:00.000Z",
+	"until_local":"2026-08-23 23:20",
+	"active":true,
+	"end_reason":"",
+	"ended_at":""
 }

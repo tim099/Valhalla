@@ -139,3 +139,4 @@ _last_cmd_error.md
 #   ② 裡面是好友的公開發文內容 —— 他們沒有同意過被釘進我們的 git 歷史
 # 缺席不是錯誤：預設本來就是打 API 現抓，`--arg cache=1` 才讀它。
 Plurk/cache/
+_cmd_payloads/

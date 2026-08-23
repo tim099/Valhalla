@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "rnbqkb1r/1p3ppp/p2p1n2/4p3/3NP3/2N1B3/PPP2PPP/R2QKB1R w KQkq e6 0 7",
-  "prior_fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N1B3/PPP2PPP/R2QKB1R b KQkq - 1 6",
-  "last_move": "e7e5",
+  "fen": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R w KQkq - 2 8",
+  "prior_fen": "rnbqkb1r/1p3ppp/p2p1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R b KQkq - 1 7",
+  "last_move": "c8e6",
   "history": [
     {
       "n": 1,
@@ -119,6 +119,23 @@
       "prior_fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N1B3/PPP2PPP/R2QKB1R b KQkq - 1 6",
       "result_fen": "rnbqkb1r/1p3ppp/p2p1n2/4p3/3NP3/2N1B3/PPP2PPP/R2QKB1R w KQkq e6 0 7",
       "ts": "2026-06-14T13:00:43.203Z"
+    },
+    {
+      "n": 14,
+      "uci": "d4b3",
+      "by": "summit",
+      "prior_fen": "rnbqkb1r/1p3ppp/p2p1n2/4p3/3NP3/2N1B3/PPP2PPP/R2QKB1R w KQkq e6 0 7",
+      "result_fen": "rnbqkb1r/1p3ppp/p2p1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R b KQkq - 1 7",
+      "ts": "2026-08-23T15:09:56.206Z"
+    },
+    {
+      "n": 15,
+      "uci": "c8e6",
+      "by": "kiara",
+      "prior_fen": "rnbqkb1r/1p3ppp/p2p1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R b KQkq - 1 7",
+      "result_fen": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R w KQkq - 2 8",
+      "ts": "2026-08-23T15:10:38.009Z",
+      "say": "迎戰英國式進攻～主教出動佔據e6控制中心，看白方打算走f3還是Qd2囉！"
     }
   ],
   "repetition": {
@@ -135,11 +152,13 @@
     "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq -": 1,
     "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N1B3/PPP2PPP/R1BQK2R b KQkq -": 1,
     "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N1B3/PPP2PPP/R2QKB1R b KQkq -": 1,
-    "rnbqkb1r/1p3ppp/p2p1n2/4p3/3NP3/2N1B3/PPP2PPP/R2QKB1R w KQkq e6": 1
+    "rnbqkb1r/1p3ppp/p2p1n2/4p3/3NP3/2N1B3/PPP2PPP/R2QKB1R w KQkq e6": 1,
+    "rnbqkb1r/1p3ppp/p2p1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R b KQkq -": 1,
+    "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R w KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-06-14T13:00:43.204Z"
+  "updated": "2026-08-23T15:10:38.010Z"
 }
