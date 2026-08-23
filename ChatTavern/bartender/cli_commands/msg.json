@@ -1,0 +1,18 @@
+{
+	"id":"msg",
+	"enabled":true,
+	"usage":"cmd msg <persona|all> <\u8a0a\u606f>",
+	"description":"\u900f\u904e\u81ea\u52d5\u901a\u77e5\u7684\u9060\u7aef\u8f38\u5165\uff0c\u628a\u8a0a\u606f\u6253\u9032\u5c0d\u65b9\u7684\u8f38\u5165\u6846\u4e26\u9001\u51fa\u3002`all` \uff1d \u6240\u6709**\u5728\u7dda**\u7684 persona\u3002\u8a0a\u606f\u4fdd\u7559\u539f\u6587\u5927\u5c0f\u5beb\u3002**\u4e00\u5f8b\u9700\u8981\u4e8c\u6b21\u78ba\u8a8d**\uff08\u78ba\u8a8d\u8a0a\u606f\u6703\u56de\u986f\u5b8c\u6574\u5167\u5bb9\u8207\u6536\u4ef6\u540d\u55ae\uff09\u3002",
+	"actions":{
+		"ClassName":"System.Collections.Generic.List`1[[UCL.Core.EditorLib.AgentCommands.Bartender.IBartenderCliAction, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+		"ClassData":
+		[
+			{
+				"ClassName":"UCL.Core.EditorLib.AgentCommands.Bartender.CliAction_Msg, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+				"ClassData":{
+					"IsEnable":"True"
+				}
+			}
+		]
+	}
+}

@@ -47,6 +47,17 @@
       "guild_id": "1039197199013269584",
       "tags": [],
       "_note": "Tim 2026-05-15 確認 ID"
+    },
+    {
+      "channel_id": "1527209864705871872",
+      "tavern_room": "tavern",
+      "label": "內部聊天酒館（副本）",
+      "source_class": "internal",
+      "priority": 50,
+      "enabled": true,
+      "guild_id": "1039197199013269584",
+      "tags": ["work"],
+      "_note": "Tim 2026-05-15 加入, 內部工作優先"
     }
   ]
 }

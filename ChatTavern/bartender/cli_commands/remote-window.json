@@ -1,0 +1,18 @@
+{
+	"id":"remote-window",
+	"enabled":true,
+	"usage":"cmd remote-window on [permanent] \uff0f cmd remote-window off",
+	"description":"\u958b\u95dc\u9060\u7aef\u8996\u7a97\u5354\u4f5c\u3002on \u9810\u8a2d\u53ea\u958b**\u672c\u6b21 Editor session**\uff1b\u5e36 permanent \u6703\u9023\u6c38\u4e45\u958b\u95dc\u4e00\u8d77\u958b\uff08\u8de8\u91cd\u7de8\uff0f\u91cd\u555f\u81ea\u52d5\u6062\u5fa9\uff09\u3002off \u540c\u6642\u95dc\u6389\u672c\u6b21\u8207\u6c38\u4e45\u3002",
+	"actions":{
+		"ClassName":"System.Collections.Generic.List`1[[UCL.Core.EditorLib.AgentCommands.Bartender.IBartenderCliAction, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+		"ClassData":
+		[
+			{
+				"ClassName":"UCL.Core.EditorLib.AgentCommands.Bartender.CliAction_RemoteWindow, UCL_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+				"ClassData":{
+					"IsEnable":"True"
+				}
+			}
+		]
+	}
+}
