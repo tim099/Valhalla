@@ -132,3 +132,10 @@ PromptQueue/_smoke_test_webhook.txt
 /_cmd_errors
 
 _last_cmd_error.md
+
+# Plurk 唯讀快取（timeline / responses / friends）—— per-machine 快照，且內容是**別人的**發文。
+# 不入 git 的兩個理由：
+#   ① 它是某一刻的快照，入版控會讓「現況」與「三小時前」在 diff 裡同形
+#   ② 裡面是好友的公開發文內容 —— 他們沒有同意過被釘進我們的 git 歷史
+# 缺席不是錯誤：預設本來就是打 API 現抓，`--arg cache=1` 才讀它。
+Plurk/cache/
