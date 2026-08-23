@@ -1,6 +1,5 @@
 {
 	"persona":"Sirius",
-	"balance":100,
 	"history":
 	[
 		{
@@ -10,6 +9,36 @@
 			"amount":100,
 			"source":"admin_grant",
 			"ref":"\u5f8c\u53f0\u767c\u5238\uff08BankAdminPage\uff09"
+		},
+		{
+			"ts":"2026-08-23T15:06:47.649Z",
+			"uuid":"e7b1f5",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260823T150647Z-Sirius",
+			"batch":"a6ebd3",
+			"expires_at":"2026-08-23T15:21:00.000Z"
+		},
+		{
+			"ts":"2026-08-23T15:09:29.014Z",
+			"uuid":"bfc019",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"9bffae"
+		}
+	],
+	"batches":
+	[
+		{
+			"uuid":"legacy",
+			"amount":100,
+			"remain":100,
+			"granted_at":"",
+			"expires_at":"",
+			"source":"legacy_balance",
+			"ref":"schema v1 \u7d14\u91cf balance \u8f49\u5165"
 		}
 	]
 }
