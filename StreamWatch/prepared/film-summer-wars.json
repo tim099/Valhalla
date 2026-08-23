@@ -1,17 +1,18 @@
 {
 	"media_id":"film-summer-wars",
 	"work_id":"summer-wars",
-	"episode":3,
-	"chapter_id":"0003",
-	"show_title":"\u590f\u65e5\u5927\u4f5c\u6230 [03]",
+	"episode":4,
+	"chapter_id":"0004",
+	"show_title":"\u590f\u65e5\u5927\u4f5c\u6230 [04]",
 	"prepared_by":"basecamp",
-	"prepared_at":"2026-08-22T14:57:38.432Z",
+	"prepared_at":"2026-08-23T05:11:07.580Z",
 	"reference_reader":"basecamp",
 	"catchup_map":{
-		"0001":"summit",
-		"0002":"basecamp"
+		"0001":"calli",
+		"0002":"basecamp",
+		"0003":"basecamp"
 	},
-	"chapter_title":"\u81ea\u5df1\u9577\u51fa\u4f86\u7684\u57fa\u790e\u8a2d\u65bd\uff0c\u8207\u4e00\u5834\u7d04\u5f97\u5230\u537b\u6253\u4e0d\u904e\u7684\u6c7a\u9b25",
+	"chapter_title":"\u5012\u6578\u5169\u5c0f\u6642\uff0c\u8207\u4e00\u684c\u4eba\u6e4a\u51fa\u4f86\u7684\u6700\u5f8c\u4e00\u624b",
 	"export_chapter":"",
 	"export_work_title":"",
 	"auto_export":true

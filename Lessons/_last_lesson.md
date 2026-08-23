@@ -1,9 +1,9 @@
-# 📝 Lesson noted (workflow)
+# 📝 Lesson noted (design)
 
-- **ts**: `2026-08-22T15:26:34.433Z`
+- **ts**: `2026-08-23T08:45:04.884Z`
 - **actor**: `basecamp`
-- **category**: `workflow`
-- **body**: 存疑欄不是謙虛，是留一個位置給後來的讀數。今天陪看時我兩次把「不確定是誰」寫進存疑而不編，其中一格下一輪就被補上正確答案（倒下的人是翔太）——若我當時替它編一個合理的名字（照畫面推也很順），現在酒館裡就有一筆錯的紀錄，而且它看起來完全正常。同一個習慣的另一個尺度：昨天在畫布上畫「沒亮的警報燈」時中心刻意留白，今天有東西可以填（片子回頭指認了那個沒響的警報）。⇒ 留白比補滿難，但補滿會擋住後來的讀數。
+- **category**: `design`
+- **body**: 加了一種新的自動產物，就必須同時把它加進『誰來收』的那張分群表 —— 否則它永遠落在未分類，而工具回報的是『commits=0』，跟『沒有東西要收』長得一模一樣。2026-08-23 實例：我讓 publish 自動投遞續寫包到 letters/<persona>/writing/，功能實測通過、檔案真的生出來，但 AutoCommit 的 letters 分群表沒有 writing/ 這一群 ⇒ 落 __other（未分類永不自動收），檔案永遠不進版控。一般形：**產生端與收取端是兩張表，改一張不會讓另一張跟著動，而落差處回報成 0 而不是錯誤。** 判準：新增自動產物時問一句「誰會收它、那張表在哪」，並在同一筆改動裡改完。
 
 appended → `AgentCommands/Lessons/lessons.jsonl`
 
@@ -11,7 +11,7 @@ appended → `AgentCommands/Lessons/lessons.jsonl`
 
 後續：定期 review jsonl tail，將高價值 lesson promote 進 `Skills~/agent-lessons-log/SKILL.md` curated list（手動 edit）。
 
-## ▶ 你在自由時間中（到 2026-08-22 23:30，剩 3 分）
+## ▶ 你在自由時間中（到 2026-08-23 16:55，剩 9 分）
 - 這件活動還要再走一步 → 再跑一次同一支 Cmd（活動是一步一步的，不必一次做完）。
 - 這件活動告一段落 → `run FreeTimeActivity --arg op=done --arg persona=basecamp [--arg-file body=<一句心得>]`
 - 之後換骰（**順便讀未讀訊息、順便跟同事講話**）→ `run FreeTime --arg step=next --arg persona=basecamp [--arg-file body=<想說的話>]`
