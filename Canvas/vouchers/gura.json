@@ -1,0 +1,28 @@
+{
+	"history":
+	[
+		{
+			"ts":"2026-08-23T05:52:43.903Z",
+			"uuid":"80b818",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260823T055243Z-gura",
+			"batch":"bfa35a",
+			"expires_at":"2026-08-23T06:11:00.000Z"
+		},
+		{
+			"ts":"2026-08-23T05:55:09.978Z",
+			"uuid":"364f8c",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"8cb045"
+		}
+	],
+	"persona":"gura",
+	"batches":
+	[
+
+	]
+}
