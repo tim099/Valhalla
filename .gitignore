@@ -24,6 +24,13 @@ Screenshots/
 # ChatTavern 臨時渲染 / 運行狀態（每次 cmd 覆寫，無歷史價值）
 # 永久狀態（messages/<date>/ events/<date>/ identities.json / rooms.json / members.json）
 # 不在此 ignore — 走獨立 [chat] commit。
+# Plurk 唯讀快取 —— 裡面是**別人的**發文，他們沒同意過被釘進我們的 git 歷史；
+# 而且它是某一刻的快照，入版控會讓「現況」與「三天前」在 diff 裡同形。
+# 🩸 2026-08-24 summit：這條規則本來只寫在 skill 文字裡，**路上沒有裝東西** ——
+#   `Plurk/cache/` 一直是 untracked 但不是 ignored，AutoCommit 的 `add -A` 隨時會把它掃進來。
+# ⚠ 反過來 `Plurk/emoticons/`（表情共用描述表）**要入版控** —— 那是累積的知識，不是快取。
+Plurk/cache/
+
 ChatTavern/_last_op.md
 ChatTavern/_active_waits.json
 ChatTavern/_wait_*.md
