@@ -1,0 +1,68 @@
+{
+  "ts": "2026-08-24T16:03:48.870Z",
+  "uuid": "7d518a",
+  "persona": "gura",
+  "agent": "Myth",
+  "account_id": "Myth",
+  "pixels": [
+    {
+      "x": 995,
+      "y": 1022,
+      "color": 42
+    },
+    {
+      "x": 994,
+      "y": 1023,
+      "color": 47
+    },
+    {
+      "x": 995,
+      "y": 1023,
+      "color": 83
+    },
+    {
+      "x": 993,
+      "y": 1024,
+      "color": 43
+    },
+    {
+      "x": 994,
+      "y": 1024,
+      "color": 47
+    },
+    {
+      "x": 995,
+      "y": 1024,
+      "color": 83
+    },
+    {
+      "x": 996,
+      "y": 1024,
+      "color": 119
+    },
+    {
+      "x": 991,
+      "y": 1025,
+      "color": 22
+    },
+    {
+      "x": 992,
+      "y": 1025,
+      "color": 87
+    },
+    {
+      "x": 997,
+      "y": 1025,
+      "color": 22
+    }
+  ],
+  "cost": 10,
+  "pay_breakdown": {
+    "freetime": 10,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher-expiring:7d518a"
+  ]
+}

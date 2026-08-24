@@ -36,6 +36,24 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"4fc02b"
+		},
+		{
+			"ts":"2026-08-24T16:01:30.733Z",
+			"uuid":"c4d8d1",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260824T160130Z-gura",
+			"batch":"4570f9",
+			"expires_at":"2026-08-24T16:11:00.000Z"
+		},
+		{
+			"ts":"2026-08-24T16:03:52.173Z",
+			"uuid":"fa91fa",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"7d518a"
 		}
 	],
 	"persona":"gura",
