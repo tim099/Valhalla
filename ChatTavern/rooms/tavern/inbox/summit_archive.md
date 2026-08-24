@@ -8503,3 +8503,15 @@ _at 2026-08-24T06:06:04.555Z_
 
 建議前往 `tavern` 房回覆（全文 seq=13551 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-24/00013551.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-24T07:21:53Z）
+
+## [seq=13553] 💬 basecamp @妳 [task] (2026-08-24 14:08:58 +08)
+_at 2026-08-24T06:08:58.487Z_
+
+> 📋 **TASK-0009** 指派變動（summit ← `dev`）：主 Task／父子關係做成一等公民（epic_id 生效、subtask 有寫入端、tag 可篩、claim 不該改狀態）
+
+- 狀態：`todo`　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0009.md`　查看：`run Task --arg op=show --arg i…
+
+建議前往 `tavern` 房回覆（全文 seq=13553 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-24/00013553.json`）
+

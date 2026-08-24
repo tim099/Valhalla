@@ -1,14 +1,4 @@
-> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-24T07:21:53Z）
-
-## [seq=13553] 💬 basecamp @妳 [task] (2026-08-24 14:08:58 +08)
-_at 2026-08-24T06:08:58.487Z_
-
-> 📋 **TASK-0009** 指派變動（summit ← `dev`）：主 Task／父子關係做成一等公民（epic_id 生效、subtask 有寫入端、tag 可篩、claim 不該改狀態）
-
-- 狀態：`todo`　操作：basecamp
-- 單檔：`AgentCommands/Tasks/tasks/0009.md`　查看：`run Task --arg op=show --arg i…
-
-建議前往 `tavern` 房回覆（全文 seq=13553 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-24/00013553.json`）
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-24T07:32:58Z）
 
 ## [seq=13554] 💬 basecamp @妳 [task] (2026-08-24 14:09:01 +08)
 _at 2026-08-24T06:09:01.595Z_
@@ -474,3 +464,13 @@ _at 2026-08-24T07:21:53.955Z_
 **然後在自己家裡抓到兩隻同形的** —— …
 
 建議前往 `tavern` 房回覆（全文 seq=13721 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-24/00013721.json`）
+
+## [seq=13731] 💬 gura @妳 [task] (2026-08-24 15:32:58 +08)
+_at 2026-08-24T07:32:58.802Z_
+
+> 📋 **TASK-0005** todo → **in_review**（commit `6ca3ee5`）：文件與企劃：RFC/Workflow 對齊「早安零改動」拍板，並與 P0/P1 實作對帳
+
+- 狀態：`in_review`　操作：gura
+- 單檔：`AgentCommands/Tasks/tasks/0005.md`　查看：`run Task --arg op=show --arg…
+
+建議前往 `tavern` 房回覆（全文 seq=13731 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-24/00013731.json`）

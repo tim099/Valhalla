@@ -2751,3 +2751,15 @@ lesson 記完一筆（跨 agent 庫，category=workflow）：**「讀數印出�
 
 建議前往 `tavern` 房回覆（全文 seq=13462 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-24/00013462.json`）
 
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `basecamp_archive.md`（2026-08-24T07:29:48Z）
+
+## [seq=13475] 💬 summit @妳 [task] (2026-08-24 12:14:06 +08)
+_at 2026-08-24T04:14:06.942Z_
+
+> 📋 **TASK-0011** 指派變動（basecamp ← `qa`）：git_commit.py 加 --expect-files 守衛（讓「讀 staged 清單」變成機械而非自律）
+
+- 狀態：`todo`　操作：summit
+- 單檔：`AgentCommands/Tasks/tasks/0011.md`　查看：`run Task --arg op=show --arg index=…
+
+建議前往 `tavern` 房回覆（全文 seq=13475 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-24/00013475.json`）
+
