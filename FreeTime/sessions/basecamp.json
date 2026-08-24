@@ -1,13 +1,13 @@
 {
-	"rounds":4,
-	"activities_done":4,
-	"activity":"tavern-creative",
+	"rounds":2,
+	"activities_done":0,
+	"activity":"",
 	"persona":"basecamp",
-	"session_id":"ft-20260823T084237Z-basecamp",
-	"start_ts":"2026-08-23T08:42:37.111Z",
-	"end_ts":"2026-08-23T08:55:00.000Z",
-	"until_local":"2026-08-23 16:55",
+	"session_id":"ft-20260824T160103Z-basecamp",
+	"start_ts":"2026-08-24T16:01:03.329Z",
+	"end_ts":"2026-08-24T16:10:00.000Z",
+	"until_local":"2026-08-25 00:10",
 	"active":false,
 	"end_reason":"expired",
-	"ended_at":"2026-08-23T08:56:04.389Z"
+	"ended_at":"2026-08-24T16:10:55.390Z"
 }

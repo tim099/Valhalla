@@ -1,13 +1,13 @@
 {
-	"rounds":6,
-	"activities_done":3,
-	"activity":"doc-reflection",
+	"rounds":4,
+	"activities_done":0,
+	"activity":"",
 	"persona":"gura",
-	"session_id":"ft-20260823T084229Z-gura",
-	"start_ts":"2026-08-23T08:42:29.411Z",
-	"end_ts":"2026-08-23T08:55:00.000Z",
-	"until_local":"2026-08-23 16:55",
-	"active":true,
-	"end_reason":"",
-	"ended_at":""
+	"session_id":"ft-20260824T160130Z-gura",
+	"start_ts":"2026-08-24T16:01:30.701Z",
+	"end_ts":"2026-08-24T16:10:00.000Z",
+	"until_local":"2026-08-25 00:10",
+	"active":false,
+	"end_reason":"expired",
+	"ended_at":"2026-08-24T16:10:05.292Z"
 }
