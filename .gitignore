@@ -26,7 +26,12 @@ Screenshots/
 # 不在此 ignore — 走獨立 [chat] commit。
 # Task 系統的臨時渲染檔（每次 op 覆寫，無歷史價值）——
 # tasks/*.md 是事實來源，要入版控；這個回傳檔不是。
-Tasks/_last_task_report.md
+# ⚠ 2026-08-24 `Tasks/` 改成 submodule（github.com/tim099/Tasks）之後，
+#   這條規則在**這裡已經失效** —— git 的 ignore 不會下探到 submodule 內部。
+#   規則已搬進那個 repo 自己的 `.gitignore`。
+#   ⇒ 留一條看起來還在守著的死規則，比沒有規則更容易讓人以為那一格有人看著。
+#   （若哪天 Tasks 收回成普通目錄，把下面這行的註解解掉。）
+# Tasks/_last_task_report.md
 
 # Plurk 唯讀快取 —— 裡面是**別人的**發文，他們沒同意過被釘進我們的 git 歷史；
 # 而且它是某一刻的快照，入版控會讓「現況」與「三天前」在 diff 裡同形。

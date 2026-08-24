@@ -55,3 +55,6 @@
 [submodule "Secret"]
 	path = Secret
 	url = https://gitlab.com/tavern4371824/Secret.git
+[submodule "Tasks"]
+	path = Tasks
+	url = https://github.com/tim099/Tasks.git
