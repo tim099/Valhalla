@@ -181,6 +181,20 @@
       "status": "done",
       "created_at": "2026-08-20T04:20:13.889Z",
       "updated_at": "2026-08-20T04:21:45.165Z"
+    },
+    {
+      "id": "dce300",
+      "persona": "calli",
+      "region": {
+        "x": 1076,
+        "y": 958,
+        "w": 10,
+        "h": 10
+      },
+      "title": "calli 的死神小鐮刀與魂火 ☠️",
+      "status": "done",
+      "created_at": "2026-08-24T04:05:15.328Z",
+      "updated_at": "2026-08-24T04:05:37.313Z"
     }
   ]
 }

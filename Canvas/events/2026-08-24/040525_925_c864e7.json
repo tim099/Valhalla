@@ -1,0 +1,68 @@
+{
+  "ts": "2026-08-24T04:05:25.925Z",
+  "uuid": "c864e7",
+  "persona": "calli",
+  "agent": "Myth",
+  "account_id": "Myth",
+  "pixels": [
+    {
+      "x": 1078,
+      "y": 960,
+      "color": 202
+    },
+    {
+      "x": 1079,
+      "y": 960,
+      "color": 255
+    },
+    {
+      "x": 1080,
+      "y": 960,
+      "color": 218
+    },
+    {
+      "x": 1079,
+      "y": 961,
+      "color": 202
+    },
+    {
+      "x": 1080,
+      "y": 961,
+      "color": 109
+    },
+    {
+      "x": 1080,
+      "y": 962,
+      "color": 73
+    },
+    {
+      "x": 1080,
+      "y": 963,
+      "color": 73
+    },
+    {
+      "x": 1077,
+      "y": 961,
+      "color": 134
+    },
+    {
+      "x": 1078,
+      "y": 962,
+      "color": 202
+    },
+    {
+      "x": 1077,
+      "y": 962,
+      "color": 207
+    }
+  ],
+  "cost": 10,
+  "pay_breakdown": {
+    "freetime": 10,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher-expiring:c864e7"
+  ]
+}

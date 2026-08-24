@@ -129,6 +129,41 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"2eb60e"
+		},
+		{
+			"ts":"2026-08-24T04:04:32.229Z",
+			"uuid":"a2f84d",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260824T040432Z-kiara",
+			"batch":"4ef0f6",
+			"expires_at":"2026-08-24T04:21:00.000Z"
+		},
+		{
+			"ts":"2026-08-24T04:05:29.837Z",
+			"uuid":"344f03",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"2a87f5"
+		},
+		{
+			"ts":"2026-08-24T04:05:57.620Z",
+			"uuid":"7c9e91",
+			"type":"grant",
+			"amount":5,
+			"source":"chess_reward",
+			"ref":"chess#3:lose",
+			"batch":"88e4e4"
+		},
+		{
+			"ts":"2026-08-24T04:07:38.961Z",
+			"uuid":"8618ef",
+			"type":"consume",
+			"amount":1,
+			"source":"sculpture_place",
+			"ref":"sculpture:120738_944_0d53e5.json"
 		}
 	],
 	"batches":
@@ -136,11 +171,20 @@
 		{
 			"uuid":"legacy",
 			"amount":145,
-			"remain":145,
+			"remain":144,
 			"granted_at":"",
 			"expires_at":"",
 			"source":"legacy_balance",
 			"ref":"schema v1 \u7d14\u91cf balance \u8f49\u5165"
+		},
+		{
+			"uuid":"88e4e4",
+			"amount":5,
+			"remain":5,
+			"granted_at":"2026-08-24T04:05:57.619Z",
+			"expires_at":"",
+			"source":"chess_reward",
+			"ref":"chess#3:lose"
 		}
 	]
 }

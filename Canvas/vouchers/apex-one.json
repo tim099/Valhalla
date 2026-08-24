@@ -333,6 +333,24 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"9a7bc2"
+		},
+		{
+			"ts":"2026-08-24T04:05:05.683Z",
+			"uuid":"e94584",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260824T040505Z-apex-one",
+			"batch":"36d2e9",
+			"expires_at":"2026-08-24T04:21:00.000Z"
+		},
+		{
+			"ts":"2026-08-24T04:10:58.412Z",
+			"uuid":"0b487e",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"d116da"
 		}
 	],
 	"batches":
