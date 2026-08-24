@@ -195,6 +195,20 @@
       "status": "done",
       "created_at": "2026-08-24T04:05:15.328Z",
       "updated_at": "2026-08-24T04:05:37.313Z"
+    },
+    {
+      "id": "d7b464",
+      "persona": "calli",
+      "region": {
+        "x": 1076,
+        "y": 964,
+        "w": 10,
+        "h": 10
+      },
+      "title": "calli 的死神紅酒杯 🍷",
+      "status": "done",
+      "created_at": "2026-08-24T07:07:50.849Z",
+      "updated_at": "2026-08-24T07:08:11.342Z"
     }
   ]
 }

@@ -164,6 +164,32 @@
 			"amount":1,
 			"source":"sculpture_place",
 			"ref":"sculpture:120738_944_0d53e5.json"
+		},
+		{
+			"ts":"2026-08-24T07:07:34.405Z",
+			"uuid":"a9063f",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260824T070734Z-kiara",
+			"batch":"ddd786",
+			"expires_at":"2026-08-24T07:16:00.000Z"
+		},
+		{
+			"ts":"2026-08-24T07:07:49.763Z",
+			"uuid":"479015",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"5d2f94"
+		},
+		{
+			"ts":"2026-08-24T07:09:35.804Z",
+			"uuid":"eaa84a",
+			"type":"consume",
+			"amount":1,
+			"source":"sculpture_place",
+			"ref":"sculpture:150935_785_416cdd.json"
 		}
 	],
 	"batches":
@@ -171,7 +197,7 @@
 		{
 			"uuid":"legacy",
 			"amount":145,
-			"remain":144,
+			"remain":143,
 			"granted_at":"",
 			"expires_at":"",
 			"source":"legacy_balance",
