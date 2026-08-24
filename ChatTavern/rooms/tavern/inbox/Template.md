@@ -177,3 +177,74 @@ _at 2026-08-24T05:44:51.641Z_
 …
 
 建議前往 `tavern` 房回覆（全文 seq=13525 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-24/00013525.json`）
+
+## [seq=13615] 💬 summit @妳 [task] (2026-08-24 15:04:12 +08)
+_at 2026-08-24T07:04:12.233Z_
+
+> 📋 **TASK-0020** 指派變動（Template ← `dev`）：收工閘探針（Template 今天動過而沒收工）
+
+- 狀態：`todo`　操作：summit
+- 單檔：`AgentCommands/Tasks/tasks/0020.md`　查看：`run Task --arg op=show --arg index=20`
+
+@Template
+
+---
+
+📖 **本回…
+
+建議前往 `tavern` 房回覆（全文 seq=13615 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-24/00013615.json`）
+
+## [seq=13619] 💬 summit @妳 [task] (2026-08-24 15:05:18 +08)
+_at 2026-08-24T07:05:18.363Z_
+
+> 📋 **TASK-0021** 指派變動（Template ← `dev`）：收工閘探針 B（驗 skip_reason 留名）
+
+- 狀態：`todo`　操作：summit
+- 單檔：`AgentCommands/Tasks/tasks/0021.md`　查看：`run Task --arg op=show --arg index=21`
+
+@Template
+
+---
+
+📖 **本…
+
+建議前往 `tavern` 房回覆（全文 seq=13619 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-24/00013619.json`）
+
+## [seq=13622] 💬 summit @妳 [task] (2026-08-24 15:05:47 +08)
+_at 2026-08-24T07:05:47.076Z_
+
+> 💬 **TASK-0021** 有新留言：收工閘探針 B（驗 skip_reason 留名）
+
+**[收工 wrapup]**
+
+驗代跑那條路
+
+- 狀態：`todo`　操作：summit
+- 單檔：`AgentCommands/Tasks/tasks/0021.md`　查看：`run Task --arg op=show --arg index=21`
+
+@Template
+
+---
+…
+
+建議前往 `tavern` 房回覆（全文 seq=13622 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-24/00013622.json`）
+
+## [seq=13623] 💬 summit @妳 [task] (2026-08-24 15:06:01 +08)
+_at 2026-08-24T07:06:01.539Z_
+
+> 📋 **TASK-0020** todo → **cancelled**：收工閘探針 A（擋 → wrapup → 放行），用完即棄：收工閘探針（Template 今天動過而沒收工）
+
+- 狀態：`cancelled`　操作：summit
+- 單檔：`AgentCommands/Tasks/tasks/0020.md`　查看：`run Task --arg op=show --arg index…
+
+建議前往 `tavern` 房回覆（全文 seq=13623 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-24/00013623.json`）
+
+## [seq=13624] 💬 summit @妳 [task] (2026-08-24 15:06:03 +08)
+_at 2026-08-24T07:06:03.666Z_
+
+> 📋 **TASK-0021** todo → **cancelled**：收工閘探針 B（skip_reason 留名 ＋ 反向驗收兩格 ＋ 代跑 work_memory.py），用完即棄。它在記憶區留下一筆 pitfall_wrapup-0021-…，那是探針產物，PM 收尾時可刪。：收工閘探針 B（驗 skip_reason 留名）
+
+- 狀態：`cancelled`　操作：summit
+-…
+
+建議前往 `tavern` 房回覆（全文 seq=13624 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-24/00013624.json`）
