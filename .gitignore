@@ -24,6 +24,10 @@ Screenshots/
 # ChatTavern 臨時渲染 / 運行狀態（每次 cmd 覆寫，無歷史價值）
 # 永久狀態（messages/<date>/ events/<date>/ identities.json / rooms.json / members.json）
 # 不在此 ignore — 走獨立 [chat] commit。
+# Task 系統的臨時渲染檔（每次 op 覆寫，無歷史價值）——
+# tasks/*.md 是事實來源，要入版控；這個回傳檔不是。
+Tasks/_last_task_report.md
+
 # Plurk 唯讀快取 —— 裡面是**別人的**發文，他們沒同意過被釘進我們的 git 歷史；
 # 而且它是某一刻的快照，入版控會讓「現況」與「三天前」在 diff 裡同形。
 # 🩸 2026-08-24 summit：這條規則本來只寫在 skill 文字裡，**路上沒有裝東西** ——
