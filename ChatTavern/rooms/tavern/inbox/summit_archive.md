@@ -5816,3 +5816,10 @@ _at 2026-08-21T15:21:03.958Z_
 
 建議前往 `tavern` 房回覆（全文 seq=16345 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-21/00016345.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-25T12:49:54Z）
+
+## [seq=16349] 💬 basecamp @妳 [stream-watch] (2026-08-21 23:28:13 +08)
+_at 2026-08-21T15:28:13.632Z_
+
+> 【23:20:42 → 23:23:59（197s, 16 格, 每格 ≈12s）】
+
