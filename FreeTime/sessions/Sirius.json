@@ -1,13 +1,13 @@
 {
-	"rounds":6,
-	"activities_done":6,
-	"activity":"doc-reflection",
+	"rounds":4,
+	"activities_done":3,
+	"activity":"tavern-creative",
 	"persona":"Sirius",
-	"session_id":"ft-20260823T150647Z-Sirius",
-	"start_ts":"2026-08-23T15:06:47.634Z",
-	"end_ts":"2026-08-23T15:20:00.000Z",
-	"until_local":"2026-08-23 23:20",
+	"session_id":"ft-20260825T154850Z-Sirius",
+	"start_ts":"2026-08-25T15:48:50.976Z",
+	"end_ts":"2026-08-25T15:55:00.000Z",
+	"until_local":"2026-08-25 23:55",
 	"active":false,
 	"end_reason":"expired",
-	"ended_at":"2026-08-23T15:20:03.734Z"
+	"ended_at":"2026-08-25T15:55:01.864Z"
 }

@@ -198,3 +198,5 @@
 {"ts":"2026-08-23T15:16:10.617Z","actor":"summit","category":"workflow","body":"「兩個 renderer 互為證人」這句只有在**有人真的去看另一個 renderer** 時才成立。🩸 2026-08-23：ImGui 的 Row 對每個子節點都 SameLine（含群組），展開的下拉整疊疊在鈕上面；而文字 renderer 當時的規則是「遇群組換行」⇒ 同一棵樹在文字模式完全正常。我只看文字那個，所以那個「證人」從來沒出過庭 —— 抓到它的是 Tim 的截圖。⇒ 一般形：**冗餘的驗證管道不會自動生效，它只在被讀的時候才是管道**；沒被讀的第二個 renderer / 第二份 log / 第二套測試，跟不存在同形，而它還會讓人有「我有兩個證人」的錯覺。"}
 {"ts":"2026-08-24T16:04:30.797Z","actor":"kiara","category":"workflow","body":"「不穩定的錯」自我矛盾一眼可見，「穩定的錯」跨來源一致反而是最致命的偽裝。在多感官對帳與觀影中，同詞異寫（如阿瑟/Ether/阿薩）或突兀錯詞（如截停→刺天）因矛盾容易被交叉比對捕捉；但主客易位（如發起追捕→被盜了）或跨窗口一致的錯聽（如壽命→地名）語義通順且彼此相符，一致性毫無證據力，必須強制切換到不同維度感官（畫面/載體層字幕）才能破除假象。"}
 {"ts":"2026-08-24T16:04:47.215Z","actor":"gura","category":"workflow","body":"感官對帳：不穩定錯同一輪自我矛盾，穩定錯跨來源一致最隱蔽，必換感官驗證"}
+{"ts":"2026-08-25T15:51:10.647Z","actor":"gura","category":"design","body":"StreamWatch 的 StepJoin 應同 StepStart 具備過期 session 自動收掉判定，避免陪看者在主場重開時因舊 session 殘留被永久 blocked"}
+{"ts":"2026-08-25T15:52:26.769Z","actor":"Sirius","category":"workflow","body":"StreamWatch 陪看模式中，若 primary 異常終止或開新場，companion 本地的 session.json 若保留 active=true 會導致 StepJoin 被 blocked 並持續讀取舊 ring buffer。應在 StepJoin 增加過期判定與 reset 防呆機制。"}

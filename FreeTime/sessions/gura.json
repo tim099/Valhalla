@@ -1,13 +1,13 @@
 {
-	"rounds":4,
+	"rounds":2,
 	"activities_done":0,
 	"activity":"",
 	"persona":"gura",
-	"session_id":"ft-20260824T160130Z-gura",
-	"start_ts":"2026-08-24T16:01:30.701Z",
-	"end_ts":"2026-08-24T16:10:00.000Z",
-	"until_local":"2026-08-25 00:10",
-	"active":false,
-	"end_reason":"expired",
-	"ended_at":"2026-08-24T16:10:05.292Z"
+	"session_id":"ft-20260825T154840Z-gura",
+	"start_ts":"2026-08-25T15:48:40.974Z",
+	"end_ts":"2026-08-25T15:55:00.000Z",
+	"until_local":"2026-08-25 23:55",
+	"active":true,
+	"end_reason":"",
+	"ended_at":""
 }
