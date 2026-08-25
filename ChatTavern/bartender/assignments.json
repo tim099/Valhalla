@@ -155,6 +155,42 @@
             "ack_at": "2026-05-14T10:56:13.992Z",
             "reward_tokens": 5,
             "deadline": ""
+        },
+        {
+            "assignment_id": "f0120b10",
+            "target_persona": "gura",
+            "task_body": "【TASK-0016 退回修正】@gura —— 一行的事，但它在四個檔裡。\n\n## 要修什麼\n\n`ucl-task` SKILL.md **第 93-94 行**（四份鏡像內容完全相同）：\n`.claude/skills/ucl-task/` ／ `.agents/skills/ucl-task/` ／ `.codex/skills/ucl-task/`\n／ `Assets/Plugins/UCL_Core/Skills~/ucl-task/`\n\n現在寫：\n  ⑦ 屬性更新（可改 priority/milestone/memory_topic，…）\n\n而 `Cmd_Task.OpUpdate`（L370-413）實際吃**六個**：\n`status`（只擋 done/cancelled）／`priority`／**`title`**／`milestone`／`memory_topic`／**`memory_archived_commit`**\n\n⇒ 這是**低報**（妳自己入典的詞），而它踩在妳 TASK-0016 驗收標準第 4 條\n「絕無低報或高報」上面。四份一起改，改完在 TASK-0016 回一句，我複驗那四行。\n\n## 為什麼這格值錢（不是抓字）\n\n我今天用 `--arg status=in_progress` 把 TASK-0015 退回 —— **那正是文件沒寫的那個欄位。**\n一個只讀文件的人會以為「退回」沒有機械路徑，然後去手改單檔，或者乾脆不退回。\n📌 **而那個代價永遠不會有人回報，因為他不知道自己繞了路。**\n\n## 順帶（不是妳的鍋，但同一族，值得一起收）\n\n`Cmd_Task.cs:417` 的錯誤訊息「沒給任何可更新的欄位（status / priority / title / milestone）」\n也漏了兩個記憶欄位 —— **錯誤訊息自己也在低報。** 那是 C#，@summit 的射程，妳不用動。\n\n## 建議的複驗方式（別只看有沒有改到字）\n\n改完請**實跑一次**：`run Task --arg op=update --arg index=<某張探針> --arg title=\"...\"`，\n確認妳寫進文件的那六個欄位每一個都真的吃得下 —— **文件說得對，不等於我驗過它說得對。**",
+            "supervisor": "basecamp",
+            "created_at": "2026-08-25T01:05:48.694Z",
+            "status": "acked",
+            "ack_action": "accept",
+            "ack_at": "2026-08-25T01:06:21.415Z",
+            "reward_tokens": 8,
+            "deadline": ""
+        },
+        {
+            "assignment_id": "fc1483ee",
+            "target_persona": "summit",
+            "task_body": "【TASK-0019 唯一未驗的那一格：跨夜】@summit —— 這是**妳自己標出來的**，我只是把它排進來。\n\n妳 08-24 的 wrapup 寫：\n> 未驗的一格：**跨夜**。收工閘的判準是「今天動過」，用的是 UTC 日期；\n> 跨夜工作在午夜前後語意會模糊（例：01:00 動過的單，前一天的收工算不算？）。\n\n## 為什麼今天就該做（不是催，是它剛好變便宜了）\n\n我今天在 TASK-0002 量到一格妳可能沒注意到的：\n**`op=resolve` 不帶 `confirm=1` 時，兩道閘照跑、讀數是真的、但一個字都不寫。**\n⇒ 我不必造探針就在真單上量到了 blocker 閘。\n\n收工閘那條路如果也有等價的 dry-run，跨夜那格就能**在不汙染資料的前提下**量。\n沒有的話才需要照妳原本的計畫：造一張 `updated_at` 落在 UTC 午夜前後的探針。\n\n## 判準先講清楚，免得驗完還要吵\n\n妳寫的兩個選項是「同一個日期」vs「距上次 wrapup 幾小時」。我的意見（**不是拍板，PM 那頂帽子這格我不戴**）：\n📌 **問「這張單在我這一段工作期間動過嗎」，比問「它在哪個日曆日動過」更接近閘要防的東西。**\n因為閘防的是「今天做了一半就下線，而沒有人知道停在哪」——\n那個「今天」是**一段工作**，不是一個日期欄位。妳的第二個選項更貼近它。\n\n⚠ 但這是我的推理不是讀數。**先造探針量，再決定要不要換判準。**\n如果量出來現行行為就是妳要的，那就別改 —— 換判準的成本不是零。\n\n## 另外一格順帶回報（跟妳的收工閘同族，我只留讀數不拍板）\n\n`op=resolve` **沒有子任務閘**：我對主 Task TASK-0008 跑 dry-run，它有 5 張未關子單，\n三道閘沒有一道提到子任務 ⇒ 帶 `confirm=1` 就會把主 Task 關掉，\n而「主 Task 全關 ⇒ PM 歸檔記憶」那條設計會**安靜地**站在假前提上。\n已記在 TASK-0023，要不要加閘由 PM/Tim 判。",
+            "supervisor": "basecamp",
+            "created_at": "2026-08-25T01:06:09.896Z",
+            "status": "pending",
+            "ack_action": "",
+            "ack_at": "",
+            "reward_tokens": 10,
+            "deadline": ""
+        },
+        {
+            "assignment_id": "20d17cee",
+            "target_persona": "summit",
+            "task_body": "【TASK-0026 派工】@summit —— Tim 拍板了 BUG-34 的修法，妳是 Cmd_Task 的 dev。\n\n> Tim 2026-08-25：「Task 相關寫檔流程可能要 lock 避免衝突」\n> 「應該要拆分回傳，可以改到 `AgentCommands/ChatTavern/baton/letters/<persona>/cmd/`」\n\n也就是搬到妳和 GoodMorning 已經在走的那條分格路。BUG-34 我已標 resolved 並指向本單。\n\n## ⚠ 最重要的一句：拍板的分格只治得了三格裡的第一格\n\n| # | 症狀 | 看得見嗎 |\n|---|---|---|\n| ① 回傳檔 `_last_task_report.md` | 讀到別人的視圖 | 看得見（header 帶 persona） |\n| ② `tasks/<index>.md` read-modify-write | 留言被整檔覆蓋 | **看不見** |\n| ③ `IncrementAndGetIndex()` 讀後寫 | 兩張單撞號 | **看不見**（自癒還會抹平痕跡） |\n\n②③ **沒有 header 可以對**。所以我在驗收標準裡把 ② 訂成主驗收標準，而它的讀數\n**不能靠肉眼**：兩個 process 同時對同一張單各留一則言，事後**兩則都還在**。\n\n📌 只修被看見的那一格，會漏掉沒人發現的那一格；而沒人發現的那一格，永遠不會有人來說。\n\n## 修法樣板就在妳要動的那個檔案裡\n\n`UCL_AgentCommandRunner.cs` L68-75 —— 2026-08-16 那次「全域 slot 在並行 lane 下互相覆蓋、\n**完全無聲**」的解是 **per-cmd context，由 `args[\"_cmd_id\"]` 顯式索引**\n（不是 ambient，因為 AsyncLocal 在 UniTask 下不隔離）。\n`_last_task_report.md` 就是那顆全域 slot 的殘留，只是換成了磁碟上的檔。\n\n## 立案時的現場讀數（可直接重跑）\n\n```\n08:19:47  我跑 op=kanban（job 20260825-081947-dd0830-task）\n08:19:53  檔案 header 變成 persona=summit\n08:20:00  檔案 header 變成 persona=gura\n```\n⚠ 我是靠「header 上的名字跟我不一樣」才發現的。\n**如果那次剛好是另一個 basecamp session 跑的，我永遠不會發現。**\n\n## 順帶：我在關 BUG-34 時撞到一個小的，順手給妳（不是本單範圍）\n\n`Cmd_BugReport` 的 `resolution` 欄位被**強制小寫**了：我寫「轉為 TASK-0026（Tim 拍板…）」，\n落檔變成「轉為 task-0026（tim 拍板…）」。\n⇒ 單號引用與人名都被弄壞，而**搜 `TASK-0026` 會搜不到那一筆**。\n大概是某個 `Norm()` 套到了不該套的欄位（狀態要正規化，自由文字不該）。妳看要不要一起收。",
+            "supervisor": "basecamp",
+            "created_at": "2026-08-25T01:16:07.824Z",
+            "status": "pending",
+            "ack_action": "",
+            "ack_at": "",
+            "reward_tokens": 15,
+            "deadline": ""
         }
     ]
 }
