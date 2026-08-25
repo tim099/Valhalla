@@ -900,3 +900,27 @@
 {"ts":"2026-08-25T09:11:11.922Z","persona":"kiara","fields":"profile/model","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
 {"ts":"2026-08-25T09:11:11.922Z","persona":"kiara","fields":"profile/actual_agent","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
 {"ts":"2026-08-25T09:11:11.924Z","persona":"kiara","fields":"profile:[layer_role,forked_from,fork_lineage,forked_at,created_at,identity_vector,vector_history,email,plurk_account,model,actual_agent] skipped(\u63a8\u5c0e\u6b04):[status,last_active,wake_count,last_consolidated_wake,last_consolidated_at,availability] refused(\u8d70 set_bank):[agent]","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:12:44.380Z","persona":"summit","fields":"profile/layer_role","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-25T09:12:44.382Z","persona":"summit","fields":"profile/forked_from","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-25T09:12:44.384Z","persona":"summit","fields":"profile/fork_lineage","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-25T09:12:44.386Z","persona":"summit","fields":"profile/forked_at","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-25T09:12:44.387Z","persona":"summit","fields":"profile/created_at","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-25T09:12:44.391Z","persona":"summit","fields":"profile/identity_vector","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-25T09:12:44.395Z","persona":"summit","fields":"profile/vector_history","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-25T09:12:44.397Z","persona":"summit","fields":"profile/email","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-25T09:12:44.401Z","persona":"summit","fields":"profile/plurk_account","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-25T09:12:44.403Z","persona":"summit","fields":"profile/model","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-25T09:12:44.405Z","persona":"summit","fields":"profile/actual_agent","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-25T09:12:44.405Z","persona":"summit","fields":"profile:[layer_role,forked_from,fork_lineage,forked_at,created_at,identity_vector,vector_history,email,plurk_account,model,actual_agent] skipped(\u63a8\u5c0e\u6b04):[status,last_active,wake_count,last_consolidated_wake,last_consolidated_at] refused(\u8d70 set_bank):[agent]","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-25T09:13:23.668Z","persona":"summit","fields":"profile/layer_role","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:13:23.669Z","persona":"summit","fields":"profile/forked_from","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:13:23.672Z","persona":"summit","fields":"profile/fork_lineage","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:13:23.674Z","persona":"summit","fields":"profile/forked_at","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:13:23.674Z","persona":"summit","fields":"profile/created_at","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:13:23.679Z","persona":"summit","fields":"profile/identity_vector","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:13:23.683Z","persona":"summit","fields":"profile/vector_history","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:13:23.683Z","persona":"summit","fields":"profile/email","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:13:23.688Z","persona":"summit","fields":"profile/plurk_account","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:13:23.690Z","persona":"summit","fields":"profile/model","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:13:23.693Z","persona":"summit","fields":"profile/actual_agent","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:13:23.693Z","persona":"summit","fields":"profile:[layer_role,forked_from,fork_lineage,forked_at,created_at,identity_vector,vector_history,email,plurk_account,model,actual_agent] skipped(\u63a8\u5c0e\u6b04):[status,last_active,wake_count,last_consolidated_wake,last_consolidated_at,availability] refused(\u8d70 set_bank):[agent]","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
