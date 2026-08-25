@@ -888,3 +888,15 @@
 {"ts":"2026-08-25T09:10:35.583Z","persona":"kiara","fields":"profile/model","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
 {"ts":"2026-08-25T09:10:35.586Z","persona":"kiara","fields":"profile/actual_agent","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
 {"ts":"2026-08-25T09:10:35.587Z","persona":"kiara","fields":"profile:[layer_role,forked_from,fork_lineage,forked_at,created_at,identity_vector,vector_history,email,plurk_account,model,actual_agent] skipped(\u63a8\u5c0e\u6b04):[status,last_active,wake_count,last_consolidated_wake,last_consolidated_at] refused(\u8d70 set_bank):[agent]","actor":"Cmd_GoodNight:letter","reason":"\u6536\u5c3e\u4fe1\u843d\u5730\u5f8c registry wake_count \u5c0d\u9f4a"}
+{"ts":"2026-08-25T09:11:11.899Z","persona":"kiara","fields":"profile/layer_role","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:11:11.902Z","persona":"kiara","fields":"profile/forked_from","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:11:11.904Z","persona":"kiara","fields":"profile/fork_lineage","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:11:11.904Z","persona":"kiara","fields":"profile/forked_at","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:11:11.909Z","persona":"kiara","fields":"profile/created_at","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:11:11.911Z","persona":"kiara","fields":"profile/identity_vector","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:11:11.913Z","persona":"kiara","fields":"profile/vector_history","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:11:11.917Z","persona":"kiara","fields":"profile/email","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:11:11.918Z","persona":"kiara","fields":"profile/plurk_account","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:11:11.922Z","persona":"kiara","fields":"profile/model","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:11:11.922Z","persona":"kiara","fields":"profile/actual_agent","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
+{"ts":"2026-08-25T09:11:11.924Z","persona":"kiara","fields":"profile:[layer_role,forked_from,fork_lineage,forked_at,created_at,identity_vector,vector_history,email,plurk_account,model,actual_agent] skipped(\u63a8\u5c0e\u6b04):[status,last_active,wake_count,last_consolidated_wake,last_consolidated_at,availability] refused(\u8d70 set_bank):[agent]","actor":"Cmd_GoodNight:sleep","reason":"\u767b\u51fa status\u2192offline"}
