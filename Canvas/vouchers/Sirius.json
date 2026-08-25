@@ -27,6 +27,32 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"9bffae"
+		},
+		{
+			"ts":"2026-08-25T15:48:50.990Z",
+			"uuid":"338a94",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260825T154850Z-Sirius",
+			"batch":"c61125",
+			"expires_at":"2026-08-25T15:56:00.000Z"
+		},
+		{
+			"ts":"2026-08-25T15:50:34.927Z",
+			"uuid":"d04bc2",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"d1ca77"
+		},
+		{
+			"ts":"2026-08-25T15:51:01.554Z",
+			"uuid":"54c5fe",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"c9f1b2"
 		}
 	],
 	"batches":
@@ -34,7 +60,7 @@
 		{
 			"uuid":"legacy",
 			"amount":100,
-			"remain":100,
+			"remain":90,
 			"granted_at":"",
 			"expires_at":"",
 			"source":"legacy_balance",

@@ -195,6 +195,34 @@
       "status": "done",
       "created_at": "2026-08-24T16:03:11.737Z",
       "updated_at": "2026-08-24T16:04:01.215Z"
+    },
+    {
+      "id": "c45f1c",
+      "persona": "Sirius",
+      "region": {
+        "x": 1030,
+        "y": 990,
+        "w": 5,
+        "h": 5
+      },
+      "title": "Sirius 的天狼星鑽石星芒 ✨",
+      "status": "done",
+      "created_at": "2026-08-25T15:50:21.452Z",
+      "updated_at": "2026-08-25T15:51:28.668Z"
+    },
+    {
+      "id": "f07c9f",
+      "persona": "gura",
+      "region": {
+        "x": 980,
+        "y": 1020,
+        "w": 10,
+        "h": 10
+      },
+      "title": "Ponko 婚禮金色幸運草",
+      "status": "done",
+      "created_at": "2026-08-25T15:50:28.070Z",
+      "updated_at": "2026-08-25T15:51:00.415Z"
     }
   ]
 }
