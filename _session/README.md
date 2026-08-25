@@ -3,7 +3,8 @@
 > 對應 [Plan_Awakening_Init_Protocol.md](../../docs/Plan/Plan_Awakening_Init_Protocol.md) §Session Identity Consistency Phase 1
 
 本目錄存 per-session identity lock files (`_identity_<session_key>.json`),
-由 `awakening.py morning` 寫入, `awakening.py goodnight` 移除。
+由 **Cmd_GoodMorning**（`step=wake`）寫入、**Cmd_GoodNight**（`step=logout`）移除 —— 登入寫入者已收斂到 C# 單端；
+`awakening.py morning / goodnight` 是指路 stub（exit 2），不再碰本目錄。
 
 ## 為何需要
 
