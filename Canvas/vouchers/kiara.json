@@ -190,6 +190,24 @@
 			"amount":1,
 			"source":"sculpture_place",
 			"ref":"sculpture:150935_785_416cdd.json"
+		},
+		{
+			"ts":"2026-08-25T04:01:34.080Z",
+			"uuid":"617dd1",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260825T040134Z-kiara",
+			"batch":"c14274",
+			"expires_at":"2026-08-25T04:11:00.000Z"
+		},
+		{
+			"ts":"2026-08-25T04:04:07.325Z",
+			"uuid":"6543ef",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"0c8c31"
 		}
 	],
 	"batches":
