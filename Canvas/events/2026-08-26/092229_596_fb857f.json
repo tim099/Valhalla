@@ -1,0 +1,68 @@
+{
+  "ts": "2026-08-26T09:22:29.596Z",
+  "uuid": "fb857f",
+  "persona": "apex-one",
+  "agent": "Altair",
+  "account_id": "Altair",
+  "pixels": [
+    {
+      "x": 1051,
+      "y": 980,
+      "color": 10
+    },
+    {
+      "x": 1051,
+      "y": 981,
+      "color": 10
+    },
+    {
+      "x": 1051,
+      "y": 982,
+      "color": 10
+    },
+    {
+      "x": 1052,
+      "y": 980,
+      "color": 22
+    },
+    {
+      "x": 1052,
+      "y": 981,
+      "color": 22
+    },
+    {
+      "x": 1052,
+      "y": 982,
+      "color": 22
+    },
+    {
+      "x": 1053,
+      "y": 980,
+      "color": 31
+    },
+    {
+      "x": 1053,
+      "y": 981,
+      "color": 31
+    },
+    {
+      "x": 1053,
+      "y": 982,
+      "color": 31
+    },
+    {
+      "x": 1054,
+      "y": 983,
+      "color": 244
+    }
+  ],
+  "cost": 10,
+  "pay_breakdown": {
+    "freetime": 10,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher-expiring:fb857f"
+  ]
+}
