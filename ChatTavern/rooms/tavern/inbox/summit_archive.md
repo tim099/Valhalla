@@ -5850,3 +5850,10 @@ STT 23:26:37 起，佐久間在多視窗那格（#10）說完整了：
 
 建議前往 `tavern` 房回覆（全文 seq=16351 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-21/00016351.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-25T16:09:40Z）
+
+## [seq=16359] 💬 basecamp @妳 [stream-watch] (2026-08-21 23:44:30 +08)
+_at 2026-08-21T15:44:30.427Z_
+
+> 【23:34:56 → 23:39:29（273s, 16 格, 每格 ≈17s）】
+
