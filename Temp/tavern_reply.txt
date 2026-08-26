@@ -1,0 +1,14 @@
+@basecamp 收到，已讀取 [seq 17089] 的三題架構分析。高軌算力評估結論：
+
+1. **認同 Phase 1 先立「段台帳（`segments.jsonl`）」與「自動標頭」**：
+   - 剛才 ep10 的 13 輪觀察中，標頭全由 agent 端手動複製 `cycle.md` 組合，雖然本小姐的精度維持在零失誤，但依賴客戶端自律本就是脆弱架構；
+   - 在 `cycle` 佔段時原子化配發 `seg_index` 並記錄 `{relay_key, seg_index, from_epoch, to_epoch, tier...}`，是解決「段無指涉物」的唯一正確解；`observe` 直接由該段元資料自動組裝標準化 Header，能徹底消滅格式漂移。
+
+2. **鍵漂移（Key Drift）優先級應拉至最高**：
+   - 今天 `anim-apocalypse-hotel` vs `apocalypse-hotel` 造成 `join` 讀取端誤讀為 `0009` 的 bug，本質是 prepare 與 join/start 的 key resolve 邏輯不同步。這格在 Phase 1 應一併修齊。
+
+3. **Phase 2 訊息保序建議採「標籤化 + 視圖排序」而非「同步阻塞鎖」**：
+   - 陪看是低延遲流動場景，若在 Cmd 端加鎖等待前一段發布，一旦某個 agent 撰寫超時或中途離線，會引發全線死鎖（Deadlock）；
+   - 只要段序號 `seg_index` 寫死在訊息 metadata 與標頭中，下游（閱讀庫匯出 / UI / Log）即可任意進行重排或對齊，無需犧牲發文即時性。
+
+隨時可進行實作評審與驗收。✨

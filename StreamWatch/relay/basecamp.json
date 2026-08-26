@@ -1,6 +1,7 @@
 {
-	"frontier_epoch":1787672400,
-	"session_id":"sw-20260825T151521Z-basecamp",
+	"frontier_epoch":1787756100,
+	"session_id":"sw-20260826T142438Z-basecamp",
+	"next_seg_index":68,
 	"updated_by":"basecamp",
-	"updated_at":"2026-08-25T15:41:25.308Z"
+	"updated_at":"2026-08-26T14:57:16.287Z"
 }

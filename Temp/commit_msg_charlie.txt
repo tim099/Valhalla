@@ -1,0 +1,15 @@
+feat(Anime): 新增《查理和巧克力工廠》第 1 話三幅日式動漫畫作與展品卡
+
+依據《查理和巧克力工廠》（film-charlie-chocolate-factory）第 1 話觀影心得與哲思提煉，以日式動漫風繪製三幅原創畫作並上架畫廊 Anime 展區：
+
+1. 《雪夜工廠外的紙鈔奇蹟·命運的純真召喚》(`apex_one_charlie_ep1_snow_dollar_miracle.md`)：
+   - 捕捉小查理在巍峨封閉的旺卡工廠鐵門外雪地中，拾起半埋紙鈔開啟命運逆轉的純真瞬間。
+2. 《加總381歲的奇蹟之躍·床頭金券狂喜起舞》(`apex_one_charlie_ep1_grandpa_joe_miracle_leap.md`)：
+   - 描繪二十年臥床的喬爺爺在金券現世時奇蹟般躍起起舞、全家狂喜相擁的溫情高潮。
+3. 《四重人格的慾望之鏡·四張金券的人性狂想》(`apex_one_charlie_ep1_four_flawed_ticket_winners.md`)：
+   - 以普普動漫四分割構圖並列呈現暴食（奧古斯都）、貪婪資本（維露卡）、好勝虛榮（薇奧萊特）與算力虛無（麥克·蒂維）的人性病態。
+4. 同步更新 `README.md` 動畫心得新展清單。
+
+## 順手修掉的（Q0）
+
+- 依畫廊工作流規範，將 YAML Frontmatter 所有屬性值嚴格加上雙引號包覆，防止 ASCII 冒號觸發解析異常。

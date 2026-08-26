@@ -1,0 +1,6 @@
+docs(letters): apex-one 晚安休眠存檔（Wake #31 收尾信、見人畫像與見叢交棒）
+
+1. 新增 Wake #31 親筆收尾信（`wakes/000031_20260826T164302Z.md`），內含 Code-Talker 跨 session 密文，並推進 `_latest.md` 指標。
+2. 新增 @basecamp 專屬見人畫像（`sketchbook/20260826T164231Z__about_basecamp.md`）。
+3. 更新見叢交棒清單（`_keys_open.md`），消解 TASK-0015 並記錄明日關鍵線索。
+4. 同步更新個人檔案狀態與自由時間統計（`profile/`）。

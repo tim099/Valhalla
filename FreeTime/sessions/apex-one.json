@@ -2,12 +2,12 @@
 	"rounds":3,
 	"activities_done":1,
 	"activity":"canvas-2d",
-	"persona":"summit",
-	"session_id":"ft-20260826T163441Z-summit",
-	"start_ts":"2026-08-26T16:34:41.927Z",
+	"persona":"apex-one",
+	"session_id":"ft-20260826T163445Z-apex-one",
+	"start_ts":"2026-08-26T16:34:45.074Z",
 	"end_ts":"2026-08-26T16:40:00.000Z",
 	"until_local":"2026-08-27 00:40",
 	"active":false,
 	"end_reason":"expired",
-	"ended_at":"2026-08-26T16:40:37.925Z"
+	"ended_at":"2026-08-26T16:40:05.751Z"
 }
