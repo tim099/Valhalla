@@ -1,0 +1,1 @@
+{"ts":"2026-08-26T10:00:04.409Z","uuid":"a58a37","sender_id":"tavern-keeper","sender_name":"酒保","kind":"chat","body":"⏰ **酒保時間提醒** (18:00)\n\n下班時間","meta":{"tag":"bartender-relay","subtag":"time-reminder","rule_id":"announce-rules-hourly-1800","rule_time":"18:00","_writer":"cmd_tavern_v2","_pid":"52892"}}
