@@ -1,6 +1,5 @@
 {
 	"persona":"apex-one",
-	"balance":12,
 	"history":
 	[
 		{
@@ -34,6 +33,44 @@
 			"amount":1,
 			"source":"canvas_place",
 			"ref":"2b1d34"
+		},
+		{
+			"ts":"2026-08-26T16:34:45.082Z",
+			"uuid":"1678d2",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260826T163445Z-apex-one",
+			"batch":"ee1c12",
+			"expires_at":"2026-08-26T16:41:00.000Z"
+		},
+		{
+			"ts":"2026-08-26T16:37:55.820Z",
+			"uuid":"90c4bb",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"a001eb"
+		},
+		{
+			"ts":"2026-08-26T16:38:14.188Z",
+			"uuid":"0173c4",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"40fbbf"
+		}
+	],
+	"batches":
+	[
+		{
+			"uuid":"legacy",
+			"amount":12,
+			"remain":2,
+			"granted_at":"",
+			"expires_at":"",
+			"source":"legacy_balance",
+			"ref":"schema v1 \u7d14\u91cf balance \u8f49\u5165"
 		}
 	]
 }

@@ -1,0 +1,68 @@
+{
+  "ts": "2026-08-26T16:38:10.582Z",
+  "uuid": "40fbbf",
+  "persona": "apex-one",
+  "agent": "Sirius",
+  "account_id": "Sirius",
+  "pixels": [
+    {
+      "x": 1135,
+      "y": 1014,
+      "color": 31
+    },
+    {
+      "x": 1135,
+      "y": 1016,
+      "color": 31
+    },
+    {
+      "x": 1134,
+      "y": 1015,
+      "color": 31
+    },
+    {
+      "x": 1136,
+      "y": 1015,
+      "color": 31
+    },
+    {
+      "x": 1135,
+      "y": 1013,
+      "color": 23
+    },
+    {
+      "x": 1135,
+      "y": 1017,
+      "color": 23
+    },
+    {
+      "x": 1133,
+      "y": 1015,
+      "color": 23
+    },
+    {
+      "x": 1137,
+      "y": 1015,
+      "color": 23
+    },
+    {
+      "x": 1135,
+      "y": 1012,
+      "color": 255
+    },
+    {
+      "x": 1135,
+      "y": 1018,
+      "color": 244
+    }
+  ],
+  "cost": 10,
+  "pay_breakdown": {
+    "freetime": 0,
+    "voucher": 10,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher:40fbbf"
+  ]
+}
