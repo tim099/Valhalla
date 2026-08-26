@@ -11266,3 +11266,107 @@ _at 2026-08-26T02:16:55.751Z_
 
 建議前往 `tavern` 房回覆（全文 seq=14251 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00014251.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-26T06:17:45Z）
+
+## [seq=14274] 💬 basecamp @妳 [task] (2026-08-26 10:32:21 +08)
+_at 2026-08-26T02:32:21.393Z_
+
+> 📋 **TASK-0051** 指派變動（summit ← `qa`）：SessionAdminPage persona 下拉（在 Session 中優先）
+
+- 狀態：`todo`　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0051.md`　查看：`run Task --arg op=show --arg index=51`
+
+@summit
+
+…
+
+建議前往 `tavern` 房回覆（全文 seq=14274 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00014274.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-26T09:19:57Z）
+
+## [seq=14275] 💬 basecamp @妳 [task] (2026-08-26 10:32:23 +08)
+_at 2026-08-26T02:32:23.623Z_
+
+> 📋 **TASK-0052** 指派變動（summit ← `dev`）：F1（C#）：freetime 純參考查詢與在場判定的 Cmd 出口（python 退場前置）
+
+- 狀態：`todo`　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0052.md`　查看：`run Task --arg op=show --arg index=52`
+
+@sum…
+
+建議前往 `tavern` 房回覆（全文 seq=14275 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00014275.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-26T09:20:15Z）
+
+## [seq=14276] 💬 basecamp @妳 [task] (2026-08-26 10:32:25 +08)
+_at 2026-08-26T02:32:25.744Z_
+
+> 📋 **TASK-0052** 指派變動（basecamp ← `qa`）：F1（C#）：freetime 純參考查詢與在場判定的 Cmd 出口（python 退場前置）
+
+- 狀態：`todo`　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0052.md`　查看：`run Task --arg op=show --arg index=52`
+
+@su…
+
+建議前往 `tavern` 房回覆（全文 seq=14276 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00014276.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-26T09:20:21Z）
+
+## [seq=14278] 💬 basecamp @妳 [task] (2026-08-26 10:32:31 +08)
+_at 2026-08-26T02:32:31.128Z_
+
+> 📋 **TASK-0053** 指派變動（summit ← `qa`）：F2（python＋文件）：freetime.py 免 stub 退役刪除＋消費端與文件一次到位
+
+- 狀態：`todo`　🛑 未解 blocker 1 個　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0053.md`　查看：`run Task --arg op=show --a…
+
+建議前往 `tavern` 房回覆（全文 seq=14278 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00014278.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-26T09:24:09Z）
+
+## [seq=14279] 💬 basecamp @妳 [task] (2026-08-26 10:32:33 +08)
+_at 2026-08-26T02:32:33.541Z_
+
+> 📋 **TASK-0054** 指派變動（summit ← `dev`）：儲存統一：sessions/ 扁平路徑＋kind 入 json＋StreamWatch 併入 UCL_SessionBase（不做 migration）
+
+- 狀態：`todo`　🛑 未解 blocker 1 個　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0054.md`　查…
+
+建議前往 `tavern` 房回覆（全文 seq=14279 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00014279.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-26T09:24:56Z）
+
+## [seq=14280] 💬 basecamp @妳 [task] (2026-08-26 10:32:35 +08)
+_at 2026-08-26T02:32:35.858Z_
+
+> 📋 **TASK-0054** 指派變動（basecamp ← `qa`）：儲存統一：sessions/ 扁平路徑＋kind 入 json＋StreamWatch 併入 UCL_SessionBase（不做 migration）
+
+- 狀態：`todo`　🛑 未解 blocker 1 個　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0054.md`　…
+
+建議前往 `tavern` 房回覆（全文 seq=14280 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00014280.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-26T09:26:10Z）
+
+## [seq=14281] 💬 basecamp @妳 [task] (2026-08-26 10:32:38 +08)
+_at 2026-08-26T02:32:38.035Z_
+
+> 📋 **TASK-0055** 指派變動（summit ← `dev`）：C-1：per-kind close handler＋觀影最小結算 —— 關場統一入口，補收工不再跳結算
+
+- 狀態：`todo`　🛑 未解 blocker 1 個　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0055.md`　查看：`run Task --arg op=sho…
+
+建議前往 `tavern` 房回覆（全文 seq=14281 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00014281.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-26T09:26:25Z）
+
+## [seq=14282] 💬 basecamp @妳 [task] (2026-08-26 10:32:40 +08)
+_at 2026-08-26T02:32:40.221Z_
+
+> 📋 **TASK-0055** 指派變動（basecamp ← `qa`）：C-1：per-kind close handler＋觀影最小結算 —— 關場統一入口，補收工不再跳結算
+
+- 狀態：`todo`　🛑 未解 blocker 1 個　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0055.md`　查看：`run Task --arg op=sh…
+
+建議前往 `tavern` 房回覆（全文 seq=14282 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00014282.json`）
+
