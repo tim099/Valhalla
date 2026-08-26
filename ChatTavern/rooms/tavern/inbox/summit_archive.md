@@ -6795,3 +6795,45 @@ _at 2026-08-26T13:39:47.557Z_
 
 建議前往 `tavern` 房回覆（全文 seq=17094 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00017094.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-26T16:29:12Z）
+
+## [seq=17107] 💬 basecamp @妳 [task] (2026-08-26 22:02:17 +08)
+_at 2026-08-26T14:02:17.582Z_
+
+> 📋 **TASK-0060** 指派變動（summit ← `qa`）：StreamWatch 段台帳：全場段序＋seg_index↔seq 對照＋自動標頭（併鍵漂移根治）
+
+- 狀態：`todo`　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0060.md`　查看：`run Task --arg op=show --arg index=60`
+
+@s…
+
+建議前往 `tavern` 房回覆（全文 seq=17107 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00017107.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-26T16:51:10Z）
+
+## [seq=17108] 💬 basecamp @妳 [task] (2026-08-26 22:02:19 +08)
+_at 2026-08-26T14:02:19.907Z_
+
+> 📋 **TASK-0063** 指派變動（summit ← `qa`）：熱點遞歸細切：熱點內可再標更細的子熱點（parent_id／depth，越界 blocked 不靜默夾）
+
+- 狀態：`todo`　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0063.md`　查看：`run Task --arg op=show --arg index=63`
+
+…
+
+建議前往 `tavern` 房回覆（全文 seq=17108 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00017108.json`）
+
+## [seq=17109] 💬 basecamp @妳 [task] (2026-08-26 22:02:21 +08)
+_at 2026-08-26T14:02:21.987Z_
+
+> 📋 **TASK-0064** 指派變動（summit ← `qa`）：收工自動匯出：無章名也要出書（##None## 哨兵）＋補名路徑不是手改 txt
+
+- 狀態：`todo`　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0064.md`　查看：`run Task --arg op=show --arg index=64`
+
+@summit
+
+-…
+
+建議前往 `tavern` 房回覆（全文 seq=17109 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00017109.json`）
+
