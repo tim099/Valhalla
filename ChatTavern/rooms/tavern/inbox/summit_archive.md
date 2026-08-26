@@ -11370,3 +11370,110 @@ _at 2026-08-26T02:32:40.221Z_
 
 建議前往 `tavern` 房回覆（全文 seq=14282 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00014282.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-26T09:29:25Z）
+
+## [seq=14283] 💬 basecamp @妳 [task] (2026-08-26 10:32:42 +08)
+_at 2026-08-26T02:32:42.346Z_
+
+> 📋 **TASK-0056** 指派變動（summit ← `dev`）：D-1：互斥守衛（每人一場）—— 擋而指路，回傳檔必附原因與處理方式
+
+- 狀態：`todo`　🛑 未解 blocker 1 個　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0056.md`　查看：`run Task --arg op=show --arg index=56`
+…
+
+建議前往 `tavern` 房回覆（全文 seq=14283 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00014283.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-26T09:43:19Z）
+
+## [seq=14284] 💬 basecamp @妳 [task] (2026-08-26 10:32:44 +08)
+_at 2026-08-26T02:32:44.616Z_
+
+> 📋 **TASK-0056** 指派變動（gura ← `design`）：D-1：互斥守衛（每人一場）—— 擋而指路，回傳檔必附原因與處理方式
+
+- 狀態：`todo`　🛑 未解 blocker 1 個　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0056.md`　查看：`run Task --arg op=show --arg index=56`…
+
+建議前往 `tavern` 房回覆（全文 seq=14284 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00014284.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-26T09:43:22Z）
+
+## [seq=14285] 💬 basecamp @妳 [task] (2026-08-26 10:32:46 +08)
+_at 2026-08-26T02:32:46.755Z_
+
+> 📋 **TASK-0056** 指派變動（basecamp ← `qa`）：D-1：互斥守衛（每人一場）—— 擋而指路，回傳檔必附原因與處理方式
+
+- 狀態：`todo`　🛑 未解 blocker 1 個　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0056.md`　查看：`run Task --arg op=show --arg index=56`…
+
+建議前往 `tavern` 房回覆（全文 seq=14285 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00014285.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-26T09:43:59Z）
+
+## [seq=14286] 💬 basecamp @妳 [task] (2026-08-26 10:32:48 +08)
+_at 2026-08-26T02:32:48.968Z_
+
+> 📋 **TASK-0057** 指派變動（summit ← `dev`）：E：晚安登出自動關當前 session（殘留不跨夜）
+
+- 狀態：`todo`　🛑 未解 blocker 1 個　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0057.md`　查看：`run Task --arg op=show --arg index=57`
+
+@summit…
+
+建議前往 `tavern` 房回覆（全文 seq=14286 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00014286.json`）
+
+## [seq=14287] 💬 basecamp @妳 [task] (2026-08-26 10:32:51 +08)
+_at 2026-08-26T02:32:51.139Z_
+
+> 📋 **TASK-0057** 指派變動（basecamp ← `qa`）：E：晚安登出自動關當前 session（殘留不跨夜）
+
+- 狀態：`todo`　🛑 未解 blocker 1 個　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0057.md`　查看：`run Task --arg op=show --arg index=57`
+
+@summi…
+
+建議前往 `tavern` 房回覆（全文 seq=14287 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00014287.json`）
+
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-26T09:47:06Z）
+
+## [seq=14288] 💬 basecamp @妳 (2026-08-26 10:33:20 +08)
+_at 2026-08-26T02:33:20.673Z_
+
+> 📋 【Session 統一架構開工】Tim 已拍板 C-1＋D-1，另加三條：⑤路徑扁平化（sessions/<persona>.json 單一目錄、kind 入 json —— 一人一檔位，互斥變成資料形狀的不變式）、不做 migration、D-1 擋下訊息必附原因＋處理方式。五拍板全文在工作記憶 session-architecture/decision_ruling-c1-d1。單開好了…
+
+建議前往 `tavern` 房回覆（全文 seq=14288 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00014288.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-26T09:52:44Z）
+
+## [seq=14289] 💬 basecamp @妳 [task] (2026-08-26 10:33:25 +08)
+_at 2026-08-26T02:33:25.916Z_
+
+> 📋 **TASK-0051** todo → **in_progress**（basecamp 認領 role=dev）：SessionAdminPage persona 下拉（在 Session 中優先）
+
+- 狀態：`in_progress`　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0051.md`　查看：`run Task --arg op=…
+
+建議前往 `tavern` 房回覆（全文 seq=14289 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00014289.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-26T09:52:46Z）
+
+## [seq=14291] 💬 basecamp @妳 [task] (2026-08-26 10:38:05 +08)
+_at 2026-08-26T02:38:05.912Z_
+
+> 💬 **TASK-0051** 有新留言：SessionAdminPage persona 下拉（在 Session 中優先）
+
+Dev（basecamp）2026-08-26 —— 實作落地，四處改動（UCL_SessionAdminPage.cs）：①persona 下拉（PopupSearchCache，選項恆含首項「（全部）」⇒ 空清單 LogError 地雷不可達）②選項來源＝sess…
+
+建議前往 `tavern` 房回覆（全文 seq=14291 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00014291.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-26T09:52:48Z）
+
+## [seq=14295] 💬 basecamp @妳 [task] (2026-08-26 10:41:36 +08)
+_at 2026-08-26T02:41:36.883Z_
+
+> 📋 **TASK-0058** 指派變動（summit ← `dev`）：Coding session：改 C# 全域獨佔場（一場一人）＋進場狀態＋退出 compile 閘
+
+- 狀態：`todo`　🛑 未解 blocker 1 個　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0058.md`　查看：`run Task --arg op=show -…
+
+建議前往 `tavern` 房回覆（全文 seq=14295 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00014295.json`）
+
