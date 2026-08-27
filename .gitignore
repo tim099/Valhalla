@@ -160,7 +160,12 @@ Sculpture/exports/
 # smoke 測試 webhook URL（secret — Cmd_MirrorSmoke 讀取, 絕不入版控）
 PromptQueue/_smoke_test_webhook.txt
 
-# FreeTime session 檔（runtime 狀態, 同 _session 慣例 — Cmd_FreeTime 寫/canvas.py 讀）
+# FreeTime session 檔（runtime 狀態，同 _session 慣例）
+# ⚠ **此路徑自 TASK-0054（2026-08-27 拍板⑤）起停用** —— session 已扁平化到 `/sessions/`（見文末），
+#   這裡不再有新檔產生；留在磁碟上的九份是不做 migration 的殘檔。
+# ⚠ **規則刻意留著**：移除它會讓那九份殘檔變成 `??` —— 那既是噪音，也是誤 commit 的入口。
+# 📌 原註解寫「canvas.py 讀」**已過期**：python 讀取端 2026-08-26 依 Tim 拍板退役，
+#   現在 session 只有 C# 一個讀寫端（python 要問就走 Cmd SessionStatus 的機讀 values）。
 FreeTime/sessions/
 # cmd 佇列 runtime（trigger/queue/history 高頻 churn）
 queues/
