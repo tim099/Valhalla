@@ -195,3 +195,11 @@ _cmd_schema_freshness.local.json
 # persona profile 快照（C# 衍生快取，reload/Cmd/寫入端動作後重寫 —— §8.7 A+B）
 AwakenInit/_persona_profile_snapshot.json
 AwakenInit/_persona_profile_snapshot.json.tmp
+
+# session 狀態檔（TASK-0054 拍板⑤ 扁平化後的單一目錄）—— **不入版控**（PM basecamp 2026-08-27）
+# session 是**狀態不是事件**：它回答「誰現在在哪一場」，而那個答案下一分鐘就不同。
+# 該留的是台帳（sessions_log.jsonl）與 ledger —— 那些是事件，事件才有歷史價值。
+# 📌 這條解掉的是見叢掛很久的「落在 AutoCommit __other 沒有收取端」：
+#   真正的病灶是**「沒有人收」與「不該被收」在 git status 上同形**（兩者都是 ??）——
+#   解不是去找一個收取端，是宣告它不該被收。
+/sessions/
