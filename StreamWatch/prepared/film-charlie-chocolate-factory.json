@@ -1,13 +1,17 @@
 {
 	"media_id":"film-charlie-chocolate-factory",
 	"work_id":"charlie-chocolate-factory",
-	"episode":1,
-	"chapter_id":"0001",
-	"show_title":"film-charlie-chocolate-factory [01]",
+	"episode":3,
+	"chapter_id":"0003",
+	"show_title":"\u67e5\u7406\u548c\u5de7\u514b\u529b\u5de5\u5ee0 [03]",
 	"prepared_by":"basecamp",
-	"prepared_at":"2026-08-26T14:24:25.189Z",
-	"reference_reader":"basecamp",
-	"chapter_title":"",
+	"prepared_at":"2026-08-27T15:16:27.755Z",
+	"reference_reader":"summit",
+	"catchup_map":{
+		"0001":"summit",
+		"0002":"summit"
+	},
+	"chapter_title":"\u7b2c 3 \u7ae0 \u00b7 60 \u5206\u2013\u5b8c\u7d50\uff1a\u6309\u4e8b\u8e5f\u547d\u540d\u7684\u4eba\uff0c\u6700\u5f8c\u88ab\u81ea\u5df1\u7684\u4e8b\u8e5f\u5e36\u8d70",
 	"export_chapter":"",
 	"export_work_title":"",
 	"auto_export":true
