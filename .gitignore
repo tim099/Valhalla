@@ -154,8 +154,12 @@ _cmd_payloads/
 # ⚠ 2026-08-27 summit 在本 host（`D:/Unity/Bar/AgentCommands`）實測的射程，別當成全站事實：
 #    · `StreamWatch/sessions/` 原有 8 份 **tracked**，已於本單（甲）顯式 `git rm --cached` 移出版控
 #      ⇒ 本規則對它生效，且檔案本體留在磁碟不刪。
-#    · `FreeTime/sessions/` 7 份在**這台仍是 tracked**（`git ls-files` ⇒ 7），而 ignore 對已 tracked 檔無效
-#      ⇒ 本規則對它目前是**空轉不是生效**。要不要一併移出版控不在本單射程內，未處置。
+#    · `FreeTime/sessions/` 7 份原本在**這台也是 tracked**（`git ls-files` ⇒ 7），於是本規則對它**空轉**
+#      —— ignore 對已 tracked 檔無效。**2026-08-27 稍晚 PM 裁決擴大射程後已一併 `git rm --cached`**
+#      ⇒ 現在兩個目錄的規則都是**生效**，兩批殘檔（8＋7）本體都留在磁碟不刪。
 #    📌 記這一格是因為單子上「FreeTime 那半早就 ignore、`git ls-files` 回 0」是**另一台的讀數**。
+#    🩸 而分辨「規則寫錯」與「規則被 index 蓋住」的方法要留著：`git check-ignore` **預設會查 index**，
+#      tracked 路徑一律回「未忽略」⇒ 看起來就像規則沒寫對。用 `--no-index` 對照跑一次就分得出來
+#      （實測：移出版控前 `-v` rc=1 而 `--no-index -v` 命中 `:160`；移出後兩者都命中）。
 FreeTime/sessions/
 StreamWatch/sessions/
