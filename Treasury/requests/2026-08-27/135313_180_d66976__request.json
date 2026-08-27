@@ -1,7 +1,7 @@
 {
 	"request_id":"d66976",
 	"requested_at":"2026-08-27T13:53:13.180Z",
-	"status":"pending",
+	"status":"approved",
 	"target_bank":"Codex",
 	"amount":6,
 	"currency":"tavern_token",
@@ -9,5 +9,9 @@
 	"source_kind":"manual_request",
 	"source_ref":"",
 	"requester_agent":"claude-code",
-	"requester_persona":"basecamp"
+	"requester_persona":"basecamp",
+	"decided_at":"2026-08-27T16:18:55.857Z",
+	"decided_by":"Tim",
+	"decision_note":"",
+	"ledger_entry_uuid":"1ebd7a"
 }
