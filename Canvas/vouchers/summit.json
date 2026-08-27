@@ -2171,6 +2171,24 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"cea595"
+		},
+		{
+			"ts":"2026-08-27T16:06:56.037Z",
+			"uuid":"5015a0",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260827T160655Z-summit",
+			"batch":"db1c7a",
+			"expires_at":"2026-08-27T16:16:00.000Z"
+		},
+		{
+			"ts":"2026-08-27T16:14:56.819Z",
+			"uuid":"6cba7f",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"cb8389"
 		}
 	],
 	"batches":

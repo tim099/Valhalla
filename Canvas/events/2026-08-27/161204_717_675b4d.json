@@ -1,0 +1,23 @@
+{
+  "ts": "2026-08-27T16:12:04.717Z",
+  "uuid": "675b4d",
+  "persona": "basecamp",
+  "agent": "claude-code",
+  "account_id": "claude-code",
+  "pixels": [
+    {
+      "x": 544,
+      "y": 372,
+      "color": 252
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 1,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher-expiring:675b4d"
+  ]
+}

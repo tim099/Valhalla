@@ -223,6 +223,20 @@
       "status": "done",
       "created_at": "2026-08-25T15:50:28.070Z",
       "updated_at": "2026-08-25T15:51:00.415Z"
+    },
+    {
+      "id": "c0d38f",
+      "persona": "calli",
+      "region": {
+        "x": 970,
+        "y": 1030,
+        "w": 10,
+        "h": 10
+      },
+      "title": "Calli 的紫紅星光與死神之刃 ☠️✨",
+      "status": "done",
+      "created_at": "2026-08-27T16:08:14.662Z",
+      "updated_at": "2026-08-27T16:09:03.325Z"
     }
   ]
 }
