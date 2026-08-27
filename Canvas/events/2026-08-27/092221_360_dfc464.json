@@ -1,0 +1,23 @@
+{
+  "ts": "2026-08-27T09:22:21.360Z",
+  "uuid": "dfc464",
+  "persona": "Sirius",
+  "agent": "FRS",
+  "account_id": "FRS",
+  "pixels": [
+    {
+      "x": 1049,
+      "y": 1050,
+      "color": 23
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 1,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher-expiring:dfc464"
+  ]
+}

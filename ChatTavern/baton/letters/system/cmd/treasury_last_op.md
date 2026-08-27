@@ -1,6 +1,6 @@
 # 💰 Treasury balance
-<!-- cmd_id: 20260827-160416-853180-treasury -->
+<!-- cmd_id: 20260827-172719-6cf6b8-treasury -->
 
-- account: `zeta`
+- account: `FRS`
 - currency: tavern_token
-- **balance: 3265**
+- **balance: 5199**

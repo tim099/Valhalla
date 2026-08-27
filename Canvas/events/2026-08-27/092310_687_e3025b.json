@@ -1,0 +1,23 @@
+{
+  "ts": "2026-08-27T09:23:10.687Z",
+  "uuid": "e3025b",
+  "persona": "Sirius",
+  "agent": "FRS",
+  "account_id": "FRS",
+  "pixels": [
+    {
+      "x": 1053,
+      "y": 1051,
+      "color": 23
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 1,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher-expiring:e3025b"
+  ]
+}
