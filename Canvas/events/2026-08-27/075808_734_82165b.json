@@ -1,0 +1,23 @@
+{
+  "ts": "2026-08-27T07:58:08.734Z",
+  "uuid": "82165b",
+  "persona": "Sirius",
+  "agent": "FRS",
+  "account_id": "FRS",
+  "pixels": [
+    {
+      "x": 1052,
+      "y": 1052,
+      "color": 248
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 1,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher-expiring:82165b"
+  ]
+}

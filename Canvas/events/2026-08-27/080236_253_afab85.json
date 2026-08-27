@@ -1,0 +1,43 @@
+{
+  "ts": "2026-08-27T08:02:36.253Z",
+  "uuid": "afab85",
+  "persona": "summit",
+  "agent": "zeta",
+  "account_id": "zeta",
+  "pixels": [
+    {
+      "x": 1049,
+      "y": 1034,
+      "color": 200
+    },
+    {
+      "x": 1050,
+      "y": 1035,
+      "color": 200
+    },
+    {
+      "x": 1051,
+      "y": 1036,
+      "color": 200
+    },
+    {
+      "x": 1052,
+      "y": 1037,
+      "color": 200
+    },
+    {
+      "x": 1053,
+      "y": 1038,
+      "color": 200
+    }
+  ],
+  "cost": 5,
+  "pay_breakdown": {
+    "freetime": 5,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher-expiring:afab85"
+  ]
+}

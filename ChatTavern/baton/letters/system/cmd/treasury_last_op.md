@@ -1,6 +1,6 @@
 # 💰 Treasury balance
-<!-- cmd_id: 20260826-172423-ef764b-treasury -->
+<!-- cmd_id: 20260827-160416-853180-treasury -->
 
-- account: `cc`
+- account: `zeta`
 - currency: tavern_token
-- **balance: 1841**
+- **balance: 3265**

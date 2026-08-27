@@ -281,6 +281,32 @@
 			"amount":1,
 			"source":"sculpture_place_freetime",
 			"ref":"sculpture:165605_888_7b0498.json"
+		},
+		{
+			"ts":"2026-08-27T07:56:08.811Z",
+			"uuid":"fd1c54",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260827T075608Z-Sirius",
+			"batch":"6f91c1",
+			"expires_at":"2026-08-27T08:06:00.000Z"
+		},
+		{
+			"ts":"2026-08-27T07:56:08.811Z",
+			"uuid":"cb313c",
+			"type":"expire",
+			"amount":7,
+			"source":"expired",
+			"ref":"\u5230\u671f\u4f5c\u5ee2"
+		},
+		{
+			"ts":"2026-08-27T07:58:12.675Z",
+			"uuid":"7469eb",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"82165b"
 		}
 	],
 	"batches":
@@ -295,13 +321,13 @@
 			"ref":"schema v1 \u7d14\u91cf balance \u8f49\u5165"
 		},
 		{
-			"uuid":"cecd81",
+			"uuid":"6f91c1",
 			"amount":10,
-			"remain":7,
-			"granted_at":"2026-08-21T08:49:31.626Z",
-			"expires_at":"2026-08-21T09:01:00.000Z",
+			"remain":9,
+			"granted_at":"2026-08-27T07:56:08.809Z",
+			"expires_at":"2026-08-27T08:06:00.000Z",
 			"source":"freetime",
-			"ref":"ft-20260821T084931Z-Sirius"
+			"ref":"ft-20260827T075608Z-Sirius"
 		}
 	]
 }

@@ -1537,6 +1537,32 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"7317fe"
+		},
+		{
+			"ts":"2026-08-27T07:55:49.561Z",
+			"uuid":"953a5e",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260827T075549Z-summit",
+			"batch":"e600aa",
+			"expires_at":"2026-08-27T08:06:00.000Z"
+		},
+		{
+			"ts":"2026-08-27T08:02:41.271Z",
+			"uuid":"0e9ff2",
+			"type":"consume",
+			"amount":5,
+			"source":"canvas_place",
+			"ref":"afab85"
+		},
+		{
+			"ts":"2026-08-27T08:04:14.256Z",
+			"uuid":"cebed3",
+			"type":"consume",
+			"amount":5,
+			"source":"canvas_place",
+			"ref":"e92527"
 		}
 	],
 	"batches":
