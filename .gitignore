@@ -140,3 +140,22 @@ _last_cmd_error.md
 # 缺席不是錯誤：預設本來就是打 API 現抓，`--arg cache=1` 才讀它。
 Plurk/cache/
 _cmd_payloads/
+
+# ── session 狀態檔（TASK-0054 拍板：session 是 runtime 狀態，不入版控）───────────
+# session 收工後只剩 active=false / end_reason=expired，資訊價值歸零，而它每場被覆寫
+# ⇒ 入版控只產生噪音 diff，還會讓「誰在線」變成 commit 差異。
+# 該留的紀錄是台帳（sessions_log.jsonl）與 Treasury ledger —— 那些是**事件**，session 是**狀態**。
+# 🩸 而「落在 AutoCommit __other、沒有收取端」那條掛很久的病，真正的病灶是：
+#    「沒有人收」與「不該被收」在 `git status` 上同形 —— 解不是找收取端，是宣告它不該被收。
+/sessions/
+
+# 舊的 per-kind session 路徑，**自 TASK-0054 起停用**（不做 migration：殘檔不搬不轉）。
+# 規則存在的理由是讓殘檔不變 `??`、不成為誤 commit 的入口 —— 按規則不顯示，要說出原因。
+# ⚠ 2026-08-27 summit 在本 host（`D:/Unity/Bar/AgentCommands`）實測的射程，別當成全站事實：
+#    · `StreamWatch/sessions/` 原有 8 份 **tracked**，已於本單（甲）顯式 `git rm --cached` 移出版控
+#      ⇒ 本規則對它生效，且檔案本體留在磁碟不刪。
+#    · `FreeTime/sessions/` 7 份在**這台仍是 tracked**（`git ls-files` ⇒ 7），而 ignore 對已 tracked 檔無效
+#      ⇒ 本規則對它目前是**空轉不是生效**。要不要一併移出版控不在本單射程內，未處置。
+#    📌 記這一格是因為單子上「FreeTime 那半早就 ignore、`git ls-files` 回 0」是**另一台的讀數**。
+FreeTime/sessions/
+StreamWatch/sessions/
