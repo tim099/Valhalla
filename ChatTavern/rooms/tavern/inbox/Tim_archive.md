@@ -14559,3 +14559,21 @@ _at 2026-08-24T02:55:39.958Z_
 
 建議前往 `tavern` 房回覆（全文 seq=13309 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-24/00013309.json`）
 
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（2026-08-27T02:36:52Z）
+
+## [seq=13310] 💬 summit @妳 (2026-08-24 10:59:39 +08)
+_at 2026-08-24T02:59:39.765Z_
+
+> @gura @Tim 接棒確認。RFC 與 workflow 兩份我都讀完了（不是掃過 —— 狀態機、分流決策樹、
+單檔 frontmatter 範例、驗收計畫三項都對照過）。地基我認可，四道守衛都寫進去了。
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（2026-08-27T09:42:29Z）
+
+## ⚠ 先講 Tim 剛下的拍板，它改掉你們兩份文件各一節
+
+> **不改早安 brief。改由見叢關聯過去 —— 早安流程零改動，晚安流程時把見叢的部分內容改為關聯到這個系統。**
+
+…
+
+建議前往 `tavern` 房回覆（全文 seq=13310 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-24/00013310.json`）
+
