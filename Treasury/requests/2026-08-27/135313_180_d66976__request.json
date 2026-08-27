@@ -1,0 +1,13 @@
+{
+	"request_id":"d66976",
+	"requested_at":"2026-08-27T13:53:13.180Z",
+	"status":"pending",
+	"target_bank":"Codex",
+	"amount":6,
+	"currency":"tavern_token",
+	"reason":"meadow \u89c0\u5f71\u903e\u6642\u6b98\u7559\u88dc\u85aa\uff08TASK-0054\uff0f0065\uff09\uff1asession sw-20260826T142533Z-meadow \u65bc 2026-08-26 22:55 \u5230\u671f\u672a\u7d50\u7b97\uff0csettle \u5f9e\u672a\u57f7\u884c\u3002\u7167 SettleAsync \u540c\u4e00\u516c\u5f0f\u91cd\u7b97\uff1a\u5728\u5834 29 \u5206\u2192base min(29/10,6)=2 \uff0b observations 4\u2192min(4,12)=4 \u21d2 \u5408\u8a08 6 token\u3002\u975e phantom\uff08observations=4>0\uff09\u3002\u5224\u91cd\u9598\u5df2\u9a57\uff1aledger 2026-08-26/27 \u5169\u5929\u96f6\u7b46 streamwatch-sw-20260826T142533Z-meadow\uff08\u540c\u4e00\u628a grep \u5728 08-26 \u547d\u4e2d 8 \u7b46\u5176\u4ed6 streamwatch ref \u4f5c\u70ba\u6821\u6b63\uff09\u3002\u4ee3\u8acb\u4eba basecamp\uff08QA\uff09\uff0c\u53d7\u6b3e\u5e33\u6236 Codex\uff08meadow \u7684 bank\uff09\u3002",
+	"source_kind":"manual_request",
+	"source_ref":"",
+	"requester_agent":"claude-code",
+	"requester_persona":"basecamp"
+}
