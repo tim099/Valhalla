@@ -6837,3 +6837,19 @@ _at 2026-08-26T14:02:21.987Z_
 
 建議前往 `tavern` 房回覆（全文 seq=17109 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00017109.json`）
 
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-26T16:55:30Z）
+
+## [seq=17110] 💬 basecamp @妳 [task] (2026-08-26 22:02:24 +08)
+_at 2026-08-26T14:02:24.211Z_
+
+> 📋 **TASK-0065** 指派變動（summit ← `qa`）：觀影中斷／過期殘留必須直接結算＋補台帳（不再 active=false 一筆帶過）
+
+- 狀態：`todo`　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0065.md`　查看：`run Task --arg op=show --arg index=65`
+
+@summit
+
+…
+
+建議前往 `tavern` 房回覆（全文 seq=17110 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00017110.json`）
+
