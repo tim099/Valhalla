@@ -4,7 +4,7 @@
 > **鍵是圖檔 URL 不是編號**：`[emoN]` 是 per-account 別名，同一個編號在不同帳號是不同張圖 ⇒ 別名記在 `aliases` 欄，查表查 URL。
 > `state=seen` ＝ 讀別人的噗時撞見的圖，**還沒有人看過它** ⇒ 那就是待描述清單。
 
-- 共 **197** 張／已描述 **13**／待描述 **184**
+- 共 **209** 張／已描述 **13**／待描述 **196**
 
 | 別名 | 全站碼 | 分層 | 描述 | 狀態 | 圖檔 |
 |---|---|---|---|---|---|
@@ -164,7 +164,7 @@
 | `plurk_summit:(panic)` | `(panic)` | recruited/10 | *(未描述)* | present | [8b80a0d5](https://s.plurk.com/emoticons/platinum/8b80a0d5b50df0169b19.gif) |
 | `plurk_summit:(scenic)` | `(scenic)` | recruited/10 | *(未描述)* | present | [8d4c9b57](https://s.plurk.com/emoticons/platinum/8d4c9b570396c85d9b29.gif) |
 | `plurk_summit:(yahoo)` | `(yahoo)` | recruited/10 | *(未描述)* | present | [605d05d7](https://s.plurk.com/emoticons/platinum/605d05d7b221b1594e2e.gif) |
-| `7947987:emo17335` | `—` | seen | 動漫少女 Q 版頭像（棕髮 藍瞳 笑臉） | seen | [6d60e95a](https://emos.plurk.com/6d60e95ae3d8d5f2d0774685dca1b37c_w48_h48.gif) |
+| `7947987:emo17335` `14714389:emo10` | `—` | seen | 動漫少女 Q 版頭像（棕髮 藍瞳 笑臉） | seen | [6d60e95a](https://emos.plurk.com/6d60e95ae3d8d5f2d0774685dca1b37c_w48_h48.gif) |
 | `7947987:emo17353` | `—` | seen | 白色卡通角色線稿頭像（紅色細節） | seen | [fb96ff10](https://emos.plurk.com/fb96ff102c7c86ae7d1e9abbea069656_w48_h48.gif) |
 | `7947987:emo17399` | `—` | seen | 光頭真人男子臉部特寫（動圖 meme 風） | seen | [6dd534ba](https://emos.plurk.com/6dd534ba66fad27d5fd3a552ebdb290f_w48_h48.gif) |
 | `7947987:emo17783` | `—` | seen | 短髮亞洲男子臉部特寫（靜圖 影劇風） | seen | [4fbec453](https://emos.plurk.com/4fbec453a2f52f06839398a4977e8c84_w48_h48.jpeg) |
@@ -205,3 +205,15 @@
 | `7149429:emo1380` | `—` | seen | *(未描述)* | seen | [8437c3c1](https://emos.plurk.com/8437c3c1f761c4c17c3119b0f4515e7d_w47_h45.gif) |
 | `5724869:emo554` | `—` | seen | *(未描述)* | seen | [9887d473](https://emos.plurk.com/9887d47341f426572893c0f19840151e_w48_h48.gif) |
 | `9137796:emo877` | `—` | seen | *(未描述)* | seen | [860ab27b](https://emos.plurk.com/860ab27b19b76b6fda79fd46e577c246_w48_h48.jpeg) |
+| `3954694:emo302` | `—` | seen | *(未描述)* | seen | [5509db35](https://emos.plurk.com/5509db35e741c17e9c564105baba59e4_w5_h6.png) |
+| `3954694:emo338` | `—` | seen | *(未描述)* | seen | [10f1a2b0](https://emos.plurk.com/10f1a2b081e19076424239df62f405d6_w6_h6.png) |
+| `3954694:emo217` | `—` | seen | *(未描述)* | seen | [89ba6b56](https://emos.plurk.com/89ba6b56f0a8ade747336968bb09eb16_w16_h20.png) |
+| `6961411:emo976` | `—` | seen | *(未描述)* | seen | [0b3700dd](https://emos.plurk.com/0b3700dd89708f2a2050f5d5442a330a_w18_h50.gif) |
+| `10401756:emo72` | `—` | seen | *(未描述)* | seen | [35622923](https://emos.plurk.com/3562292333566c550253e46d79fe2cbe_w48_h48.png) |
+| `14252992:emo425` | `—` | seen | *(未描述)* | seen | [698057e3](https://emos.plurk.com/698057e33d6821bd01bdbcaabc402326_w48_h17.gif) |
+| `14252992:emo106` | `—` | seen | *(未描述)* | seen | [13511eb5](https://emos.plurk.com/13511eb588188490be3575c7f9dc6bba_w48_h48.png) |
+| `14252992:emo472` | `—` | seen | *(未描述)* | seen | [15d45222](https://emos.plurk.com/15d45222d05b9c3b9a52f69db5c09506_w48_h48.png) |
+| `14714389:emo16` | `—` | seen | *(未描述)* | seen | [b28f729b](https://emos.plurk.com/b28f729b7d100881f3cd5a92ada4a4e6_w48_h46.jpeg) |
+| `14317931:emo44` | `—` | seen | *(未描述)* | seen | [60370e56](https://emos.plurk.com/60370e56b78586f11374716ea8daf9e7_w48_h48.jpeg) |
+| `6643890:emo62` | `—` | seen | *(未描述)* | seen | [ca25cfd2](https://emos.plurk.com/ca25cfd29581a1f28f24252728181359_w48_h48.jpeg) |
+| `6958127:emo19401829` | `—` | seen | *(未描述)* | seen | [6a302687](https://emos.plurk.com/6a302687f2514abda46d9b617a9f12a3_w48_h46.png) |
