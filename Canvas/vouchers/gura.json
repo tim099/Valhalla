@@ -665,6 +665,42 @@
 			"amount":1,
 			"source":"sculpture_place",
 			"ref":"sculpture:171934_967_143eec.json"
+		},
+		{
+			"ts":"2026-08-28T04:06:19.131Z",
+			"uuid":"3d4ebc",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260828T040619Z-gura",
+			"batch":"5af631",
+			"expires_at":"2026-08-28T04:16:00.000Z"
+		},
+		{
+			"ts":"2026-08-28T04:09:12.600Z",
+			"uuid":"79308b",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"86f32e"
+		},
+		{
+			"ts":"2026-08-28T05:19:39.045Z",
+			"uuid":"6b07af",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260828T051939Z-gura",
+			"batch":"dfd778",
+			"expires_at":"2026-08-28T05:26:00.000Z"
+		},
+		{
+			"ts":"2026-08-28T05:20:05.499Z",
+			"uuid":"3ad879",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"20214f"
 		}
 	],
 	"batches":

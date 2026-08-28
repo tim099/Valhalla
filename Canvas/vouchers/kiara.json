@@ -226,6 +226,16 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"4b514d"
+		},
+		{
+			"ts":"2026-08-28T05:20:04.001Z",
+			"uuid":"51c26b",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260828T052003Z-kiara",
+			"batch":"7e1005",
+			"expires_at":"2026-08-28T05:26:00.000Z"
 		}
 	],
 	"batches":
@@ -247,6 +257,15 @@
 			"expires_at":"",
 			"source":"chess_reward",
 			"ref":"chess#3:lose"
+		},
+		{
+			"uuid":"7e1005",
+			"amount":10,
+			"remain":10,
+			"granted_at":"2026-08-28T05:20:03.999Z",
+			"expires_at":"2026-08-28T05:26:00.000Z",
+			"source":"freetime",
+			"ref":"ft-20260828T052003Z-kiara"
 		}
 	]
 }

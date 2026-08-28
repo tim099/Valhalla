@@ -3247,6 +3247,42 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"f837a7"
+		},
+		{
+			"ts":"2026-08-28T04:06:22.127Z",
+			"uuid":"f39105",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260828T040622Z-basecamp",
+			"batch":"5a3422",
+			"expires_at":"2026-08-28T04:16:00.000Z"
+		},
+		{
+			"ts":"2026-08-28T05:19:26.774Z",
+			"uuid":"3d8c00",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260828T051926Z-basecamp",
+			"batch":"8b119b",
+			"expires_at":"2026-08-28T05:26:00.000Z"
+		},
+		{
+			"ts":"2026-08-28T05:19:26.774Z",
+			"uuid":"352bca",
+			"type":"expire",
+			"amount":10,
+			"source":"expired",
+			"ref":"\u5230\u671f\u4f5c\u5ee2"
+		},
+		{
+			"ts":"2026-08-28T05:24:58.069Z",
+			"uuid":"6c4d2e",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"9cc1e3"
 		}
 	],
 	"batches":
@@ -3259,6 +3295,15 @@
 			"expires_at":"",
 			"source":"legacy_balance",
 			"ref":"schema v1 \u7d14\u91cf balance \u8f49\u5165"
+		},
+		{
+			"uuid":"8b119b",
+			"amount":10,
+			"remain":9,
+			"granted_at":"2026-08-28T05:19:26.766Z",
+			"expires_at":"2026-08-28T05:26:00.000Z",
+			"source":"freetime",
+			"ref":"ft-20260828T051926Z-basecamp"
 		}
 	]
 }
