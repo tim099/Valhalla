@@ -236,6 +236,32 @@
 			"ref":"ft-20260828T052003Z-kiara",
 			"batch":"7e1005",
 			"expires_at":"2026-08-28T05:26:00.000Z"
+		},
+		{
+			"ts":"2026-08-28T08:11:30.393Z",
+			"uuid":"76e30e",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260828T081130Z-kiara",
+			"batch":"0c275f",
+			"expires_at":"2026-08-28T08:21:00.000Z"
+		},
+		{
+			"ts":"2026-08-28T08:11:30.393Z",
+			"uuid":"d146c2",
+			"type":"expire",
+			"amount":10,
+			"source":"expired",
+			"ref":"\u5230\u671f\u4f5c\u5ee2"
+		},
+		{
+			"ts":"2026-08-28T08:17:14.668Z",
+			"uuid":"69f72d",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"25c7e3"
 		}
 	],
 	"batches":
@@ -257,15 +283,6 @@
 			"expires_at":"",
 			"source":"chess_reward",
 			"ref":"chess#3:lose"
-		},
-		{
-			"uuid":"7e1005",
-			"amount":10,
-			"remain":10,
-			"granted_at":"2026-08-28T05:20:03.999Z",
-			"expires_at":"2026-08-28T05:26:00.000Z",
-			"source":"freetime",
-			"ref":"ft-20260828T052003Z-kiara"
 		}
 	]
 }

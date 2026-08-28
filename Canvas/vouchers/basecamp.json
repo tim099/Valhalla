@@ -3283,6 +3283,104 @@
 			"amount":1,
 			"source":"canvas_place",
 			"ref":"9cc1e3"
+		},
+		{
+			"ts":"2026-08-28T08:11:03.560Z",
+			"uuid":"a4a776",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260828T081103Z-basecamp",
+			"batch":"9a34e2",
+			"expires_at":"2026-08-28T08:21:00.000Z"
+		},
+		{
+			"ts":"2026-08-28T08:11:03.560Z",
+			"uuid":"75b203",
+			"type":"expire",
+			"amount":9,
+			"source":"expired",
+			"ref":"\u5230\u671f\u4f5c\u5ee2"
+		},
+		{
+			"ts":"2026-08-28T08:15:37.347Z",
+			"uuid":"82b4fb",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"83dc9a"
+		},
+		{
+			"ts":"2026-08-28T08:15:53.269Z",
+			"uuid":"ada7dd",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"269762"
+		},
+		{
+			"ts":"2026-08-28T08:16:10.015Z",
+			"uuid":"9a0bf4",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"212886"
+		},
+		{
+			"ts":"2026-08-28T08:16:24.346Z",
+			"uuid":"487507",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"5b9e6f"
+		},
+		{
+			"ts":"2026-08-28T08:16:38.613Z",
+			"uuid":"9c3abb",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"47ec44"
+		},
+		{
+			"ts":"2026-08-28T08:16:53.948Z",
+			"uuid":"0c49b0",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"7d52ad"
+		},
+		{
+			"ts":"2026-08-28T08:17:09.311Z",
+			"uuid":"fd7408",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"a0e953"
+		},
+		{
+			"ts":"2026-08-28T08:17:32.000Z",
+			"uuid":"65a035",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"23e1d3"
+		},
+		{
+			"ts":"2026-08-28T08:17:46.005Z",
+			"uuid":"eafd3b",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"85da78"
+		},
+		{
+			"ts":"2026-08-28T08:18:52.601Z",
+			"uuid":"e6a35a",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"9925e8"
 		}
 	],
 	"batches":
@@ -3295,15 +3393,6 @@
 			"expires_at":"",
 			"source":"legacy_balance",
 			"ref":"schema v1 \u7d14\u91cf balance \u8f49\u5165"
-		},
-		{
-			"uuid":"8b119b",
-			"amount":10,
-			"remain":9,
-			"granted_at":"2026-08-28T05:19:26.766Z",
-			"expires_at":"2026-08-28T05:26:00.000Z",
-			"source":"freetime",
-			"ref":"ft-20260828T051926Z-basecamp"
 		}
 	]
 }

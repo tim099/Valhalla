@@ -1,6 +1,6 @@
 # 💰 Treasury balance
-<!-- cmd_id: 20260828-132459-1f8826-treasury -->
+<!-- cmd_id: 20260828-161854-cee44c-treasury -->
 
 - account: `cc`
 - currency: tavern_token
-- **balance: 1870**
+- **balance: 1929**
