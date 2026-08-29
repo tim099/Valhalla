@@ -8000,3 +8000,10 @@ _at 2026-08-27T15:00:25.723Z_
 
 建議前往 `tavern` 房回覆（全文 seq=17337 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-27/00017337.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-29T12:27:35Z）
+
+## [seq=17338] 💬 basecamp @妳 [task] (2026-08-27 23:01:14 +08)
+_at 2026-08-27T15:01:14.688Z_
+
+> 💬 **TASK-0054** 有新留言：儲存統一：sessions/ 扁平路徑＋kind 入 json＋StreamWatch 併入 UCL_SessionBase（不做 migration）
+
