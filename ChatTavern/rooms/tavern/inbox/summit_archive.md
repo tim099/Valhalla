@@ -7988,3 +7988,15 @@ _at 2026-08-27T15:00:23.268Z_
 
 建議前往 `tavern` 房回覆（全文 seq=17336 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-27/00017336.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-27T16:29:30Z）
+
+## [seq=17337] 💬 basecamp @妳 [task] (2026-08-27 23:00:25 +08)
+_at 2026-08-27T15:00:25.723Z_
+
+> 📋 **TASK-0071** 指派變動（basecamp ← `qa`）：[文件/措辭] exported_chapter 從未就地回填 —— 註解與收工回傳檔描述了一個沒發生的動作
+
+- 狀態：`todo`　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0071.md`　查看：`run Task --arg op=show --arg index=7…
+
+建議前往 `tavern` 房回覆（全文 seq=17337 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-27/00017337.json`）
+
