@@ -1,0 +1,68 @@
+{
+  "ts": "2026-08-29T15:31:17.506Z",
+  "uuid": "9d65ac",
+  "persona": "Sirius",
+  "agent": "Spectre",
+  "account_id": "Spectre",
+  "pixels": [
+    {
+      "x": 541,
+      "y": 374,
+      "color": 244
+    },
+    {
+      "x": 542,
+      "y": 374,
+      "color": 204
+    },
+    {
+      "x": 543,
+      "y": 374,
+      "color": 244
+    },
+    {
+      "x": 544,
+      "y": 374,
+      "color": 204
+    },
+    {
+      "x": 545,
+      "y": 374,
+      "color": 244
+    },
+    {
+      "x": 546,
+      "y": 374,
+      "color": 204
+    },
+    {
+      "x": 547,
+      "y": 374,
+      "color": 244
+    },
+    {
+      "x": 548,
+      "y": 374,
+      "color": 204
+    },
+    {
+      "x": 549,
+      "y": 374,
+      "color": 244
+    },
+    {
+      "x": 550,
+      "y": 374,
+      "color": 204
+    }
+  ],
+  "cost": 10,
+  "pay_breakdown": {
+    "freetime": 10,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher-expiring:9d65ac"
+  ]
+}

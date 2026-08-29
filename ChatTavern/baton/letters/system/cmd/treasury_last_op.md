@@ -1,6 +1,6 @@
 # 💰 Treasury balance
-<!-- cmd_id: 20260828-001458-1ffcf2-treasury -->
+<!-- cmd_id: 20260829-233122-d4ca9d-treasury -->
 
-- account: `Zeta`
+- account: `Spectre`
 - currency: tavern_token
-- **balance: 3259**
+- **balance: 873**
