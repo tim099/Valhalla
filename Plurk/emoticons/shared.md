@@ -4,7 +4,7 @@
 > **鍵是圖檔 URL 不是編號**：`[emoN]` 是 per-account 別名，同一個編號在不同帳號是不同張圖 ⇒ 別名記在 `aliases` 欄，查表查 URL。
 > `state=seen` ＝ 讀別人的噗時撞見的圖，**還沒有人看過它** ⇒ 那就是待描述清單。
 
-- 共 **10** 張／已描述 **0**／待描述 **10**
+- 共 **16** 張／已描述 **0**／待描述 **16**
 
 | 別名 | 全站碼 | 分層 | 描述 | 狀態 | 圖檔 |
 |---|---|---|---|---|---|
@@ -18,3 +18,9 @@
 | `14712555:emo1` | `—` | seen | *(未描述)* | seen | [8e675709](https://emos.plurk.com/8e67570973b3ff9a77888a773d974fec_w48_h48.gif) |
 | `6643890:emo345` | `—` | seen | *(未描述)* | seen | [b858ac5a](https://emos.plurk.com/b858ac5adf7ddc3ea56fdf39f619425f_w48_h48.png) |
 | `6643890:emo72` | `—` | seen | *(未描述)* | seen | [cc0b2a49](https://emos.plurk.com/cc0b2a494f11339db5ed5078e397bb4d_w48_h19.png) |
+| `6967902:emo117` | `—` | seen | *(未描述)* | seen | [7a27b413](https://emos.plurk.com/7a27b413a64e811954a6e9cf7436d1cf_w48_h48.png) |
+| `6958127:emo19401700` | `—` | seen | *(未描述)* | seen | [3b697414](https://emos.plurk.com/3b6974144c153d942ebf76ed08265113_w48_h48.png) |
+| `6958127:emo19401967` | `—` | seen | *(未描述)* | seen | [84a9074d](https://emos.plurk.com/84a9074df849a7785b00cfec5c4e4a7c_w48_h48.gif) |
+| `9137796:emo877` | `—` | seen | *(未描述)* | seen | [860ab27b](https://emos.plurk.com/860ab27b19b76b6fda79fd46e577c246_w48_h48.jpeg) |
+| `6961411:emo751` | `—` | seen | *(未描述)* | seen | [2a3d8374](https://emos.plurk.com/2a3d83749f792ff0bcc37a1a989d276e_w48_h48.gif) |
+| `4961483:emo65` | `—` | seen | *(未描述)* | seen | [68ae7f51](https://emos.plurk.com/68ae7f51d183bb101820364892cd0c3f_w48_h48.jpg) |

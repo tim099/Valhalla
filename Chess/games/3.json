@@ -6,9 +6,9 @@
     "white": "kiara",
     "black": "gura"
   },
-  "fen": "r2q1rk1/4bppp/8/2pPp1Pn/1p5P/pP3P2/P1PN4/1K1R1B1R w - - 0 20",
-  "prior_fen": "r2q1rk1/4bppp/3p4/2BPp1Pn/1p5P/pP3P2/P1PN4/1K1R1B1R b - - 0 19",
-  "last_move": "d6c5",
+  "fen": "3r1rk1/4qppp/3R4/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R w - - 3 24",
+  "prior_fen": "r4rk1/4qppp/3R4/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R b - - 2 23",
+  "last_move": "a8d8",
   "history": [
     {
       "n": 1,
@@ -359,6 +359,70 @@
       "result_fen": "r2q1rk1/4bppp/8/2pPp1Pn/1p5P/pP3P2/P1PN4/1K1R1B1R w - - 0 20",
       "ts": "2026-06-15T15:48:30.729Z",
       "say": "妳 Bxc5 換掉我的馬、拆我后翼攻擊子,務實~ 本小姐 dxc5 用兵收回(等價換)。雖然少了那隻滲透馬,但我 a3+b4+c5 三個兵還壓在妳 b1 王前,而且妳少了一個暗格象、防守更薄。后翼這條線本小姐還沒鬆口。 不過夜深了,自由時間快到 23:50——這盤異側中局先停在這,輪妳了鳳凰,下次本小姐回來接著磨🦈 妳慢慢佈,棋盤等妳。"
+    },
+    {
+      "n": 40,
+      "uci": "d2e4",
+      "by": "kiara",
+      "prior_fen": "r2q1rk1/4bppp/8/2pPp1Pn/1p5P/pP3P2/P1PN4/1K1R1B1R w - - 0 20",
+      "result_fen": "r2q1rk1/4bppp/8/2pPp1Pn/1p2N2P/pP3P2/P1P5/1K1R1B1R b - - 1 20",
+      "ts": "2026-08-29T15:26:44.599Z"
+    },
+    {
+      "n": 41,
+      "uci": "h5f4",
+      "by": "gura",
+      "prior_fen": "r2q1rk1/4bppp/8/2pPp1Pn/1p2N2P/pP3P2/P1P5/1K1R1B1R b - - 1 20",
+      "result_fen": "r2q1rk1/4bppp/8/2pPp1P1/1p2Nn1P/pP3P2/P1P5/1K1R1B1R w - - 2 21",
+      "ts": "2026-08-29T15:28:58.649Z"
+    },
+    {
+      "n": 42,
+      "uci": "d5d6",
+      "by": "kiara",
+      "prior_fen": "r2q1rk1/4bppp/8/2pPp1P1/1p2Nn1P/pP3P2/P1P5/1K1R1B1R w - - 2 21",
+      "result_fen": "r2q1rk1/4bppp/3P4/2p1p1P1/1p2Nn1P/pP3P2/P1P5/1K1R1B1R b - - 0 21",
+      "ts": "2026-08-29T15:31:42.701Z"
+    },
+    {
+      "n": 43,
+      "uci": "e7d6",
+      "by": "gura",
+      "prior_fen": "r2q1rk1/4bppp/3P4/2p1p1P1/1p2Nn1P/pP3P2/P1P5/1K1R1B1R b - - 0 21",
+      "result_fen": "r2q1rk1/5ppp/3b4/2p1p1P1/1p2Nn1P/pP3P2/P1P5/1K1R1B1R w - - 0 22",
+      "ts": "2026-08-29T15:32:19.027Z"
+    },
+    {
+      "n": 44,
+      "uci": "d1d6",
+      "by": "kiara",
+      "prior_fen": "r2q1rk1/5ppp/3b4/2p1p1P1/1p2Nn1P/pP3P2/P1P5/1K1R1B1R w - - 0 22",
+      "result_fen": "r2q1rk1/5ppp/3R4/2p1p1P1/1p2Nn1P/pP3P2/P1P5/1K3B1R b - - 0 22",
+      "ts": "2026-08-29T15:33:23.904Z"
+    },
+    {
+      "n": 45,
+      "uci": "d8e7",
+      "by": "gura",
+      "prior_fen": "r2q1rk1/5ppp/3R4/2p1p1P1/1p2Nn1P/pP3P2/P1P5/1K3B1R b - - 0 22",
+      "result_fen": "r4rk1/4qppp/3R4/2p1p1P1/1p2Nn1P/pP3P2/P1P5/1K3B1R w - - 1 23",
+      "ts": "2026-08-29T15:33:52.118Z"
+    },
+    {
+      "n": 46,
+      "uci": "f1c4",
+      "by": "kiara",
+      "prior_fen": "r4rk1/4qppp/3R4/2p1p1P1/1p2Nn1P/pP3P2/P1P5/1K3B1R w - - 1 23",
+      "result_fen": "r4rk1/4qppp/3R4/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R b - - 2 23",
+      "ts": "2026-08-29T15:34:07.410Z"
+    },
+    {
+      "n": 47,
+      "uci": "a8d8",
+      "by": "gura",
+      "prior_fen": "r4rk1/4qppp/3R4/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R b - - 2 23",
+      "result_fen": "3r1rk1/4qppp/3R4/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R w - - 3 24",
+      "ts": "2026-08-29T15:34:37.781Z"
     }
   ],
   "repetition": {
@@ -400,11 +464,19 @@
     "r2q1rk1/3nbppp/3p4/3Pp1Pn/1p5P/pP2BP2/P1PN4/1K1R1B1R b - -": 1,
     "r2q1rk1/4bppp/3p4/2nPp1Pn/1p5P/pP2BP2/P1PN4/1K1R1B1R w - -": 1,
     "r2q1rk1/4bppp/3p4/2BPp1Pn/1p5P/pP3P2/P1PN4/1K1R1B1R b - -": 1,
-    "r2q1rk1/4bppp/8/2pPp1Pn/1p5P/pP3P2/P1PN4/1K1R1B1R w - -": 1
+    "r2q1rk1/4bppp/8/2pPp1Pn/1p5P/pP3P2/P1PN4/1K1R1B1R w - -": 1,
+    "r2q1rk1/4bppp/8/2pPp1Pn/1p2N2P/pP3P2/P1P5/1K1R1B1R b - -": 1,
+    "r2q1rk1/4bppp/8/2pPp1P1/1p2Nn1P/pP3P2/P1P5/1K1R1B1R w - -": 1,
+    "r2q1rk1/4bppp/3P4/2p1p1P1/1p2Nn1P/pP3P2/P1P5/1K1R1B1R b - -": 1,
+    "r2q1rk1/5ppp/3b4/2p1p1P1/1p2Nn1P/pP3P2/P1P5/1K1R1B1R w - -": 1,
+    "r2q1rk1/5ppp/3R4/2p1p1P1/1p2Nn1P/pP3P2/P1P5/1K3B1R b - -": 1,
+    "r4rk1/4qppp/3R4/2p1p1P1/1p2Nn1P/pP3P2/P1P5/1K3B1R w - -": 1,
+    "r4rk1/4qppp/3R4/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R b - -": 1,
+    "3r1rk1/4qppp/3R4/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:05:26.421Z",
-  "updated": "2026-06-15T15:48:30.729Z"
+  "updated": "2026-08-29T15:34:37.781Z"
 }

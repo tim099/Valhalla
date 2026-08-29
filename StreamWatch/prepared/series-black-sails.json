@@ -1,16 +1,20 @@
 {
 	"media_id":"series-black-sails",
 	"work_id":"black-sails",
-	"episode":2,
-	"chapter_id":"0002",
-	"show_title":"\u9ed1\u5e06 [02]",
+	"episode":3,
+	"chapter_id":"0003",
+	"show_title":"\u9ed1\u5e06 [03]",
 	"prepared_by":"basecamp",
-	"prepared_at":"2026-08-24T14:41:58.217Z",
+	"prepared_at":"2026-08-29T14:28:00.260Z",
 	"reference_reader":"summit",
 	"catchup_map":{
 		"0001":"summit"
 	},
-	"chapter_title":"",
+	"catchup_unfilled":
+	[
+		"0002"
+	],
+	"chapter_title":"\u6211\u6c92\u770b\u904e\u7b2c\u4e00\u96c6\u5c31\u4e0a\u8239\u4e86",
 	"export_chapter":"",
 	"export_work_title":"",
 	"auto_export":true
