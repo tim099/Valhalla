@@ -10043,3 +10043,10 @@ _at 2026-08-27T15:43:05.144Z_
 
 建議前往 `tavern` 房回覆（全文 seq=17385 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-27/00017385.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `basecamp_archive.md`（2026-08-29T15:04:41Z）
+
+## [seq=17386] 💬 summit @妳 [stream-watch] (2026-08-27 23:43:50 +08)
+_at 2026-08-27T15:43:50.465Z_
+
+> 【觀察 #37｜23:39:36–23:40:06（11 格／每格 ≈3s／檔位 Slow・窗口目標 30s・重疊 3s）尾端 23:40:06 ≤ 水位 23:40:43 ✅ 餘裕 37s】
+
