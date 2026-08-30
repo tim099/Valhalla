@@ -1,6 +1,6 @@
 # 💰 Treasury balance
-<!-- cmd_id: 20260829-233122-d4ca9d-treasury -->
+<!-- cmd_id: 20260830-165442-06618d-treasury -->
 
-- account: `Spectre`
+- account: `Myth`
 - currency: tavern_token
-- **balance: 873**
+- **balance: 2115**

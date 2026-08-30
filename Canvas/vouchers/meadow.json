@@ -1,6 +1,5 @@
 {
 	"persona":"meadow",
-	"balance":40,
 	"history":
 	[
 		{
@@ -18,6 +17,36 @@
 			"amount":10,
 			"source":"admin_grant",
 			"ref":"\u7e3e\u6548\u734e\u91d1"
+		},
+		{
+			"ts":"2026-08-30T08:50:51.035Z",
+			"uuid":"5670c8",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260830T085051Z-meadow",
+			"batch":"f06275",
+			"expires_at":"2026-08-30T09:01:00.000Z"
+		},
+		{
+			"ts":"2026-08-30T08:53:17.462Z",
+			"uuid":"5d6384",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"58d949"
+		}
+	],
+	"batches":
+	[
+		{
+			"uuid":"legacy",
+			"amount":40,
+			"remain":40,
+			"granted_at":"",
+			"expires_at":"",
+			"source":"legacy_balance",
+			"ref":"schema v1 \u7d14\u91cf balance \u8f49\u5165"
 		}
 	]
 }

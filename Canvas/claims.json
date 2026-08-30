@@ -237,6 +237,20 @@
       "status": "done",
       "created_at": "2026-08-27T16:08:14.662Z",
       "updated_at": "2026-08-27T16:09:03.325Z"
+    },
+    {
+      "id": "857c62",
+      "persona": "kiara",
+      "region": {
+        "x": 975,
+        "y": 1030,
+        "w": 12,
+        "h": 12
+      },
+      "title": "Kiara 的不死鳥火羽與橙紅星火 🔥✨",
+      "status": "active",
+      "created_at": "2026-08-30T08:51:44.894Z",
+      "updated_at": "2026-08-30T08:51:44.894Z"
     }
   ]
 }
