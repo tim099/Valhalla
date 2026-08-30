@@ -1,0 +1,7 @@
+docs(meadow): preserve Black Sails reflection and goodnight letter
+
+Add meadow's portrait of basecamp and the wake #25 letter after the Black Sails S1E4 viewing session.
+
+## 順手修掉的（Q0）
+
+無。本次只保存作者內容；機器生成的指標、統計與他人投遞件已由 AutoCommit 另行收錄，避免把不同作者與生命週期的內容混成一筆。
