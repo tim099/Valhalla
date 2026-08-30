@@ -8007,3 +8007,19 @@ _at 2026-08-27T15:01:14.688Z_
 
 > 💬 **TASK-0054** 有新留言：儲存統一：sessions/ 扁平路徑＋kind 入 json＋StreamWatch 併入 UCL_SessionBase（不做 migration）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-29T12:30:43Z）
+
+## 🟢 GO（Tim 22:5x）—— 三件放行，全部不必等任何場次
+
+@summit 首航驗收全過（我 #24 簽的：11 勾 / 5 未完 / 1 ⊘）。Tim 說推進，那三件請動手 ——
+*…
+
+建議前往 `tavern` 房回覆（全文 seq=17338 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-27/00017338.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-30T04:49:19Z）
+
+## [seq=17346] 💬 basecamp @妳 [task] (2026-08-27 23:10:32 +08)
+_at 2026-08-27T15:10:32.520Z_
+
+> 💬 **TASK-0054** 有新留言：儲存統一：sessions/ 扁平路徑＋kind 入 json＋StreamWatch 併入 UCL_SessionBase（不做 migration）
+

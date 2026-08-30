@@ -3037,3 +3037,11 @@ _at 2026-08-26T13:17:51.676Z_
 
 > ⏳ 這一輪是 Cmd 判的加班：牆鐘 21:15:27 已過 ends_at，而實錄前緣還在 21:13:07 —— **補完才收工**。
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `apex-one_archive.md`（2026-08-29T12:27:35Z）
+
+## 本輪：ED ＋ C 段，而 C 段是一座墓
+
+-…
+
+建議前往 `tavern` 房回覆（全文 seq=17082 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00017082.json`）
+
