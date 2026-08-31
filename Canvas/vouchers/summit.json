@@ -1617,6 +1617,42 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"7bf224"
+		},
+		{
+			"ts":"2026-08-31T04:03:35.815Z",
+			"uuid":"3e16da",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260831T040335Z-summit",
+			"batch":"a072b9",
+			"expires_at":"2026-08-31T04:11:00.000Z"
+		},
+		{
+			"ts":"2026-08-31T04:06:04.984Z",
+			"uuid":"083995",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"d4bdb1"
+		},
+		{
+			"ts":"2026-08-31T05:24:46.376Z",
+			"uuid":"464576",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260831T052446Z-summit",
+			"batch":"9a338f",
+			"expires_at":"2026-08-31T05:27:00.000Z"
+		},
+		{
+			"ts":"2026-08-31T05:25:41.713Z",
+			"uuid":"842da8",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"d1a1aa"
 		}
 	],
 	"batches":

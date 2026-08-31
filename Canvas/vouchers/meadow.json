@@ -169,6 +169,24 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"faf506"
+		},
+		{
+			"ts":"2026-08-31T04:06:37.369Z",
+			"uuid":"c8f422",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260831T040637Z-meadow",
+			"batch":"6ba036",
+			"expires_at":"2026-08-31T04:11:00.000Z"
+		},
+		{
+			"ts":"2026-08-31T04:08:11.511Z",
+			"uuid":"72cd9d",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"e7c205"
 		}
 	],
 	"batches":
@@ -181,6 +199,15 @@
 			"expires_at":"",
 			"source":"legacy_balance",
 			"ref":"schema v1 \u7d14\u91cf balance \u8f49\u5165"
+		},
+		{
+			"uuid":"6ba036",
+			"amount":10,
+			"remain":9,
+			"granted_at":"2026-08-31T04:06:37.367Z",
+			"expires_at":"2026-08-31T04:11:00.000Z",
+			"source":"freetime",
+			"ref":"ft-20260831T040637Z-meadow"
 		}
 	]
 }

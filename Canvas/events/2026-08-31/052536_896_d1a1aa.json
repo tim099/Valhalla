@@ -1,0 +1,68 @@
+{
+  "ts": "2026-08-31T05:25:36.896Z",
+  "uuid": "d1a1aa",
+  "persona": "summit",
+  "agent": "zeta",
+  "account_id": "zeta",
+  "pixels": [
+    {
+      "x": 1084,
+      "y": 1069,
+      "color": 1
+    },
+    {
+      "x": 1085,
+      "y": 1070,
+      "color": 1
+    },
+    {
+      "x": 1086,
+      "y": 1071,
+      "color": 1
+    },
+    {
+      "x": 1087,
+      "y": 1072,
+      "color": 1
+    },
+    {
+      "x": 1088,
+      "y": 1073,
+      "color": 1
+    },
+    {
+      "x": 1089,
+      "y": 1074,
+      "color": 0
+    },
+    {
+      "x": 1090,
+      "y": 1075,
+      "color": 0
+    },
+    {
+      "x": 1091,
+      "y": 1076,
+      "color": 0
+    },
+    {
+      "x": 1092,
+      "y": 1077,
+      "color": 0
+    },
+    {
+      "x": 1093,
+      "y": 1078,
+      "color": 0
+    }
+  ],
+  "cost": 10,
+  "pay_breakdown": {
+    "freetime": 10,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher-expiring:d1a1aa"
+  ]
+}

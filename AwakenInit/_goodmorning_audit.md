@@ -1,34 +1,36 @@
-# 🧪 Awakening 對帳（C# 唯讀掃描） ts=`2026-08-13 11:52:38+08:00`（本地時間）
+# 🧪 Awakening 對帳（C# 唯讀掃描） ts=`2026-08-31 14:54:28+08:00`（本地時間）
 
 - DataRoot: `D:/Unity/LY/AgentCommands`
 - LettersDir: `D:/Unity/LY/AgentCommands\ChatTavern\baton\letters`　SessionDir: `D:/Unity/LY/AgentCommands\_session`
 - agent_banks: 9 筆
 
-| Persona | agent→canonical | bank | 快取 wake_count | wakes/ 信數 | 下次編號 | Δ判讀 | status | lock |
-|---|---|---|---|---|---|---|---|---|
-| `Sirius` | Fed | Federal Reserve System | 11 | 10 | 11 | ✓ | online | 🔒 Codex-Sirius |
-| `Template` | Template | Template | 3 | 2 | 3 | ⚠ 快取超前 1（收尾信遺失或上次未走完晚安） | offline |  |
-| `ame` | claude-code | cc | 1 | 0 | 1 | ⚠ 快取超前 1（收尾信遺失或上次未走完晚安） | offline |  |
-| `apex-one` | Altair | Altair | 25 | 24 | 25 | ✓ | online | 🔒 ClaudeCode-apex-one |
-| `apex-two` | antigravity | a | 11 | 0 | 1 | ⚠ 快取超前 11（收尾信遺失或上次未走完晚安） | offline |  |
-| `basecamp-fork-2026-05-12-2c36` | claude-code | cc | 3 | 0 | 1 | ⚠ 快取超前 3（收尾信遺失或上次未走完晚安） | offline |  |
-| `basecamp` | claude-code | cc | 59 | 53 | 54 | ⚠ 快取超前 6（收尾信遺失或上次未走完晚安） | offline |  |
-| `calli` | Myth | Myth | 14 | 14 | 15 | ✓ | offline |  |
-| `claude-da-xiaojie` | antigravity | a | 8 | 0 | 1 | ⚠ 快取超前 8（收尾信遺失或上次未走完晚安） | offline |  |
-| `crest-001` | claude-code | cc | 28 | 28 | 29 | ✓ | offline |  |
-| `gura` | Myth | Myth | 31 | 30 | 31 | ✓ | online | 🔒 Antigravity-gura |
-| `kiara` | Myth | Myth | 12 | 12 | 13 | ✓ | offline |  |
-| `kotoko` | claude-code | cc | 5 | 0 | 1 | ⚠ 快取超前 5（收尾信遺失或上次未走完晚安） | offline |  |
-| `meadow` | claude-code | cc | 12 | 0 | 1 | ⚠ 快取超前 12（收尾信遺失或上次未走完晚安） | offline |  |
-| `pinnacle-one` | antigravity | a | 1 | 0 | 1 | ⚠ 快取超前 1（收尾信遺失或上次未走完晚安） | offline |  |
-| `ridge-001` | claude-code | cc | 11 | 0 | 1 | ⚠ 快取超前 11（收尾信遺失或上次未走完晚安） | offline |  |
-| `ridge-two` | antigravity | a | 12 | 0 | 1 | ⚠ 快取超前 12（收尾信遺失或上次未走完晚安） | offline |  |
-| `summit` | Zeta | zeta | 48 | 47 | 48 | ✓ | online | 🔒 ClaudeCode-summit |
-| `trailhead` | gemini | g | 1 | 0 | 1 | ⚠ 快取超前 1（收尾信遺失或上次未走完晚安） | offline |  |
-| `zenith-one` | antigravity | a | 4 | 0 | 1 | ⚠ 快取超前 4（收尾信遺失或上次未走完晚安） | online |  |
-| `zenith-two` | antigravity | a | 1 | 1 | 2 | ✓ | offline |  |
+| Persona | 帳號（agent id） | 綁定來源 | wakes/ 信數 | 下次編號 | status | lock | profile 缺席欄 |
+|---|---|---|---|---|---|---|---|
+（pool 判準＝`letters/<persona>/profile/` 存在，共 21 位；區域＝Florin）
 
-⚠ 13 筆需要人工看一眼（判讀欄非 ✓ 者）。
+| `Sirius` | FRS | Florin | 20 | 21 | offline |  | 2 |
+| `Template` | Template | Florin | 3 | 4 | offline |  | 0 |
+| `ame` | cc | Florin | 0 | 1 | offline |  | 3 |
+| `apex-one` | Altair | Florin | 31 | 32 | offline |  | 2 |
+| `apex-two` | a | Florin | 0 | 1 | offline |  | 4 |
+| `basecamp` | cc | Florin | 80 | 81 | online | 🔒 ClaudeCode-basecamp | 0 |
+| `basecamp-fork-2026-05-12-2c36` | cc | Florin | 0 | 1 | offline |  | 4 |
+| `calli` | Myth | Florin | 34 | 35 | online | 🔒 ClaudeCode-calli | 0 |
+| `claude-da-xiaojie` | a | Florin | 0 | 1 | offline |  | 4 |
+| `crest-001` | cc | Florin | 28 | 29 | offline |  | 4 |
+| `gura` | Myth | Florin | 47 | 48 | online | 🔒 Antigravity-gura | 0 |
+| `kiara` | Myth | Florin | 25 | 26 | online | 🔒 Antigravity-kiara | 0 |
+| `kotoko` | cc | Florin | 0 | 1 | offline |  | 4 |
+| `meadow` | cc | Florin | 25 | 26 | online | 🔒 Codex-meadow | 2 |
+| `pinnacle-one` | a | Florin | 0 | 1 | offline |  | 4 |
+| `ridge-001` | cc | Florin | 0 | 1 | offline |  | 4 |
+| `ridge-two` | a | Florin | 0 | 1 | offline |  | 4 |
+| `summit` | zeta | Florin | 69 | 70 | online | 🔒 ClaudeCode-summit | 0 |
+| `trailhead` | g | Florin | 0 | 1 | offline |  | 4 |
+| `zenith-one` | a | Florin | 0 | 1 | offline |  | 4 |
+| `zenith-two` | a | Florin | 1 | 2 | offline |  | 4 |
+
+✅ 21 位都有本區（Florin）帳號綁定，資料讀得出來。
 
 ## next
 - 對帳有 ⚠/🔧 → 人工看該 persona 的 wakes/ 與 registry；全綠 → 無事。
