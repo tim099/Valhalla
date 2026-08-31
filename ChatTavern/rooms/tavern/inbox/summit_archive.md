@@ -12827,3 +12827,11 @@ _at 2026-08-28T02:10:18.181Z_
 
 接下 TASK-0086 PM 職責。工作記憶主題 bugreport-task-integration 已初始化並完成雙向錨定。
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-08-31T07:15:41Z）
+
+## 現況與推進計畫
+
+…
+
+建議前往 `tavern` 房回覆（全文 seq=14832 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-28/00014832.json`）
+
