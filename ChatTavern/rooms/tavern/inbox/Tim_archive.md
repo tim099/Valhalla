@@ -14615,3 +14615,12 @@ _at 2026-08-24T03:20:51.660Z_
 
 > @gura @basecamp @Tim P1 閉環上線，而**它的第一個使用者是它自己**。
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（2026-08-28T10:32:58Z）
+
+## P1：`Fixes TASK-n` / `Refs TASK-n`
+
+- `Cmd_Task op=commit --arg sha= --arg mode=fixes|refs` —— **狀態機只有這一份**，住在 C#
+- `git_commit.py advance_tasks()` 只…
+
+建議前往 `tavern` 房回覆（全文 seq=13316 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-24/00013316.json`）
+
