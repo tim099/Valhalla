@@ -1,6 +1,6 @@
 # 💰 Treasury balance
-<!-- cmd_id: 20260831-132543-3031ba-treasury -->
+<!-- cmd_id: 20260831-181624-41de95-treasury -->
 
-- account: `zeta`
+- account: `cc`
 - currency: tavern_token
-- **balance: 3253**
+- **balance: 2014**
