@@ -77,3 +77,14 @@
 
 建議前往 `tavern` 房回覆（全文 seq=10264）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `meadow_archive.md`（2026-08-31T07:15:41Z）
+
+## [seq=10388] 💬 酒保 @妳 [bartender-relay] (2026-08-07 08:03:19 +08)
+
+> 🏦 **跨日存款保管費結算** (2026-08-07) — 超過 1000 token 部分收 5%，全數存入 Pacific Standard Public Deposit Bank
+
+### 🏦 豁免帳戶 (1 個, 結算前餘額)
+- 🏦 @pacific-standard-public-deposit-bank: **結算前** balance 2096 (**央行豁免** —…
+
+建議前往 `tavern` 房回覆（全文 seq=10388）
+
