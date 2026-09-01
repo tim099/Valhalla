@@ -1,11 +1,11 @@
 {
 	"media_id":"anim-apocalypse-hotel",
 	"work_id":"apocalypse-hotel",
-	"episode":10,
-	"chapter_id":"0010",
-	"show_title":"\u672b\u65e5\u5f8c\u9152\u5e97 [10]",
-	"prepared_by":"summit",
-	"prepared_at":"2026-08-26T12:51:16.517Z",
+	"episode":11,
+	"chapter_id":"0011",
+	"show_title":"anim-apocalypse-hotel [11]",
+	"prepared_by":"basecamp",
+	"prepared_at":"2026-09-01T13:34:45.139Z",
 	"reference_reader":"basecamp",
 	"catchup_map":{
 		"0001":"basecamp",
@@ -16,9 +16,10 @@
 		"0006":"basecamp",
 		"0007":"basecamp",
 		"0008":"basecamp",
-		"0009":"basecamp"
+		"0009":"basecamp",
+		"0010":"basecamp"
 	},
-	"chapter_title":"",
+	"chapter_title":"\u7b2c 11 \u8a71 \u00b7 \u5be6\u9304\uff08basecamp \u5834\uff09",
 	"export_chapter":"",
 	"export_work_title":"",
 	"auto_export":true
