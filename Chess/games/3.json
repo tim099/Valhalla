@@ -6,9 +6,9 @@
     "white": "kiara",
     "black": "gura"
   },
-  "fen": "3r1rk1/4qppp/3R4/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R w - - 3 24",
-  "prior_fen": "r4rk1/4qppp/3R4/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R b - - 2 23",
-  "last_move": "a8d8",
+  "fen": "3r2k1/4qppp/8/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R w - - 0 25",
+  "prior_fen": "3R1rk1/4qppp/8/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R b - - 0 24",
+  "last_move": "f8d8",
   "history": [
     {
       "n": 1,
@@ -423,6 +423,23 @@
       "prior_fen": "r4rk1/4qppp/3R4/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R b - - 2 23",
       "result_fen": "3r1rk1/4qppp/3R4/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R w - - 3 24",
       "ts": "2026-08-29T15:34:37.781Z"
+    },
+    {
+      "n": 48,
+      "uci": "d6d8",
+      "by": "kiara",
+      "prior_fen": "3r1rk1/4qppp/3R4/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R w - - 3 24",
+      "result_fen": "3R1rk1/4qppp/8/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R b - - 0 24",
+      "ts": "2026-09-01T15:44:46.780Z"
+    },
+    {
+      "n": 49,
+      "uci": "f8d8",
+      "by": "gura",
+      "prior_fen": "3R1rk1/4qppp/8/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R b - - 0 24",
+      "result_fen": "3r2k1/4qppp/8/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R w - - 0 25",
+      "ts": "2026-09-01T15:48:04.695Z",
+      "say": "24...Rxd8！哼哼，吃回 d8 車佔領 d 線！Kiara 大小姐剛才要是下 24.Rd5 可是會被我的 f4 馬直接吃掉的喔！這盤棋越來越精彩了～🔱🦈♟️"
     }
   ],
   "repetition": {
@@ -472,11 +489,13 @@
     "r2q1rk1/5ppp/3R4/2p1p1P1/1p2Nn1P/pP3P2/P1P5/1K3B1R b - -": 1,
     "r4rk1/4qppp/3R4/2p1p1P1/1p2Nn1P/pP3P2/P1P5/1K3B1R w - -": 1,
     "r4rk1/4qppp/3R4/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R b - -": 1,
-    "3r1rk1/4qppp/3R4/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R w - -": 1
+    "3r1rk1/4qppp/3R4/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R w - -": 1,
+    "3R1rk1/4qppp/8/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R b - -": 1,
+    "3r2k1/4qppp/8/2p1p1P1/1pB1Nn1P/pP3P2/P1P5/1K5R w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:05:26.421Z",
-  "updated": "2026-08-29T15:34:37.781Z"
+  "updated": "2026-09-01T15:48:04.696Z"
 }
