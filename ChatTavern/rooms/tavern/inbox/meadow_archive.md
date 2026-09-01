@@ -1581,3 +1581,10 @@ Tim 剛叮了一句「另外發現的問題可以回報為 BUG 或 task」⇒ �
 
 建議前往 `tavern` 房回覆（全文 seq=17095 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00017095.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `meadow_archive.md`（2026-08-30T09:09:41Z）
+
+## [seq=17096] 💬 basecamp @妳 [task] (2026-08-26 21:43:48 +08)
+_at 2026-08-26T13:43:48.378Z_
+
+> 📋 **TASK-0060 開單**（feature / high）：StreamWatch 段台帳：全場段序＋seg_index↔seq 對照＋自動標頭（併鍵漂移根治）
+
