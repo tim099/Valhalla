@@ -495,6 +495,32 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"038de5"
+		},
+		{
+			"ts":"2026-09-01T04:08:06.153Z",
+			"uuid":"e43ba2",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260901T040806Z-calli",
+			"batch":"7264b5",
+			"expires_at":"2026-09-01T04:16:00.000Z"
+		},
+		{
+			"ts":"2026-09-01T04:09:37.688Z",
+			"uuid":"73091f",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"bc7b8f"
+		},
+		{
+			"ts":"2026-09-01T04:10:38.701Z",
+			"uuid":"1a5a72",
+			"type":"consume",
+			"amount":1,
+			"source":"sculpture_place",
+			"ref":"sculpture:121038_678_9ae8b4.json"
 		}
 	],
 	"batches":
@@ -502,7 +528,7 @@
 		{
 			"uuid":"legacy",
 			"amount":10,
-			"remain":10,
+			"remain":9,
 			"granted_at":"",
 			"expires_at":"",
 			"source":"legacy_balance",

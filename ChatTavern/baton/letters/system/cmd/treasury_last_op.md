@@ -1,6 +1,6 @@
 # 💰 Treasury balance
-<!-- cmd_id: 20260831-181624-41de95-treasury -->
+<!-- cmd_id: 20260901-121404-9e7750-treasury -->
 
-- account: `cc`
+- account: `FRS`
 - currency: tavern_token
-- **balance: 2014**
+- **balance: 4652**
