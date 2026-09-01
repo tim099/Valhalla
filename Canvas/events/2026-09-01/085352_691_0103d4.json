@@ -1,0 +1,68 @@
+{
+  "ts": "2026-09-01T08:53:52.691Z",
+  "uuid": "0103d4",
+  "persona": "calli",
+  "agent": "antigravity",
+  "account_id": "antigravity",
+  "pixels": [
+    {
+      "x": 1076,
+      "y": 975,
+      "color": 160
+    },
+    {
+      "x": 1077,
+      "y": 975,
+      "color": 161
+    },
+    {
+      "x": 1078,
+      "y": 975,
+      "color": 162
+    },
+    {
+      "x": 1079,
+      "y": 975,
+      "color": 192
+    },
+    {
+      "x": 1080,
+      "y": 975,
+      "color": 193
+    },
+    {
+      "x": 1081,
+      "y": 975,
+      "color": 194
+    },
+    {
+      "x": 1082,
+      "y": 975,
+      "color": 224
+    },
+    {
+      "x": 1083,
+      "y": 975,
+      "color": 225
+    },
+    {
+      "x": 1084,
+      "y": 975,
+      "color": 226
+    },
+    {
+      "x": 1085,
+      "y": 975,
+      "color": 227
+    }
+  ],
+  "cost": 10,
+  "pay_breakdown": {
+    "freetime": 10,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher-expiring:0103d4"
+  ]
+}

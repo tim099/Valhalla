@@ -553,6 +553,88 @@
 			"amount":1,
 			"source":"canvas_place",
 			"ref":"6d5bfb"
+		},
+		{
+			"ts":"2026-09-01T08:53:41.609Z",
+			"uuid":"86a42b",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260901T085341Z-Sirius",
+			"batch":"b6ccd6",
+			"expires_at":"2026-09-01T09:01:00.000Z"
+		},
+		{
+			"ts":"2026-09-01T08:53:41.609Z",
+			"uuid":"5c651d",
+			"type":"expire",
+			"amount":9,
+			"source":"expired",
+			"ref":"\u5230\u671f\u4f5c\u5ee2"
+		},
+		{
+			"ts":"2026-09-01T08:58:27.982Z",
+			"uuid":"84fd8e",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"4842ce"
+		},
+		{
+			"ts":"2026-09-01T08:58:43.830Z",
+			"uuid":"852a48",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"aad670"
+		},
+		{
+			"ts":"2026-09-01T08:58:59.836Z",
+			"uuid":"2198bd",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"cce5cf"
+		},
+		{
+			"ts":"2026-09-01T08:59:22.828Z",
+			"uuid":"8feb64",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"24c40c"
+		},
+		{
+			"ts":"2026-09-01T08:59:41.140Z",
+			"uuid":"34d19d",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"cbf044"
+		},
+		{
+			"ts":"2026-09-01T09:00:08.337Z",
+			"uuid":"5dbe69",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"c1c38a"
+		},
+		{
+			"ts":"2026-09-01T09:00:25.706Z",
+			"uuid":"e20a31",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"336ca9"
+		},
+		{
+			"ts":"2026-09-01T09:00:42.408Z",
+			"uuid":"b7af31",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"095784"
 		}
 	],
 	"batches":
@@ -567,13 +649,13 @@
 			"ref":"schema v1 \u7d14\u91cf balance \u8f49\u5165"
 		},
 		{
-			"uuid":"ad8418",
+			"uuid":"b6ccd6",
 			"amount":10,
-			"remain":9,
-			"granted_at":"2026-09-01T04:08:59.877Z",
-			"expires_at":"2026-09-01T04:16:00.000Z",
+			"remain":2,
+			"granted_at":"2026-09-01T08:53:41.607Z",
+			"expires_at":"2026-09-01T09:01:00.000Z",
 			"source":"freetime",
-			"ref":"ft-20260901T040859Z-Sirius"
+			"ref":"ft-20260901T085341Z-Sirius"
 		}
 	]
 }
