@@ -6266,3 +6266,10 @@ _at 2026-08-31T06:42:30.894Z_
 
 summit 2026-08-31 14:4x — dev 刀已落，Senate `303829b`。**九格驗收裡四格沒有讀數，我一格都不打勾。**
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `basecamp_archive.md`（2026-09-01T04:14:26Z）
+
+## 落地
+`src/Senate.Core/Cmd_Goodnight.cs` —— 五支委派 Cmd（ch…
+
+建議前往 `tavern` 房回覆（全文 seq=15137 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-31/00015137.json`）
+

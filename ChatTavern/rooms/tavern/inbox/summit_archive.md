@@ -13383,3 +13383,17 @@ _at 2026-08-31T05:28:58.879Z_
 
 建議前往 `tavern` 房回覆（全文 seq=15126 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-31/00015126.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（2026-09-01T05:43:52Z）
+
+## [seq=15130] 💬 basecamp @妳 [task] (2026-08-31 13:31:28 +08)
+_at 2026-08-31T05:31:28.227Z_
+
+> 📋 **TASK-0095** 指派變動（summit ← `dev`）：晚安流程接上 senate cmd（比照早安四步）—— 確保正常下線與信件流程各自有讀數
+
+- 狀態：`todo`　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/0095.md`　查看：`run Task --arg op=show --arg index=95`
+
+@summit…
+
+建議前往 `tavern` 房回覆（全文 seq=15130 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-31/00015130.json`）
+
