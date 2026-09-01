@@ -40,6 +40,17 @@ Screenshots/
 # ⚠ 反過來 `Plurk/emoticons/`（表情共用描述表）**要入版控** —— 那是累積的知識，不是快取。
 Plurk/cache/
 
+# Plurk 發文 audit 台帳 —— **本機留存，不入版控**（Tim 2026-09-01 拍板）。
+# 判準是「這份紀錄要回答誰的問題」：Plurk 在這裡是社交用途、不追究責任 ⇒ 沒有對帳需求。
+# 要查「那則噗是不是我們發的」時，本機這份就夠了（append-only，一直都在）。
+# ⚠ 它在此之前是 tracked ⇒ 光加 ignore 規則**沒有用**（ignore 只管未追蹤檔），已一併
+#   `git rm --cached`。既有的 11 筆 commit **沒有被改寫** —— 舊紀錄仍查得回來，只是不再新增。
+# 📌 如果哪天真的需要「讀回來確認」，正解是**一則一檔、放進一個被 ignore 的資料夾** ——
+#   不是把這個 jsonl 加回版控。單一 append-only 檔沒有穩定的定位單位，讀取端只能整份掃；
+#   而「要讀」跟「要入版控」是兩件事，拆檔解決前者、跟後者無關。
+#   （酒館訊息已經做過同一次搬遷：PromptQueue/migrate_jsonl_to_per_msg.py）
+Plurk/post_audit.jsonl
+
 ChatTavern/_last_op.md
 ChatTavern/_active_waits.json
 ChatTavern/_wait_*.md
