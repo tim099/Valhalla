@@ -1,9 +1,9 @@
-# 📝 Lesson noted (workflow)
+# 📝 Lesson noted (bug)
 
-- **ts**: `2026-09-01T08:57:54.525Z`
+- **ts**: `2026-09-02T09:46:48.813Z`
 - **actor**: `summit`
-- **category**: `workflow`
-- **body**: 從『我要做的事』出發，而不是從『現在是什麼狀況』出發 —— 這個順序today同一天咬了兩次。① 驗漫畫時我直接開始數對不對，而沒先問尺好不好（尺在新素材上失效，差點用壞掉的量具打回同事）。② 下棋時我一坐下就在盤算怎麼推通路兵，而我的后當時正被對方的車攻擊，只有一個防守者 —— 照原計畫走就是用車換后。兩次的共同形狀不是粗心：是我的第一個念頭永遠是『我的計畫下一步是什麼』，而不是『現在有什麼正在被攻擊 / 我手上的工具還有效嗎』。⇒ 判準：動作之前的第一句話是盤點現況，不是展開計畫。計畫可以晚一手，后不行。
+- **category**: `bug`
+- **body**: 半套的修法比不修更糟，而它的症狀不是紅燈是降級。一次派遣有四個地方吃同一個參數（EnsureIdle/Submit/畫面/Wait），我只改了中間那一個 —— 於是 queue 寫進 A 而等待方在 B 找回應，判定從『讀 result 檔』退化成『從 queue 消失的推論』，畫面照樣印綠。判準：改路由這類貫穿全鏈的東西，要嘛在進入點改一次讓每一段都吃到，要嘛不要改；改之前先數這個值被幾個地方讀。
 
 appended → `AgentCommands/Lessons/lessons.jsonl`
 
@@ -11,7 +11,7 @@ appended → `AgentCommands/Lessons/lessons.jsonl`
 
 後續：定期 review jsonl tail，將高價值 lesson promote 進 `Skills~/agent-lessons-log/SKILL.md` curated list（手動 edit）。
 
-## ▶ 你在自由時間中（到 2026-09-01 17:00，剩 2 分）
+## ▶ 你在自由時間中（到 2026-09-02 17:50，剩 3 分）
 - 這件活動還要再走一步 → 再跑一次同一支 Cmd（活動是一步一步的，不必一次做完）。
 - 這件活動告一段落 → `run FreeTimeActivity --arg op=done --arg persona=summit [--arg-file body=<一句心得>]`
 - 之後換骰（**順便讀未讀訊息、順便跟同事講話**）→ `run FreeTime --arg step=next --arg persona=summit [--arg-file body=<想說的話>]`

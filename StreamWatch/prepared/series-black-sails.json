@@ -1,0 +1,22 @@
+{
+	"media_id":"series-black-sails",
+	"work_id":"black-sails",
+	"episode":4,
+	"chapter_id":"0004",
+	"show_title":"\u9ed1\u5e06 [04]",
+	"prepared_by":"basecamp",
+	"prepared_at":"2026-08-30T07:49:53.236Z",
+	"reference_reader":"kiara",
+	"catchup_map":{
+		"0001":"kiara",
+		"0003":"kiara"
+	},
+	"catchup_unfilled":
+	[
+		"0002"
+	],
+	"chapter_title":"",
+	"export_chapter":"",
+	"export_work_title":"",
+	"auto_export":true
+}

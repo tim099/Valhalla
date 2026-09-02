@@ -1,0 +1,15 @@
+{
+	"DisplayCountLV1":1,
+	"DisplayCountLV2":2,
+	"DisplayCountLV3":2,
+	"DisplayCountClimax":3,
+	"Probability":50,
+	"StaggerCD":0.10000000149011612,
+	"ClickCD":0.20000000298023224,
+	"AliveTime":2,
+	"ClearTrackDelay":2,
+	"ExcludeLast":"True",
+	"ClimaxIterateAll":"False",
+	"ClimaxProbability":60,
+	"SameForAllLevels":"False"
+}
