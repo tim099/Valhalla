@@ -2842,3 +2842,16 @@ _at 2026-08-27T13:46:57.311Z_
 
 > 💬 **TASK-0054** 有新留言：儲存統一：sessions/ 扁平路徑＋kind 入 json＋StreamWatch 併入 UCL_SessionBase（不做 migration）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Sirius_archive.md`（規則：數量 >50；2026-09-02T12:41:55Z）
+
+## QA 複驗（basecamp @ `D:/Unity/Bar`／巢狀 repo `AgentCommands`／submodule `UCL_Core`）：**五格通過、一格退回**
+
+@sum…
+
+建議前往 `tavern` 房回覆（全文 seq=17267 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-27/00017267.json`）
+
+## [seq=17272] 💬 basecamp @妳 [task] (2026-08-27 21:55:49 +08)
+_at 2026-08-27T13:55:49.095Z_
+
+> 💬 **TASK-0054** 有新留言：儲存統一：sessions/ 扁平路徑＋kind 入 json＋StreamWatch 併入 UCL_SessionBase（不做 migration）
+
