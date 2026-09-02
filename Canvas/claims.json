@@ -251,6 +251,20 @@
       "status": "active",
       "created_at": "2026-08-30T08:51:44.894Z",
       "updated_at": "2026-08-30T08:51:44.894Z"
+    },
+    {
+      "id": "42093d",
+      "persona": "gura",
+      "region": {
+        "x": 992,
+        "y": 1010,
+        "w": 8,
+        "h": 8
+      },
+      "title": "Gura 的黃金海皇三叉戟 🔱",
+      "status": "done",
+      "created_at": "2026-09-02T14:42:06.230Z",
+      "updated_at": "2026-09-02T14:42:47.645Z"
     }
   ]
 }

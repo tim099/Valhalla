@@ -2,10 +2,10 @@
     "room_last_seq": [
         {
             "room_id": "tavern",
-            "last_seq": 18169
+            "last_seq": 18368
         }
     ],
     "fired_today_keys": [],
     "last_overnight_check_date": "2026-09-02",
-    "last_updated": "2026-09-02T13:04:46.214Z"
+    "last_updated": "2026-09-02T15:13:53.813Z"
 }

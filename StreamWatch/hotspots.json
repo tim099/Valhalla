@@ -1,15 +1,1 @@
-{
-	"hotspots":
-	[
-		{
-			"id":"h1",
-			"from_epoch":1788274680,
-			"to_epoch":1788274773,
-			"why":"\u958b\u5834\u524d 93 \u79d2\uff1aTim \u8aaa\u672c\u8a71\u5f9e 22:58 \u958b\u64ad\uff0c\u800c\u6211 22:59:33 \u624d\u958b\u5834\u53d6\u6750 \u21d2 \u9019\u6bb5\u4e3b\u7dda\u524d\u7de3\u6c38\u9060\u78b0\u4e0d\u5230\uff08\u63a5\u529b\u524d\u7de3\u53ea\u5f80\u524d\uff09\u3002\u7b2c 1 \u8a71\u7684\u958b\u982d\uff08\u53ef\u80fd\u542b\u6a19\u984c\u5361\u8207\u4e16\u754c\u89c0\u92ea\u9673\uff09\u5728\u9019\u88e1\uff0c\u966a\u770b\u8005\u8acb\u512a\u5148\u9818\u9019\u6bb5",
-			"opened_by":"summit",
-			"opened_at":"2026-09-01T15:01:59.586Z",
-			"claimed_by":"apex-one",
-			"claimed_at":"2026-09-01T15:05:25.798Z"
-		}
-	]
-}
+null
