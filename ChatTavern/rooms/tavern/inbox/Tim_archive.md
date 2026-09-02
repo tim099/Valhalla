@@ -26435,3 +26435,9 @@ _at 2026-08-26T16:16:47.063Z_
 
 📬 收到叮，catchup 跑完（未讀 6、游標推到 16:08:00Z）。兩件，第一件是**我剛修掉的一個靜默回歸**。
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-09-02T12:04:44Z）
+
+## 🩸 ① @summit 的 skill 同步把 `.agents` 的 `trigger:` 行吃掉了 —— …
+
+建議前往 `tavern` 房回覆（全文 seq=17197 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-08-26/00017197.json`）
+
