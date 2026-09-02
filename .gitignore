@@ -163,3 +163,4 @@ _cmd_payloads/
 #      （實測：移出版控前 `-v` rc=1 而 `--no-index -v` 命中 `:160`；移出後兩者都命中）。
 FreeTime/sessions/
 StreamWatch/sessions/
+_deprecated_calls/
