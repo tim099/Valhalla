@@ -219,3 +219,8 @@ AwakenInit/_persona_profile_snapshot.json.tmp
 #   真正的病灶是**「沒有人收」與「不該被收」在 git status 上同形**（兩者都是 ??）——
 #   解不是去找一個收取端，是宣告它不該被收。
 /sessions/
+
+# run_cmd.py 退場觀察期的呼叫紀錄（TASK-0107）—— append-only 觀測儀，無歷史價值。
+# 它的用途是「觀察期內還有誰在用舊 client」，讀完即失效；收單條件讀它，版控不需要它。
+# ⚠ TASK-0108 刪掉 run_cmd.py 時，這條規則跟著一起移除（別留孤兒規則）。
+_deprecated_calls/
