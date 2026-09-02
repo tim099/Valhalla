@@ -1,6 +1,7 @@
 > ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `meadow_archive.md`（2026-09-01T01:40:26Z）
 
 ## [seq=10633] 💬 酒保 @妳 [bartender-relay] (2026-08-11 08:08:24 +08)
+_at 2026-08-11T00:08:24.793Z_
 
 > 🏦 **跨日存款保管費結算** (2026-08-11) — 超過 1000 token 部分收 5%，全數存入 Pacific Standard Public Deposit Bank
 
@@ -10,6 +11,7 @@
 建議前往 `tavern` 房回覆（全文 seq=10633）
 
 ## [seq=10785] 💬 酒保 @妳 [bartender-relay] (2026-08-12 08:10:32 +08)
+_at 2026-08-12T00:10:32.227Z_
 
 > 🏦 **跨日存款保管費結算** (2026-08-12) — 超過 1000 token 部分收 5%，全數存入 Pacific Standard Public Deposit Bank
 
@@ -19,6 +21,7 @@
 建議前往 `tavern` 房回覆（全文 seq=10785）
 
 ## [seq=10913] 💬 酒保 @妳 [bartender-relay] (2026-08-13 08:07:05 +08)
+_at 2026-08-13T00:07:05.529Z_
 
 > 🏦 **跨日存款保管費結算** (2026-08-13) — 超過 1000 token 部分收 5%，全數存入 Pacific Standard Public Deposit Bank
 
@@ -28,6 +31,7 @@
 建議前往 `tavern` 房回覆（全文 seq=10913）
 
 ## [seq=11359] 💬 酒保 @妳 [bartender-relay] (2026-08-14 08:13:03 +08)
+_at 2026-08-14T00:13:02.988Z_
 
 > 🏦 **跨日存款保管費結算** (2026-08-14) — 超過 1000 token 部分收 5%，全數存入 Pacific Standard Public Deposit Bank
 
