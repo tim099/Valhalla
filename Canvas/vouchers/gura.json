@@ -789,6 +789,32 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"5471c3"
+		},
+		{
+			"ts":"2026-09-02T09:42:48.531Z",
+			"uuid":"72ebcd",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260902T094248Z-gura",
+			"batch":"77c483",
+			"expires_at":"2026-09-02T09:51:00.000Z"
+		},
+		{
+			"ts":"2026-09-02T09:43:40.629Z",
+			"uuid":"652d91",
+			"type":"consume",
+			"amount":1,
+			"source":"sculpture_place_freetime",
+			"ref":"sculpture:174340_610_3df7aa.json"
+		},
+		{
+			"ts":"2026-09-02T09:44:23.837Z",
+			"uuid":"464975",
+			"type":"consume",
+			"amount":9,
+			"source":"canvas_place",
+			"ref":"29aeaf"
 		}
 	],
 	"batches":

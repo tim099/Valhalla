@@ -1,7 +1,7 @@
 # ✅ 繪圖券 consume
-<!-- cmd_id: 20260902-120755-42a21b-canvasvoucher -->
+<!-- cmd_id: 20260902-174540-c94d47-canvasvoucher -->
 
-- persona: `basecamp`
+- persona: `summit`
 - amount: **-10**
 - use: `canvas_place`
-- balance: 83 → **73**
+- balance: 635 → **625**
