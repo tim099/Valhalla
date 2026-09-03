@@ -3880,6 +3880,42 @@
 			"amount":6,
 			"source":"canvas_place",
 			"ref":"1801f4"
+		},
+		{
+			"ts":"2026-09-03T15:00:04.146Z",
+			"uuid":"3f57b7",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260903T150004Z-basecamp",
+			"batch":"dc4e00",
+			"expires_at":"2026-09-03T15:11:00.000Z"
+		},
+		{
+			"ts":"2026-09-03T15:02:16.785Z",
+			"uuid":"9eaeea",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"73d9ee"
+		},
+		{
+			"ts":"2026-09-03T15:15:58.759Z",
+			"uuid":"3c00d5",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260903T151558Z-basecamp",
+			"batch":"4591f3",
+			"expires_at":"2026-09-03T15:21:00.000Z"
+		},
+		{
+			"ts":"2026-09-03T15:18:16.484Z",
+			"uuid":"6380b0",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"67818b"
 		}
 	],
 	"batches":
