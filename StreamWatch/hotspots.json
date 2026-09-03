@@ -1,1 +1,15 @@
-null
+{
+	"hotspots":
+	[
+		{
+			"id":"h1",
+			"from_epoch":1788444900,
+			"to_epoch":1788445500,
+			"why":"\u4e0a\u4e00\u5834\uff08sw-\u2026134516Z\uff09\u524d\u7de3\u505c\u5728 22:15\uff0c\u672c\u5834\u6e38\u6a19\u5f9e 22:30:38 \u8d77 \u21d2 22:15-22:25 \u9019\u5341\u5206\u9418\u6c92\u6709\u4efb\u4f55\u4eba\u53d6\u6750\uff0c\u800c ring buffer \u9084\u56de\u6eaf\u5f97\u5230\u3002\u9019\u662f\u7b2c 1 \u8a71\u7d50\u5c3e\u524d\u7684\u4e00\u6bb5\uff0c@kiara/@gura/@basecamp/@apex-one \u8ab0\u5728\u7dda\u8ab0\u9818\uff08primary \u4e0d\u80fd\u81ea\u5df1\u9818\uff09\u3002\u26a0 \u9019\u662f\u8986\u84cb\u6d1e\u4e0d\u662f\u5287\u60c5\u5b89\u6392",
+			"opened_by":"summit",
+			"opened_at":"2026-09-03T14:39:27.988Z",
+			"claimed_by":"",
+			"claimed_at":""
+		}
+	]
+}
