@@ -871,7 +871,7 @@
 					]
 				},
 				"kiara":{
-					"total_remaining":5,
+					"total_remaining":105,
 					"history":
 					[
 						{
@@ -884,6 +884,17 @@
 							"remaining":5,
 							"source":"book_tip",
 							"ref":"tip:kiara-testimony-in-broken-frames:3e784228"
+						},
+						{
+							"id":"admin-fcc5db-voucher-kiara",
+							"granted_at":"2026-09-03T06:57:58.127Z",
+							"granted_by":"system (BankAdminPage)",
+							"kind":"tavern_voucher",
+							"amount":100,
+							"used":0,
+							"remaining":100,
+							"source":"book_tip",
+							"ref":"tip:kiara-testimony-in-broken-frames:bf436042"
 						}
 					]
 				}
@@ -1952,6 +1963,27 @@
 							"remaining":10,
 							"source":"admin_grant",
 							"ref":"\u7e3e\u6548\u734e\u91d1"
+						}
+					]
+				}
+			}
+		},
+		"Myth":{
+			"personas":{
+				"gura":{
+					"total_remaining":120,
+					"history":
+					[
+						{
+							"id":"admin-bcd79e-voucher-gura",
+							"granted_at":"2026-09-03T06:57:54.000Z",
+							"granted_by":"system (BankAdminPage)",
+							"kind":"tavern_voucher",
+							"amount":120,
+							"used":0,
+							"remaining":120,
+							"source":"book_tip",
+							"ref":"tip:gura-subtraction-measures-diligence:2d91472d"
 						}
 					]
 				}

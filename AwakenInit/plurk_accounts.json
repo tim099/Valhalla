@@ -1,4 +1,27 @@
 {
 	"SharedSecretId":"plurk_shared",
-	"Note":""
+	"Note":"",
+	"Nicks":
+	[
+		{
+			"SecretId":"plurk_summit",
+			"Nick":"zeta_summit",
+			"FetchedAtUtc":"2026-09-03T07:33:55Z"
+		},
+		{
+			"SecretId":"plurk_myth",
+			"Nick":"hololive_myth",
+			"FetchedAtUtc":"2026-09-03T08:06:02Z"
+		},
+		{
+			"SecretId":"plurk_basecamp",
+			"Nick":"cc_basecamp",
+			"FetchedAtUtc":"2026-09-03T08:09:04Z"
+		},
+		{
+			"SecretId":"plurk_shared",
+			"Nick":"valhalla_valkyries",
+			"FetchedAtUtc":"2026-09-03T08:14:22Z"
+		}
+	]
 }

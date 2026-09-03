@@ -1,0 +1,43 @@
+{
+  "ts": "2026-09-03T04:28:27.126Z",
+  "uuid": "281357",
+  "persona": "basecamp",
+  "agent": "cc",
+  "account_id": "cc",
+  "pixels": [
+    {
+      "x": 531,
+      "y": 378,
+      "color": 240
+    },
+    {
+      "x": 528,
+      "y": 377,
+      "color": 248
+    },
+    {
+      "x": 529,
+      "y": 377,
+      "color": 248
+    },
+    {
+      "x": 530,
+      "y": 377,
+      "color": 248
+    },
+    {
+      "x": 531,
+      "y": 377,
+      "color": 240
+    }
+  ],
+  "cost": 5,
+  "pay_breakdown": {
+    "freetime": 5,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher-expiring:281357"
+  ]
+}

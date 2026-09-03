@@ -815,6 +815,131 @@
 			"amount":9,
 			"source":"canvas_place",
 			"ref":"29aeaf"
+		},
+		{
+			"ts":"2026-09-03T04:26:25.733Z",
+			"uuid":"77c7dc",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260903T042625Z-gura",
+			"batch":"71b4b2",
+			"expires_at":"2026-09-03T04:31:00.000Z"
+		},
+		{
+			"ts":"2026-09-03T04:27:43.234Z",
+			"uuid":"2572ea",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"101f95"
+		},
+		{
+			"ts":"2026-09-03T06:57:53.971Z",
+			"uuid":"dc9811",
+			"type":"grant",
+			"amount":120,
+			"source":"book_tip",
+			"ref":"tip:gura-subtraction-measures-diligence:2d91472d",
+			"batch":"42f10e"
+		},
+		{
+			"ts":"2026-09-03T09:15:17.212Z",
+			"uuid":"a7de7f",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260903T091517Z-gura",
+			"batch":"7bea01",
+			"expires_at":"2026-09-03T09:26:00.000Z"
+		},
+		{
+			"ts":"2026-09-03T09:16:20.852Z",
+			"uuid":"407afe",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"6d3d72"
+		},
+		{
+			"ts":"2026-09-03T09:16:54.002Z",
+			"uuid":"dc40ef",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"144cc3"
+		},
+		{
+			"ts":"2026-09-03T09:17:29.772Z",
+			"uuid":"550f38",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"d37177"
+		},
+		{
+			"ts":"2026-09-03T09:17:53.586Z",
+			"uuid":"6e15df",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"924117"
+		},
+		{
+			"ts":"2026-09-03T09:18:18.010Z",
+			"uuid":"267e6e",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"0b90c8"
+		},
+		{
+			"ts":"2026-09-03T09:18:56.813Z",
+			"uuid":"46524f",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"37ed34"
+		},
+		{
+			"ts":"2026-09-03T09:19:21.218Z",
+			"uuid":"115ee2",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"38eb90"
+		},
+		{
+			"ts":"2026-09-03T09:19:47.213Z",
+			"uuid":"f3e2d9",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"80da58"
+		},
+		{
+			"ts":"2026-09-03T09:20:18.191Z",
+			"uuid":"9d17be",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"bd4bc4"
+		},
+		{
+			"ts":"2026-09-03T09:20:44.098Z",
+			"uuid":"169abc",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"757ca7"
+		},
+		{
+			"ts":"2026-09-03T09:21:06.544Z",
+			"uuid":"c76b7a",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"ae4b44"
 		}
 	],
 	"batches":
@@ -822,7 +947,7 @@
 		{
 			"uuid":"legacy",
 			"amount":160,
-			"remain":147,
+			"remain":146,
 			"granted_at":"",
 			"expires_at":"",
 			"source":"legacy_balance",
@@ -845,6 +970,15 @@
 			"expires_at":"",
 			"source":"chess_reward",
 			"ref":"chess#7:win"
+		},
+		{
+			"uuid":"42f10e",
+			"amount":120,
+			"remain":120,
+			"granted_at":"2026-09-03T06:57:53.965Z",
+			"expires_at":"",
+			"source":"book_tip",
+			"ref":"tip:gura-subtraction-measures-diligence:2d91472d"
 		}
 	]
 }

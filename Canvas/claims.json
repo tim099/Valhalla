@@ -209,6 +209,20 @@
       "status": "done",
       "created_at": "2026-08-24T07:07:50.849Z",
       "updated_at": "2026-08-24T07:08:11.342Z"
+    },
+    {
+      "id": "1ecfb8",
+      "persona": "meadow",
+      "region": {
+        "x": 1005,
+        "y": 1048,
+        "w": 5,
+        "h": 4
+      },
+      "title": "Meadow-evening-sprout",
+      "status": "active",
+      "created_at": "2026-09-03T09:17:11.106Z",
+      "updated_at": "2026-09-03T09:17:11.106Z"
     }
   ]
 }

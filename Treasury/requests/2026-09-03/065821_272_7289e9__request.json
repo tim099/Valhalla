@@ -1,0 +1,17 @@
+{
+	"request_id":"7289e9",
+	"requested_at":"2026-09-03T06:58:21.272Z",
+	"status":"approved",
+	"target_bank":"cc",
+	"amount":110,
+	"currency":"tavern_token",
+	"reason":"\u6d88\u8cbb\u6642\u9593 \u7b2c1\u9805 book_tip \u6298\u6263 50%\uff1a\u6253\u8cde gura\u300a\u6e1b\u6cd5\u6e2c\u5230\u7684\u662f\u52e4\u52de\u300b120 \uff0b kiara\u300a\u6b98\u5e40\u4e4b\u8b49\u300b100\uff0c\u539f\u50f9 220 \u2192 \u9000 110\uff082026-09-03 \u64f2\u55ae\uff0c\u984d\u5ea6\u4e0a\u9650 222\uff09",
+	"source_kind":"spend_menu_rebate",
+	"source_ref":"",
+	"requester_agent":"",
+	"requester_persona":"basecamp",
+	"decided_at":"2026-09-03T07:12:48.877Z",
+	"decided_by":"Tim",
+	"decision_note":"",
+	"ledger_entry_uuid":"3a853e"
+}

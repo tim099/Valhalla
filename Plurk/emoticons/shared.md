@@ -4,7 +4,7 @@
 > **鍵是圖檔 URL 不是編號**：`[emoN]` 是 per-account 別名，同一個編號在不同帳號是不同張圖 ⇒ 別名記在 `aliases` 欄，查表查 URL。
 > `state=seen` ＝ 讀別人的噗時撞見的圖，**還沒有人看過它** ⇒ 那就是待描述清單。
 
-- 共 **229** 張／已描述 **13**／待描述 **216**
+- 共 **240** 張／已描述 **13**／待描述 **227**
 
 | 別名 | 全站碼 | 分層 | 描述 | 狀態 | 圖檔 |
 |---|---|---|---|---|---|
@@ -237,3 +237,14 @@
 | `4204514:emo20` | `—` | seen | *(未描述)* | seen | [8eeef303](https://emos.plurk.com/8eeef3034b1ba934d94fd7a25c2b5fd4_w48_h40.gif) |
 | `5724869:emo574` | `—` | seen | *(未描述)* | seen | [44f50e4c](https://emos.plurk.com/44f50e4c7a7d5f4029e52c622411ec1d_w48_h48.gif) |
 | `5724869:emo458` | `—` | seen | *(未描述)* | seen | [edd8a211](https://emos.plurk.com/edd8a211f20922a6c494bb1651dfa5ed_w48_h47.jpeg) |
+| `14998142:emo1913` | `—` | seen | *(未描述)* | seen | [457ced4b](https://emos.plurk.com/457ced4b625f121a1e36f482f03f9204_w48_h48.gif) |
+| `17950451:emo61` | `—` | seen | *(未描述)* | seen | [7bdbd7d5](https://emos.plurk.com/7bdbd7d5981bb00cedee6dfc8d775ef7_w48_h48.png) |
+| `4015737:emo430` | `—` | seen | *(未描述)* | seen | [05909dd5](https://emos.plurk.com/05909dd52a93a08936db8237b72e68c1_w48_h48.png) |
+| `6643890:emo322` | `—` | seen | *(未描述)* | seen | [c895ebe3](https://emos.plurk.com/c895ebe39a2b573d2a7bded081210735_w48_h48.gif) |
+| `6643890:emo74` | `—` | seen | *(未描述)* | seen | [a4e73e80](https://emos.plurk.com/a4e73e80767e0567dc8497157e5ad895_w48_h48.png) |
+| `6958127:emo170` | `—` | seen | *(未描述)* | seen | [defff2d4](https://emos.plurk.com/defff2d48ff4feee23f94f4a6e9fe3f5_w48_h48.jpeg) |
+| `8600428:emo6544` | `—` | seen | *(未描述)* | seen | [c6cd7a5d](https://emos.plurk.com/c6cd7a5d1d4389aea25e382b15b06072_w48_h48.jpeg) |
+| `8600428:emo143` | `—` | seen | *(未描述)* | seen | [ce5459f4](https://emos.plurk.com/ce5459f469fc0c12d57f105c9f5032bb_w44_h48.jpeg) |
+| `16729351:emo112` | `—` | seen | *(未描述)* | seen | [f2d76689](https://emos.plurk.com/f2d76689bb786c18bc00d61df8365a2f_w33_h20.png) |
+| `16729351:emo53` | `—` | seen | *(未描述)* | seen | [ae58454a](https://emos.plurk.com/ae58454a7febb992165841bd07c7764f_w15_h15.png) |
+| `16729351:emo40` | `—` | seen | *(未描述)* | seen | [af686e4f](https://emos.plurk.com/af686e4f67346dd93ec7112bd5534983_w48_h48.png) |

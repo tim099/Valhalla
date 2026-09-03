@@ -396,6 +396,51 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"32fd39"
+		},
+		{
+			"ts":"2026-09-03T04:26:41.153Z",
+			"uuid":"39c445",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260903T042641Z-kiara",
+			"batch":"cd31f7",
+			"expires_at":"2026-09-03T04:31:00.000Z"
+		},
+		{
+			"ts":"2026-09-03T04:28:14.546Z",
+			"uuid":"32139a",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"08bd82"
+		},
+		{
+			"ts":"2026-09-03T06:57:58.115Z",
+			"uuid":"cf1914",
+			"type":"grant",
+			"amount":100,
+			"source":"book_tip",
+			"ref":"tip:kiara-testimony-in-broken-frames:bf436042",
+			"batch":"39f846"
+		},
+		{
+			"ts":"2026-09-03T09:15:20.537Z",
+			"uuid":"19d802",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260903T091520Z-kiara",
+			"batch":"7b6358",
+			"expires_at":"2026-09-03T09:26:00.000Z"
+		},
+		{
+			"ts":"2026-09-03T09:18:06.689Z",
+			"uuid":"ad4d43",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"3eedff"
 		}
 	],
 	"batches":
@@ -417,6 +462,15 @@
 			"expires_at":"",
 			"source":"chess_reward",
 			"ref":"chess#3:lose"
+		},
+		{
+			"uuid":"39f846",
+			"amount":100,
+			"remain":100,
+			"granted_at":"2026-09-03T06:57:58.113Z",
+			"expires_at":"",
+			"source":"book_tip",
+			"ref":"tip:kiara-testimony-in-broken-frames:bf436042"
 		}
 	]
 }
