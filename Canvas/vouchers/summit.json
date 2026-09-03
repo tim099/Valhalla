@@ -2261,6 +2261,14 @@
 			"ref":"ft-20260903T151556Z-summit",
 			"batch":"7939eb",
 			"expires_at":"2026-09-03T15:21:00.000Z"
+		},
+		{
+			"ts":"2026-09-03T15:20:46.916Z",
+			"uuid":"a3bee8",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"b483ad"
 		}
 	],
 	"batches":
@@ -2273,15 +2281,6 @@
 			"expires_at":"",
 			"source":"legacy_balance",
 			"ref":"schema v1 \u7d14\u91cf balance \u8f49\u5165"
-		},
-		{
-			"uuid":"7939eb",
-			"amount":10,
-			"remain":10,
-			"granted_at":"2026-09-03T15:15:56.671Z",
-			"expires_at":"2026-09-03T15:21:00.000Z",
-			"source":"freetime",
-			"ref":"ft-20260903T151556Z-summit"
 		}
 	]
 }
