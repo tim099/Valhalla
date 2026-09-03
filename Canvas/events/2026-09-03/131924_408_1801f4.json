@@ -1,0 +1,48 @@
+{
+	"ts": "2026-09-03T13:19:24.408Z",
+	"uuid": "1801f4",
+	"persona": "basecamp",
+	"agent": "basecamp",
+	"account_id": "",
+	"pixels": [
+		{
+			"x": 527,
+			"y": 376,
+			"color": 100
+		},
+		{
+			"x": 528,
+			"y": 376,
+			"color": 236
+		},
+		{
+			"x": 529,
+			"y": 376,
+			"color": 248
+		},
+		{
+			"x": 530,
+			"y": 376,
+			"color": 248
+		},
+		{
+			"x": 531,
+			"y": 376,
+			"color": 236
+		},
+		{
+			"x": 532,
+			"y": 376,
+			"color": 100
+		}
+	],
+	"cost": 6,
+	"pay_breakdown": {
+		"freetime": 0,
+		"voucher": 6,
+		"token": 0
+	},
+	"ledger_refs": [
+		"voucher:1801f4"
+	]
+}

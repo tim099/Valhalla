@@ -3864,6 +3864,22 @@
 			"amount":1,
 			"source":"canvas_place",
 			"ref":"bf52b6"
+		},
+		{
+			"ts":"2026-09-03T13:09:30.976Z",
+			"uuid":"0f77c7",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"5bf204"
+		},
+		{
+			"ts":"2026-09-03T13:19:23.616Z",
+			"uuid":"0db7f1",
+			"type":"consume",
+			"amount":6,
+			"source":"canvas_place",
+			"ref":"1801f4"
 		}
 	],
 	"batches":
@@ -3871,7 +3887,7 @@
 		{
 			"uuid":"legacy",
 			"amount":284,
-			"remain":280,
+			"remain":273,
 			"granted_at":"",
 			"expires_at":"",
 			"source":"legacy_balance",
