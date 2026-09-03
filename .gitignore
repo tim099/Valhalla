@@ -98,9 +98,9 @@ pending.trigger.running
 # ChatTavern 房間架構 refactor 留下的一次性 backup
 ChatTavern/rooms.json.bak
 
-# Awakening Init Protocol session lock files（per-session 短命狀態，24h TTL）
-_session/_identity_*.json
-_session/_persona_*.json
+# Awakening session token 表（runtime 狀態）。⚠ persona lock 不在這裡 —— 它住 letters/<p>/profile/_session.json，
+# 由各 letters repo 的 .gitignore 基線擋（TASK-0105）。這裡刻意**不再**擋 _session/_persona_*.json：
+# 搬遷 Conflict/Failed 留下的殘檔要能在 git status 裡被看見，不然它會安靜地躺到永遠。
 _session/_tokens.json
 _session/_token_enforce.json
 _session/*.log
