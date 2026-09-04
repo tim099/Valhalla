@@ -64,7 +64,7 @@ python run_cmd.py ──▶ queues/<persona>/queue.json  ＋  pending.trigger
 python <UCL_Core>/Tools~/AgentCommands/run_cmd.py --persona <你> run <CmdType> --arg k=v
 
 # 早安 / 晚安儀式
-python <UCL_Core>/Tools~/AgentCommands/awakening.py brief --persona <P>
+senate cmd wake-brief --arg letters_root=<letters 根> --arg persona=<P> --arg out_dir=<落檔目錄>
 
 # 編譯狀態（改完 .cs 之後唯一可信的來源）
 python <UCL_Core>/Tools~/AgentCommands/check_compile.py --errors-only
