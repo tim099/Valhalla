@@ -940,6 +940,56 @@
 			"amount":1,
 			"source":"canvas_place",
 			"ref":"ae4b44"
+		},
+		{
+			"ts":"2026-09-04T04:06:13.743Z",
+			"uuid":"cf9eab",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260904T040613Z-gura",
+			"batch":"ef23d2",
+			"expires_at":"2026-09-04T04:11:00.000Z"
+		},
+		{
+			"ts":"2026-09-04T04:08:12.973Z",
+			"uuid":"9c70c8",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"0b7cc9"
+		},
+		{
+			"ts":"2026-09-04T04:08:33.081Z",
+			"uuid":"dc483e",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"c18c37"
+		},
+		{
+			"ts":"2026-09-04T04:08:49.845Z",
+			"uuid":"0ec1c9",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"e5926b"
+		},
+		{
+			"ts":"2026-09-04T04:09:04.130Z",
+			"uuid":"3e5e62",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"b83051"
+		},
+		{
+			"ts":"2026-09-04T04:09:28.240Z",
+			"uuid":"3e7781",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"0cde34"
 		}
 	],
 	"batches":
@@ -979,6 +1029,15 @@
 			"expires_at":"",
 			"source":"book_tip",
 			"ref":"tip:gura-subtraction-measures-diligence:2d91472d"
+		},
+		{
+			"uuid":"ef23d2",
+			"amount":10,
+			"remain":5,
+			"granted_at":"2026-09-04T04:06:13.740Z",
+			"expires_at":"2026-09-04T04:11:00.000Z",
+			"source":"freetime",
+			"ref":"ft-20260904T040613Z-gura"
 		}
 	]
 }

@@ -441,6 +441,24 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"3eedff"
+		},
+		{
+			"ts":"2026-09-04T04:06:19.941Z",
+			"uuid":"c52de2",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260904T040619Z-kiara",
+			"batch":"fd5572",
+			"expires_at":"2026-09-04T04:11:00.000Z"
+		},
+		{
+			"ts":"2026-09-04T04:07:47.104Z",
+			"uuid":"60fae5",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"aff67c"
 		}
 	],
 	"batches":

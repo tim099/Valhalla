@@ -1,6 +1,6 @@
 # 💰 Treasury balance
-<!-- cmd_id: 20260903-172556-289a46-treasury -->
+<!-- cmd_id: 20260904-120920-1b1982-treasury -->
 
-- account: `cc`
+- account: `Myth`
 - currency: tavern_token
-- **balance: 2146**
+- **balance: 3174**
