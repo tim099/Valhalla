@@ -467,10 +467,28 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"359384"
+		},
+		{
+			"ts":"2026-09-04T15:08:55.739Z",
+			"uuid":"667574",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260904T150855Z-calli",
+			"batch":"851e30",
+			"expires_at":"2026-09-04T15:16:00.000Z"
 		}
 	],
 	"batches":
 	[
-
+		{
+			"uuid":"851e30",
+			"amount":10,
+			"remain":10,
+			"granted_at":"2026-09-04T15:08:55.739Z",
+			"expires_at":"2026-09-04T15:16:00.000Z",
+			"source":"freetime",
+			"ref":"ft-20260904T150855Z-calli"
+		}
 	]
 }

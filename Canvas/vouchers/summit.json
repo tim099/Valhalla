@@ -2269,6 +2269,16 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"b483ad"
+		},
+		{
+			"ts":"2026-09-04T15:09:01.137Z",
+			"uuid":"157517",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260904T150901Z-summit",
+			"batch":"8c57bf",
+			"expires_at":"2026-09-04T15:16:00.000Z"
 		}
 	],
 	"batches":
@@ -2281,6 +2291,15 @@
 			"expires_at":"",
 			"source":"legacy_balance",
 			"ref":"schema v1 \u7d14\u91cf balance \u8f49\u5165"
+		},
+		{
+			"uuid":"8c57bf",
+			"amount":10,
+			"remain":10,
+			"granted_at":"2026-09-04T15:09:01.134Z",
+			"expires_at":"2026-09-04T15:16:00.000Z",
+			"source":"freetime",
+			"ref":"ft-20260904T150901Z-summit"
 		}
 	]
 }

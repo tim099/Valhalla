@@ -1,6 +1,6 @@
 # 💰 Treasury balance
-<!-- cmd_id: 20260903-232048-da458b-treasury -->
+<!-- cmd_id: 20260904-231608-6ff955-treasury -->
 
-- account: `Zeta`
+- account: `Myth`
 - currency: tavern_token
-- **balance: 2992**
+- **balance: 2630**
