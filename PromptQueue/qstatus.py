@@ -109,9 +109,19 @@ def main() -> int:
 
     if args.raw:
         # 走 Editor 拿完整版（慢但準）
+        # 2026-09-04（TASK-0107）：派遣由 `python run_cmd.py` 換成 `senate ucmd run`。
+        # 路徑走 `_tp.senate_exe()`（三層解析），⛔ 不寫裸字串 "senate"（PATH 是使用者環境，別台不保證）。
+        # 解不到時 senate_exe() 會 raise ⇒ 這裡**刻意不 catch**：
+        #   這條路是 `--raw` 顯式要求「走 Editor 拿準的」，靜默退回本地估算會給出一份
+        #   看起來正常、但**不是使用者要的那一份**讀數 —— 那比直接失敗貴。
+        # 🩸 順手修掉一格既有缺陷（不是這次轉接造成的，但我不照抄它）：
+        #   舊寫法不帶 lane 旗標 ⇒ 實測落進 `queues/anonymous/`（`→ LY:anonymous`），
+        #   跟所有「漏帶 --persona 的人」擠同一條 lane 互相阻塞，而那個資料夾因此不再是儀表。
+        #   ⇒ 帶 `--persona system`：這筆**不是人派的**（qstatus 是查詢工具，沒有「誰」），
+        #     跟 `_lib/treasury_cmd.py` 的金流 Cmd 同一個理由。
+        #   ⚠ lane 只決定走哪條佇列，**不宣告身分** —— 本 op 是唯讀查詢，沒有身分語意。
         import subprocess
-        run_cmd = _tp.RUN_CMD_PATH
-        cmd = [sys.executable, str(run_cmd), "run", "Tavern",
+        cmd = [str(_tp.senate_exe()), "ucmd", "run", "Tavern", "--persona", "system",
                "--arg", "op=task_list", "--arg", "room=agent-prompt-queue"]
         return subprocess.run(cmd, cwd=PROJECT_ROOT).returncode
 

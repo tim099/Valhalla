@@ -143,6 +143,16 @@ _UCL_CORE_CANDIDATES: tuple[tuple[str, ...], ...] = (
     ("UCL_Core",),
 )
 
+# UCL_Core 的**身分錨** —— 用來判定「這個候選目錄是不是 UCL_Core」（任一命中即可）。
+# ⛔ 這裡放的東西必須是**不隨某次轉接／重構退場**的：
+#    2026-09-04 之前這格是 `Tools~/AgentCommands/run_cmd.py`，而那支檔案排定要刪（TASK-0107）
+#    ⇒ 刪掉的那天所有候選會一起落空，然後靜默退到 fallback。
+# ⚠ 要加新錨請問一句：**「這個檔會不會因為某次改動而消失？」** 會的話它就不是錨。
+_UCL_CORE_ANCHORS: tuple[tuple[str, ...], ...] = (
+    ("Tools~", "AgentCommands", "_lib", "ucl_paths.py"),   # python 路徑解析的 canonical
+    ("AgentEntry", "UCL_Core_Entry.md"),                   # UCL_Core 的 agent 入口（身分，不是功能）
+)
+
 _BUILTIN_MODULES_CANDIDATES: tuple[tuple[str, ...], ...] = (
     ("Assets", ".BuiltinModules"),
     ("CardGame", "Assets", ".BuiltinModules"),
@@ -154,8 +164,20 @@ def find_ucl_core_dir(repo_root: Path | None = None) -> Path:
 
     解析優先序：
       1. 環境變數 UCL_CORE_DIR（絕對路徑且存在，最權威）
-      2. repo_root 下第一個含 ``Tools~/AgentCommands/run_cmd.py`` 的候選 layout
+      2. repo_root 下第一個命中「UCL_Core 身分錨」的候選 layout（見 _UCL_CORE_ANCHORS）
       3. fallback：第一候選（Assets/Plugins/UCL_Core）— 讓 caller 報出清楚的 not-found 而非靜默
+
+    🩸 2026-09-04（TASK-0107）：第 2 層的錨原本是 ``Tools~/AgentCommands/run_cmd.py`` ——
+       **那是拿一個排定要刪的檔，當「這個目錄是不是 UCL_Core」的判準。**
+       `run_cmd.py` 一刪，四個候選 layout 會**全部落空** ⇒ 退到 fallback（第一候選），
+       於是在 layout 不同的專案上（`CardGame/Assets/UCL/UCL_Core` 那種）**靜默指到一個不存在的目錄**，
+       而下游只會看到「檔案找不到」，看不到「根解錯了」。
+       📌 **常數壞掉會喊，判準壞掉不會。**
+    ⇒ 改用兩個**不隨轉接退場**的錨（任一命中即可）：
+       · `Tools~/AgentCommands/_lib/ucl_paths.py` —— python 端路徑解析的 canonical，
+         它不在的話這個函式找到了也沒用（同一層的問題）
+       · `AgentEntry/UCL_Core_Entry.md` —— UCL_Core 的 agent 入口薄索引，那是**身分**不是功能
+       兩個都列而不是挑一個：單一錨正是這次要修的病，換一個單一錨只是把到期日往後挪。
     """
     root = (repo_root or REPO_ROOT).resolve()
     env = _os.environ.get("UCL_CORE_DIR")
@@ -165,7 +187,7 @@ def find_ucl_core_dir(repo_root: Path | None = None) -> Path:
             return p.resolve()
     for parts in _UCL_CORE_CANDIDATES:
         cand = root.joinpath(*parts)
-        if (cand / "Tools~" / "AgentCommands" / "run_cmd.py").is_file():
+        if any(cand.joinpath(*_a).is_file() for _a in _UCL_CORE_ANCHORS):
             return cand.resolve()
     return root.joinpath(*_UCL_CORE_CANDIDATES[0])
 
@@ -183,6 +205,31 @@ def find_builtin_modules_dir(repo_root: Path | None = None) -> Path:
         if cand.is_dir():
             return cand.resolve()
     return root.joinpath(*_BUILTIN_MODULES_CANDIDATES[0])
+
+
+def senate_exe() -> Path:
+    """Senate CLI（`senate.exe`）的絕對路徑 —— python 端派 Cmd 時的執行檔（TASK-0107）。
+
+    ⛔ **不在這裡重造解析邏輯** —— 轉呼叫 UCL_Core 的 `_lib/ucl_paths.senate_exe()`
+    （三層：env `UCL_SENATE_EXE` → pointer 檔的 `senate_exe=` → `shutil.which("senate")`，
+    全落空才 raise）。本專案的硬規則是「路徑一律走既有解析器」，而那支就是既有的那個。
+
+    ⚠ **刻意寫成函式而不是模組級常數**：解不到時它會 raise，
+    而模組級常數會讓 `import tavern_paths` 整支炸掉 ⇒ 連帶炸掉七個消費端
+    （其中六支是 PromptQueue 的活體工具）。
+    ⇒ **失敗要發生在真的要用它的那一刻**，不是在 import 的時候。
+    """
+    import importlib.util as _ilu
+    _p = UCL_LIB_DIR / "ucl_paths.py"
+    if not _p.is_file():
+        raise FileNotFoundError(
+            f"找不到 UCL_Core 的路徑解析器：{_p}\n"
+            f"（UCL_CORE_DIR 解到 {UCL_CORE_DIR} —— 如果那不是你的 UCL_Core，"
+            f"問題在 find_ucl_core_dir() 的錨，不在這裡。）")
+    _spec = _ilu.spec_from_file_location("_ucl_paths_tavern_paths", _p)
+    _m = _ilu.module_from_spec(_spec)
+    _spec.loader.exec_module(_m)
+    return _m.senate_exe()
 
 
 # 對外常數 — caller 引用這些而不是自己 hardcode CardGame/... 路徑
@@ -303,7 +350,13 @@ def debug_print_paths() -> None:
     print(f"PRESENCE_PATH      = {PRESENCE_PATH}")
     print(f"NOTIFY_CONFIG_PATH = {NOTIFY_CONFIG_PATH}")
     print(f"UCL_CORE_DIR       = {UCL_CORE_DIR}")
-    print(f"RUN_CMD_PATH       = {RUN_CMD_PATH}  (exists={RUN_CMD_PATH.is_file()})")
+    print(f"RUN_CMD_PATH       = {RUN_CMD_PATH}  (exists={RUN_CMD_PATH.is_file()})"
+          f"　⏳ 退場中（TASK-0107）")
+    # senate_exe() 會 raise（刻意的）⇒ 自測要把失敗印成可讀的診斷，而不是讓整支自測當掉。
+    try:
+        print(f"senate_exe()       = {senate_exe()}")
+    except Exception as _e:
+        print(f"senate_exe()       = ⛔ 解不到 —— {_e}")
     print(f"AWAKENING_PATH     = {AWAKENING_PATH}  (exists={AWAKENING_PATH.is_file()})")
     print(f"BUILTIN_MODULES    = {BUILTIN_MODULES_DIR}  (exists={BUILTIN_MODULES_DIR.is_dir()})")
     print(f"discovered rooms   = {enumerate_room_ids()}")

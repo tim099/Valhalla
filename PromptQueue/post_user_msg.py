@@ -53,11 +53,13 @@ from pathlib import Path
 
 _HERE = Path(__file__).resolve().parent
 _REPO_ROOT = _HERE.parent.parent
-# T-PATH-02: run_cmd.py 走 layout-agnostic resolver, 不再寫死 CardGame/Assets/UCL/UCL_Core
+# T-PATH-02: 派遣對象走 layout-agnostic resolver, 不再寫死 CardGame/Assets/UCL/UCL_Core
 if str(_REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(_REPO_ROOT))
 from AgentCommands._lib import tavern_paths as _tp  # noqa: E402
-_RUN_CMD = _tp.RUN_CMD_PATH
+# ⛔ 原本這裡有 `_RUN_CMD = _tp.RUN_CMD_PATH` —— 2026-09-04 移除（TASK-0107）。
+#   派遣改走 `_tp.senate_exe()`，而且是**在要用的那一刻**解析（見 post_to_tavern）：
+#   模組級解析會讓「找不到 senate」在 import 時就炸，而這支是 daemon 路徑上的工具。
 
 try:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -88,22 +90,45 @@ def _read_body(args) -> str:
 
 
 def post_to_tavern(body: str, sender: str, room: str, category: str) -> int:
-    """spawn run_cmd.py run Tavern op=post — 不等握手，fire-and-forget。
+    """派 `Tavern op=post` — 不等握手，fire-and-forget。
 
-    回 exit code（0 = 成功，非 0 = run_cmd 端失敗，但對 caller 來說都 swallow 不擋主流程）"""
-    if not _RUN_CMD.is_file():
-        print(f"[post_user_msg] run_cmd.py not found: {_RUN_CMD}", file=sys.stderr)
-        return 1
+    回 exit code（0 = 成功，非 0 = 派遣端失敗，但對 caller 來說都 swallow 不擋主流程）
+
+    ── 2026-09-04（TASK-0107）：`python run_cmd.py` → `senate ucmd run`。
+    順帶拿掉舊 argv 裡的 `--arg wait-reply=0`。**理由是它描述了一個不存在的行為，不是它慢。**
+
+    量到的（讀數）：
+      · `wait-reply` 是 **`run_cmd.py` 的旗標（`--wait-reply`）**，不是 Cmd 的參數。
+        `Cmd_Tavern` 的 code 裡沒有任何地方讀這個 arg；帶著它照樣 Success（不會被擋）
+        ⇒ **那一行從來沒有作用過。**
+      · `senate ucmd run` 沒有 `--wait-reply` 這個旗標（help 裡 "wait" 出現 **0** 次）。
+
+    🩸 **而我差一點在這裡寫下一個假的改善**：我從 `run_cmd.py` 的 help 讀到
+       「Tavern op=post 預設等 20 秒」，就要寫成「每發一則都白等 20 秒」。
+       跑了對照組才發現 —— **舊寫法實測 2.2s、新寫法 3.2s**（新的還略慢，那是 senate 的啟動成本）。
+       ⇒ 那個「20 秒」是我**讀 code 讀來的預設值**，不是這條路上真的發生的事。
+       📌 教訓：**拿一個從 code 讀出來的預設值，去描述一個沒量過的行為 —— 那是猜，不是讀數。**
+    """
     if not body or not body.strip():
         print("[post_user_msg] empty body, skip", file=sys.stderr)
         return 0   # 空訊息 — 不 fail 不寫，靜默退出
 
+    try:
+        _senate = _tp.senate_exe()
+    except Exception as e:
+        # ⛔ 不退回 run_cmd.py：靜默 fallback 會讓這次轉接等於沒發生。
+        print(f"[post_user_msg] 找不到 Senate CLI，訊息**沒有送出**：{e}", file=sys.stderr)
+        return 1
+
     cmd = [
-        sys.executable, str(_RUN_CMD), "run", "Tavern",
+        str(_senate), "ucmd", "run", "Tavern",
+        # 🩸 順手修掉：舊寫法不帶 lane 旗標 ⇒ 落 `queues/anonymous/`，跟所有漏帶的人擠同一條。
+        #    這筆是 **daemon 代 user 發**，不是某個 persona 派的 ⇒ `system` lane。
+        #    ⚠ lane 不宣告身分 —— 發文者身分走下面的 `sender` 參數，語意不變。
+        "--persona", "system",
         "--arg", "op=post",
         "--arg", f"room={room}",
         "--arg", f"sender={sender}",
-        "--arg", "wait-reply=0",
         "--arg", f"body={body}",
     ]
     if category:
