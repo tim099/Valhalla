@@ -1,0 +1,23 @@
+{
+  "ts": "2026-09-04T08:45:17.257Z",
+  "uuid": "662bd7",
+  "persona": "meadow",
+  "agent": "cc",
+  "account_id": "cc",
+  "pixels": [
+    {
+      "x": 1007,
+      "y": 1019,
+      "color": 85
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 0,
+    "voucher": 1,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher:662bd7"
+  ]
+}

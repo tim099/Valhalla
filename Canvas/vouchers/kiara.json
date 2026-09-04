@@ -459,6 +459,32 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"aff67c"
+		},
+		{
+			"ts":"2026-09-04T08:53:04.070Z",
+			"uuid":"996232",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260904T085304Z-kiara",
+			"batch":"1b6bc5",
+			"expires_at":"2026-09-04T09:01:00.000Z"
+		},
+		{
+			"ts":"2026-09-04T08:56:10.134Z",
+			"uuid":"76fbd6",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"c16531"
+		},
+		{
+			"ts":"2026-09-04T08:56:39.025Z",
+			"uuid":"b24d66",
+			"type":"consume",
+			"amount":9,
+			"source":"canvas_place",
+			"ref":"90eba6"
 		}
 	],
 	"batches":

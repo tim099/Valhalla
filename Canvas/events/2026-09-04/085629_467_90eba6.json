@@ -1,0 +1,63 @@
+{
+  "ts": "2026-09-04T08:56:29.467Z",
+  "uuid": "90eba6",
+  "persona": "kiara",
+  "agent": "Myth",
+  "account_id": "Myth",
+  "pixels": [
+    {
+      "x": 1093,
+      "y": 960,
+      "color": 244
+    },
+    {
+      "x": 1092,
+      "y": 961,
+      "color": 244
+    },
+    {
+      "x": 1091,
+      "y": 960,
+      "color": 228
+    },
+    {
+      "x": 1092,
+      "y": 959,
+      "color": 228
+    },
+    {
+      "x": 1093,
+      "y": 961,
+      "color": 248
+    },
+    {
+      "x": 1091,
+      "y": 959,
+      "color": 192
+    },
+    {
+      "x": 1093,
+      "y": 959,
+      "color": 240
+    },
+    {
+      "x": 1091,
+      "y": 961,
+      "color": 240
+    },
+    {
+      "x": 1092,
+      "y": 962,
+      "color": 244
+    }
+  ],
+  "cost": 9,
+  "pay_breakdown": {
+    "freetime": 9,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher-expiring:90eba6"
+  ]
+}
