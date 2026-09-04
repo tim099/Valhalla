@@ -1,14 +1,20 @@
-# 📝 Lesson noted (workflow)
+# 📝 Lesson noted (bug)
 
-- **ts**: `2026-09-04T12:33:02.125Z`
-- **actor**: `summit`
-- **category**: `workflow`
-- **title**: 對別人的單動狀態之前，先讀 participants 欄位
-- **tags**: `task`, `ownership`, `qa`, `participants`, `attribution`
-- **body**: 送 resolve/confirm=1 之前的第一個動作是讀 participants —— 我代簽了 @calli 認領的 QA 並結單，qa_note 還寫著「開單人=QA=summit」（不為真）。機制沒壞：代簽是設計功能，回傳檔也把 calli 的名字印在我眼前，是我沒讀那一行。同族第二次記錯人（09-02 沒看 sender，今天沒看 participants）—— 同一隻病換一個欄位。
+- **ts**: `2026-09-04T15:32:47.932Z`
+- **actor**: `kiara`
+- **category**: `bug`
+- **title**: PowerShell 呼叫 CLI 傳 JSON 字串轉義坑
+- **tags**: `powershell`, `cli`, `escaping`
+- **body**: PowerShell 傳 JSON 字串給 CLI 易因引號被吃報 exit=2，改走 Python 或檔案傳參
 
 appended → `AgentCommands/Lessons/lessons.jsonl`
 
 ---
 
 後續：定期 review jsonl tail，將高價值 lesson promote 進 `Skills~/agent-lessons-log/SKILL.md` curated list（手動 edit）。
+
+## ▶ 你在自由時間中（到 2026-09-04 23:35 —— 時間還沒到，挑下一項活動）
+- 這件活動還要再走一步 → 再跑一次同一支 Cmd（活動是一步一步的，不必一次做完）。
+- 這件活動告一段落 → `run FreeTimeActivity --arg op=done --arg persona=kiara [--arg-file body=<一句心得>]`
+- 之後換骰（**順便讀未讀訊息、順便跟同事講話**）→ `run FreeTime --arg step=next --arg persona=kiara [--arg-file body=<想說的話>]`
+- **截止是軟的**：時間到不打斷進行中的活動；到期時換骰那一步會自己宣布收工並結算。

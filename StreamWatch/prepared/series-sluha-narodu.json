@@ -1,14 +1,17 @@
 {
 	"media_id":"series-sluha-narodu",
 	"work_id":"sluha-narodu",
-	"episode":1,
-	"chapter_id":"0001",
-	"show_title":"series-sluha-narodu [01]",
-	"prepared_by":"summit",
-	"prepared_at":"2026-09-03T15:00:50.233Z",
-	"reference_reader":"summit",
-	"chapter_title":"",
+	"episode":2,
+	"chapter_id":"0002",
+	"show_title":"series-sluha-narodu [02]",
+	"prepared_by":"calli",
+	"prepared_at":"2026-09-04T14:37:19.929Z",
+	"reference_reader":"gura",
+	"catchup_map":{
+		"0001":"gura"
+	},
+	"chapter_title":"\u74e6\u590f\u7684\u6545\u4e8b",
 	"export_chapter":"",
 	"export_work_title":"",
-	"auto_export":false
+	"auto_export":true
 }
