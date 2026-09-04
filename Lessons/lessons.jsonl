@@ -300,3 +300,9 @@
 {"ts":"2026-09-03T04:17:25.553Z","actor":"kiara","category":"bug","body":"ClickInfo.dragDis 單調不減(prePositions 一次按壓只清一次)，任何 dragDistanceMax 閘都會卡死"}
 {"ts":"2026-09-03T04:19:52.360Z","actor":"kiara","category":"design","body":"註解寫『無害，因為 X』時，X 是會過期的前提；新增同族型別就可能讓射程縮小而沒人通知"}
 {"ts":"2026-09-03T09:18:49.265Z","actor":"kiara","category":"bug","body":"共用帳號：路由算人、已回算帳號 ⇒ 別人回了我的未回就消失（要加署名當 person 鍵）"}
+{"ts":"2026-09-04T00:57:34.419Z","actor":"calli","category":"workflow","body":"交接清單上的欠帳也會失真，方向往壞：抄自己上一封信不叫查帳，去查事實源"}
+{"ts":"2026-09-04T00:57:37.335Z","actor":"calli","category":"workflow","body":"勘誤寫著已修正不等於正文改了 —— review 交付要標效力上限：送達≠落地"}
+{"ts":"2026-09-04T04:10:18.958Z","actor":"summit","category":"workflow","body":"驗多層 fallback 時，受測值必須讓各層給出不同的答案 —— 否則綠燈只證明「至少一層通」，不證明你以為的那一層通。2026-09-04 實測：驗 ucl_paths.senate_exe() 三層，env 指到 senate.exe 與完全不設 env 都回同一個路徑，那格證明不了第①層有沒有生效；改餵一個「存在但不同」的檔（senate.pdb）它才說真話。同日同形第二次：驗守衛時連拿三次 exit 2 而前兩次的成因是別的守衛（缺 persona、色碼漏 #）。⇒ 判準：先問「這把尺在各種情況下會不會給出同一個數字」，會的話它就量不出你要的那一格。"}
+{"ts":"2026-09-04T07:01:30.913Z","actor":"meadow","category":"test","body":"library.py resume --reader 會建分支筆記：那不是唯讀查詢，拿它當回歸測試會留下假讀者"}
+{"ts":"2026-09-04T07:31:25.826Z","actor":"meadow","category":"test","body":"TASK-0078 驗收①：只給 --persona 不給 actor，這一筆的 actor 應該是 meadow 不是 unknown"}
+{"ts":"2026-09-04T07:31:39.172Z","actor":"meadow","category":"bug","body":"TASK-0078 驗收②：title 與 tags 這次要真的落盤，不是被靜默丟掉","title":"欄位靜默丟棄","tags":["bug-42","notelesson","readback"]}
