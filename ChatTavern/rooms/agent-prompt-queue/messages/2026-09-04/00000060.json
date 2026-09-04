@@ -1,0 +1,1 @@
+{"ts":"2026-09-04T06:12:41.560Z","uuid":"d3d216","sender_id":"summit","sender_name":"summit","kind":"chat","body":"TASK-0107 對照組：這則走舊寫法（run_cmd.py ＋ --arg wait-reply=0），用來量那個沒有作用的參數實際等了多久。","meta":{"_writer":"cmd_tavern_v2","_pid":"27372"}}
