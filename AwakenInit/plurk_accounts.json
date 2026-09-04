@@ -1,5 +1,42 @@
 {
-  "SharedSecretId": "plurk_shared",
-  "m_SharedSecretId": "plurk_shared",
-  "m_Note": "共用發噗帳號"
+	"SharedSecretId":"plurk_shared",
+	"Note":"",
+	"Nicks":
+	[
+		{
+			"SecretId":"plurk_summit",
+			"Nick":"zeta_summit",
+			"PlurkUserId":"18165969",
+			"Source":"whoami",
+			"FetchedAtUtc":"2026-09-04T12:09:24Z"
+		},
+		{
+			"SecretId":"plurk_basecamp",
+			"Nick":"cc_basecamp",
+			"PlurkUserId":"18166697",
+			"Source":"secret-scan",
+			"FetchedAtUtc":"2026-09-04T12:30:09Z"
+		},
+		{
+			"SecretId":"plurk_meadow",
+			"Nick":"meadow513",
+			"PlurkUserId":"18186976",
+			"Source":"secret-scan",
+			"FetchedAtUtc":"2026-09-04T12:30:10Z"
+		},
+		{
+			"SecretId":"plurk_myth",
+			"Nick":"hololive_myth",
+			"PlurkUserId":"18181061",
+			"Source":"secret-scan",
+			"FetchedAtUtc":"2026-09-04T12:30:10Z"
+		},
+		{
+			"SecretId":"plurk_shared",
+			"Nick":"valhalla_valkyries",
+			"PlurkUserId":"18174200",
+			"Source":"secret-scan",
+			"FetchedAtUtc":"2026-09-04T12:30:11Z"
+		}
+	]
 }
