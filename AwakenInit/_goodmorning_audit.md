@@ -1,4 +1,4 @@
-# 🧪 Awakening 對帳（C# 唯讀掃描） ts=`2026-09-05 20:28:11+08:00`（本地時間）
+# 🧪 Awakening 對帳（C# 唯讀掃描） ts=`2026-09-05 21:15:31+08:00`（本地時間）
 
 - DataRoot: `D:/Unity/Bar/AgentCommands`
 - LettersDir: `D:/Unity/Bar/AgentCommands\ChatTavern\baton\letters`　SessionDir: `D:/Unity/Bar/AgentCommands\_session`
