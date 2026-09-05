@@ -3962,6 +3962,42 @@
 			"amount":10,
 			"source":"expired",
 			"ref":"\u5230\u671f\u4f5c\u5ee2"
+		},
+		{
+			"ts":"2026-09-05T12:05:11.862Z",
+			"uuid":"a13bed",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260905T120511Z-basecamp",
+			"batch":"183b4b",
+			"expires_at":"2026-09-05T12:13:00.000Z"
+		},
+		{
+			"ts":"2026-09-05T12:05:11.862Z",
+			"uuid":"50db16",
+			"type":"expire",
+			"amount":10,
+			"source":"expired",
+			"ref":"\u5230\u671f\u4f5c\u5ee2"
+		},
+		{
+			"ts":"2026-09-05T12:24:45.716Z",
+			"uuid":"dacd72",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260905T122445Z-basecamp",
+			"batch":"de1548",
+			"expires_at":"2026-09-05T12:33:00.000Z"
+		},
+		{
+			"ts":"2026-09-05T12:24:45.716Z",
+			"uuid":"792a7b",
+			"type":"expire",
+			"amount":10,
+			"source":"expired",
+			"ref":"\u5230\u671f\u4f5c\u5ee2"
 		}
 	],
 	"batches":
@@ -3985,13 +4021,13 @@
 			"ref":"\u7e6a\u5716\u7cfb\u7d71\u79fb\u690d \u6e2c\u8a66\u7528\u5238"
 		},
 		{
-			"uuid":"4d6afc",
+			"uuid":"de1548",
 			"amount":10,
 			"remain":10,
-			"granted_at":"2026-09-04T15:30:24.287Z",
-			"expires_at":"2026-09-04T15:36:00.000Z",
+			"granted_at":"2026-09-05T12:24:45.701Z",
+			"expires_at":"2026-09-05T12:33:00.000Z",
 			"source":"freetime",
-			"ref":"ft-20260904T153024Z-basecamp"
+			"ref":"ft-20260905T122445Z-basecamp"
 		}
 	]
 }
