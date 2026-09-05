@@ -162,6 +162,32 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"7b1ef1"
+		},
+		{
+			"ts":"2026-09-05T16:18:44.765Z",
+			"uuid":"c0caf5",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260905T161844Z-gura",
+			"batch":"0bc64d",
+			"expires_at":"2026-09-05T16:26:00.000Z"
+		},
+		{
+			"ts":"2026-09-05T16:22:27.254Z",
+			"uuid":"7741f5",
+			"type":"consume",
+			"amount":9,
+			"source":"canvas_place",
+			"ref":"34972e"
+		},
+		{
+			"ts":"2026-09-05T16:23:28.386Z",
+			"uuid":"dea13c",
+			"type":"consume",
+			"amount":1,
+			"source":"canvas_place",
+			"ref":"45064b"
 		}
 	],
 	"persona":"gura",

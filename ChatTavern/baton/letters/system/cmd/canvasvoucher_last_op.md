@@ -1,7 +1,7 @@
 # ✅ 繪圖券 consume
-<!-- cmd_id: 20260904-233057-44c0e3-canvasvoucher -->
+<!-- cmd_id: 20260906-002549-a8ab54-canvasvoucher -->
 
-- persona: `calli`
-- amount: **-10**
+- persona: `summit`
+- amount: **-1**
 - use: `canvas_place`
-- balance: 10 → **0**
+- balance: 272 → **271**

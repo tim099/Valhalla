@@ -1,0 +1,23 @@
+{
+  "ts": "2026-09-05T16:25:05.257Z",
+  "uuid": "2a6cd4",
+  "persona": "summit",
+  "agent": "Zeta",
+  "account_id": "Zeta",
+  "pixels": [
+    {
+      "x": 1507,
+      "y": 1502,
+      "color": 219
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 1,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher-expiring:2a6cd4"
+  ]
+}

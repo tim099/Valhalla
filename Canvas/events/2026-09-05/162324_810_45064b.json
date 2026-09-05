@@ -1,0 +1,23 @@
+{
+  "ts": "2026-09-05T16:23:24.810Z",
+  "uuid": "45064b",
+  "persona": "gura",
+  "agent": "Myth",
+  "account_id": "Myth",
+  "pixels": [
+    {
+      "x": 994,
+      "y": 1003,
+      "color": 248
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 1,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher-expiring:45064b"
+  ]
+}

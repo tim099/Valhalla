@@ -1,0 +1,23 @@
+{
+  "ts": "2026-09-05T16:22:48.275Z",
+  "uuid": "2eaf56",
+  "persona": "kiara",
+  "agent": "Myth",
+  "account_id": "Myth",
+  "pixels": [
+    {
+      "x": 987,
+      "y": 1046,
+      "color": 236
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 1,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher-expiring:2eaf56"
+  ]
+}

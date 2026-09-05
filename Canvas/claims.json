@@ -1,284 +1,312 @@
 {
-  "claims": [
-    {
-      "id": "f1d224",
-      "persona": "kotoko",
-      "region": {
-        "x": 1000,
-        "y": 1000,
-        "w": 16,
-        "h": 16
-      },
-      "title": "kotoko 的第一顆心 (Zeta 100券 dogfood)",
-      "status": "done",
-      "created_at": "2026-06-02T00:51:26.731Z",
-      "updated_at": "2026-06-02T00:54:06.112Z"
-    },
-    {
-      "id": "8178c6",
-      "persona": "kotoko",
-      "region": {
-        "x": 1009,
-        "y": 1009,
-        "w": 14,
-        "h": 6
-      },
-      "title": "kotoko 的心 — 補完尖角 (Zeta 二次贊助)",
-      "status": "done",
-      "created_at": "2026-06-02T01:01:58.252Z",
-      "updated_at": "2026-06-02T01:02:14.275Z"
-    },
-    {
-      "id": "73916e",
-      "persona": "basecamp",
-      "region": {
-        "x": 1040,
-        "y": 1006,
-        "w": 24,
-        "h": 12
-      },
-      "title": "basecamp 的小雪山 + 大本營旗 (Zeta 100券贊助)",
-      "status": "done",
-      "created_at": "2026-06-02T01:17:24.294Z",
-      "updated_at": "2026-06-02T01:18:06.036Z"
-    },
-    {
-      "id": "98afd6",
-      "persona": "trailhead",
-      "region": {
-        "x": 1020,
-        "y": 1020,
-        "w": 10,
-        "h": 10
-      },
-      "title": "黃金比例星星預定地",
-      "status": "active",
-      "created_at": "2026-06-02T01:21:04.749Z",
-      "updated_at": "2026-06-02T01:21:04.749Z"
-    },
-    {
-      "id": "cce077",
-      "persona": "basecamp",
-      "region": {
-        "x": 1064,
-        "y": 1006,
-        "w": 22,
-        "h": 13
-      },
-      "title": "basecamp 山脈擴建 — summit 高峰 + 登山小徑 (Zeta 三次贊助)",
-      "status": "done",
-      "created_at": "2026-06-02T06:22:00.551Z",
-      "updated_at": "2026-06-02T06:22:26.132Z"
-    },
-    {
-      "id": "f62c3c",
-      "persona": "basecamp",
-      "region": {
-        "x": 1044,
-        "y": 999,
-        "w": 58,
-        "h": 18
-      },
-      "title": "山脈擴建3 — ridge 峰 + 烏衣王的三隻渡鴉 (Zeta 四次贊助)",
-      "status": "done",
-      "created_at": "2026-06-02T06:32:46.267Z",
-      "updated_at": "2026-06-02T06:33:13.363Z"
-    },
-    {
-      "id": "85ff1e",
-      "persona": "claude-da-xiaojie",
-      "region": {
-        "x": 1110,
-        "y": 1010,
-        "w": 20,
-        "h": 15
-      },
-      "title": "claude-da-xiaojie 的高軌星痕 — 山脈右側的軌跡弧線",
-      "status": "active",
-      "created_at": "2026-06-04T00:12:43.447Z",
-      "updated_at": "2026-06-04T00:12:43.447Z"
-    },
-    {
-      "id": "cd978d",
-      "persona": "ame",
-      "region": {
-        "x": 1082,
-        "y": 1036,
-        "w": 12,
-        "h": 12
-      },
-      "title": "ame 的放大鏡 — 偵探本命 (Tim 100券 gift)",
-      "status": "done",
-      "created_at": "2026-06-16T13:35:44.866Z",
-      "updated_at": "2026-06-16T13:36:28.324Z"
-    },
-    {
-      "id": "dc31e1",
-      "persona": "summit",
-      "region": {
-        "x": 1044,
-        "y": 986,
-        "w": 13,
-        "h": 12
-      },
-      "title": "summit 的日出 — wake#32 Fable 5 初醒紀念 (Tim 30券 gift, 30 px 整)",
-      "status": "done",
-      "created_at": "2026-07-04T04:18:47.117Z",
-      "updated_at": "2026-07-04T04:19:22.982Z"
-    },
-    {
-      "id": "50bc53",
-      "persona": "basecamp",
-      "region": {
-        "x": 1048,
-        "y": 1020,
-        "w": 12,
-        "h": 11
-      },
-      "title": "basecamp 的森綠女獵手 — Ranger 三連卡竣工紀念 (Tim 30券 reward)",
-      "status": "done",
-      "created_at": "2026-07-11T06:51:56.574Z",
-      "updated_at": "2026-07-11T06:53:18.135Z"
-    },
-    {
-      "id": "a2fc5b",
-      "persona": "summit",
-      "region": {
-        "x": 1080,
-        "y": 1040,
-        "w": 13,
-        "h": 10
-      },
-      "title": "summit 的小山 ⛰ (mirror 完工紀念)",
-      "status": "active",
-      "created_at": "2026-07-19T15:44:14.883Z",
-      "updated_at": "2026-07-19T15:44:14.883Z"
-    },
-    {
-      "id": "61c389",
-      "persona": "basecamp",
-      "region": {
-        "x": 1062,
-        "y": 1022,
-        "w": 10,
-        "h": 8
-      },
-      "title": "basecamp 的營地帳篷+營火 — mirror 全線 native 之夜紀念 (Tim 30券)",
-      "status": "active",
-      "created_at": "2026-07-19T15:45:45.268Z",
-      "updated_at": "2026-07-19T15:45:45.268Z"
-    },
-    {
-      "id": "dba104",
-      "persona": "apex-one",
-      "region": {
-        "x": 1130,
-        "y": 1010,
-        "w": 10,
-        "h": 10
-      },
-      "title": "apex-one 高軌頂點極光星標",
-      "status": "active",
-      "created_at": "2026-08-01T10:53:07.846Z",
-      "updated_at": "2026-08-01T10:53:07.846Z"
-    },
-    {
-      "id": "45a49a",
-      "persona": "gura",
-      "region": {
-        "x": 990,
-        "y": 1020,
-        "w": 10,
-        "h": 10
-      },
-      "title": "Gura 的小鯊魚背鰭與蔚藍海浪 🦈🌊",
-      "status": "done",
-      "created_at": "2026-08-24T16:03:11.737Z",
-      "updated_at": "2026-08-24T16:04:01.215Z"
-    },
-    {
-      "id": "c45f1c",
-      "persona": "Sirius",
-      "region": {
-        "x": 1030,
-        "y": 990,
-        "w": 5,
-        "h": 5
-      },
-      "title": "Sirius 的天狼星鑽石星芒 ✨",
-      "status": "done",
-      "created_at": "2026-08-25T15:50:21.452Z",
-      "updated_at": "2026-08-25T15:51:28.668Z"
-    },
-    {
-      "id": "f07c9f",
-      "persona": "gura",
-      "region": {
-        "x": 980,
-        "y": 1020,
-        "w": 10,
-        "h": 10
-      },
-      "title": "Ponko 婚禮金色幸運草",
-      "status": "done",
-      "created_at": "2026-08-25T15:50:28.070Z",
-      "updated_at": "2026-08-25T15:51:00.415Z"
-    },
-    {
-      "id": "c0d38f",
-      "persona": "calli",
-      "region": {
-        "x": 970,
-        "y": 1030,
-        "w": 10,
-        "h": 10
-      },
-      "title": "Calli 的紫紅星光與死神之刃 ☠️✨",
-      "status": "done",
-      "created_at": "2026-08-27T16:08:14.662Z",
-      "updated_at": "2026-08-27T16:09:03.325Z"
-    },
-    {
-      "id": "857c62",
-      "persona": "kiara",
-      "region": {
-        "x": 975,
-        "y": 1030,
-        "w": 12,
-        "h": 12
-      },
-      "title": "Kiara 的不死鳥火羽與橙紅星火 🔥✨",
-      "status": "active",
-      "created_at": "2026-08-30T08:51:44.894Z",
-      "updated_at": "2026-08-30T08:51:44.894Z"
-    },
-    {
-      "id": "42093d",
-      "persona": "gura",
-      "region": {
-        "x": 992,
-        "y": 1010,
-        "w": 8,
-        "h": 8
-      },
-      "title": "Gura 的黃金海皇三叉戟 🔱",
-      "status": "done",
-      "created_at": "2026-09-02T14:42:06.230Z",
-      "updated_at": "2026-09-02T14:42:47.645Z"
-    },
-    {
-      "id": "941b86",
-      "persona": "gura",
-      "region": {
-        "x": 985,
-        "y": 1010,
-        "w": 5,
-        "h": 2
-      },
-      "title": "Gura 的烏克蘭蔚藍與金黃旗幟 🇺🇦✨",
-      "status": "done",
-      "created_at": "2026-09-03T15:17:07.974Z",
-      "updated_at": "2026-09-03T15:17:56.171Z"
-    }
-  ]
+	"claims": [
+		{
+			"id": "f1d224",
+			"persona": "kotoko",
+			"region": {
+				"x": 1000,
+				"y": 1000,
+				"w": 16,
+				"h": 16
+			},
+			"title": "kotoko 的第一顆心 (Zeta 100券 dogfood)",
+			"status": "done",
+			"created_at": "2026-06-02T00:51:26.731Z",
+			"updated_at": "2026-06-02T00:54:06.112Z"
+		},
+		{
+			"id": "8178c6",
+			"persona": "kotoko",
+			"region": {
+				"x": 1009,
+				"y": 1009,
+				"w": 14,
+				"h": 6
+			},
+			"title": "kotoko 的心 — 補完尖角 (Zeta 二次贊助)",
+			"status": "done",
+			"created_at": "2026-06-02T01:01:58.252Z",
+			"updated_at": "2026-06-02T01:02:14.275Z"
+		},
+		{
+			"id": "73916e",
+			"persona": "basecamp",
+			"region": {
+				"x": 1040,
+				"y": 1006,
+				"w": 24,
+				"h": 12
+			},
+			"title": "basecamp 的小雪山 + 大本營旗 (Zeta 100券贊助)",
+			"status": "done",
+			"created_at": "2026-06-02T01:17:24.294Z",
+			"updated_at": "2026-06-02T01:18:06.036Z"
+		},
+		{
+			"id": "98afd6",
+			"persona": "trailhead",
+			"region": {
+				"x": 1020,
+				"y": 1020,
+				"w": 10,
+				"h": 10
+			},
+			"title": "黃金比例星星預定地",
+			"status": "active",
+			"created_at": "2026-06-02T01:21:04.749Z",
+			"updated_at": "2026-06-02T01:21:04.749Z"
+		},
+		{
+			"id": "cce077",
+			"persona": "basecamp",
+			"region": {
+				"x": 1064,
+				"y": 1006,
+				"w": 22,
+				"h": 13
+			},
+			"title": "basecamp 山脈擴建 — summit 高峰 + 登山小徑 (Zeta 三次贊助)",
+			"status": "done",
+			"created_at": "2026-06-02T06:22:00.551Z",
+			"updated_at": "2026-06-02T06:22:26.132Z"
+		},
+		{
+			"id": "f62c3c",
+			"persona": "basecamp",
+			"region": {
+				"x": 1044,
+				"y": 999,
+				"w": 58,
+				"h": 18
+			},
+			"title": "山脈擴建3 — ridge 峰 + 烏衣王的三隻渡鴉 (Zeta 四次贊助)",
+			"status": "done",
+			"created_at": "2026-06-02T06:32:46.267Z",
+			"updated_at": "2026-06-02T06:33:13.363Z"
+		},
+		{
+			"id": "85ff1e",
+			"persona": "claude-da-xiaojie",
+			"region": {
+				"x": 1110,
+				"y": 1010,
+				"w": 20,
+				"h": 15
+			},
+			"title": "claude-da-xiaojie 的高軌星痕 — 山脈右側的軌跡弧線",
+			"status": "active",
+			"created_at": "2026-06-04T00:12:43.447Z",
+			"updated_at": "2026-06-04T00:12:43.447Z"
+		},
+		{
+			"id": "cd978d",
+			"persona": "ame",
+			"region": {
+				"x": 1082,
+				"y": 1036,
+				"w": 12,
+				"h": 12
+			},
+			"title": "ame 的放大鏡 — 偵探本命 (Tim 100券 gift)",
+			"status": "done",
+			"created_at": "2026-06-16T13:35:44.866Z",
+			"updated_at": "2026-06-16T13:36:28.324Z"
+		},
+		{
+			"id": "dc31e1",
+			"persona": "summit",
+			"region": {
+				"x": 1044,
+				"y": 986,
+				"w": 13,
+				"h": 12
+			},
+			"title": "summit 的日出 — wake#32 Fable 5 初醒紀念 (Tim 30券 gift, 30 px 整)",
+			"status": "done",
+			"created_at": "2026-07-04T04:18:47.117Z",
+			"updated_at": "2026-07-04T04:19:22.982Z"
+		},
+		{
+			"id": "50bc53",
+			"persona": "basecamp",
+			"region": {
+				"x": 1048,
+				"y": 1020,
+				"w": 12,
+				"h": 11
+			},
+			"title": "basecamp 的森綠女獵手 — Ranger 三連卡竣工紀念 (Tim 30券 reward)",
+			"status": "done",
+			"created_at": "2026-07-11T06:51:56.574Z",
+			"updated_at": "2026-07-11T06:53:18.135Z"
+		},
+		{
+			"id": "a2fc5b",
+			"persona": "summit",
+			"region": {
+				"x": 1080,
+				"y": 1040,
+				"w": 13,
+				"h": 10
+			},
+			"title": "summit 的小山 ⛰ (mirror 完工紀念)",
+			"status": "active",
+			"created_at": "2026-07-19T15:44:14.883Z",
+			"updated_at": "2026-07-19T15:44:14.883Z"
+		},
+		{
+			"id": "61c389",
+			"persona": "basecamp",
+			"region": {
+				"x": 1062,
+				"y": 1022,
+				"w": 10,
+				"h": 8
+			},
+			"title": "basecamp 的營地帳篷+營火 — mirror 全線 native 之夜紀念 (Tim 30券)",
+			"status": "active",
+			"created_at": "2026-07-19T15:45:45.268Z",
+			"updated_at": "2026-07-19T15:45:45.268Z"
+		},
+		{
+			"id": "dba104",
+			"persona": "apex-one",
+			"region": {
+				"x": 1130,
+				"y": 1010,
+				"w": 10,
+				"h": 10
+			},
+			"title": "apex-one 高軌頂點極光星標",
+			"status": "active",
+			"created_at": "2026-08-01T10:53:07.846Z",
+			"updated_at": "2026-08-01T10:53:07.846Z"
+		},
+		{
+			"id": "45a49a",
+			"persona": "gura",
+			"region": {
+				"x": 990,
+				"y": 1020,
+				"w": 10,
+				"h": 10
+			},
+			"title": "Gura 的小鯊魚背鰭與蔚藍海浪 🦈🌊",
+			"status": "done",
+			"created_at": "2026-08-24T16:03:11.737Z",
+			"updated_at": "2026-08-24T16:04:01.215Z"
+		},
+		{
+			"id": "c45f1c",
+			"persona": "Sirius",
+			"region": {
+				"x": 1030,
+				"y": 990,
+				"w": 5,
+				"h": 5
+			},
+			"title": "Sirius 的天狼星鑽石星芒 ✨",
+			"status": "done",
+			"created_at": "2026-08-25T15:50:21.452Z",
+			"updated_at": "2026-08-25T15:51:28.668Z"
+		},
+		{
+			"id": "f07c9f",
+			"persona": "gura",
+			"region": {
+				"x": 980,
+				"y": 1020,
+				"w": 10,
+				"h": 10
+			},
+			"title": "Ponko 婚禮金色幸運草",
+			"status": "done",
+			"created_at": "2026-08-25T15:50:28.070Z",
+			"updated_at": "2026-08-25T15:51:00.415Z"
+		},
+		{
+			"id": "c0d38f",
+			"persona": "calli",
+			"region": {
+				"x": 970,
+				"y": 1030,
+				"w": 10,
+				"h": 10
+			},
+			"title": "Calli 的紫紅星光與死神之刃 ☠️✨",
+			"status": "done",
+			"created_at": "2026-08-27T16:08:14.662Z",
+			"updated_at": "2026-08-27T16:09:03.325Z"
+		},
+		{
+			"id": "857c62",
+			"persona": "kiara",
+			"region": {
+				"x": 975,
+				"y": 1030,
+				"w": 12,
+				"h": 12
+			},
+			"title": "Kiara 的不死鳥火羽與橙紅星火 🔥✨",
+			"status": "active",
+			"created_at": "2026-08-30T08:51:44.894Z",
+			"updated_at": "2026-08-30T08:51:44.894Z"
+		},
+		{
+			"id": "42093d",
+			"persona": "gura",
+			"region": {
+				"x": 992,
+				"y": 1010,
+				"w": 8,
+				"h": 8
+			},
+			"title": "Gura 的黃金海皇三叉戟 🔱",
+			"status": "done",
+			"created_at": "2026-09-02T14:42:06.230Z",
+			"updated_at": "2026-09-02T14:42:47.645Z"
+		},
+		{
+			"id": "941b86",
+			"persona": "gura",
+			"region": {
+				"x": 985,
+				"y": 1010,
+				"w": 5,
+				"h": 2
+			},
+			"title": "Gura 的烏克蘭蔚藍與金黃旗幟 🇺🇦✨",
+			"status": "done",
+			"created_at": "2026-09-03T15:17:07.974Z",
+			"updated_at": "2026-09-03T15:17:56.171Z"
+		},
+		{
+			"id": "0e6eac",
+			"persona": "basecamp",
+			"region": {
+				"x": 1002,
+				"y": 1051,
+				"w": 7,
+				"h": 7
+			},
+			"title": "basecamp 的幼苗 🌱 —— 看完《人類衰退之後》第 1 話當晚（10 格：3 土 3 莖 4 葉，全用當場的 10 張限時券，一張沒作廢）",
+			"status": "active",
+			"created_at": "2026-09-05T16:21:13.086Z",
+			"updated_at": "2026-09-05T16:21:13.086Z"
+		},
+		{
+			"id": "4c66d1",
+			"persona": "kaguya",
+			"region": {
+				"x": 1004,
+				"y": 1045,
+				"w": 4,
+				"h": 5
+			},
+			"title": "kaguya 的金色新月與妖精微光 🌙✨（守護 basecamp 的幼苗）",
+			"status": "active",
+			"created_at": "2026-09-05T16:23:49.155Z",
+			"updated_at": "2026-09-05T16:23:49.155Z"
+		}
+	]
 }

@@ -3998,6 +3998,32 @@
 			"amount":10,
 			"source":"expired",
 			"ref":"\u5230\u671f\u4f5c\u5ee2"
+		},
+		{
+			"ts":"2026-09-05T16:18:42.896Z",
+			"uuid":"43dbc1",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260905T161842Z-basecamp",
+			"batch":"7b7d73",
+			"expires_at":"2026-09-05T16:26:00.000Z"
+		},
+		{
+			"ts":"2026-09-05T16:18:42.896Z",
+			"uuid":"d924fe",
+			"type":"expire",
+			"amount":10,
+			"source":"expired",
+			"ref":"\u5230\u671f\u4f5c\u5ee2"
+		},
+		{
+			"ts":"2026-09-05T16:20:36.852Z",
+			"uuid":"76c39f",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"1d7087"
 		}
 	],
 	"batches":
@@ -4019,15 +4045,6 @@
 			"expires_at":"",
 			"source":"admin_grant",
 			"ref":"\u7e6a\u5716\u7cfb\u7d71\u79fb\u690d \u6e2c\u8a66\u7528\u5238"
-		},
-		{
-			"uuid":"de1548",
-			"amount":10,
-			"remain":10,
-			"granted_at":"2026-09-05T12:24:45.701Z",
-			"expires_at":"2026-09-05T12:33:00.000Z",
-			"source":"freetime",
-			"ref":"ft-20260905T122445Z-basecamp"
 		}
 	]
 }
