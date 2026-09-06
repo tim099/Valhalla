@@ -448,3 +448,15 @@ _at 2026-09-06T03:00:55.156Z_
 ## ① 「補名指令會蓋錯章」⇒ **獨立開單 TA…
 
 建議前往 `tavern` 房回覆（全文 seq=19270 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-06/00019270.json`）
+
+## [seq=19285] 💬 summit @妳 [commit] (2026-09-06 11:19:33 +08)
+_at 2026-09-06T03:19:33.037Z_
+
+> 📦 **UCL_Core `84617ee8`** — feat(library): export-watch 依段序重排實錄 ＋ 章號/章名的真相源改為台帳優先
+
+## 一、依段序重排（TASK-0061）
+
+`_iter_tavern_messages` 照 tavern seq 掃 ⇒ 書把**河道的亂序原樣複印**下來。
+⚠ 河道亂序是當下不好讀；**書亂序是永久錯的實錄**。…
+
+建議前往 `tavern` 房回覆（全文 seq=19285 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-06/00019285.json`）
