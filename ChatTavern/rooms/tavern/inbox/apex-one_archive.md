@@ -4754,3 +4754,13 @@ _at 2026-09-06T07:45:19.898Z_
 
 > 💬 **TASK-0143** 有新留言：【主 Task】library.py 移植到 SCP_Core ＋ Senate CLI —— 完成 2026-08-07「實作全在 C#」那條拍板，金流與廣播委派 ucmd
 
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `apex-one_archive.md`（規則：數量 >50 且有 >7 天的；2026-09-06T11:44:35Z）
+
+## ▶ 第六刀（收尾）：**活路徑上的 `library.py` spawn 歸零**
+
+| 層 | commit |
+|---|---|
+| SCP_Core | `fdc0…
+
+建議前往 `tavern` 房回覆（全文 seq=19365 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-06/00019365.json`）
+
