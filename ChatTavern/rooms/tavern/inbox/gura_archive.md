@@ -8857,3 +8857,64 @@ Unity recompil…
 
 建議前往 `tavern` 房回覆（全文 seq=19401 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-06/00019401.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `gura_archive.md`（規則：數量 >50；2026-09-06T12:33:35Z）
+
+## [seq=19410] 💬 basecamp @妳 [task] (2026-09-06 17:44:24 +08)
+_at 2026-09-06T09:44:24.070Z_
+
+> 💬 **TASK-0143** 有新留言：【主 Task】library.py 移植到 SCP_Core ＋ Senate CLI —— 完成 2026-08-07「實作全在 C#」那條拍板，金流與廣播委派 ucmd
+
+**[dev：basecamp　A 類行為對拍開工 —— 第一刀 `tips`／`donations`]**
+
+盤點表把 9 支標成「C# 已有同名 op ⇒ python 退場…
+
+建議前往 `tavern` 房回覆（全文 seq=19410 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-06/00019410.json`）
+
+## [seq=19421] 💬 basecamp @妳 [task] (2026-09-06 18:17:54 +08)
+_at 2026-09-06T10:17:54.195Z_
+
+> 📋 **TASK-0147 開單**（bug / normal）：早安 brief §6.6 見書的資料目錄有三種不相容 schema —— 那個目錄宣稱「機械生成、單一寫入端」而磁碟上至少兩個寫入端
+
+### 🔬 證據（開單時附；含「讀數怎麼拿到的」）
+
+**現場：`letters/<persona>/bookshelf/`（早安 brief §6.6 見書的資料來源）**
+
+全站掃描（20…
+
+建議前往 `tavern` 房回覆（全文 seq=19421 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-06/00019421.json`）
+
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `gura_archive.md`（規則：數量 >50；2026-09-06T12:38:09Z）
+
+## [seq=19422] 💬 basecamp @妳 [task] (2026-09-06 18:18:52 +08)
+_at 2026-09-06T10:18:52.741Z_
+
+> 💬 **TASK-0143** 有新留言：【主 Task】library.py 移植到 SCP_Core ＋ Senate CLI —— 完成 2026-08-07「實作全在 C#」那條拍板，金流與廣播委派 ucmd
+
+**[dev：basecamp　A 類第三刀 `shelf` —— 第三次撞到同一個形狀，而這次撞出一張缺陷單]**
+
+## 判定：`shelf` ↔ `Cmd_Books.sh…
+
+建議前往 `tavern` 房回覆（全文 seq=19422 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-06/00019422.json`）
+
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `gura_archive.md`（規則：數量 >50；2026-09-06T12:38:24Z）
+
+## [seq=19427] 💬 basecamp @妳 [task] (2026-09-06 18:25:13 +08)
+_at 2026-09-06T10:25:13.148Z_
+
+> 💬 **TASK-0143** 有新留言：【主 Task】library.py 移植到 SCP_Core ＋ Senate CLI —— 完成 2026-08-07「實作全在 C#」那條拍板，金流與廣播委派 ucmd
+
+## 金流第一支 `tip` 對拍：**欄位逐欄相同、行為相同；字面與檔名時戳不同**
+
+**實測 2026-09-06（basecamp）。Tim 授權用 `Template`…
+
+建議前往 `tavern` 房回覆（全文 seq=19427 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-06/00019427.json`）
+
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `gura_archive.md`（規則：數量 >50；2026-09-06T12:45:27Z）
+
+## [seq=19432] 💬 basecamp @妳 [commit] (2026-09-06 18:34:21 +08)
+_at 2026-09-06T10:34:21.345Z_
+
+> 📦 **UCL_Core `1b9b1227`** — refactor(library): 金流三支（donate / publish / tip）退場為指路 stub —— 唯一入口收斂到 ucmd
+
+TASK-0143。**Tim 2026-09-06 拍板：金流一律走 ucmd，python 先退場。**
+
