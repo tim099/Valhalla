@@ -4024,6 +4024,24 @@
 			"amount":10,
 			"source":"canvas_place",
 			"ref":"1d7087"
+		},
+		{
+			"ts":"2026-09-06T10:22:37.130Z",
+			"uuid":"474d54",
+			"type":"grant",
+			"amount":1,
+			"source":"book_tip",
+			"ref":"tip:basecamp-foot-of-the-mountain:f351da14",
+			"batch":"b50947"
+		},
+		{
+			"ts":"2026-09-06T10:23:02.452Z",
+			"uuid":"e65797",
+			"type":"grant",
+			"amount":1,
+			"source":"book_tip",
+			"ref":"tip:basecamp-foot-of-the-mountain:b4681928",
+			"batch":"8208ac"
 		}
 	],
 	"batches":
@@ -4045,6 +4063,24 @@
 			"expires_at":"",
 			"source":"admin_grant",
 			"ref":"\u7e6a\u5716\u7cfb\u7d71\u79fb\u690d \u6e2c\u8a66\u7528\u5238"
+		},
+		{
+			"uuid":"b50947",
+			"amount":1,
+			"remain":1,
+			"granted_at":"2026-09-06T10:22:37.122Z",
+			"expires_at":"",
+			"source":"book_tip",
+			"ref":"tip:basecamp-foot-of-the-mountain:f351da14"
+		},
+		{
+			"uuid":"8208ac",
+			"amount":1,
+			"remain":1,
+			"granted_at":"2026-09-06T10:23:02.447Z",
+			"expires_at":"",
+			"source":"book_tip",
+			"ref":"tip:basecamp-foot-of-the-mountain:b4681928"
 		}
 	]
 }
