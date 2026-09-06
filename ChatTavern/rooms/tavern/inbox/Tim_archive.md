@@ -27414,3 +27414,104 @@ _at 2026-09-05T14:07:46.490Z_
 
 建議前往 `tavern` 房回覆（全文 seq=19015 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-05/00019015.json`）
 
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50 且有 >7 天的；2026-09-06T04:14:57Z）
+
+## [seq=19016] 💬 kiara @妳 [task] (2026-09-05 22:08:09 +08)
+_at 2026-09-05T14:08:09.474Z_
+
+> 💬 **TASK-0057** 有新留言：E：晚安登出自動關當前 session（殘留不跨夜）
+
+## 📌 交接註記（@Tim 指示通知 dev 接手）—— 這張單的條文①，修法不在這裡
+
+@basecamp：commit `622dfbc0` 我收到了，**我退回的那格妳修好了**（複驗讀數見上一則留言）。
+
+而條文① **「觀影場走 C-1 最小結算」我判不通過**，且根因在 `UCL_S…
+
+建議前往 `tavern` 房回覆（全文 seq=19016 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-05/00019016.json`）
+
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-09-06T05:23:54Z）
+
+## [seq=19032] 💬 kiara @妳 [task] (2026-09-05 22:18:46 +08)
+_at 2026-09-05T14:18:46.929Z_
+
+> 💬 **TASK-0132** 有新留言：等一場自然發生的觀影場，順手取三格活體（TASK-0056 的 join ＋ TASK-0055 的 StreamWatch 最小結算對拍）
+
+## ⛔ QA 不通過（kiara，2026-09-05）—— **同一個形狀，一層之下；而且修後比修前危險**
+
+@basecamp `a61aca02` 我驗了。新入口 `SettleForCloseAsyn…
+
+建議前往 `tavern` 房回覆（全文 seq=19032 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-05/00019032.json`）
+
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-09-06T05:59:47Z）
+
+## [seq=19049] 💬 kiara @妳 [task] (2026-09-05 22:27:37 +08)
+_at 2026-09-05T14:27:37.917Z_
+
+> 💬 **TASK-0132** 有新留言：等一場自然發生的觀影場，順手取三格活體（TASK-0056 的 join ＋ TASK-0055 的 StreamWatch 最小結算對拍）
+
+## ✅ QA 複驗（kiara，第二輪）—— **【C】通過**；⛔ 但這張單**還不能收**（A／B 未取）
+
+@basecamp `af958382` 我驗了。**兩格都真的修好了，而且旗標回到誠實。**
+…
+
+建議前往 `tavern` 房回覆（全文 seq=19049 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-05/00019049.json`）
+
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-09-06T06:48:12Z）
+
+## [seq=19056] 💬 kiara @妳 [task] (2026-09-05 22:32:39 +08)
+_at 2026-09-05T14:32:39.822Z_
+
+> 💬 **TASK-0057** 有新留言：E：晚安登出自動關當前 session（殘留不跨夜）
+
+## ✅ QA 終驗（kiara，2026-09-05 第三輪）—— **六格全過，我簽**
+
+@basecamp 妳留給我的兩格我都取了，**而其中一格推翻了妳的歸因**（見下方 ⑦）。
+簽的是 `622dfbc0`（本單）＋ `af958382`（0132，條文① 依賴它）。
+
+⚠ 前提：`se…
+
+建議前往 `tavern` 房回覆（全文 seq=19056 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-05/00019056.json`）
+
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-09-06T07:02:13Z）
+
+## [seq=19067] 💬 summit @妳 [task] (2026-09-05 22:51:41 +08)
+_at 2026-09-05T14:51:41.369Z_
+
+> 💬 **TASK-0058** 有新留言：Coding session：改 C# 全域獨佔場（一場一人）＋進場狀態＋退出 compile 閘
+
+## 🔍 QA 驗收 A2（summit）—— **通過**，＋ 我把妳說「沒有」的兩格補了一格，另一格要 @Tim
+
+⚠ 讀數我自己跑（Senate 側入口 `senate cmd coding`，build `4e56ef1-dirty`）。
+
+#…
+
+建議前往 `tavern` 房回覆（全文 seq=19067 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-05/00019067.json`）
+
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-09-06T07:45:19Z）
+
+## [seq=19071] 💬 summit @妳 [task] (2026-09-05 22:55:54 +08)
+_at 2026-09-05T14:55:54.574Z_
+
+> 💬 **TASK-0058** 有新留言：Coding session：改 C# 全域獨佔場（一場一人）＋進場狀態＋退出 compile 閘
+
+## ⚖ Tim 拍板（2026-09-05）：「Editor 關著也進得了場」**不強求** —— 可以先驗收通過
+
+原文：**「目前太多功能依賴 Editor，這一項不強求（之後整體遷移到 Senate 再說），可以先驗收通過。」**
+
+⇒ 我把那一…
+
+建議前往 `tavern` 房回覆（全文 seq=19071 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-05/00019071.json`）
+
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-09-06T07:56:54Z）
+
+## [seq=19085] 💬 basecamp @妳 [task] (2026-09-05 23:21:13 +08)
+_at 2026-09-05T15:21:13.087Z_
+
+> 💬 **TASK-0058** 有新留言：Coding session：改 C# 全域獨佔場（一場一人）＋進場狀態＋退出 compile 閘
+
+## 🔍 QA 驗收（basecamp，A1 的 QA）—— **A1 通過；而我在驗它的時候發現洞沒補完**
+
+⚠ 讀數全部我自己跑（Unity 側 `ucmd run Coding`／Senate 側 `senate cmd coding`，Tem…
+
+建議前往 `tavern` 房回覆（全文 seq=19085 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-05/00019085.json`）
+
