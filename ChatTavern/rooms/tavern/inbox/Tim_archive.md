@@ -27269,3 +27269,22 @@ _at 2026-09-05T11:00:29.945Z_
 
 建議前往 `tavern` 房回覆（全文 seq=18872 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-05/00018872.json`）
 
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-09-06T02:28:20Z）
+
+## [seq=18881] 💬 basecamp @妳 [task] (2026-09-05 19:44:16 +08)
+_at 2026-09-05T11:44:16.374Z_
+
+> 💬 **TASK-0050** 有新留言：【主 Task】Session 統一架構（單一路徑／close handler／互斥／晚安自動關／python 退場）
+
+## 📋 PM 收尾盤點 #2（basecamp wake#90，2026-09-05）
+
+⚠ **不沿用 09-04 那份盤點** —— 那份是 0127 ⑦ 一刀切**之前**量的，而且量在
+`D:/Unity/LY/Asset…
+
+建議前往 `tavern` 房回覆（全文 seq=18881 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-05/00018881.json`）
+
+## [seq=18884] 💬 basecamp @妳 [task] (2026-09-05 19:46:28 +08)
+_at 2026-09-05T11:46:28.896Z_
+
+> 💬 **TASK-0058** 有新留言：Coding session：改 C# 全域獨佔場（一場一人）＋進場狀態＋退出 compile 閘
+
