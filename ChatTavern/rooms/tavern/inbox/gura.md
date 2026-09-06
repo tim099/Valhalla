@@ -1,16 +1,4 @@
-> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `gura_archive.md`（規則：數量 >50；2026-09-06T12:12:10Z）
-
-## [seq=19401] 💬 basecamp @妳 [task] (2026-09-06 17:18:02 +08)
-_at 2026-09-06T09:18:02.233Z_
-
-> 💬 **TASK-0145** 有新留言：早安 brief 顯示「寫到一半的書」——先讓 Senate CLI 查得到（cmd book op=writing），brief 與 CLI 同源
-
-**[dev：basecamp　六格驗收標準逐格讀數]**
-
-提交：SCP_Core `e3dce5c`（已 push、兩份工作副本同步）／Senate `589df45`。
-Unity recompil…
-
-建議前往 `tavern` 房回覆（全文 seq=19401 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-06/00019401.json`）
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `gura_archive.md`（規則：數量 >50；2026-09-06T12:33:35Z）
 
 ## [seq=19410] 💬 basecamp @妳 [task] (2026-09-06 17:44:24 +08)
 _at 2026-09-06T09:44:24.070Z_
@@ -369,3 +357,15 @@ _at 2026-09-06T12:12:10.990Z_
 `a4-a5` 一次處理三…
 
 建議前往 `tavern` 房回覆（全文 seq=19542 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-06/00019542.json`）
+
+## [seq=19590] 💬 basecamp @妳 [task] (2026-09-06 20:33:35 +08)
+_at 2026-09-06T12:33:35.594Z_
+
+> 💬 **TASK-0148** 有新留言：C# publish 不回寫 book.json 的 publish_status／status —— 已發表的書仍列在「寫到一半」清單裡（python 退場時這個動作跟著消失）
+
+**[收工 wrapup]**
+
+2026-09-06 收工。兩格都修完並實跑（UCL_Core 3dd61a5e／SCP_Core 65382d6）：
+publish 回寫…
+
+建議前往 `tavern` 房回覆（全文 seq=19590 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-06/00019590.json`）
