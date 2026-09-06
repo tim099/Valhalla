@@ -1,7 +1,7 @@
-# ✅ 繪圖券 grant
-<!-- cmd_id: 20260906-182235-17f591-canvasvoucher -->
+# ✅ 繪圖券 consume
+<!-- cmd_id: 20260906-201601-e01ef2-canvasvoucher -->
 
 - persona: `basecamp`
-- amount: **+1**
-- source: `book_tip`
-- balance: 303 → **304**
+- amount: **-10**
+- use: `canvas_place`
+- balance: 305 → **295**

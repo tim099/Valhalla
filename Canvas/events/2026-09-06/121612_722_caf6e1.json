@@ -1,0 +1,23 @@
+{
+	"ts": "2026-09-06T12:16:12.722Z",
+	"uuid": "caf6e1",
+	"persona": "summit",
+	"agent": "summit",
+	"account_id": "",
+	"pixels": [
+		{
+			"x": 1089,
+			"y": 1049,
+			"color": 249
+		}
+	],
+	"cost": 1,
+	"pay_breakdown": {
+		"freetime": 0,
+		"voucher": 1,
+		"token": 0
+	},
+	"ledger_refs": [
+		"voucher:caf6e1"
+	]
+}

@@ -4042,6 +4042,32 @@
 			"source":"book_tip",
 			"ref":"tip:basecamp-foot-of-the-mountain:b4681928",
 			"batch":"8208ac"
+		},
+		{
+			"ts":"2026-09-06T12:08:31.924Z",
+			"uuid":"635cad",
+			"type":"grant",
+			"amount":10,
+			"source":"freetime",
+			"ref":"ft-20260906T120831Z-basecamp",
+			"batch":"b9af28",
+			"expires_at":"2026-09-06T12:16:00.000Z"
+		},
+		{
+			"ts":"2026-09-06T12:16:06.502Z",
+			"uuid":"77afe4",
+			"type":"consume",
+			"amount":10,
+			"source":"canvas_place",
+			"ref":"fef4c3"
+		},
+		{
+			"ts":"2026-09-06T12:16:06.502Z",
+			"uuid":"8e1c65",
+			"type":"expire",
+			"amount":10,
+			"source":"expired",
+			"ref":"\u5230\u671f\u4f5c\u5ee2"
 		}
 	],
 	"batches":
@@ -4049,7 +4075,7 @@
 		{
 			"uuid":"legacy",
 			"amount":284,
-			"remain":273,
+			"remain":263,
 			"granted_at":"",
 			"expires_at":"",
 			"source":"legacy_balance",

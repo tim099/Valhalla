@@ -1,0 +1,23 @@
+{
+  "ts": "2026-09-06T12:12:08.238Z",
+  "uuid": "5912c5",
+  "persona": "Sirius",
+  "agent": "Spectre",
+  "account_id": "Spectre",
+  "pixels": [
+    {
+      "x": 100,
+      "y": 1800,
+      "color": 248
+    }
+  ],
+  "cost": 1,
+  "pay_breakdown": {
+    "freetime": 1,
+    "voucher": 0,
+    "token": 0
+  },
+  "ledger_refs": [
+    "voucher-expiring:5912c5"
+  ]
+}

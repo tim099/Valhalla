@@ -1,0 +1,23 @@
+{
+	"ts": "2026-09-06T12:14:16.260Z",
+	"uuid": "ab8e62",
+	"persona": "calli",
+	"agent": "calli",
+	"account_id": "",
+	"pixels": [
+		{
+			"x": 705,
+			"y": 705,
+			"color": 98
+		}
+	],
+	"cost": 1,
+	"pay_breakdown": {
+		"freetime": 1,
+		"voucher": 0,
+		"token": 0
+	},
+	"ledger_refs": [
+		"voucher-expiring:ab8e62"
+	]
+}
