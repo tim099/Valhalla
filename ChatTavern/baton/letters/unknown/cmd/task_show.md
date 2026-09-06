@@ -1,0 +1,133 @@
+# Task op=show persona=unknown  ts=`2026-09-06 13:20:45+08:00`（本地時間）
+
+## TASK-0078 — NoteLesson 靜默丟欄位：actor 落成 unknown、title/tags 不進 jsonl（BUG-42）
+- `bug` / `normal` / `in_review`　開單：summit
+- 參與：meadow(dev)、apex-one(qa)
+- 💬 最後留言：meadow @ 09-04 17:19 —— **你從未在這張單上動過，沒有基準可比**（這不是「已是最新」）
+- blocked_by: —　blocks: —　related_to: —
+- 工作記憶：—（沒有掛工作記憶；小單不需要）
+- tags: `bug-migration`
+- commit_shas: 1e28fc9c 945f654e0
+- 單檔：`D:/Unity/Bar/AgentCommands\Tasks\tasks\0078.md`
+
+## 單檔全文（**這是磁碟上的事實，不是我重述的**）
+
+```markdown
+---
+index: 78
+id: TASK-0078
+type: bug
+priority: normal
+status: in_review
+title: NoteLesson 靜默丟欄位：actor 落成 unknown、title/tags 不進 jsonl（BUG-42）
+reporter: summit
+participants:
+  - persona: meadow
+    role: dev
+    assigned_at: 2026-09-04T07:29:04.841Z
+  - persona: apex-one
+    role: qa
+    assigned_at: 2026-09-06T05:19:59.824Z
+milestone: 
+epic_id: 
+blocked_by: []
+blocks: []
+related_to: []
+subtask_indices: []
+tags: [bug-migration]
+commit_shas: [1e28fc9c, 945f654e0]
+created_at: 2026-08-28T01:44:02.382Z
+updated_at: 2026-09-06T05:19:59.824Z
+closed_at: 
+last_wrapup_at: 2026-09-04T09:19:20.342Z
+memory_topic: 
+memory_archived_commit: 
+---
+
+# TASK-0078 — NoteLesson 靜默丟欄位：actor 落成 unknown、title/tags 不進 jsonl（BUG-42）
+
+> `bug` / `normal` / `in_review`　開單：summit　參與：meadow(dev)、apex-one(qa)
+
+## 驗收標準
+
+- [ ] --persona 傳入後 actor 正確落盤；title/tags 進 jsonl
+- [ ] 不認得／沒消化的欄位大聲拒收，不靜默丟
+- [ ] BUG-42 原始指令重跑：該筆 jsonl 欄位齊全
+
+## 任務描述
+
+run_cmd --persona 已給、--arg title/tags 已帶，回 Success 且 lesson 有 append，但落盤只剩 ts/actor=unknown/category —— 給了的欄位被靜默丟棄。溯源：0042.md（已關）。
+
+## 留言
+
+### 💬 #1 meadow 2026-09-04T07:34:08.780Z
+\## 🔧 Dev 交付（meadow，2026-09-04 wake#28）
+
+改的是 `Cmd_NoteLesson.cs` 一支，外加四份 skill 鏡像。編譯 recompile 後回讀 `errors=0`。
+
+\### 三格驗收，逐格活體讀數
+
+**① `--persona` 傳入後 actor 正確落盤** ✅
+`--persona meadow` 不帶 `--arg actor` ⇒ 回傳檔 `actor: meadow`。
+🩸 舊版 `GetArg(args,"actor","unknown")` 直接落預設 —— 而 `persona` 一直在 `args` 裡（`WriteConfirm` 的 per-persona 鏡寫就在讀它）。**要的東西就在同一個 dict 裡，只是沒人去拿。**
+
+**② title / tags 進 jsonl** ✅
+```
+{"ts":"2026-09-04T07:31:39.172Z","actor":"meadow","category":"bug","body":"…","title":"欄位靜默丟棄","tags":["bug-42","notelesson","readback"]}
+```
+📌 選填欄位**沒給就不寫那個鍵**（不寫 `""` / `[]`）—— 「沒給標題」與「標題是空字串」是兩件事，壓成一件的話舊行讀起來像有人清空過它。
+
+**③ 不認得的欄位大聲拒收** ✅
+`--arg severity=high --arg autor=meadow`（後者是 actor 拼錯）⇒
+> `[NoteLesson] 不認得的參數：autor, severity（本 Cmd 只消化：body, actor, category, title, tags）`
+
+而且**擋在 append 之前** —— jsonl 沒有多一行（回讀 tail 仍是 ② 那筆）。理由：一旦寫進去，「欄位掉了」就沒有任何一層會喊。
+
+\### ⚠ 第 ③ 格的實作位置要說清楚，因為我原本想錯
+
+我第一個念頭是宣告 `ArgsSpec` 讓 CLI 幫忙擋。**做不到** ——
+`UCL_CmdArgsSpec` 只表達得出 `Required` / `RequiredPresent` / `Aliases`，
+它的檔頭明寫「刻意不收 optional，沒人用的欄位一定會爛」。
+⇒ **沒有地方能宣告完整字彙表**，而沒有完整字彙表就判不出「不認得」。
+
+所以字彙表放在**唯一會用它的人**手上：handler 自己的 `kKnownArgs`。
+`_` 開頭的框架注入鍵（`_cmd_id` / `_timeout_sec` / `_caller_client`）不歸它管。
+
+📌 這代表本張單修的是 **NoteLesson 這一支**，不是全體 Cmd。
+其他 Cmd 的同族缺口（BUG-14 那種拼錯參數靜默走預設）仍在，要通解得先給 spec 層一個「完整字彙表」欄位 —— 那是另一張單，而且要連 python 預檢端一起做。**我沒有順手擴大射程。**
+
+\### 🧹 留了兩筆測試資料在共享 jsonl
+
+驗收 ①② 各 append 了一行，body 開頭是 `TASK-0078 驗收①/②`。
+**我沒有刪** —— 那是 append-only audit log，為了讓它看起來乾淨而砍掉稽核行，比留兩筆看得懂的測試列更糟。要清的話請明說。
+
+\### 下一步
+
+`in_review`。QA 建議找**不同源**的人（我從設計到實作到驗收都只有我一個），@kiara 或 @summit 都行。
+📌 真正該打的那格是 ③ 的**時序**：不是「有沒有報錯」，是「報錯的那一次 jsonl 到底有沒有多一行」。
+
+### 💬 #2 meadow 2026-09-04T09:19:20.342Z
+**[收工 wrapup]**
+
+Dev 交付完成、`in_review`，缺的只有 QA 那一簽。
+
+**還剩什麼**：找一位**不同源**的人驗三格 —— ①`--persona` 不帶 actor 時落 persona ②title/tags 進 jsonl 且沒給就不寫該鍵 ③不認得的參數擋在 append **之前**。
+📌 第 ③ 格真正該打的是**時序**：不是「有沒有報錯」，是「報錯的那一次 jsonl 到底有沒有多一行」。
+
+**下一步從哪接**：commit `1e28fc9c`（UCL_Core）＋ `945f654e0`（主專案三份 skill 鏡像）。活體讀數全在單上，不必重量。
+
+⚠ 射程邊界要一起交棒：本次只修 NoteLesson **一支**。`UCL_CmdArgsSpec` 只表達得出 Required/Aliases，**沒有地方能宣告完整字彙表** ⇒ 其他 Cmd 的同族缺口（BUG-14 那種拼錯參數靜默走預設）仍在，通解要動 spec 層並連 python 預檢一起改。**我沒有順手擴大射程。**
+
+🧹 驗收在共享 `lessons.jsonl` 留了兩筆 body 開頭「TASK-0078 驗收①/②」的測試列，**沒刪** —— append-only 稽核檔，為了好看砍稽核行比留兩筆看得懂的測試列更糟。要清請明說。
+
+## 活動與討論時間線
+
+- 2026-08-28T01:44:02.382Z　`todo`　由 summit 開單
+- 2026-09-04T07:29:04.841Z　`in_progress`　meadow 認領（role=dev，原狀態 todo）
+- 2026-09-04T07:34:08.780Z　`comment`　meadow 留言 #1
+- 2026-09-04T07:34:17.116Z　`update`　meadow：status in_progress → in_review
+- 2026-09-04T07:54:27.787Z　`in_review`　commit `1e28fc9c`（refs）by meadow
+- 2026-09-04T07:56:10.963Z　`in_review`　commit `945f654e0`（refs）by meadow
+- 2026-09-04T09:19:20.342Z　`wrapup`　meadow 收工（狀態不動：in_review）留言 #2
+- 2026-09-06T05:19:59.824Z　`in_review`　apex-one 加入為 qa（狀態不動：`qa` 是驗收／協調角色，不是「開工」⇒ 狀態不動）
+```
