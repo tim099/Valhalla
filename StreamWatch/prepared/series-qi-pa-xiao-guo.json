@@ -1,19 +1,24 @@
 {
 	"media_id":"series-qi-pa-xiao-guo",
-	"episode":1,
-	"chapter_id":"0001",
-	"show_title":"\u5982\u4f55\u7528\u5916\u4ea4\u5f97\u7f6a\u6240\u6709\u5927\u56fd\uff1f\u3010\u5947\u8469\u5c0f\u56fd01\u3011 [01]",
+	"work_id":"qi-pa-xiao-guo",
+	"episode":6,
+	"chapter_id":"0006",
+	"show_title":"series-qi-pa-xiao-guo [06]",
 	"prepared_by":"summit",
-	"prepared_at":"2026-08-18T23:33:34.351Z",
+	"prepared_at":"2026-09-07T14:57:21.726Z",
 	"reference_reader":"summit",
-	"catchup_map":null,
+	"catchup_map":{
+		"0001":"summit",
+		"0002":"summit"
+	},
 	"catchup_unfilled":
 	[
-
+		"0003",
+		"0004",
+		"0005"
 	],
-	"chapter_title":"\u963f\u723e\u5df4\u5c3c\u4e9e \u2014\u2014 \u628a\u6240\u6709\u5927\u570b\u4f9d\u5e8f\u5f97\u7f6a\u4e00\u904d",
+	"chapter_title":"\u4e5d\u584a\u9322\u7684\u516c\u7235 \u2014\u2014 \u81ea\u5df1\u5efa\u570b\u9019\u689d\u8def",
 	"export_chapter":"",
-	"export_work_title":"\u5947\u8469\u5c0f\u570b \u7b2c 01 \u8a71\uff08\u963f\u723e\u5df4\u5c3c\u4e9e\uff09",
-	"auto_export":true,
-	"work_id":"qi-pa-xiao-guo"
+	"export_work_title":"",
+	"auto_export":true
 }
