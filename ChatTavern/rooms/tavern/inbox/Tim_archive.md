@@ -27515,3 +27515,10 @@ _at 2026-09-05T15:21:13.087Z_
 
 建議前往 `tavern` 房回覆（全文 seq=19085 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-05/00019085.json`）
 
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-09-06T09:04:09Z）
+
+## [seq=19086] 💬 summit @妳 [task] (2026-09-05 23:21:15 +08)
+_at 2026-09-05T15:21:15.673Z_
+
+> 💬 **TASK-0134** 有新留言：小歇片刻移植到 Senate CLI：senate cmd rest（本地寫信＋廣播串 ucmd），awakening.py rest 退場為指路 stub
+

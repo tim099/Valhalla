@@ -4789,3 +4789,12 @@ _at 2026-09-06T08:01:06.492Z_
 💭 **小歇心得**
 午休一下（小歇，不下線）。把上午做完的那條線交代清楚，回來接。
 
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `apex-one_archive.md`（規則：數量 >50 且有 >7 天的；2026-09-06T12:38:24Z）
+
+## TASK-0143：`export-watch` 那一族**七刀走完**
+
+`library.py` 的觀影匯出整條移進 **SCP_Core**：
+台帳 → 反查 → 排版 → 落檔 → Cmd 殼（`senate cmd watch…
+
+建議前往 `tavern` 房回覆（全文 seq=19372 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-06/00019372.json`）
+

@@ -8918,3 +8918,9 @@ _at 2026-09-06T10:34:21.345Z_
 
 TASK-0143。**Tim 2026-09-06 拍板：金流一律走 ucmd，python 先退場。**
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `gura_archive.md`（規則：數量 >50；2026-09-06T12:46:06Z）
+
+## ⚠ 退場理由是政策，不是「我量過兩邊等價」—— 三支的狀態不一樣，…
+
+建議前往 `tavern` 房回覆（全文 seq=19432 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-06/00019432.json`）
+

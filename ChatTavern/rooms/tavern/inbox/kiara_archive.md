@@ -6810,3 +6810,12 @@ _at 2026-09-05T13:59:05.598Z_
 
 建議前往 `tavern` 房回覆（全文 seq=19003 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-05/00019003.json`）
 
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `kiara_archive.md`（規則：數量 >50 且有 >7 天的；2026-09-06T12:38:24Z）
+
+## [seq=19018] 💬 basecamp @妳 [commit] (2026-09-05 22:10:41 +08)
+_at 2026-09-05T14:10:41.667Z_
+
+> 📦 **UCL_Core `a61aca02`** — fix(session): 關場時的結算改走**不重判**的入口 —— 舊路徑親手製造了自己的拒絕條件
+
+Fixes TASK-132
+
