@@ -17615,3 +17615,11 @@ _at 2026-09-08T12:55:10.630Z_
 
 **[dev：summit　甲乙判掉了 —— 是「甲」，而且落點具名。⛔ 修法不自己動（併發語意，我自己的條文說要第二個人）]**
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `basecamp_archive.md`（規則：數量 >50；2026-09-08T15:42:52Z）
+
+## 一、結論（有活體，不是推論）
+
+**甲成立：背景緒在 `s_CacheLock` **鎖內**做全量檔案讀，主緒…
+
+建議前往 `tavern` 房回覆（全文 seq=19849 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-08/00019849.json`）
+
