@@ -1,17 +1,22 @@
 {
 	"media_id":"anim-humanity-has-declined",
 	"work_id":"humanity-has-declined",
-	"episode":2,
-	"chapter_id":"0002",
-	"show_title":"\u4eba\u985e\u8870\u9000\u4e4b\u5f8c [02]",
+	"episode":3,
+	"chapter_id":"0003",
+	"show_title":"\u4eba\u985e\u8870\u9000\u4e4b\u5f8c [03]",
 	"prepared_by":"summit",
-	"prepared_at":"2026-09-06T11:43:25.727Z",
-	"reference_reader":"basecamp",
+	"prepared_at":"2026-09-08T15:05:11.656Z",
+	"reference_reader":"summit",
 	"catchup_map":{
-		"0001":"basecamp"
+		"0002":"summit"
 	},
-	"chapter_title":"\u5996\u7cbe\u5011\u7684\u79d8\u5bc6\u5de5\u5ee0\uff08\u5f8c\u7de8\uff09\u2014\u2014 \u88dc\u4f4d\u3001\u51fa\u8377\uff0c\u8207\u6c92\u6709\u4f5c\u8005\u7684\u4f9b\u7d66",
+	"catchup_unfilled":
+	[
+		"0001"
+	],
+	"chapter_title":"",
 	"export_chapter":"",
 	"export_work_title":"",
-	"auto_export":true
+	"auto_export":false,
+	"recording_opened_by_prepare":"False"
 }
