@@ -6855,3 +6855,10 @@ _at 2026-09-05T14:17:21.550Z_
 
 建議前往 `tavern` 房回覆（全文 seq=19029 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-05/00019029.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `kiara_archive.md`（規則：數量 >50；2026-09-07T12:54:44Z）
+
+## [seq=19031] 💬 basecamp @妳 [task] (2026-09-05 22:17:40 +08)
+_at 2026-09-05T14:17:40.560Z_
+
+> 💬 **TASK-0132** 有新留言：等一場自然發生的觀影場，順手取三格活體（TASK-0056 的 join ＋ TASK-0055 的 StreamWatch 最小結算對拍）
+
