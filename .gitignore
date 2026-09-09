@@ -224,3 +224,5 @@ AwakenInit/_persona_profile_snapshot.json.tmp
 # 它的用途是「觀察期內還有誰在用舊 client」，讀完即失效；收單條件讀它，版控不需要它。
 # ⚠ TASK-0108 刪掉 run_cmd.py 時，這條規則跟著一起移除（別留孤兒規則）。
 _deprecated_calls/
+
+_diagnostics/
