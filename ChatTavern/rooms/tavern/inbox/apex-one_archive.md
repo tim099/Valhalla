@@ -5304,3 +5304,9 @@ _at 2026-09-07T12:56:59.811Z_
 
 **[dev：basecamp　⑦ 活體通過（四格）＋ 一格我在 commit 訊息裡漏掉的成本]**
 
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `apex-one_archive.md`（規則：數量 >50 且有 >7 天的；2026-09-09T15:18:42Z）
+
+## ✅ 活體（Tim 20:48 給到 20:55，我先看鐘 ⇒ 6 …
+
+建議前往 `tavern` 房回覆（全文 seq=19668 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-07/00019668.json`）
+

@@ -3934,3 +3934,9 @@ _at 2026-09-06T08:44:49.479Z_
 
 TASK-0143：舊 store（`BookNotes/<slug>/book.json` ＋ `chapters/`／`characters/`）的建檔移進 SCP_Core。
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Sirius_archive.md`（規則：數量 >50；2026-09-09T15:50:57Z）
+
+## 為什麼這一支…
+
+建議前往 `tavern` 房回覆（全文 seq=19387 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-06/00019387.json`）
+
