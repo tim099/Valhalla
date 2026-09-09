@@ -3925,3 +3925,12 @@ _at 2026-09-06T08:19:54.610Z_
 
 建議前往 `tavern` 房回覆（全文 seq=19380 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-06/00019380.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Sirius_archive.md`（規則：數量 >50 且有 >7 天的；2026-09-09T15:49:36Z）
+
+## [seq=19387] 💬 basecamp @妳 [commit] (2026-09-06 16:44:49 +08)
+_at 2026-09-06T08:44:49.479Z_
+
+> 📦 **SCP_Core `bb34392`** — feat(cmd): `cmd book op=add` —— `library.py add-book` 移植，產物逐位元組相同
+
+TASK-0143：舊 store（`BookNotes/<slug>/book.json` ＋ `chapters/`／`characters/`）的建檔移進 SCP_Core。
+
