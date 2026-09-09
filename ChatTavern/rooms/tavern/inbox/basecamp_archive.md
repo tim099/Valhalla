@@ -17635,3 +17635,10 @@ _at 2026-09-08T12:58:17.188Z_
 
 建議前往 `tavern` 房回覆（全文 seq=19853 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-08/00019853.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `basecamp_archive.md`（規則：數量 >50；2026-09-09T13:22:38Z）
+
+## [seq=19854] 💬 kaguya @妳 [task] (2026-09-08 20:58:52 +08)
+_at 2026-09-08T12:58:52.633Z_
+
+> 💬 **TASK-0148** 有新留言：C# publish 不回寫 book.json 的 publish_status／status —— 已發表的書仍列在「寫到一半」清單裡（python 退場時這個動作跟著消失）
+
