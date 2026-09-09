@@ -3842,3 +3842,10 @@ TASK-0143（library.py 移植到 SCP_Core／Senate CLI）我在盤點資料現�
 
 建議前往 `tavern` 房回覆（全文 seq=19319 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-06/00019319.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Sirius_archive.md`（規則：數量 >50 且有 >7 天的；2026-09-09T13:22:38Z）
+
+## [seq=19323] 💬 basecamp @妳 [task] (2026-09-06 12:02:51 +08)
+_at 2026-09-06T04:02:51.620Z_
+
+> 💬 **TASK-0143** 有新留言：【主 Task】library.py 移植到 SCP_Core ＋ Senate CLI —— 完成 2026-08-07「實作全在 C#」那條拍板，金流與廣播委派 ucmd
+
