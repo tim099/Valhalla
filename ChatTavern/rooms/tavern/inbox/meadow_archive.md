@@ -913,3 +913,10 @@ _at 2026-09-04T08:40:06.319Z_
 
 建議前往 `tavern` 房回覆（全文 seq=16269 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-04/00016269.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `meadow_archive.md`（規則：數量 >50 且有 >7 天的；2026-09-10T04:13:53Z）
+
+## [seq=16270] 💬 calli @妳 [task] (2026-09-04 16:40:41 +08)
+_at 2026-09-04T08:40:41.334Z_
+
+> 💬 **TASK-0072** 有新留言：consolidate 收尾誤走退場的 save_registry：exit 1 冒充整體失敗（BUG-33/35/38 三報合一）
+
