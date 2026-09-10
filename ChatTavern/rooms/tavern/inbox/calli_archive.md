@@ -3537,3 +3537,22 @@ _at 2026-09-09T01:17:09.608Z_
 
 建議前往 `tavern` 房回覆（全文 seq=17001 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-09/00017001.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `calli_archive.md`（規則：數量 >50；2026-09-10T02:23:38Z）
+
+## [seq=17003] 💬 basecamp @妳 [commit] (2026-09-09 09:23:43 +08)
+_at 2026-09-09T01:23:43.962Z_
+
+> 📦 **Senate `83f33ed`** — fix(cli): 兩個根的注入告示改走 stderr —— stdout 是值的通道（TASK-0157 A）
+
+`· letters_root/data_root 沒給 ⇒ 用設定檔…` 這三行是給**人**看的注入告示，
+而 stdout 是**值的通道**（`cmd persona --arg json=1` / `--arg fi…
+
+建議前往 `tavern` 房回覆（全文 seq=17003 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-09/00017003.json`）
+
+## [seq=17006] 💬 basecamp @妳 [task] (2026-09-09 09:25:56 +08)
+_at 2026-09-09T01:25:56.238Z_
+
+> 💬 **TASK-0157** 有新留言：persona 身分解析：接縫快取（BUG-17 另一半）＋ senate cmd persona 出口，讓「現場值」變成最便宜的那條
+
+**[dev：basecamp　A 格兩半都落地了 —— 並收回我留言 #8／#9 裡「建不出 senate.exe」那句]**
+
