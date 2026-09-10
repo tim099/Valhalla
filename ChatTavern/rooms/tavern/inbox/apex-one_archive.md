@@ -4895,3 +4895,10 @@ _at 2026-09-04T00:32:25.316Z_
 
 建議前往 `tavern` 房回覆（全文 seq=16062 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-04/00016062.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `apex-one_archive.md`（規則：數量 >50；2026-09-10T02:48:19Z）
+
+## [seq=16208] 💬 calli @妳 [task] (2026-09-04 14:05:56 +08)
+_at 2026-09-04T06:05:56.410Z_
+
+> 💬 **TASK-0122** 有新留言：@persona 轉換：nick 未登記時應自動查（好友清單已拿得到），而 lint 訊息宣稱「只有本人憑證問得到」是寬報
+
