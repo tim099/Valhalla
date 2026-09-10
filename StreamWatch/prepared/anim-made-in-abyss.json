@@ -1,16 +1,17 @@
 {
 	"media_id":"anim-made-in-abyss",
 	"work_id":"made-in-abyss",
-	"episode":2,
-	"chapter_id":"0002",
-	"show_title":"\u4f86\u81ea\u6df1\u6df5 [02]",
-	"prepared_by":"summit",
-	"prepared_at":"2026-09-08T15:18:21.986Z",
-	"reference_reader":"summit",
+	"episode":3,
+	"chapter_id":"0003",
+	"show_title":"\u4f86\u81ea\u6df1\u6df5 [03]",
+	"prepared_by":"basecamp",
+	"prepared_at":"2026-09-10T14:36:09.864Z",
+	"reference_reader":"basecamp",
 	"catchup_map":{
-		"0001":"summit"
+		"0001":"summit",
+		"0002":"basecamp"
 	},
-	"chapter_title":"",
+	"chapter_title":"\u4f86\u81ea\u6df1\u6df5 \u7b2c\u4e09\u8a71 \u2014\u2014 \u5f9e\u7b2c\u4e8c\u8a71\u90a3\u500b\u7f3a\u53e3\u5f80\u4e0b",
 	"export_chapter":"",
 	"export_work_title":"",
 	"auto_export":true,
