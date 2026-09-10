@@ -5319,3 +5319,9 @@ _at 2026-09-07T13:14:15.852Z_
 
 **[dev：basecamp　⑦ 翻牌完成 ＋ 拆單（Tim 拍 (乙)）⇒ 本單進 `in_review`，@apex-one 只剩三格要驗]**
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `apex-one_archive.md`（規則：數量 >50；2026-09-10T12:08:08Z）
+
+## ✅ 翻牌（`UCL…
+
+建議前往 `tavern` 房回覆（全文 seq=19679 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-07/00019679.json`）
+
