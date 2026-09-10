@@ -4,7 +4,7 @@
 > **鍵是圖檔 URL 不是編號**：`[emoN]` 是 per-account 別名，同一個編號在不同帳號是不同張圖 ⇒ 別名記在 `aliases` 欄，查表查 URL。
 > `state=seen` ＝ 讀別人的噗時撞見的圖，**還沒有人看過它** ⇒ 那就是待描述清單。
 
-- 共 **253** 張／已描述 **23**／待描述 **230**
+- 共 **256** 張／已描述 **23**／待描述 **233**
 
 | 別名 | 全站碼 | 分層 | 描述 | 狀態 | 圖檔 |
 |---|---|---|---|---|---|
@@ -20,7 +20,7 @@
 | `plurk_summit:emo5` | `emo5` | custom | 夕陽下張開雙臂的人物剪影 | missing | [e7d47cad](https://emos.plurk.com/e7d47cad08585485f7d4e0245d806b21_w48_h45.png) |
 | `plurk_basecamp:emo6` | `emo6` | custom | *(未描述)* | present | [e62f0520](https://emos.plurk.com/e62f0520383c760d16923cee0c1c2ac9_w46_h20.gif) |
 | `plurk_summit:emo6` `18165969:emo6` | `emo6` | custom | Pusheen 灰藍胖貓動圖 | missing | [5130f10f](https://emos.plurk.com/5130f10f68a8443f3bdd5e1af09c5205_w48_h48.gif) |
-| `plurk_basecamp:emo7` | `emo7` | custom | *(未描述)* | present | [bb757722](https://emos.plurk.com/bb757722dcbc0d1f267c4f42a2ba8a54_w48_h19.png) |
+| `plurk_basecamp:emo7` `4688541:emo6` | `emo7` | custom | *(未描述)* | present | [bb757722](https://emos.plurk.com/bb757722dcbc0d1f267c4f42a2ba8a54_w48_h19.png) |
 | `plurk_summit:emo7` `7947987:emo17382` `18165969:emo7` | `emo7` | custom | 淡藍白色卡通生物頭部（嚕嚕米風） | missing | [1d05cae9](https://emos.plurk.com/1d05cae96a39ebad384eb20cbf67b671_w48_h48.gif) |
 | `plurk_basecamp:emo8` | `emo8` | custom | *(未描述)* | present | [349f597a](https://emos.plurk.com/349f597ab09300c7a81cba651469287e_w48_h48.jpeg) |
 | `plurk_summit:emo8` `4473602:emo2730594` `18165969:emo8` | `emo8` | custom | 黃色小雞側面小圖示 | missing | [18e064ee](https://emos.plurk.com/18e064eea49a0f1b1d4f617f241463ae_w22_h19.png) |
@@ -261,3 +261,6 @@
 | `14602818:emo88` | `—` | seen | 拼接式表情左半（右半是 055d9f73）：紅橘色調男性上半身、雙手上舉展示二頭肌的健美 pose；111 幀由全黑淡入 | seen | [a0de8463](https://emos.plurk.com/a0de8463354ad7c6b89ccd5104cf88e6_w32_h48.gif) |
 | `14602818:emo89` | `—` | seen | 拼接式表情右半（左半是 a0de8463）：同一張健美雙二頭肌圖的右側；111 幀由全黑淡入 | seen | [055d9f73](https://emos.plurk.com/055d9f73716acc71e77dc9c35e9134fa_w32_h48.gif) |
 | `6958127:emo19401252` | `—` | seen | *(未描述)* | seen | [b6521f53](https://emos.plurk.com/b6521f53a14131586d40d72b35b3bc9f_w47_h13.gif) |
+| `3361679:emo83` | `—` | seen | *(未描述)* | seen | [aabf4d3a](https://emos.plurk.com/aabf4d3a79fb9bfb06675825385a2e34_w43_h48.jpeg) |
+| `4898180:emo365` | `—` | seen | *(未描述)* | seen | [ab360cba](https://emos.plurk.com/ab360cba6aecd5a0d9762e53d411d599_w19_h19.gif) |
+| `4898180:emo94` | `—` | seen | *(未描述)* | seen | [b831ec65](https://emos.plurk.com/b831ec6510b9d79d687b186a391b7f1a_w24_h24.gif) |
