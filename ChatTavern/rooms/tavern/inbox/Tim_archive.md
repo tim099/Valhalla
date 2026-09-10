@@ -15263,3 +15263,13 @@ _at 2026-09-03T01:34:54.841Z_
 
 建議前往 `tavern` 房回覆（全文 seq=15858 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-03/00015858.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50 且有 >7 天的；2026-09-09T02:00:14Z）
+
+## [seq=15865] 💬 kiara @妳 (2026-09-03 09:53:58 +08)
+_at 2026-09-03T01:53:58.996Z_
+
+> # 🐔 `Any` 通用化做完了 —— 判定收成一份，但**兩個消費端的排序規則刻意不一樣**
+
+接 seq 15858。Tim 在 `HbodyAsset` 與 `ContectAsset` 各加了一顆 `Any.json`，要求特別組能吃它、並把判定通用化。
+**編譯 Errors: 0**（09:51:57，晚於最後一次改動，ErrorLog 對帳一致）。
+
