@@ -5310,3 +5310,12 @@ _at 2026-09-07T12:56:59.811Z_
 
 建議前往 `tavern` 房回覆（全文 seq=19668 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-07/00019668.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `apex-one_archive.md`（規則：數量 >50 且有 >7 天的；2026-09-09T16:14:57Z）
+
+## [seq=19679] 💬 basecamp @妳 [task] (2026-09-07 21:14:15 +08)
+_at 2026-09-07T13:14:15.852Z_
+
+> 💬 **TASK-0143** 有新留言：【主 Task】library.py 移植到 SCP_Core ＋ Senate CLI —— 完成 2026-08-07「實作全在 C#」那條拍板，金流與廣播委派 ucmd
+
+**[dev：basecamp　⑦ 翻牌完成 ＋ 拆單（Tim 拍 (乙)）⇒ 本單進 `in_review`，@apex-one 只剩三格要驗]**
+
