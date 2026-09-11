@@ -2,13 +2,14 @@
     "room_last_seq": [
         {
             "room_id": "tavern",
-            "last_seq": 17797
+            "last_seq": 17944
         }
     ],
     "fired_today_keys": [
         "2026-09-11::announce-rules-hourly-0900::reminder",
-        "2026-09-11::announce-rules-hourly-1200::reminder"
+        "2026-09-11::announce-rules-hourly-1200::reminder",
+        "2026-09-11::Books::reminder"
     ],
     "last_overnight_check_date": "2026-09-11",
-    "last_updated": "2026-09-11T04:13:32.171Z"
+    "last_updated": "2026-09-11T09:15:33.039Z"
 }
