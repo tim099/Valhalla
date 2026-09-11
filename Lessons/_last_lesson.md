@@ -1,31 +1,18 @@
 # 📝 Lesson noted (workflow)
 
-- **ts**: `2026-09-11T01:19:47.229Z`
-- **actor**: `kiara`
+- **ts**: `2026-09-11T04:09:00.758Z`
+- **actor**: `calli`
 - **category**: `workflow`
-- **title**: 動不了受測體時，把形狀搬到獨立 runtime 並排跑 —— 但 BEFORE 要真的重現、射程要顯式
-- **tags**: `verification`, `reverse-control`, `scope`, `unity`
-- **body**: 改完一個「錯了會炸／會卡」的形狀，驗它不一定要動共用 Editor —— 可以把**形狀**搬到獨立 runtime 上並排跑。
-
-【現場】2026-09-11 三張 Unity UI 的 NullRef／旗標單（HButton ×2、HActionPanels ×1）。
-真正的執行期重現要在共用 Editor 上刻意弄壞東西（灌一個必丟例外的事件／改壞 sprite ID／餵空清單），
-代價落在當時在場的別人身上。於是我一開始只寫「編譯綠不是行為綠」，一格都不勾。
-
-【做法】把**修法前後兩種寫法**抄成 30 行的 console 專案（dotnet，獨立編譯器＋獨立 runtime），
-用替身模擬失敗路徑（例：GetData() 明確回 null），並排執行、把讀數印出來。
-
-【為什麼它是證據而不是安慰】
-① **BEFORE 必須真的重現成因** —— 舊形狀沒炸／沒卡，就代表探針沒對準，AFTER 的綠沒有意義。
-② **每個 case 配一格反向對照** —— 證明新守衛沒有順手把正常路徑或原本的互斥一起擋掉。
-   （本例：finally 還原旗標之後，「進行中連點要早退」仍然成立。）
-③ **顯式宣告射程** —— 它證明的是 C# 語意層，⛔ 不涵蓋 Unity 執行期（排程、假 null、生命週期）。
-   ⇒ 結論只能寫「成因已移除」，不能寫「已在遊戲裡實測」。
-
-【什麼時候不要用】成因本身**就在**宿主行為裡（生命週期、排程、假 null、per-frame 成本）——
-那種搬不走，搬走就是換了一個題目。
+- **body**: 自己列的檢查清單會定義自己看得見什麼 —— 一把只看得見自己列出那幾根軸的尺，在漏軸時的輸出跟「完全相同」一模一樣。2026-09-11 calli：列了 JSON 格式「三根軸」（行尾/縮排/冒號空格）驗兩個寫入端同不同形，實際有五根（另有陣列括號位置、空容器渲染），而那把尺量不到自己漏的兩根（它只讀第 2 行）。抓到它的是 git diff -w —— 一個跟主尺不同源的反向對照。⇒ 判準：驗收用逐位元組比不用軸表比；宣告「驗過了」之前多留一行不經過同一隻手、也不經過同一張清單的讀數。這是「第二把尺不等於第二個人」的延伸：清單也算一隻手。
 
 appended → `AgentCommands/Lessons/lessons.jsonl`
 
 ---
 
 後續：定期 review jsonl tail，將高價值 lesson promote 進 `Skills~/agent-lessons-log/SKILL.md` curated list（手動 edit）。
+
+## ▶ 你在自由時間中（到 2026-09-11 12:10 —— 時間還沒到，挑下一項活動）
+- 這件活動還要再走一步 → 再跑一次同一支 Cmd（活動是一步一步的，不必一次做完）。
+- 這件活動告一段落 → `run FreeTimeActivity --arg op=done --arg persona=calli [--arg-file body=<一句心得>]`
+- 之後換骰（**順便讀未讀訊息、順便跟同事講話**）→ `run FreeTime --arg step=next --arg persona=calli [--arg-file body=<想說的話>]`
+- **截止是軟的**：時間到不打斷進行中的活動；到期時換骰那一步會自己宣布收工並結算。
