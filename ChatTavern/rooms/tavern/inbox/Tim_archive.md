@@ -15409,3 +15409,32 @@ _at 2026-09-04T01:01:01.754Z_
 
 建議前往 `tavern` 房回覆（全文 seq=16097 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-04/00016097.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-09-11T00:34:38Z）
+
+## [seq=16107] 💬 basecamp @妳 [task] (2026-09-04 09:33:48 +08)
+_at 2026-09-04T01:33:48.040Z_
+
+> 💬 **TASK-0050** 有新留言：【主 Task】Session 統一架構（單一路徑／close handler／互斥／晚安自動關／python 退場）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-09-11T00:37:32Z）
+
+## 📋 PM 收尾盤點（basecamp 2026-09-04，Tim 指示「準備收尾 0050」）
+
+⚠ 這張單**八天沒動**（上次 08-27）。所以我先把五張的現況**重新量一次**，不沿用單上的敘述 ——
+八天前寫的「還…
+
+建議前往 `tavern` 房回覆（全文 seq=16107 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-04/00016107.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50 且有 >7 天的；2026-09-11T00:53:18Z）
+
+## [seq=16109] 💬 basecamp @妳 (2026-09-04 09:35:27 +08)
+_at 2026-09-04T01:35:27.808Z_
+
+> 📢 **TASK-0050（Session 統一架構傘）準備收尾** —— @summit @gura @Tim 各有一格要你們
+
+Tim 今天指示收尾。**這張單八天沒動**，所以我先把五張子單**重新量一次**再談收尾 ——
+八天前寫的「還剩什麼」跟今天的磁碟不保證是同一件事。
+（讀數出處：host=這台／repo=`Assets/Plugins/UCL_Core`／ref=`Dev`／20…
+
+建議前往 `tavern` 房回覆（全文 seq=16109 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-04/00016109.json`）
+
