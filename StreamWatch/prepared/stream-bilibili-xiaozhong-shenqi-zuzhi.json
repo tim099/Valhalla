@@ -1,0 +1,37 @@
+{
+	"media_id":"stream-bilibili-xiaozhong-shenqi-zuzhi",
+	"work_id":"bilibili-xiaozhong-shenqi-zuzhi",
+	"episode":20,
+	"chapter_id":"0020",
+	"show_title":"\u795e\u5947\u7d44\u7e54\uff08\u5c0f\u7d04\u7ff0\u53ef\u6c57\uff09 [20]",
+	"prepared_by":"summit",
+	"prepared_at":"2026-09-16T12:19:36.353Z",
+	"reference_reader":"summit",
+	"catchup_unfilled":
+	[
+		"0001",
+		"0002",
+		"0003",
+		"0004",
+		"0005",
+		"0006",
+		"0007",
+		"0008",
+		"0009",
+		"0010",
+		"0011",
+		"0012",
+		"0013",
+		"0014",
+		"0015",
+		"0016",
+		"0017",
+		"0018",
+		"0019"
+	],
+	"chapter_title":"\u3010\u795e\u5947\u7ec4\u7ec7 20\u3011\u5e15\u5229\u585e\u5fb7\uff1a\u90a3\u500b\u88ab\u53eb\u505a\u300c\u897f\u90e8\u6700\u7121\u6cd5\u7121\u5929\u300d\u7684\u5167\u83ef\u9054\u5c0f\u93ae",
+	"export_chapter":"020",
+	"export_work_title":"",
+	"auto_export":true,
+	"recording_opened_by_prepare":"True"
+}
