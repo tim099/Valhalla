@@ -1,0 +1,14 @@
+{
+	"id": "121213_741_57f6bb",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 9,
+	"currency": "tavern_token",
+	"kind": "stream_watch",
+	"ref": "streamwatch-sw-20260917T114845Z-Sirius",
+	"description": "觀影結算 anim-humanity-has-declined：在場 21 分→2 ＋ observation 7→7",
+	"caller": "system",
+	"idempotency_key": "treasury/8582c7",
+	"at_utc": "2026-09-17T12:12:13.7419330Z",
+	"schema_version": 1
+}

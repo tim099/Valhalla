@@ -1,0 +1,14 @@
+{
+	"id": "102516_313_fac457",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 1324,
+	"currency": "tavern_token",
+	"kind": "opening_balance",
+	"ref": "treasury-balances@2026-09-17T10:25:10.536Z",
+	"description": "舊 Treasury 餘額遷入（TASK-0216／0223）",
+	"caller": "bank-admin-page",
+	"idempotency_key": "opening/spectre",
+	"at_utc": "2026-09-17T10:25:16.3130977Z",
+	"schema_version": 1
+}

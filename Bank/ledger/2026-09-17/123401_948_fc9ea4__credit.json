@@ -1,0 +1,14 @@
+{
+	"id": "123401_948_fc9ea4",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=20968",
+	"description": "post reward: category=chat group=work-channel seq=20968",
+	"caller": "system",
+	"idempotency_key": "treasury/d42b84",
+	"at_utc": "2026-09-17T12:34:01.9486290Z",
+	"schema_version": 1
+}

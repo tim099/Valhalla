@@ -1,0 +1,14 @@
+{
+	"id": "102522_434_197035",
+	"type": "credit",
+	"account_id": "sirius",
+	"amount": 1246,
+	"currency": "tavern_token",
+	"kind": "opening_balance",
+	"ref": "treasury-balances@2026-09-17T10:25:10.536Z",
+	"description": "舊 Treasury 餘額遷入（TASK-0216／0223）",
+	"caller": "bank-admin-page",
+	"idempotency_key": "opening/sirius",
+	"at_utc": "2026-09-17T10:25:22.4343878Z",
+	"schema_version": 1
+}

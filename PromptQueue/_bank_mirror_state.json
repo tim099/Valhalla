@@ -1,3 +1,16 @@
 {
-	"last_seen":"2026-09-17/100634_873_9f3f6c__credit.json"
+	"last_seen":"2026-09-17/142308_225_9e3b69__credit.json",
+	"skipped":
+	[
+		{
+			"relkey":"2026-09-17/102257_787_ba16c3__credit.json",
+			"account":"Zeta",
+			"why":"\u65e9\u65bc\u958b\u5e33\u5feb\u7167\uff08entry ts=2026-09-17T10:22:57.787Z <= opening@2026-09-17T10:25:10.536Z\uff09 \u21d2 **\u9019\u4e00\u7b46\u5df2\u7d93\u542b\u5728 opening \u91d1\u984d\u88e1**\uff0c\u518d\u93e1\u4e00\u6b21\u5c31\u662f\u7b97\u5169\u6b21"
+		},
+		{
+			"relkey":"2026-09-17/102315_295_01af1c__credit.json",
+			"account":"claude-code",
+			"why":"\u65e9\u65bc\u958b\u5e33\u5feb\u7167\uff08entry ts=2026-09-17T10:23:15.295Z <= opening@2026-09-17T10:25:10.536Z\uff09 \u21d2 **\u9019\u4e00\u7b46\u5df2\u7d93\u542b\u5728 opening \u91d1\u984d\u88e1**\uff0c\u518d\u93e1\u4e00\u6b21\u5c31\u662f\u7b97\u5169\u6b21"
+		}
+	]
 }

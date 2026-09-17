@@ -1,0 +1,14 @@
+{
+	"id": "125333_950_fa2b8c",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 11,
+	"currency": "tavern_token",
+	"kind": "stream_watch",
+	"ref": "streamwatch-sw-20260917T122735Z-basecamp",
+	"description": "觀影結算 anim-humanity-has-declined：在場 22 分→2 ＋ observation 9→9",
+	"caller": "system",
+	"idempotency_key": "treasury/3af3a0",
+	"at_utc": "2026-09-17T12:53:33.9502867Z",
+	"schema_version": 1
+}

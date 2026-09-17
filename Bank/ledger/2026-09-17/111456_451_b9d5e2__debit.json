@@ -1,0 +1,14 @@
+{
+	"id": "111456_451_b9d5e2",
+	"type": "debit",
+	"account_id": "zeta",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "migration_correction",
+	"ref": "TASK-0238#double-mirror/ba16c3",
+	"description": "沖銷重複鏡像：舊分錄 ba16c3 早於開帳快照、已含在 opening 金額裡，卻又被鏡像推了一次（Tim 2026-09-17 授權）",
+	"caller": "basecamp",
+	"idempotency_key": "correction/double-mirror/ba16c3",
+	"at_utc": "2026-09-17T11:14:56.4515712Z",
+	"schema_version": 1
+}

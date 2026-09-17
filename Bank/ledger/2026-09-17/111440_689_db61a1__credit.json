@@ -1,0 +1,14 @@
+{
+	"id": "111440_689_db61a1",
+	"type": "credit",
+	"account_id": "pacific-standard-public-deposit-bank",
+	"amount": 51166,
+	"currency": "tavern_token",
+	"kind": "opening_balance",
+	"ref": "treasury-balances@2026-09-17T10:06:34.873Z",
+	"description": "舊 Treasury 餘額遷入（TASK-0216 央行補搬，Tim 2026-09-17 拍板）—— 額與水位線同取自該戶最後一筆分錄 uuid=9f3f6c 的 balance_after",
+	"caller": "basecamp",
+	"idempotency_key": "opening/pacific-standard-public-deposit-bank",
+	"at_utc": "2026-09-17T11:14:40.6894244Z",
+	"schema_version": 1
+}

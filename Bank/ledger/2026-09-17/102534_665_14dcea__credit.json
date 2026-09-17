@@ -1,0 +1,14 @@
+{
+	"id": "102534_665_14dcea",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 619,
+	"currency": "tavern_token",
+	"kind": "opening_balance",
+	"ref": "treasury-balances@2026-09-17T10:25:10.536Z",
+	"description": "舊 Treasury 餘額遷入（TASK-0216／0223）",
+	"caller": "bank-admin-page",
+	"idempotency_key": "opening/codex",
+	"at_utc": "2026-09-17T10:25:34.6653212Z",
+	"schema_version": 1
+}

@@ -1,0 +1,14 @@
+{
+	"id": "102518_353_a0c954",
+	"type": "credit",
+	"account_id": "template",
+	"amount": 143,
+	"currency": "tavern_token",
+	"kind": "opening_balance",
+	"ref": "treasury-balances@2026-09-17T10:25:10.536Z",
+	"description": "舊 Treasury 餘額遷入（TASK-0216／0223）",
+	"caller": "bank-admin-page",
+	"idempotency_key": "opening/template",
+	"at_utc": "2026-09-17T10:25:18.3531438Z",
+	"schema_version": 1
+}

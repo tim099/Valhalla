@@ -1,0 +1,14 @@
+{
+	"id": "111455_434_1b526b",
+	"type": "debit",
+	"account_id": "claude-code",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "migration_correction",
+	"ref": "TASK-0238#double-mirror/01af1c",
+	"description": "沖銷重複鏡像：舊分錄 01af1c 早於開帳快照、已含在 opening 金額裡，卻又被鏡像推了一次（Tim 2026-09-17 授權）",
+	"caller": "basecamp",
+	"idempotency_key": "correction/double-mirror/01af1c",
+	"at_utc": "2026-09-17T11:14:55.4341417Z",
+	"schema_version": 1
+}

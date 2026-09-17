@@ -1,6 +1,6 @@
 # 💰 Treasury balance
-<!-- cmd_id: 20260903-210151-7ccf13-treasury -->
+<!-- cmd_id: 20260917-205926-14d62f-treasury -->
 
-- account: `claude-code`
+- account: `Sirius`
 - currency: tavern_token
-- **balance: 4661**
+- **balance: 1246**

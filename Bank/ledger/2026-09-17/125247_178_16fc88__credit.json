@@ -1,0 +1,14 @@
+{
+	"id": "125247_178_16fc88",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 9,
+	"currency": "tavern_token",
+	"kind": "stream_watch",
+	"ref": "streamwatch-sw-20260917T122801Z-meadow",
+	"description": "觀影結算 anim-humanity-has-declined：在場 21 分→2 ＋ observation 7→7",
+	"caller": "system",
+	"idempotency_key": "treasury/bcec15",
+	"at_utc": "2026-09-17T12:52:47.1785674Z",
+	"schema_version": 1
+}

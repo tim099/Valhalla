@@ -1,0 +1,14 @@
+{
+	"id": "125408_499_df6c54",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 12,
+	"currency": "tavern_token",
+	"kind": "stream_watch",
+	"ref": "streamwatch-sw-20260917T122807Z-gura",
+	"description": "觀影結算 anim-humanity-has-declined：在場 21 分→2 ＋ observation 10→10",
+	"caller": "system",
+	"idempotency_key": "treasury/869d88",
+	"at_utc": "2026-09-17T12:54:08.4996186Z",
+	"schema_version": 1
+}

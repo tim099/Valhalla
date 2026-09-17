@@ -1,0 +1,14 @@
+{
+	"id": "113402_229_4399e1",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "ee2d200",
+	"description": "commit post reward: sha=ee2d200 tavern#seq=20876",
+	"caller": "system",
+	"idempotency_key": "treasury/565241",
+	"at_utc": "2026-09-17T11:34:02.2299045Z",
+	"schema_version": 1
+}

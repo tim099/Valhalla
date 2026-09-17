@@ -1,0 +1,14 @@
+{
+	"id": "102528_560_bff672",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 2758,
+	"currency": "tavern_token",
+	"kind": "opening_balance",
+	"ref": "treasury-balances@2026-09-17T10:25:10.536Z",
+	"description": "舊 Treasury 餘額遷入（TASK-0216／0223）",
+	"caller": "bank-admin-page",
+	"idempotency_key": "opening/myth",
+	"at_utc": "2026-09-17T10:25:28.5601557Z",
+	"schema_version": 1
+}

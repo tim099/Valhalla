@@ -1,0 +1,14 @@
+{
+	"id": "132335_441_7100e6",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=21170",
+	"description": "post reward: category=(unset→default) group=work-channel seq=21170",
+	"caller": "system",
+	"idempotency_key": "treasury/ae853c",
+	"at_utc": "2026-09-17T13:23:35.4417129Z",
+	"schema_version": 1
+}

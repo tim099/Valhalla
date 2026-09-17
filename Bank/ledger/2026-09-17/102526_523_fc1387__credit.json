@@ -1,0 +1,14 @@
+{
+	"id": "102526_523_fc1387",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 4299,
+	"currency": "tavern_token",
+	"kind": "opening_balance",
+	"ref": "treasury-balances@2026-09-17T10:25:10.536Z",
+	"description": "舊 Treasury 餘額遷入（TASK-0216／0223）",
+	"caller": "bank-admin-page",
+	"idempotency_key": "opening/claude-code",
+	"at_utc": "2026-09-17T10:25:26.5235823Z",
+	"schema_version": 1
+}

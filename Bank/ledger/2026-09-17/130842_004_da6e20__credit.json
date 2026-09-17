@@ -1,0 +1,14 @@
+{
+	"id": "130842_004_da6e20",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=21093",
+	"description": "post reward: category=chat group=work-channel seq=21093",
+	"caller": "system",
+	"idempotency_key": "treasury/d9d520",
+	"at_utc": "2026-09-17T13:08:42.0041266Z",
+	"schema_version": 1
+}
