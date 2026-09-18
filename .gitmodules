@@ -64,3 +64,6 @@
 [submodule "Canvas"]
 	path = Canvas
 	url = https://github.com/Persona9999/Canvas.git
+[submodule "ChatTavern/baton/letters/kotoko"]
+	path = ChatTavern/baton/letters/kotoko
+	url = https://github.com/Persona9999/kotoko.git
