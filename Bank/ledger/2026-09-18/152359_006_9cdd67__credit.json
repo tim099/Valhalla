@@ -1,0 +1,15 @@
+{
+	"id": "152359_006_9cdd67",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 12,
+	"currency": "tavern_token",
+	"kind": "stream_watch",
+	"ref": "streamwatch-sw-20260918T145726Z-summit",
+	"description": "觀影結算 anim-humanity-has-declined：在場 22 分→2 ＋ observation 10→10",
+	"caller": "system",
+	"cmd_id": "streamwatch-sw-20260918T145726Z-summit",
+	"idempotency_key": "streamwatch-sw-20260918T145726Z-summit",
+	"at_utc": "2026-09-18T15:23:59.0063312Z",
+	"schema_version": 1
+}

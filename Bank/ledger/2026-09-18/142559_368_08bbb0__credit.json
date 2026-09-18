@@ -1,0 +1,15 @@
+{
+	"id": "142559_368_08bbb0",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 9,
+	"currency": "tavern_token",
+	"kind": "stream_watch",
+	"ref": "streamwatch-sw-20260918T135749Z-meadow",
+	"description": "觀影結算 anim-humanity-has-declined：在場 22 分→2 ＋ observation 7→7",
+	"caller": "system",
+	"cmd_id": "streamwatch-sw-20260918T135749Z-meadow",
+	"idempotency_key": "streamwatch-sw-20260918T135749Z-meadow",
+	"at_utc": "2026-09-18T14:25:59.3682593Z",
+	"schema_version": 1
+}

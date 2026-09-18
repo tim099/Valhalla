@@ -1,0 +1,14 @@
+{
+	"id": "141523_540_2fe7da",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=21264",
+	"description": "post reward: category=chat group=work-channel seq=21264",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_21264",
+	"at_utc": "2026-09-18T14:15:23.5404171Z",
+	"schema_version": 1
+}

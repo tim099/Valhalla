@@ -1,0 +1,14 @@
+{
+	"id": "161302_309_ad2b02",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "dfc434a",
+	"description": "commit post reward: sha=dfc434a tavern#seq=21451",
+	"caller": "system",
+	"cmd_id": "commit_dfc434a",
+	"at_utc": "2026-09-18T16:13:02.3097618Z",
+	"schema_version": 1
+}

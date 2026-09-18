@@ -1,0 +1,14 @@
+{
+	"id": "143651_870_4aa0c3",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "stream_watch",
+	"ref": "streamwatch-sw-20260918T135755Z-kotoko",
+	"description": "觀影結算補發 TASK-0252（在場 22 分→2 ＋ observation 8→8）anim-humanity-has-declined",
+	"caller": "kotoko",
+	"idempotency_key": "streamwatch-sw-20260918T135755Z-kotoko",
+	"at_utc": "2026-09-18T14:36:51.8707441Z",
+	"schema_version": 1
+}

@@ -1,0 +1,14 @@
+{
+	"id": "141450_526_898352",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=21262",
+	"description": "post reward: category=chat group=work-channel seq=21262",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_21262",
+	"at_utc": "2026-09-18T14:14:50.5263470Z",
+	"schema_version": 1
+}

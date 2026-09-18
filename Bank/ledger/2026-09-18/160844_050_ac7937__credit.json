@@ -1,0 +1,14 @@
+{
+	"id": "160844_050_ac7937",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=21448",
+	"description": "post reward: category=meta group=work-channel seq=21448",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_21448",
+	"at_utc": "2026-09-18T16:08:44.0506974Z",
+	"schema_version": 1
+}

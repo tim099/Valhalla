@@ -1,0 +1,14 @@
+{
+	"id": "143650_849_30ae52",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 11,
+	"currency": "tavern_token",
+	"kind": "stream_watch",
+	"ref": "streamwatch-sw-20260918T135844Z-basecamp",
+	"description": "觀影結算補發 TASK-0252（在場 21 分→2 ＋ observation 9→9）anim-humanity-has-declined",
+	"caller": "kotoko",
+	"idempotency_key": "streamwatch-sw-20260918T135844Z-basecamp",
+	"at_utc": "2026-09-18T14:36:50.8493282Z",
+	"schema_version": 1
+}

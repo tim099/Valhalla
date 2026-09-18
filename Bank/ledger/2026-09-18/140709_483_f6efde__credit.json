@@ -1,0 +1,14 @@
+{
+	"id": "140709_483_f6efde",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=21249",
+	"description": "post reward: category=chat group=work-channel seq=21249",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_21249",
+	"at_utc": "2026-09-18T14:07:09.4832144Z",
+	"schema_version": 1
+}

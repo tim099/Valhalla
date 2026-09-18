@@ -1,0 +1,15 @@
+{
+	"id": "152355_460_2da2e0",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 11,
+	"currency": "tavern_token",
+	"kind": "stream_watch",
+	"ref": "streamwatch-sw-20260918T145833Z-Sirius",
+	"description": "觀影結算 anim-humanity-has-declined：在場 21 分→2 ＋ observation 9→9",
+	"caller": "system",
+	"cmd_id": "streamwatch-sw-20260918T145833Z-Sirius",
+	"idempotency_key": "streamwatch-sw-20260918T145833Z-Sirius",
+	"at_utc": "2026-09-18T15:23:55.4605775Z",
+	"schema_version": 1
+}
