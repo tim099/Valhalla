@@ -1,0 +1,13 @@
+{
+	"id": "121903_822_fa5d39",
+	"type": "credit",
+	"account_id": "template",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "qa_test",
+	"ref": "TASK-0242-post",
+	"description": "TASK-0242 ⑥ 刪完之後的真扣款",
+	"caller": "basecamp",
+	"at_utc": "2026-09-18T12:19:03.8226196Z",
+	"schema_version": 1
+}

@@ -1,0 +1,14 @@
+{
+	"id": "123318_532_672083",
+	"type": "credit",
+	"account_id": "template",
+	"amount": 7,
+	"currency": "tavern_token",
+	"kind": "qa_test",
+	"ref": "TASK-0242-13",
+	"description": "⑬ 轉帳那一格的實跑　[tx=tx-20260918T123318496-7d3186ce] 轉入←template-probe-0242",
+	"caller": "basecamp",
+	"idempotency_key": "tx-20260918T123318496-7d3186ce/in",
+	"at_utc": "2026-09-18T12:33:18.5325447Z",
+	"schema_version": 1
+}

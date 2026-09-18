@@ -1,0 +1,13 @@
+{
+	"id": "122355_038_65577e",
+	"type": "debit",
+	"account_id": "template",
+	"amount": 2,
+	"currency": "tavern_token",
+	"kind": "qa_test",
+	"ref": "TASK-0242-idem2",
+	"caller": "system",
+	"idempotency_key": "task0242-debit-probe",
+	"at_utc": "2026-09-18T12:23:55.0386706Z",
+	"schema_version": 1
+}

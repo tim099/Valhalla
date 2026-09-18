@@ -1,0 +1,13 @@
+{
+	"id": "123317_488_d80eda",
+	"type": "credit",
+	"account_id": "template-probe-0242",
+	"amount": 7,
+	"currency": "tavern_token",
+	"kind": "qa_test",
+	"ref": "TASK-0242-13",
+	"description": "⑬ 打款那一格的實跑",
+	"caller": "basecamp",
+	"at_utc": "2026-09-18T12:33:17.4880096Z",
+	"schema_version": 1
+}

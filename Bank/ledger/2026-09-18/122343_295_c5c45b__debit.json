@@ -1,0 +1,13 @@
+{
+	"id": "122343_295_c5c45b",
+	"type": "debit",
+	"account_id": "template",
+	"amount": 3,
+	"currency": "tavern_token",
+	"kind": "qa_test",
+	"ref": "TASK-0242-final",
+	"description": "TASK-0242 ⑥ 全部刪完後的真扣款（debit）",
+	"caller": "system",
+	"at_utc": "2026-09-18T12:23:43.2957019Z",
+	"schema_version": 1
+}

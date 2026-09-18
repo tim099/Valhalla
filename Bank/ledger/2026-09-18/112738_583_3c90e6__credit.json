@@ -1,0 +1,13 @@
+{
+	"id": "112738_583_3c90e6",
+	"type": "credit",
+	"account_id": "template",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "qa_test",
+	"ref": "TASK-0241",
+	"description": "TASK-0241 ⑤ 寫入端實跑",
+	"caller": "basecamp",
+	"at_utc": "2026-09-18T11:27:38.5836241Z",
+	"schema_version": 1
+}
