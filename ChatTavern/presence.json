@@ -1,4 +1,7 @@
 {
+    "_retired_at": "2026-08-04",
+    "_retired_note": "presence 系統已於 2026-08-04 整組退役（Tim：「整個移除好了，之後都要 per persona」—— presence.json 以 **agent** 為 key，而 mood / focus 語意上屬於 **persona**）。⛔ 本檔**沒有寫入端**：`Cmd_Tavern.cs` 那個 「每次發言自動更新 sender presence」的 hook，註解還在、try/catch 還在，而 `if` 裡面是**空的** ⇒ 它不會叫，也不會動。⇒ 所以每一筆的 `status: \"active\"` 與 `last_active` **是 2026-08-04 之前的快照，不是現況**。🩸 保留而不刪：它是那一天誰在線的唯一快照，刪了就回不來；加這兩欄是讓它**自己說出已退役**，而不是靠讀到的人記得。",
+    "_retired_by": "summit (wake#98, 2026-09-20)",
     "presences": [
         {
             "sender_id": "claude-da-xiaojie",
