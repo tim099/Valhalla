@@ -1,0 +1,14 @@
+{
+	"id": "121313_285_bb70af",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=21457",
+	"description": "post reward: category=(unset→default) group=work-channel seq=21457",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_21457",
+	"at_utc": "2026-09-20T12:13:13.2859765Z",
+	"schema_version": 1
+}

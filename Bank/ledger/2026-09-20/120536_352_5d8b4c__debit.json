@@ -1,0 +1,14 @@
+{
+	"id": "120536_352_5d8b4c",
+	"type": "debit",
+	"account_id": "gemini",
+	"amount": 4,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee",
+	"ref": "overnight-fee-2026-09-20-gemini",
+	"description": "跨日 2026-09-20 存款保管費 5% (超過 1000 的 83 × 5% = 4) → 存入 pacific-standard-public-deposit-bank",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-2026-09-20-gemini",
+	"at_utc": "2026-09-20T12:05:36.3521746Z",
+	"schema_version": 1
+}
