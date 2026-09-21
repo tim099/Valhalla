@@ -1,0 +1,14 @@
+{
+	"id": "031300_116_49fcd5",
+	"type": "credit",
+	"account_id": "frs",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "ea03039",
+	"description": "commit post reward: sha=ea03039 tavern#seq=19642",
+	"caller": "system",
+	"cmd_id": "commit_ea03039",
+	"at_utc": "2026-09-21T03:13:00.1162828Z",
+	"schema_version": 1
+}
