@@ -226,3 +226,5 @@ AwakenInit/_persona_profile_snapshot.json.tmp
 _deprecated_calls/
 
 _diagnostics/
+# Senate Server 名片（runtime state：啟動時寫、收工時刪）—— TASK-0106
+_server_endpoint.*.json
