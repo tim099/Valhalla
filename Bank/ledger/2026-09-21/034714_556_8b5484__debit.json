@@ -1,0 +1,14 @@
+{
+	"id": "034714_556_8b5484",
+	"type": "debit",
+	"account_id": "template",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "test_restore",
+	"ref": "TASK-0260",
+	"description": "把驗收用的 1 塊還回央行　[tx=tx-20260921T034714445-281f1b4d] 轉出→pacific-standard-public-deposit-bank",
+	"caller": "basecamp",
+	"idempotency_key": "tx-20260921T034714445-281f1b4d/out",
+	"at_utc": "2026-09-21T03:47:14.5565354Z",
+	"schema_version": 1
+}

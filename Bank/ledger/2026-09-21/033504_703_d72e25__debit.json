@@ -1,0 +1,14 @@
+{
+	"id": "033504_703_d72e25",
+	"type": "debit",
+	"account_id": "pacific-standard-public-deposit-bank",
+	"amount": 3,
+	"currency": "tavern_token",
+	"kind": "payout_request",
+	"ref": "c161f0",
+	"description": "TASK-0261 活體驗收：撥款失敗要保持 pending　[tx=payout/c161f0] 轉出→no-such-account-0261",
+	"caller": "cmd_bank/basecamp",
+	"idempotency_key": "payout/c161f0/out",
+	"at_utc": "2026-09-21T03:35:04.7031726Z",
+	"schema_version": 1
+}

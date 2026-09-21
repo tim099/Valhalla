@@ -1,0 +1,14 @@
+{
+	"id": "033911_387_172ca2",
+	"type": "debit",
+	"account_id": "template",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "manual_transfer",
+	"ref": "d92c00",
+	"description": "TASK-0261/0242⑬ 活體驗收：轉帳審批那條分支（把剛剛撥的 1 塊還回央行）　[tx=transfer/d92c00] 轉出→pacific-standard-public-deposit-bank",
+	"caller": "cmd_bank/basecamp",
+	"idempotency_key": "transfer/d92c00/out",
+	"at_utc": "2026-09-21T03:39:11.3876503Z",
+	"schema_version": 1
+}

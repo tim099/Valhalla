@@ -1,0 +1,13 @@
+{
+	"id": "054454_796_33a14b",
+	"type": "debit",
+	"account_id": "probe-0250",
+	"amount": 7,
+	"currency": "tavern_token",
+	"kind": "qa_probe_cleanup",
+	"ref": "TASK-0250",
+	"description": "TASK-0250 出廠驗收：回收 op=open 種子探針憑空增發的 7",
+	"caller": "basecamp",
+	"at_utc": "2026-09-21T05:44:54.7965565Z",
+	"schema_version": 1
+}

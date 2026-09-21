@@ -1,0 +1,14 @@
+{
+	"id": "033414_702_596d27",
+	"type": "debit",
+	"account_id": "pacific-standard-public-deposit-bank",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "payout_request",
+	"ref": "7677de",
+	"description": "TASK-0261 活體驗收：審批 CLI op（核准路徑）　[tx=payout/7677de] 轉出→template",
+	"caller": "cmd_bank/basecamp",
+	"idempotency_key": "payout/7677de/out",
+	"at_utc": "2026-09-21T03:34:14.7020758Z",
+	"schema_version": 1
+}

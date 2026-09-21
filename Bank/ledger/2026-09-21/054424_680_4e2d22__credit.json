@@ -1,0 +1,14 @@
+{
+	"id": "054424_680_4e2d22",
+	"type": "credit",
+	"account_id": "probe-0250",
+	"amount": 7,
+	"currency": "tavern_token",
+	"kind": "system_init",
+	"ref": "cmd_bank_open",
+	"description": "開戶種子額度",
+	"caller": "basecamp",
+	"idempotency_key": "seed/probe-0250",
+	"at_utc": "2026-09-21T05:44:24.6800510Z",
+	"schema_version": 1
+}

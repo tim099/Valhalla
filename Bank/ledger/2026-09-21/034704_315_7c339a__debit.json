@@ -1,0 +1,14 @@
+{
+	"id": "034704_315_7c339a",
+	"type": "debit",
+	"account_id": "pacific-standard-public-deposit-bank",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "payout_request",
+	"ref": "3e3a7b",
+	"description": "TASK-0260 呼叫端①：走 Bind 塞 bank_root 的那條路　[tx=payout/3e3a7b] 轉出→template",
+	"caller": "cmd_bank/basecamp",
+	"idempotency_key": "payout/3e3a7b/out",
+	"at_utc": "2026-09-21T03:47:04.3156495Z",
+	"schema_version": 1
+}

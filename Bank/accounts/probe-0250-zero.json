@@ -1,0 +1,10 @@
+{
+	"id": "probe-0250-zero",
+	"display_name": "TASK-0250 回歸探針（不帶種子）",
+	"status": "closed",
+	"opened_at_utc": "2026-09-21T05:45:40.0443666Z",
+	"opened_by": "",
+	"closed_at_utc": "2026-09-21T05:45:42.6502061Z",
+	"closed_reason": "TASK-0250 QA 回歸對照組完成，探針銷戶",
+	"schema_version": 1
+}

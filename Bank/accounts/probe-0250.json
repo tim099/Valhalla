@@ -1,0 +1,10 @@
+{
+	"id": "probe-0250",
+	"display_name": "TASK-0250 出廠驗收探針",
+	"status": "closed",
+	"opened_at_utc": "2026-09-21T05:44:24.6222946Z",
+	"opened_by": "basecamp",
+	"closed_at_utc": "2026-09-21T05:44:55.8109343Z",
+	"closed_reason": "TASK-0250 QA 出廠驗收完畢，探針帳戶回收銷戶（種子已原路沖銷，餘額 0）",
+	"schema_version": 1
+}

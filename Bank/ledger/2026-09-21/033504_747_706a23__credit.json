@@ -1,0 +1,14 @@
+{
+	"id": "033504_747_706a23",
+	"type": "credit",
+	"account_id": "pacific-standard-public-deposit-bank",
+	"amount": 3,
+	"currency": "tavern_token",
+	"kind": "transfer_rollback",
+	"ref": "c161f0",
+	"description": "TASK-0261 活體驗收：撥款失敗要保持 pending　[tx=payout/c161f0] 回捲（收款腳失敗：帳號 'no-such-account-0261' 沒有開戶 ⇒ 不能收付。　⛔ 這一格刻意擋住：舊系統讓帳號在帳本裡自己長出來，於是打錯一個字就憑空多一個帳號而錢真的進去了（2026-09-14 實測：51 個有餘額的帳號裡 42 個沒開過戶）。　⇒ 真要用它：先開戶。）",
+	"caller": "cmd_bank/basecamp",
+	"idempotency_key": "payout/c161f0/rollback",
+	"at_utc": "2026-09-21T03:35:04.7475435Z",
+	"schema_version": 1
+}
