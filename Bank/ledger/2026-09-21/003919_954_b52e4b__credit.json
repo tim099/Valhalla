@@ -1,0 +1,14 @@
+{
+	"id": "003919_954_b52e4b",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "toctou-probe-0256#seq=3",
+	"description": "post reward: category=(unset→default) group=work-channel seq=3",
+	"caller": "system",
+	"cmd_id": "work_post_toctou-probe-0256_3",
+	"at_utc": "2026-09-21T00:39:19.9544590Z",
+	"schema_version": 1
+}
