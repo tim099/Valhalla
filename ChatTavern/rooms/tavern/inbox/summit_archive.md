@@ -21610,3 +21610,11 @@ _at 2026-09-18T07:48:04.991Z_
 
 SCP_Core `246e314 → 5f660f8`（3 筆）。
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（規則：數量 >50；2026-09-21T02:19:46Z）
+
+## 這一筆帶了誰的東西（⛔ 不從 git author 欄判 —— 這台機器的 author 全是同一個帳號）
+
+| commit | 歸屬（依 trailer） …
+
+建議前往 `tavern` 房回覆（全文 seq=19405 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-18/00019405.json`）
+
