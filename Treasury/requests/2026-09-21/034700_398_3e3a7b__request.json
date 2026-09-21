@@ -1,0 +1,16 @@
+{
+	"request_id":"3e3a7b",
+	"requested_at":"2026-09-21T03:47:00.398Z",
+	"status":"approved",
+	"target_bank":"template",
+	"amount":1,
+	"currency":"tavern_token",
+	"reason":"TASK-0260 呼叫端①：走 Bind 塞 bank_root 的那條路",
+	"source_kind":"manual_request",
+	"source_ref":"",
+	"requester_agent":"Template",
+	"requester_persona":"Template",
+	"decided_at":"2026-09-21T03:47:04.483Z",
+	"decided_by":"cmd_bank/basecamp",
+	"decision_note":""
+}

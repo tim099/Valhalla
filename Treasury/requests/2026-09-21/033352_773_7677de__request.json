@@ -1,0 +1,16 @@
+{
+	"request_id":"7677de",
+	"requested_at":"2026-09-21T03:33:52.773Z",
+	"status":"approved",
+	"target_bank":"template",
+	"amount":1,
+	"currency":"tavern_token",
+	"reason":"TASK-0261 活體驗收：審批 CLI op（核准路徑）",
+	"source_kind":"task_verify",
+	"source_ref":"TASK-0261",
+	"requester_agent":"Template",
+	"requester_persona":"Template",
+	"decided_at":"2026-09-21T03:34:14.838Z",
+	"decided_by":"cmd_bank/basecamp",
+	"decision_note":"TASK-0261 活體驗收"
+}

@@ -1,0 +1,16 @@
+{
+	"request_id":"663ad4",
+	"requested_at":"2026-09-21T03:34:46.142Z",
+	"status":"rejected",
+	"target_bank":"template",
+	"amount":2,
+	"currency":"tavern_token",
+	"reason":"TASK-0261 活體驗收：駁回路徑",
+	"source_kind":"manual_request",
+	"source_ref":"",
+	"requester_agent":"Template",
+	"requester_persona":"Template",
+	"decided_at":"2026-09-21T03:35:03.570Z",
+	"decided_by":"cmd_bank/basecamp",
+	"decision_note":"活體驗收：駁回不動錢"
+}

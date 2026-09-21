@@ -1,0 +1,16 @@
+{
+	"request_id":"c161f0",
+	"requested_at":"2026-09-21T03:34:51.430Z",
+	"status":"rejected",
+	"target_bank":"no-such-account-0261",
+	"amount":3,
+	"currency":"tavern_token",
+	"reason":"TASK-0261 活體驗收：撥款失敗要保持 pending",
+	"source_kind":"manual_request",
+	"source_ref":"",
+	"requester_agent":"Template",
+	"requester_persona":"Template",
+	"decided_at":"2026-09-21T03:35:24.054Z",
+	"decided_by":"cmd_bank/basecamp",
+	"decision_note":"TASK-0261 ⑥ 的測試品（目標戶刻意不存在），驗完清掉 —— 不是真的請款"
+}

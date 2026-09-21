@@ -1,0 +1,16 @@
+{
+	"request_id":"d92c00",
+	"requested_at":"2026-09-21T03:39:00.976Z",
+	"status":"approved",
+	"from_bank":"template",
+	"to_bank":"pacific-standard-public-deposit-bank",
+	"amount":1,
+	"currency":"tavern_token",
+	"reason":"TASK-0261/0242⑬ 活體驗收：轉帳審批那條分支（把剛剛撥的 1 塊還回央行）",
+	"kind":"manual_transfer",
+	"requester_agent":"Template",
+	"requester_persona":"Template",
+	"decided_at":"2026-09-21T03:39:11.535Z",
+	"decided_by":"cmd_bank/basecamp",
+	"decision_note":"0242 ⑬：轉帳審批分支的活體讀數"
+}
