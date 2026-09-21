@@ -1,12 +1,13 @@
 {
 	"persona": "ridge-001",
 	"voucher": "tavern",
-	"permanent": 40,
+	"permanent": 80,
 	"expiring": [],
-	"updated_at_utc": "2026-09-18T05:24:21.5927269Z",
-	"updated_region": "Florin",
+	"updated_at_utc": "2026-09-21T01:17:32.3860042Z",
+	"updated_region": "BTC",
 	"migrated_regions": [
-		"Florin"
+		"Florin",
+		"BTC"
 	],
 	"schema_version": 1
 }

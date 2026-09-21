@@ -1,12 +1,13 @@
 {
 	"persona": "basecamp-fork-2026-05-12-2c36",
 	"voucher": "tavern",
-	"permanent": 36,
+	"permanent": 72,
 	"expiring": [],
-	"updated_at_utc": "2026-09-18T05:24:23.1144825Z",
-	"updated_region": "Florin",
+	"updated_at_utc": "2026-09-21T01:17:23.1821427Z",
+	"updated_region": "BTC",
 	"migrated_regions": [
-		"Florin"
+		"Florin",
+		"BTC"
 	],
 	"schema_version": 1
 }

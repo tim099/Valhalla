@@ -1,12 +1,13 @@
 {
 	"persona": "trailhead",
 	"voucher": "canvas",
-	"permanent": 78,
+	"permanent": 182,
 	"expiring": [],
-	"updated_at_utc": "2026-09-18T02:34:33.4877173Z",
-	"updated_region": "Florin",
+	"updated_at_utc": "2026-09-21T01:16:38.3278284Z",
+	"updated_region": "BTC",
 	"migrated_regions": [
-		"Florin"
+		"Florin",
+		"BTC"
 	],
 	"schema_version": 1
 }

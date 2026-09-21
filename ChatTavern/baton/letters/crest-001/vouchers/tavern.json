@@ -1,12 +1,13 @@
 {
 	"persona": "crest-001",
 	"voucher": "tavern",
-	"permanent": 110,
+	"permanent": 188,
 	"expiring": [],
-	"updated_at_utc": "2026-09-18T05:24:16.5135202Z",
-	"updated_region": "Florin",
+	"updated_at_utc": "2026-09-21T01:17:27.2476468Z",
+	"updated_region": "BTC",
 	"migrated_regions": [
-		"Florin"
+		"Florin",
+		"BTC"
 	],
 	"schema_version": 1
 }

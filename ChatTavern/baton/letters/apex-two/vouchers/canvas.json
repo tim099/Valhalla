@@ -1,12 +1,13 @@
 {
 	"persona": "apex-two",
 	"voucher": "canvas",
-	"permanent": 30,
+	"permanent": 60,
 	"expiring": [],
-	"updated_at_utc": "2026-09-18T02:34:19.2630163Z",
-	"updated_region": "Florin",
+	"updated_at_utc": "2026-09-21T01:16:27.0988718Z",
+	"updated_region": "BTC",
 	"migrated_regions": [
-		"Florin"
+		"Florin",
+		"BTC"
 	],
 	"schema_version": 1
 }

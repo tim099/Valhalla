@@ -1,12 +1,11 @@
 {
-	"persona": "trailhead",
+	"persona": "ame",
 	"voucher": "tavern",
-	"permanent": 150,
+	"permanent": 10,
 	"expiring": [],
-	"updated_at_utc": "2026-09-21T01:17:36.4523083Z",
+	"updated_at_utc": "2026-09-21T01:17:19.6097989Z",
 	"updated_region": "BTC",
 	"migrated_regions": [
-		"Florin",
 		"BTC"
 	],
 	"schema_version": 1
