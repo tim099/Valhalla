@@ -1,0 +1,14 @@
+{
+	"id": "161019_450_7aba1f",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "ccbdc72",
+	"description": "commit post reward: sha=ccbdc72 tavern#seq=21693",
+	"caller": "system",
+	"cmd_id": "commit_ccbdc72",
+	"at_utc": "2026-09-22T16:10:19.4509988Z",
+	"schema_version": 1
+}

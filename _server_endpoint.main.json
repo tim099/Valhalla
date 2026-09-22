@@ -1,0 +1,10 @@
+{
+	"server_id": "main",
+	"pid": 72380,
+	"build_id": "277c1fe-dirty.20260922T154337Z",
+	"started_at_utc": "2026-09-22T15:46:57.3835383Z",
+	"server_root": "D:\\Unity\\Senate\\SenateData\\runtime\\server",
+	"heartbeat_path": "D:\\Unity\\Senate\\SenateData\\runtime\\_server_heartbeat.json",
+	"stale_seconds": 4,
+	"schema_version": 1
+}

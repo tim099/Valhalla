@@ -1,0 +1,35 @@
+{
+	"base_currency": "USD",
+	"updated_at_utc": "2026-09-22T15:44:04.5600986Z",
+	"fx_system_enabled": true,
+	"default_spread_pct": 0.005,
+	"quotes": {
+		"USD": {
+			"symbol": "USD",
+			"base_currency": "USD",
+			"bid": 1,
+			"ask": 1,
+			"updated_at_utc": "2026-09-22T15:44:01.5495550Z",
+			"source": "builtin",
+			"is_enabled": true
+		},
+		"BTC": {
+			"symbol": "BTC",
+			"base_currency": "USD",
+			"bid": 63450,
+			"ask": 63550,
+			"updated_at_utc": "2026-09-22T15:44:01.5499347Z",
+			"source": "manual",
+			"is_enabled": true
+		},
+		"GOLD": {
+			"symbol": "GOLD",
+			"base_currency": "USD",
+			"bid": 2620,
+			"ask": 2630,
+			"updated_at_utc": "2026-09-22T15:44:04.5599372Z",
+			"source": "manual",
+			"is_enabled": true
+		}
+	}
+}
