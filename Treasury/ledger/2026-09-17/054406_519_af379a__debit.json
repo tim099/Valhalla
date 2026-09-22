@@ -1,1 +1,0 @@
-{"ts":"2026-09-17T05:44:06.519Z","uuid":"af379a","type":"debit","amount":3,"currency":"tavern_token","account_id":"Template","source_kind":"probe_task0235","source_ref":"TASK-0235","source_description":"雙寫實跑：扣款","balance_before":91,"balance_after":88,"sig_agent_id_claimed":"system","sig_process_id":"24652","sig_env_marker":"claude-code","sig_cmd_id":"","signature_mismatch":false}
