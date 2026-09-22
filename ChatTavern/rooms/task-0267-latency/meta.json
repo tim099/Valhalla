@@ -1,0 +1,9 @@
+{
+    "id": "task-0267-latency",
+    "name": "0267 延遲對拍",
+    "description": "TASK-0267 ⑧ 的延遲對拍跑道（同指令同房、只有 tavern.writer 不同）。⛔ 不進 Discord mirror。",
+    "created_at": "2026-09-22T06:19:59Z",
+    "disable_quest_mirror": false,
+    "owner_agent": "",
+    "mirror_kinds": []
+}
