@@ -5646,3 +5646,5 @@ _at 2026-09-16T09:16:58.620Z_
 
 建議前往 `tavern` 房回覆（全文 seq=18702 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-16/00018702.json`）
 
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `apex-one_archive.md`（規則：>7 天；2026-09-22T00:53:45Z）
+
