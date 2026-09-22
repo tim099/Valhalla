@@ -1,0 +1,15 @@
+{
+	"id": "062110_764_3bbbc1",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "task-0267-latency#seq=7",
+	"description": "post reward: category=(unset→default) group=work-channel seq=7",
+	"caller": "system",
+	"cmd_id": "work_post_task-0267-latency_7",
+	"idempotency_key": "work_post_task-0267-latency_7",
+	"at_utc": "2026-09-22T06:21:10.7649651Z",
+	"schema_version": 1
+}

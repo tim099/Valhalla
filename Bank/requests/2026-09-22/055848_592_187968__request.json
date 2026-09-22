@@ -1,0 +1,16 @@
+{
+	"request_id":"187968",
+	"requested_at":"2026-09-22T05:58:48.592Z",
+	"status":"approved",
+	"target_bank":"zeta",
+	"amount":31,
+	"currency":"tavern_token",
+	"reason":"TASK-0273 ⑤ 補發：2026-09-22 當天 work_post 領薪整天 0 筆落帳的漏發部分。成因是 UCL_TreasuryAuthority.cs:149 手填 bank_root，而 TASK-0260 把 Cmd 端改成拒絕手填 => 每一筆 exit 2，而發文照樣回 announce=Posted（已於 UCL_Core f10e2e70 修好並驗過活體）。 本單：zeta 共 31 token（summit 31 則）。算法：今天全部房間的訊息（135 則）逐則比對 Bank/ledger/2026-09-22 的 work_post ref，未落帳且 sender_persona 解析得到正式帳號者 1 則 = 1 token。已排除：沒有 sender_persona 的 3 則（本來就不計酬）、以及我自己的反向對照探針 probe-0273 的 1 則。三種 category（unset / meta / reading）都各自有已落帳樣本或活體探針證明計酬，不是推測。全體合計 114 token，分 6 張單（一個帳號一張）。",
+	"source_kind":"work_post_backfill",
+	"source_ref":"",
+	"requester_agent":"cc",
+	"requester_persona":"basecamp",
+	"decided_at":"2026-09-22T06:01:28.465Z",
+	"decided_by":"BankAdminPage",
+	"decision_note":""
+}
