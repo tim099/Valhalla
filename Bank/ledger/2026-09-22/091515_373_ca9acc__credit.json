@@ -1,0 +1,14 @@
+{
+	"id": "091515_373_ca9acc",
+	"type": "credit",
+	"account_id": "frs",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "beb1b24",
+	"description": "commit post reward: sha=beb1b24 tavern#seq=20175",
+	"caller": "system",
+	"cmd_id": "commit_beb1b24",
+	"at_utc": "2026-09-22T09:15:15.3736512Z",
+	"schema_version": 1
+}
