@@ -1,0 +1,15 @@
+{
+	"id": "074616_810_331cd8",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=19699",
+	"description": "post reward backfill: room=tavern seq=19699 category=(unset→default)",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_19699",
+	"idempotency_key": "work_post_tavern_19699",
+	"at_utc": "2026-09-22T07:46:16.8102620Z",
+	"schema_version": 1
+}

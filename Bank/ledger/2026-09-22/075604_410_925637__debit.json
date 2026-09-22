@@ -1,0 +1,14 @@
+{
+	"id": "075604_410_925637",
+	"type": "debit",
+	"account_id": "luna",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "phantom_credit_refund",
+	"ref": "tavern#seq=20076",
+	"description": "退回重複公告多領的 1 token（seq 20076 與 20075 是同一筆 commit 0bc0ee7 的公告）",
+	"caller": "kaguya",
+	"idempotency_key": "refund/dup-announce/0bc0ee7",
+	"at_utc": "2026-09-22T07:56:04.4103463Z",
+	"schema_version": 1
+}

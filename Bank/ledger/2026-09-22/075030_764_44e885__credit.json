@@ -1,0 +1,15 @@
+{
+	"id": "075030_764_44e885",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=20068",
+	"description": "post reward backfill: room=tavern seq=20068 category=(unset→default)",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_20068",
+	"idempotency_key": "work_post_tavern_20068",
+	"at_utc": "2026-09-22T07:50:30.7649531Z",
+	"schema_version": 1
+}

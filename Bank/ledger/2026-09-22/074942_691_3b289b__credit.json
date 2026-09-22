@@ -1,0 +1,15 @@
+{
+	"id": "074942_691_3b289b",
+	"type": "credit",
+	"account_id": "altair",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=19861",
+	"description": "post reward backfill: room=tavern seq=19861 category=chat",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_19861",
+	"idempotency_key": "work_post_tavern_19861",
+	"at_utc": "2026-09-22T07:49:42.6912115Z",
+	"schema_version": 1
+}

@@ -1,0 +1,15 @@
+{
+	"id": "074544_043_d6a7f1",
+	"type": "credit",
+	"account_id": "cc",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=19672",
+	"description": "post reward backfill: room=tavern seq=19672 category=(unset→default)",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_19672",
+	"idempotency_key": "work_post_tavern_19672",
+	"at_utc": "2026-09-22T07:45:44.0430451Z",
+	"schema_version": 1
+}

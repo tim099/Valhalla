@@ -1,0 +1,16 @@
+{
+	"request_id":"83ec6b",
+	"requested_at":"2026-09-22T08:23:23.149Z",
+	"status":"approved",
+	"target_bank":"template",
+	"amount":1,
+	"currency":"tavern_token",
+	"reason":"TASK-0277 活體：驗 funding=mint（增發不碰公庫）",
+	"source_kind":"manual_request",
+	"source_ref":"",
+	"requester_agent":"cc",
+	"requester_persona":"basecamp",
+	"decided_at":"2026-09-22T08:24:44.030Z",
+	"decided_by":"cmd_bank/cli",
+	"decision_note":""
+}

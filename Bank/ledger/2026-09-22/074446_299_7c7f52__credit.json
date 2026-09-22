@@ -1,0 +1,14 @@
+{
+	"id": "074446_299_7c7f52",
+	"type": "credit",
+	"account_id": "pacific-standard-public-deposit-bank",
+	"amount": 114,
+	"currency": "tavern_token",
+	"kind": "payout_shape_correction",
+	"ref": "TASK-0273",
+	"description": "形狀更正：TASK-0273 ⑤ 的 114 token 補發走了請款（央行撥款 ⇒ 公庫 -114），而 Tim 2026-09-22 拍板「補款應該走增發，不從央行扣」。⇒ 本筆把 114 增發回公庫，讓總量與「一開始就走增發」一致。⛔ 不動收款方的帳（Tim 選「只補公庫，不動大家的帳」）——那 114 他們留著，那本來就是他們該得的。⚠ 代價寫在 Bank/payroll_settled.json：那 114 則沒有逐則 work_post ref，所以要靠那份清單擋補款工具重付。\n",
+	"caller": "basecamp",
+	"idempotency_key": "task0273_payout_shape_correction",
+	"at_utc": "2026-09-22T07:44:46.2992577Z",
+	"schema_version": 1
+}

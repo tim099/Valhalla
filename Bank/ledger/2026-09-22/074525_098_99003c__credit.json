@@ -1,0 +1,15 @@
+{
+	"id": "074525_098_99003c",
+	"type": "credit",
+	"account_id": "frs",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=19535",
+	"description": "post reward backfill: room=tavern seq=19535 category=meta",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_19535",
+	"idempotency_key": "work_post_tavern_19535",
+	"at_utc": "2026-09-22T07:45:25.0985556Z",
+	"schema_version": 1
+}

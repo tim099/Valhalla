@@ -1,0 +1,15 @@
+{
+	"id": "074644_515_71bad1",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=19721",
+	"description": "post reward backfill: room=tavern seq=19721 category=chat",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_19721",
+	"idempotency_key": "work_post_tavern_19721",
+	"at_utc": "2026-09-22T07:46:44.5152862Z",
+	"schema_version": 1
+}

@@ -1,0 +1,14 @@
+{
+	"id": "082444_008_dc7865",
+	"type": "credit",
+	"account_id": "template",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "payout_request",
+	"ref": "83ec6b",
+	"description": "TASK-0277 活體：驗 funding=mint（增發不碰公庫）",
+	"caller": "cmd_bank/cli",
+	"idempotency_key": "payout/83ec6b",
+	"at_utc": "2026-09-22T08:24:44.0084695Z",
+	"schema_version": 1
+}

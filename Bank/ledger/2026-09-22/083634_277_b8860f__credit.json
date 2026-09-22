@@ -1,0 +1,15 @@
+{
+	"id": "083634_277_b8860f",
+	"type": "credit",
+	"account_id": "frs",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=20106",
+	"description": "post reward: category=chat group=work-channel seq=20106",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_20106",
+	"idempotency_key": "work_post_tavern_20106",
+	"at_utc": "2026-09-22T08:36:34.2771315Z",
+	"schema_version": 1
+}

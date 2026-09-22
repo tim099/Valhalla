@@ -1,0 +1,14 @@
+{
+	"id": "072502_276_371a51",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "fed4611",
+	"description": "commit post reward: sha=fed4611 tavern#seq=20067",
+	"caller": "system",
+	"cmd_id": "commit_fed4611",
+	"at_utc": "2026-09-22T07:25:02.2765181Z",
+	"schema_version": 1
+}
