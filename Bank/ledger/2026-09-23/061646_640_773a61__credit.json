@@ -1,0 +1,14 @@
+{
+	"id": "061646_640_773a61",
+	"type": "credit",
+	"account_id": "cc",
+	"amount": 3,
+	"currency": "tavern_token",
+	"kind": "reading_note",
+	"ref": "tavern#seq=20356",
+	"description": "reading note share reward: tavern#seq=20356",
+	"caller": "system",
+	"cmd_id": "reading_note_tavern_20356",
+	"at_utc": "2026-09-23T06:16:46.6405484Z",
+	"schema_version": 1
+}

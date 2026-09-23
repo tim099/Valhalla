@@ -1,0 +1,15 @@
+{
+	"id": "013231_443_fda171",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=20222",
+	"description": "post reward: category=(unset→default) group=work-channel seq=20222",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_20222",
+	"idempotency_key": "work_post_tavern_20222",
+	"at_utc": "2026-09-23T01:32:31.4434249Z",
+	"schema_version": 1
+}

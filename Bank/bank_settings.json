@@ -5,5 +5,7 @@
 	"exempt_central_bank":1,
 	"currency_id":"Florin",
 	"account_resolve_unified":1,
-	"money_authority":"senate_bank"
+	"money_authority":"senate_bank",
+	"voucher_type":"Gold",
+	"ratio_per_token":20
 }

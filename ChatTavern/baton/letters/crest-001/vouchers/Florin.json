@@ -1,0 +1,11 @@
+{
+	"persona": "crest-001",
+	"voucher": "Florin",
+	"permanent": 25,
+	"fractional_e8": 40000000,
+	"expiring": [],
+	"updated_at_utc": "2026-09-23T00:23:49.8750223Z",
+	"updated_region": "Florin",
+	"migrated_regions": [],
+	"schema_version": 1
+}
