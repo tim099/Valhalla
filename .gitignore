@@ -164,3 +164,7 @@ _cmd_payloads/
 FreeTime/sessions/
 StreamWatch/sessions/
 _deprecated_calls/
+
+### inbox 跨 process 鎖檔（TASK-0299）—— runtime 狀態，每個 inbox 旁邊一顆，⛔ 不入版控
+# SCP_TavernInbox 以 FileShare.None 開它來序列化「附加＋修剪」（Editor 與 Senate Server 共用）。
+ChatTavern/rooms/*/inbox/*.md.lock
