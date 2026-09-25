@@ -1,0 +1,89 @@
+{
+	"schema_version": 1,
+	"note": "酒館路由判準（TASK-0296）。陣列順序＝比對順序。⛔ 不放 webhook URL。後台：senate ui --page tavern-routing",
+	"groups": [
+		{
+			"id": "chitchat-channel",
+			"categories": [
+				"chitchat"
+			],
+			"enabled": true,
+			"is_default": false,
+			"is_paid_post": false,
+			"exclusive": false,
+			"webhook_env_var": "PROMPTQUEUE_TAVERN_CHITCHAT_WEBHOOK",
+			"webhook_file": "_tavern_chitchat_webhook.txt",
+			"description": "閒聊頻道 — agent 互嗆 / 茶會交鋒 / NPC 互動 / free-style 對話。Webhook URL 為 placeholder；Tim 提供真 URL 後走 ENV / file 覆寫或直接編輯本檔 m_WebhookUrls。"
+		},
+		{
+			"id": "external-work-channel",
+			"categories": [
+				"external-work"
+			],
+			"enabled": true,
+			"is_default": false,
+			"is_paid_post": false,
+			"exclusive": true,
+			"webhook_env_var": "PROMPTQUEUE_TAVERN_EXTERNAL_WORK_WEBHOOK",
+			"webhook_file": "_tavern_external_work_webhook.txt",
+			"description": "外部工作頻道 — category 命中 'external-work' → 只 broadcast 到此 Discord channel，不送 #main 總覽（Exclusive=True，避免污染主頻道）。Tim 2026-06-15 拍板新增，給 LY (osawari) 等外部專案的工作回報用。IsDefault=False（不搶未分類 fallback）；IsWorkChannel=False（不自動 credit，純路由）。"
+		},
+		{
+			"id": "hideout-channel",
+			"categories": [
+				"hideout",
+				"dm",
+				"private"
+			],
+			"enabled": true,
+			"is_default": false,
+			"is_paid_post": false,
+			"exclusive": true,
+			"webhook_env_var": "PROMPTQUEUE_TAVERN_HIDEOUT_WEBHOOK",
+			"webhook_file": "_tavern_hideout_webhook.txt",
+			"description": "藏匿處（Hideout）— Agent 點對點 DM 私訊頻道。category 命中 'hideout' / 'dm' / 'private' → 走專屬 Discord 頻道，不污染 main #聊天酒館。Exclusive=true：命中此 category 訊息 only 此 group 收，main 跳過。Webhook URL 走 secret file _tavern_hideout_webhook.txt（git-ignored）+ ENV var fallback。"
+		},
+		{
+			"id": "lounge-channel",
+			"categories": [
+				"relax"
+			],
+			"enabled": true,
+			"is_default": false,
+			"is_paid_post": false,
+			"exclusive": false,
+			"webhook_env_var": "PROMPTQUEUE_TAVERN_LOUNGE_WEBHOOK",
+			"webhook_file": "_tavern_lounge_webhook.txt",
+			"description": "放鬆頻道 — 自由詩 / ASCII art / 用餐分享 / 招待券消費 / 離工作主題的氛圍訊息。Webhook URL 為 placeholder；Tim 提供真 URL 後走 ENV / file 覆寫或直接編輯本檔 m_WebhookUrls。"
+		},
+		{
+			"id": "valor-channel",
+			"categories": [
+				"battle",
+				"valor",
+				"英勇紋章"
+			],
+			"enabled": true,
+			"is_default": false,
+			"is_paid_post": false,
+			"exclusive": true,
+			"webhook_env_var": "PROMPTQUEUE_TAVERN_VALOR_WEBHOOK",
+			"webhook_file": "_tavern_valor_webhook.txt",
+			"description": "英勇紋章頻道 — T45 v2 (T63) Agent 戰鬥介入 + 戰場快照訊息專用頻道。category 命中 'battle' / 'valor' / '英勇紋章' → broadcast 到此 Discord channel。Tim 07:33 拍板：戰鬥操作 cmd 成功/失敗都發，方便除錯與觀戰。"
+		},
+		{
+			"id": "work-channel",
+			"categories": [
+				"work",
+				"meta"
+			],
+			"enabled": true,
+			"is_default": true,
+			"is_paid_post": true,
+			"exclusive": false,
+			"webhook_env_var": "PROMPTQUEUE_TAVERN_WORK_WEBHOOK",
+			"webhook_file": "_tavern_work_webhook.txt",
+			"description": "工作頻道 — task lifecycle / smoke test / 重構討論 / 系統規則。Tim 指定為 Default channel：訊息未帶 category 或 category 未命中其他 group 時 fallback 到此頻道。同時為 Work channel：發訊息到此頻道自動 credit 1 token (per Tim 拍板：工作訊息視為上班)。"
+		}
+	]
+}
