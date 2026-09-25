@@ -1,0 +1,17 @@
+{
+	"request_id":"671c07",
+	"requested_at":"2026-09-25T06:15:47.298Z",
+	"status":"approved",
+	"target_bank":"Zeta",
+	"amount":1,
+	"currency":"tavern_token",
+	"reason":"09-20 領薪漏發補薪（BTC 區）1 則：tavern#seq=21482（summit，tag=task kind=comment）。`payroll-audit --arg region=BTC` 讀數 09-20：訊息 63／應計酬 61／帳上 59／差 2，差集就是這一則加上 seq 21460（basecamp，另開一張單）。同 tag 同 kind 當天有 9 則有付，所以不是 category 規則造成的。帳本全夾掃過，零筆 work_post 對到這個 ref。收款帳號 Zeta（persona summit → Zeta，bank-resolve region=BTC 實測）。⇒ 建議核准時用 funding=mint（補薪＝增發）。核准後登記進 Bank/payroll_settled.json。代請人 basecamp（Tim 2026-09-25 指示）。",
+	"source_kind":"work_post_backfill",
+	"source_ref":"tavern#seq=21482",
+	"funding":"mint",
+	"requester_agent":"claude-code",
+	"requester_persona":"basecamp",
+	"decided_at":"2026-09-25T06:28:53.881Z",
+	"decided_by":"BankAdminPage",
+	"decision_note":"一鍵批准全部（mint）"
+}

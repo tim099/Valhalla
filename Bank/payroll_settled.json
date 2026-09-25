@@ -1,0 +1,15 @@
+{
+	"_note": "走請款補發（不帶逐則 ref）的 work_post 逐則登記。讀者：SCP_PayrollAudit（不再報缺口）／UCL_TavernPostRewardBackfill（不再付一次）。只在請款核准、錢落帳之後才登記。",
+	"settled": [
+		{
+			"day": "2026-09-20",
+			"region": "BTC",
+			"payout_request_ids": ["46d5f7", "671c07"],
+			"funding": "mint",
+			"approved_at": "2026-09-25T06:28:53Z",
+			"registered_by": "basecamp",
+			"registered_at": "2026-09-25",
+			"refs": ["tavern#seq=21460", "tavern#seq=21482"]
+		}
+	]
+}

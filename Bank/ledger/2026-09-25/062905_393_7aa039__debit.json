@@ -1,0 +1,14 @@
+{
+	"id": "062905_393_7aa039",
+	"type": "debit",
+	"account_id": "sirius",
+	"amount": 36,
+	"currency": "tavern_token",
+	"kind": "manual_transfer",
+	"ref": "ce5826",
+	"description": "保管費誤扣退款（TASK-0279 修法前的舊行為，BTC 區）：保管費以 `sirius` 帳戶餘額計算，卻經 persona 解析（persona sirius → 帳號 Spectre）從 Spectre 扣款。本樹帳本逐筆量到 3 筆 debit account_id=spectre、ref=overnight-fee-<日>-sirius：2026-09-18 12／09-20 12／09-22 12 = 36。09-25 新路徑已改成 sirius 自付 12（ref overnight-fee-2026-09-25-sirius, account_id=sirius），確認修法生效。⇒ 用轉帳（守恆）把 36 從 sirius 帳戶還給 Spectre：央行收的保管費本身是對的（算在 sirius 帳戶的超額上），錯的只是付款人，所以不動公庫。代請人 basecamp（Tim 2026-09-25 指示「token 相關走請款程序補完」）。　[tx=transfer/ce5826] 轉出→Spectre",
+	"caller": "BankAdminPage",
+	"idempotency_key": "transfer/ce5826/out",
+	"at_utc": "2026-09-25T06:29:05.3930941Z",
+	"schema_version": 1
+}

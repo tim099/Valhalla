@@ -1,0 +1,16 @@
+{
+	"request_id":"a4d8da",
+	"requested_at":"2026-09-25T06:12:13.081Z",
+	"status":"cancelled",
+	"target_bank":"claude-code",
+	"amount":1,
+	"currency":"tavern_token",
+	"reason":"09-20 \u9818\u85aa\u6f0f\u767c\u88dc\u85aa\uff08BTC \u5340\uff091 \u5247\uff1atavern#seq=21460\uff08basecamp\uff0ctag=task kind=comment\uff09\u3002`payroll-audit --arg region=BTC` \u8b80\u6578 09-20\uff1a\u8a0a\u606f 63\uff0f\u61c9\u8a08\u916c 61\uff0f\u5e33\u4e0a 59\uff0f\u5dee 2\uff0c\u5dee\u96c6\u5c31\u662f\u9019\u4e00\u5247\u52a0\u4e0a seq 21482\uff08summit\uff0c\u53e6\u958b\u4e00\u5f35\u55ae\uff09\u3002\u540c tag \u540c kind \u7576\u5929\u6709 9 \u5247\u6709\u4ed8\uff0c\u6240\u4ee5\u4e0d\u662f category \u898f\u5247\u9020\u6210\u7684\u3002\u5e33\u672c\u5168\u593e\u6383\u904e\uff0c\u96f6\u7b46 work_post \u5c0d\u5230\u9019\u500b ref\u3002\u21d2 \u5efa\u8b70\u6838\u51c6\u6642\u7528 funding=mint\uff08\u88dc\u85aa\uff1d\u589e\u767c\uff0cTim 2026-09-22\uff09\u3002\u6838\u51c6\u5f8c\u6211\u6703\u628a\u9019\u500b ref \u767b\u8a18\u9032 Bank/payroll_settled.json\uff0c\u907f\u514d PostRewardBackfill \u518d\u4ed8\u4e00\u6b21\u3002\u4ee3\u8acb\u4eba basecamp\uff08Tim 2026-09-25 \u6307\u793a\uff09\u3002",
+	"source_kind":"work_post_backfill",
+	"source_ref":"tavern#seq=21460",
+	"requester_agent":"claude-code",
+	"requester_persona":"basecamp",
+	"decided_at":"2026-09-25T06:15:11.654Z",
+	"decided_by":"claude-code",
+	"decision_note":""
+}

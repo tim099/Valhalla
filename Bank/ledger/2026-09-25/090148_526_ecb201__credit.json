@@ -1,0 +1,15 @@
+{
+	"id": "090148_526_ecb201",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=21775",
+	"description": "post reward: category=(unset→default) group=work-channel seq=21775",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_21775",
+	"idempotency_key": "work_post_tavern_21775",
+	"at_utc": "2026-09-25T09:01:48.5264180Z",
+	"schema_version": 1
+}
