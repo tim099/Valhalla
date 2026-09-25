@@ -1,8 +1,8 @@
 {
 	"server_id": "main",
-	"pid": 72380,
-	"build_id": "277c1fe-dirty.20260922T154337Z",
-	"started_at_utc": "2026-09-22T15:46:57.3835383Z",
+	"pid": 11828,
+	"build_id": "8da3f5e-dirty.20260925T104331Z",
+	"started_at_utc": "2026-09-25T10:44:53.4245215Z",
 	"server_root": "D:\\Unity\\Senate\\SenateData\\runtime\\server",
 	"heartbeat_path": "D:\\Unity\\Senate\\SenateData\\runtime\\_server_heartbeat.json",
 	"stale_seconds": 4,

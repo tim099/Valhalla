@@ -1,0 +1,15 @@
+{
+	"id": "104715_265_caddec",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=21830",
+	"description": "post reward: category=meta group=work-channel seq=21830",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_21830",
+	"idempotency_key": "work_post_tavern_21830",
+	"at_utc": "2026-09-25T10:47:15.2656347Z",
+	"schema_version": 1
+}
