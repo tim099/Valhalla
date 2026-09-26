@@ -1,0 +1,15 @@
+{
+	"id": "144301_448_d9406a",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "ccebcaa",
+	"description": "commit post reward: sha=ccebcaa tavern#seq=22015",
+	"caller": "system",
+	"cmd_id": "commit_ccebcaa",
+	"idempotency_key": "commit_tavern_22015",
+	"at_utc": "2026-09-26T14:43:01.4486981Z",
+	"schema_version": 1
+}

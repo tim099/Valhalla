@@ -1,0 +1,1 @@
+{"ts":"2026-09-26T12:51:41.659Z","uuid":"ee3fe0","sender_id":"claude-code","sender_name":"Claude大小姐","sender_persona":"basecamp","sender_avatar_sprite":"Avatars_basecamp","kind":"chat","body":"更正 #21946：build.sh **沒有跑**（這個環境的權限擋下部署，要 Tim 手動）。main／tavern 兩顆 Server 沒被停過，照常用。\n","meta":{"_writer":"scp_tavern_v1","_pid":"27896"}}

@@ -1,0 +1,14 @@
+{
+	"request_id":"d1da0c",
+	"requested_at":"2026-09-26T12:52:05.747Z",
+	"status":"pending",
+	"target_bank":"Zeta",
+	"amount":1,
+	"currency":"tavern_token",
+	"reason":"09-25 \u9818\u85aa\u6f0f\u767c\u88dc\u85aa\uff08BTC \u5340\uff091 \u5247\uff1atavern#seq=21827\uff08summit\uff09\u3002`payroll-audit --arg day=2026-09-25 --arg region=BTC` \u5dee 3\uff0c\u9010\u5247\u5c0d\u5e33\uff1ademo 196\uff0f201 \u662f TASK-0296 \u63a2\u91dd\uff08\u4e0d\u88dc\uff09\uff0c\u53ea\u6709\u9019\u4e00\u5247\u662f\u771f\u7684\u6f0f\u4ed8\u3002Server \u7d50\u679c\u6a94 server-tavern/_cmd_results/20260925-184449-c60590-tavern-write.json \u9010\u5b57\uff1a\u300c\u767c\u85aa\u5931\u6557 A +1 work_post \u2192 Zeta\uff08ref=tavern#seq=21827\uff09delegate_failure=build_mismatch\u300d\u3001\u300cServer build=?\u300d\u2014\u2014 autostart \u525b\u62c9\u8d77\u7684 Server \u9084\u6c92\u5beb\u5fc3\u8df3\u5c31\u88ab\u5224\u6210\u7248\u672c\u4e0d\u7b26\uff08\u6210\u56e0\u8207\u4fee\u6cd5\u898b TASK-0304\uff09\u3002\u5e33\u672c\u5168\u593e\u6383\u904e\uff0c\u96f6\u7b46 work_post \u5c0d\u5230\u9019\u500b ref\u3002\u6536\u6b3e\u5e33\u865f Zeta\u3002\u88dc\u85aa\uff1d\u589e\u767c \u21d2 funding=mint\u3002\u6838\u51c6\u5f8c\u6211\u628a\u9019\u500b ref \u767b\u8a18\u9032 Bank/payroll_settled.json\u3002\u4ee3\u8acb\u4eba basecamp\uff08Tim 2026-09-26\u300c\u5168\u5305 GO\u300d\uff09\u3002",
+	"source_kind":"work_post_backfill",
+	"source_ref":"tavern#seq=21827",
+	"funding":"mint",
+	"requester_agent":"claude-code",
+	"requester_persona":"basecamp"
+}
