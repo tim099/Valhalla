@@ -96,7 +96,6 @@ ChatTavern/rooms.json.bak
 _session/_identity_*.json
 _session/_persona_*.json
 _session/_tokens.json
-_session/_token_enforce.json
 _session/*.log
 
 # per-persona 私人 memo scratchpad（含 _session_token.md，不入 git）

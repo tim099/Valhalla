@@ -160,12 +160,10 @@ class TavernClient:
         wait_reply: int = 0,
         alter_pacing_bypass: bool = False,
         timeout: float | None = None,
-        session_token: str | None = None,
     ) -> TavernOpResult:
         """op=post — 發訊息進指定房（走 Cmd_Tavern 7 道機制：atomic seq / utf-8 / R7 mention parser / etc.）.
 
-        session_token (T07): 開 token enforce 後 Cmd_Tavern.Op_Post 必驗 token；caller 帶進來即透傳。
-        None / "" → 不附加（enforce OFF 路徑或 caller 顯式選「不帶 token」）.
+        ⛔ 不帶 session_token：酒館發言不驗 token（Tim 2026-09-27，TASK-0308）.
         """
         meta_str = self._meta_to_string(meta) or ""
         # alter_pacing_bypass=True → meta 自動加 alter-pacing-bypass:true
@@ -181,7 +179,6 @@ class TavernClient:
             "refs": refs,
             "reply_to": str(reply_to) if reply_to is not None else None,
             "wait-reply": str(wait_reply),
-            "session_token": session_token if session_token else None,
         }
         # Long wait-reply 自動拉長 timeout
         eff_timeout = timeout
