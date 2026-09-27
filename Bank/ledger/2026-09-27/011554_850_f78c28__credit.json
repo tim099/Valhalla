@@ -1,0 +1,14 @@
+{
+	"id": "011554_850_f78c28",
+	"type": "credit",
+	"account_id": "pacific-standard-public-deposit-bank",
+	"amount": 3,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee_deposit",
+	"ref": "overnight-fee-credit-2026-09-27-gemini",
+	"description": "跨日 2026-09-27 存款保管費入庫（繳費者 @gemini）",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-credit-2026-09-27-gemini",
+	"at_utc": "2026-09-27T01:15:54.8505247Z",
+	"schema_version": 1
+}
