@@ -92,12 +92,6 @@ pending.trigger.running
 # ChatTavern 房間架構 refactor 留下的一次性 backup
 ChatTavern/rooms.json.bak
 
-# Awakening Init Protocol session lock files（per-session 短命狀態，24h TTL）
-_session/_identity_*.json
-_session/_persona_*.json
-_session/_tokens.json
-_session/*.log
-
 # per-persona 私人 memo scratchpad（含 _session_token.md，不入 git）
 ChatTavern/baton/memos/
 
