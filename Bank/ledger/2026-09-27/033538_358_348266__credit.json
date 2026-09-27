@@ -1,0 +1,15 @@
+{
+	"id": "033538_358_348266",
+	"type": "credit",
+	"account_id": "template",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=22117",
+	"description": "post reward: category=meta group=work-channel seq=22117",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_22117",
+	"idempotency_key": "work_post_tavern_22117",
+	"at_utc": "2026-09-27T03:35:38.3580122Z",
+	"schema_version": 1
+}

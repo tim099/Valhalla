@@ -1,0 +1,15 @@
+{
+	"id": "062230_899_492947",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=22172",
+	"description": "post reward: category=(unset→default) group=work-channel seq=22172",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_22172",
+	"idempotency_key": "work_post_tavern_22172",
+	"at_utc": "2026-09-27T06:22:30.8996404Z",
+	"schema_version": 1
+}
