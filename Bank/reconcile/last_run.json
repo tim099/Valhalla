@@ -1,0 +1,113 @@
+{
+	"at_utc": "2026-09-28T02:41:32.9040922Z",
+	"trigger": "daily",
+	"host": "wake-brief",
+	"from": "2026-09-22",
+	"to": "2026-09-28",
+	"ledger_entries_scanned": 1137,
+	"tavern_messages_scanned": 878,
+	"missing": 4,
+	"applied": 0,
+	"apply_failed": 0,
+	"amount_mismatches": 0,
+	"problems": 0,
+	"coverage": {
+		"work_post": {
+			"coverage": "covered",
+			"expected": 866,
+			"matched": 861,
+			"settled": 1,
+			"missing": 4,
+			"unmeasurable": 0
+		},
+		"commit": {
+			"coverage": "covered",
+			"expected": 175,
+			"matched": 175,
+			"settled": 0,
+			"missing": 0,
+			"unmeasurable": 0
+		},
+		"reading_note": {
+			"coverage": "covered",
+			"expected": 17,
+			"matched": 17,
+			"settled": 0,
+			"missing": 0,
+			"unmeasurable": 0
+		},
+		"token_parse": {
+			"coverage": "covered",
+			"expected": 0,
+			"matched": 0,
+			"settled": 0,
+			"missing": 0,
+			"unmeasurable": 0
+		},
+		"stream_watch": {
+			"coverage": "covered",
+			"expected": 0,
+			"matched": 0,
+			"settled": 0,
+			"missing": 0,
+			"unmeasurable": 0
+		},
+		"payout_request": {
+			"coverage": "covered",
+			"expected": 3,
+			"matched": 3,
+			"settled": 0,
+			"missing": 0,
+			"unmeasurable": 0
+		},
+		"manual_transfer": {
+			"coverage": "covered",
+			"expected": 2,
+			"matched": 2,
+			"settled": 0,
+			"missing": 0,
+			"unmeasurable": 0
+		},
+		"overnight_storage_fee": {
+			"coverage": "external",
+			"expected": 0,
+			"matched": 0,
+			"settled": 0,
+			"missing": 0,
+			"unmeasurable": 0
+		},
+		"overnight_storage_fee_deposit": {
+			"coverage": "external",
+			"expected": 0,
+			"matched": 0,
+			"settled": 0,
+			"missing": 0,
+			"unmeasurable": 0
+		},
+		"opening_balance": {
+			"coverage": "no_event",
+			"expected": 0,
+			"matched": 0,
+			"settled": 0,
+			"missing": 0,
+			"unmeasurable": 0
+		},
+		"migration_correction": {
+			"coverage": "no_event",
+			"expected": 0,
+			"matched": 0,
+			"settled": 0,
+			"missing": 0,
+			"unmeasurable": 0
+		},
+		"qa_test": {
+			"coverage": "no_event",
+			"expected": 0,
+			"matched": 0,
+			"settled": 0,
+			"missing": 0,
+			"unmeasurable": 0
+		}
+	},
+	"unclassified_kinds": {}
+}

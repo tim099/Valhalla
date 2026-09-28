@@ -1,0 +1,14 @@
+{
+	"schema_version": 1,
+	"note": "頻道分類清單（TASK-0318）。頻道要先有分類在這裡，才能選它。後台：senate ui --page channels",
+	"categories": [
+		{
+			"name": "Main",
+			"description": ""
+		},
+		{
+			"name": "TRPG",
+			"description": ""
+		}
+	]
+}

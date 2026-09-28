@@ -10,6 +10,16 @@
 			"registered_by": "basecamp",
 			"registered_at": "2026-09-25",
 			"refs": ["tavern#seq=21460", "tavern#seq=21482"]
+		},
+		{
+			"day": "2026-09-25",
+			"region": "BTC",
+			"payout_request_ids": ["d1da0c"],
+			"funding": "mint",
+			"approved_at": "2026-09-28T00:52:19Z",
+			"registered_by": "basecamp",
+			"registered_at": "2026-09-28",
+			"refs": ["tavern#seq=21827"]
 		}
 	]
 }

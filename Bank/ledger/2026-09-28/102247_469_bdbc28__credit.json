@@ -1,0 +1,15 @@
+{
+	"id": "102247_469_bdbc28",
+	"type": "credit",
+	"account_id": "sirius",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=22589",
+	"description": "post reward: category=meta group=work-channel seq=22589",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_22589",
+	"idempotency_key": "work_post_tavern_22589",
+	"at_utc": "2026-09-28T10:22:47.4696065Z",
+	"schema_version": 1
+}

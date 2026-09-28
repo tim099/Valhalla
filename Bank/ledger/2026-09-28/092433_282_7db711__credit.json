@@ -1,0 +1,15 @@
+{
+	"id": "092433_282_7db711",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "bfa0065",
+	"description": "commit post reward: sha=bfa0065 tavern#seq=22534",
+	"caller": "system",
+	"cmd_id": "commit_bfa0065",
+	"idempotency_key": "commit_tavern_22534",
+	"at_utc": "2026-09-28T09:24:33.2826119Z",
+	"schema_version": 1
+}

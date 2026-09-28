@@ -1,0 +1,14 @@
+{
+	"id": "005218_614_3ae869",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "payout_request",
+	"ref": "d1da0c",
+	"description": "09-25 領薪漏發補薪（BTC 區）1 則：tavern#seq=21827（summit）。`payroll-audit --arg day=2026-09-25 --arg region=BTC` 差 3，逐則對帳：demo 196／201 是 TASK-0296 探針（不補），只有這一則是真的漏付。Server 結果檔 server-tavern/_cmd_results/20260925-184449-c60590-tavern-write.json 逐字：「發薪失敗 A +1 work_post → Zeta（ref=tavern#seq=21827）delegate_failure=build_mismatch」、「Server build=?」—— autostart 剛拉起的 Server 還沒寫心跳就被判成版本不符（成因與修法見 TASK-0304）。帳本全夾掃過，零筆 work_post 對到這個 ref。收款帳號 Zeta。補薪＝增發 ⇒ funding=mint。核准後我把這個 ref 登記進 Bank/payroll_settled.json。代請人 basecamp（Tim 2026-09-26「全包 GO」）。",
+	"caller": "BankAdminPage",
+	"idempotency_key": "payout/d1da0c",
+	"at_utc": "2026-09-28T00:52:18.6143940Z",
+	"schema_version": 1
+}

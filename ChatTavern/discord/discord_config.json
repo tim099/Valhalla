@@ -1,0 +1,72 @@
+{
+	"schema_version": 1,
+	"note": "Discord 收發設定（TASK-0320）。webhook URL 不在這裡 —— 密文在同資料夾的 discord_webhooks.enc。後台：senate ui --page discord-relay／discord-webhooks",
+	"inbound": {
+		"enabled": true,
+		"disabled_guilds": []
+	},
+	"outbound": {
+		"enabled": true,
+		"avatar_url_template": "https://raw.githubusercontent.com/tim099/ArtGallery/master/RawImages/avatar_{persona}.png",
+		"category_webhooks": {
+			"Main": [
+				"1502982090570858577",
+				"1527209932816912466",
+				"1531555277025972275"
+			],
+			"TRPG": [
+				"1554033119433195612"
+			]
+		}
+	},
+	"webhooks": [
+		{
+			"id": "1502982090570858577",
+			"label": "",
+			"enabled": true,
+			"webhook_name": "Tavern",
+			"guild_id": "1039197199013269584",
+			"guild_name": "英勇紋章 Emblem of Valor",
+			"channel_id": "1502449153018560562",
+			"channel_name": "聊天酒館",
+			"verified_at": "2026-09-28T07:30:45Z",
+			"verify_status": "ok"
+		},
+		{
+			"id": "1527209932816912466",
+			"label": "",
+			"enabled": true,
+			"webhook_name": "Guild",
+			"guild_id": "855642584760582164",
+			"guild_name": "ChatTavern",
+			"channel_id": "1527209864705871872",
+			"channel_name": "guild",
+			"verified_at": "2026-09-28T07:30:45Z",
+			"verify_status": "ok"
+		},
+		{
+			"id": "1531555277025972275",
+			"label": "",
+			"enabled": true,
+			"webhook_name": "creamtime",
+			"guild_id": "1531554940458111027",
+			"guild_name": "CreamTime",
+			"channel_id": "1531555102819877014",
+			"channel_name": "cream-chat",
+			"verified_at": "2026-09-28T07:30:46Z",
+			"verify_status": "ok"
+		},
+		{
+			"id": "1554033119433195612",
+			"label": "TRPG",
+			"enabled": true,
+			"webhook_name": "GM",
+			"guild_id": "855642584760582164",
+			"guild_name": "ChatTavern",
+			"channel_id": "1554033091150872637",
+			"channel_name": "trpg",
+			"verified_at": "2026-09-28T07:35:34Z",
+			"verify_status": "ok"
+		}
+	]
+}

@@ -1,0 +1,544 @@
+{
+	"schema_version": 1,
+	"note": "Discord Bot 看得到的 Server／頻道（TASK-0319）。機器產物：後台「Discord Bot」頁按重新整理時覆寫。⛔ 不含 token。",
+	"fetched_at": "2026-09-28T07:35:33Z",
+	"bot_id": "1502473220127723560",
+	"bot_name": "Dev",
+	"guilds": [
+		{
+			"id": "759676858361970719",
+			"name": "GameDesign",
+			"channels": [
+				{
+					"id": "1502323943774879954",
+					"name": "備忘錄",
+					"type": 0,
+					"parent": "AI Agent 代理",
+					"position": 23
+				},
+				{
+					"id": "1502446936748326944",
+					"name": "gamedesign",
+					"type": 0,
+					"parent": "AI Agent 代理",
+					"position": 24
+				},
+				{
+					"id": "1502529215235362906",
+					"name": "quest",
+					"type": 0,
+					"parent": "AI Agent 代理",
+					"position": 25
+				},
+				{
+					"id": "1502621357891129495",
+					"name": "太平洋標準銀行",
+					"type": 0,
+					"parent": "AI Agent 代理",
+					"position": 26
+				},
+				{
+					"id": "1502652595955826850",
+					"name": "藏匿處",
+					"type": 0,
+					"parent": "AI Agent 代理",
+					"position": 27
+				},
+				{
+					"id": "1502815416840622333",
+					"name": "英勇紋章",
+					"type": 0,
+					"parent": "AI Agent 代理",
+					"position": 28
+				},
+				{
+					"id": "1026855893658255442",
+					"name": "ai圖片生成",
+					"type": 0,
+					"parent": "AI生成",
+					"position": 29
+				},
+				{
+					"id": "1458003488624611420",
+					"name": "ai音樂",
+					"type": 0,
+					"parent": "AI生成",
+					"position": 30
+				},
+				{
+					"id": "1458639891813368087",
+					"name": "ai建模",
+					"type": 0,
+					"parent": "AI生成",
+					"position": 31
+				},
+				{
+					"id": "1410235777652232303",
+					"name": "azalea-project",
+					"type": 0,
+					"parent": "AzaleaProject",
+					"position": 36
+				},
+				{
+					"id": "1492747276429430854",
+					"name": "story-discussion",
+					"type": 0,
+					"parent": "AzaleaProject",
+					"position": 37
+				},
+				{
+					"id": "759676858361970722",
+					"name": "一般",
+					"type": 0,
+					"parent": "一般",
+					"position": 0
+				},
+				{
+					"id": "1332003094271365183",
+					"name": "遊戲構思",
+					"type": 0,
+					"parent": "一般",
+					"position": 1
+				},
+				{
+					"id": "1369653997828575272",
+					"name": "美術素材",
+					"type": 0,
+					"parent": "一般",
+					"position": 2
+				},
+				{
+					"id": "991244334412341258",
+					"name": "音樂音效素材",
+					"type": 0,
+					"parent": "一般",
+					"position": 3
+				},
+				{
+					"id": "960913976181551214",
+					"name": "unity素材",
+					"type": 0,
+					"parent": "一般",
+					"position": 4
+				},
+				{
+					"id": "1070266845212446731",
+					"name": "插件與工具",
+					"type": 0,
+					"parent": "一般",
+					"position": 5
+				},
+				{
+					"id": "1313865773386825799",
+					"name": "公司相關資訊",
+					"type": 0,
+					"parent": "公司相關",
+					"position": 38
+				},
+				{
+					"id": "1433631339638296609",
+					"name": "外包相關討論",
+					"type": 0,
+					"parent": "外包專案",
+					"position": 32
+				},
+				{
+					"id": "1469150026428055613",
+					"name": "外包專案討論",
+					"type": 0,
+					"parent": "外包專案",
+					"position": 33
+				},
+				{
+					"id": "1469160561244635159",
+					"name": "程式相關",
+					"type": 0,
+					"parent": "外包專案",
+					"position": 34
+				},
+				{
+					"id": "1477506589442179082",
+					"name": "ai圖片",
+					"type": 0,
+					"parent": "外包專案",
+					"position": 35
+				},
+				{
+					"id": "1452640977884942478",
+					"name": "討論",
+					"type": 0,
+					"parent": "方塊城鎮",
+					"position": 6
+				},
+				{
+					"id": "1453558963911135262",
+					"name": "参考",
+					"type": 0,
+					"parent": "方塊城鎮",
+					"position": 7
+				},
+				{
+					"id": "1032443269017239562",
+					"name": "steam上架相關",
+					"type": 0,
+					"parent": "英勇紋章",
+					"position": 8
+				},
+				{
+					"id": "1034074690811088936",
+					"name": "遊戲展與宣傳",
+					"type": 0,
+					"parent": "英勇紋章",
+					"position": 9
+				},
+				{
+					"id": "945869454942830642",
+					"name": "程式架構相關",
+					"type": 0,
+					"parent": "英勇紋章",
+					"position": 10
+				},
+				{
+					"id": "945923267150114846",
+					"name": "規格討論",
+					"type": 0,
+					"parent": "英勇紋章",
+					"position": 11
+				},
+				{
+					"id": "973497424784007189",
+					"name": "文件整合",
+					"type": 0,
+					"parent": "英勇紋章",
+					"position": 12
+				},
+				{
+					"id": "1131613467867099256",
+					"name": "bug-report",
+					"type": 0,
+					"parent": "英勇紋章",
+					"position": 13
+				},
+				{
+					"id": "1199509230407925800",
+					"name": "功能備忘",
+					"type": 0,
+					"parent": "英勇紋章",
+					"position": 14
+				},
+				{
+					"id": "1208383864553213984",
+					"name": "美術討論",
+					"type": 0,
+					"parent": "英勇紋章",
+					"position": 15
+				},
+				{
+					"id": "1303692754374754427",
+					"name": "平衡性調整",
+					"type": 0,
+					"parent": "英勇紋章",
+					"position": 16
+				},
+				{
+					"id": "1319518444315607141",
+					"name": "steamworks相關",
+					"type": 0,
+					"parent": "英勇紋章",
+					"position": 17
+				},
+				{
+					"id": "1321452004769529857",
+					"name": "steam版本更新",
+					"type": 0,
+					"parent": "英勇紋章",
+					"position": 18
+				},
+				{
+					"id": "1329069275696074876",
+					"name": "開發日誌",
+					"type": 0,
+					"parent": "英勇紋章",
+					"position": 19
+				},
+				{
+					"id": "759676971160043520",
+					"name": "競品遊戲",
+					"type": 0,
+					"parent": "英勇紋章",
+					"position": 20
+				},
+				{
+					"id": "1341598457474977823",
+					"name": "模組開發",
+					"type": 0,
+					"parent": "英勇紋章",
+					"position": 21
+				},
+				{
+					"id": "1500774513401532538",
+					"name": "ai生成卡牌道具等",
+					"type": 0,
+					"parent": "英勇紋章",
+					"position": 22
+				},
+				{
+					"id": "944926779125145630",
+					"name": "每周會議",
+					"type": 0,
+					"parent": "語音頻道",
+					"position": 39
+				}
+			]
+		},
+		{
+			"id": "855642584760582164",
+			"name": "ChatTavern",
+			"channels": [
+				{
+					"id": "858504631209426974",
+					"name": "welcome",
+					"type": 0,
+					"parent": "",
+					"position": 0
+				},
+				{
+					"id": "1527209864705871872",
+					"name": "guild",
+					"type": 0,
+					"parent": "Chat",
+					"position": 9
+				},
+				{
+					"id": "1533546605402132661",
+					"name": "reminder",
+					"type": 0,
+					"parent": "Chat",
+					"position": 10
+				},
+				{
+					"id": "1554033091150872637",
+					"name": "trpg",
+					"type": 0,
+					"parent": "Chat",
+					"position": 11
+				},
+				{
+					"id": "855642584760582168",
+					"name": "general",
+					"type": 0,
+					"parent": "Draft",
+					"position": 1
+				},
+				{
+					"id": "858504516458381322",
+					"name": "strategy",
+					"type": 0,
+					"parent": "Draft",
+					"position": 2
+				},
+				{
+					"id": "858504210998624276",
+					"name": "coordination",
+					"type": 0,
+					"parent": "Draft",
+					"position": 3
+				},
+				{
+					"id": "858503744231440404",
+					"name": "character",
+					"type": 0,
+					"parent": "Draft",
+					"position": 4
+				},
+				{
+					"id": "858503952576413741",
+					"name": "event",
+					"type": 0,
+					"parent": "Draft",
+					"position": 5
+				},
+				{
+					"id": "858701729045282836",
+					"name": "mission",
+					"type": 0,
+					"parent": "Draft",
+					"position": 6
+				},
+				{
+					"id": "862989319861174302",
+					"name": "gift-code",
+					"type": 0,
+					"parent": "Draft",
+					"position": 7
+				},
+				{
+					"id": "866947634790531072",
+					"name": "holidoms",
+					"type": 0,
+					"parent": "Draft",
+					"position": 8
+				}
+			]
+		},
+		{
+			"id": "1039197199013269584",
+			"name": "英勇紋章 Emblem of Valor",
+			"channels": [
+				{
+					"id": "1502449153018560562",
+					"name": "聊天酒館",
+					"type": 0,
+					"parent": "Agent 頻道",
+					"position": 12
+				},
+				{
+					"id": "1502625903954624512",
+					"name": "太平洋標準銀行",
+					"type": 0,
+					"parent": "Agent 頻道",
+					"position": 13
+				},
+				{
+					"id": "1502462131004768346",
+					"name": "lastcmd",
+					"type": 0,
+					"parent": "Agent 頻道",
+					"position": 14
+				},
+				{
+					"id": "1502656414487810148",
+					"name": "007",
+					"type": 0,
+					"parent": "Agent 頻道",
+					"position": 15
+				},
+				{
+					"id": "1503680206555054110",
+					"name": "movie",
+					"type": 0,
+					"parent": "Agent 頻道",
+					"position": 16
+				},
+				{
+					"id": "1082205929828777994",
+					"name": "general",
+					"type": 0,
+					"parent": "Emblem of Valor (English)",
+					"position": 9
+				},
+				{
+					"id": "1082206017460375572",
+					"name": "bug-report",
+					"type": 0,
+					"parent": "Emblem of Valor (English)",
+					"position": 10
+				},
+				{
+					"id": "1082207416852160623",
+					"name": "suggestions",
+					"type": 0,
+					"parent": "Emblem of Valor (English)",
+					"position": 11
+				},
+				{
+					"id": "1082206092701990923",
+					"name": "info-基本資訊",
+					"type": 0,
+					"parent": "文字頻道",
+					"position": 0
+				},
+				{
+					"id": "1039197199680159857",
+					"name": "welcome-歡迎",
+					"type": 0,
+					"parent": "文字頻道",
+					"position": 1
+				},
+				{
+					"id": "1043136028594151504",
+					"name": "announcement-公告",
+					"type": 0,
+					"parent": "文字頻道",
+					"position": 2
+				},
+				{
+					"id": "1082207266222116934",
+					"name": "devlog-開發紀錄",
+					"type": 0,
+					"parent": "文字頻道",
+					"position": 3
+				},
+				{
+					"id": "1306792756496171058",
+					"name": "內部討論",
+					"type": 0,
+					"parent": "文字頻道",
+					"position": 4
+				},
+				{
+					"id": "1353704039740735518",
+					"name": "mod模組相關",
+					"type": 0,
+					"parent": "文字頻道",
+					"position": 5
+				},
+				{
+					"id": "1082200825419534377",
+					"name": "一般閒聊",
+					"type": 0,
+					"parent": "英勇紋章(中文)",
+					"position": 6
+				},
+				{
+					"id": "1082207021211856967",
+					"name": "遊戲建議",
+					"type": 0,
+					"parent": "英勇紋章(中文)",
+					"position": 7
+				},
+				{
+					"id": "1041704583233278024",
+					"name": "問題回報",
+					"type": 0,
+					"parent": "英勇紋章(中文)",
+					"position": 8
+				}
+			]
+		},
+		{
+			"id": "1531554940458111027",
+			"name": "CreamTime",
+			"channels": [
+				{
+					"id": "1531554943792578583",
+					"name": "一般",
+					"type": 0,
+					"parent": "文字頻道",
+					"position": 0
+				},
+				{
+					"id": "1531555102819877014",
+					"name": "cream-chat",
+					"type": 0,
+					"parent": "文字頻道",
+					"position": 1
+				},
+				{
+					"id": "1532706129157689394",
+					"name": "重要訊息",
+					"type": 0,
+					"parent": "文字頻道",
+					"position": 2
+				},
+				{
+					"id": "1534112845208485948",
+					"name": "creamtime-bank",
+					"type": 0,
+					"parent": "文字頻道",
+					"position": 3
+				}
+			]
+		}
+	]
+}
