@@ -5,9 +5,7 @@
             "last_seq": 22777
         }
     ],
-    "fired_today_keys": [
-        "2026-09-29::default-sleep-2350::reminder"
-    ],
+    "fired_today_keys": [],
     "last_overnight_check_date": "2026-09-28",
-    "last_updated": "2026-09-29T15:54:01.426Z"
+    "last_updated": "2026-09-29T16:00:04.790Z"
 }
