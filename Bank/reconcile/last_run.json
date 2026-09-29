@@ -1,11 +1,11 @@
 {
-	"at_utc": "2026-09-28T02:41:32.9040922Z",
-	"trigger": "daily",
-	"host": "wake-brief",
-	"from": "2026-09-22",
-	"to": "2026-09-28",
-	"ledger_entries_scanned": 1137,
-	"tavern_messages_scanned": 878,
+	"at_utc": "2026-09-29T14:40:59.8665221Z",
+	"trigger": "manual:report",
+	"host": "senate",
+	"from": "2026-09-18",
+	"to": "2026-09-29",
+	"ledger_entries_scanned": 1985,
+	"tavern_messages_scanned": 1546,
 	"missing": 4,
 	"applied": 0,
 	"apply_failed": 0,
@@ -14,24 +14,24 @@
 	"coverage": {
 		"work_post": {
 			"coverage": "covered",
-			"expected": 866,
-			"matched": 861,
-			"settled": 1,
+			"expected": 1513,
+			"matched": 1506,
+			"settled": 3,
 			"missing": 4,
 			"unmeasurable": 0
 		},
 		"commit": {
 			"coverage": "covered",
-			"expected": 175,
-			"matched": 175,
+			"expected": 303,
+			"matched": 303,
 			"settled": 0,
 			"missing": 0,
 			"unmeasurable": 0
 		},
 		"reading_note": {
 			"coverage": "covered",
-			"expected": 17,
-			"matched": 17,
+			"expected": 26,
+			"matched": 26,
 			"settled": 0,
 			"missing": 0,
 			"unmeasurable": 0
@@ -46,8 +46,8 @@
 		},
 		"stream_watch": {
 			"coverage": "covered",
-			"expected": 0,
-			"matched": 0,
+			"expected": 5,
+			"matched": 5,
 			"settled": 0,
 			"missing": 0,
 			"unmeasurable": 0

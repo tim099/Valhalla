@@ -1,0 +1,15 @@
+{
+	"id": "154851_868_9eb354",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "efababf",
+	"description": "commit post reward: sha=efababf tavern#seq=22773",
+	"caller": "system",
+	"cmd_id": "commit_efababf",
+	"idempotency_key": "commit_tavern_22773",
+	"at_utc": "2026-09-29T15:48:51.8681847Z",
+	"schema_version": 1
+}

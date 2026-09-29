@@ -1,0 +1,10 @@
+{
+	"server_id": "tavern",
+	"pid": 53420,
+	"build_id": "3fe3e59.20260929T145752Z",
+	"started_at_utc": "2026-09-29T14:58:12.4138865Z",
+	"server_root": "D:\\Unity\\Senate\\SenateData\\runtime\\server-tavern",
+	"heartbeat_path": "D:\\Unity\\Senate\\SenateData\\runtime\\_server_heartbeat.tavern.json",
+	"stale_seconds": 4,
+	"schema_version": 1
+}
