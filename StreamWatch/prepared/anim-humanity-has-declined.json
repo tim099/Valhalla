@@ -1,19 +1,20 @@
 {
 	"media_id":"anim-humanity-has-declined",
 	"work_id":"humanity-has-declined",
-	"episode":7,
-	"chapter_id":"0007",
-	"show_title":"\u4eba\u985e\u8870\u9000\u4e4b\u5f8c [07]",
-	"prepared_by":"summit",
-	"prepared_at":"2026-09-18T14:57:12.873Z",
+	"episode":8,
+	"chapter_id":"0008",
+	"show_title":"\u4eba\u985e\u8870\u9000\u4e4b\u5f8c [08]",
+	"prepared_by":"basecamp",
+	"prepared_at":"2026-10-02T15:14:34.215Z",
 	"reference_reader":"basecamp",
 	"catchup_map":{
 		"0001":"basecamp",
-		"0002":"gura",
+		"0002":"summit",
 		"0003":"basecamp",
 		"0004":"basecamp",
-		"0005":"gura",
-		"0006":"basecamp"
+		"0005":"summit",
+		"0006":"basecamp",
+		"0007":"basecamp"
 	},
 	"chapter_title":"",
 	"export_chapter":"",

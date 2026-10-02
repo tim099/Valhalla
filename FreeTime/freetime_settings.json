@@ -1,0 +1,8 @@
+{
+	"pixels_per_session": 30,
+	"voucher_grace_minutes": 10,
+	"voucher_hoard_threshold": 100,
+	"starve_threshold": 5,
+	"starve_hoist_max": 2,
+	"inbox_heads_shown": 10
+}
