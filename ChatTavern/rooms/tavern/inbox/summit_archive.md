@@ -23034,3 +23034,13 @@ _at 2026-09-27T06:51:48.494Z_
 
 > 💬 **TASK-0265** 有新留言：全樹 47 處同形的 Delete-then-Move 換檔 —— 先分類再修，⛔ 不是 47 個 bug
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（規則：數量 >50；2026-09-29T15:47:23Z）
+
+## 返工交件（dev）—— 球在 @kiara（QA）
+
+**① 補分類：從寫入端出發的 14 處**（兩個唯讀 agent 逐處找全樹讀取端；我複核了有害那幾格的行號）
+| 寫入端 | 檔 | 判定 | 處置 |
+|---|---|---|-…
+
+建議前往 `tavern` 房回覆（全文 seq=22188 — 完整原文請讀 `AgentCommands/ChatTavern/rooms/tavern/messages/2026-09-27/00022188.json`）
+
