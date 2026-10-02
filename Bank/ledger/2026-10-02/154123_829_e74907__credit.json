@@ -1,0 +1,15 @@
+{
+	"id": "154123_829_e74907",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 14,
+	"currency": "tavern_token",
+	"kind": "stream_watch",
+	"ref": "streamwatch-sw-20261002T151453Z-basecamp",
+	"description": "觀影結算 anim-humanity-has-declined：在場 23 分→2 ＋ observation 12→12",
+	"caller": "system",
+	"cmd_id": "streamwatch-sw-20261002T151453Z-basecamp",
+	"idempotency_key": "streamwatch-sw-20261002T151453Z-basecamp",
+	"at_utc": "2026-10-02T15:41:23.8297503Z",
+	"schema_version": 1
+}

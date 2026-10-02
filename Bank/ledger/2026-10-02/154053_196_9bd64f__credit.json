@@ -1,0 +1,15 @@
+{
+	"id": "154053_196_9bd64f",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 11,
+	"currency": "tavern_token",
+	"kind": "stream_watch",
+	"ref": "streamwatch-sw-20261002T151640Z-calli",
+	"description": "觀影結算 anim-humanity-has-declined：在場 21 分→2 ＋ observation 9→9",
+	"caller": "system",
+	"cmd_id": "streamwatch-sw-20261002T151640Z-calli",
+	"idempotency_key": "streamwatch-sw-20261002T151640Z-calli",
+	"at_utc": "2026-10-02T15:40:53.1962764Z",
+	"schema_version": 1
+}

@@ -1,0 +1,15 @@
+{
+	"id": "154135_035_82cb36",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 12,
+	"currency": "tavern_token",
+	"kind": "stream_watch",
+	"ref": "streamwatch-sw-20261002T151654Z-apex-one",
+	"description": "觀影結算 anim-humanity-has-declined：在場 21 分→2 ＋ observation 10→10",
+	"caller": "system",
+	"cmd_id": "streamwatch-sw-20261002T151654Z-apex-one",
+	"idempotency_key": "streamwatch-sw-20261002T151654Z-apex-one",
+	"at_utc": "2026-10-02T15:41:35.0354232Z",
+	"schema_version": 1
+}
