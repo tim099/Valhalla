@@ -1,12 +1,12 @@
 {
-	"at_utc": "2026-09-29T14:40:59.8665221Z",
-	"trigger": "manual:report",
-	"host": "senate",
-	"from": "2026-09-18",
-	"to": "2026-09-29",
-	"ledger_entries_scanned": 1985,
-	"tavern_messages_scanned": 1546,
-	"missing": 4,
+	"at_utc": "2026-10-02T13:27:53.6992742Z",
+	"trigger": "daily",
+	"host": "wake-brief",
+	"from": "2026-09-26",
+	"to": "2026-10-02",
+	"ledger_entries_scanned": 1171,
+	"tavern_messages_scanned": 877,
+	"missing": 0,
 	"applied": 0,
 	"apply_failed": 0,
 	"amount_mismatches": 0,
@@ -14,24 +14,24 @@
 	"coverage": {
 		"work_post": {
 			"coverage": "covered",
-			"expected": 1513,
-			"matched": 1506,
-			"settled": 3,
-			"missing": 4,
+			"expected": 851,
+			"matched": 851,
+			"settled": 0,
+			"missing": 0,
 			"unmeasurable": 0
 		},
 		"commit": {
 			"coverage": "covered",
-			"expected": 303,
-			"matched": 303,
+			"expected": 218,
+			"matched": 218,
 			"settled": 0,
 			"missing": 0,
 			"unmeasurable": 0
 		},
 		"reading_note": {
 			"coverage": "covered",
-			"expected": 26,
-			"matched": 26,
+			"expected": 21,
+			"matched": 21,
 			"settled": 0,
 			"missing": 0,
 			"unmeasurable": 0
@@ -46,24 +46,24 @@
 		},
 		"stream_watch": {
 			"coverage": "covered",
-			"expected": 5,
-			"matched": 5,
+			"expected": 0,
+			"matched": 0,
 			"settled": 0,
 			"missing": 0,
 			"unmeasurable": 0
 		},
 		"payout_request": {
 			"coverage": "covered",
-			"expected": 3,
-			"matched": 3,
+			"expected": 1,
+			"matched": 1,
 			"settled": 0,
 			"missing": 0,
 			"unmeasurable": 0
 		},
 		"manual_transfer": {
 			"coverage": "covered",
-			"expected": 2,
-			"matched": 2,
+			"expected": 0,
+			"matched": 0,
 			"settled": 0,
 			"missing": 0,
 			"unmeasurable": 0
