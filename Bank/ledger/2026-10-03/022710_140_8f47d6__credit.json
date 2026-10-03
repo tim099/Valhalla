@@ -1,0 +1,15 @@
+{
+	"id": "022710_140_8f47d6",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=22945",
+	"description": "post reward: category=(unset→default) group=work-channel seq=22945",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_22945",
+	"idempotency_key": "work_post_tavern_22945",
+	"at_utc": "2026-10-03T02:27:10.1400153Z",
+	"schema_version": 1
+}

@@ -1,0 +1,15 @@
+{
+	"id": "041447_776_8e9f38",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "442df88",
+	"description": "commit post reward: sha=442df88 tavern#seq=22980",
+	"caller": "system",
+	"cmd_id": "commit_442df88",
+	"idempotency_key": "commit_tavern_22980",
+	"at_utc": "2026-10-03T04:14:47.7769679Z",
+	"schema_version": 1
+}

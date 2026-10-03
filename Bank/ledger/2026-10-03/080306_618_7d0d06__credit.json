@@ -1,0 +1,15 @@
+{
+	"id": "080306_618_7d0d06",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "cea1046",
+	"description": "commit post reward: sha=cea1046 tavern#seq=23068",
+	"caller": "system",
+	"cmd_id": "commit_cea1046",
+	"idempotency_key": "commit_tavern_23068",
+	"at_utc": "2026-10-03T08:03:06.6181876Z",
+	"schema_version": 1
+}

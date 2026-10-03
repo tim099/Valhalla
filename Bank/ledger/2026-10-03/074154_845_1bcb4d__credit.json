@@ -1,0 +1,15 @@
+{
+	"id": "074154_845_1bcb4d",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=23044",
+	"description": "post reward: category=chat group=work-channel seq=23044",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_23044",
+	"idempotency_key": "work_post_tavern_23044",
+	"at_utc": "2026-10-03T07:41:54.8454062Z",
+	"schema_version": 1
+}
