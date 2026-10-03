@@ -1,0 +1,12 @@
+{
+	"schema_version": 1,
+	"kind": "flow",
+	"at_utc": "2026-10-03T02:17:42.3218425Z",
+	"persona": "kotoko",
+	"symbol": "BTC",
+	"delta_e8": 1850000000,
+	"bid_usd": 86704.45,
+	"value_usd": 1604032.325,
+	"source": "demurrage",
+	"ref": "021741_865_684cd7"
+}
