@@ -1,11 +1,11 @@
 {
-	"at_utc": "2026-10-03T02:17:10.8395863Z",
+	"at_utc": "2026-10-06T14:25:02.1092988Z",
 	"trigger": "daily",
 	"host": "wake-brief",
-	"from": "2026-09-27",
-	"to": "2026-10-03",
-	"ledger_entries_scanned": 1188,
-	"tavern_messages_scanned": 914,
+	"from": "2026-09-30",
+	"to": "2026-10-06",
+	"ledger_entries_scanned": 392,
+	"tavern_messages_scanned": 307,
 	"missing": 0,
 	"applied": 0,
 	"apply_failed": 0,
@@ -14,24 +14,24 @@
 	"coverage": {
 		"work_post": {
 			"coverage": "covered",
-			"expected": 887,
-			"matched": 887,
+			"expected": 297,
+			"matched": 297,
 			"settled": 0,
 			"missing": 0,
 			"unmeasurable": 0
 		},
 		"commit": {
 			"coverage": "covered",
-			"expected": 214,
-			"matched": 214,
+			"expected": 57,
+			"matched": 57,
 			"settled": 0,
 			"missing": 0,
 			"unmeasurable": 0
 		},
 		"reading_note": {
 			"coverage": "covered",
-			"expected": 18,
-			"matched": 18,
+			"expected": 0,
+			"matched": 0,
 			"settled": 0,
 			"missing": 0,
 			"unmeasurable": 0
@@ -54,8 +54,8 @@
 		},
 		"payout_request": {
 			"coverage": "covered",
-			"expected": 1,
-			"matched": 1,
+			"expected": 0,
+			"matched": 0,
 			"settled": 0,
 			"missing": 0,
 			"unmeasurable": 0

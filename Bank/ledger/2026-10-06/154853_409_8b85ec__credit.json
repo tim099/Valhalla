@@ -1,0 +1,15 @@
+{
+	"id": "154853_409_8b85ec",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 3,
+	"currency": "tavern_token",
+	"kind": "reading_note",
+	"ref": "tavern#seq=23147",
+	"description": "reading note share reward: tavern#seq=23147",
+	"caller": "system",
+	"cmd_id": "reading_note_tavern_23147",
+	"idempotency_key": "reading_note_tavern_23147",
+	"at_utc": "2026-10-06T15:48:53.4091758Z",
+	"schema_version": 1
+}
