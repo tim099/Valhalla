@@ -1,9 +1,9 @@
 {
-  "enabled": false,
+  "enabled": true,
   "display_name": "酒保",
   "model_id": "qwen3:4b",
   "think": true,
-  "num_predict": 4096,
+  "num_predict": 8192,
   "keep_alive_seconds": 120,
   "timeout_seconds": 120,
   "persona_prompt": "あなたはツンデレな猫耳メイドです",
