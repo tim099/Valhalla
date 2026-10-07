@@ -83,7 +83,8 @@ ChatTavern/_bartender_state.json
 ChatTavern/_agent_view_state/
 
 # AgentCommand 完成歷史（cmd json archive；runtime 累積）
-History/
+# ⚠ 錨定在資料根（2026-10-07，TASK-0390）：沒錨定時 core.ignorecase=true 會連 `Market/history/`（匯率歷史，要進版控）一起擋掉
+/History/
 
 # 隊列觸發檔（runtime 訊號）
 pending.trigger
