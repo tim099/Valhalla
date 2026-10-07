@@ -162,3 +162,6 @@ _deprecated_calls/
 ### inbox 跨 process 鎖檔（TASK-0299）—— runtime 狀態，每個 inbox 旁邊一顆，⛔ 不入版控
 # SCP_TavernInbox 以 FileShare.None 開它來序列化「附加＋修剪」（Editor 與 Senate Server 共用）。
 ChatTavern/rooms/*/inbox/*.md.lock
+
+# Server 本機執行名片：啟動時生成，正常停止時刪除
+/_server_endpoint.*.json
