@@ -1,0 +1,14 @@
+{
+	"id": "141513_955_dbb041",
+	"type": "credit",
+	"account_id": "sirius",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:60e9555181cd4a02bb12d32f70234c66",
+	"description": "委託作品 apex-one-celestial-bed｜conversation:bbcdc207-89d1-45f4-9f1a-87d2e562a99c:20261007T221319｜建造一張大小姐的床舖吧",
+	"caller": "apex-one",
+	"idempotency_key": "sculpture-commission:60e9555181cd4a02bb12d32f70234c66",
+	"at_utc": "2026-10-07T14:15:13.9552929Z",
+	"schema_version": 1
+}
