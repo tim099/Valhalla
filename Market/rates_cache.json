@@ -1,6 +1,6 @@
 {
 	"base_currency": "USD",
-	"updated_at_utc": "2026-10-06T14:25:54.6088406Z",
+	"updated_at_utc": "2026-10-07T12:11:14.6061408Z",
 	"fx_system_enabled": true,
 	"taker_fee_pct": 0.001,
 	"sync_ttl_minutes": 1440,
@@ -18,9 +18,9 @@
 		"BTC": {
 			"symbol": "BTC",
 			"base_currency": "USD",
-			"bid": 86017.91,
-			"ask": 86017.92,
-			"updated_at_utc": "2026-10-06T14:25:54.6088406Z",
+			"bid": 83640.87,
+			"ask": 83640.88,
+			"updated_at_utc": "2026-10-07T12:11:14.6061408Z",
 			"source": "senate_http:binance_bookticker",
 			"is_enabled": true,
 			"source_url": "https://api.binance.com/api/v3/ticker/bookTicker?symbol=BTCUSDT",
@@ -30,9 +30,9 @@
 		"GOLD": {
 			"symbol": "GOLD",
 			"base_currency": "USD",
-			"bid": 4154.29,
-			"ask": 4154.3,
-			"updated_at_utc": "2026-10-06T14:25:54.6088406Z",
+			"bid": 4137,
+			"ask": 4137.01,
+			"updated_at_utc": "2026-10-07T12:11:14.6061408Z",
 			"source": "senate_http:binance_bookticker",
 			"is_enabled": true,
 			"source_url": "https://api.binance.com/api/v3/ticker/bookTicker?symbol=PAXGUSDT",
