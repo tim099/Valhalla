@@ -1,0 +1,14 @@
+{
+	"id": "145234_995_34e716",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:b83cad3b7160479caccd8949be0bd599",
+	"description": "委託作品 sirius-evening-salon-table｜codex:01a116a7-e12c-7f30-aa48-4adf4f872344:20261007:table-commission｜雕刻一個精美的桌子_桌上可以擺上裝飾",
+	"caller": "Sirius",
+	"idempotency_key": "sculpture-commission:b83cad3b7160479caccd8949be0bd599",
+	"at_utc": "2026-10-07T14:52:34.9951095Z",
+	"schema_version": 1
+}
