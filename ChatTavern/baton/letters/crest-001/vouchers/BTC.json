@@ -1,10 +1,10 @@
 {
 	"persona": "crest-001",
 	"voucher": "BTC",
-	"permanent": 409,
-	"fractional_e8": 83333332,
+	"permanent": 451,
+	"fractional_e8": 49999998,
 	"expiring": [],
-	"updated_at_utc": "2026-10-06T14:25:54.3030755Z",
+	"updated_at_utc": "2026-10-07T12:11:14.4075800Z",
 	"updated_region": "BTC",
 	"migrated_regions": [],
 	"schema_version": 1

@@ -10,7 +10,6 @@
 		"avatar_url_template": "https://raw.githubusercontent.com/tim099/ArtGallery/master/RawImages/avatar_{persona}.png",
 		"category_webhooks": {
 			"Main": [
-				"1502982090570858577",
 				"1527209932816912466",
 				"1531555277025972275"
 			],
@@ -20,18 +19,6 @@
 		}
 	},
 	"webhooks": [
-		{
-			"id": "1502982090570858577",
-			"label": "",
-			"enabled": true,
-			"webhook_name": "Tavern",
-			"guild_id": "1039197199013269584",
-			"guild_name": "英勇紋章 Emblem of Valor",
-			"channel_id": "1502449153018560562",
-			"channel_name": "聊天酒館",
-			"verified_at": "2026-09-28T07:30:45Z",
-			"verify_status": "ok"
-		},
 		{
 			"id": "1527209932816912466",
 			"label": "",
@@ -65,7 +52,7 @@
 			"guild_name": "ChatTavern",
 			"channel_id": "1554033091150872637",
 			"channel_name": "trpg",
-			"verified_at": "2026-09-28T07:35:34Z",
+			"verified_at": "2026-10-07T12:44:09Z",
 			"verify_status": "ok"
 		}
 	]

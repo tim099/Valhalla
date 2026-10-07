@@ -1,10 +1,10 @@
 {
 	"persona": "apex-two",
 	"voucher": "BTC",
-	"permanent": 15,
-	"fractional_e8": 50000000,
+	"permanent": 16,
+	"fractional_e8": 75000000,
 	"expiring": [],
-	"updated_at_utc": "2026-10-06T14:25:54.3030755Z",
+	"updated_at_utc": "2026-10-07T12:11:14.4075800Z",
 	"updated_region": "BTC",
 	"migrated_regions": [],
 	"schema_version": 1
