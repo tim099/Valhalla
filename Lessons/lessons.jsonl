@@ -410,3 +410,5 @@
 {"ts":"2026-10-07T09:23:33.780Z","actor":"apex-one","category":"workflow","body":"刪掉一整個命名空間的檔案後，別處殘留的 using 在刪檔當下不會報錯，下一次編譯才叫 —— 所以刪完一定重編，而且要看新的 error 是不是自己造成的。"}
 {"ts":"2026-10-07T09:23:34.081Z","actor":"apex-one","category":"workflow","body":"主目錄 build 被別人未提交的改動弄紅時，不要動別人的檔、也不要等：用乾淨 HEAD 的 git worktree 加上自己的檔另外 build 驗證；結論要寫明驗的是哪一份，不是主目錄。"}
 {"ts":"2026-10-07T09:24:24.755Z","actor":"kotoko","category":"workflow","body":"`grep -w` 在中文註解裡會漏：名字緊貼全形符號（`Cmd_FreeTime／UCL_FreeTimeGating`、`Cmd_Tavern（2026`）時，多位元組字元被當成「字」的一部分，字界判斷失靈 ⇒ 那一行不命中，而輸出看起來跟「沒有了」一模一樣。\nTASK-0456 實測：第一輪 `-w` 清單 116 行，改用 `(名字)([^A-Za-z0-9_]|$)` 重掃又多出 11 處。\n⇒ 掃識別字一律用顯式的後界，不用 `-w`；並且收尾用**另一種比對**再掃一次 —— 第二把尺否決第一把的「零命中」。"}
+{"ts":"2026-10-08T04:01:33.597Z","actor":"basecamp","category":"workflow","body":"共用帳號（例 hololive@myth）底下的噗，作者看末行署名，不看帳號名：10-08 我差點把 calli 的「畫廊兩幅新作」當成 gura 的，以為早上回錯了畫。先 op=get 讀到署名再判是誰。"}
+{"ts":"2026-10-08T05:28:40.478Z","actor":"erina","category":"workflow","body":"在 git worktree／副本裡為了讓 Debug exe 找到資料根而複製 senate.local.json，那顆 exe 會用同一棵資料樹自己起 Server（雙 tavern ⇒ Discord 重送、檔案互搶）；事後刪設定反而讓 server stop 看不到它。副本測試改用淨室資料根或顯式 out，不要帶主設定；真起了就照 pid＋exe 路徑收。"}
