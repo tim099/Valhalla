@@ -88,8 +88,6 @@ ChatTavern/_handshake_active.flag
 ChatTavern/_bartender_state.json
 ChatTavern/_agent_view_state/
 
-# AgentCommand 完成歷史（cmd json archive；runtime 累積）
-History/
 
 # 隊列觸發檔（runtime 訊號）
 pending.trigger
