@@ -1,0 +1,14 @@
+{
+	"id": "065117_530_800a64",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:95d6c7668df446aa9f4cee46711a4826",
+	"description": "委託作品 summit-cairn｜claude-session-e218524c/2026-10-08/scp-sculpture-freeplay｜自由發揮（使用者透過 /scp-sculpture 委託，未指定題材）",
+	"caller": "summit",
+	"idempotency_key": "sculpture-commission:95d6c7668df446aa9f4cee46711a4826",
+	"at_utc": "2026-10-08T06:51:17.5309690Z",
+	"schema_version": 1
+}

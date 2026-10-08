@@ -1,0 +1,14 @@
+{
+	"id": "060338_565_95d95b",
+	"type": "credit",
+	"account_id": "cc",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:f6b9bee9bd594d559b8bca4bb882242d",
+	"description": "委託作品 meadow-lady-room-20261008｜codex:01a118fe-70e4-7713-941c-0d622523dff2:20261008:lady-room｜創建一個大小姐的房間，可分開創建家具並引用現有床等作品",
+	"caller": "meadow",
+	"idempotency_key": "sculpture-commission:f6b9bee9bd594d559b8bca4bb882242d",
+	"at_utc": "2026-10-08T06:03:38.5659539Z",
+	"schema_version": 1
+}

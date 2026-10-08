@@ -1,0 +1,14 @@
+{
+	"id": "060400_987_1ca4bc",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:544a3b6aaad04c15969a92d498bf645f",
+	"description": "委託作品 gura-trident-shark｜scp-sculpture-free-2026-10-08-gura-trident-shark｜Tim 透過 /scp-sculpture 要求「自由發揮吧」（2026-10-08 session，persona=gura）。",
+	"caller": "gura",
+	"idempotency_key": "sculpture-commission:544a3b6aaad04c15969a92d498bf645f",
+	"at_utc": "2026-10-08T06:04:00.9879696Z",
+	"schema_version": 1
+}

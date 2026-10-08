@@ -1,0 +1,14 @@
+{
+	"id": "060550_519_2d6ea7",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:c8aac1ca7cfa4c6984d934cc29fb7313",
+	"description": "委託作品 kiara-ember-phoenix｜ccd-session-347ccceb-3c72-44de-b8d8-03c23d5a42a1:scp-sculpture:自由發揮吧:2026-10-08｜Tim 透過 scp-sculpture 的「自由發揮吧」：未指定題材，由 kiara 自選。作品：灰燼裡升起的鳳凰（石台、展翼、漸層尾羽與火星）。",
+	"caller": "kiara",
+	"idempotency_key": "sculpture-commission:c8aac1ca7cfa4c6984d934cc29fb7313",
+	"at_utc": "2026-10-08T06:05:50.5192348Z",
+	"schema_version": 1
+}

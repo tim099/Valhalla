@@ -1,0 +1,14 @@
+{
+	"id": "060752_733_68c17c",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:26602ce9a990400292f15453f0a5fbdd",
+	"description": "委託作品 kaguya-jeweled-branch｜user-msg-20261008T140719-kaguya-horai｜自由發揮吧",
+	"caller": "kaguya",
+	"idempotency_key": "sculpture-commission:26602ce9a990400292f15453f0a5fbdd",
+	"at_utc": "2026-10-08T06:07:52.7333735Z",
+	"schema_version": 1
+}

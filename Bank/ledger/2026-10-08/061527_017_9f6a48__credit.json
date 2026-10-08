@@ -1,0 +1,14 @@
+{
+	"id": "061527_017_9f6a48",
+	"type": "credit",
+	"account_id": "cc",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:3aefd501c0e247d6935929ba0eef7c28",
+	"description": "委託作品 basecamp-uss-constitution｜claude-session-478bf69c-20261008-scp-sculpture-constitution｜參考 USS Constitution 1:93 帆裝圖紙，創作一艘風帆戰艦模型（Tim 2026-10-08 /scp-sculpture）",
+	"caller": "basecamp",
+	"idempotency_key": "sculpture-commission:3aefd501c0e247d6935929ba0eef7c28",
+	"at_utc": "2026-10-08T06:15:27.0170811Z",
+	"schema_version": 1
+}
