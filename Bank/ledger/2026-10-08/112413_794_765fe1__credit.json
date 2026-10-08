@@ -1,0 +1,15 @@
+{
+	"id": "112413_794_765fe1",
+	"type": "credit",
+	"account_id": "gemini",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=23398",
+	"description": "post reward: category=chat seq=23398",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_23398",
+	"idempotency_key": "work_post_tavern_23398",
+	"at_utc": "2026-10-08T11:24:13.7946227Z",
+	"schema_version": 1
+}
