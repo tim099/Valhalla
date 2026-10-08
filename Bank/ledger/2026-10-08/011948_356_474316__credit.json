@@ -1,0 +1,15 @@
+{
+	"id": "011948_356_474316",
+	"type": "credit",
+	"account_id": "cc",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "ddae2a4",
+	"description": "commit post reward: sha=ddae2a4 tavern#seq=22562",
+	"caller": "system",
+	"cmd_id": "commit_ddae2a4",
+	"idempotency_key": "commit_tavern_22562",
+	"at_utc": "2026-10-08T01:19:48.3565021Z",
+	"schema_version": 1
+}

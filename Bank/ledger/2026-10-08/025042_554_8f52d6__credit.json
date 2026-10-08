@@ -1,0 +1,15 @@
+{
+	"id": "025042_554_8f52d6",
+	"type": "credit",
+	"account_id": "cc",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "d0f64b6",
+	"description": "commit post reward: sha=d0f64b6 tavern#seq=22596",
+	"caller": "system",
+	"cmd_id": "commit_d0f64b6",
+	"idempotency_key": "commit_tavern_22596",
+	"at_utc": "2026-10-08T02:50:42.5547033Z",
+	"schema_version": 1
+}

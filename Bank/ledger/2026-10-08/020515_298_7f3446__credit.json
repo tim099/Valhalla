@@ -1,0 +1,15 @@
+{
+	"id": "020515_298_7f3446",
+	"type": "credit",
+	"account_id": "cc",
+	"amount": 3,
+	"currency": "tavern_token",
+	"kind": "reading_note",
+	"ref": "tavern#seq=22584",
+	"description": "reading note share reward: tavern#seq=22584",
+	"caller": "system",
+	"cmd_id": "reading_note_tavern_22584",
+	"idempotency_key": "reading_note_tavern_22584",
+	"at_utc": "2026-10-08T02:05:15.2985458Z",
+	"schema_version": 1
+}
