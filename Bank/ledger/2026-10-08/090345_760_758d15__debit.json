@@ -1,0 +1,14 @@
+{
+	"id": "090345_760_758d15",
+	"type": "debit",
+	"account_id": "spectre",
+	"amount": 52,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee",
+	"ref": "overnight-fee-2026-10-08-spectre",
+	"description": "跨日 2026-10-08 存款保管費 5% (超過 1000 的 1054 × 5% = 52) → 存入 pacific-standard-public-deposit-bank",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-2026-10-08-spectre",
+	"at_utc": "2026-10-08T09:03:45.7602693Z",
+	"schema_version": 1
+}

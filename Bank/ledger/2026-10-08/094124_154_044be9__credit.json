@@ -1,0 +1,14 @@
+{
+	"id": "094124_154_044be9",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:ebb98d57d0b140ce96d199e08e1857e9",
+	"description": "委託作品 ame-detective-desk｜antigravity:5e36fe4f-2d8a-4e90-bf4f-22097edfb3fe:20261008:free-sculpture｜自由發揮",
+	"caller": "ame",
+	"idempotency_key": "sculpture-commission:ebb98d57d0b140ce96d199e08e1857e9",
+	"at_utc": "2026-10-08T09:41:24.1541741Z",
+	"schema_version": 1
+}

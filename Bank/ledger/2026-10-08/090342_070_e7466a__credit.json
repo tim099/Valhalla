@@ -1,0 +1,14 @@
+{
+	"id": "090342_070_e7466a",
+	"type": "credit",
+	"account_id": "pacific-standard-public-deposit-bank",
+	"amount": 123,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee_deposit",
+	"ref": "overnight-fee-credit-2026-10-08-claude-code",
+	"description": "跨日 2026-10-08 存款保管費入庫（繳費者 @claude-code）",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-credit-2026-10-08-claude-code",
+	"at_utc": "2026-10-08T09:03:42.0703812Z",
+	"schema_version": 1
+}

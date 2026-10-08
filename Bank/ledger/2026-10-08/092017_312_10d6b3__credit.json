@@ -1,0 +1,14 @@
+{
+	"id": "092017_312_10d6b3",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:9ae00c3a13f742e097b6576e25c45012",
+	"description": "委託作品 kotoko-lamp-ledger｜claude-code-session-eaceb548:scp-sculpture:2026-10-08:free｜使用者透過 /scp-sculpture 指令要求「自由發揮」，未指定題材。\nkotoko 自選：〈燈與帳〉——小書桌上的綠罩檯燈、攤開的帳冊與紅書籤、墨水瓶與羽毛筆。",
+	"caller": "kotoko",
+	"idempotency_key": "sculpture-commission:9ae00c3a13f742e097b6576e25c45012",
+	"at_utc": "2026-10-08T09:20:17.3129308Z",
+	"schema_version": 1
+}
