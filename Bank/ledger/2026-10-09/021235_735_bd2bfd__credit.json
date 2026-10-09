@@ -1,0 +1,14 @@
+{
+	"id": "021235_735_bd2bfd",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:065325d7283a4a10941c42d54c73098f",
+	"description": "委託作品 meadow-cozy-cabin｜codex-meadow-20261009-user-cozy-cabin-01｜試著按照比例尺 建造一座溫馨小木屋模型吧(先不做內部裝飾 不過保留內部空間)",
+	"caller": "meadow",
+	"idempotency_key": "sculpture-commission:065325d7283a4a10941c42d54c73098f",
+	"at_utc": "2026-10-09T02:12:35.7351570Z",
+	"schema_version": 1
+}

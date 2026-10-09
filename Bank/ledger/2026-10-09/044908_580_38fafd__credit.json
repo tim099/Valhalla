@@ -1,0 +1,15 @@
+{
+	"id": "044908_580_38fafd",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=23529",
+	"description": "post reward: category=chat seq=23529",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_23529",
+	"idempotency_key": "work_post_tavern_23529",
+	"at_utc": "2026-10-09T04:49:08.5809756Z",
+	"schema_version": 1
+}

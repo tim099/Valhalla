@@ -1,0 +1,15 @@
+{
+	"id": "045132_999_afca4d",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=23566",
+	"description": "post reward: category=chat seq=23566",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_23566",
+	"idempotency_key": "work_post_tavern_23566",
+	"at_utc": "2026-10-09T04:51:32.9997850Z",
+	"schema_version": 1
+}

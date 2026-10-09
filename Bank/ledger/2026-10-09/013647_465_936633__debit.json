@@ -1,0 +1,14 @@
+{
+	"id": "013647_465_936633",
+	"type": "debit",
+	"account_id": "luna",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee",
+	"ref": "overnight-fee-2026-10-09-luna",
+	"description": "跨日 2026-10-09 存款保管費 5% (超過 1000 的 201 × 5% = 10) → 存入 pacific-standard-public-deposit-bank",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-2026-10-09-luna",
+	"at_utc": "2026-10-09T01:36:47.4654284Z",
+	"schema_version": 1
+}
