@@ -1,0 +1,137 @@
+{
+	"schema_version": 1,
+	"version_id": "20261009T035937285Z",
+	"fetched_at_utc": "2026-10-09T03:59:37.2852601Z",
+	"archived_at_utc": "2026-10-09T03:59:42.0964460Z",
+	"origin": "pre_sync",
+	"config": {
+		"base_currency": "USD",
+		"updated_at_utc": "2026-10-09T03:59:37.4332795Z",
+		"fx_system_enabled": true,
+		"taker_fee_pct": 0.001,
+		"sync_ttl_minutes": 1440,
+		"quotes": {
+			"USD": {
+				"symbol": "USD",
+				"base_currency": "USD",
+				"bid": 1,
+				"ask": 1,
+				"updated_at_utc": "2026-09-22T15:44:01.5495550Z",
+				"source": "builtin",
+				"is_enabled": true,
+				"two_sided": true
+			},
+			"BTC": {
+				"symbol": "BTC",
+				"base_currency": "USD",
+				"bid": 81774,
+				"ask": 81774.01,
+				"updated_at_utc": "2026-10-09T01:36:51.2044045Z",
+				"source": "senate_http:binance_bookticker",
+				"is_enabled": true,
+				"source_url": "https://api.binance.com/api/v3/ticker/bookTicker?symbol=BTCUSDT",
+				"source_kind": "binance_bookticker",
+				"two_sided": true
+			},
+			"GOLD": {
+				"symbol": "GOLD",
+				"base_currency": "USD",
+				"bid": 4171.24,
+				"ask": 4171.25,
+				"updated_at_utc": "2026-10-09T01:36:51.2044045Z",
+				"source": "senate_http:binance_bookticker",
+				"is_enabled": true,
+				"source_url": "https://api.binance.com/api/v3/ticker/bookTicker?symbol=PAXGUSDT",
+				"source_kind": "binance_bookticker",
+				"two_sided": true
+			},
+			"TWD": {
+				"symbol": "TWD",
+				"base_currency": "USD",
+				"bid": 0.0313784181373784,
+				"ask": 0.0313784181373784,
+				"updated_at_utc": "2026-10-09T03:59:35.4483264Z",
+				"source": "import:LY",
+				"is_enabled": true,
+				"source_url": "https://open.er-api.com/v6/latest/USD",
+				"source_kind": "fx_rates_per_usd",
+				"two_sided": true
+			},
+			"JPY": {
+				"symbol": "JPY",
+				"base_currency": "USD",
+				"bid": 0.00632508980583884,
+				"ask": 0.00632508980583884,
+				"updated_at_utc": "2026-10-09T03:59:35.7649653Z",
+				"source": "import:LY",
+				"is_enabled": true,
+				"source_url": "https://open.er-api.com/v6/latest/USD",
+				"source_kind": "fx_rates_per_usd",
+				"two_sided": true
+			},
+			"EUR": {
+				"symbol": "EUR",
+				"base_currency": "USD",
+				"bid": 1.11988478625319,
+				"ask": 1.11988478625319,
+				"updated_at_utc": "2026-10-09T03:59:36.0670901Z",
+				"source": "import:LY",
+				"is_enabled": true,
+				"source_url": "https://open.er-api.com/v6/latest/USD",
+				"source_kind": "fx_rates_per_usd",
+				"two_sided": true
+			},
+			"GBP": {
+				"symbol": "GBP",
+				"base_currency": "USD",
+				"bid": 1.32179145038854,
+				"ask": 1.32179145038854,
+				"updated_at_utc": "2026-10-09T03:59:36.3843486Z",
+				"source": "import:LY",
+				"is_enabled": true,
+				"source_url": "https://open.er-api.com/v6/latest/USD",
+				"source_kind": "fx_rates_per_usd",
+				"two_sided": true
+			},
+			"CNY": {
+				"symbol": "CNY",
+				"base_currency": "USD",
+				"bid": 0.148976745772822,
+				"ask": 0.148976745772822,
+				"updated_at_utc": "2026-10-09T03:59:36.6819748Z",
+				"source": "import:LY",
+				"is_enabled": true,
+				"source_url": "https://open.er-api.com/v6/latest/USD",
+				"source_kind": "fx_rates_per_usd",
+				"two_sided": true
+			},
+			"KRW": {
+				"symbol": "KRW",
+				"base_currency": "USD",
+				"bid": 0.000746774390724529,
+				"ask": 0.000746774390724529,
+				"updated_at_utc": "2026-10-09T03:59:36.9842409Z",
+				"source": "import:LY",
+				"is_enabled": true,
+				"source_url": "https://open.er-api.com/v6/latest/USD",
+				"source_kind": "fx_rates_per_usd",
+				"two_sided": true
+			},
+			"HKD": {
+				"symbol": "HKD",
+				"base_currency": "USD",
+				"bid": 0.127427639896116,
+				"ask": 0.127427639896116,
+				"updated_at_utc": "2026-10-09T03:59:37.2852601Z",
+				"source": "import:LY",
+				"is_enabled": true,
+				"source_url": "https://open.er-api.com/v6/latest/USD",
+				"source_kind": "fx_rates_per_usd",
+				"two_sided": true
+			}
+		},
+		"fixed_pairs": {
+			"FLORIN->GOLD": 20
+		}
+	}
+}

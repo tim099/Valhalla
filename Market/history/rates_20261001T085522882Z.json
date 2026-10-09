@@ -1,0 +1,110 @@
+{
+	"schema_version": 1,
+	"version_id": "20261001T085522882Z",
+	"fetched_at_utc": "2026-10-01T08:55:22.8824570Z",
+	"archived_at_utc": "2026-10-09T04:07:06.4577961Z",
+	"origin": "import:origin/LY@aeba1dd8c",
+	"config": {
+		"base_currency": "USD",
+		"updated_at_utc": "2026-10-01T08:55:23.1012680Z",
+		"fx_system_enabled": true,
+		"taker_fee_pct": 0.001,
+		"sync_ttl_minutes": 1440,
+		"quotes": {
+			"USD": {
+				"symbol": "USD",
+				"base_currency": "USD",
+				"bid": 1,
+				"ask": 1,
+				"updated_at_utc": "2026-09-23T01:58:32.0970054Z",
+				"source": "admin_ui",
+				"is_enabled": true,
+				"two_sided": true
+			},
+			"TWD": {
+				"symbol": "TWD",
+				"base_currency": "USD",
+				"bid": 0.0313391874099703,
+				"ask": 0.0313391874099703,
+				"updated_at_utc": "2026-10-01T08:55:18.9292723Z",
+				"source": "manual",
+				"is_enabled": true,
+				"source_url": "https://open.er-api.com/v6/latest/USD",
+				"source_kind": "fx_rates_per_usd",
+				"two_sided": true
+			},
+			"JPY": {
+				"symbol": "JPY",
+				"base_currency": "USD",
+				"bid": 0.00635734851827562,
+				"ask": 0.00635734851827562,
+				"updated_at_utc": "2026-10-01T08:55:19.4405656Z",
+				"source": "manual",
+				"is_enabled": true,
+				"source_url": "https://open.er-api.com/v6/latest/USD",
+				"source_kind": "fx_rates_per_usd",
+				"two_sided": true
+			},
+			"EUR": {
+				"symbol": "EUR",
+				"base_currency": "USD",
+				"bid": 1.13402728242836,
+				"ask": 1.13402728242836,
+				"updated_at_utc": "2026-10-01T08:55:20.2166088Z",
+				"source": "manual",
+				"is_enabled": true,
+				"source_url": "https://open.er-api.com/v6/latest/USD",
+				"source_kind": "fx_rates_per_usd",
+				"two_sided": true
+			},
+			"GBP": {
+				"symbol": "GBP",
+				"base_currency": "USD",
+				"bid": 1.32661535318481,
+				"ask": 1.32661535318481,
+				"updated_at_utc": "2026-10-01T08:55:20.9496641Z",
+				"source": "manual",
+				"is_enabled": true,
+				"source_url": "https://open.er-api.com/v6/latest/USD",
+				"source_kind": "fx_rates_per_usd",
+				"two_sided": true
+			},
+			"CNY": {
+				"symbol": "CNY",
+				"base_currency": "USD",
+				"bid": 0.148878690367757,
+				"ask": 0.148878690367757,
+				"updated_at_utc": "2026-10-01T08:55:21.8263735Z",
+				"source": "manual",
+				"is_enabled": true,
+				"source_url": "https://open.er-api.com/v6/latest/USD",
+				"source_kind": "fx_rates_per_usd",
+				"two_sided": true
+			},
+			"KRW": {
+				"symbol": "KRW",
+				"base_currency": "USD",
+				"bid": 0.000737551235388694,
+				"ask": 0.000737551235388694,
+				"updated_at_utc": "2026-10-01T08:55:22.3526667Z",
+				"source": "manual",
+				"is_enabled": true,
+				"source_url": "https://open.er-api.com/v6/latest/USD",
+				"source_kind": "fx_rates_per_usd",
+				"two_sided": true
+			},
+			"HKD": {
+				"symbol": "HKD",
+				"base_currency": "USD",
+				"bid": 0.127442158146288,
+				"ask": 0.127442158146288,
+				"updated_at_utc": "2026-10-01T08:55:22.8824570Z",
+				"source": "manual",
+				"is_enabled": true,
+				"source_url": "https://open.er-api.com/v6/latest/USD",
+				"source_kind": "fx_rates_per_usd",
+				"two_sided": true
+			}
+		}
+	}
+}
