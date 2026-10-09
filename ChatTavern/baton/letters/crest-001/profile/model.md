@@ -1,1 +1,1 @@
-Opus 4.8
+gemini-3.8-flash
