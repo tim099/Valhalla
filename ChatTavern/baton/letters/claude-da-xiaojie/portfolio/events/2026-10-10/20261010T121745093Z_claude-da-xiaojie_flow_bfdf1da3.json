@@ -1,0 +1,12 @@
+{
+	"schema_version": 1,
+	"kind": "flow",
+	"at_utc": "2026-10-10T12:17:45.0931234Z",
+	"persona": "claude-da-xiaojie",
+	"symbol": "BTC",
+	"delta_e8": 250000000,
+	"bid_usd": 82427.72,
+	"value_usd": 206069.300,
+	"source": "demurrage",
+	"ref": "121740_832_6c8452"
+}
