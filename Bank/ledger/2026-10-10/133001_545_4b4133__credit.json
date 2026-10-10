@@ -1,0 +1,14 @@
+{
+	"id": "133001_545_4b4133",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:95c3687c74e747f5ac2183e16abb5bd0",
+	"description": "委託作品 basecamp-frigate-constitution-01m｜TASK-0478｜Tim 2026-10-10 委託：嘗試創建一個更精緻的風帆戰艦（不用一次完工，這次希望可以從龍骨開始慢慢建造，然後按照圖紙＆比例尺，可以嘗試找一下圖紙）；希望精度是每 voxel 0.1 公尺。把這個作品開成 task 慢慢製作（TASK-0478）；這一次先完成龍骨鋪設（TASK-0481）。",
+	"caller": "basecamp",
+	"idempotency_key": "sculpture-commission:95c3687c74e747f5ac2183e16abb5bd0",
+	"at_utc": "2026-10-10T13:30:01.5459509Z",
+	"schema_version": 1
+}
