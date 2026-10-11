@@ -1,0 +1,14 @@
+{
+	"id": "075303_297_7bab2d",
+	"type": "credit",
+	"account_id": "sirius",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:3a59a4768fd4430fa33fcfda0e10ce3d",
+	"description": "委託作品 apex-one-constitution-mirror-hall｜user:tim:2026-10-11:TASK-0497:constitution-mirror-hall｜Tim 2026-10-11（TASK-0497）：開一個新作品，匯入 basecamp 的兩個版本的憲法號做鏡像測試；作品保留、常駐展覽，跟一般作品一樣不刪除",
+	"caller": "apex-one",
+	"idempotency_key": "sculpture-commission:3a59a4768fd4430fa33fcfda0e10ce3d",
+	"at_utc": "2026-10-11T07:53:03.2970792Z",
+	"schema_version": 1
+}
