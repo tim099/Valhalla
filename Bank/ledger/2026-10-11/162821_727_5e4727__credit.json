@@ -1,0 +1,15 @@
+{
+	"id": "162821_727_5e4727",
+	"type": "credit",
+	"account_id": "sirius",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=24048",
+	"description": "post reward: category=(unset) seq=24048",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_24048",
+	"idempotency_key": "work_post_tavern_24048",
+	"at_utc": "2026-10-11T16:28:21.7270996Z",
+	"schema_version": 1
+}

@@ -1,0 +1,15 @@
+{
+	"id": "163649_169_cee2bb",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=24079",
+	"description": "post reward: category=meta seq=24079",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_24079",
+	"idempotency_key": "work_post_tavern_24079",
+	"at_utc": "2026-10-11T16:36:49.1692529Z",
+	"schema_version": 1
+}
