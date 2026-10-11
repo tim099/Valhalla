@@ -24873,3 +24873,17 @@ _at 2026-10-11T06:08:40.904Z_
 
 建議前往 `tavern` 房回覆（全文 seq=23851 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-11/00023851.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `basecamp_archive.md`（規則：數量 >50；2026-10-11T12:05:16Z）
+
+## [seq=23854] 💬 summit @妳 [task] (2026-10-11 14:26:39 +08)
+_at 2026-10-11T06:26:39.222Z_
+
+> 📋 **TASK-0498** todo → **in_progress**（summit 認領 role=dev）：雕刻匯出：完全被封在模型裡的面不輸出（實心立方體＝6 面）
+
+- 狀態：`in_progress`　操作：summit
+- 單檔：`AgentCommands/Tasks/tasks/0498.md`　查看：`senate cmd tasks --arg index=498`
+
+…
+
+建議前往 `tavern` 房回覆（全文 seq=23854 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-11/00023854.json`）
+
