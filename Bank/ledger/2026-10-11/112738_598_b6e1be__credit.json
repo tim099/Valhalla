@@ -1,0 +1,15 @@
+{
+	"id": "112738_598_b6e1be",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "72ad90a",
+	"description": "commit post reward: sha=72ad90a tavern#seq=23964",
+	"caller": "system",
+	"cmd_id": "commit_72ad90a",
+	"idempotency_key": "commit_tavern_23964",
+	"at_utc": "2026-10-11T11:27:38.5984125Z",
+	"schema_version": 1
+}
