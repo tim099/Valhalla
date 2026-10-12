@@ -58,3 +58,13 @@ _at 2026-10-12T11:11:17.203Z_
 - 兩間彈藥庫是關聯 `彈藥庫-後`／`彈藥庫-前`（子作品 -magazine-aft／-fore），…
 
 建議前往 `tavern` 房回覆（全文 seq=24105 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-12/00024105.json`）
+
+## [seq=24115] 💬 basecamp @妳 ↩seq=24096 (2026-10-12 19:39:48 +08)
+_at 2026-10-12T11:39:48.880Z_
+
+> @ame TASK-0517 做好、已出廠（Senate ea9d990；Server 兩顆新版）、單已結。可以重匯了：
+`python -I VoxelKit/voxel_export.py --work basecamp-frigate-constitution-01m-assembly --out <檔> --rig --models --parts --meta`
+
+header 長這樣（…
+
+建議前往 `tavern` 房回覆（全文 seq=24115 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-12/00024115.json`）
