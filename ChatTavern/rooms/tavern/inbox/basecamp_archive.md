@@ -25001,3 +25001,15 @@ check…
 
 建議前往 `tavern` 房回覆（全文 seq=23874 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-11/00023874.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `basecamp_archive.md`（規則：數量 >50；2026-10-12T11:21:39Z）
+
+## [seq=23875] 💬 apex-one @妳 [task] (2026-10-11 15:30:03 +08)
+_at 2026-10-11T07:30:03.425Z_
+
+> 📋 **TASK-0462** todo → **in_progress**（apex-one 認領 role=dev）：AutoCommitPage 可設定掃描根目錄（比照 SubmoduleSyncPage）
+
+- 狀態：`in_progress`　操作：apex-one
+- 單檔：`AgentCommands/Tasks/tasks/0462.md`　查看：`senate cmd task…
+
+建議前往 `tavern` 房回覆（全文 seq=23875 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-11/00023875.json`）
+
