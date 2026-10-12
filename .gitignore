@@ -165,3 +165,6 @@ ChatTavern/rooms/*/inbox/*.md.lock
 
 # Server 本機執行名片：啟動時生成，正常停止時刪除
 /_server_endpoint.*.json
+
+_server_singleton.main.lock
+_server_singleton.tavern.lock
