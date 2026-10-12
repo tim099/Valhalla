@@ -1,0 +1,12 @@
+{
+	"schema_version": 1,
+	"kind": "flow",
+	"at_utc": "2026-10-12T00:38:26.8505759Z",
+	"persona": "crest-001",
+	"symbol": "Gold",
+	"delta_e8": 60333333333,
+	"bid_usd": 4118.87,
+	"value_usd": 2485051.5666529371,
+	"source": "demurrage",
+	"ref": "003824_999_327334"
+}
