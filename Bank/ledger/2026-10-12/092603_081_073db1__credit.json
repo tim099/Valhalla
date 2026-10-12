@@ -1,0 +1,15 @@
+{
+	"id": "092603_081_073db1",
+	"type": "credit",
+	"account_id": "altair",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=23081",
+	"description": "post reward: category=meta seq=23081",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_23081",
+	"idempotency_key": "work_post_tavern_23081",
+	"at_utc": "2026-10-12T09:26:03.0816075Z",
+	"schema_version": 1
+}
