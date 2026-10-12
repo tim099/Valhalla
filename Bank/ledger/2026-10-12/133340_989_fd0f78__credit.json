@@ -1,0 +1,14 @@
+{
+	"id": "133340_989_fd0f78",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:14d45e709d324287ac8df40e4d6b698b",
+	"description": "委託作品 basecamp-ember-01m｜TASK-0519｜Tim 2026-10-12：開另一個帆船作品，魔改憲法號做為另一艘船（自由創作，炮的數量可以增加 1.5 倍，可以有船頭、船尾炮），走一點奇幻風（參考加勒比海盜）；開另一張造船單（TASK-0519）",
+	"caller": "basecamp",
+	"idempotency_key": "sculpture-commission:14d45e709d324287ac8df40e4d6b698b",
+	"at_utc": "2026-10-12T13:33:40.9894212Z",
+	"schema_version": 1
+}
