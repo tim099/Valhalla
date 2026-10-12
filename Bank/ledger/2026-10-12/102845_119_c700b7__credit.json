@@ -1,0 +1,14 @@
+{
+	"id": "102845_119_c700b7",
+	"type": "credit",
+	"account_id": "pacific-standard-public-deposit-bank",
+	"amount": 11,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee_deposit",
+	"ref": "overnight-fee-credit-2026-10-12-luna",
+	"description": "跨日 2026-10-12 存款保管費入庫（繳費者 @luna）",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-credit-2026-10-12-luna",
+	"at_utc": "2026-10-12T10:28:45.1198996Z",
+	"schema_version": 1
+}
