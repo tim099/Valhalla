@@ -73,3 +73,6 @@
 [submodule "Globe"]
 	path = Globe
 	url = https://github.com/tim099/Globe.git
+[submodule "ChatTavern/baton/letters/ame"]
+	path = ChatTavern/baton/letters/ame
+	url = https://github.com/Persona9999/ame.git
