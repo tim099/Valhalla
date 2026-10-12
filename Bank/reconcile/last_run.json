@@ -1,11 +1,11 @@
 {
-	"at_utc": "2026-10-08T00:56:36.7589528Z",
-	"trigger": "manual:report",
-	"host": "senate",
-	"from": "2026-10-02",
-	"to": "2026-10-08",
-	"ledger_entries_scanned": 1941,
-	"tavern_messages_scanned": 1521,
+	"at_utc": "2026-10-12T00:36:52.1168889Z",
+	"trigger": "daily",
+	"host": "wake-brief",
+	"from": "2026-10-06",
+	"to": "2026-10-12",
+	"ledger_entries_scanned": 1382,
+	"tavern_messages_scanned": 1071,
 	"missing": 0,
 	"applied": 0,
 	"apply_failed": 0,
@@ -14,24 +14,24 @@
 	"coverage": {
 		"work_post": {
 			"coverage": "covered",
-			"expected": 1489,
-			"matched": 1488,
-			"settled": 1,
+			"expected": 1056,
+			"matched": 1056,
+			"settled": 0,
 			"missing": 0,
 			"unmeasurable": 1
 		},
 		"commit": {
 			"coverage": "covered",
-			"expected": 362,
-			"matched": 362,
+			"expected": 252,
+			"matched": 252,
 			"settled": 0,
 			"missing": 0,
 			"unmeasurable": 0
 		},
 		"reading_note": {
 			"coverage": "covered",
-			"expected": 29,
-			"matched": 29,
+			"expected": 31,
+			"matched": 31,
 			"settled": 0,
 			"missing": 0,
 			"unmeasurable": 0
@@ -54,8 +54,8 @@
 		},
 		"payout_request": {
 			"coverage": "covered",
-			"expected": 1,
-			"matched": 1,
+			"expected": 0,
+			"matched": 0,
 			"settled": 0,
 			"missing": 0,
 			"unmeasurable": 0
@@ -109,5 +109,7 @@
 			"unmeasurable": 0
 		}
 	},
-	"unclassified_kinds": {}
+	"unclassified_kinds": {
+		"sculpture_commission": 7
+	}
 }

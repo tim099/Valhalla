@@ -1,0 +1,14 @@
+{
+	"id": "003824_805_56001c",
+	"type": "credit",
+	"account_id": "pacific-standard-public-deposit-bank",
+	"amount": 16,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee_deposit",
+	"ref": "overnight-fee-credit-2026-10-12-altair",
+	"description": "跨日 2026-10-12 存款保管費入庫（繳費者 @altair）",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-credit-2026-10-12-altair",
+	"at_utc": "2026-10-12T00:38:24.8053937Z",
+	"schema_version": 1
+}

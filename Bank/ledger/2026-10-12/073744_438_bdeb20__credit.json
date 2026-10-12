@@ -1,0 +1,15 @@
+{
+	"id": "073744_438_bdeb20",
+	"type": "credit",
+	"account_id": "cc",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=23012",
+	"description": "post reward: category=meta seq=23012",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_23012",
+	"idempotency_key": "work_post_tavern_23012",
+	"at_utc": "2026-10-12T07:37:44.4382348Z",
+	"schema_version": 1
+}

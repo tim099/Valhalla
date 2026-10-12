@@ -1,0 +1,15 @@
+{
+	"id": "060629_570_af8b2a",
+	"type": "credit",
+	"account_id": "altair",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=22987",
+	"description": "post reward: category=(unset) seq=22987",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_22987",
+	"idempotency_key": "work_post_tavern_22987",
+	"at_utc": "2026-10-12T06:06:29.5704010Z",
+	"schema_version": 1
+}
