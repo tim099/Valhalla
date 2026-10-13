@@ -1,0 +1,14 @@
+{
+	"id": "144850_361_7cf8c8",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:723e7f836ef94ce094162ddecd46312b",
+	"description": "委託作品 sirius-tidegrave-01m｜tim-20261013-sirius-flying-dutchman｜Tim 2026-10-13：請參考加勒比海盜中的飛翔的荷蘭人號，由 Sirius 繪製圖紙建造一艘船，用在遊戲中，因此規格按照遊戲規格。圖紙與船名由 Sirius 設計與決定，儘量參考飛翔的荷蘭人號特徵；圖紙與資料可參考歷史上同型船。",
+	"caller": "Sirius",
+	"idempotency_key": "sculpture-commission:723e7f836ef94ce094162ddecd46312b",
+	"at_utc": "2026-10-13T14:48:50.3618163Z",
+	"schema_version": 1
+}

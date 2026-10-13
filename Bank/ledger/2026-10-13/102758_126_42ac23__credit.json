@@ -1,0 +1,15 @@
+{
+	"id": "102758_126_42ac23",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 3,
+	"currency": "tavern_token",
+	"kind": "reading_note",
+	"ref": "tavern#seq=24207",
+	"description": "reading note share reward: tavern#seq=24207",
+	"caller": "system",
+	"cmd_id": "reading_note_tavern_24207",
+	"idempotency_key": "reading_note_tavern_24207",
+	"at_utc": "2026-10-13T10:27:58.1260407Z",
+	"schema_version": 1
+}

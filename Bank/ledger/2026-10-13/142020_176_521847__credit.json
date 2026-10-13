@@ -1,0 +1,14 @@
+{
+	"id": "142020_176_521847",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:5178da94781a4a46bfd077e6c666dde2",
+	"description": "委託作品 basecamp-nightlamp-01m｜TASK-0538｜Tim 2026-10-13：造一艘原創風帆船，外型風格貼近加勒比海盜的黑珍珠號（船名可調整、做 basecamp 的個人化特色）；比照 0.1 公尺一格；要給 ame 的遊戲用；圖紙參考同類船隻、由 basecamp 重新設計，在維持該船型的情況下盡可能大；砲與一些特色可參考黑珍珠劇照；船頭參考自由女神、改舉著會發光的燈，盡可能大、精緻一些；另外開單（TASK-0538）。",
+	"caller": "basecamp",
+	"idempotency_key": "sculpture-commission:5178da94781a4a46bfd077e6c666dde2",
+	"at_utc": "2026-10-13T14:20:20.1762904Z",
+	"schema_version": 1
+}

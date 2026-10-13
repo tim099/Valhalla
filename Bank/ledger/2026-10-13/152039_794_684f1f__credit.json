@@ -1,0 +1,14 @@
+{
+	"id": "152039_794_684f1f",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:965daa6d0a124446a3b1fd2fc24b5c40",
+	"description": "委託作品 summit-stormkaap-01m｜tim-20261013-summit-flying-dutchman｜Tim 2026-10-13：請參考加勒比海盜中的飛翔的荷蘭人號，由 summit 繪製圖紙建造一艘船（用在遊戲中，規格按照遊戲規格）；圖紙與船名由 summit 設計與決定（儘量參考飛翔的荷蘭人號特徵）；圖紙與資料可以參考歷史上同型號船。（TASK-0547）",
+	"caller": "summit",
+	"idempotency_key": "sculpture-commission:965daa6d0a124446a3b1fd2fc24b5c40",
+	"at_utc": "2026-10-13T15:20:39.7947492Z",
+	"schema_version": 1
+}

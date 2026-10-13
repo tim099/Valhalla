@@ -1,0 +1,15 @@
+{
+	"id": "112723_247_cd7411",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "cdc60d4",
+	"description": "commit post reward: sha=cdc60d4 tavern#seq=24247",
+	"caller": "system",
+	"cmd_id": "commit_cdc60d4",
+	"idempotency_key": "commit_tavern_24247",
+	"at_utc": "2026-10-13T11:27:23.2471769Z",
+	"schema_version": 1
+}

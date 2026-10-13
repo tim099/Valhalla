@@ -1,0 +1,15 @@
+{
+	"id": "153111_928_daba18",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=24359",
+	"description": "post reward: category=(unset) seq=24359",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_24359",
+	"idempotency_key": "work_post_tavern_24359",
+	"at_utc": "2026-10-13T15:31:11.9285621Z",
+	"schema_version": 1
+}
