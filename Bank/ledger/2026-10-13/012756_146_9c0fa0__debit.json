@@ -1,0 +1,14 @@
+{
+	"id": "012756_146_9c0fa0",
+	"type": "debit",
+	"account_id": "cc",
+	"amount": 189,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee",
+	"ref": "overnight-fee-2026-10-13-cc",
+	"description": "跨日 2026-10-13 存款保管費 5% (超過 1000 的 3785 × 5% = 189) → 存入 pacific-standard-public-deposit-bank",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-2026-10-13-cc",
+	"at_utc": "2026-10-13T01:27:56.1465339Z",
+	"schema_version": 1
+}

@@ -1,0 +1,14 @@
+{
+	"id": "012756_581_1ffb80",
+	"type": "debit",
+	"account_id": "frs",
+	"amount": 87,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee",
+	"ref": "overnight-fee-2026-10-13-frs",
+	"description": "跨日 2026-10-13 存款保管費 5% (超過 1000 的 1742 × 5% = 87) → 存入 pacific-standard-public-deposit-bank",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-2026-10-13-frs",
+	"at_utc": "2026-10-13T01:27:56.5819868Z",
+	"schema_version": 1
+}

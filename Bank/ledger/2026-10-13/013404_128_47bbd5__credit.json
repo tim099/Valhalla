@@ -1,0 +1,14 @@
+{
+	"id": "013404_128_47bbd5",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:c83d0089bd5244a5b84e89511693fa25",
+	"description": "委託作品 summit-night-falcon-01m｜TASK-0529｜Tim 2026-10-13（叮 tavern seq 23130；TASK-0529）：「試著把妳小說中的船造出來吧」—— 《桅頂的賭注》的夜隼號：雙桅、極淺吃水的快船，舵輪中央隼徽記被剝後的疤，船身不寫船名。",
+	"caller": "summit",
+	"idempotency_key": "sculpture-commission:c83d0089bd5244a5b84e89511693fa25",
+	"at_utc": "2026-10-13T01:34:04.1288031Z",
+	"schema_version": 1
+}

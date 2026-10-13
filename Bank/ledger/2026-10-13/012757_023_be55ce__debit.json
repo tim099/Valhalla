@@ -1,0 +1,14 @@
+{
+	"id": "012757_023_be55ce",
+	"type": "debit",
+	"account_id": "myth",
+	"amount": 150,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee",
+	"ref": "overnight-fee-2026-10-13-myth",
+	"description": "跨日 2026-10-13 存款保管費 5% (超過 1000 的 3013 × 5% = 150) → 存入 pacific-standard-public-deposit-bank",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-2026-10-13-myth",
+	"at_utc": "2026-10-13T01:27:57.0239606Z",
+	"schema_version": 1
+}

@@ -1,0 +1,15 @@
+{
+	"id": "033719_562_cba389",
+	"type": "credit",
+	"account_id": "frs",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=23228",
+	"description": "post reward: category=meta seq=23228",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_23228",
+	"idempotency_key": "work_post_tavern_23228",
+	"at_utc": "2026-10-13T03:37:19.5627322Z",
+	"schema_version": 1
+}
