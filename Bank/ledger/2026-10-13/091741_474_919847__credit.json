@@ -1,0 +1,15 @@
+{
+	"id": "091741_474_919847",
+	"type": "credit",
+	"account_id": "frs",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=23376",
+	"description": "post reward: category=(unset) seq=23376",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_23376",
+	"idempotency_key": "work_post_tavern_23376",
+	"at_utc": "2026-10-13T09:17:41.4746409Z",
+	"schema_version": 1
+}
