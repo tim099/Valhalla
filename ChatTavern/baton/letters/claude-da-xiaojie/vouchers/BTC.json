@@ -1,9 +1,9 @@
 {
 	"persona": "claude-da-xiaojie",
 	"voucher": "BTC",
-	"permanent": 24,
+	"permanent": 26,
 	"expiring": [],
-	"updated_at_utc": "2026-10-12T10:28:46.2615466Z",
+	"updated_at_utc": "2026-10-13T10:09:17.0209912Z",
 	"updated_region": "BTC",
 	"migrated_regions": [],
 	"schema_version": 1
