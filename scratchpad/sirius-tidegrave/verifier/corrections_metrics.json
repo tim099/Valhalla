@@ -1,0 +1,323 @@
+{
+  "scope": "hull + six decks + ladders; later rig excluded",
+  "hull_cells": 661528,
+  "carve_history": [
+    {
+      "event": "230133_765_4d916b.json",
+      "removed": 169618,
+      "retained_color_changes": 0
+    },
+    {
+      "event": "231407_639_50eb5b.json",
+      "removed": 6480,
+      "retained_color_changes": 0
+    }
+  ],
+  "gun_rays": [
+    {
+      "x": 175,
+      "z": 77,
+      "blocked_y": []
+    },
+    {
+      "x": 175,
+      "z": 102,
+      "blocked_y": []
+    },
+    {
+      "x": 207,
+      "z": 77,
+      "blocked_y": []
+    },
+    {
+      "x": 207,
+      "z": 102,
+      "blocked_y": []
+    },
+    {
+      "x": 239,
+      "z": 77,
+      "blocked_y": []
+    },
+    {
+      "x": 239,
+      "z": 102,
+      "blocked_y": []
+    },
+    {
+      "x": 271,
+      "z": 77,
+      "blocked_y": []
+    },
+    {
+      "x": 271,
+      "z": 102,
+      "blocked_y": []
+    },
+    {
+      "x": 303,
+      "z": 77,
+      "blocked_y": []
+    },
+    {
+      "x": 303,
+      "z": 102,
+      "blocked_y": []
+    },
+    {
+      "x": 335,
+      "z": 77,
+      "blocked_y": []
+    },
+    {
+      "x": 335,
+      "z": 102,
+      "blocked_y": []
+    },
+    {
+      "x": 367,
+      "z": 77,
+      "blocked_y": []
+    },
+    {
+      "x": 367,
+      "z": 102,
+      "blocked_y": []
+    },
+    {
+      "x": 399,
+      "z": 77,
+      "blocked_y": []
+    },
+    {
+      "x": 399,
+      "z": 102,
+      "blocked_y": []
+    },
+    {
+      "x": 431,
+      "z": 77,
+      "blocked_y": []
+    },
+    {
+      "x": 431,
+      "z": 102,
+      "blocked_y": []
+    },
+    {
+      "x": 463,
+      "z": 77,
+      "blocked_y": []
+    },
+    {
+      "x": 463,
+      "z": 102,
+      "blocked_y": []
+    },
+    {
+      "x": 495,
+      "z": 77,
+      "blocked_y": []
+    },
+    {
+      "x": 495,
+      "z": 102,
+      "blocked_y": []
+    },
+    {
+      "x": 527,
+      "z": 77,
+      "blocked_y": []
+    },
+    {
+      "x": 527,
+      "z": 102,
+      "blocked_y": []
+    }
+  ],
+  "ladder_cells": 16023,
+  "stairs": [
+    {
+      "name": "lower-upper-a",
+      "gap_x": [],
+      "anchors": {
+        "foot": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        },
+        "lo": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        },
+        "hi": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        },
+        "head": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        }
+      }
+    },
+    {
+      "name": "lower-upper-b",
+      "gap_x": [],
+      "anchors": {
+        "foot": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        },
+        "lo": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        },
+        "hi": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        },
+        "head": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        }
+      }
+    },
+    {
+      "name": "upper-weather-a",
+      "gap_x": [],
+      "anchors": {
+        "foot": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        },
+        "lo": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        },
+        "hi": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        },
+        "head": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        }
+      }
+    },
+    {
+      "name": "upper-weather-b",
+      "gap_x": [],
+      "anchors": {
+        "foot": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        },
+        "lo": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        },
+        "hi": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        },
+        "head": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        }
+      }
+    },
+    {
+      "name": "weather-quarter",
+      "gap_x": [],
+      "anchors": {
+        "foot": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        },
+        "lo": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        },
+        "hi": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        },
+        "head": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        }
+      }
+    },
+    {
+      "name": "quarter-poop",
+      "gap_x": [],
+      "anchors": {
+        "foot": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        },
+        "lo": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        },
+        "hi": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        },
+        "head": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        }
+      }
+    },
+    {
+      "name": "weather-forecastle",
+      "gap_x": [],
+      "anchors": {
+        "foot": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        },
+        "lo": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        },
+        "hi": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        },
+        "head": {
+          "air": true,
+          "support": true,
+          "vertical20_clear": true
+        }
+      }
+    }
+  ]
+}

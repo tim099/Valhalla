@@ -1,0 +1,1292 @@
+newmtl c36
+Kd 0.1412 0.1412 0.0000
+newmtl c73
+Kd 0.2824 0.2824 0.3333
+newmtl c77
+Kd 0.2824 0.4275 0.3333
+newmtl c109
+Kd 0.4275 0.4275 0.3333
+newmtl c136
+Kd 0.5686 0.2824 0.0000
+newmtl c145
+Kd 0.5686 0.5686 0.3333
+newmtl c168
+Kd 0.7137 0.2824 0.0000
+newmtl c218
+Kd 0.8549 0.8549 0.6667
+newmtl rope_0
+Kd 0.2353 0.2706 0.2275
+newmtl rope_1
+Kd 0.2353 0.2706 0.2275
+newmtl rope_2
+Kd 0.2353 0.2706 0.2275
+newmtl rope_3
+Kd 0.2353 0.2706 0.2275
+newmtl rope_4
+Kd 0.2353 0.2706 0.2275
+newmtl rope_5
+Kd 0.2353 0.2706 0.2275
+newmtl rope_6
+Kd 0.2353 0.2706 0.2275
+newmtl rope_7
+Kd 0.2353 0.2706 0.2275
+newmtl rope_8
+Kd 0.2353 0.2706 0.2275
+newmtl rope_9
+Kd 0.2353 0.2706 0.2275
+newmtl rope_10
+Kd 0.2353 0.2706 0.2275
+newmtl rope_11
+Kd 0.2353 0.2706 0.2275
+newmtl rope_12
+Kd 0.2353 0.2706 0.2275
+newmtl rope_13
+Kd 0.2353 0.2706 0.2275
+newmtl rope_14
+Kd 0.2353 0.2706 0.2275
+newmtl rope_15
+Kd 0.2353 0.2706 0.2275
+newmtl rope_16
+Kd 0.2353 0.2706 0.2275
+newmtl rope_17
+Kd 0.2353 0.2706 0.2275
+newmtl rope_18
+Kd 0.2353 0.2706 0.2275
+newmtl rope_19
+Kd 0.2353 0.2706 0.2275
+newmtl rope_20
+Kd 0.2353 0.2706 0.2275
+newmtl rope_21
+Kd 0.2353 0.2706 0.2275
+newmtl rope_22
+Kd 0.2353 0.2706 0.2275
+newmtl rope_23
+Kd 0.2353 0.2706 0.2275
+newmtl rope_24
+Kd 0.2353 0.2706 0.2275
+newmtl rope_25
+Kd 0.2353 0.2706 0.2275
+newmtl rope_26
+Kd 0.2353 0.2706 0.2275
+newmtl rope_27
+Kd 0.2353 0.2706 0.2275
+newmtl rope_28
+Kd 0.2353 0.2706 0.2275
+newmtl rope_29
+Kd 0.2353 0.2706 0.2275
+newmtl rope_30
+Kd 0.2353 0.2706 0.2275
+newmtl rope_31
+Kd 0.2353 0.2706 0.2275
+newmtl rope_32
+Kd 0.2353 0.2706 0.2275
+newmtl rope_33
+Kd 0.2353 0.2706 0.2275
+newmtl rope_34
+Kd 0.2353 0.2706 0.2275
+newmtl rope_35
+Kd 0.2353 0.2706 0.2275
+newmtl rope_36
+Kd 0.2353 0.2706 0.2275
+newmtl rope_37
+Kd 0.2353 0.2706 0.2275
+newmtl rope_38
+Kd 0.2353 0.2706 0.2275
+newmtl rope_39
+Kd 0.2353 0.2706 0.2275
+newmtl rope_40
+Kd 0.2353 0.2706 0.2275
+newmtl rope_41
+Kd 0.2353 0.2706 0.2275
+newmtl rope_42
+Kd 0.2353 0.2706 0.2275
+newmtl rope_43
+Kd 0.2353 0.2706 0.2275
+newmtl rope_44
+Kd 0.2353 0.2706 0.2275
+newmtl rope_45
+Kd 0.2353 0.2706 0.2275
+newmtl rope_46
+Kd 0.2353 0.2706 0.2275
+newmtl rope_47
+Kd 0.2353 0.2706 0.2275
+newmtl rope_48
+Kd 0.2353 0.2706 0.2275
+newmtl rope_49
+Kd 0.2353 0.2706 0.2275
+newmtl rope_50
+Kd 0.2353 0.2706 0.2275
+newmtl rope_51
+Kd 0.2353 0.2706 0.2275
+newmtl rope_52
+Kd 0.2353 0.2706 0.2275
+newmtl rope_53
+Kd 0.2353 0.2706 0.2275
+newmtl rope_54
+Kd 0.2353 0.2706 0.2275
+newmtl rope_55
+Kd 0.2353 0.2706 0.2275
+newmtl rope_56
+Kd 0.2353 0.2706 0.2275
+newmtl rope_57
+Kd 0.2353 0.2706 0.2275
+newmtl rope_58
+Kd 0.2353 0.2706 0.2275
+newmtl rope_59
+Kd 0.2353 0.2706 0.2275
+newmtl rope_60
+Kd 0.2353 0.2706 0.2275
+newmtl rope_61
+Kd 0.2353 0.2706 0.2275
+newmtl rope_62
+Kd 0.2353 0.2706 0.2275
+newmtl rope_63
+Kd 0.2353 0.2706 0.2275
+newmtl rope_64
+Kd 0.2353 0.2706 0.2275
+newmtl rope_65
+Kd 0.2353 0.2706 0.2275
+newmtl rope_66
+Kd 0.2353 0.2706 0.2275
+newmtl rope_67
+Kd 0.2353 0.2706 0.2275
+newmtl rope_68
+Kd 0.2353 0.2706 0.2275
+newmtl rope_69
+Kd 0.2353 0.2706 0.2275
+newmtl rope_70
+Kd 0.2353 0.2706 0.2275
+newmtl rope_71
+Kd 0.2353 0.2706 0.2275
+newmtl rope_72
+Kd 0.2353 0.2706 0.2275
+newmtl rope_73
+Kd 0.2353 0.2706 0.2275
+newmtl rope_74
+Kd 0.2353 0.2706 0.2275
+newmtl rope_75
+Kd 0.2353 0.2706 0.2275
+newmtl rope_76
+Kd 0.2353 0.2706 0.2275
+newmtl rope_77
+Kd 0.2353 0.2706 0.2275
+newmtl rope_78
+Kd 0.2353 0.2706 0.2275
+newmtl rope_79
+Kd 0.2353 0.2706 0.2275
+newmtl rope_80
+Kd 0.2353 0.2706 0.2275
+newmtl rope_81
+Kd 0.2353 0.2706 0.2275
+newmtl rope_82
+Kd 0.2353 0.2706 0.2275
+newmtl rope_83
+Kd 0.2353 0.2706 0.2275
+newmtl rope_84
+Kd 0.2353 0.2706 0.2275
+newmtl rope_85
+Kd 0.2353 0.2706 0.2275
+newmtl rope_86
+Kd 0.2353 0.2706 0.2275
+newmtl rope_87
+Kd 0.2353 0.2706 0.2275
+newmtl rope_88
+Kd 0.2353 0.2706 0.2275
+newmtl rope_89
+Kd 0.2353 0.2706 0.2275
+newmtl rope_90
+Kd 0.2353 0.2706 0.2275
+newmtl rope_91
+Kd 0.2353 0.2706 0.2275
+newmtl rope_92
+Kd 0.2353 0.2706 0.2275
+newmtl rope_93
+Kd 0.2353 0.2706 0.2275
+newmtl rope_94
+Kd 0.2353 0.2706 0.2275
+newmtl rope_95
+Kd 0.2353 0.2706 0.2275
+newmtl rope_96
+Kd 0.2353 0.2706 0.2275
+newmtl rope_97
+Kd 0.2353 0.2706 0.2275
+newmtl rope_98
+Kd 0.2353 0.2706 0.2275
+newmtl rope_99
+Kd 0.2353 0.2706 0.2275
+newmtl rope_100
+Kd 0.2353 0.2706 0.2275
+newmtl rope_101
+Kd 0.2353 0.2706 0.2275
+newmtl rope_102
+Kd 0.2353 0.2706 0.2275
+newmtl rope_103
+Kd 0.2353 0.2706 0.2275
+newmtl rope_104
+Kd 0.2353 0.2706 0.2275
+newmtl rope_105
+Kd 0.2353 0.2706 0.2275
+newmtl rope_106
+Kd 0.2353 0.2706 0.2275
+newmtl rope_107
+Kd 0.2353 0.2706 0.2275
+newmtl rope_108
+Kd 0.2353 0.2706 0.2275
+newmtl rope_109
+Kd 0.2353 0.2706 0.2275
+newmtl rope_110
+Kd 0.2353 0.2706 0.2275
+newmtl rope_111
+Kd 0.2353 0.2706 0.2275
+newmtl rope_112
+Kd 0.2353 0.2706 0.2275
+newmtl rope_113
+Kd 0.2353 0.2706 0.2275
+newmtl rope_114
+Kd 0.2353 0.2706 0.2275
+newmtl rope_115
+Kd 0.2353 0.2706 0.2275
+newmtl rope_116
+Kd 0.2353 0.2706 0.2275
+newmtl rope_117
+Kd 0.2353 0.2706 0.2275
+newmtl rope_118
+Kd 0.2353 0.2706 0.2275
+newmtl rope_119
+Kd 0.2353 0.2706 0.2275
+newmtl rope_120
+Kd 0.2353 0.2706 0.2275
+newmtl rope_121
+Kd 0.2353 0.2706 0.2275
+newmtl rope_122
+Kd 0.2353 0.2706 0.2275
+newmtl rope_123
+Kd 0.2353 0.2706 0.2275
+newmtl rope_124
+Kd 0.2353 0.2706 0.2275
+newmtl rope_125
+Kd 0.2353 0.2706 0.2275
+newmtl rope_126
+Kd 0.2353 0.2706 0.2275
+newmtl rope_127
+Kd 0.2353 0.2706 0.2275
+newmtl rope_128
+Kd 0.2353 0.2706 0.2275
+newmtl rope_129
+Kd 0.2353 0.2706 0.2275
+newmtl rope_130
+Kd 0.2353 0.2706 0.2275
+newmtl rope_131
+Kd 0.2353 0.2706 0.2275
+newmtl rope_132
+Kd 0.2353 0.2706 0.2275
+newmtl rope_133
+Kd 0.2353 0.2706 0.2275
+newmtl rope_134
+Kd 0.2353 0.2706 0.2275
+newmtl rope_135
+Kd 0.2353 0.2706 0.2275
+newmtl rope_136
+Kd 0.2353 0.2706 0.2275
+newmtl rope_137
+Kd 0.2353 0.2706 0.2275
+newmtl rope_138
+Kd 0.2353 0.2706 0.2275
+newmtl rope_139
+Kd 0.2353 0.2706 0.2275
+newmtl rope_140
+Kd 0.2353 0.2706 0.2275
+newmtl rope_141
+Kd 0.2353 0.2706 0.2275
+newmtl rope_142
+Kd 0.2353 0.2706 0.2275
+newmtl rope_143
+Kd 0.2353 0.2706 0.2275
+newmtl rope_144
+Kd 0.2353 0.2706 0.2275
+newmtl rope_145
+Kd 0.2353 0.2706 0.2275
+newmtl rope_146
+Kd 0.2353 0.2706 0.2275
+newmtl rope_147
+Kd 0.2353 0.2706 0.2275
+newmtl rope_148
+Kd 0.2353 0.2706 0.2275
+newmtl rope_149
+Kd 0.2353 0.2706 0.2275
+newmtl rope_150
+Kd 0.2353 0.2706 0.2275
+newmtl rope_151
+Kd 0.2353 0.2706 0.2275
+newmtl rope_152
+Kd 0.2353 0.2706 0.2275
+newmtl rope_153
+Kd 0.6235 0.5882 0.4510
+newmtl rope_154
+Kd 0.6235 0.5882 0.4510
+newmtl rope_155
+Kd 0.2353 0.2706 0.2275
+newmtl rope_156
+Kd 0.2353 0.2706 0.2275
+newmtl rope_157
+Kd 0.2353 0.2706 0.2275
+newmtl rope_158
+Kd 0.2353 0.2706 0.2275
+newmtl rope_159
+Kd 0.6235 0.5882 0.4510
+newmtl rope_160
+Kd 0.6235 0.5882 0.4510
+newmtl rope_161
+Kd 0.2353 0.2706 0.2275
+newmtl rope_162
+Kd 0.2353 0.2706 0.2275
+newmtl rope_163
+Kd 0.2353 0.2706 0.2275
+newmtl rope_164
+Kd 0.2353 0.2706 0.2275
+newmtl rope_165
+Kd 0.6235 0.5882 0.4510
+newmtl rope_166
+Kd 0.6235 0.5882 0.4510
+newmtl rope_167
+Kd 0.2353 0.2706 0.2275
+newmtl rope_168
+Kd 0.2353 0.2706 0.2275
+newmtl rope_169
+Kd 0.2353 0.2706 0.2275
+newmtl rope_170
+Kd 0.2353 0.2706 0.2275
+newmtl rope_171
+Kd 0.6235 0.5882 0.4510
+newmtl rope_172
+Kd 0.6235 0.5882 0.4510
+newmtl rope_173
+Kd 0.2353 0.2706 0.2275
+newmtl rope_174
+Kd 0.2353 0.2706 0.2275
+newmtl rope_175
+Kd 0.2353 0.2706 0.2275
+newmtl rope_176
+Kd 0.2353 0.2706 0.2275
+newmtl rope_177
+Kd 0.6235 0.5882 0.4510
+newmtl rope_178
+Kd 0.6235 0.5882 0.4510
+newmtl rope_179
+Kd 0.2353 0.2706 0.2275
+newmtl rope_180
+Kd 0.2353 0.2706 0.2275
+newmtl rope_181
+Kd 0.2353 0.2706 0.2275
+newmtl rope_182
+Kd 0.2353 0.2706 0.2275
+newmtl rope_183
+Kd 0.6235 0.5882 0.4510
+newmtl rope_184
+Kd 0.6235 0.5882 0.4510
+newmtl rope_185
+Kd 0.2353 0.2706 0.2275
+newmtl rope_186
+Kd 0.2353 0.2706 0.2275
+newmtl rope_187
+Kd 0.2353 0.2706 0.2275
+newmtl rope_188
+Kd 0.2353 0.2706 0.2275
+newmtl rope_189
+Kd 0.6235 0.5882 0.4510
+newmtl rope_190
+Kd 0.6235 0.5882 0.4510
+newmtl rope_191
+Kd 0.2353 0.2706 0.2275
+newmtl rope_192
+Kd 0.2353 0.2706 0.2275
+newmtl rope_193
+Kd 0.2353 0.2706 0.2275
+newmtl rope_194
+Kd 0.2353 0.2706 0.2275
+newmtl rope_195
+Kd 0.6235 0.5882 0.4510
+newmtl rope_196
+Kd 0.6235 0.5882 0.4510
+newmtl rope_197
+Kd 0.2353 0.2706 0.2275
+newmtl rope_198
+Kd 0.2353 0.2706 0.2275
+newmtl rope_199
+Kd 0.2353 0.2706 0.2275
+newmtl rope_200
+Kd 0.2353 0.2706 0.2275
+newmtl rope_201
+Kd 0.2353 0.2706 0.2275
+newmtl rope_202
+Kd 0.2353 0.2706 0.2275
+newmtl rope_203
+Kd 0.6627 0.6196 0.4745
+newmtl rope_204
+Kd 0.6627 0.6196 0.4745
+newmtl rope_205
+Kd 0.6627 0.6196 0.4745
+newmtl rope_206
+Kd 0.6627 0.6196 0.4745
+newmtl rope_207
+Kd 0.6627 0.6196 0.4745
+newmtl rope_208
+Kd 0.6627 0.6196 0.4745
+newmtl rope_209
+Kd 0.6627 0.6196 0.4745
+newmtl rope_210
+Kd 0.6627 0.6196 0.4745
+newmtl rope_211
+Kd 0.6627 0.6196 0.4745
+newmtl rope_212
+Kd 0.6627 0.6196 0.4745
+newmtl rope_213
+Kd 0.6627 0.6196 0.4745
+newmtl rope_214
+Kd 0.6627 0.6196 0.4745
+newmtl rope_215
+Kd 0.6627 0.6196 0.4745
+newmtl rope_216
+Kd 0.6627 0.6196 0.4745
+newmtl rope_217
+Kd 0.6627 0.6196 0.4745
+newmtl rope_218
+Kd 0.6627 0.6196 0.4745
+newmtl rope_219
+Kd 0.6627 0.6196 0.4745
+newmtl rope_220
+Kd 0.6627 0.6196 0.4745
+newmtl rope_221
+Kd 0.6627 0.6196 0.4745
+newmtl rope_222
+Kd 0.6627 0.6196 0.4745
+newmtl rope_223
+Kd 0.6627 0.6196 0.4745
+newmtl rope_224
+Kd 0.6627 0.6196 0.4745
+newmtl rope_225
+Kd 0.6627 0.6196 0.4745
+newmtl rope_226
+Kd 0.6627 0.6196 0.4745
+newmtl rope_227
+Kd 0.6627 0.6196 0.4745
+newmtl rope_228
+Kd 0.6627 0.6196 0.4745
+newmtl rope_229
+Kd 0.6627 0.6196 0.4745
+newmtl rope_230
+Kd 0.6627 0.6196 0.4745
+newmtl rope_231
+Kd 0.6627 0.6196 0.4745
+newmtl rope_232
+Kd 0.6627 0.6196 0.4745
+newmtl rope_233
+Kd 0.6627 0.6196 0.4745
+newmtl rope_234
+Kd 0.6627 0.6196 0.4745
+newmtl rope_235
+Kd 0.6627 0.6196 0.4745
+newmtl rope_236
+Kd 0.6627 0.6196 0.4745
+newmtl rope_237
+Kd 0.6627 0.6196 0.4745
+newmtl rope_238
+Kd 0.6627 0.6196 0.4745
+newmtl rope_239
+Kd 0.6627 0.6196 0.4745
+newmtl rope_240
+Kd 0.6627 0.6196 0.4745
+newmtl rope_241
+Kd 0.6627 0.6196 0.4745
+newmtl rope_242
+Kd 0.6627 0.6196 0.4745
+newmtl rope_243
+Kd 0.6627 0.6196 0.4745
+newmtl rope_244
+Kd 0.6627 0.6196 0.4745
+newmtl rope_245
+Kd 0.6627 0.6196 0.4745
+newmtl rope_246
+Kd 0.6627 0.6196 0.4745
+newmtl rope_247
+Kd 0.6627 0.6196 0.4745
+newmtl rope_248
+Kd 0.6627 0.6196 0.4745
+newmtl rope_249
+Kd 0.6627 0.6196 0.4745
+newmtl rope_250
+Kd 0.6627 0.6196 0.4745
+newmtl rope_251
+Kd 0.6627 0.6196 0.4745
+newmtl rope_252
+Kd 0.6627 0.6196 0.4745
+newmtl rope_253
+Kd 0.6627 0.6196 0.4745
+newmtl rope_254
+Kd 0.6627 0.6196 0.4745
+newmtl rope_255
+Kd 0.6627 0.6196 0.4745
+newmtl rope_256
+Kd 0.6627 0.6196 0.4745
+newmtl rope_257
+Kd 0.6627 0.6196 0.4745
+newmtl rope_258
+Kd 0.6627 0.6196 0.4745
+newmtl rope_259
+Kd 0.6627 0.6196 0.4745
+newmtl rope_260
+Kd 0.6627 0.6196 0.4745
+newmtl rope_261
+Kd 0.6627 0.6196 0.4745
+newmtl rope_262
+Kd 0.6627 0.6196 0.4745
+newmtl rope_263
+Kd 0.6627 0.6196 0.4745
+newmtl rope_264
+Kd 0.6627 0.6196 0.4745
+newmtl rope_265
+Kd 0.6627 0.6196 0.4745
+newmtl rope_266
+Kd 0.6627 0.6196 0.4745
+newmtl rope_267
+Kd 0.6627 0.6196 0.4745
+newmtl rope_268
+Kd 0.6627 0.6196 0.4745
+newmtl rope_269
+Kd 0.6627 0.6196 0.4745
+newmtl rope_270
+Kd 0.6627 0.6196 0.4745
+newmtl rope_271
+Kd 0.6627 0.6196 0.4745
+newmtl rope_272
+Kd 0.6627 0.6196 0.4745
+newmtl rope_273
+Kd 0.6627 0.6196 0.4745
+newmtl rope_274
+Kd 0.6627 0.6196 0.4745
+newmtl rope_275
+Kd 0.6627 0.6196 0.4745
+newmtl rope_276
+Kd 0.6627 0.6196 0.4745
+newmtl rope_277
+Kd 0.6627 0.6196 0.4745
+newmtl rope_278
+Kd 0.6627 0.6196 0.4745
+newmtl rope_279
+Kd 0.6627 0.6196 0.4745
+newmtl rope_280
+Kd 0.6627 0.6196 0.4745
+newmtl rope_281
+Kd 0.6627 0.6196 0.4745
+newmtl rope_282
+Kd 0.6627 0.6196 0.4745
+newmtl rope_283
+Kd 0.6627 0.6196 0.4745
+newmtl rope_284
+Kd 0.6627 0.6196 0.4745
+newmtl rope_285
+Kd 0.6627 0.6196 0.4745
+newmtl rope_286
+Kd 0.6627 0.6196 0.4745
+newmtl rope_287
+Kd 0.6627 0.6196 0.4745
+newmtl rope_288
+Kd 0.6627 0.6196 0.4745
+newmtl rope_289
+Kd 0.6627 0.6196 0.4745
+newmtl rope_290
+Kd 0.6627 0.6196 0.4745
+newmtl rope_291
+Kd 0.6627 0.6196 0.4745
+newmtl rope_292
+Kd 0.6627 0.6196 0.4745
+newmtl rope_293
+Kd 0.6627 0.6196 0.4745
+newmtl rope_294
+Kd 0.6627 0.6196 0.4745
+newmtl rope_295
+Kd 0.6627 0.6196 0.4745
+newmtl rope_296
+Kd 0.6627 0.6196 0.4745
+newmtl rope_297
+Kd 0.6627 0.6196 0.4745
+newmtl rope_298
+Kd 0.6627 0.6196 0.4745
+newmtl sail_0
+Kd 0.7176 0.6980 0.5569
+newmtl sail_1
+Kd 0.7176 0.6980 0.5569
+newmtl sail_2
+Kd 0.7176 0.6980 0.5569
+newmtl sail_3
+Kd 0.7176 0.6980 0.5569
+newmtl sail_4
+Kd 0.7176 0.6980 0.5569
+newmtl sail_5
+Kd 0.7176 0.6980 0.5569
+newmtl sail_6
+Kd 0.7176 0.6980 0.5569
+newmtl sail_7
+Kd 0.7176 0.6980 0.5569
+newmtl sail_8
+Kd 0.7176 0.6980 0.5569
+newmtl sail_9
+Kd 0.1922 0.2588 0.2392
+newmtl sail_10
+Kd 0.8627 0.8471 0.7098
+newmtl sail_11
+Kd 0.4471 0.6863 0.6588
+newmtl model_0_0
+Kd 0.4275 0.4275 0.3333
+newmtl model_1_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_1_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_1_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_2_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_2_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_2_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_3_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_3_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_3_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_4_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_4_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_4_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_5_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_5_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_5_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_6_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_6_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_6_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_7_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_7_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_7_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_8_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_8_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_8_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_9_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_9_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_9_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_10_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_10_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_10_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_11_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_11_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_11_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_12_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_12_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_12_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_13_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_13_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_13_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_14_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_14_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_14_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_15_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_15_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_15_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_16_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_16_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_16_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_17_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_17_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_17_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_18_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_18_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_18_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_19_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_19_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_19_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_20_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_20_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_20_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_21_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_21_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_21_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_22_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_22_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_22_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_23_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_23_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_23_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_24_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_24_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_24_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_25_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_25_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_25_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_26_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_26_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_26_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_27_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_27_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_27_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_28_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_28_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_28_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_29_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_29_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_29_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_30_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_30_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_30_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_31_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_31_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_31_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_32_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_32_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_32_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_33_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_33_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_33_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_34_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_34_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_34_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_35_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_35_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_35_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_36_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_36_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_36_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_37_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_37_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_37_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_38_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_38_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_38_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_39_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_39_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_39_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_40_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_40_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_40_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_41_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_41_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_41_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_42_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_42_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_42_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_43_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_43_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_43_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_44_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_44_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_44_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_45_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_45_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_45_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_46_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_46_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_46_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_47_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_47_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_47_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_48_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_48_1
+Kd 0.5686 0.1412 0.0000
+newmtl model_48_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_49_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_49_1
+Kd 0.4275 0.4275 0.3333
+newmtl model_50_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_50_1
+Kd 0.4275 0.4275 0.3333
+newmtl model_51_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_51_1
+Kd 0.4275 0.4275 0.3333
+newmtl model_52_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_52_1
+Kd 0.4275 0.4275 0.3333
+newmtl model_53_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_53_1
+Kd 0.4275 0.4275 0.3333
+newmtl model_54_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_54_1
+Kd 0.4275 0.4275 0.3333
+newmtl model_55_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_55_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_55_2
+Kd 0.5686 0.4275 0.3333
+newmtl model_55_3
+Kd 0.8549 0.7137 0.0000
+newmtl model_56_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_56_1
+Kd 0.4275 0.2824 0.0000
+newmtl model_56_2
+Kd 0.5686 0.2824 0.0000
+newmtl model_56_3
+Kd 0.5686 0.4275 0.3333
+newmtl model_56_4
+Kd 0.8549 0.7137 0.0000
+newmtl model_57_0
+Kd 0.1412 0.1412 0.0000
+newmtl model_57_1
+Kd 0.1412 0.1412 0.3333
+newmtl model_57_2
+Kd 0.4275 0.2824 0.0000
+newmtl model_57_3
+Kd 0.5686 0.2824 0.0000
+newmtl model_57_4
+Kd 0.7137 0.2824 0.0000
+newmtl model_57_5
+Kd 0.8549 0.5686 0.0000
+newmtl model_57_6
+Kd 1.0000 1.0000 0.3333
+newmtl model_58_0
+Kd 0.4275 0.4275 0.3333
+newmtl model_59_0
+Kd 0.4275 0.4275 0.3333
+newmtl model_60_0
+Kd 0.4275 0.4275 0.3333
+newmtl model_61_0
+Kd 0.4275 0.4275 0.3333
+newmtl model_62_0
+Kd 0.4275 0.4275 0.3333
+newmtl model_63_0
+Kd 0.4275 0.4275 0.3333
+newmtl model_64_0
+Kd 0.4275 0.4275 0.3333
+newmtl model_65_0
+Kd 0.4275 0.4275 0.3333
+newmtl model_66_0
+Kd 0.4275 0.4275 0.3333
+newmtl model_67_0
+Kd 0.4275 0.4275 0.3333
+newmtl model_68_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_68_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_68_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_69_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_69_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_69_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_70_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_70_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_70_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_71_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_71_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_71_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_72_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_72_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_72_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_73_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_73_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_73_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_74_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_74_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_74_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_75_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_75_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_75_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_76_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_76_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_76_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_77_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_77_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_77_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_78_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_78_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_78_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_79_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_79_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_79_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_80_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_80_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_80_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_81_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_81_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_81_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_82_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_82_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_82_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_83_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_83_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_83_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_84_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_84_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_84_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_85_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_85_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_85_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_86_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_86_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_86_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_87_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_87_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_87_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_88_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_88_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_88_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_89_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_89_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_89_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_90_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_90_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_90_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_91_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_91_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_91_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_92_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_92_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_92_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_93_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_93_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_93_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_94_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_94_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_94_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_95_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_95_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_95_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_96_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_96_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_96_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_97_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_97_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_97_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_98_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_98_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_98_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_99_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_99_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_99_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_100_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_100_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_100_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_101_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_101_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_101_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_102_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_102_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_102_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_103_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_103_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_103_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_104_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_104_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_104_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_105_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_105_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_105_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_106_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_106_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_106_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_107_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_107_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_107_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_108_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_108_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_108_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_109_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_109_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_109_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_110_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_110_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_110_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_111_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_111_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_111_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_112_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_112_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_112_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_113_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_113_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_113_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_114_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_114_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_114_2
+Kd 0.7137 0.5686 0.3333
+newmtl model_115_0
+Kd 0.4275 0.2824 0.0000
+newmtl model_115_1
+Kd 0.5686 0.2824 0.0000
+newmtl model_115_2
+Kd 0.7137 0.5686 0.3333

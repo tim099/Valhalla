@@ -1,0 +1,1266 @@
+{
+  "equipment_model_count": 52,
+  "checks": [
+    {
+      "owner": "sirius-tidegrave-01m-deck-weather",
+      "name": "絞盤",
+      "kind": "capstan",
+      "source": "basecamp-ember-01m-capstan",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          458.3,
+          472.7
+        ],
+        [
+          113.3,
+          127.7
+        ],
+        [
+          116.0,
+          129.2
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-deck-quarter",
+      "name": "舵輪",
+      "kind": "wheel",
+      "source": "basecamp-frigate-constitution-01m-wheel",
+      "hits": 123,
+      "examples": [
+        [
+          188,
+          115,
+          143
+        ],
+        [
+          188,
+          126,
+          143
+        ],
+        [
+          172,
+          115,
+          158
+        ],
+        [
+          172,
+          126,
+          158
+        ],
+        [
+          184,
+          121,
+          148
+        ],
+        [
+          188,
+          114,
+          144
+        ],
+        [
+          188,
+          117,
+          143
+        ],
+        [
+          179,
+          118,
+          151
+        ]
+      ],
+      "bounds": [
+        [
+          171.3,
+          189.7
+        ],
+        [
+          110.7,
+          130.3
+        ],
+        [
+          139.0,
+          159.8
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-deck-quarter",
+      "name": "羅經櫃",
+      "kind": "binnacle",
+      "source": "summit-night-falcon-01m-binnacle",
+      "hits": 10,
+      "examples": [
+        [
+          194,
+          119,
+          141
+        ],
+        [
+          194,
+          118,
+          140
+        ],
+        [
+          194,
+          120,
+          141
+        ],
+        [
+          194,
+          121,
+          141
+        ],
+        [
+          194,
+          122,
+          141
+        ],
+        [
+          194,
+          118,
+          141
+        ],
+        [
+          194,
+          119,
+          140
+        ],
+        [
+          194,
+          122,
+          140
+        ]
+      ],
+      "bounds": [
+        [
+          194.7,
+          198.3
+        ],
+        [
+          117.9,
+          123.1
+        ],
+        [
+          139.0,
+          148.6
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-01",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          244.3,
+          248.7
+        ],
+        [
+          106.3,
+          110.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-02",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          244.3,
+          248.7
+        ],
+        [
+          112.3,
+          116.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-03",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          244.3,
+          248.7
+        ],
+        [
+          124.3,
+          128.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-04",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          244.3,
+          248.7
+        ],
+        [
+          130.3,
+          134.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-05",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          250.3,
+          254.7
+        ],
+        [
+          106.3,
+          110.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-06",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          250.3,
+          254.7
+        ],
+        [
+          112.3,
+          116.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-07",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          250.3,
+          254.7
+        ],
+        [
+          124.3,
+          128.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-08",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          250.3,
+          254.7
+        ],
+        [
+          130.3,
+          134.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-09",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          256.3,
+          260.7
+        ],
+        [
+          106.3,
+          110.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-10",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          256.3,
+          260.7
+        ],
+        [
+          112.3,
+          116.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-11",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          256.3,
+          260.7
+        ],
+        [
+          124.3,
+          128.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-12",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          256.3,
+          260.7
+        ],
+        [
+          130.3,
+          134.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-13",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          262.3,
+          266.7
+        ],
+        [
+          106.3,
+          110.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-14",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          262.3,
+          266.7
+        ],
+        [
+          112.3,
+          116.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-15",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          262.3,
+          266.7
+        ],
+        [
+          124.3,
+          128.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-16",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          262.3,
+          266.7
+        ],
+        [
+          130.3,
+          134.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-17",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          268.3,
+          272.7
+        ],
+        [
+          106.3,
+          110.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-18",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          268.3,
+          272.7
+        ],
+        [
+          112.3,
+          116.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-19",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          268.3,
+          272.7
+        ],
+        [
+          124.3,
+          128.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-20",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          268.3,
+          272.7
+        ],
+        [
+          130.3,
+          134.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-21",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          274.3,
+          278.7
+        ],
+        [
+          106.3,
+          110.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-22",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          274.3,
+          278.7
+        ],
+        [
+          112.3,
+          116.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-23",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          274.3,
+          278.7
+        ],
+        [
+          124.3,
+          128.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-aft",
+      "name": "powder-24",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          274.3,
+          278.7
+        ],
+        [
+          130.3,
+          134.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-01",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          444.3,
+          448.7
+        ],
+        [
+          106.3,
+          110.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-02",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          444.3,
+          448.7
+        ],
+        [
+          112.3,
+          116.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-03",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          444.3,
+          448.7
+        ],
+        [
+          124.3,
+          128.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-04",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          444.3,
+          448.7
+        ],
+        [
+          130.3,
+          134.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-05",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          450.3,
+          454.7
+        ],
+        [
+          106.3,
+          110.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-06",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          450.3,
+          454.7
+        ],
+        [
+          112.3,
+          116.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-07",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          450.3,
+          454.7
+        ],
+        [
+          124.3,
+          128.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-08",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          450.3,
+          454.7
+        ],
+        [
+          130.3,
+          134.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-09",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          456.3,
+          460.7
+        ],
+        [
+          106.3,
+          110.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-10",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          456.3,
+          460.7
+        ],
+        [
+          112.3,
+          116.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-11",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          456.3,
+          460.7
+        ],
+        [
+          124.3,
+          128.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-12",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          456.3,
+          460.7
+        ],
+        [
+          130.3,
+          134.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-13",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          462.3,
+          466.7
+        ],
+        [
+          106.3,
+          110.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-14",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          462.3,
+          466.7
+        ],
+        [
+          112.3,
+          116.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-15",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          462.3,
+          466.7
+        ],
+        [
+          124.3,
+          128.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-16",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          462.3,
+          466.7
+        ],
+        [
+          130.3,
+          134.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-17",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          468.3,
+          472.7
+        ],
+        [
+          106.3,
+          110.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-18",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          468.3,
+          472.7
+        ],
+        [
+          112.3,
+          116.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-19",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          468.3,
+          472.7
+        ],
+        [
+          124.3,
+          128.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-20",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          468.3,
+          472.7
+        ],
+        [
+          130.3,
+          134.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-21",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          474.3,
+          478.7
+        ],
+        [
+          106.3,
+          110.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-22",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          474.3,
+          478.7
+        ],
+        [
+          112.3,
+          116.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-23",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          474.3,
+          478.7
+        ],
+        [
+          124.3,
+          128.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-magazine-fore",
+      "name": "powder-24",
+      "kind": "powder",
+      "source": "basecamp-frigate-constitution-01m-powder-barrel",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          474.3,
+          478.7
+        ],
+        [
+          130.3,
+          134.7
+        ],
+        [
+          32.0,
+          37.4
+        ]
+      ]
+    },
+    {
+      "owner": "sirius-tidegrave-01m-assembly",
+      "name": "舵",
+      "kind": "rudder",
+      "source": "sirius-tidegrave-01m-rudder",
+      "hits": 0,
+      "examples": [],
+      "bounds": [
+        [
+          91.0,
+          157.0
+        ],
+        [
+          118.0,
+          123.0
+        ],
+        [
+          6.0,
+          76.0
+        ]
+      ]
+    }
+  ],
+  "steering_deck_vertex_contacts": [
+    {
+      "name": "rope_197 # steer-wheel-P",
+      "deck_hits": 0,
+      "examples": []
+    },
+    {
+      "name": "rope_198 # steer-lead-P",
+      "deck_hits": 0,
+      "examples": []
+    },
+    {
+      "name": "rope_199 # steer-tiller-P",
+      "deck_hits": 0,
+      "examples": []
+    },
+    {
+      "name": "rope_200 # steer-wheel-S",
+      "deck_hits": 0,
+      "examples": []
+    },
+    {
+      "name": "rope_201 # steer-lead-S",
+      "deck_hits": 0,
+      "examples": []
+    },
+    {
+      "name": "rope_202 # steer-tiller-S",
+      "deck_hits": 0,
+      "examples": []
+    }
+  ],
+  "ornament_cells": 31745,
+  "ornament_cells_touching_prior_structure": 2743,
+  "ornament_y120_mirror_difference": 0
+}

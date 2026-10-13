@@ -1,0 +1,256 @@
+{
+  "shell_cells": 668008,
+  "part_cells": {
+    "\u7532\u677f-lower": 85212,
+    "\u7532\u677f-upper": 81346,
+    "\u7532\u677f-weather": 68684,
+    "\u7532\u677f-quarter": 14932,
+    "\u7532\u677f-poop": 5228,
+    "\u7532\u677f-forecastle": 3164,
+    "\u68af\u5b50": 15567
+  },
+  "shell_underwater_outside_flood_probes_wet": {
+    "(350, 120, 30)": false,
+    "(350, 100, 30)": false,
+    "(400, 120, 40)": false,
+    "(250, 120, 40)": false
+  },
+  "stairs": [
+    {
+      "name": "lower-upper-a",
+      "anchors": {
+        "foot": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": true
+        },
+        "lo": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": false
+        },
+        "hi": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": true
+        },
+        "head": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": true
+        }
+      },
+      "centerline_support_gap_count": 2,
+      "support_gap_x": [
+        308,
+        309
+      ],
+      "max_adjacent_tread_height_cells": 4
+    },
+    {
+      "name": "lower-upper-b",
+      "anchors": {
+        "foot": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": true
+        },
+        "lo": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": false
+        },
+        "hi": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": true
+        },
+        "head": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": true
+        }
+      },
+      "centerline_support_gap_count": 2,
+      "support_gap_x": [
+        443,
+        444
+      ],
+      "max_adjacent_tread_height_cells": 4
+    },
+    {
+      "name": "upper-weather-a",
+      "anchors": {
+        "foot": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": true
+        },
+        "lo": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": false
+        },
+        "hi": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": true
+        },
+        "head": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": true
+        }
+      },
+      "centerline_support_gap_count": 2,
+      "support_gap_x": [
+        308,
+        309
+      ],
+      "max_adjacent_tread_height_cells": 22
+    },
+    {
+      "name": "upper-weather-b",
+      "anchors": {
+        "foot": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": true
+        },
+        "lo": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": false
+        },
+        "hi": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": true
+        },
+        "head": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": true
+        }
+      },
+      "centerline_support_gap_count": 2,
+      "support_gap_x": [
+        443,
+        444
+      ],
+      "max_adjacent_tread_height_cells": 16
+    },
+    {
+      "name": "weather-quarter",
+      "anchors": {
+        "foot": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": true
+        },
+        "lo": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": false
+        },
+        "hi": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": true
+        },
+        "head": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": true
+        }
+      },
+      "centerline_support_gap_count": 0,
+      "support_gap_x": [],
+      "max_adjacent_tread_height_cells": 11
+    },
+    {
+      "name": "quarter-poop",
+      "anchors": {
+        "foot": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": true
+        },
+        "lo": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": false
+        },
+        "hi": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": true
+        },
+        "head": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": true
+        }
+      },
+      "centerline_support_gap_count": 0,
+      "support_gap_x": [],
+      "max_adjacent_tread_height_cells": 13
+    },
+    {
+      "name": "weather-forecastle",
+      "anchors": {
+        "foot": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": true
+        },
+        "lo": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": false
+        },
+        "hi": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": true
+        },
+        "head": {
+          "point_air": true,
+          "support_below": true,
+          "vertical20_clear": true,
+          "body20_clear": true
+        }
+      },
+      "centerline_support_gap_count": 0,
+      "support_gap_x": [],
+      "max_adjacent_tread_height_cells": 11
+    }
+  ]
+}

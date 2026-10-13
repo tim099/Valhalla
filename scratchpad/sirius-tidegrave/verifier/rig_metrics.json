@@ -1,0 +1,8175 @@
+{
+  "method": "actual exported OBJ vertex samples mapped x,z,y back to sculpt x,y,z; no continuous triangle intersection certificate",
+  "sails_without_sheet": [
+    "mizzen-lateen",
+    "jib"
+  ],
+  "objects_with_shell_hits": [
+    {
+      "object": "rope_0 # mizzen-shroud-P0",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          185.1044,
+          205.8956
+        ],
+        [
+          83.1123,
+          116.8877
+        ],
+        [
+          130.39,
+          260.61
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          185,
+          83,
+          130
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          205,
+          116,
+          260
+        ]
+      ]
+    },
+    {
+      "object": "rope_1 # mizzen-shroud-P1",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          205.1,
+          205.9
+        ],
+        [
+          79.1153,
+          116.8847
+        ],
+        [
+          130.3905,
+          260.6095
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          205,
+          79,
+          130
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          205,
+          116,
+          260
+        ]
+      ]
+    },
+    {
+      "object": "rope_2 # mizzen-shroud-P2",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          205.1043,
+          225.8957
+        ],
+        [
+          77.1169,
+          116.8831
+        ],
+        [
+          130.3792,
+          260.6208
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          225,
+          77,
+          130
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          205,
+          116,
+          260
+        ]
+      ]
+    },
+    {
+      "object": "rope_3 # mizzen-ratline-P-1",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          186.2815,
+          224.7093
+        ],
+        [
+          78.9364,
+          84.8818
+        ],
+        [
+          135.5917,
+          135.8083
+        ]
+      ],
+      "shell_vertex_hits": 3,
+      "shell_examples": [
+        [
+          186,
+          84,
+          135
+        ],
+        [
+          224,
+          78,
+          135
+        ],
+        [
+          224,
+          79,
+          135
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_4 # mizzen-ratline-P-2",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          187.0815,
+          223.9093
+        ],
+        [
+          80.4964,
+          86.2018
+        ],
+        [
+          140.7917,
+          141.0083
+        ]
+      ],
+      "shell_vertex_hits": 4,
+      "shell_examples": [
+        [
+          223,
+          80,
+          140
+        ],
+        [
+          223,
+          80,
+          141
+        ],
+        [
+          187,
+          86,
+          140
+        ],
+        [
+          187,
+          86,
+          141
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_5 # mizzen-ratline-P-3",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          187.8815,
+          223.1093
+        ],
+        [
+          82.0564,
+          87.5218
+        ],
+        [
+          145.9917,
+          146.2083
+        ]
+      ],
+      "shell_vertex_hits": 4,
+      "shell_examples": [
+        [
+          187,
+          87,
+          146
+        ],
+        [
+          223,
+          82,
+          145
+        ],
+        [
+          223,
+          82,
+          146
+        ],
+        [
+          187,
+          87,
+          145
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_24 # mizzen-shroud-S0",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          185.1044,
+          205.8956
+        ],
+        [
+          124.1123,
+          157.8877
+        ],
+        [
+          130.39,
+          260.61
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          185,
+          157,
+          130
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          205,
+          124,
+          260
+        ]
+      ]
+    },
+    {
+      "object": "rope_25 # mizzen-shroud-S1",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          205.1,
+          205.9
+        ],
+        [
+          124.1153,
+          161.8847
+        ],
+        [
+          130.3905,
+          260.6095
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          205,
+          161,
+          130
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          205,
+          124,
+          260
+        ]
+      ]
+    },
+    {
+      "object": "rope_26 # mizzen-shroud-S2",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          205.1043,
+          225.8957
+        ],
+        [
+          124.1169,
+          163.8831
+        ],
+        [
+          130.3792,
+          260.6208
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          225,
+          163,
+          130
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          205,
+          124,
+          260
+        ]
+      ]
+    },
+    {
+      "object": "rope_27 # mizzen-ratline-S-1",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          186.2907,
+          224.7185
+        ],
+        [
+          156.0564,
+          162.0018
+        ],
+        [
+          135.5917,
+          135.8083
+        ]
+      ],
+      "shell_vertex_hits": 3,
+      "shell_examples": [
+        [
+          224,
+          162,
+          135
+        ],
+        [
+          224,
+          161,
+          135
+        ],
+        [
+          186,
+          156,
+          135
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_28 # mizzen-ratline-S-2",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          187.0907,
+          223.9185
+        ],
+        [
+          154.7364,
+          160.4418
+        ],
+        [
+          140.7917,
+          141.0083
+        ]
+      ],
+      "shell_vertex_hits": 4,
+      "shell_examples": [
+        [
+          223,
+          160,
+          140
+        ],
+        [
+          223,
+          160,
+          141
+        ],
+        [
+          187,
+          154,
+          140
+        ],
+        [
+          187,
+          154,
+          141
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_29 # mizzen-ratline-S-3",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          187.8907,
+          223.1185
+        ],
+        [
+          153.4164,
+          158.8818
+        ],
+        [
+          145.9917,
+          146.2083
+        ]
+      ],
+      "shell_vertex_hits": 4,
+      "shell_examples": [
+        [
+          187,
+          153,
+          145
+        ],
+        [
+          223,
+          158,
+          145
+        ],
+        [
+          187,
+          153,
+          146
+        ],
+        [
+          223,
+          158,
+          146
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_49 # mizzen-backstay-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          185.2008,
+          205.7992
+        ],
+        [
+          83.2027,
+          120.7973
+        ],
+        [
+          130.4566,
+          405.5434
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          185,
+          83,
+          130
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          205,
+          120,
+          405
+        ]
+      ]
+    },
+    {
+      "object": "rope_50 # mizzen-backstay-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          185.2008,
+          205.7992
+        ],
+        [
+          120.2027,
+          157.7973
+        ],
+        [
+          130.4566,
+          405.5434
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          185,
+          157,
+          130
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          205,
+          120,
+          405
+        ]
+      ]
+    },
+    {
+      "object": "rope_51 # main-shroud-P0",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          335.1023,
+          355.8977
+        ],
+        [
+          68.1135,
+          116.8865
+        ],
+        [
+          115.3969,
+          295.6031
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          335,
+          68,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          116,
+          295
+        ]
+      ]
+    },
+    {
+      "object": "rope_52 # main-shroud-P1",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          355.1,
+          355.9
+        ],
+        [
+          68.1135,
+          116.8865
+        ],
+        [
+          115.3969,
+          295.6031
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          355,
+          68,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          116,
+          295
+        ]
+      ]
+    },
+    {
+      "object": "rope_53 # main-shroud-P2",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          355.1023,
+          375.8977
+        ],
+        [
+          69.113,
+          116.887
+        ],
+        [
+          115.3989,
+          295.6011
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          375,
+          69,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          116,
+          295
+        ]
+      ]
+    },
+    {
+      "object": "rope_54 # main-ratline-P-1",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          336.2984,
+          374.7031
+        ],
+        [
+          70.295,
+          71.4425
+        ],
+        [
+          122.5917,
+          122.8083
+        ]
+      ],
+      "shell_vertex_hits": 2,
+      "shell_examples": [
+        [
+          336,
+          70,
+          122
+        ],
+        [
+          374,
+          71,
+          122
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_75 # main-shroud-S0",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          335.1023,
+          355.8977
+        ],
+        [
+          124.1135,
+          172.8865
+        ],
+        [
+          115.3969,
+          295.6031
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          335,
+          172,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          124,
+          295
+        ]
+      ]
+    },
+    {
+      "object": "rope_76 # main-shroud-S1",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          355.1,
+          355.9
+        ],
+        [
+          124.1135,
+          172.8865
+        ],
+        [
+          115.3969,
+          295.6031
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          355,
+          172,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          124,
+          295
+        ]
+      ]
+    },
+    {
+      "object": "rope_77 # main-shroud-S2",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          355.1023,
+          375.8977
+        ],
+        [
+          124.113,
+          171.887
+        ],
+        [
+          115.3989,
+          295.6011
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          375,
+          171,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          124,
+          295
+        ]
+      ]
+    },
+    {
+      "object": "rope_78 # main-ratline-S-1",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          336.2969,
+          374.7016
+        ],
+        [
+          169.495,
+          170.6425
+        ],
+        [
+          122.5917,
+          122.8083
+        ]
+      ],
+      "shell_vertex_hits": 2,
+      "shell_examples": [
+        [
+          374,
+          169,
+          122
+        ],
+        [
+          336,
+          170,
+          122
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_100 # main-backstay-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          335.2004,
+          355.7996
+        ],
+        [
+          68.2026,
+          120.7974
+        ],
+        [
+          115.4608,
+          510.5392
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          335,
+          68,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          120,
+          510
+        ]
+      ]
+    },
+    {
+      "object": "rope_101 # main-backstay-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          335.2004,
+          355.7996
+        ],
+        [
+          120.2026,
+          172.7974
+        ],
+        [
+          115.4608,
+          510.5392
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          335,
+          172,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          120,
+          510
+        ]
+      ]
+    },
+    {
+      "object": "rope_102 # fore-shroud-P0",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          490.1029,
+          510.8971
+        ],
+        [
+          77.1114,
+          116.8886
+        ],
+        [
+          115.3999,
+          275.6001
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          490,
+          77,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          116,
+          275
+        ]
+      ]
+    },
+    {
+      "object": "rope_103 # fore-shroud-P1",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          510.1,
+          510.9
+        ],
+        [
+          79.1103,
+          116.8897
+        ],
+        [
+          115.4099,
+          275.5901
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          510,
+          79,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          116,
+          275
+        ]
+      ]
+    },
+    {
+      "object": "rope_104 # fore-shroud-P2",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          510.103,
+          530.897
+        ],
+        [
+          84.1078,
+          116.8922
+        ],
+        [
+          115.4108,
+          275.5892
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          530,
+          84,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          116,
+          275
+        ]
+      ]
+    },
+    {
+      "object": "rope_105 # fore-ratline-P-1",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          491.2892,
+          529.7215
+        ],
+        [
+          78.9369,
+          85.8416
+        ],
+        [
+          121.7917,
+          122.0083
+        ]
+      ],
+      "shell_vertex_hits": 5,
+      "shell_examples": [
+        [
+          529,
+          85,
+          121
+        ],
+        [
+          491,
+          78,
+          121
+        ],
+        [
+          491,
+          79,
+          121
+        ],
+        [
+          529,
+          85,
+          122
+        ],
+        [
+          491,
+          79,
+          122
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_106 # fore-ratline-P-2",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          492.0892,
+          528.9215
+        ],
+        [
+          80.4969,
+          87.1216
+        ],
+        [
+          128.1917,
+          128.4083
+        ]
+      ],
+      "shell_vertex_hits": 2,
+      "shell_examples": [
+        [
+          492,
+          80,
+          128
+        ],
+        [
+          528,
+          86,
+          128
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_126 # fore-shroud-S0",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          490.1029,
+          510.8971
+        ],
+        [
+          124.1114,
+          163.8886
+        ],
+        [
+          115.3999,
+          275.6001
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          490,
+          163,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          124,
+          275
+        ]
+      ]
+    },
+    {
+      "object": "rope_127 # fore-shroud-S1",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          510.1,
+          510.9
+        ],
+        [
+          124.1103,
+          161.8897
+        ],
+        [
+          115.4099,
+          275.5901
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          510,
+          161,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          124,
+          275
+        ]
+      ]
+    },
+    {
+      "object": "rope_128 # fore-shroud-S2",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          510.103,
+          530.897
+        ],
+        [
+          124.1078,
+          156.8922
+        ],
+        [
+          115.4108,
+          275.5892
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          530,
+          156,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          124,
+          275
+        ]
+      ]
+    },
+    {
+      "object": "rope_129 # fore-ratline-S-1",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          491.2785,
+          529.7108
+        ],
+        [
+          155.0969,
+          162.0016
+        ],
+        [
+          121.7917,
+          122.0083
+        ]
+      ],
+      "shell_vertex_hits": 5,
+      "shell_examples": [
+        [
+          529,
+          155,
+          122
+        ],
+        [
+          491,
+          162,
+          122
+        ],
+        [
+          491,
+          161,
+          121
+        ],
+        [
+          491,
+          162,
+          121
+        ],
+        [
+          529,
+          155,
+          121
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_130 # fore-ratline-S-2",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          492.0785,
+          528.9108
+        ],
+        [
+          153.8169,
+          160.4416
+        ],
+        [
+          128.1917,
+          128.4083
+        ]
+      ],
+      "shell_vertex_hits": 2,
+      "shell_examples": [
+        [
+          492,
+          160,
+          128
+        ],
+        [
+          528,
+          154,
+          128
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_151 # fore-backstay-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          490.2005,
+          510.7995
+        ],
+        [
+          77.2022,
+          120.7978
+        ],
+        [
+          115.4622,
+          465.5378
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          490,
+          77,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          120,
+          465
+        ]
+      ]
+    },
+    {
+      "object": "rope_152 # fore-backstay-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          490.2005,
+          510.7995
+        ],
+        [
+          120.2022,
+          163.7978
+        ],
+        [
+          115.4622,
+          465.5378
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          490,
+          163,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          120,
+          465
+        ]
+      ]
+    },
+    {
+      "object": "rope_153 # fore-course.sheet-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          490.3306,
+          516.037
+        ],
+        [
+          60.5484,
+          77.6784
+        ],
+        [
+          115.3735,
+          152.8606
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          490,
+          77,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_154 # fore-course.sheet-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          490.361,
+          525.202
+        ],
+        [
+          163.2312,
+          163.7
+        ],
+        [
+          115.3562,
+          149.0599
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          490,
+          163,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_155 # fore-course.brace-P",
+      "vertex_count": 1048,
+      "bounds": [
+        [
+          482.4886,
+          490.6967
+        ],
+        [
+          34.7076,
+          77.6301
+        ],
+        [
+          115.35,
+          235.5329
+        ]
+      ],
+      "shell_vertex_hits": 8,
+      "shell_examples": [
+        [
+          490,
+          75,
+          117
+        ],
+        [
+          490,
+          75,
+          116
+        ],
+        [
+          490,
+          76,
+          116
+        ],
+        [
+          489,
+          75,
+          118
+        ],
+        [
+          490,
+          76,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_157 # fore-course.brace-S",
+      "vertex_count": 1120,
+      "bounds": [
+        [
+          490.3414,
+          538.5071
+        ],
+        [
+          163.3369,
+          206.2914
+        ],
+        [
+          115.3417,
+          235.5558
+        ]
+      ],
+      "shell_vertex_hits": 9,
+      "shell_examples": [
+        [
+          492,
+          165,
+          117
+        ],
+        [
+          492,
+          164,
+          116
+        ],
+        [
+          491,
+          164,
+          117
+        ],
+        [
+          491,
+          163,
+          116
+        ],
+        [
+          491,
+          164,
+          116
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_161 # fore-topsail.brace-P",
+      "vertex_count": 1856,
+      "bounds": [
+        [
+          487.1237,
+          490.6988
+        ],
+        [
+          48.9709,
+          77.5685
+        ],
+        [
+          115.3122,
+          340.5065
+        ]
+      ],
+      "shell_vertex_hits": 5,
+      "shell_examples": [
+        [
+          490,
+          75,
+          117
+        ],
+        [
+          490,
+          75,
+          116
+        ],
+        [
+          490,
+          76,
+          116
+        ],
+        [
+          490,
+          76,
+          115
+        ],
+        [
+          490,
+          77,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_163 # fore-topsail.brace-S",
+      "vertex_count": 1888,
+      "bounds": [
+        [
+          490.3483,
+          533.8758
+        ],
+        [
+          163.3328,
+          192.029
+        ],
+        [
+          115.3441,
+          340.5166
+        ]
+      ],
+      "shell_vertex_hits": 12,
+      "shell_examples": [
+        [
+          492,
+          165,
+          117
+        ],
+        [
+          492,
+          164,
+          116
+        ],
+        [
+          491,
+          164,
+          117
+        ],
+        [
+          491,
+          163,
+          116
+        ],
+        [
+          491,
+          164,
+          116
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_167 # fore-topgallant.brace-P",
+      "vertex_count": 2056,
+      "bounds": [
+        [
+          490.3052,
+          495.2491
+        ],
+        [
+          72.7472,
+          77.6945
+        ],
+        [
+          113.6718,
+          420.5005
+        ]
+      ],
+      "shell_vertex_hits": 17,
+      "shell_examples": [
+        [
+          491,
+          75,
+          113
+        ],
+        [
+          491,
+          77,
+          114
+        ],
+        [
+          490,
+          76,
+          114
+        ],
+        [
+          492,
+          75,
+          116
+        ],
+        [
+          491,
+          76,
+          114
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_169 # fore-topgallant.brace-S",
+      "vertex_count": 2056,
+      "bounds": [
+        [
+          490.443,
+          526.1508
+        ],
+        [
+          163.3016,
+          168.2528
+        ],
+        [
+          115.3079,
+          420.5057
+        ]
+      ],
+      "shell_vertex_hits": 24,
+      "shell_examples": [
+        [
+          493,
+          164,
+          116
+        ],
+        [
+          493,
+          163,
+          117
+        ],
+        [
+          492,
+          163,
+          115
+        ],
+        [
+          494,
+          164,
+          117
+        ],
+        [
+          496,
+          164,
+          118
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_171 # main-course.sheet-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          335.3262,
+          362.1656
+        ],
+        [
+          49.2928,
+          68.6804
+        ],
+        [
+          115.3786,
+          158.341
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          335,
+          68,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_172 # main-course.sheet-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          335.358,
+          373.4936
+        ],
+        [
+          172.3,
+          173.2316
+        ],
+        [
+          115.3591,
+          153.7955
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          335,
+          172,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_173 # main-course.brace-P",
+      "vertex_count": 1176,
+      "bounds": [
+        [
+          322.8534,
+          335.6936
+        ],
+        [
+          20.4418,
+          68.6278
+        ],
+        [
+          115.3498,
+          250.5331
+        ]
+      ],
+      "shell_vertex_hits": 5,
+      "shell_examples": [
+        [
+          335,
+          68,
+          115
+        ],
+        [
+          335,
+          67,
+          116
+        ],
+        [
+          335,
+          66,
+          116
+        ],
+        [
+          335,
+          67,
+          115
+        ],
+        [
+          334,
+          67,
+          116
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_175 # main-course.brace-S",
+      "vertex_count": 1248,
+      "bounds": [
+        [
+          335.3405,
+          388.1426
+        ],
+        [
+          172.337,
+          220.5573
+        ],
+        [
+          115.3421,
+          250.5548
+        ]
+      ],
+      "shell_vertex_hits": 7,
+      "shell_examples": [
+        [
+          337,
+          173,
+          117
+        ],
+        [
+          335,
+          172,
+          115
+        ],
+        [
+          337,
+          173,
+          116
+        ],
+        [
+          335,
+          172,
+          116
+        ],
+        [
+          336,
+          173,
+          117
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_179 # main-topsail.brace-P",
+      "vertex_count": 2056,
+      "bounds": [
+        [
+          328.4155,
+          335.6952
+        ],
+        [
+          37.5582,
+          68.5733
+        ],
+        [
+          115.3097,
+          375.5059
+        ]
+      ],
+      "shell_vertex_hits": 6,
+      "shell_examples": [
+        [
+          335,
+          68,
+          115
+        ],
+        [
+          335,
+          67,
+          116
+        ],
+        [
+          335,
+          66,
+          116
+        ],
+        [
+          335,
+          67,
+          115
+        ],
+        [
+          334,
+          67,
+          116
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_181 # main-topsail.brace-S",
+      "vertex_count": 2056,
+      "bounds": [
+        [
+          335.3501,
+          382.5841
+        ],
+        [
+          172.3327,
+          203.4417
+        ],
+        [
+          115.3418,
+          375.515
+        ]
+      ],
+      "shell_vertex_hits": 12,
+      "shell_examples": [
+        [
+          337,
+          173,
+          117
+        ],
+        [
+          335,
+          172,
+          115
+        ],
+        [
+          335,
+          173,
+          116
+        ],
+        [
+          336,
+          172,
+          115
+        ],
+        [
+          336,
+          173,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_185 # main-topgallant.brace-P",
+      "vertex_count": 2056,
+      "bounds": [
+        [
+          335.3004,
+          337.159
+        ],
+        [
+          63.2366,
+          68.6956
+        ],
+        [
+          113.2255,
+          460.5003
+        ]
+      ],
+      "shell_vertex_hits": 13,
+      "shell_examples": [
+        [
+          335,
+          68,
+          115
+        ],
+        [
+          336,
+          66,
+          115
+        ],
+        [
+          336,
+          66,
+          116
+        ],
+        [
+          335,
+          66,
+          114
+        ],
+        [
+          335,
+          67,
+          113
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_187 # main-topgallant.brace-S",
+      "vertex_count": 2056,
+      "bounds": [
+        [
+          335.4475,
+          374.2409
+        ],
+        [
+          172.3017,
+          177.7634
+        ],
+        [
+          115.306,
+          460.5054
+        ]
+      ],
+      "shell_vertex_hits": 23,
+      "shell_examples": [
+        [
+          337,
+          172,
+          116
+        ],
+        [
+          338,
+          172,
+          116
+        ],
+        [
+          340,
+          173,
+          118
+        ],
+        [
+          339,
+          172,
+          116
+        ],
+        [
+          342,
+          173,
+          119
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_191 # mizzen-topsail.brace-P",
+      "vertex_count": 1720,
+      "bounds": [
+        [
+          185.3255,
+          191.7942
+        ],
+        [
+          77.5025,
+          83.6758
+        ],
+        [
+          129.6406,
+          340.5012
+        ]
+      ],
+      "shell_vertex_hits": 21,
+      "shell_examples": [
+        [
+          187,
+          82,
+          129
+        ],
+        [
+          186,
+          81,
+          130
+        ],
+        [
+          188,
+          81,
+          132
+        ],
+        [
+          187,
+          81,
+          130
+        ],
+        [
+          187,
+          81,
+          133
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_193 # mizzen-topsail.brace-S",
+      "vertex_count": 1736,
+      "bounds": [
+        [
+          185.3994,
+          219.6055
+        ],
+        [
+          157.3029,
+          163.4975
+        ],
+        [
+          130.328,
+          340.5097
+        ]
+      ],
+      "shell_vertex_hits": 35,
+      "shell_examples": [
+        [
+          193,
+          158,
+          138
+        ],
+        [
+          194,
+          158,
+          141
+        ],
+        [
+          188,
+          158,
+          132
+        ],
+        [
+          189,
+          158,
+          133
+        ],
+        [
+          191,
+          158,
+          135
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    }
+  ],
+  "sails_with_mast_hits": [
+    {
+      "object": "sail_0 # fore-course",
+      "vertex_count": 8192,
+      "bounds": [
+        [
+          483.2781,
+          568.2671
+        ],
+        [
+          34.7135,
+          204.2073
+        ],
+        [
+          148.8877,
+          235.5446
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 5,
+      "mast_examples": [
+        [
+          513,
+          119,
+          230
+        ],
+        [
+          511,
+          120,
+          234
+        ],
+        [
+          512,
+          119,
+          231
+        ],
+        [
+          512,
+          119,
+          233
+        ],
+        [
+          510,
+          120,
+          235
+        ]
+      ]
+    },
+    {
+      "object": "sail_1 # fore-topsail",
+      "vertex_count": 8192,
+      "bounds": [
+        [
+          487.8962,
+          552.2073
+        ],
+        [
+          48.8231,
+          189.9337
+        ],
+        [
+          266.642,
+          340.5456
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 3,
+      "mast_examples": [
+        [
+          511,
+          119,
+          338
+        ],
+        [
+          510,
+          120,
+          340
+        ],
+        [
+          511,
+          120,
+          339
+        ]
+      ]
+    },
+    {
+      "object": "sail_2 # fore-topgallant",
+      "vertex_count": 8192,
+      "bounds": [
+        [
+          495.6381,
+          544.9751
+        ],
+        [
+          71.6786,
+          166.157
+        ],
+        [
+          359.3641,
+          420.5456
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 4,
+      "mast_examples": [
+        [
+          511,
+          120,
+          419
+        ],
+        [
+          511,
+          120,
+          418
+        ],
+        [
+          510,
+          120,
+          419
+        ],
+        [
+          510,
+          120,
+          420
+        ]
+      ]
+    },
+    {
+      "object": "sail_3 # main-course",
+      "vertex_count": 8192,
+      "bounds": [
+        [
+          323.6411,
+          421.1279
+        ],
+        [
+          20.4894,
+          218.4733
+        ],
+        [
+          153.6267,
+          250.5453
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 4,
+      "mast_examples": [
+        [
+          355,
+          120,
+          250
+        ],
+        [
+          357,
+          119,
+          247
+        ],
+        [
+          356,
+          120,
+          249
+        ],
+        [
+          358,
+          119,
+          246
+        ]
+      ]
+    },
+    {
+      "object": "sail_4 # main-topsail",
+      "vertex_count": 8192,
+      "bounds": [
+        [
+          329.1906,
+          403.9871
+        ],
+        [
+          36.8539,
+          201.346
+        ],
+        [
+          287.1211,
+          375.5459
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 3,
+      "mast_examples": [
+        [
+          356,
+          120,
+          374
+        ],
+        [
+          355,
+          120,
+          375
+        ],
+        [
+          356,
+          119,
+          372
+        ]
+      ]
+    },
+    {
+      "object": "sail_5 # main-topgallant",
+      "vertex_count": 8192,
+      "bounds": [
+        [
+          337.5332,
+          393.3606
+        ],
+        [
+          62.4884,
+          175.6655
+        ],
+        [
+          399.1576,
+          460.5481
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 2,
+      "mast_examples": [
+        [
+          356,
+          120,
+          459
+        ],
+        [
+          355,
+          120,
+          460
+        ]
+      ]
+    },
+    {
+      "object": "sail_6 # mizzen-topsail",
+      "vertex_count": 8192,
+      "bounds": [
+        [
+          192.179,
+          233.9068
+        ],
+        [
+          77.3309,
+          161.4039
+        ],
+        [
+          276.0351,
+          340.5419
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 5,
+      "mast_examples": [
+        [
+          206,
+          120,
+          338
+        ],
+        [
+          206,
+          119,
+          337
+        ],
+        [
+          205,
+          120,
+          340
+        ],
+        [
+          205,
+          120,
+          339
+        ],
+        [
+          206,
+          120,
+          339
+        ]
+      ]
+    },
+    {
+      "object": "sail_7 # mizzen-lateen",
+      "vertex_count": 306,
+      "bounds": [
+        [
+          125.4898,
+          205.5
+        ],
+        [
+          110.568,
+          120.55
+        ],
+        [
+          205.4674,
+          315.5197
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 2,
+      "mast_examples": [
+        [
+          202,
+          120,
+          235
+        ],
+        [
+          205,
+          120,
+          230
+        ]
+      ]
+    },
+    {
+      "object": "sail_8 # jib",
+      "vertex_count": 240,
+      "bounds": [
+        [
+          510.4898,
+          748.5093
+        ],
+        [
+          113.2311,
+          145.5421
+        ],
+        [
+          145.4743,
+          300.5286
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          120,
+          300
+        ]
+      ]
+    }
+  ],
+  "all_meshes": [
+    {
+      "object": "rope_0 # mizzen-shroud-P0",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          185.1044,
+          205.8956
+        ],
+        [
+          83.1123,
+          116.8877
+        ],
+        [
+          130.39,
+          260.61
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          185,
+          83,
+          130
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          205,
+          116,
+          260
+        ]
+      ]
+    },
+    {
+      "object": "rope_1 # mizzen-shroud-P1",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          205.1,
+          205.9
+        ],
+        [
+          79.1153,
+          116.8847
+        ],
+        [
+          130.3905,
+          260.6095
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          205,
+          79,
+          130
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          205,
+          116,
+          260
+        ]
+      ]
+    },
+    {
+      "object": "rope_2 # mizzen-shroud-P2",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          205.1043,
+          225.8957
+        ],
+        [
+          77.1169,
+          116.8831
+        ],
+        [
+          130.3792,
+          260.6208
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          225,
+          77,
+          130
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          205,
+          116,
+          260
+        ]
+      ]
+    },
+    {
+      "object": "rope_3 # mizzen-ratline-P-1",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          186.2815,
+          224.7093
+        ],
+        [
+          78.9364,
+          84.8818
+        ],
+        [
+          135.5917,
+          135.8083
+        ]
+      ],
+      "shell_vertex_hits": 3,
+      "shell_examples": [
+        [
+          186,
+          84,
+          135
+        ],
+        [
+          224,
+          78,
+          135
+        ],
+        [
+          224,
+          79,
+          135
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_4 # mizzen-ratline-P-2",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          187.0815,
+          223.9093
+        ],
+        [
+          80.4964,
+          86.2018
+        ],
+        [
+          140.7917,
+          141.0083
+        ]
+      ],
+      "shell_vertex_hits": 4,
+      "shell_examples": [
+        [
+          223,
+          80,
+          140
+        ],
+        [
+          223,
+          80,
+          141
+        ],
+        [
+          187,
+          86,
+          140
+        ],
+        [
+          187,
+          86,
+          141
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_5 # mizzen-ratline-P-3",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          187.8815,
+          223.1093
+        ],
+        [
+          82.0564,
+          87.5218
+        ],
+        [
+          145.9917,
+          146.2083
+        ]
+      ],
+      "shell_vertex_hits": 4,
+      "shell_examples": [
+        [
+          187,
+          87,
+          146
+        ],
+        [
+          223,
+          82,
+          145
+        ],
+        [
+          223,
+          82,
+          146
+        ],
+        [
+          187,
+          87,
+          145
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_6 # mizzen-ratline-P-4",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          188.6815,
+          222.3093
+        ],
+        [
+          83.6164,
+          88.8418
+        ],
+        [
+          151.1917,
+          151.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_7 # mizzen-ratline-P-5",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          189.4815,
+          221.5093
+        ],
+        [
+          85.1764,
+          90.1618
+        ],
+        [
+          156.3917,
+          156.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_8 # mizzen-ratline-P-6",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          190.2815,
+          220.7093
+        ],
+        [
+          86.7364,
+          91.4818
+        ],
+        [
+          161.5917,
+          161.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_9 # mizzen-ratline-P-7",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          191.0815,
+          219.9093
+        ],
+        [
+          88.2964,
+          92.8018
+        ],
+        [
+          166.7917,
+          167.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_10 # mizzen-ratline-P-8",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          191.8815,
+          219.1093
+        ],
+        [
+          89.8564,
+          94.1218
+        ],
+        [
+          171.9917,
+          172.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_11 # mizzen-ratline-P-9",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          192.6815,
+          218.3093
+        ],
+        [
+          91.4164,
+          95.4418
+        ],
+        [
+          177.1917,
+          177.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_12 # mizzen-ratline-P-10",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          193.4815,
+          217.5093
+        ],
+        [
+          92.9764,
+          96.7618
+        ],
+        [
+          182.3917,
+          182.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_13 # mizzen-ratline-P-11",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          194.2815,
+          216.7093
+        ],
+        [
+          94.5364,
+          98.0818
+        ],
+        [
+          187.5917,
+          187.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_14 # mizzen-ratline-P-12",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          195.0815,
+          215.9093
+        ],
+        [
+          96.0964,
+          99.4018
+        ],
+        [
+          192.7917,
+          193.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_15 # mizzen-ratline-P-13",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          195.8815,
+          215.1093
+        ],
+        [
+          97.6564,
+          100.7218
+        ],
+        [
+          197.9917,
+          198.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_16 # mizzen-ratline-P-14",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          196.6815,
+          214.3093
+        ],
+        [
+          99.2164,
+          102.0418
+        ],
+        [
+          203.1917,
+          203.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_17 # mizzen-ratline-P-15",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          197.4815,
+          213.5093
+        ],
+        [
+          100.7764,
+          103.3618
+        ],
+        [
+          208.3917,
+          208.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_18 # mizzen-ratline-P-16",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          198.2815,
+          212.7093
+        ],
+        [
+          102.3364,
+          104.6818
+        ],
+        [
+          213.5917,
+          213.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_19 # mizzen-ratline-P-17",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          199.0815,
+          211.9093
+        ],
+        [
+          103.8964,
+          106.0018
+        ],
+        [
+          218.7917,
+          219.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_20 # mizzen-ratline-P-18",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          199.8815,
+          211.1093
+        ],
+        [
+          105.4564,
+          107.3218
+        ],
+        [
+          223.9917,
+          224.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_21 # mizzen-ratline-P-19",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          200.6815,
+          210.3093
+        ],
+        [
+          107.0164,
+          108.6418
+        ],
+        [
+          229.1917,
+          229.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_22 # mizzen-ratline-P-20",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          201.4815,
+          209.5093
+        ],
+        [
+          108.5764,
+          109.9618
+        ],
+        [
+          234.3917,
+          234.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_23 # mizzen-ratline-P-21",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          202.2815,
+          208.7093
+        ],
+        [
+          110.1364,
+          111.2818
+        ],
+        [
+          239.5917,
+          239.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_24 # mizzen-shroud-S0",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          185.1044,
+          205.8956
+        ],
+        [
+          124.1123,
+          157.8877
+        ],
+        [
+          130.39,
+          260.61
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          185,
+          157,
+          130
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          205,
+          124,
+          260
+        ]
+      ]
+    },
+    {
+      "object": "rope_25 # mizzen-shroud-S1",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          205.1,
+          205.9
+        ],
+        [
+          124.1153,
+          161.8847
+        ],
+        [
+          130.3905,
+          260.6095
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          205,
+          161,
+          130
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          205,
+          124,
+          260
+        ]
+      ]
+    },
+    {
+      "object": "rope_26 # mizzen-shroud-S2",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          205.1043,
+          225.8957
+        ],
+        [
+          124.1169,
+          163.8831
+        ],
+        [
+          130.3792,
+          260.6208
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          225,
+          163,
+          130
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          205,
+          124,
+          260
+        ]
+      ]
+    },
+    {
+      "object": "rope_27 # mizzen-ratline-S-1",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          186.2907,
+          224.7185
+        ],
+        [
+          156.0564,
+          162.0018
+        ],
+        [
+          135.5917,
+          135.8083
+        ]
+      ],
+      "shell_vertex_hits": 3,
+      "shell_examples": [
+        [
+          224,
+          162,
+          135
+        ],
+        [
+          224,
+          161,
+          135
+        ],
+        [
+          186,
+          156,
+          135
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_28 # mizzen-ratline-S-2",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          187.0907,
+          223.9185
+        ],
+        [
+          154.7364,
+          160.4418
+        ],
+        [
+          140.7917,
+          141.0083
+        ]
+      ],
+      "shell_vertex_hits": 4,
+      "shell_examples": [
+        [
+          223,
+          160,
+          140
+        ],
+        [
+          223,
+          160,
+          141
+        ],
+        [
+          187,
+          154,
+          140
+        ],
+        [
+          187,
+          154,
+          141
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_29 # mizzen-ratline-S-3",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          187.8907,
+          223.1185
+        ],
+        [
+          153.4164,
+          158.8818
+        ],
+        [
+          145.9917,
+          146.2083
+        ]
+      ],
+      "shell_vertex_hits": 4,
+      "shell_examples": [
+        [
+          187,
+          153,
+          145
+        ],
+        [
+          223,
+          158,
+          145
+        ],
+        [
+          187,
+          153,
+          146
+        ],
+        [
+          223,
+          158,
+          146
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_30 # mizzen-ratline-S-4",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          188.6907,
+          222.3185
+        ],
+        [
+          152.0964,
+          157.3218
+        ],
+        [
+          151.1917,
+          151.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_31 # mizzen-ratline-S-5",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          189.4907,
+          221.5185
+        ],
+        [
+          150.7764,
+          155.7618
+        ],
+        [
+          156.3917,
+          156.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_32 # mizzen-ratline-S-6",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          190.2907,
+          220.7185
+        ],
+        [
+          149.4564,
+          154.2018
+        ],
+        [
+          161.5917,
+          161.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_33 # mizzen-ratline-S-7",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          191.0907,
+          219.9185
+        ],
+        [
+          148.1364,
+          152.6418
+        ],
+        [
+          166.7917,
+          167.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_34 # mizzen-ratline-S-8",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          191.8907,
+          219.1185
+        ],
+        [
+          146.8164,
+          151.0818
+        ],
+        [
+          171.9917,
+          172.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_35 # mizzen-ratline-S-9",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          192.6907,
+          218.3185
+        ],
+        [
+          145.4964,
+          149.5218
+        ],
+        [
+          177.1917,
+          177.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_36 # mizzen-ratline-S-10",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          193.4907,
+          217.5185
+        ],
+        [
+          144.1764,
+          147.9618
+        ],
+        [
+          182.3917,
+          182.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_37 # mizzen-ratline-S-11",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          194.2907,
+          216.7185
+        ],
+        [
+          142.8564,
+          146.4018
+        ],
+        [
+          187.5917,
+          187.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_38 # mizzen-ratline-S-12",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          195.0907,
+          215.9185
+        ],
+        [
+          141.5364,
+          144.8418
+        ],
+        [
+          192.7917,
+          193.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_39 # mizzen-ratline-S-13",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          195.8907,
+          215.1185
+        ],
+        [
+          140.2164,
+          143.2818
+        ],
+        [
+          197.9917,
+          198.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_40 # mizzen-ratline-S-14",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          196.6907,
+          214.3185
+        ],
+        [
+          138.8964,
+          141.7218
+        ],
+        [
+          203.1917,
+          203.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_41 # mizzen-ratline-S-15",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          197.4907,
+          213.5185
+        ],
+        [
+          137.5764,
+          140.1618
+        ],
+        [
+          208.3917,
+          208.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_42 # mizzen-ratline-S-16",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          198.2907,
+          212.7185
+        ],
+        [
+          136.2564,
+          138.6018
+        ],
+        [
+          213.5917,
+          213.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_43 # mizzen-ratline-S-17",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          199.0907,
+          211.9185
+        ],
+        [
+          134.9364,
+          137.0418
+        ],
+        [
+          218.7917,
+          219.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_44 # mizzen-ratline-S-18",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          199.8907,
+          211.1185
+        ],
+        [
+          133.6164,
+          135.4818
+        ],
+        [
+          223.9917,
+          224.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_45 # mizzen-ratline-S-19",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          200.6907,
+          210.3185
+        ],
+        [
+          132.2964,
+          133.9218
+        ],
+        [
+          229.1917,
+          229.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_46 # mizzen-ratline-S-20",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          201.4907,
+          209.5185
+        ],
+        [
+          130.9764,
+          132.3618
+        ],
+        [
+          234.3917,
+          234.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_47 # mizzen-ratline-S-21",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          202.2907,
+          208.7185
+        ],
+        [
+          129.6564,
+          130.8018
+        ],
+        [
+          239.5917,
+          239.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_48 # mizzen-stay",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          205.3864,
+          355.6136
+        ],
+        [
+          120.0,
+          121.0
+        ],
+        [
+          285.0131,
+          320.9869
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 4,
+      "mast_examples": [
+        [
+          205,
+          121,
+          285
+        ],
+        [
+          355,
+          120,
+          320
+        ],
+        [
+          205,
+          120,
+          285
+        ],
+        [
+          355,
+          121,
+          320
+        ]
+      ]
+    },
+    {
+      "object": "rope_49 # mizzen-backstay-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          185.2008,
+          205.7992
+        ],
+        [
+          83.2027,
+          120.7973
+        ],
+        [
+          130.4566,
+          405.5434
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          185,
+          83,
+          130
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          205,
+          120,
+          405
+        ]
+      ]
+    },
+    {
+      "object": "rope_50 # mizzen-backstay-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          185.2008,
+          205.7992
+        ],
+        [
+          120.2027,
+          157.7973
+        ],
+        [
+          130.4566,
+          405.5434
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          185,
+          157,
+          130
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          205,
+          120,
+          405
+        ]
+      ]
+    },
+    {
+      "object": "rope_51 # main-shroud-P0",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          335.1023,
+          355.8977
+        ],
+        [
+          68.1135,
+          116.8865
+        ],
+        [
+          115.3969,
+          295.6031
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          335,
+          68,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          116,
+          295
+        ]
+      ]
+    },
+    {
+      "object": "rope_52 # main-shroud-P1",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          355.1,
+          355.9
+        ],
+        [
+          68.1135,
+          116.8865
+        ],
+        [
+          115.3969,
+          295.6031
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          355,
+          68,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          116,
+          295
+        ]
+      ]
+    },
+    {
+      "object": "rope_53 # main-shroud-P2",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          355.1023,
+          375.8977
+        ],
+        [
+          69.113,
+          116.887
+        ],
+        [
+          115.3989,
+          295.6011
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          375,
+          69,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          116,
+          295
+        ]
+      ]
+    },
+    {
+      "object": "rope_54 # main-ratline-P-1",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          336.2984,
+          374.7031
+        ],
+        [
+          70.295,
+          71.4425
+        ],
+        [
+          122.5917,
+          122.8083
+        ]
+      ],
+      "shell_vertex_hits": 2,
+      "shell_examples": [
+        [
+          336,
+          70,
+          122
+        ],
+        [
+          374,
+          71,
+          122
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_55 # main-ratline-P-2",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          337.0984,
+          373.9031
+        ],
+        [
+          72.215,
+          73.3225
+        ],
+        [
+          129.7917,
+          130.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_56 # main-ratline-P-3",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          337.8984,
+          373.1031
+        ],
+        [
+          74.135,
+          75.2025
+        ],
+        [
+          136.9917,
+          137.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_57 # main-ratline-P-4",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          338.6984,
+          372.3031
+        ],
+        [
+          76.055,
+          77.0825
+        ],
+        [
+          144.1917,
+          144.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_58 # main-ratline-P-5",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          339.4984,
+          371.5031
+        ],
+        [
+          77.975,
+          78.9625
+        ],
+        [
+          151.3917,
+          151.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_59 # main-ratline-P-6",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          340.2984,
+          370.7031
+        ],
+        [
+          79.895,
+          80.8425
+        ],
+        [
+          158.5917,
+          158.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_60 # main-ratline-P-7",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          341.0984,
+          369.9031
+        ],
+        [
+          81.815,
+          82.7225
+        ],
+        [
+          165.7917,
+          166.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_61 # main-ratline-P-8",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          341.8984,
+          369.1031
+        ],
+        [
+          83.735,
+          84.6025
+        ],
+        [
+          172.9917,
+          173.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_62 # main-ratline-P-9",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          342.6984,
+          368.3031
+        ],
+        [
+          85.655,
+          86.4825
+        ],
+        [
+          180.1917,
+          180.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_63 # main-ratline-P-10",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          343.4984,
+          367.5031
+        ],
+        [
+          87.575,
+          88.3625
+        ],
+        [
+          187.3917,
+          187.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_64 # main-ratline-P-11",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          344.2984,
+          366.7031
+        ],
+        [
+          89.495,
+          90.2425
+        ],
+        [
+          194.5917,
+          194.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_65 # main-ratline-P-12",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          345.0984,
+          365.9031
+        ],
+        [
+          91.415,
+          92.1225
+        ],
+        [
+          201.7917,
+          202.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_66 # main-ratline-P-13",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          345.8984,
+          365.1031
+        ],
+        [
+          93.335,
+          94.0025
+        ],
+        [
+          208.9917,
+          209.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_67 # main-ratline-P-14",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          346.6984,
+          364.3031
+        ],
+        [
+          95.255,
+          95.8825
+        ],
+        [
+          216.1917,
+          216.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_68 # main-ratline-P-15",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          347.4984,
+          363.5031
+        ],
+        [
+          97.175,
+          97.7625
+        ],
+        [
+          223.3917,
+          223.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_69 # main-ratline-P-16",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          348.2984,
+          362.7031
+        ],
+        [
+          99.095,
+          99.6425
+        ],
+        [
+          230.5917,
+          230.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_70 # main-ratline-P-17",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          349.0984,
+          361.9031
+        ],
+        [
+          101.015,
+          101.5225
+        ],
+        [
+          237.7917,
+          238.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_71 # main-ratline-P-18",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          349.8984,
+          361.1031
+        ],
+        [
+          102.935,
+          103.4025
+        ],
+        [
+          244.9917,
+          245.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_72 # main-ratline-P-19",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          350.6984,
+          360.3031
+        ],
+        [
+          104.855,
+          105.2825
+        ],
+        [
+          252.1917,
+          252.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_73 # main-ratline-P-20",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          351.4984,
+          359.5031
+        ],
+        [
+          106.775,
+          107.1625
+        ],
+        [
+          259.3917,
+          259.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_74 # main-ratline-P-21",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          352.2984,
+          358.7031
+        ],
+        [
+          108.695,
+          109.0425
+        ],
+        [
+          266.5917,
+          266.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_75 # main-shroud-S0",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          335.1023,
+          355.8977
+        ],
+        [
+          124.1135,
+          172.8865
+        ],
+        [
+          115.3969,
+          295.6031
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          335,
+          172,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          124,
+          295
+        ]
+      ]
+    },
+    {
+      "object": "rope_76 # main-shroud-S1",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          355.1,
+          355.9
+        ],
+        [
+          124.1135,
+          172.8865
+        ],
+        [
+          115.3969,
+          295.6031
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          355,
+          172,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          124,
+          295
+        ]
+      ]
+    },
+    {
+      "object": "rope_77 # main-shroud-S2",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          355.1023,
+          375.8977
+        ],
+        [
+          124.113,
+          171.887
+        ],
+        [
+          115.3989,
+          295.6011
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          375,
+          171,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          124,
+          295
+        ]
+      ]
+    },
+    {
+      "object": "rope_78 # main-ratline-S-1",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          336.2969,
+          374.7016
+        ],
+        [
+          169.495,
+          170.6425
+        ],
+        [
+          122.5917,
+          122.8083
+        ]
+      ],
+      "shell_vertex_hits": 2,
+      "shell_examples": [
+        [
+          374,
+          169,
+          122
+        ],
+        [
+          336,
+          170,
+          122
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_79 # main-ratline-S-2",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          337.0969,
+          373.9016
+        ],
+        [
+          167.615,
+          168.7225
+        ],
+        [
+          129.7917,
+          130.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_80 # main-ratline-S-3",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          337.8969,
+          373.1016
+        ],
+        [
+          165.735,
+          166.8025
+        ],
+        [
+          136.9917,
+          137.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_81 # main-ratline-S-4",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          338.6969,
+          372.3016
+        ],
+        [
+          163.855,
+          164.8825
+        ],
+        [
+          144.1917,
+          144.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_82 # main-ratline-S-5",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          339.4969,
+          371.5016
+        ],
+        [
+          161.975,
+          162.9625
+        ],
+        [
+          151.3917,
+          151.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_83 # main-ratline-S-6",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          340.2969,
+          370.7016
+        ],
+        [
+          160.095,
+          161.0425
+        ],
+        [
+          158.5917,
+          158.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_84 # main-ratline-S-7",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          341.0969,
+          369.9016
+        ],
+        [
+          158.215,
+          159.1225
+        ],
+        [
+          165.7917,
+          166.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_85 # main-ratline-S-8",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          341.8969,
+          369.1016
+        ],
+        [
+          156.335,
+          157.2025
+        ],
+        [
+          172.9917,
+          173.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_86 # main-ratline-S-9",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          342.6969,
+          368.3016
+        ],
+        [
+          154.455,
+          155.2825
+        ],
+        [
+          180.1917,
+          180.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_87 # main-ratline-S-10",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          343.4969,
+          367.5016
+        ],
+        [
+          152.575,
+          153.3625
+        ],
+        [
+          187.3917,
+          187.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_88 # main-ratline-S-11",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          344.2969,
+          366.7016
+        ],
+        [
+          150.695,
+          151.4425
+        ],
+        [
+          194.5917,
+          194.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_89 # main-ratline-S-12",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          345.0969,
+          365.9016
+        ],
+        [
+          148.815,
+          149.5225
+        ],
+        [
+          201.7917,
+          202.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_90 # main-ratline-S-13",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          345.8969,
+          365.1016
+        ],
+        [
+          146.935,
+          147.6025
+        ],
+        [
+          208.9917,
+          209.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_91 # main-ratline-S-14",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          346.6969,
+          364.3016
+        ],
+        [
+          145.055,
+          145.6825
+        ],
+        [
+          216.1917,
+          216.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_92 # main-ratline-S-15",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          347.4969,
+          363.5016
+        ],
+        [
+          143.175,
+          143.7625
+        ],
+        [
+          223.3917,
+          223.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_93 # main-ratline-S-16",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          348.2969,
+          362.7016
+        ],
+        [
+          141.295,
+          141.8425
+        ],
+        [
+          230.5917,
+          230.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_94 # main-ratline-S-17",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          349.0969,
+          361.9016
+        ],
+        [
+          139.415,
+          139.9225
+        ],
+        [
+          237.7917,
+          238.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_95 # main-ratline-S-18",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          349.8969,
+          361.1016
+        ],
+        [
+          137.535,
+          138.0025
+        ],
+        [
+          244.9917,
+          245.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_96 # main-ratline-S-19",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          350.6969,
+          360.3016
+        ],
+        [
+          135.655,
+          136.0825
+        ],
+        [
+          252.1917,
+          252.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_97 # main-ratline-S-20",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          351.4969,
+          359.5016
+        ],
+        [
+          133.775,
+          134.1625
+        ],
+        [
+          259.3917,
+          259.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_98 # main-ratline-S-21",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          352.2969,
+          358.7016
+        ],
+        [
+          131.895,
+          132.2425
+        ],
+        [
+          266.5917,
+          266.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_99 # main-stay",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          355.436,
+          510.564
+        ],
+        [
+          120.0,
+          121.0
+        ],
+        [
+          300.0041,
+          320.9959
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 4,
+      "mast_examples": [
+        [
+          510,
+          120,
+          300
+        ],
+        [
+          510,
+          121,
+          300
+        ],
+        [
+          355,
+          120,
+          320
+        ],
+        [
+          355,
+          121,
+          320
+        ]
+      ]
+    },
+    {
+      "object": "rope_100 # main-backstay-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          335.2004,
+          355.7996
+        ],
+        [
+          68.2026,
+          120.7974
+        ],
+        [
+          115.4608,
+          510.5392
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          335,
+          68,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          120,
+          510
+        ]
+      ]
+    },
+    {
+      "object": "rope_101 # main-backstay-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          335.2004,
+          355.7996
+        ],
+        [
+          120.2026,
+          172.7974
+        ],
+        [
+          115.4608,
+          510.5392
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          335,
+          172,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          120,
+          510
+        ]
+      ]
+    },
+    {
+      "object": "rope_102 # fore-shroud-P0",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          490.1029,
+          510.8971
+        ],
+        [
+          77.1114,
+          116.8886
+        ],
+        [
+          115.3999,
+          275.6001
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          490,
+          77,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          116,
+          275
+        ]
+      ]
+    },
+    {
+      "object": "rope_103 # fore-shroud-P1",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          510.1,
+          510.9
+        ],
+        [
+          79.1103,
+          116.8897
+        ],
+        [
+          115.4099,
+          275.5901
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          510,
+          79,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          116,
+          275
+        ]
+      ]
+    },
+    {
+      "object": "rope_104 # fore-shroud-P2",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          510.103,
+          530.897
+        ],
+        [
+          84.1078,
+          116.8922
+        ],
+        [
+          115.4108,
+          275.5892
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          530,
+          84,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          116,
+          275
+        ]
+      ]
+    },
+    {
+      "object": "rope_105 # fore-ratline-P-1",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          491.2892,
+          529.7215
+        ],
+        [
+          78.9369,
+          85.8416
+        ],
+        [
+          121.7917,
+          122.0083
+        ]
+      ],
+      "shell_vertex_hits": 5,
+      "shell_examples": [
+        [
+          529,
+          85,
+          121
+        ],
+        [
+          491,
+          78,
+          121
+        ],
+        [
+          491,
+          79,
+          121
+        ],
+        [
+          529,
+          85,
+          122
+        ],
+        [
+          491,
+          79,
+          122
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_106 # fore-ratline-P-2",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          492.0892,
+          528.9215
+        ],
+        [
+          80.4969,
+          87.1216
+        ],
+        [
+          128.1917,
+          128.4083
+        ]
+      ],
+      "shell_vertex_hits": 2,
+      "shell_examples": [
+        [
+          492,
+          80,
+          128
+        ],
+        [
+          528,
+          86,
+          128
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_107 # fore-ratline-P-3",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          492.8892,
+          528.1215
+        ],
+        [
+          82.0569,
+          88.4016
+        ],
+        [
+          134.5917,
+          134.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_108 # fore-ratline-P-4",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          493.6892,
+          527.3215
+        ],
+        [
+          83.6169,
+          89.6816
+        ],
+        [
+          140.9917,
+          141.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_109 # fore-ratline-P-5",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          494.4892,
+          526.5215
+        ],
+        [
+          85.1769,
+          90.9616
+        ],
+        [
+          147.3917,
+          147.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_110 # fore-ratline-P-6",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          495.2892,
+          525.7215
+        ],
+        [
+          86.7369,
+          92.2416
+        ],
+        [
+          153.7917,
+          154.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_111 # fore-ratline-P-7",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          496.0892,
+          524.9215
+        ],
+        [
+          88.2969,
+          93.5216
+        ],
+        [
+          160.1917,
+          160.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_112 # fore-ratline-P-8",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          496.8892,
+          524.1215
+        ],
+        [
+          89.8569,
+          94.8016
+        ],
+        [
+          166.5917,
+          166.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_113 # fore-ratline-P-9",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          497.6892,
+          523.3215
+        ],
+        [
+          91.4169,
+          96.0816
+        ],
+        [
+          172.9917,
+          173.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_114 # fore-ratline-P-10",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          498.4892,
+          522.5215
+        ],
+        [
+          92.9769,
+          97.3616
+        ],
+        [
+          179.3917,
+          179.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_115 # fore-ratline-P-11",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          499.2892,
+          521.7215
+        ],
+        [
+          94.5369,
+          98.6416
+        ],
+        [
+          185.7917,
+          186.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_116 # fore-ratline-P-12",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          500.0892,
+          520.9215
+        ],
+        [
+          96.0969,
+          99.9216
+        ],
+        [
+          192.1917,
+          192.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_117 # fore-ratline-P-13",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          500.8892,
+          520.1215
+        ],
+        [
+          97.6569,
+          101.2016
+        ],
+        [
+          198.5917,
+          198.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_118 # fore-ratline-P-14",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          501.6892,
+          519.3215
+        ],
+        [
+          99.2169,
+          102.4816
+        ],
+        [
+          204.9917,
+          205.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_119 # fore-ratline-P-15",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          502.4892,
+          518.5215
+        ],
+        [
+          100.7769,
+          103.7616
+        ],
+        [
+          211.3917,
+          211.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_120 # fore-ratline-P-16",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          503.2892,
+          517.7215
+        ],
+        [
+          102.3369,
+          105.0416
+        ],
+        [
+          217.7917,
+          218.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_121 # fore-ratline-P-17",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          504.0892,
+          516.9215
+        ],
+        [
+          103.8969,
+          106.3216
+        ],
+        [
+          224.1917,
+          224.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_122 # fore-ratline-P-18",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          504.8892,
+          516.1215
+        ],
+        [
+          105.4569,
+          107.6016
+        ],
+        [
+          230.5917,
+          230.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_123 # fore-ratline-P-19",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          505.6892,
+          515.3215
+        ],
+        [
+          107.0169,
+          108.8816
+        ],
+        [
+          236.9917,
+          237.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_124 # fore-ratline-P-20",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          506.4892,
+          514.5215
+        ],
+        [
+          108.5769,
+          110.1616
+        ],
+        [
+          243.3917,
+          243.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_125 # fore-ratline-P-21",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          507.2892,
+          513.7215
+        ],
+        [
+          110.1369,
+          111.4416
+        ],
+        [
+          249.7917,
+          250.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_126 # fore-shroud-S0",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          490.1029,
+          510.8971
+        ],
+        [
+          124.1114,
+          163.8886
+        ],
+        [
+          115.3999,
+          275.6001
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          490,
+          163,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          124,
+          275
+        ]
+      ]
+    },
+    {
+      "object": "rope_127 # fore-shroud-S1",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          510.1,
+          510.9
+        ],
+        [
+          124.1103,
+          161.8897
+        ],
+        [
+          115.4099,
+          275.5901
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          510,
+          161,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          124,
+          275
+        ]
+      ]
+    },
+    {
+      "object": "rope_128 # fore-shroud-S2",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          510.103,
+          530.897
+        ],
+        [
+          124.1078,
+          156.8922
+        ],
+        [
+          115.4108,
+          275.5892
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          530,
+          156,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          124,
+          275
+        ]
+      ]
+    },
+    {
+      "object": "rope_129 # fore-ratline-S-1",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          491.2785,
+          529.7108
+        ],
+        [
+          155.0969,
+          162.0016
+        ],
+        [
+          121.7917,
+          122.0083
+        ]
+      ],
+      "shell_vertex_hits": 5,
+      "shell_examples": [
+        [
+          529,
+          155,
+          122
+        ],
+        [
+          491,
+          162,
+          122
+        ],
+        [
+          491,
+          161,
+          121
+        ],
+        [
+          491,
+          162,
+          121
+        ],
+        [
+          529,
+          155,
+          121
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_130 # fore-ratline-S-2",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          492.0785,
+          528.9108
+        ],
+        [
+          153.8169,
+          160.4416
+        ],
+        [
+          128.1917,
+          128.4083
+        ]
+      ],
+      "shell_vertex_hits": 2,
+      "shell_examples": [
+        [
+          492,
+          160,
+          128
+        ],
+        [
+          528,
+          154,
+          128
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_131 # fore-ratline-S-3",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          492.8785,
+          528.1108
+        ],
+        [
+          152.5369,
+          158.8816
+        ],
+        [
+          134.5917,
+          134.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_132 # fore-ratline-S-4",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          493.6785,
+          527.3108
+        ],
+        [
+          151.2569,
+          157.3216
+        ],
+        [
+          140.9917,
+          141.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_133 # fore-ratline-S-5",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          494.4785,
+          526.5108
+        ],
+        [
+          149.9769,
+          155.7616
+        ],
+        [
+          147.3917,
+          147.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_134 # fore-ratline-S-6",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          495.2785,
+          525.7108
+        ],
+        [
+          148.6969,
+          154.2016
+        ],
+        [
+          153.7917,
+          154.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_135 # fore-ratline-S-7",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          496.0785,
+          524.9108
+        ],
+        [
+          147.4169,
+          152.6416
+        ],
+        [
+          160.1917,
+          160.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_136 # fore-ratline-S-8",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          496.8785,
+          524.1108
+        ],
+        [
+          146.1369,
+          151.0816
+        ],
+        [
+          166.5917,
+          166.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_137 # fore-ratline-S-9",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          497.6785,
+          523.3108
+        ],
+        [
+          144.8569,
+          149.5216
+        ],
+        [
+          172.9917,
+          173.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_138 # fore-ratline-S-10",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          498.4785,
+          522.5108
+        ],
+        [
+          143.5769,
+          147.9616
+        ],
+        [
+          179.3917,
+          179.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_139 # fore-ratline-S-11",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          499.2785,
+          521.7108
+        ],
+        [
+          142.2969,
+          146.4016
+        ],
+        [
+          185.7917,
+          186.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_140 # fore-ratline-S-12",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          500.0785,
+          520.9108
+        ],
+        [
+          141.0169,
+          144.8416
+        ],
+        [
+          192.1917,
+          192.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_141 # fore-ratline-S-13",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          500.8785,
+          520.1108
+        ],
+        [
+          139.7369,
+          143.2816
+        ],
+        [
+          198.5917,
+          198.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_142 # fore-ratline-S-14",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          501.6785,
+          519.3108
+        ],
+        [
+          138.4569,
+          141.7216
+        ],
+        [
+          204.9917,
+          205.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_143 # fore-ratline-S-15",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          502.4785,
+          518.5108
+        ],
+        [
+          137.1769,
+          140.1616
+        ],
+        [
+          211.3917,
+          211.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_144 # fore-ratline-S-16",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          503.2785,
+          517.7108
+        ],
+        [
+          135.8969,
+          138.6016
+        ],
+        [
+          217.7917,
+          218.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_145 # fore-ratline-S-17",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          504.0785,
+          516.9108
+        ],
+        [
+          134.6169,
+          137.0416
+        ],
+        [
+          224.1917,
+          224.4083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_146 # fore-ratline-S-18",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          504.8785,
+          516.1108
+        ],
+        [
+          133.3369,
+          135.4816
+        ],
+        [
+          230.5917,
+          230.8083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_147 # fore-ratline-S-19",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          505.6785,
+          515.3108
+        ],
+        [
+          132.0569,
+          133.9216
+        ],
+        [
+          236.9917,
+          237.2083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_148 # fore-ratline-S-20",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          506.4785,
+          514.5108
+        ],
+        [
+          130.7769,
+          132.3616
+        ],
+        [
+          243.3917,
+          243.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_149 # fore-ratline-S-21",
+      "vertex_count": 6,
+      "bounds": [
+        [
+          507.2785,
+          513.7108
+        ],
+        [
+          129.4969,
+          130.8016
+        ],
+        [
+          249.7917,
+          250.0083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_150 # fore-stay",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          510.2582,
+          700.7418
+        ],
+        [
+          120.0,
+          121.0
+        ],
+        [
+          195.0624,
+          300.9376
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 2,
+      "mast_examples": [
+        [
+          510,
+          120,
+          300
+        ],
+        [
+          510,
+          121,
+          300
+        ]
+      ]
+    },
+    {
+      "object": "rope_151 # fore-backstay-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          490.2005,
+          510.7995
+        ],
+        [
+          77.2022,
+          120.7978
+        ],
+        [
+          115.4622,
+          465.5378
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          490,
+          77,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          120,
+          465
+        ]
+      ]
+    },
+    {
+      "object": "rope_152 # fore-backstay-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          490.2005,
+          510.7995
+        ],
+        [
+          120.2022,
+          163.7978
+        ],
+        [
+          115.4622,
+          465.5378
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          490,
+          163,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          120,
+          465
+        ]
+      ]
+    },
+    {
+      "object": "rope_153 # fore-course.sheet-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          490.3306,
+          516.037
+        ],
+        [
+          60.5484,
+          77.6784
+        ],
+        [
+          115.3735,
+          152.8606
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          490,
+          77,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_154 # fore-course.sheet-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          490.361,
+          525.202
+        ],
+        [
+          163.2312,
+          163.7
+        ],
+        [
+          115.3562,
+          149.0599
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          490,
+          163,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_155 # fore-course.brace-P",
+      "vertex_count": 1048,
+      "bounds": [
+        [
+          482.4886,
+          490.6967
+        ],
+        [
+          34.7076,
+          77.6301
+        ],
+        [
+          115.35,
+          235.5329
+        ]
+      ],
+      "shell_vertex_hits": 8,
+      "shell_examples": [
+        [
+          490,
+          75,
+          117
+        ],
+        [
+          490,
+          75,
+          116
+        ],
+        [
+          490,
+          76,
+          116
+        ],
+        [
+          489,
+          75,
+          118
+        ],
+        [
+          490,
+          76,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_156 # fore-course.lift-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          482.4897,
+          510.6987
+        ],
+        [
+          34.7175,
+          120.6874
+        ],
+        [
+          235.4302,
+          465.5698
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          120,
+          465
+        ]
+      ]
+    },
+    {
+      "object": "rope_157 # fore-course.brace-S",
+      "vertex_count": 1120,
+      "bounds": [
+        [
+          490.3414,
+          538.5071
+        ],
+        [
+          163.3369,
+          206.2914
+        ],
+        [
+          115.3417,
+          235.5558
+        ]
+      ],
+      "shell_vertex_hits": 9,
+      "shell_examples": [
+        [
+          492,
+          165,
+          117
+        ],
+        [
+          492,
+          164,
+          116
+        ],
+        [
+          491,
+          164,
+          117
+        ],
+        [
+          491,
+          163,
+          116
+        ],
+        [
+          491,
+          164,
+          116
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_158 # fore-course.lift-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          510.3013,
+          538.5103
+        ],
+        [
+          120.3126,
+          206.2825
+        ],
+        [
+          235.4302,
+          465.5698
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          120,
+          465
+        ]
+      ]
+    },
+    {
+      "object": "rope_159 # fore-topsail.sheet-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          483.1442,
+          510.2576
+        ],
+        [
+          36.6358,
+          57.0186
+        ],
+        [
+          235.3543,
+          267.0885
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_160 # fore-topsail.sheet-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          537.5017,
+          547.452
+        ],
+        [
+          171.716,
+          204.3251
+        ],
+        [
+          235.3531,
+          266.7949
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_161 # fore-topsail.brace-P",
+      "vertex_count": 1856,
+      "bounds": [
+        [
+          487.1237,
+          490.6988
+        ],
+        [
+          48.9709,
+          77.5685
+        ],
+        [
+          115.3122,
+          340.5065
+        ]
+      ],
+      "shell_vertex_hits": 5,
+      "shell_examples": [
+        [
+          490,
+          75,
+          117
+        ],
+        [
+          490,
+          75,
+          116
+        ],
+        [
+          490,
+          76,
+          116
+        ],
+        [
+          490,
+          76,
+          115
+        ],
+        [
+          490,
+          77,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_162 # fore-topsail.lift-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          487.1335,
+          510.6902
+        ],
+        [
+          49.0077,
+          120.6631
+        ],
+        [
+          340.3971,
+          465.6029
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          120,
+          465
+        ]
+      ]
+    },
+    {
+      "object": "rope_163 # fore-topsail.brace-S",
+      "vertex_count": 1888,
+      "bounds": [
+        [
+          490.3483,
+          533.8758
+        ],
+        [
+          163.3328,
+          192.029
+        ],
+        [
+          115.3441,
+          340.5166
+        ]
+      ],
+      "shell_vertex_hits": 12,
+      "shell_examples": [
+        [
+          492,
+          165,
+          117
+        ],
+        [
+          492,
+          164,
+          116
+        ],
+        [
+          491,
+          164,
+          117
+        ],
+        [
+          491,
+          163,
+          116
+        ],
+        [
+          491,
+          164,
+          116
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_164 # fore-topsail.lift-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          510.3098,
+          533.8665
+        ],
+        [
+          120.3369,
+          191.9923
+        ],
+        [
+          340.3971,
+          465.6029
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          120,
+          465
+        ]
+      ]
+    },
+    {
+      "object": "rope_165 # fore-topgallant.sheet-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          487.7947,
+          512.9284
+        ],
+        [
+          50.9242,
+          75.3041
+        ],
+        [
+          340.3244,
+          359.5545
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_166 # fore-topgallant.sheet-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          532.8611,
+          539.1166
+        ],
+        [
+          155.7422,
+          190.0216
+        ],
+        [
+          340.3245,
+          359.5666
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_167 # fore-topgallant.brace-P",
+      "vertex_count": 2056,
+      "bounds": [
+        [
+          490.3052,
+          495.2491
+        ],
+        [
+          72.7472,
+          77.6945
+        ],
+        [
+          113.6718,
+          420.5005
+        ]
+      ],
+      "shell_vertex_hits": 17,
+      "shell_examples": [
+        [
+          491,
+          75,
+          113
+        ],
+        [
+          491,
+          77,
+          114
+        ],
+        [
+          490,
+          76,
+          114
+        ],
+        [
+          492,
+          75,
+          116
+        ],
+        [
+          491,
+          76,
+          114
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_168 # fore-topgallant.lift-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          494.8589,
+          510.6902
+        ],
+        [
+          72.8135,
+          120.6337
+        ],
+        [
+          420.3513,
+          465.6487
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          120,
+          465
+        ]
+      ]
+    },
+    {
+      "object": "rope_169 # fore-topgallant.brace-S",
+      "vertex_count": 2056,
+      "bounds": [
+        [
+          490.443,
+          526.1508
+        ],
+        [
+          163.3016,
+          168.2528
+        ],
+        [
+          115.3079,
+          420.5057
+        ]
+      ],
+      "shell_vertex_hits": 24,
+      "shell_examples": [
+        [
+          493,
+          164,
+          116
+        ],
+        [
+          493,
+          163,
+          117
+        ],
+        [
+          492,
+          163,
+          115
+        ],
+        [
+          494,
+          164,
+          117
+        ],
+        [
+          496,
+          164,
+          118
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_170 # fore-topgallant.lift-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          510.3098,
+          526.1411
+        ],
+        [
+          120.3663,
+          168.1865
+        ],
+        [
+          420.3513,
+          465.6487
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          120,
+          465
+        ]
+      ]
+    },
+    {
+      "object": "rope_171 # main-course.sheet-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          335.3262,
+          362.1656
+        ],
+        [
+          49.2928,
+          68.6804
+        ],
+        [
+          115.3786,
+          158.341
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          335,
+          68,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_172 # main-course.sheet-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          335.358,
+          373.4936
+        ],
+        [
+          172.3,
+          173.2316
+        ],
+        [
+          115.3591,
+          153.7955
+        ]
+      ],
+      "shell_vertex_hits": 1,
+      "shell_examples": [
+        [
+          335,
+          172,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_173 # main-course.brace-P",
+      "vertex_count": 1176,
+      "bounds": [
+        [
+          322.8534,
+          335.6936
+        ],
+        [
+          20.4418,
+          68.6278
+        ],
+        [
+          115.3498,
+          250.5331
+        ]
+      ],
+      "shell_vertex_hits": 5,
+      "shell_examples": [
+        [
+          335,
+          68,
+          115
+        ],
+        [
+          335,
+          67,
+          116
+        ],
+        [
+          335,
+          66,
+          116
+        ],
+        [
+          335,
+          67,
+          115
+        ],
+        [
+          334,
+          67,
+          116
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_174 # main-course.lift-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          322.8546,
+          355.6987
+        ],
+        [
+          20.4524,
+          120.6867
+        ],
+        [
+          250.4283,
+          510.5717
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          120,
+          510
+        ]
+      ]
+    },
+    {
+      "object": "rope_175 # main-course.brace-S",
+      "vertex_count": 1248,
+      "bounds": [
+        [
+          335.3405,
+          388.1426
+        ],
+        [
+          172.337,
+          220.5573
+        ],
+        [
+          115.3421,
+          250.5548
+        ]
+      ],
+      "shell_vertex_hits": 7,
+      "shell_examples": [
+        [
+          337,
+          173,
+          117
+        ],
+        [
+          335,
+          172,
+          115
+        ],
+        [
+          337,
+          173,
+          116
+        ],
+        [
+          335,
+          172,
+          116
+        ],
+        [
+          336,
+          173,
+          117
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_176 # main-course.lift-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          355.3013,
+          388.1454
+        ],
+        [
+          120.3133,
+          220.5476
+        ],
+        [
+          250.4283,
+          510.5717
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          120,
+          510
+        ]
+      ]
+    },
+    {
+      "object": "rope_177 # main-topsail.sheet-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          323.5089,
+          355.0766
+        ],
+        [
+          22.3701,
+          46.3622
+        ],
+        [
+          250.3539,
+          287.278
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_178 # main-topsail.sheet-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          387.1369,
+          398.5661
+        ],
+        [
+          180.8214,
+          218.5917
+        ],
+        [
+          250.3542,
+          287.3711
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_179 # main-topsail.brace-P",
+      "vertex_count": 2056,
+      "bounds": [
+        [
+          328.4155,
+          335.6952
+        ],
+        [
+          37.5582,
+          68.5733
+        ],
+        [
+          115.3097,
+          375.5059
+        ]
+      ],
+      "shell_vertex_hits": 6,
+      "shell_examples": [
+        [
+          335,
+          68,
+          115
+        ],
+        [
+          335,
+          67,
+          116
+        ],
+        [
+          335,
+          66,
+          116
+        ],
+        [
+          335,
+          67,
+          115
+        ],
+        [
+          334,
+          67,
+          116
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_180 # main-topsail.lift-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          328.4253,
+          355.6902
+        ],
+        [
+          37.5982,
+          120.6599
+        ],
+        [
+          375.3917,
+          510.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          120,
+          510
+        ]
+      ]
+    },
+    {
+      "object": "rope_181 # main-topsail.brace-S",
+      "vertex_count": 2056,
+      "bounds": [
+        [
+          335.3501,
+          382.5841
+        ],
+        [
+          172.3327,
+          203.4417
+        ],
+        [
+          115.3418,
+          375.515
+        ]
+      ],
+      "shell_vertex_hits": 12,
+      "shell_examples": [
+        [
+          337,
+          173,
+          117
+        ],
+        [
+          335,
+          172,
+          115
+        ],
+        [
+          335,
+          173,
+          116
+        ],
+        [
+          336,
+          172,
+          115
+        ],
+        [
+          336,
+          173,
+          115
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_182 # main-topsail.lift-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          355.3098,
+          382.5747
+        ],
+        [
+          120.3401,
+          203.4018
+        ],
+        [
+          375.3917,
+          510.6083
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          120,
+          510
+        ]
+      ]
+    },
+    {
+      "object": "rope_183 # main-topgallant.sheet-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          329.0824,
+          357.3593
+        ],
+        [
+          39.5077,
+          67.0489
+        ],
+        [
+          375.329,
+          399.3416
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_184 # main-topgallant.sheet-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          381.5692,
+          388.4291
+        ],
+        [
+          162.7426,
+          201.4421
+        ],
+        [
+          375.329,
+          399.357
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_185 # main-topgallant.brace-P",
+      "vertex_count": 2056,
+      "bounds": [
+        [
+          335.3004,
+          337.159
+        ],
+        [
+          63.2366,
+          68.6956
+        ],
+        [
+          113.2255,
+          460.5003
+        ]
+      ],
+      "shell_vertex_hits": 13,
+      "shell_examples": [
+        [
+          335,
+          68,
+          115
+        ],
+        [
+          336,
+          66,
+          115
+        ],
+        [
+          336,
+          66,
+          116
+        ],
+        [
+          335,
+          66,
+          114
+        ],
+        [
+          335,
+          67,
+          113
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_186 # main-topgallant.lift-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          336.7688,
+          355.6902
+        ],
+        [
+          63.3068,
+          120.6298
+        ],
+        [
+          460.3464,
+          510.6536
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          120,
+          510
+        ]
+      ]
+    },
+    {
+      "object": "rope_187 # main-topgallant.brace-S",
+      "vertex_count": 2056,
+      "bounds": [
+        [
+          335.4475,
+          374.2409
+        ],
+        [
+          172.3017,
+          177.7634
+        ],
+        [
+          115.306,
+          460.5054
+        ]
+      ],
+      "shell_vertex_hits": 23,
+      "shell_examples": [
+        [
+          337,
+          172,
+          116
+        ],
+        [
+          338,
+          172,
+          116
+        ],
+        [
+          340,
+          173,
+          118
+        ],
+        [
+          339,
+          172,
+          116
+        ],
+        [
+          342,
+          173,
+          119
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_188 # main-topgallant.lift-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          355.3098,
+          374.2312
+        ],
+        [
+          120.3702,
+          177.6932
+        ],
+        [
+          460.3464,
+          510.6536
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          355,
+          120,
+          510
+        ]
+      ]
+    },
+    {
+      "object": "rope_189 # mizzen-topsail.sheet-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          188.9598,
+          206.4278
+        ],
+        [
+          69.9213,
+          82.275
+        ],
+        [
+          255.3573,
+          276.1884
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_190 # mizzen-topsail.sheet-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          221.6887,
+          228.8508
+        ],
+        [
+          150.9711,
+          171.0456
+        ],
+        [
+          255.3573,
+          276.1939
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_191 # mizzen-topsail.brace-P",
+      "vertex_count": 1720,
+      "bounds": [
+        [
+          185.3255,
+          191.7942
+        ],
+        [
+          77.5025,
+          83.6758
+        ],
+        [
+          129.6406,
+          340.5012
+        ]
+      ],
+      "shell_vertex_hits": 21,
+      "shell_examples": [
+        [
+          187,
+          82,
+          129
+        ],
+        [
+          186,
+          81,
+          130
+        ],
+        [
+          188,
+          81,
+          132
+        ],
+        [
+          187,
+          81,
+          130
+        ],
+        [
+          187,
+          81,
+          133
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_192 # mizzen-topsail.lift-P",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          191.404,
+          205.6902
+        ],
+        [
+          77.5461,
+          120.6564
+        ],
+        [
+          340.3862,
+          405.6138
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          205,
+          120,
+          405
+        ]
+      ]
+    },
+    {
+      "object": "rope_193 # mizzen-topsail.brace-S",
+      "vertex_count": 1736,
+      "bounds": [
+        [
+          185.3994,
+          219.6055
+        ],
+        [
+          157.3029,
+          163.4975
+        ],
+        [
+          130.328,
+          340.5097
+        ]
+      ],
+      "shell_vertex_hits": 35,
+      "shell_examples": [
+        [
+          193,
+          158,
+          138
+        ],
+        [
+          194,
+          158,
+          141
+        ],
+        [
+          188,
+          158,
+          132
+        ],
+        [
+          189,
+          158,
+          133
+        ],
+        [
+          191,
+          158,
+          135
+        ]
+      ],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "rope_194 # mizzen-topsail.lift-S",
+      "vertex_count": 16,
+      "bounds": [
+        [
+          205.3098,
+          219.596
+        ],
+        [
+          120.3436,
+          163.4539
+        ],
+        [
+          340.3862,
+          405.6138
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          205,
+          120,
+          405
+        ]
+      ]
+    },
+    {
+      "object": "sail_0 # fore-course",
+      "vertex_count": 8192,
+      "bounds": [
+        [
+          483.2781,
+          568.2671
+        ],
+        [
+          34.7135,
+          204.2073
+        ],
+        [
+          148.8877,
+          235.5446
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 5,
+      "mast_examples": [
+        [
+          513,
+          119,
+          230
+        ],
+        [
+          511,
+          120,
+          234
+        ],
+        [
+          512,
+          119,
+          231
+        ],
+        [
+          512,
+          119,
+          233
+        ],
+        [
+          510,
+          120,
+          235
+        ]
+      ]
+    },
+    {
+      "object": "sail_1 # fore-topsail",
+      "vertex_count": 8192,
+      "bounds": [
+        [
+          487.8962,
+          552.2073
+        ],
+        [
+          48.8231,
+          189.9337
+        ],
+        [
+          266.642,
+          340.5456
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 3,
+      "mast_examples": [
+        [
+          511,
+          119,
+          338
+        ],
+        [
+          510,
+          120,
+          340
+        ],
+        [
+          511,
+          120,
+          339
+        ]
+      ]
+    },
+    {
+      "object": "sail_2 # fore-topgallant",
+      "vertex_count": 8192,
+      "bounds": [
+        [
+          495.6381,
+          544.9751
+        ],
+        [
+          71.6786,
+          166.157
+        ],
+        [
+          359.3641,
+          420.5456
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 4,
+      "mast_examples": [
+        [
+          511,
+          120,
+          419
+        ],
+        [
+          511,
+          120,
+          418
+        ],
+        [
+          510,
+          120,
+          419
+        ],
+        [
+          510,
+          120,
+          420
+        ]
+      ]
+    },
+    {
+      "object": "sail_3 # main-course",
+      "vertex_count": 8192,
+      "bounds": [
+        [
+          323.6411,
+          421.1279
+        ],
+        [
+          20.4894,
+          218.4733
+        ],
+        [
+          153.6267,
+          250.5453
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 4,
+      "mast_examples": [
+        [
+          355,
+          120,
+          250
+        ],
+        [
+          357,
+          119,
+          247
+        ],
+        [
+          356,
+          120,
+          249
+        ],
+        [
+          358,
+          119,
+          246
+        ]
+      ]
+    },
+    {
+      "object": "sail_4 # main-topsail",
+      "vertex_count": 8192,
+      "bounds": [
+        [
+          329.1906,
+          403.9871
+        ],
+        [
+          36.8539,
+          201.346
+        ],
+        [
+          287.1211,
+          375.5459
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 3,
+      "mast_examples": [
+        [
+          356,
+          120,
+          374
+        ],
+        [
+          355,
+          120,
+          375
+        ],
+        [
+          356,
+          119,
+          372
+        ]
+      ]
+    },
+    {
+      "object": "sail_5 # main-topgallant",
+      "vertex_count": 8192,
+      "bounds": [
+        [
+          337.5332,
+          393.3606
+        ],
+        [
+          62.4884,
+          175.6655
+        ],
+        [
+          399.1576,
+          460.5481
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 2,
+      "mast_examples": [
+        [
+          356,
+          120,
+          459
+        ],
+        [
+          355,
+          120,
+          460
+        ]
+      ]
+    },
+    {
+      "object": "sail_6 # mizzen-topsail",
+      "vertex_count": 8192,
+      "bounds": [
+        [
+          192.179,
+          233.9068
+        ],
+        [
+          77.3309,
+          161.4039
+        ],
+        [
+          276.0351,
+          340.5419
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 5,
+      "mast_examples": [
+        [
+          206,
+          120,
+          338
+        ],
+        [
+          206,
+          119,
+          337
+        ],
+        [
+          205,
+          120,
+          340
+        ],
+        [
+          205,
+          120,
+          339
+        ],
+        [
+          206,
+          120,
+          339
+        ]
+      ]
+    },
+    {
+      "object": "sail_7 # mizzen-lateen",
+      "vertex_count": 306,
+      "bounds": [
+        [
+          125.4898,
+          205.5
+        ],
+        [
+          110.568,
+          120.55
+        ],
+        [
+          205.4674,
+          315.5197
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 2,
+      "mast_examples": [
+        [
+          202,
+          120,
+          235
+        ],
+        [
+          205,
+          120,
+          230
+        ]
+      ]
+    },
+    {
+      "object": "sail_8 # jib",
+      "vertex_count": 240,
+      "bounds": [
+        [
+          510.4898,
+          748.5093
+        ],
+        [
+          113.2311,
+          145.5421
+        ],
+        [
+          145.4743,
+          300.5286
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 1,
+      "mast_examples": [
+        [
+          510,
+          120,
+          300
+        ]
+      ]
+    },
+    {
+      "object": "sail_9 # ensign",
+      "vertex_count": 2400,
+      "bounds": [
+        [
+          75.4796,
+          105.5291
+        ],
+        [
+          117.4114,
+          120.5489
+        ],
+        [
+          189.0738,
+          205.5582
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "sail_10 # ensign",
+      "vertex_count": 264,
+      "bounds": [
+        [
+          91.6144,
+          101.1671
+        ],
+        [
+          117.9134,
+          118.6516
+        ],
+        [
+          191.7149,
+          202.4434
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    },
+    {
+      "object": "sail_11 # ensign",
+      "vertex_count": 104,
+      "bounds": [
+        [
+          85.9108,
+          103.4624
+        ],
+        [
+          117.8288,
+          119.2785
+        ],
+        [
+          193.6274,
+          195.0077
+        ]
+      ],
+      "shell_vertex_hits": 0,
+      "shell_examples": [],
+      "mast_vertex_hits": 0,
+      "mast_examples": []
+    }
+  ],
+  "negative_control": "unverified, no shifted rig export provided"
+}

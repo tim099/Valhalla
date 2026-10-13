@@ -1,0 +1,43 @@
+{
+  "events_replayed": [
+    "230009_511_d5360c.json",
+    "230011_231_5c90a8.json",
+    "230133_765_4d916b.json",
+    "230136_710_bc4cb9.json"
+  ],
+  "actual_voxels": 118405,
+  "missing_or_color": 0,
+  "extra": 0,
+  "old_voxels": 276713,
+  "carved_count": 169618,
+  "carve_only_old_extras": true,
+  "retained_old_expected_unchanged": true,
+  "added_exact_missing": true,
+  "components_6": [
+    118405
+  ],
+  "mirror_missing_or_color": 0,
+  "bbox": [
+    [
+      105,
+      617
+    ],
+    [
+      54,
+      186
+    ],
+    [
+      0,
+      129
+    ]
+  ],
+  "cell_png_size": [
+    800,
+    200
+  ],
+  "png_projection_missing": 0,
+  "png_projection_extra": 0,
+  "negative_geometry_shift_x": 3,
+  "negative_measured_left_bound_shift": 3,
+  "negative_symmetric_pixel_difference": 9640
+}

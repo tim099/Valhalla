@@ -1,0 +1,1 @@
+Tim 已授權 Sirius 自行決定船名、圖紙與尺寸。《潮墓號》沿荷蘭人號的電影外觀，以17世紀北歐武裝帆船結構重新設計；不用虛構機能假裝已支援遊戲。最新帆繩 meta 已在CLI支援，shipbuilding文件§9.1尚有舊文字，需以實際help與遊戲程式交叉核對。來源路徑、三張實際親看電影照片、Vasa CC-BY署名及未知之處見作品design/references/README.md。

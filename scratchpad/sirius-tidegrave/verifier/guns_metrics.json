@@ -1,0 +1,1321 @@
+{
+  "watermarks": {
+    "sirius-tidegrave-01m": "2026-10-13\\232425_095_e7d450.json",
+    "sirius-tidegrave-01m-deck-lower": "2026-10-13\\230625_286_47b673.json",
+    "sirius-tidegrave-01m-deck-upper": "2026-10-13\\230629_452_5bc8bc.json",
+    "sirius-tidegrave-01m-deck-weather": "2026-10-13\\230633_102_f1aa5c.json",
+    "sirius-tidegrave-01m-deck-quarter": "2026-10-13\\230636_200_57ac6e.json",
+    "sirius-tidegrave-01m-deck-poop": "2026-10-13\\230638_507_0d82d4.json",
+    "sirius-tidegrave-01m-deck-forecastle": "2026-10-13\\230640_732_4d651a.json",
+    "sirius-tidegrave-01m-ladders": "2026-10-13\\231458_842_4ac143.json",
+    "sirius-tidegrave-01m-mast-mizzen": "2026-10-13\\231247_134_16a499.json",
+    "sirius-tidegrave-01m-mast-main": "2026-10-13\\231252_930_ca8bd2.json",
+    "sirius-tidegrave-01m-mast-fore": "2026-10-13\\231257_542_e0ba8a.json",
+    "sirius-tidegrave-01m-bowsprit": "2026-10-13\\232420_234_84207f.json",
+    "sirius-tidegrave-01m-chase-cradle": "2026-10-13\\232120_537_46084b.json"
+  },
+  "count": 54,
+  "guns": [
+    {
+      "frame": "lower",
+      "name": "砲-S01",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        175.5,
+        167.0,
+        77.5
+      ],
+      "breech": [
+        175.5,
+        139.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-P01",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        175.5,
+        74.0,
+        77.5
+      ],
+      "breech": [
+        175.5,
+        102.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-S02",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        207.5,
+        177.0,
+        77.5
+      ],
+      "breech": [
+        207.5,
+        149.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-P02",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        207.5,
+        64.0,
+        77.5
+      ],
+      "breech": [
+        207.5,
+        92.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-S03",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        239.5,
+        181.0,
+        77.5
+      ],
+      "breech": [
+        239.5,
+        153.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-P03",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        239.5,
+        60.0,
+        77.5
+      ],
+      "breech": [
+        239.5,
+        88.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-S04",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        271.5,
+        185.0,
+        77.5
+      ],
+      "breech": [
+        271.5,
+        157.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-P04",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        271.5,
+        56.0,
+        77.5
+      ],
+      "breech": [
+        271.5,
+        84.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-S05",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        303.5,
+        187.0,
+        77.5
+      ],
+      "breech": [
+        303.5,
+        159.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-P05",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        303.5,
+        54.0,
+        77.5
+      ],
+      "breech": [
+        303.5,
+        82.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-S06",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        335.5,
+        187.0,
+        77.5
+      ],
+      "breech": [
+        335.5,
+        159.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-P06",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        335.5,
+        54.0,
+        77.5
+      ],
+      "breech": [
+        335.5,
+        82.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-S07",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        367.5,
+        187.0,
+        77.5
+      ],
+      "breech": [
+        367.5,
+        159.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-P07",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        367.5,
+        54.0,
+        77.5
+      ],
+      "breech": [
+        367.5,
+        82.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-S08",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        399.5,
+        186.0,
+        77.5
+      ],
+      "breech": [
+        399.5,
+        158.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-P08",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        399.5,
+        55.0,
+        77.5
+      ],
+      "breech": [
+        399.5,
+        83.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-S09",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        431.5,
+        184.0,
+        77.5
+      ],
+      "breech": [
+        431.5,
+        156.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-P09",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        431.5,
+        57.0,
+        77.5
+      ],
+      "breech": [
+        431.5,
+        85.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-S10",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        463.5,
+        180.0,
+        77.5
+      ],
+      "breech": [
+        463.5,
+        152.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-P10",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        463.5,
+        61.0,
+        77.5
+      ],
+      "breech": [
+        463.5,
+        89.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-S11",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        495.5,
+        175.0,
+        77.5
+      ],
+      "breech": [
+        495.5,
+        147.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-P11",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        495.5,
+        66.0,
+        77.5
+      ],
+      "breech": [
+        495.5,
+        94.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-S12",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        527.5,
+        165.0,
+        77.5
+      ],
+      "breech": [
+        527.5,
+        137.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "lower",
+      "name": "砲-P12",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        527.5,
+        76.0,
+        77.5
+      ],
+      "breech": [
+        527.5,
+        104.0,
+        77.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-S01",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        175.5,
+        165.0,
+        102.5
+      ],
+      "breech": [
+        175.5,
+        137.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-P01",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        175.5,
+        76.0,
+        102.5
+      ],
+      "breech": [
+        175.5,
+        104.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-S02",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        207.5,
+        173.0,
+        102.5
+      ],
+      "breech": [
+        207.5,
+        145.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-P02",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        207.5,
+        68.0,
+        102.5
+      ],
+      "breech": [
+        207.5,
+        96.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-S03",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        239.5,
+        177.0,
+        102.5
+      ],
+      "breech": [
+        239.5,
+        149.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-P03",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        239.5,
+        64.0,
+        102.5
+      ],
+      "breech": [
+        239.5,
+        92.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-S04",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        271.5,
+        180.0,
+        102.5
+      ],
+      "breech": [
+        271.5,
+        152.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-P04",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        271.5,
+        61.0,
+        102.5
+      ],
+      "breech": [
+        271.5,
+        89.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-S05",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        303.5,
+        181.0,
+        102.5
+      ],
+      "breech": [
+        303.5,
+        153.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-P05",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        303.5,
+        60.0,
+        102.5
+      ],
+      "breech": [
+        303.5,
+        88.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-S06",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        335.5,
+        182.0,
+        102.5
+      ],
+      "breech": [
+        335.5,
+        154.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-P06",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        335.5,
+        59.0,
+        102.5
+      ],
+      "breech": [
+        335.5,
+        87.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-S07",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        367.5,
+        182.0,
+        102.5
+      ],
+      "breech": [
+        367.5,
+        154.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-P07",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        367.5,
+        59.0,
+        102.5
+      ],
+      "breech": [
+        367.5,
+        87.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-S08",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        399.5,
+        181.0,
+        102.5
+      ],
+      "breech": [
+        399.5,
+        153.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-P08",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        399.5,
+        60.0,
+        102.5
+      ],
+      "breech": [
+        399.5,
+        88.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-S09",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        431.5,
+        180.0,
+        102.5
+      ],
+      "breech": [
+        431.5,
+        152.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-P09",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        431.5,
+        61.0,
+        102.5
+      ],
+      "breech": [
+        431.5,
+        89.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-S10",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        463.5,
+        176.0,
+        102.5
+      ],
+      "breech": [
+        463.5,
+        148.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-P10",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        463.5,
+        65.0,
+        102.5
+      ],
+      "breech": [
+        463.5,
+        93.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-S11",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        495.5,
+        172.0,
+        102.5
+      ],
+      "breech": [
+        495.5,
+        144.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-P11",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        495.5,
+        69.0,
+        102.5
+      ],
+      "breech": [
+        495.5,
+        97.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-S12",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        527.5,
+        164.0,
+        102.5
+      ],
+      "breech": [
+        527.5,
+        136.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "upper",
+      "name": "砲-P12",
+      "source": "basecamp-frigate-constitution-01m-gun-24",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "muzzle": [
+        527.5,
+        77.0,
+        102.5
+      ],
+      "breech": [
+        527.5,
+        105.0,
+        102.5
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "weather",
+      "name": "chase-1",
+      "source": "sirius-tidegrave-01m-chase-tube",
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "muzzle": [
+        615.75,
+        103.5,
+        125.25
+      ],
+      "breech": [
+        587.25,
+        103.5,
+        125.25
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "weather",
+      "name": "chase-2",
+      "source": "sirius-tidegrave-01m-chase-tube",
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "muzzle": [
+        615.75,
+        98.5,
+        133.25
+      ],
+      "breech": [
+        587.25,
+        98.5,
+        133.25
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "weather",
+      "name": "chase-3",
+      "source": "sirius-tidegrave-01m-chase-tube",
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "muzzle": [
+        615.75,
+        108.5,
+        133.25
+      ],
+      "breech": [
+        587.25,
+        108.5,
+        133.25
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "weather",
+      "name": "chase-4",
+      "source": "sirius-tidegrave-01m-chase-tube",
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "muzzle": [
+        615.75,
+        137.5,
+        125.25
+      ],
+      "breech": [
+        587.25,
+        137.5,
+        125.25
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "weather",
+      "name": "chase-5",
+      "source": "sirius-tidegrave-01m-chase-tube",
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "muzzle": [
+        615.75,
+        132.5,
+        133.25
+      ],
+      "breech": [
+        587.25,
+        132.5,
+        133.25
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    },
+    {
+      "frame": "weather",
+      "name": "chase-6",
+      "source": "sirius-tidegrave-01m-chase-tube",
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "muzzle": [
+        615.75,
+        142.5,
+        133.25
+      ],
+      "breech": [
+        587.25,
+        142.5,
+        133.25
+      ],
+      "cube_volume_collision_count": 0,
+      "collision_examples": [],
+      "outbound_20m_ray_obstruction_count": 0,
+      "obstruction_examples": []
+    }
+  ],
+  "rig_prior_missing_sheets_now_present": {
+    "jib": true,
+    "mizzen-lateen": true
+  },
+  "notes": "axis-aligned 0/180/-90 rotations; exact voxel-cube interior overlap, touching surfaces excluded. source cache read independently, no author checker."
+}

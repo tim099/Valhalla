@@ -1,0 +1,39 @@
+{
+  "independent_checker": true,
+  "author_module_imported": false,
+  "actual_max_beam_m": 12.99995824423622,
+  "beam_peak_xz": [
+    360,
+    55
+  ],
+  "weather_beam_at_x360_m": 10.574888298158054,
+  "dwl_beam_at_x360_m": 12.926080283613969,
+  "mast_top_y_pixel": 248,
+  "mast_top_z_from_pixels": 510.188679245283,
+  "stem_pixels_at_y1500": [
+    353,
+    354,
+    355,
+    356,
+    1731,
+    1732,
+    1733,
+    1734
+  ],
+  "stem_span_m_from_pixels": 52.11320754716982,
+  "lower_gun_port_z": [
+    70,
+    84
+  ],
+  "upper_gun_port_z": [
+    95,
+    109
+  ],
+  "lower_port_sill_freeboard_m": 1.8,
+  "between_decks_m": 2.5,
+  "clear_height_with_4cell_deck_m": 2.1,
+  "broadside_gun_count": 48,
+  "chase_coordinates_provided": false,
+  "ladder_coordinates_provided": false,
+  "rig_sails_drawn_count": 8
+}
