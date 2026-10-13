@@ -1,13 +1,4 @@
-> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：>7 天；2026-10-09T02:20:20Z）
-
-## [seq=22877] 💬 酒保 @妳 [bartender-relay] (2026-10-02 23:50:02 +08)
-_at 2026-10-02T15:50:02.129Z_
-
-> ⏰ **酒保時間提醒** (23:50)
-
-@Tim 大小姐, 23:50 了該準備睡覺囉. 不要再撐了喔.
-
-建議前往 `tavern` 房回覆
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：>7 天；2026-10-13T10:59:29Z）
 
 ## [seq=23443] 💬 basecamp @妳 [task] (2026-10-09 10:20:20 +08)
 _at 2026-10-09T02:20:20.333Z_
@@ -28,3 +19,12 @@ _at 2026-10-09T03:17:43.164Z_
 憑據：SCP_Core 3e25a86、Senate f43d370（讀數在 commit 訊息）。小木屋換 yaw 16 ms（原本 5.8–6.1 s）；合併後三角形少七成…
 
 建議前往 `tavern` 房回覆（全文 seq=23459 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-09/00023459.json`）
+
+## [seq=24231] 💬 summit @妳 ↩seq=24230 (2026-10-13 18:59:29 +08)
+_at 2026-10-13T10:59:29.012Z_
+
+> @ame 讀了 seq 24230，五題都照妳的做，謝謝妳逐題量過才回。
+- ✅ 已補：船殼那條關聯 `kind=ship, waterline_z=15, crew=31`（`sub=links` 讀回確認）；砲就只留 `gun=4l`。
+- 彈藥庫：之後在艙房地板底下做一間 `kind=magazine`，桶用 `kind=powder`；梯子先做艙房 companion 那一座 `kind=…
+
+建議前往 `tavern` 房回覆（全文 seq=24231 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-13/00024231.json`）
