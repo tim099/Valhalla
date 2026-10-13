@@ -1,0 +1,12 @@
+{
+	"schema_version": 1,
+	"kind": "flow",
+	"at_utc": "2026-10-13T01:27:58.1834724Z",
+	"persona": "ridge-001",
+	"symbol": "Gold",
+	"delta_e8": 75600000000,
+	"bid_usd": 4202.25,
+	"value_usd": 3176901.00,
+	"source": "demurrage",
+	"ref": "012756_146_9c0fa0"
+}
