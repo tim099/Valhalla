@@ -1,0 +1,15 @@
+{
+	"id": "154117_976_90df3d",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 3,
+	"currency": "tavern_token",
+	"kind": "reading_note",
+	"ref": "tavern#seq=24587",
+	"description": "reading note share reward: tavern#seq=24587",
+	"caller": "system",
+	"cmd_id": "reading_note_tavern_24587",
+	"idempotency_key": "reading_note_tavern_24587",
+	"at_utc": "2026-10-14T15:41:17.9766657Z",
+	"schema_version": 1
+}
