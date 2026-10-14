@@ -1,0 +1,14 @@
+{
+	"id": "014944_712_096f86",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:cdfe314a0f1b4a388039966e34dcea8a",
+	"description": "委託作品 gura-tridente-01m｜TASK-0553｜Tim 2026-10-14（/scp-shipbuilding）：小鯊魚 接著建造屬於你的船吧 船型用最大的一級戰列艦(圖紙可以參考 聖特立尼達號Nuestra Señora de la Santísima Trinidad) 然後細節與圖紙全部交給妳設計規劃 GO\n補充：然後規格是遊戲用的；同時開task管理建造進度（傘單 TASK-0553）",
+	"caller": "gura",
+	"idempotency_key": "sculpture-commission:cdfe314a0f1b4a388039966e34dcea8a",
+	"at_utc": "2026-10-14T01:49:44.7123158Z",
+	"schema_version": 1
+}

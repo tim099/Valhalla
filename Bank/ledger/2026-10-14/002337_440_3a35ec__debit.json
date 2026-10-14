@@ -1,0 +1,14 @@
+{
+	"id": "002337_440_3a35ec",
+	"type": "debit",
+	"account_id": "altair",
+	"amount": 16,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee",
+	"ref": "overnight-fee-2026-10-14-altair",
+	"description": "跨日 2026-10-14 存款保管費 5% (超過 1000 的 338 × 5% = 16) → 存入 pacific-standard-public-deposit-bank",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-2026-10-14-altair",
+	"at_utc": "2026-10-14T00:23:37.4400882Z",
+	"schema_version": 1
+}

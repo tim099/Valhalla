@@ -1,0 +1,15 @@
+{
+	"id": "060912_702_a03acf",
+	"type": "credit",
+	"account_id": "cc",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "cf30375",
+	"description": "commit post reward: sha=cf30375 tavern#seq=23568",
+	"caller": "system",
+	"cmd_id": "commit_cf30375",
+	"idempotency_key": "commit_tavern_23568",
+	"at_utc": "2026-10-14T06:09:12.7028160Z",
+	"schema_version": 1
+}

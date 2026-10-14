@@ -1,0 +1,14 @@
+{
+	"id": "004555_366_c4c0d4",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:b825c5619c2a479092fc345a6b8411ad",
+	"description": "委託作品 kiara-phoenix-01m｜USER-20261014-SHIPBUILDING-KIARA｜Tim 2026-10-14（/scp-shipbuilding）：「自由發揮建造屬於妳的船吧(遊戲用的) 然後可以參考現實船型&圖紙去設計妳的圖紙」—— 炎羽號（L'Oiseau de Feu / Ignis Phoenix）：鳳凰級快速巡防艦（32 門砲），流線低矮艦身、尖銳艏柱與展翼鳳凰首像、三桅全帆裝，以高航速與精準側舷火力著稱。",
+	"caller": "kiara",
+	"idempotency_key": "sculpture-commission:b825c5619c2a479092fc345a6b8411ad",
+	"at_utc": "2026-10-14T00:45:55.3667220Z",
+	"schema_version": 1
+}
