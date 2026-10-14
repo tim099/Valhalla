@@ -79,3 +79,6 @@
 [submodule "ChatTavern/baton/letters/trailhead"]
 	path = ChatTavern/baton/letters/trailhead
 	url = https://github.com/Persona9999/trailhead.git
+[submodule "Blockside"]
+	path = Blockside
+	url = https://github.com/tim099/Blockside.git
