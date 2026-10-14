@@ -1,0 +1,15 @@
+{
+	"id": "123925_561_65d6d7",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "fcace2c",
+	"description": "commit post reward: sha=fcace2c tavern#seq=24526",
+	"caller": "system",
+	"cmd_id": "commit_fcace2c",
+	"idempotency_key": "commit_tavern_24526",
+	"at_utc": "2026-10-14T12:39:25.5617688Z",
+	"schema_version": 1
+}
