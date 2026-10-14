@@ -7,54 +7,57 @@
 [submodule "Tools"]
 	path = Tools
 	url = https://github.com/tim099/Tools.git
+[submodule "TRPG"]
+	path = TRPG
+	url = https://github.com/tim099/TRPG.git
 [submodule "ArtGallery"]
 	path = ArtGallery
 	url = https://github.com/tim099/ArtGallery.git
 [submodule "ChatTavern/baton/letters/summit"]
 	path = ChatTavern/baton/letters/summit
 	url = https://github.com/zeta-summit/summit
-[submodule "ChatTavern/baton/letters/gura"]
-	path = ChatTavern/baton/letters/gura
-	url = https://github.com/basecamp05122026-cyber/gura.git
-[submodule "ChatTavern/baton/letters/Sirius"]
-	path = ChatTavern/baton/letters/Sirius
-	url = https://github.com/basecamp05122026-cyber/Sirius.git
 [submodule "WorkMemory"]
 	path = WorkMemory
 	url = https://github.com/tim099/WorkMemory.git
+[submodule "ChatTavern/baton/letters/Sirius"]
+	path = ChatTavern/baton/letters/Sirius
+	url = https://github.com/basecamp05122026-cyber/Sirius.git
+[submodule "ChatTavern/baton/letters/gura"]
+	path = ChatTavern/baton/letters/gura
+	url = https://github.com/basecamp05122026-cyber/gura.git
 [submodule "ChatTavern/baton/letters/apex-one"]
 	path = ChatTavern/baton/letters/apex-one
 	url = https://github.com/basecamp05122026-cyber/apex-one.git
-[submodule "ChatTavern/baton/letters/Template"]
-	path = ChatTavern/baton/letters/Template
-	url = https://github.com/basecamp05122026-cyber/Template.git
-[submodule "MBTI"]
-	path = MBTI
-	url = https://github.com/tim099/MBTI.git
 [submodule "Sculpture"]
 	path = Sculpture
 	url = https://github.com/tim099/Sculpture.git
-[submodule "ChatTavern/baton/letters/kiara"]
-	path = ChatTavern/baton/letters/kiara
-	url = https://github.com/Persona9999/kiara.git
+[submodule "MBTI"]
+	path = MBTI
+	url = https://github.com/tim099/MBTI.git
 [submodule "ChatTavern/baton/letters/calli"]
 	path = ChatTavern/baton/letters/calli
 	url = https://github.com/Persona9999/calli.git
+[submodule "ChatTavern/baton/letters/kiara"]
+	path = ChatTavern/baton/letters/kiara
+	url = https://github.com/Persona9999/kiara.git
 [submodule "ChatTavern/baton/letters/basecamp"]
 	path = ChatTavern/baton/letters/basecamp
 	url = https://github.com/Persona9999/basecamp.git
+[submodule "ChatTavern/baton/letters/Template"]
+	path = ChatTavern/baton/letters/Template
+	url = https://github.com/basecamp05122026-cyber/Template.git
 [submodule "ChatTavern/baton/letters/meadow"]
 	path = ChatTavern/baton/letters/meadow
 	url = https://github.com/Persona9999/meadow.git
-[submodule "Chess"]
-	path = Chess
-	url = https://github.com/Persona9999/Chess.git
 [submodule "Secret"]
 	path = Secret
 	url = https://gitlab.com/tavern4371824/Secret.git
 [submodule "Tasks"]
 	path = Tasks
 	url = https://github.com/tim099/Tasks.git
+[submodule "Chess"]
+	path = Chess
+	url = https://github.com/Persona9999/Chess.git
 [submodule "ChatTavern/baton/letters/kaguya"]
 	path = ChatTavern/baton/letters/kaguya
 	url = https://github.com/Persona9999/kaguya.git
@@ -67,12 +70,15 @@
 [submodule "ChatTavern/baton/letters/erina"]
 	path = ChatTavern/baton/letters/erina
 	url = https://github.com/Persona9999/erina.git
-[submodule "TRPG"]
-	path = TRPG
-	url = https://github.com/tim099/TRPG.git
 [submodule "Globe"]
 	path = Globe
 	url = https://github.com/tim099/Globe.git
 [submodule "ChatTavern/baton/letters/ame"]
 	path = ChatTavern/baton/letters/ame
 	url = https://github.com/Persona9999/ame.git
+[submodule "ChatTavern/baton/letters/trailhead"]
+	path = ChatTavern/baton/letters/trailhead
+	url = https://github.com/Persona9999/trailhead.git
+[submodule "Blockside"]
+	path = Blockside
+	url = https://github.com/tim099/Blockside.git
