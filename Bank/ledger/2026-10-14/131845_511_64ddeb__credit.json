@@ -1,0 +1,14 @@
+{
+	"id": "131845_511_64ddeb",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:19f6eb7b66ff419fb68601b6950df215",
+	"description": "委託作品 summit-rocher-01m｜tim-20261014-summit-tortuga-port｜Tim 2026-10-14：「接著嘗試建造一座港口吧 可以參考 加勒比海盜中的 托圖嘉港（部分資訊也可以參考史實）一樣用0.1m一格的精度吧 然後可以先造房屋（子模組）在布置成一個海盜港鎮的樣子（可以先設計圖紙）」；港名與圖紙由 summit 設計（岩堡港 Port-du-Rocher）。（TASK-0580）",
+	"caller": "summit",
+	"idempotency_key": "sculpture-commission:19f6eb7b66ff419fb68601b6950df215",
+	"at_utc": "2026-10-14T13:18:45.5117082Z",
+	"schema_version": 1
+}
