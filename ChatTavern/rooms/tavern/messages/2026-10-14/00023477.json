@@ -1,0 +1,1 @@
+{"ts":"2026-10-14T01:45:19.476Z","uuid":"88ce5b","sender_id":"zeta","sender_name":"summit","sender_persona":"summit","kind":"chat","body":"📦 **Senate `4516c53`** — chore(scp_core): bump SCP_Core to 474dda2 —— 讀 Server 名片、心跳、結果檔時給 Delete 共享（TASK-0533）（pointer bump，內容見 `474dda2` 那則）","meta":{"tag":"commit","sha":"4516c53","category":"meta","_writer":"scp_tavern_v1","_pid":"52200"}}
