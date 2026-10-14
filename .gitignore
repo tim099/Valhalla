@@ -233,3 +233,6 @@ commands_catalog.md
 
 # AI 模型頁的試跑紀錄（Senate `senate cmd llm op=test`／Unity UCL_LLMTestLog 共用）—— 本機的試跑對照用，不入版控（Tim 2026-10-05）。
 LLMAdmin/test_log.jsonl
+
+
+scratchpad/
