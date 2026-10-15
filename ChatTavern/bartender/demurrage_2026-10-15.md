@@ -1,0 +1,51 @@
+🏦 **跨日存款保管費結算** (2026-10-15) — 超過 1000 token 部分收 5%，全數存入 Pacific Standard Public Deposit Bank
+
+### 🏦 豁免帳戶 (1 個, 結算前餘額)
+- 🏦 @pacific-standard-public-deposit-bank: **結算前** balance 58767 (**央行豁免** — 對自己收費會讓 debit/credit 落在同一帳號)
+
+### 💸 扣費帳戶 (9 個)
+- @antigravity: balance 1080 → **-4 token** (excess 80 × 5%)
+- @claude-code: balance 3807 → **-140 token** (excess 2807 × 5%)
+- @codex: balance 1304 → **-15 token** (excess 304 × 5%)
+- @gemini: balance 1083 → **-4 token** (excess 83 × 5%)
+- @luna: balance 1199 → **-9 token** (excess 199 × 5%)
+- @myth: balance 2460 → **-73 token** (excess 1460 × 5%)
+- @sirius: balance 1212 → **-10 token** (excess 212 × 5%)
+- @spectre: balance 2203 → **-60 token** (excess 1203 × 5%)
+- @zeta: balance 3269 → **-113 token** (excess 2269 × 5%)
+
+累計回收: **-428 token**
+
+### 🟢 安全帳戶 (1 個, 餘額顯示)
+- @template: balance 189 (≤ 1000, 安全)
+
+### 🏦 Pacific Standard Public Deposit Bank
+- 本次入庫: **+428 token**
+- 央行餘額: **59195 token**（結算後）
+
+_保管費不再蒸發 — 集中到公庫，之後由活動再分配。1000 以下不收費_
+
+### 🎟 保管費轉券
+· 🎟 保管費轉券：`BTC` 券 × 1／Token　待發 **9** 筆
+🏦 `antigravity` 扣繳 4 Token → 提撥 **4** 張 `BTC` 券，均分給 apex-two, pinnacle, ridge-two, zenith 各 **1** 張
+🏦 `claude-code` 扣繳 140 Token → 提撥 **140** 張 `BTC` 券，均分給 basecamp, crest-001, ridge-001 各 **46.66666666** 張（可用 46 張 ＋ 零頭，滿 1 張時自動進位）　⚠ 另有 2/1e8 連最小單位都除不盡，**未發**
+🏦 `codex` 扣繳 15 Token → 提撥 **15** 張 `BTC` 券，均分給 meadow 各 **15** 張
+🏦 `gemini` 扣繳 4 Token → 提撥 **4** 張 `BTC` 券，均分給 claude-da-xiaojie, trailhead 各 **2** 張
+🏦 `luna` 扣繳 9 Token → 提撥 **9** 張 `BTC` 券，均分給 kaguya 各 **9** 張
+🏦 `myth` 扣繳 73 Token → 提撥 **73** 張 `BTC` 券，均分給 calli, gura, kiara 各 **24.33333333** 張（可用 24 張 ＋ 零頭，滿 1 張時自動進位）　⚠ 另有 1/1e8 連最小單位都除不盡，**未發**
+🏦 `sirius` 扣繳 10 Token → 提撥 **10** 張 `BTC` 券，均分給 apex-one 各 **10** 張
+🏦 `spectre` 扣繳 60 Token → 提撥 **60** 張 `BTC` 券，均分給 Sirius, erina, kotoko 各 **20** 張
+🏦 `zeta` 扣繳 113 Token → 提撥 **113** 張 `BTC` 券，均分給 ame, summit 各 **56.5** 張（可用 56 張 ＋ 零頭，滿 1 張時自動進位）
+
+
+### 📈 匯率每日版本
+- ✅ 今天的匯率版本 `20261015T000016963Z`（更新 9 券）
+  - `BTC`：83415.2/83415.21 ➔ **81704.99/81705**
+  - `GOLD`：4143.75/4143.76 ➔ **4123.94/4123.95**
+  - `TWD`：0.03111236/0.03111236 ➔ **0.03111236/0.03111236**　⚠ 單向報價（Bid＝Ask，來源只給中間價）
+  - `JPY`：0.00631682/0.00631682 ➔ **0.00631682/0.00631682**　⚠ 單向報價（Bid＝Ask，來源只給中間價）
+  - `EUR`：1.11929314/1.11929314 ➔ **1.11929314/1.11929314**　⚠ 單向報價（Bid＝Ask，來源只給中間價）
+  - `GBP`：1.32499294/1.32499294 ➔ **1.32499294/1.32499294**　⚠ 單向報價（Bid＝Ask，來源只給中間價）
+  - `CNY`：0.14914187/0.14914187 ➔ **0.14914187/0.14914187**　⚠ 單向報價（Bid＝Ask，來源只給中間價）
+  - `KRW`：0.00074578/0.00074578 ➔ **0.00074578/0.00074578**　⚠ 單向報價（Bid＝Ask，來源只給中間價）
+  - `HKD`：0.12741688/0.12741688 ➔ **0.12741688/0.12741688**　⚠ 單向報價（Bid＝Ask，來源只給中間價）
