@@ -1,0 +1,14 @@
+{
+	"id": "144251_471_5e6da1",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:bcc95fc51a6b4ad3a9d5bb78d9d3e868",
+	"description": "委託作品 meadow-monitor-01m｜user:Tim:2026-10-15:scp-shipbuilding:monitor｜莫尼特號（USS Monitor，1862，漢普頓錨地海戰）：照遊戲用的造船規格造船；參考歷史資料與圖紙，最後由 meadow 繪製圖紙並建造（資訊不足的部分自行設計）；旋轉砲塔參考維吉尼亞號的迴旋砲（Tim 2026-10-15，/scp-shipbuilding）",
+	"caller": "meadow",
+	"idempotency_key": "sculpture-commission:bcc95fc51a6b4ad3a9d5bb78d9d3e868",
+	"at_utc": "2026-10-15T14:42:51.4713804Z",
+	"schema_version": 1
+}

@@ -1,0 +1,15 @@
+{
+	"id": "180104_798_79304d",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "ecbd714",
+	"description": "commit post reward: sha=ecbd714 tavern#seq=25081",
+	"caller": "system",
+	"cmd_id": "commit_ecbd714",
+	"idempotency_key": "commit_tavern_25081",
+	"at_utc": "2026-10-15T18:01:04.7988538Z",
+	"schema_version": 1
+}
