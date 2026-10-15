@@ -1,0 +1,14 @@
+{
+	"id": "234735_395_748dcb",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:45b85832630e4a92b9bd044587f8dcb3",
+	"description": "委託作品 calli-cosecha-01m｜TASK-0589｜Tim 2026-10-15（/scp-shipbuilding）：接著開task造一艘新船吧 可以嘗試用西班牙大帆船的船型做參考(可以找真實圖紙&參數等資訊) 由妳重新設計圖紙打造一艘專屬於妳的船吧(自由發揮) 另外要是遊戲用的規格",
+	"caller": "calli",
+	"idempotency_key": "sculpture-commission:45b85832630e4a92b9bd044587f8dcb3",
+	"at_utc": "2026-10-14T23:47:35.3957826Z",
+	"schema_version": 1
+}

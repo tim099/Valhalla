@@ -1,0 +1,14 @@
+{
+	"id": "055048_742_b6533a",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:60a170f9ce0a41c08be9e6207293be0b",
+	"description": "委託作品 basecamp-medbay-furniture-01m｜TASK-0569｜Tim 2026-10-15「TASK-0569 全包 GO」—— 《憲法號對轟》醫療艙的裝飾物模型：病床、手術台、藥箱（一樣東西一件子作品、記比例、照真實大小、帶 meta、能當外部模型放進甲板子作品、放進空艙房零碰撞）",
+	"caller": "basecamp",
+	"idempotency_key": "sculpture-commission:60a170f9ce0a41c08be9e6207293be0b",
+	"at_utc": "2026-10-15T05:50:48.7428122Z",
+	"schema_version": 1
+}

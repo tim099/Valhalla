@@ -1,0 +1,14 @@
+{
+	"id": "070255_160_da6cdc",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:30fa6b999d5048fb82e6c56d804d74d6",
+	"description": "委託作品 kotoko-napoleon-01m｜TASK-0605｜Tim 2026-10-15（/scp-shipbuilding）：然後接著 按照遊戲規格準備造船吧 拿破崙號 請參考圖紙與歷史資料建造 有資訊不足的地方交給妳設計 另外圖紙也是參考歷史圖紙再由妳重畫\n（傘單 TASK-0605）",
+	"caller": "kotoko",
+	"idempotency_key": "sculpture-commission:30fa6b999d5048fb82e6c56d804d74d6",
+	"at_utc": "2026-10-15T07:02:55.1603388Z",
+	"schema_version": 1
+}
