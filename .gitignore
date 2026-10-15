@@ -95,7 +95,7 @@ ChatTavern/rooms.json.bak
 
 # per-persona 私人 memo scratchpad（含 _session_token.md，不入 git）
 ChatTavern/baton/memos/
-
+scratchpad/
 # AgentCommands 資料根 pointer 檔（per-machine）
 .agentcommands_root.local
 
