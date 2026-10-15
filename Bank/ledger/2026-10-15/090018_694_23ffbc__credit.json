@@ -1,0 +1,14 @@
+{
+	"id": "090018_694_23ffbc",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:bea3c164e2aa44d1ab5164fee8ca5bfd",
+	"description": "委託作品 ame-virginia-01m｜user:Tim:2026-10-15:scp-sculpture:virginia｜維吉尼亞號：先建造南北戰爭中出現的半鐵甲艦（CSS Virginia，1862），測試鐵材質；同時完成子模組可以渲染為平滑面而非 voxel（TASK-0616）",
+	"caller": "ame",
+	"idempotency_key": "sculpture-commission:bea3c164e2aa44d1ab5164fee8ca5bfd",
+	"at_utc": "2026-10-15T09:00:18.6940137Z",
+	"schema_version": 1
+}
