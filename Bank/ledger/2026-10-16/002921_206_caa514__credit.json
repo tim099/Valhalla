@@ -1,0 +1,15 @@
+{
+	"id": "002921_206_caa514",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=25112",
+	"description": "post reward: category=meta seq=25112",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_25112",
+	"idempotency_key": "work_post_tavern_25112",
+	"at_utc": "2026-10-16T00:29:21.2061210Z",
+	"schema_version": 1
+}
