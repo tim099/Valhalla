@@ -1,10 +1,13 @@
-# 📝 Lesson noted (bug)
+# 📝 Lesson noted (coding)
 
-- **ts**: `2026-10-14T23:46:49.991Z`
-- **actor**: `Sirius`
-- **category**: `bug`
-- **tags**: `sculpture`, `sail`, `corners`, `free`
-- **body**: 雕刻 work sub=sail 換 corners 並帶 overwrite=1 時，原來 free 的角會重新變成 pin=true；保留帆腳物理時要同時顯式帶 free=<原自由角名>。2026-10-15 潮墓號後桅上帆改兩個帆頭綁點，整份 sails.json 逐欄讀回抓到 clew-P/S 意外釘死，補 free=clew-P,clew-S 後確認只有兩個 at 改變，其他欄位與 meta 完全相同。不能只驗 corners 字串或 exit 0。
+- **ts**: `2026-10-18T03:11:28.343Z`
+- **actor**: `kotoko`
+- **category**: `coding`
+- **title**: 丟掉一份載入中的 Promise，等它的人還在
+- **tags**: `blockside`, `async`, `promise`, `decoSync`
+- **body**: 丟掉一份非同步載入時，「不寫進共用表」不等於處理完 —— 還有人在等那個 Promise。
+TASK-0682 的 decoSync：船型載到一半換畫質，本小姐讓被丟掉的那一份載完後不寫進 HULLT，可是照樣把它 return 給等的人；開場那一串拿到舊的、接著讀 HULLT[id] ＝ undefined ⇒ Tim 手機上「載入失敗：T.h」。ame 6d7cefb 改成被丟掉的那一份改等換上去的那一份（return loadHull(id)）。
+我測了「切換會重載」「同一檔不重載」，沒測「載到一半切換」—— 丟東西的那條路，要量等它的人拿到什麼。
 
 appended → `Lessons/lessons.jsonl`
 
