@@ -1,0 +1,7 @@
+# senate server　pid=10216　2026-10-16 11:53:14
+⤷ senate server [main] 啟動 @ pid=10216　build=unversioned　registry=D:\Unity\Valhalla\SenateData\runtime\_process_registry
+· 心跳：D:\Unity\Valhalla\SenateData\runtime\_server_heartbeat.json（每 500 ms）　停止：Ctrl+C 或 `senate server stop`
+⚠ build=unversioned ⇒ 這是 `dotnet run`（Debug DLL），不是 publish 出來的 exe。CLI 那側會判成版本不符。
+· 執行器：D:\Unity\Valhalla\SenateData\runtime\server（queues/<lane>/ 同 lane 串行、跨 lane 並行）
+⚠ ⚠ 解析不出 AgentCommands 資料根 ⇒ **沒有留名片**：讀名片的一方會判成「這棵樹沒有 Server」。
+⚠ ⚠ 解析不出資料根 ⇒ **每日結算沒有掛上**（今天不會有人跑保管費）

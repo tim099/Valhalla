@@ -1,0 +1,11 @@
+{
+	"pid": 14116,
+	"process_name": "senate",
+	"start_time_utc": "2026-10-16T03:53:17.4352527Z",
+	"tag": "senate_server-tavern",
+	"description": "Senate 常駐 Server[tavern]（build unversioned）",
+	"command_line": "",
+	"registered_by": "senate server start",
+	"registered_at_utc": "2026-10-16T03:53:17.5519190Z",
+	"schema_version": 1
+}

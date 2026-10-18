@@ -1,0 +1,11 @@
+{
+	"pid": 10216,
+	"process_name": "senate",
+	"start_time_utc": "2026-10-16T03:53:14.7071069Z",
+	"tag": "senate_server",
+	"description": "Senate 常駐 Server[main]（build unversioned）",
+	"command_line": "",
+	"registered_by": "senate server start",
+	"registered_at_utc": "2026-10-16T03:53:14.8164239Z",
+	"schema_version": 1
+}
