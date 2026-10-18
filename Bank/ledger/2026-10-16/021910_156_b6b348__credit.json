@@ -1,0 +1,15 @@
+{
+	"id": "021910_156_b6b348",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "afca973",
+	"description": "commit post reward: sha=afca973 tavern#seq=25185",
+	"caller": "system",
+	"cmd_id": "commit_afca973",
+	"idempotency_key": "commit_tavern_25185",
+	"at_utc": "2026-10-16T02:19:10.1565791Z",
+	"schema_version": 1
+}

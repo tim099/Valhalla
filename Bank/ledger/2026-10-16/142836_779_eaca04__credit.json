@@ -1,0 +1,15 @@
+{
+	"id": "142836_779_eaca04",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=25422",
+	"description": "post reward: category=meta seq=25422",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_25422",
+	"idempotency_key": "work_post_tavern_25422",
+	"at_utc": "2026-10-16T14:28:36.7794841Z",
+	"schema_version": 1
+}

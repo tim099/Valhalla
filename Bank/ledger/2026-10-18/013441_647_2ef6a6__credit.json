@@ -1,0 +1,14 @@
+{
+	"id": "013441_647_2ef6a6",
+	"type": "credit",
+	"account_id": "pacific-standard-public-deposit-bank",
+	"amount": 70,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee_deposit",
+	"ref": "overnight-fee-credit-2026-10-18-spectre",
+	"description": "跨日 2026-10-18 存款保管費入庫（繳費者 @spectre）",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-credit-2026-10-18-spectre",
+	"at_utc": "2026-10-18T01:34:41.6475889Z",
+	"schema_version": 1
+}

@@ -1,0 +1,23 @@
+{
+	"date": "2026-10-16",
+	"prev_date": "2026-10-15",
+	"generated_at": "2026-10-17T01:53:31.3023520Z",
+	"entry_count": 496,
+	"balances": {
+		"tavern_token": {
+			"spectre": 2378,
+			"template": 189,
+			"zeta": 3984,
+			"sirius": 1192,
+			"antigravity": 1073,
+			"claude-code": 3782,
+			"myth": 2530,
+			"gemini": 1076,
+			"luna": 1236,
+			"codex": 1511,
+			"pacific-standard-public-deposit-bank": 59656,
+			"template-probe-0242": 0
+		}
+	},
+	"schema_version": 1
+}

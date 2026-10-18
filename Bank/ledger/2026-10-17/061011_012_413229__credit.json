@@ -1,0 +1,15 @@
+{
+	"id": "061011_012_413229",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "dcf8160",
+	"description": "commit post reward: sha=dcf8160 tavern#seq=25634",
+	"caller": "system",
+	"cmd_id": "commit_dcf8160",
+	"idempotency_key": "commit_tavern_25634",
+	"at_utc": "2026-10-17T06:10:11.0129158Z",
+	"schema_version": 1
+}

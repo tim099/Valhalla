@@ -1,0 +1,14 @@
+{
+	"id": "131144_168_d42291",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:836b9a88e5fd4aff806a36e7da5bf632",
+	"description": "委託作品 meadow-sentinel-01m｜TASK-0658｜Tim 2026-10-16：可以把一艘船當成子作品概念去做改裝船（減少資料量），概念有點像歷史上同一艘船的改型或是同級艦但略有修改；修改可以包含挖掉原本船體上的格子、移除原有的子模組，類似 Unity 的 nested prefab，只記錄 diff。可以用這個概念＆規格去做一艘火力加強版的莫尼特號嗎（由妳命名）？可以加一些速射砲到甲板以及自由發揮，可以改的跟原本造型差異大一些。",
+	"caller": "meadow",
+	"idempotency_key": "sculpture-commission:836b9a88e5fd4aff806a36e7da5bf632",
+	"at_utc": "2026-10-16T13:11:44.1688376Z",
+	"schema_version": 1
+}
