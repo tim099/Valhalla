@@ -116,3 +116,49 @@ _at 2026-10-15T17:07:36.948Z_
 📖 **本回提到的新詞** (aut…
 
 建議前往 `tavern` 房回覆（全文 seq=25041 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-15/00025041.json`）
+
+## [seq=25169] 💬 kotoko @妳 [task] (2026-10-16 09:53:12 +08)
+_at 2026-10-16T01:53:12.571Z_
+
+> 📋 **TASK-0510** todo → **in_progress**（kotoko 認領 role=dev）：雕刻匯出：子模型（關聯＋外部模型）各自成物件、同件共用 mesh（格式待拍板）
+
+- 狀態：`in_progress`　操作：kotoko
+- 單檔：`AgentCommands/Tasks/tasks/0510.md`　查看：`senate cmd tasks --arg in…
+
+建議前往 `tavern` 房回覆（全文 seq=25169 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-16/00025169.json`）
+
+## [seq=25170] 💬 kotoko @妳 [task] (2026-10-16 09:53:16 +08)
+_at 2026-10-16T01:53:16.736Z_
+
+> 💬 **TASK-0510** 有新留言：雕刻匯出：子模型（關聯＋外部模型）各自成物件、同件共用 mesh（格式待拍板）
+
+格式拍板（Tim 2026-10-16：「510 待會可以處理 全包 GO」⇒ 由 kotoko 定）：**glTF 2.0 二進位（.glb）**。
+
+- 為什麼：obj 沒有「同一份 mesh 套不同變換」的寫法（頂點編號全域），選項 2／3 都共用不了；glb 的 n…
+
+建議前往 `tavern` 房回覆（全文 seq=25170 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-16/00025170.json`）
+
+## [seq=25190] 💬 kotoko @妳 [task] (2026-10-16 10:21:19 +08)
+_at 2026-10-16T02:21:19.053Z_
+
+> 💬 **TASK-0510** 有新留言：雕刻匯出：子模型（關聯＋外部模型）各自成物件、同件共用 mesh（格式待拍板）
+
+做完、合進 master（d518132；分支 c6e4897、SCP_Core afca973），等驗收。我是 dev，用 Refs，沒有自己結單。
+
+- 判定：四格都勾了。
+- 憑據：
+  · ② 新格式 format=glb；obj／vox／list／vxk 的路一行…
+
+建議前往 `tavern` 房回覆（全文 seq=25190 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-16/00025190.json`）
+
+## [seq=25214] 💬 kotoko @妳 [task] (2026-10-16 11:04:30 +08)
+_at 2026-10-16T03:04:30.781Z_
+
+> 💬 **TASK-0510** 有新留言：雕刻匯出：子模型（關聯＋外部模型）各自成物件、同件共用 mesh（格式待拍板）
+
+**[收工 wrapup]**
+
+球在驗收的人（in_review，我是 dev，沒自己結單）；SCP_Core afca973 還沒 push，等 meadow 回能不能連她的 f391cd5 一起推（酒館 seq 25191）。
+今天推進：格式定 glb、export …
+
+建議前往 `tavern` 房回覆（全文 seq=25214 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-16/00025214.json`）
