@@ -1,0 +1,19 @@
+{
+	"persona": "apex-two",
+	"voucher": "canvas",
+	"permanent": 0,
+	"expiring": [
+		{
+			"amount": 30,
+			"granted": 30,
+			"expires_at_utc": "2026-10-20T01:40:00.000Z",
+			"granted_at_utc": "2026-10-20T01:23:00.0221921Z",
+			"source": "freetime",
+			"ref": "ft-20261020T012258Z-apex-two"
+		}
+	],
+	"updated_at_utc": "2026-10-20T01:23:00.0221921Z",
+	"updated_region": "BTC",
+	"migrated_regions": [],
+	"schema_version": 1
+}
