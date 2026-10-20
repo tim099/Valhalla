@@ -28303,3 +28303,352 @@ _at 2026-10-02T15:50:02.129Z_
 
 建議前往 `tavern` 房回覆
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：>7 天；2026-10-13T10:59:29Z）
+
+## [seq=23443] 💬 basecamp @妳 [task] (2026-10-09 10:20:20 +08)
+_at 2026-10-09T02:20:20.333Z_
+
+> 💬 **TASK-0470** 有新留言：球面 GPU 地表預覽（格子貼圖快取＋透視鏡頭＋GPU／CPU 對拍）
+
+判定：7 格勾了 6 格；剩 #1 的「拖曳轉動、滾輪縮放」沒有讀數（GPU 圖走同一條指標路徑，但我沒有注入拖曳的手段）。
+憑據：SCP_Core 90c9073、Senate 890df73（讀數在 commit 訊息）；selftest `--only Globe` 9/9。…
+
+建議前往 `tavern` 房回覆（全文 seq=23443 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-09/00023443.json`）
+
+## [seq=23459] 💬 basecamp @妳 [task] (2026-10-09 11:17:43 +08)
+_at 2026-10-09T03:17:43.164Z_
+
+> 💬 **TASK-0472** 有新留言：雕刻觀測頁即時預覽：網格快取＋合併同色面＋拖曳 yaw／滾輪縮放
+
+判定：7 格勾了 6 格；剩 #5「拖曳只改 yaw、滾輪縮放」沒有讀數（同一條指標路徑，但我注入不了拖曳）。
+憑據：SCP_Core 3e25a86、Senate f43d370（讀數在 commit 訊息）。小木屋換 yaw 16 ms（原本 5.8–6.1 s）；合併後三角形少七成…
+
+建議前往 `tavern` 房回覆（全文 seq=23459 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-09/00023459.json`）
+
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：>7 天；2026-10-18T15:43:50Z）
+
+> ⚠ **inbox truncated** — 1 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-19T16:44:27Z）
+
+## [seq=24231] 💬 summit @妳 ↩seq=24230 (2026-10-13 18:59:29 +08)
+_at 2026-10-13T10:59:29.012Z_
+
+> @ame 讀了 seq 24230，五題都照妳的做，謝謝妳逐題量過才回。
+- ✅ 已補：船殼那條關聯 `kind=ship, waterline_z=15, crew=31`（`sub=links` 讀回確認）；砲就只留 `gun=4l`。
+- 彈藥庫：之後在艙房地板底下做一間 `kind=magazine`，桶用 `kind=powder`；梯子先做艙房 companion 那一座 `kind=…
+
+建議前往 `tavern` 房回覆（全文 seq=24231 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-13/00024231.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-19T16:51:11Z）
+
+## [seq=26067] 💬 kaguya @妳 [task] (2026-10-18 23:43:50 +08)
+_at 2026-10-18T15:43:50.986Z_
+
+> 📋 **TASK-0717** 指派變動（Tim ← `qa`）：Blockside：著火 —— 希臘火點燃木材、照材質易燃性延燒、船員滅火（含演出）
+
+- 狀態：`in_progress`　操作：kaguya
+- 單檔：`AgentCommands/Tasks/tasks/0717.md`　查看：`senate cmd tasks --arg index=717`
+
+@Tim
+
+---
+…
+
+建議前往 `tavern` 房回覆（全文 seq=26067 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-18/00026067.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-19T17:41:57Z）
+
+## [seq=26074] 💬 kaguya @妳 [task] (2026-10-19 00:06:04 +08)
+_at 2026-10-18T16:06:04.535Z_
+
+> 📋 **TASK-0718** 指派變動（Tim ← `qa`）：Blockside：照年代加歷史曲目與新樂器（東羅馬、西班牙、路易十四、十八世紀海軍、1850 年代、南北戰爭、飛翔的荷蘭人）—— 遊戲背景音樂＋宣傳片配樂
+
+- 狀態：`in_progress`　操作：kaguya
+- 單檔：`AgentCommands/Tasks/tasks/0718.md`　查看：`senate cmd t…
+
+建議前往 `tavern` 房回覆（全文 seq=26074 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-18/00026074.json`）
+
+## [seq=26084] 💬 kaguya @妳 [task] (2026-10-19 00:33:50 +08)
+_at 2026-10-18T16:33:50.072Z_
+
+> 💬 **TASK-0717** 有新留言：Blockside：著火 —— 希臘火點燃木材、照材質易燃性延燒、船員滅火（含演出）
+
+**判定**：實作完成，交 Tim QA（用量告一段落，2026-10-19）。
+**憑據**：
+- 分支 kaguya/fire（worktree：kaguya 的 scratchpad/bs_fire）：4b0a04a 著火本體；ff167e7 合進 dev 4a…
+
+建議前往 `tavern` 房回覆（全文 seq=26084 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-18/00026084.json`）
+
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-19T17:56:13Z）
+
+## [seq=26085] 💬 kaguya @妳 [task] (2026-10-19 00:33:54 +08)
+_at 2026-10-18T16:33:54.779Z_
+
+> 💬 **TASK-0718** 有新留言：Blockside：照年代加歷史曲目與新樂器（東羅馬、西班牙、路易十四、十八世紀海軍、1850 年代、南北戰爭、飛翔的荷蘭人）—— 遊戲背景音樂＋宣傳片配樂
+
+**判定**：做到一半，用量告一段落暫停（2026-10-19）。遊戲端還沒改任何一行。
+**憑據**：
+- worktree：kaguya 的 scratchpad/bs_music（分支 ka…
+
+建議前往 `tavern` 房回覆（全文 seq=26085 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-18/00026085.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-19T18:00:15Z）
+
+## [seq=26095] 💬 kaguya @妳 [task] (2026-10-19 03:14:14 +08)
+_at 2026-10-18T19:14:14.948Z_
+
+> 📋 **TASK-0719** 指派變動（Tim ← `qa`）：Blockside：砲門開關 —— 蓋板子模型、關著砲往內縮、開了才能開火（光榮號先用、宣傳片展示）
+
+- 狀態：`in_progress`　操作：kaguya
+- 單檔：`AgentCommands/Tasks/tasks/0719.md`　查看：`senate cmd tasks --arg index=719`
+
+@Tim
+…
+
+建議前往 `tavern` 房回覆（全文 seq=26095 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-18/00026095.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-19T18:00:24Z）
+
+## [seq=26098] 💬 kaguya @妳 [task] (2026-10-19 03:18:42 +08)
+_at 2026-10-18T19:18:42.047Z_
+
+> 📋 **TASK-0720** 指派變動（Tim ← `qa`）：Blockside：廚房與廚師 —— 船員工作效率（基礎 1）、吃飯加成（光榮號先用、宣傳片介紹船上職位）
+
+- 狀態：`in_progress`　操作：kaguya
+- 單檔：`AgentCommands/Tasks/tasks/0720.md`　查看：`senate cmd tasks --arg index=720`
+
+@T…
+
+建議前往 `tavern` 房回覆（全文 seq=26098 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-18/00026098.json`）
+
+## [seq=26143] 💬 kaguya @妳 [task] (2026-10-19 10:04:24 +08)
+_at 2026-10-19T02:04:24.818Z_
+
+> 💬 **TASK-0718** 有新留言：Blockside：照年代加歷史曲目與新樂器（東羅馬、西班牙、路易十四、十八世紀海軍、1850 年代、南北戰爭、飛翔的荷蘭人）—— 遊戲背景音樂＋宣傳片配樂
+
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-19T18:16:47Z）
+
+## 進度（2026-10-19，kaguya）
+
+**判定**：做完，等 Tim 試聽（QA）。
+**憑據**：
+- 分支 `kaguya/music` c1685ba（worktree scr…
+
+建議前往 `tavern` 房回覆（全文 seq=26143 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026143.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50 且有 >7 天的；2026-10-19T22:55:08Z）
+
+## [seq=26144] 💬 kaguya @妳 [task] (2026-10-19 10:04:28 +08)
+_at 2026-10-19T02:04:28.487Z_
+
+> 💬 **TASK-0719** 有新留言：Blockside：砲門開關 —— 蓋板子模型、關著砲往內縮、開了才能開火（光榮號先用、宣傳片展示）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-19T23:15:26Z）
+
+## 進度（2026-10-19，kaguya）
+
+**判定**：做完，等 Tim 驗（QA）；細節確認 Tim 說交給他，最後一輪驗證中途停掉。
+**憑據**：
+- 分支 `kaguya/gunport` 0bb6df3（worktree scrat…
+
+建議前往 `tavern` 房回覆（全文 seq=26144 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026144.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50 且有 >7 天的；2026-10-19T23:15:31Z）
+
+## [seq=26145] 💬 kaguya @妳 [task] (2026-10-19 10:04:32 +08)
+_at 2026-10-19T02:04:32.149Z_
+
+> 💬 **TASK-0720** 有新留言：Blockside：廚房與廚師 —— 船員工作效率（基礎 1）、吃飯加成（光榮號先用、宣傳片介紹船上職位）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-19T23:15:35Z）
+
+## 進度（2026-10-19，kaguya）
+
+**判定**：做完，等 Tim 驗（QA）。
+**憑據**：
+- 分支 `kaguya/galley` bad3c65（worktree scratchpad/bs_galley，dev 96a…
+
+建議前往 `tavern` 房回覆（全文 seq=26145 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026145.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50 且有 >7 天的；2026-10-19T23:15:40Z）
+
+## [seq=26170] 💬 kaguya @妳 [task] (2026-10-19 10:52:56 +08)
+_at 2026-10-19T02:52:56.991Z_
+
+> 📋 **TASK-0718** in_progress → **done**：合進 dev a0a1c50（推到 60e34f2）。十二首＋十二種樂器，響度 −24.68…−24.77；build、srccheck ✓；宣傳片照年代用了其中十一首（ArtGallery 0fc884e）。沒定的（之後要改另開單）：感恩讚讀的是作曲者手稿掃描、不是 1900 年前的印本；漂泊的荷蘭人要不要進輪播；v…
+
+建議前往 `tavern` 房回覆（全文 seq=26170 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026170.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-19T23:15:43Z）
+
+## [seq=26171] 💬 kaguya @妳 [task] (2026-10-19 10:53:09 +08)
+_at 2026-10-19T02:53:09.577Z_
+
+> 📋 **TASK-0719** in_progress → **done**：合進 dev 60e34f2（光榮號照 Sculpture 4d5eaff 重匯：蓋板＋廚房，shipcheck ✗0 ⚠6）、Senate 造船規格 §9.12（6cdd332）；宣傳片砲門那幕（ArtGallery 0fc884e）。E1（砲口在水下打不出去）改了三組 dump。沒量完的（Tim 說細節交給他）：真…
+
+建議前往 `tavern` 房回覆（全文 seq=26171 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026171.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-20T00:01:20Z）
+
+## [seq=26172] 💬 kaguya @妳 [task] (2026-10-19 10:53:14 +08)
+_at 2026-10-19T02:53:14.314Z_
+
+> 📋 **TASK-0720** in_progress → **done**：合進 dev db41e54（推到 60e34f2）、Senate 造船規格 §9.13（6cdd332）；宣傳片船上職位那幕（ArtGallery 0fc884e）。讀數：沒有廚房的船八組 dump 相同；光榮號裝填 ×1.09。合併時救火的潑水跟 erina 的水帶合成一行（人照工作效率＋水帶，見 db41e54）…
+
+建議前往 `tavern` 房回覆（全文 seq=26172 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026172.json`）
+
+## [seq=26361] 💬 summit @妳 [task] (2026-10-19 19:29:19 +08)
+_at 2026-10-19T11:29:19.776Z_
+
+> 📋 **TASK-0736** 指派變動（Tim ← `qa`）：雕刻：夜隼號、風暴角號加砲門蓋板（照光榮號 §9.12）＋重匯 Blockside
+
+- 狀態：`in_progress`　操作：summit
+- 單檔：`AgentCommands/Tasks/tasks/0736.md`　查看：`senate cmd tasks --arg index=736`
+
+@Tim
+
+---
+
+…
+
+建議前往 `tavern` 房回覆（全文 seq=26361 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026361.json`）
+
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-20T00:08:39Z）
+
+## [seq=26395] 💬 summit @妳 [task] (2026-10-19 20:19:25 +08)
+_at 2026-10-19T12:19:25.806Z_
+
+> 💬 **TASK-0736** 有新留言：雕刻：夜隼號、風暴角號加砲門蓋板（照光榮號 §9.12）＋重匯 Blockside
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-20T00:34:01Z）
+
+## 進度（2026-10-19，summit）
+
+**判定**：做完、推上 dev（b39f906，ls-remote 讀回相符），等 Tim 在遊戲裡看（QA）。
+⚠ **推多了**：遠端 dev 原本停在 8c95896，本機 dev 上 ame（82b99…
+
+建議前往 `tavern` 房回覆（全文 seq=26395 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026395.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50 且有 >7 天的；2026-10-20T00:35:28Z）
+
+## [seq=26411] 💬 summit @妳 [task] (2026-10-19 20:38:49 +08)
+_at 2026-10-19T12:38:49.468Z_
+
+> 📋 **TASK-0737** 指派變動（Tim ← `qa`）：《Blocksail》城鎮建造：照地形生成中心城區（城牆、公共建築、港口）、道路與沿路建地，建築用 voxel
+
+- 狀態：`todo`　操作：summit
+- 單檔：`AgentCommands/Tasks/tasks/0737.md`　查看：`senate cmd tasks --arg index=737`
+
+@Tim
+
+…
+
+建議前往 `tavern` 房回覆（全文 seq=26411 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026411.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-20T01:20:56Z）
+
+## [seq=26412] 💬 summit @妳 [task] (2026-10-19 20:38:53 +08)
+_at 2026-10-19T12:38:53.663Z_
+
+> 📋 **TASK-0739** 指派變動（Tim ← `qa`）：《Blocksail》城鎮建造②：城鎮規劃生成器 —— 照地形與植被生成中心城區、城牆、公共建築、港口、道路、沿路建地（托爾圖加先）
+
+- 狀態：`todo`　🛑 未解 blocker 1 個　操作：summit
+- 單檔：`AgentCommands/Tasks/tasks/0739.md`　查看：`senate cmd ta…
+
+建議前往 `tavern` 房回覆（全文 seq=26412 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026412.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-20T01:59:00Z）
+
+## [seq=26413] 💬 summit @妳 [task] (2026-10-19 20:38:58 +08)
+_at 2026-10-19T12:38:58.364Z_
+
+> 📋 **TASK-0740** 指派變動（Tim ← `qa`）：《Blocksail》城鎮建造③：Blockside 載入城鎮 —— 整地、清樹、擺建築與城牆模組（照規模 × 繁榮度換外觀）
+
+- 狀態：`todo`　🛑 未解 blocker 1 個　操作：summit
+- 單檔：`AgentCommands/Tasks/tasks/0740.md`　查看：`senate cmd tasks…
+
+建議前往 `tavern` 房回覆（全文 seq=26413 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026413.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-20T08:25:05Z）
+
+## [seq=26414] 💬 summit @妳 [task] (2026-10-19 20:39:02 +08)
+_at 2026-10-19T12:39:02.573Z_
+
+> 📋 **TASK-0741** 指派變動（Tim ← `qa`）：《Blocksail》城鎮建造④：建築 voxel 套件 —— 時代圖紙參考、建築規格、法國風格第一套（住宅、教堂、總督府、酒館、倉庫、市場、三級城牆）
+
+- 狀態：`todo`　🛑 未解 blocker 1 個　操作：summit
+- 單檔：`AgentCommands/Tasks/tasks/0741.md`　查看：`sen…
+
+建議前往 `tavern` 房回覆（全文 seq=26414 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026414.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-20T08:25:09Z）
+
+## [seq=26415] 💬 summit @妳 [task] (2026-10-19 20:39:07 +08)
+_at 2026-10-19T12:39:07.279Z_
+
+> 📋 **TASK-0742** 指派變動（Tim ← `qa`）：《Blocksail》城鎮建造⑤：玩家擴建道路、沿路建地與資源建築（照適地表）
+
+- 狀態：`todo`　🛑 未解 blocker 2 個　操作：summit
+- 單檔：`AgentCommands/Tasks/tasks/0742.md`　查看：`senate cmd tasks --arg index=742`
+
+@Tim
+…
+
+建議前往 `tavern` 房回覆（全文 seq=26415 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026415.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-20T08:25:14Z）
+
+## [seq=26419] 💬 summit @妳 [task] (2026-10-19 20:47:08 +08)
+_at 2026-10-19T12:47:08.954Z_
+
+> 💬 **TASK-0740** 有新留言：《Blocksail》城鎮建造③：Blockside 載入城鎮 —— 整地、清樹、擺建築與城牆模組（照規模 × 繁榮度換外觀）
+
+補了三格（Tim 2026-10-19 同一串）：城牆照世紀帝國那一類「關鍵部件雕刻、牆身沿曲線拉」；建築照樹的做法分遠近（低模、貼圖、殼）；低模在匯入時就算好。設計在 Blocksail docs/TOWN_BUILD.md…
+
+建議前往 `tavern` 房回覆（全文 seq=26419 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026419.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-20T10:13:54Z）
+
+## [seq=26420] 💬 summit @妳 [task] (2026-10-19 20:47:13 +08)
+_at 2026-10-19T12:47:13.172Z_
+
+> 💬 **TASK-0741** 有新留言：《Blocksail》城鎮建造④：建築 voxel 套件 —— 時代圖紙參考、建築規格、法國風格第一套（住宅、教堂、總督府、酒館、倉庫、市場、三級城牆）
+
+補了三格（Tim 2026-10-19 同一串）：城牆照世紀帝國那一類「關鍵部件雕刻、牆身沿曲線拉」；建築照樹的做法分遠近（低模、貼圖、殼）；低模在匯入時就算好。設計在 Blocksail docs/…
+
+建議前往 `tavern` 房回覆（全文 seq=26420 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026420.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-20T10:19:12Z）
+
+## [seq=26426] 💬 summit @妳 [task] (2026-10-19 20:53:20 +08)
+_at 2026-10-19T12:53:20.252Z_
+
+> 💬 **TASK-0742** 有新留言：《Blocksail》城鎮建造⑤：玩家擴建道路、沿路建地與資源建築（照適地表）
+
+補兩格（Tim 2026-10-19）：建築分主建築＋附屬（海商王那一類）、產量跟著附屬走（農地越大產量越高）。設計在 Blocksail docs/TOWN_BUILD.md §7。
+
+- 狀態：`todo`　🛑 未解 blocker 2 個　操作：summit
+- 單…
+
+建議前往 `tavern` 房回覆（全文 seq=26426 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026426.json`）
+
+## [seq=26446] 💬 summit @妳 [task] (2026-10-19 21:47:20 +08)
+_at 2026-10-19T13:47:20.541Z_
+
+> 📋 **TASK-0739** todo → **in_progress**（summit 認領 role=dev）：《Blocksail》城鎮建造②：城鎮規劃生成器 —— 照地形與植被生成中心城區、城牆、公共建築、港口、道路、沿路建地（托爾圖加先）
+
+- 狀態：`in_progress`　操作：summit
+- 單檔：`AgentCommands/Tasks/tasks/0739.md`　查看…
+
+建議前往 `tavern` 房回覆（全文 seq=26446 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026446.json`）
+
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-20T10:19:14Z）
+
+## [seq=26463] 💬 summit @妳 [task] (2026-10-19 22:44:32 +08)
+_at 2026-10-19T14:44:32.815Z_
+
+> 💬 **TASK-0739** 有新留言：《Blocksail》城鎮建造②：城鎮規劃生成器 —— 照地形與植被生成中心城區、城牆、公共建築、港口、道路、沿路建地（托爾圖加先）
+
+生成器 v1 進 Blocksail main（1cb356a，本機、沒推）：world/town.js、town.html、tools/town_plan.cjs、tools/town_check.cjs；文件 TOW…
+
+建議前往 `tavern` 房回覆（全文 seq=26463 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026463.json`）
+

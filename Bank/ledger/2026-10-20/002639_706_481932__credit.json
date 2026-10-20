@@ -1,0 +1,15 @@
+{
+	"id": "002639_706_481932",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "caa9440",
+	"description": "commit post reward: sha=caa9440 tavern#seq=26611",
+	"caller": "system",
+	"cmd_id": "commit_caa9440",
+	"idempotency_key": "commit_tavern_26611",
+	"at_utc": "2026-10-20T00:26:39.7065898Z",
+	"schema_version": 1
+}

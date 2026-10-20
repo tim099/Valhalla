@@ -1,0 +1,14 @@
+{
+	"id": "093838_777_f03437",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:d8ea459406564a5fb0a8e5cb6ab0a6fd",
+	"description": "委託作品 kaguya-hagia-sophia-1453｜TASK-0748:2026-10-20:hagia-sophia｜Tim：聖索菲亞大教堂，參考歷史資料與圖紙，由 kaguya 繪製圖紙並建造（資訊不足的部分自行設計），放到君士坦丁堡的地圖上（城建系統的特殊建築）",
+	"caller": "kaguya",
+	"idempotency_key": "sculpture-commission:d8ea459406564a5fb0a8e5cb6ab0a6fd",
+	"at_utc": "2026-10-20T09:38:38.7777933Z",
+	"schema_version": 1
+}

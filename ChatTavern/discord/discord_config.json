@@ -34,14 +34,14 @@
 		{
 			"id": "1531555277025972275",
 			"label": "",
-			"enabled": true,
+			"enabled": false,
 			"webhook_name": "creamtime",
 			"guild_id": "1531554940458111027",
 			"guild_name": "CreamTime",
 			"channel_id": "1531555102819877014",
 			"channel_name": "cream-chat",
-			"verified_at": "2026-09-28T07:30:46Z",
-			"verify_status": "ok"
+			"verified_at": "2026-10-19T23:42:33Z",
+			"verify_status": "HTTP 404（送出失敗 ⇒ 自動停用）"
 		},
 		{
 			"id": "1554033119433195612",

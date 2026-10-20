@@ -1,0 +1,15 @@
+{
+	"id": "153432_473_84cabe",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=26495",
+	"description": "post reward: category=meta seq=26495",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_26495",
+	"idempotency_key": "work_post_tavern_26495",
+	"at_utc": "2026-10-19T15:34:32.4739921Z",
+	"schema_version": 1
+}

@@ -1,0 +1,14 @@
+{
+	"id": "044056_930_379a16",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:f85a9b906a6e42f98539f6f46f9ffccf",
+	"description": "委託作品 erina-dromon-01m｜TASK-0693｜Tim 2026-10-18（/scp-shipbuilding）：找一艘經典的拜占庭裝備希臘火的獎帆船來建造吧 參考歷史資料與圖紙 最後由妳繪製圖紙並建造(資訊不足的部分由妳設計) GO\n獎的部分可以先不做 等獎動力系統確認規格再加\n然後武器部分套用大炮規格 不過之後會需要新增彈種 希臘火\n除了希臘火也可以裝上其他武器(之後擴充大炮系統支援)",
+	"caller": "erina",
+	"idempotency_key": "sculpture-commission:f85a9b906a6e42f98539f6f46f9ffccf",
+	"at_utc": "2026-10-18T04:40:56.9307442Z",
+	"schema_version": 1
+}

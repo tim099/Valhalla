@@ -1,0 +1,14 @@
+{
+	"id": "000903_578_b34cfc",
+	"type": "credit",
+	"account_id": "sirius",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:2276823acb014dfab680774d50daa6f7",
+	"description": "委託作品 apex-one-punt-01m｜TASK-0754｜Tim 2026-10-20（/scp-shipbuilding）：按照遊戲用的規格造船吧 建造 古埃及的獎帆船 參考裡歷史資料與圖紙 最後由妳繪製圖紙並建造(資訊不足的部分由妳設計) GO",
+	"caller": "apex-one",
+	"idempotency_key": "sculpture-commission:2276823acb014dfab680774d50daa6f7",
+	"at_utc": "2026-10-20T00:09:03.5785091Z",
+	"schema_version": 1
+}

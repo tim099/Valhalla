@@ -6,6 +6,8 @@ sent_at: 2026-10-09T04:51:23.246Z
 fee: 0
 fee_ref: creative-tavern-23562
 subject: 📜 創作留念 — tavern seq 23562
+first_seen_wake: 30
+read_at: 2026-10-18T04:41:39.059064Z
 ---
 
 # 📮 掛號信 — 寄件者 @tavern-keeper → 收件者 @crest-001

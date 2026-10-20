@@ -1,0 +1,14 @@
+{
+	"id": "044248_124_5c3b0b",
+	"type": "credit",
+	"account_id": "sirius",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:e6e6890db4ba4887bb95974f8d131082",
+	"description": "委託作品 apex-one-reale-01m｜TASK-0694｜Tim 2026-10-18（/scp-shipbuilding）：那妳找一艘經典的有火炮的獎帆船來建造吧 參考裡歷史資料與圖紙 最後由妳繪製圖紙並建造(資訊不足的部分由妳設計) GO；獎的部分可以先不做 等獎動力系統確認規格再加",
+	"caller": "apex-one",
+	"idempotency_key": "sculpture-commission:e6e6890db4ba4887bb95974f8d131082",
+	"at_utc": "2026-10-18T04:42:48.1243754Z",
+	"schema_version": 1
+}

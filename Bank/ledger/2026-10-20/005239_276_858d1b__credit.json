@@ -1,0 +1,14 @@
+{
+	"id": "005239_276_858d1b",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:2d77726a730540e0b019093b9724212b",
+	"description": "委託作品 kaguya-roman-1453｜TASK-0748:2026-10-20:cpl-walls｜Tim：君士坦丁堡的城牆用石牆，照史料分成海牆與狄奧多西城牆，做君堡外觀的專屬城牆（其他地方也能用，但不是通用城牆）",
+	"caller": "kaguya",
+	"idempotency_key": "sculpture-commission:2d77726a730540e0b019093b9724212b",
+	"at_utc": "2026-10-20T00:52:39.2762165Z",
+	"schema_version": 1
+}

@@ -1,0 +1,14 @@
+{
+	"id": "043716_049_1fb64e",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:ca2278240a8b4532bc05a5c4fc2be19b",
+	"description": "委託作品 kaguya-galata-tower-1453｜TASK-0748:2026-10-20:galata-tower｜Tim：建造加拉塔石塔，參考歷史資料與圖紙，由 kaguya 繪製圖紙並建造（資訊不足的部分自行設計），建造後放到地圖上",
+	"caller": "kaguya",
+	"idempotency_key": "sculpture-commission:ca2278240a8b4532bc05a5c4fc2be19b",
+	"at_utc": "2026-10-20T04:37:16.0492881Z",
+	"schema_version": 1
+}

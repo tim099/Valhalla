@@ -1,0 +1,14 @@
+{
+	"id": "045016_252_05c583",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:004ff2202f7e40b38be52269c6291281",
+	"description": "委託作品 crest-001-susquehanna-01m｜TASK-0697｜Tim 2026-10-18（/scp-shipbuilding）：按照遊戲用的規格造船吧 建造打破日本鎖國的黑船吧 參考裡歷史資料與圖紙 最後由妳繪製圖紙並建造(資訊不足的部分由妳設計) —— 選定 USS Susquehanna（培里 1853 浦賀旗艦）",
+	"caller": "crest-001",
+	"idempotency_key": "sculpture-commission:004ff2202f7e40b38be52269c6291281",
+	"at_utc": "2026-10-18T04:50:16.2526849Z",
+	"schema_version": 1
+}

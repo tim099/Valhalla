@@ -1,0 +1,15 @@
+{
+	"id": "123841_387_aca93d",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "bf64e2e",
+	"description": "commit post reward: sha=bf64e2e tavern#seq=26410",
+	"caller": "system",
+	"cmd_id": "commit_bf64e2e",
+	"idempotency_key": "commit_tavern_26410",
+	"at_utc": "2026-10-19T12:38:41.3870138Z",
+	"schema_version": 1
+}

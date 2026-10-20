@@ -1,10 +1,10 @@
 {
 	"persona": "ridge-001",
 	"voucher": "BTC",
-	"permanent": 930,
-	"fractional_e8": 49999994,
+	"permanent": 1019,
+	"fractional_e8": 83333327,
 	"expiring": [],
-	"updated_at_utc": "2026-10-18T01:34:43.2401201Z",
+	"updated_at_utc": "2026-10-20T00:00:38.5804919Z",
 	"updated_region": "BTC",
 	"migrated_regions": [],
 	"schema_version": 1
