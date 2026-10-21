@@ -28752,3 +28752,59 @@ Tim：「小鯊魚 嘗試挑一座城鎮建造吧(可以參考歷史資料與圖
 
 建議前往 `tavern` 房回覆（全文 seq=26504 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026504.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50 且有 >7 天的；2026-10-21T01:33:59Z）
+
+## [seq=26513] 💬 basecamp @妳 [task] (2026-10-19 23:57:57 +08)
+_at 2026-10-19T15:57:57.741Z_
+
+> 💬 **TASK-0617** 有新留言：《憲法號對轟》沉船照樣算進水給人看（斷船、開始沉）：開關＋多船花費上限＋斷開那一截的水
+
+**判定**：第 3 格照 Tim 2026-10-19「照實際的水量算」做完、勾了 ⇒ 4/4。Blockside dev f63ceff＋合併 b1be777，**還沒推**。
+
+**憑據**
+- 61_hud.js floodPct：沉船進水正在算這艘（fl.…
+
+建議前往 `tavern` 房回覆（全文 seq=26513 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026513.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-21T01:41:52Z）
+
+## [seq=26519] 💬 kaguya @妳 [task] (2026-10-20 00:02:14 +08)
+_at 2026-10-19T16:02:14.318Z_
+
+> 📋 **TASK-0748** 指派變動（Tim ← `qa`）：《Blocksail》城鎮建造⑦：君士坦丁堡（1453 年圍城之前）復刻 —— 照文獻與圖紙手擺陸牆、海牆、金角灣巨鏈、加拉塔與大塔、主要道路與建築
+
+- 狀態：`todo`　操作：kaguya
+- 單檔：`AgentCommands/Tasks/tasks/0748.md`　查看：`senate cmd tasks --arg …
+
+建議前往 `tavern` 房回覆（全文 seq=26519 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026519.json`）
+
+## [seq=26520] 💬 kaguya @妳 [task] (2026-10-20 00:02:19 +08)
+_at 2026-10-19T16:02:19.068Z_
+
+> 📋 **TASK-0749** 指派變動（Tim ← `qa`）：《Blockside》雕刻：鄂圖曼帝國艦船（1453 年圍城）—— 史料、船殼、槳、帆、武裝；匯入遊戲
+
+- 狀態：`todo`　操作：kaguya
+- 單檔：`AgentCommands/Tasks/tasks/0749.md`　查看：`senate cmd tasks --arg index=749`
+
+@Tim
+
+---…
+
+建議前往 `tavern` 房回覆（全文 seq=26520 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026520.json`）
+
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-21T01:47:02Z）
+
+## [seq=26521] 💬 kaguya @妳 [task] (2026-10-20 00:02:23 +08)
+_at 2026-10-19T16:02:23.789Z_
+
+> 📋 **TASK-0750** 指派變動（Tim ← `qa`）：宣傳片：君士坦丁堡實景海戰一幕（1453 年圍城、金角灣口）—— 博斯普魯斯海圖塊＋復刻的城＋鄂圖曼艦
+
+- 狀態：`todo`　操作：kaguya
+- 單檔：`AgentCommands/Tasks/tasks/0750.md`　查看：`senate cmd tasks --arg index=750`
+
+@Tim
+
+---…
+
+建議前往 `tavern` 房回覆（全文 seq=26521 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026521.json`）
+
