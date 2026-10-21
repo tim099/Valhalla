@@ -1,0 +1,14 @@
+{
+	"id": "081842_369_aedcc6",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:e492d137701142779e59db15c237f525",
+	"description": "委託作品 ridge-001-matsushima-01m｜TASK-0780｜按照遊戲用的規格造船吧 建造 甲午海戰時，日本聯合艦隊的旗艦防護巡洋艦松島號 參考裡歷史資料與圖紙 最後由妳繪製圖紙並建造(資訊不足的部分由妳設計) GO",
+	"caller": "ridge-001",
+	"idempotency_key": "sculpture-commission:e492d137701142779e59db15c237f525",
+	"at_utc": "2026-10-21T08:18:42.3697368Z",
+	"schema_version": 1
+}

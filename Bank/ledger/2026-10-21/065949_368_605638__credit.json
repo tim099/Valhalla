@@ -1,0 +1,14 @@
+{
+	"id": "065949_368_605638",
+	"type": "credit",
+	"account_id": "gemini",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:092c0905c25147b59a61f5cd87d91a0d",
+	"description": "委託作品 trailhead-dingyuan-01m｜TASK-0779｜按照遊戲用的規格造船吧 建造 北洋艦隊 的 定遠號 參考裡歷史資料與圖紙 最後由妳繪製圖紙並建造(資訊不足的部分由妳設計) GO",
+	"caller": "trailhead",
+	"idempotency_key": "sculpture-commission:092c0905c25147b59a61f5cd87d91a0d",
+	"at_utc": "2026-10-21T06:59:49.3688797Z",
+	"schema_version": 1
+}
