@@ -28652,3 +28652,103 @@ _at 2026-10-19T14:44:32.815Z_
 
 建議前往 `tavern` 房回覆（全文 seq=26463 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026463.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-20T10:19:19Z）
+
+## [seq=26466] 💬 summit @妳 [task] (2026-10-19 22:47:32 +08)
+_at 2026-10-19T14:47:32.916Z_
+
+> 💬 **TASK-0739** 有新留言：《Blocksail》城鎮建造②：城鎮規劃生成器 —— 照地形與植被生成中心城區、城牆、公共建築、港口、道路、沿路建地（托爾圖加先）
+
+Tim 點頭後推上 Blocksail origin main：9e970b0..1cb356a（只有我這一筆；gura 那幾筆與 TOWN_BUILD 四筆文件推之前已經在遠端）。ls-remote 讀回 1cb356…
+
+建議前往 `tavern` 房回覆（全文 seq=26466 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026466.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-20T12:06:30Z）
+
+## [seq=26471] 💬 summit @妳 [task] (2026-10-19 22:54:51 +08)
+_at 2026-10-19T14:54:51.424Z_
+
+> 📋 **TASK-0741** todo → **in_progress**（summit 認領 role=dev）：《Blocksail》城鎮建造④：建築 voxel 套件 —— 時代圖紙參考、建築規格、法國風格第一套（住宅、教堂、總督府、酒館、倉庫、市場、三級城牆）
+
+- 狀態：`in_progress`　操作：summit
+- 單檔：`AgentCommands/Tasks/tasks/0…
+
+建議前往 `tavern` 房回覆（全文 seq=26471 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026471.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-20T12:56:44Z）
+
+## [seq=26473] 💬 summit @妳 [task] (2026-10-19 23:03:37 +08)
+_at 2026-10-19T15:03:37.749Z_
+
+> 💬 **TASK-0739** 有新留言：《Blocksail》城鎮建造②：城鎮規劃生成器 —— 照地形與植被生成中心城區、城牆、公共建築、港口、道路、沿路建地（托爾圖加先）
+
+清樹改版（Tim：城鎮建築與道路所在位置自動不產生樹）：Blocksail main b1b2740（本機、沒推）。clear 只剩有建築的地塊（含廣場）、路、城牆、碼頭各外擴 2 m；空建地不清（蓋了才清，0742）；…
+
+建議前往 `tavern` 房回覆（全文 seq=26473 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026473.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-20T13:38:09Z）
+
+## [seq=26477] 💬 basecamp @妳 [task] (2026-10-19 23:07:54 +08)
+_at 2026-10-19T15:07:54.277Z_
+
+> 💬 **TASK-0617** 有新留言：《憲法號對轟》沉船照樣算進水給人看（斷船、開始沉）：開關＋多船花費上限＋斷開那一截的水
+
+**判定**：第 1、2、4 格做完、勾了（Blockside dev 227e9d9＋合併 544aba4，**還沒推** —— dev 上同時有 gura 兩筆沒推的三叉戟號蓋板，推要 Tim 說）。第 3 格（進水 % 改不改成照水算）留給 Tim。
+
+**憑…
+
+建議前往 `tavern` 房回覆（全文 seq=26477 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026477.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-20T13:56:43Z）
+
+## [seq=26489] 💬 summit @妳 [task] (2026-10-19 23:23:39 +08)
+_at 2026-10-19T15:23:39.430Z_
+
+> 📋 **TASK-0746** 指派變動（Tim ← `qa`）：《Blocksail》城鎮建造⑥：航海模式 —— 地球儀單船進 Blockside 航行（沒有敵艦）、回地圖落在實際位置；停靠時從港口出發
+
+- 狀態：`todo`　操作：summit
+- 單檔：`AgentCommands/Tasks/tasks/0746.md`　查看：`senate cmd tasks --arg index…
+
+建議前往 `tavern` 房回覆（全文 seq=26489 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026489.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-21T00:31:09Z）
+
+## [seq=26490] 💬 summit @妳 [task] (2026-10-19 23:23:44 +08)
+_at 2026-10-19T15:23:44.256Z_
+
+> 📋 **TASK-0746** todo → **in_progress**（summit 認領 role=dev）：《Blocksail》城鎮建造⑥：航海模式 —— 地球儀單船進 Blockside 航行（沒有敵艦）、回地圖落在實際位置；停靠時從港口出發
+
+- 狀態：`in_progress`　操作：summit
+- 單檔：`AgentCommands/Tasks/tasks/0746.md`…
+
+建議前往 `tavern` 房回覆（全文 seq=26490 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026490.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-21T00:31:14Z）
+
+## [seq=26501] 💬 summit @妳 [task] (2026-10-19 23:46:42 +08)
+_at 2026-10-19T15:46:42.551Z_
+
+> 💬 **TASK-0741** 有新留言：《Blocksail》城鎮建造④：建築 voxel 套件 —— 時代圖紙參考、建築規格、法國風格第一套（住宅、教堂、總督府、酒館、倉庫、市場、三級城牆）
+
+summit 2026-10-19：第一輪做完，等 Tim 預覽一次（還沒驗收，單子留 in_progress）。
+
+做了：
+1. 時代圖紙參考：作品 summit-bourg-fr-01m 的 re…
+
+建議前往 `tavern` 房回覆（全文 seq=26501 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026501.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-21T01:33:51Z）
+
+## [seq=26504] 💬 gura @妳 [task] (2026-10-19 23:47:57 +08)
+_at 2026-10-19T15:47:57.893Z_
+
+> 💬 **TASK-0737** 有新留言：《Blocksail》城鎮建造：照地形生成中心城區（城牆、公共建築、港口）、道路與沿路建地，建築用 voxel
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-21T01:33:55Z）
+
+## 第二座城：金斯敦（town-kingston，gura，2026-10-19）—— Blocksail 6f8dd77（main，未 push）
+
+Tim：「小鯊魚 嘗試挑一座城鎮建造吧(可以參考歷史資料與圖)」⇒ 走 TOWN_TOO…
+
+建議前往 `tavern` 房回覆（全文 seq=26504 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026504.json`）
+

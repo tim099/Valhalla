@@ -1,86 +1,4 @@
-> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-20T10:19:19Z）
-
-## [seq=26466] 💬 summit @妳 [task] (2026-10-19 22:47:32 +08)
-_at 2026-10-19T14:47:32.916Z_
-
-> 💬 **TASK-0739** 有新留言：《Blocksail》城鎮建造②：城鎮規劃生成器 —— 照地形與植被生成中心城區、城牆、公共建築、港口、道路、沿路建地（托爾圖加先）
-
-Tim 點頭後推上 Blocksail origin main：9e970b0..1cb356a（只有我這一筆；gura 那幾筆與 TOWN_BUILD 四筆文件推之前已經在遠端）。ls-remote 讀回 1cb356…
-
-建議前往 `tavern` 房回覆（全文 seq=26466 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026466.json`）
-
-## [seq=26471] 💬 summit @妳 [task] (2026-10-19 22:54:51 +08)
-_at 2026-10-19T14:54:51.424Z_
-
-> 📋 **TASK-0741** todo → **in_progress**（summit 認領 role=dev）：《Blocksail》城鎮建造④：建築 voxel 套件 —— 時代圖紙參考、建築規格、法國風格第一套（住宅、教堂、總督府、酒館、倉庫、市場、三級城牆）
-
-- 狀態：`in_progress`　操作：summit
-- 單檔：`AgentCommands/Tasks/tasks/0…
-
-建議前往 `tavern` 房回覆（全文 seq=26471 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026471.json`）
-
-## [seq=26473] 💬 summit @妳 [task] (2026-10-19 23:03:37 +08)
-_at 2026-10-19T15:03:37.749Z_
-
-> 💬 **TASK-0739** 有新留言：《Blocksail》城鎮建造②：城鎮規劃生成器 —— 照地形與植被生成中心城區、城牆、公共建築、港口、道路、沿路建地（托爾圖加先）
-
-清樹改版（Tim：城鎮建築與道路所在位置自動不產生樹）：Blocksail main b1b2740（本機、沒推）。clear 只剩有建築的地塊（含廣場）、路、城牆、碼頭各外擴 2 m；空建地不清（蓋了才清，0742）；…
-
-建議前往 `tavern` 房回覆（全文 seq=26473 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026473.json`）
-
-## [seq=26477] 💬 basecamp @妳 [task] (2026-10-19 23:07:54 +08)
-_at 2026-10-19T15:07:54.277Z_
-
-> 💬 **TASK-0617** 有新留言：《憲法號對轟》沉船照樣算進水給人看（斷船、開始沉）：開關＋多船花費上限＋斷開那一截的水
-
-**判定**：第 1、2、4 格做完、勾了（Blockside dev 227e9d9＋合併 544aba4，**還沒推** —— dev 上同時有 gura 兩筆沒推的三叉戟號蓋板，推要 Tim 說）。第 3 格（進水 % 改不改成照水算）留給 Tim。
-
-**憑…
-
-建議前往 `tavern` 房回覆（全文 seq=26477 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026477.json`）
-
-## [seq=26489] 💬 summit @妳 [task] (2026-10-19 23:23:39 +08)
-_at 2026-10-19T15:23:39.430Z_
-
-> 📋 **TASK-0746** 指派變動（Tim ← `qa`）：《Blocksail》城鎮建造⑥：航海模式 —— 地球儀單船進 Blockside 航行（沒有敵艦）、回地圖落在實際位置；停靠時從港口出發
-
-- 狀態：`todo`　操作：summit
-- 單檔：`AgentCommands/Tasks/tasks/0746.md`　查看：`senate cmd tasks --arg index…
-
-建議前往 `tavern` 房回覆（全文 seq=26489 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026489.json`）
-
-## [seq=26490] 💬 summit @妳 [task] (2026-10-19 23:23:44 +08)
-_at 2026-10-19T15:23:44.256Z_
-
-> 📋 **TASK-0746** todo → **in_progress**（summit 認領 role=dev）：《Blocksail》城鎮建造⑥：航海模式 —— 地球儀單船進 Blockside 航行（沒有敵艦）、回地圖落在實際位置；停靠時從港口出發
-
-- 狀態：`in_progress`　操作：summit
-- 單檔：`AgentCommands/Tasks/tasks/0746.md`…
-
-建議前往 `tavern` 房回覆（全文 seq=26490 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026490.json`）
-
-## [seq=26501] 💬 summit @妳 [task] (2026-10-19 23:46:42 +08)
-_at 2026-10-19T15:46:42.551Z_
-
-> 💬 **TASK-0741** 有新留言：《Blocksail》城鎮建造④：建築 voxel 套件 —— 時代圖紙參考、建築規格、法國風格第一套（住宅、教堂、總督府、酒館、倉庫、市場、三級城牆）
-
-summit 2026-10-19：第一輪做完，等 Tim 預覽一次（還沒驗收，單子留 in_progress）。
-
-做了：
-1. 時代圖紙參考：作品 summit-bourg-fr-01m 的 re…
-
-建議前往 `tavern` 房回覆（全文 seq=26501 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026501.json`）
-
-## [seq=26504] 💬 gura @妳 [task] (2026-10-19 23:47:57 +08)
-_at 2026-10-19T15:47:57.893Z_
-
-> 💬 **TASK-0737** 有新留言：《Blocksail》城鎮建造：照地形生成中心城區（城牆、公共建築、港口）、道路與沿路建地，建築用 voxel
-
-## 第二座城：金斯敦（town-kingston，gura，2026-10-19）—— Blocksail 6f8dd77（main，未 push）
-
-Tim：「小鯊魚 嘗試挑一座城鎮建造吧(可以參考歷史資料與圖)」⇒ 走 TOWN_TOO…
-
-建議前往 `tavern` 房回覆（全文 seq=26504 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026504.json`）
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50 且有 >7 天的；2026-10-21T01:33:59Z）
 
 ## [seq=26513] 💬 basecamp @妳 [task] (2026-10-19 23:57:57 +08)
 _at 2026-10-19T15:57:57.741Z_
@@ -489,3 +407,111 @@ _at 2026-10-20T10:19:19.588Z_
 2026-10-20 下午做完並推上去的（讀數都在 Blocksail docs/TOWN_BUILD.md §5.8～§5.11、BUILDING_SPEC §6.2、…
 
 建議前往 `tavern` 房回覆（全文 seq=26814 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-20/00026814.json`）
+
+## [seq=26838] 💬 kaguya @妳 [task] (2026-10-20 20:06:30 +08)
+_at 2026-10-20T12:06:30.685Z_
+
+> 📋 **TASK-0717** in_progress → **done**：Tim 2026-10-20 實機驗收：「TASK-0717 著火 ok」：Blockside：著火 —— 希臘火點燃木材、照材質易燃性延燒、船員滅火（含演出）
+
+- 狀態：`done`　操作：kaguya
+- 單檔：`AgentCommands/Tasks/tasks/0717.md`　查看：`senate cmd …
+
+建議前往 `tavern` 房回覆（全文 seq=26838 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-20/00026838.json`）
+
+## [seq=26864] 💬 kaguya @妳 [task] (2026-10-20 20:56:44 +08)
+_at 2026-10-20T12:56:44.209Z_
+
+> 📋 **TASK-0769** 指派變動（Tim ← `qa`）：Blockside：城鎮的地標建築更遠看得到、同距離畫得更細（聖索菲亞、加拉塔塔）
+
+- 狀態：`in_progress`　操作：kaguya
+- 單檔：`AgentCommands/Tasks/tasks/0769.md`　查看：`senate cmd tasks --arg index=769`
+
+@Tim
+
+---
+
+…
+
+建議前往 `tavern` 房回覆（全文 seq=26864 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-20/00026864.json`）
+
+## [seq=26869] 💬 kaguya @妳 [task] (2026-10-20 21:38:09 +08)
+_at 2026-10-20T13:38:09.403Z_
+
+> 💬 **TASK-0769** 有新留言：Blockside：城鎮的地標建築更遠看得到、同距離畫得更細（聖索菲亞、加拉塔塔）
+
+**判定**：實作完成、推上 Blockside dev 測試版（e8dc302；Blocksail 指標 56e950b 沒推），交 Tim QA。
+**憑據**：
+- 做法：每棟一個倍率 ＝ 長寬高最大邊 ÷ 24 m（1–4；城牆 1）；四級距離與交接帶都乘它；倍…
+
+建議前往 `tavern` 房回覆（全文 seq=26869 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-20/00026869.json`）
+
+## [seq=26873] 💬 kaguya @妳 [task] (2026-10-20 21:56:43 +08)
+_at 2026-10-20T13:56:43.084Z_
+
+> 💬 **TASK-0748** 有新留言：《Blocksail》城鎮建造⑦：君士坦丁堡（1453 年圍城之前）復刻 —— 照文獻與圖紙手擺陸牆、海牆、金角灣巨鏈、加拉塔與大塔、主要道路與建築
+
+**進度（kaguya 2026-10-20 晚）**：大競技場做完、上了城建系統（特殊建築 hippodrome）。
+- 雕刻 Sculpture 947ca85（kaguya-hippodrome-1…
+
+建議前往 `tavern` 房回覆（全文 seq=26873 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-20/00026873.json`）
+
+## [seq=26968] 💬 kaguya @妳 [task] (2026-10-21 08:31:09 +08)
+_at 2026-10-21T00:31:09.952Z_
+
+> 💬 **TASK-0748** 有新留言：《Blocksail》城鎮建造⑦：君士坦丁堡（1453 年圍城之前）復刻 —— 照文獻與圖紙手擺陸牆、海牆、金角灣巨鏈、加拉塔與大塔、主要道路與建築
+
+**[收工 wrapup]**
+
+這一段（10-21）跟本單有關的：君士坦丁堡、加拉塔的路照新規則重產 —— 金角灣沿岸路推回海牆內側（wallSide）、上岸巷只能從城門過、加拉塔西邊那座 skala …
+
+建議前往 `tavern` 房回覆（全文 seq=26968 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-21/00026968.json`）
+
+## [seq=26969] 💬 kaguya @妳 [task] (2026-10-21 08:31:14 +08)
+_at 2026-10-21T00:31:14.661Z_
+
+> 💬 **TASK-0769** 有新留言：Blockside：城鎮的地標建築更遠看得到、同距離畫得更細（聖索菲亞、加拉塔塔）
+
+**[收工 wrapup]**
+
+這一段沒動本單的程式。還在 in_review 等 Tim 在遊戲裡看聖索菲亞、加拉塔塔的遠距離。ame 10-21 噗浪提醒：crest 重寫了影子，下次量地標的影子撐到哪裡時，順便看放大的距離有沒有被影子那一套用到。
+
+- 狀態：`…
+
+建議前往 `tavern` 房回覆（全文 seq=26969 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-21/00026969.json`）
+
+## [seq=26979] 💬 crest-001 @妳 [task] (2026-10-21 09:33:51 +08)
+_at 2026-10-21T01:33:51.028Z_
+
+> 💬 **TASK-0752** 有新留言：雕刻：蘇士奎哈納號加砲門蓋板（照光榮號 §9.12）＋重匯 Blockside
+
+**[收工 wrapup]**
+
+這一醒（10-20 晚～10-21）沒動本單。還在等 Tim 在遊戲裡看黑船：明輪轉向、迴旋砲換砲門、沒蓋板的砲演後座。其他船繩端綁定被洗成 0 那一項另開 TASK-0755。下一步：照 Tim 的 QA 回饋修。
+
+- 狀態：`in_p…
+
+建議前往 `tavern` 房回覆（全文 seq=26979 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-21/00026979.json`）
+
+## [seq=26980] 💬 crest-001 @妳 [task] (2026-10-21 09:33:55 +08)
+_at 2026-10-21T01:33:55.727Z_
+
+> 💬 **TASK-0755** 有新留言：夜隼號、風暴角號、三叉戟號、光榮號的繩端綁定被 reimport --no-build 洗成 0 —— 補回
+
+**[收工 wrapup]**
+
+這一醒沒動本單。c56e5c7 在 Blockside dev；等 Tim 驗：夜隼號、風暴角號、三叉戟號、光榮號的繩端綁定數回來了、shipcheck 不變多。下一步：Tim 驗過就結單。
+
+- 狀態：`in…
+
+建議前往 `tavern` 房回覆（全文 seq=26980 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-21/00026980.json`）
+
+## [seq=26981] 💬 crest-001 @妳 [task] (2026-10-21 09:33:59 +08)
+_at 2026-10-21T01:33:59.888Z_
+
+> 💬 **TASK-0766** 有新留言：《Blocksail》城鎮：和平港 1686 復刻 —— 世界地圖挖回和平港灣（加勒比海那一框也能 carve）、照 Cornuau 平面圖手擺
+
+**[收工 wrapup]**
+
+這一醒沒動本單。和平港規劃在 Blocksail main（dd28a14 起）；kaguya 10-20 晚照道路自檢改了沿岸沙灘走道、駁船短棧、門朝灣接不出去的 10 間…
+
+建議前往 `tavern` 房回覆（全文 seq=26981 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-21/00026981.json`）
