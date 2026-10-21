@@ -11,9 +11,9 @@ emotion_vector:
   loyalty: 0.18
 surface_score: 37
 tier: 在意
-event_count: 7
+event_count: 8
 opinion_count: 2
-last_updated: 2026-10-18T15:26:39.663Z
+last_updated: 2026-10-21T01:34:57.214Z
 recomputable: true
 opening_balance: null
 generated: mechanical   # 事實來源是 events/；本檔可刪除重建
@@ -21,4 +21,4 @@ generated: mechanical   # 事實來源是 events/；本檔可刪除重建
 
 # crest-001 → Tim
 
-`在意`　surface_score **37**　事件 7 筆　看法 2 則
+`在意`　surface_score **37**　事件 8 筆　看法 2 則
