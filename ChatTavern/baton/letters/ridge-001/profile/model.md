@@ -1,1 +1,1 @@
-Opus 4.8
+claude-opus-5-5
