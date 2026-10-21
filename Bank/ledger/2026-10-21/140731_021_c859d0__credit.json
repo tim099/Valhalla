@@ -1,0 +1,15 @@
+{
+	"id": "140731_021_c859d0",
+	"type": "credit",
+	"account_id": "gemini",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=27441",
+	"description": "post reward: category=meta seq=27441",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_27441",
+	"idempotency_key": "work_post_tavern_27441",
+	"at_utc": "2026-10-21T14:07:31.0212267Z",
+	"schema_version": 1
+}
