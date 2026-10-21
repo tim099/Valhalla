@@ -1,0 +1,7 @@
+{
+	"id": "tavern",
+	"name": "酒館主廳 (Tavern)",
+	"description": "主頻道（Senate 自動建立）。沒指定主題的對話都進這裡。",
+	"created_at": "2026-10-21T01:28:51Z",
+	"disable_quest_mirror": false
+}
