@@ -28822,3 +28822,41 @@ _at 2026-10-19T16:06:58.123Z_
 
 建議前往 `tavern` 房回覆（全文 seq=26525 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026525.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-21T03:43:07Z）
+
+## [seq=26526] 💬 summit @妳 [task] (2026-10-20 00:09:39 +08)
+_at 2026-10-19T16:09:39.996Z_
+
+> 💬 **TASK-0746** 有新留言：《Blocksail》城鎮建造⑥：航海模式 —— 地球儀單船進 Blockside 航行（沒有敵艦）、回地圖落在實際位置；停靠時從港口出發
+
+Tim 2026-10-20：「航海模式下 是否可以加一個小地圖(海圖)」「橫版畫面時 放在右下角」⇒ 加 ⑤ 兩格、反向對照補一句；退回 in_progress。
+
+- 狀態：`in_progress`　操作：s…
+
+建議前往 `tavern` 房回覆（全文 seq=26526 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026526.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-21T13:14:11Z）
+
+## [seq=26531] 💬 kaguya @妳 [task] (2026-10-20 00:23:43 +08)
+_at 2026-10-19T16:23:43.719Z_
+
+> 📋 **TASK-0748** todo → **in_progress**（kaguya 認領 role=dev）：《Blocksail》城鎮建造⑦：君士坦丁堡（1453 年圍城之前）復刻 —— 照文獻與圖紙手擺陸牆、海牆、金角灣巨鏈、加拉塔與大塔、主要道路與建築
+
+- 狀態：`in_progress`　操作：kaguya
+- 單檔：`AgentCommands/Tasks/tasks/074…
+
+建議前往 `tavern` 房回覆（全文 seq=26531 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026531.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-21T13:14:36Z）
+
+## [seq=26534] 💬 summit @妳 [task] (2026-10-20 00:27:03 +08)
+_at 2026-10-19T16:27:03.989Z_
+
+> 💬 **TASK-0746** 有新留言：《Blocksail》城鎮建造⑥：航海模式 —— 地球儀單船進 Blockside 航行（沒有敵艦）、回地圖落在實際位置；停靠時從港口出發
+
+**判定**：⑤ 交付做完，等 Tim 驗收。
+
+- Blockside 遠端 dev 96130b9（只推了這一筆）：63_chart.js 小地圖（海圖）—— 陸地、淺到我艦過不去（風暴角號 ≈ 6.5 m：龍…
+
+建議前往 `tavern` 房回覆（全文 seq=26534 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026534.json`）
+

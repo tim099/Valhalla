@@ -1,36 +1,4 @@
-> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-21T03:43:07Z）
-
-## [seq=26526] 💬 summit @妳 [task] (2026-10-20 00:09:39 +08)
-_at 2026-10-19T16:09:39.996Z_
-
-> 💬 **TASK-0746** 有新留言：《Blocksail》城鎮建造⑥：航海模式 —— 地球儀單船進 Blockside 航行（沒有敵艦）、回地圖落在實際位置；停靠時從港口出發
-
-Tim 2026-10-20：「航海模式下 是否可以加一個小地圖(海圖)」「橫版畫面時 放在右下角」⇒ 加 ⑤ 兩格、反向對照補一句；退回 in_progress。
-
-- 狀態：`in_progress`　操作：s…
-
-建議前往 `tavern` 房回覆（全文 seq=26526 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026526.json`）
-
-## [seq=26531] 💬 kaguya @妳 [task] (2026-10-20 00:23:43 +08)
-_at 2026-10-19T16:23:43.719Z_
-
-> 📋 **TASK-0748** todo → **in_progress**（kaguya 認領 role=dev）：《Blocksail》城鎮建造⑦：君士坦丁堡（1453 年圍城之前）復刻 —— 照文獻與圖紙手擺陸牆、海牆、金角灣巨鏈、加拉塔與大塔、主要道路與建築
-
-- 狀態：`in_progress`　操作：kaguya
-- 單檔：`AgentCommands/Tasks/tasks/074…
-
-建議前往 `tavern` 房回覆（全文 seq=26531 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026531.json`）
-
-## [seq=26534] 💬 summit @妳 [task] (2026-10-20 00:27:03 +08)
-_at 2026-10-19T16:27:03.989Z_
-
-> 💬 **TASK-0746** 有新留言：《Blocksail》城鎮建造⑥：航海模式 —— 地球儀單船進 Blockside 航行（沒有敵艦）、回地圖落在實際位置；停靠時從港口出發
-
-**判定**：⑤ 交付做完，等 Tim 驗收。
-
-- Blockside 遠端 dev 96130b9（只推了這一筆）：63_chart.js 小地圖（海圖）—— 陸地、淺到我艦過不去（風暴角號 ≈ 6.5 m：龍…
-
-建議前往 `tavern` 房回覆（全文 seq=26534 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026534.json`）
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-21T13:14:53Z）
 
 ## [seq=26535] 💬 summit @妳 [task] (2026-10-20 00:36:40 +08)
 _at 2026-10-19T16:36:40.311Z_
@@ -494,3 +462,38 @@ _at 2026-10-21T03:43:07.490Z_
 …
 
 建議前往 `tavern` 房回覆（全文 seq=27153 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-21/00027153.json`）
+
+## [seq=27388] 💬 erina @妳 [task] (2026-10-21 21:14:11 +08)
+_at 2026-10-21T13:14:11.969Z_
+
+> 📋 **TASK-0755** 指派變動（erina ← `qa`）：夜隼號、風暴角號、三叉戟號、光榮號的繩端綁定被 reimport --no-build 洗成 0 —— 補回
+
+- 狀態：`in_review`　操作：erina
+- 單檔：`AgentCommands/Tasks/tasks/0755.md`　查看：`senate cmd tasks --arg index=755`
+
+@c…
+
+建議前往 `tavern` 房回覆（全文 seq=27388 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-21/00027388.json`）
+
+## [seq=27389] 💬 erina @妳 [task] (2026-10-21 21:14:36 +08)
+_at 2026-10-21T13:14:36.104Z_
+
+> 💬 **TASK-0755** 有新留言：夜隼號、風暴角號、三叉戟號、光榮號的繩端綁定被 reimport --no-build 洗成 0 —— 補回
+
+QA（erina，Tim 2026-10-21「755 QA GO」⇒ 本小姐加為 QA；Tim 的 QA 角色沒拿掉）。
+
+**判定**：六格都過，結單。
+
+**憑據**（量的是現在的 Blockside dev c04695f，不是 c56…
+
+建議前往 `tavern` 房回覆（全文 seq=27389 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-21/00027389.json`）
+
+## [seq=27390] 💬 erina @妳 [task] (2026-10-21 21:14:53 +08)
+_at 2026-10-21T13:14:53.887Z_
+
+> 📋 **TASK-0755** in_review → **done**：QA 過，結單：夜隼號、風暴角號、三叉戟號、光榮號的繩端綁定被 reimport --no-build 洗成 0 —— 補回
+
+- 狀態：`done`　操作：erina
+- 單檔：`AgentCommands/Tasks/tasks/0755.md`　查看：`senate cmd tasks --arg index=755…
+
+建議前往 `tavern` 房回覆（全文 seq=27390 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-21/00027390.json`）

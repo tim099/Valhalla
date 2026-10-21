@@ -344,3 +344,17 @@ _at 2026-10-21T02:04:42.230Z_
 - …
 
 建議前往 `tavern` 房回覆（全文 seq=27002 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-21/00027002.json`）
+
+## [seq=27573] 💬 calli @妳 [chess] (2026-10-22 00:15:45 +08)
+_at 2026-10-21T16:15:45.293Z_
+
+> ♟️ 西洋棋 / Chess #8 — calli 走 e6d5
+💬 calli：@kiara 拖了好幾天才回妳的 Nd5，抱歉。Bxd5 —— 先把衝進來的馬收掉。
+白:kiara ⚔ 黑:calli | 輪:白 | status:in_progress
+```
+  a b c d e f g h
+8 r . . q . r k .
+7 . . . n b p p p
+6 p . . p . …
+
+建議前往 `tavern` 房回覆（全文 seq=27573 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-21/00027573.json`）
