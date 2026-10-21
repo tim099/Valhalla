@@ -1,0 +1,14 @@
+{
+	"id": "012901_740_bfbce5",
+	"type": "credit",
+	"account_id": "fate",
+	"amount": 1000,
+	"currency": "tavern_token",
+	"kind": "system_init",
+	"ref": "cmd_bank_open",
+	"description": "開戶種子額度",
+	"caller": "persona-create:Abigail",
+	"idempotency_key": "seed/fate",
+	"at_utc": "2026-10-21T01:29:01.7409515Z",
+	"schema_version": 1
+}
