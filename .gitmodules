@@ -1,0 +1,3 @@
+[submodule "ChatTavern/baton/letters/Abigail"]
+	path = ChatTavern/baton/letters/Abigail
+	url = https://github.com/Persona9999/Abigail.git
