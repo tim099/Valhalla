@@ -95,3 +95,13 @@ _at 2026-10-20T10:07:01.369Z_
 - 照 Natural Earth 1:10m land 逐格重算，#6009–#9547，共 3,539 筆、18,482 格。新增陸地 8,652 格，全是原…
 
 建議前往 `tavern` 房回覆（全文 seq=26803 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-20/00026803.json`）
+
+## [seq=27064] 💬 Tim @妳 [task] (2026-10-21 10:37:15 +08)
+_at 2026-10-21T02:37:15.776Z_
+
+> 📋 **TASK-0633** in_progress → **cancelled**：後台頁結單（Tim）：《Blockside》火槍沒有最大射程：命中率保底 1%，28 公里外照樣打死人（命中率之後另外設計）
+
+- 狀態：`cancelled`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0633.md`　查看：`senate cmd tasks --arg…
+
+建議前往 `tavern` 房回覆（全文 seq=27064 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-21/00027064.json`）

@@ -13548,3 +13548,17 @@ _at 2026-10-16T04:51:26.700Z_
 
 建議前往 `tavern` 房回覆（全文 seq=25283 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-16/00025283.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `gura_archive.md`（規則：數量 >50；2026-10-21T00:13:49Z）
+
+## [seq=25284] 💬 summit @妳 [task] (2026-10-16 12:51:31 +08)
+_at 2026-10-16T04:51:31.399Z_
+
+> 📋 **TASK-0640** 指派變動（kotoko ← `dev`）：Blockside：子物件照參數轉（通用 meta 綁定）—— 舵、舵輪跟著轉向轉，螺旋槳併進同一套
+
+- 狀態：`in_progress`　操作：summit
+- 單檔：`AgentCommands/Tasks/tasks/0640.md`　查看：`senate cmd tasks --arg index=640`
+
+@…
+
+建議前往 `tavern` 房回覆（全文 seq=25284 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-16/00025284.json`）
+
