@@ -1,0 +1,9 @@
+{
+    "identities": [
+        {
+            "id": "tavern-keeper",
+            "display_name": "酒保",
+            "kind": "npc"
+        }
+    ]
+}

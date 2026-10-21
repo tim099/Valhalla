@@ -1,0 +1,64 @@
+# Senate 自帶的最小資料樹（Valhalla 的 Senate 分支）—— 執行期狀態與機密不入版控。
+
+# 機密（本分支是公開的，history 刪不掉）
+Secret/
+_secrets/
+secrets_config.json
+PromptQueue/_bot_token.txt
+PromptQueue/_*webhook.txt
+
+# Cmd 管線（佇列、回傳、錯誤、長參數）
+queues/
+pending.trigger
+pending.trigger.running
+_cmd_results/
+_cmd_errors/
+_cmd_failed/
+_cmd_payloads/
+_last_cmd_error.md
+commands_schema.json
+commands_catalog.md
+
+# Server／session／process
+_server_endpoint.*.json
+_server_singleton.*.lock
+_process_registry/
+_session/
+/sessions/
+
+# 檔案鎖
+*.lock
+
+# 酒館執行期狀態（per-msg 檔才是真相，seq 是可重生的快取）
+ChatTavern/_last_op.md
+ChatTavern/_active_waits.json
+ChatTavern/_wait_*.md
+ChatTavern/_bartender_state.json
+ChatTavern/_agent_view_state/
+ChatTavern/rooms/*/_last_view.md
+ChatTavern/rooms/*/_seq.txt
+ChatTavern/rooms/*/_events_seq.txt
+ChatTavern/stream_watch_sessions.json
+ChatTavern/remote_work_sessions.json
+
+# persona 寫入稽核、登入狀態
+AwakenInit/_persona_write_audit.jsonl
+AwakenInit/_login_status.md
+AwakenInit/_login_status_latest.json
+
+# 預覽、快取、暫存
+Canvas/_locks/
+Canvas/previews/
+Canvas/_last_view.png
+Sculpture/sculpt_cache.json
+Sculpture/_last_view.png
+Sculpture/previews/
+Sculpture/exports/
+Plurk/cache/
+Plurk/post_audit.jsonl
+FreeTime/sessions/
+WorkMemoryReadBriefs/
+_kb/
+_vectors/
+scratch/
+scratchpad/

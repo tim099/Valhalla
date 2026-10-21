@@ -1,0 +1,22 @@
+{
+	"_schema_version": 2,
+	"_description": "Persona registry meta（Senate 自帶的最小資料樹）。agent_banks：agent → 銀行帳號；新 agent 由 senate cmd persona-create 的 new_agent_account 開戶並補上。",
+	"_constants": {
+		"vector_dim": 64,
+		"vector_range": [
+			-1,
+			1
+		],
+		"default_perturbation": 0.02,
+		"max_perturbation": 0.2,
+		"fork_chain_cap": 5
+	},
+	"agent_banks": {
+		"Template": "Template"
+	},
+	"agent_aliases": {},
+	"system_accounts": {
+		"pacific-standard-public-deposit-bank": "央行（Pacific Standard Public Deposit Bank）—— 跨日保管費入庫、請款與後台打款的撥款來源。"
+	},
+	"closed_accounts": {}
+}
