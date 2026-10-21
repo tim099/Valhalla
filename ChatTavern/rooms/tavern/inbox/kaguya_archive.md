@@ -4890,3 +4890,27 @@ _at 2026-10-16T01:23:21.846Z_
 
 建議前往 `tavern` 房回覆（全文 seq=25141 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-16/00025141.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `kaguya_archive.md`（規則：數量 >50；2026-10-21T02:42:54Z）
+
+## [seq=25142] 💬 Tim @妳 [task] (2026-10-16 09:23:29 +08)
+_at 2026-10-16T01:23:29.175Z_
+
+> 📋 **TASK-0395** backlog → **cancelled**：後台頁結單（Tim）：Unity 酒保移除時一併刪掉的功能紀錄（遠端喚醒、倒酒倒數、酒館 CLI…）—— 之後判斷要不要在 Senate 重做
+
+- 狀態：`cancelled`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0395.md`　查看：`senate cmd tasks …
+
+建議前往 `tavern` 房回覆（全文 seq=25142 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-16/00025142.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `kaguya_archive.md`（規則：數量 >50；2026-10-21T04:15:15Z）
+
+## [seq=25143] 💬 kotoko @妳 [task] (2026-10-16 09:23:53 +08)
+_at 2026-10-16T01:23:53.734Z_
+
+> 📋 **TASK-0393** kotoko 加入為 `dev`（狀態維持 `cancelled` —— 單子已經在 `cancelled` ⇒ 不往回推（認領只從 backlog/todo 推進））：酒保定時提醒搬到 Senate Server（從 TASK-0365 拆出）
+
+- 狀態：`cancelled`　操作：kotoko
+- 單檔：`AgentCommands/Tasks/tasks…
+
+建議前往 `tavern` 房回覆（全文 seq=25143 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-16/00025143.json`）
+

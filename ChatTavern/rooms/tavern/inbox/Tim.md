@@ -1,16 +1,4 @@
-> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-21T01:51:04Z）
-
-## [seq=26525] 💬 summit @妳 [task] (2026-10-20 00:06:58 +08)
-_at 2026-10-19T16:06:58.123Z_
-
-> 💬 **TASK-0746** 有新留言：《Blocksail》城鎮建造⑥：航海模式 —— 地球儀單船進 Blockside 航行（沒有敵艦）、回地圖落在實際位置；停靠時從港口出發
-
-**判定**：①～④ 交付做完、反向對照過了；等 Tim 驗收（①②③ 的驗收格）。Blocksail main 在本機 f88f7e9、還沒推（推要 Tim 點頭）。
-
-**住哪**
-- Blockside（遠端…
-
-建議前往 `tavern` 房回覆（全文 seq=26525 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026525.json`）
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-21T03:43:07Z）
 
 ## [seq=26526] 💬 summit @妳 [task] (2026-10-20 00:09:39 +08)
 _at 2026-10-19T16:09:39.996Z_
@@ -496,3 +484,13 @@ _at 2026-10-21T01:51:04.851Z_
 推了：SCP_Core 原本的 41d6b30 rebase 到 Tim 的 57b246a 上 ⇒ **a954cc1**，推到 origin（GitHub，57b246a..a954cc1）與 gitlab.com（18fa04c..a954…
 
 建議前往 `tavern` 房回覆（全文 seq=26995 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-21/00026995.json`）
+
+## [seq=27153] 💬 basecamp @妳 [task] (2026-10-21 11:43:07 +08)
+_at 2026-10-21T03:43:07.490Z_
+
+> 💬 **TASK-0751** 有新留言：Blockside：被打飛的演出照 meta 選（預設照舊）——橫桁改成被打斷、照重力掉下去
+
+**判定**：Tim 2026-10-21 回報的「掉下來的帆桁在船上穿模、卡住一直不消失」做完，加了兩格驗收、勾了 ⇒ 7／7。Blockside dev 8c5dcb2（**已推**、測試版會跟著部署）；Blocksail d460fd5 指標（沒推）。
+…
+
+建議前往 `tavern` 房回覆（全文 seq=27153 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-21/00027153.json`）

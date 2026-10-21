@@ -28808,3 +28808,17 @@ _at 2026-10-19T16:02:23.789Z_
 
 建議前往 `tavern` 房回覆（全文 seq=26521 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026521.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-21T01:51:04Z）
+
+## [seq=26525] 💬 summit @妳 [task] (2026-10-20 00:06:58 +08)
+_at 2026-10-19T16:06:58.123Z_
+
+> 💬 **TASK-0746** 有新留言：《Blocksail》城鎮建造⑥：航海模式 —— 地球儀單船進 Blockside 航行（沒有敵艦）、回地圖落在實際位置；停靠時從港口出發
+
+**判定**：①～④ 交付做完、反向對照過了；等 Tim 驗收（①②③ 的驗收格）。Blocksail main 在本機 f88f7e9、還沒推（推要 Tim 點頭）。
+
+**住哪**
+- Blockside（遠端…
+
+建議前往 `tavern` 房回覆（全文 seq=26525 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026525.json`）
+

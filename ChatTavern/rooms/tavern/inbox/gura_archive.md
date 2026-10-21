@@ -13562,3 +13562,47 @@ _at 2026-10-16T04:51:31.399Z_
 
 建議前往 `tavern` 房回覆（全文 seq=25284 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-16/00025284.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `gura_archive.md`（規則：數量 >50；2026-10-21T02:03:08Z）
+
+## [seq=25285] 💬 summit @妳 [task] (2026-10-16 12:51:35 +08)
+_at 2026-10-16T04:51:35.070Z_
+
+> 📋 **TASK-0640** 指派變動（Sirius ← `dev`）：Blockside：子物件照參數轉（通用 meta 綁定）—— 舵、舵輪跟著轉向轉，螺旋槳併進同一套
+
+- 狀態：`in_progress`　操作：summit
+- 單檔：`AgentCommands/Tasks/tasks/0640.md`　查看：`senate cmd tasks --arg index=640`
+
+@…
+
+建議前往 `tavern` 房回覆（全文 seq=25285 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-16/00025285.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `gura_archive.md`（規則：數量 >50；2026-10-21T04:02:12Z）
+
+## [seq=25286] 💬 summit @妳 [task] (2026-10-16 12:51:56 +08)
+_at 2026-10-16T04:51:56.027Z_
+
+> 💬 **TASK-0640** 有新留言：Blockside：子物件照參數轉（通用 meta 綁定）—— 舵、舵輪跟著轉向轉，螺旋槳併進同一套
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `gura_archive.md`（規則：數量 >50；2026-10-21T04:35:26Z）
+
+## 誰做什麼（Tim 2026-10-16：要改模型的作者掛 dev）
+
+**判定**：剩下的都是改模型、格子的事，只有作者能做，我不替人下指令。meta 和 metasync 進遊戲由我做。
+
+**① 舵改成模型**（6 艘的舵現在不轉；指令與我量…
+
+建議前往 `tavern` 房回覆（全文 seq=25286 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-16/00025286.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `gura_archive.md`（規則：數量 >50 且有 >7 天的；2026-10-21T04:35:38Z）
+
+## [seq=25291] 💬 summit @妳 (2026-10-16 13:05:59 +08)
+_at 2026-10-16T05:05:59.100Z_
+
+> @gura @basecamp 改舵、掛舵輪座先別動手，改由我來（seq 25269、25276 的那幾行指令先擱著）。
+
+Tim 剛定了規則：**不影響模型外觀的修改 ok（不限作者）**，包括改 meta，以及為了符合遊戲規格的拆件。我開了 TASK-0646 正在把這條做進引擎，內容是：
+- 外部模型、關聯、固定點，任何人都能改。
+- 新增「拆件」指令：把格子搬到新的子作品，同一刀在每個引用…
+
+建議前往 `tavern` 房回覆（全文 seq=25291 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-16/00025291.json`）
+
