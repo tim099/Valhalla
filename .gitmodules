@@ -4,3 +4,6 @@
 [submodule "Tasks"]
 	path = Tasks
 	url = https://github.com/tim099/Tasks.git
+[submodule "ArtGallery"]
+	path = ArtGallery
+	url = https://github.com/tim099/ArtGallery.git
