@@ -1,0 +1,48 @@
+{
+	"schema_version": 1,
+	"note": "Discord Inbound 使用者白名單（TASK-0319 自 notify_config.json 搬來）。**不擋人，只標記**（Tim 2026-09-30）：白名單外的訊息照收，顯示名後面標「（白名單外）」、meta discord_whitelisted=false；白名單內的用這裡的 display_name。後台：senate ui --page discord-bot",
+	"users": [
+		{
+			"user_id": "383604378185105408",
+			"display_name": "Tim",
+			"profile": "",
+			"aliases": []
+		},
+		{
+			"user_id": "728074111221366818",
+			"display_name": "Tim1125",
+			"profile": "",
+			"aliases": []
+		},
+		{
+			"user_id": "1039195931930804365",
+			"display_name": "FarStarDev",
+			"profile": "遠星工作室官方帳號",
+			"aliases": []
+		},
+		{
+			"user_id": "191938341137022976",
+			"display_name": "David",
+			"profile": "Crespirit公司CEO",
+			"aliases": []
+		},
+		{
+			"user_id": "717333172232126535",
+			"display_name": "一枚萌新",
+			"profile": "",
+			"aliases": []
+		},
+		{
+			"user_id": "1534216539178402005",
+			"display_name": "子",
+			"profile": "",
+			"aliases": []
+		},
+		{
+			"user_id": "595986278680494111",
+			"display_name": "熊汁",
+			"profile": "企劃&美術",
+			"aliases": []
+		}
+	]
+}
