@@ -1,3 +1,6 @@
 [submodule "ChatTavern/baton/letters/Abigail"]
 	path = ChatTavern/baton/letters/Abigail
 	url = https://github.com/Persona9999/Abigail.git
+[submodule "Tasks"]
+	path = Tasks
+	url = https://github.com/tim099/Tasks.git
