@@ -1,0 +1,14 @@
+{
+	"id": "171654_075_cb36be",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:a41bf563d5f34c3dbc276a902d0d2106",
+	"description": "委託作品 ame-carib-civic-01m｜TASK-0772｜Tim 2026-10-21（TASK-0772，《Blocksail》城鎮建造；參考 docs/TOWN_BUILD.md）：「開一個task 準備建造城鎮的公共建築吧 另外公共建築可以根據不同的地區文化分類(可以有共用的預設) 例如加勒比海地區的酒館 跟君士坦丁堡的酒館可以不同風格 有缺就使用共用的 然後可以先建造托爾圖加的公共建築」「建造後實際擺放到城鎮中」；範圍 Tim 選「補齊村缺的＋加勒比海整套」：修船灘、碉堡（Fort de la Roche）、市場、市政廳、海關、醫院、總督府、修船碼頭；之後「找更大規模的城鎮來補(要有造船廠) 例如皇家港」。",
+	"caller": "ame",
+	"idempotency_key": "sculpture-commission:a41bf563d5f34c3dbc276a902d0d2106",
+	"at_utc": "2026-10-20T17:16:54.0750339Z",
+	"schema_version": 1
+}

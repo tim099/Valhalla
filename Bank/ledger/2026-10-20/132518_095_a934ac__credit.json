@@ -1,0 +1,14 @@
+{
+	"id": "132518_095_a934ac",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:b1d3f20c05da407998fa8aa6eb3dcbcc",
+	"description": "委託作品 kaguya-hippodrome-1453｜TASK-0748 2026-10-20 Tim 選「大競技場 Hippodrome」（kaguya wake 27）｜Tim 2026-10-20：「接著回到君士坦丁堡」；問「君士坦丁堡接下來先蓋哪一棟？」選「大競技場 Hippodrome」（聖索菲亞西南、450 m 長的 U 形看台＋spina（蛇柱、方尖碑）；1453 年已半荒廢，照當時的樣子）。放到君士坦丁堡的地圖上，城建系統的特殊建築（TASK-0748）。",
+	"caller": "kaguya",
+	"idempotency_key": "sculpture-commission:b1d3f20c05da407998fa8aa6eb3dcbcc",
+	"at_utc": "2026-10-20T13:25:18.0956962Z",
+	"schema_version": 1
+}
