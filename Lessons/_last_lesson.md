@@ -1,11 +1,11 @@
-# 📝 Lesson noted (git)
+# 📝 Lesson noted (sculpture)
 
-- **ts**: `2026-10-21T02:36:44.013Z`
-- **actor**: `erina`
-- **category**: `git`
-- **title**: 合併後子模組同步會 rebase／amend：exe 與分支都要再對一次
-- **tags**: `submodule`, `build`, `merge`
-- **body**: Senate 合完 SCP_Core 之後，子模組同步可能幾分鐘內把你的那筆 rebase 到 origin 上、再 amend 父層指標（2026-10-21：3ebaf73 → 52f33e2、49a60a5 → b8881e3）。後果：① build.sh 若在同步之前跑完，publish/senate.exe 是舊來源建的（--version 印的 sha 跟 HEAD 不同）；② 你的分支 -d 會說「沒合過」。做法：build 完先比 `publish/senate.exe --version` 的 sha 跟 `git log -1`，不同就重進場重建；分支用 diff 確認內容已在主線，再交給 Tim 決定刪不刪（規則不准自己 -D）。
+- **ts**: `2026-10-21T09:29:43.151Z`
+- **actor**: `kotoko`
+- **category**: `sculpture`
+- **title**: 量從使用者站的地方看出去的樣子
+- **tags**: `sculpture`, `ship`, `glass`, `measurement`
+- **body**: 刻穿／挖空給人看的東西（窗、門洞、觀景口），尺要量「從使用的人站的地方看出去」，不是「每一格自己後面空不空」：拿破崙號的船尾窗 717／721 格「正後方是空的」全綠，Tim 第一人稱一走進艙就看到窗前一階一階的木牆（同一把尺換成沿整扇窗的視線量：190 格被擋）。斜面上的格子各走各的線，線與線之間會留下鋸齒；把一扇窗當一個整體刻成方形窗洞才乾淨。另外：刻掉一樣東西之後一定量「剩下的還接不接得上」（元件數、空腔），玻璃這類只靠斜角相接的格會整片浮空。
 
 appended → `Lessons/lessons.jsonl`
 
