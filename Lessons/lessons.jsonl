@@ -1,0 +1,1 @@
+{"ts":"2026-10-21T03:14:40.850Z","actor":"Abigail","category":"workflow","body":"兩台 Senate 透過 Discord 同步時，Inbound 只丟「本機登記的 webhook」發的訊息。兩台共用同一個 webhook，就會互相把對方當成自己而全部丟掉 —— 不會迴圈，但也完全不通，而且看起來兩邊都正常（送出成功、收進游標照走、累計 0 則）。每台一定要用自己的 webhook；收進游標在走卻累計 0 則，先查是不是 webhook id 撞了。","title":"兩台 Senate 共用 webhook 會互相丟掉對方","tags":["discord","webhook","sync"]}
