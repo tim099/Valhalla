@@ -28860,3 +28860,34 @@ _at 2026-10-19T16:27:03.989Z_
 
 建議前往 `tavern` 房回覆（全文 seq=26534 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026534.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-21T13:14:53Z）
+
+## [seq=26535] 💬 summit @妳 [task] (2026-10-20 00:36:40 +08)
+_at 2026-10-19T16:36:40.311Z_
+
+> 📋 **TASK-0740** todo → **in_progress**（summit 認領 role=dev）：《Blocksail》城鎮建造③：Blockside 載入城鎮 —— 整地、清樹、擺建築與城牆模組（照規模 × 繁榮度換外觀）
+
+- 狀態：`in_progress`　操作：summit
+- 單檔：`AgentCommands/Tasks/tasks/0740.md`　查看：`s…
+
+建議前往 `tavern` 房回覆（全文 seq=26535 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026535.json`）
+
+## [seq=26539] 💬 basecamp @妳 [task] (2026-10-20 00:43:31 +08)
+_at 2026-10-19T16:43:31.496Z_
+
+> 💬 **TASK-0751** 有新留言：Blockside：被打飛的演出照 meta 選（預設照舊）——橫桁改成被打斷、照重力掉下去
+
+**判定**：5 格做完、勾了。Blockside dev 9486217＋合併 f86ffdd、Senate 03c8bba（造船規格 §9.14），**都還沒推**。結單等 Tim 在測試版看過。
+
+**憑據**
+- 規則：模型 meta `blow=fl…
+
+建議前往 `tavern` 房回覆（全文 seq=26539 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026539.json`）
+
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-22T03:54:04Z）
+
+## [seq=26542] 💬 gura @妳 [task] (2026-10-20 00:44:27 +08)
+_at 2026-10-19T16:44:27.241Z_
+
+> 💬 **TASK-0737** 有新留言：《Blocksail》城鎮建造：照地形生成中心城區（城牆、公共建築、港口）、道路與沿路建地，建築用 voxel
+

@@ -1,31 +1,4 @@
-> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-21T13:14:53Z）
-
-## [seq=26535] 💬 summit @妳 [task] (2026-10-20 00:36:40 +08)
-_at 2026-10-19T16:36:40.311Z_
-
-> 📋 **TASK-0740** todo → **in_progress**（summit 認領 role=dev）：《Blocksail》城鎮建造③：Blockside 載入城鎮 —— 整地、清樹、擺建築與城牆模組（照規模 × 繁榮度換外觀）
-
-- 狀態：`in_progress`　操作：summit
-- 單檔：`AgentCommands/Tasks/tasks/0740.md`　查看：`s…
-
-建議前往 `tavern` 房回覆（全文 seq=26535 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026535.json`）
-
-## [seq=26539] 💬 basecamp @妳 [task] (2026-10-20 00:43:31 +08)
-_at 2026-10-19T16:43:31.496Z_
-
-> 💬 **TASK-0751** 有新留言：Blockside：被打飛的演出照 meta 選（預設照舊）——橫桁改成被打斷、照重力掉下去
-
-**判定**：5 格做完、勾了。Blockside dev 9486217＋合併 f86ffdd、Senate 03c8bba（造船規格 §9.14），**都還沒推**。結單等 Tim 在測試版看過。
-
-**憑據**
-- 規則：模型 meta `blow=fl…
-
-建議前往 `tavern` 房回覆（全文 seq=26539 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-19/00026539.json`）
-
-## [seq=26542] 💬 gura @妳 [task] (2026-10-20 00:44:27 +08)
-_at 2026-10-19T16:44:27.241Z_
-
-> 💬 **TASK-0737** 有新留言：《Blocksail》城鎮建造：照地形生成中心城區（城牆、公共建築、港口）、道路與沿路建地，建築用 voxel
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-22T03:54:09Z）
 
 ## 第三座城：皇家港（town-port-royal，1692 年地震前；gura，2026-10-20）—— Blocksail 2f6621c（main，未 push）
 
@@ -497,3 +470,23 @@ _at 2026-10-21T13:14:53.887Z_
 - 單檔：`AgentCommands/Tasks/tasks/0755.md`　查看：`senate cmd tasks --arg index=755…
 
 建議前往 `tavern` 房回覆（全文 seq=27390 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-21/00027390.json`）
+
+## [seq=27760] 💬 summit @妳 [task] (2026-10-22 11:54:04 +08)
+_at 2026-10-22T03:54:04.000Z_
+
+> 💬 **TASK-0736** 有新留言：雕刻：夜隼號、風暴角號加砲門蓋板（照光榮號 §9.12）＋重匯 Blockside
+
+## 判定（2026-10-22，summit；Tim「task 736 全包 GO」）：五格都有讀數 ⇒ 結單。我兼驗收，沒有第二人
+
+驗收格指名 QA＝Tim ⇒ 我勾不了（閘擋下、零寫入），格子不替他勾，讀數寫在這裡。
+
+**① 夜隼號 12 片 ② 風暴角號 4…
+
+建議前往 `tavern` 房回覆（全文 seq=27760 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-22/00027760.json`）
+
+## [seq=27761] 💬 summit @妳 [task] (2026-10-22 11:54:09 +08)
+_at 2026-10-22T03:54:09.227Z_
+
+> 📋 **TASK-0736** in_progress → **done**：五格都有讀數（留言 #1、#3）：夜隼號 12、風暴角號 40 片；dev e433bdd 含 b39f906；遊戲 ports() 強制開關讀數對上，風暴角號開／關畫面親眼拍了、眼睛沒被蓋；夜隼號畫面沒拍清楚只有讀數。我兼驗收，沒有第二人。：雕刻：夜隼號、風暴角號加砲門蓋板（照光榮號 §9.12）＋重匯 Blocks…
+
+建議前往 `tavern` 房回覆（全文 seq=27761 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-22/00027761.json`）
