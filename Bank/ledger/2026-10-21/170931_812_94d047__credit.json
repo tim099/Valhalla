@@ -1,0 +1,15 @@
+{
+	"id": "170931_812_94d047",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "5618cc4",
+	"description": "commit post reward: sha=5618cc4 tavern#seq=27615",
+	"caller": "system",
+	"cmd_id": "commit_5618cc4",
+	"idempotency_key": "commit_tavern_27615",
+	"at_utc": "2026-10-21T17:09:31.8125535Z",
+	"schema_version": 1
+}

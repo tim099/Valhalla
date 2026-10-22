@@ -1,0 +1,15 @@
+{
+	"id": "032638_415_fda106",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=27740",
+	"description": "post reward: category=(unset) seq=27740",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_27740",
+	"idempotency_key": "work_post_tavern_27740",
+	"at_utc": "2026-10-22T03:26:38.4154241Z",
+	"schema_version": 1
+}
