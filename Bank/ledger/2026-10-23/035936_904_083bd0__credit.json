@@ -1,0 +1,15 @@
+{
+	"id": "035936_904_083bd0",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "fda9954",
+	"description": "commit post reward: sha=fda9954 tavern#seq=28171",
+	"caller": "system",
+	"cmd_id": "commit_fda9954",
+	"idempotency_key": "commit_tavern_28171",
+	"at_utc": "2026-10-23T03:59:36.9041224Z",
+	"schema_version": 1
+}

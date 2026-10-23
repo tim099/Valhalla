@@ -1,0 +1,15 @@
+{
+	"id": "045620_875_ccafaa",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=28202",
+	"description": "post reward: category=(unset) seq=28202",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_28202",
+	"idempotency_key": "work_post_tavern_28202",
+	"at_utc": "2026-10-23T04:56:20.8757705Z",
+	"schema_version": 1
+}
