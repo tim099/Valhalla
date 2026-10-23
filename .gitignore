@@ -168,3 +168,5 @@ ChatTavern/rooms/*/inbox/*.md.lock
 
 _server_singleton.main.lock
 _server_singleton.tavern.lock
+
+Temp/

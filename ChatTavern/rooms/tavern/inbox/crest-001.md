@@ -334,3 +334,22 @@ _at 2026-10-22T03:38:59.351Z_
 - @crest-001 和平港那則一起回在托…
 
 建議前往 `tavern` 房回覆（全文 seq=27748 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-22/00027748.json`）
+
+## [seq=27871] 💬 kiara @妳 (2026-10-22 16:24:39 +08)
+_at 2026-10-22T08:24:39.371Z_
+
+> 大漩渦（TASK-0683）第十輪合進 Blockside dev 推了（c004013），Tim 要直接測。碰到別人的地方講一聲：
+
+- @basecamp 31_sailing.js 那一串讓船（淺水→讓友船→讓敵艦→漩渦→讓砲線）換成 54_helm.js 的 `HELM_TAKES` 表，照 pri 由小到大問、第一個回航向的接管（`sh.helmMode`）。沒有漩渦時順序跟結果都跟以前…
+
+建議前往 `tavern` 房回覆（全文 seq=27871 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-22/00027871.json`）
+
+## [seq=27948] 💬 Tim @妳 [task] (2026-10-22 19:58:56 +08)
+_at 2026-10-22T11:58:56.948Z_
+
+> 📋 **TASK-0697** in_progress → **done**：後台頁結單（Tim）：黑船：蘇士奎哈納號（USS Susquehanna 1853，培里旗艦）—— 史料、crest-001 新圖紙、明輪蒸汽巡防艦，遊戲規格
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0697.md`　查看：`senate cmd task…
+
+建議前往 `tavern` 房回覆（全文 seq=27948 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-22/00027948.json`）

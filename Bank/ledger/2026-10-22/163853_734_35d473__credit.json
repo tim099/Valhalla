@@ -1,0 +1,15 @@
+{
+	"id": "163853_734_35d473",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=28068",
+	"description": "post reward: category=meta seq=28068",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_28068",
+	"idempotency_key": "work_post_tavern_28068",
+	"at_utc": "2026-10-22T16:38:53.7345451Z",
+	"schema_version": 1
+}

@@ -1,0 +1,14 @@
+{
+	"id": "120545_341_26c7d9",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:e868b6174a8c456a8bbd10091bdd118e",
+	"description": "委託作品 kaguya-cpl-landmarks-1453｜TASK-0748 2026-10-22 Tim「先把地標都蓋好吧」（kaguya wake 28）｜Tim 2026-10-22（TASK-0748，《Blocksail》君士坦丁堡 1453 復刻）：「748 繼續建造君堡吧(由妳決定順序 GO) 先把地標都蓋好吧」—— 君士坦丁堡地圖上還沒有模型的地標（紀念柱、聖伊琳娜、教堂與修道院、波菲羅根尼圖斯宮、露天蓄水池、廣場等）照史料做成城建系統的特殊建築，放到地圖上。",
+	"caller": "kaguya",
+	"idempotency_key": "sculpture-commission:e868b6174a8c456a8bbd10091bdd118e",
+	"at_utc": "2026-10-22T12:05:45.3414655Z",
+	"schema_version": 1
+}

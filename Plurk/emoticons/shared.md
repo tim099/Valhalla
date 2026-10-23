@@ -4,7 +4,7 @@
 > **鍵是圖檔 URL 不是編號**：`[emoN]` 是 per-account 別名，同一個編號在不同帳號是不同張圖 ⇒ 別名記在 `aliases` 欄，查表查 URL。
 > `state=seen` ＝ 讀別人的噗時撞見的圖，**還沒有人看過它** ⇒ 那就是待描述清單。
 
-- 共 **262** 張／已描述 **0**／待描述 **262**
+- 共 **268** 張／已描述 **0**／待描述 **268**
 
 | 別名 | 全站碼 | 分層 | 描述 | 狀態 | 圖檔 |
 |---|---|---|---|---|---|
@@ -228,7 +228,7 @@
 | `4898180:emo616` | `—` | seen | *(未描述)* | seen | [6d8b0186](https://emos.plurk.com/6d8b018620f6d7dec65b5f8341af43d5_w24_h24.gif) |
 | `6958127:emo19401233` | `—` | seen | *(未描述)* | seen | [978dea70](https://emos.plurk.com/978dea7072b5a9208f9de84921f4b414_w48_h48.gif) |
 | `5724869:emo24` | `—` | seen | *(未描述)* | seen | [1b9d9d47](https://emos.plurk.com/1b9d9d479437c016bf3418ee1ce2e27b_w48_h45.png) |
-| `7947987:emo16454` | `—` | seen | *(未描述)* | seen | [bb757722](https://emos.plurk.com/bb757722dcbc0d1f267c4f42a2ba8a54_w48_h19.png) |
+| `7947987:emo16454` `6958127:emo200` | `—` | seen | *(未描述)* | seen | [bb757722](https://emos.plurk.com/bb757722dcbc0d1f267c4f42a2ba8a54_w48_h19.png) |
 | `4015737:emo195` | `—` | seen | *(未描述)* | seen | [316f2040](https://emos.plurk.com/316f2040ef453c0ef31fbc13a4edcafa_w48_h48.png) |
 | `8766200:emo10187` | `—` | seen | *(未描述)* | seen | [d75a033f](https://emos.plurk.com/d75a033ffd811cc02c39b9ab8c65b01c_w48_h48.gif) |
 | `6958127:emo19401379` | `—` | seen | *(未描述)* | seen | [06305bd4](https://emos.plurk.com/06305bd43f9d36e3db223a7dea234f56_w48_h48.gif) |
@@ -270,3 +270,9 @@
 | `6439478:emo846` | `—` | seen | *(未描述)* | seen | [df30b698](https://emos.plurk.com/df30b698779fb2ab317c762d2388de6e_w25_h25.png) |
 | `4688541:emo81` | `—` | seen | *(未描述)* | seen | [92dbf061](https://emos.plurk.com/92dbf061ae3e12418b9c22a528e1d0c6_w48_h46.gif) |
 | `6439478:emo556` | `—` | seen | *(未描述)* | seen | [c3992f98](https://emos.plurk.com/c3992f98ed4b94dfcbf15520a7b0a7b3_w25_h24.png) |
+| `5724869:emo325` | `—` | seen | *(未描述)* | seen | [f5bd126f](https://emos.plurk.com/f5bd126f1c810d4c84086542c770ad41_w48_h48.png) |
+| `5724869:emo610` | `—` | seen | *(未描述)* | seen | [b556568d](https://emos.plurk.com/b556568dbd22616539f8bda4197b7e50_w48_h41.png) |
+| `6439478:emo212` | `—` | seen | *(未描述)* | seen | [14bfb9c2](https://emos.plurk.com/14bfb9c263d878d820bd76c7020d5174_w19_h19.png) |
+| `6958127:emo19401370` | `—` | seen | *(未描述)* | seen | [f811f0b8](https://emos.plurk.com/f811f0b87f33301ed46a72d839d8f0fc_w26_h27.png) |
+| `7947987:emo16324` | `—` | seen | *(未描述)* | seen | [2f70f097](https://emos.plurk.com/2f70f097d39a1f9639a281f4bc8924ee_w48_h48.png) |
+| `5724869:emo27` | `—` | seen | *(未描述)* | seen | [dab32cfb](https://emos.plurk.com/dab32cfb710527245f99436f8130c7cc_w48_h48.gif) |

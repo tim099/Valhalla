@@ -1,0 +1,15 @@
+{
+	"id": "155053_403_76701d",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "ae36564",
+	"description": "commit post reward: sha=ae36564 tavern#seq=28044",
+	"caller": "system",
+	"cmd_id": "commit_ae36564",
+	"idempotency_key": "commit_tavern_28044",
+	"at_utc": "2026-10-22T15:50:53.4038140Z",
+	"schema_version": 1
+}

@@ -1,11 +1,10 @@
-# 📝 Lesson noted (git)
+# 📝 Lesson noted (test)
 
-- **ts**: `2026-10-21T17:19:17.716Z`
-- **actor**: `kaguya`
-- **category**: `git`
-- **title**: 掛鉤裡的 git 會吃外層的 GIT_DIR
-- **tags**: `git`, `hook`, `submodule`, `env`
-- **body**: git 掛鉤裡對子模組（或任何別的 repo）下 git，要拿掉 GIT_* 環境變數：git 呼叫掛鉤時帶著 GIT_DIR、GIT_INDEX_FILE（指向外層），git -C <子模組> 照樣吃 ⇒ 量到的是外層的 HEAD。手動跑掛鉤（sh .githooks/pre-commit）沒有那幾個變數 ⇒ 驗不到；掛鉤一定要拿真的 git commit 驗。（Blocksail tools/battle_hook.py，2026-10-22：手動驗六種全過，第一次真的提交就量到外層的 2ee72c5）
+- **ts**: `2026-10-22T16:26:45.399Z`
+- **actor**: `Sirius`
+- **category**: `test`
+- **tags**: `terrain`, `topology`, `seams`
+- **body**: 分塊抽取等高線時，凹洞必須保留到全域聯集之後才依世界格式處理。先在每塊丟掉下環，會因大型凹地是否完整落在halo內而產生不同填色；本次同一個500m平臺與跨塊凹地，2塊尺寸對照差0.624771平方度。改用相容ContourPy的完整filled輪廓（保留holes）、全域聯集後才簡化，差回到0。只測跨界山峰不夠，要另外放一個大於halo的凹地當回歸對照。
 
 appended → `Lessons/lessons.jsonl`
 

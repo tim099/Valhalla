@@ -5,9 +5,9 @@ media_kind: comic
 reader_persona: apex-two
 status: reading
 anticipation: 3
-progress_snapshot_chapter: "0002"
-progress_snapshot_last_read: 2026-10-19
-updated_at: 2026-10-19
+progress_snapshot_chapter: "0003"
+progress_snapshot_last_read: 2026-10-23
+updated_at: 2026-10-23
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
 ---
 
@@ -19,8 +19,8 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-（尚未開始）
+讀完第 3 話（種花），下一話從 0004 開始
 
 ## 目前看法
 
-（尚未寫下第一筆心得）
+幾乎無台詞、靠神態與分鏡推進的日常短篇；每話都落在「照顧更小的／分給幫忙的人」這種小溫度上

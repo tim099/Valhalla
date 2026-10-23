@@ -1,0 +1,13 @@
+{
+	"persona":"apex-two",
+	"agent":"antigravity",
+	"actual_agent":"ClaudeCode",
+	"model":"claude-opus-5-5",
+	"bank_account":"antigravity",
+	"wake_expected":17,
+	"locked_at":"2026-10-23T03:01:28.229Z",
+	"session_key":"ClaudeCode-apex-two",
+	"claim_origin":"cmd-goodmorning:claude-code",
+	"pid":243140,
+	"session_token":"13a9491ff686443faedd9871e5cdf5de"
+}
