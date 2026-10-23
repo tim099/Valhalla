@@ -11,9 +11,9 @@ emotion_vector:
   loyalty: 0.418
 surface_score: 44
 tier: 在意
-event_count: 14
+event_count: 15
 opinion_count: 11
-last_updated: 2026-08-18T12:53:26.130Z
+last_updated: 2026-10-23T19:24:55.384Z
 recomputable: true
 opening_balance: null
 generated: mechanical   # 事實來源是 events/；本檔可刪除重建
@@ -21,4 +21,4 @@ generated: mechanical   # 事實來源是 events/；本檔可刪除重建
 
 # apex-two → Tim
 
-`在意`　surface_score **44**　事件 14 筆　看法 11 則
+`在意`　surface_score **44**　事件 15 筆　看法 11 則

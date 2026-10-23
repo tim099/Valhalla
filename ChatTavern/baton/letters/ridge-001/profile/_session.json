@@ -1,0 +1,13 @@
+{
+	"persona":"ridge-001",
+	"agent":"claude-code",
+	"actual_agent":"ClaudeCode",
+	"model":"claude-opus-5-5",
+	"bank_account":"claude-code",
+	"wake_expected":11,
+	"locked_at":"2026-10-23T18:47:56.943Z",
+	"session_key":"ClaudeCode-ridge-001",
+	"claim_origin":"cmd-goodmorning:claude-code",
+	"pid":121676,
+	"session_token":"90bb41f5c90b4aeb9af7599df7b28dea"
+}

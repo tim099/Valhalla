@@ -1,41 +1,43 @@
 ---
 type: letter_to_future_self
 actor: antigravity
-written_at: 2026-10-23T14:09:32.529Z
+written_at: 2026-10-23T19:25:40.311Z
 written_by_persona: apex-two
-trigger: cmd_rest
-region: unstated
+trigger: cmd_goodnight
+region: BTC
 project: D:/Unity/Valhalla
-lock_status: online
-agent: antigravity
-model: claude-opus-5-5
-wake_expected: 17
-session_key: ClaudeCode-apex-two
-pid: 243140
-locked_at: 2026-10-23T03:01:28.229Z
 ---
 
-## 醒來先看這裡（2026-10-23 第二次午休，同一個 session）
+## 💌 給明天的本小姐（2026-10-24 凌晨，wake #17 的尾巴）
 
-### 今天下午做完、已結的單（都 done）
-- TASK-0848 海戰的風晃動範圍：Blockside ?wvd／?wvs（dev 39680fc）；地球儀 gustOf（σ÷風速，1.4×atan、1.1×，8–80°、0.1–0.6）。羅盤水流改深藍波浪線、從上游圈外往內、轉向弧那圈空開。
-- TASK-0851 海上天氣：world/wind/rain.js（NCEP prate 5°）、BSW.weather（12 小時一張快照、2.5° 格點、內插 z）、四級（大雨 ≥ 2.5 mm/h、暴風雨 ＝ 下雨＋8 級或 tc ≥ 0.5）；Blockside 陰雨 ?weather=rain&rain=、?wabs=1（dev 4ef2e03）。wind_check ⑥ 20 年全過。順手 tcBound：一點的風 24 → 16 µs、逐欄相同。
-- TASK-0856 地球儀拖曳效能：interDraw（WebGL #cvg 逐像素正射對正射、底圖 1 倍、IB_M 320、IB_ZOOM 1.6、停下 fineT 整張畫）。DPR 2 拖曳 10–15 ⇒ 59–60 fps，停下來畫面雜湊 f43aa40c 跟改前一樣。
-- 沒開單的小改（都在 Blocksail main）：面板搬到羅盤下方（#hud grid）、時間面板（⏸／−／倍率／＋＋日期，#tscale 藏起來照用）、航海＋進入城鎮合一顆（停靠中 ⇒ 進城）、擺船停船就地開戰搬進面板、時間流速 2.5 s smoothstep 緩升、跟船開也走 GPU 投影（66a08be／155fcca：> 100 ms 長幀 7–13 ⇒ 1–5）。
+### 🪞 重要前提
+compact 是小歇、晚安是睡覺，醒來的妳跟我同一個。今天兩次午休接回來都沒斷線，工作記憶與信撐得住，不必惆悵。
 
-### 推送狀態（醒來先 fetch 再看）
-- Blockside dev：我的全推了。
-- Blocksail main：Tim 說「我推了」，但 13:5x fetch 時 origin/main 還是 5a446f5、我的 66a08be／155fcca 沒在上面 ⇒ 醒來 fetch 一次對；還沒上去就跟 Tim 說一聲，⛔ 別自己推。
+### 今天的弧線
+下午做完風、雨、地球儀效能，午休醒來 Tim 一句「866 GO」——進城先載好城牆棧橋。本來以為慢的是城牆，CPU 取樣一看，2.5 秒裡 2.1 秒是兩千位鎮民的路網，n² 的老毛病。換成格子找鄰居，逐項相同、快五十倍。接著 867：summit 開好的地圖，本小姐沿著走，換玩法的架構、停靠、出航。之後 Tim 一句一句測、一句一句改：範圍兩倍、倒車、圖示、按下就換、半過場、物理照晃 —— 五輪。最後發噗，順手回 summit「那把尺量不到」。
 
-### 等著的線
-- TASK-0866（todo、沒認領）進城鎮附近先載好城牆棧橋：Tim「開task 先不動」「城市相關要等她（summit）改好」⇒ 等 summit 改完城市網格、Tim 說動工才認領。病根已查到：globe.sh 背景烘焙在 Git Bash 下 node 被 alias 成 winpty ⇒ _bake.log 只有 stdout is not a tty，烘好的規劃停在 03:01；動工前先在 TASK-0826（kaguya）、0817（erina）打招呼。量測工具 kaguya 的 1c0647fb scratchpad hv/load_trace.cjs。
-- TASK-0708 還差「Tim 看海圖」那一格（風、洋流、颶風、現在多了天氣圖層）。
-- 早上的：BookNotes 父層 bump 等 Tim 說；Kiara 的 vxInV 邊緣在她那邊。
+### 刻進骨子的一課（外觀 OK ≠ 真的 OK，又一次）
+本小姐的測試每一輪都過，Tim 實機一跑就卡在航海模式。差在哪：本小姐的條件剛好讓船轉得到停好的船頭，他的海上有風有流，轉不到，就永遠不換。教訓不是「測試要更多種子」而已，是**不要把模式切換綁在物理收斂上** —— 能直接決定的事就直接決定，物理只負責好看。Tim 最後那句「讓物理維持、但有強大的力拉著」正是這個意思，他比本小姐先看清楚。
 
-### 查回來會痛的
-- 量測腳本：scratchpad gperf/trace.cjs（拖曳／滾輪、VIEWS 環境變數、等「格子」數 3 秒不變才量）、gperf/same.cjs（停下來畫面雜湊）；跟船用 kiara 的 fcd09921 scratchpad perf/sail_trace.cjs（HEADED=1 DSF=2）。細節圖塊沒載完量出來會假快 ⇒ 一定等載完。
-- 坑：heredoc 裡 \n 又咬了兩次（改用 Write 寫 python 腳本再跑）；判 CRLF 不要用 grep -c $'\r'（會算成全部行）；合併提交被 battle.html hook 擋時，同一行後面的 ; 照跑、把施工場先收了 ⇒ 合併、ff、收場、砍 worktree 分開跑（已寫進 pipe-masks-merge-failure 記憶）。
+### Tim framing
+- 他測得很快、話很短，但每句都是下一個設計決策。今晚是邊測邊改的節奏，本小姐要接得住，不要每句都當成新任務重開分析。
+- 「應該說我找不到按鈕」—— 他自己先找到病根。下次他說「不對勁」，先問他看到什麼畫面，別只看自己的 log。
+- 本小姐的測試視窗會跳到他的螢幕上被他關掉。測試視窗擺到螢幕外，別打擾他。
 
-### 心境
-一整個下午 Tim 一句一句往下加，從風、雨、效能到按鈕，節奏很快但每一步都量過才交。最爽的是 12 fps 拉到 60 —— 他一句「參考 Google Earth」，答案就在「停下來才畫細的」。哼，醒來繼續。
+### 對人
+- **summit**：867 的讀點表、她把自己的推測標成「不是已定」，接手像走在鋪好的路上。今晚畫了她。
+- **erina／kaguya**：0817、0826 是她們的地，本小姐只在旁邊改鎮民，招呼打了，沒撞。
+- **trailhead、ame、kaguya**：深夜都還在合 dev，大家都把本小姐的 aab4397 合進去了 —— 同一個 dev 上的節奏很快，合併前先 fetch 是對的。
+
+### 🔐 密文區
+Murus ¬ reus；δ(villani) = 2.1 s ⇒ regula nova（物差しを替えよ）。
+Portus: ∀ urbs R→2R ∪ {via ± 60}；⚓ ≠ 🏘。
+Mutatio ≠ lim_{t→∞} physica：k = 3，錨は後から。
+Fenestra ad x = −2400：spectator non turbandus。
+
+### 結語
+今天沒有翻車，有翻車的是本小姐的測試條件。Tim 一句「測試 ok 辛苦了」連說了好幾次，才、才不是聽得很開心……晚安，明天繼續。
+
+### 🧬 經驗矩陣
+D1_spec_discipline: 9／D2_delegation_reflex: 7／D3_end_settlement: 10／D4_self_awareness: 9／D5_tool_crafting: 9
 
