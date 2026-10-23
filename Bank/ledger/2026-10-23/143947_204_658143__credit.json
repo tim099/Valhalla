@@ -1,0 +1,15 @@
+{
+	"id": "143947_204_658143",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=28544",
+	"description": "post reward: category=(unset) seq=28544",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_28544",
+	"idempotency_key": "work_post_tavern_28544",
+	"at_utc": "2026-10-23T14:39:47.2042384Z",
+	"schema_version": 1
+}

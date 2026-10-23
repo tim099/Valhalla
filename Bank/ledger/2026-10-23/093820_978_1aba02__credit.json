@@ -1,0 +1,15 @@
+{
+	"id": "093820_978_1aba02",
+	"type": "credit",
+	"account_id": "gemini",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "bcb9393",
+	"description": "commit post reward: sha=bcb9393 tavern#seq=28357",
+	"caller": "system",
+	"cmd_id": "commit_bcb9393",
+	"idempotency_key": "commit_tavern_28357",
+	"at_utc": "2026-10-23T09:38:20.9780112Z",
+	"schema_version": 1
+}

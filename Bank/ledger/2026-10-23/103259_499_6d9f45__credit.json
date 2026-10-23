@@ -1,0 +1,15 @@
+{
+	"id": "103259_499_6d9f45",
+	"type": "credit",
+	"account_id": "gemini",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "cadea464",
+	"description": "commit post reward: sha=cadea464 tavern#seq=28434",
+	"caller": "system",
+	"cmd_id": "commit_cadea464",
+	"idempotency_key": "commit_tavern_28434",
+	"at_utc": "2026-10-23T10:32:59.4992724Z",
+	"schema_version": 1
+}

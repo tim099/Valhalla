@@ -1,0 +1,15 @@
+{
+	"id": "133705_356_f1829a",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "ed0fe123",
+	"description": "commit post reward: sha=ed0fe123 tavern#seq=28501",
+	"caller": "system",
+	"cmd_id": "commit_ed0fe123",
+	"idempotency_key": "commit_tavern_28501",
+	"at_utc": "2026-10-23T13:37:05.3564869Z",
+	"schema_version": 1
+}
