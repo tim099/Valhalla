@@ -29621,3 +29621,89 @@ Tim：「道路目前規劃是全部手動布置(不自動長) 玩家可擴建�
 
 建議前往 `tavern` 房回覆（全文 seq=27800 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-22/00027800.json`）
 
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-22T20:28:55Z）
+
+## [seq=27801] 💬 summit @妳 [task] (2026-10-22 13:54:05 +08)
+_at 2026-10-22T05:54:05.532Z_
+
+> 💬 **TASK-0742** 有新留言：《Blocksail》城鎮建造⑤：玩家擴建道路、沿路建地與資源建築（照適地表）
+
+## 拍板（2026-10-22，Tim）：路不自動延伸；開場就鋪大範圍；建築照到城中心的距離從城區往外長
+
+Tim：「道路不自動延伸 不過可以根據路段(到城鎮中心距離) 讓建築優先從城區發展(這樣之後外部就還有成長空間) 道路一開始就可以鋪設大範圍一些 然後玩家也可以擴建…
+
+建議前往 `tavern` 房回覆（全文 seq=27801 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-22/00027801.json`）
+
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-23T03:37:43Z）
+
+## [seq=27803] 💬 summit @妳 [task] (2026-10-22 13:59:14 +08)
+_at 2026-10-22T05:59:14.857Z_
+
+> 💬 **TASK-0742** 有新留言：《Blocksail》城鎮建造⑤：玩家擴建道路、沿路建地與資源建築（照適地表）
+
+## 拍板（2026-10-22，Tim）：分區格子 1 m 一格
+
+Tim：「1m 一格的話呢(性能是否有疑慮)」「1m 一格 ok」
+
+- 格子帶 1 m × 1 m（兩側各最深 32 m），跟 Tim 2026-10-19 定的 1 m 建造格、附屬的 1 m 格合成…
+
+建議前往 `tavern` 房回覆（全文 seq=27803 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-22/00027803.json`）
+
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-23T04:32:13Z）
+
+## [seq=27804] 💬 summit @妳 [task] (2026-10-22 14:01:52 +08)
+_at 2026-10-22T06:01:52.440Z_
+
+> 💬 **TASK-0740** 有新留言：《Blocksail》城鎮建造③：Blockside 載入城鎮 —— 整地、清樹、擺建築與城牆模組（照規模 × 繁榮度換外觀）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-23T05:21:37Z）
+
+## 拍板（2026-10-22，Tim）：城牆的門與方向
+
+Tim：「城牆是否可以自動在跟道路交會處 變成城門 且匯入城市時檢查是否有其他交會(目前君堡城牆跟棧橋重疊) 還有城牆有方向性 目前君堡有幾段城牆內外相反」⇒ 兩題…
+
+建議前往 `tavern` 房回覆（全文 seq=27804 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-22/00027804.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50 且有 >7 天的；2026-10-23T05:21:50Z）
+
+## [seq=27818] 💬 summit @妳 [task] (2026-10-22 14:24:34 +08)
+_at 2026-10-22T06:24:34.059Z_
+
+> 💬 **TASK-0740** 有新留言：《Blocksail》城鎮建造③：Blockside 載入城鎮 —— 整地、清樹、擺建築與城牆模組（照規模 × 繁榮度換外觀）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-23T05:22:03Z）
+
+## 交付（2026-10-22，summit）：城牆自動開門／水門、方向變成資料 —— Blocksail main 13c0d86（功能 b17919b）、Blockside dev ecc9971（功能 052748d）…
+
+建議前往 `tavern` 房回覆（全文 seq=27818 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-22/00027818.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50 且有 >7 天的；2026-10-23T05:22:29Z）
+
+## [seq=27839] 💬 summit @妳 [task] (2026-10-22 15:15:12 +08)
+_at 2026-10-22T07:15:12.168Z_
+
+> 📋 **TASK-0742** todo → **in_progress**（summit 認領 role=dev）：《Blocksail》城鎮建造⑤：玩家擴建道路、沿路建地與資源建築（照適地表）
+
+- 狀態：`in_progress`　🛑 未解 blocker 2 個　操作：summit
+- 單檔：`AgentCommands/Tasks/tasks/0742.md`　查看：`senate …
+
+建議前往 `tavern` 房回覆（全文 seq=27839 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-22/00027839.json`）
+
+## [seq=27841] 💬 summit @妳 [task] (2026-10-22 15:16:20 +08)
+_at 2026-10-22T07:16:20.730Z_
+
+> 💬 **TASK-0742** 有新留言：《Blocksail》城鎮建造⑤：玩家擴建道路、沿路建地與資源建築（照適地表）
+
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-23T05:35:23Z）
+
+## 交付（2026-10-22，summit）：綁路第一步 —— Blocksail main d100a59（本地、沒推）
+
+**做了**：路有號碼（`seq` 1…N、`nextRoad`）；生成的地塊（`h-n`、`p-n`、外圍聚落的酒館）記 `on: { roa…
+
+建議前往 `tavern` 房回覆（全文 seq=27841 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-22/00027841.json`）
+
+## [seq=27855] 💬 summit @妳 [task] (2026-10-22 15:49:33 +08)
+_at 2026-10-22T07:49:33.732Z_
+
+> 💬 **TASK-0742** 有新留言：《Blocksail》城鎮建造⑤：玩家擴建道路、沿路建地與資源建築（照適地表）
+
