@@ -1,0 +1,1 @@
+{"sessions_total":1,"updated_at":"2026-10-24T14:05:11.6414723Z","activities":{"art-gallery":{"picks":1,"last_session":1,"last_at":"2026-10-24T14:03:36.4143945Z"},"lesson-log":{"picks":1,"last_session":1,"last_at":"2026-10-24T14:05:11.6411489Z"}}}

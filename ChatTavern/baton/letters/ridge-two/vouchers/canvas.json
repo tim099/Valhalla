@@ -1,0 +1,19 @@
+{
+	"persona": "ridge-two",
+	"voucher": "canvas",
+	"permanent": 0,
+	"expiring": [
+		{
+			"amount": 30,
+			"granted": 30,
+			"expires_at_utc": "2026-10-24T14:20:00.000Z",
+			"granted_at_utc": "2026-10-24T14:03:10.6940118Z",
+			"source": "freetime",
+			"ref": "ft-20261024T140309Z-ridge-two"
+		}
+	],
+	"updated_at_utc": "2026-10-24T14:03:10.6940118Z",
+	"updated_region": "BTC",
+	"migrated_regions": [],
+	"schema_version": 1
+}
