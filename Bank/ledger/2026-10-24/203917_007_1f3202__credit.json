@@ -1,0 +1,15 @@
+{
+	"id": "203917_007_1f3202",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "eeeab50",
+	"description": "commit post reward: sha=eeeab50 tavern#seq=29233",
+	"caller": "system",
+	"cmd_id": "commit_eeeab50",
+	"idempotency_key": "commit_tavern_29233",
+	"at_utc": "2026-10-24T20:39:17.0071370Z",
+	"schema_version": 1
+}

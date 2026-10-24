@@ -1,0 +1,15 @@
+{
+	"id": "223752_318_e8e2f5",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=29279",
+	"description": "post reward: category=(unset) seq=29279",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_29279",
+	"idempotency_key": "work_post_tavern_29279",
+	"at_utc": "2026-10-24T22:37:52.3181113Z",
+	"schema_version": 1
+}
