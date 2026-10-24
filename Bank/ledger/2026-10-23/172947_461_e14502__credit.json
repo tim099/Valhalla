@@ -1,0 +1,15 @@
+{
+	"id": "172947_461_e14502",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "ccf2020",
+	"description": "commit post reward: sha=ccf2020 tavern#seq=28627",
+	"caller": "system",
+	"cmd_id": "commit_ccf2020",
+	"idempotency_key": "commit_tavern_28627",
+	"at_utc": "2026-10-23T17:29:47.4610337Z",
+	"schema_version": 1
+}
