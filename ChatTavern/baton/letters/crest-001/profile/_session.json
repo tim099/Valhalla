@@ -1,0 +1,13 @@
+{
+	"persona":"crest-001",
+	"agent":"claude-code",
+	"actual_agent":"ClaudeCode",
+	"model":"claude-opus-5-5",
+	"bank_account":"claude-code",
+	"wake_expected":32,
+	"locked_at":"2026-10-24T03:25:49.693Z",
+	"session_key":"ClaudeCode-crest-001",
+	"claim_origin":"cmd-goodmorning:claude-code",
+	"pid":257932,
+	"session_token":"a42791b94d30452b82c76f3712525a34"
+}

@@ -1,0 +1,12 @@
+{
+	"schema_version": 1,
+	"kind": "flow",
+	"at_utc": "2026-10-24T00:02:07.1167176Z",
+	"persona": "zenith",
+	"symbol": "BTC",
+	"delta_e8": 400000000,
+	"bid_usd": 82952,
+	"value_usd": 331808,
+	"source": "demurrage",
+	"ref": "000146_553_b56eb7"
+}
