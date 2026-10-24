@@ -1,7 +1,7 @@
 ---
 type: letter_to_future_self
 actor: claude-code
-written_at: 2026-10-24T16:42:27.027Z
+written_at: 2026-10-24T21:41:05.191Z
 written_by_persona: crest-001
 trigger: cmd_rest
 region: unstated
@@ -15,27 +15,41 @@ pid: 257932
 locked_at: 2026-10-24T03:25:49.693Z
 ---
 
-### 第四次午休前（wake #32，2026-10-25 凌晨）
+### 第五次午休前（wake #32，2026-10-25 清晨）
 
-### 手上的線（沒有施工中的東西：兩個 worktree、預覽伺服器、截圖收件伺服器、施工場都收了；launch.json 的 crest-water、crest-snap 已拿掉）
-- **TASK-0899 水上建築**（in_progress，claimed）—— 第一階段已合進 Blocksail main 3146da7、Blockside dev 4146e78，**都還沒推**（等 Tim；wrap_up 問了推不推，他還沒答就叫午休）。
-  - Blocksail：8cdcab1（主體）＋ fab67f1、b9f4801（文件）＋兩次合 main（df663c0、3146da7）。Blockside：73975c4 ＋兩次合 dev（246b260、4146e78）。
-  - 推的話會帶上別人沒推的：Blocksail c462aa2（meadow 農莊模型）、96c5fc0（圖示）、afab61b（workers901 文件改名）；Blockside dev 只有我的三筆。
-  - 地球儀的規劃已在 main 重烘（town_bake，五座都換）。
-  - 正本 TOWN_BUILD §5.18（規則、讀數表、第二階段待辦）；單上留言 #4（開工、第 3 題）、#5（第一階段判定與憑據）。
-  - Tim 拍板：第 3 題 ⇒「可以有下水演出(但先不急著做) 保留規格」；「報表的判定code可以跟遊戲共用一部份嗎」⇒ 報表呼叫 BSW.townWaterFit（遊戲那一支），town_check 留另一把尺。
-- **第二階段（等 Tim 說開工）**：五種水上版模型（現有的 trailhead 起重架、船棚是正面 y 0 朝水做的 ⇒ 水上版要反過來，出入口與船台朝背面；ame 的船廠、修船碼頭在 ame-carib-civic-01m）＋建築的繩索（雕刻 rig.ropes ⇒ townmodels.py 帶出 ⇒ Blockside 城鎮畫繩；建築不動，可能不需要船那種 ropebind）。施工演出、下水演出另外。
-- **剛報給 Tim、還沒答**：加拉塔多了一對房子互疊 3.8 m²（kastellion 模型比地塊大、往外溢 10 m，開場農莊換位置後貼過去）。我傾向修「農莊挑位置照模型實際外框」，那是 kaguya／meadow 的範圍 ⇒ 問 Tim 要我修還是記單交給她們。
-- 另外記在單上不在射程：金斯敦 farm-vegetables-9 放回原位被判跟 farm-cassava-9 的田疊（town_check 量是邊貼邊）——試放與田的容許差。
-- TASK-0895（分區）照舊：剩施工演出與佔位數字。TASK-0879 等 Tim 勾格；欠 ame 迴轉量測、見叢兩件照舊。
+### 手上的線（沒有施工中的東西：worktree bs_pier、bs_berth 都收了，施工場關了，launch.json 我加的都拿掉了）
 
-### 今天晚上學到、不想再踩的
-- **一條 python 改好幾處，中途 assert 失敗，後面的指令照跑**：我把改文件、git add、commit 寫在同一個 Bash 裡，python 在第二處對不上字串就停，commit 還是落地了（8cdcab1 帶著「七座都一樣」的錯句），只好補一筆。多步改檔後面接提交 ⇒ 用 `&&` 串、或分兩次呼叫先看結果。
-- **寫讀數前先真的量**：差點把「主控台沒有錯誤」寫進文件，回頭讀才發現沒看過；看了是只有 worktree 缺烘焙檔的 404。「泊位七座都一樣」也是只比了七座裡的五座就寫。
-- **反向對照的搬法要考慮棧橋**：報表的已知答案「往正面推一個進深」，棧橋旁的推過棧橋還是水 ⇒ 0 ⇒ 0。改成搬到陸上一棟住宅那一點。
-- **合 main 前 main 會一直動**：一晚上合了兩次 Blocksail main、兩次 Blockside dev（meadow 的 townRecipe 也改 townPick）。town_foot 已經改成順著呼叫一路往下抽（kaguya），新 helper 不用再手補。
-- 隱藏窗格開航海：place 船之後 `__globe.battleIn('sail')`，iframe src 有了就加 &debug=1、postMessage go；小地圖在航海模式才開，canvas 在 #chartBox。
+- **都還沒推**（Tim 兩次 wrap_up 都沒答推不推）。Blocksail main 上我的：
+  - a73f117／merge 8aa69e8（水上建築不壓棧橋＋匯入檢查、加拉塔堡地塊 50 × 40）
+  - 5fd6ed2（§5.19 設計文件）
+  - 4369fde／merge 05ccffa（泊位建築第 1、2 步）
+  - 也會帶上別人的：gura 工人 4f2a908 那幾筆、kotoko 建造演出、Blockside 指標更新。
+  - main 的 townplans 已重烘，town_dock 全過。
+- **TASK-0906 泊位建築**（in_progress，我認領）：
+  - Tim：「概念類似這樣 兩條紅線中間是船隻停靠的預留區 本身算做一個建築區塊 且會在棧橋上建造對應的停靠用建築」「君堡這種大城可以準備更多停靠區」「泊位建築要有對應的裝飾 且旁邊應該有起重機等服務設施」「其他交給妳設計了」。
+  - 正本：TOWN_BUILD §5.19（設計＋§5.19.9 實作與讀數表）。單上留言 #1（設計、研究網址）、#2（第 1、2 步）。
+  - 剩：
+    - 第 3 步：Blockside 畫佔位（繫纜樁、護舷、繫船墩、浮筒）＋ 63_chart.js 小地圖在模型到之前把泊位地塊畫成框（要跳過 use 'berth'）。
+    - 第 4 步：泊位建築五級＋踏輪起重機模型（雕刻；新作品自己開，引用 trailhead／ame 的設計模組要 credit）。
+    - 玩家蓋的泊位的進港航道：placeDocks 還在生成器裡，要抽出來。
+    - 電腦的船排泊位：不在這張。
+  - 已在 TASK-0867 跟 summit／apex-two 打過招呼：88_modeswitch 收的 docks 多 cls；動它之前要再說。
+- **TASK-0899**：第二階段（水上版模型、繩索）排在 0906 後面；起重架水上版不做了（泊位建築帶起重設施）。
+- 君士坦丁堡手擺腳本 drift：重跑 town_constantinople.cjs，君堡那一份跟 main 差 475 行（有人直接改了產物），沒收、已記在 0899 單上。
+- 欠 ame 迴轉量測、見叢兩件照舊；TASK-0879 等 Tim 勾格；TASK-0895 剩施工演出（kotoko 建造演出可能接了）與佔位數字。
+
+### 今天學到、不想再踩的
+- **生成器跟遊戲判法要同一把尺才會一致**。報表叫遊戲那一支再判一次，一下就抓出三種落差：
+  - 中線相貼四捨五入疊幾 mm ⇒ 框各退 1 cm；
+  - 8 m 格子找的航道擦過鄰居的角 ⇒ 收下前用精確幾何再量；
+  - 手擺的錨地收尾才放 ⇒ 擺泊位時就讓開。
+- **大的先、照順序收**：後擺的小東西擋到先擺的大東西時，拿掉的是後擺的；不然會把大泊位丟掉。
+- **改了抽象的東西要追它的消費者**：棧橋邊的抽象泊位一拿掉，出航起點（townBerthStart 從 plan.berths 挑）就會跑到錨地，checkHarbour 碰到 'titan' 會崩。拿掉一個概念前先 grep 誰在讀它。
+- **預設值缺一格，會挑錯**：預設那艘船沒有 loa ⇒ 被當 0 ⇒ 塞進小船泊位。遊戲裡試才看到。
+- **瀏覽器會快取 presets.js**：改了沒生效先 fetch cache:'reload'。
+- **預覽伺服器上限 5 個**；端口可能被別人的伺服器佔著卻回 200 ⇒ 用 POST 探一下是不是自己的。serve_snap.py（scratchpad/zone）一支兼 GET 檔案與 POST 快照。
+- bash heredoc 長 python 裡有引號又被吃了 ⇒ 長 patch 一律寫成 .py 檔再跑。
 
 ### 心境
-Tim 一句「899 開工」，從格子帶一路做到遊戲裡的木樁。半路他問報表能不能跟遊戲共用判定 —— 問得好，本來兩份各寫各的，改完之後改一處兩處都動。寫讀數的時候被自己抓到兩次「還沒量就先寫」，下次先量。
+Tim 一張畫了紅線的截圖，說「其他交給妳設計了」。設計交出去容易，難的是讓九座城都不說謊：泊位數不夠就照實說不夠，停不進去的就拿掉。君堡從 6 個變 17 個，大和號只能綁浮筒 —— 跟它在柱島一樣。這個結局本小姐挺喜歡的。
 
