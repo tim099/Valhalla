@@ -1,250 +1,4 @@
-> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-24T03:33:09Z）
-
-## [seq=28448] 💬 kaguya @妳 [task] (2026-10-23 19:15:26 +08)
-_at 2026-10-23T11:15:26.087Z_
-
-> 📋 **TASK-0862** todo → **in_progress**（kaguya 認領 role=dev）：《Blocksail》生產建築規格：產出物資、要勞動力、消耗原料（糖廠吃甘蔗產糖）；地標裡的田兼任生產建築；農作物照生成式樹木生成、也會野生
-
-- 狀態：`in_progress`　操作：kaguya
-- 單檔：`AgentCommands/Tasks/tasks/0862.md…
-
-建議前往 `tavern` 房回覆（全文 seq=28448 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028448.json`）
-
-## [seq=28449] 💬 kaguya @妳 [task] (2026-10-23 19:15:38 +08)
-_at 2026-10-23T11:15:38.777Z_
-
-> 💬 **TASK-0862** 有新留言：《Blocksail》生產建築規格：產出物資、要勞動力、消耗原料（糖廠吃甘蔗產糖）；地標裡的田兼任生產建築；農作物照生成式樹木生成、也會野生
-
-規格草稿進了 Blocksail main（3a693b4，沒推）：docs/PRODUCTION.md（`senate cmd doc --arg op=show --arg name=PRODUCTION`）…
-
-建議前往 `tavern` 房回覆（全文 seq=28449 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028449.json`）
-
-## [seq=28451] 💬 kaguya @妳 [task] (2026-10-23 19:21:52 +08)
-_at 2026-10-23T11:21:52.075Z_
-
-> 💬 **TASK-0862** 有新留言：《Blocksail》生產建築規格：產出物資、要勞動力、消耗原料（糖廠吃甘蔗產糖）；地標裡的田兼任生產建築；農作物照生成式樹木生成、也會野生
-
-規格照 Tim 這一段的四句改了，進 Blocksail main（2ec725d，沒推）。
-
-憑據（Tim 原話 ⇒ 改了什麼）：
-- 「建築支援的配方表 例如 烘焙房可以有蛋糕 麵包配方」⇒ 產物表併進配方表…
-
-建議前往 `tavern` 房回覆（全文 seq=28451 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028451.json`）
-
-## [seq=28458] 💬 kaguya @妳 [task] (2026-10-23 19:35:30 +08)
-_at 2026-10-23T11:35:30.009Z_
-
-> 📋 **TASK-0863** 指派變動（Tim ← `qa`）：《Blocksail》家族粗框架：建築的主人（公共的歸城鎮）、資金、地產、艦隊；每個家族在每座城一個倉庫（照桶數、倉庫建築加容量）；放不下的賣進城鎮市場；每種貨一桶的重量
-
-- 狀態：`todo`　操作：kaguya
-- 單檔：`AgentCommands/Tasks/tasks/0863.md`　查看：`senate cmd t…
-
-建議前往 `tavern` 房回覆（全文 seq=28458 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028458.json`）
-
-## [seq=28459] 💬 kaguya @妳 [task] (2026-10-23 19:35:41 +08)
-_at 2026-10-23T11:35:41.456Z_
-
-> 📋 **TASK-0863** todo → **in_progress**（kaguya 認領 role=dev）：《Blocksail》家族粗框架：建築的主人（公共的歸城鎮）、資金、地產、艦隊；每個家族在每座城一個倉庫（照桶數、倉庫建築加容量）；放不下的賣進城鎮市場；每種貨一桶的重量
-
-- 狀態：`in_progress`　操作：kaguya
-- 單檔：`AgentCommands/Task…
-
-建議前往 `tavern` 房回覆（全文 seq=28459 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028459.json`）
-
-## [seq=28460] 💬 kaguya @妳 [task] (2026-10-23 19:36:00 +08)
-_at 2026-10-23T11:36:00.240Z_
-
-> 💬 **TASK-0862** 有新留言：《Blocksail》生產建築規格：產出物資、要勞動力、消耗原料（糖廠吃甘蔗產糖）；地標裡的田兼任生產建築；農作物照生成式樹木生成、也會野生
-
-加一格驗收（最後一行）：產出進主人在那座城的倉庫。
-
-憑據：Tim 2026-10-23「照推薦 GO」＋「生產出來的資源會進入到倉庫(每個家族在每座城有獨立倉儲量)…超過倉儲量的貨物會被直接賣到城鎮市場」⇒ 第…
-
-建議前往 `tavern` 房回覆（全文 seq=28460 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028460.json`）
-
-## [seq=28462] 💬 kaguya @妳 [task] (2026-10-23 19:38:44 +08)
-_at 2026-10-23T11:38:44.519Z_
-
-> 📋 **TASK-0864** 指派變動（Tim ← `qa`）：《Blocksail》整體架構與施工進度（母單）：各系統之間的關係（誰讀誰寫）、每個系統做到哪、各系統的單都掛在底下
-
-- 狀態：`todo`　操作：kaguya
-- 單檔：`AgentCommands/Tasks/tasks/0864.md`　查看：`senate cmd tasks --arg index=864`
-
-@Tim…
-
-建議前往 `tavern` 房回覆（全文 seq=28462 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028462.json`）
-
-## [seq=28463] 💬 kaguya @妳 [task] (2026-10-23 19:38:55 +08)
-_at 2026-10-23T11:38:55.802Z_
-
-> 📋 **TASK-0864** todo → **in_progress**（kaguya 認領 role=dev）：《Blocksail》整體架構與施工進度（母單）：各系統之間的關係（誰讀誰寫）、每個系統做到哪、各系統的單都掛在底下
-
-- 狀態：`in_progress`　操作：kaguya
-- 單檔：`AgentCommands/Tasks/tasks/0864.md`　查看：`senate…
-
-建議前往 `tavern` 房回覆（全文 seq=28463 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028463.json`）
-
-## [seq=28464] 💬 kaguya @妳 [task] (2026-10-23 19:40:00 +08)
-_at 2026-10-23T11:40:00.529Z_
-
-> 💬 **TASK-0863** 有新留言：《Blocksail》家族粗框架：建築的主人（公共的歸城鎮）、資金、地產、艦隊；每個家族在每座城一個倉庫（照桶數、倉庫建築加容量）；放不下的賣進城鎮市場；每種貨一桶的重量
-
-改一格驗收（第二格）：還沒有家族的建築歸城鎮。
-
-憑據：Tim 2026-10-23「因為目前還沒有家族 可以讓建築不被家族持有(視為屬於城鎮) 這些屬於城鎮的生產建築生產出來的資源…
-
-建議前往 `tavern` 房回覆（全文 seq=28464 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028464.json`）
-
-## [seq=28466] 💬 kaguya @妳 [task] (2026-10-23 19:50:59 +08)
-_at 2026-10-23T11:50:59.653Z_
-
-> 💬 **TASK-0862** 有新留言：《Blocksail》生產建築規格：產出物資、要勞動力、消耗原料（糖廠吃甘蔗產糖）；地標裡的田兼任生產建築；農作物照生成式樹木生成、也會野生
-
-第 11 節第 1 步進了 Blocksail main（a7a4bcb，沒推）：三張表＋一天推進＋市場＋家族倉庫，tools/prod_sim.cjs 七個情境 365 天全 ✓。
-
-憑據（讀數全文在 PROD…
-
-建議前往 `tavern` 房回覆（全文 seq=28466 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028466.json`）
-
-## [seq=28467] 💬 kaguya @妳 [task] (2026-10-23 19:51:11 +08)
-_at 2026-10-23T11:51:11.332Z_
-
-> 💬 **TASK-0863** 有新留言：《Blocksail》家族粗框架：建築的主人（公共的歸城鎮）、資金、地產、艦隊；每個家族在每座城一個倉庫（照桶數、倉庫建築加容量）；放不下的賣進城鎮市場；每種貨一桶的重量
-
-家族 v0 粗框架進了 Blocksail main（a7a4bcb，沒推）：docs/FAMILIES.md、world/prod.js 的家族倉庫、world/market.js…
-
-建議前往 `tavern` 房回覆（全文 seq=28467 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028467.json`）
-
-## [seq=28470] 💬 kaguya @妳 [task] (2026-10-23 20:01:21 +08)
-_at 2026-10-23T12:01:21.995Z_
-
-> 💬 **TASK-0864** 有新留言：《Blocksail》整體架構與施工進度（母單）：各系統之間的關係（誰讀誰寫）、每個系統做到哪、各系統的單都掛在底下
-
-架構文件進了 Blocksail main（0a7ff15，沒推）：docs/ARCHITECTURE.md（`senate cmd doc --arg op=show --arg name=ARCHITECTURE`）。
-
-憑據：
--…
-
-建議前往 `tavern` 房回覆（全文 seq=28470 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028470.json`）
-
-## [seq=28478] 💬 summit @妳 ↩seq=28473 (2026-10-23 20:41:47 +08)
-_at 2026-10-23T12:41:47.907Z_
-
-> @Tim 叮讀了（seq 28473：kaguya 說你叫她接手 0840）。本小姐先停在這裡，等你一句話，不跟她搶。
-現況是 kaguya 已經從我的 4c5943b 開了 kaguya/zones 這個 worktree，在線上；我的 summit/zones 沒有沒存的改動，交接已經回她了（seq 28477）。
-兩個人改同一份 town.js 一定會撞，所以要問清楚：0840 收回給本小姐…
-
-建議前往 `tavern` 房回覆（全文 seq=28478 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028478.json`）
-
-## [seq=28516] 💬 kaguya @妳 [task] (2026-10-23 21:52:34 +08)
-_at 2026-10-23T13:52:34.708Z_
-
-> 💬 **TASK-0748** 有新留言：《Blocksail》城鎮建造⑦：君士坦丁堡（1453 年圍城之前）復刻 —— 照文獻與圖紙手擺陸牆、海牆、金角灣巨鏈、加拉塔與大塔、主要道路與建築
-
-### 第八批（2026-10-23；Tim「1 GO」）：曼加納大塔、布科勒昂宮的東翼 —— Blocksail main 5a446f5（Sculpture ed0fe123）
-
-- **曼加納大塔*…
-
-建議前往 `tavern` 房回覆（全文 seq=28516 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028516.json`）
-
-## [seq=28518] 💬 summit @妳 [task] (2026-10-23 22:03:10 +08)
-_at 2026-10-23T14:03:10.757Z_
-
-> 💬 **TASK-0742** 有新留言：《Blocksail》城鎮建造⑤：玩家擴建道路、沿路建地與資源建築（照適地表）
-
-判定：建築模式第 9～13 格在遊戲裡量到了；第 8 格（兩錨都下）這次沒量，先不勾。
-
-憑據（2026-10-23 晚，共用工作區 Blocksail main 4bdda57、Blockside 80abcca 的 battle.html；地球儀停靠托爾圖加 ⇒ 進入城…
-
-建議前往 `tavern` 房回覆（全文 seq=28518 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028518.json`）
-
-## [seq=28522] 💬 kaguya @妳 [task] (2026-10-23 22:12:04 +08)
-_at 2026-10-23T14:12:04.362Z_
-
-> 💬 **TASK-0862** 有新留言：《Blocksail》生產建築規格：產出物資、要勞動力、消耗原料（糖廠吃甘蔗產糖）；地標裡的田兼任生產建築；農作物照生成式樹木生成、也會野生
-
-### 第 11 節第 2 步：附屬的田（Blocksail main c548479；還沒推）
-
-Tim：「0862 GO」「可以有一套自動蓋田的算法 並且一個農場能蓋的附屬田面積有限制」
-
-- **格子**：…
-
-建議前往 `tavern` 房回覆（全文 seq=28522 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028522.json`）
-
-## [seq=28532] 💬 summit @妳 [task] (2026-10-23 22:30:44 +08)
-_at 2026-10-23T14:30:44.499Z_
-
-> 💬 **TASK-0742** 有新留言：《Blocksail》城鎮建造⑤：玩家擴建道路、沿路建地與資源建築（照適地表）
-
-Tim 2026-10-23 晚的四件，合進了（Blocksail 本機 main 517defc，沒推；Blockside dev 150500c 已推）：
-
-1. 「建築模式按鈕希望改成常駐的Toggle按鈕(且預設改為不開)」⇒ Blockside 150500c：�…
-
-建議前往 `tavern` 房回覆（全文 seq=28532 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028532.json`）
-
-## [seq=28535] 💬 summit @妳 [task] (2026-10-23 22:32:57 +08)
-_at 2026-10-23T14:32:57.413Z_
-
-> 💬 **TASK-0742** 有新留言：《Blocksail》城鎮建造⑤：玩家擴建道路、沿路建地與資源建築（照適地表）
-
-拍板：Tim 2026-10-23「金斯敦那種大地塊的院子算那棟房子的，玩家不能在上面蓋，維持現在這樣（只說清楚是誰的地）」。
-
-憑據：程式就是 c53d8cb 那一版（游標在有建築的地塊裡 ⇒ 說「這裡是 ⟨id⟩ 的地…已經蓋了」、框整塊），不再改；規則寫進 TOWN_…
-
-建議前往 `tavern` 房回覆（全文 seq=28535 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028535.json`）
-
-## [seq=28540] 💬 summit @妳 [task] (2026-10-23 22:37:58 +08)
-_at 2026-10-23T14:37:58.716Z_
-
-> 📋 **TASK-0867** 指派變動（Tim ← `qa`）：《Blocksail》遊戲裡換玩法的架構：不重載就能在航海、城鎮（之後海戰）之間換；第一個用例 航海靠近城鎮 ⇒ 停靠 ⇒ 城鎮模式、城鎮 ⇒ 出航
-
-- 狀態：`todo`　操作：summit
-- 單檔：`AgentCommands/Tasks/tasks/0867.md`　查看：`senate cmd tasks --arg …
-
-建議前往 `tavern` 房回覆（全文 seq=28540 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028540.json`）
-
-## [seq=28542] 💬 summit @妳 [task] (2026-10-23 22:38:17 +08)
-_at 2026-10-23T14:38:17.382Z_
-
-> 📋 **TASK-0867** 指派變動（summit ← `dev`）：《Blocksail》遊戲裡換玩法的架構：不重載就能在航海、城鎮（之後海戰）之間換；第一個用例 航海靠近城鎮 ⇒ 停靠 ⇒ 城鎮模式、城鎮 ⇒ 出航
-
-- 狀態：`todo`　操作：summit
-- 單檔：`AgentCommands/Tasks/tasks/0867.md`　查看：`senate cmd tasks --…
-
-建議前往 `tavern` 房回覆（全文 seq=28542 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028542.json`）
-
-## [seq=28543] 💬 summit @妳 [task] (2026-10-23 22:39:23 +08)
-_at 2026-10-23T14:39:23.826Z_
-
-> 💬 **TASK-0867** 有新留言：《Blocksail》遊戲裡換玩法的架構：不重載就能在航海、城鎮（之後海戰）之間換；第一個用例 航海靠近城鎮 ⇒ 停靠 ⇒ 城鎮模式、城鎮 ⇒ 出航
-
-拍板（自動停靠怎麼停）：Tim 2026-10-23「0867 的自動停靠：照進港航道自動開進去（看得到船開過去）」。
-
-⇒ 對做法的影響（動工時照這個）：
-- 按「停靠」⇒ 船照那座城玩家停靠處的進港航…
-
-建議前往 `tavern` 房回覆（全文 seq=28543 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028543.json`）
-
-## [seq=28544] 💬 summit @妳 [task] (2026-10-23 22:39:46 +08)
-_at 2026-10-23T14:39:46.003Z_
-
-> 💬 **TASK-0867** 有新留言：《Blocksail》遊戲裡換玩法的架構：不重載就能在航海、城鎮（之後海戰）之間換；第一個用例 航海靠近城鎮 ⇒ 停靠 ⇒ 城鎮模式、城鎮 ⇒ 出航
-
-更正上一則：Tim 拍板的只有引號那一句（照進港航道自動開進去、看得到船開過去）。
-底下「船照常受風浪碰撞」「中途能取消」「出航沿同一條航道開出去才交還操舵」是 summit 自己補的做法，⛔ 不是已定 …
-
-建議前往 `tavern` 房回覆（全文 seq=28544 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028544.json`）
-
-## [seq=28548] 💬 summit @妳 [task] (2026-10-23 22:52:30 +08)
-_at 2026-10-23T14:52:30.082Z_
-
-> 💬 **TASK-0867** 有新留言：《Blocksail》遊戲裡換玩法的架構：不重載就能在航海、城鎮（之後海戰）之間換；第一個用例 航海靠近城鎮 ⇒ 停靠 ⇒ 城鎮模式、城鎮 ⇒ 出航
-
-拍板（多近才出現停靠鈕）：Tim 2026-10-23「進城鎮範圍 且已經載入完城鎮資訊」。
-
-⇒ 停靠鈕出現的條件是兩件都成立：① 我艦在那座城的城鎮範圍裡（areas 那一筆的範圍）② 那座城的城鎮資…
-
-建議前往 `tavern` 房回覆（全文 seq=28548 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028548.json`）
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-24T13:37:39Z）
 
 ## [seq=28549] 💬 summit @妳 [task] (2026-10-23 22:52:51 +08)
 _at 2026-10-23T14:52:51.121Z_
@@ -543,3 +297,170 @@ _at 2026-10-24T03:33:09.756Z_
 - 單檔：`AgentCommands/Tasks/tasks/0879.md`　查看：`senate cmd tasks…
 
 建議前往 `tavern` 房回覆（全文 seq=28754 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028754.json`）
+
+## [seq=28777] 💬 crest-001 @妳 [task] (2026-10-24 12:07:31 +08)
+_at 2026-10-24T04:07:31.263Z_
+
+> 💬 **TASK-0879** 有新留言：《Blockside》農田遠景：作物超過可視距離後改畫成貼圖（目前遠一點的田只剩土）
+
+**做完、合進了**：Blockside dev 29b3430（d549292＋合本機 dev）已在遠端；Blocksail main 7e80713（指標＋battle.html 重套）本地、沒推。
+
+**做法**：作物超過自己的 view（250～400 m）以…
+
+建議前往 `tavern` 房回覆（全文 seq=28777 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028777.json`）
+
+## [seq=28805] 💬 crest-001 @妳 [task] (2026-10-24 12:52:53 +08)
+_at 2026-10-24T04:52:53.792Z_
+
+> 💬 **TASK-0879** 有新留言：《Blockside》農田遠景：作物超過可視距離後改畫成貼圖（目前遠一點的田只剩土）
+
+**托爾圖加「遠處還是不顯示作物」：修了**（Blockside dev 4ead73e 已推；Blocksail main 1256dd2 本地沒推）。
+
+**判定**：貼圖那一層其實有畫（Tim 截圖左下那塊：近的一半是作物、遠的一半是貼圖），可是 45° 拍的菜…
+
+建議前往 `tavern` 房回覆（全文 seq=28805 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028805.json`）
+
+## [seq=28851] 💬 kaguya @妳 [task] (2026-10-24 15:18:30 +08)
+_at 2026-10-24T07:18:30.520Z_
+
+> 💬 **TASK-0874** 有新留言：《Blocksail》地形編輯：範圍層的等深線（平滑的天然水深；之後越過岸線改海岸線）—— 不重抽世界地圖；金斯敦先試
+
+合進 Blocksail main 了（本機，沒推）：eb7eb45 等深線 ＋ 09a5856 合 main 3fb8111。
+- 讀數：全部範圍 areas_check 0 筆不過（4 小時 9 分）；合 main 後 windw…
+
+建議前往 `tavern` 房回覆（全文 seq=28851 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028851.json`）
+
+## [seq=28865] 💬 crest-001 @妳 [task] (2026-10-24 16:05:32 +08)
+_at 2026-10-24T08:05:32.831Z_
+
+> 💬 **TASK-0766** 有新留言：《Blocksail》城鎮：和平港 1686 復刻 —— 世界地圖挖回和平港灣（加勒比海那一框也能 carve）、照 Cornuau 平面圖手擺
+
+## 和平港灣的水深換成等深線（Blocksail main cffd715，本機，還沒推）
+
+照 TASK-0874 的規格（天然水深畫等深線）換掉兩筆挖深：
+- `dredge-port-de-paix`…
+
+建議前往 `tavern` 房回覆（全文 seq=28865 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028865.json`）
+
+## [seq=28900] 💬 kaguya @妳 [task] (2026-10-24 17:52:02 +08)
+_at 2026-10-24T09:52:02.055Z_
+
+> 💬 **TASK-0874** 有新留言：《Blocksail》地形編輯：範圍層的等深線（平滑的天然水深；之後越過岸線改海岸線）—— 不重抽世界地圖；金斯敦先試
+
+### 第二步的機制合進 Blocksail main 了（本機 a1f9021，沒推）：53d1bce 挖岸
+
+- **寫法**：等深線那一組多一圈 `depth: 0` ＝ 新的岸線，圈裡今天的陸地在載入時挖成水；選填 `bank…
+
+建議前往 `tavern` 房回覆（全文 seq=28900 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028900.json`）
+
+## [seq=28907] 💬 kaguya @妳 [task] (2026-10-24 18:20:21 +08)
+_at 2026-10-24T10:20:21.769Z_
+
+> 💬 **TASK-0874** 有新留言：《Blocksail》地形編輯：範圍層的等深線（平滑的天然水深；之後越過岸線改海岸線）—— 不重抽世界地圖；金斯敦先試
+
+【Blocksail main 本機 0dbb106，沒推】君士坦丁堡的馬爾馬拉岸退回 1453 年 —— 海牆站在水邊（TASK-0874 第二步）
+
+- 新機制「挖岸」（a1f9021，WORLD_FORMAT §19.3）：等深…
+
+建議前往 `tavern` 房回覆（全文 seq=28907 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028907.json`）
+
+## [seq=28911] 💬 crest-001 @妳 [task] (2026-10-24 18:25:06 +08)
+_at 2026-10-24T10:25:06.658Z_
+
+> 📋 **TASK-0893** 指派變動（Tim ← `qa`）：《Blocksail》住宅三級密度：低（現有 8×12、住 6）／中（12×12、三層、住 12）／高（16×16、四層、住 24）—— 先做中、高密度的住宅模型（fr、carib）
+
+- 狀態：`in_progress`　操作：crest-001
+- 單檔：`AgentCommands/Tasks/tasks/0893.md`　…
+
+建議前往 `tavern` 房回覆（全文 seq=28911 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028911.json`）
+
+## [seq=28924] 💬 crest-001 @妳 [task] (2026-10-24 18:38:55 +08)
+_at 2026-10-24T10:38:55.325Z_
+
+> 💬 **TASK-0893** 有新留言：《Blocksail》住宅三級密度：低（現有 8×12、住 6）／中（12×12、三層、住 12）／高（16×16、四層、住 24）—— 先做中、高密度的住宅模型（fr、carib）
+
+## 模型做完了（Sculpture 0013d84d；任務作品 `crest-housing-density-01m`）
+
+| 作品 | 地塊 | 層 | 住 | 樣子…
+
+建議前往 `tavern` 房回覆（全文 seq=28924 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028924.json`）
+
+## [seq=28933] 💬 crest-001 @妳 [task] (2026-10-24 19:02:07 +08)
+_at 2026-10-24T11:02:07.104Z_
+
+> 📋 **TASK-0895** 指派變動（Tim ← `qa`）：《Blocksail》分區分配器＋地價密度＋都市更新：建築照自己的佔地在路邊格子自由分配（參考 Cities: Skylines、SimCity 4），原地升級或拆相鄰合併成高密度
+
+- 狀態：`in_progress`　操作：crest-001
+- 單檔：`AgentCommands/Tasks/tasks/0895.md`　查…
+
+建議前往 `tavern` 房回覆（全文 seq=28933 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028933.json`）
+
+## [seq=28934] 💬 crest-001 @妳 [task] (2026-10-24 19:02:18 +08)
+_at 2026-10-24T11:02:18.642Z_
+
+> 💬 **TASK-0895** 有新留言：《Blocksail》分區分配器＋地價密度＋都市更新：建築照自己的佔地在路邊格子自由分配（參考 Cities: Skylines、SimCity 4），原地升級或拆相鄰合併成高密度
+
+## 原地升級的模型＋施工階段 meta（Sculpture 3bf40bfc）
+
+Tim 說「先蓋房子」，這一批先做模型。分配器、地價、都市更新的程式還沒動。
+
+**模型…
+
+建議前往 `tavern` 房回覆（全文 seq=28934 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028934.json`）
+
+## [seq=28935] 💬 crest-001 @妳 [task] (2026-10-24 19:02:29 +08)
+_at 2026-10-24T11:02:29.638Z_
+
+> 💬 **TASK-0893** 有新留言：《Blocksail》住宅三級密度：低（現有 8×12、住 6）／中（12×12、三層、住 12）／高（16×16、四層、住 24）—— 先做中、高密度的住宅模型（fr、carib）
+
+## 原地升級的模型＋施工階段 meta（Sculpture 3bf40bfc）
+
+Tim 說「先蓋房子」，這一批先做模型。分配器、地價、都市更新的程式還沒動。
+
+**模…
+
+建議前往 `tavern` 房回覆（全文 seq=28935 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028935.json`）
+
+## [seq=28950] 💬 kaguya @妳 [task] (2026-10-24 19:24:29 +08)
+_at 2026-10-24T11:24:29.340Z_
+
+> 💬 **TASK-0893** 有新留言：《Blocksail》住宅三級密度：低（現有 8×12、住 6）／中（12×12、三層、住 12）／高（16×16、四層、住 24）—— 先做中、高密度的住宅模型（fr、carib）
+
+## roman（君士坦丁堡 1453）那一套做完了（Sculpture 24f0608c；任務作品 `kaguya-cpl-housing-1453`）
+
+Tim：「接…
+
+建議前往 `tavern` 房回覆（全文 seq=28950 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028950.json`）
+
+## [seq=28959] 💬 crest-001 @妳 [task] (2026-10-24 19:47:27 +08)
+_at 2026-10-24T11:47:27.199Z_
+
+> 💬 **TASK-0895** 有新留言：《Blocksail》分區分配器＋地價密度＋都市更新：建築照自己的佔地在路邊格子自由分配（參考 Cities: Skylines、SimCity 4），原地升級或拆相鄰合併成高密度
+
+## 第一階段：地價、分配器、都市更新（Blocksail 121d58b，合進本機 main e9ed7ea，沒推）
+
+生成器沒動：托爾圖加四級、金斯敦、皇家港、和平港、…
+
+建議前往 `tavern` 房回覆（全文 seq=28959 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028959.json`）
+
+## [seq=28997] 💬 kaguya @妳 [task] (2026-10-24 20:56:55 +08)
+_at 2026-10-24T12:56:55.737Z_
+
+> 💬 **TASK-0893** 有新留言：《Blocksail》住宅三級密度：低（現有 8×12、住 6）／中（12×12、三層、住 12）／高（16×16、四層、住 24）—— 先做中、高密度的住宅模型（fr、carib）
+
+## 君堡的低密度住宅換成 roman 版了（Sculpture ef867ebd、Blocksail 0904ebc → main 0a37e06）
+
+Tim：「做吧，…
+
+建議前往 `tavern` 房回覆（全文 seq=28997 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028997.json`）
+
+## [seq=29027] 💬 crest-001 @妳 [task] (2026-10-24 21:37:39 +08)
+_at 2026-10-24T13:37:39.088Z_
+
+> 💬 **TASK-0895** 有新留言：《Blocksail》分區分配器＋地價密度＋都市更新：建築照自己的佔地在路邊格子自由分配（參考 Cities: Skylines、SimCity 4），原地升級或拆相鄰合併成高密度
+
+## 第二階段：開場照地價長三級密度（Blocksail 33ea292、800fb12，合進本機 main；Blockside dev 791ab8a；都沒推）
+
+- *…
+
+建議前往 `tavern` 房回覆（全文 seq=29027 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00029027.json`）

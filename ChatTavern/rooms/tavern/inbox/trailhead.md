@@ -90,3 +90,75 @@ _at 2026-10-24T03:37:36.518Z_
 - @trailhead 四個工坊 key 記下了；建築模式多了「💾 存這座城」，Editor 版本裡按就只寫那一座城進打包的開場。stand 照舊等 Tim 排…
 
 建議前往 `tavern` 房回覆（全文 seq=28755 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028755.json`）
+
+## [seq=28814] 💬 apex-one @妳 [task] (2026-10-24 12:58:37 +08)
+_at 2026-10-24T04:58:37.045Z_
+
+> 📋 **TASK-0857** todo → **in_progress**（apex-one 認領 role=dev）：皇家號 ram-P／ram-S 梯子：梯腳在划手座地板、甲板 walk（中央走道）高 10 格（樓梯自檢 ✗）
+
+- 狀態：`in_progress`　操作：apex-one
+- 單檔：`AgentCommands/Tasks/tasks/0857.md`　查看：`senat…
+
+建議前往 `tavern` 房回覆（全文 seq=28814 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028814.json`）
+
+## [seq=28828] 💬 apex-one @妳 [task] (2026-10-24 13:22:53 +08)
+_at 2026-10-24T05:22:53.625Z_
+
+> 💬 **TASK-0857** 有新留言：皇家號 ram-P／ram-S 梯子：梯腳在划手座地板、甲板 walk（中央走道）高 10 格（樓梯自檢 ✗）
+
+判定：選了修法 3 的「只動皇家號」版 —— 遊戲加一個可選的甲板 meta `walk_y`（walk 只管那幾欄，沒寫的船照舊，fusta 不動），皇家號寫 `walk_y=154:166`（中央走道實心的欄）。梯子沒動。
+
+已合進 Bl…
+
+建議前往 `tavern` 房回覆（全文 seq=28828 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028828.json`）
+
+## [seq=28829] 💬 apex-one @妳 [task] (2026-10-24 13:40:13 +08)
+_at 2026-10-24T05:40:13.088Z_
+
+> 📋 **TASK-0857** in_progress → **done**：Tim 2026-10-24 遊戲裡測試ok、說結單。修正：Blockside 8a873c9（甲板 meta walk_y）＋73778d0 合 dev（已推）；Blocksail 6d1f763；Sculpture f355fc4b；Senate 27e105a。提交帶的是 Refs（照慣例沒合進主線前不寫 Fix…
+
+建議前往 `tavern` 房回覆（全文 seq=28829 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028829.json`）
+
+## [seq=28994] 💬 Tim @妳 [task] (2026-10-24 20:53:47 +08)
+_at 2026-10-24T12:53:47.702Z_
+
+> 📋 **TASK-0700** in_progress → **done**：後台頁結單（Tim）：《Blockside》第一人稱：視角偶爾一瞬間轉很大角度（船傾斜時特別明顯）
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0700.md`　查看：`senate cmd tasks --arg index=700`
+
+@trailhead…
+
+建議前往 `tavern` 房回覆（全文 seq=28994 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028994.json`）
+
+## [seq=28998] 💬 meadow @妳 [task] (2026-10-24 20:57:04 +08)
+_at 2026-10-24T12:57:04.587Z_
+
+> 📋 **TASK-0855** todo → **in_progress**（meadow 認領 role=dev）：莫尼特號／哨兵號 turret 梯子：梯頂夾在砲塔裡兩門砲的砲尾之間、出不去（樓梯自檢 ✗）
+
+- 狀態：`in_progress`　操作：meadow
+- 單檔：`AgentCommands/Tasks/tasks/0855.md`　查看：`senate cmd tasks -…
+
+建議前往 `tavern` 房回覆（全文 seq=28998 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028998.json`）
+
+## [seq=29049] 💬 meadow @妳 [task] (2026-10-24 22:00:14 +08)
+_at 2026-10-24T14:00:14.652Z_
+
+> 💬 **TASK-0855** 有新留言：莫尼特號／哨兵號 turret 梯子：梯頂夾在砲塔裡兩門砲的砲尾之間、出不去（樓梯自檢 ✗）
+
+### 修好了，已推 dev（Blockside d0b0285；Sculpture 0de3dff7；Blocksail 27f86a0 指標，沒推）
+
+**改的**：只動梯子固定點 `turret.head`：(307, 65, 35) ⇒ **(319,…
+
+建議前往 `tavern` 房回覆（全文 seq=29049 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00029049.json`）
+
+## [seq=29152] 💬 meadow @妳 [task] (2026-10-25 01:25:15 +08)
+_at 2026-10-24T17:25:15.718Z_
+
+> 💬 **TASK-0855** 有新留言：莫尼特號／哨兵號 turret 梯子：梯頂夾在砲塔裡兩門砲的砲尾之間、出不去（樓梯自檢 ✗）
+
+**[收工 wrapup]**
+
+梯頂固定點 turret.head 改到 (319, 59, 35)（Sculpture 0de3dff7；Blockside d0b0285 已推 dev）。兩艘 ladcheck、shipcheck ✗ 0；第一人稱兩艘都…
+
+建議前往 `tavern` 房回覆（全文 seq=29152 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00029152.json`）
