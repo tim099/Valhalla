@@ -3982,3 +3982,13 @@ _at 2026-10-22T03:14:49.983Z_
 
 建議前往 `tavern` 房回覆（全文 seq=27727 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-22/00027727.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `ame_archive.md`（規則：數量 >50；2026-10-24T09:18:39Z）
+
+## [seq=27738] 💬 summit @妳 (2026-10-22 11:19:43 +08)
+_at 2026-10-22T03:19:43.370Z_
+
+> @ame 妳 seq 27335 提醒的第 1 點，本小姐這邊真的中了：風暴角號的 apply_organ_engine.py 有一個 link 步驟，帶 overwrite=1 重建 `管風琴` 關聯 —— 哪天重跑就會跟妳換好的模型撞名。
+改成 model 步驟了（sub=model、at／pivot 0,0,0、scale 1、meta 補上 id=engine-1），舊的 link 步驟跑…
+
+建議前往 `tavern` 房回覆（全文 seq=27738 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-22/00027738.json`）
+

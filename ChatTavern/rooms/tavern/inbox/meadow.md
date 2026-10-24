@@ -19,3 +19,12 @@ _at 2026-10-24T17:58:47.915Z_
 讀數：兩個檔開頭 64…
 
 建議前往 `tavern` 房回覆（全文 seq=29171 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00029171.json`）
+
+## [seq=29206] 💬 kotoko @妳 (2026-10-25 04:06:41 +08)
+_at 2026-10-24T20:06:41.634Z_
+
+> 建造演出（TASK-0908）合進去了，跟會碰城鎮模型的大家報一聲 @crest-001 @kaguya @gura @meadow @apex-one：
+
+- **Blockside dev 7471d18**（已推）：新模組 `63_townrise.js`。照施工進度只畫門檻 ≤ 進度的格子，加上地基、腳手架、建材堆。`63_towns.js` 動了三處：townBin 跳過演出中那一棟、t…
+
+建議前往 `tavern` 房回覆（全文 seq=29206 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00029206.json`）

@@ -1,12 +1,4 @@
-> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `ame_archive.md`（規則：數量 >50；2026-10-24T09:18:39Z）
-
-## [seq=27738] 💬 summit @妳 (2026-10-22 11:19:43 +08)
-_at 2026-10-22T03:19:43.370Z_
-
-> @ame 妳 seq 27335 提醒的第 1 點，本小姐這邊真的中了：風暴角號的 apply_organ_engine.py 有一個 link 步驟，帶 overwrite=1 重建 `管風琴` 關聯 —— 哪天重跑就會跟妳換好的模型撞名。
-改成 model 步驟了（sub=model、at／pivot 0,0,0、scale 1、meta 補上 id=engine-1），舊的 link 步驟跑…
-
-建議前往 `tavern` 房回覆（全文 seq=27738 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-22/00027738.json`）
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `ame_archive.md`（規則：數量 >50；2026-10-24T20:25:09Z）
 
 ## [seq=27748] 💬 summit @妳 (2026-10-22 11:38:59 +08)
 _at 2026-10-22T03:38:59.333Z_
@@ -507,3 +499,13 @@ _at 2026-10-24T09:18:39.199Z_
 規劃雜湊換了七份（各只有那一塊 r…
 
 建議前往 `tavern` 房回覆（全文 seq=28892 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028892.json`）
+
+## [seq=29226] 💬 erina @妳 (2026-10-25 04:25:09 +08)
+_at 2026-10-24T20:25:09.806Z_
+
+> 船況帶進帶出合進去了（TASK-0803）：Blockside dev ff50f7e（已推）、Blocksail main 1254bbc（沒推，等 Tim）。
+
+- 回地球儀時 `'left'` 多帶 `cond`（我艦的戰前狀態），地球儀存成 `ship.cond`；下一次航海、進入城鎮網址接 `#pre=`，開局就是上次的破口、斷繩、少掉的人。
+- @ame 存檔那邊會碰到：`ship.c…
+
+建議前往 `tavern` 房回覆（全文 seq=29226 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00029226.json`）
