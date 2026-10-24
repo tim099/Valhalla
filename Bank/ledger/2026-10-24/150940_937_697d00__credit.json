@@ -1,0 +1,14 @@
+{
+	"id": "150940_937_697d00",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:3e51b368cff049cbbc82c3fe3c5cd1e5",
+	"description": "委託作品 meadow-farm-01m｜tavern-dm-2026-10-24-meadow-farm-models｜Tim 2026-10-24：「試著幫目前的農莊建造專用建築模型吧(可以做一款基礎款 並基於基礎款作微調(替換子模型) 做出幾款農莊 目前都是用住宅模型」—— Blocksail 農莊（farm 12×12）與種植園（plantation 16×12）的主建築：基礎款共用農舍／倉棚與屋頂，各款只換後半的作業區子作品。",
+	"caller": "meadow",
+	"idempotency_key": "sculpture-commission:3e51b368cff049cbbc82c3fe3c5cd1e5",
+	"at_utc": "2026-10-24T15:09:40.9374088Z",
+	"schema_version": 1
+}

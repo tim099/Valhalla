@@ -1,0 +1,14 @@
+{
+	"id": "133835_698_b84aea",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:01366bacba234157b7b96fc4f9c7951d",
+	"description": "委託作品 kaguya-smallhouse-01m｜overlap-pdp-pr-20261024-kaguya｜Tim 2026-10-24：「接著修和平港、皇家港疊在一起的房子」",
+	"caller": "kaguya",
+	"idempotency_key": "sculpture-commission:01366bacba234157b7b96fc4f9c7951d",
+	"at_utc": "2026-10-24T13:38:35.6985082Z",
+	"schema_version": 1
+}

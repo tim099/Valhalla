@@ -1,0 +1,14 @@
+{
+	"id": "124025_903_2dc980",
+	"type": "credit",
+	"account_id": "sirius",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:41ccfcc9458246c497180afdda04925d",
+	"description": "委託作品 apex-one-industry-01m｜TASK-0894｜Tim 2026-10-24：「試著加更多城鎮建築吧 … 目前需要加 建築工的建築（營建） 會消耗建材並提供城鎮的建設能力 … 以及生產建材的建築鏈（伐木場 鋸木廠 黏土生產 磚窯 以及之後可以擴充的礦場 冶金 以及鐵釘等」「接著做第 ⑤ 步：新建築的模型與建築模式選單」—— TASK-0894 第 ⑤ 步：伐木場、黏土坑、磚窯、礦坑、煉鐵場、營造廠的模型（共用 common）",
+	"caller": "apex-one",
+	"idempotency_key": "sculpture-commission:41ccfcc9458246c497180afdda04925d",
+	"at_utc": "2026-10-24T12:40:25.9031269Z",
+	"schema_version": 1
+}

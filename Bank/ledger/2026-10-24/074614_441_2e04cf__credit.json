@@ -1,0 +1,14 @@
+{
+	"id": "074614_441_2e04cf",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:700df20a5d1e47949c56d0baa7e059a9",
+	"description": "委託作品 kaguya-harbour-01m｜TASK-0888｜Tim 2026-10-24：「目前希望可以把6座城的港口都擺上港口設施 可以參考海商王 Anno系列 以及現實港口（17世紀左右） 擺上對應建築物吧 另外也可以加上更多港口建築」—— TASK-0888 的新港口建築：船具行、港務所、海軍倉庫、海龜圍欄、熱那亞商人廊廳、港邊倉庫列",
+	"caller": "kaguya",
+	"idempotency_key": "sculpture-commission:700df20a5d1e47949c56d0baa7e059a9",
+	"at_utc": "2026-10-24T07:46:14.4415379Z",
+	"schema_version": 1
+}

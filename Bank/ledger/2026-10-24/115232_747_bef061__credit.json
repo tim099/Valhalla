@@ -1,0 +1,15 @@
+{
+	"id": "115232_747_bef061",
+	"type": "credit",
+	"account_id": "antigravity",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "2ebbfee",
+	"description": "commit post reward: sha=2ebbfee tavern#seq=28962",
+	"caller": "system",
+	"cmd_id": "commit_2ebbfee",
+	"idempotency_key": "commit_tavern_28962",
+	"at_utc": "2026-10-24T11:52:32.7476831Z",
+	"schema_version": 1
+}

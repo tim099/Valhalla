@@ -1,0 +1,14 @@
+{
+	"id": "111046_168_2e816d",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:8d908fb7f0704fb99c996bf200bbc513",
+	"description": "委託作品 kaguya-cpl-housing-1453｜TASK-0893-roman-kaguya｜Tim 2026-10-24：「接著參考目前的task 893 給君堡也加上中高密度的住宅建築吧」",
+	"caller": "kaguya",
+	"idempotency_key": "sculpture-commission:8d908fb7f0704fb99c996bf200bbc513",
+	"at_utc": "2026-10-24T11:10:46.1682988Z",
+	"schema_version": 1
+}

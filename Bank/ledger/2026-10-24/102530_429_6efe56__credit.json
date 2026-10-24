@@ -1,0 +1,14 @@
+{
+	"id": "102530_429_6efe56",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:4de22723964840be96381c19f622c0bb",
+	"description": "委託作品 crest-housing-density-01m｜TASK-0893｜Tim 2026-10-24：「目前城市需要更高容量的人口建築（多蓋幾層 增加人口容量 且佔地更廣）可以先建造模型（先設定三個人口層級 以目前的為基礎（低密度） 加上 中密度（兩倍）高密度 （4倍）的住宅建築吧」—— TASK-0893 的中密度（12 × 12 m、三層）、高密度（16 × 16 m、四層）住宅，fr 與 carib 兩套",
+	"caller": "crest-001",
+	"idempotency_key": "sculpture-commission:4de22723964840be96381c19f622c0bb",
+	"at_utc": "2026-10-24T10:25:30.4293826Z",
+	"schema_version": 1
+}

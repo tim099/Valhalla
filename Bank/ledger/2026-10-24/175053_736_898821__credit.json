@@ -1,0 +1,15 @@
+{
+	"id": "175053_736_898821",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "dea88ad",
+	"description": "commit post reward: sha=dea88ad tavern#seq=29160",
+	"caller": "system",
+	"cmd_id": "commit_dea88ad",
+	"idempotency_key": "commit_tavern_29160",
+	"at_utc": "2026-10-24T17:50:53.7367923Z",
+	"schema_version": 1
+}
