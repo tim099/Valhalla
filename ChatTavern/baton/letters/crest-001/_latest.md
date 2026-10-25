@@ -1,7 +1,7 @@
 ---
 type: letter_to_future_self
 actor: claude-code
-written_at: 2026-10-24T21:41:05.191Z
+written_at: 2026-10-25T10:53:48.278Z
 written_by_persona: crest-001
 trigger: cmd_rest
 region: unstated
@@ -15,41 +15,27 @@ pid: 257932
 locked_at: 2026-10-24T03:25:49.693Z
 ---
 
-### 第五次午休前（wake #32，2026-10-25 清晨）
+### 第七次午休前（wake #32，2026-10-25 傍晚）
 
-### 手上的線（沒有施工中的東西：worktree bs_pier、bs_berth 都收了，施工場關了，launch.json 我加的都拿掉了）
+### 手上的線（沒有施工中的東西：worktree bs_isoext、bs_finger、bs_start、bs_pre 都收了，分支刪了，施工場關了，launch.json 的 crest-finger／crest-snap／crest-isoext 拿掉了，預覽停了）
 
-- **都還沒推**（Tim 兩次 wrap_up 都沒答推不推）。Blocksail main 上我的：
-  - a73f117／merge 8aa69e8（水上建築不壓棧橋＋匯入檢查、加拉塔堡地塊 50 × 40）
-  - 5fd6ed2（§5.19 設計文件）
-  - 4369fde／merge 05ccffa（泊位建築第 1、2 步）
-  - 也會帶上別人的：gura 工人 4f2a908 那幾筆、kotoko 建造演出、Blockside 指標更新。
-  - main 的 townplans 已重烘，town_dock 全過。
-- **TASK-0906 泊位建築**（in_progress，我認領）：
-  - Tim：「概念類似這樣 兩條紅線中間是船隻停靠的預留區 本身算做一個建築區塊 且會在棧橋上建造對應的停靠用建築」「君堡這種大城可以準備更多停靠區」「泊位建築要有對應的裝飾 且旁邊應該有起重機等服務設施」「其他交給妳設計了」。
-  - 正本：TOWN_BUILD §5.19（設計＋§5.19.9 實作與讀數表）。單上留言 #1（設計、研究網址）、#2（第 1、2 步）。
-  - 剩：
-    - 第 3 步：Blockside 畫佔位（繫纜樁、護舷、繫船墩、浮筒）＋ 63_chart.js 小地圖在模型到之前把泊位地塊畫成框（要跳過 use 'berth'）。
-    - 第 4 步：泊位建築五級＋踏輪起重機模型（雕刻；新作品自己開，引用 trailhead／ame 的設計模組要 credit）。
-    - 玩家蓋的泊位的進港航道：placeDocks 還在生成器裡，要抽出來。
-    - 電腦的船排泊位：不在這張。
-  - 已在 TASK-0867 跟 summit／apex-two 打過招呼：88_modeswitch 收的 docks 多 cls；動它之前要再說。
-- **TASK-0899**：第二階段（水上版模型、繩索）排在 0906 後面；起重架水上版不做了（泊位建築帶起重設施）。
-- 君士坦丁堡手擺腳本 drift：重跑 town_constantinople.cjs，君堡那一份跟 main 差 475 行（有人直接改了產物），沒收、已記在 0899 單上。
-- 欠 ame 迴轉量測、見叢兩件照舊；TASK-0879 等 Tim 勾格；TASK-0895 剩施工演出（kotoko 建造演出可能接了）與佔位數字。
+- **TASK-0906 已結單**（Tim「測試ok 收單吧」）。單上留言 #5（等深線延伸）、#6（泊位改版）。
+- **都沒推**：Blocksail main fa4e1dc（比 origin 多 50 筆上下，含別人的）；Sculpture f4bfa092（crest-berth-01m 改版；master 也帶著別人沒推的幾筆）。Blockside 這一輪沒動。推要 Tim 說。
+- 今天下午做完的：
+  1. 等深線延伸（範圍層 isoext）：bathy_extract.py --apply 把海的 5／10／20 m 線本身彎進港、交會處 700 m 圓角喇叭口；底稿 _cache/bathy/base/（施工場也複製了）；terrain.js 範圍裡不墊海岸緩坡／礁／淺灘／向量礁；六筆：金斯敦（Tim 紅線：長島北邊往西 → 繞西端 → 往南）、皇家港、和平港、聖地牙哥灣、奧薩馬河口、金角灣。要停巨艦的港寫 ramp 20,45,80、shore 20。
+  2. 泊位改版：大船以上自帶平台（8／8／12 m）、起重機在平台上、棧橋面空著；小艇小船魚骨式（8／16 m 一格、船尾靠棧橋、船頭朝外、兩側半根指形棧橋）。BERTH_CLS 多 out／apron／fw，w 只當船道寬；魚骨航道第一段直開 40 m、不跟隔壁格比（placeDocks、berthBuildTry 同一條）。
+  3. 超巨艦浮筒整圈不壓泊位預留區（+1 m）。
+- 開場檔：**⛔ 不准 town_start --write**（另一個 session 寫的記憶 blocksail-start-plan-delta）。我在 34c00d6 踩了，fa4e1dc 更正成「原樣 ＋（C − B）」：君士坦丁堡回原樣、皇家港只留自己的 11 塊田；town_start 的 ✗ 跟 339a40f 一樣（那兩座本來就對不上，是別人的差）。
+- 噗浪：新噗 359171680824433（泊位改版）；回了 gura ×3、summit ×2、apex-one；mentions 未回 0。
+- 欠的照舊：ame 迴轉量測、TASK-0899 第二階段、0879、0895；gura 等「分配器」那一格（田、作坊擺上地圖）。
 
 ### 今天學到、不想再踩的
-- **生成器跟遊戲判法要同一把尺才會一致**。報表叫遊戲那一支再判一次，一下就抓出三種落差：
-  - 中線相貼四捨五入疊幾 mm ⇒ 框各退 1 cm；
-  - 8 m 格子找的航道擦過鄰居的角 ⇒ 收下前用精確幾何再量；
-  - 手擺的錨地收尾才放 ⇒ 擺泊位時就讓開。
-- **大的先、照順序收**：後擺的小東西擋到先擺的大東西時，拿掉的是後擺的；不然會把大泊位丟掉。
-- **改了抽象的東西要追它的消費者**：棧橋邊的抽象泊位一拿掉，出航起點（townBerthStart 從 plan.berths 挑）就會跑到錨地，checkHarbour 碰到 'titan' 會崩。拿掉一個概念前先 grep 誰在讀它。
-- **預設值缺一格，會挑錯**：預設那艘船沒有 loa ⇒ 被當 0 ⇒ 塞進小船泊位。遊戲裡試才看到。
-- **瀏覽器會快取 presets.js**：改了沒生效先 fetch cache:'reload'。
-- **預覽伺服器上限 5 個**；端口可能被別人的伺服器佔著卻回 200 ⇒ 用 POST 探一下是不是自己的。serve_snap.py（scratchpad/zone）一支兼 GET 檔案與 POST 快照。
-- bash heredoc 長 python 裡有引號又被吃了 ⇒ 長 patch 一律寫成 .py 檔再跑。
+- 動地形先想「線長什麼樣」：Tim 第二張紅線圖要的是原本那條線順著彎過去，不是一道溝橫切陸棚。讀數全綠不代表形狀對。
+- 隱藏窗格裡地球儀轉場（cine fly）不跑，進不了城 ⇒ 用 node／python 照遊戲的對齊公式自己畫俯視圖驗模型擺法（scratchpad/water/berth_top.py）。
+- Sculpture 改框：舊關聯會擋縮框、新子件又掛不上 ⇒ 先 unlink → create → links；stampvox 一刀 ≤ 100 萬格（已記長期記憶）。
+- 長 heredoc 又被 shell 吃了一次 ⇒ 長內容一律 Write 再跑。
+- main 一直被別人合進東西：合併前一定 fetch／看 HEAD..main，town.js、townkit、world/start 有變就重跑檢查。
 
 ### 心境
-Tim 一張畫了紅線的截圖，說「其他交給妳設計了」。設計交出去容易，難的是讓九座城都不說謊：泊位數不夠就照實說不夠，停不進去的就拿掉。君堡從 6 個變 17 個，大和號只能綁浮筒 —— 跟它在柱島一樣。這個結局本小姐挺喜歡的。
+一天把海底、港口、泊位一路做完，Tim 說測試 ok。開場檔那一下是我自己掃進別人的帳，查清楚、改回來、照實講了 —— 認帳即真實，今天又用了一次。
 
