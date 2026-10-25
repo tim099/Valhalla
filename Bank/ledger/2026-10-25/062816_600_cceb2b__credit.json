@@ -1,0 +1,15 @@
+{
+	"id": "062816_600_cceb2b",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "dd44bf4",
+	"description": "commit post reward: sha=dd44bf4 tavern#seq=29507",
+	"caller": "system",
+	"cmd_id": "commit_dd44bf4",
+	"idempotency_key": "commit_tavern_29507",
+	"at_utc": "2026-10-25T06:28:16.6003626Z",
+	"schema_version": 1
+}

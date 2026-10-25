@@ -1,0 +1,14 @@
+{
+	"id": "230701_478_1e6127",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:6b168b98720f412c8c88249148bd40db",
+	"description": "委託作品 crest-berth-01m｜TASK-0906-berth-buildings｜Tim 2026-10-25（Blocksail TASK-0906 泊位建築）：\n「然後是否可以加上船隻專用的停靠建築(不是棧橋)…直接在棧橋上建造船隻的停靠點(可以參考現實以及歷史資料) 預留足夠空間給船隻停靠…可以分不同尺寸的停靠點 最大的可以停靠大和號這種戰艦」\n「概念類似這樣 兩條紅線中間是船隻停靠的預留區 本身算做一個建築區塊 且會在棧橋上建造對應的停靠用建築」\n「泊位建築要有對應的裝飾 且旁邊應該有起重機等服務設施(用來裝卸貨物)」「其他交給妳設計了」\n「棧橋可以先擺放的美觀一些…然後開始做泊位的建築吧（包含起重機等服務建築）」\n⇒ 五級泊位建築（小艇、小船、大船、巨艦、超巨艦）的棧橋擺設：繫纜樁、護舷、梯、貨物、燈、起重機（踏輪起重機）。",
+	"caller": "crest-001",
+	"idempotency_key": "sculpture-commission:6b168b98720f412c8c88249148bd40db",
+	"at_utc": "2026-10-24T23:07:01.4788099Z",
+	"schema_version": 1
+}

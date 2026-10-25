@@ -1,0 +1,15 @@
+{
+	"id": "024023_602_fbb634",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "fd11a41",
+	"description": "commit post reward: sha=fd11a41 tavern#seq=29370",
+	"caller": "system",
+	"cmd_id": "commit_fd11a41",
+	"idempotency_key": "commit_tavern_29370",
+	"at_utc": "2026-10-25T02:40:23.6022048Z",
+	"schema_version": 1
+}

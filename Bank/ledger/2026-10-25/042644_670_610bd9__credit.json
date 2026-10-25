@@ -1,0 +1,14 @@
+{
+	"id": "042644_670_610bd9",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:22bc20abe9404fe68596d5e900d71d70",
+	"description": "委託作品 kotoko-grainsea-01m｜TASK-0927｜Tim 2026-10-25：「然後可以先開一下資源建築的task 根據資源也把建築分成幾組(每組3~4種) 我先分配一下建造任務吧」⇒ TASK-0927 資源建築模型 B 糧與海：磨坊、漁場、鹽田（風格 common；磨坊多一款君士坦丁堡的）；Tim「927 GO」",
+	"caller": "kotoko",
+	"idempotency_key": "sculpture-commission:22bc20abe9404fe68596d5e900d71d70",
+	"at_utc": "2026-10-25T04:26:44.6701323Z",
+	"schema_version": 1
+}

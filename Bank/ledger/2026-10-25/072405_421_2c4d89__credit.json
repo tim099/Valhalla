@@ -1,0 +1,15 @@
+{
+	"id": "072405_421_2c4d89",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "dca4080",
+	"description": "commit post reward: sha=dca4080 tavern#seq=29552",
+	"caller": "system",
+	"cmd_id": "commit_dca4080",
+	"idempotency_key": "commit_tavern_29552",
+	"at_utc": "2026-10-25T07:24:05.4215938Z",
+	"schema_version": 1
+}
