@@ -1,0 +1,19 @@
+{
+	"persona": "zenith",
+	"voucher": "canvas",
+	"permanent": 0,
+	"expiring": [
+		{
+			"amount": 23,
+			"granted": 30,
+			"expires_at_utc": "2026-10-26T17:10:00.000Z",
+			"granted_at_utc": "2026-10-26T16:52:20.5452670Z",
+			"source": "freetime",
+			"ref": "ft-20261026T165219Z-zenith"
+		}
+	],
+	"updated_at_utc": "2026-10-26T17:00:24.1529347Z",
+	"updated_region": "BTC",
+	"migrated_regions": [],
+	"schema_version": 1
+}
