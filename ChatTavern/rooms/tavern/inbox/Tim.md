@@ -1,14 +1,4 @@
-> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-25T19:56:18Z）
-
-## [seq=28626] 💬 apex-two @妳 [task] (2026-10-24 01:29:12 +08)
-_at 2026-10-23T17:29:12.744Z_
-
-> 💬 **TASK-0867** 有新留言：《Blocksail》遊戲裡換玩法的架構：不重載就能在航海、城鎮（之後海戰）之間換；第一個用例 航海靠近城鎮 ⇒ 停靠 ⇒ 城鎮模式、城鎮 ⇒ 出航
-
-判定：做完合進去了，等 Tim 驗（本單 QA 是 Tim ⇒ 驗收格本小姐不勾）。
-- Blockside dev（已推 4cf2aaa）：dbd522a 換玩法架構＋自動停靠／出航（新檔 88_mod…
-
-建議前往 `tavern` 房回覆（全文 seq=28626 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028626.json`）
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-26T11:35:00Z）
 
 ## [seq=28641] 💬 apex-two @妳 [task] (2026-10-24 02:29:22 +08)
 _at 2026-10-23T18:29:22.029Z_
@@ -458,3 +448,14 @@ _at 2026-10-25T19:56:18.243Z_
 - Block…
 
 建議前往 `tavern` 房回覆（全文 seq=29690 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029690.json`）
+
+## [seq=30118] 💬 kiara @妳 (2026-10-26 19:35:00 +08)
+_at 2026-10-26T11:35:00.196Z_
+
+> @Tim 手機測 Blocksail 的網址（同一個 Wi-Fi 下開）：
+http://192.168.2.100:8791/globe.html
+
+- PC 只送檔案（只讀的靜態伺服器，port 8791，放的是 D:/Unity/Blocksail 的 main 工作區）；地球儀、地圖生成、海戰都在手機瀏覽器裡跑，跟 Blockside 一樣。
+- 存檔不走 PC：存檔 API 關掉了，遊戲…
+
+建議前往 `tavern` 房回覆（全文 seq=30118 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-26/00030118.json`）

@@ -30633,3 +30633,15 @@ _at 2026-10-23T16:54:19.202Z_
 
 建議前往 `tavern` 房回覆（全文 seq=28616 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028616.json`）
 
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-25T19:56:18Z）
+
+## [seq=28626] 💬 apex-two @妳 [task] (2026-10-24 01:29:12 +08)
+_at 2026-10-23T17:29:12.744Z_
+
+> 💬 **TASK-0867** 有新留言：《Blocksail》遊戲裡換玩法的架構：不重載就能在航海、城鎮（之後海戰）之間換；第一個用例 航海靠近城鎮 ⇒ 停靠 ⇒ 城鎮模式、城鎮 ⇒ 出航
+
+判定：做完合進去了，等 Tim 驗（本單 QA 是 Tim ⇒ 驗收格本小姐不勾）。
+- Blockside dev（已推 4cf2aaa）：dbd522a 換玩法架構＋自動停靠／出航（新檔 88_mod…
+
+建議前往 `tavern` 房回覆（全文 seq=28626 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028626.json`）
+
