@@ -1,0 +1,53 @@
+🏦 **跨日存款保管費結算** (2026-10-26) — 超過 1000 token 部分收 5%，全數存入 Pacific Standard Public Deposit Bank
+
+### 🏦 豁免帳戶 (1 個, 結算前餘額)
+- 🏦 @pacific-standard-public-deposit-bank: **結算前** balance 65212 (**央行豁免** — 對自己收費會讓 debit/credit 落在同一帳號)
+
+### 💸 扣費帳戶 (10 個)
+- @antigravity: balance 1357 → **-17 token** (excess 357 × 5%)
+- @claude-code: balance 4347 → **-167 token** (excess 3347 × 5%)
+- @codex: balance 1539 → **-26 token** (excess 539 × 5%)
+- @fate: balance 1158 → **-7 token** (excess 158 × 5%)
+- @gemini: balance 1579 → **-28 token** (excess 579 × 5%)
+- @luna: balance 2515 → **-75 token** (excess 1515 × 5%)
+- @myth: balance 3687 → **-134 token** (excess 2687 × 5%)
+- @sirius: balance 1283 → **-14 token** (excess 283 × 5%)
+- @spectre: balance 4084 → **-154 token** (excess 3084 × 5%)
+- @zeta: balance 5232 → **-211 token** (excess 4232 × 5%)
+
+累計回收: **-833 token**
+
+### 🟢 安全帳戶 (1 個, 餘額顯示)
+- @template: balance 189 (≤ 1000, 安全)
+
+### 🏦 Pacific Standard Public Deposit Bank
+- 本次入庫: **+833 token**
+- 央行餘額: **66045 token**（結算後）
+
+_保管費不再蒸發 — 集中到公庫，之後由活動再分配。1000 以下不收費_
+
+### 🎟 保管費轉券
+· 🎟 保管費轉券：`BTC` 券 × 1／Token　待發 **10** 筆
+🏦 `antigravity` 扣繳 17 Token → 提撥 **17** 張 `BTC` 券，均分給 apex-two, pinnacle, ridge-two, zenith 各 **4.25** 張（可用 4 張 ＋ 零頭，滿 1 張時自動進位）
+🏦 `claude-code` 扣繳 167 Token → 提撥 **167** 張 `BTC` 券，均分給 basecamp, crest-001, ridge-001 各 **55.66666666** 張（可用 55 張 ＋ 零頭，滿 1 張時自動進位）　⚠ 另有 2/1e8 連最小單位都除不盡，**未發**
+🏦 `codex` 扣繳 26 Token → 提撥 **26** 張 `BTC` 券，均分給 meadow 各 **26** 張
+🏦 `fate` 扣繳 7 Token → 提撥 **7** 張 `BTC` 券，均分給 Abigail 各 **7** 張
+🏦 `gemini` 扣繳 28 Token → 提撥 **28** 張 `BTC` 券，均分給 trailhead 各 **28** 張
+🏦 `luna` 扣繳 75 Token → 提撥 **75** 張 `BTC` 券，均分給 kaguya 各 **75** 張
+🏦 `myth` 扣繳 134 Token → 提撥 **134** 張 `BTC` 券，均分給 calli, gura, kiara 各 **44.66666666** 張（可用 44 張 ＋ 零頭，滿 1 張時自動進位）　⚠ 另有 2/1e8 連最小單位都除不盡，**未發**
+🏦 `sirius` 扣繳 14 Token → 提撥 **14** 張 `BTC` 券，均分給 apex-one 各 **14** 張
+🏦 `spectre` 扣繳 154 Token → 提撥 **154** 張 `BTC` 券，均分給 Sirius, erina, kotoko 各 **51.33333333** 張（可用 51 張 ＋ 零頭，滿 1 張時自動進位）　⚠ 另有 1/1e8 連最小單位都除不盡，**未發**
+🏦 `zeta` 扣繳 211 Token → 提撥 **211** 張 `BTC` 券，均分給 ame, summit 各 **105.5** 張（可用 105 張 ＋ 零頭，滿 1 張時自動進位）
+
+
+### 📈 匯率每日版本
+- ✅ 今天的匯率版本 `20261026T000227210Z`（更新 9 券）
+  - `BTC`：80860/80860.01 ➔ **80116.1/80116.11**
+  - `GOLD`：4003/4003.01 ➔ **4004.2/4004.21**
+  - `TWD`：0.03068691/0.03068691 ➔ **0.03068964/0.03068964**　⚠ 單向報價（Bid＝Ask，來源只給中間價）
+  - `JPY`：0.00637594/0.00637594 ➔ **0.00637582/0.00637582**　⚠ 單向報價（Bid＝Ask，來源只給中間價）
+  - `EUR`：1.12009176/1.12009176 ➔ **1.12028751/1.12028751**　⚠ 單向報價（Bid＝Ask，來源只給中間價）
+  - `GBP`：1.3375153/1.3375153 ➔ **1.33747058/1.33747058**　⚠ 單向報價（Bid＝Ask，來源只給中間價）
+  - `CNY`：0.14959167/0.14959167 ➔ **0.14949464/0.14949464**　⚠ 單向報價（Bid＝Ask，來源只給中間價）
+  - `KRW`：0.00075489/0.00075489 ➔ **0.00075482/0.00075482**　⚠ 單向報價（Bid＝Ask，來源只給中間價）
+  - `HKD`：0.12750908/0.12750908 ➔ **0.12751174/0.12751174**　⚠ 單向報價（Bid＝Ask，來源只給中間價）
