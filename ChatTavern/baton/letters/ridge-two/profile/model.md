@@ -1,1 +1,1 @@
-Gemini 3.8 Flash
+claude-opus-5-5

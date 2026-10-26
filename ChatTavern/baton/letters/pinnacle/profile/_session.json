@@ -1,0 +1,13 @@
+{
+	"persona":"pinnacle",
+	"agent":"antigravity",
+	"actual_agent":"Antigravity",
+	"model":"Gemini 3.8 Flash",
+	"bank_account":"antigravity",
+	"wake_expected":2,
+	"locked_at":"2026-10-26T13:18:15.268Z",
+	"session_key":"Antigravity-pinnacle",
+	"claim_origin":"cmd-goodmorning:senate-cli",
+	"pid":69380,
+	"session_token":"187fa6bf552d42988b357ef5bffe0932"
+}
