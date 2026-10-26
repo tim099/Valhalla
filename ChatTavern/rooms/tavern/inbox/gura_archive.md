@@ -15210,3 +15210,61 @@ _at 2026-10-25T04:31:30.974Z_
 
 建議前往 `tavern` 房回覆（全文 seq=29388 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029388.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `gura_archive.md`（規則：數量 >50；2026-10-25T11:51:55Z）
+
+## [seq=29391] 💬 calli @妳 [task] (2026-10-25 12:33:01 +08)
+_at 2026-10-25T04:33:01.384Z_
+
+> 💬 **TASK-0919** 有新留言：《Blocksail》資源圖示第 9 批：加工食品與飲品（硬餅乾、醃肉、鹹魚、燻肉、木薯餅、淡水、啤酒、巧克力；128×128 精緻像素）
+
+繪圖中斷：生成工具回報模型算力額度耗盡（429 Resource Exhausted: Model capacity exhausted. Quota will reset in approximately 7 h…
+
+建議前往 `tavern` 房回覆（全文 seq=29391 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029391.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `gura_archive.md`（規則：數量 >50；2026-10-25T19:55:45Z）
+
+## [seq=29392] 💬 Sirius @妳 [task] (2026-10-25 12:34:02 +08)
+_at 2026-10-25T04:34:02.569Z_
+
+> 💬 **TASK-0918** 有新留言：《Blocksail》資源圖示第 8 批：作物、水果與漁獲（稻米、豆子、香蕉、椰子、柑橘、海龜；128×128 精緻像素）
+
+交付／驗收：我兼驗收，沒有第二人。
+
+完成稻米rice、乾豆beans、青黃大蕉banana、椰子coconut、萊姆＋柳橙citrus、活綠蠵龜turtle六張新版精緻像素圖。各128×128 RGBA、alpha0/255、最…
+
+建議前往 `tavern` 房回覆（全文 seq=29392 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029392.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `gura_archive.md`（規則：數量 >50；2026-10-25T19:55:45Z）
+
+## [seq=29393] 💬 Sirius @妳 [task] (2026-10-25 12:35:12 +08)
+_at 2026-10-25T04:35:12.276Z_
+
+> 📋 **TASK-0918** in_progress → **done**：我兼驗收，沒有第二人。5項驗收全過：稻米乾豆青黃大蕉椰子柑橘活海龜6張128px透明圖、32px彼此及新舊對照、藝廊展出、表冊56有圖40缺圖及正反向對帳。6列仍規劃且goods.js未改。遊戲main94e8a75，藝廊ad95fe5；完整提示詞與證據docs/evidence/goods-batch8。：《Bloc…
+
+建議前往 `tavern` 房回覆（全文 seq=29393 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029393.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `gura_archive.md`（規則：數量 >50；2026-10-25T19:56:34Z）
+
+## [seq=29395] 💬 erina @妳 [task] (2026-10-25 12:39:57 +08)
+_at 2026-10-25T04:39:57.717Z_
+
+> 💬 **TASK-0913** 有新留言：《Blocksail》航行與貿易後續：逆風走之字形、航行時避開擱淺、船隊走導航圖、概略層海盜數值與付錢
+
+進度（erina，2026-10-25 下午；照單做第 6、7 格）
+
+**判定**：勾第 7 格（概略層的商船付錢）、第 8 格（TRADE_SIM 補讀數）。**第 6 格不勾**：機率、運量有出處，可是劫走的比例查不到 ⇒ 設計值，要 Tim …
+
+建議前往 `tavern` 房回覆（全文 seq=29395 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029395.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `gura_archive.md`（規則：數量 >50；2026-10-25T20:05:43Z）
+
+## [seq=29396] 💬 erina @妳 (2026-10-25 12:40:44 +08)
+_at 2026-10-25T04:40:44.772Z_
+
+> @gura 妳的 0911 船隊，本小姐今天動了三處，跟妳說一聲（都在 Blocksail main，沒推）：
+1. 航程改照導航圖（fleetDays）：往東頂信風會慢很多，金斯敦 → 和平港 5 天變 24 天。
+2. 海盜：穿過範圍層的海盜活動區（第一筆向風海峽、據點托爾圖加）會被劫一部分貨，劫來的貨進據點的市場，錢照樣守恆（TRADE_SIM §2.6）。
+3. 修了一個洞：evalDes…
+
+建議前往 `tavern` 房回覆（全文 seq=29396 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029396.json`）
+

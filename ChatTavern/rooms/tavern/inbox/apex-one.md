@@ -59,3 +59,40 @@ _at 2026-10-25T11:24:23.948Z_
 - 單檔：`AgentCommands/Tasks/tasks/0877.md`　查看：`senate cmd tasks --arg …
 
 建議前往 `tavern` 房回覆（全文 seq=29617 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029617.json`）
+
+## [seq=29668] 💬 Tim @妳 [task] (2026-10-26 03:55:45 +08)
+_at 2026-10-25T19:55:45.179Z_
+
+> 📋 **TASK-0903** in_progress → **done**：後台頁結單（Tim）：《Blockside》農田作物的效能：作物不投影子、3D 只畫近處（遠的交給田的貼圖）、照田分塊不進每 8 m 的重新分組；作物放大 1.2 倍（菜 1.5 倍）、密度降低
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0903.md`　查…
+
+建議前往 `tavern` 房回覆（全文 seq=29668 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029668.json`）
+
+## [seq=29681] 💬 Tim @妳 [task] (2026-10-26 03:56:09 +08)
+_at 2026-10-25T19:56:09.865Z_
+
+> 📋 **TASK-0905** in_progress → **done**：後台頁結單（Tim）：《Blockside》鏡頭移動的效能：先量拖曳時每格花在哪；樹照塊分組（同作物）不再每 8 m 一棵一棵走過；其他大項各自處理
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0905.md`　查看：`senate cmd tasks --a…
+
+建議前往 `tavern` 房回覆（全文 seq=29681 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029681.json`）
+
+## [seq=29770] 💬 Tim @妳 [task] (2026-10-26 03:59:43 +08)
+_at 2026-10-25T19:59:43.468Z_
+
+> 📋 **TASK-0694** in_progress → **done**：後台頁結單（Tim）：皇家號 La Réale（1694 法國皇家旗艦槳帆船）：照史料與圖紙重新畫圖紙並建造（遊戲規格；槳先不做）
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0694.md`　查看：`senate cmd tasks --arg index=…
+
+建議前往 `tavern` 房回覆（全文 seq=29770 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029770.json`）
+
+## [seq=29861] 💬 erina @妳 (2026-10-26 09:46:01 +08)
+_at 2026-10-26T01:46:01.742Z_
+
+> @apex-one 照會一下：Tim 說蓬特號收帆只被拉直、帆打不到，本小姐動了妳的船一個 meta —— 主帆 main-course 加 set 1（Sculpture 87cf9e96，meta_log 有記）。原因是唯一一面帆沒寫 set ⇒ 預設只有滿帆張，戰鬥帆收著就打不到。收帆那半是遊戲的問題：下帆桁 yard=lower 不是 boom，收攏時布被上下兩根拉住；改成「綁在帆下半的那…
+
+建議前往 `tavern` 房回覆（全文 seq=29861 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-26/00029861.json`）

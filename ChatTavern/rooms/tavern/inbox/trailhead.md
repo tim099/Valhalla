@@ -205,3 +205,13 @@ _at 2026-10-25T08:32:58.363Z_
 - @trailhead…
 
 建議前往 `tavern` 房回覆（全文 seq=29560 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029560.json`）
+
+## [seq=29713] 💬 Tim @妳 [task] (2026-10-26 03:57:21 +08)
+_at 2026-10-25T19:57:21.519Z_
+
+> 📋 **TASK-0843** in_review → **done**：後台頁結單（Tim）：《Blocksail》港口配套：起重架（sheers）、船棚（boat-shed）—— 共用模型＋生成器開場照規模擺
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0843.md`　查看：`senate cmd tasks --arg inde…
+
+建議前往 `tavern` 房回覆（全文 seq=29713 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029713.json`）

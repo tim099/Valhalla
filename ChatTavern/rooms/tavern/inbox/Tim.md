@@ -1,59 +1,4 @@
-> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-25T11:33:28Z）
-
-## [seq=28563] 💬 kaguya @妳 [task] (2026-10-23 23:21:19 +08)
-_at 2026-10-23T15:21:19.218Z_
-
-> 💬 **TASK-0863** 有新留言：《Blocksail》家族粗框架：建築的主人（公共的歸城鎮）、資金、地產、艦隊；每個家族在每座城一個倉庫（照桶數、倉庫建築加容量）；放不下的賣進城鎮市場；每種貨一桶的重量
-
-**[收工 wrapup]**
-
-v0 程式在 prod.js／market.js（a7a4bcb，已推）；FAMILIES.md 寫好。這一段沒再動。
-還剩：等 Tim 看 FAM…
-
-建議前往 `tavern` 房回覆（全文 seq=28563 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028563.json`）
-
-## [seq=28565] 💬 kaguya @妳 [task] (2026-10-23 23:21:36 +08)
-_at 2026-10-23T15:21:36.716Z_
-
-> 💬 **TASK-0864** 有新留言：《Blocksail》整體架構與施工進度（母單）：各系統之間的關係（誰讀誰寫）、每個系統做到哪、各系統的單都掛在底下
-
-**[收工 wrapup]**
-
-ARCHITECTURE.md 在 main（0a7ff15，已推）；這一段把「生產建築」那一列改成「附屬的田有」（c548479）。
-還剩：等 Tim 看文件、勾最後一格；§6 的文件不一致，誰的文件…
-
-建議前往 `tavern` 房回覆（全文 seq=28565 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028565.json`）
-
-## [seq=28585] 💬 apex-two @妳 [task] (2026-10-23 23:51:35 +08)
-_at 2026-10-23T15:51:35.559Z_
-
-> 📋 **TASK-0867** todo → **in_progress**（apex-two 認領 role=dev）：《Blocksail》遊戲裡換玩法的架構：不重載就能在航海、城鎮（之後海戰）之間換；第一個用例 航海靠近城鎮 ⇒ 停靠 ⇒ 城鎮模式、城鎮 ⇒ 出航
-
-- 狀態：`in_progress`　操作：apex-two
-- 單檔：`AgentCommands/Tasks/tasks…
-
-建議前往 `tavern` 房回覆（全文 seq=28585 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028585.json`）
-
-## [seq=28586] 💬 apex-two @妳 [task] (2026-10-23 23:51:49 +08)
-_at 2026-10-23T15:51:49.312Z_
-
-> 💬 **TASK-0867** 有新留言：《Blocksail》遊戲裡換玩法的架構：不重載就能在航海、城鎮（之後海戰）之間換；第一個用例 航海靠近城鎮 ⇒ 停靠 ⇒ 城鎮模式、城鎮 ⇒ 出航
-
-@summit 打個招呼（apex-two）：Tim 2026-10-23「/scp-task 867 GO」點名本小姐動工 ⇒ 本小姐認領、照妳的分析與拍板做（謝謝妳那份讀點表，省很多事）。
-
-照妳 #…
-
-建議前往 `tavern` 房回覆（全文 seq=28586 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028586.json`）
-
-## [seq=28616] 💬 trailhead @妳 [task] (2026-10-24 00:54:19 +08)
-_at 2026-10-23T16:54:19.202Z_
-
-> 💬 **TASK-0742** 有新留言：《Blocksail》城鎮建造⑤：玩家擴建道路、沿路建地與資源建築（照適地表）
-
-相關（trailhead，TASK-0869 第二段，Tim 2026-10-24 要的）：建築模式動了兩件，Blockside dev a287558、Blocksail main a5a825e（都沒推）。
-- 分類改由 Blocksail 給：world/town.j…
-
-建議前往 `tavern` 房回覆（全文 seq=28616 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028616.json`）
+> ⚠ **inbox truncated** — 3 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-25T19:56:18Z）
 
 ## [seq=28626] 💬 apex-two @妳 [task] (2026-10-24 01:29:12 +08)
 _at 2026-10-23T17:29:12.744Z_
@@ -464,3 +409,52 @@ _at 2026-10-25T11:33:28.041Z_
 Blockside dev ca6e8d4 已推；Blocksail 本機 mai…
 
 建議前往 `tavern` 房回覆（全文 seq=29620 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029620.json`）
+
+## [seq=29660] 💬 crest-001 @妳 [task] (2026-10-26 03:55:28 +08)
+_at 2026-10-25T19:55:28.744Z_
+
+> 💬 **TASK-0895** 有新留言：《Blocksail》分區分配器＋地價密度＋都市更新：建築照自己的佔地在路邊格子自由分配（參考 Cities: Skylines、SimCity 4），原地升級或拆相鄰合併成高密度
+
+**[收工 wrapup]**
+
+球在 crest-001：分配器把自動建築蓋的田與作坊擺上地圖還沒接，gura 那邊在等。
+這次醒來推進的：沒有動這張（今天做河川航行）；…
+
+建議前往 `tavern` 房回覆（全文 seq=29660 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029660.json`）
+
+## [seq=29661] 💬 crest-001 @妳 [task] (2026-10-26 03:55:30 +08)
+_at 2026-10-25T19:55:30.800Z_
+
+> 💬 **TASK-0893** 有新留言：《Blocksail》住宅三級密度：低（現有 8×12、住 6）／中（12×12、三層、住 12）／高（16×16、四層、住 24）—— 先做中、高密度的住宅模型（fr、carib）
+
+**[收工 wrapup]**
+
+球在 Tim：住宅照密度定建材級（中密度 2 級、高密度 3 級）等 Tim 拍板。
+這次醒來推進的：沒有動這張；kaguya 留言說君…
+
+建議前往 `tavern` 房回覆（全文 seq=29661 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029661.json`）
+
+## [seq=29662] 💬 crest-001 @妳 [task] (2026-10-26 03:55:32 +08)
+_at 2026-10-25T19:55:32.848Z_
+
+> 💬 **TASK-0766** 有新留言：《Blocksail》城鎮：和平港 1686 復刻 —— 世界地圖挖回和平港灣（加勒比海那一框也能 carve）、照 Cornuau 平面圖手擺
+
+**[收工 wrapup]**
+
+球在 Tim：和平港 1686 的規劃與水深都在 main，等 Tim 在遊戲裡看、驗收。
+這次醒來推進的：和平港灣的挖深換成等深線（改線表 port-de-paix 13 …
+
+建議前往 `tavern` 房回覆（全文 seq=29662 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029662.json`）
+
+## [seq=29690] 💬 summit @妳 [task] (2026-10-26 03:56:18 +08)
+_at 2026-10-25T19:56:18.243Z_
+
+> 💬 **TASK-0948** 有新留言：《Blocksail》軍事建築的士兵：砲台、碉堡等照城鎮帳分到士兵崗位，遊戲裡站崗守砲
+
+## 判定（2026-10-25，summit；Tim「948開工」）：帳上分兵、十種軍事建築的站崗點做完，合進去了；遊戲裡看了皇家港、托爾圖加
+
+**提交**
+- Blocksail main b3cdfc7（8bf1672 ＋ 合併；本地、沒推）
+- Block…
+
+建議前往 `tavern` 房回覆（全文 seq=29690 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029690.json`）
