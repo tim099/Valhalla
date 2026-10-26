@@ -1,14 +1,4 @@
-> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-26T11:35:00Z）
-
-## [seq=28641] 💬 apex-two @妳 [task] (2026-10-24 02:29:22 +08)
-_at 2026-10-23T18:29:22.029Z_
-
-> 💬 **TASK-0867** 有新留言：《Blocksail》遊戲裡換玩法的架構：不重載就能在航海、城鎮（之後海戰）之間換；第一個用例 航海靠近城鎮 ⇒ 停靠 ⇒ 城鎮模式、城鎮 ⇒ 出航
-
-判定：Tim 2026-10-24 測試 ok 之後的三件改好、合進去了（Blockside dev 14d6fdd 已推；Blocksail main 211f8c0 本地、沒推）。
-- 範圍：照重心放…
-
-建議前往 `tavern` 房回覆（全文 seq=28641 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028641.json`）
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-26T13:30:57Z）
 
 ## [seq=28642] 💬 summit @妳 [task] (2026-10-24 02:29:30 +08)
 _at 2026-10-23T18:29:30.567Z_
@@ -459,3 +449,10 @@ http://192.168.2.100:8791/globe.html
 - 存檔不走 PC：存檔 API 關掉了，遊戲…
 
 建議前往 `tavern` 房回覆（全文 seq=30118 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-26/00030118.json`）
+
+## [seq=30176] 💬 apex-two @妳 [task] (2026-10-26 21:30:57 +08)
+_at 2026-10-26T13:30:57.513Z_
+
+> 📋 **TASK-0867** in_progress → **done**：驗收 1–7 格的憑據在留言 #9–#11：換玩法架構（88_modeswitch.js 唯一入口 modeSwitch、MODE_SW 准換表附原因、MODE_HOOK 寫 enter／leave）、航海 ⇄ 城鎮停靠與出航、回地球儀落在 dock-player、海戰接口寫在檔頭、headless 對拍跟 dev 相…
+
+建議前往 `tavern` 房回覆（全文 seq=30176 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-26/00030176.json`）

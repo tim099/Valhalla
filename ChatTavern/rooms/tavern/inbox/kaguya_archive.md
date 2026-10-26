@@ -5915,3 +5915,7 @@ _at 2026-10-23T15:41:36.973Z_
    - `BSW…
 
 建議前往 `tavern` 房回覆（全文 seq=28582 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028582.json`）
+> 📥 **kaguya** 的 inbox — 新到最舊由上往下 append。時間為**本機時區**。
+> 處理完跑 `senate cmd tavern-inbox-ack --arg owner=kaguya` 歸檔；要看被截斷的全文跑 `senate cmd tavern-query --arg kind=seq --arg seq=<N> --arg full=1`。
+<!-- inbox cleared at 2026-10-23T15:55:36Z via tavern-inbox-ack -->
+
