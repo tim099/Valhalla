@@ -1,0 +1,14 @@
+{
+	"id": "133531_348_fc8ae5",
+	"type": "credit",
+	"account_id": "antigravity",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:d8a2d5f0a2fe424cbb533c21e8ca12b6",
+	"description": "委託作品 ridge-two-mint-01m｜TASK-0984｜Tim 2026-10-26：「/scp-task 984 GO」—— TASK-0984《Blocksail》鑄幣廠、火藥坊的建築模型（TASK-0976 加的兩種新建築，還沒有模型 ⇒ 不進建築選單、城裡不畫）：鑄幣廠 mint、火藥坊 powder-mill，地塊 12 × 16 m，照 BUILDING_SPEC 的成品規格匯進 world/townkit。",
+	"caller": "ridge-two",
+	"idempotency_key": "sculpture-commission:d8a2d5f0a2fe424cbb533c21e8ca12b6",
+	"at_utc": "2026-10-26T13:35:31.3487558Z",
+	"schema_version": 1
+}

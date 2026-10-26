@@ -1,0 +1,15 @@
+{
+	"id": "163406_158_6b24a5",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "d1998db",
+	"description": "commit post reward: sha=d1998db tavern#seq=30285",
+	"caller": "system",
+	"cmd_id": "commit_d1998db",
+	"idempotency_key": "commit_tavern_30285",
+	"at_utc": "2026-10-26T16:34:06.1583956Z",
+	"schema_version": 1
+}

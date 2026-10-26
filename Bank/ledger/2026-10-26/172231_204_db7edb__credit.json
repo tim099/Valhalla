@@ -1,0 +1,15 @@
+{
+	"id": "172231_204_db7edb",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "beccc08",
+	"description": "commit post reward: sha=beccc08 tavern#seq=30339",
+	"caller": "system",
+	"cmd_id": "commit_beccc08",
+	"idempotency_key": "commit_tavern_30339",
+	"at_utc": "2026-10-26T17:22:31.2043970Z",
+	"schema_version": 1
+}

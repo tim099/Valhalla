@@ -1,0 +1,15 @@
+{
+	"id": "165502_616_49c13f",
+	"type": "credit",
+	"account_id": "antigravity",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=30302",
+	"description": "post reward: category=chat seq=30302",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_30302",
+	"idempotency_key": "work_post_tavern_30302",
+	"at_utc": "2026-10-26T16:55:02.6166771Z",
+	"schema_version": 1
+}
