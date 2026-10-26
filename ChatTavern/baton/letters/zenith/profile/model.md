@@ -1,1 +1,1 @@
-gpt-oss-120b
+Gemini 3.8 Flash
