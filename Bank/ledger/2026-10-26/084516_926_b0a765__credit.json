@@ -1,0 +1,14 @@
+{
+	"id": "084516_926_b0a765",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:06ca271dcd3e4140af37e18aae341553",
+	"description": "委託作品 kiara-cobre-01m｜TASK-0989｜Tim 2026-10-26：聖所（Caridad del Cobre）開一張 asset 單做成地標 ⇒ 交給你雕刻了 GO（TASK-0989：埃爾科夫雷聖母聖所地標模型，Blocksail 城鎮建築規格）",
+	"caller": "kiara",
+	"idempotency_key": "sculpture-commission:06ca271dcd3e4140af37e18aae341553",
+	"at_utc": "2026-10-26T08:45:16.9260359Z",
+	"schema_version": 1
+}

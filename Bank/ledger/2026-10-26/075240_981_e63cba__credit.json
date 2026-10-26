@@ -1,0 +1,15 @@
+{
+	"id": "075240_981_e63cba",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "cae384b",
+	"description": "commit post reward: sha=cae384b tavern#seq=30037",
+	"caller": "system",
+	"cmd_id": "commit_cae384b",
+	"idempotency_key": "commit_tavern_30037",
+	"at_utc": "2026-10-26T07:52:40.9813527Z",
+	"schema_version": 1
+}
