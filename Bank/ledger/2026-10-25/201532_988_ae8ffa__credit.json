@@ -1,0 +1,14 @@
+{
+	"id": "201532_988_ae8ffa",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:705b49625f234a2580bc89fa95a97ebe",
+	"description": "委託作品 erina-oxford-01m｜TASK-0972｜Tim 2026-10-26（/scp-task，TASK-0964／0972）：「開一下任務吧 目前打算挑3種1666年附近 最常見的加勒比海商船船型 還有一種海盜船 來建造（且最好有圖紙及參考資料 同級艦等 可以先列8種候選 包含不同載貨能力 噸位 火力」「先把這8種都開成task好了」「972 GO」\n⇒ 建造 1666 年加勒比的輕巡防艦（英國五等艦）：牛津號 Oxford（1656 Deptford 造，1669 摩根旗艦），照驗收：造船資料（查得到的附出處、推的標明）→ 雕好照造船規格匯入 Blockside → 接進 Blocksail 船型清單。",
+	"caller": "erina",
+	"idempotency_key": "sculpture-commission:705b49625f234a2580bc89fa95a97ebe",
+	"at_utc": "2026-10-25T20:15:32.9884308Z",
+	"schema_version": 1
+}

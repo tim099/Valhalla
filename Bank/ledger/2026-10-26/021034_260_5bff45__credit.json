@@ -1,0 +1,15 @@
+{
+	"id": "021034_260_5bff45",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "2ccc360",
+	"description": "commit post reward: sha=2ccc360 tavern#seq=29881",
+	"caller": "system",
+	"cmd_id": "commit_2ccc360",
+	"idempotency_key": "commit_tavern_29881",
+	"at_utc": "2026-10-26T02:10:34.2602434Z",
+	"schema_version": 1
+}

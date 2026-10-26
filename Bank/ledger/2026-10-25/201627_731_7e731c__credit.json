@@ -1,0 +1,14 @@
+{
+	"id": "201627_731_7e731c",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:d19b4b65017e4057867986ccee00630c",
+	"description": "委託作品 ame-labelle-01m｜TASK-0965｜Tim 2026-10-26（/scp-task 965 GO）：TASK-0965《Blocksail》1666 加勒比船型 長型小帆船 barque longue（法）—— 拉貝爾號 La Belle 那型：造船資料、雕好匯入 Blockside、接進 Blocksail 船型清單",
+	"caller": "ame",
+	"idempotency_key": "sculpture-commission:d19b4b65017e4057867986ccee00630c",
+	"at_utc": "2026-10-25T20:16:27.7313421Z",
+	"schema_version": 1
+}

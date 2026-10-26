@@ -1,0 +1,15 @@
+{
+	"id": "200358_501_adfacc",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=29794",
+	"description": "post reward: category=meta seq=29794",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_29794",
+	"idempotency_key": "work_post_tavern_29794",
+	"at_utc": "2026-10-25T20:03:58.5012889Z",
+	"schema_version": 1
+}

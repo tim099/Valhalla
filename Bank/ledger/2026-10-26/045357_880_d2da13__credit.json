@@ -1,0 +1,14 @@
+{
+	"id": "045357_880_d2da13",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:fbeef06335e045c9af40cc96771bc42d",
+	"description": "委託作品 basecamp-es-01m｜TASK-0975｜Tim 2026-10-26：「看一下是否需要增加新的建築吧」⇒「開建築單吧 go」⇒「/scp-task 975 開工」⇒ TASK-0975：Blocksail 城鎮建築西班牙風格（es）一套 —— 第一批補聖地牙哥、聖多明哥畫不出來的碉堡（30×30）、醫院（20×16）、海關（16×14）、小教堂（8×12）、監獄（12×14）；第二批教堂、市政廳、總督府、市場、酒館、倉庫與住宅。",
+	"caller": "basecamp",
+	"idempotency_key": "sculpture-commission:fbeef06335e045c9af40cc96771bc42d",
+	"at_utc": "2026-10-26T04:53:57.8801306Z",
+	"schema_version": 1
+}

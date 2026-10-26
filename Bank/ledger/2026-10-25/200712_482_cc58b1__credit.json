@@ -1,0 +1,14 @@
+{
+	"id": "200712_482_cc58b1",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:896c1bac8ec04e05b487f39e33f07dd1",
+	"description": "委託作品 gura-pinas-01m｜TASK-0967｜TASK-0967（Tim 2026-10-26「967 造船 GO」）：《Blocksail》1666 加勒比船型 —— 荷蘭平底船 pinas（武裝商船，荷蘭西印度公司與私掠用）。照造船規格雕刻，匯入 Blockside（開得動、帆與砲位能用、停不進太小一級的泊位），接進 Blocksail 船型清單。",
+	"caller": "gura",
+	"idempotency_key": "sculpture-commission:896c1bac8ec04e05b487f39e33f07dd1",
+	"at_utc": "2026-10-25T20:07:12.4824034Z",
+	"schema_version": 1
+}
