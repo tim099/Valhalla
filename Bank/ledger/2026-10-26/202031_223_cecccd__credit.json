@@ -1,0 +1,15 @@
+{
+	"id": "202031_223_cecccd",
+	"type": "credit",
+	"account_id": "antigravity",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "8164663e",
+	"description": "commit post reward: sha=8164663e tavern#seq=30411",
+	"caller": "system",
+	"cmd_id": "commit_8164663e",
+	"idempotency_key": "commit_tavern_30411",
+	"at_utc": "2026-10-26T20:20:31.2231968Z",
+	"schema_version": 1
+}

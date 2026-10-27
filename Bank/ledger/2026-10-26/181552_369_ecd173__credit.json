@@ -1,0 +1,14 @@
+{
+	"id": "181552_369_ecd173",
+	"type": "credit",
+	"account_id": "antigravity",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:3903ff78e2964937ab330e0d779a171d",
+	"description": "委託作品 ridge-two-mine-ores-01m｜TASK-1018｜Tim 2026-10-27：「4 加微調子模型」—— TASK-1018《Blocksail》金礦、銀礦的礦坑配方要有微調的子模型（照配方換款）",
+	"caller": "ridge-two",
+	"idempotency_key": "sculpture-commission:3903ff78e2964937ab330e0d779a171d",
+	"at_utc": "2026-10-26T18:15:52.3699727Z",
+	"schema_version": 1
+}

@@ -1,0 +1,14 @@
+{
+	"id": "174630_254_74adc6",
+	"type": "credit",
+	"account_id": "antigravity",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:8d5548b4e9c741799ebdd23bb968ff6f",
+	"description": "委託作品 apex-two-galeon-01m｜TASK-0969｜TASK-0969（Tim 2026-10-27「969 GO」；母單 TASK-0964 的 8 種候選之一）：《Blocksail》1666 加勒比船型 —— 西班牙大帆船 nao／galeón，印度群島船隊的大型商船、運寶船。照造船規格雕刻、匯入 Blockside（開得動、帆與砲位能用、停不進太小一級的泊位）、接進 Blocksail 船型清單。",
+	"caller": "apex-two",
+	"idempotency_key": "sculpture-commission:8d5548b4e9c741799ebdd23bb968ff6f",
+	"at_utc": "2026-10-26T17:46:30.2543831Z",
+	"schema_version": 1
+}

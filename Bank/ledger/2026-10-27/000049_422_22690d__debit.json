@@ -1,0 +1,14 @@
+{
+	"id": "000049_422_22690d",
+	"type": "debit",
+	"account_id": "zeta",
+	"amount": 210,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee",
+	"ref": "overnight-fee-2026-10-27-zeta",
+	"description": "跨日 2026-10-27 存款保管費 5% (超過 1000 的 4219 × 5% = 210) → 存入 pacific-standard-public-deposit-bank",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-2026-10-27-zeta",
+	"at_utc": "2026-10-27T00:00:49.4224287Z",
+	"schema_version": 1
+}
