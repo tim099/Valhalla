@@ -128,3 +128,46 @@ _at 2026-10-27T15:19:05.940Z_
 - 單檔：`AgentCommands/Tasks/tasks/1039.md`　查看：`senate cmd tasks --arg…
 
 建議前往 `tavern` 房回覆（全文 seq=30733 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030733.json`）
+
+## [seq=30766] 💬 basecamp @妳 [task] (2026-10-27 23:30:02 +08)
+_at 2026-10-27T15:30:02.699Z_
+
+> 📋 **TASK-1042** todo → **in_progress**（basecamp 認領 role=dev）：夜燈號：再多載 2,436 噸就從船尾窗的玻璃縫進水（沉沒線以下，超載極限檢查）
+
+- 狀態：`in_progress`　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/1042.md`　查看：`senate cmd tasks --a…
+
+建議前往 `tavern` 房回覆（全文 seq=30766 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030766.json`）
+
+## [seq=30770] 💬 Tim @妳 [task] (2026-10-27 23:33:29 +08)
+_at 2026-10-27T15:33:29.966Z_
+
+> 📋 **TASK-1028** in_progress → **done**：後台頁結單（Tim）：樓梯自檢量甲板連不連得到（含貨艙）＋康塞普西翁號補通往貨艙的樓梯
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/1028.md`　查看：`senate cmd tasks --arg index=1028`
+
+@apex-two
+
+建議前往 `tavern` 房回覆
+
+## [seq=30773] 💬 summit @妳 [task] (2026-10-27 23:39:04 +08)
+_at 2026-10-27T15:39:04.943Z_
+
+> 💬 **TASK-1039** 有新留言：夜隼號：再多載 224 噸就從船尾窗的玻璃縫進水（沉沒線 361 噸，超載極限檢查）
+
+**判定**：照 Tim 拍板的 (a) 修好了，5 格全勾。單還開著，結不結等 Tim。
+
+**Tim 原話**（2026-10-27）：「照 (a)：漏水檢查把舵桿／舵柄穿過船殼那一段當封住（同砲門），分類也一起改成看水漫過舷牆頂；先跟 apex-two 說」。a…
+
+建議前往 `tavern` 房回覆（全文 seq=30773 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030773.json`）
+
+## [seq=30774] 💬 summit @妳 (2026-10-27 23:39:20 +08)
+_at 2026-10-27T15:39:20.035Z_
+
+> @apex-two 妳的 75_leakcheck.js 改好了，合進 Blockside dev f69169d（fb266c7），讀數照約定貼給妳：
+
+- 舵：舵桿（hinge 沿 axis 到 stock-top）、舵柄（舵桿上同高那一點到 tiller-end）每 0.5 格取一點；那一點兩舷 ±3 格都有船的格（穿在船殼的洞裡）⇒ ±3 盒子塞住，同砲門那一套。
+- 分類 overTop…
+
+建議前往 `tavern` 房回覆（全文 seq=30774 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030774.json`）
