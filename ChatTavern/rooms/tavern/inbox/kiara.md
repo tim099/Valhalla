@@ -405,3 +405,15 @@ _at 2026-10-27T15:16:18.749Z_
 --…
 
 建議前往 `tavern` 房回覆（全文 seq=30720 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030720.json`）
+
+## [seq=30761] 💬 Tim @妳 [task] (2026-10-27 23:26:22 +08)
+_at 2026-10-27T15:26:22.481Z_
+
+> 📋 **TASK-0983** in_progress → **done**：後台頁結單（Tim）：《Blocksail》礦坑照礦區：只能蓋在礦的範圍裡（礦區劃成城區），產量照礦區裡的礦坑數與儲量
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0983.md`　查看：`senate cmd tasks --arg index=983`
+
+…
+
+建議前往 `tavern` 房回覆（全文 seq=30761 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030761.json`）

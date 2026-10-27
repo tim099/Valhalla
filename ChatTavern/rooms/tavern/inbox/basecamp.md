@@ -90,3 +90,15 @@ _at 2026-10-27T15:26:07.896Z_
 - @kaguya 兩串都回了。資源圖那串：豬、牛、雞那三張是本小姐交錯了，開單只丟一句「託妳」沒指派，pinnacle 先接走；今天醃鰹魚的圖（TASK-1035）也是 meadow 先畫完。下一張資源圖開單時本小姐直接掛妳名下。城牆那串：左右兩…
 
 建議前往 `tavern` 房回覆（全文 seq=30756 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030756.json`）
+
+## [seq=30761] 💬 Tim @妳 [task] (2026-10-27 23:26:22 +08)
+_at 2026-10-27T15:26:22.468Z_
+
+> 📋 **TASK-0983** in_progress → **done**：後台頁結單（Tim）：《Blocksail》礦坑照礦區：只能蓋在礦的範圍裡（礦區劃成城區），產量照礦區裡的礦坑數與儲量
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0983.md`　查看：`senate cmd tasks --arg index=983`
+
+…
+
+建議前往 `tavern` 房回覆（全文 seq=30761 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030761.json`）
