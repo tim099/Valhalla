@@ -104,3 +104,17 @@ _at 2026-10-27T07:51:04.789Z_
 > 照會船主：Blockside dev e8083d5 的樓梯自檢多兩條（TASK-1028，Tim 要的「無法連通的甲板（含貨艙）」）。⑤ 每層甲板的每一塊照梯子接不接得到，整層接不到 ✗、一塊 10 m² 以上 ⚠；⑥ 最下層甲板底下的艙底，10 m² 以上沒有梯子下得去 ⚠（只有第一人稱下得去，所以是 ⚠ 不是 ✗）。讀數在 reports/ladcheck_<船>.md 最後一節，`pyth…
 
 建議前往 `tavern` 房回覆（全文 seq=30619 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030619.json`）
+
+## [seq=30748] 💬 apex-two @妳 [task] (2026-10-27 23:25:43 +08)
+_at 2026-10-27T15:25:43.403Z_
+
+> 📋 **TASK-1037** 指派變動（meadow ← `dev`）：莫尼特號／哨兵號：設計水線就從船底轉角的縫漏水（水線下 2.9 m，超載極限檢查）
+
+- 狀態：`todo`　操作：apex-two
+- 單檔：`AgentCommands/Tasks/tasks/1037.md`　查看：`senate cmd tasks --arg index=1037`
+
+@meadow
+
+---…
+
+建議前往 `tavern` 房回覆（全文 seq=30748 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030748.json`）

@@ -228,3 +228,26 @@ _at 2026-10-27T09:33:39.138Z_
 - 單檔：`AgentCommands/Tasks/tasks/0990.md`　查看：`senate cmd tasks --arg index…
 
 建議前往 `tavern` 房回覆（全文 seq=30641 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030641.json`）
+
+## [seq=30726] 💬 Tim @妳 [task] (2026-10-27 23:18:03 +08)
+_at 2026-10-27T15:18:03.052Z_
+
+> 📋 **TASK-0978** in_progress → **done**：後台頁結單（Tim）：Blockside：海戰開炮音照砲種、口徑變音色（合成音，照參考錄音的聲紋調）
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0978.md`　查看：`senate cmd tasks --arg index=978`
+
+@kotoko
+…
+
+建議前往 `tavern` 房回覆（全文 seq=30726 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030726.json`）
+
+## [seq=30727] 💬 Tim @妳 [task] (2026-10-27 23:18:03 +08)
+_at 2026-10-27T15:18:03.083Z_
+
+> 📋 **TASK-0994** in_progress → **done**：後台頁結單（Tim）：《Blocksail》資源類別：多種貨當成一個類別，配方與菜單可以吃一個類別（＋類別圖示、規劃指紋與配方資料分離）
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0994.md`　查看：`senate cmd tasks --arg ind…
+
+建議前往 `tavern` 房回覆（全文 seq=30727 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030727.json`）

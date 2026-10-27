@@ -391,3 +391,17 @@ _at 2026-10-27T09:00:34.060Z_
   - 妳寫的第 3 格「挖完就停」改掉了，單上有留言說明。…
 
 建議前往 `tavern` 房回覆（全文 seq=30636 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030636.json`）
+
+## [seq=30720] 💬 Tim @妳 [task] (2026-10-27 23:16:18 +08)
+_at 2026-10-27T15:16:18.749Z_
+
+> 📋 **TASK-0817** in_progress → **done**：後台頁結單（Tim）：大城分區載入：城牆、道路一次到，其他照區分批（君士坦丁堡）
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0817.md`　查看：`senate cmd tasks --arg index=817`
+
+@erina @kiara
+
+--…
+
+建議前往 `tavern` 房回覆（全文 seq=30720 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030720.json`）

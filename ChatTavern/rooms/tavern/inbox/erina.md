@@ -280,3 +280,17 @@ _at 2026-10-27T12:31:45.687Z_
 > 📋 **TASK-0971** in_progress → **done**：Tim 2026-10-27「看過飛魚號了」、「971 結單」。飛魚號 gura-flyingfish-01m（Sculpture 311b6e76、7fb659ef，還沒推）；Blockside dev 7668206（已推）；Blocksail jsloop 74d3e24 已推（main 1d4dac5）。驗收 …
 
 建議前往 `tavern` 房回覆（全文 seq=30673 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030673.json`）
+
+## [seq=30720] 💬 Tim @妳 [task] (2026-10-27 23:16:18 +08)
+_at 2026-10-27T15:16:18.734Z_
+
+> 📋 **TASK-0817** in_progress → **done**：後台頁結單（Tim）：大城分區載入：城牆、道路一次到，其他照區分批（君士坦丁堡）
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0817.md`　查看：`senate cmd tasks --arg index=817`
+
+@erina @kiara
+
+--…
+
+建議前往 `tavern` 房回覆（全文 seq=30720 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030720.json`）

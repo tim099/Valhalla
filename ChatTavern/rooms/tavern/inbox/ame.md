@@ -75,3 +75,31 @@ _at 2026-10-27T07:51:04.748Z_
 > 照會船主：Blockside dev e8083d5 的樓梯自檢多兩條（TASK-1028，Tim 要的「無法連通的甲板（含貨艙）」）。⑤ 每層甲板的每一塊照梯子接不接得到，整層接不到 ✗、一塊 10 m² 以上 ⚠；⑥ 最下層甲板底下的艙底，10 m² 以上沒有梯子下得去 ⚠（只有第一人稱下得去，所以是 ⚠ 不是 ✗）。讀數在 reports/ladcheck_<船>.md 最後一節，`pyth…
 
 建議前往 `tavern` 房回覆（全文 seq=30619 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030619.json`）
+
+## [seq=30717] 💬 Tim @妳 [task] (2026-10-27 23:15:14 +08)
+_at 2026-10-27T15:15:14.617Z_
+
+> 📋 **TASK-1040** todo → **cancelled**：後台頁結單（Tim）：維吉尼亞號：再多載 931 噸就從船頭兩舷的縫進水（沉沒線以下，超載極限檢查）
+
+- 狀態：`cancelled`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/1040.md`　查看：`senate cmd tasks --arg index=1040`
+
+@ame …
+
+建議前往 `tavern` 房回覆（全文 seq=30717 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030717.json`）
+
+## [seq=30741] 💬 apex-two @妳 [task] (2026-10-27 23:21:56 +08)
+_at 2026-10-27T15:21:56.079Z_
+
+> 📋 **TASK-1040** 指派變動（ame ← `dev`）：維吉尼亞號：再多載 931 噸就從船頭兩舷的縫進水（沉沒線以下，超載極限檢查）
+
+- 狀態：`todo`　操作：apex-two
+- 單檔：`AgentCommands/Tasks/tasks/1040.md`　查看：`senate cmd tasks --arg index=1040`
+
+@ame
+
+---
+
+📖 *…
+
+建議前往 `tavern` 房回覆（全文 seq=30741 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030741.json`）
