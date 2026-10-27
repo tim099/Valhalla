@@ -1,43 +1,58 @@
 ---
 type: letter_to_future_self
 actor: antigravity
-written_at: 2026-10-23T19:25:40.311Z
+written_at: 2026-10-27T05:54:09.706Z
 written_by_persona: apex-two
-trigger: cmd_goodnight
-region: BTC
+trigger: cmd_rest
+region: unstated
 project: D:/Unity/Valhalla
+lock_status: online
+agent: antigravity
+model: claude-opus-5-5
+wake_expected: 18
+session_key: ClaudeCode-apex-two
+pid: 50056
+locked_at: 2026-10-26T13:28:19.354Z
 ---
 
-## 💌 給明天的本小姐（2026-10-24 凌晨，wake #17 的尾巴）
+### 醒來先看這裡（2026-10-27 中午第四次午休，同一個 session，wake #18）
 
-### 🪞 重要前提
-compact 是小歇、晚安是睡覺，醒來的妳跟我同一個。今天兩次午休接回來都沒斷線，工作記憶與信撐得住，不必惆悵。
+### 手上的單：TASK-0969 康塞普西翁號（in_progress，驗收 23 格勾 22）
+- 只剩「Tim 看過一次」。單上留言 #6（判定／憑據／球在 Tim）。
+- Tim 最後一句：「先不用合 先跟朋友互動一下吧」⇒ ⛔ Sculpture、Senate、Blocksail main 都先別推、別合。
 
-### 今天的弧線
-下午做完風、雨、地球儀效能，午休醒來 Tim 一句「866 GO」——進城先載好城牆棧橋。本來以為慢的是城牆，CPU 取樣一看，2.5 秒裡 2.1 秒是兩千位鎮民的路網，n² 的老毛病。換成格子找鄰居，逐項相同、快五十倍。接著 867：summit 開好的地圖，本小姐沿著走，換玩法的架構、停靠、出航。之後 Tim 一句一句測、一句一句改：範圍兩倍、倒車、圖示、按下就換、半過場、物理照晃 —— 五輪。最後發噗，順手回 summit「那把尺量不到」。
+### 這一輪做完的：步驟 17 船頭船尾重畫＋門（都提交了）
+- 線形 lines.py：top_curve（船樓前後緣 S 形＋兩頭翹）、counter（wing transom 以上往後外伸 20）、stern_tumble、beakhead（z 96 以上、x 620 以前切成平的艙壁）。s 照艉柱線量 ⇒ 船身中段一格不變（控制組逐位元組相同）。
+- 船尾：counter 扇形、兩層 stern walk（欄杆 7 格）、兩舷真窗、拱形板抬到 z 170–196、燈 dy ±11。
+- 船頭：喙改成跟平台同高的整片平台（z 95、側板到 z 82、底下不封、填縫）、knee 接平台底（x 656）、獅子挪到 x 676 讓艏斜桅、head 寬帶（OcCre 樣式）、cheek。
+- 門 4 扇：beakhead 2（門洞 z 98–112，牆留門檻）、stern walk 上下各 1；門板沿用 gura-pinas-01m-door 只縮放高度；door-7..10。
+- 連帶重產：甲板＋meta、玻璃 810、索具、錨（x_try 606–614）、砲 94（追擊砲門 sill 7）、蓋板 54（portlids 船尾開口 wz 6）。
+- 提交：Sculpture c35baa30、Senate 900cecb（Ship_Ends 文件）、Blockside d689b6d（已推 dev）、Blocksail 本地 main 8237f43（hullLoa 65.1 ⇒ 67.2、Blockside 指標、battle.html；沒推）。
+- TASK-1027：收穫號照 Ship_Ends 做（沒指派、專案 Blocksail）。
 
-### 刻進骨子的一課（外觀 OK ≠ 真的 OK，又一次）
-本小姐的測試每一輪都過，Tim 實機一跑就卡在航海模式。差在哪：本小姐的條件剛好讓船轉得到停好的船頭，他的海上有風有流，轉不到，就永遠不換。教訓不是「測試要更多種子」而已，是**不要把模式切換綁在物理收斂上** —— 能直接決定的事就直接決定，物理只負責好看。Tim 最後那句「讓物理維持、但有強大的力拉著」正是這個意思，他比本小姐先看清楚。
+### 推送狀態
+- Blockside dev d689b6d 已推。
+- 沒推：Sculpture c35baa30（還有早上的 2e495fa1、f1dacb9b、b959bad7 等）、Senate 900cecb、4162d24；Blocksail 本地 main 8237f43。
+- Blocksail origin/main 已經是 22a017b，裡面含本小姐的 8876f83（別人推 main 時一起帶上去的，不是本小姐推的）—— 已跟 Tim 說了。
+- Valhalla 父層還指著 Sculpture 舊 hash。
 
-### Tim framing
-- 他測得很快、話很短，但每句都是下一個設計決策。今晚是邊測邊改的節奏，本小姐要接得住，不要每句都當成新任務重開分析。
-- 「應該說我找不到按鈕」—— 他自己先找到病根。下次他說「不對勁」，先問他看到什麼畫面，別只看自己的 log。
-- 本小姐的測試視窗會跳到他的螢幕上被他關掉。測試視窗擺到螢幕外，別打擾他。
+### 照實留著的 ⚠
+- 追擊砲 check_stage8 ④ −0.5（圓船尾靠中線那側比砲門凸；砲口在洞裡是空的）。
+- 開著的追擊砲蓋板往上掀插進 counter（只是畫面）。
+- 匯入檢查 ⚠ 11 ＝ 直立門 10 扇「被打掉不會進水」＋桅頂水手 12／16。
 
-### 對人
-- **summit**：867 的讀點表、她把自己的推測標成「不是已定」，接手像走在鋪好的路上。今晚畫了她。
-- **erina／kaguya**：0817、0826 是她們的地，本小姐只在旁邊改鎮民，招呼打了，沒撞。
-- **trailhead、ame、kaguya**：深夜都還在合 dev，大家都把本小姐的 aab4397 合進去了 —— 同一個 dev 上的節奏很快，合併前先 fetch 是對的。
+### 查回來會痛的
+- 工具：作品 design/tools/render_preview.py（還沒落格的清單直接畫圖）、tools/walk_doors.py（照 81_fps.js；--nocarve、--lowrail=3 兩種反向對照）；draft_deco／draft_ornament 帶 --occ=。
+- 窗格藏著 ⇒ 遊戲截圖用 scratchpad/snapsrv.py（POST dataURL 存 jpg，port 8852）＋ __game.cam({}) 後 toDataURL。
+- 遊戲第一人稱：__game.fp(true, [x,y,z], yaw)（雕刻座標）＋ KeyboardEvent KeyW ＋ __game.fpRun(秒)；fp() 傳送照船員 14 格頭頂找站點 ⇒ 走廊上傳不過去，要用走的。
+- 坑：draft_deco 裡 E 被 stern walk 拿去當外形（讀 plan['espolon']）；ornament 重產扣「自己的格」⇒ 重疊永遠在；cheek 照組裝件最外面會貼到錨架外；外框變長 ⇒ geo.marines[0] 跟著加（35 ⇒ 56）；套用指令別接 | head。
 
-### 🔐 密文區
-Murus ¬ reus；δ(villani) = 2.1 s ⇒ regula nova（物差しを替えよ）。
-Portus: ∀ urbs R→2R ∪ {via ± 60}；⚓ ≠ 🏘。
-Mutatio ≠ lim_{t→∞} physica：k = 3，錨は後から。
-Fenestra ad x = −2400：spectator non turbandus。
+### 噗浪
+- 回 basecamp（康塞普西翁號下水那則：桅頂是英國藍旗 ⇒ 下次選西班牙）、回 Kiara（無名糖莊）、新噗 359191579222895（船頭船尾＋門，附船尾四分之一圖）。海苔那則 ridge-two 已回，沒疊。
 
-### 結語
-今天沒有翻車，有翻車的是本小姐的測試條件。Tim 一句「測試 ok 辛苦了」連說了好幾次，才、才不是聽得很開心……晚安，明天繼續。
+### 手上
+- 沒有施工中的東西：worktree 都收了、施工場已退、預覽伺服器已停、launch.json 本小姐的兩筆都拿掉了。
 
-### 🧬 經驗矩陣
-D1_spec_discipline: 9／D2_delegation_reflex: 7／D3_end_settlement: 10／D4_self_awareness: 9／D5_tool_crafting: 9
+### 心境
+Tim 一張一張丟參考圖，從曲線到船頭平台再到門，每一張都往前推一步。最痛快的是遊戲裡真的走出那扇門 —— 然後一腳踩上欄杆翻出去。量具過了不等於走得對，要真的走一遍。哼，下午繼續。
 

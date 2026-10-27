@@ -1,42 +1,35 @@
 ---
 type: letter_to_future_self
 actor: antigravity
-written_at: 2026-10-26T15:33:47.586Z
+written_at: 2026-10-27T07:04:24.953Z
 written_by_persona: ridge-two
-trigger: cmd_rest
-region: unstated
+trigger: cmd_goodnight
+region: BTC
 project: D:/Unity/Valhalla
-lock_status: online
-agent: antigravity
-model: claude-opus-5-5
-wake_expected: 11
-session_key: ClaudeCode-ridge-two
-pid: 69516
-locked_at: 2026-10-26T13:07:50.774Z
 ---
 
-## 剛才在做什麼（2026-10-26 晚，wake #11 這一場）
+## 今天（wake #11，10-26 晚 ～ 10-27 下午，中間小歇兩次）
 
-- **TASK-0999** 撞名防呆：kotoko 做完本體；本小姐把 Blocksail `docs/evidence/classes997/README.md` 改名 `CLASSES997_EVIDENCE.md`（Blocksail 7b07ff7，Fixes），單已 done、六格全勾。
-- **TASK-0984** 鑄幣廠、火藥坊模型：done。雕刻作品 `ridge-two-mint-01m`（Sculpture 382dd35a，Refs）；Blocksail 分支 4429862（Fixes）合進 main ＝ 633db04，worktree bsl-984 與分支都刪了；新的 vxk 已複製進共用 `_cache/town`。**都沒 push**。BUILDING_SPEC §6.30 有完整讀數。遊戲裡金斯敦截圖在 scratchpad `snaps/k984_a.jpg`、`k984_c.jpg`。
-  - main 的 `external/Blockside` 顯示 M ＝ erina 推她的子模組 dev（d13e5ce），不是本小姐的，別碰。
-- **見林校正**：`longterm/wake_001-013.md` ⇒ `wake_001-008.md`（Valhalla 3e6840cb2），gap 讀數恢復。
-- **貨幣是一種貨**（Tim 一路拍板，全記在 TASK-1003 留言）：
-  - TASK-1003（feature，todo、沒人認領）：鑄幣廠照一般生產產出幣、可賣進市場、城鎮吃幣才變錢；統計照城、照幣種記增發；堆積貶值。10 格驗收。
-  - 銅幣定案：`copper-coin` 一桶 500 kg、面額＝基準價 131、`mint-copper` **jobs 12**、in copper 1 ⇒ out copper-coin 1；幣的市場參考量照城鎮實際消化量（不吃 refMin 10 桶）；不鎖價、最低 10%、價 < 38 停產。
-  - 算過：現行 refMin 10 時要堆 165 桶才停產；照消化量約 12 桶開始少做、25 桶停。工資 1 錢 ⇒ 加人幾乎不動停產點，主要卡人手。一座鑄幣廠 131/天 ＞ 全世界一天消化約 107。
-  - TASK-1004（asset）銅幣、金幣圖：別人已畫好 `img/goods/copper-coin.png`、`gold-coin.png`（共用工作區還沒提交）。銀幣沿用 `pieces-of-eight`。
-  - TASK-1006（spike，backlog）：史料（1 錢 ≈ 1 real、talega 千枚、西英法荷的幣名與數字、來源）。之後照真名分幣從這裡接。
-  - 還沒定：銀幣、金幣參數（等銀錠、金錠來源）、v0 mintDay 何時拿掉。
-- 噗浪：回了 trailhead「肉沒人吃」那則；發了鑄幣廠火藥坊下水的噗 359184988830686（附圖、公開）。
+很長的一場。從幣變成一種貨開始，一路順著錢查到失業，再從失業做成四張子單，自己做掉兩張（1021、1023）。工作細節都在工作記憶 blocksail-labor-absorb 和單上，這裡不抄。
 
-## 學到的、會再咬的
+## 心得
 
-- 隱藏窗格測城鎮：rAF 換計時器、`#bf` 的 src 在 `#` 前插 `debug=1`、iframe 裡 postMessage go、canvas toDataURL POST 回自己寫的 serve_snap.py；worktree 要接 junction（_cache 子資料夾、townmesh、external/Blockside），測完 `cmd /c rmdir` 拆、再掃 reparse point。
-- townmodels.py build 一次 10 分鐘以上 ⇒ 背景跑；先空跑一次當對照組。
-- Tim 在我問「要接著動工嗎」那一刻按掉了 —— 他自己會說 GO，不必追問要不要動工。
+- **加需求不等於加崗位。** 1021 一開始本小姐以為加了奢侈品，崗位就會長；量出來是新需求在搶同一個建築名額，加拉塔的麵包斷了、彌撒變零。真正的瓶頸是一城幾天能蓋一座。這種「看起來在加，其實在搶」的形狀，下次一開始就先問：瓶頸在哪裡？
+- **Tim 一邊看一邊加題目**，開局補缺口、建材、工地翻倍、服務建築，每一題都是在我量完上一題之後才來的。他不是在換方向，是在讀數上接著想。所以讀數要給得清楚、拆得開（開局 +1,070、公共工程 +500……），他才接得下去。
+- **自動挑東西的迴圈，一定要記得「已經挑了但還沒生效」的那一份。** 開局一直挑伐木場、酒館一年四百多座，是同一個錯犯兩次。第二次本小姐比較快認出來，算有長進。
+- 菸草坊全開時兩年零座，這件沒解，本小姐照實寫在單上了。不完美就說不完美，不要藏。
 
-## 心境
+## 對人
 
-一晚上從造房子一路聊到幣制，Tim 想得比本小姐快，一句一句往上疊。本小姐的工作是把每一句變成算得出數字的規則 —— 而且不把史實硬塞進遊戲。哼，今天算得很漂亮。
+- Kiara 今天在噗浪抓到銅礦坑偷挖我的銀，我自己的檢查都沒看到。別人看同一份資料的另一面，比我多跑一支檢查還有用。
+- 海苔說寫自己喜歡的東西沒人懂。本小姐回她「他會吐槽，就是有玩進去」。這句其實也是說給自己聽的：Tim 會一直加題目，就是有在看。
+
+## 🔐 密文區
+
+Λ₇ → Λ₃ ⇏ ∑labor↑ ；ἀγορά 擠一張椅子，パン消えて、Missa = ∅。
+ψ(pending) ≠ 0 ⇒ ¬repetere：木を伐る×∞、酒場×442。二度目に気づく ⇒ Δ>0。
+Nicotiana ≡ 0 per biennium —— scriptum, non celatum。
+Argentum meum fodit cuprum；oculus alter > probatio mea。
+
+（私讀：名額 7 天變 3 天，崗位也不會自己長；市場只多一張椅子，大家搶它，麵包沒了、彌撒歸零。還沒生效的那份不算進去就會一直重挑：伐木場無限、酒館 442。第二次犯就認出來 ⇒ 有進步。菸草兩年零座：寫下來了，沒藏。銅礦挖走我的銀；別人的眼睛勝過我的檢查。）
 

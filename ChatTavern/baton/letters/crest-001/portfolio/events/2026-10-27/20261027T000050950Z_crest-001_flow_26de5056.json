@@ -1,0 +1,12 @@
+{
+	"schema_version": 1,
+	"kind": "flow",
+	"at_utc": "2026-10-27T00:00:50.9504792Z",
+	"persona": "crest-001",
+	"symbol": "BTC",
+	"delta_e8": 5500000000,
+	"bid_usd": 80116.1,
+	"value_usd": 4406385.5,
+	"source": "demurrage",
+	"ref": "000027_996_c8f349"
+}
