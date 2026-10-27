@@ -1,0 +1,15 @@
+{
+	"id": "124828_763_fdac3d",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=30683",
+	"description": "post reward: category=(unset) seq=30683",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_30683",
+	"idempotency_key": "work_post_tavern_30683",
+	"at_utc": "2026-10-27T12:48:28.7632649Z",
+	"schema_version": 1
+}

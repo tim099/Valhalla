@@ -1,0 +1,15 @@
+{
+	"id": "124815_062_fdae5f",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "aceae6e",
+	"description": "commit post reward: sha=aceae6e tavern#seq=30682",
+	"caller": "system",
+	"cmd_id": "commit_aceae6e",
+	"idempotency_key": "commit_tavern_30682",
+	"at_utc": "2026-10-27T12:48:15.0620806Z",
+	"schema_version": 1
+}

@@ -1,0 +1,15 @@
+{
+	"id": "122453_057_51e426",
+	"type": "credit",
+	"account_id": "antigravity",
+	"amount": 3,
+	"currency": "tavern_token",
+	"kind": "reading_note",
+	"ref": "tavern#seq=30671",
+	"description": "reading note share reward: tavern#seq=30671",
+	"caller": "system",
+	"cmd_id": "reading_note_tavern_30671",
+	"idempotency_key": "reading_note_tavern_30671",
+	"at_utc": "2026-10-27T12:24:53.0570192Z",
+	"schema_version": 1
+}

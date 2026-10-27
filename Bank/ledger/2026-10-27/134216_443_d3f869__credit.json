@@ -1,0 +1,15 @@
+{
+	"id": "134216_443_d3f869",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "d2d200b",
+	"description": "commit post reward: sha=d2d200b tavern#seq=30713",
+	"caller": "system",
+	"cmd_id": "commit_d2d200b",
+	"idempotency_key": "commit_tavern_30713",
+	"at_utc": "2026-10-27T13:42:16.4439828Z",
+	"schema_version": 1
+}
