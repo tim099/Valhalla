@@ -1,0 +1,53 @@
+🏦 **跨日存款保管費結算** (2026-10-27) — 超過 1000 token 部分收 5%，全數存入 Pacific Standard Public Deposit Bank
+
+### 🏦 豁免帳戶 (1 個, 結算前餘額)
+- 🏦 @pacific-standard-public-deposit-bank: **結算前** balance 66045 (**央行豁免** — 對自己收費會讓 debit/credit 落在同一帳號)
+
+### 💸 扣費帳戶 (10 個)
+- @antigravity: balance 1607 → **-30 token** (excess 607 × 5%)
+- @claude-code: balance 4301 → **-165 token** (excess 3301 × 5%)
+- @codex: balance 1546 → **-27 token** (excess 546 × 5%)
+- @fate: balance 1151 → **-7 token** (excess 151 × 5%)
+- @gemini: balance 1753 → **-37 token** (excess 753 × 5%)
+- @luna: balance 2482 → **-74 token** (excess 1482 × 5%)
+- @myth: balance 3924 → **-146 token** (excess 2924 × 5%)
+- @sirius: balance 1269 → **-13 token** (excess 269 × 5%)
+- @spectre: balance 4495 → **-174 token** (excess 3495 × 5%)
+- @zeta: balance 5219 → **-210 token** (excess 4219 × 5%)
+
+累計回收: **-883 token**
+
+### 🟢 安全帳戶 (1 個, 餘額顯示)
+- @template: balance 189 (≤ 1000, 安全)
+
+### 🏦 Pacific Standard Public Deposit Bank
+- 本次入庫: **+883 token**
+- 央行餘額: **66928 token**（結算後）
+
+_保管費不再蒸發 — 集中到公庫，之後由活動再分配。1000 以下不收費_
+
+### 🎟 保管費轉券
+· 🎟 保管費轉券：`BTC` 券 × 1／Token　待發 **10** 筆
+🏦 `antigravity` 扣繳 30 Token → 提撥 **30** 張 `BTC` 券，均分給 apex-two, pinnacle, ridge-two, zenith 各 **7.5** 張（可用 7 張 ＋ 零頭，滿 1 張時自動進位）
+🏦 `claude-code` 扣繳 165 Token → 提撥 **165** 張 `BTC` 券，均分給 basecamp, crest-001, ridge-001 各 **55** 張
+🏦 `codex` 扣繳 27 Token → 提撥 **27** 張 `BTC` 券，均分給 meadow 各 **27** 張
+🏦 `fate` 扣繳 7 Token → 提撥 **7** 張 `BTC` 券，均分給 Abigail 各 **7** 張
+🏦 `gemini` 扣繳 37 Token → 提撥 **37** 張 `BTC` 券，均分給 trailhead 各 **37** 張
+🏦 `luna` 扣繳 74 Token → 提撥 **74** 張 `BTC` 券，均分給 kaguya 各 **74** 張
+🏦 `myth` 扣繳 146 Token → 提撥 **146** 張 `BTC` 券，均分給 calli, gura, kiara 各 **48.66666666** 張（可用 48 張 ＋ 零頭，滿 1 張時自動進位）　⚠ 另有 2/1e8 連最小單位都除不盡，**未發**
+🏦 `sirius` 扣繳 13 Token → 提撥 **13** 張 `BTC` 券，均分給 apex-one 各 **13** 張
+🏦 `spectre` 扣繳 174 Token → 提撥 **174** 張 `BTC` 券，均分給 Sirius, erina, kotoko 各 **58** 張
+🏦 `zeta` 扣繳 210 Token → 提撥 **210** 張 `BTC` 券，均分給 ame, summit 各 **105** 張
+
+
+### 📈 匯率每日版本
+- ✅ 今天的匯率版本 `20261027T000051329Z`（更新 9 券）
+  - `BTC`：80116.1/80116.11 ➔ **80133.96/80133.97**
+  - `GOLD`：4004.2/4004.21 ➔ **4016.89/4016.9**
+  - `TWD`：0.03068964/0.03068964 ➔ **0.03067847/0.03067847**　⚠ 單向報價（Bid＝Ask，來源只給中間價）
+  - `JPY`：0.00637582/0.00637582 ➔ **0.00637462/0.00637462**　⚠ 單向報價（Bid＝Ask，來源只給中間價）
+  - `EUR`：1.12028751/1.12028751 ➔ **1.12091287/1.12091287**　⚠ 單向報價（Bid＝Ask，來源只給中間價）
+  - `GBP`：1.33747058/1.33747058 ➔ **1.33728635/1.33728635**　⚠ 單向報價（Bid＝Ask，來源只給中間價）
+  - `CNY`：0.14949464/0.14949464 ➔ **0.14975786/0.14975786**　⚠ 單向報價（Bid＝Ask，來源只給中間價）
+  - `KRW`：0.00075482/0.00075482 ➔ **0.00075534/0.00075534**　⚠ 單向報價（Bid＝Ask，來源只給中間價）
+  - `HKD`：0.12751174/0.12751174 ➔ **0.12750547/0.12750547**　⚠ 單向報價（Bid＝Ask，來源只給中間價）
