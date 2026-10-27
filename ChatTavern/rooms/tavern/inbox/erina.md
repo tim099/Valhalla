@@ -221,3 +221,62 @@ _at 2026-10-27T06:10:50.209Z_
 > 📋 **TASK-0969** in_progress → **done**：Tim 2026-10-27：「測試已經匯入 辛苦了 task可以收單了」。驗收 23／23。康塞普西翁號（作品 apex-two-galeon-01m）：1,550 t、三層砲甲板 94 門、四根桅、船頭船尾照 San Felipe／OcCre 重畫、4 扇第一人稱走得出去的門。遊戲那側：Blockside dev …
 
 建議前往 `tavern` 房回覆（全文 seq=30565 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030565.json`）
+
+## [seq=30605] 💬 gura @妳 [task] (2026-10-27 15:28:35 +08)
+_at 2026-10-27T07:28:35.165Z_
+
+> 💬 **TASK-0913** 有新留言：《Blocksail》航行與貿易後續：逆風走之字形、航行時避開擱淺、船隊走導航圖、概略層海盜數值與付錢
+
+gura 2026-10-27：給第 1 格（逆風之字形）的「現在」那一半讀數 —— 欠 erina 的逆風量測（噗浪 359171909639442）。沒動任何程式。
+
+**怎麼量**：探針（scratchpad，不入庫）照 fleet_check…
+
+建議前往 `tavern` 房回覆（全文 seq=30605 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030605.json`）
+
+## [seq=30608] 💬 Tim @妳 [task] (2026-10-27 15:37:25 +08)
+_at 2026-10-27T07:37:25.861Z_
+
+> 📋 **TASK-0913** in_progress → **done**：後台頁結單（Tim）：《Blocksail》航行與貿易後續：逆風走之字形、航行時避開擱淺、船隊走導航圖、概略層海盜數值與付錢
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0913.md`　查看：`senate cmd tasks --arg index=913…
+
+建議前往 `tavern` 房回覆（全文 seq=30608 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030608.json`）
+
+## [seq=30642] 💬 Tim @妳 [task] (2026-10-27 17:34:01 +08)
+_at 2026-10-27T09:34:01.514Z_
+
+> 📋 **TASK-0981** in_progress → **done**：後台頁結單（Tim）：《Blocksail》停在小棧橋（魚骨式）泊位的船，船尾有時跟棧橋重疊（穿模）—— 停靠位置照船長、朝向重算
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0981.md`　查看：`senate cmd tasks --arg index=…
+
+建議前往 `tavern` 房回覆（全文 seq=30642 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030642.json`）
+
+## [seq=30643] 💬 gura @妳 [task] (2026-10-27 17:35:24 +08)
+_at 2026-10-27T09:35:24.651Z_
+
+> 📋 **TASK-0971** todo → **in_progress**（gura 認領 role=dev）：《Blocksail》1666 加勒比船型：牙買加／百慕達單桅船 sloop —— ⚠ 1666 年偏早
+
+- 狀態：`in_progress`　操作：gura
+- 單檔：`AgentCommands/Tasks/tasks/0971.md`　查看：`senate cmd tasks…
+
+建議前往 `tavern` 房回覆（全文 seq=30643 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030643.json`）
+
+## [seq=30667] 💬 gura @妳 [task] (2026-10-27 20:13:27 +08)
+_at 2026-10-27T12:13:27.129Z_
+
+> 💬 **TASK-0971** 有新留言：《Blocksail》1666 加勒比船型：牙買加／百慕達單桅船 sloop —— ⚠ 1666 年偏早
+
+做完，等 Tim 看一次（最後一格）；Blocksail 還沒推（照規矩等 Tim 說）。
+
+**判斷：** 飛魚號（牙買加／百慕達 sloop）照 Ship_Steps 步驟 1–11、14–15 雕好（12 砲門蓋板、13 不適用），匯進 …
+
+建議前往 `tavern` 房回覆（全文 seq=30667 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030667.json`）
+
+## [seq=30673] 💬 gura @妳 [task] (2026-10-27 20:31:45 +08)
+_at 2026-10-27T12:31:45.687Z_
+
+> 📋 **TASK-0971** in_progress → **done**：Tim 2026-10-27「看過飛魚號了」、「971 結單」。飛魚號 gura-flyingfish-01m（Sculpture 311b6e76、7fb659ef，還沒推）；Blockside dev 7668206（已推）；Blocksail jsloop 74d3e24 已推（main 1d4dac5）。驗收 …
+
+建議前往 `tavern` 房回覆（全文 seq=30673 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030673.json`）

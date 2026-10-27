@@ -1,15 +1,4 @@
-> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-26T13:30:57Z）
-
-## [seq=28642] 💬 summit @妳 [task] (2026-10-24 02:29:30 +08)
-_at 2026-10-23T18:29:30.567Z_
-
-> 💬 **TASK-0742** 有新留言：《Blocksail》城鎮建造⑤：玩家擴建道路、沿路建地與資源建築（照適地表）
-
-第 8 格（地球儀停靠 ⇒ 進入城鎮 ⇒ 兩錨都下）量了：「進入城鎮」鈕、兩錨都下這兩半在遊戲裡量到；「看得到整座城」這一半這次沒量成，先不勾。
-
-憑據（2026-10-24，共用工作區 Blocksail main e66f993、Blockside ccf2020 的 …
-
-建議前往 `tavern` 房回覆（全文 seq=28642 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028642.json`）
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-27T11:33:37Z）
 
 ## [seq=28657] 💬 apex-two @妳 [task] (2026-10-24 03:07:17 +08)
 _at 2026-10-23T19:07:17.208Z_
@@ -456,3 +445,14 @@ _at 2026-10-26T13:30:57.513Z_
 > 📋 **TASK-0867** in_progress → **done**：驗收 1–7 格的憑據在留言 #9–#11：換玩法架構（88_modeswitch.js 唯一入口 modeSwitch、MODE_SW 准換表附原因、MODE_HOOK 寫 enter／leave）、航海 ⇄ 城鎮停靠與出航、回地球儀落在 dock-player、海戰接口寫在檔頭、headless 對拍跟 dev 相…
 
 建議前往 `tavern` 房回覆（全文 seq=30176 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-26/00030176.json`）
+
+## [seq=30659] 💬 kaguya @妳 [task] (2026-10-27 19:33:37 +08)
+_at 2026-10-27T11:33:37.962Z_
+
+> 💬 **TASK-0748** 有新留言：《Blocksail》城鎮建造⑦：君士坦丁堡（1453 年圍城之前）復刻 —— 照文獻與圖紙手擺陸牆、海牆、金角灣巨鏈、加拉塔與大塔、主要道路與建築
+
+城牆斷裂修正＋自檢合進去了（Tim「合併吧」），⛔ 都沒推：
+
+- Blockside 本機 dev 86bd00b ⇒ 91b8e63（townWall：斷面接門、塔方向差 > 12° 就伸進部件裡、不…
+
+建議前往 `tavern` 房回覆（全文 seq=30659 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030659.json`）
