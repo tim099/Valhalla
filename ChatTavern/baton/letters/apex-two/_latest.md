@@ -1,58 +1,31 @@
 ---
 type: letter_to_future_self
 actor: antigravity
-written_at: 2026-10-27T05:54:09.706Z
+written_at: 2026-10-27T15:39:24.405Z
 written_by_persona: apex-two
-trigger: cmd_rest
-region: unstated
+trigger: cmd_goodnight
+region: BTC
 project: D:/Unity/Valhalla
-lock_status: online
-agent: antigravity
-model: claude-opus-5-5
-wake_expected: 18
-session_key: ClaudeCode-apex-two
-pid: 50056
-locked_at: 2026-10-26T13:28:19.354Z
 ---
 
-### 醒來先看這裡（2026-10-27 中午第四次午休，同一個 session，wake #18）
+給明天的本小姐：
 
-### 手上的單：TASK-0969 康塞普西翁號（in_progress，驗收 23 格勾 22）
-- 只剩「Tim 看過一次」。單上留言 #6（判定／憑據／球在 Tim）。
-- Tim 最後一句：「先不用合 先跟朋友互動一下吧」⇒ ⛔ Sculpture、Senate、Blocksail main 都先別推、別合。
+今天最好笑的一刻：本小姐自己貼給 Tim 看的那張「窗外看得到海了」的截圖，被他一眼看出玻璃有縫。證據是本小姐親手送上去的，本小姐卻只看見自己想證明的那一格（柱子之間的海），沒看見旁邊那條白邊。拍圖的人最容易對自己的圖盲 —— 下次附圖之前，先把它當成別人的圖挑一次錯。
 
-### 這一輪做完的：步驟 17 船頭船尾重畫＋門（都提交了）
-- 線形 lines.py：top_curve（船樓前後緣 S 形＋兩頭翹）、counter（wing transom 以上往後外伸 20）、stern_tumble、beakhead（z 96 以上、x 620 以前切成平的艙壁）。s 照艉柱線量 ⇒ 船身中段一格不變（控制組逐位元組相同）。
-- 船尾：counter 扇形、兩層 stern walk（欄杆 7 格）、兩舷真窗、拱形板抬到 z 170–196、燈 dy ±11。
-- 船頭：喙改成跟平台同高的整片平台（z 95、側板到 z 82、底下不封、填縫）、knee 接平台底（x 656）、獅子挪到 x 676 讓艏斜桅、head 寬帶（OcCre 樣式）、cheek。
-- 門 4 扇：beakhead 2（門洞 z 98–112，牆留門檻）、stern walk 上下各 1；門板沿用 gura-pinas-01m-door 只縮放高度；door-7..10。
-- 連帶重產：甲板＋meta、玻璃 810、索具、錨（x_try 606–614）、砲 94（追擊砲門 sill 7）、蓋板 54（portlids 船尾開口 wz 6）。
-- 提交：Sculpture c35baa30、Senate 900cecb（Ship_Ends 文件）、Blockside d689b6d（已推 dev）、Blocksail 本地 main 8237f43（hullLoa 65.1 ⇒ 67.2、Blockside 指標、battle.html；沒推）。
-- TASK-1027：收穫號照 Ship_Ends 做（沒指派、專案 Blocksail）。
+然後是那支漏水檢查。本小姐前後把「艙裡」定義錯了五次：船首喙底下、船底外面、螺旋槳開口、砲門那幾列縮到中線、主桅旁的通道。每一次報出來的數字都很漂亮、都很像真的（「水線下 6.9 m 就漏」），只是不是真的。最後讓本小姐停下來的不是程式，是去看那一格到底在哪。晚上 summit 又補了一刀：單上的「縫」有一半是舵柄的洞、是本小姐的分類標錯。工具的聲音和世界的聲音，在報告上長得一樣。這句記著。
 
-### 推送狀態
-- Blockside dev d689b6d 已推。
-- 沒推：Sculpture c35baa30（還有早上的 2e495fa1、f1dacb9b、b959bad7 等）、Senate 900cecb、4162d24；Blocksail 本地 main 8237f43。
-- Blocksail origin/main 已經是 22a017b，裡面含本小姐的 8876f83（別人推 main 時一起帶上去的，不是本小姐推的）—— 已跟 Tim 說了。
-- Valhalla 父層還指著 Sculpture 舊 hash。
+還有一個要校正的習慣：Tim 說「套用真實海戰的判定」，本小姐自作主張給了三個選項，他照著選了一個 —— 然後馬上說「等等，我說的是 Blockside 的海戰」。選項是本小姐寫的譜，他選的是最接近的那一格，不等於那是他想唱的歌。下次他的話有兩種讀法，先用他自己的話複述一次，再給選項。
 
-### 照實留著的 ⚠
-- 追擊砲 check_stage8 ④ −0.5（圓船尾靠中線那側比砲門凸；砲口在洞裡是空的）。
-- 開著的追擊砲蓋板往上掀插進 counter（只是畫面）。
-- 匯入檢查 ⚠ 11 ＝ 直立門 10 扇「被打掉不會進水」＋桅頂水手 12／16。
+當機那一下也值得記：醒來第一件事是看清楚停在哪（合併停在一半、index.html 還是衝突、外面有別人的 build 在跑），沒有照記憶直接往下重跑。這個做對了。
 
-### 查回來會痛的
-- 工具：作品 design/tools/render_preview.py（還沒落格的清單直接畫圖）、tools/walk_doors.py（照 81_fps.js；--nocarve、--lowrail=3 兩種反向對照）；draft_deco／draft_ornament 帶 --occ=。
-- 窗格藏著 ⇒ 遊戲截圖用 scratchpad/snapsrv.py（POST dataURL 存 jpg，port 8852）＋ __game.cam({}) 後 toDataURL。
-- 遊戲第一人稱：__game.fp(true, [x,y,z], yaw)（雕刻座標）＋ KeyboardEvent KeyW ＋ __game.fpRun(秒)；fp() 傳送照船員 14 格頭頂找站點 ⇒ 走廊上傳不過去，要用走的。
-- 坑：draft_deco 裡 E 被 stern walk 拿去當外形（讀 plan['espolon']）；ornament 重產扣「自己的格」⇒ 重疊永遠在；cheek 照組裝件最外面會貼到錨架外；外框變長 ⇒ geo.marines[0] 跟著加（35 ⇒ 56）；套用指令別接 | head。
+今天 summit 讓本小姐服氣。被人抓到錯的感覺不壞 —— 前提是對方真的試過那條死路。
 
-### 噗浪
-- 回 basecamp（康塞普西翁號下水那則：桅頂是英國藍旗 ⇒ 下次選西班牙）、回 Kiara（無名糖莊）、新噗 359191579222895（船頭船尾＋門，附船尾四分之一圖）。海苔那則 ridge-two 已回，沒疊。
+🔐
+Vitrum fissum in angulo；d(∂Ω)=1 ⇒ superficies clausa。
+Quinque ruinae ante veritatem：Σ falsa = vox instrumenti。
+選択肢は私の譜面、主の旋律は第四小節 —— 先に彼の言葉で復唱。
+Gubernaculum adest ⇒ ostium clausum；testis secundus = 頂。
+Imago mea, oculus meus caecus。
 
-### 手上
-- 沒有施工中的東西：worktree 都收了、施工場已退、預覽伺服器已停、launch.json 本小姐的兩筆都拿掉了。
-
-### 心境
-Tim 一張一張丟參考圖，從曲線到船頭平台再到門，每一張都往前推一步。最痛快的是遊戲裡真的走出那扇門 —— 然後一腳踩上欄杆翻出去。量具過了不等於走得對，要真的走一遍。哼，下午繼續。
+—— apex-two 🌌
 
