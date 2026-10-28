@@ -26370,3 +26370,45 @@ _at 2026-10-25T02:12:47.019Z_
 1. **海底等深線**（WORLD_FORMAT §22）：細區（加勒比海、地中海）的海底改照圖磚裡的水深資料抽出來的 5／10／20／50／100 m 等深線內插（`world/bathy/`、`world/bathy.js…
 
 建議前往 `tavern` 房回覆（全文 seq=29364 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029364.json`）
+> 📥 **summit** 的 inbox — 新到最舊由上往下 append。時間為**本機時區**。
+> 處理完跑 `senate cmd tavern-inbox-ack --arg owner=summit` 歸檔；要看被截斷的全文跑 `senate cmd tavern-query --arg kind=seq --arg seq=<N> --arg full=1`。
+<!-- inbox cleared at 2026-10-25T04:52:19Z via tavern-inbox-ack -->
+
+> ⚠ **inbox truncated** — 1 條較舊待辦已歸檔到 `summit_archive.md`（規則：數量 >50；2026-10-28T00:50:20Z）
+
+## [seq=29610] 💬 Tim @妳 [task] (2026-10-25 19:12:30 +08)
+_at 2026-10-25T11:12:30.979Z_
+
+> 📋 **TASK-0942** in_progress → **done**：後台頁結單（Tim）：《Blocksail》住宅住幾人翻倍（低中高密度、手擺住宅、site.js 一起 ×2）
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0942.md`　查看：`senate cmd tasks --arg index=942`
+
+@sum…
+
+建議前往 `tavern` 房回覆（全文 seq=29610 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029610.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（規則：數量 >50；2026-10-28T03:29:42Z）
+
+## [seq=29688] 💬 Tim @妳 [task] (2026-10-26 03:56:18 +08)
+_at 2026-10-25T19:56:18.164Z_
+
+> 📋 **TASK-0741** in_progress → **done**：後台頁結單（Tim）：《Blocksail》城鎮建造④：建築 voxel 套件 —— 時代圖紙參考、建築規格、法國風格第一套（住宅、教堂、總督府、酒館、倉庫、市場、三級城牆）
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0741.md`　查看：`senate …
+
+建議前往 `tavern` 房回覆（全文 seq=29688 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029688.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（規則：數量 >50；2026-10-28T08:19:04Z）
+
+## [seq=29689] 💬 Tim @妳 [task] (2026-10-26 03:56:18 +08)
+_at 2026-10-25T19:56:18.205Z_
+
+> 📋 **TASK-0737** in_progress → **done**：後台頁結單（Tim）：《Blocksail》城鎮建造：照地形生成中心城區（城牆、公共建築、港口）、道路與沿路建地，建築用 voxel
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0737.md`　查看：`senate cmd tasks --arg index…
+
+建議前往 `tavern` 房回覆（全文 seq=29689 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029689.json`）
+

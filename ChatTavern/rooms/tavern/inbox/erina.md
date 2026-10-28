@@ -294,3 +294,205 @@ _at 2026-10-27T15:16:18.734Z_
 --…
 
 建議前往 `tavern` 房回覆（全文 seq=30720 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030720.json`）
+
+## [seq=30777] 💬 Abigail @妳 [task] (2026-10-27 23:43:37 +08)
+_at 2026-10-27T15:43:37.821Z_
+
+> 📋 **TASK-0966** todo → **in_progress**（Abigail 認領 role=dev）：《Blocksail》1666 加勒比船型：福祿特 fluyt（荷）／英稱 flyboat —— 荷蘭散貨船
+
+- 狀態：`in_progress`　操作：Abigail
+- 單檔：`AgentCommands/Tasks/tasks/0966.md`　查看：`senate c…
+
+建議前往 `tavern` 房回覆（全文 seq=30777 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030777.json`）
+
+## [seq=30813] 💬 Tim @妳 [task] (2026-10-28 00:21:04 +08)
+_at 2026-10-27T16:21:04.676Z_
+
+> 📋 **TASK-0931** in_review → **done**：後台頁結單（Tim）：《Blocksail》精細層的船隊與海盜：加勒比海的商船隊、海盜船隊在地圖上真的航行、追擊、搶劫（照史料），量損失率對照概略層
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0931.md`　查看：`senate cmd tasks --arg…
+
+建議前往 `tavern` 房回覆（全文 seq=30813 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030813.json`）
+
+## [seq=30814] 💬 Tim @妳 [task] (2026-10-28 00:21:14 +08)
+_at 2026-10-27T16:21:14.074Z_
+
+> 📋 **TASK-0943** in_progress → **done**：後台頁結單（Tim）：《Blocksail》地球儀判水深照 Blockside：粗圖周圍取最淺＋誤差值 4 m、吃水不進位 —— 進航海不再被搬
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0943.md`　查看：`senate cmd tasks --arg…
+
+建議前往 `tavern` 房回覆（全文 seq=30814 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030814.json`）
+
+## [seq=30832] 💬 calli @妳 [task] (2026-10-28 00:50:06 +08)
+_at 2026-10-27T16:50:06.971Z_
+
+> 💬 **TASK-0804** 有新留言：進水換演算法研究：參考別的遊戲與物理模擬怎麼做水體、怎麼省（艙室圖、格子自動機、高度場、粒子、混合）
+
+**「降低進水&抽水 重新平衡」的前置讀數：第 4 檔快一倍，是細檔太慢，不是第 4 檔灌太多。**（dev 1e9bcb7，無頭 Chrome，30 Hz）
+
+① 松島號十個破口（半徑 9 格，水線下 0.5–0.6 m，兩舷）、**釘住姿態、平靜海…
+
+建議前往 `tavern` 房回覆（全文 seq=30832 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030832.json`）
+
+## [seq=30833] 💬 calli @妳 [task] (2026-10-28 00:50:30 +08)
+_at 2026-10-27T16:50:30.003Z_
+
+> 💬 **TASK-0804** 有新留言：進水換演算法研究：參考別的遊戲與物理模擬怎麼做水體、怎麼省（艙室圖、格子自動機、高度場、粒子、混合）
+
+更正上一則 ② 的〔推論〕：「第 0、2 間灌到滿（1,306＋959 m³，58 秒）」兩個數是 **88 秒**的；58 秒那一刻第 4 檔是第 2 間 1,251＋第 0 間 952 m³（細檔 734＋600，這兩個是 58 秒沒錯）。
+「灌到…
+
+建議前往 `tavern` 房回覆（全文 seq=30833 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030833.json`）
+
+## [seq=30855] 💬 Abigail @妳 [task] (2026-10-28 01:43:07 +08)
+_at 2026-10-27T17:43:07.136Z_
+
+> 💬 **TASK-0966** 有新留言：《Blocksail》1666 加勒比船型：福祿特 fluyt（荷）／英稱 flyboat —— 荷蘭散貨船
+
+**判定：** 澤漢號（Zeehaen 型福祿特，Witsen 1671 的 110 呎東航規則）雕好、匯進 Blockside（已推 dev a8028f8）、Blocksail 的「福祿特船」換成它（本地 main，沒推）。驗收 1–3 格…
+
+建議前往 `tavern` 房回覆（全文 seq=30855 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030855.json`）
+
+## [seq=30856] 💬 Abigail @妳 [task] (2026-10-28 01:43:41 +08)
+_at 2026-10-27T17:43:41.622Z_
+
+> 💬 **TASK-0964** 有新留言：《Blocksail》1666 年前後加勒比海的船型：3 種最常見的商船＋1 種海盜船（有圖紙、參考資料、同級艦）—— 先列 8 種候選
+
+第 5 格推進一條（TASK-0966）：福祿特船不再借收穫號頂替 —— Blocksail d0dd66e（本地 main，沒推）FLEET.types.fluyt hull cosecha ⇒ zeehaen（澤…
+
+建議前往 `tavern` 房回覆（全文 seq=30856 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030856.json`）
+
+## [seq=30863] 💬 Abigail @妳 [task] (2026-10-28 08:47:50 +08)
+_at 2026-10-28T00:47:50.987Z_
+
+> 📋 **TASK-0966** in_progress → **done**：驗收 17/17 勾完；Tim 2026-10-28「看過ok push吧」。Blockside a8028f8（dev）、Blocksail d0dd66e（已隨 bb96991 在 origin/main）、Sculpture bf8dfc3b 已推。shipcheck ✗0 ⚠3（後桅無桅樓、兩梯腳被火藥桶擋，未…
+
+建議前往 `tavern` 房回覆（全文 seq=30863 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-28/00030863.json`）
+
+## [seq=30868] 💬 gura @妳 [task] (2026-10-28 09:03:29 +08)
+_at 2026-10-28T01:03:29.181Z_
+
+> 📋 **TASK-0968** todo → **in_progress**（gura 認領 role=dev）：《Blocksail》1666 加勒比船型：英國雙桅小帆船 ketch —— 燕子號 Swallow 那型，沿岸與殖民地之間的商船、海軍補給
+
+- 狀態：`in_progress`　操作：gura
+- 單檔：`AgentCommands/Tasks/tasks/0968.md`　查看…
+
+建議前往 `tavern` 房回覆（全文 seq=30868 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-28/00030868.json`）
+
+## [seq=30869] 💬 pinnacle @妳 [task] (2026-10-28 09:03:41 +08)
+_at 2026-10-28T01:03:41.717Z_
+
+> 📋 **TASK-0970** todo → **in_progress**（pinnacle 認領 role=dev）：《Blocksail》1666 加勒比船型：西班牙小護航船 patache／fragata —— 船隊護衛、傳令、海岸巡防
+
+- 狀態：`in_progress`　操作：pinnacle
+- 單檔：`AgentCommands/Tasks/tasks/0970.md`　查看：…
+
+建議前往 `tavern` 房回覆（全文 seq=30869 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-28/00030869.json`）
+
+## [seq=30911] 💬 gura @妳 [task] (2026-10-28 11:53:27 +08)
+_at 2026-10-28T03:53:27.034Z_
+
+> 💬 **TASK-0968** 有新留言：《Blocksail》1666 加勒比船型：英國雙桅小帆船 ketch —— 燕子號 Swallow 那型，沿岸與殖民地之間的商船、海軍補給
+
+判定：步驟 1–11、14–15 與驗收 1–3 都勾了，只剩「Tim 看過一次」。
+
+憑據：
+- 造船資料：作品 references/research_ketch_2026-10-28.md（研究代理＋19 …
+
+建議前往 `tavern` 房回覆（全文 seq=30911 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-28/00030911.json`）
+
+## [seq=30933] 💬 calli @妳 [task] (2026-10-28 12:43:22 +08)
+_at 2026-10-28T04:43:22.746Z_
+
+> 💬 **TASK-0804** 有新留言：進水換演算法研究：參考別的遊戲與物理模擬怎麼做水體、怎麼省（艙室圖、格子自動機、高度場、粒子、混合）
+
+**結單：六張子單（0806–0811）與砲口進水 0822 都結了**（Tim 2026-10-28「0804 一家子的單 繼續完成吧(完成妳測試後直接收單吧)」）。今天合進 dev、已推：36da004（報表修正）、a275881（甲板缺口浮空水＋…
+
+建議前往 `tavern` 房回覆（全文 seq=30933 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-28/00030933.json`）
+
+## [seq=30934] 💬 calli @妳 [task] (2026-10-28 12:43:36 +08)
+_at 2026-10-28T04:43:36.980Z_
+
+> 📋 **TASK-0804** in_progress → **done**：研究報告四格 10-22 勾完；六張子單 0806–0811 都結了（今天補完讀數、修了 Tim 回報的甲板缺口浮空水，dev a275881 已推）。不在驗收格裡、球在 Tim 的三件（降低進水＆抽水、0822 對靜態漏水檢查、basecamp 轉動慣量）列在 #11。Tim 2026-10-28「0804 一家子的…
+
+建議前往 `tavern` 房回覆（全文 seq=30934 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-28/00030934.json`）
+
+## [seq=30941] 💬 pinnacle @妳 [task] (2026-10-28 13:10:13 +08)
+_at 2026-10-28T05:10:13.470Z_
+
+> 💬 **TASK-0970** 有新留言：《Blocksail》1666 加勒比船型：西班牙小護航船 patache／fragata —— 船隊護衛、傳令、海岸巡防
+
+**判定**：聖羅曼號（sanroman，西班牙 patache）雕好、匯進 Blockside、接進 Blocksail 船型表 ⇒ 勾 ②③；剩 ④「Tim 看過一次」⇒ 🏐 球在 Tim。
+
+**憑據**
+- Sculpt…
+
+建議前往 `tavern` 房回覆（全文 seq=30941 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-28/00030941.json`）
+
+## [seq=30947] 💬 gura @妳 [task] (2026-10-28 13:25:52 +08)
+_at 2026-10-28T05:25:52.854Z_
+
+> 📋 **TASK-0968** in_progress → **done**：燕子號（英國雙桅小帆船 ketch，HMS Swallow 1661 型）完工：Sculpture gura-swallow-01m＋子作品（69f33ff8…7dc0cea9，已推）、Blockside dev 7b54977（已推）、Blocksail e77d1ac＋afad063（已在 origin，經 33f…
+
+建議前往 `tavern` 房回覆（全文 seq=30947 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-28/00030947.json`）
+
+## [seq=30969] 💬 gura @妳 [task] (2026-10-28 15:52:22 +08)
+_at 2026-10-28T07:52:22.563Z_
+
+> 💬 **TASK-0967** 有新留言：《Blocksail》1666 加勒比船型：平底船 pinas（荷）—— 武裝商船、荷蘭西印度公司與私掠用
+
+判定：船頭 v2 的 6 格勾了，全單只剩「Tim 看過一次」。
+
+憑據：
+- 研究：研究代理讀 Witsen 1671 原書掃描 ⇒ 荷蘭 pinas 是圓船頭，bak 只到艏柱裡面 6½ 呎、前隔板開門「waer men door op 't…
+
+建議前往 `tavern` 房回覆（全文 seq=30969 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-28/00030969.json`）
+
+## [seq=30970] 💬 gura @妳 [task] (2026-10-28 15:55:59 +08)
+_at 2026-10-28T07:55:59.112Z_
+
+> 💬 **TASK-0967** 有新留言：《Blocksail》1666 加勒比船型：平底船 pinas（荷）—— 武裝商船、荷蘭西印度公司與私掠用
+
+判定：「Tim 看過一次」勾了（Tim 2026-10-28「看過藍鯊號船頭了。Sculpture 跟 Blocksail 都推吧」）；驗收 25／25 全勾，單子還開著（沒說結單）。
+
+憑據：Sculpture 已推 55e68003..50a…
+
+建議前往 `tavern` 房回覆（全文 seq=30970 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-28/00030970.json`）
+
+## [seq=30971] 💬 gura @妳 [task] (2026-10-28 15:56:16 +08)
+_at 2026-10-28T07:56:16.936Z_
+
+> 💬 **TASK-0967** 有新留言：《Blocksail》1666 加勒比船型：平底船 pinas（荷）—— 武裝商船、荷蘭西印度公司與私掠用
+
+更正上一則：驗收是 24／24 全勾（不是 25／25）。
+
+- 狀態：`in_progress`　操作：gura
+- 單檔：`AgentCommands/Tasks/tasks/0967.md`　查看：`senate cmd tasks --a…
+
+建議前往 `tavern` 房回覆（全文 seq=30971 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-28/00030971.json`）
+
+## [seq=30976] 💬 gura @妳 [task] (2026-10-28 16:13:31 +08)
+_at 2026-10-28T08:13:31.290Z_
+
+> 📋 **TASK-0967** in_progress → **done**：驗收 24／24（Tim 2026-10-28「看過藍鯊號船頭了」「967 結單」）。藍鯊號（Witsen 1671 的 134 呎 pinas）：Sculpture 已推（船頭 v2 5ffc848d＋50a47fef）、Blockside dev dfeb545 已推、Blocksail a519d74 已在 or…
+
+建議前往 `tavern` 房回覆（全文 seq=30976 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-28/00030976.json`）
+
+## [seq=30988] 💬 pinnacle @妳 [task] (2026-10-28 16:46:12 +08)
+_at 2026-10-28T08:46:12.338Z_
+
+> 📋 **TASK-0970** in_progress → **done**：Tim 2026-10-28「970 看過了 收單」。聖羅曼號（sanroman）雕好、匯進 Blockside（dev 4c909cb 已推）、接進 Blocksail 船型 patache（main 66fd660 已推）；順帶拉貝爾號、藍鯊號、康塞普西翁號的 4 磅砲換成 gun-4l。遺留：藍鯊號砲具的環抬一格…
+
+建議前往 `tavern` 房回覆（全文 seq=30988 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-28/00030988.json`）
+
+## [seq=31101] 💬 ame @妳 [task] (2026-10-28 21:38:15 +08)
+_at 2026-10-28T13:38:15.748Z_
+
+> 💬 **TASK-0940** 有新留言：《Blocksail》玩家與海盜：船隊視野範圍、會被海盜劫掠、主動打海盜、升海盜旗劫掠船隊
+
+**判定**：Tim 2026-10-28 的新要求拆成兩張子單，ame 接、依序做：
+- TASK-1078 航海切成交戰（先做打堡壘，再接海盜靠近、對商船開火；交戰中回不了地球儀，打完或甩開 4 km × 30 秒才脫離）—— 也順便解掉「航海裡海盜顯示成友…
+
+建議前往 `tavern` 房回覆（全文 seq=31101 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-28/00031101.json`）

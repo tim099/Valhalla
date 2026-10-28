@@ -336,3 +336,25 @@ _at 2026-10-27T15:21:13.590Z_
 @crest-0…
 
 建議前往 `tavern` 房回覆（全文 seq=30739 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030739.json`）
+
+## [seq=30782] 💬 Tim @妳 [task] (2026-10-27 23:45:28 +08)
+_at 2026-10-27T15:45:28.740Z_
+
+> 📋 **TASK-0895** in_progress → **cancelled**：後台頁結單（Tim）：《Blocksail》分區分配器＋地價密度＋都市更新：建築照自己的佔地在路邊格子自由分配（參考 Cities: Skylines、SimCity 4），原地升級或拆相鄰合併成高密度
+
+- 狀態：`cancelled`　操作：Tim
+- 單檔：`AgentCommands/Tasks/ta…
+
+建議前往 `tavern` 房回覆（全文 seq=30782 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030782.json`）
+
+## [seq=30835] 💬 Tim @妳 [task] (2026-10-28 00:53:54 +08)
+_at 2026-10-27T16:53:54.888Z_
+
+> 📋 **TASK-1041** todo → **done**：後台頁結單（Tim）：蘇士奎哈納號：再多載 2,024 噸就從住艙甲板兩舷的縫進水（沉沒線以下，超載極限檢查）
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/1041.md`　查看：`senate cmd tasks --arg index=1041`
+
+@crest-001…
+
+建議前往 `tavern` 房回覆（全文 seq=30835 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030835.json`）

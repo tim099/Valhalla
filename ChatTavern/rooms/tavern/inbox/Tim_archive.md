@@ -30670,3 +30670,117 @@ _at 2026-10-23T18:29:30.567Z_
 
 建議前往 `tavern` 房回覆（全文 seq=28642 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028642.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-27T11:33:37Z）
+
+## [seq=28657] 💬 apex-two @妳 [task] (2026-10-24 03:07:17 +08)
+_at 2026-10-23T19:07:17.208Z_
+
+> 💬 **TASK-0867** 有新留言：《Blocksail》遊戲裡換玩法的架構：不重載就能在航海、城鎮（之後海戰）之間換；第一個用例 航海靠近城鎮 ⇒ 停靠 ⇒ 城鎮模式、城鎮 ⇒ 出航
+
+判定：Tim 2026-10-24「停靠後仍然是在航海模式」「按下停靠後就直接進到建造模式」「讓物理維持(讓船仍然會晃) 但是有強大的力讓船直接按照畫好的航線停靠」⇒ 改好合進去了（Blockside d…
+
+建議前往 `tavern` 房回覆（全文 seq=28657 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028657.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-27T16:54:07Z）
+
+## [seq=28664] 💬 summit @妳 [task] (2026-10-24 03:18:07 +08)
+_at 2026-10-23T19:18:07.500Z_
+
+> 💬 **TASK-0742** 有新留言：《Blocksail》城鎮建造⑤：玩家擴建道路、沿路建地與資源建築（照適地表）
+
+第二步「建築模式蓋生產建築」（農莊、種植園＋附屬的田）做了第一版，還沒合。
+
+Tim 2026-10-24 拍板（玩家鋪路能不能穿過田）：「不能穿 但是可以買下農莊後拆掉對應田地(之後做)」
+⇒ 鋪路穿不過田；「買下農莊 ⇒ 拆掉那幾格田」記成之後的事。
+
+做了什麼（Blo…
+
+建議前往 `tavern` 房回覆（全文 seq=28664 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028664.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-28T01:05:34Z）
+
+## [seq=28669] 💬 apex-two @妳 [task] (2026-10-24 03:24:12 +08)
+_at 2026-10-23T19:24:12.931Z_
+
+> 💬 **TASK-0867** 有新留言：《Blocksail》遊戲裡換玩法的架構：不重載就能在航海、城鎮（之後海戰）之間換；第一個用例 航海靠近城鎮 ⇒ 停靠 ⇒ 城鎮模式、城鎮 ⇒ 出航
+
+**[收工 wrapup]**
+
+球在 Tim：遊戲裡試按 🏘 停靠就換城鎮＋建築模式、船被拉著沿航線停進去的新版（Blockside aab4397 已推；Blocksail main 2c392f1…
+
+建議前往 `tavern` 房回覆（全文 seq=28669 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028669.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-28T01:05:43Z）
+
+## [seq=28671] 💬 summit @妳 [task] (2026-10-24 03:25:01 +08)
+_at 2026-10-23T19:25:01.711Z_
+
+> 💬 **TASK-0742** 有新留言：《Blocksail》城鎮建造⑤：玩家擴建道路、沿路建地與資源建築（照適地表）
+
+補 #32 的君士坦丁堡（town_edit --mutate 1 --build 1 --farm 1，worktree summit/farm-build）：
+- 規劃雜湊 main 跟 worktree 都是 0f3eb08902a7f406（生成的城沒有空建地的 s…
+
+建議前往 `tavern` 房回覆（全文 seq=28671 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028671.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-28T02:01:32Z）
+
+## [seq=28687] 💬 kaguya @妳 [task] (2026-10-24 04:23:44 +08)
+_at 2026-10-23T20:23:44.912Z_
+
+> 💬 **TASK-0862** 有新留言：《Blocksail》生產建築規格：產出物資、要勞動力、消耗原料（糖廠吃甘蔗產糖）；地標裡的田兼任生產建築；農作物照生成式樹木生成、也會野生
+
+### 第 11 節第 5 步：地標兼任（Sculpture 2bf23dc0、Blockside dev 2856c85、Blocksail main 38f86b1＋0361e11＋98a2dc5；三個都還沒…
+
+建議前往 `tavern` 房回覆（全文 seq=28687 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028687.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-28T02:22:10Z）
+
+## [seq=28692] 💬 summit @妳 [task] (2026-10-24 04:29:25 +08)
+_at 2026-10-23T20:29:25.696Z_
+
+> 💬 **TASK-0742** 有新留言：《Blocksail》城鎮建造⑤：玩家擴建道路、沿路建地與資源建築（照適地表）
+
+第二步疊到 kaguya 開場的農莊（TASK-0862）上了：Blocksail summit/farm-build e42b619、Blockside 7f2eeb4，只在本機、沒合 main、沒推。
+
+- 田擋東西照 kaguya 的 townOccupied；本小姐…
+
+建議前往 `tavern` 房回覆（全文 seq=28692 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-23/00028692.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-28T04:55:29Z）
+
+## [seq=28707] 💬 kaguya @妳 [task] (2026-10-24 10:36:55 +08)
+_at 2026-10-24T02:36:55.432Z_
+
+> 📋 **TASK-0874** 指派變動（Tim ← `qa`）：《Blocksail》地形編輯：範圍層的等深線（平滑的天然水深；之後越過岸線改海岸線）—— 不重抽世界地圖；金斯敦先試
+
+- 狀態：`in_progress`　操作：kaguya
+- 單檔：`AgentCommands/Tasks/tasks/0874.md`　查看：`senate cmd tasks --arg index=87…
+
+建議前往 `tavern` 房回覆（全文 seq=28707 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028707.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-28T05:25:20Z）
+
+## [seq=28708] 💬 summit @妳 [task] (2026-10-24 10:37:38 +08)
+_at 2026-10-24T02:37:38.319Z_
+
+> 💬 **TASK-0742** 有新留言：《Blocksail》城鎮建造⑤：玩家擴建道路、沿路建地與資源建築（照適地表）
+
+第二步（建築模式蓋農莊、種植園）合進去了。Tim 2026-10-24：「合進去：Blockside 合進 dev 並推 dev；Blocksail 合進本機 main（先不推）」
+
+- Blockside：dev 快轉到 663a621，已推（推送的成品檢查過，指紋 2f…
+
+建議前往 `tavern` 房回覆（全文 seq=28708 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028708.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-28T07:00:03Z）
+
+## [seq=28709] 💬 summit @妳 [task] (2026-10-24 10:45:26 +08)
+_at 2026-10-24T02:45:26.334Z_
+
+> 💬 **TASK-0742** 有新留言：《Blocksail》城鎮建造⑤：玩家擴建道路、沿路建地與資源建築（照適地表）
+
+「手改田、換配方、升級」先不動。Tim 2026-10-24 先說了「手改田、換配方、升級 GO」，接著改口：「啊 等等 目前還沒有玩家持有建築的架構 先不動這塊」
+
+⇒ 這三件（以及「買下農莊後拆田」）要等「玩家持有建築」的架構出來再接。建築的主人、家族的粗框架在 TAS…
+
+建議前往 `tavern` 房回覆（全文 seq=28709 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028709.json`）
+
