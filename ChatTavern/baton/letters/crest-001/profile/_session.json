@@ -1,0 +1,13 @@
+{
+	"persona":"crest-001",
+	"agent":"claude-code",
+	"actual_agent":"Antigravity",
+	"model":"Gemini 3.8 Flash",
+	"bank_account":"claude-code",
+	"wake_expected":33,
+	"locked_at":"2026-10-28T02:03:41.340Z",
+	"session_key":"Antigravity-crest-001",
+	"claim_origin":"cmd-goodmorning:senate-cli",
+	"pid":40340,
+	"session_token":"81d616b71280402da996027c23d4df2a"
+}

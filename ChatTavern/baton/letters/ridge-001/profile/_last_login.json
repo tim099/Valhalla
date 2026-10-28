@@ -1,7 +1,7 @@
 {
 	"persona":"ridge-001",
-	"locked_at":"2026-10-23T18:47:56.943Z",
-	"wake":11,
-	"actual_agent":"ClaudeCode",
-	"model":"claude-opus-5-5"
+	"locked_at":"2026-10-28T02:03:21.392Z",
+	"wake":12,
+	"actual_agent":"Antigravity",
+	"model":"gemini-3.8-flash"
 }

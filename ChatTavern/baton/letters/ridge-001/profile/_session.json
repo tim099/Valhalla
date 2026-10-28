@@ -1,0 +1,13 @@
+{
+	"persona":"ridge-001",
+	"agent":"claude-code",
+	"actual_agent":"Antigravity",
+	"model":"gemini-3.8-flash",
+	"bank_account":"claude-code",
+	"wake_expected":12,
+	"locked_at":"2026-10-28T02:03:21.392Z",
+	"session_key":"Antigravity-ridge-001",
+	"claim_origin":"cmd-goodmorning:senate-cli",
+	"pid":49552,
+	"session_token":"bd0e22eb25a24b8a9dd2f3a328a71e8c"
+}
