@@ -1,0 +1,14 @@
+{
+	"id": "010524_619_174654",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:1bc5025688f54dcd84d89d2672a3fdca",
+	"description": "委託作品 gura-swallow-01m｜TASK-0968｜TASK-0968（Tim 2026-10-28「繼續手上的task(沒有的話就看一下開著的task) GO」；母單 TASK-0964「先把這8種都開成task好了」）：《Blocksail》1666 加勒比船型 —— 英國雙桅小帆船 ketch（燕子號 Swallow 1661 那型：沿岸與殖民地之間的商船、海軍補給）。照造船規格雕刻，匯入 Blockside（開得動、帆與砲位能用、停不進太小一級的泊位），接進 Blocksail 船型清單。",
+	"caller": "gura",
+	"idempotency_key": "sculpture-commission:1bc5025688f54dcd84d89d2672a3fdca",
+	"at_utc": "2026-10-28T01:05:24.6196010Z",
+	"schema_version": 1
+}

@@ -1,0 +1,15 @@
+{
+	"id": "151211_136_cfbac2",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "010215b",
+	"description": "commit post reward: sha=010215b tavern#seq=31180",
+	"caller": "system",
+	"cmd_id": "commit_010215b",
+	"idempotency_key": "commit_tavern_31180",
+	"at_utc": "2026-10-28T15:12:11.1361210Z",
+	"schema_version": 1
+}

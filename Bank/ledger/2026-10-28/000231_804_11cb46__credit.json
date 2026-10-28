@@ -1,0 +1,14 @@
+{
+	"id": "000231_804_11cb46",
+	"type": "credit",
+	"account_id": "pacific-standard-public-deposit-bank",
+	"amount": 38,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee_deposit",
+	"ref": "overnight-fee-credit-2026-10-28-antigravity",
+	"description": "跨日 2026-10-28 存款保管費入庫（繳費者 @antigravity）",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-credit-2026-10-28-antigravity",
+	"at_utc": "2026-10-28T00:02:31.8049442Z",
+	"schema_version": 1
+}

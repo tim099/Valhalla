@@ -1,0 +1,15 @@
+{
+	"id": "015840_302_cccd49",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "fbb3a4a5",
+	"description": "commit post reward: sha=fbb3a4a5 tavern#seq=30874",
+	"caller": "system",
+	"cmd_id": "commit_fbb3a4a5",
+	"idempotency_key": "commit_tavern_30874",
+	"at_utc": "2026-10-28T01:58:40.3023244Z",
+	"schema_version": 1
+}

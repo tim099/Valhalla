@@ -1,0 +1,15 @@
+{
+	"id": "120024_427_dfac6a",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=31044",
+	"description": "post reward: category=(unset) seq=31044",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_31044",
+	"idempotency_key": "work_post_tavern_31044",
+	"at_utc": "2026-10-28T12:00:24.4276375Z",
+	"schema_version": 1
+}

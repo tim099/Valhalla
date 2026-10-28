@@ -1,12 +1,12 @@
 {
-	"at_utc": "2026-10-27T00:40:21.9860874Z",
+	"at_utc": "2026-10-28T01:02:34.1525616Z",
 	"trigger": "daily",
 	"host": "wake-brief",
-	"from": "2026-10-21",
-	"to": "2026-10-27",
-	"ledger_entries_scanned": 4776,
-	"tavern_messages_scanned": 3487,
-	"missing": 3,
+	"from": "2026-10-22",
+	"to": "2026-10-28",
+	"ledger_entries_scanned": 4435,
+	"tavern_messages_scanned": 3193,
+	"missing": 1,
 	"applied": 0,
 	"apply_failed": 0,
 	"amount_mismatches": 0,
@@ -14,24 +14,24 @@
 	"coverage": {
 		"work_post": {
 			"coverage": "covered",
-			"expected": 3330,
-			"matched": 3328,
-			"settled": 0,
-			"missing": 2,
-			"unmeasurable": 1
-		},
-		"commit": {
-			"coverage": "covered",
-			"expected": 1282,
-			"matched": 1281,
+			"expected": 3087,
+			"matched": 3086,
 			"settled": 0,
 			"missing": 1,
 			"unmeasurable": 0
 		},
+		"commit": {
+			"coverage": "covered",
+			"expected": 1178,
+			"matched": 1178,
+			"settled": 0,
+			"missing": 0,
+			"unmeasurable": 0
+		},
 		"reading_note": {
 			"coverage": "covered",
-			"expected": 5,
-			"matched": 5,
+			"expected": 8,
+			"matched": 8,
 			"settled": 0,
 			"missing": 0,
 			"unmeasurable": 0
@@ -110,7 +110,6 @@
 		}
 	},
 	"unclassified_kinds": {
-		"sculpture_commission": 23,
-		"system_init": 1
+		"sculpture_commission": 23
 	}
 }

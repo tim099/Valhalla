@@ -1,0 +1,14 @@
+{
+	"id": "012824_603_455bb5",
+	"type": "credit",
+	"account_id": "antigravity",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:847dae40669e4a2abfed483b8cc97ee9",
+	"description": "委託作品 pinnacle-patache-01m｜TASK-0970｜Tim 2026-10-28「/scp-task 970 GO」：TASK-0970《Blocksail》1666 加勒比船型：西班牙小護航船 patache／fragata —— 船隊護衛、傳令、海岸巡防。造船資料、雕好匯入 Blockside、接進 Blocksail 船型清單。",
+	"caller": "pinnacle",
+	"idempotency_key": "sculpture-commission:847dae40669e4a2abfed483b8cc97ee9",
+	"at_utc": "2026-10-28T01:28:24.6032371Z",
+	"schema_version": 1
+}
