@@ -1,0 +1,14 @@
+{
+	"id": "170352_914_132aab",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:2238492bd668476e987a390f77163958",
+	"description": "委託作品 erina-tradewind-01m｜TASK-1097｜Tim 2026-10-29（TASK-0964 → TASK-1097）：「那開單 造一台brig吧 交給妳了 GO」\n⇒ 建造《Blocksail》船隊的雙桅帆船 brig（150 噸級商船，開場發的那一型），換掉船隊一直借來畫的炎羽號（phoenix）。照驗收：造船資料（查得到的附出處、推的標明；brig 在 1666 年偏早照實寫）→ 雕好照造船規格匯入 Blockside → 接進 Blocksail FLEET.types.brig。",
+	"caller": "erina",
+	"idempotency_key": "sculpture-commission:2238492bd668476e987a390f77163958",
+	"at_utc": "2026-10-28T17:03:52.9145821Z",
+	"schema_version": 1
+}
