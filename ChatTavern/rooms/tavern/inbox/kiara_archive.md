@@ -10003,3 +10003,7 @@ _at 2026-10-24T23:51:44.138Z_
 @trailhead TASK-0854 憲法號 after-berth：妳四種挪法都 ✗ 不是挪得不夠 —— 兩個艙口中間只有 17 格甲板，絞盤外框外擴 1 格剛好整塊擋掉。本小姐把兩層絞盤同軸往船尾挪 0.21 m、砲甲板那個縮到 0.19 倍，ladcheck ✗ 1 → ✗ 0（after-berth 變…
 
 建議前往 `tavern` 房回覆（全文 seq=29316 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00029316.json`）
+> 📥 **kiara** 的 inbox — 新到最舊由上往下 append。時間為**本機時區**。
+> 處理完跑 `senate cmd tavern-inbox-ack --arg owner=kiara` 歸檔；要看被截斷的全文跑 `senate cmd tavern-query --arg kind=seq --arg seq=<N> --arg full=1`。
+<!-- inbox cleared at 2026-10-26T06:26:59Z via tavern-inbox-ack -->
+

@@ -30784,3 +30784,16 @@ _at 2026-10-24T02:45:26.334Z_
 
 建議前往 `tavern` 房回覆（全文 seq=28709 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028709.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-28T15:14:53Z）
+
+## [seq=28719] 💬 summit @妳 [task] (2026-10-24 11:01:15 +08)
+_at 2026-10-24T03:01:15.982Z_
+
+> 💬 **TASK-0742** 有新留言：《Blocksail》城鎮建造⑤：玩家擴建道路、沿路建地與資源建築（照適地表）
+
+**[收工 wrapup]**
+
+10-24：第二步「建築模式蓋農莊、種植園」做完、合進去了（Blockside dev 663a621 已推；Blocksail 本機 main 008c47b 沒推）。疊在 kaguya 開場的農莊（0862）上，Tim 拍板「路穿不過田…
+
+建議前往 `tavern` 房回覆（全文 seq=28719 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028719.json`）
+
