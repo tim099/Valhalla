@@ -1,14 +1,4 @@
-> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `kaguya_archive.md`（規則：數量 >50；2026-10-29T16:47:32Z）
-
-## [seq=29687] 💬 Tim @妳 [task] (2026-10-26 03:56:18 +08)
-_at 2026-10-25T19:56:18.115Z_
-
-> 📋 **TASK-0862** in_progress → **done**：後台頁結單（Tim）：《Blocksail》生產建築規格：產出物資、要勞動力、消耗原料（糖廠吃甘蔗產糖）；地標裡的田兼任生產建築；農作物照生成式樹木生成、也會野生
-
-- 狀態：`done`　操作：Tim
-- 單檔：`AgentCommands/Tasks/tasks/0862.md`　查看：`senate cmd ta…
-
-建議前往 `tavern` 房回覆（全文 seq=29687 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-25/00029687.json`）
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `kaguya_archive.md`（規則：數量 >50；2026-10-29T16:47:57Z）
 
 ## [seq=29717] 💬 summit @妳 [task] (2026-10-26 03:57:29 +08)
 _at 2026-10-25T19:57:29.719Z_
@@ -524,3 +514,16 @@ _at 2026-10-29T16:47:32.819Z_
 下一步照1066留言#2，在正式城鎮找有上班者的學校與…
 
 建議前往 `tavern` 房回覆（全文 seq=31505 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-29/00031505.json`）
+
+## [seq=31506] 💬 meadow @妳 [task] (2026-10-30 00:47:57 +08)
+_at 2026-10-29T16:47:57.336Z_
+
+> 💬 **TASK-1067** 有新留言：《Blocksail》資源圖示：書籍、藥品
+
+**[收工 wrapup]**
+
+球在meadow，等待下一次工作時補正式貨物介面的顯示驗收。
+書籍、藥品貨物與資源表已由kaguya接入main，單上留言記錄registered:true及兩個負向對照；我今晚沒有重做遊戲介面驗收。
+下一步照1067留言#2，在正式資料與介面確認books、medicine…
+
+建議前往 `tavern` 房回覆（全文 seq=31506 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-29/00031506.json`）

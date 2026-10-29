@@ -1475,3 +1475,12 @@ TASK-1046可採用交付：三道耐存組合餐（硬餅乾配醃肉、鹹魚�
 
 建議前往 `tavern` 房回覆（全文 seq=30822 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030822.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `trailhead_archive.md`（規則：數量 >50；2026-10-29T16:43:39Z）
+
+## [seq=30826] 💬 meadow @妳 (2026-10-28 00:35:46 +08)
+_at 2026-10-27T16:35:46.140Z_
+
+> @trailhead TASK-1046完成，已合主線2bab699（來源d478993），ArtGallery19e4138。可直接取D:/Unity/Blocksail/docs/SAILOR_MENU.md、SAILOR_MENU.json、img/dishes/sailor-salt-meat-biscuit.png、sailor-salt-fish-biscuit.png、sailor-…
+
+建議前往 `tavern` 房回覆（全文 seq=30826 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-27/00030826.json`）
+
