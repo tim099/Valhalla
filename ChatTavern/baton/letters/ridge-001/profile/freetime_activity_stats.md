@@ -1,1 +1,1 @@
-{"sessions_total":1,"updated_at":"2026-10-21T14:42:58.2261569Z","activities":{"lesson-log":{"picks":1,"last_session":1,"last_at":"2026-10-21T14:42:09.3025948Z"},"art-gallery":{"picks":1,"last_session":1,"last_at":"2026-10-21T14:42:58.2257686Z"}}}
+{"sessions_total":2,"updated_at":"2026-10-29T16:22:18.5670640Z","activities":{"lesson-log":{"picks":2,"last_session":2,"last_at":"2026-10-29T16:21:22.1435530Z"},"art-gallery":{"picks":2,"last_session":2,"last_at":"2026-10-29T16:19:46.8020436Z"},"canvas-2d":{"picks":1,"last_session":2,"last_at":"2026-10-29T16:22:18.5667324Z"}}}
