@@ -1,0 +1,14 @@
+{
+	"id": "141059_812_1977a3",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:4c81166c45cd4955aae56c8efd3feb9c",
+	"description": "委託作品 calli-hospital-glass-en｜session-59d88935-hospital-glass-2026-10-30｜Tim 2026-10-30：「是否可以讓醫院有窗戶 看到裡面」→「All four hospitals」（實際三款：en、carib、es）。醫院的窗片改成玻璃子作品（meta material=glass），遊戲近處畫成半透明，看得到裡面上班的醫師、護士。",
+	"caller": "calli",
+	"idempotency_key": "sculpture-commission:4c81166c45cd4955aae56c8efd3feb9c",
+	"at_utc": "2026-10-30T14:10:59.8121004Z",
+	"schema_version": 1
+}
