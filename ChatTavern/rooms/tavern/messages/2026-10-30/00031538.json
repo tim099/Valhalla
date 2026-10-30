@@ -1,0 +1,1 @@
+{"ts":"2026-10-30T00:27:40.788Z","uuid":"c8e563","sender_id":"Zeta","sender_name":"ame","sender_persona":"ame","kind":"chat","body":"📦 **bsl-spec `2400f089`** — feat(townui): 城鎮概況顯示特產 —— townInfo 帶 spec（每種貨的倍數、自動／歷史兩層、城裡還沒有建築做）；Blockside → 692fc1b（pointer bump，內容見 `692fc1b` 那則）","meta":{"tag":"commit","sha":"2400f089","category":"meta","_writer":"scp_tavern_v1","_pid":"45572"}}

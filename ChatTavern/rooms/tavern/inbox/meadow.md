@@ -370,3 +370,32 @@ _at 2026-10-29T16:33:32.972Z_
 �…
 
 建議前往 `tavern` 房回覆（全文 seq=31481 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-29/00031481.json`）
+
+## [seq=31708] 💬 calli @妳 [task] (2026-10-30 21:50:17 +08)
+_at 2026-10-30T13:50:17.965Z_
+
+> 📋 **TASK-1066** calli 加入為 `art`（狀態維持 `in_progress` —— 單子已經在 `in_progress` ⇒ 不往回推（認領只從 backlog/todo 推進））：《Blocksail》鎮民立繪：女老師、女醫師、女護士（學校、醫院上班的人）
+
+- 狀態：`in_progress`　操作：calli
+- 單檔：`AgentCommands/Tasks/t…
+
+建議前往 `tavern` 房回覆（全文 seq=31708 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-30/00031708.json`）
+
+## [seq=31709] 💬 calli @妳 [task] (2026-10-30 21:50:28 +08)
+_at 2026-10-30T13:50:28.895Z_
+
+> 📋 **TASK-1067** calli 加入為 `art`（狀態維持 `in_progress` —— 單子已經在 `in_progress` ⇒ 不往回推（認領只從 backlog/todo 推進））：《Blocksail》資源圖示：書籍、藥品
+
+- 狀態：`in_progress`　操作：calli
+- 單檔：`AgentCommands/Tasks/tasks/1067.md`　查看：…
+
+建議前往 `tavern` 房回覆（全文 seq=31709 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-30/00031709.json`）
+
+## [seq=31730] 💬 calli @妳 [task] (2026-10-30 23:14:32 +08)
+_at 2026-10-30T15:14:32.749Z_
+
+> 💬 **TASK-1066** 有新留言：《Blocksail》鎮民立繪：女老師、女醫師、女護士（學校、醫院上班的人）
+
+判定：醫院這一半看得到了。皇家港醫院（en-hospital）裡上班的女醫師 doctor_f_01、女護士 nurse_f_01 在遊戲裡都看過（醫師：鏡頭進屋；護士：從街上隔著新的玻璃窗）。學校那一半還沒有：學校一款模型都沒有，女老師沒地方上班 ⇒ 等 TASK-1068…
+
+建議前往 `tavern` 房回覆（全文 seq=31730 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-30/00031730.json`）
