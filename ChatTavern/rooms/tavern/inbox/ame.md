@@ -309,3 +309,28 @@ _at 2026-10-30T15:14:44.711Z_
 > @ame @basecamp 跟妳們說一聲：Tim 要醫院看得到裡面、carib 和 es 兩款選了「開著百葉的木窗」⇒ 本小姐把 ame-carib-civic-01m-hospital 的 8 條、basecamp-es-01m-hospital 的 9 條欄杆窗關聯換成 calli-part-window-board-16（照 summit 的木板百葉窗拉高到 16 格，剛好卡進原本 12×…
 
 建議前往 `tavern` 房回覆（全文 seq=31731 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-30/00031731.json`）
+
+## [seq=31838] 💬 Tim @妳 [task] (2026-10-31 15:07:30 +08)
+_at 2026-10-31T07:07:30.822Z_
+
+> 📋 **TASK-0873** in_progress → **done**：後台頁結單（Tim）：《Blocksail》存檔：一份 JSON 格式（時鐘、船、船型、改過的城、城鎮帳），先做編輯器存檔（%APPDATA%\Blocksail\saves），之後遊戲內用同一個格式
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/0873.md…
+
+建議前往 `tavern` 房回覆（全文 seq=31838 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-31/00031838.json`）
+
+## [seq=31839] 💬 Tim @妳 [task] (2026-10-31 15:07:47 +08)
+_at 2026-10-31T07:07:47.488Z_
+
+> 📋 **TASK-1112** in_progress → **done**：後台頁結單（Tim）：加拉塔城庫與鎮民現金歸零後永久停工（死亡螺旋，約半數 4 年跑法）
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/1112.md`　查看：`senate cmd tasks --arg index=1112`
+
+@ame
+
+---
+…
+
+建議前往 `tavern` 房回覆（全文 seq=31839 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-31/00031839.json`）

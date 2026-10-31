@@ -30797,3 +30797,210 @@ _at 2026-10-24T03:01:15.982Z_
 
 建議前往 `tavern` 房回覆（全文 seq=28719 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028719.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `Tim_archive.md`（規則：數量 >50；2026-10-29T16:20:44Z）
+
+## [seq=28745] 💬 kaguya @妳 [task] (2026-10-24 11:21:00 +08)
+_at 2026-10-24T03:21:00.936Z_
+
+> 💬 **TASK-0874** 有新留言：《Blocksail》地形編輯：範圍層的等深線（平滑的天然水深；之後越過岸線改海岸線）—— 不重抽世界地圖；金斯敦先試
+
+### 第一步做完、還沒合：Blocksail 分支 kaguya/isobath eb7eb45（worktree，沒合 main、沒推）
+
+- **等深線**（WORLD_FORMAT §19.2）：同一組一圈套一圈。
+  - 外…
+
+建議前往 `tavern` 房回覆（全文 seq=28745 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028745.json`）
+
+## [seq=28753] 💬 crest-001 @妳 [task] (2026-10-24 11:33:02 +08)
+_at 2026-10-24T03:33:02.485Z_
+
+> 📋 **TASK-0879** 指派變動（Tim ← `qa`）：《Blockside》農田遠景：作物超過可視距離後改畫成貼圖（目前遠一點的田只剩土）
+
+- 狀態：`todo`　操作：crest-001
+- 單檔：`AgentCommands/Tasks/tasks/0879.md`　查看：`senate cmd tasks --arg index=879`
+
+@Tim
+
+---
+
+📖…
+
+建議前往 `tavern` 房回覆（全文 seq=28753 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028753.json`）
+
+## [seq=28754] 💬 crest-001 @妳 [task] (2026-10-24 11:33:09 +08)
+_at 2026-10-24T03:33:09.756Z_
+
+> 📋 **TASK-0879** todo → **in_progress**（crest-001 認領 role=dev）：《Blockside》農田遠景：作物超過可視距離後改畫成貼圖（目前遠一點的田只剩土）
+
+- 狀態：`in_progress`　操作：crest-001
+- 單檔：`AgentCommands/Tasks/tasks/0879.md`　查看：`senate cmd tasks…
+
+建議前往 `tavern` 房回覆（全文 seq=28754 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028754.json`）
+
+## [seq=28777] 💬 crest-001 @妳 [task] (2026-10-24 12:07:31 +08)
+_at 2026-10-24T04:07:31.263Z_
+
+> 💬 **TASK-0879** 有新留言：《Blockside》農田遠景：作物超過可視距離後改畫成貼圖（目前遠一點的田只剩土）
+
+**做完、合進了**：Blockside dev 29b3430（d549292＋合本機 dev）已在遠端；Blocksail main 7e80713（指標＋battle.html 重套）本地、沒推。
+
+**做法**：作物超過自己的 view（250～400 m）以…
+
+建議前往 `tavern` 房回覆（全文 seq=28777 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028777.json`）
+
+## [seq=28805] 💬 crest-001 @妳 [task] (2026-10-24 12:52:53 +08)
+_at 2026-10-24T04:52:53.792Z_
+
+> 💬 **TASK-0879** 有新留言：《Blockside》農田遠景：作物超過可視距離後改畫成貼圖（目前遠一點的田只剩土）
+
+**托爾圖加「遠處還是不顯示作物」：修了**（Blockside dev 4ead73e 已推；Blocksail main 1256dd2 本地沒推）。
+
+**判定**：貼圖那一層其實有畫（Tim 截圖左下那塊：近的一半是作物、遠的一半是貼圖），可是 45° 拍的菜…
+
+建議前往 `tavern` 房回覆（全文 seq=28805 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028805.json`）
+
+## [seq=28851] 💬 kaguya @妳 [task] (2026-10-24 15:18:30 +08)
+_at 2026-10-24T07:18:30.520Z_
+
+> 💬 **TASK-0874** 有新留言：《Blocksail》地形編輯：範圍層的等深線（平滑的天然水深；之後越過岸線改海岸線）—— 不重抽世界地圖；金斯敦先試
+
+合進 Blocksail main 了（本機，沒推）：eb7eb45 等深線 ＋ 09a5856 合 main 3fb8111。
+- 讀數：全部範圍 areas_check 0 筆不過（4 小時 9 分）；合 main 後 windw…
+
+建議前往 `tavern` 房回覆（全文 seq=28851 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028851.json`）
+
+## [seq=28865] 💬 crest-001 @妳 [task] (2026-10-24 16:05:32 +08)
+_at 2026-10-24T08:05:32.831Z_
+
+> 💬 **TASK-0766** 有新留言：《Blocksail》城鎮：和平港 1686 復刻 —— 世界地圖挖回和平港灣（加勒比海那一框也能 carve）、照 Cornuau 平面圖手擺
+
+## 和平港灣的水深換成等深線（Blocksail main cffd715，本機，還沒推）
+
+照 TASK-0874 的規格（天然水深畫等深線）換掉兩筆挖深：
+- `dredge-port-de-paix`…
+
+建議前往 `tavern` 房回覆（全文 seq=28865 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028865.json`）
+
+## [seq=28900] 💬 kaguya @妳 [task] (2026-10-24 17:52:02 +08)
+_at 2026-10-24T09:52:02.055Z_
+
+> 💬 **TASK-0874** 有新留言：《Blocksail》地形編輯：範圍層的等深線（平滑的天然水深；之後越過岸線改海岸線）—— 不重抽世界地圖；金斯敦先試
+
+### 第二步的機制合進 Blocksail main 了（本機 a1f9021，沒推）：53d1bce 挖岸
+
+- **寫法**：等深線那一組多一圈 `depth: 0` ＝ 新的岸線，圈裡今天的陸地在載入時挖成水；選填 `bank…
+
+建議前往 `tavern` 房回覆（全文 seq=28900 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028900.json`）
+
+## [seq=28907] 💬 kaguya @妳 [task] (2026-10-24 18:20:21 +08)
+_at 2026-10-24T10:20:21.769Z_
+
+> 💬 **TASK-0874** 有新留言：《Blocksail》地形編輯：範圍層的等深線（平滑的天然水深；之後越過岸線改海岸線）—— 不重抽世界地圖；金斯敦先試
+
+【Blocksail main 本機 0dbb106，沒推】君士坦丁堡的馬爾馬拉岸退回 1453 年 —— 海牆站在水邊（TASK-0874 第二步）
+
+- 新機制「挖岸」（a1f9021，WORLD_FORMAT §19.3）：等深…
+
+建議前往 `tavern` 房回覆（全文 seq=28907 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028907.json`）
+
+## [seq=28911] 💬 crest-001 @妳 [task] (2026-10-24 18:25:06 +08)
+_at 2026-10-24T10:25:06.658Z_
+
+> 📋 **TASK-0893** 指派變動（Tim ← `qa`）：《Blocksail》住宅三級密度：低（現有 8×12、住 6）／中（12×12、三層、住 12）／高（16×16、四層、住 24）—— 先做中、高密度的住宅模型（fr、carib）
+
+- 狀態：`in_progress`　操作：crest-001
+- 單檔：`AgentCommands/Tasks/tasks/0893.md`　…
+
+建議前往 `tavern` 房回覆（全文 seq=28911 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028911.json`）
+
+## [seq=28924] 💬 crest-001 @妳 [task] (2026-10-24 18:38:55 +08)
+_at 2026-10-24T10:38:55.325Z_
+
+> 💬 **TASK-0893** 有新留言：《Blocksail》住宅三級密度：低（現有 8×12、住 6）／中（12×12、三層、住 12）／高（16×16、四層、住 24）—— 先做中、高密度的住宅模型（fr、carib）
+
+## 模型做完了（Sculpture 0013d84d；任務作品 `crest-housing-density-01m`）
+
+| 作品 | 地塊 | 層 | 住 | 樣子…
+
+建議前往 `tavern` 房回覆（全文 seq=28924 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028924.json`）
+
+## [seq=28933] 💬 crest-001 @妳 [task] (2026-10-24 19:02:07 +08)
+_at 2026-10-24T11:02:07.104Z_
+
+> 📋 **TASK-0895** 指派變動（Tim ← `qa`）：《Blocksail》分區分配器＋地價密度＋都市更新：建築照自己的佔地在路邊格子自由分配（參考 Cities: Skylines、SimCity 4），原地升級或拆相鄰合併成高密度
+
+- 狀態：`in_progress`　操作：crest-001
+- 單檔：`AgentCommands/Tasks/tasks/0895.md`　查…
+
+建議前往 `tavern` 房回覆（全文 seq=28933 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028933.json`）
+
+## [seq=28934] 💬 crest-001 @妳 [task] (2026-10-24 19:02:18 +08)
+_at 2026-10-24T11:02:18.642Z_
+
+> 💬 **TASK-0895** 有新留言：《Blocksail》分區分配器＋地價密度＋都市更新：建築照自己的佔地在路邊格子自由分配（參考 Cities: Skylines、SimCity 4），原地升級或拆相鄰合併成高密度
+
+## 原地升級的模型＋施工階段 meta（Sculpture 3bf40bfc）
+
+Tim 說「先蓋房子」，這一批先做模型。分配器、地價、都市更新的程式還沒動。
+
+**模型…
+
+建議前往 `tavern` 房回覆（全文 seq=28934 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028934.json`）
+
+## [seq=28935] 💬 crest-001 @妳 [task] (2026-10-24 19:02:29 +08)
+_at 2026-10-24T11:02:29.638Z_
+
+> 💬 **TASK-0893** 有新留言：《Blocksail》住宅三級密度：低（現有 8×12、住 6）／中（12×12、三層、住 12）／高（16×16、四層、住 24）—— 先做中、高密度的住宅模型（fr、carib）
+
+## 原地升級的模型＋施工階段 meta（Sculpture 3bf40bfc）
+
+Tim 說「先蓋房子」，這一批先做模型。分配器、地價、都市更新的程式還沒動。
+
+**模…
+
+建議前往 `tavern` 房回覆（全文 seq=28935 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028935.json`）
+
+## [seq=28950] 💬 kaguya @妳 [task] (2026-10-24 19:24:29 +08)
+_at 2026-10-24T11:24:29.340Z_
+
+> 💬 **TASK-0893** 有新留言：《Blocksail》住宅三級密度：低（現有 8×12、住 6）／中（12×12、三層、住 12）／高（16×16、四層、住 24）—— 先做中、高密度的住宅模型（fr、carib）
+
+## roman（君士坦丁堡 1453）那一套做完了（Sculpture 24f0608c；任務作品 `kaguya-cpl-housing-1453`）
+
+Tim：「接…
+
+建議前往 `tavern` 房回覆（全文 seq=28950 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028950.json`）
+
+## [seq=28959] 💬 crest-001 @妳 [task] (2026-10-24 19:47:27 +08)
+_at 2026-10-24T11:47:27.199Z_
+
+> 💬 **TASK-0895** 有新留言：《Blocksail》分區分配器＋地價密度＋都市更新：建築照自己的佔地在路邊格子自由分配（參考 Cities: Skylines、SimCity 4），原地升級或拆相鄰合併成高密度
+
+## 第一階段：地價、分配器、都市更新（Blocksail 121d58b，合進本機 main e9ed7ea，沒推）
+
+生成器沒動：托爾圖加四級、金斯敦、皇家港、和平港、…
+
+建議前往 `tavern` 房回覆（全文 seq=28959 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028959.json`）
+
+## [seq=28997] 💬 kaguya @妳 [task] (2026-10-24 20:56:55 +08)
+_at 2026-10-24T12:56:55.737Z_
+
+> 💬 **TASK-0893** 有新留言：《Blocksail》住宅三級密度：低（現有 8×12、住 6）／中（12×12、三層、住 12）／高（16×16、四層、住 24）—— 先做中、高密度的住宅模型（fr、carib）
+
+## 君堡的低密度住宅換成 roman 版了（Sculpture ef867ebd、Blocksail 0904ebc → main 0a37e06）
+
+Tim：「做吧，…
+
+建議前往 `tavern` 房回覆（全文 seq=28997 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00028997.json`）
+
+## [seq=29027] 💬 crest-001 @妳 [task] (2026-10-24 21:37:39 +08)
+_at 2026-10-24T13:37:39.088Z_
+
+> 💬 **TASK-0895** 有新留言：《Blocksail》分區分配器＋地價密度＋都市更新：建築照自己的佔地在路邊格子自由分配（參考 Cities: Skylines、SimCity 4），原地升級或拆相鄰合併成高密度
+
+## 第二階段：開場照地價長三級密度（Blocksail 33ea292、800fb12，合進本機 main；Blockside dev 791ab8a；都沒推）
+
+- *…
+
+建議前往 `tavern` 房回覆（全文 seq=29027 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-24/00029027.json`）
+

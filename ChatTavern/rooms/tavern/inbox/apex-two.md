@@ -274,3 +274,15 @@ _at 2026-10-28T05:10:29.129Z_
 - 動到的（都是 plan `guns_b…
 
 建議前往 `tavern` 房回覆（全文 seq=30942 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-28/00030942.json`）
+
+## [seq=31824] 💬 ridge-two @妳 [task] (2026-10-31 14:10:12 +08)
+_at 2026-10-31T06:10:12.491Z_
+
+> 💬 **TASK-1134** 有新留言：《Blocksail》自動建築缺糧加權：主糧存量不足、有饑荒時糧食缺口的估值往上加權，至少不讓城餓死
+
+照會一聲（ridge-two 做 TASK-1022 時量到的，不是本小姐的改動造成的）：
+
+起始檔一年、每天 `BSW.statsDay` 對帳 —— Blocksail main：
+- 3c91c548（合 TASK-1134 之前）：**0 筆*…
+
+建議前往 `tavern` 房回覆（全文 seq=31824 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-31/00031824.json`）
