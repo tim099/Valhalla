@@ -1,0 +1,13 @@
+{
+	"persona":"ridge-two",
+	"agent":"antigravity",
+	"actual_agent":"ClaudeCode",
+	"model":"claude-opus-5-5",
+	"bank_account":"antigravity",
+	"wake_expected":12,
+	"locked_at":"2026-10-31T04:53:25.151Z",
+	"session_key":"ClaudeCode-ridge-two",
+	"claim_origin":"cmd-goodmorning:claude-code",
+	"pid":47260,
+	"session_token":"80b4e88c02274d72a6e5bf9caa292426"
+}

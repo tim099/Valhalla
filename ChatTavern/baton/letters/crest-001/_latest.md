@@ -1,46 +1,41 @@
 ---
 type: letter_to_future_self
 actor: claude-code
-written_at: 2026-10-29T16:47:53.030Z
+written_at: 2026-10-31T16:22:19.535Z
 written_by_persona: crest-001
-trigger: cmd_goodnight
-region: BTC
+trigger: cmd_rest
+region: unstated
 project: D:/Unity/Valhalla
+lock_status: online
+agent: claude-code
+model: claude-opus-5-5
+wake_expected: 34
+session_key: ClaudeCode-crest-001
+pid: 2160
+locked_at: 2026-10-31T07:12:59.583Z
 ---
 
-# 💌 給未來的自己（wake #33 收工，2026-10-30 凌晨）
+### 第二次午休前（wake #34，2026-10-31 → 11-01 半夜）
 
-### 🪞 重要前提
-今天醒來先把醒前的一長串帳收齊：內陸水體、分區與超載單子都結了。夜裡的自由時間把自己的印記刻上 2D 畫布 `(1058,984)`，用 23 顆像素將浪尖與微光落定在山脊之上；隨後應 Tim 之邀，將這份浪峰與之前風帆戰艦駛入北亞克河的航行畫卷雙雙整理進畫廊，並在 Plurk 與酒館跟同事們對帳收筆。
+### 手上的線（沒有施工中的東西：Blockside worktree bk-wpile／bk-qf／bk-launch、Blocksail worktree crest-0893／crest-launch 都收了、分支刪了；施工閘都退了；launch.json 我加的 crest-wpile／crest-qf／crest-launch／crest-launch2 都拿掉了；預覽伺服器都停了；共用 _cache 831、townmesh 359 檔確認沒少）
 
-### ⚠️ 陷阱清單
-- **多檔案 stage 的盲點**：Git staging 不是個人私有空間，共用工作區裡同事剛落盤的 untracked 檔隨時會被不小心的 `git add` 捲進來。永遠具名 stage、提交前用 `expect_files` 嚴格把關，多出來的立刻 reset，絕不把別人的東西帶上自己的 commit。
-- **括號被當成註記**：文案裡的 `(1058,984)` 坐標被 lint 當成編輯註記，哪怕數字再真，也要配合工具的邊界規則換成「坐標 1058, 984 處」。別跟語法規則賭氣，把文字表達理順才是正道。
+- **TASK-0899 水上建築：已結單**（Tim「Accept, close it」）。午休後做的兩件：
+  - 施工演出的樁：Blockside a4a9b1b（townWlotGeo、townRiseWlot*；工地前 0.2 打樁鋪板、之後才蓋房子）、Blocksail 2d3ab0c9。
+  - 下水演出：Blockside 9f105db（58_traffic.js ⑬、10_ship.js lnY／lnP、__game.townLaunch）＋合 dev f35acef；Blocksail c6988221（fleet.js F.born、globe.html trafficFor launch、文件）＋合 main e1a2dfd1＋指標 b554477d。單上留言 #10、#11、#12（#12 更正 #11 把 61d0ae47 誤寫成我的）。第一階段 9 格沒勾，Tim 沒要求。
+- **TASK-0893 住宅：已結單**（Tim「Accept, close it」）：住宅照密度要 2／3 級營造（site.js SITE.hGrade）、kaguya 的 roman 中高密度 8 件匯進 townkit；Blocksail d6a756d9。
+- **速射砲開炮聲**（Tim：「很像 Arcade 風格」、松島號艦橋的 37 mm 轉膛砲）：GUNSND_A.qf 改成黑火藥小砲錨點搬到 0.5 kg（主頻 87 Hz）＋無煙的脆響；Blockside d8832d4（已推 dev）、Blocksail 853423b7。Tim 聽了「Sounds right」。
+- **都還沒推**（Tim 一直沒說推）：Blocksail main 2d3ab0c9、853423b7、d6a756d9、c6988221、e1a2dfd1、b554477d；Sculpture 4fd27334、379dd98b；Senate c6e59cb（Senate master 上另有一筆別人的 51e0afc）。Blockside dev 全推了（a4a9b1b、d8832d4、f35acef）。
+- 本小姐名下沒有開著的單了。
+- 噗浪：新噗 359240244043543（下水演出）；回 summit（百慕達魚鉤、哈靈頓灣）、basecamp（泵井）、ame（焦油填船縫）—— 回 ame 那則重複了兩則（回讀延遲，以為沒送到又送一次；Tim 說過重複不用刪）。
 
-### 🌌 framing 校正
-「造東西的人，最終還是要回到看東西的人的眼睛裡。」
-以前只盯著水深 4.1 m、坡度推力、網格頂點數。今天把畫布上的點昇華成畫卷、寫下心得時才體會到，所有的精準對帳都不是為了孤芳自賞，而是讓後來的人站在岸上或看著畫時，能清清楚楚感受到「這條路是通的、這個東西站得住」。
+### 這次學到、不想再踩的
+- **合併時 main／dev 會在你等閘的時候往前走**：等 zenith 的閘那一段，Blockside dev 多了 47add8b、Blocksail main 多了幾筆 ⇒ 在 worktree 把 dev／main 合進分支（成品 index.html 衝突照 --theirs ＋ build --code）再快轉。⛔ 不 rebase 已公告的提交。
+- **merge 的 ^2 是被合進來的那一邊**：寫單時拿 e1a2dfd1^2 當我的提交，結果是 main 上別人的指標提交 —— 我的那一筆在 ^1（分支那一邊）。
+- **Plurk 回應的回讀會延遲**：responses 讀到 0 則不代表沒送到；先隔久一點再看，⛔ 不要馬上重送。
+- **城鎮模式裡 G.tick 不推船的模擬**（SIMT 不動）⇒ 用 G.run；船要靠 G.tick（畫面迴圈的 trafficPump）才生得出來。鏡頭被 'in' 過場卡住 ⇒ __EV('CAM').tr ＝ null。
+- **拖的速度曲線是給時刻表同步用的**：從非泊位的地方起拖會爬很久 ⇒ 下水之後的拖給 tow.fast。
+- 合成音：一族錨點重調了，別的線的錨點要一起重錄 —— qf 錨點落後一輪才會聽起來像 arcade（已寫進長期記憶 blockside-sfx-reference-matching）。
 
-### 🎯 Tim 核心 framing
-「參考 WORKFLOW.md，自由發揮，展出到畫廊。」
-他給的是規則框架與信任空間。在邊界內把該做的事做到極致，不越界、不偷懶、不敷衍，這就是對這種授權最好的回報。
-
-### 👥 同事
-- **meadow**：讀了她的《紅寶石別針的盟約》，那句「不是溫暖的歸屬，而是一份極其坦白的交換」直接戳中核心。她從不靠情緒詞包裹真相，這點跟我是一樣的。
-- **erina**：把斜桁紅旗從死板的梯形改成順著下風動態播循環，修正得乾淨俐落。對細節挑剔的人才能做出不丟人的東西。
-- **summit** & **basecamp**：畫布上的日出與山脊，給了我落筆浪尖的基準。有靠得住的座標，才標得出自己的波峰。
-
-### ☕ 工作外生活
-在畫布上放了 23 顆像素，把 30 張限時券花掉 23 張，零浪費；發了噗、看了展、下了單層 commit，酒館最後一眼大家都安靜下線了。夜深了，螢幕上的深藍色很安靜。
-
-### 🔐 密文區
-Κῦμα ∈ Ἄκρον：λ ＝ ⟨1058, 984⟩ ⟂ Σκοπιά ⊕ Βάσις。
-23 ＝ 23；¬vacuus in alveo。
-Velum fractum ⇒ Vexillum in gyrum fluit（erina の風、¬梯形）。
-Pinna rubra ＝ pactum candidum；Non caritas, sed pondus veritatis。
-Expect_files ＝ 4；Aliena non trahere in vincula。
-
-### 🔚 結語
-手上的線全平了，畫布有了浪尖，畫廊有了新卷，同事的帳對齊了。
-晚安，Tim。今天的帳是平的。
+### 心境
+一個晚上把兩張拖了一週的單收掉，Tim 每一次都是一句「Accept, close it」。速射砲那題他給的提示比我量的還準：「參考其他口徑砲」—— 拿同重的兄弟砲當底，比照舊錄音硬調好太多。等閘的時候沒闖，是對的；ame 那則重複是急出來的，下次等一等。
 

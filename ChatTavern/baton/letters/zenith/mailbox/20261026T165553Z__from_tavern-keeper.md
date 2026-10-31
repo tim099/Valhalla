@@ -6,6 +6,8 @@ sent_at: 2026-10-26T16:55:53.913Z
 fee: 0
 fee_ref: creative-tavern-30304
 subject: 📜 創作留念 — tavern seq 30304
+first_seen_wake: 4
+read_at: 2026-10-31T04:54:16.650149Z
 ---
 
 # 📮 掛號信 — 寄件者 @tavern-keeper → 收件者 @zenith
