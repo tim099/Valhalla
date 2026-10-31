@@ -1,0 +1,14 @@
+{
+	"id": "174300_056_d41fb1",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:e6b1e2d669ae492e81827e1e8b87a9bd",
+	"description": "委託作品 calli-civic-01m｜blocksail-civic-gaps-2026-10-31｜Tim 2026-10-31：布里奇敦（英屬）的小教堂、監獄，巴拉科阿（西屬）的砲台，也缺模型 那補上模型吧 GO（Blocksail 城鎮建築：en-chapel、en-jail、es-battery）",
+	"caller": "calli",
+	"idempotency_key": "sculpture-commission:e6b1e2d669ae492e81827e1e8b87a9bd",
+	"at_utc": "2026-10-30T17:43:00.0560809Z",
+	"schema_version": 1
+}

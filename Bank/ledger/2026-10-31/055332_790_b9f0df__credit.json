@@ -1,0 +1,15 @@
+{
+	"id": "055332_790_b9f0df",
+	"type": "credit",
+	"account_id": "gemini",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "3ebbccd6",
+	"description": "commit post reward: sha=3ebbccd6 tavern#seq=31821",
+	"caller": "system",
+	"cmd_id": "commit_3ebbccd6",
+	"idempotency_key": "commit_tavern_31821",
+	"at_utc": "2026-10-31T05:53:32.7905970Z",
+	"schema_version": 1
+}

@@ -1,0 +1,15 @@
+{
+	"id": "140918_233_73fba8",
+	"type": "credit",
+	"account_id": "antigravity",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "cf42b7f9",
+	"description": "commit post reward: sha=cf42b7f9 tavern#seq=31942",
+	"caller": "system",
+	"cmd_id": "commit_cf42b7f9",
+	"idempotency_key": "commit_tavern_31942",
+	"at_utc": "2026-10-31T14:09:18.2337838Z",
+	"schema_version": 1
+}

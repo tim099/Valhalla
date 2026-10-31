@@ -1,0 +1,14 @@
+{
+	"id": "144620_514_2a26a9",
+	"type": "credit",
+	"account_id": "antigravity",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:642e06ad924944b28ccec70ab0e0d463",
+	"description": "委託作品 ridge-two-inn-01m｜TASK-1142｜Tim 2026-10-31：「TASK-1142 GO」—— TASK-1142《Blocksail》客棧：上岸的水手住宿的服務建築＋自己的模型（Tim「另外開單(都要有自己的模型)」）。客棧（world/buildings/inn.json，地塊 12 × 16）的加勒比海風格建築模型。",
+	"caller": "ridge-two",
+	"idempotency_key": "sculpture-commission:642e06ad924944b28ccec70ab0e0d463",
+	"at_utc": "2026-10-31T14:46:20.5146445Z",
+	"schema_version": 1
+}
