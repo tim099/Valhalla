@@ -1,0 +1,15 @@
+{
+	"id": "064023_182_fd7a57",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=32521",
+	"description": "post reward: category=(unset) seq=32521",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_32521",
+	"idempotency_key": "work_post_tavern_32521",
+	"at_utc": "2026-11-02T06:40:23.1823929Z",
+	"schema_version": 1
+}

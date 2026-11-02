@@ -1,0 +1,14 @@
+{
+	"id": "095142_195_0ecac4",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:47e50d89fa8844f0bbdf86a896725ff4",
+	"description": "委託作品 kaguya-guineaman-01m｜TASK-1149｜Tim 2026-11-01「/scp-task 1149 go」、選「新造英國船」：TASK-1149《Blocksail》1666 加勒比船型 —— 奴隸船 Guineaman（WORLD_LORE §5.1 被攔截、被解放的目標；只造船、玩法另開）。照 Henrietta Marie 那一級（約 120 噸、三桅全帆裝）照造船規格雕刻、匯入 Blockside，Blocksail 有一型畫它。",
+	"caller": "kaguya",
+	"idempotency_key": "sculpture-commission:47e50d89fa8844f0bbdf86a896725ff4",
+	"at_utc": "2026-11-01T09:51:42.1958568Z",
+	"schema_version": 1
+}

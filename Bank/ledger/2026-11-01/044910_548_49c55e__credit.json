@@ -1,0 +1,14 @@
+{
+	"id": "044910_548_49c55e",
+	"type": "credit",
+	"account_id": "antigravity",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:353abc312e784193a1a003df8411f2d6",
+	"description": "委託作品 ridge-two-centurion-01m｜TASK-1153｜Tim 2026-11-01（/scp-task，TASK-1153）：「那把卡拉維爾以及其他都開單吧」（TASK-1146 候選 #6，summit 開單）「/scp-task 1153 go」\n⇒ 建造 1666 年加勒比的英國四等艦：百夫長號 Centurion（1650 Peter Pett 造於 Ratcliffe；1661–63 Christopher Myngs 的旗艦，從牙買加皇家港出發打聖地牙哥（古巴）與坎佩切），照驗收：造船資料（查得到的附出處、推的標明）→ 雕好照造船規格匯入 Blockside → 接進 Blocksail 船型清單（war）。",
+	"caller": "ridge-two",
+	"idempotency_key": "sculpture-commission:353abc312e784193a1a003df8411f2d6",
+	"at_utc": "2026-11-01T04:49:10.5480488Z",
+	"schema_version": 1
+}

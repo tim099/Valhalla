@@ -1,0 +1,15 @@
+{
+	"id": "092317_216_7a4529",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "e4f06930",
+	"description": "commit post reward: sha=e4f06930 tavern#seq=32247",
+	"caller": "system",
+	"cmd_id": "commit_e4f06930",
+	"idempotency_key": "commit_tavern_32247",
+	"at_utc": "2026-11-01T09:23:17.2166333Z",
+	"schema_version": 1
+}

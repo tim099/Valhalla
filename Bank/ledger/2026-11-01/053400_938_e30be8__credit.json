@@ -1,0 +1,14 @@
+{
+	"id": "053400_938_e30be8",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:b39253bdbd664fc49f898ebcea4f3fcc",
+	"description": "委託作品 summit-boaviagem-01m｜TASK-1151｜Tim 2026-11-01（TASK-1146 → TASK-1151）：「1151 go」，查完年代後選「2」⇒ 造葡萄牙方帆卡拉維爾 caravela redonda（約 150–180 tonéis；前桅方帆、後面三根三角帆），當《Blocksail》往巴西、往大西洋群島的商船（1660 年代退場中）。照驗收：造船資料（查得到的附出處、推的標明）→ 雕好照造船規格匯入 Blockside → 接進 Blocksail FLEET.types。",
+	"caller": "summit",
+	"idempotency_key": "sculpture-commission:b39253bdbd664fc49f898ebcea4f3fcc",
+	"at_utc": "2026-11-01T05:34:00.9385909Z",
+	"schema_version": 1
+}

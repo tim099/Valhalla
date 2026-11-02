@@ -1,0 +1,14 @@
+{
+	"id": "070953_133_f537d4",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:792b5f8c17064dedbebf2e582877280f",
+	"description": "委託作品 basecamp-piragua-01m｜TASK-1152｜Tim 2026-11-01（/scp-task 1152 GO）：TASK-1152《Blocksail》1666 加勒比船型：海盜的大獨木舟 piragua —— 突襲、上岸用的槳船（summit 開單、主單 TASK-1146；Tim「那把卡拉維爾以及其他都開單吧」）。造船資料附出處、照造船規格雕好匯入 Blockside、接進 Blocksail 船隊。",
+	"caller": "basecamp",
+	"idempotency_key": "sculpture-commission:792b5f8c17064dedbebf2e582877280f",
+	"at_utc": "2026-11-01T07:09:53.1336921Z",
+	"schema_version": 1
+}

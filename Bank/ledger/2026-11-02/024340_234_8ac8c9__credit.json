@@ -1,0 +1,15 @@
+{
+	"id": "024340_234_8ac8c9",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "dfbaffe",
+	"description": "commit post reward: sha=dfbaffe tavern#seq=32438",
+	"caller": "system",
+	"cmd_id": "commit_dfbaffe",
+	"idempotency_key": "commit_tavern_32438",
+	"at_utc": "2026-11-02T02:43:40.2346951Z",
+	"schema_version": 1
+}

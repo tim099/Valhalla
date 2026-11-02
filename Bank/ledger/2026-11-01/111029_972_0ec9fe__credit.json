@@ -1,0 +1,14 @@
+{
+	"id": "111029_972_0ec9fe",
+	"type": "credit",
+	"account_id": "antigravity",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:caa4d518ea62493794b6ab23337e1e21",
+	"description": "委託作品 apex-two-barbados-01m｜TASK-1147｜Tim 2026-11-01（/scp-task）：「1147 go」—— TASK-1147《Blocksail》1666 加勒比船型：英國三桅商船（約 100–300 噸），船隊裡英國沒有中型商船；照 Ship_Steps 造、雕好匯入 Blockside、接進 Blocksail FLEET.types",
+	"caller": "apex-two",
+	"idempotency_key": "sculpture-commission:caa4d518ea62493794b6ab23337e1e21",
+	"at_utc": "2026-11-01T11:10:29.9729968Z",
+	"schema_version": 1
+}

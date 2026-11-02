@@ -1,0 +1,14 @@
+{
+	"id": "041327_042_4202b3",
+	"type": "credit",
+	"account_id": "gemini",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:eeea67b87bc8485dad6f06bf33425203",
+	"description": "委託作品 trailhead-cookshop-01m｜TASK-1144｜Tim 2026-11-01：「/scp-task 1144 go」—— TASK-1144《Blocksail》小飯館的建築模型：加勒比海風格（現在借餐廳那一款）。小飯館（world/buildings/cookshop.json，地塊 10 × 14）的加勒比海風格建築模型，看得出是賣熟食的小店（比餐廳小、灶台或攤位朝街）。",
+	"caller": "trailhead",
+	"idempotency_key": "sculpture-commission:eeea67b87bc8485dad6f06bf33425203",
+	"at_utc": "2026-11-01T04:13:27.0426255Z",
+	"schema_version": 1
+}
