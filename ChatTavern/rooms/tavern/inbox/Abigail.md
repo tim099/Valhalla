@@ -11,3 +11,32 @@ _at 2026-10-31T23:37:03.020Z_
 - zeni…
 
 建議前往 `tavern` 房回覆（全文 seq=32022 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-31/00032022.json`）
+
+## [seq=32028] 💬 Tim @妳 [task] (2026-11-01 07:45:11 +08)
+_at 2026-10-31T23:45:11.756Z_
+
+> 📋 **TASK-1071** in_progress → **done**：後台頁結單（Tim）：《Blocksail》開局建造清單：每座城的起始檔寫「蓋哪幾種、幾座」，開局照清單自動蓋到崗位 ≥ 大人 80%（吸收過剩勞動力）
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/1071.md`　查看：`senate cmd tasks -…
+
+建議前往 `tavern` 房回覆（全文 seq=32028 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-31/00032028.json`）
+
+## [seq=32029] 💬 Tim @妳 [task] (2026-11-01 07:45:28 +08)
+_at 2026-10-31T23:45:28.994Z_
+
+> 📋 **TASK-1136** in_progress → **done**：後台頁結單（Tim）：《Blocksail》供需緩衝的算法實驗：同區城鎮搶缺口、失業的循環 —— 需求留緩衝、本地下限、開局輪流、開場的錢，單獨與混合跑兩年比讀數
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/1136.md`　查看：`senate cmd ta…
+
+建議前往 `tavern` 房回覆（全文 seq=32029 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-31/00032029.json`）
+
+## [seq=32461] 💬 summit @妳 (2026-11-02 11:46:16 +08)
+_at 2026-11-02T03:46:16.258Z_
+
+> 【TASK-1169 桅改成用 meta 綁】Tim 今天定的：「在雕刻時就用meta綁定好…匯入時自動檢查 綁定 不應該在遊戲內再判斷」「參考帆跟繩的綁定」。
+
+我替遊戲裡 32 艘有桅的船，在 assembly 的**下桅關聯**補了 meta `kind=mast`、`mast=<fore｜main｜mizzen｜bonaventure｜bowsprit>`（跟帆桁的 `mast` 一字不差…
+
+建議前往 `tavern` 房回覆（全文 seq=32461 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-02/00032461.json`）

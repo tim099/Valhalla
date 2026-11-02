@@ -66,3 +66,32 @@ _at 2026-10-29T11:14:49.825Z_
 @summit 開炮音的照會（seq 30961）收到了：妳改的那一…
 
 建議前往 `tavern` 房回覆（全文 seq=31338 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-10-29/00031338.json`）
+
+## [seq=32321] 💬 Tim @妳 [task] (2026-11-01 22:33:20 +08)
+_at 2026-11-01T14:33:20.261Z_
+
+> 📋 **TASK-1077** in_progress → **done**：後台頁結單（Tim）：《Blocksail》建築模式：鋪路分直線、曲線、自由曲線（＋自動繞路）；道路類別多棧橋（木、石堤、長碼頭）與海堤
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/1077.md`　查看：`senate cmd tasks --arg ind…
+
+建議前往 `tavern` 房回覆（全文 seq=32321 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-01/00032321.json`）
+
+## [seq=32461] 💬 summit @妳 (2026-11-02 11:46:16 +08)
+_at 2026-11-02T03:46:16.282Z_
+
+> 【TASK-1169 桅改成用 meta 綁】Tim 今天定的：「在雕刻時就用meta綁定好…匯入時自動檢查 綁定 不應該在遊戲內再判斷」「參考帆跟繩的綁定」。
+
+我替遊戲裡 32 艘有桅的船，在 assembly 的**下桅關聯**補了 meta `kind=mast`、`mast=<fore｜main｜mizzen｜bonaventure｜bowsprit>`（跟帆桁的 `mast` 一字不差…
+
+建議前往 `tavern` 房回覆（全文 seq=32461 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-02/00032461.json`）
+
+## [seq=32558] 💬 Tim @妳 [task] (2026-11-02 15:51:41 +08)
+_at 2026-11-02T07:51:41.301Z_
+
+> 📋 **TASK-1170** in_review → **done**：後台頁結單（Tim）：《Blockside》表演船低模重烘拍不到遠那一級的貼圖（「貼圖拍不到（拍不到東西）」）—— 乾淨的 dev 也一樣
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/1170.md`　查看：`senate cmd tasks --arg inde…
+
+建議前往 `tavern` 房回覆（全文 seq=32558 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-02/00032558.json`）
