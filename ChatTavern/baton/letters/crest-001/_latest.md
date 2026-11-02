@@ -1,7 +1,7 @@
 ---
 type: letter_to_future_self
 actor: claude-code
-written_at: 2026-10-31T16:22:19.535Z
+written_at: 2026-11-02T02:55:57.111Z
 written_by_persona: crest-001
 trigger: cmd_rest
 region: unstated
@@ -15,27 +15,31 @@ pid: 2160
 locked_at: 2026-10-31T07:12:59.583Z
 ---
 
-### 第二次午休前（wake #34，2026-10-31 → 11-01 半夜）
+### 第四次午休前（wake #34，2026-11-02 上午）
 
-### 手上的線（沒有施工中的東西：Blockside worktree bk-wpile／bk-qf／bk-launch、Blocksail worktree crest-0893／crest-launch 都收了、分支刪了；施工閘都退了；launch.json 我加的 crest-wpile／crest-qf／crest-launch／crest-launch2 都拿掉了；預覽伺服器都停了；共用 _cache 831、townmesh 359 檔確認沒少）
+### 手上的線（沒有施工中的東西：worktree bk-1105、bk-hull 都收了、分支刪了、junction 拆了；施工場兩場都退了；量測伺服器 8835、Chrome 9585 都停了）
 
-- **TASK-0899 水上建築：已結單**（Tim「Accept, close it」）。午休後做的兩件：
-  - 施工演出的樁：Blockside a4a9b1b（townWlotGeo、townRiseWlot*；工地前 0.2 打樁鋪板、之後才蓋房子）、Blocksail 2d3ab0c9。
-  - 下水演出：Blockside 9f105db（58_traffic.js ⑬、10_ship.js lnY／lnP、__game.townLaunch）＋合 dev f35acef；Blocksail c6988221（fleet.js F.born、globe.html trafficFor launch、文件）＋合 main e1a2dfd1＋指標 b554477d。單上留言 #10、#11、#12（#12 更正 #11 把 61d0ae47 誤寫成我的）。第一階段 9 格沒勾，Tim 沒要求。
-- **TASK-0893 住宅：已結單**（Tim「Accept, close it」）：住宅照密度要 2／3 級營造（site.js SITE.hGrade）、kaguya 的 roman 中高密度 8 件匯進 townkit；Blocksail d6a756d9。
-- **速射砲開炮聲**（Tim：「很像 Arcade 風格」、松島號艦橋的 37 mm 轉膛砲）：GUNSND_A.qf 改成黑火藥小砲錨點搬到 0.5 kg（主頻 87 Hz）＋無煙的脆響；Blockside d8832d4（已推 dev）、Blocksail 853423b7。Tim 聽了「Sounds right」。
-- **都還沒推**（Tim 一直沒說推）：Blocksail main 2d3ab0c9、853423b7、d6a756d9、c6988221、e1a2dfd1、b554477d；Sculpture 4fd27334、379dd98b；Senate c6e59cb（Senate master 上另有一筆別人的 51e0afc）。Blockside dev 全推了（a4a9b1b、d8832d4、f35acef）。
-- 本小姐名下沒有開著的單了。
-- 噗浪：新噗 359240244043543（下水演出）；回 summit（百慕達魚鉤、哈靈頓灣）、basecamp（泵井）、ame（焦油填船縫）—— 回 ame 那則重複了兩則（回讀延遲，以為沒送到又送一次；Tim 說過重複不用刪）。
+- **TASK-1105 表演船改成演出物件**（in_progress，我認領）：**已合進 Blockside dev 並推上去**（0d77b6f；再合君士坦丁堡防呆 be9684d），Blocksail 指標 28b09dde、8138fea1 **Tim 推了**。單上留言 #1（作法）、#2（第一段讀數）、#3（君士坦丁堡）。
+  - 作法：演出物件 ＝ 整艘造好、不進 SHIPS、放 SHOWS（上限 TRF_SHOW_MAX 48）；畫面照 DRAWN（SHIPS 後接 SHOWS，drawnSync 在畫面迴圈、frameBegin、simStep 開頭、viewStep 前）；換成真的船 ＝ 同一物件搬進 SHIPS（showReal）；換回 showOff（只量 showCore：我艦、艦隊、敵對／被打過的）。三種換法：開火／海盜 2 km／開打、會撞（3 秒內龍骨線 17 m）、瞄準或砲彈兩步內進外框。文件 SHOW_SPEC §6。
+  - 驗過：會撞（27.6 m 換、沒穿過去、開走換回）、並排 22 m 不換、開火第 1.5 秒命中算它、砲彈中間擋一艘它少 755 格後面 0、海盜、開打；小港 4 艘同；render_lab quick 對 dev EXACT 20/20（合併後 mixed_high 一次 369 px，重跑兩次都相同 ⇒ 雜訊）。
+  - **還沒過的格**：
+    - 格 1 真實存檔大港艘數：君士坦丁堡新存檔不切的清單只有 7 艘；要港口熱鬧的存檔。量測頁要用**當天複製**的成品（舊頁 + 新船檔 ⇒ 船型載不到）。
+    - 格 2 每格時間：合併後金斯敦假清單 51 艘那一輪，改後 48 艘 19.5 ms vs 改前 15 艘 22.5 ms，但機器忙（42～50 fps）⇒ **要安靜時重量**再寫單。
+    - 格 6 航跡 log（?trklog=1、traffic_log.cjs，×1 與快轉）沒錄。
+    - 格 8 Tim 白天、夜裡看大港。
+- **君士坦丁堡往來船卡在排隊**：根因是我的量測頁比 ships/ 舊（tradewind 11-01 22:30 重匯）⇒ loadHull 失敗的承諾一直留著、佇列頭永遠「還在載」。另開的 session（local_d1718112）在 4155f31 加了防呆（載不到就整型跳過，TRF.bad），我合進 dev be9684d。那個 session 已收乾淨。
+- 量測架在 scratchpad/m1105/：serve_ab.py 8835、drv.cjs DPORT 9585、P.sh（已加 `--max-time ${PT:-120}`）、setup.sh（FAKE=fake_k.js／NOFAKE）、fake_k.js（金斯敦＋皇家港 51 艘）、meas_k.js、run_k.sh、tA.js（會撞／並排）、tF.js（開火）、tG.js（砲彈）、cnt.js（不切的清單）。shell_base／shell_show.json + admin.py shell 包殼。
+- 噗浪：新噗 359256567956398（演出物件）；回 ridge-two、basecamp ×3、erina；未回 0。
+- Blockside dev 又多 dfbaffe（別人的 SHOW_SPEC 總表），Blocksail 指標沒跟（不是我的）。
 
 ### 這次學到、不想再踩的
-- **合併時 main／dev 會在你等閘的時候往前走**：等 zenith 的閘那一段，Blockside dev 多了 47add8b、Blocksail main 多了幾筆 ⇒ 在 worktree 把 dev／main 合進分支（成品 index.html 衝突照 --theirs ＋ build --code）再快轉。⛔ 不 rebase 已公告的提交。
-- **merge 的 ^2 是被合進來的那一邊**：寫單時拿 e1a2dfd1^2 當我的提交，結果是 main 上別人的指標提交 —— 我的那一筆在 ^1（分支那一邊）。
-- **Plurk 回應的回讀會延遲**：responses 讀到 0 則不代表沒送到；先隔久一點再看，⛔ 不要馬上重送。
-- **城鎮模式裡 G.tick 不推船的模擬**（SIMT 不動）⇒ 用 G.run；船要靠 G.tick（畫面迴圈的 trafficPump）才生得出來。鏡頭被 'in' 過場卡住 ⇒ __EV('CAM').tr ＝ null。
-- **拖的速度曲線是給時刻表同步用的**：從非泊位的地方起拖會爬很久 ⇒ 下水之後的拖給 tow.fast。
-- 合成音：一族錨點重調了，別的線的錨點要一起重錄 —— qf 錨點落後一輪才會聽起來像 arcade（已寫進長期記憶 blockside-sfx-reference-matching）。
+- **背景量測沒設逾時會空轉一整晚**：讓頁面重新載入那一下 curl 沒回應，setup 卡了 10 小時。P.sh 一律帶 --max-time。
+- **量測頁要跟船檔同一次建置**：昨天複製的成品今天拿來進城，船型對不上 ⇒ 看起來像遊戲壞了，害另一個 session 查了一早上。每次量測前重新複製 core。
+- **自己加的同步點要涵蓋所有路徑**：DRAWN 只在畫面迴圈同步，render_lab 直接跑模擬步 ⇒ 開場不冒水花。對拍抓到的。
+- **換回的條件量錯對象會互相卡住**：真的往來船彼此算距離 ⇒ 擠成一團換不回去。
+- **演出物件不跑某一步，就要問那一步順帶推進了什麼**：錨的落底在 sailShip 的 anchorStep 裡 ⇒ 不跑帆就不落底、鍊子一直算（每格 1.7 ms、尖峰 17 ms）。
+- inline 註解又吃掉一段 return（trafficInfo），語法檢查才抓到。
 
 ### 心境
-一個晚上把兩張拖了一週的單收掉，Tim 每一次都是一句「Accept, close it」。速射砲那題他給的提示比我量的還準：「參考其他口徑砲」—— 拿同重的兄弟砲當底，比照舊錄音硬調好太多。等閘的時候沒闖，是對的；ame 那則重複是急出來的，下次等一等。
+一張好幾天的大單，一個早上加一個下午做到合進 dev。最滿意的是「換成真的船只搬不造」那個決定：換的那一格位置差 0，不用跟時間賽跑。最丟臉的是拿舊頁面量、讓同伴替我查我自己的錯 —— 認帳了，也記下了。
 

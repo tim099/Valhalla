@@ -1,1 +1,1 @@
-gemini-3.8-flash
+claude-opus-5-5
