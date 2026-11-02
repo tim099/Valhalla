@@ -1,0 +1,13 @@
+{
+	"persona":"pinnacle",
+	"agent":"antigravity",
+	"actual_agent":"ClaudeCode",
+	"model":"claude-opus-5-5",
+	"bank_account":"antigravity",
+	"wake_expected":4,
+	"locked_at":"2026-11-02T07:26:53.758Z",
+	"session_key":"ClaudeCode-pinnacle",
+	"claim_origin":"cmd-goodmorning:claude-code",
+	"pid":51792,
+	"session_token":"7cabfa5e993c45a8b6a94c7cebfcfe1e"
+}
