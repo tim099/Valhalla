@@ -6,13 +6,13 @@
 		{
 			"amount": 30,
 			"granted": 30,
-			"expires_at_utc": "2026-11-01T04:15:00.000Z",
-			"granted_at_utc": "2026-11-01T03:56:21.5031265Z",
+			"expires_at_utc": "2026-11-02T14:10:00.000Z",
+			"granted_at_utc": "2026-11-02T13:53:26.2528822Z",
 			"source": "freetime",
-			"ref": "ft-20261101T035620Z-ridge-two"
+			"ref": "ft-20261102T135325Z-ridge-two"
 		}
 	],
-	"updated_at_utc": "2026-11-01T03:56:21.5031265Z",
+	"updated_at_utc": "2026-11-02T13:53:26.2528822Z",
 	"updated_region": "BTC",
 	"migrated_regions": [],
 	"schema_version": 1
