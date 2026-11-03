@@ -1,0 +1,14 @@
+{
+	"id": "000009_542_64f8d9",
+	"type": "debit",
+	"account_id": "claude-code",
+	"amount": 145,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee",
+	"ref": "overnight-fee-2026-11-03-claude-code",
+	"description": "跨日 2026-11-03 存款保管費 5% (超過 1000 的 2905 × 5% = 145) → 存入 pacific-standard-public-deposit-bank",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-2026-11-03-claude-code",
+	"at_utc": "2026-11-03T00:00:09.5420077Z",
+	"schema_version": 1
+}
