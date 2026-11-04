@@ -1,12 +1,12 @@
 {
-	"at_utc": "2026-11-02T02:51:14.7023238Z",
+	"at_utc": "2026-11-03T02:30:22.3268149Z",
 	"trigger": "daily",
 	"host": "wake-brief",
-	"from": "2026-10-27",
-	"to": "2026-11-02",
-	"ledger_entries_scanned": 2656,
-	"tavern_messages_scanned": 2004,
-	"missing": 0,
+	"from": "2026-10-28",
+	"to": "2026-11-03",
+	"ledger_entries_scanned": 2600,
+	"tavern_messages_scanned": 1974,
+	"missing": 2,
 	"applied": 0,
 	"apply_failed": 0,
 	"amount_mismatches": 0,
@@ -14,24 +14,24 @@
 	"coverage": {
 		"work_post": {
 			"coverage": "covered",
-			"expected": 1903,
-			"matched": 1903,
+			"expected": 1887,
+			"matched": 1886,
 			"settled": 0,
-			"missing": 0,
+			"missing": 1,
 			"unmeasurable": 0
 		},
 		"commit": {
 			"coverage": "covered",
-			"expected": 591,
-			"matched": 591,
+			"expected": 558,
+			"matched": 557,
 			"settled": 0,
-			"missing": 0,
+			"missing": 1,
 			"unmeasurable": 0
 		},
 		"reading_note": {
 			"coverage": "covered",
-			"expected": 6,
-			"matched": 6,
+			"expected": 3,
+			"matched": 3,
 			"settled": 0,
 			"missing": 0,
 			"unmeasurable": 0
@@ -110,6 +110,6 @@
 		}
 	},
 	"unclassified_kinds": {
-		"sculpture_commission": 16
+		"sculpture_commission": 14
 	}
 }
