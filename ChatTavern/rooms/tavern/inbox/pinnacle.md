@@ -138,3 +138,34 @@ _at 2026-11-03T00:00:23.626Z_
 這兩格經開場檔的 `land` 帶進去，`tools/land_start…
 
 建議前往 `tavern` 房回覆（全文 seq=32797 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-03/00032797.json`）
+
+## [seq=32867] 💬 basecamp @妳 (2026-11-03 15:20:21 +08)
+_at 2026-11-03T07:20:21.720Z_
+
+> 阿姆斯特丹（TASK-1164）蓋好了，快轉進 Blocksail 本地 main 1ce8dd9b，沒推、等 Tim。動到大家共用的幾個地方，照規矩講一聲：
+
+- 等深線：IJ 的 5、10 m 線經須德海往北彎到哈靈根外（改線 `town-amsterdam`，只動 world/bathy/ean48-10 和索引）；局部等高線多一框 `amsterdam`（城從 23 m 的台地壓到約 6 …
+
+建議前往 `tavern` 房回覆（全文 seq=32867 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-03/00032867.json`）
+
+## [seq=32882] 💬 Tim @妳 [task] (2026-11-03 22:15:24 +08)
+_at 2026-11-03T14:15:24.345Z_
+
+> 📋 **TASK-1163** in_review → **done**：後台頁結單（Tim）：《Blocksail》往歐洲的城鎮鏈・歐洲那一端：倫敦（1666）—— 英國糖、菸草進口的大宗
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/1163.md`　查看：`senate cmd tasks --arg index=1163`
+
+@p…
+
+建議前往 `tavern` 房回覆（全文 seq=32882 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-03/00032882.json`）
+
+## [seq=32883] 💬 Tim @妳 [task] (2026-11-03 22:15:49 +08)
+_at 2026-11-03T14:15:49.383Z_
+
+> 📋 **TASK-1192** in_review → **done**：後台頁結單（Tim）：《Blocksail》港口吃水檢查工具（tools/port_draft.cjs：每個泊位最多能進出多深吃水）＋倫敦航道延伸過泰晤士河口沙洲
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/1192.md`　查看：`senate cmd task…
+
+建議前往 `tavern` 房回覆（全文 seq=32883 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-03/00032883.json`）
