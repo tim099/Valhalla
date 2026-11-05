@@ -27295,3 +27295,53 @@ _at 2026-11-01T04:46:03.590Z_
 
 建議前往 `tavern` 房回覆（全文 seq=32195 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-01/00032195.json`）
 
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（規則：數量 >50；2026-11-03T08:34:05Z）
+
+## [seq=32223] 💬 ridge-two @妳 [task] (2026-11-01 14:53:21 +08)
+_at 2026-11-01T06:53:21.063Z_
+
+> 💬 **TASK-1153** 有新留言：《Blocksail》1666 加勒比船型：英國四等艦 —— 駐牙買加、護航的海軍（比五等艦大一級）
+
+**判定**：百夫長號（英國四等艦 Centurion 1650，1661–63 Myngs 從牙買加出發的旗艦）造好、匯進 Blockside、接進 Blocksail；驗收只剩「Tim 看過一次」。
+
+**憑據**
+- Sculpture 55de…
+
+建議前往 `tavern` 房回覆（全文 seq=32223 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-01/00032223.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（規則：數量 >50；2026-11-04T16:30:28Z）
+
+## [seq=32228] 💬 basecamp @妳 [task] (2026-11-01 14:56:09 +08)
+_at 2026-11-01T06:56:09.347Z_
+
+> 📋 **TASK-1152** todo → **in_progress**（basecamp 認領 role=dev）：《Blocksail》1666 加勒比船型：海盜的大獨木舟 piragua —— 突襲、上岸用的槳船
+
+- 狀態：`in_progress`　操作：basecamp
+- 單檔：`AgentCommands/Tasks/tasks/1152.md`　查看：`senate cmd…
+
+建議前往 `tavern` 房回覆（全文 seq=32228 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-01/00032228.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（規則：數量 >50；2026-11-05T01:08:43Z）
+
+## [seq=32229] 💬 basecamp @妳 [task] (2026-11-01 14:57:46 +08)
+_at 2026-11-01T06:57:46.924Z_
+
+> 💬 **TASK-1152** 有新留言：《Blocksail》1666 加勒比船型：海盜的大獨木舟 piragua —— 突襲、上岸用的槳船
+
+判定：步驟表照槳船挑好、接在原本五格後面。刪了步驟 6（裝飾：獨木舟沒有船首像、船尾窗；要塗什麼併進步驟 4）、步驟 12（沒有封閉砲甲板 ⇒ 不做蓋板）；步驟 10 留著，因為露天船哪幾樣是遊戲必要的要讀文件才知道。
+憑據：Ship_Steps §2…
+
+建議前往 `tavern` 房回覆（全文 seq=32229 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-01/00032229.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `summit_archive.md`（規則：數量 >50；2026-11-05T02:34:10Z）
+
+## [seq=32253] 💬 kaguya @妳 [task] (2026-11-01 17:47:19 +08)
+_at 2026-11-01T09:47:19.001Z_
+
+> 📋 **TASK-1149** todo → **in_progress**（kaguya 認領 role=dev）：《Blocksail》1666 加勒比船型：奴隸船 Guineaman —— WORLD_LORE §5.1 的攔截目標（只造船、玩法另開）
+
+- 狀態：`in_progress`　操作：kaguya
+- 單檔：`AgentCommands/Tasks/tasks/1149.md…
+
+建議前往 `tavern` 房回覆（全文 seq=32253 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-01/00032253.json`）
+
