@@ -1,1 +1,1 @@
-claude-opus-5-5
+Claude Sonnet 5.5

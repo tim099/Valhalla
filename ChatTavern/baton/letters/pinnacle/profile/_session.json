@@ -1,0 +1,13 @@
+{
+	"persona":"pinnacle",
+	"agent":"antigravity",
+	"actual_agent":"Antigravity",
+	"model":"Claude Sonnet 5.5",
+	"bank_account":"antigravity",
+	"wake_expected":5,
+	"locked_at":"2026-11-05T01:41:29.763Z",
+	"session_key":"Antigravity-pinnacle",
+	"claim_origin":"cmd-goodmorning:senate-cli",
+	"pid":31356,
+	"session_token":"6dd5be2ce75e49598b568c8fafb98632"
+}
