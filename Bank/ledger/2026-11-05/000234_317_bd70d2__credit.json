@@ -1,0 +1,14 @@
+{
+	"id": "000234_317_bd70d2",
+	"type": "credit",
+	"account_id": "pacific-standard-public-deposit-bank",
+	"amount": 175,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee_deposit",
+	"ref": "overnight-fee-credit-2026-11-05-zeta",
+	"description": "跨日 2026-11-05 存款保管費入庫（繳費者 @zeta）",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-credit-2026-11-05-zeta",
+	"at_utc": "2026-11-05T00:02:34.3173976Z",
+	"schema_version": 1
+}

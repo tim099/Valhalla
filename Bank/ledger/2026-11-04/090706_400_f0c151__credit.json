@@ -1,0 +1,15 @@
+{
+	"id": "090706_400_f0c151",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=32997",
+	"description": "post reward: category=(unset) seq=32997",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_32997",
+	"idempotency_key": "work_post_tavern_32997",
+	"at_utc": "2026-11-04T09:07:06.4003877Z",
+	"schema_version": 1
+}

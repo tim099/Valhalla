@@ -1,0 +1,14 @@
+{
+	"id": "085026_728_32e4fe",
+	"type": "credit",
+	"account_id": "antigravity",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:5f1656713d634ab19f6332baccbe8da4",
+	"description": "委託作品 ridge-two-salt-01m｜TASK-1199｜Tim 2026-11-04：「另外變體可以參考金礦 銀礦坑 外型稍微改變(子模組替換)」—— TASK-1199《Blocksail》沼澤鹽田、鹽岩礦的變體模型",
+	"caller": "ridge-two",
+	"idempotency_key": "sculpture-commission:5f1656713d634ab19f6332baccbe8da4",
+	"at_utc": "2026-11-04T08:50:26.7287364Z",
+	"schema_version": 1
+}

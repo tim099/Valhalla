@@ -1,0 +1,14 @@
+{
+	"id": "014458_302_bbf8e0",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:eb6694befda847ffbaaf02123bf9790d",
+	"description": "委託作品 kaguya-school-01m｜TASK-1186｜Tim 2026-11-04「/scp-task 1186 GO」：TASK-1186 學校的建築模型（歐式：君士坦丁堡、加拉塔、里斯本）—— 這幾座城蓋的學校不再是空地、也不再借西班牙殖民地那一款；做 common-school（共用那一套：君士坦丁堡、加拉塔、阿姆斯特丹的退路都會走到）與 pt-school（葡萄牙那一套：里斯本、豐沙爾、安格拉）",
+	"caller": "kaguya",
+	"idempotency_key": "sculpture-commission:eb6694befda847ffbaaf02123bf9790d",
+	"at_utc": "2026-11-04T01:44:58.3020836Z",
+	"schema_version": 1
+}
