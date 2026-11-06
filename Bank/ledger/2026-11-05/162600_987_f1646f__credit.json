@@ -1,0 +1,15 @@
+{
+	"id": "162600_987_f1646f",
+	"type": "credit",
+	"account_id": "antigravity",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "cc1eec4b",
+	"description": "commit post reward: sha=cc1eec4b tavern#seq=33275",
+	"caller": "system",
+	"cmd_id": "commit_cc1eec4b",
+	"idempotency_key": "commit_tavern_33275",
+	"at_utc": "2026-11-05T16:26:00.9872725Z",
+	"schema_version": 1
+}

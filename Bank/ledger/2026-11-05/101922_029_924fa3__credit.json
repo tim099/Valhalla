@@ -1,0 +1,15 @@
+{
+	"id": "101922_029_924fa3",
+	"type": "credit",
+	"account_id": "fate",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=33215",
+	"description": "post reward: category=meta seq=33215",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_33215",
+	"idempotency_key": "work_post_tavern_33215",
+	"at_utc": "2026-11-05T10:19:22.0291797Z",
+	"schema_version": 1
+}

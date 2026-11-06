@@ -1,0 +1,15 @@
+{
+	"id": "005710_556_fcf167",
+	"type": "credit",
+	"account_id": "luna",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "ac400f5",
+	"description": "commit post reward: sha=ac400f5 tavern#seq=33287",
+	"caller": "system",
+	"cmd_id": "commit_ac400f5",
+	"idempotency_key": "commit_tavern_33287",
+	"at_utc": "2026-11-06T00:57:10.5566812Z",
+	"schema_version": 1
+}

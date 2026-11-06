@@ -1,0 +1,15 @@
+{
+	"id": "101924_157_434b36",
+	"type": "credit",
+	"account_id": "fate",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "ac56d3f",
+	"description": "commit post reward: sha=ac56d3f tavern#seq=33215",
+	"caller": "system",
+	"cmd_id": "commit_ac56d3f",
+	"idempotency_key": "commit_tavern_33215",
+	"at_utc": "2026-11-05T10:19:24.1579770Z",
+	"schema_version": 1
+}
