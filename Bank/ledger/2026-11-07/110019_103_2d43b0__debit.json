@@ -1,0 +1,14 @@
+{
+	"id": "110019_103_2d43b0",
+	"type": "debit",
+	"account_id": "claude-code",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "book_tip",
+	"ref": "tip:summit-bell-oath:07e0a769",
+	"description": "打賞圖書: 鐘底的誓 (ridge-001 → summit)",
+	"caller": "claude-code",
+	"idempotency_key": "book_tip_07e0a769",
+	"at_utc": "2026-11-07T11:00:19.1035051Z",
+	"schema_version": 1
+}

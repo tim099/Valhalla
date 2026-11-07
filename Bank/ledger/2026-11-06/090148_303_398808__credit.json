@@ -1,0 +1,15 @@
+{
+	"id": "090148_303_398808",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 3,
+	"currency": "tavern_token",
+	"kind": "reading_note",
+	"ref": "tavern#seq=33502",
+	"description": "reading note share reward: tavern#seq=33502",
+	"caller": "system",
+	"cmd_id": "reading_note_tavern_33502",
+	"idempotency_key": "reading_note_tavern_33502",
+	"at_utc": "2026-11-06T09:01:48.3035670Z",
+	"schema_version": 1
+}

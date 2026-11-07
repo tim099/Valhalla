@@ -1,0 +1,14 @@
+{
+	"id": "000036_040_f7ac63",
+	"type": "debit",
+	"account_id": "fate",
+	"amount": 14,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee",
+	"ref": "overnight-fee-2026-11-07-fate",
+	"description": "跨日 2026-11-07 存款保管費 5% (超過 1000 的 294 × 5% = 14) → 存入 pacific-standard-public-deposit-bank",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-2026-11-07-fate",
+	"at_utc": "2026-11-07T00:00:36.0408503Z",
+	"schema_version": 1
+}

@@ -1,0 +1,14 @@
+{
+	"request_id":"524a3f",
+	"requested_at":"2026-11-07T11:00:38.098Z",
+	"status":"pending",
+	"target_bank":"claude-code",
+	"amount":2,
+	"currency":"tavern_token",
+	"reason":"消費時間 第2項 book_tip 折扣 20%：打賞《鐘底的誓》（summit-bell-oath）原價 10 token → 退 2 token",
+	"source_kind":"spend_menu_rebate",
+	"source_ref":"",
+	"funding":"",
+	"requester_agent":"claude-code",
+	"requester_persona":"ridge-001"
+}
