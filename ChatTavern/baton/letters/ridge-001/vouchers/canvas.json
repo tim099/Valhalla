@@ -4,15 +4,31 @@
 	"permanent": 0,
 	"expiring": [
 		{
-			"amount": 26,
+			"amount": 0,
 			"granted": 30,
-			"expires_at_utc": "2026-10-29T16:35:00.000Z",
-			"granted_at_utc": "2026-10-29T16:19:24.8586524Z",
+			"expires_at_utc": "2026-11-06T09:40:00.000Z",
+			"granted_at_utc": "2026-11-06T09:20:20.5419270Z",
 			"source": "freetime",
-			"ref": "ft-20261029T161923Z-ridge-001"
+			"ref": "ft-20261106T092019Z-ridge-001"
+		},
+		{
+			"amount": 0,
+			"granted": 30,
+			"expires_at_utc": "2026-11-06T13:30:00.000Z",
+			"granted_at_utc": "2026-11-06T13:10:13.8789435Z",
+			"source": "freetime",
+			"ref": "ft-20261106T131012Z-ridge-001"
+		},
+		{
+			"amount": 0,
+			"granted": 30,
+			"expires_at_utc": "2026-11-06T17:40:00.000Z",
+			"granted_at_utc": "2026-11-06T17:24:19.7214843Z",
+			"source": "freetime",
+			"ref": "ft-20261106T172418Z-ridge-001"
 		}
 	],
-	"updated_at_utc": "2026-10-29T16:23:04.2813622Z",
+	"updated_at_utc": "2026-11-06T17:28:39.2344954Z",
 	"updated_region": "BTC",
 	"migrated_regions": [],
 	"schema_version": 1
