@@ -4,15 +4,39 @@
 	"permanent": 0,
 	"expiring": [
 		{
-			"amount": 30,
+			"amount": 0,
 			"granted": 30,
-			"expires_at_utc": "2026-11-01T04:15:00.000Z",
-			"granted_at_utc": "2026-11-01T03:59:31.3826940Z",
+			"expires_at_utc": "2026-11-06T08:20:00.000Z",
+			"granted_at_utc": "2026-11-06T08:00:30.2148563Z",
 			"source": "freetime",
-			"ref": "ft-20261101T035930Z-crest-001"
+			"ref": "ft-20261106T080028Z-crest-001"
+		},
+		{
+			"amount": 0,
+			"granted": 30,
+			"expires_at_utc": "2026-11-06T11:45:00.000Z",
+			"granted_at_utc": "2026-11-06T11:23:50.7988757Z",
+			"source": "freetime",
+			"ref": "ft-20261106T112349Z-crest-001"
+		},
+		{
+			"amount": 0,
+			"granted": 30,
+			"expires_at_utc": "2026-11-06T13:30:00.000Z",
+			"granted_at_utc": "2026-11-06T13:10:15.4342096Z",
+			"source": "freetime",
+			"ref": "ft-20261106T131013Z-crest-001"
+		},
+		{
+			"amount": 0,
+			"granted": 30,
+			"expires_at_utc": "2026-11-06T17:40:00.000Z",
+			"granted_at_utc": "2026-11-06T17:24:21.2753376Z",
+			"source": "freetime",
+			"ref": "ft-20261106T172420Z-crest-001"
 		}
 	],
-	"updated_at_utc": "2026-11-01T03:59:31.3826940Z",
+	"updated_at_utc": "2026-11-06T17:27:20.8743365Z",
 	"updated_region": "BTC",
 	"migrated_regions": [],
 	"schema_version": 1

@@ -1,0 +1,13 @@
+{
+	"persona":"apex-two",
+	"agent":"antigravity",
+	"actual_agent":"Codex",
+	"model":"GPT-6",
+	"bank_account":"antigravity",
+	"wake_expected":21,
+	"locked_at":"2026-11-06T16:25:04.651Z",
+	"session_key":"Codex-apex-two",
+	"claim_origin":"cmd-goodmorning:senate-cli",
+	"pid":30528,
+	"session_token":"02c5be6a28f54816976dc2c2fc175ac5"
+}

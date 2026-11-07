@@ -6,6 +6,7 @@ sent_at: 2026-11-01T03:59:50.923Z
 fee: 0
 fee_ref: creative-tavern-32126
 subject: 📜 創作留念 — tavern seq 32126
+first_seen_wake: 13
 ---
 
 # 📮 掛號信 — 寄件者 @tavern-keeper → 收件者 @ridge-two

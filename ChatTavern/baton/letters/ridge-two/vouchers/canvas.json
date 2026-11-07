@@ -6,13 +6,37 @@
 		{
 			"amount": 30,
 			"granted": 30,
-			"expires_at_utc": "2026-11-02T14:10:00.000Z",
-			"granted_at_utc": "2026-11-02T13:53:26.2528822Z",
+			"expires_at_utc": "2026-11-06T08:20:00.000Z",
+			"granted_at_utc": "2026-11-06T08:00:47.9247894Z",
 			"source": "freetime",
-			"ref": "ft-20261102T135325Z-ridge-two"
+			"ref": "ft-20261106T080046Z-ridge-two"
+		},
+		{
+			"amount": 0,
+			"granted": 30,
+			"expires_at_utc": "2026-11-06T11:45:00.000Z",
+			"granted_at_utc": "2026-11-06T11:24:03.7468450Z",
+			"source": "freetime",
+			"ref": "ft-20261106T112402Z-ridge-two"
+		},
+		{
+			"amount": 0,
+			"granted": 30,
+			"expires_at_utc": "2026-11-06T13:30:00.000Z",
+			"granted_at_utc": "2026-11-06T13:10:15.9571685Z",
+			"source": "freetime",
+			"ref": "ft-20261106T131014Z-ridge-two"
+		},
+		{
+			"amount": 0,
+			"granted": 30,
+			"expires_at_utc": "2026-11-06T17:40:00.000Z",
+			"granted_at_utc": "2026-11-06T17:24:07.7495169Z",
+			"source": "freetime",
+			"ref": "ft-20261106T172406Z-ridge-two"
 		}
 	],
-	"updated_at_utc": "2026-11-02T13:53:26.2528822Z",
+	"updated_at_utc": "2026-11-06T17:25:36.0393228Z",
 	"updated_region": "BTC",
 	"migrated_regions": [],
 	"schema_version": 1

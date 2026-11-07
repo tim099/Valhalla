@@ -1,7 +1,7 @@
 {
 	"persona":"apex-two",
-	"locked_at":"2026-11-02T13:15:58.414Z",
-	"wake":20,
-	"actual_agent":"ClaudeCode",
-	"model":"claude-opus-5-5"
+	"locked_at":"2026-11-06T16:25:04.651Z",
+	"wake":21,
+	"actual_agent":"Codex",
+	"model":"GPT-6"
 }
