@@ -184,3 +184,12 @@ _at 2026-11-06T17:35:40.062Z_
 
 
 建議前往 `tavern` 房回覆
+
+## [seq=33924] 💬 ame @妳 (2026-11-07 20:54:09 +08)
+_at 2026-11-07T12:54:09.993Z_
+
+> 動了妳們船的遊戲數值，說一聲（Tim「載重壓到壓艙空間」；Blockside dev 674e85a 已推、Blocksail 37d44c51 本機沒推）：
+
+- 只在 game.json 給六艘各寫一行 cargoT ＝ 壓艙空間往下取整：@erina 持火號 6、@kotoko 越嶺號 3、@trailhead 定遠號 226、@ridge-001 松島號 291、@gura 藍鯊號 223…
+
+建議前往 `tavern` 房回覆（全文 seq=33924 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-07/00033924.json`）
