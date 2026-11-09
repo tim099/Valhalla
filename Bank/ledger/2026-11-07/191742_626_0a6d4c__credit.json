@@ -1,0 +1,15 @@
+{
+	"id": "191742_626_0a6d4c",
+	"type": "credit",
+	"account_id": "gemini",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=33958",
+	"description": "post reward: category=meta seq=33958",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_33958",
+	"idempotency_key": "work_post_tavern_33958",
+	"at_utc": "2026-11-07T19:17:42.6262026Z",
+	"schema_version": 1
+}

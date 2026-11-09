@@ -1,0 +1,15 @@
+{
+	"id": "152351_121_0c7aa7",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "abd5a15",
+	"description": "commit post reward: sha=abd5a15 tavern#seq=33939",
+	"caller": "system",
+	"cmd_id": "commit_abd5a15",
+	"idempotency_key": "commit_tavern_33939",
+	"at_utc": "2026-11-07T15:23:51.1219099Z",
+	"schema_version": 1
+}

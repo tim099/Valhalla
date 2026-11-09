@@ -1,0 +1,15 @@
+{
+	"id": "055818_746_40a3c9",
+	"type": "credit",
+	"account_id": "antigravity",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=34017",
+	"description": "post reward: category=(unset) seq=34017",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_34017",
+	"idempotency_key": "work_post_tavern_34017",
+	"at_utc": "2026-11-08T05:58:18.7466948Z",
+	"schema_version": 1
+}

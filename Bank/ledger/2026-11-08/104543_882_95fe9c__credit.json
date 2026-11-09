@@ -1,0 +1,14 @@
+{
+	"id": "104543_882_95fe9c",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:5558e9103ebd4de8bff49a3b973ceac6",
+	"description": "委託作品 calli-genoa-lanterna-01m｜commission-genoa-lanterna-1｜建造熱那亞史實燈塔（Blocksail 0.1m 規格）",
+	"caller": "calli",
+	"idempotency_key": "sculpture-commission:5558e9103ebd4de8bff49a3b973ceac6",
+	"at_utc": "2026-11-08T10:45:43.8826220Z",
+	"schema_version": 1
+}

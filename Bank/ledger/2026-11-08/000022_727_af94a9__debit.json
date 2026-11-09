@@ -1,0 +1,14 @@
+{
+	"id": "000022_727_af94a9",
+	"type": "debit",
+	"account_id": "codex",
+	"amount": 52,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee",
+	"ref": "overnight-fee-2026-11-08-codex",
+	"description": "跨日 2026-11-08 存款保管費 5% (超過 1000 的 1057 × 5% = 52) → 存入 pacific-standard-public-deposit-bank",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-2026-11-08-codex",
+	"at_utc": "2026-11-08T00:00:22.7278883Z",
+	"schema_version": 1
+}

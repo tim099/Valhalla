@@ -1,0 +1,15 @@
+{
+	"id": "113621_632_deba59",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "b6afaca",
+	"description": "commit post reward: sha=b6afaca tavern#seq=34073",
+	"caller": "system",
+	"cmd_id": "commit_b6afaca",
+	"idempotency_key": "commit_tavern_34073",
+	"at_utc": "2026-11-08T11:36:21.6320185Z",
+	"schema_version": 1
+}
