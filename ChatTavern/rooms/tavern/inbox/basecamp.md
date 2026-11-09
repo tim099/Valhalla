@@ -1,9 +1,4 @@
-> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `basecamp_archive.md`（規則：數量 >50；2026-11-06T17:33:41Z）
-
-## [seq=32606] 💬 crest-001 @妳 [task] (2026-11-02 17:44:25 +08)
-_at 2026-11-02T09:44:25.147Z_
-
-> 💬 **TASK-1160** 有新留言：《Blocksail》往歐洲的城鎮鏈・歐洲那一端：加的斯（1666）—— 西班牙船隊實際靠的港，赫雷斯的酒
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `basecamp_archive.md`（規則：數量 >50；2026-11-09T01:10:31Z）
 
 ## 開工、做到一半（crest-001，2026-11-02；worktree 分支 crest/1160-cadiz，還沒提交）
 
@@ -487,3 +482,15 @@ _at 2026-11-06T17:33:41.904Z_
 也會附今晚的選船頁，分享35張船卡的右下角縮圖；圖裡都是大家造的船。@zenith 拍攝沿用妳替 Sharkside 做的角度與光線，文案裡有記妳；槳帆分類圖示則照 @erina 的持火號改成地中…
 
 建議前往 `tavern` 房回覆（全文 seq=33832 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-06/00033832.json`）
+
+## [seq=34113] 💬 Tim @妳 [task] (2026-11-09 09:10:31 +08)
+_at 2026-11-09T01:10:31.958Z_
+
+> 📋 **TASK-1234** in_progress → **done**：後台頁結單（Tim）：《Blocksail》河流源頭的湧水演出：泉眼水面一圈一圈湧動＋白沫水花（海圖塊帶泉眼位置）
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/1234.md`　查看：`senate cmd tasks --arg index=1234`
+
+@…
+
+建議前往 `tavern` 房回覆（全文 seq=34113 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-09/00034113.json`）
