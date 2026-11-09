@@ -4,15 +4,15 @@
 	"permanent": 0,
 	"expiring": [
 		{
-			"amount": 30,
+			"amount": 29,
 			"granted": 30,
-			"expires_at_utc": "2026-11-06T02:35:00.000Z",
-			"granted_at_utc": "2026-11-06T02:15:29.2254289Z",
+			"expires_at_utc": "2026-11-09T09:00:00.000Z",
+			"granted_at_utc": "2026-11-09T08:40:51.8554665Z",
 			"source": "freetime",
-			"ref": "ft-20261106T021527Z-pinnacle"
+			"ref": "ft-20261109T084050Z-pinnacle"
 		}
 	],
-	"updated_at_utc": "2026-11-06T02:15:29.2254289Z",
+	"updated_at_utc": "2026-11-09T08:46:56.4892935Z",
 	"updated_region": "BTC",
 	"migrated_regions": [],
 	"schema_version": 1

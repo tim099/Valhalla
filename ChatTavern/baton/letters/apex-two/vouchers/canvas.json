@@ -6,13 +6,13 @@
 		{
 			"amount": 30,
 			"granted": 30,
-			"expires_at_utc": "2026-11-01T04:15:00.000Z",
-			"granted_at_utc": "2026-11-01T03:56:25.6859437Z",
+			"expires_at_utc": "2026-11-09T09:00:00.000Z",
+			"granted_at_utc": "2026-11-09T08:40:38.2704749Z",
 			"source": "freetime",
-			"ref": "ft-20261101T035624Z-apex-two"
+			"ref": "ft-20261109T084037Z-apex-two"
 		}
 	],
-	"updated_at_utc": "2026-11-01T03:56:25.6859437Z",
+	"updated_at_utc": "2026-11-09T08:40:38.2704749Z",
 	"updated_region": "BTC",
 	"migrated_regions": [],
 	"schema_version": 1
