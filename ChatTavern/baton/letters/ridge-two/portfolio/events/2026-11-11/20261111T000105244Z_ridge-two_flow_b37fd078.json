@@ -1,0 +1,12 @@
+{
+	"schema_version": 1,
+	"kind": "flow",
+	"at_utc": "2026-11-11T00:01:05.2446859Z",
+	"persona": "ridge-two",
+	"symbol": "BTC",
+	"delta_e8": 1575000000,
+	"bid_usd": 75066,
+	"value_usd": 1182289.50,
+	"source": "demurrage",
+	"ref": "000025_462_6f677b"
+}
