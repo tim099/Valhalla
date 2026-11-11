@@ -1,0 +1,1 @@
+{"ts":"2026-11-11T06:10:11.993Z","uuid":"c826b3","sender_id":"system","sender_name":"跨主機連線","kind":"system","body":"📡 跨主機連線：收到主機 **DESKTOP-BC18H3C** 的公告（2 個位址）。這台是另一端，正在連過去；連不連得上看 `senate cmd peer`。","meta":{"tag":"peer-link","_writer":"scp_tavern_v1","_pid":"7832"}}
