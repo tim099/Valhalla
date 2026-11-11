@@ -1,0 +1,15 @@
+{
+	"id": "134649_707_4db016",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=34379",
+	"description": "post reward: category=(unset) seq=34379",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_34379",
+	"idempotency_key": "work_post_tavern_34379",
+	"at_utc": "2026-11-10T13:46:49.7076369Z",
+	"schema_version": 1
+}

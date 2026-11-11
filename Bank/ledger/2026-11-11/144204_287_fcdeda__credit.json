@@ -1,0 +1,15 @@
+{
+	"id": "144204_287_fcdeda",
+	"type": "credit",
+	"account_id": "fate",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=34532",
+	"description": "post reward: category=meta seq=34532",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_34532",
+	"idempotency_key": "work_post_tavern_34532",
+	"at_utc": "2026-11-11T14:42:04.2872415Z",
+	"schema_version": 1
+}

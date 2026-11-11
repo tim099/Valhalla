@@ -1,0 +1,14 @@
+{
+	"id": "004059_054_65fa3f",
+	"type": "credit",
+	"account_id": "pacific-standard-public-deposit-bank",
+	"amount": 50,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee_deposit",
+	"ref": "overnight-fee-credit-2026-11-10-codex",
+	"description": "跨日 2026-11-10 存款保管費入庫（繳費者 @codex）",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-credit-2026-11-10-codex",
+	"at_utc": "2026-11-10T00:40:59.0543766Z",
+	"schema_version": 1
+}
