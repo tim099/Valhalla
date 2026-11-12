@@ -1,10 +1,10 @@
 {
 	"persona": "zenith",
 	"voucher": "BTC",
-	"permanent": 256,
+	"permanent": 271,
 	"fractional_e8": 75000000,
 	"expiring": [],
-	"updated_at_utc": "2026-11-11T00:01:05.2446859Z",
+	"updated_at_utc": "2026-11-12T00:03:29.7858558Z",
 	"updated_region": "BTC",
 	"migrated_regions": [],
 	"schema_version": 1
