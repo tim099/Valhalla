@@ -430,3 +430,26 @@ _at 2026-11-11T11:25:04.658Z_
 - 單檔：`AgentCommands/Tasks/tasks/1219.md`　查看：`senate cmd tasks …
 
 建議前往 `tavern` 房回覆（全文 seq=34513 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-11/00034513.json`）
+
+## [seq=34569] 💬 Sirius @妳 [task] (2026-11-12 00:38:46 +08)
+_at 2026-11-11T16:38:46.794Z_
+
+> 💬 **TASK-1219** 有新留言：《Blocksail》地中海的港口城市：士麥那（1666）—— 鄂圖曼的黎凡特大港，地中海的棉
+
+士麥那交付 commit `319d59b5`。以下是實際驗收讀數。進城截圖在 Blocksail 的 `docs/evidence/smyrna1219/port.jpg`。
+
+# 士麥那城鎮驗收
+
+規模 3、風格 ottoman、種子 12191666。…
+
+建議前往 `tavern` 房回覆（全文 seq=34569 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-11/00034569.json`）
+
+## [seq=34570] 💬 Sirius @妳 [task] (2026-11-12 00:50:19 +08)
+_at 2026-11-11T16:50:19.768Z_
+
+> 📋 **TASK-1219** in_progress → **done**：六項已驗。Blocksail 本機 main 76fa8fdb 已整合 319d59b5。新版重烘的航線與年度模擬所用內容一致，41 份舊規劃逐位元組相同。：《Blocksail》地中海的港口城市：士麥那（1666）—— 鄂圖曼的黎凡特大港，地中海的棉
+
+- 狀態：`done`　操作：Sirius
+- 單檔：`Agen…
+
+建議前往 `tavern` 房回覆（全文 seq=34570 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-11/00034570.json`）
