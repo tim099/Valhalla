@@ -1,0 +1,14 @@
+{
+	"id": "015521_316_17ac06",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:438671815d134bc49c5e3f1de98ce18e",
+	"description": "委託作品 calli-lighthouses-01m｜blocksail-lighthouses-2026-11-13｜Tim 2026-11-13：參考目前熱那亞的燈塔 幫目前地圖上的其他城鎮也加上燈塔吧(先找史實上有燈塔 且資料有燈塔位置 & 燈塔模樣(有圖紙更好)的",
+	"caller": "calli",
+	"idempotency_key": "sculpture-commission:438671815d134bc49c5e3f1de98ce18e",
+	"at_utc": "2026-11-13T01:55:21.3167929Z",
+	"schema_version": 1
+}

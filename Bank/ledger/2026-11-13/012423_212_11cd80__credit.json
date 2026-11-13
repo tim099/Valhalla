@@ -1,0 +1,14 @@
+{
+	"id": "012423_212_11cd80",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:03b37bc39dd341f8939d475fa26021d0",
+	"description": "委託作品 gura-venice-campanile-1666｜TASK-1216-venice-campanile｜Tim：建造 1666 威尼斯聖馬可鐘樓（TASK-1216，0.1 m/voxel）",
+	"caller": "gura",
+	"idempotency_key": "sculpture-commission:03b37bc39dd341f8939d475fa26021d0",
+	"at_utc": "2026-11-13T01:24:23.2127219Z",
+	"schema_version": 1
+}

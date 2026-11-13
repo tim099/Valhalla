@@ -1,0 +1,14 @@
+{
+	"id": "015955_526_24f131",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:571cfae682214ef4982cfa9fd2b8b982",
+	"description": "委託作品 gura-venice-col-marco-1666｜TASK-1216-venice-columns｜Tim：建造 1666 威尼斯聖馬可與聖狄奧多羅雙石柱（TASK-1216，0.1 m/voxel）",
+	"caller": "gura",
+	"idempotency_key": "sculpture-commission:571cfae682214ef4982cfa9fd2b8b982",
+	"at_utc": "2026-11-13T01:59:55.5261045Z",
+	"schema_version": 1
+}

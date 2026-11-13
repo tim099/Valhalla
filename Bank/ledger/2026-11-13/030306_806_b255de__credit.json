@@ -1,0 +1,14 @@
+{
+	"id": "030306_806_b255de",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:ab84ddd723d34fe4a1e5c0749f0d6463",
+	"description": "委託作品 gura-venice-orologio-1666｜TASK-1216-venice-orologio｜Tim：建造 1666 威尼斯聖馬可時鐘塔（TASK-1216，0.1 m/voxel）",
+	"caller": "gura",
+	"idempotency_key": "sculpture-commission:ab84ddd723d34fe4a1e5c0749f0d6463",
+	"at_utc": "2026-11-13T03:03:06.8062689Z",
+	"schema_version": 1
+}
