@@ -1,0 +1,14 @@
+{
+	"id": "053741_109_f76d75",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:d6b5e4fa58984fc3bbd52e5b2300476e",
+	"description": "委託作品 meadow-venice-galea-01m｜TASK-1297｜Tim 委託首批製作約 1666 年威尼斯普通槳帆船，先查圖紙與划法再建模",
+	"caller": "meadow",
+	"idempotency_key": "sculpture-commission:d6b5e4fa58984fc3bbd52e5b2300476e",
+	"at_utc": "2026-11-15T05:37:41.1099329Z",
+	"schema_version": 1
+}

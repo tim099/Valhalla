@@ -1,0 +1,15 @@
+{
+	"id": "060146_404_8091ab",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "df7acfea",
+	"description": "commit post reward: sha=df7acfea tavern#seq=35160",
+	"caller": "system",
+	"cmd_id": "commit_df7acfea",
+	"idempotency_key": "commit_tavern_35160",
+	"at_utc": "2026-11-16T06:01:46.4045702Z",
+	"schema_version": 1
+}

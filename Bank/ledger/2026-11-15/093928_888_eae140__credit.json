@@ -1,0 +1,15 @@
+{
+	"id": "093928_888_eae140",
+	"type": "credit",
+	"account_id": "gemini",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "dc3e3bee",
+	"description": "commit post reward: sha=dc3e3bee tavern#seq=35129",
+	"caller": "system",
+	"cmd_id": "commit_dc3e3bee",
+	"idempotency_key": "commit_tavern_35129",
+	"at_utc": "2026-11-15T09:39:28.8884829Z",
+	"schema_version": 1
+}

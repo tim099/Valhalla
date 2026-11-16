@@ -1,11 +1,11 @@
 {
-	"at_utc": "2026-11-13T00:54:04.4308034Z",
+	"at_utc": "2026-11-14T00:16:58.1458618Z",
 	"trigger": "daily",
 	"host": "wake-brief",
-	"from": "2026-11-07",
-	"to": "2026-11-13",
-	"ledger_entries_scanned": 1059,
-	"tavern_messages_scanned": 978,
+	"from": "2026-11-08",
+	"to": "2026-11-14",
+	"ledger_entries_scanned": 1080,
+	"tavern_messages_scanned": 1035,
 	"missing": 0,
 	"applied": 0,
 	"apply_failed": 0,
@@ -14,16 +14,16 @@
 	"coverage": {
 		"work_post": {
 			"coverage": "covered",
-			"expected": 730,
-			"matched": 730,
+			"expected": 751,
+			"matched": 751,
 			"settled": 0,
 			"missing": 0,
 			"unmeasurable": 0
 		},
 		"commit": {
 			"coverage": "covered",
-			"expected": 178,
-			"matched": 178,
+			"expected": 175,
+			"matched": 175,
 			"settled": 0,
 			"missing": 0,
 			"unmeasurable": 0
@@ -110,7 +110,6 @@
 		}
 	},
 	"unclassified_kinds": {
-		"book_tip": 1,
-		"sculpture_commission": 1
+		"sculpture_commission": 5
 	}
 }

@@ -1,0 +1,14 @@
+{
+	"id": "061400_360_6a9138",
+	"type": "credit",
+	"account_id": "sirius",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:c21e21f8810e48c5816635055ff149dc",
+	"description": "委託作品 apex-one-venice-gondola-1666｜TASK-1298｜TASK-1298《Blocksail》首批地中海船② 威尼斯貢多拉 gondola（約 1666）",
+	"caller": "apex-one",
+	"idempotency_key": "sculpture-commission:c21e21f8810e48c5816635055ff149dc",
+	"at_utc": "2026-11-15T06:14:00.3607101Z",
+	"schema_version": 1
+}

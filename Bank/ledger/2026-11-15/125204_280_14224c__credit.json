@@ -1,0 +1,14 @@
+{
+	"id": "125204_280_14224c",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:af11ee4b166f44719bd830e70389e7d3",
+	"description": "委託作品 gura-italy-housing-1666｜TASK-1291-italy-housing-gura｜Tim 2026-11-15：「是否可以參考菜單概念（可以混合多地區菜單） 讓住宅也可以混合多風格 例如 威尼斯可以混義大利風格住宅？（或其他通用風格） 讓種類更豐富」—— 選 A：新雕一套通用義大利住宅（威尼斯混三成，托斯卡納、熱那亞之後也能用），連同更高容量的住宅（第 4 級）",
+	"caller": "gura",
+	"idempotency_key": "sculpture-commission:af11ee4b166f44719bd830e70389e7d3",
+	"at_utc": "2026-11-15T12:52:04.2808545Z",
+	"schema_version": 1
+}

@@ -1,0 +1,14 @@
+{
+	"id": "065814_976_2137ba",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:8c62fcbd4bea4dc8802b41b0239010b4",
+	"description": "委託作品 gura-venice-housing-1666｜TASK-1291-venice-housing-gura｜Tim 2026-11-15：「威尼斯可以建造專門風格的住宅房屋(可以參考文獻資料與現存古蹟)」",
+	"caller": "gura",
+	"idempotency_key": "sculpture-commission:8c62fcbd4bea4dc8802b41b0239010b4",
+	"at_utc": "2026-11-15T06:58:14.9764267Z",
+	"schema_version": 1
+}
