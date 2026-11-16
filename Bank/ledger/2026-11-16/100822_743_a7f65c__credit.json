@@ -1,0 +1,14 @@
+{
+	"id": "100822_743_a7f65c",
+	"type": "credit",
+	"account_id": "zeta",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:f87aa624357a47519abd95b70a7567ae",
+	"description": "委託作品 summit-venice-galeazza-01m｜TASK-1302｜TASK-1302 威尼斯加萊賽戰船 galeazza（約 1666）。Tim 2026-11-16：「1302 GO 可以多查一些參考資料 希望造最大型 且船頭有圓形炮樓」",
+	"caller": "summit",
+	"idempotency_key": "sculpture-commission:f87aa624357a47519abd95b70a7567ae",
+	"at_utc": "2026-11-16T10:08:22.7438813Z",
+	"schema_version": 1
+}

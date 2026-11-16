@@ -1,0 +1,14 @@
+{
+	"id": "101156_919_29523d",
+	"type": "credit",
+	"account_id": "sirius",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:50079fa476544328b17ba537bdd71913",
+	"description": "委託作品 apex-one-tartane-01m｜TASK-1299｜《Blocksail》首批地中海船③ 商用雙桅 tartane（約 1666，利佛諾－拉古萊特）船殼委託（TASK-1299）",
+	"caller": "apex-one",
+	"idempotency_key": "sculpture-commission:50079fa476544328b17ba537bdd71913",
+	"at_utc": "2026-11-16T10:11:56.9192211Z",
+	"schema_version": 1
+}
