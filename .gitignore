@@ -169,4 +169,12 @@ ChatTavern/rooms/*/inbox/*.md.lock
 _server_singleton.main.lock
 _server_singleton.tavern.lock
 
+### SenateData/ —— Senate Server 把這裡當資料根時寫的本機狀態，整個目錄不入版控（Tim 2026-11-21）
+# runtime/：心跳（_server_heartbeat*.json、.tmp）、行程名片（_process_registry/*.json，檔名帶 pid）、
+#   啟動 log（_server_start*.log）、單例鎖（_server_singleton*.lock）—— 每次起 Server 都重寫；
+#   鎖檔在 Server 跑著時被獨佔開啟 ⇒ `git add` 讀不到它（Permission denied、fatal: updating files failed）。
+# config/selftest.json：本機的 selftest 名單（Senate Docs/API/Config_Schema.md：人編輯的、不入版控）。
+# prefs/：本機偏好。
+/SenateData/
+
 Temp/
