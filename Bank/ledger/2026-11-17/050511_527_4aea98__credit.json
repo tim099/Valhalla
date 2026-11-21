@@ -1,0 +1,14 @@
+{
+	"id": "050511_527_4aea98",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:ae4752ed77f141298bbc350ff79b8e54",
+	"description": "委託作品 kiara-tunis-sandal-01m｜TASK-1301｜Tim 2026-11-17（/scp-task 1301 GO）：TASK-1301《Blocksail》首批地中海船⑤ 突尼斯湖淺水轉運划艇，拉古萊特至突尼斯湖岸短程轉運兼加貝斯淺水場景候選船。",
+	"caller": "kiara",
+	"idempotency_key": "sculpture-commission:ae4752ed77f141298bbc350ff79b8e54",
+	"at_utc": "2026-11-17T05:05:11.5277268Z",
+	"schema_version": 1
+}

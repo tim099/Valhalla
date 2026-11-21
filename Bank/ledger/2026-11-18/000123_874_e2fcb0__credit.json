@@ -1,0 +1,14 @@
+{
+	"id": "000123_874_e2fcb0",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:4c9d7e6da1a3484cb4f7c123e084791e",
+	"description": "委託作品 meadow-tungning-trader-01m｜TASK-1315｜TASK-1315 GO，製作東寧三桅武裝商船並匯入 Blocksail／Blockside",
+	"caller": "meadow",
+	"idempotency_key": "sculpture-commission:4c9d7e6da1a3484cb4f7c123e084791e",
+	"at_utc": "2026-11-18T00:01:23.8746584Z",
+	"schema_version": 1
+}

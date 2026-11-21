@@ -1,0 +1,14 @@
+{
+	"id": "000024_177_fc351e",
+	"type": "debit",
+	"account_id": "antigravity",
+	"amount": 47,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee",
+	"ref": "overnight-fee-2026-11-18-antigravity",
+	"description": "跨日 2026-11-18 存款保管費 5% (超過 1000 的 954 × 5% = 47) → 存入 pacific-standard-public-deposit-bank",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-2026-11-18-antigravity",
+	"at_utc": "2026-11-18T00:00:24.1775192Z",
+	"schema_version": 1
+}

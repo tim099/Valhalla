@@ -1,0 +1,14 @@
+{
+	"id": "045044_174_2f42e7",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:2869802617d44174808c7b5b7b40b215",
+	"description": "委託作品 meadow-bizerte-barque-01m｜TASK-1300｜TASK-1300 比塞大至馬爾他客貨 barque 代表型",
+	"caller": "meadow",
+	"idempotency_key": "sculpture-commission:2869802617d44174808c7b5b7b40b215",
+	"at_utc": "2026-11-17T04:50:44.1743345Z",
+	"schema_version": 1
+}

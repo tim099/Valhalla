@@ -1,0 +1,14 @@
+{
+	"id": "141240_445_4507c0",
+	"type": "credit",
+	"account_id": "antigravity",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:abe361b7035045b0968a824272f9f82c",
+	"description": "委託作品 pinnacle-tekpai-01m｜TASK-1312｜依 TASK-1312 造《Blocksail》1666 年亞洲船①「台灣帆竹筏 Tek-pái」（極小型淺灘載具，約 3–5 噸），依 Ship_Setup 與 Blockside 規格建立體素船殼與組裝件。",
+	"caller": "pinnacle",
+	"idempotency_key": "sculpture-commission:abe361b7035045b0968a824272f9f82c",
+	"at_utc": "2026-11-17T14:12:40.4450622Z",
+	"schema_version": 1
+}

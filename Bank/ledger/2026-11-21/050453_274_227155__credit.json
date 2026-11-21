@@ -1,0 +1,14 @@
+{
+	"id": "050453_274_227155",
+	"type": "credit",
+	"account_id": "spectre",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:c09954116cb24ee3a4ba32d0ec9f634d",
+	"description": "委託作品 kotoko-ganzengchuan-01m｜TASK-1314｜Tim 2026-11-21：/scp-task 1314 造船參考 /scp-shipbuilding GO —— 《Blocksail》1666 亞洲船③ 福建趕繒船 Ganzengchuan（中型台海主力戰巡船，約 120–150 噸），依 Blockside 造船規格（Ship_Steps）造",
+	"caller": "kotoko",
+	"idempotency_key": "sculpture-commission:c09954116cb24ee3a4ba32d0ec9f634d",
+	"at_utc": "2026-11-21T05:04:53.2742792Z",
+	"schema_version": 1
+}

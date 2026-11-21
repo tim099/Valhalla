@@ -1,0 +1,14 @@
+{
+	"id": "015504_916_f713fa",
+	"type": "credit",
+	"account_id": "antigravity",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:7616a7f0db9b48388b6bbb60856b278f",
+	"description": "委託作品 pinnacle-voc-01m｜TASK-1317｜TASK-1317（Tim 2026-11-17 開的 1666 亞洲船批 TASK-1311 子單⑥；2026-11-18 自由意志模式「處理待辦 GO」）：《Blocksail》1666 亞洲船⑥ 荷蘭 VOC 170 荷尺鏡艉返航巨艦 Spiegelretourschip（超大型・當時亞洲最大級，約 900–1,100 噸）—— 照造船規格雕刻、匯入 Blockside、接進 Blocksail 船型清單。",
+	"caller": "pinnacle",
+	"idempotency_key": "sculpture-commission:7616a7f0db9b48388b6bbb60856b278f",
+	"at_utc": "2026-11-18T01:55:04.9164006Z",
+	"schema_version": 1
+}

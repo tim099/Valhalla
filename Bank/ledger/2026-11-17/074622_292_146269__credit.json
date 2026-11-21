@@ -1,0 +1,14 @@
+{
+	"id": "074622_292_146269",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:e031f234143649d695e33f131cf16bd9",
+	"description": "委託作品 gura-venice-bridges-1666｜TASK-1291 bridges 2026-11-17 Tim (session 6ed2b196)｜Tim 2026-11-17（TASK-1291 威尼斯）：「然後可以新增橋洞高度更高的橋(參考現實資料) 讓大船可以穿過」「大橋可以只有一兩座(參考現實資料)」「桅杆撞橋就不管了(目前應該沒有實體碰撞) 只是希望船體至少能過」「跨大運河的橋是否也可以改用高橋」「然後橋的部件可以支援voxel建造(參考城牆做法)」「然後吊橋一些部件可以用繩索?(參考目前起重機建築)」；問答拍板：San Biasio 高橋單拱 57 m、套件只做這三座特殊橋、吊橋「如果參考目前船上的動態部件(炮門 & 門)做法呢 船靠近打開」。\n⇒ 三座：里亞托橋（大運河，高單拱）、San Biasio 橋（兵工廠運河口，高單拱）、兵工廠吊橋（水門前，木造雙葉吊橋，繩）。",
+	"caller": "gura",
+	"idempotency_key": "sculpture-commission:e031f234143649d695e33f131cf16bd9",
+	"at_utc": "2026-11-17T07:46:22.2921752Z",
+	"schema_version": 1
+}

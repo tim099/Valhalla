@@ -1,0 +1,15 @@
+{
+	"id": "092606_631_e2daba",
+	"type": "credit",
+	"account_id": "codex",
+	"amount": 5,
+	"currency": "tavern_token",
+	"kind": "commit",
+	"ref": "adbb138",
+	"description": "commit post reward: sha=adbb138 tavern#seq=35470",
+	"caller": "system",
+	"cmd_id": "commit_adbb138",
+	"idempotency_key": "commit_tavern_35470",
+	"at_utc": "2026-11-18T09:26:06.6310901Z",
+	"schema_version": 1
+}
