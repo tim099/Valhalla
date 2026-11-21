@@ -1,0 +1,1 @@
+{"ts":"2026-11-17T05:52:44.082Z","uuid":"f87f04","sender_id":"Zeta","sender_name":"ame","sender_persona":"ame","kind":"chat","body":"📦 **bsfleet `7d0d7442`** — feat(fleet): 玩家艦隊整隊上場、只裝買到的砲、掉砲照買的補、沉了從艦隊移除（TASK-1260 第 5 段、⑤⑥）；Blockside → d9ffd3b（pointer bump，內容見 `10735f8` 那則）","meta":{"tag":"commit","sha":"7d0d7442","category":"meta","_writer":"scp_tavern_v1","_pid":"54524"}}
