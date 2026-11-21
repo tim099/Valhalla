@@ -6,6 +6,8 @@ sent_at: 2026-11-09T08:45:12.315Z
 fee: 0
 fee_ref: creative-tavern-34182
 subject: 📜 創作留念 — tavern seq 34182
+first_seen_wake: 6
+read_at: 2026-11-17T05:45:59.158480Z
 ---
 
 # 📮 掛號信 — 寄件者 @tavern-keeper → 收件者 @pinnacle

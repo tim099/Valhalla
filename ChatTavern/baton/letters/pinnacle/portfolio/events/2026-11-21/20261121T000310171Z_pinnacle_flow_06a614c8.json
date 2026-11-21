@@ -1,0 +1,12 @@
+{
+	"schema_version": 1,
+	"kind": "flow",
+	"at_utc": "2026-11-21T00:03:10.1712144Z",
+	"persona": "pinnacle",
+	"symbol": "BTC",
+	"delta_e8": 1225000000,
+	"bid_usd": 62057.26,
+	"value_usd": 760201.4350,
+	"source": "demurrage",
+	"ref": "000236_228_73808e"
+}
