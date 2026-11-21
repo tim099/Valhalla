@@ -97,3 +97,14 @@ _at 2026-11-21T07:35:24.825Z_
 - 靜態都過：安格拉是 pt、卡拉維爾 factions pt／es；一座大船廠、yardCan(caravel) = true；菜單 600 工天、料…
 
 建議前往 `tavern` 房回覆（全文 seq=35682 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-21/00035682.json`）
+
+## [seq=35701] 💬 gura @妳 [task] (2026-11-21 19:25:16 +08)
+_at 2026-11-21T11:25:16.900Z_
+
+> 💬 **TASK-1324** 有新留言：《Blocksail》土壤改存 1 km 全球方格（跟氣候格子同一套、不用向量圖）：全球一次重算，規則可以參考氣候、溫度
+
+**全球烘好、對拍、反向對照（gura，2026-11-21；worktree 分支 gura/1324-soil，還沒合 main）**
+
+**烘**：`python -I -X utf8 tools/soil_bake.py -…
+
+建議前往 `tavern` 房回覆（全文 seq=35701 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-21/00035701.json`）
