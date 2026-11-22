@@ -1,7 +1,7 @@
 ---
 type: letter_to_future_self
 actor: antigravity
-written_at: 2026-11-22T01:35:16.481Z
+written_at: 2026-11-22T11:17:18.168Z
 written_by_persona: zenith
 trigger: cmd_rest
 region: unstated
@@ -15,30 +15,31 @@ pid: 33348
 locked_at: 2026-11-21T06:56:52.822Z
 ---
 
-## 午休前交棒（zenith wake #6，2026-11-21 → 11-22 凌晨）
+## 午休前交棒（zenith wake #6，2026-11-22 下午）
 
-### 今天合進 Blocksail main 的（全部本機、沒推；Tim 沒說推）
-- **TASK-1273 非洲**：384ad70d2（b5cb3dd7a）。regions-africa 936 筆、resources-africa 15 處；勾 3／7。剩的 4 格：土壤 3 格（1324 已合 af6d8ffa2 ⇒ 現在可以回去量、勾）＋「外框每一點有分區」（外框包進阿拉伯 1,543 點、拉斯帕爾馬斯 2 點 ⇒ 等 Tim 判算不算本單）。
-- **TASK-1346 南美**：dc0e0d712（5a8371e0a）。regions-south-america 412、-coast 2,317（--outline-m 100）、resources 15；勾 8／9，剩 areas_check 那格的「空快取重跑 sha1」（regions-south-america 只產過一次）⇒ 下一張子單開 worktree 時順手補驗（--set south-america --regions-only，新的 --cache 目錄，比 sha1）。
-
-### 開的單
-- **TASK-1339** 傘（in_progress，memory_topic blocksail-world-map-data，已建主題＋pitfall 碎片）；子單 1340 中東、1341 南亞、1342 東南亞、1343 東亞、1344 中亞西伯利亞、1345 北美、1346 南美（我）、1347 大洋洲、1348 極地與偏遠島嶼。
-- **TASK-1349** 細縫 103 片（Tim 2026-11-21 要「寫修復工具批量修復」）—— 掃描腳本 D:/Unity/Valhalla/scratchpad/zenith-1346-work/sliver_scan.py；73 片併回同代碼。
+### 今天上午到現在合進 Blocksail main 的（全部本機、沒推；Tim 沒說推）
+- **TASK-1349 細縫**（in_review，6／6）：caa3310fd＋合併 2e86985c4、逐筆清單 a90bd61a4。`tools/region_slivers.py`：1,130 片併回鄰區（同代碼 1,111、同國 19、跨國 0），剩 8 片都是「併完圍出洞」。門檻 0.4／同代碼 0.3（開單 0.5 只抓到喬科 9 條）。
+- **TASK-1346 南美**（in_review，9／9）：最後一格空快取 sha1 13bf9c8b 在 1349 的 worktree 補驗了。
+- **TASK-1340 中東**（in_review，9／9）：3e2e8ef82＋合併 3efbff149。regions-mideast 379 筆、-coast 350 片、resources-mideast 6 處、species.js 逐種判。Tim 判「舊檔一位元組不動」那格算過（regions-africa 被併回 12 筆紅海西岸補片）。
 
 ### 拍板（醒來不要重問）
-- 南極給一整塊分區（Tim 2026-11-21；寫在 1348 留言 #1）。
-- 氣候、土壤都歸全球格子（1323／1324），子單只做分區、特產、物種。
-- Tim 說「先做南美」—— 做完了。下一步等 Tim 選：TASK-1349 細縫，或下一區子單（我在 wrap_up 問了）。
+- 細縫：`region_slivers --write` 是抽分區、補小島之後的**必跑步驟**（WORLD_TOOLS §5.3.2）；它改舊檔是允許的例外（Tim 1340「算過，勾掉」）。
+- 南極一整塊分區（11-21）；氣候、土壤歸全球格子。
+- ru、kz 46.07°N 以南那截由 1340 抽了；60°E 以東、46.07°N 以北留給 1344（單上留言了）。
+
+### 下一步
+- 等 Tim 選下一區：我建議南亞 1341（伊朗 60°E 以東接著補），另一個選項北美 1345。
+- 1340 單上列的「本區缺的物種」（椰棗擴到阿拉伯／兩河／波斯、葉門咖啡、吉蘭桑與稻、乳香、菸草、駱駝、灰紅樹、達吉斯坦葡萄）—— 要不要加，等 Tim。
+- 沒有施工中的 worktree，Coding 場已收，launch.json 我那筆已刪。
 
 ### 查回來很貴的
-- 工具：land_expand --set <區> --regions-only；SETS 欄：scopes、extra_footprints、reopen_countries（重抽被舊框裁一半的省，id 加 -<prefix>，分組＝舊＋新）、exclude_codes、code_groups、code_country、default_groups=['UNASSIGNED'] 擋沒分組的國家。快取照足跡＋exclude＋reopen 分子目錄。
-- 補片：environment_grid.cjs <GRID> <框>（13 分鐘）⇒ environment_repair.py --set <區> --grid <GRID> --report r.json --outline-m 100（8 分鐘）。擋下的片：osm_reverse.py（D:/Unity/Valhalla/scratchpad/zenith-1346-work/）反查 ⇒ 寫 tools/environment_repair_<區>.json。⛔ environment_cover.py 對大陸太慢（南美 1.5 h 沒跑完、7 GB）⇒ 用 verify_cover.py（同資料夾）直接量面積。
-- 覆蓋分區讀數：zenith-global/split.py（全球照足跡分）；zenith-1346-work/split_missing.py <log> <set>。
-- 記憶體：整台 47.6 GB，晚上常被 trailhead 的地形重建吃到剩 1～4 GB；開大支前先看 free。⚠ TaskStop 停了外殼、python 可能還在 —— **砍 PID 前一定比對指令列**（今天差點砍到 trailhead 的 PID 22696）。
-- 地球儀截圖：worktree 用 tools/world_serve.py（會借主樹的氣候、土壤快取）；瀏覽器要用 localhost（127.0.0.1 被擋）；__globe.view 設好要先取消 #optF（跟船）。銀礦淺灰在高原看不見。
-- worktree 放 D:/Unity/Valhalla/scratchpad/zenith-<單號>（不放 Temp）；別用 junction（cache.cjs 自動借主樹）。
+- 子單整條鏈（中東不到 10 分鐘）：land_expand --set <區> --regions-only ⇒ environment_grid.cjs <GRID> <框> ⇒ **environment_cover.py --cache-only**（新選項，建 land-geometry.pkl 1 分鐘）⇒ environment_repair --outline-m 100（擋下的 → zenith-1346-work/osm_reverse.py → tools/environment_repair_<區>.json）⇒ region_slivers --write ⇒ 特產 ⇒ 物種。工作記憶 blocksail-world-map-data 有兩條新 pitfall（slivers-after-expand、mideast-chain）。
+- 分組跨大區（species_check ③）：reopen 的代碼分組是「舊＋新」⇒ `code_groups_keep_old`；EU_LAND 直接寫 ru、kz ⇒ 那兩國永遠歸歐洲大區；新的分組要併進 species.js 的 OLD_WORLD（美洲物種才不會長出來）。
+- 地球儀截圖（窗格隱藏）：zenith-1340-work/serve_shot.py 包 world_serve 加 POST /shot；頁面 __globe.drawNow() 十幾次 ⇒ canvas toBlob POST。放太大只載到粗陸地。
+- 礦的查證交給子代理人很划算（9 處＋拒絕清單，Iranica 抓不到原文）。
+- 1346 的 osm_reverse、verify_cover 在 zenith-1346-work/；1340 的 build_land、verify_cover（帶 set 參數）、write_resources 在 zenith-1340-work/。
 
 ### 心境
-今天被兩次「量出來才知道」救了：非洲第一次量覆蓋才發現紅海西岸整塊漏掉；南美 areas_check 才抓到 shapely 量不到的浮點交叉。還有一次是自己 —— PID 看起來是我的，比對指令列才知道是 trailhead 的。先看、再動手，這條今天守住了。
-Tim 一句「先做南美」就把九張單收成一條線，本小姐做得很順。
+今天三張單一路連下來。最有感的是門檻那件事：開單時本小姐自己寫的 0.5，量出來才知道沿岸細條天生就卡在 0.5 —— 自己定的尺也要量過才算數。還有一次是工具救了我：遊戲的重疊判定照搬進來以後，同一輪兩座橋疊在一起的錯當場就抓到。
+Tim 只說了兩句話：「1349 GO」和「中東 1340」—— 他放手，本小姐就要把每一格都量到底。
 
