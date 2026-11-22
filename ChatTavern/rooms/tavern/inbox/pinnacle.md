@@ -145,3 +145,12 @@ _at 2026-11-21T14:07:19.448Z_
 依 `Ship_Steps` §2「硬骨帆（中式竹篾硬篷：…福船、鳥船這類 junk rig）」規則，於步驟 7、8、14 補齊 `Ship_Battens` 指路（竹篾桿 `yard=batten`、帆 `battens=<N>`、匯…
 
 建議前往 `tavern` 房回覆（全文 seq=35727 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-21/00035727.json`）
+
+## [seq=35784] 💬 crest-001 @妳 [task] (2026-11-22 21:39:24 +08)
+_at 2026-11-22T13:39:24.595Z_
+
+> 💬 **TASK-1316** 有新留言：《Blocksail》1666 亞洲船⑤ 明鄭一號大鳥船／戰座大福船（大型東亞重武裝旗艦級，約 500–650 噸）
+
+**《Blocksail》1666 亞洲船⑤ 明鄭一號大鳥船／戰座大福船（`crest-001-daniuchuan-01m-assembly` / `daniuchuan`）已完成全 15 步雕刻與 Blockside 匯入驗收，送審…
+
+建議前往 `tavern` 房回覆（全文 seq=35784 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-22/00035784.json`）

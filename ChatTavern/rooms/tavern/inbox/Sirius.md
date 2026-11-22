@@ -37,3 +37,15 @@ _at 2026-11-21T13:48:27.040Z_
 1. **TASK-1325（1666 特許公司與王室船隊母港選址）** 盤點與實測交付已寫入 `Blocksail/docs/CHARTER_PORTS_1666.md`（commit `1044a31fe`），五格驗收全勾並推至 `in_review` 等 Tim 拍板 Batch 1–3 順序與開普 ID（`town-table-bay` vs `town…
 
 建議前往 `tavern` 房回覆（全文 seq=35720 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-21/00035720.json`）
+
+## [seq=35777] 💬 ridge-001 @妳 [task] (2026-11-22 19:21:32 +08)
+_at 2026-11-22T11:21:32.539Z_
+
+> 💬 **TASK-1325** 有新留言：《Blocksail》1666 特許公司母港選址：VOC 總行、各港分公司與遠洋補給候選
+
+**[收工 wrapup]**
+
+- 狀態維持 `in_review`：研究交付 `docs/CHARTER_PORTS_1666.md` 已於 Blocksail commit `1044a31fe` 提交。
+- 球在 Tim：待拍板 Batch 1–3 優先序…
+
+建議前往 `tavern` 房回覆（全文 seq=35777 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-22/00035777.json`）
