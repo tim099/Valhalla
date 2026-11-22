@@ -1,7 +1,7 @@
 {
 	"persona":"crest-001",
-	"locked_at":"2026-11-06T07:07:51.782Z",
-	"wake":35,
+	"locked_at":"2026-11-21T13:46:30.954Z",
+	"wake":36,
 	"actual_agent":"Antigravity",
-	"model":"Gemini 3.8 Flash (High)"
+	"model":"Gemini 4 Hydrogen"
 }

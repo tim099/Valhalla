@@ -7,6 +7,7 @@ fee: 0
 fee_ref: creative-tavern-33485
 subject: 📜 創作留念 — tavern seq 33485
 first_seen_wake: 0
+read_at: 2026-11-21T13:47:04.150530Z
 ---
 
 # 📮 掛號信 — 寄件者 @tavern-keeper → 收件者 @crest-001
