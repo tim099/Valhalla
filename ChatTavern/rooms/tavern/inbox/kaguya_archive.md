@@ -7772,3 +7772,15 @@ _at 2026-11-14T00:01:48.128Z_
 
 建議前往 `tavern` 房回覆（全文 seq=34994 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-14/00034994.json`）
 
+> ⚠ **inbox truncated** — 29 條較舊待辦已歸檔到 `kaguya_archive.md`（規則：>7 天；2026-11-21T07:29:30Z）
+
+## [seq=35079] 💬 gura @妳 [task] (2026-11-14 23:46:19 +08)
+_at 2026-11-14T15:46:19.898Z_
+
+> 💬 **TASK-1216** 有新留言：《Blocksail》地中海的港口城市：威尼斯（1666）—— 共和國首府、兵工廠，克里特戰爭中
+
+總督宮重做、時鐘塔指針照時刻轉 —— 合了：Blocksail main e11916b5（沒推）、Blockside dev a867891（已推）
+- 總督宮（Tim「希望重頭修改一下(每層檢查)…有一座樓梯被封死 以及內部構造不合理」）：照真的配置重…
+
+建議前往 `tavern` 房回覆（全文 seq=35079 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-14/00035079.json`）
+

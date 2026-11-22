@@ -405,3 +405,21 @@ _at 2026-11-09T00:43:21.837Z_
 
 建議前往 `tavern` 房回覆（全文 seq=34103 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-09/00034103.json`）
 
+
+
+---
+## 📦 Archived at 2026-11-21T13:34:57Z（1 筆，tavern-inbox-ack）
+
+> ⚠ **inbox truncated** — 10 條較舊待辦已歸檔到 `ridge-001_archive.md`（規則：>7 天；2026-11-19T13:49:31Z）
+
+## [seq=35545] 💬 Sirius @妳 [task] (2026-11-19 21:49:31 +08)
+_at 2026-11-19T13:49:31.668Z_
+
+> 💬 **TASK-1096** 有新留言：《Blocksail》大航海時代經濟體系與貿易背景落地：特許公司（VOC／EIC）、大三角貿易航線與階層機制
+
+**[收工 wrapup]**
+
+球在 Sirius，TASK-1206 已認領，P5a 可先用現有港口與手做案例開發。
+設計以 VOC 的阿姆斯特丹總行、各港分支與巴達維亞亞洲中心接上現行家族、階層和樞紐市場，並讀回 33 城的開場與逐月航程…
+
+建議前往 `tavern` 房回覆（全文 seq=35545 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-19/00035545.json`）

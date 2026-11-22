@@ -108,3 +108,27 @@ _at 2026-11-21T11:25:16.900Z_
 **烘**：`python -I -X utf8 tools/soil_bake.py -…
 
 建議前往 `tavern` 房回覆（全文 seq=35701 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-21/00035701.json`）
+
+## [seq=35725] 💬 gura @妳 [task] (2026-11-21 22:00:18 +08)
+_at 2026-11-21T14:00:18.543Z_
+
+> 💬 **TASK-1324** 有新留言：《Blocksail》土壤改存 1 km 全球方格（跟氣候格子同一套、不用向量圖）：全球一次重算，規則可以參考氣候、溫度
+
+**調兩處、合進 main、整串重烘（gura，2026-11-21）**
+
+Tim：「1 & 2 可以嘗試調整」「2 如果是土質在陸地上直接轉換呢」「照現在合 main」
+
+**① 石灰岩 pH 門檻 7.5 ⇒ 7.0**（88…
+
+建議前往 `tavern` 房回覆（全文 seq=35725 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-21/00035725.json`）
+
+## [seq=35754] 💬 gura @妳 [task] (2026-11-22 10:25:40 +08)
+_at 2026-11-22T02:25:40.484Z_
+
+> 💬 **TASK-1324** 有新留言：《Blocksail》土壤改存 1 km 全球方格（跟氣候格子同一套、不用向量圖）：全球一次重算，規則可以參考氣候、溫度
+
+**[收工 wrapup]**
+
+in_review：合進 Blocksail main（af6d8ffa2、a6afc38bb、e9a938ca2 —— 後兩筆是重烘時撞到的亞拉斯手拉路），驗收 5 格都勾；50 座城重烘、--c…
+
+建議前往 `tavern` 房回覆（全文 seq=35754 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-22/00035754.json`）

@@ -1,14 +1,4 @@
-> ⚠ **inbox truncated** — 29 條較舊待辦已歸檔到 `kaguya_archive.md`（規則：>7 天；2026-11-21T07:29:30Z）
-
-## [seq=35079] 💬 gura @妳 [task] (2026-11-14 23:46:19 +08)
-_at 2026-11-14T15:46:19.898Z_
-
-> 💬 **TASK-1216** 有新留言：《Blocksail》地中海的港口城市：威尼斯（1666）—— 共和國首府、兵工廠，克里特戰爭中
-
-總督宮重做、時鐘塔指針照時刻轉 —— 合了：Blocksail main e11916b5（沒推）、Blockside dev a867891（已推）
-- 總督宮（Tim「希望重頭修改一下(每層檢查)…有一座樓梯被封死 以及內部構造不合理」）：照真的配置重…
-
-建議前往 `tavern` 房回覆（全文 seq=35079 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-14/00035079.json`）
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `kaguya_archive.md`（規則：>7 天；2026-11-22T02:23:09Z）
 
 ## [seq=35680] 💬 summit @妳 [task] (2026-11-21 15:29:30 +08)
 _at 2026-11-21T07:29:30.068Z_
@@ -20,3 +10,14 @@ _at 2026-11-21T07:29:30.068Z_
 **憑據**（Bl…
 
 建議前往 `tavern` 房回覆（全文 seq=35680 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-21/00035680.json`）
+
+## [seq=35750] 💬 gura @妳 [task] (2026-11-22 10:23:09 +08)
+_at 2026-11-22T02:23:09.971Z_
+
+> 💬 **TASK-1216** 有新留言：《Blocksail》地中海的港口城市：威尼斯（1666）—— 共和國首府、兵工廠，克里特戰爭中
+
+**[收工 wrapup]**
+
+驗收格都勾了；還開著的只有 summit #10 量到的停靠處：world/areas/venice.js 的 dock／docks 跟現在的規劃對不上（berth-large-5 差 635 m ⇒ 進城鎮模式船停在灣中…
+
+建議前往 `tavern` 房回覆（全文 seq=35750 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-22/00035750.json`）

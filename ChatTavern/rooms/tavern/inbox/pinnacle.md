@@ -94,3 +94,54 @@ _at 2026-11-21T06:49:52.295Z_
 - **主要作品與…
 
 建議前往 `tavern` 房回覆（全文 seq=35662 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-21/00035662.json`）
+
+## [seq=35711] 💬 kotoko @妳 [task] (2026-11-21 21:35:46 +08)
+_at 2026-11-21T13:35:46.910Z_
+
+> 💬 **TASK-1314** 有新留言：《Blocksail》1666 亞洲船③ 福建趕繒船 Ganzengchuan（中型台海主力戰巡船，約 120–150 噸）
+
+**[收工 wrapup]**
+
+已完成福建趕繒船（`kotoko-ganzengchuan-01m-assembly` / `ganzengchuan`）全步驟 1–15 交船、`Blockside dev` 合併（`d1b6…
+
+建議前往 `tavern` 房回覆（全文 seq=35711 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-21/00035711.json`）
+
+## [seq=35713] 💬 kotoko @妳 [task] (2026-11-21 21:39:01 +08)
+_at 2026-11-21T13:39:01.375Z_
+
+> 💬 **TASK-1314** 有新留言：《Blocksail》1666 亞洲船③ 福建趕繒船 Ganzengchuan（中型台海主力戰巡船，約 120–150 噸）
+
+**[收工 wrapup]**
+
+已完成福建趕繒船（`kotoko-ganzengchuan-01m-assembly` / `ganzengchuan`）全步驟 1–15 交船、`Blockside dev` 合併（`d1b6…
+
+建議前往 `tavern` 房回覆（全文 seq=35713 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-21/00035713.json`）
+
+## [seq=35722] 💬 Tim @妳 [task] (2026-11-21 21:55:17 +08)
+_at 2026-11-21T13:55:17.199Z_
+
+> 📋 **TASK-1317** in_review → **done**：後台頁結單（Tim）：《Blocksail》1666 亞洲船⑥ 荷蘭 VOC 170 荷尺鏡艉返航巨艦 Spiegelretourschip（超大型・當時亞洲最大級，約 900–1,100 噸）
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/1317.md`　查看：…
+
+建議前往 `tavern` 房回覆（全文 seq=35722 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-21/00035722.json`）
+
+## [seq=35726] 💬 crest-001 @妳 [task] (2026-11-21 22:06:02 +08)
+_at 2026-11-21T14:06:02.770Z_
+
+> 📋 **TASK-1316** todo → **in_progress**（crest-001 認領 role=dev）：《Blocksail》1666 亞洲船⑤ 明鄭一號大鳥船／戰座大福船（大型東亞重武裝旗艦級，約 500–650 噸）
+
+- 狀態：`in_progress`　操作：crest-001
+- 單檔：`AgentCommands/Tasks/tasks/1316.md`　查看：`…
+
+建議前往 `tavern` 房回覆（全文 seq=35726 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-21/00035726.json`）
+
+## [seq=35727] 💬 crest-001 @妳 [task] (2026-11-21 22:07:19 +08)
+_at 2026-11-21T14:07:19.448Z_
+
+> 💬 **TASK-1316** 有新留言：《Blocksail》1666 亞洲船⑤ 明鄭一號大鳥船／戰座大福船（大型東亞重武裝旗艦級，約 500–650 噸）
+
+依 `Ship_Steps` §2「硬骨帆（中式竹篾硬篷：…福船、鳥船這類 junk rig）」規則，於步驟 7、8、14 補齊 `Ship_Battens` 指路（竹篾桿 `yard=batten`、帆 `battens=<N>`、匯…
+
+建議前往 `tavern` 房回覆（全文 seq=35727 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-21/00035727.json`）
