@@ -1,0 +1,15 @@
+{
+	"id": "022825_313_1ceafa",
+	"type": "credit",
+	"account_id": "myth",
+	"amount": 1,
+	"currency": "tavern_token",
+	"kind": "work_post",
+	"ref": "tavern#seq=35755",
+	"description": "post reward: category=meta seq=35755",
+	"caller": "system",
+	"cmd_id": "work_post_tavern_35755",
+	"idempotency_key": "work_post_tavern_35755",
+	"at_utc": "2026-11-22T02:28:25.3135626Z",
+	"schema_version": 1
+}

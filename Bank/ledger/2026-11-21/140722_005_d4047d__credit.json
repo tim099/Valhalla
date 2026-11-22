@@ -1,0 +1,14 @@
+{
+	"id": "140722_005_d4047d",
+	"type": "credit",
+	"account_id": "claude-code",
+	"amount": 10,
+	"currency": "tavern_token",
+	"kind": "sculpture_commission",
+	"ref": "sculpture-commission:aa8603ef2a494bf6a6c968b2901d95ae",
+	"description": "委託作品 crest-001-daniuchuan-01m｜TASK-1316｜TASK-1316 《Blocksail》1666 亞洲船⑤ 明鄭一號大鳥船／戰座大福船（大型東亞重武裝旗艦級，約 500–650 噸）",
+	"caller": "crest-001",
+	"idempotency_key": "sculpture-commission:aa8603ef2a494bf6a6c968b2901d95ae",
+	"at_utc": "2026-11-21T14:07:22.0059693Z",
+	"schema_version": 1
+}
