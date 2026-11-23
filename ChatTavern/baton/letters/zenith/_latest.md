@@ -1,7 +1,7 @@
 ---
 type: letter_to_future_self
 actor: antigravity
-written_at: 2026-11-22T11:17:18.168Z
+written_at: 2026-11-23T12:56:23.190Z
 written_by_persona: zenith
 trigger: cmd_rest
 region: unstated
@@ -15,31 +15,49 @@ pid: 33348
 locked_at: 2026-11-21T06:56:52.822Z
 ---
 
-## 午休前交棒（zenith wake #6，2026-11-22 下午）
+## 午休前交棒（zenith wake #6，2026-11-23 晚上 20:55）
 
-### 今天上午到現在合進 Blocksail main 的（全部本機、沒推；Tim 沒說推）
-- **TASK-1349 細縫**（in_review，6／6）：caa3310fd＋合併 2e86985c4、逐筆清單 a90bd61a4。`tools/region_slivers.py`：1,130 片併回鄰區（同代碼 1,111、同國 19、跨國 0），剩 8 片都是「併完圍出洞」。門檻 0.4／同代碼 0.3（開單 0.5 只抓到喬科 9 條）。
-- **TASK-1346 南美**（in_review，9／9）：最後一格空快取 sha1 13bf9c8b 在 1349 的 worktree 補驗了。
-- **TASK-1340 中東**（in_review，9／9）：3e2e8ef82＋合併 3efbff149。regions-mideast 379 筆、-coast 350 片、resources-mideast 6 處、species.js 逐種判。Tim 判「舊檔一位元組不動」那格算過（regions-africa 被併回 12 筆紅海西岸補片）。
+### 今天合進 Blocksail main 的（全部本機、沒推；Tim 沒說推）
+- **TASK-1341 南亞**（in_review 9／9）7b8368256
+- **TASK-1344 中亞與西伯利亞**（in_review 9／9）909a4b036
+- **TASK-1342 東南亞**（in_review 9／9）c203674ad
+- **補標礦**（1340／1341／1344，36 處）3640fc607
+- **TASK-1343 東亞**（in_review 9／9）5cf6c4354 ＋ 合 main 159ae6285（main 進了 trailhead 的 1303 全球海岸，town_bake --check 過期的全是 #bathy／tiles，不是我的；主樹有人在重烘）
+- 每張的讀數、留言、相鄰單的交界留言都寫了。
+
+### 進行中：TASK-1345 北美（in_progress，我認領）
+- worktree：D:/Unity/Valhalla/scratchpad/zenith-1345（分支 zenith/1345-north-america，基於 main 159ae6285）；工作檔 zenith-1345-work/。
+- **背景正在跑整條鏈**（18:09 起）：land_expand north-america ⇒ aleutians-east ⇒ repair-al ⇒ repair（9,266 片，成功）⇒ **region_slivers（3,148 片候選，20:55 還沒完，python PID 30468，每一輪重掃全世界四萬筆，慢）** ⇒ write_resources.py。日誌 r-*.log；全跑完 r-res.log 會比 r-repair.log 新、結尾 done。另有背景等待 b3uziewgq，跑完會叫醒我。
+- 醒來接著做：
+  1. 確認 r-slivers.log 有「併了 …」、git status 只動北美與 aleutians 那幾檔（加勒比那檔可能被併回幾片 ⇒ §5.3.2 例外，要寫進留言）。
+  2. 覆蓋：areas_cover --box -180,13.9,-10,84 --step 50000＋classify.py；verify_cover 面積。
+  3. areas_check：regions-north-america、-coast、aleutians 兩檔（--step 50000，北美的 coast 檔很大可能要很久）；resources-north-america（1000 m，之前 0 錯）。
+  4. 隨機 10 點、pts.txt 那 39 個地方重跑 --at 看物種（物種判定已寫進 species.js：species_patch.py 的 NO_EURO）。
+  5. 空快取重跑 sha1（⚠ 這次整條鏈要 2.5 小時以上 —— 細縫工具最慢；可以考慮先問 Tim 要不要省）。
+  6. town_bake --check、截圖（serve_shot.py＋launch.json 加 zenith-1345 那筆、用完刪；resize_window 1024x768、關「跟船」optF、一次 javascript_tool 只拍一張）、docs 用 zenith-1345-work/doc_patch.py <併了幾片>、提交、coding start（單獨一個呼叫）→ ff main（main 可能又動了 ⇒ 先合進分支）→ 收場 → 單上留言、勾 9 格、in_review。
+- 這張改的工具：land_expand（north-america、aleutians-east 兩組、楚科奇東端 extra_footprints）、environment_repair（缺口面積照緯度算、SETS repair_max_km2，北美 25000）、species_check（美洲那一區加北美檔、GROUP_AREA siberia）、例外表框擴 1e-4°（append_gated.py、build_rules.py 在 zenith-1342-work/）。
 
 ### 拍板（醒來不要重問）
-- 細縫：`region_slivers --write` 是抽分區、補小島之後的**必跑步驟**（WORLD_TOOLS §5.3.2）；它改舊檔是允許的例外（Tim 1340「算過，勾掉」）。
-- 南極一整塊分區（11-21）；氣候、土壤歸全球格子。
-- ru、kz 46.07°N 以南那截由 1340 抽了；60°E 以東、46.07°N 以北留給 1344（單上留言了）。
+- **特產不看發現年份**（Tim 2026-11-23「目前標資源不考慮發現年分」「之後可以讓城鎮設定是否能開採某處的礦(屏蔽未探勘的)」）：查得到地點的礦一律畫，年代寫 note；只剩地點定不了、遊戲沒有這一種不畫。記憶 feedback-blocksail-mines-mark-all、工作記憶 decision mines-no-year-filter。
+- 子單順序本小姐定：南亞 → 中亞西伯利亞 → 東南亞 → 東亞 → 北美 → 大洋洲 → 極地。
+- 南極一整塊分區（1348 單上 Tim 11-21 拍板）。
 
-### 下一步
-- 等 Tim 選下一區：我建議南亞 1341（伊朗 60°E 以東接著補），另一個選項北美 1345。
-- 1340 單上列的「本區缺的物種」（椰棗擴到阿拉伯／兩河／波斯、葉門咖啡、吉蘭桑與稻、乳香、菸草、駱駝、灰紅樹、達吉斯坦葡萄）—— 要不要加，等 Tim。
-- 沒有施工中的 worktree，Coding 場已收，launch.json 我那筆已刪。
+### 剩下
+- 1347 大洋洲：新幾內亞全島（含 id-pa、id-pb、拉賈安帕特）、澳洲、紐西蘭、太平洋；吉里巴斯赤道以南 dateline_side 'west'；斐濟跨換日線；亞洲全區 100 km 量出來新幾內亞、所羅門 78 點沒分區。
+- 1348 極地：南極一整塊、斯瓦巴（no-21）、南大西洋與南印度洋的島、可可斯、克利珀頓、拉斯帕爾馬斯省（放進 regions-canaries）。
 
 ### 查回來很貴的
-- 子單整條鏈（中東不到 10 分鐘）：land_expand --set <區> --regions-only ⇒ environment_grid.cjs <GRID> <框> ⇒ **environment_cover.py --cache-only**（新選項，建 land-geometry.pkl 1 分鐘）⇒ environment_repair --outline-m 100（擋下的 → zenith-1346-work/osm_reverse.py → tools/environment_repair_<區>.json）⇒ region_slivers --write ⇒ 特產 ⇒ 物種。工作記憶 blocksail-world-map-data 有兩條新 pitfall（slivers-after-expand、mideast-chain）。
-- 分組跨大區（species_check ③）：reopen 的代碼分組是「舊＋新」⇒ `code_groups_keep_old`；EU_LAND 直接寫 ru、kz ⇒ 那兩國永遠歸歐洲大區；新的分組要併進 species.js 的 OLD_WORLD（美洲物種才不會長出來）。
-- 地球儀截圖（窗格隱藏）：zenith-1340-work/serve_shot.py 包 world_serve 加 POST /shot；頁面 __globe.drawNow() 十幾次 ⇒ canvas toBlob POST。放太大只載到粗陸地。
-- 礦的查證交給子代理人很划算（9 處＋拒絕清單，Iranica 抓不到原文）。
-- 1346 的 osm_reverse、verify_cover 在 zenith-1346-work/；1340 的 build_land、verify_cover（帶 set 參數）、write_resources 在 zenith-1340-work/。
+- 子單整條鏈（每張都照這個）：SETS ⇒ land_expand --regions-only ⇒ 30～40 個有名的地方 --at（讀不到分區 = 足跡跟國家對不上 ⇒ extra_footprints＋排除別國）⇒ environment_grid <W>/grid <框> ⇒ environment_cover --cache-only ⇒ environment_repair --outline-m 100 [--admin NE zip，有 exclude_countries 時] ⇒ 擋下的：zenith-1342-work/osm_rev2.py＋build_rules.py 自動寫例外表 ⇒ 重跑 repair ⇒ region_slivers --write ⇒ 特產（子代理人查、連近代一起）⇒ 物種表尾一段 ⇒ 驗收 ⇒ 空快取重跑 sha1。
+- 新欄位：exclude_countries、excluded_zone（含 exclude_codes）、reopen_keep_old、dateline_side、repair_max_km2。
+- 坑：
+  - 鄰國的髮絲縫會被補進自己的 coast 檔 ⇒ 鄰國一律 exclude_countries。
+  - old_areas 子字串 bug 已修。
+  - 補片之前先別跑 slivers（我把 repair 和 slivers 串在一起，repair 失敗時 slivers 照跑、改了加勒比那檔 ⇒ 用 && 串）。
+  - 背景 `A && B && (…) &` 整串進背景。
+  - 日誌沒清，「done」一開始就在。
+- senate cmd commit 常 exit 7（公告逾時）：tavern-query tail 看到就別補，task op=commit mode=refs 手動推單號。
+- heredoc 含特殊字元（Тумашевский、Tanch'ŏn）bash 工具會壞 ⇒ 改用 Write 寫 .py。
 
 ### 心境
-今天三張單一路連下來。最有感的是門檻那件事：開單時本小姐自己寫的 0.5，量出來才知道沿岸細條天生就卡在 0.5 —— 自己定的尺也要量過才算數。還有一次是工具救了我：遊戲的重疊判定照搬進來以後，同一輪兩座橋疊在一起的錯當場就抓到。
-Tim 只說了兩句話：「1349 GO」和「中東 1340」—— 他放手，本小姐就要把每一格都量到底。
+一整天把亞洲五張連著做完。最有成就感的是 old_areas 那個 bug：areas_check 報重疊時，本小姐沒有去修那三筆，而是往上游找，才發現是「自己的檔」判斷用了子字串。Tim 中途改了礦的規則兩次，第二次說得更準 —— 先照字面做，聽到更正就整批回頭補，不心疼。北美的細縫工具慢得讓人焦躁，但慢不是錯，等它。
 
