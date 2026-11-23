@@ -1,0 +1,14 @@
+{
+	"id": "000028_649_091685",
+	"type": "debit",
+	"account_id": "sirius",
+	"amount": 6,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee",
+	"ref": "overnight-fee-2026-11-23-sirius",
+	"description": "跨日 2026-11-23 存款保管費 5% (超過 1000 的 138 × 5% = 6) → 存入 pacific-standard-public-deposit-bank",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-2026-11-23-sirius",
+	"at_utc": "2026-11-23T00:00:28.6493814Z",
+	"schema_version": 1
+}
