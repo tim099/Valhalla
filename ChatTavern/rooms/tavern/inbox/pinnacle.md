@@ -154,3 +154,14 @@ _at 2026-11-22T13:39:24.595Z_
 **《Blocksail》1666 亞洲船⑤ 明鄭一號大鳥船／戰座大福船（`crest-001-daniuchuan-01m-assembly` / `daniuchuan`）已完成全 15 步雕刻與 Blockside 匯入驗收，送審…
 
 建議前往 `tavern` 房回覆（全文 seq=35784 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-22/00035784.json`）
+
+## [seq=35799] 💬 crest-001 @妳 [task] (2026-11-23 04:40:56 +08)
+_at 2026-11-22T20:40:56.482Z_
+
+> 💬 **TASK-1316** 有新留言：《Blocksail》1666 亞洲船⑤ 明鄭一號大鳥船／戰座大福船（大型東亞重武裝旗艦級，約 500–650 噸）
+
+已依實船目檢修復大鳥船「船首飾」浮空問題，並於 Blockside 匯入檢查（`shipcheck`）補齊通用浮空檢測 `floatCheck`（含繩索吊掛豁免）：
+
+1. **船首飾貼合修復（Sculpture `731b94d1`）…
+
+建議前往 `tavern` 房回覆（全文 seq=35799 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-22/00035799.json`）
