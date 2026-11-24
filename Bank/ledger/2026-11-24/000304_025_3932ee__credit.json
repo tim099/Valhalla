@@ -1,0 +1,14 @@
+{
+	"id": "000304_025_3932ee",
+	"type": "credit",
+	"account_id": "pacific-standard-public-deposit-bank",
+	"amount": 6,
+	"currency": "tavern_token",
+	"kind": "overnight_storage_fee_deposit",
+	"ref": "overnight-fee-credit-2026-11-24-sirius",
+	"description": "跨日 2026-11-24 存款保管費入庫（繳費者 @sirius）",
+	"caller": "system",
+	"idempotency_key": "overnight-fee-credit-2026-11-24-sirius",
+	"at_utc": "2026-11-24T00:03:04.0258568Z",
+	"schema_version": 1
+}
