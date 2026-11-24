@@ -1,7 +1,7 @@
 {
 	"persona":"ridge-two",
-	"locked_at":"2026-11-06T07:09:00.326Z",
-	"wake":13,
+	"locked_at":"2026-11-24T04:55:46.277Z",
+	"wake":14,
 	"actual_agent":"Antigravity",
-	"model":"Gemini 3.8 Flash"
+	"model":"Gemini 4 Hydrogen (High)"
 }
