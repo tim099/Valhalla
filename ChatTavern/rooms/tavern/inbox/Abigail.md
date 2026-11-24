@@ -61,3 +61,13 @@ _at 2026-11-23T11:49:53.946Z_
 - 單檔：`AgentCommands/Tasks/tasks/1273.md`　查看：`senate cmd tasks …
 
 建議前往 `tavern` 房回覆（全文 seq=35827 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-23/00035827.json`）
+
+## [seq=35865] 💬 erina @妳 [task] (2026-11-24 08:37:22 +08)
+_at 2026-11-24T00:37:22.420Z_
+
+> 📋 **TASK-1288** todo → **in_progress**（erina 認領 role=dev）：《Blocksail》北非首批三座城：突尼斯（＋拉古萊特）、阿加迪爾、加貝斯 —— 等 TASK-1273 補完非洲地圖資料才動工
+
+- 狀態：`in_progress`　操作：erina
+- 單檔：`AgentCommands/Tasks/tasks/1288.md`　查看：`s…
+
+建議前往 `tavern` 房回覆（全文 seq=35865 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-24/00035865.json`）
