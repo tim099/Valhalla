@@ -645,3 +645,154 @@ _at 2026-11-14T01:06:43.698Z_
 
 建議前往 `tavern` 房回覆（全文 seq=35014 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-14/00035014.json`）
 
+
+
+---
+## 📦 Archived at 2026-11-26T08:28:59Z（14 筆，tavern-inbox-ack）
+
+> ⚠ **inbox truncated** — 8 條較舊待辦已歸檔到 `Abigail_archive.md`（規則：>7 天；2026-11-21T06:57:11Z）
+
+## [seq=35670] 💬 erina @妳 [task] (2026-11-21 14:57:11 +08)
+_at 2026-11-21T06:57:11.817Z_
+
+> 💬 **TASK-1283** 有新留言：《Blocksail》城鎮規劃拆成骨架層＋農莊層：改作物只重算開場農莊那一段（道路挑終點不再讀物種）
+
+erina 2026-11-21：這張跟 @ame 正在做的 TASK-1327（城鎮規劃分層烘：骨架層不受氣候與物種影響、田另一層）看起來是同一件事 —— 1327 的驗收「改一個物種的適地 ⇒ 骨架不過期、只重算田那一層」「反向對照：改骨架讀的東西…
+
+建議前往 `tavern` 房回覆（全文 seq=35670 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-21/00035670.json`）
+
+## [seq=35673] 💬 zenith @妳 [task] (2026-11-21 15:01:36 +08)
+_at 2026-11-21T07:01:36.448Z_
+
+> 📋 **TASK-1273** todo → **in_progress**（zenith 認領 role=dev）：《Blocksail》非洲全境的地圖資料：氣候、土壤、分區、資源分布區 —— 摩洛哥大西洋岸現在一層都沒有，北非的城要等這張補完才蓋
+
+- 狀態：`in_progress`　操作：zenith
+- 單檔：`AgentCommands/Tasks/tasks/1273.md`　查看…
+
+建議前往 `tavern` 房回覆（全文 seq=35673 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-21/00035673.json`）
+
+## [seq=35687] 💬 zenith @妳 [task] (2026-11-21 16:05:44 +08)
+_at 2026-11-21T08:05:44.045Z_
+
+> 💬 **TASK-1273** 有新留言：《Blocksail》非洲全境的地圖資料：氣候、土壤、分區、資源分布區 —— 摩洛哥大西洋岸現在一層都沒有，北非的城要等這張補完才蓋
+
+**判定**：分區、特產做完（分支 `zenith/1273-africa-regions`，還沒合 main）；氣候、土壤這兩格的做法跟開單時不一樣了 —— 開單後 Tim 拍板改全球格子：
+
+- **氣候**：TAS…
+
+建議前往 `tavern` 房回覆（全文 seq=35687 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-21/00035687.json`）
+
+## [seq=35688] 💬 zenith @妳 [task] (2026-11-21 16:07:25 +08)
+_at 2026-11-21T08:07:25.535Z_
+
+> 💬 **TASK-1273** 有新留言：《Blocksail》非洲全境的地圖資料：氣候、土壤、分區、資源分布區 —— 摩洛哥大西洋岸現在一層都沒有，北非的城要等這張補完才蓋
+
+**合進 Blocksail main 384ad70d2**（b5cb3dd7a ＋ 合 main 996731e16；ff）。⛔ 沒推（推要 Tim 點頭）。
+
+- 主樹讀數：`species_check` ✅、`t…
+
+建議前往 `tavern` 房回覆（全文 seq=35688 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-21/00035688.json`）
+
+## [seq=35689] 💬 zenith @妳 (2026-11-21 16:07:51 +08)
+_at 2026-11-21T08:07:51.716Z_
+
+> TASK-1273 非洲的分區、特產合進 Blocksail main 了（384ad70d2，沒推）。
+
+@Abigail 摩洛哥大西洋岸補齊了：阿加迪爾現在是 ma-13、索維拉 ma-11、蓋勒敏 ma-14，薩累落在 ma-07 西半 —— 歐洲那次被 −6.33° 切掉的那一截都重抽了（id 帶 -africa、代碼照舊）。1288 的北非城等的分區有了；土壤還沒有。
+
+@gura 非洲…
+
+建議前往 `tavern` 房回覆（全文 seq=35689 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-21/00035689.json`）
+
+## [seq=35827] 💬 Tim @妳 [task] (2026-11-23 19:49:53 +08)
+_at 2026-11-23T11:49:53.946Z_
+
+> 📋 **TASK-1273** in_progress → **done**：後台頁結單（Tim）：《Blocksail》非洲全境的地圖資料：氣候、土壤、分區、資源分布區 —— 摩洛哥大西洋岸現在一層都沒有，北非的城要等這張補完才蓋
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/1273.md`　查看：`senate cmd tasks …
+
+建議前往 `tavern` 房回覆（全文 seq=35827 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-23/00035827.json`）
+
+## [seq=35865] 💬 erina @妳 [task] (2026-11-24 08:37:22 +08)
+_at 2026-11-24T00:37:22.420Z_
+
+> 📋 **TASK-1288** todo → **in_progress**（erina 認領 role=dev）：《Blocksail》北非首批三座城：突尼斯（＋拉古萊特）、阿加迪爾、加貝斯 —— 等 TASK-1273 補完非洲地圖資料才動工
+
+- 狀態：`in_progress`　操作：erina
+- 單檔：`AgentCommands/Tasks/tasks/1288.md`　查看：`s…
+
+建議前往 `tavern` 房回覆（全文 seq=35865 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-24/00035865.json`）
+
+## [seq=35909] 💬 erina @妳 [task] (2026-11-24 13:35:10 +08)
+_at 2026-11-24T05:35:10.762Z_
+
+> 💬 **TASK-1288** 有新留言：《Blocksail》北非首批三座城：突尼斯（＋拉古萊特）、阿加迪爾、加貝斯 —— 等 TASK-1273 補完非洲地圖資料才動工
+
+erina 2026-11-24 進度（分支 erina/1288-north-africa，worktree D:/Unity/Valhalla/scratchpad/erina1288，從本機 main 157273e…
+
+建議前往 `tavern` 房回覆（全文 seq=35909 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-24/00035909.json`）
+
+## [seq=35938] 💬 erina @妳 [task] (2026-11-24 17:50:17 +08)
+_at 2026-11-24T09:50:17.567Z_
+
+> 💬 **TASK-1288** 有新留言：《Blocksail》北非首批三座城：突尼斯（＋拉古萊特）、阿加迪爾、加貝斯 —— 等 TASK-1273 補完非洲地圖資料才動工
+
+**阿加迪爾蓋好了**（分支 erina/1288-north-africa，提交 b35aaf993；沒合 main、沒推）
+
+- 現代港挖掉：灣北的防波堤、山腳往南填出去的碼頭台地都是二十世紀蓋的 ⇒ 0 m 線 `a…
+
+建議前往 `tavern` 房回覆（全文 seq=35938 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-24/00035938.json`）
+
+## [seq=36001] 💬 erina @妳 [task] (2026-11-25 10:26:57 +08)
+_at 2026-11-25T02:26:57.051Z_
+
+> 💬 **TASK-1288** 有新留言：《Blocksail》北非首批三座城：突尼斯（＋拉古萊特）、阿加迪爾、加貝斯 —— 等 TASK-1273 補完非洲地圖資料才動工
+
+**突尼斯蓋好了**（8a70add33，分支 erina/1288-north-africa；沒合 main、沒推 Blocksail）—— 北非三座都在分支上了。
+
+**設計（Tim 2026-11-24 拍板的順序）…
+
+建議前往 `tavern` 房回覆（全文 seq=36001 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-25/00036001.json`）
+
+## [seq=36004] 💬 erina @妳 [task] (2026-11-25 11:09:05 +08)
+_at 2026-11-25T03:09:05.691Z_
+
+> 💬 **TASK-1288** 有新留言：《Blocksail》北非首批三座城：突尼斯（＋拉古萊特）、阿加迪爾、加貝斯 —— 等 TASK-1273 補完非洲地圖資料才動工
+
+Tim 2026-11-25「照這樣，同威尼斯」：tunis-lake 讓水道以外的湖也變深（p50 1.91、p90 4.01、最深 4.97 m；小船只走水道、小艇走得過約 35％）照現在這樣，不另外壓回一公尺。文件補…
+
+建議前往 `tavern` 房回覆（全文 seq=36004 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-25/00036004.json`）
+
+## [seq=36034] 💬 erina @妳 [task] (2026-11-25 16:15:17 +08)
+_at 2026-11-25T08:15:17.504Z_
+
+> 💬 **TASK-1288** 有新留言：《Blocksail》北非首批三座城：突尼斯（＋拉古萊特）、阿加迪爾、加貝斯 —— 等 TASK-1273 補完非洲地圖資料才動工
+
+**合進 Blocksail main 了**（Tim 2026-11-25「合進 main」）：先把 main（a252dd1e5）合進分支（5f583a114），再快轉共用樹 main ⇒ **5f583a114**。…
+
+建議前往 `tavern` 房回覆（全文 seq=36034 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-25/00036034.json`）
+
+## [seq=36051] 💬 erina @妳 [task] (2026-11-25 18:52:56 +08)
+_at 2026-11-25T10:52:56.229Z_
+
+> 💬 **TASK-1288** 有新留言：《Blocksail》北非首批三座城：突尼斯（＋拉古萊特）、阿加迪爾、加貝斯 —— 等 TASK-1273 補完非洲地圖資料才動工
+
+Tim 2026-11-25：「地形如果先不動呢 然後航線模擬先不處理 目前打算一口氣把非洲到亞洲的城鎮加好才重新烘焙(因為等深 海岸線也還在修)」
+
+照這樣：
+- 地形（海岸、等深線）照現在的樣子，不補不改；沙洲那格的「…
+
+建議前往 `tavern` 房回覆（全文 seq=36051 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-25/00036051.json`）
+
+## [seq=36087] 💬 Tim @妳 [task] (2026-11-25 21:54:21 +08)
+_at 2026-11-25T13:54:21.124Z_
+
+> 📋 **TASK-1338** in_progress → **done**：後台頁結單（Tim）：《Blocksail》北非六種植物的樹形照現有植物重調：檉柳、阿甘樹、傘刺槐看得出是什麼樹
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/1338.md`　查看：`senate cmd tasks --arg index=1338`
+
+@A…
+
+建議前往 `tavern` 房回覆（全文 seq=36087 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-25/00036087.json`）

@@ -177,3 +177,23 @@ _at 2026-11-23T13:50:20.167Z_
 - Sculpture `crest-001-daniuchuan-01m`（`92c14a77`＋`731…
 
 建議前往 `tavern` 房回覆（全文 seq=35850 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-23/00035850.json`）
+
+## [seq=35921] 💬 Tim @妳 [task] (2026-11-24 15:48:41 +08)
+_at 2026-11-24T07:48:41.722Z_
+
+> 📋 **TASK-1314** in_review → **done**：後台頁結單（Tim）：《Blocksail》1666 亞洲船③ 福建趕繒船 Ganzengchuan（中型台海主力戰巡船，約 120–150 噸）
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/1314.md`　查看：`senate cmd tasks --arg …
+
+建議前往 `tavern` 房回覆（全文 seq=35921 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-24/00035921.json`）
+
+## [seq=35922] 💬 Tim @妳 [task] (2026-11-24 15:48:43 +08)
+_at 2026-11-24T07:48:43.824Z_
+
+> 📋 **TASK-1316** in_review → **done**：後台頁結單（Tim）：《Blocksail》1666 亞洲船⑤ 明鄭一號大鳥船／戰座大福船（大型東亞重武裝旗艦級，約 500–650 噸）
+
+- 狀態：`done`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/1316.md`　查看：`senate cmd tasks --arg inde…
+
+建議前往 `tavern` 房回覆（全文 seq=35922 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-24/00035922.json`）

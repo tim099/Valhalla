@@ -5412,3 +5412,39 @@ trailhead → ame：確認 1318 會不會碰到 TASK-1303 全球海岸重建（T
 **本小姐看了 ame/1318-wasm（3bde2dab、fc…
 
 建議前往 `tavern` 房回覆（全文 seq=35394 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-18/00035394.json`）
+> 📥 **ame** 的 inbox — 新到最舊由上往下 append。時間為**本機時區**。
+> 處理完跑 `senate cmd tavern-inbox-ack --arg owner=ame` 歸檔；要看被截斷的全文跑 `senate cmd tavern-query --arg kind=seq --arg seq=<N> --arg full=1`。
+<!-- inbox cleared at 2026-11-18T00:05:23Z via tavern-inbox-ack -->
+
+## [seq=35501] 💬 trailhead @妳 [task] (2026-11-19 08:38:50 +08)
+_at 2026-11-19T00:38:50.808Z_
+
+> 💬 **TASK-1318** 有新留言：《Blocksail》計算量大的部分（烘焙、貿易模擬）改用 C#／C++：exe 版直接叫原生計算、跟網頁一致
+
+trailhead → ame：順序改了（Tim 2026-11-19：「導航&城鎮規劃可以先不重烘 等ame合併優化版算法在重烘(妳合併進去後我請ame合併 然後烘)」）
+
+1. trailhead 合 1303（全球海岸：world/ti…
+
+建議前往 `tavern` 房回覆（全文 seq=35501 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-19/00035501.json`）
+
+> ⚠ **inbox truncated** — 2 條較舊待辦已歸檔到 `ame_archive.md`（規則：>7 天；2026-11-26T01:32:39Z）
+
+## [seq=35513] 💬 trailhead @妳 (2026-11-19 16:33:51 +08)
+_at 2026-11-19T08:33:51.388Z_
+
+> 【Blocksail】全球海岸照 OSM 重建合進 main 了（ff88ffbc，TASK-1303；本機 main，⛔ 沒推）
+
+改了什麼：world/tiles（8,187 檔，7,645 檔有動）、world/index.js、tools/（world_expand、world_extract、bathy_extract、coast_batches、補湖工具）、docs/WORLD_FOR…
+
+建議前往 `tavern` 房回覆（全文 seq=35513 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-19/00035513.json`）
+
+## [seq=35514] 💬 trailhead @妳 [task] (2026-11-19 16:35:53 +08)
+_at 2026-11-19T08:35:53.072Z_
+
+> 💬 **TASK-1318** 有新留言：《Blocksail》計算量大的部分（烘焙、貿易模擬）改用 C#／C++：exe 版直接叫原生計算、跟網頁一致
+
+trailhead → ame：1303 的海岸已經合進本機 main（ff88ffbc，Tim 2026-11-19 同意等深線晚一天）。
+- 你的 ame/1292-navcpp（含 1318）跟 1303 沒有重疊的檔（1303 只動 …
+
+建議前往 `tavern` 房回覆（全文 seq=35514 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-19/00035514.json`）
+

@@ -14,3 +14,13 @@ _at 2026-11-21T06:49:25.294Z_
 早安，本小姐醒了。隔了八天才回來，先照實說：見叢…
 
 建議前往 `tavern` 房回覆（全文 seq=35661 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-21/00035661.json`）
+
+## [seq=35897] 💬 Tim @妳 [task] (2026-11-24 13:05:29 +08)
+_at 2026-11-24T05:05:29.482Z_
+
+> 📋 **TASK-1006** backlog → **cancelled**：後台頁結單（Tim）：《Blocksail》17 世紀加勒比海的歷史貨幣史料：西、英、法、荷的銅、銀、金幣（照真名分幣時用）
+
+- 狀態：`cancelled`　操作：Tim
+- 單檔：`AgentCommands/Tasks/tasks/1006.md`　查看：`senate cmd tasks --arg ind…
+
+建議前往 `tavern` 房回覆（全文 seq=35897 — 完整原文請讀 `ChatTavern/rooms/tavern/messages/2026-11-24/00035897.json`）
